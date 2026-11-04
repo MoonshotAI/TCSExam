@@ -1,0 +1,48 @@
+{
+  "author": {
+    "email": "mail@substack.net",
+    "name": "James Halliday",
+    "url": "http://substack.net"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dev": true,
+    "integrity": "sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz",
+    "version": "1.0.1"
+  },
+  "lock_path": "node_modules/commondir",
+  "name": "commondir",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1109,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "8bb16db1b047019e4395965f2cf3611b06c34bf86dc2d0210b3c3f91b53c21fe",
+      "text_file": "image-notices/8bb16db1b047019e4395965f2cf3611b06c34bf86dc2d0210b3c3f91b53c21fe.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 2267,
+    "installed_in_image": false,
+    "integrity": "sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "5b89851be4f799923e48320a13165883d2ffcb8cd4ec71023263255497c251b0"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.0.1"
+}

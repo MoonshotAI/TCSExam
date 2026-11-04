@@ -1,0 +1,200 @@
+{
+ "baseline": {
+  "budget_max_iters": 10000000,
+  "note": "iteration-budget deterministic; B is a pinned constant, machine-independent",
+  "seed": 12345,
+  "solver": "CPSolver ITC 2007 (Track 3 winner), vendored"
+ },
+ "instances": {
+  "comp01.ctt": {
+   "B": 5,
+   "K": 5,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 40.73,
+   "k_contributor": "ANMAR ABUHAMDAH and MASRI AYOB",
+   "lb": 5,
+   "proven_optimal": true
+  },
+  "comp02.ctt": {
+   "B": 66,
+   "K": 24,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 79.61,
+   "k_contributor": "Barcelogic Team",
+   "lb": 24,
+   "proven_optimal": true
+  },
+  "comp03.ctt": {
+   "B": 84,
+   "K": 64,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 67.33,
+   "k_contributor": "Alexander Kiefer",
+   "lb": 58,
+   "proven_optimal": false
+  },
+  "comp04.ctt": {
+   "B": 35,
+   "K": 35,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 53.51,
+   "k_contributor": "Antony Phillips",
+   "lb": 35,
+   "proven_optimal": true
+  },
+  "comp05.ctt": {
+   "B": 352,
+   "K": 283,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 102.38,
+   "k_contributor": "Luciano Rigolin de Almeida",
+   "lb": 247,
+   "proven_optimal": false
+  },
+  "comp06.ctt": {
+   "B": 44,
+   "K": 27,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 64.64,
+   "k_contributor": "Barcelogic Team",
+   "lb": 27,
+   "proven_optimal": true
+  },
+  "comp07.ctt": {
+   "B": 23,
+   "K": 6,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 67.62,
+   "k_contributor": "Barcelogic Team",
+   "lb": 6,
+   "proven_optimal": true
+  },
+  "comp08.ctt": {
+   "B": 47,
+   "K": 37,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 52.27,
+   "k_contributor": "S. Abdullah and H. Turabieh",
+   "lb": 37,
+   "proven_optimal": true
+  },
+  "comp09.ctt": {
+   "B": 105,
+   "K": 96,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 52.82,
+   "k_contributor": "lu and hao",
+   "lb": 96,
+   "proven_optimal": true
+  },
+  "comp10.ctt": {
+   "B": 29,
+   "K": 4,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 61.14,
+   "k_contributor": "Mutsunori Banbara",
+   "lb": 4,
+   "proven_optimal": true
+  },
+  "comp11.ctt": {
+   "B": 0,
+   "K": 0,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 42.53,
+   "k_contributor": "ANMAR ABUHAMDAH and MASRI AYOB",
+   "lb": 0,
+   "proven_optimal": true
+  },
+  "comp12.ctt": {
+   "B": 363,
+   "K": 289,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 86.38,
+   "k_contributor": "Andrea Schaerf",
+   "lb": 248,
+   "proven_optimal": false
+  },
+  "comp13.ctt": {
+   "B": 81,
+   "K": 59,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 52.94,
+   "k_contributor": "lu and hao",
+   "lb": 59,
+   "proven_optimal": true
+  },
+  "comp14.ctt": {
+   "B": 67,
+   "K": 51,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 52.27,
+   "k_contributor": "Gerald Lach",
+   "lb": 51,
+   "proven_optimal": true
+  },
+  "comp15.ctt": {
+   "B": 84,
+   "K": 62,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 64.24,
+   "k_contributor": "Alexander Kiefer",
+   "lb": 58,
+   "proven_optimal": false
+  },
+  "comp16.ctt": {
+   "B": 44,
+   "K": 18,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 59.75,
+   "k_contributor": "Barcelogic Team",
+   "lb": 18,
+   "proven_optimal": true
+  },
+  "comp17.ctt": {
+   "B": 88,
+   "K": 56,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 57.11,
+   "k_contributor": "Barcelogic Team",
+   "lb": 56,
+   "proven_optimal": true
+  },
+  "comp18.ctt": {
+   "B": 98,
+   "K": 61,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 58.56,
+   "k_contributor": "Alexander Kiefer",
+   "lb": 61,
+   "proven_optimal": true
+  },
+  "comp19.ctt": {
+   "B": 72,
+   "K": 57,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 66.31,
+   "k_contributor": "Antony Phillips",
+   "lb": 57,
+   "proven_optimal": true
+  },
+  "comp20.ctt": {
+   "B": 26,
+   "K": 4,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 79.73,
+   "k_contributor": "Barcelogic Team",
+   "lb": 4,
+   "proven_optimal": true
+  },
+  "comp21.ctt": {
+   "B": 103,
+   "K": 74,
+   "b_source": "Shipped baseline values on original instances (deterministic 10M iterations, seed 12345, machine-independent; measured on the original task in 2026-08 and archived at tests/calibration/baseline_probe_10000000.tsv). Two batches on 260912 reconfirmed the same values for 13 keys, archived as B_original_instance (baseline_seconds records each key's time in that run). On 2026-09-13 the final judged set reverted to the official original instances (added in next-steps-260911.md §E2), so anchors reverted to the same instance convention; B on transformed instances is in the async package's tests/reference-transformed.json. After switching from a shared pool to 240 s per instance on 260917, a sandbox retest with the judge-v13 pipeline (isolated execution environment isolated-cpu, one shard at 1C/8G, hard limit 240 s per instance) found A==B for all 21 shipped-baseline keys, all within the time limit (maximum 59.01 s). B was unchanged (see the pool-retirement section of PROVENANCE).",
+   "baseline_seconds_on_calibration_machine": 85.01,
+   "k_contributor": "Antony Phillips",
+   "lb": 74,
+   "proven_optimal": true
+  }
+ },
+ "k_source": "OptHub (opthub.uniud.it) best-known solution files, each re-validated with the official ITC 2007 Track 3 validator (0 hard violations, cost == K)"
+}

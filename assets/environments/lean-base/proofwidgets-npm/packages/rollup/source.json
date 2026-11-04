@@ -1,0 +1,82 @@
+{
+  "author": "Rich Harris",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "bin": {
+      "rollup": "dist/bin/rollup"
+    },
+    "dependencies": {
+      "@types/estree": "1.0.8"
+    },
+    "dev": true,
+    "engines": {
+      "node": ">=18.0.0",
+      "npm": ">=8.0.0"
+    },
+    "integrity": "sha512-2oMpl67a3zCH9H79LeMcbDhXW/UmWG/y2zuqnF2jQq5uq9TbM9TVyXvA4+t+ne2IIkBdrLpAaRQAvo7YI/Yyeg==",
+    "license": "MIT",
+    "optionalDependencies": {
+      "@rollup/rollup-android-arm-eabi": "4.59.0",
+      "@rollup/rollup-android-arm64": "4.59.0",
+      "@rollup/rollup-darwin-arm64": "4.59.0",
+      "@rollup/rollup-darwin-x64": "4.59.0",
+      "@rollup/rollup-freebsd-arm64": "4.59.0",
+      "@rollup/rollup-freebsd-x64": "4.59.0",
+      "@rollup/rollup-linux-arm-gnueabihf": "4.59.0",
+      "@rollup/rollup-linux-arm-musleabihf": "4.59.0",
+      "@rollup/rollup-linux-arm64-gnu": "4.59.0",
+      "@rollup/rollup-linux-arm64-musl": "4.59.0",
+      "@rollup/rollup-linux-loong64-gnu": "4.59.0",
+      "@rollup/rollup-linux-loong64-musl": "4.59.0",
+      "@rollup/rollup-linux-ppc64-gnu": "4.59.0",
+      "@rollup/rollup-linux-ppc64-musl": "4.59.0",
+      "@rollup/rollup-linux-riscv64-gnu": "4.59.0",
+      "@rollup/rollup-linux-riscv64-musl": "4.59.0",
+      "@rollup/rollup-linux-s390x-gnu": "4.59.0",
+      "@rollup/rollup-linux-x64-gnu": "4.59.0",
+      "@rollup/rollup-linux-x64-musl": "4.59.0",
+      "@rollup/rollup-openbsd-x64": "4.59.0",
+      "@rollup/rollup-openharmony-arm64": "4.59.0",
+      "@rollup/rollup-win32-arm64-msvc": "4.59.0",
+      "@rollup/rollup-win32-ia32-msvc": "4.59.0",
+      "@rollup/rollup-win32-x64-gnu": "4.59.0",
+      "@rollup/rollup-win32-x64-msvc": "4.59.0",
+      "fsevents": "~2.3.2"
+    },
+    "resolved": "https://registry.npmjs.org/rollup/-/rollup-4.59.0.tgz",
+    "version": "4.59.0"
+  },
+  "lock_path": "node_modules/rollup",
+  "name": "rollup",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 35231,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8",
+      "text_file": "image-notices/fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 559486,
+    "installed_in_image": false,
+    "integrity": "sha512-2oMpl67a3zCH9H79LeMcbDhXW/UmWG/y2zuqnF2jQq5uq9TbM9TVyXvA4+t+ne2IIkBdrLpAaRQAvo7YI/Yyeg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/rollup/-/rollup-4.59.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "219f4b5e57aa37029a6070c3f07746fb6feeb3459ba6ddc95e59248e79d94d56"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.59.0"
+}

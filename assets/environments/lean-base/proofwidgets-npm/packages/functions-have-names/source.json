@@ -1,0 +1,46 @@
+{
+  "author": "Jordan Harband <ljharb@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "integrity": "sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/functions-have-names/-/functions-have-names-1.2.3.tgz",
+    "version": "1.2.3"
+  },
+  "lock_path": "node_modules/functions-have-names",
+  "name": "functions-have-names",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1071,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "cfc3f455254c0af0655cc3ff46a41ed644b67599f6043346169d285bf2b3cf3b",
+      "text_file": "image-notices/cfc3f455254c0af0655cc3ff46a41ed644b67599f6043346169d285bf2b3cf3b.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 6003,
+    "installed_in_image": false,
+    "integrity": "sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/functions-have-names/-/functions-have-names-1.2.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "3be0c99c006f7c53093e3f6a56a1128f1a72fec3b041ec585a4175b809fab1dc"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.2.3"
+}

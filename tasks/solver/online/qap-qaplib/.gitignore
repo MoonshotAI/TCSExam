@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# Confidential: the complete permutation table is kept outside this repository (historical records are not included in this package); never add it to git or the scoring image.
+transform_manifest.json

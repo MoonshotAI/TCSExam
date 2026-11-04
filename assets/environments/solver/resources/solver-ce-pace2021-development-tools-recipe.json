@@ -1,0 +1,26 @@
+{
+  "description": "Download the official PACE 2021 Cluster Editing verifier, build it in a pinned Ubuntu 22.04 Docker toolchain, and install ce_verify. No prebuilt verifier image is supplied.",
+  "source": {
+    "id": "ce-pace2021-verifier-zip",
+    "url": "https://pacechallenge.org/2021/verifier.zip",
+    "bytes": 3521,
+    "sha256": "7d3a3483cab300dea9426e4d66755c9c417b6c5cc6d7e945631d8568354f9120"
+  },
+  "archive_format": "zip",
+  "build": {
+    "builder_image": "ubuntu:22.04@sha256:0a9887931b0e38af2e3487ed39e29436b0535c4f3f52e57745baaf79d1898956",
+    "command": [
+      "make",
+      "all"
+    ],
+    "cwd": "opt/ce/verifier",
+    "artifact": "verifier",
+    "install": "usr/local/bin/ce_verify",
+    "timeout_sec": 120
+  },
+  "build_requirements": {
+    "build_tool": "GNU make",
+    "verified_compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+    "note": "The compiled output SHA256 is pinned; a different toolchain must be reviewed and its output hashes updated rather than accepted silently."
+  }
+}

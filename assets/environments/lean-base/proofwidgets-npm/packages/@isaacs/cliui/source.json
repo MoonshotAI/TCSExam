@@ -1,0 +1,58 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BlueOak-1.0.0",
+  "lock_entry": {
+    "dev": true,
+    "engines": {
+      "node": ">=18"
+    },
+    "integrity": "sha512-AokJm4tuBHillT+FpMtxQ60n8ObyXBatq7jD2/JA9dxbDDokKQm8KMht5ibGzLVU9IJDIKK4TPKgMHEYMn3lMg==",
+    "license": "BlueOak-1.0.0",
+    "resolved": "https://registry.npmjs.org/@isaacs/cliui/-/cliui-9.0.0.tgz",
+    "version": "9.0.0"
+  },
+  "lock_path": "node_modules/@isaacs/cliui",
+  "name": "@isaacs/cliui",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1779,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "c58416e852f7603cc1c7c5f7582e8cc7b1934d7bcb5456d64ada379d6770da45",
+      "text_file": "image-notices/c58416e852f7603cc1c7c5f7582e8cc7b1934d7bcb5456d64ada379d6770da45.txt"
+    }
+  ],
+  "package_license": "BlueOak-1.0.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 109508,
+    "installed_in_image": false,
+    "integrity": "sha512-AokJm4tuBHillT+FpMtxQ60n8ObyXBatq7jD2/JA9dxbDDokKQm8KMht5ibGzLVU9IJDIKK4TPKgMHEYMn3lMg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@isaacs/cliui/-/cliui-9.0.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "5b73422eadcd1784bad03303830ee818c22deb64d21b925f767b5161e514ed77"
+  },
+  "standard_license_text": null,
+  "vendored_review": {
+    "archive_sha256": "5b73422eadcd1784bad03303830ee818c22deb64d21b925f767b5161e514ed77",
+    "archive_gitHead": "b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0",
+    "module_count": 7,
+    "all_modules_mapped": true,
+    "mapping_file": "vendored-modules.json",
+    "root_license_scope": "The root BlueOak license covers everything else; each vendored module retains its own license as required by the root LICENSE.md.",
+    "reused_original_notice_count": 6,
+    "supplemental_fixed_cliui_source_notice_count": 1
+  },
+  "vendored_modules_file": "vendored-modules.json",
+  "supplementary_project_notice": null,
+  "version": "9.0.0"
+}

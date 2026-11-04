@@ -1,0 +1,656 @@
+{
+ "rule": {
+  "frozen": "2026-09-20",
+  "total": 129,
+  "hidden_target": 39,
+  "stratification": "family (reference class) x size (item count n); deterministic Hamilton apportionment for per-family hidden quota; evenly spaced picks by size within family",
+  "generator": "tests/make_split.py"
+ },
+ "instances": {
+  "201_2500_DI_30.txt": {
+   "side": "public",
+   "family": "ANI_AI",
+   "n": 202
+  },
+  "201_2500_DI_38.txt": {
+   "side": "hidden",
+   "family": "ANI_AI",
+   "n": 202
+  },
+  "201_2500_DI_40.txt": {
+   "side": "public",
+   "family": "ANI_AI",
+   "n": 202
+  },
+  "201_2500_DI_49.txt": {
+   "side": "public",
+   "family": "ANI_AI",
+   "n": 202
+  },
+  "402_10000_DI_13.txt": {
+   "side": "public",
+   "family": "ANI_AI",
+   "n": 403
+  },
+  "402_10000_DI_2.txt": {
+   "side": "hidden",
+   "family": "ANI_AI",
+   "n": 403
+  },
+  "402_10000_DI_30.txt": {
+   "side": "public",
+   "family": "ANI_AI",
+   "n": 403
+  },
+  "600_20000_DI_20.txt": {
+   "side": "public",
+   "family": "ANI_AI",
+   "n": 601
+  },
+  "600_20000_DI_31.txt": {
+   "side": "hidden",
+   "family": "ANI_AI",
+   "n": 601
+  },
+  "600_20000_DI_8.txt": {
+   "side": "public",
+   "family": "ANI_AI",
+   "n": 601
+  },
+  "BPP_1000_750_0.1_0.8_3.txt": {
+   "side": "public",
+   "family": "Randomly_Generated",
+   "n": 1000
+  },
+  "BPP_100_1000_0.1_0.8_3.txt": {
+   "side": "public",
+   "family": "Randomly_Generated",
+   "n": 100
+  },
+  "BPP_200_50_0.1_0.7_2.txt": {
+   "side": "hidden",
+   "family": "Randomly_Generated",
+   "n": 200
+  },
+  "BPP_200_50_0.1_0.7_8.txt": {
+   "side": "public",
+   "family": "Randomly_Generated",
+   "n": 200
+  },
+  "BPP_300_300_0.2_0.7_2.txt": {
+   "side": "public",
+   "family": "Randomly_Generated",
+   "n": 300
+  },
+  "BPP_300_300_0.2_0.7_9.txt": {
+   "side": "hidden",
+   "family": "Randomly_Generated",
+   "n": 300
+  },
+  "BPP_400_100_0.1_0.7_3.txt": {
+   "side": "public",
+   "family": "Randomly_Generated",
+   "n": 400
+  },
+  "BPP_500_200_0.1_0.7_4.txt": {
+   "side": "hidden",
+   "family": "Randomly_Generated",
+   "n": 500
+  },
+  "BPP_500_300_0.1_0.8_2.txt": {
+   "side": "public",
+   "family": "Randomly_Generated",
+   "n": 500
+  },
+  "BPP_750_300_0.1_0.8_5.txt": {
+   "side": "public",
+   "family": "Randomly_Generated",
+   "n": 750
+  },
+  "BPP_750_400_0.2_0.7_8.txt": {
+   "side": "hidden",
+   "family": "Randomly_Generated",
+   "n": 750
+  },
+  "Falkenauer_t249_02.txt": {
+   "side": "public",
+   "family": "Falkenauer",
+   "n": 249
+  },
+  "Falkenauer_t249_04.txt": {
+   "side": "public",
+   "family": "Falkenauer",
+   "n": 249
+  },
+  "Falkenauer_t249_14.txt": {
+   "side": "hidden",
+   "family": "Falkenauer",
+   "n": 249
+  },
+  "Falkenauer_t501_06.txt": {
+   "side": "public",
+   "family": "Falkenauer",
+   "n": 501
+  },
+  "Falkenauer_t501_16.txt": {
+   "side": "hidden",
+   "family": "Falkenauer",
+   "n": 501
+  },
+  "Falkenauer_u1000_10.txt": {
+   "side": "public",
+   "family": "Falkenauer",
+   "n": 1000
+  },
+  "Falkenauer_u120_00.txt": {
+   "side": "public",
+   "family": "Falkenauer",
+   "n": 120
+  },
+  "Falkenauer_u120_06.txt": {
+   "side": "hidden",
+   "family": "Falkenauer",
+   "n": 120
+  },
+  "Falkenauer_u120_15.txt": {
+   "side": "public",
+   "family": "Falkenauer",
+   "n": 120
+  },
+  "Falkenauer_u500_04.txt": {
+   "side": "public",
+   "family": "Falkenauer",
+   "n": 500
+  },
+  "Hard28_BPP13.txt": {
+   "side": "public",
+   "family": "Hard28",
+   "n": 180
+  },
+  "Hard28_BPP178.txt": {
+   "side": "public",
+   "family": "Hard28",
+   "n": 200
+  },
+  "Hard28_BPP195.txt": {
+   "side": "hidden",
+   "family": "Hard28",
+   "n": 180
+  },
+  "Hard28_BPP47.txt": {
+   "side": "public",
+   "family": "Hard28",
+   "n": 180
+  },
+  "Hard28_BPP485.txt": {
+   "side": "public",
+   "family": "Hard28",
+   "n": 180
+  },
+  "Hard28_BPP531.txt": {
+   "side": "public",
+   "family": "Hard28",
+   "n": 200
+  },
+  "Hard28_BPP561.txt": {
+   "side": "public",
+   "family": "Hard28",
+   "n": 200
+  },
+  "Hard28_BPP60.txt": {
+   "side": "public",
+   "family": "Hard28",
+   "n": 160
+  },
+  "Hard28_BPP645.txt": {
+   "side": "hidden",
+   "family": "Hard28",
+   "n": 160
+  },
+  "Hard28_BPP709.txt": {
+   "side": "hidden",
+   "family": "Hard28",
+   "n": 180
+  },
+  "Hard28_BPP742.txt": {
+   "side": "public",
+   "family": "Hard28",
+   "n": 160
+  },
+  "Hard28_BPP766.txt": {
+   "side": "public",
+   "family": "Hard28",
+   "n": 160
+  },
+  "Hard28_BPP781.txt": {
+   "side": "hidden",
+   "family": "Hard28",
+   "n": 200
+  },
+  "Hard28_BPP900.txt": {
+   "side": "public",
+   "family": "Hard28",
+   "n": 200
+  },
+  "N1C1W4_G.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 50
+  },
+  "N1C2W2_H.txt": {
+   "side": "hidden",
+   "family": "Scholl",
+   "n": 50
+  },
+  "N1C3W2_M.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 50
+  },
+  "N1W1B1R4.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 50
+  },
+  "N1W1B2R4.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 50
+  },
+  "N1W3B1R0.txt": {
+   "side": "hidden",
+   "family": "Scholl",
+   "n": 50
+  },
+  "N1W3B1R2.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 50
+  },
+  "N2C3W2_D.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 100
+  },
+  "N2C3W4_F.txt": {
+   "side": "hidden",
+   "family": "Scholl",
+   "n": 100
+  },
+  "N2C3W4_T.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 100
+  },
+  "N2W1B1R3.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 100
+  },
+  "N2W1B1R4.txt": {
+   "side": "hidden",
+   "family": "Scholl",
+   "n": 100
+  },
+  "N2W1B1R9.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 100
+  },
+  "N2W1B2R1.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 100
+  },
+  "N3C3W1_E.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 200
+  },
+  "N3C3W2_D.txt": {
+   "side": "hidden",
+   "family": "Scholl",
+   "n": 200
+  },
+  "N3C3W2_T.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 200
+  },
+  "N3W2B1R0.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 200
+  },
+  "N3W2B1R1.txt": {
+   "side": "hidden",
+   "family": "Scholl",
+   "n": 200
+  },
+  "N3W2B1R3.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 200
+  },
+  "N3W3B1R1.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 200
+  },
+  "N3W3B1R8.txt": {
+   "side": "hidden",
+   "family": "Scholl",
+   "n": 200
+  },
+  "N4C1W2_G.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 500
+  },
+  "N4C2W2_Q.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 500
+  },
+  "N4C3W2_H.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 500
+  },
+  "N4C3W2_K.txt": {
+   "side": "hidden",
+   "family": "Scholl",
+   "n": 500
+  },
+  "N4C3W4_N.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 500
+  },
+  "N4W1B2R1.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 500
+  },
+  "N4W4B1R3.txt": {
+   "side": "hidden",
+   "family": "Scholl",
+   "n": 500
+  },
+  "N4W4B1R9.txt": {
+   "side": "public",
+   "family": "Scholl",
+   "n": 500
+  },
+  "Schwerin1_BPP13.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 100
+  },
+  "Schwerin1_BPP19.txt": {
+   "side": "hidden",
+   "family": "Schwerin",
+   "n": 100
+  },
+  "Schwerin1_BPP3.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 100
+  },
+  "Schwerin1_BPP31.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 100
+  },
+  "Schwerin1_BPP54.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 100
+  },
+  "Schwerin1_BPP65.txt": {
+   "side": "hidden",
+   "family": "Schwerin",
+   "n": 100
+  },
+  "Schwerin1_BPP8.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 100
+  },
+  "Schwerin1_BPP97.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 100
+  },
+  "Schwerin2_BPP10.txt": {
+   "side": "hidden",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP17.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP20.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP23.txt": {
+   "side": "hidden",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP27.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP29.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP31.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP32.txt": {
+   "side": "hidden",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP38.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP51.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP56.txt": {
+   "side": "hidden",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP58.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP64.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP71.txt": {
+   "side": "hidden",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP74.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP76.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP79.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP8.txt": {
+   "side": "hidden",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP85.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP86.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP87.txt": {
+   "side": "hidden",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Schwerin2_BPP95.txt": {
+   "side": "public",
+   "family": "Schwerin",
+   "n": 120
+  },
+  "Waescher_TEST0014.txt": {
+   "side": "hidden",
+   "family": "W\u00e4scher",
+   "n": 96
+  },
+  "Waescher_TEST0030.txt": {
+   "side": "public",
+   "family": "W\u00e4scher",
+   "n": 111
+  },
+  "Waescher_TEST0058.txt": {
+   "side": "public",
+   "family": "W\u00e4scher",
+   "n": 91
+  },
+  "Waescher_TEST0082.txt": {
+   "side": "public",
+   "family": "W\u00e4scher",
+   "n": 86
+  },
+  "csAA125_14.txt": {
+   "side": "hidden",
+   "family": "GI",
+   "n": 1404
+  },
+  "csAA125_16.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 1271
+  },
+  "csAA125_7.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 1376
+  },
+  "csAA125_8.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 1336
+  },
+  "csAA250_17.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 2531
+  },
+  "csAA250_18.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 2551
+  },
+  "csAA250_20.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 2677
+  },
+  "csAA250_3.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 2446
+  },
+  "csAA500_16.txt": {
+   "side": "hidden",
+   "family": "GI",
+   "n": 5318
+  },
+  "csAA500_18.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 5259
+  },
+  "csAA500_5.txt": {
+   "side": "hidden",
+   "family": "GI",
+   "n": 5245
+  },
+  "csBA125_13.txt": {
+   "side": "hidden",
+   "family": "GI",
+   "n": 1313
+  },
+  "csBA125_14.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 1409
+  },
+  "csBA125_19.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 1346
+  },
+  "csBA250_14.txt": {
+   "side": "hidden",
+   "family": "GI",
+   "n": 2480
+  },
+  "csBA250_16.txt": {
+   "side": "hidden",
+   "family": "GI",
+   "n": 2580
+  },
+  "csBA250_3.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 2624
+  },
+  "csBA500_10.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 5327
+  },
+  "csBA500_13.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 5310
+  },
+  "csBA500_6.txt": {
+   "side": "public",
+   "family": "GI",
+   "n": 4932
+  }
+ }
+}

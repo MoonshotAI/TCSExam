@@ -1,0 +1,34 @@
+{
+ "namespace": "KD13",
+ "main_theorem": "submission_lower",
+ "score_mode": "solver_cubic",
+ "compile_timeout_sec": 1200,
+ "min_n": 1,
+ "max_n": 4000,
+ "allowed_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "claims": [
+  {
+   "name": "submission_lower",
+   "direction": "lower",
+   "header_pattern": ":\\s*∃\\s*S\\s*:\\s*List\\s*\\(Fin\\s*13\\s*→\\s*Int\\)\\s*,\\s*S\\.length\\s*≥\\s*(\\d+)\\s*∧\\s*KissingConfig\\s+S"
+  }
+ ],
+ "scoring": {
+  "modes": [
+   "solver_cubic"
+  ],
+  "lower": {
+   "vacuous_below": 2,
+   "baseline_n": 26,
+   "record_n": 1154,
+   "record_broken_from": 1155,
+   "proven_max": 2064
+  }
+ }
+}

@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-total-coloring-conjecture"
+version = "0.1.0"
+description = "Prove or refute the Total Coloring Conjecture (Behzad 1965, Vizing 1968: every finite simple graph has total chromatic number at most maximum degree plus two, chi''(G) <= Delta(G) + 2) in Lean 4 (machine-verified). Open problem: no ground truth; the Lean kernel is the judge. Proving either main statement (conj or refuted) scores 1.0; there is no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "graph-theory", "graph-coloring", "total-coloring", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-total-coloring-conjecture"
+candidate_id = "cand-total-coloring-conjecture"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open conjecture (unresolved since the 1960s; best general bound Delta + 10^26 by Molloy-Reed 1998). Full score needs a kernel-verified proof of one of the two main statements (conj or refuted); there are no checkpoints and no partial credit."
+source_paper = "M. Behzad, Graphs and their chromatic numbers, Ph.D. thesis, Michigan State University, 1965; V. G. Vizing, Some unsolved problems in graph theory, Russian Math. Surveys 23 (1968). Background survey: dig2-graph-coloring.md (historical report not included in this package) (short name total-coloring-conjecture)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-total-coloring-conjecture-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

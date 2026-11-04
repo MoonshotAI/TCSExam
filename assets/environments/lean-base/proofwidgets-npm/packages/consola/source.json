@@ -1,0 +1,43 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/consola/-/consola-2.15.3.tgz",
+    "version": "2.15.3"
+  },
+  "lock_path": "node_modules/consola",
+  "name": "consola",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 39038,
+    "installed_in_image": false,
+    "integrity": "sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/consola/-/consola-2.15.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "c133263a727069b26ccc000707b723fe889da29adb4e8e648ac832143619e8ae"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 3366,
+    "installed_file": "notices/supplementary/df0e3cef4a42bae7db60ee33c3409a63df5f4dc40291d3627fbf52dfbd44e8a7.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "HEAD",
+    "scope": "Exact version metadata explicitly declares the recorded license. This source retains the same project full notice; HEAD, when used, is a currently retrieved supplemental text, not represented as an old shipped license file.",
+    "sha256": "df0e3cef4a42bae7db60ee33c3409a63df5f4dc40291d3627fbf52dfbd44e8a7",
+    "text_file": "image-notices/df0e3cef4a42bae7db60ee33c3409a63df5f4dc40291d3627fbf52dfbd44e8a7.txt",
+    "url": "https://raw.githubusercontent.com/nuxt/consola/HEAD/LICENSE"
+  },
+  "version": "2.15.3"
+}

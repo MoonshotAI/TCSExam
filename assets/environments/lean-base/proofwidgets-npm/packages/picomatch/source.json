@@ -1,0 +1,50 @@
+{
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dev": true,
+    "engines": {
+      "node": ">=12"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/jonschlinkert"
+    },
+    "integrity": "sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz",
+    "version": "4.0.3"
+  },
+  "lock_path": "node_modules/picomatch",
+  "name": "picomatch",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1091,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "text_file": "image-notices/d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 22248,
+    "installed_in_image": false,
+    "integrity": "sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "ad6211fd159de67764a3bdce517497688eddf5da1fd1d68f3115f2013c108a9c"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.0.3"
+}

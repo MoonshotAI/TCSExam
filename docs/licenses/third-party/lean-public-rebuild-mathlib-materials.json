@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "checked": "2026-10-29",
+  "scope": "Pinned mathlib, Lake and browser dependency source and license inventory. License and corresponding-source requirements apply to any redistributed containing image.",
+  "complete": false,
+  "inventory_complete": true,
+  "release_ready": false,
+  "mathlib_commit": "5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3",
+  "lean_toolchain": "leanprover/lean4:v4.33.0-rc1",
+  "components": [
+    {
+      "name": "mathlib",
+      "repository": "https://github.com/leanprover-community/mathlib4",
+      "commit": "5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3",
+      "actual_candidate_head": "5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3",
+      "commit_url": "https://github.com/leanprover-community/mathlib4/commit/5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3",
+      "source_archive_url": "https://github.com/leanprover-community/mathlib4/archive/5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3.tar.gz",
+      "source_archive_http_status": 200,
+      "source_archive_content_independently_verified": false,
+      "license": {
+        "id": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/leanprover-community/mathlib4/5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3/LICENSE",
+        "http_status": 200,
+        "bytes": 11357,
+        "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+        "local_file": "mathlib-Apache-2.0.txt",
+        "local_content_matches_fixed_upstream": true
+      }
+    },
+    {
+      "name": "plausible",
+      "repository": "https://github.com/leanprover-community/plausible",
+      "commit": "b1c4a69a7e247ab7df20460212001673d74f08c0",
+      "actual_candidate_head": "b1c4a69a7e247ab7df20460212001673d74f08c0",
+      "commit_url": "https://github.com/leanprover-community/plausible/commit/b1c4a69a7e247ab7df20460212001673d74f08c0",
+      "source_archive_url": "https://github.com/leanprover-community/plausible/archive/b1c4a69a7e247ab7df20460212001673d74f08c0.tar.gz",
+      "source_archive_http_status": 200,
+      "source_archive_content_independently_verified": false,
+      "lake_inherited": false,
+      "license": {
+        "id": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/leanprover-community/plausible/b1c4a69a7e247ab7df20460212001673d74f08c0/LICENSE",
+        "http_status": 200,
+        "bytes": 11357,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "local_file": "plausible-LICENSE.txt",
+        "local_content_matches_fixed_upstream": true
+      }
+    },
+    {
+      "name": "LeanSearchClient",
+      "repository": "https://github.com/leanprover-community/LeanSearchClient",
+      "commit": "0498c7c070c143a3bf7379f4d99a2c63bb9d9715",
+      "actual_candidate_head": "0498c7c070c143a3bf7379f4d99a2c63bb9d9715",
+      "commit_url": "https://github.com/leanprover-community/LeanSearchClient/commit/0498c7c070c143a3bf7379f4d99a2c63bb9d9715",
+      "source_archive_url": "https://github.com/leanprover-community/LeanSearchClient/archive/0498c7c070c143a3bf7379f4d99a2c63bb9d9715.tar.gz",
+      "source_archive_http_status": 200,
+      "source_archive_content_independently_verified": false,
+      "lake_inherited": false,
+      "license": {
+        "id": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/leanprover-community/LeanSearchClient/0498c7c070c143a3bf7379f4d99a2c63bb9d9715/LICENSE",
+        "http_status": 200,
+        "bytes": 11357,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "local_file": "LeanSearchClient-LICENSE.txt",
+        "local_content_matches_fixed_upstream": true
+      }
+    },
+    {
+      "name": "importGraph",
+      "repository": "https://github.com/leanprover-community/import-graph",
+      "commit": "18a90119a5d316358fde6c86e0ca24e59212e32c",
+      "actual_candidate_head": "18a90119a5d316358fde6c86e0ca24e59212e32c",
+      "commit_url": "https://github.com/leanprover-community/import-graph/commit/18a90119a5d316358fde6c86e0ca24e59212e32c",
+      "source_archive_url": "https://github.com/leanprover-community/import-graph/archive/18a90119a5d316358fde6c86e0ca24e59212e32c.tar.gz",
+      "source_archive_http_status": 200,
+      "source_archive_content_independently_verified": false,
+      "lake_inherited": false,
+      "license": {
+        "id": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/leanprover-community/import-graph/18a90119a5d316358fde6c86e0ca24e59212e32c/LICENSE",
+        "http_status": 200,
+        "bytes": 11357,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "local_file": "importGraph-LICENSE.txt",
+        "local_content_matches_fixed_upstream": true
+      }
+    },
+    {
+      "name": "proofwidgets",
+      "repository": "https://github.com/leanprover-community/ProofWidgets4",
+      "commit": "b1436dc749e722c9920036b52cdc43b3451d0b69",
+      "actual_candidate_head": "b1436dc749e722c9920036b52cdc43b3451d0b69",
+      "commit_url": "https://github.com/leanprover-community/ProofWidgets4/commit/b1436dc749e722c9920036b52cdc43b3451d0b69",
+      "source_archive_url": "https://github.com/leanprover-community/ProofWidgets4/archive/b1436dc749e722c9920036b52cdc43b3451d0b69.tar.gz",
+      "source_archive_http_status": 200,
+      "source_archive_content_independently_verified": false,
+      "lake_inherited": false,
+      "nested_browser_component_license_acceptance_complete": false,
+      "license": {
+        "id": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/leanprover-community/ProofWidgets4/b1436dc749e722c9920036b52cdc43b3451d0b69/LICENSE",
+        "http_status": 200,
+        "bytes": 11357,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "local_file": "proofwidgets-LICENSE.txt",
+        "local_content_matches_fixed_upstream": true
+      }
+    },
+    {
+      "name": "aesop",
+      "repository": "https://github.com/leanprover-community/aesop",
+      "commit": "57d3325be72a842920813bcb40f96a6f7393c185",
+      "actual_candidate_head": "57d3325be72a842920813bcb40f96a6f7393c185",
+      "commit_url": "https://github.com/leanprover-community/aesop/commit/57d3325be72a842920813bcb40f96a6f7393c185",
+      "source_archive_url": "https://github.com/leanprover-community/aesop/archive/57d3325be72a842920813bcb40f96a6f7393c185.tar.gz",
+      "source_archive_http_status": 200,
+      "source_archive_content_independently_verified": false,
+      "lake_inherited": false,
+      "license": {
+        "id": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/leanprover-community/aesop/57d3325be72a842920813bcb40f96a6f7393c185/LICENSE",
+        "http_status": 200,
+        "bytes": 11357,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "local_file": "aesop-LICENSE.txt",
+        "local_content_matches_fixed_upstream": true
+      }
+    },
+    {
+      "name": "Qq",
+      "repository": "https://github.com/leanprover-community/quote4",
+      "commit": "ee41917ae11d38479fb8fb24745f7ca4bf0a784d",
+      "actual_candidate_head": "ee41917ae11d38479fb8fb24745f7ca4bf0a784d",
+      "commit_url": "https://github.com/leanprover-community/quote4/commit/ee41917ae11d38479fb8fb24745f7ca4bf0a784d",
+      "source_archive_url": "https://github.com/leanprover-community/quote4/archive/ee41917ae11d38479fb8fb24745f7ca4bf0a784d.tar.gz",
+      "source_archive_http_status": 200,
+      "source_archive_content_independently_verified": false,
+      "lake_inherited": false,
+      "license": {
+        "id": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/leanprover-community/quote4/ee41917ae11d38479fb8fb24745f7ca4bf0a784d/LICENSE",
+        "http_status": 200,
+        "bytes": 11357,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "local_file": "Qq-LICENSE.txt",
+        "local_content_matches_fixed_upstream": true
+      }
+    },
+    {
+      "name": "batteries",
+      "repository": "https://github.com/leanprover-community/batteries",
+      "commit": "d60e6444e6fd881dfa077ff36e96de75753afa28",
+      "actual_candidate_head": "d60e6444e6fd881dfa077ff36e96de75753afa28",
+      "commit_url": "https://github.com/leanprover-community/batteries/commit/d60e6444e6fd881dfa077ff36e96de75753afa28",
+      "source_archive_url": "https://github.com/leanprover-community/batteries/archive/d60e6444e6fd881dfa077ff36e96de75753afa28.tar.gz",
+      "source_archive_http_status": 200,
+      "source_archive_content_independently_verified": false,
+      "lake_inherited": false,
+      "license": {
+        "id": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/leanprover-community/batteries/d60e6444e6fd881dfa077ff36e96de75753afa28/LICENSE",
+        "http_status": 200,
+        "bytes": 11357,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "local_file": "batteries-LICENSE.txt",
+        "local_content_matches_fixed_upstream": true
+      }
+    },
+    {
+      "name": "Cli",
+      "repository": "https://github.com/leanprover/lean4-cli",
+      "commit": "da07ca808b6718cb2aed14dba154e5a08b8f8ecf",
+      "actual_candidate_head": "da07ca808b6718cb2aed14dba154e5a08b8f8ecf",
+      "commit_url": "https://github.com/leanprover/lean4-cli/commit/da07ca808b6718cb2aed14dba154e5a08b8f8ecf",
+      "source_archive_url": "https://github.com/leanprover/lean4-cli/archive/da07ca808b6718cb2aed14dba154e5a08b8f8ecf.tar.gz",
+      "source_archive_http_status": 200,
+      "source_archive_content_independently_verified": false,
+      "lake_inherited": true,
+      "license": {
+        "id": "MIT",
+        "url": "https://raw.githubusercontent.com/leanprover/lean4-cli/da07ca808b6718cb2aed14dba154e5a08b8f8ecf/LICENSE",
+        "http_status": 200,
+        "bytes": 1062,
+        "sha256": "f7e95706807e931782b6efd9a9d2789508a52423ad67b56ee7e5e324362d4aac",
+        "local_file": "Cli-LICENSE.txt",
+        "local_content_matches_fixed_upstream": true
+      }
+    }
+  ],
+  "cache": {
+    "scope": "Pinned .ltar cache objects acquired by lake exe cache get, identified by cache keys, source URLs and content hashes in the linked manifest.",
+    "actual_cache_directory": "/root/.cache/mathlib",
+    "source_container_url": "https://lakecache.blob.core.windows.net/mathlib4-master",
+    "entry_count": 8673,
+    "total_bytes": 442215185,
+    "manifest": "lean-public-rebuild-evidence/mathlib-cache-ltar-manifest.jsonl",
+    "manifest_bytes": 2341565,
+    "manifest_sha256": "8403459bae465ebd106871a3027ea079eb6fcfd350a6227cecdf6c4373ffc59d",
+    "content_manifest_complete": true,
+    "all_files_bound_to_fixed_cache_key_and_public_source_url": true,
+    "unbound_files": [],
+    "pending_files": [],
+    "source_binding": {
+      "method": "The pinned Cache client derives object keys from fixed mathlib and dependency sources. Per-file source URLs combine the declared container URL, /f/ and the cache-key filename.",
+      "client_sources": [
+        {
+          "path": "Cache/Requests.lean",
+          "url": "https://raw.githubusercontent.com/leanprover-community/mathlib4/5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3/Cache/Requests.lean",
+          "http_status": 200,
+          "bytes": 58512,
+          "sha256": "b91ad78085d6c80639353f53d4d3d337a03d81db90e70b667a69b52c650216a1"
+        },
+        {
+          "path": "Cache/IO.lean",
+          "url": "https://raw.githubusercontent.com/leanprover-community/mathlib4/5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3/Cache/IO.lean",
+          "http_status": 200,
+          "bytes": 26407,
+          "sha256": "8457b0e2b404ae2a7c7e02d9e264f9d8c1e72935178e7dda1fae95424b022c82"
+        }
+      ]
+    },
+    "cross_run_byte_comparison_completed": false,
+    "immutable_upstream_archive_created": false,
+    "future_retrieval_guaranteed": false,
+    "byte_reproducibility_proven": false,
+    "full_source_archives_downloaded": false,
+    "full_license_acceptance_completed": false,
+    "reproducibility_assessment": "The public cache service is not an immutable archive retained by this project. Verify retrieved objects against their declared hashes; recorded object URLs do not guarantee future availability."
+  },
+  "proofwidgets_graphviz": {
+    "proofwidgets_commit": "b1436dc749e722c9920036b52cdc43b3451d0b69",
+    "package_lock": {
+      "url": "https://raw.githubusercontent.com/leanprover-community/ProofWidgets4/b1436dc749e722c9920036b52cdc43b3451d0b69/widget/package-lock.json",
+      "http_status": 200,
+      "bytes": 172140,
+      "sha256": "3850e21b0823d6200db6da336ce1bd17a463db97ce314585ae47ed81a7327a7d",
+      "candidate_matches_fixed_upstream": true
+    },
+    "wrapper": {
+      "package": "@hpcc-js/wasm",
+      "version": "2.34.2",
+      "commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "npm_version_metadata_gitHead_verified": true,
+      "archive_url": "https://registry.npmjs.org/@hpcc-js/wasm/-/wasm-2.34.2.tgz",
+      "integrity": "sha512-E96aDBuxYPsMu88ldvj7ONUHxxiyJ9lGdUKeWQrZNiQFUTcZ+mgRzt16CvbsXeb6wv22ab0OOhBIYv5kFqwMgw==",
+      "license": "Apache-2.0",
+      "wrapper_license_does_not_cover_graphviz": true
+    },
+    "program": {
+      "name": "Graphviz",
+      "version": "15.0.0",
+      "license": "EPL-2.0",
+      "wasm_bytes": 1586659,
+      "wasm_sha256": "b73447cdf82c85bc61be2ebb78f1ac17a70fb7567c9f739268d7542e88cc421c",
+      "compressed_bytes": 594862,
+      "compressed_sha256": "45c1ff0d24e97e98ca2efefe084cbff12353fcc34bb9014acc7c69db3b5e7077",
+      "version_evidence": "Independent static decoding of both current browser files found 15.0.0 and Graphviz source paths containing graphviz/src/15.0.0-6506eccafc.clean; the fixed wrapper port declares the same version.",
+      "triangulation_library_present": false,
+      "triangulation_evidence": "The decoded WebAssembly states Graphviz built without any triangulation library.",
+      "license_text": {
+        "url": "https://gitlab.com/graphviz/graphviz/-/raw/15.0.0/LICENSE",
+        "http_status": 200,
+        "bytes": 14198,
+        "sha256": "0becf16567beb77fa252b7664631dd177c8f9a1889e48995b45379c7130e5303",
+        "local_file": "image-notices/0becf16567beb77fa252b7664631dd177c8f9a1889e48995b45379c7130e5303.txt",
+        "local_content_matches_fixed_upstream": true,
+        "epl_2_0_declaration_verified": true
+      }
+    },
+    "browser_content_record_sha256": "18621d2cdbb43fd13d8ffadc967900fbd8a21b4a5f9245f2ac6c7f5b28f22ef9",
+    "actual_browser_files": [
+      {
+        "path": "js/graphvizDisplay.js",
+        "bytes": 938943,
+        "sha256": "4adfb30d02728407aab3351e7da319fba411e10c35a42d17ab56a35485f6ae96",
+        "candidate_matches_fixed_upstream": true,
+        "epl_2_0_text_or_url_present": false,
+        "source_archive_or_repository_url_present": false
+      },
+      {
+        "path": "js/index.js",
+        "bytes": 940007,
+        "sha256": "e3538582e3078ac0e3de1d52201d07b963ddd223b04cbbf4bfb159ecae5d8f55",
+        "candidate_matches_fixed_upstream": true,
+        "epl_2_0_text_or_url_present": false,
+        "source_archive_or_repository_url_present": false
+      }
+    ],
+    "static_decode_method": "Base91 and Zstandard bytes were decoded as data only. No JavaScript or WebAssembly was executed. Both browser files independently produced the same WebAssembly hash.",
+    "corresponding_source": {
+      "complete": true,
+      "graphviz_archive_url": "https://gitlab.com/graphviz/graphviz/-/archive/15.0.0/graphviz-15.0.0.tar.gz",
+      "graphviz_archive_http_status": 200,
+      "graphviz_archive_content_independently_verified": true,
+      "graphviz_archive_file": "assets/environments/lean-base/graphviz-epl/source/graphviz-15.0.0.tar.gz",
+      "graphviz_archive_bytes": 41113527,
+      "graphviz_archive_sha256": "dfa5be5c311f760aa9c88273c8f8101bb11f50b0de8b29bbd54acff3adc2d563",
+      "graphviz_archive_sha512": "d69e2dd7b5127650b6e09de92508a84886d52d5dfd1eacf9e6abb797ca231db3c1b12546c7b8561e311150cd62be8dfea689021b7d139ffcdb3d4e16da670352",
+      "graphviz_archive_member_count": 3402,
+      "graphviz_archive_signature_verified": false,
+      "wrapper_and_build_source_url": "https://github.com/hpcc-systems/hpcc-js-wasm/archive/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4.tar.gz",
+      "wrapper_and_build_source_http_status": 200,
+      "wrapper_and_build_source_content_independently_verified": true,
+      "wrapper_and_build_source_file": "assets/environments/lean-base/graphviz-epl/source/hpcc-js-wasm-8b86e2f83cc7344aca44fb3d8aa29a227358c5c4.tar.gz",
+      "wrapper_and_build_source_bytes": 455080,
+      "wrapper_and_build_source_sha256": "5443207dda2c30581e0632c8add206fcae3906f5faf20d4a0808499934743ee6",
+      "wrapper_and_build_source_sha512": "1a195429ba1d9d47803a78fc700c601ffcbd340d42b3c753f0f2a77cec4782768844b658227543bad7597ea5af553590c401a25ccc1aefea31a6b04f19e16a63",
+      "wrapper_and_build_source_member_count": 360,
+      "wrapper_and_build_source_signature_verified": false,
+      "port_file": {
+        "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg-overlays/graphviz/portfile.cmake",
+        "http_status": 200,
+        "bytes": 2571,
+        "sha256": "42894db6c9c93c6ac7ab6e0254891cd7db845870b487921b87c7f6d40edc6f6b",
+        "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg-overlays--graphviz--portfile.cmake.txt",
+        "expected_graphviz_archive_sha512": "d69e2dd7b5127650b6e09de92508a84886d52d5dfd1eacf9e6abb797ca231db3c1b12546c7b8561e311150cd62be8dfea689021b7d139ffcdb3d4e16da670352"
+      },
+      "version_file": {
+        "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg-overlays/graphviz/vcpkg.json",
+        "http_status": 200,
+        "bytes": 820,
+        "sha256": "dcbdfd155dce7b17b2fed3ebc447575e335b147708b24fa5b8f265fac57a24f1",
+        "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg-overlays--graphviz--vcpkg.json.txt"
+      },
+      "modifications": "The fixed wrapper port overlays Graphviz CMakeLists.txt and cmake/config_checks.cmake and rewrites GVPLUGIN version variable substitutions. The complete wrapper archive and readable copies of these modifications and build rules accompany the image.",
+      "additional_build_records": "embedded-build-info/",
+      "availability_check_scope": "Both complete official archives were downloaded, hashed, and read as gzip-compressed tar archives. Archive signatures were not verified. Copies accompany the candidate image, so obtaining this corresponding source does not depend on continued external availability."
+    },
+    "generated_browser_notice_source_sufficient": false,
+    "generated_browser_notice_source_scope": "The generated JavaScript and WebAssembly remain unchanged and contain no embedded EPL or source statement. The separate accompanying materials in the image provide the notice and source offer.",
+    "payload_findings": [
+      "Neither generated JavaScript file nor the decoded WebAssembly contains the EPL-2.0 agreement or an EPL-2.0 license URL.",
+      "Neither generated JavaScript file nor the decoded WebAssembly contains a Graphviz source archive or source repository URL, or a statement explaining how to obtain the corresponding source."
+    ],
+    "gaps": [
+      "Other browser dependencies and their nested license and source requirements remain outside this Graphviz-specific integration."
+    ]
+  }
+}

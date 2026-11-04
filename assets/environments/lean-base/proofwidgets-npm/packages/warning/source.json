@@ -1,0 +1,46 @@
+{
+  "author": "Berkeley Martinez <berkeley@r3dm.com> (http://www.freecodecamp.com)",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BSD-3-Clause",
+  "lock_entry": {
+    "dependencies": {
+      "loose-envify": "^1.0.0"
+    },
+    "integrity": "sha512-jMBt6pUrKn5I+OGgtQ4YZLdhIeJmObddh6CsibPxyQ5yPZm1XExSyzC1LCNX7BzhxWgiHmizBWJTHJIjMjTQYQ==",
+    "license": "BSD-3-Clause",
+    "resolved": "https://registry.npmjs.org/warning/-/warning-3.0.0.tgz",
+    "version": "3.0.0"
+  },
+  "lock_path": "node_modules/warning",
+  "name": "warning",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1523,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "426ce3c23fa4006e34391ac67170a41ea6eb8bbd4bca2a8b16a7a37cef8b1f86",
+      "text_file": "image-notices/426ce3c23fa4006e34391ac67170a41ea6eb8bbd4bca2a8b16a7a37cef8b1f86.txt"
+    }
+  ],
+  "package_license": "BSD-3-Clause",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 2955,
+    "installed_in_image": false,
+    "integrity": "sha512-jMBt6pUrKn5I+OGgtQ4YZLdhIeJmObddh6CsibPxyQ5yPZm1XExSyzC1LCNX7BzhxWgiHmizBWJTHJIjMjTQYQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/warning/-/warning-3.0.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "a82163d08d04d5f8a9fa7eb9e785744fd61aee9c5ca884c535641e94b502fe27"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.0.0"
+}

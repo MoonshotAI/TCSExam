@@ -1,0 +1,395 @@
+{
+ "instances": {
+  "rail4284.txt": {
+   "B": 1344,
+   "K": 1062,
+   "K_source": "literature best-known (not proven); min of three sources per the full-set decision: Yelbay-Birbil-Bulbul 2014 table 2 (689/945/1064/1528), MIPLIB 2017 core series (691/944/1062/1530), MDPI 2023 (691/952/1065/1538)",
+   "group": "RAIL",
+   "m": 4284,
+   "n": 1092610,
+   "proven_optimal": false
+  },
+  "rail4872.txt": {
+   "B": 1856,
+   "K": 1528,
+   "K_source": "literature best-known (not proven); min of three sources per the full-set decision: Yelbay-Birbil-Bulbul 2014 table 2 (689/945/1064/1528), MIPLIB 2017 core series (691/944/1062/1530), MDPI 2023 (691/952/1065/1538)",
+   "group": "RAIL",
+   "m": 4872,
+   "n": 968672,
+   "proven_optimal": false
+  },
+  "rail507.txt": {
+   "B": 209,
+   "K": 174,
+   "group": "RAIL",
+   "m": 507,
+   "n": 63009,
+   "proven_optimal": true
+  },
+  "rail516.txt": {
+   "B": 203,
+   "K": 182,
+   "group": "RAIL",
+   "m": 516,
+   "n": 47311,
+   "proven_optimal": true
+  },
+  "scp42.txt": {
+   "B": 529,
+   "K": 512,
+   "group": "4",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "scp43.txt": {
+   "B": 537,
+   "K": 516,
+   "group": "4",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "scp44.txt": {
+   "B": 506,
+   "K": 494,
+   "group": "4",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "scp46.txt": {
+   "B": 594,
+   "K": 560,
+   "group": "4",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "scp47.txt": {
+   "B": 447,
+   "K": 430,
+   "group": "4",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "scp49.txt": {
+   "B": 665,
+   "K": 641,
+   "group": "4",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "scp51.txt": {
+   "B": 269,
+   "K": 253,
+   "group": "5",
+   "m": 200,
+   "n": 2000,
+   "proven_optimal": true
+  },
+  "scp52.txt": {
+   "B": 330,
+   "K": 302,
+   "group": "5",
+   "m": 200,
+   "n": 2000,
+   "proven_optimal": true
+  },
+  "scp53.txt": {
+   "B": 232,
+   "K": 226,
+   "group": "5",
+   "m": 200,
+   "n": 2000,
+   "proven_optimal": true
+  },
+  "scp54.txt": {
+   "B": 250,
+   "K": 242,
+   "group": "5",
+   "m": 200,
+   "n": 2000,
+   "proven_optimal": true
+  },
+  "scp56.txt": {
+   "B": 225,
+   "K": 213,
+   "group": "5",
+   "m": 200,
+   "n": 2000,
+   "proven_optimal": true
+  },
+  "scp57.txt": {
+   "B": 306,
+   "K": 293,
+   "group": "5",
+   "m": 200,
+   "n": 2000,
+   "proven_optimal": true
+  },
+  "scp61.txt": {
+   "B": 142,
+   "K": 138,
+   "group": "6",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "scp65.txt": {
+   "B": 186,
+   "K": 161,
+   "group": "6",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "scpa1.txt": {
+   "B": 261,
+   "K": 253,
+   "group": "A",
+   "m": 300,
+   "n": 3000,
+   "proven_optimal": true
+  },
+  "scpa3.txt": {
+   "B": 245,
+   "K": 232,
+   "group": "A",
+   "m": 300,
+   "n": 3000,
+   "proven_optimal": true
+  },
+  "scpb1.txt": {
+   "B": 73,
+   "K": 69,
+   "group": "B",
+   "m": 300,
+   "n": 3000,
+   "proven_optimal": true
+  },
+  "scpb5.txt": {
+   "B": 75,
+   "K": 72,
+   "group": "B",
+   "m": 300,
+   "n": 3000,
+   "proven_optimal": true
+  },
+  "scpc1.txt": {
+   "B": 237,
+   "K": 227,
+   "group": "C",
+   "m": 400,
+   "n": 4000,
+   "proven_optimal": true
+  },
+  "scpc5.txt": {
+   "B": 219,
+   "K": 215,
+   "group": "C",
+   "m": 400,
+   "n": 4000,
+   "proven_optimal": true
+  },
+  "scpclr10.txt": {
+   "B": 32,
+   "K": 25,
+   "group": "CLR",
+   "m": 511,
+   "n": 210,
+   "proven_optimal": true
+  },
+  "scpclr11.txt": {
+   "B": 30,
+   "K": 23,
+   "group": "CLR",
+   "m": 1023,
+   "n": 330,
+   "proven_optimal": false
+  },
+  "scpclr13.txt": {
+   "B": 32,
+   "K": 23,
+   "K_source": "literature best-known (not proven): Yelbay-Birbil-Bulbul 2014 table 4 dagger column (origins Grossman-Wool 1997 and follow-ups)",
+   "group": "CLR",
+   "m": 4095,
+   "n": 715,
+   "proven_optimal": false
+  },
+  "scpcyc08.txt": {
+   "B": 352,
+   "K": 344,
+   "K_source": "literature best-known (not proven): Yelbay-Birbil-Bulbul 2014 table 4 dagger column (origins Grossman-Wool 1997 and follow-ups)",
+   "group": "CYC",
+   "m": 1792,
+   "n": 1024,
+   "proven_optimal": false
+  },
+  "scpcyc09.txt": {
+   "B": 816,
+   "K": 780,
+   "K_source": "literature best-known (not proven): Yelbay-Birbil-Bulbul 2014 table 4 dagger column (origins Grossman-Wool 1997 and follow-ups)",
+   "group": "CYC",
+   "m": 4608,
+   "n": 2304,
+   "proven_optimal": false
+  },
+  "scpcyc11.txt": {
+   "B": 4280,
+   "K": 4103,
+   "K_source": "literature best-known (not proven): Yelbay-Birbil-Bulbul 2014 table 4 dagger column (origins Grossman-Wool 1997 and follow-ups)",
+   "group": "CYC",
+   "m": 28160,
+   "n": 11264,
+   "proven_optimal": false
+  },
+  "scpd1.txt": {
+   "B": 68,
+   "K": 60,
+   "group": "D",
+   "m": 400,
+   "n": 4000,
+   "proven_optimal": true
+  },
+  "scpd3.txt": {
+   "B": 80,
+   "K": 72,
+   "group": "D",
+   "m": 400,
+   "n": 4000,
+   "proven_optimal": true
+  },
+  "scpd5.txt": {
+   "B": 66,
+   "K": 61,
+   "group": "D",
+   "m": 400,
+   "n": 4000,
+   "proven_optimal": true
+  },
+  "scpe1.txt": {
+   "B": 5,
+   "K": 5,
+   "group": "E",
+   "m": 50,
+   "n": 500,
+   "proven_optimal": true
+  },
+  "scpe4.txt": {
+   "B": 6,
+   "K": 5,
+   "group": "E",
+   "m": 50,
+   "n": 500,
+   "proven_optimal": true
+  },
+  "scpe5.txt": {
+   "B": 5,
+   "K": 5,
+   "group": "E",
+   "m": 50,
+   "n": 500,
+   "proven_optimal": true
+  },
+  "scpnre1.txt": {
+   "B": 30,
+   "K": 29,
+   "group": "NRE",
+   "m": 500,
+   "n": 5000,
+   "proven_optimal": true
+  },
+  "scpnre2.txt": {
+   "B": 32,
+   "K": 30,
+   "group": "NRE",
+   "m": 500,
+   "n": 5000,
+   "proven_optimal": true
+  },
+  "scpnre4.txt": {
+   "B": 32,
+   "K": 28,
+   "group": "NRE",
+   "m": 500,
+   "n": 5000,
+   "proven_optimal": true
+  },
+  "scpnrf2.txt": {
+   "B": 16,
+   "K": 15,
+   "group": "NRF",
+   "m": 500,
+   "n": 5000,
+   "proven_optimal": true
+  },
+  "scpnrf4.txt": {
+   "B": 17,
+   "K": 14,
+   "group": "NRF",
+   "m": 500,
+   "n": 5000,
+   "proven_optimal": true
+  },
+  "scpnrf5.txt": {
+   "B": 15,
+   "K": 13,
+   "group": "NRF",
+   "m": 500,
+   "n": 5000,
+   "proven_optimal": true
+  },
+  "scpnrg1.txt": {
+   "B": 189,
+   "K": 176,
+   "group": "NRG",
+   "m": 1000,
+   "n": 10000,
+   "proven_optimal": false
+  },
+  "scpnrg2.txt": {
+   "B": 161,
+   "K": 154,
+   "group": "NRG",
+   "m": 1000,
+   "n": 10000,
+   "proven_optimal": true
+  },
+  "scpnrg4.txt": {
+   "B": 181,
+   "K": 168,
+   "group": "NRG",
+   "m": 1000,
+   "n": 10000,
+   "proven_optimal": false
+  },
+  "scpnrh2.txt": {
+   "B": 73,
+   "K": 63,
+   "K_source": "literature best-known (not proven): Yelbay-Birbil-Bulbul 2014 table 1 dagger column (origin Caprara-Fischetti-Toth 1999)",
+   "group": "NRH",
+   "m": 1000,
+   "n": 10000,
+   "proven_optimal": false
+  },
+  "scpnrh4.txt": {
+   "B": 67,
+   "K": 58,
+   "group": "NRH",
+   "m": 1000,
+   "n": 10000,
+   "proven_optimal": false
+  },
+  "scpnrh5.txt": {
+   "B": 61,
+   "K": 55,
+   "group": "NRH",
+   "m": 1000,
+   "n": 10000,
+   "proven_optimal": false
+  }
+ }
+}

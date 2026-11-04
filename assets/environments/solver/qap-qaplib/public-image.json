@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "task": "tasks/solver/online/qap-qaplib",
+  "remove_paths": ["/tests"],
+  "allow_content_paths": [
+    "/tests-public",
+    "/judge",
+    "/opt/qap/scoring.py"
+  ],
+  "required_paths": [
+    "/judge/entry.sh",
+    "/judge/judge_worker.py",
+    "/tests-public/checker.py",
+    "/tests-public/reference.json",
+    "/tests-public/instances",
+    "/opt/qap/scoring.py"
+  ]
+}

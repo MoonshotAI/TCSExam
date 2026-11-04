@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "scope": "Public-upstream Lean environment sources and local build requirements. Historical execution reports are maintained separately from the source distribution.",
+  "dockerfile": "assets/environments/lean-base/Dockerfile",
+  "dependency_manifest": "assets/environments/lean-base/mathlib-lake-manifest.json",
+  "public_base_record": "lean-base-public-5b3f719",
+  "source_preparation": "tcsexam source-inputs",
+  "local_build": "tcsexam build --suite lite --track theorem",
+  "source_materials": [
+    "assets/environments/lean-base/lean-components",
+    "assets/environments/lean-base/graphviz-epl",
+    "assets/environments/lean-base/browser-components",
+    "assets/environments/lean-base/proofwidgets-npm"
+  ],
+  "distribution_scope": "Each dependency retains its own license. Retain corresponding source, copyright and license notices when distributing binaries. A local build or successful run does not authorize redistribution of every component.",
+  "network_scope": "Build-time upstream retrieval uses the declared build network. Runtime connectivity follows each task configuration.",
+  "product_identity": "Historical image IDs remain distinct from local products; do not relabel historical products with current build signatures."
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/tw-heuristic",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/tw-heuristic/tests/checker.py",
+      "target": "tasks/solver/offline/tw-heuristic/tests/checker.py",
+      "sha256": "0d9770bdf9c41a0445b53930cd868546accfb7c439458dc7abd679f36142a74d"
+    },
+    {
+      "source": "tasks/solver/online/tw-heuristic/tests/reference.json",
+      "target": "tasks/solver/offline/tw-heuristic/tests/reference.json",
+      "sha256": "27562e6ac3f118858f11e802cef7d42387ee0afef87713464df0f20ea01f44bf"
+    },
+    {
+      "source": "tasks/solver/online/tw-heuristic/tests/anchors.json",
+      "target": "tasks/solver/offline/tw-heuristic/tests/anchors.json",
+      "sha256": "591e6a31a0266144f4a0b54a95a51a0af8f9b28b144b1a4b87ddc6f0d1cafaa7"
+    },
+    {
+      "source": "tasks/solver/online/tw-heuristic/tests/metric_config.json",
+      "target": "tasks/solver/offline/tw-heuristic/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-tw-heuristic",
+  "verifier_dependency": "backend-online-tw-heuristic",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

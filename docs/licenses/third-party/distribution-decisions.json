@@ -1,0 +1,369 @@
+{
+  "checked": "2026-10-29",
+  "scope": "Component-specific access, local preparation and redistribution conditions for original TCSExam materials and the listed third-party data, software and runtime components.",
+  "status": "resource_specific_distribution_conditions",
+  "enforced_by_exporter": false,
+  "integration_complete": false,
+  "constraints": [
+    "Keep frozen instance membership, mathematics, checker behavior, budgets, baselines, references and results unchanged during resource preparation and distribution.",
+    "Use the constrained source exporter and resource-specific product declarations when preparing distributions.",
+    "Apply exclusion and local-preparation conditions to every image layer and build context, including files retained in lower layers.",
+    "Follow resource-specific redistribution terms for acquired inputs and every containing image.",
+    "For official materials with unconfirmed redistribution terms, use the declared automatic download, verification and local-preparation recipes and keep the resulting products out of public distribution.",
+    "Mark a resource unresolved when a trustworthy source or verifiable reconstruction is missing.",
+    "Set a public image address only after publishing that exact product and verifying anonymous pull access."
+  ],
+  "resources": [
+    {
+      "id": "project-authored",
+      "recommended_action": "bundle_under_project_license",
+      "licenses": [
+        "Apache-2.0",
+        "CC-BY-4.0"
+      ],
+      "evidence": "LICENSE; docs/licenses/CC-BY-4.0.txt; docs/licenses/documentation.txt; NOTICE"
+    },
+    {
+      "id": "qbf-70-data",
+      "recommended_action": "bundle_with_data_notices",
+      "licenses": [
+        "CC-BY-4.0",
+        "Toronto-2007-research-exception"
+      ],
+      "evidence": "qbf-data-distribution-source.json; qbf-original-source-review.json; docs/resources.md; docs/backend/public-images.md",
+      "decision_scope": "The fixed transformed data, standard answers, ex-instance mapping and the product IDs listed in accepted_fixed_products may be distributed subject to their data, software and system-component terms.",
+      "accepted_fixed_products": [
+        "qbf-public",
+        "qbf-judging",
+        "qbf-qbfeval-online-development",
+        "qbf-qbfeval-offline-development",
+        "qbf-qbfeval-online-backend",
+        "qbf-qbfeval-offline-verifier",
+        "backend-public-online-qbf-qbfeval"
+      ],
+      "content_and_runtime_acceptance": "Fixed-product image content identities are recorded in assets/images.json. The public self-test backend uses a filtered public payload.",
+      "conditions": [
+        "Retain supplement, original-family and component attribution, license texts and modification notices.",
+        "ex018 (c1_BMC_p2_k1024), ex019 (c1_BMC_p2_k2048) and ex020 (c6_BMC_p2_k1024) retain the University of Toronto 2007 noncommercial education/research permission, no-fee condition, notice requirement and publicity restriction.",
+        "Keep hidden judging materials separate from the model-solving environment and verify that submissions perform the required computation.",
+        "Filter image payloads by the declared manifest and reject keys and ciphertext from public products."
+      ]
+    },
+    {
+      "id": "qute-and-proof-tools",
+      "recommended_action": "bundle_with_original_component_licenses",
+      "licenses": [
+        "MIT",
+        "BSL-1.0",
+        "CC-BY-4.0"
+      ],
+      "evidence": "qute-version-comparison.json; qrp2rup-current-license-source.json"
+    },
+    {
+      "id": "roadef-data-and-checker",
+      "recommended_action": "bundle_with_original_notices",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "evidence": "roadef-data-source.json; roadef-hidden-source-chain.json; roadef-checker-source.json; docs/resources.md; docs/backend/public-images.md",
+      "decision_scope": "Fixed ROADEF data, transformed data, project-generated reference assignments and checker products may be prepared for public distribution under their recorded terms. The problem PDF and products with unconfirmed PDF content remain excluded from public upload.",
+      "accepted_fixed_products": [
+        "solver-mr-roadef2012-judging-data"
+      ],
+      "pending_fixed_products": {
+        "solver-mr-roadef2012-development-data": "Contains app/problem_definition_v1_1.pdf; retain local_prepare and public_upload_allowed=false.",
+        "dev-online-mr-roadef2012": "Contains the problem PDF; keep the image local-only.",
+        "dev-offline-mr-roadef2012": "Contains the problem PDF; keep the image local-only.",
+        "verifier-mr-roadef2012": "The verifier inherits the development filesystem containing the PDF; retain local_prepare and public_upload_allowed=false.",
+        "backend-online-mr-roadef2012": "PDF coverage in the final filesystem and inherited layers is unconfirmed; retain public_upload_allowed=false.",
+        "backend-public-online-mr-roadef2012": "The removal list targets hidden judging paths. Keep public upload disabled until the problem PDF is excluded from the final filesystem and every inherited layer."
+      },
+      "conditions": [
+        "Retain Google attribution, Apache-2.0 texts and data/checker modification notices.",
+        "Reference assignments are project-generated numerical outputs recorded separately from third-party checker source and the problem PDF.",
+        "Keep local_prepare products local or in an explicitly authorized private registry; exclude them from public upload."
+      ]
+    },
+    {
+      "id": "ctt-20-matched-instances",
+      "recommended_action": "bundle_with_attribution_and_changes",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "evidence": "ctt-source-comparison.json"
+    },
+    {
+      "id": "cpsolver-and-jars",
+      "recommended_action": "bundle_with_corresponding_source_and_replacement_route",
+      "licenses": [
+        "LGPL-3.0-or-later",
+        "dom4j-five-clause",
+        "Apache-1.1"
+      ],
+      "evidence": "cpsolver-distribution-files.json"
+    },
+    {
+      "id": "629-edge-reference",
+      "recommended_action": "bundle_with_gpl_source",
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "evidence": "extremal-graph-distribution-files.json"
+    },
+    {
+      "id": "bpplib-derived-data",
+      "recommended_action": "local_preparation_only",
+      "licenses": [
+        "CC-BY-NC-ND-4.0"
+      ],
+      "evidence": "bpplib-reconstruction.json; bpplib-table-source.json"
+    },
+    {
+      "id": "mqlib-or-library-three",
+      "recommended_action": "bundle_with_original_attribution",
+      "licenses": [
+        "MIT"
+      ],
+      "evidence": "mqlib-family-license-review.json"
+    },
+    {
+      "id": "mqlib-other-data",
+      "recommended_action": "recommend_user_obtains_from_original_source",
+      "licenses": [],
+      "evidence": "mqlib-instance-sources.json; mqlib-family-license-review.json"
+    },
+    {
+      "id": "ctt-comp11-validator-opthub-solutions",
+      "recommended_action": "recommend_user_obtains_from_original_source",
+      "licenses": [],
+      "evidence": "ctt-comp11-opthub-source.json"
+    },
+    {
+      "id": "roadef-pdf-and-mqlib-paper-extras",
+      "recommended_action": "recommend_original_links_and_local_recovery",
+      "licenses": [],
+      "evidence": "distribution.md"
+    },
+    {
+      "id": "logic-syn-public-development",
+      "recommended_action": "bundle_public_development_resources_with_original_notices",
+      "licenses": [
+        "MIT",
+        "UC-Regents-BSD-style"
+      ],
+      "evidence": "logic-syn-iwls2023-source.json; docs/resources.md",
+      "decision_scope": "Only the fixed public development data and ABC tool resources may be prepared for public distribution. This does not cover complete task images, hidden judging instances, solution/precomputed answers, or historical layers.",
+      "accepted_fixed_products": [
+        "solver-logic-syn-iwls2023-development-data",
+        "solver-logic-syn-iwls2023-development-tools"
+      ],
+      "content_and_runtime_acceptance": "Pinned upstream archives supply the fixed public truth tables and ABC source archive; preparation verifies their declared content hashes.",
+      "conditions": [
+        "Retain the IWLS 2022 MIT license and the UC Regents ABC copyright and permission notices.",
+        "Do not include hidden judging instances, solution/precomputed answers, submission circuits, paper PDFs, or unrelated upstream members."
+      ]
+    },
+    {
+      "id": "ce-pace2021-public-development-data",
+      "recommended_action": "bundle_public_development_data_with_cc0",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "evidence": "ce-pace2021-source.json; docs/resources.md",
+      "decision_scope": "Only the 100 odd-numbered PACE 2021 heuristic-track public instances and the fixed solver-ce-pace2021-development-data product are covered. Hidden judging instances, solution/precomputed answers, the verifier, backend, complete development image and historical layers are outside this decision.",
+      "accepted_fixed_products": [
+        "solver-ce-pace2021-development-data"
+      ],
+      "content_and_runtime_acceptance": "Preparation uses the pinned official archive and XZ Utils 5.8.4, verifies the declared compressed hashes, plaintext, sizes and 0644 modes, and includes the CC0 text.",
+      "conditions": [
+        "Retain the PACE source record and CC0 text with the data image; preserve the fixed official source and output manifests.",
+        "Use XZ Utils 5.8.4 with the recorded parameters and reject any output whose compressed hash, decompressed plaintext, size or mode differs.",
+        "Do not extend this decision to hidden instances, standard answers, verifier/backend products, complete task images or historical layers."
+      ]
+    },
+    {
+      "id": "dfvs-pace2022-public-development-local-preparation",
+      "recommended_action": "automatic_official_download_and_local_preparation_only",
+      "licenses": [],
+      "evidence": "dfvs-pace2022-source.json; docs/resources.md",
+      "decision_scope": "Only the 100 odd-numbered PACE 2022 Exact Track public instances and local preparation of solver-dfvs-pace2022-development-data are covered. Hidden judging instances, even-numbered non-public files, solution/precomputed answers, the verifier, backend, complete development image and historical layers are outside this decision.",
+      "local_preparation_products": [
+        "solver-dfvs-pace2022-development-data"
+      ],
+      "public_upload_allowed": false,
+      "content_and_runtime_acceptance": "Preparation uses the pinned official archive and XZ Utils 5.2.5, verifies the declared compressed hashes, plaintext, sizes and 0644 modes, and retains the source notices.",
+      "conditions": [
+        "The upstream archive does not include a data license. Local preparation grants no public redistribution right; do not apply the PACE report's CC BY 4.0 license or PACE 2021's CC0 to this data.",
+        "Do not publicly upload the official archive, generated instances, data images, or images containing them.",
+        "Retain the official source record without inventing a license, and use XZ Utils 5.2.5 with the recorded two-thread CRC64 preset-6 parameters and full output verification.",
+        "Do not extend this decision to hidden instances, standard answers, verifier/backend products, complete task images or historical layers."
+      ]
+    },
+    {
+      "id": "vc-pace2019-public-development-data",
+      "recommended_action": "bundle_public_development_data_with_attribution_and_modification_notice",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "evidence": "vc-pace2019-source.json; PACE2019-VC-NOTICE.txt; docs/resources.md",
+      "decision_scope": "Only the 100 odd-numbered PACE 2019 Exact Track public instances and the fixed solver-vc-pace2019-development-data product are covered. Even-numbered instances, hidden judging data, solution/precomputed answers, the verifier, backend, complete development images and historical layers are outside this decision.",
+      "accepted_fixed_products": [
+        "solver-vc-pace2019-development-data"
+      ],
+      "original_graph_family_license_review_completed": false,
+      "content_and_runtime_acceptance": "Preparation uses the pinned official public-v2 archive and XZ Utils 5.2.5, with fixed compressed hashes, official plaintext, sizes and 0644 modes. The official SHA-1 listing and Zenodo source identify the plaintext. Retain the CC BY text, attribution notice and source record.",
+      "conditions": [
+        "Retain M. Ayaz Dzulfikar, Johannes K. Fichte and Markus Hecher, the dataset title and DOI, official source links, CC BY and disclaimer links, complete license text, and the XZ compression and path modification notice with the data product.",
+        "Retain original graph-family attribution and the PACE 2019 report link. The fixed Zenodo dataset's CC BY 4.0 declaration is the license basis for this product.",
+        "Use XZ Utils 5.2.5 with the recorded single-thread CRC64 preset-9 parameters and reject any output whose compressed hash, decompressed plaintext, size or mode differs.",
+        "Do not extend this decision to even-numbered instances, hidden data, standard answers, verifier/backend products, complete task images or historical layers."
+      ]
+    },
+    {
+      "id": "oscm-pace2024-public-development-local-preparation",
+      "recommended_action": "automatic_official_download_and_local_preparation_only",
+      "licenses": [],
+      "component_licenses": {
+        "exact_public_100": "not provided",
+        "testsets_73": "MIT"
+      },
+      "evidence": "oscm-pace2024-source.json; PACE2024-OSCM-NOTICE.txt; PACE2024-Testsets-MIT.txt; docs/resources.md",
+      "decision_scope": "Only local preparation of the fixed solver-oscm-pace2024-development-data product is covered: 100 PACE 2024 Exact Track public instances, 60 medium test-set instances and 13 tiny test-set instances. Hidden judging data, solution/precomputed answers, development tools, verifier/backend products, complete development images and historical layers are outside this decision.",
+      "local_preparation_products": [
+        "solver-oscm-pace2024-development-data"
+      ],
+      "public_upload_allowed": false,
+      "content_and_runtime_acceptance": "Preparation uses two pinned official ZIP archives and verifies the declared output paths, plaintext bytes, SHA-256 hashes, sizes and 0644 modes. Retain the source notice and test-set MIT text.",
+      "conditions": [
+        "The 100 Exact Track instances have no data license. The test-set MIT license covers only the 73 medium/tiny instances and does not authorize public distribution of the combined product or derived images.",
+        "Do not publicly upload either official archive, generated instances, data images, or images containing them.",
+        "Retain the source notice and test-set MIT text. Upstream .sol members may be listed for archive validation but are neither read nor copied into the product.",
+        "Verify every one of the 173 outputs against the frozen path, bytes, SHA-256 and mode declarations; do not change graph plaintext or add files to the public runner's input directory.",
+        "Do not extend this decision to hidden data, standard answers, development tools, verifier/backend products, complete task images or historical layers."
+      ]
+    },
+    {
+      "id": "oscm-pace2024-development-tools-local-preparation",
+      "recommended_action": "automatic_official_download_and_local_preparation_only",
+      "licenses": [],
+      "evidence": "oscm-pace2024-development-tools-source.json; docs/resources.md",
+      "decision_scope": "Only local preparation of the single NumPy 2.2.6 wheel in solver-oscm-pace2024-development-tools is covered. PACE instances, other verifier wheels, hidden judging data, standard answers, complete development images, verifier/backend products and historical layers are outside this decision.",
+      "local_preparation_products": [
+        "solver-oscm-pace2024-development-tools"
+      ],
+      "public_upload_allowed": false,
+      "complete_bundled_dependency_license_review": false,
+      "corresponding_source_obligations_reviewed": false,
+      "content_and_runtime_acceptance": "Preparation downloads the pinned NumPy 2.2.6 wheel from official PyPI, verifies its RECORD entries, exact bytes and 0644 mode, and includes the four upstream notices and source record.",
+      "conditions": [
+        "Do not publicly upload the wheel, tools image, or containing images until the complete bundled-dependency license and corresponding-source obligations have been reviewed.",
+        "Retain all four upstream notice files and the source record; their presence does not establish complete license or source-offer coverage for bundled dependencies.",
+        "Verify every RECORD file entry and the exact official wheel bytes; do not substitute another NumPy version or a manually prepared cache.",
+        "Do not extend this decision to instances, other tools, hidden data, standard answers, complete task images or historical layers."
+      ]
+    },
+    {
+      "id": "ahc058-atcoder-public-development-local-preparation",
+      "recommended_action": "automatic_official_download_generation_and_local_preparation_only",
+      "licenses": [],
+      "evidence": "ahc058-atcoder-source.json; AHC058-ATCODER-NOTICE.txt; docs/resources.md",
+      "decision_scope": "Only local preparation of the 105 public development inputs in solver-ahc058-atcoder-development-data is covered. Hidden judging data, solution/precomputed answers, statement text, solver implementations, verifier/backend products, complete development images and historical layers are outside this decision.",
+      "local_preparation_products": [
+        "solver-ahc058-atcoder-development-data"
+      ],
+      "public_upload_allowed": false,
+      "content_and_runtime_acceptance": "Preparation downloads the pinned official AtCoder ZIP, copies the declared official inputs and uses the locked Rust generator for the five declared public generated instances. Verify fixed paths, bytes, SHA-256 hashes and 0644 modes, and retain the source notice.",
+      "conditions": [
+        "No open redistribution license was found for the statement, input data, generator, scorer, or visualizer. Do not apply one component's terms to another and do not publicly upload the official archive, generated instances, data images, or derived images.",
+        "Retain the official source and local-preparation notice. Include only the five public seed mappings, not a complete random stream, other sampling indices, hidden mappings, or standard answers.",
+        "Copy the 100 official inputs and generate only the five declared public instances with the locked official generator; verify all 105 outputs and leave no seeds, generator files, or extra runner inputs in app/instances.",
+        "Do not extend this decision to hidden data, standard answers, solver implementations, verifier/backend products, complete task images or historical layers."
+      ]
+    },
+    {
+      "id": "oracle-answer-private-retention",
+      "recommended_action": "retain_private_bundle_with_explicit_future_release",
+      "distribution": "private_only",
+      "licenses": [],
+      "evidence": "docs/oracle-answers.md; docs/resources.md",
+      "decision_scope": "Concrete oracle-acceptance answers for 50 tasks and 55 task/variant groups, including solution/precomputed, the HS precomputed archive, JSPLIB scheduling answers and construction solution/Basic.lean proofs. Numeric anchors, checker and scoring configuration, hidden instances, keys, ciphertext, logs, model trajectories, generator/replay source code and test-only duplicate fixtures are outside this retention package.",
+      "public_release_performed": false,
+      "verification": {
+        "answer_files": 2571,
+        "answer_bytes": 640578027,
+        "archive_bytes": 510624920,
+        "tasks": 50,
+        "task_variant_groups": 55,
+        "independent_rebuilds_identical": true,
+        "clean_unpack_verified": true,
+        "missing_answer_files": 0,
+        "forbidden_or_out_of_scope_entries": 0,
+        "public_export_known_answer_paths_excluded": 2581,
+        "oracle_judging_executed": false
+      },
+      "conditions": [
+        "Keep concrete answers private by default and outside public source, images, build and run. The private backup has no ordinary runtime dependency.",
+        "Do not treat numeric anchors or checker/scoring reference configuration as oracle-answer payloads or remove judge-required configuration.",
+        "Future publication requires a separate human release decision, an explicit registry repository and immutable version tag, registry credentials, and the PUBLISH_ORACLE_ANSWERS confirmation argument.",
+        "The verified package and explicit publish mechanism do not claim a full oracle judging run or public release approval."
+      ]
+    },
+    {
+      "id": "vc-public-judge-candidate",
+      "recommended_action": "bundle_candidate_for_approved_public_upload",
+      "licenses": [
+        "Apache-2.0",
+        "CC-BY-4.0",
+        "GPL-3.0"
+      ],
+      "additional_license_records": [
+        "tasks/solver/online/vc-pace2019/tests/public-release/system-dependencies.json"
+      ],
+      "evidence": "vc-public-judge-image.json; docs/resources.md",
+      "decision_scope": "Only backend-public-online-vc-pace2019 as a public self-test judge image is covered. The complete hidden backend, complete development image, offline verifier, other tasks, hidden instances and standard answers are outside this decision.",
+      "accepted_fixed_products": [
+        "backend-public-online-vc-pace2019"
+      ],
+      "candidate_manifest_digest": "sha256:8041ec6cccefdf4887fb8e0781aab531cb218435e6808a13af2a3d22e9fcdb9a",
+      "candidate_config_digest": "sha256:7320ac3e7a8f298c494f16d0fdc06a8a661fb4512668e5cbad0790a90a46557a",
+      "candidate_rootfs_diff_id": "sha256:fa60e7540c5ddfe4836283f4a64e51396ea07264b241ab6b9f61468534cf751a",
+      "public_upload_performed": false,
+      "anonymous_public_pull_verified": false,
+      "content_and_runtime_acceptance": "The product retains the original vc_validate binary and includes the declared license, source and build materials. The public self-test channel is restricted to public instances.",
+      "conditions": [
+        "Retain the project LICENSE and NOTICE, CC BY text and PACE2019-VC-NOTICE, vc_validate corresponding source and GPL text, build instructions and system source archives with the image.",
+        "Retain the original vc_validate binary and its fixed-toolchain rebuild materials; use the recorded binary identity for benchmark evaluation.",
+        "Do not extend this decision to the complete hidden backend, development image, offline verifier, other tasks, hidden instances or standard answers.",
+        "Publish only an explicitly authorized product with its required source and notices, then record the immutable public image address and verify anonymous pull access.",
+        "The retained .dsc signatures were not independently OpenPGP-verified; this limitation remains in system-dependencies.json."
+      ]
+    },
+    {
+      "id": "public-self-test-isolation-remediation",
+      "recommended_action": "retain_local_rebuild_and_block_old_public_digests",
+      "licenses": [],
+      "evidence": "assets/environments/solver/celar-rlfap/judge/public-rebuild.json; assets/environments/solver/coloring-dimacs/judge/public-rebuild.json; docs/resources.md",
+      "decision_scope": "Local isolation remediation for backend-public-online-celar-rlfap and backend-public-online-coloring-dimacs. The old public digests are rejected as unsafe history. Complete hidden backends, development images, offline verifiers, other tasks and public-release approval are outside this decision.",
+      "local_preparation_products": [
+        "backend-public-online-celar-rlfap",
+        "backend-public-online-coloring-dimacs"
+      ],
+      "public_upload_allowed": false,
+      "public_upload_performed": false,
+      "anonymous_public_pull_verified": false,
+      "content_and_runtime_acceptance": "The fixed single-layer CELAR digest is sha256:8b9859499fb19cbcd18a6be5484ce35011350d30ef53856022fe06389fc18120, and the coloring digest is sha256:ce5bce57425c37eb6739c801d3543815d2d896e46df7389300f5c46de799d694. Exact payload allowlists contain 42 and 281 regular files respectively. Public payload bytes and modes match the declared sources, and the public channel excludes hidden inputs.",
+      "conditions": [
+        "Never reuse the old unsafe public digests as publication sources. The rebuilt images use the current backend and public development images, not the old frozen public image.",
+        "Require exact payload allowlists for these tasks and reject missing, additional, duplicate, non-regular, hidden-source, unapproved-answer or neither-set entries at build and independent re-export.",
+        "Public payload and current public practice answers must remain identical to the current public environment; no model-visible public files are added beyond the declared allowlist.",
+        "Keep these products local-only while their third-party data and system-dependency redistribution conditions remain unconfirmed."
+      ]
+    },
+    {
+      "id": "image-system-and-toolchain",
+      "recommended_action": "bundle_notices_and_maintain_precise_corresponding_source_access",
+      "licenses": [],
+      "evidence": "image-license-inventory.json; system-license-materials.json"
+    }
+  ]
+}

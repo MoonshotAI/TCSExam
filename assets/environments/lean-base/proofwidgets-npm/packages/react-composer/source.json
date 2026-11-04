@@ -1,0 +1,49 @@
+{
+  "author": "James Smith <jamesplease2@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "prop-types": "^15.6.0"
+    },
+    "integrity": "sha512-1uWd07EME6XZvMfapwZmc7NgCZqDemcvicRi3wMJzXsQLvZ3L7fTHVyPy1bZdnWXM4iPjYuNE+uJ41MLKeTtnA==",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
+    },
+    "resolved": "https://registry.npmjs.org/react-composer/-/react-composer-5.0.3.tgz",
+    "version": "5.0.3"
+  },
+  "lock_path": "node_modules/react-composer",
+  "name": "react-composer",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1070,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "02dbac7304c820b57e3485e58855ff77d7d23cc8dc733cff6dca73c580832c23",
+      "text_file": "image-notices/02dbac7304c820b57e3485e58855ff77d7d23cc8dc733cff6dca73c580832c23.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 14505,
+    "installed_in_image": false,
+    "integrity": "sha512-1uWd07EME6XZvMfapwZmc7NgCZqDemcvicRi3wMJzXsQLvZ3L7fTHVyPy1bZdnWXM4iPjYuNE+uJ41MLKeTtnA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/react-composer/-/react-composer-5.0.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "2591acf959131cc4985192cf7e255c85ac47b748bec4255f2e2f84d9c77fa888"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "5.0.3"
+}

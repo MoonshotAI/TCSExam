@@ -1,0 +1,37 @@
+{
+  "actual_candidate_head": "5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3",
+  "checked": "2026-10-29",
+  "commit": "5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3",
+  "commit_url": "https://github.com/leanprover-community/mathlib4/commit/5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3",
+  "independent_notice": {
+    "non_notice_copyright_files": [
+      {
+        "path": ".vscode/copyright.code-snippets",
+        "role": "Editor copyright-header template, not an independent NOTICE file.",
+        "sha256": "631beae445b1201910ceaf77b7b230caef4bf5cd3c2c7cff01913509430b5961"
+      }
+    ],
+    "present": false,
+    "status": "no_independent_notice_found",
+    "tree_api": "https://api.github.com/repos/leanprover-community/mathlib4/git/trees/5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3?recursive=1",
+    "tree_entries": 10276,
+    "tree_http_status": 200,
+    "tree_truncated": false
+  },
+  "installed_license": "LICENSE",
+  "license": {
+    "bytes": 11357,
+    "http_status": 200,
+    "id": "Apache-2.0",
+    "local_content_matches_fixed_upstream": true,
+    "local_file": "mathlib-Apache-2.0.txt",
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "url": "https://raw.githubusercontent.com/leanprover-community/mathlib4/5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3/LICENSE"
+  },
+  "name": "mathlib",
+  "repository": "https://github.com/leanprover-community/mathlib4",
+  "schema_version": 1,
+  "source_archive_content_independently_verified": false,
+  "source_archive_http_status": 200,
+  "source_archive_url": "https://github.com/leanprover-community/mathlib4/archive/5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3.tar.gz"
+}

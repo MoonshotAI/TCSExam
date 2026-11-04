@@ -1,0 +1,34 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "David Tolnay <dtolnay@gmail.com>"
+  ],
+  "bytes": 18752,
+  "checksum_sha256": "10deb33631e3c9018b9baf9dcbbc4f737320d2b576bac10f6aefa048fa407e3e",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "MIT OR Apache-2.0",
+  "name": "thiserror",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 10847,
+      "installed_file": "notices/original/LICENSE-APACHE",
+      "path": "thiserror-1.0.37/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+    },
+    {
+      "bytes": 1023,
+      "installed_file": "notices/original/LICENSE-MIT",
+      "path": "thiserror-1.0.37/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "text_file": "image-notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/thiserror/thiserror-1.0.37.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "1.0.37"
+}

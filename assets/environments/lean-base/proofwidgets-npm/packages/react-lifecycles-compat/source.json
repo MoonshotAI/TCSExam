@@ -1,0 +1,43 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz",
+    "version": "3.0.4"
+  },
+  "lock_path": "node_modules/react-lifecycles-compat",
+  "name": "react-lifecycles-compat",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1079,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "2a4be07005467fe561cfc967903dcf9b414ca4d768fead609e42d2db0df55cc7",
+      "text_file": "image-notices/2a4be07005467fe561cfc967903dcf9b414ca4d768fead609e42d2db0df55cc7.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 5999,
+    "installed_in_image": false,
+    "integrity": "sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "4e063ff3ccfa89ef3ee748e2a6c107b8ad48c96c7add226522464580623c9ae5"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.0.4"
+}

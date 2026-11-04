@@ -1,0 +1,42 @@
+{
+  "checked": "2026-10-13",
+  "source_commit": "06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c",
+  "license": "Apache-2.0",
+  "license_url": "https://github.com/google/or-tools/blob/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/LICENSE-2.0.txt",
+  "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "copyright": "Copyright 2011 Google Inc. All Rights Reserved.",
+  "scope": "Three solution checker source files only; excludes challenge datasets, PDF and results tables.",
+  "ancestor_notice_files": [
+    "LICENSE-2.0.txt"
+  ],
+  "files": [
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/checker-src/solution_checker.cc",
+      "local_sha256": "069038b8a13e62286b77c3ddad074bd4d648db893bcb542d0f906b03f1d56837",
+      "source_url": "https://github.com/google/or-tools/blob/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/solution_checker/solution_checker.cc",
+      "source_sha256": "62c468c67515ca57a316d52264d69a3725c93ad0478c6ace94c4ddd37eae44fb",
+      "byte_identical": false,
+      "nonblank_lines_identical": true,
+      "modification": "One blank line removed; no nonblank source line differs."
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/checker-src/solution_checker.h",
+      "local_sha256": "6c3082d2a148b3056f9d9cf13a2fcdb8f07ba1398ae84bfb09bf544ea5f1608c",
+      "source_url": "https://github.com/google/or-tools/blob/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/solution_checker/solution_checker.h",
+      "source_sha256": "48844fc90f5e6d3d6c96a7da5005c12464bfaaf34c7f0322c693134462d2900d",
+      "byte_identical": false,
+      "nonblank_lines_identical": true,
+      "modification": "One blank line removed; no nonblank source line differs."
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/checker-src/solution_checker_run.cc",
+      "local_sha256": "70aa0fab5e65710d7238d0d096d657e3f51e01f60e64bd3b95db52869655c432",
+      "source_url": "https://github.com/google/or-tools/blob/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/solution_checker/solution_checker_run.cc",
+      "source_sha256": "9f42b54b497a26492d1c09ad9ded449ff6035a381123f09c91a0639ebf4af434",
+      "byte_identical": false,
+      "nonblank_lines_identical": true,
+      "modification": "One blank line removed; no nonblank source line differs."
+    }
+  ],
+  "release_action": "Retain Google copyright, include upstream Apache-2.0 text, and preserve modification attribution with these source files and checker binaries."
+}

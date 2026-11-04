@@ -1,0 +1,54 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260920",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/itc2021-sports-timetabling/PROVENANCE.md: per-instance Best UB table on the official ITC2021 website, plus historical solutions whose scores were recomputed and verified by the official validator.",
+   "tier": "competition-record"
+  }
+ },
+ "family": "sports-timetabling",
+ "id": "itc2021-sports-timetabling",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-itc2021-sports-timetabling-judge-v12"
+ },
+ "judging": {
+  "budget_kind": "pool",
+  "form": "final-once",
+  "instance_cores": 4,
+  "limit_env": "ITC2021_TIME_POOL",
+  "n_hidden": 16,
+  "n_neither": 8,
+  "n_public": 29,
+  "per_instance_seconds": 60,
+  "pool_seconds": 960,
+  "shard_cores": 4,
+  "shard_mem_gb": 8,
+  "shards": 1
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "ITC2021 (RobinX)",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "team permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "The 70/30 split is frozen (tests/split.json; 53 total → 29 public + 16 hidden + 8 neither). The 16 hidden instances were structure-preservingly transformed into hNN.xml by permuting team IDs and neutralizing InstanceName; rounds and dates are unchanged. B is a pre-transformation placeholder, awaiting batch remeasurement under the shared-pool protocol (tests/calibration/measure-manifest.json). 260920 holdout: 8 more public instances are assigned to neither; their names are stored only in the third bucket of split.json."
+ },
+ "subdomain": "timetabling",
+ "title": "Sports timetabling"
+}

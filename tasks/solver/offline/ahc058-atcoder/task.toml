@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/ahc058-atcoder"
+version = "1.0.0"
+description = "Optimize a solver for a hierarchical-production game (N=10 machines x L=4 levels, T=500 turns): plan the upgrade sequence to maximize the final resource count, practiced on 105 public instances from the same generator and judged once at the end on 45 hidden structure-preserving-transformed instances, scored continuously against a cheapest-first greedy baseline and best-known scores from long beam-search runs, under a 2 s per-instance wall-clock limit. Final score = the verifier's single final judging (final-once, no best-of)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "atcoder", "ahc", "beam-search", "resource-management", "type-2-solver"]
+
+[metadata]
+family_id = "fam-ahc"
+candidate_id = "cand-ahc058-atcoder-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "The game rules are simple (41 possible actions per turn, 500 turns, deterministic), and a legal greedy play is trivial to write — but the score is logarithmic in the final resource count, so every doubling of the compounding engine matters. Good play needs to value level-3 investments that only pay off a hundred turns later; the reference beam search with a hand-tuned evaluation is the known strong approach, and the hidden instances are fresh seeds, so memorized contest solutions do not transfer."
+
+[verifier]
+timeout_sec = 1209600.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+
+
+[verifier.environment]
+network_mode = "no-network"
+build_timeout_sec = 3600.0

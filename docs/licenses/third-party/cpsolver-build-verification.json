@@ -1,0 +1,31 @@
+{
+  "original_sha256": "73d4b2e866ddf3646cd29db919675ed49b6425873ed4b92f63a81df669b12366",
+  "rebuilt_sha256": "f20250df39bc183e611630f1d7c6da1ffcee3b992ad34d06d04bbc8c3ae2853b",
+  "source_java_files": 243,
+  "original_classes": 334,
+  "rebuilt_classes": 333,
+  "class_set_equal": false,
+  "only_original_classes": [
+    "net/sf/cpsolver/ifs/util/JProf$1.class"
+  ],
+  "only_rebuilt_classes": [],
+  "public_named_classes_checked": 333,
+  "public_api_equal": false,
+  "wrapper_java_files_compiled": 71,
+  "wrapper_link_check": "1.2:46:Fri, 13 May 2011",
+  "javac": "javac 21.0.12.1",
+  "byte_identical_jar": false,
+  "method": "Library rebuild and wrapper compilation/linkage only; no benchmark run or score changes",
+  "comparison_review": {
+    "common_class_public_api_equal_after_anonymous_final_flag_normalization": true,
+    "original_anonymous_final_class_count": 11,
+    "missing_class_access_flags": "0x1020",
+    "missing_class_is_synthetic": true,
+    "missing_class_enum_switch_fields": [
+      "$SwitchMap$net$sf$cpsolver$ifs$util$JProf$Mode"
+    ],
+    "public_top_level_class_count": 243,
+    "original_java_source_coverage": "243/243; all original class source paths present"
+  },
+  "acceptance": "Java sources were rebuilt, wrapper sources compiled and linked, and common-class public APIs compared after normalizing anonymous-class final flags. Class-set, API and byte-identity results are recorded above."
+}

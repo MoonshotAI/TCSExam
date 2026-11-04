@@ -1,0 +1,40 @@
+schema_version = "1.4"
+
+# Root-level field; it must appear before the first [section]. If placed in the [task] section, pydantic silently ignores it and it has no effect.
+artifacts = ["/app"]
+
+[task]
+name = "tcsexam/mr-roadef2012"
+version = "1.0.0"
+description = "Optimize a machine reassignment solver (ROADEF/EURO 2012 hidden instances, up to 50k processes x 5k machines): minimize the official challenge objective on hidden instances, scored against a naive shift/swap hill-climb baseline and verified best-known values (2012 finalists' minima, improved by later runs)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "machine-reassignment", "roadef2012", "local-search", "type-2-solver"]
+
+[metadata]
+family_id = "fam-mr"
+candidate_id = "cand-mr-roadef2012-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "Beating the naive shift/swap hill climb is easy (candidate biasing, annealing), but approaching the best-known values needs real metaheuristics under transient-aware capacity, conflict/spread/dependency constraints and a five-term objective with a max-coupling term; the continuous score rewards every unit of cost shaved off."
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[verifier]
+timeout_sec = 345600.0
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:b3cc735f0c9109f6861989ab71b3cd886799a3563e3480c4da95538508d9f4a4"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:4a6d192b7623a120b268e00771ced3c2d41142a9ba9cddb00b74093f91d2aed2"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192

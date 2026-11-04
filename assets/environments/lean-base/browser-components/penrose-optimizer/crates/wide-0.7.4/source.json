@@ -1,0 +1,27 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "Lokathor <zefria@gmail.com>"
+  ],
+  "bytes": 70154,
+  "checksum_sha256": "b3aba2d1dac31ac7cae82847ac5b8be822aee8f99a4e100f279605016b185c5f",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "Zlib OR Apache-2.0 OR MIT",
+  "name": "wide",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 862,
+      "installed_file": "notices/original/LICENSE-ZLIB.md",
+      "path": "wide-0.7.4/LICENSE-ZLIB.md",
+      "sha256": "6f5eb1806918b0e331db6aae84abddbcc7a297ffea58582211e41e941b5a1841",
+      "text_file": "image-notices/6f5eb1806918b0e331db6aae84abddbcc7a297ffea58582211e41e941b5a1841.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/wide/wide-0.7.4.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "0.7.4"
+}

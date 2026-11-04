@@ -1,0 +1,43 @@
+{
+  "author": "Juggle",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "Apache-2.0",
+  "lock_entry": {
+    "integrity": "sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==",
+    "license": "Apache-2.0",
+    "resolved": "https://registry.npmjs.org/@juggle/resize-observer/-/resize-observer-3.4.0.tgz",
+    "version": "3.4.0"
+  },
+  "lock_path": "node_modules/@juggle/resize-observer",
+  "name": "@juggle/resize-observer",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 11340,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "293c905e2ec4f6c30c4684592898fd24215ac735f0601b07b158d1588c8a5af7",
+      "text_file": "image-notices/293c905e2ec4f6c30c4684592898fd24215ac735f0601b07b158d1588c8a5af7.txt"
+    }
+  ],
+  "package_license": "Apache-2.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 17564,
+    "installed_in_image": false,
+    "integrity": "sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@juggle/resize-observer/-/resize-observer-3.4.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "a32a22847dbbe80e53b635b7dfadb5207a524785e6dbb8dff82bd195ae7dccd1"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.4.0"
+}

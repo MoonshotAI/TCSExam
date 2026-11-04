@@ -1,0 +1,64 @@
+PACE2019: Track 1 - Vertex Cover Instances
+===========================================
+
+Data authors:
+  M. Ayaz Dzulfikar
+  Johannes K. Fichte
+  Markus Hecher
+
+Dataset record:
+  https://zenodo.org/records/3368306
+  https://doi.org/10.5281/zenodo.3368306
+
+The fixed Zenodo dataset record identifies the data as Creative Commons
+Attribution 4.0 International (CC BY 4.0).
+
+License:
+  https://creativecommons.org/licenses/by/4.0/
+Legal code:
+  https://creativecommons.org/licenses/by/4.0/legalcode
+Disclaimer of warranties and limitation of liability:
+  https://creativecommons.org/licenses/by/4.0/legalcode#s5
+
+The complete CC BY 4.0 text is supplied in the accompanying CC-BY-4.0.txt file.
+
+Official public input used for this product:
+  PACE 2019 Exact Track, public-v2, updated March 05, 2019
+  https://pacechallenge.org/2019/vc/vc_exact
+  https://pacechallenge.org/files/pace2019-vc-exact-public-v2.tar.bz2
+  Archive bytes: 10695845
+  Archive SHA-256: c78177cb5b2f7468bc652bd6e082f002495b26ba220bdc8eee9993ac6ff834c6
+  Archive SHA-1: e7ca305528a0257235a95c41742f2b3431e1e485
+  Official per-file SHA-1 listing:
+  https://pacechallenge.org/files/pace2019-vc-exact-public-shasums-v2.txt
+
+Cross-check source:
+  Zenodo file pace2019_track1_vc_exact_all.zip
+  https://zenodo.org/api/records/3368306/files/pace2019_track1_vc_exact_all.zip/content
+  Archive bytes: 17816798
+  Archive SHA-256: b6eef6c2ce1640309659e9d6fd32be5dc4c0e7812a7ccac8c8d1edda21bb71fe
+  Zenodo MD5: 33e9a2b7a064dce16ed1c5d1718a97ba
+
+Modifications made for the fixed public development data product:
+  The 100 odd-numbered public/vc-exact_NNN.gr files, NNN=001,003,...,199,
+  were compressed with XZ Utils 5.2.5 using:
+    --format=xz --stdout --check=crc64 -9
+  The outputs were renamed to app/instances/vc-exact_NNN.xz and their modes
+  were normalized to 0644. The graph plaintext was not changed. The output
+  manifest records every path, byte count, SHA-256 and mode.
+
+Original graph provenance and upstream conversion notes:
+  PACE 2019 report, section describing the benchmark instances:
+  https://doi.org/10.4230/LIPIcs.IPEC.2019.25
+  The report identifies PACE 2016/Treewidth, TransitGraphs, Road-graphs,
+  SNAP, frb, ASP Horn backdoors, SAT Horn backdoors, and SAT2VC sources.
+  These names and the report link are retained as upstream attribution.
+
+Scope of this notice:
+  This notice accompanies only the 100 odd-numbered public development
+  instances described above. It does not assert a separate permission for
+  even-numbered instances, hidden judging data, standard answers, software,
+  or complete task images. Software and other task components retain their
+  own notices and license terms.
+
+No endorsement by the original authors is asserted.

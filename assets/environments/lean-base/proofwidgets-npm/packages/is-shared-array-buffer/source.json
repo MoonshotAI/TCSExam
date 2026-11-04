@@ -1,0 +1,56 @@
+{
+  "author": {
+    "email": "ljharb@gmail.com",
+    "name": "Jordan Harband",
+    "url": "http://ljharb.codes"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "call-bound": "^1.0.3"
+    },
+    "engines": {
+      "node": ">= 0.4"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "integrity": "sha512-ISWac8drv4ZGfwKl5slpHG9OwPNty4jOWPRIhBpxOoD+hqITiwuipOQ2bNthAzwA3B4fIjO4Nln74N0S9byq8A==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/is-shared-array-buffer/-/is-shared-array-buffer-1.0.4.tgz",
+    "version": "1.0.4"
+  },
+  "lock_path": "node_modules/is-shared-array-buffer",
+  "name": "is-shared-array-buffer",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1067,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "e2560e002e13281578c75c850061d9255c33d16d732939e8c2db64c2506642fa",
+      "text_file": "image-notices/e2560e002e13281578c75c850061d9255c33d16d732939e8c2db64c2506642fa.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 6324,
+    "installed_in_image": false,
+    "integrity": "sha512-ISWac8drv4ZGfwKl5slpHG9OwPNty4jOWPRIhBpxOoD+hqITiwuipOQ2bNthAzwA3B4fIjO4Nln74N0S9byq8A==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/is-shared-array-buffer/-/is-shared-array-buffer-1.0.4.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "25a1adc92d64dcd3a153f336b452e7ea8e200aa9e9e8ce8cb8d05674f8b6878d"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.0.4"
+}

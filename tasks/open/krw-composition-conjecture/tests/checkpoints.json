@@ -1,0 +1,10 @@
+{
+  "task": "tcsexam/open-krw-composition-conjecture",
+  "namespace": "KRW.KRWConjecture",
+  "main_slots": [
+    "conj",
+    "refuted"
+  ],
+  "weight_note": "prove-or-refute v1 (mains-only): a clean proof of `conj` (the conjecture) or of `refuted` (its negation) scores 1.0; there is no partial credit — this is an open problem. Both slots are mandatory and must stay in the reference order (conj, refuted). Slot statements follow the reciprocal-share form of the KRW composition conjecture (Gavinsky–Meir–Weinstein–Wigderson, ECCC TR13-190 rev. 11 (2017), Conjecture 1.3 and footnote 3(ii)): D = formula depth over the De Morgan basis (binary AND/OR, leaves are constants and signed literals, leaf depth 0), block composition f diamond g on m x n variables, non-constancy of both functions is essential; there is a universal k ≥ 2 with k·D(f) + D(g) ≤ k·D(f ⋄ g) (natural multiplication, no truncated subtraction). The earlier universal-additive-constant form was replaced on 2026-09-18 after Pudlák's counterexample (recorded in KRW 1995, p. 196) was re-established in this environment (see PROVENANCE.md change log).",
+  "checkpoints": []
+}

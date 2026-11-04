@@ -1,0 +1,46 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/mr-roadef2012"
+version = "1.0.0"
+description = "Optimize a machine reassignment solver (ROADEF/EURO 2012 hidden instances, up to 50k processes x 5k machines): minimize the official challenge objective on hidden instances, scored against a naive shift/swap hill-climb baseline and verified best-known values (2012 finalists' minima, improved by later runs)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "machine-reassignment", "roadef2012", "local-search", "type-2-solver"]
+
+[metadata]
+family_id = "fam-mr"
+candidate_id = "cand-mr-roadef2012-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "Beating the naive shift/swap hill climb is easy (candidate biasing, annealing), but approaching the best-known values needs real metaheuristics under transient-aware capacity, conflict/spread/dependency constraints and a five-term objective with a max-coupling term; the continuous score rewards every unit of cost shaved off."
+
+[verifier]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 2400.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+
+[environment.env]
+TCSEXAM_TOKEN_ID = "${TCSEXAM_TOKEN_ID}"
+TCSEXAM_TOKEN_SECRET = "${TCSEXAM_TOKEN_SECRET}"
+TCSEXAM_BASE_URL = "${TCSEXAM_BASE_URL}"
+CLAUDE_CODE_EFFORT_LEVEL = "${CLAUDE_CODE_EFFORT_LEVEL}"
+CLAUDE_CODE_MAX_OUTPUT_TOKENS = "${CLAUDE_CODE_MAX_OUTPUT_TOKENS}"
+CLAUDE_CODE_AUTO_COMPACT_WINDOW = "${CLAUDE_CODE_AUTO_COMPACT_WINDOW}"
+CLAUDE_CODE_MAX_CONTEXT_TOKENS = "${CLAUDE_CODE_MAX_CONTEXT_TOKENS}"
+CLAUDE_CODE_MAX_RETRIES = "${CLAUDE_CODE_MAX_RETRIES}"
+CLAUDE_CODE_RETRY_WATCHDOG = "${CLAUDE_CODE_RETRY_WATCHDOG}"
+API_TIMEOUT_MS = "${API_TIMEOUT_MS}"

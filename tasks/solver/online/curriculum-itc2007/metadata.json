@@ -1,0 +1,53 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260920",
+   "kind": "shipped-baseline",
+   "measured_on": "judge-service"
+  },
+  "K": {
+   "ref": "tasks/curriculum-itc2007/PROVENANCE.md §B/K derivation: each OptHub optimal-solution file passed the official validator (comp05/comp12 are not proven optimal; the others are).",
+   "tier": "proven-optimal"
+  }
+ },
+ "family": "curriculum-timetabling",
+ "id": "curriculum-itc2007",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-curriculum-itc2007-judge-v17"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "CTT_TIME_LIMIT",
+  "n_hidden": 6,
+  "n_neither": 3,
+  "n_public": 12,
+  "per_instance_seconds": 240,
+  "shard_cores": 1,
+  "shard_mem_gb": 8,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "ITC 2007 Track 3",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "course/room permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "The 70/30 split is frozen (tests/split.json; 21 total → 12 public + 6 hidden + 3 neither). The 6 hidden instances were structure-preservingly transformed into hNN.ctt by permuting identifiers within the course, room, teacher, and curricula classes; days and periods are unchanged. B is a placeholder from before transformation and awaits batch remeasurement (tests/calibration/measure-manifest.json). 260920 holdout: 3 more public instances are assigned to neither; their names are stored only in the third bucket of split.json."
+ },
+ "subdomain": "timetabling",
+ "title": "Curriculum-based course timetabling"
+}

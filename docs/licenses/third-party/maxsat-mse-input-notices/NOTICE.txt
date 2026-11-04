@@ -1,0 +1,5 @@
+MaxSAT Evaluation 2026, Zenodo record 21358014, DOI 10.5281/zenodo.21358014.
+Record editors: Dieter Vandesande, Christoph Jabs, Jeremias Berg, Johannes Fichte, George Katsirelos, Ruben Martins, Andre Schidler and Dominik Schreiber.
+Selected benchmark inputs originate in the anytime weighted archive, whose record declares CC BY 4.0. Preserve original instance-author notices. Hidden copies retain the original project variable/clause relabeling and format conversion.
+The frozen public product additionally includes four unmodified Open-WBO reference papers. The benchmark record license does not authorize republication of those papers; their terms must be resolved separately before publishing the complete public product.
+Only explicit frozen input and documentation paths are included. No answers, proof files, solver logs, result tables, decryption material or credentials are included. This local review context does not authorize public upload.

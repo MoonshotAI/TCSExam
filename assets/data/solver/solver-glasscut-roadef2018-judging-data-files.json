@@ -1,0 +1,252 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/X10_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X10_batch.csv",
+      "git_blob": "41cd5a668695d4b8f523632bfb3294452b7c39f8",
+      "bytes": 7008,
+      "sha256": "e931be2f49588711b00c63651d934c47c0e9ce375ba6c585ca58207a969a0a80",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X10_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X10_defects.csv",
+      "git_blob": "581bedbbdc019046de245378f6ca4cd7b5dd88a4",
+      "bytes": 10400,
+      "sha256": "2ea1cc1c9ddb1e53173fe738d841058887fcf7c927cae8a783c6916d46c75f45",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X11_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X11_batch.csv",
+      "git_blob": "f2d4def53030457e71ed5986d05b50b748ca293e",
+      "bytes": 6679,
+      "sha256": "e2b0940b952c50b47a7a161fe89aef3da3c3b667a7c4d6cbab0f6f5f655e81f7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X11_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X11_defects.csv",
+      "git_blob": "901faf17813f92077093f53bcd90dd93b9403cf6",
+      "bytes": 5705,
+      "sha256": "9639ca7adafb7300d1e8d0466c906297e2d99e1bb10ddf1fc31090f545319ebf",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X12_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X12_batch.csv",
+      "git_blob": "826ec45eae55b23308562a0f6b43a6a1ec969c5a",
+      "bytes": 5579,
+      "sha256": "99d85d82c943583c1e8cf7a70f7127d9280a30f16c5f463dd7b30aad28703a2e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X12_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X12_defects.csv",
+      "git_blob": "f396abc14952b85c42a745f365c9bd0ec8dbae8c",
+      "bytes": 6282,
+      "sha256": "1e17f64a60fed0f17c628b19d5654645645b120e09ded566e8956a18ca5c069d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X13_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X13_batch.csv",
+      "git_blob": "5aa1ca7cd7bc1bb698d714a8004e70b2ae7f698c",
+      "bytes": 6365,
+      "sha256": "d15b6bf8c8b9ab2a75225bb762eb78abe5101bfcdeae876983cd2c90b28971a1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X13_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X13_defects.csv",
+      "git_blob": "cc381cc299ed404fd36b098260f91d46402ed9ea",
+      "bytes": 6244,
+      "sha256": "651c47db9a062f905c41f09341c18b9f78dd217bca4873a82b3d9bf5ea40cddb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X14_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X14_batch.csv",
+      "git_blob": "3cac396f330d2afc6617c2390b4a0d02eca70f2f",
+      "bytes": 4599,
+      "sha256": "dd7c57b69f2a1caf3371b54bd54e0817850288b2bfdd854f8ccf492d7971953c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X14_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X14_defects.csv",
+      "git_blob": "9f2d25f27f22bd380e310bedd3f94d5baca96572",
+      "bytes": 14260,
+      "sha256": "4f50afffafe14c42ee0978751f5e2405151856159653f1924ddba112f9421772",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X15_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X15_batch.csv",
+      "git_blob": "92104f6cc6df78094059f85945508feaf1b169f9",
+      "bytes": 5450,
+      "sha256": "c21e3f0a1e6cf761778eb24ba06fc59c39c1cb98370d4d07daca05cb1ce3a862",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X15_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X15_defects.csv",
+      "git_blob": "219d6a8ea374bb78bc616ce5369b8d3ee22f0831",
+      "bytes": 8120,
+      "sha256": "3b3cd465e94efbb06e3046f8f7c190ba4999aeb46e3e7337c659c1edb292667b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X1_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X1_batch.csv",
+      "git_blob": "e582388f4c381ed52665b34f0cf1c9e163f1bced",
+      "bytes": 5464,
+      "sha256": "8f45949dd93005a37de6859b416a75216991578c6e8bc3333802e3335026479e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X1_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X1_defects.csv",
+      "git_blob": "f73e505d86a3a43ae28f07972302b31a2cd5d3c0",
+      "bytes": 7188,
+      "sha256": "29a5d88f65afd83626290b687ff197d2bcedae0c03611bd8b8eb0d19fcbb825e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X2_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X2_batch.csv",
+      "git_blob": "3a916f5b437f95247d3cdba55b148e8f0fd484dc",
+      "bytes": 4666,
+      "sha256": "e20613fbb6d80946a39553e4819bb7289d4e73266dc84b797daa4833bd01b59f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X2_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X2_defects.csv",
+      "git_blob": "64a42c6ff893e50b4237df7a5fdfaaf3572d721b",
+      "bytes": 3727,
+      "sha256": "a4baa5c5f56c70694a9d4c87802617609ceedec7f00d35a5843087cae7bf2f43",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X3_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X3_batch.csv",
+      "git_blob": "68578c0ae87cdd0d5c4c87a70c54e79d356cd552",
+      "bytes": 4678,
+      "sha256": "bbc6b68f87577fc422942180b887bfc536184ce9adb46e1887c2b2612d8de8b0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X3_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X3_defects.csv",
+      "git_blob": "1f69d16ace5f56b72a62cb2fdc3ba35a948c7ba0",
+      "bytes": 6220,
+      "sha256": "c924a63a4e44a83efa592a6d8fb2c00511773078671e924978b0a061f2339ad0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X4_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X4_batch.csv",
+      "git_blob": "9e3d5d656ed59202cff60af55b25f410f5a6bfab",
+      "bytes": 6826,
+      "sha256": "30426ac743887e7a6db490896b52f857e61152e2b45217ca6b543932ab72fab9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X4_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X4_defects.csv",
+      "git_blob": "8bbb1c8b086f4766f3436ca29781f010771b61c4",
+      "bytes": 7915,
+      "sha256": "15d073737a817ca169e5cc11a48c006a911a67eb81022c2d6433cabcf7c08b46",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X5_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X5_batch.csv",
+      "git_blob": "d4906515d3c39c47505ac05733a42e9f734a9822",
+      "bytes": 2169,
+      "sha256": "02706a30857a8352e0b3c66e71a2ab986dd5f80e5dd961e6f8a585ee14d396ca",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X5_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X5_defects.csv",
+      "git_blob": "f12aa479ccad0ab2f11075d168ae893af7d04de9",
+      "bytes": 8510,
+      "sha256": "091b51643d4f7c9e5039e80b33392a0091fea8f2cf9ab5e4b84bdbc1f771a3e4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X6_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X6_batch.csv",
+      "git_blob": "76a6f955b1ec83d42e4e1553f7361b3e18e301cb",
+      "bytes": 7656,
+      "sha256": "86f23f3ef0a065029bcfdea43375231aa49432d1a8494085309c777d161efb91",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X6_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X6_defects.csv",
+      "git_blob": "b51d993ed446359f026480e9ad048170165c04ac",
+      "bytes": 6242,
+      "sha256": "4e3d9c9d2b99b17c7c899821b8067d2ba50a720329f093635df1e7dbd270f68b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X7_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X7_batch.csv",
+      "git_blob": "8a702afb6ef4838aec2e6f36e0ee9e962c692cb5",
+      "bytes": 4025,
+      "sha256": "b5d0fbdfba22ce12744eef0937e46d4a65596b12bdc7a01296c2086f04777334",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X7_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X7_defects.csv",
+      "git_blob": "72f5a254cbb79e97ccc92b870a03c6b24c74ad7e",
+      "bytes": 5835,
+      "sha256": "1d06b7f09e728015bdc90a51ab65e9ec1247f4311a2898c8af3594ae2cb8f0bf",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X8_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X8_batch.csv",
+      "git_blob": "3f9e1a74278539b46ddd80c5e884cb2153a64940",
+      "bytes": 3217,
+      "sha256": "4ad166b27f9f9f9bfccb7408bc30c1486bdffb3c557df4b3e5c7927c4837b6dc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X8_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X8_defects.csv",
+      "git_blob": "c7f41299a5517183c8d8d1d6b647a875b0b63e82",
+      "bytes": 8000,
+      "sha256": "954cda3f3803cec9cbf8798fbc7bf6abc99bf74c445149c0d1e2e16943be5624",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X9_batch.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X9_batch.csv",
+      "git_blob": "816b23db2e6b34c5bf10d935400054a8c0bfb143",
+      "bytes": 4318,
+      "sha256": "196080e9822d5c423e7ee66a38a7d8ab9779084f1b20cbc6b4b7fe87eaa66b3f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/X9_defects.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/X9_defects.csv",
+      "git_blob": "657f5b3f96c1aed3edfa4fda37b1f5707c3bed37",
+      "bytes": 9273,
+      "sha256": "c00e37d2b80ca9ba85520d0ef152294bc0225125a79b1c0a510d96de34939c5d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/global_param.csv",
+      "source_path": "tasks/solver/online/glasscut-roadef2018/tests/instances/global_param.csv",
+      "git_blob": "aa625d85ad63e7c8438ca77364a45ff39c1b97f1",
+      "bytes": 115,
+      "sha256": "c18168ff90cb7a5bfe8b9280635f883f37efa088983856c5f86e7a6047ff1f1b",
+      "mode": "0644"
+    }
+  ]
+}

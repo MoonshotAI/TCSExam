@@ -1,0 +1,53 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260913",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/qbf-qbfeval/PROVENANCE.md: per-instance results for QBFEVAL'20 track=1 on the qbflib portal; K=1 for the solver with the highest number solved in the official results.",
+   "tier": "competition-record"
+  }
+ },
+ "family": "qbf-solving",
+ "id": "qbf-qbfeval",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-qbf-qbfeval-judge-v14"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "QBF_INSTANCE_SECONDS",
+  "n_hidden": 57,
+  "n_public": 13,
+  "per_instance_seconds": 900,
+  "public_path": "/opt/qbf-public100",
+  "shard_cores": 4,
+  "shard_mem_gb": 16,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": "Q-resolution proof (qrp2rup + drat-trim chain)",
+  "direction": "max",
+  "kind": "decision"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "QBFEVAL'20",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "block permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "solve_rate shape: 57 judged instances (selected from a pool of 521 formulas and transformed by within-block permutation). B/K are per-instance solved flags (0/1); since 260913, an anchor is 1 iff a certificate is accepted by the judging pipeline within the 900 s per-instance budget."
+ },
+ "subdomain": "sat-qbf",
+ "title": "QBF solving"
+}

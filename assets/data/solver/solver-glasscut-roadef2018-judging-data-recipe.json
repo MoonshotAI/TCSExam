@@ -1,0 +1,177 @@
+{
+  "format": "official_archive",
+  "description": "Exact frozen ROADEF2018 batch, defects and global parameter input files selected from fixed official ZIP archives, plus the unchanged115-byte shared public task parameter file retained as a project asset. No solution, certificate, score or checker archive is opened.",
+  "sources": [
+    {
+      "id": "roadef2018-dataset_X",
+      "url": "https://www.roadef.org/challenge/2018/files/dataset_X.zip",
+      "format": "zip",
+      "bytes": 70249,
+      "sha256": "b0f6cdb3599e7f26dce5066edfffa8d5e07acc00edec7ee298b3fd9291345c16"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tests/instances/X10_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X10_batch.csv"
+    },
+    {
+      "path": "tests/instances/X10_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X10_defects.csv"
+    },
+    {
+      "path": "tests/instances/X11_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X11_batch.csv"
+    },
+    {
+      "path": "tests/instances/X11_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X11_defects.csv"
+    },
+    {
+      "path": "tests/instances/X12_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X12_batch.csv"
+    },
+    {
+      "path": "tests/instances/X12_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X12_defects.csv"
+    },
+    {
+      "path": "tests/instances/X13_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X13_batch.csv"
+    },
+    {
+      "path": "tests/instances/X13_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X13_defects.csv"
+    },
+    {
+      "path": "tests/instances/X14_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X14_batch.csv"
+    },
+    {
+      "path": "tests/instances/X14_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X14_defects.csv"
+    },
+    {
+      "path": "tests/instances/X15_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X15_batch.csv"
+    },
+    {
+      "path": "tests/instances/X15_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X15_defects.csv"
+    },
+    {
+      "path": "tests/instances/X1_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X1_batch.csv"
+    },
+    {
+      "path": "tests/instances/X1_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X1_defects.csv"
+    },
+    {
+      "path": "tests/instances/X2_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X2_batch.csv"
+    },
+    {
+      "path": "tests/instances/X2_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X2_defects.csv"
+    },
+    {
+      "path": "tests/instances/X3_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X3_batch.csv"
+    },
+    {
+      "path": "tests/instances/X3_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X3_defects.csv"
+    },
+    {
+      "path": "tests/instances/X4_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X4_batch.csv"
+    },
+    {
+      "path": "tests/instances/X4_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X4_defects.csv"
+    },
+    {
+      "path": "tests/instances/X5_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X5_batch.csv"
+    },
+    {
+      "path": "tests/instances/X5_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X5_defects.csv"
+    },
+    {
+      "path": "tests/instances/X6_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X6_batch.csv"
+    },
+    {
+      "path": "tests/instances/X6_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X6_defects.csv"
+    },
+    {
+      "path": "tests/instances/X7_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X7_batch.csv"
+    },
+    {
+      "path": "tests/instances/X7_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X7_defects.csv"
+    },
+    {
+      "path": "tests/instances/X8_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X8_batch.csv"
+    },
+    {
+      "path": "tests/instances/X8_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X8_defects.csv"
+    },
+    {
+      "path": "tests/instances/X9_batch.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X9_batch.csv"
+    },
+    {
+      "path": "tests/instances/X9_defects.csv",
+      "source_id": "roadef2018-dataset_X",
+      "source_member": "dataset_X/X9_defects.csv"
+    },
+    {
+      "path": "tests/instances/global_param.csv",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/glasscut-roadef2018/global_param.csv"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_archive_data.py",
+    "assets/data/solver/glasscut-roadef2018/global_param.csv"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Original official benchmark data terms remain unresolved; local reconstruction grants no upload approval."
+}

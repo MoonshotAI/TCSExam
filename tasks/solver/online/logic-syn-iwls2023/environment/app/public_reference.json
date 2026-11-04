@@ -1,0 +1,1004 @@
+{
+ "instances": {
+  "ex00": {
+   "B": 31,
+   "B_baseline": "pdf_dc2",
+   "K": 22,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex32, verified",
+   "baseline_sec": 0.04,
+   "m": 1,
+   "n": 6,
+   "truth": "ex00.truth"
+  },
+  "ex01": {
+   "B": 40,
+   "B_baseline": "pdf_dc2",
+   "K": 24,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex99, verified",
+   "baseline_sec": 0.04,
+   "m": 1,
+   "n": 6,
+   "truth": "ex01.truth"
+  },
+  "ex02": {
+   "B": 129,
+   "B_baseline": "pdf_dc2",
+   "K": 69,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex19, verified",
+   "baseline_sec": 0.04,
+   "m": 1,
+   "n": 8,
+   "truth": "ex02.truth"
+  },
+  "ex03": {
+   "B": 49,
+   "B_baseline": "pdf_dc2",
+   "K": 24,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.03,
+   "m": 1,
+   "n": 8,
+   "truth": "ex03.truth"
+  },
+  "ex04": {
+   "B": 518,
+   "B_baseline": "pdf_dc2",
+   "K": 287,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex86, verified",
+   "baseline_sec": 0.05,
+   "m": 1,
+   "n": 10,
+   "truth": "ex04.truth"
+  },
+  "ex05": {
+   "B": 120,
+   "B_baseline": "pdf_dc2",
+   "K": 38,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex55, verified",
+   "baseline_sec": 0.04,
+   "m": 1,
+   "n": 10,
+   "truth": "ex05.truth"
+  },
+  "ex06": {
+   "B": 1892,
+   "B_baseline": "pdf_dc2",
+   "K": 1056,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.09,
+   "m": 1,
+   "n": 12,
+   "truth": "ex06.truth"
+  },
+  "ex07": {
+   "B": 1073,
+   "B_baseline": "pdf_dc2",
+   "K": 112,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex25, verified",
+   "baseline_sec": 0.06,
+   "m": 1,
+   "n": 12,
+   "truth": "ex07.truth"
+  },
+  "ex08": {
+   "B": 929,
+   "B_baseline": "pdf_dc2",
+   "K": 528,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team epfl on the NPN-equivalent 2023 instance ex22, verified",
+   "baseline_sec": 0.06,
+   "m": 8,
+   "n": 8,
+   "truth": "ex08.truth"
+  },
+  "ex09": {
+   "B": 933,
+   "B_baseline": "pdf_dc2",
+   "K": 538,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex78, verified",
+   "baseline_sec": 0.06,
+   "m": 8,
+   "n": 8,
+   "truth": "ex09.truth"
+  },
+  "ex10": {
+   "B": 12,
+   "B_baseline": "pdf_dc2",
+   "K": 10,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.07,
+   "m": 1,
+   "n": 5,
+   "truth": "ex10.truth"
+  },
+  "ex11": {
+   "B": 24,
+   "B_baseline": "pdf_dc2",
+   "K": 20,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.04,
+   "m": 1,
+   "n": 7,
+   "truth": "ex11.truth"
+  },
+  "ex12": {
+   "B": 40,
+   "B_baseline": "pdf_dc2",
+   "K": 30,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team tuw, verified",
+   "baseline_sec": 0.04,
+   "m": 1,
+   "n": 9,
+   "truth": "ex12.truth"
+  },
+  "ex13": {
+   "B": 60,
+   "B_baseline": "pdf_dc2",
+   "K": 40,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex49, verified",
+   "baseline_sec": 0.04,
+   "m": 1,
+   "n": 11,
+   "truth": "ex13.truth"
+  },
+  "ex14": {
+   "B": 84,
+   "B_baseline": "pdf_dc2",
+   "K": 52,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex03, verified",
+   "baseline_sec": 0.04,
+   "m": 1,
+   "n": 13,
+   "truth": "ex14.truth"
+  },
+  "ex15": {
+   "B": 112,
+   "B_baseline": "pdf_dc2",
+   "K": 68,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex98, verified",
+   "baseline_sec": 0.06,
+   "m": 1,
+   "n": 15,
+   "truth": "ex15.truth"
+  },
+  "ex16": {
+   "B": 20,
+   "B_baseline": "pdf_dc2",
+   "K": 18,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.04,
+   "m": 5,
+   "n": 5,
+   "truth": "ex16.truth"
+  },
+  "ex17": {
+   "B": 32,
+   "B_baseline": "pdf_dc2",
+   "K": 24,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.03,
+   "m": 6,
+   "n": 6,
+   "truth": "ex17.truth"
+  },
+  "ex18": {
+   "B": 45,
+   "B_baseline": "pdf_dc2",
+   "K": 32,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.03,
+   "m": 7,
+   "n": 7,
+   "truth": "ex18.truth"
+  },
+  "ex19": {
+   "B": 63,
+   "B_baseline": "pdf_dc2",
+   "K": 38,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.04,
+   "m": 8,
+   "n": 8,
+   "truth": "ex19.truth"
+  },
+  "ex20": {
+   "B": 82,
+   "B_baseline": "pdf_dc2",
+   "K": 46,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex83, verified",
+   "baseline_sec": 0.04,
+   "m": 9,
+   "n": 9,
+   "truth": "ex20.truth"
+  },
+  "ex21": {
+   "B": 109,
+   "B_baseline": "pdf_dc2",
+   "K": 56,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex63, verified",
+   "baseline_sec": 0.04,
+   "m": 10,
+   "n": 10,
+   "truth": "ex21.truth"
+  },
+  "ex22": {
+   "B": 135,
+   "B_baseline": "pdf_dc2",
+   "K": 63,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex45, verified",
+   "baseline_sec": 0.04,
+   "m": 11,
+   "n": 11,
+   "truth": "ex22.truth"
+  },
+  "ex23": {
+   "B": 166,
+   "B_baseline": "pdf_dc2",
+   "K": 72,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex38, verified",
+   "baseline_sec": 0.06,
+   "m": 12,
+   "n": 12,
+   "truth": "ex23.truth"
+  },
+  "ex24": {
+   "B": 195,
+   "B_baseline": "pdf_dc2",
+   "K": 90,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex69, verified",
+   "baseline_sec": 0.09,
+   "m": 13,
+   "n": 13,
+   "truth": "ex24.truth"
+  },
+  "ex25": {
+   "B": 242,
+   "B_baseline": "pdf_dc2",
+   "K": 90,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex36, verified",
+   "baseline_sec": 0.16,
+   "m": 14,
+   "n": 14,
+   "truth": "ex25.truth"
+  },
+  "ex26": {
+   "B": 281,
+   "B_baseline": "pdf_dc2",
+   "K": 114,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex56, verified",
+   "baseline_sec": 0.38,
+   "m": 15,
+   "n": 15,
+   "truth": "ex26.truth"
+  },
+  "ex27": {
+   "B": 329,
+   "B_baseline": "pdf_dc2",
+   "K": 138,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex59, verified",
+   "baseline_sec": 1.08,
+   "m": 16,
+   "n": 16,
+   "truth": "ex27.truth"
+  },
+  "ex28": {
+   "B": 99,
+   "B_baseline": "pdf_dc2",
+   "K": 39,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.04,
+   "m": 10,
+   "n": 7,
+   "truth": "ex28.truth"
+  },
+  "ex29": {
+   "B": 55,
+   "B_baseline": "pdf_dc2",
+   "K": 35,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex53, verified",
+   "baseline_sec": 0.04,
+   "m": 1,
+   "n": 9,
+   "truth": "ex29.truth"
+  },
+  "ex30": {
+   "B": 888,
+   "B_baseline": "pdf_dc2",
+   "K": 68,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.11,
+   "m": 8,
+   "n": 14,
+   "truth": "ex30.truth"
+  },
+  "ex31": {
+   "B": 2319,
+   "B_baseline": "pdf_dc2",
+   "K": 1280,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex48, verified",
+   "baseline_sec": 0.1,
+   "m": 18,
+   "n": 9,
+   "truth": "ex31.truth"
+  },
+  "ex32": {
+   "B": 52,
+   "B_baseline": "pdf_dc2",
+   "K": 44,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team tuw, verified",
+   "baseline_sec": 0.14,
+   "m": 9,
+   "n": 15,
+   "truth": "ex32.truth"
+  },
+  "ex33": {
+   "B": 148,
+   "B_baseline": "pdf_dc2",
+   "K": 70,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex65, verified",
+   "baseline_sec": 0.04,
+   "m": 28,
+   "n": 5,
+   "truth": "ex33.truth"
+  },
+  "ex34": {
+   "B": 147,
+   "B_baseline": "pdf_dc2",
+   "K": 44,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex97, verified",
+   "baseline_sec": 0.04,
+   "m": 5,
+   "n": 9,
+   "truth": "ex34.truth"
+  },
+  "ex35": {
+   "B": 17,
+   "B_baseline": "pdf_dc2",
+   "K": 15,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team ntu, verified",
+   "baseline_sec": 0.03,
+   "m": 2,
+   "n": 7,
+   "truth": "ex35.truth"
+  },
+  "ex36": {
+   "B": 2531,
+   "B_baseline": "pdf_dc2",
+   "K": 1345,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.1,
+   "m": 10,
+   "n": 10,
+   "truth": "ex36.truth"
+  },
+  "ex37": {
+   "B": 268,
+   "B_baseline": "pdf_dc2",
+   "K": 138,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex24, verified",
+   "baseline_sec": 0.04,
+   "m": 63,
+   "n": 8,
+   "truth": "ex37.truth"
+  },
+  "ex38": {
+   "B": 56,
+   "B_baseline": "pdf_dc2",
+   "K": 27,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex04, verified",
+   "baseline_sec": 0.03,
+   "m": 7,
+   "n": 8,
+   "truth": "ex38.truth"
+  },
+  "ex39": {
+   "B": 958,
+   "B_baseline": "pdf_dc2",
+   "K": 181,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex26, verified",
+   "baseline_sec": 0.08,
+   "m": 14,
+   "n": 14,
+   "truth": "ex39.truth"
+  },
+  "ex40": {
+   "B": 588,
+   "B_baseline": "pdf_dc2",
+   "K": 180,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex31, verified",
+   "baseline_sec": 0.17,
+   "m": 40,
+   "n": 16,
+   "truth": "ex40.truth"
+  },
+  "ex41": {
+   "B": 25,
+   "B_baseline": "pdf_dc2",
+   "K": 17,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 5,
+   "truth": "ex41.truth"
+  },
+  "ex42": {
+   "B": 79,
+   "B_baseline": "pdf_dc2",
+   "K": 28,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 7,
+   "truth": "ex42.truth"
+  },
+  "ex43": {
+   "B": 115,
+   "B_baseline": "pdf_dc2",
+   "K": 37,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.04,
+   "m": 4,
+   "n": 8,
+   "truth": "ex43.truth"
+  },
+  "ex44": {
+   "B": 118,
+   "B_baseline": "pdf_dc2",
+   "K": 51,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex68, verified",
+   "baseline_sec": 0.04,
+   "m": 4,
+   "n": 10,
+   "truth": "ex44.truth"
+  },
+  "ex45": {
+   "B": 561,
+   "B_baseline": "pdf_dc2",
+   "K": 179,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex94, verified",
+   "baseline_sec": 0.18,
+   "m": 46,
+   "n": 16,
+   "truth": "ex45.truth"
+  },
+  "ex46": {
+   "B": 47,
+   "B_baseline": "pdf_dc2",
+   "K": 31,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex14, verified",
+   "baseline_sec": 0.04,
+   "m": 8,
+   "n": 5,
+   "truth": "ex46.truth"
+  },
+  "ex47": {
+   "B": 44,
+   "B_baseline": "pdf_dc2",
+   "K": 25,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.07,
+   "m": 1,
+   "n": 16,
+   "truth": "ex47.truth"
+  },
+  "ex48": {
+   "B": 1517,
+   "B_baseline": "pdf_dc2",
+   "K": 406,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex09, verified",
+   "baseline_sec": 0.09,
+   "m": 14,
+   "n": 14,
+   "truth": "ex48.truth"
+  },
+  "ex49": {
+   "B": 101,
+   "B_baseline": "pdf_dc2",
+   "K": 39,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.04,
+   "m": 10,
+   "n": 7,
+   "truth": "ex49.truth"
+  },
+  "ex50": {
+   "B": 19,
+   "B_baseline": "pdf_dc2",
+   "K": 18,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.03,
+   "m": 2,
+   "n": 8,
+   "truth": "ex50.truth"
+  },
+  "ex51": {
+   "B": 79,
+   "B_baseline": "pdf_dc2",
+   "K": 27,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team epfl on the NPN-equivalent 2023 instance ex90, verified",
+   "baseline_sec": 0.04,
+   "m": 2,
+   "n": 8,
+   "truth": "ex51.truth"
+  },
+  "ex52": {
+   "B": 26,
+   "B_baseline": "pdf_dc2",
+   "K": 19,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.03,
+   "m": 2,
+   "n": 8,
+   "truth": "ex52.truth"
+  },
+  "ex53": {
+   "B": 65,
+   "B_baseline": "pdf_dc2",
+   "K": 35,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex44, verified",
+   "baseline_sec": 0.03,
+   "m": 2,
+   "n": 8,
+   "truth": "ex53.truth"
+  },
+  "ex54": {
+   "B": 13,
+   "B_baseline": "pdf_dc2",
+   "K": 12,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team tuw, verified",
+   "baseline_sec": 0.03,
+   "m": 2,
+   "n": 8,
+   "truth": "ex54.truth"
+  },
+  "ex55": {
+   "B": 258,
+   "B_baseline": "pdf_dc2",
+   "K": 115,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex47, verified",
+   "baseline_sec": 0.04,
+   "m": 7,
+   "n": 8,
+   "truth": "ex55.truth"
+  },
+  "ex56": {
+   "B": 31,
+   "B_baseline": "pdf_dc2",
+   "K": 29,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 12,
+   "truth": "ex56.truth"
+  },
+  "ex57": {
+   "B": 1112,
+   "B_baseline": "pdf_dc2",
+   "K": 81,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex74, verified",
+   "baseline_sec": 0.09,
+   "m": 3,
+   "n": 12,
+   "truth": "ex57.truth"
+  },
+  "ex58": {
+   "B": 170,
+   "B_baseline": "pdf_dc2",
+   "K": 77,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex85, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 12,
+   "truth": "ex58.truth"
+  },
+  "ex59": {
+   "B": 655,
+   "B_baseline": "pdf_dc2",
+   "K": 182,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex01, verified",
+   "baseline_sec": 0.05,
+   "m": 3,
+   "n": 12,
+   "truth": "ex59.truth"
+  },
+  "ex60": {
+   "B": 108,
+   "B_baseline": "pdf_dc2",
+   "K": 56,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex00, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 12,
+   "truth": "ex60.truth"
+  },
+  "ex61": {
+   "B": 4055,
+   "B_baseline": "pdf_dc2",
+   "K": 1319,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex34, verified",
+   "baseline_sec": 0.16,
+   "m": 11,
+   "n": 12,
+   "truth": "ex61.truth"
+  },
+  "ex62": {
+   "B": 54,
+   "B_baseline": "pdf_dc2",
+   "K": 40,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.15,
+   "m": 4,
+   "n": 16,
+   "truth": "ex62.truth"
+  },
+  "ex63": {
+   "B": 13998,
+   "B_baseline": "pdf_dc2",
+   "K": 168,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex51, verified",
+   "baseline_sec": 0.62,
+   "m": 4,
+   "n": 16,
+   "truth": "ex63.truth"
+  },
+  "ex64": {
+   "B": 1157,
+   "B_baseline": "pdf_dc2",
+   "K": 317,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex02, verified",
+   "baseline_sec": 0.08,
+   "m": 4,
+   "n": 16,
+   "truth": "ex64.truth"
+  },
+  "ex65": {
+   "B": 7121,
+   "B_baseline": "pdf_dc2",
+   "K": 1182,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex66, verified",
+   "baseline_sec": 0.4,
+   "m": 4,
+   "n": 16,
+   "truth": "ex65.truth"
+  },
+  "ex66": {
+   "B": 747,
+   "B_baseline": "pdf_dc2",
+   "K": 239,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex50, verified",
+   "baseline_sec": 0.16,
+   "m": 4,
+   "n": 16,
+   "truth": "ex66.truth"
+  },
+  "ex67": {
+   "B": 8479,
+   "B_baseline": "pdf_dc2",
+   "K": 4911,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl, verified",
+   "baseline_sec": 0.28,
+   "m": 77,
+   "n": 10,
+   "truth": "ex67.truth"
+  },
+  "ex68": {
+   "B": 746,
+   "B_baseline": "pdf_dc2",
+   "K": 118,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex75, verified",
+   "baseline_sec": 0.08,
+   "m": 3,
+   "n": 12,
+   "truth": "ex68.truth"
+  },
+  "ex69": {
+   "B": 701,
+   "B_baseline": "pdf_dc2",
+   "K": 106,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex37, verified",
+   "baseline_sec": 0.05,
+   "m": 3,
+   "n": 12,
+   "truth": "ex69.truth"
+  },
+  "ex70": {
+   "B": 1160,
+   "B_baseline": "pdf_dc2",
+   "K": 92,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex43, verified",
+   "baseline_sec": 0.06,
+   "m": 3,
+   "n": 12,
+   "truth": "ex70.truth"
+  },
+  "ex71": {
+   "B": 1039,
+   "B_baseline": "pdf_dc2",
+   "K": 137,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex33, verified",
+   "baseline_sec": 0.06,
+   "m": 3,
+   "n": 12,
+   "truth": "ex71.truth"
+  },
+  "ex72": {
+   "B": 1950,
+   "B_baseline": "pdf_dc2",
+   "K": 142,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex16, verified",
+   "baseline_sec": 0.09,
+   "m": 3,
+   "n": 12,
+   "truth": "ex72.truth"
+  },
+  "ex73": {
+   "B": 782,
+   "B_baseline": "pdf_dc2",
+   "K": 89,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex72, verified",
+   "baseline_sec": 0.06,
+   "m": 3,
+   "n": 12,
+   "truth": "ex73.truth"
+  },
+  "ex74": {
+   "B": 2092,
+   "B_baseline": "pdf_dc2",
+   "K": 226,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex70, verified",
+   "baseline_sec": 0.1,
+   "m": 3,
+   "n": 12,
+   "truth": "ex74.truth"
+  },
+  "ex75": {
+   "B": 1957,
+   "B_baseline": "pdf_dc2",
+   "K": 175,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex11, verified",
+   "baseline_sec": 0.09,
+   "m": 3,
+   "n": 12,
+   "truth": "ex75.truth"
+  },
+  "ex76": {
+   "B": 654,
+   "B_baseline": "pdf_dc2",
+   "K": 167,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex20, verified",
+   "baseline_sec": 0.05,
+   "m": 3,
+   "n": 12,
+   "truth": "ex76.truth"
+  },
+  "ex77": {
+   "B": 773,
+   "B_baseline": "pdf_dc2",
+   "K": 224,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex80, verified",
+   "baseline_sec": 0.06,
+   "m": 3,
+   "n": 12,
+   "truth": "ex77.truth"
+  },
+  "ex78": {
+   "B": 848,
+   "B_baseline": "pdf_dc2",
+   "K": 290,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex58, verified",
+   "baseline_sec": 0.06,
+   "m": 3,
+   "n": 12,
+   "truth": "ex78.truth"
+  },
+  "ex79": {
+   "B": 994,
+   "B_baseline": "pdf_dc2",
+   "K": 188,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex67, verified",
+   "baseline_sec": 0.06,
+   "m": 3,
+   "n": 12,
+   "truth": "ex79.truth"
+  },
+  "ex80": {
+   "B": 2151,
+   "B_baseline": "pdf_dc2",
+   "K": 435,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex54, verified",
+   "baseline_sec": 0.09,
+   "m": 3,
+   "n": 12,
+   "truth": "ex80.truth"
+  },
+  "ex81": {
+   "B": 1059,
+   "B_baseline": "pdf_dc2",
+   "K": 215,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex87, verified",
+   "baseline_sec": 0.06,
+   "m": 3,
+   "n": 12,
+   "truth": "ex81.truth"
+  },
+  "ex82": {
+   "B": 2419,
+   "B_baseline": "pdf_dc2",
+   "K": 568,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex05, verified",
+   "baseline_sec": 0.11,
+   "m": 3,
+   "n": 12,
+   "truth": "ex82.truth"
+  },
+  "ex83": {
+   "B": 2273,
+   "B_baseline": "pdf_dc2",
+   "K": 588,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team ucb, verified",
+   "baseline_sec": 0.1,
+   "m": 3,
+   "n": 12,
+   "truth": "ex83.truth"
+  },
+  "ex84": {
+   "B": 242,
+   "B_baseline": "pdf_dc2",
+   "K": 112,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex76, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 12,
+   "truth": "ex84.truth"
+  },
+  "ex85": {
+   "B": 421,
+   "B_baseline": "pdf_dc2",
+   "K": 168,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex77, verified",
+   "baseline_sec": 0.05,
+   "m": 3,
+   "n": 12,
+   "truth": "ex85.truth"
+  },
+  "ex86": {
+   "B": 327,
+   "B_baseline": "pdf_dc2",
+   "K": 146,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex92, verified",
+   "baseline_sec": 0.05,
+   "m": 3,
+   "n": 12,
+   "truth": "ex86.truth"
+  },
+  "ex87": {
+   "B": 821,
+   "B_baseline": "pdf_dc2",
+   "K": 322,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex27, verified",
+   "baseline_sec": 0.06,
+   "m": 3,
+   "n": 12,
+   "truth": "ex87.truth"
+  },
+  "ex88": {
+   "B": 742,
+   "B_baseline": "pdf_dc2",
+   "K": 261,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex64, verified",
+   "baseline_sec": 0.06,
+   "m": 3,
+   "n": 12,
+   "truth": "ex88.truth"
+  },
+  "ex89": {
+   "B": 786,
+   "B_baseline": "pdf_dc2",
+   "K": 172,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex60, verified",
+   "baseline_sec": 0.06,
+   "m": 3,
+   "n": 12,
+   "truth": "ex89.truth"
+  },
+  "ex90": {
+   "B": 1641,
+   "B_baseline": "pdf_dc2",
+   "K": 413,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex28, verified",
+   "baseline_sec": 0.08,
+   "m": 3,
+   "n": 12,
+   "truth": "ex90.truth"
+  },
+  "ex91": {
+   "B": 676,
+   "B_baseline": "pdf_dc2",
+   "K": 200,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex88, verified",
+   "baseline_sec": 0.05,
+   "m": 3,
+   "n": 12,
+   "truth": "ex91.truth"
+  },
+  "ex92": {
+   "B": 36,
+   "B_baseline": "pdf_dc2",
+   "K": 29,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team ntu, verified",
+   "baseline_sec": 0.03,
+   "m": 3,
+   "n": 10,
+   "truth": "ex92.truth"
+  },
+  "ex93": {
+   "B": 62,
+   "B_baseline": "pdf_dc2",
+   "K": 40,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex06, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 12,
+   "truth": "ex93.truth"
+  },
+  "ex94": {
+   "B": 80,
+   "B_baseline": "pdf_dc2",
+   "K": 33,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex46, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 11,
+   "truth": "ex94.truth"
+  },
+  "ex95": {
+   "B": 123,
+   "B_baseline": "pdf_dc2",
+   "K": 61,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex40, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 11,
+   "truth": "ex95.truth"
+  },
+  "ex96": {
+   "B": 205,
+   "B_baseline": "pdf_dc2",
+   "K": 71,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex61, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 12,
+   "truth": "ex96.truth"
+  },
+  "ex97": {
+   "B": 134,
+   "B_baseline": "pdf_dc2",
+   "K": 60,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex91, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 12,
+   "truth": "ex97.truth"
+  },
+  "ex98": {
+   "B": 483,
+   "B_baseline": "pdf_dc2",
+   "K": 128,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google on the NPN-equivalent 2023 instance ex73, verified",
+   "baseline_sec": 0.05,
+   "m": 3,
+   "n": 12,
+   "truth": "ex98.truth"
+  },
+  "ex99": {
+   "B": 162,
+   "B_baseline": "pdf_dc2",
+   "K": 78,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw on the NPN-equivalent 2023 instance ex42, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 12,
+   "truth": "ex99.truth"
+  }
+ }
+}

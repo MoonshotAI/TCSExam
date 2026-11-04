@@ -1,0 +1,269 @@
+{
+ "instances": {
+  "ex001.txt": {
+   "B": 871,
+   "B_status": "measured",
+   "K": 689,
+   "K_source": "literature best-known (not proven); min of three sources per the full-set decision: Yelbay-Birbil-Bulbul 2014 table 2 (689/945/1064/1528), MIPLIB 2017 core series (691/944/1062/1530), MDPI 2023 (691/952/1065/1538)",
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "RAIL",
+   "m": 2536,
+   "n": 1081841,
+   "proven_optimal": false
+  },
+  "ex007.txt": {
+   "B": 253,
+   "B_status": "measured",
+   "K": 211,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "RAIL",
+   "m": 582,
+   "n": 55515,
+   "proven_optimal": true
+  },
+  "ex009.txt": {
+   "B": 523,
+   "B_status": "measured",
+   "K": 514,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "4",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "ex013.txt": {
+   "B": 519,
+   "B_status": "measured",
+   "K": 512,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "4",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "ex016.txt": {
+   "B": 530,
+   "B_status": "measured",
+   "K": 492,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "4",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "ex019.txt": {
+   "B": 275,
+   "B_status": "measured",
+   "K": 265,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "5",
+   "m": 200,
+   "n": 2000,
+   "proven_optimal": true
+  },
+  "ex023.txt": {
+   "B": 216,
+   "B_status": "measured",
+   "K": 211,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "5",
+   "m": 200,
+   "n": 2000,
+   "proven_optimal": true
+  },
+  "ex026.txt": {
+   "B": 304,
+   "B_status": "measured",
+   "K": 288,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "5",
+   "m": 200,
+   "n": 2000,
+   "proven_optimal": true
+  },
+  "ex029.txt": {
+   "B": 158,
+   "B_status": "measured",
+   "K": 146,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "6",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "ex031.txt": {
+   "B": 136,
+   "B_status": "measured",
+   "K": 131,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "6",
+   "m": 200,
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "ex034.txt": {
+   "B": 260,
+   "B_status": "measured",
+   "K": 252,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "A",
+   "m": 300,
+   "n": 3000,
+   "proven_optimal": true
+  },
+  "ex036.txt": {
+   "B": 245,
+   "B_status": "measured",
+   "K": 234,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "A",
+   "m": 300,
+   "n": 3000,
+   "proven_optimal": true
+  },
+  "ex039.txt": {
+   "B": 87,
+   "B_status": "measured",
+   "K": 76,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "B",
+   "m": 300,
+   "n": 3000,
+   "proven_optimal": true
+  },
+  "ex041.txt": {
+   "B": 89,
+   "B_status": "measured",
+   "K": 79,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "B",
+   "m": 300,
+   "n": 3000,
+   "proven_optimal": true
+  },
+  "ex044.txt": {
+   "B": 227,
+   "B_status": "measured",
+   "K": 219,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "C",
+   "m": 400,
+   "n": 4000,
+   "proven_optimal": true
+  },
+  "ex046.txt": {
+   "B": 241,
+   "B_status": "measured",
+   "K": 219,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "C",
+   "m": 400,
+   "n": 4000,
+   "proven_optimal": true
+  },
+  "ex050.txt": {
+   "B": 28,
+   "B_status": "measured",
+   "K": 23,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "CLR",
+   "m": 2047,
+   "n": 495,
+   "proven_optimal": false
+  },
+  "ex053.txt": {
+   "B": 162,
+   "B_status": "measured",
+   "K": 144,
+   "K_source": "literature best-known (not proven): Yelbay-Birbil-Bulbul 2014 table 4 dagger column (origins Grossman-Wool 1997 and follow-ups)",
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "CYC",
+   "m": 672,
+   "n": 448,
+   "proven_optimal": false
+  },
+  "ex056.txt": {
+   "B": 2115,
+   "B_status": "measured",
+   "K": 1792,
+   "K_source": "literature best-known (not proven): Yelbay-Birbil-Bulbul 2014 table 4 dagger column (origins Grossman-Wool 1997 and follow-ups)",
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "CYC",
+   "m": 11520,
+   "n": 5120,
+   "proven_optimal": false
+  },
+  "ex059.txt": {
+   "B": 71,
+   "B_status": "measured",
+   "K": 66,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "D",
+   "m": 400,
+   "n": 4000,
+   "proven_optimal": true
+  },
+  "ex061.txt": {
+   "B": 66,
+   "B_status": "measured",
+   "K": 62,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "D",
+   "m": 400,
+   "n": 4000,
+   "proven_optimal": true
+  },
+  "ex065.txt": {
+   "B": 5,
+   "B_status": "measured",
+   "K": 5,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "E",
+   "m": 50,
+   "n": 500,
+   "proven_optimal": true
+  },
+  "ex070.txt": {
+   "B": 30,
+   "B_status": "measured",
+   "K": 27,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "NRE",
+   "m": 500,
+   "n": 5000,
+   "proven_optimal": true
+  },
+  "ex075.txt": {
+   "B": 16,
+   "B_status": "measured",
+   "K": 14,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "NRF",
+   "m": 500,
+   "n": 5000,
+   "proven_optimal": true
+  },
+  "ex080.txt": {
+   "B": 179,
+   "B_status": "measured",
+   "K": 166,
+   "K_source": "literature best-known (not proven): Yelbay-Birbil-Bulbul 2014 table 1 dagger column (origin Caprara-Fischetti-Toth 1999)",
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "NRG",
+   "m": 1000,
+   "n": 10000,
+   "proven_optimal": false
+  },
+  "ex085.txt": {
+   "B": 66,
+   "B_status": "measured",
+   "K": 59,
+   "K_source": "literature best-known (not proven): Yelbay-Birbil-Bulbul 2014 table 1 dagger column (origin Caprara-Fischetti-Toth 1999)",
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/8G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 30s×26=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "group": "NRH",
+   "m": 1000,
+   "n": 10000,
+   "proven_optimal": false
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "task": "tasks/solver/online/christmas-tree-ahc041",
+  "remove_paths": ["/tests"],
+  "allow_content_paths": [
+    "/tests-public",
+    "/public-instances",
+    "/public_reference.json",
+    "/judge",
+    "/opt/ahc041/scoring.py",
+    "/opt/ahc041/public_runner.py",
+    "/app/public_reference.json",
+    "/app/instances",
+    "/app/tools",
+    "/app/score_public.py"
+  ],
+  "required_paths": [
+    "/judge/entry.sh",
+    "/judge/judge_worker.py",
+    "/tests-public/checker.py",
+    "/tests-public/reference.json",
+    "/public-instances",
+    "/public_reference.json",
+    "/opt/ahc041/scoring.py",
+    "/opt/ahc041/public_runner.py",
+    "/app/public_reference.json",
+    "/app/instances",
+    "/app/tools"
+  ]
+}

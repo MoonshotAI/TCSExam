@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "checked": "2026-10-29",
+  "scope": "Graphviz-specific EPL-2.0 notice and corresponding-source materials accompanying the public Lean candidate. Other browser components and image software are outside this record.",
+  "image_install_directory": "/usr/share/doc/tcsexam/graphviz-epl",
+  "proofwidgets": {
+    "commit": "b1436dc749e722c9920036b52cdc43b3451d0b69",
+    "repository": "https://github.com/leanprover-community/ProofWidgets4",
+    "browser_files": [
+      "widget/js/graphvizDisplay.js",
+      "widget/js/index.js"
+    ]
+  },
+  "graphviz": {
+    "version": "15.0.0",
+    "license": "EPL-2.0",
+    "wasm_sha256": "b73447cdf82c85bc61be2ebb78f1ac17a70fb7567c9f739268d7542e88cc421c",
+    "license_file": "EPL-2.0.txt",
+    "archive": {
+      "file": "source/graphviz-15.0.0.tar.gz",
+      "official_url": "https://gitlab.com/graphviz/graphviz/-/archive/15.0.0/graphviz-15.0.0.tar.gz",
+      "archive_root": "graphviz-15.0.0",
+      "member_count": 3402,
+      "bytes": 41113527,
+      "sha256": "dfa5be5c311f760aa9c88273c8f8101bb11f50b0de8b29bbd54acff3adc2d563",
+      "sha512": "d69e2dd7b5127650b6e09de92508a84886d52d5dfd1eacf9e6abb797ca231db3c1b12546c7b8561e311150cd62be8dfea689021b7d139ffcdb3d4e16da670352",
+      "expected_sha512_from_wrapper_portfile": "d69e2dd7b5127650b6e09de92508a84886d52d5dfd1eacf9e6abb797ca231db3c1b12546c7b8561e311150cd62be8dfea689021b7d139ffcdb3d4e16da670352",
+      "full_archive_downloaded": true,
+      "archive_read_verified": true,
+      "independently_verified": true,
+      "signature_verified": false
+    }
+  },
+  "wrapper": {
+    "package": "@hpcc-js/wasm",
+    "version": "2.34.2",
+    "commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+    "license": "Apache-2.0",
+    "wrapper_license_does_not_cover_graphviz": true,
+    "license_file": "WRAPPER-APACHE-2.0.txt",
+    "archive": {
+      "file": "source/hpcc-js-wasm-8b86e2f83cc7344aca44fb3d8aa29a227358c5c4.tar.gz",
+      "official_url": "https://github.com/hpcc-systems/hpcc-js-wasm/archive/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4.tar.gz",
+      "archive_root": "hpcc-js-wasm-8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "member_count": 360,
+      "bytes": 455080,
+      "sha256": "5443207dda2c30581e0632c8add206fcae3906f5faf20d4a0808499934743ee6",
+      "sha512": "1a195429ba1d9d47803a78fc700c601ffcbd340d42b3c753f0f2a77cec4782768844b658227543bad7597ea5af553590c401a25ccc1aefea31a6b04f19e16a63",
+      "full_archive_downloaded": true,
+      "archive_read_verified": true,
+      "independently_verified": true,
+      "signature_verified": false,
+      "fixed_commit_basis": "The full commit is in the official archive URL and matches npm 2.34.2 metadata gitHead."
+    }
+  },
+  "build_inputs": {
+    "readable_build_rules_directory": "build-rules",
+    "emsdk_version": "6.0.0",
+    "emsdk_repository": "https://github.com/emscripten-core/emsdk",
+    "vcpkg_version": "2026.06.01",
+    "vcpkg_repository": "https://github.com/microsoft/vcpkg",
+    "principal_source_paths": [
+      "build-rules/scripts/cpp-install-emsdk.sh",
+      "build-rules/scripts/cpp-install-vcpkg.sh",
+      "build-rules/scripts/cpp-build.sh",
+      "build-rules/packages/graphviz/CMakeLists.txt",
+      "build-rules/packages/graphviz/src-cpp/main.cpp",
+      "build-rules/vcpkg-overlays/graphviz/portfile.cmake",
+      "build-rules/vcpkg-overlays/graphviz/CMakeLists.txt",
+      "build-rules/vcpkg-overlays/graphviz/cmake/config_checks.cmake"
+    ],
+    "wasm_rebuild_executed": false,
+    "bit_identical_wasm_claimed": false
+  },
+  "docker_build_sources": {
+    "context": "assets/environments/lean-base",
+    "notice_entry": "assets/environments/lean-base/NOTICE.md",
+    "graphviz_materials": "assets/environments/lean-base/graphviz-epl",
+    "dockerfile": "assets/environments/lean-base/Dockerfile"
+  },
+  "archive_set_complete": true,
+  "other_component_review_complete": false
+}

@@ -1,0 +1,13 @@
+{
+  "main_theorem": "corners_quasipoly_bound",
+  "namespace": "CornersQuasipoly",
+  "checkpoints": [
+    {
+      "name": "corners_quasipoly_bound",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 1.1 of Jaber-Liu-Lovett-Ostuni-Sawhney (arXiv 2504.07006v2): there is a constant c > 0 such that every corner-free A in G x G over a finite abelian group G satisfies |A| <= |G|^2*exp(-c*(log|G|)^{1/600})."
+    }
+  ]
+}

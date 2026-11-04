@@ -1,0 +1,48 @@
+{
+  "checked": "2026-10-13",
+  "repo": "https://github.com/peitl/qrp2rup",
+  "adopted_commit": "0b7b9569bd19fdb946e0eb48ef13431635baeced",
+  "history_head": "0b7b9569bd19fdb946e0eb48ef13431635baeced",
+  "commits_checked": 49,
+  "history_license_filename_matches": [],
+  "history_content_license_matches": [],
+  "content_search": "git log --all -i -G copyright|licen[sc]e|permission is hereby|SPDX",
+  "releases_checked": [
+    {
+      "tag": "v0.0.2rc1",
+      "url": "https://github.com/peitl/qrp2rup/releases/tag/v0.0.2rc1",
+      "description": "This release was used to perform the experiments in the SAT 2026 submission #17\r\nStrong (D)QBF Dependency Schemes via Pure Paths with Applications to Proof Checking"
+    },
+    {
+      "tag": "v0.0.1",
+      "url": "https://github.com/peitl/qrp2rup/releases/tag/v0.0.1",
+      "description": "Experimental release to allow use in exercises for the course Algorithmic Encoding Techniques."
+    }
+  ],
+  "other_author_repositories_checked": [
+    "https://github.com/peitl/experiments",
+    "https://github.com/peitl/dqrat-check"
+  ],
+  "other_repositories_result": "No qrp2rup copy found in downloaded current archives; their GPL/MIT permissions do not cover this separate tool",
+  "new_artifact_lead": {
+    "doi": "10.5281/zenodo.14530908",
+    "metadata_source": "https://api.datacite.org/dois/10.5281/zenodo.14530908",
+    "metadata_license": "CC-BY-4.0",
+    "description": "Copies of solvers and benchmark generators for the authors AAAI 2025 paper",
+    "artifact_access": "Obtained and fully verified: 6164331 bytes, MD5 matches Zenodo record; all ZIP entries pass CRC. See qrp2rup-artifact-comparison.json.",
+    "scope": "11/23 adopted files match bytes in the older CC-BY-4.0 artifact; changed/additional files of the current adopted snapshot remain outside this evidence."
+  },
+  "conclusion": "The GitHub snapshot itself has no located license file. An author-distributed 2026 CC-BY-4.0 artifact now supplies all substantive current source. Adding documented static-build flags and correcting three spellings reconstructs all 23 adopted files exactly; use this licensed-source route for public packaging.",
+  "alternative_entry_checks": [
+    {
+      "url": "https://ac.tuwien.ac.at/publication/breaking-symmetries-in-quantified-graph-search-a-comparative-study/",
+      "result": "No alternate copy of the software attachment found on the inspected author publication page"
+    },
+    {
+      "url": "https://sat-modulo-symmetries.readthedocs.io/en/latest/applications/#qbf",
+      "result": "QBF documentation links solvers; its peitl/qute-sms GitHub link returned HTTP 404. No alternate copy of the same attachment located."
+    }
+  ],
+  "followup_checked": "2026-10-15",
+  "new_2026_artifact": "qrp2rup-current-license-source.json"
+}

@@ -1,0 +1,28 @@
+{
+  "task": "tasks/solver/online/celar-rlfap",
+  "manifest": "assets/environments/solver/celar-rlfap/public-image.json",
+  "payload_allowlist": {
+    "roots": {
+      "/app": 23,
+      "/public-instances": 13,
+      "/tests-public": 2,
+      "/judge": 2,
+      "/opt/celar": 2
+    },
+    "total_regular_files": 42,
+    "public_practice_answers": [],
+    "public_solution_placeholders": [
+      "/app/solutions/.gitkeep"
+    ]
+  },
+  "distribution": "local_prepare",
+  "license_review": {
+    "system_dependencies_and_third_party_data_reviewed_for_public_distribution": false,
+    "required_before_any_upload": true
+  },
+  "limitations": [
+    "Content and runtime acceptance do not establish public redistribution permission.",
+    "The OCI artifact is retained locally for further license review; no public image address is assigned and no upload is authorized."
+  ],
+  "scope": "Public self-test payload and distribution requirements. Build the declared public-only product; hidden judging inputs must not enter this image."
+}

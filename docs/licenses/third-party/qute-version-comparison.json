@@ -1,0 +1,430 @@
+{
+  "checked": "2026-10-13",
+  "actual_source_commit": "441ff50a2d7bf161b46edc7325463224670b4c8c",
+  "mit_license_commit": "67c5e54e96eb2ba7aedc18186d5ae62230c4caf8",
+  "authors": "Friedrich Slivovsky and Tomáš Peitl",
+  "source_file_count": 53,
+  "unchanged_source_files": 25,
+  "changed_source_files": 28,
+  "local_matching_old_source_files": 52,
+  "files": [
+    {
+      "path": "src/CMakeLists.txt",
+      "old_sha256": "12224d02d870103216cc6a32657c06f2b925f2aab1cacc6c08163210ccfd0352",
+      "licensed_sha256": "eb8c42d7265e79dc61ca6c69f982219354f47b8e93ec159d8712b4526d968596",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": false,
+      "snapshot_local_matches_old": true,
+      "current_sha256": "3dbbe85b0517e382053c63a54da104288719973c4a396476b7924d9d5b8f57c4"
+    },
+    {
+      "path": "src/alloc.hh",
+      "old_sha256": "6bbc22e3035a2f6091678729fc2a378e60c38099248b7766869996845bce3b39",
+      "licensed_sha256": "6bbc22e3035a2f6091678729fc2a378e60c38099248b7766869996845bce3b39",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/constraint.hh",
+      "old_sha256": "317da17c15b8851133a5f566fb5449092d5076718b9c41c1e5063457f7190dcf",
+      "licensed_sha256": "e1710d4f4a2a3a4a2a7b40ed9f026f2ba7bc54f44163894933938ef5514aeb17",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/constraint_DB.cc",
+      "old_sha256": "389d2e0718972bc26e94a9d41f5b31885ebe0f16148f047428ef474ae0435620",
+      "licensed_sha256": "389d2e0718972bc26e94a9d41f5b31885ebe0f16148f047428ef474ae0435620",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/constraint_DB.hh",
+      "old_sha256": "fb2df03d293f010c8a666dc179c4354cb4e8876019eef5656d73cce292618929",
+      "licensed_sha256": "fb2df03d293f010c8a666dc179c4354cb4e8876019eef5656d73cce292618929",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/debug_helper.cc",
+      "old_sha256": "811e3f587a78c2aff5e9c2ecde2c4585e8bfaa3a8fbb267e549b91ed9a32b1cd",
+      "licensed_sha256": "811e3f587a78c2aff5e9c2ecde2c4585e8bfaa3a8fbb267e549b91ed9a32b1cd",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/debug_helper.hh",
+      "old_sha256": "8391ea0ddff8d4b718f64f2f0d1464504fb32a4c294811f7fc131d5da5808526",
+      "licensed_sha256": "8391ea0ddff8d4b718f64f2f0d1464504fb32a4c294811f7fc131d5da5808526",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/decision_heuristic.cc",
+      "old_sha256": "42864ad6d66add079dcb076446a5c4d987a335cf54be3e91551e5f26ae0ad504",
+      "licensed_sha256": "e5603018c392024dd929cf3061814ddc988c7f7ec3aedd98238222e09ab92499",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/decision_heuristic.hh",
+      "old_sha256": "01ca6e5da574f65031e29caf8dcaf26bffe46e7d7f632c98f339bf2f144068dd",
+      "licensed_sha256": "01ca6e5da574f65031e29caf8dcaf26bffe46e7d7f632c98f339bf2f144068dd",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/decision_heuristic_SGDB.cc",
+      "old_sha256": "695c6606d32833594e32398acd45e021d41146bcaca714a6eebd4dcdf4a159da",
+      "licensed_sha256": "3d3b87fd21b773c59d2ffe986d56d0d4c13d3dcd9ae5ecc39c12b832d2b0db2b",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/decision_heuristic_SGDB.hh",
+      "old_sha256": "7d951926ab80208c2a7f3c8ea12a056cb60445c50276c390464f304493d9675d",
+      "licensed_sha256": "7d951926ab80208c2a7f3c8ea12a056cb60445c50276c390464f304493d9675d",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/decision_heuristic_VMTF_deplearn.cc",
+      "old_sha256": "a5dbb9f6707bbaeb98d10d96906ba801eb9986c137f4460d082732e02240224d",
+      "licensed_sha256": "59ce70bb2b5701283a5e20559cab23df8d1d7879ec63e6abcfa599bc4df8c287",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/decision_heuristic_VMTF_deplearn.hh",
+      "old_sha256": "6893e07ac605a52531a7328de80627951d28fd6a3a618d31dbaac54462018785",
+      "licensed_sha256": "b76b23262d3e23365265ddaca3cf092c5bf987abcad231fe47525d231bdb7d1a",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/decision_heuristic_VMTF_prefix.cc",
+      "old_sha256": "6b34d2793a5f2a1aa0e7596227d9c549404efec7ab2682a134c927f787619509",
+      "licensed_sha256": "1ede8ceeadf7bb56de3f596a70c104f16eeb39f272a3fe19a5ee13703a653943",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/decision_heuristic_VMTF_prefix.hh",
+      "old_sha256": "ac7b763549ee05e81eb2dfe067f4cbf2632ec7040cb4975f4437ee3a63165db3",
+      "licensed_sha256": "976825d4a4f940ea62aa16dbc618c3a0faab82262649ae182ebd8d70ae109bb6",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/decision_heuristic_VSIDS_deplearn.cc",
+      "old_sha256": "3510ee7b6b760b25c75b54f1a8849bf49ee6530f04b64cdf7fe4ba74ff52a45d",
+      "licensed_sha256": "127f96599188f8acf5c0f35dc58cc9b8ecd006a9901aa00de650179fe995a808",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/decision_heuristic_VSIDS_deplearn.hh",
+      "old_sha256": "bbd8c75df45aa4757ea5ce1822eda00e1c3cc48d0f2ca2aa8225b5d6ada93ef6",
+      "licensed_sha256": "f581f8280e298ecf772e1f1d1beacaf3ebf3fe4f8c19d8387f7b0f886338abf5",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/dependency_manager.hh",
+      "old_sha256": "edfa90d2475e5a14a0c90ae2431809b6af10bf6679f9796734d4aa515ae0d3cd",
+      "licensed_sha256": "66a2c92cb348d4d1a870302090c259add66f9d08da0d5e5150e20a2dda4162fb",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/dependency_manager_rrs.cc",
+      "old_sha256": "ddc6cb7d0bdde0b8f020f31b1c4f60cfdd5ea62854abf0ec03c54270d12e908e",
+      "licensed_sha256": "1247e51ad972df0d1eaf5235bf48efc6b37e35795ad549886458d01295c337fd",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/dependency_manager_rrs.hh",
+      "old_sha256": "fc65718e887a3e7651be334b7b9dcb516337e7efe6bb00a7913cdc37ac0e6d34",
+      "licensed_sha256": "ca32561ef33433d7947ee9cedf36eb0b53604b7884a55842e89ddc2094894177",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/dependency_manager_watched.cc",
+      "old_sha256": "59a728424616faf7205907b7a32aa8f181e804146938081edbb2c4af5af6a9f8",
+      "licensed_sha256": "9c6f9f4964015842ab35f976a0a54df1cf003b3cee8ceb4714789b0075dee6a5",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/dependency_manager_watched.hh",
+      "old_sha256": "916f5670dba69fb797f6904f2cc526eebaea072ecc4ba4752e862df765383db7",
+      "licensed_sha256": "1292dbef2e1b246ca3f12b62afbe12a4548193e8fc5f6413144070ab7d3a6474",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/learning_engine.hh",
+      "old_sha256": "d94e331b204182e8c36befd9467ccfc25747279ce2bd27d5e7e95702a80810aa",
+      "licensed_sha256": "fc3aa2acea7aa045734fd60d4f31abd34bbf2db596c8b29f9dd63ecdff890351",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/logging.hh",
+      "old_sha256": "d2624e8093493d37dab2efc76adcab2f997dc058066d1d6501f8e9859b0aea36",
+      "licensed_sha256": "d2624e8093493d37dab2efc76adcab2f997dc058066d1d6501f8e9859b0aea36",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/main.cc",
+      "old_sha256": "13e7bd1e51e8c04225cd110f42ebfde6ce2f2ab64af11254bb0cf47d2d1f1fac",
+      "licensed_sha256": "4f3d8bf3fb4b8cb015f266b3edd0cf650a9be7ce1352d2ed5d08e9f384912bc7",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/main.hh",
+      "old_sha256": "fab08a3977e5d5f2df4c1c43d4f4d9e627b91ea64d5943298b36049d290e9551",
+      "licensed_sha256": "fab08a3977e5d5f2df4c1c43d4f4d9e627b91ea64d5943298b36049d290e9551",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/model_generator.cc",
+      "old_sha256": "4e2c63180da85597b54c1d1c7510a0958cafc456d91ea355b2a706bf3e0af701",
+      "licensed_sha256": "4e2c63180da85597b54c1d1c7510a0958cafc456d91ea355b2a706bf3e0af701",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/model_generator.hh",
+      "old_sha256": "7186942ed4e7d1d1093ba39905dfb1b4bddfa00c4c4e542d025294e214e5d4f0",
+      "licensed_sha256": "7186942ed4e7d1d1093ba39905dfb1b4bddfa00c4c4e542d025294e214e5d4f0",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/model_generator_simple.cc",
+      "old_sha256": "f04a673551a89545f7b4763eadec983687d63d39acb5b53501c08009493128fa",
+      "licensed_sha256": "f04a673551a89545f7b4763eadec983687d63d39acb5b53501c08009493128fa",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/model_generator_simple.hh",
+      "old_sha256": "88be5d11961f2fe59dcf5a5f8777d4758cc4e0e760596abd08538b666d99a0f6",
+      "licensed_sha256": "88be5d11961f2fe59dcf5a5f8777d4758cc4e0e760596abd08538b666d99a0f6",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/model_generator_weighted.cc",
+      "old_sha256": "f4da6752b53ed7acf9c4dd61012d7e26005808756d9d8c1d0b1fd9c54d6dadf6",
+      "licensed_sha256": "f4da6752b53ed7acf9c4dd61012d7e26005808756d9d8c1d0b1fd9c54d6dadf6",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/model_generator_weighted.hh",
+      "old_sha256": "18315b8970f9eea03b2fe4cd587eb772d9b9b273e3ed0eaa5bfb5286e0c302d1",
+      "licensed_sha256": "18315b8970f9eea03b2fe4cd587eb772d9b9b273e3ed0eaa5bfb5286e0c302d1",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/parser.cc",
+      "old_sha256": "83e5f84080164b038a05c0a966f786e35823acd49333f9f847e088db92dd0abe",
+      "licensed_sha256": "a7d9e2739a24a7d03c8558e31639ba35d7e4dd4e6115de13892f52899d1ee9d8",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/parser.hh",
+      "old_sha256": "8ca3fb1e5d51c81f55c69aa09ed769bc2403a3d3e676ce8e9b1aba0e56e13d64",
+      "licensed_sha256": "f55552c01c7495872a9550fecca960ce517564e96f92532fdf07b32a276cb425",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/pcnf_container.hh",
+      "old_sha256": "96f183e2745a429bf5d53dab3a753d8ceacb40344a474a7ea3fb12cd5af4f510",
+      "licensed_sha256": "e5d8c9f2fb6f138211515953212ebf5acf74625b4d48a2ad20c241a0de1a9386",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/propagator.hh",
+      "old_sha256": "681374dc4dd6703021ffe4619bbe69d2cbcb2801f6303005993bd11f4e96b648",
+      "licensed_sha256": "f5c39033dbf0df9a2db6d0a977122209e52fd51da387b855404db8309ac07ee7",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/qcdcl.cc",
+      "old_sha256": "dbd788e15e5f9a4b09de06e527ceee9ed1f826755463b9778b6c520810b76b97",
+      "licensed_sha256": "251f7261dc0491db787dd647759598a29dd1e34ed444c18973297550c59135d2",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/qcdcl.hh",
+      "old_sha256": "40fd23d8286a6db3ac5508487d985c2b8fedec9319b5edc0440db45d7b5aef76",
+      "licensed_sha256": "9042adf0194d5518f58f246e2d8c62d64ff65301ed3e983e0bd424b02a47499f",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/restart_scheduler.hh",
+      "old_sha256": "4585434d0bd869aa56c600947bc35cebfc4622058fd40c3426943263e303317b",
+      "licensed_sha256": "4585434d0bd869aa56c600947bc35cebfc4622058fd40c3426943263e303317b",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/restart_scheduler_ema.hh",
+      "old_sha256": "25a386ba4028d0b54bec20df3f95b5ac2c89dd77dfdf3e72f9033cafdb097572",
+      "licensed_sha256": "25a386ba4028d0b54bec20df3f95b5ac2c89dd77dfdf3e72f9033cafdb097572",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/restart_scheduler_inner_outer.hh",
+      "old_sha256": "00cbb9d8c2e69942e0952ac75e66749bf20f8be0297a536bbac8f093f5b04749",
+      "licensed_sha256": "00cbb9d8c2e69942e0952ac75e66749bf20f8be0297a536bbac8f093f5b04749",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/restart_scheduler_luby.hh",
+      "old_sha256": "b43456b12f6d897c7687400a65a03154221f8c994ae6bfbc21e73f08d4aa00d4",
+      "licensed_sha256": "b43456b12f6d897c7687400a65a03154221f8c994ae6bfbc21e73f08d4aa00d4",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/restart_scheduler_none.hh",
+      "old_sha256": "f527220b37b221d66a489245b1b0a32f4c2e9bfc568de2b173ba0ad54e1ff9d7",
+      "licensed_sha256": "f527220b37b221d66a489245b1b0a32f4c2e9bfc568de2b173ba0ad54e1ff9d7",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/simple_tracer.cc",
+      "old_sha256": "67c924240db52ec594e6a12a30e8ade0f19d5b38551388952c99f511cfe5fb8a",
+      "licensed_sha256": "67c924240db52ec594e6a12a30e8ade0f19d5b38551388952c99f511cfe5fb8a",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/simple_tracer.hh",
+      "old_sha256": "0a017da6b69369927db506309bda97275a3a79940a2d24f5b40ae1de35c32d2d",
+      "licensed_sha256": "0a017da6b69369927db506309bda97275a3a79940a2d24f5b40ae1de35c32d2d",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/solver_types.hh",
+      "old_sha256": "bf5c85435f6464e3dad85008aeab2309b9bfb4992923070575cab93a92ce3286",
+      "licensed_sha256": "7947042870ee6c7100ee574197b02073af628e638eabdfd0bae1cb2197880152",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/standard_learning_engine.cc",
+      "old_sha256": "33013f459a68ac9ef04cef4b3d48a23c0325d0398520a04533436b13d0184533",
+      "licensed_sha256": "7bba141b02c2ca8f93dfa0752740048c72a7f1884657f8a0f0d1042d24f33b19",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/standard_learning_engine.hh",
+      "old_sha256": "669067a5fd8ce8c446b54cac7e487e47fb8f1d363081c21c012089a3612aebcd",
+      "licensed_sha256": "682f05f451965d9aacae7eb00443f118cac2cefc335e5c6b159e9c4c471a84a0",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/tracer.hh",
+      "old_sha256": "093981042486f47537a579c7e46049278f98195da3f2bcaca62bbd2cbd08d4f6",
+      "licensed_sha256": "093981042486f47537a579c7e46049278f98195da3f2bcaca62bbd2cbd08d4f6",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/variable_data.cc",
+      "old_sha256": "c5dc8bef1665c7fc5d249d2aa80e2589b04559362d2541988caba2c15a4e52cd",
+      "licensed_sha256": "c5dc8bef1665c7fc5d249d2aa80e2589b04559362d2541988caba2c15a4e52cd",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/variable_data.hh",
+      "old_sha256": "817f2bcd6c4cb5e14d50c176bd92e3a2a8d943f8a8f6f86bff10226ad116a77a",
+      "licensed_sha256": "817f2bcd6c4cb5e14d50c176bd92e3a2a8d943f8a8f6f86bff10226ad116a77a",
+      "unchanged_at_license_commit": true,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/watched_literal_propagator.cc",
+      "old_sha256": "f46b17c438da4ef48b2e35ae2d71b80b2e83e0e375176c530101ba3656745624",
+      "licensed_sha256": "b45a1906342a402710173bf4d6efc5c432982e61043632094f276cc99fb8cec9",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    },
+    {
+      "path": "src/watched_literal_propagator.hh",
+      "old_sha256": "59608811381d6c12fe98aae72f5b4ccc812bf9aa7c8c5adc958ea813346e9696",
+      "licensed_sha256": "96bcec9279329b8b2374bc478413b2466d3381a04f1ab7ef462826dba886ae5f",
+      "unchanged_at_license_commit": false,
+      "local_matches_old": true
+    }
+  ],
+  "conclusion": "The 2020 source identity is established for 53 files; the official project and later author archives grant MIT. Recommended distribution route: preserve the project MIT grant and exact source identity, with historical scope identified as an interpretation rather than a new author confirmation.",
+  "followup_checked": "2026-10-15",
+  "interpretation": "28 changed files is a version-comparison result, not a count of unlicensed files. The official project has an MIT grant with no version-number restriction; no separate restrictive grant for the 2020 snapshot was found. The original 2020 commit contains no license file, so an express all-historical-versions statement has not been located.",
+  "official_archives": [
+    {
+      "doi": "10.5281/zenodo.14536421",
+      "license": "MIT",
+      "published": "2024-12-20",
+      "bytes": 95818,
+      "md5": "a41ffbe49be05fb10942b4a318cb5db4",
+      "sha256": "0cc91601991e797f91a07f4772f2485f67c5ac8903c47d9d8f1ef4fdcc7b23f8",
+      "original_source_matches": 18
+    },
+    {
+      "doi": "10.5281/zenodo.20203771",
+      "license": "Qute directory has MIT; whole artifact CC-BY-4.0",
+      "original_source_matches": 16
+    }
+  ],
+  "release_judgment": "Recommend applying the same-project MIT grant to the identified old snapshot, preserving the original notice, disclaimer, license-addition date and old commit. This is a project-scope interpretation based on common authorship, one upstream project and consistent later author releases. No express statement specifically covering all historical snapshots was obtained. Do not treat 28 version differences as 28 unauthorized files or make an additional all-history statement a routine prerequisite.",
+  "project_scope_evidence": {
+    "official_software_page": "https://ac.tuwien.ac.at/software/80-software-qute/",
+    "software_page_date": "2017-11-30",
+    "software_page_scope": "Calls Qute open source, links same upstream and names same developers; does not independently select a license.",
+    "license_commit_only_adds": [
+      "AUTHORS",
+      "LICENSE"
+    ],
+    "license_commit_changes_source": false,
+    "license_text_sha256": "11a8ef276e61fbd3db14fe364edbdc578a3ffcfc851faddd6e4355171f40c597",
+    "old_commit_has_license": false,
+    "explicit_all_history_statement_obtained": false,
+    "assessment_type": "project_license_scope_interpretation",
+    "vendored_components": "MiniSat and docopt.cpp retain their own notices and terms; no solver replacement or executable validation done."
+  },
+  "snapshot_local_matching_old_source_files": 53,
+  "release_modifications": [
+    {
+      "date": "2026-10-23",
+      "path": "src/CMakeLists.txt",
+      "current_sha256": "3dbbe85b0517e382053c63a54da104288719973c4a396476b7924d9d5b8f57c4",
+      "description": "Use the bundled docopt.cpp headers relative to PROJECT_SOURCE_DIR instead of an author-machine absolute include path. Solver implementation and upstream license texts are unchanged.",
+      "scope": "Both online and offline source copies; previously retained image products keep their original build provenance."
+    }
+  ]
+}

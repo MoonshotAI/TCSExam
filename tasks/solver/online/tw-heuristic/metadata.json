@@ -1,0 +1,49 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260911",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/tw-heuristic/PROVENANCE.md: minimum over this project's multi-solver 1800s scan (including champion TCS-Meiji and proven optima for 11 RTW instances).",
+   "tier": "self-measured"
+  }
+ },
+ "family": "treewidth",
+ "id": "tw-heuristic",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-tw-heuristic-judge-v10"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": null,
+  "n_hidden": 100,
+  "n_public": 100,
+  "per_instance_seconds": 1800,
+  "shard_cores": 16,
+  "shard_mem_gb": 8,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "PACE 2017",
+  "hidden_set": "official-private",
+  "memorization_risk": "low",
+  "transform": null
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "The limit is passed through argv (solver SINGLE_INSTANCE_DIR OUTPUT_DIR LIMIT_SECONDS), not an environment variable."
+ },
+ "subdomain": "graph-optimization",
+ "title": "Treewidth — heuristic solving"
+}

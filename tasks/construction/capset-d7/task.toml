@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/capset-d7-lean-open"
+version = "1.0.0"
+description = "Open conjecture: the maximum size of a cap set in (Z/3Z)^7 (OEIS A090245, published bounds 236-288). State and prove in Lean 4 either a construction (a cap on k points) or an upper bound (no cap on k points); 237+ points or an upper bound of 288 or less is a publishable new result."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "cap-set", "additive-combinatorics", "open-conjecture", "open-proof"]
+
+[metadata]
+family_id = "fam-capset"
+candidate_id = "cand-capset-d7-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open-proof"
+difficulty_explanation = "Only the definition layer (the IsCap predicate on Finset (Fin 7 → ZMod 3)) and the statement template are given; the instance, the witness, the proof strategy and every lemma are up to the agent. Matching the published record (236 points, or the upper bound 289) already requires reproducing research-level constructions."
+source_paper = "OEIS A090245; Y. Edel, Extensions of generalized product caps, Des. Codes Cryptogr. 31 (2004) [record 236, usually attributed]; M. Thackeray, A new upper bound for cap sets in dimension 7, arXiv:2206.09804 (2022) [no 289-point cap]"
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 8192
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-construction-capset-d7-verifier"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 8192

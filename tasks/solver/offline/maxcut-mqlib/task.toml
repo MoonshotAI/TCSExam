@@ -1,0 +1,40 @@
+schema_version = "1.4"
+
+# Root-level field; it must appear before the first [section]. If placed in the [task] section, pydantic silently ignores it and it has no effect.
+artifacts = ["/app"]
+
+[task]
+name = "tcsexam/maxcut-mqlib"
+version = "1.0.0"
+description = "Optimize a MaxCut solver (MQLib instance library; form2: 105 public practice instances + 45 hidden structure-preserved instances, final-once judging): maximize cut weight, scored once by the post-run judging on the hidden set against a mid-strength literature baseline (Beasley 1998 tabu search) and best-known values (best of 37 MQLib literature heuristics), under a 600 s per-instance limit; the environment ships the 105 public instances plus the full 3,396-instance library."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "maxcut", "mqlib", "graph-algorithms", "type-2-solver"]
+
+[metadata]
+family_id = "fam-maxcut"
+candidate_id = "cand-maxcut-mqlib-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "MaxCut is one of Karp's 21 NP-complete problems and the testbed of the Goemans-Williamson 0.878-approximation (optimal under the Unique Games Conjecture). The shipped baseline is a mid-strength tabu search from the MQLib 37-heuristic literature evaluation; beating it is easy (the library itself ships 36 other heuristics, several stronger), but approaching the best-of-37-times-5-seeds anchor within 600 s per instance needs real algorithmic work — portfolio selection, restarts, memetic or VNS hybrids — and the continuous score rewards every extra unit of cut weight."
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[verifier]
+timeout_sec = 345600.0
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:efa5c372bb00baa88b96cfbf9d648132bd7c1b8d474c280bd48f7a61cb477ba0"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:8f63c57eb355bf2fb145b2f84cfc9f032e77dd33bc1b40218dba5a5a9495e499"
+build_timeout_sec = 1800.0
+cpus = 16
+memory_mb = 16384
+storage_mb = 40960

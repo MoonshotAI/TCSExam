@@ -1,0 +1,43 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "Apache-2.0",
+  "lock_entry": {
+    "integrity": "sha512-uekIGetywIgopfD97oDL5PfeezkFpNhwlzlaEYNOA0N6ghdsOvh/HYjSMek5Q2O1PYvRSDFcqFVJl4r4ZBwOow==",
+    "license": "Apache-2.0",
+    "resolved": "https://registry.npmjs.org/@dimforge/rapier3d-compat/-/rapier3d-compat-0.12.0.tgz",
+    "version": "0.12.0"
+  },
+  "lock_path": "node_modules/@dimforge/rapier3d-compat",
+  "name": "@dimforge/rapier3d-compat",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 11343,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519",
+      "text_file": "image-notices/4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519.txt"
+    }
+  ],
+  "package_license": "Apache-2.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 2348060,
+    "installed_in_image": false,
+    "integrity": "sha512-uekIGetywIgopfD97oDL5PfeezkFpNhwlzlaEYNOA0N6ghdsOvh/HYjSMek5Q2O1PYvRSDFcqFVJl4r4ZBwOow==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@dimforge/rapier3d-compat/-/rapier3d-compat-0.12.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "8559163a335c12388b02e61a25d588ff5b98da45f9336c59664dc919af086b26"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.12.0"
+}

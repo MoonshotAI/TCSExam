@@ -1,0 +1,46 @@
+{
+  "author": "Ben Coe <ben@npmjs.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "ISC",
+  "lock_entry": {
+    "engines": {
+      "node": "^20.19.0 || ^22.12.0 || >=23"
+    },
+    "integrity": "sha512-rwu/ClNdSMpkSrUb+d6BRsSkLUq1fmfsY6TOpYzTwvwkg1/NRG85KBy3kq++A8LKQwX6lsu+aWad+2khvuXrqw==",
+    "license": "ISC",
+    "resolved": "https://registry.npmjs.org/yargs-parser/-/yargs-parser-22.0.0.tgz",
+    "version": "22.0.0"
+  },
+  "lock_path": "node_modules/yargs-parser",
+  "name": "yargs-parser",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/LICENSE.txt",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.txt",
+      "sha256": "365496ca1f56da40b23c9815fc40fa9005847b2f8f8fd1c1a4929ef25ec8cd1d",
+      "text_file": "image-notices/365496ca1f56da40b23c9815fc40fa9005847b2f8f8fd1c1a4929ef25ec8cd1d.txt"
+    }
+  ],
+  "package_license": "ISC",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 21743,
+    "installed_in_image": false,
+    "integrity": "sha512-rwu/ClNdSMpkSrUb+d6BRsSkLUq1fmfsY6TOpYzTwvwkg1/NRG85KBy3kq++A8LKQwX6lsu+aWad+2khvuXrqw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/yargs-parser/-/yargs-parser-22.0.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "2b640247b9ca6f540c708dfea99bafeae59a46db66f491fb5b6d55fce1614d65"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "22.0.0"
+}

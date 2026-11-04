@@ -1,0 +1,316 @@
+{
+ "baseline": "construct_lb (unit-time floor: N[1]=LB, deterministic, milliseconds)",
+ "objective_kind": "shapes_at_min_beamtime (260831 rework: admission = beamtime attains structural lower bound lb; scoring on shape count alone)",
+ "instances": {
+  "ex001.dzn": {
+   "B": 54,
+   "K": 15,
+   "lb": 54
+  },
+  "ex002.dzn": {
+   "B": 50,
+   "K": 14,
+   "lb": 50
+  },
+  "ex003.dzn": {
+   "B": 62,
+   "K": 16,
+   "lb": 62
+  },
+  "ex004.dzn": {
+   "B": 50,
+   "K": 16,
+   "lb": 50
+  },
+  "ex005.dzn": {
+   "B": 88,
+   "K": 17,
+   "lb": 88
+  },
+  "ex006.dzn": {
+   "B": 51,
+   "K": 17,
+   "lb": 51
+  },
+  "ex007.dzn": {
+   "B": 76,
+   "K": 23,
+   "lb": 76
+  },
+  "ex008.dzn": {
+   "B": 54,
+   "K": 19,
+   "lb": 54
+  },
+  "ex009.dzn": {
+   "B": 54,
+   "K": 18,
+   "lb": 54
+  },
+  "ex010.dzn": {
+   "B": 76,
+   "K": 27,
+   "lb": 76
+  },
+  "ex011.dzn": {
+   "B": 14,
+   "K": 6,
+   "lb": 14,
+   "K_tier": "proven",
+   "K_source": "rework CP-SAT optimality proof (instances_table.md)"
+  },
+  "ex012.dzn": {
+   "B": 14,
+   "K": 5,
+   "lb": 14,
+   "K_tier": "proven",
+   "K_source": "rework CP-SAT optimality proof"
+  },
+  "ex013.dzn": {
+   "B": 15,
+   "K": 6,
+   "lb": 15,
+   "K_tier": "proven",
+   "K_source": "rework CP-SAT optimality proof"
+  },
+  "ex014.dzn": {
+   "B": 17,
+   "K": 7,
+   "lb": 17,
+   "K_tier": "proven",
+   "K_source": "rework CP-SAT optimality proof"
+  },
+  "ex015.dzn": {
+   "B": 16,
+   "K": 6,
+   "lb": 16,
+   "K_tier": "proven",
+   "K_source": "rework CP-SAT optimality proof"
+  },
+  "ex016.dzn": {
+   "B": 17,
+   "K": 6,
+   "lb": 17,
+   "K_tier": "proven",
+   "K_source": "rework CP-SAT optimality proof"
+  },
+  "ex017.dzn": {
+   "B": 13,
+   "K": 6,
+   "lb": 13,
+   "K_tier": "proven",
+   "K_source": "rework CP-SAT optimality proof"
+  },
+  "ex018.dzn": {
+   "B": 18,
+   "K": 7,
+   "lb": 18,
+   "K_tier": "proven",
+   "K_source": "rework CP-SAT optimality proof"
+  },
+  "ex019.dzn": {
+   "B": 18,
+   "K": 7,
+   "lb": 18,
+   "K_tier": "proven",
+   "K_source": "rework CP-SAT optimality proof"
+  },
+  "ex020.dzn": {
+   "B": 36,
+   "K": 14,
+   "lb": 36,
+   "K_tier": "proven",
+   "K_source": "CP-SAT 4w (isolated execution environment, radiation_lb_hint.mzn, ====== marker)"
+  },
+  "ex021.dzn": {
+   "B": 39,
+   "K": 12,
+   "lb": 39,
+   "K_tier": "proven",
+   "K_source": "CP-SAT 4w (isolated execution environment, ======)"
+  },
+  "ex022.dzn": {
+   "B": 69,
+   "K": 69,
+   "lb": 69,
+   "K_tier": "best-known",
+   "K_source": "constructor value N[1]=LB (only known bt==LB solution; CP-SAT 8w x 1800s finds no bt==LB solution at high intensity); ratchets on any better solution"
+  },
+  "ex023.dzn": {
+   "B": 71,
+   "K": 71,
+   "lb": 71,
+   "K_tier": "best-known",
+   "K_source": "constructor value N[1]=LB (only known bt==LB solution; CP-SAT 8w x 1800s finds no bt==LB solution at high intensity); ratchets on any better solution"
+  },
+  "ex024.dzn": {
+   "B": 72,
+   "K": 72,
+   "lb": 72,
+   "K_tier": "best-known",
+   "K_source": "constructor value N[1]=LB (only known bt==LB solution; CP-SAT 8w x 1800s finds no bt==LB solution at high intensity); ratchets on any better solution"
+  },
+  "ex025.dzn": {
+   "B": 72,
+   "K": 72,
+   "lb": 72,
+   "K_tier": "best-known",
+   "K_source": "constructor value N[1]=LB (only known bt==LB solution; CP-SAT 8w x 1800s finds no bt==LB solution at high intensity); ratchets on any better solution"
+  },
+  "ex026.dzn": {
+   "B": 67,
+   "K": 67,
+   "lb": 67,
+   "K_tier": "best-known",
+   "K_source": "constructor value N[1]=LB (only known bt==LB solution; CP-SAT 8w x 1800s finds no bt==LB solution at high intensity); ratchets on any better solution"
+  },
+  "ex027.dzn": {
+   "B": 62,
+   "K": 17,
+   "lb": 62,
+   "K_tier": "proven",
+   "K_source": "old-caliber det300w4 proven optimum (objective 24879 = 401*62+17, bt==LB) \u2014 shapes inherited by the bt==LB inheritance argument (witness historical witness record (not included in this package))"
+  },
+  "ex028.dzn": {
+   "B": 71,
+   "K": 71,
+   "lb": 71,
+   "K_tier": "best-known",
+   "K_source": "constructor value N[1]=LB (only known bt==LB solution; CP-SAT 8w x 1800s finds no bt==LB solution at high intensity); ratchets on any better solution"
+  },
+  "ex029.dzn": {
+   "B": 69,
+   "K": 69,
+   "lb": 69,
+   "K_tier": "best-known",
+   "K_source": "constructor value N[1]=LB (only known bt==LB solution; CP-SAT 8w x 1800s finds no bt==LB solution at high intensity); ratchets on any better solution"
+  },
+  "ex030.dzn": {
+   "B": 66,
+   "K": 66,
+   "lb": 66,
+   "K_tier": "best-known",
+   "K_source": "constructor value N[1]=LB (only known bt==LB solution; CP-SAT 8w x 1800s finds no bt==LB solution at high intensity); ratchets on any better solution"
+  },
+  "ex031.dzn": {
+   "B": 73,
+   "K": 73,
+   "lb": 73,
+   "K_tier": "best-known",
+   "K_source": "constructor value N[1]=LB (only known bt==LB solution; CP-SAT 8w x 1800s finds no bt==LB solution at high intensity); ratchets on any better solution"
+  },
+  "ex032.dzn": {
+   "B": 66,
+   "K": 66,
+   "lb": 66,
+   "K_tier": "best-known",
+   "K_source": "constructor value N[1]=LB (only known bt==LB solution; CP-SAT 8w x 1800s finds no bt==LB solution at high intensity); ratchets on any better solution"
+  },
+  "ex033.dzn": {
+   "B": 72,
+   "K": 72,
+   "lb": 72,
+   "K_tier": "best-known",
+   "K_source": "constructor value N[1]=LB (only known bt==LB solution; CP-SAT 8w x 1800s finds no bt==LB solution at high intensity); ratchets on any better solution"
+  },
+  "ex034.dzn": {
+   "B": 33,
+   "K": 12,
+   "lb": 33,
+   "K_tier": "proven",
+   "K_source": "MZN Challenge multi-solver proven optimum (composite) + bt==LB inheritance; CP-SAT ====== cross-check"
+  },
+  "ex035.dzn": {
+   "B": 24,
+   "K": 7,
+   "lb": 24,
+   "K_tier": "proven",
+   "K_source": "same as i6-7"
+  },
+  "ex036.dzn": {
+   "B": 38,
+   "K": 7,
+   "lb": 38,
+   "K_tier": "proven",
+   "K_source": "same as i6-7"
+  },
+  "ex037.dzn": {
+   "B": 17,
+   "K": 6,
+   "lb": 17,
+   "K_tier": "proven",
+   "K_source": "MZN Challenge multi-solver proven optimum (composite) + bt==LB inheritance; CP-SAT ====== cross-check"
+  },
+  "ex038.dzn": {
+   "B": 26,
+   "K": 8,
+   "lb": 26,
+   "K_tier": "proven",
+   "K_source": "same as i6-7"
+  },
+  "ex039.dzn": {
+   "B": 20,
+   "K": 7,
+   "lb": 20,
+   "K_tier": "proven",
+   "K_source": "same as i6-7"
+  },
+  "ex040.dzn": {
+   "B": 16,
+   "K": 6,
+   "lb": 16,
+   "K_tier": "proven",
+   "K_source": "same as i6-7"
+  },
+  "ex041.dzn": {
+   "B": 26,
+   "K": 9,
+   "lb": 26,
+   "K_tier": "proven",
+   "K_source": "same as i6-7"
+  },
+  "ex042.dzn": {
+   "B": 53,
+   "K": 10,
+   "lb": 53,
+   "K_tier": "proven",
+   "K_source": "MZN Challenge proven optimum (composite, 1 solver) + bt==LB inheritance; CP-SAT ====== cross-check"
+  },
+  "ex043.dzn": {
+   "B": 19,
+   "K": 8,
+   "lb": 19,
+   "K_tier": "proven",
+   "K_source": "rework CP-SAT proof; MZN Challenge 2012 best-of-29 (bt==LB) cross-check"
+  },
+  "ex044.dzn": {
+   "B": 17,
+   "K": 6,
+   "lb": 17,
+   "K_tier": "proven",
+   "K_source": "rework CP-SAT proof; MZN Challenge 2012 best-of-29 cross-check"
+  },
+  "ex045.dzn": {
+   "B": 35,
+   "K": 11,
+   "lb": 35,
+   "K_tier": "proven",
+   "K_source": "CP-SAT ======; MZN Challenge 2012 best-of-29 (bt==LB) cross-check"
+  },
+  "ex046.dzn": {
+   "B": 54,
+   "K": 19,
+   "lb": 54,
+   "K_tier": "best-known",
+   "K_source": "MZN Challenge 2012 best-of-29 solvers (composite 17569 = 325*54+19, bt==LB); unproven, ratchets on better solution"
+  },
+  "ex047.dzn": {
+   "B": 97,
+   "K": 40,
+   "lb": 97,
+   "K_tier": "best-known",
+   "K_source": "MZN Challenge 2012 best-of-29 solvers (composite 155337 = 1601*97+40, bt==LB); unproven, ratchets on better solution"
+  }
+ },
+ "per_instance_seconds": 300
+}

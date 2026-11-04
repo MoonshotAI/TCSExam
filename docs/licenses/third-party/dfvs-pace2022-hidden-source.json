@@ -1,0 +1,26 @@
+{
+  "task_id": "dfvs-pace2022",
+  "scope": "Adopted hidden judging inputs reconstructed from the official graph archive with fixed structure-preserving relabeling. Public development inputs retain their independent recipe and byte identity.",
+  "source": {
+    "id": "pace2022-exact-all",
+    "url": "https://heibox.uni-heidelberg.de/f/75c18a4d83b642db9a58/?dl=1",
+    "bytes": 30672872,
+    "sha256": "eb143849aaf8b0f5ecb046bcce9b12455b14f2dd05c30b4e02ca3b191ca76f6e"
+  },
+  "transform": {
+    "id": "vertex-relabeling-v1",
+    "seed_derivation": "First eight SHA-256 bytes of seed_tag + colon + original output basename, interpreted as an unsigned big-endian integer. The stable seed tag retains its original algorithm bytes.",
+    "seed_tag": "tcshard-transform-20260831",
+    "ordering": "Shuffle vertex labels once, then shuffle each mapped adjacency list in old-vertex order; emit adjacency rows in new-vertex order, preserving empty rows and duplicate edges."
+  },
+  "payload": {
+    "files": 200,
+    "bytes": 57243172,
+    "manifest_sha256": "50256334400da65f9e5dd2ecb137e1c944986d5b5dbfdbcaac60c81244e347b8",
+    "output_root": "tests/instances"
+  },
+  "reference_binding": "Every adopted reference key and B/K value is preserved. Vertex relabeling preserves the directed feedback-vertex-set optimum. Raw official graphs are not the judging payload.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "No explicit redistribution license was provided with the official graph archive. Local reconstruction does not grant additional redistribution rights."
+}

@@ -1,0 +1,6 @@
+{
+ "anchors_file": "anchors.json",
+ "direction": "max",
+ "params": {},
+ "shape": "solve_rate"
+}

@@ -1,0 +1,13 @@
+{
+  "main_theorem": "chasing_positive_bodies_competitive",
+  "namespace": "PosBodyChasing",
+  "checkpoints": [
+    {
+      "name": "chasing_positive_bodies_competitive",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 3.6 of Bhattacharya-Buchbinder-Levin-Saranurak (arXiv 2304.01889v2, = Theorem 1.1): for every chasing instance (epsilon in (0,1], positive weights, covering/packing halfspace sequence with covering row sparsity at most d >= 1) and every response satisfying the KKT bundle of Section 3.1, the upward recourse is at most K = (2+epsilon)(1+epsilon)log(1+40d^2/epsilon^2)/epsilon times the upward recourse of every exactly-feasible benchmark trajectory starting at 0."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "component": "Expat",
+  "coverage_scope": "The fixed build input selects Expat 2.8.1 and the previously decoded Graphviz payload confirms Expat is linked. The runtime version function was not executed.",
+  "fixed_port_ref": "microsoft/vcpkg 2026.06.01",
+  "installed_license": "LICENSE",
+  "license": "MIT",
+  "license_text": {
+    "bytes": 1144,
+    "name": "Expat-2.8.1-MIT",
+    "sha256": "31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87",
+    "status": 200,
+    "text_file": "image-notices/31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87.txt",
+    "url": "https://raw.githubusercontent.com/libexpat/libexpat/R_2_8_1/expat/COPYING"
+  },
+  "payload_evidence": "The fixed build script and port specify 2.8.1; embedded payload confirms Expat is linked. The Expat runtime version function was not executed.",
+  "schema_version": 1,
+  "source_archive_content_independently_verified": false,
+  "source_archive_url": "https://github.com/libexpat/libexpat/archive/R_2_8_1.tar.gz",
+  "source_policy": "Retain the MIT license and copyright. The exact source location is supplied for reference; no Graphviz-style source offer is inferred for Expat.",
+  "version_from_fixed_vcpkg_port": "2.8.1"
+}

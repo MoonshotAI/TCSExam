@@ -1,0 +1,505 @@
+{
+ "instances": {
+  "e_001": {
+   "B": 3,
+   "K": 2,
+   "proven_optimal": true
+  },
+  "e_003": {
+   "B": 703,
+   "K": 674,
+   "proven_optimal": true
+  },
+  "e_005": {
+   "B": 658,
+   "K": 631,
+   "proven_optimal": true
+  },
+  "e_007": {
+   "B": 281,
+   "K": 276,
+   "proven_optimal": true
+  },
+  "e_009": {
+   "B": 450,
+   "K": 450,
+   "proven_optimal": true
+  },
+  "e_011": {
+   "B": 2027,
+   "K": 1917,
+   "proven_optimal": true
+  },
+  "e_013": {
+   "B": 577,
+   "K": 547,
+   "proven_optimal": true
+  },
+  "e_015": {
+   "B": 806,
+   "K": 788,
+   "proven_optimal": true
+  },
+  "e_017": {
+   "B": 364,
+   "K": 364,
+   "proven_optimal": true
+  },
+  "e_019": {
+   "B": 1161,
+   "K": 1137,
+   "proven_optimal": true
+  },
+  "e_021": {
+   "B": 531,
+   "K": 510,
+   "proven_optimal": true
+  },
+  "e_023": {
+   "B": 454,
+   "K": 452,
+   "proven_optimal": true
+  },
+  "e_025": {
+   "B": 273,
+   "K": 273,
+   "proven_optimal": true
+  },
+  "e_027": {
+   "B": 579,
+   "K": 575,
+   "proven_optimal": true
+  },
+  "e_029": {
+   "B": 717,
+   "K": 715,
+   "proven_optimal": true
+  },
+  "e_031": {
+   "B": 2157,
+   "K": 2079,
+   "proven_optimal": true
+  },
+  "e_033": {
+   "B": 282,
+   "K": 277,
+   "proven_optimal": true
+  },
+  "e_035": {
+   "B": 2304,
+   "K": 2179,
+   "proven_optimal": true
+  },
+  "e_037": {
+   "B": 2805,
+   "K": 2679,
+   "proven_optimal": true
+  },
+  "e_039": {
+   "B": 403,
+   "K": 400,
+   "proven_optimal": true
+  },
+  "e_041": {
+   "B": 2653,
+   "K": 2509,
+   "proven_optimal": true
+  },
+  "e_043": {
+   "B": 526,
+   "K": 521,
+   "proven_optimal": true
+  },
+  "e_045": {
+   "B": 2969,
+   "K": 2837,
+   "proven_optimal": true
+  },
+  "e_047": {
+   "B": 2785,
+   "K": 2666,
+   "proven_optimal": true
+  },
+  "e_049": {
+   "B": 2123,
+   "K": 2043,
+   "proven_optimal": true
+  },
+  "e_051": {
+   "B": 2152,
+   "K": 2086,
+   "proven_optimal": true
+  },
+  "e_053": {
+   "B": 2691,
+   "K": 2628,
+   "proven_optimal": true
+  },
+  "e_055": {
+   "B": 2008,
+   "K": 1948,
+   "proven_optimal": true
+  },
+  "e_057": {
+   "B": 2014,
+   "K": 1955,
+   "proven_optimal": true
+  },
+  "e_059": {
+   "B": 221,
+   "K": 214,
+   "proven_optimal": true
+  },
+  "e_061": {
+   "B": 560,
+   "K": 554,
+   "proven_optimal": true
+  },
+  "e_063": {
+   "B": 2339,
+   "K": 2267,
+   "proven_optimal": true
+  },
+  "e_065": {
+   "B": 3813,
+   "K": 3709,
+   "proven_optimal": true
+  },
+  "e_067": {
+   "B": 513,
+   "K": 513,
+   "proven_optimal": true
+  },
+  "e_069": {
+   "B": 2163,
+   "K": 2092,
+   "proven_optimal": true
+  },
+  "e_071": {
+   "B": 687,
+   "K": 675,
+   "proven_optimal": true
+  },
+  "e_073": {
+   "B": 4601,
+   "K": 4420,
+   "proven_optimal": true
+  },
+  "e_075": {
+   "B": 4286,
+   "K": 4069,
+   "proven_optimal": true
+  },
+  "e_077": {
+   "B": 5419,
+   "K": 5292,
+   "proven_optimal": true
+  },
+  "e_079": {
+   "B": 5043,
+   "K": 4906,
+   "proven_optimal": true
+  },
+  "e_081": {
+   "B": 5037,
+   "K": 4887,
+   "proven_optimal": true
+  },
+  "e_083": {
+   "B": 750,
+   "K": 745,
+   "proven_optimal": true
+  },
+  "e_085": {
+   "B": 6467,
+   "K": 6254,
+   "proven_optimal": true
+  },
+  "e_087": {
+   "B": 6465,
+   "K": 6253,
+   "proven_optimal": true
+  },
+  "e_089": {
+   "B": 5201,
+   "K": 4928,
+   "proven_optimal": true
+  },
+  "e_091": {
+   "B": 768,
+   "K": 755,
+   "proven_optimal": true
+  },
+  "e_093": {
+   "B": 10866,
+   "K": 10616,
+   "proven_optimal": true
+  },
+  "e_095": {
+   "B": 5473,
+   "K": 5198,
+   "proven_optimal": true
+  },
+  "e_097": {
+   "B": 10064,
+   "K": 9797,
+   "proven_optimal": true
+  },
+  "e_099": {
+   "B": 4843,
+   "K": 4752,
+   "proven_optimal": true
+  },
+  "e_101": {
+   "B": 22430,
+   "K": 21900,
+   "proven_optimal": true
+  },
+  "e_103": {
+   "B": 10576,
+   "K": 10159,
+   "proven_optimal": true
+  },
+  "e_105": {
+   "B": 146,
+   "K": 58,
+   "proven_optimal": true
+  },
+  "e_107": {
+   "B": 9479,
+   "K": 8888,
+   "proven_optimal": true
+  },
+  "e_109": {
+   "B": 13145,
+   "K": 12710,
+   "proven_optimal": true
+  },
+  "e_111": {
+   "B": 1796,
+   "K": 1741,
+   "proven_optimal": true
+  },
+  "e_113": {
+   "B": 936,
+   "K": 915,
+   "proven_optimal": true
+  },
+  "e_115": {
+   "B": 25221,
+   "K": 24084,
+   "proven_optimal": true
+  },
+  "e_117": {
+   "B": 25172,
+   "K": 24091,
+   "proven_optimal": true
+  },
+  "e_119": {
+   "B": 22942,
+   "K": 21755,
+   "proven_optimal": true
+  },
+  "e_121": {
+   "B": 132,
+   "K": 73,
+   "proven_optimal": true
+  },
+  "e_123": {
+   "B": 21848,
+   "K": 20628,
+   "proven_optimal": true
+  },
+  "e_125": {
+   "B": 24030,
+   "K": 22898,
+   "proven_optimal": true
+  },
+  "e_127": {
+   "B": 1556,
+   "K": 1469,
+   "proven_optimal": true
+  },
+  "e_129": {
+   "B": 21868,
+   "K": 20630,
+   "proven_optimal": true
+  },
+  "e_131": {
+   "B": 20788,
+   "K": 19518,
+   "proven_optimal": true
+  },
+  "e_133": {
+   "B": 1412,
+   "K": 1314,
+   "proven_optimal": true
+  },
+  "e_135": {
+   "B": 20753,
+   "K": 19506,
+   "proven_optimal": true
+  },
+  "e_137": {
+   "B": 139,
+   "K": 68,
+   "proven_optimal": true
+  },
+  "e_139": {
+   "B": 39909,
+   "K": 38321,
+   "proven_optimal": true
+  },
+  "e_141": {
+   "B": 41956,
+   "K": 40325,
+   "proven_optimal": true
+  },
+  "e_143": {
+   "B": 41911,
+   "K": 40318,
+   "proven_optimal": true
+  },
+  "e_145": {
+   "B": 1601,
+   "K": 1526,
+   "proven_optimal": true
+  },
+  "e_147": {
+   "B": 939,
+   "K": 918,
+   "proven_optimal": true
+  },
+  "e_149": {
+   "B": 106,
+   "K": 55,
+   "proven_optimal": true
+  },
+  "e_151": {
+   "B": 51106,
+   "K": 48837,
+   "proven_optimal": true
+  },
+  "e_153": {
+   "B": 1455,
+   "K": 1345,
+   "proven_optimal": true
+  },
+  "e_155": {
+   "B": 48797,
+   "K": 46490,
+   "proven_optimal": true
+  },
+  "e_157": {
+   "B": 51109,
+   "K": 48880,
+   "proven_optimal": true
+  },
+  "e_159": {
+   "B": 44578,
+   "K": 42093,
+   "proven_optimal": true
+  },
+  "e_161": {
+   "B": 1654,
+   "K": 1570,
+   "proven_optimal": true
+  },
+  "e_163": {
+   "B": 79694,
+   "K": 76438,
+   "proven_optimal": true
+  },
+  "e_165": {
+   "B": 83618,
+   "K": 80478,
+   "proven_optimal": true
+  },
+  "e_167": {
+   "B": 150,
+   "K": 73,
+   "proven_optimal": true
+  },
+  "e_169": {
+   "B": 83682,
+   "K": 80521,
+   "proven_optimal": true
+  },
+  "e_171": {
+   "B": 83709,
+   "K": 80549,
+   "proven_optimal": true
+  },
+  "e_173": {
+   "B": 877,
+   "K": 842,
+   "proven_optimal": true
+  },
+  "e_175": {
+   "B": 1407,
+   "K": 1322,
+   "proven_optimal": true
+  },
+  "e_177": {
+   "B": 26667,
+   "K": 25788,
+   "proven_optimal": true
+  },
+  "e_179": {
+   "B": 1581,
+   "K": 1518,
+   "proven_optimal": true
+  },
+  "e_181": {
+   "B": 26661,
+   "K": 25792,
+   "proven_optimal": true
+  },
+  "e_183": {
+   "B": 125,
+   "K": 65,
+   "proven_optimal": true
+  },
+  "e_185": {
+   "B": 3354,
+   "K": 3194,
+   "proven_optimal": true
+  },
+  "e_187": {
+   "B": 104,
+   "K": 57,
+   "proven_optimal": false
+  },
+  "e_189": {
+   "B": 88,
+   "K": 51,
+   "proven_optimal": true
+  },
+  "e_191": {
+   "B": 173,
+   "K": 92,
+   "proven_optimal": false
+  },
+  "e_193": {
+   "B": 785,
+   "K": 738,
+   "proven_optimal": false
+  },
+  "e_195": {
+   "B": 852,
+   "K": 766,
+   "proven_optimal": false
+  },
+  "e_197": {
+   "B": 3415,
+   "K": 3229,
+   "proven_optimal": false
+  },
+  "e_199": {
+   "B": 14999,
+   "K": 14581,
+   "proven_optimal": false
+  }
+ },
+ "note": "B = naive baseline FVS size (per-instance 1800 s, the official PACE 2022 exact-track limit); K = best known from the PACE 2022 champions under the same 1800 s limit (Dagger exact-track winner, proven optimal where proven_optimal is true; DiVerSeS heuristic-track winner upper bound where false)."
+}

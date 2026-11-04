@@ -1,0 +1,41 @@
+schema_version = "1.4"
+artifacts = ["/app"]
+
+[task]
+name = "tcsexam/binary-code-a24-10-lean-open"
+version = "1.0.0"
+description = "Open conjecture: the maximum size A(24,10) of a binary error-correcting code of length 24 and minimum Hamming distance 10 (published interval 136-268). State and prove in Lean 4 either a construction (a valid code on at least m words; m >= 137 is a publishable new result after a decade) or an upper bound (every valid code has at most k words; k <= 267 is a new result)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "error-correcting-code", "binary-code", "hamming-distance", "open-conjecture", "open-proof"]
+
+[metadata]
+family_id = "fam-binary-code-a24-10"
+candidate_id = "cand-binary-code-a24-10-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open-proof"
+difficulty_explanation = "Only the definition layer (the MinDist10 predicate on Finset (Fin 24 → Fin 2)) and two claim templates are given; the witness, the proof strategy and every lemma are up to the agent. Matching the published record (136 words, Laaksonen–Östergård 2016) already requires reconstructing a research-level construction and verifying it by native_decide; the upper-bound direction has no mass-production route at all (the published 268 is a semidefinite-programming computation)."
+source_paper = "A. Laaksonen, P. R. J. Östergård, Constructing error-correcting binary codes using transitive permutation groups, arXiv:1604.06022 (2016) [record 136, explicit codes attached]; D. C. Gijswijt, H. D. Mittelmann, A. Schrijver, Semidefinite code bounds based on quadruple distances, IEEE Trans. Inf. Theory 58(5):2697-2705 (2012) [upper bound 268]; A. E. Brouwer, Table of A(n,d) (online)"
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+network_mode = "public"
+timeout_sec = 43200.0
+
+[environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:b6b417498af0a4922e57c93aade2eb4fc741f38f88fe0468bf733368c6265d7e"
+os = "linux"
+network_mode = "public"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:cbd78724a3ff973f7103905aa622786f75511cad4547351c6bef0ed6440a626c"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

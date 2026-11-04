@@ -1,0 +1,13 @@
+{
+  "main_theorem": "frs_list_decodable_capacity",
+  "namespace": "FoldedRSGSB",
+  "checkpoints": [
+    {
+      "name": "frs_list_decodable_capacity",
+      "weight": 1,
+      "difficulty": "medium",
+      "role": "main theorem",
+      "description": "Corollary 2.21 (= Corollary 1.4) of Chen-Zhang (arXiv 2408.15925v3): explicit folded RS codes achieve list-decoding capacity with optimal list size, with the restored hypothesis n < q (see tests/reference/concept-ledger.md)."
+    }
+  ]
+}

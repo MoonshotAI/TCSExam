@@ -1,0 +1,46 @@
+{
+  "author": {
+    "name": "Lee Byron",
+    "url": "https://github.com/leebyron"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-1hqclzwYwjRDFLjcFxOM5AYkkG0rpFPpr1RLPMEuGczoS7YA8gLhy8SWXYRAA/XwfEHpfo3cw5JGioS32fnMRw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/immutable/-/immutable-4.3.7.tgz",
+    "version": "4.3.7"
+  },
+  "lock_path": "node_modules/immutable",
+  "name": "immutable",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1099,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "784fd7232e106901065a329b285ff9ba9ad98ff08ac1932b45b53a0b954974c5",
+      "text_file": "image-notices/784fd7232e106901065a329b285ff9ba9ad98ff08ac1932b45b53a0b954974c5.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 138278,
+    "installed_in_image": false,
+    "integrity": "sha512-1hqclzwYwjRDFLjcFxOM5AYkkG0rpFPpr1RLPMEuGczoS7YA8gLhy8SWXYRAA/XwfEHpfo3cw5JGioS32fnMRw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/immutable/-/immutable-4.3.7.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "def89fdd1c1cfdf037ef4ae87f30bb332ef7df8cd668195d91fecdecd836aa61"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.3.7"
+}

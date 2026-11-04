@@ -1,0 +1,10 @@
+.git
+**/.git
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.key
+.venv
+build
+dist
+jobs

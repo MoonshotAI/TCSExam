@@ -1,0 +1,205 @@
+{
+ "instances": {
+  "a1_1": {
+   "B": 44306501,
+   "K": 44306501,
+   "K_source": "ROADEF official website best_solutions solution file, revalidated with the official checker in a judge-matched sandbox ; proven optimal (K equals the linear-programming lower bound of Masson et al. 2013)",
+   "assignment": "assignment_a1_1.txt",
+   "lower_bound_lb": 44306501,
+   "model": "model_a1_1.txt",
+   "nls2014_best": 44306501
+  },
+  "a1_2": {
+   "B": 902626054,
+   "K": 777532896,
+   "K_source": "ROADEF official website best_solutions solution file, revalidated with the official checker in a judge-matched sandbox",
+   "assignment": "assignment_a1_2.txt",
+   "lower_bound_lb": 777531000,
+   "model": "model_a1_2.txt",
+   "nls2014_best": 777536907
+  },
+  "a1_3": {
+   "B": 583236150,
+   "K": 583005717,
+   "K_source": "ROADEF official website best_solutions solution file, revalidated with the official checker in a judge-matched sandbox",
+   "assignment": "assignment_a1_3.txt",
+   "lower_bound_lb": 583005715,
+   "model": "model_a1_3.txt",
+   "nls2014_best": 583005818
+  },
+  "a1_4": {
+   "B": 340276352,
+   "K": 252728589,
+   "K_source": "ROADEF official website best_solutions solution file, revalidated with the official checker in a judge-matched sandbox",
+   "assignment": "assignment_a1_4.txt",
+   "lower_bound_lb": 242406000,
+   "model": "model_a1_4.txt",
+   "nls2014_best": 245421266
+  },
+  "a1_5": {
+   "B": 737253096,
+   "K": 727578309,
+   "K_source": "ROADEF official website best_solutions solution file, revalidated with the official checker in a judge-matched sandbox",
+   "assignment": "assignment_a1_5.txt",
+   "lower_bound_lb": 727578000,
+   "model": "model_a1_5.txt",
+   "nls2014_best": 727578309
+  },
+  "a2_1": {
+   "B": 6535448,
+   "K": 198,
+   "K_source": "ROADEF official website best_solutions solution file, revalidated with the official checker in a judge-matched sandbox",
+   "assignment": "assignment_a2_1.txt",
+   "lower_bound_lb": 126,
+   "model": "model_a2_1.txt",
+   "nls2014_best": 199
+  },
+  "a2_2": {
+   "B": 1392160796,
+   "K": 816523983,
+   "K_source": "ROADEF official website best_solutions solution file, revalidated with the official checker in a judge-matched sandbox",
+   "assignment": "assignment_a2_2.txt",
+   "lower_bound_lb": 537253000,
+   "model": "model_a2_2.txt",
+   "nls2014_best": 707237541
+  },
+  "a2_3": {
+   "B": 1687276915,
+   "K": 1306868761,
+   "K_source": "ROADEF official website best_solutions solution file, revalidated with the official checker in a judge-matched sandbox",
+   "assignment": "assignment_a2_3.txt",
+   "lower_bound_lb": 1031400000,
+   "model": "model_a2_3.txt",
+   "nls2014_best": 1182260491
+  },
+  "a2_4": {
+   "B": 2115430976,
+   "K": 1681353943,
+   "K_source": "ROADEF official website best_solutions solution file, revalidated with the official checker in a judge-matched sandbox",
+   "assignment": "assignment_a2_4.txt",
+   "lower_bound_lb": 1680230000,
+   "model": "model_a2_4.txt",
+   "nls2014_best": 1680542520
+  },
+  "a2_5": {
+   "B": 600621150,
+   "K": 336170182,
+   "K_source": "ROADEF official website best_solutions solution file, revalidated with the official checker in a judge-matched sandbox",
+   "assignment": "assignment_a2_5.txt",
+   "lower_bound_lb": 307403000,
+   "model": "model_a2_5.txt",
+   "nls2014_best": 309714522
+  },
+  "b_1": {
+   "B": 5080492621,
+   "K": 3367104021,
+   "K_source": "our run s41/s3 (verified by official checker)",
+   "assignment": "assignment_b_1.txt",
+   "challenge2012_min": 3339186879,
+   "challenge2012_min_team": "S38",
+   "lower_bound_lb": 3290754940,
+   "model": "model_b_1.txt",
+   "nls2014_best": 3297378837
+  },
+  "b_10": {
+   "B": 18817334983,
+   "K": 18163929783,
+   "K_source": "our run s41/s1 (verified by official checker)",
+   "assignment": "assignment_b_10.txt",
+   "challenge2012_min": 18048515118,
+   "challenge2012_min_team": "S41",
+   "lower_bound_lb": 18048006980,
+   "model": "model_b_10.txt",
+   "nls2014_best": 18048499616
+  },
+  "b_2": {
+   "B": 1135996780,
+   "K": 1015575988,
+   "K_source": "our run s41/s1 (verified by official checker)",
+   "assignment": "assignment_b_2.txt",
+   "challenge2012_min": 1015553800,
+   "challenge2012_min_team": "S41",
+   "lower_bound_lb": 1015153860,
+   "model": "model_b_2.txt",
+   "nls2014_best": 1015515249
+  },
+  "b_3": {
+   "B": 754501747,
+   "K": 160121423,
+   "K_source": "our run s41/s1 (verified by official checker)",
+   "assignment": "assignment_b_3.txt",
+   "challenge2012_min": 156835787,
+   "challenge2012_min_team": "S40",
+   "lower_bound_lb": 156631070,
+   "model": "model_b_3.txt",
+   "nls2014_best": 156978411
+  },
+  "b_4": {
+   "B": 4678113538,
+   "K": 4677957677,
+   "K_source": "our run s41/s2 (verified by official checker)",
+   "assignment": "assignment_b_4.txt",
+   "challenge2012_min": 4677823040,
+   "challenge2012_min_team": "S34",
+   "lower_bound_lb": 4677767120,
+   "model": "model_b_4.txt",
+   "nls2014_best": 4677961007
+  },
+  "b_5": {
+   "B": 1380844492,
+   "K": 928816448,
+   "K_source": "our run s41/s4 (verified by official checker)",
+   "assignment": "assignment_b_5.txt",
+   "challenge2012_min": 923092380,
+   "challenge2012_min_team": "J33",
+   "lower_bound_lb": 922858550,
+   "model": "model_b_5.txt",
+   "nls2014_best": 923610156
+  },
+  "b_6": {
+   "B": 9525956655,
+   "K": 9525900178,
+   "K_source": "our run s41/s4 (verified by official checker)",
+   "assignment": "assignment_b_6.txt",
+   "challenge2012_min": 9525857752,
+   "challenge2012_min_team": "S34",
+   "lower_bound_lb": 9525841820,
+   "model": "model_b_6.txt",
+   "nls2014_best": 9525900218
+  },
+  "b_7": {
+   "B": 15571709287,
+   "K": 15399012073,
+   "K_source": "our run s41/s3 (verified by official checker)",
+   "assignment": "assignment_b_7.txt",
+   "challenge2012_min": 14835149752,
+   "challenge2012_min_team": "S41",
+   "lower_bound_lb": 14833297940,
+   "model": "model_b_7.txt",
+   "nls2014_best": 14835031813
+  },
+  "b_8": {
+   "B": 2621850310,
+   "K": 1215602605,
+   "K_source": "our run s41/s4 (verified by official checker)",
+   "assignment": "assignment_b_8.txt",
+   "challenge2012_min": 1214458817,
+   "challenge2012_min_team": "S40",
+   "lower_bound_lb": 1214153440,
+   "model": "model_b_8.txt",
+   "nls2014_best": 1214416705
+  },
+  "b_9": {
+   "B": 15885908531,
+   "K": 15885633919,
+   "K_source": "our run s41/s2 (verified by official checker)",
+   "assignment": "assignment_b_9.txt",
+   "challenge2012_min": 15885486698,
+   "challenge2012_min_team": "S34",
+   "lower_bound_lb": 15885064440,
+   "model": "model_b_9.txt",
+   "nls2014_best": 15885548612
+  }
+ },
+ "per_instance_seconds": 300
+}

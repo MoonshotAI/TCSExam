@@ -1,0 +1,358 @@
+{
+ "instances": {
+  "h00.txt": {
+   "B": 50821,
+   "K": 482220,
+   "K_old_pool120s": 511897,
+   "best_config": "h00__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h01.txt": {
+   "B": 49235,
+   "K": 469489,
+   "K_old_pool120s": 496143,
+   "best_config": "h01__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h02.txt": {
+   "B": 51205,
+   "K": 491210,
+   "K_old_pool120s": 516134,
+   "best_config": "h02__i0_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h03.txt": {
+   "B": 51025,
+   "K": 485594,
+   "K_old_pool120s": 513139,
+   "best_config": "h03__i0_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h04.txt": {
+   "B": 50776,
+   "K": 483338,
+   "K_old_pool120s": 510389,
+   "best_config": "h04__i1_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h05.txt": {
+   "B": 50133,
+   "K": 485588,
+   "K_old_pool120s": 505447,
+   "best_config": "h05__i2_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h06.txt": {
+   "B": 47562,
+   "K": 458327,
+   "K_old_pool120s": 481560,
+   "best_config": "h06__i0_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h07.txt": {
+   "B": 50643,
+   "K": 482360,
+   "K_old_pool120s": 511346,
+   "best_config": "h07__i0_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h08.txt": {
+   "B": 49220,
+   "K": 476674,
+   "K_old_pool120s": 498204,
+   "best_config": "h08__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h09.txt": {
+   "B": 50837,
+   "K": 486397,
+   "K_old_pool120s": 512476,
+   "best_config": "h09__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h10.txt": {
+   "B": 52066,
+   "K": 498329,
+   "K_old_pool120s": 524798,
+   "best_config": "h10__i2_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h11.txt": {
+   "B": 49483,
+   "K": 471691,
+   "K_old_pool120s": 500330,
+   "best_config": "h11__i1_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h12.txt": {
+   "B": 50105,
+   "K": 479290,
+   "K_old_pool120s": 506575,
+   "best_config": "h12__i1_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h13.txt": {
+   "B": 50976,
+   "K": 490751,
+   "K_old_pool120s": 512779,
+   "best_config": "h13__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h14.txt": {
+   "B": 50495,
+   "K": 481364,
+   "K_old_pool120s": 506778,
+   "best_config": "h14__i0_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h15.txt": {
+   "B": 49653,
+   "K": 473995,
+   "K_old_pool120s": 502131,
+   "best_config": "h15__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h16.txt": {
+   "B": 50554,
+   "K": 481658,
+   "K_old_pool120s": 509423,
+   "best_config": "h16__i0_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h17.txt": {
+   "B": 50696,
+   "K": 483711,
+   "K_old_pool120s": 510587,
+   "best_config": "h17__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h18.txt": {
+   "B": 50486,
+   "K": 485045,
+   "K_old_pool120s": 508792,
+   "best_config": "h18__i0_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h19.txt": {
+   "B": 49171,
+   "K": 469193,
+   "K_old_pool120s": 496851,
+   "best_config": "h19__i2_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h20.txt": {
+   "B": 50505,
+   "K": 485556,
+   "K_old_pool120s": 509891,
+   "best_config": "h20__i1_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h21.txt": {
+   "B": 49307,
+   "K": 474567,
+   "K_old_pool120s": 500368,
+   "best_config": "h21__i2_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h22.txt": {
+   "B": 50944,
+   "K": 486112,
+   "K_old_pool120s": 512441,
+   "best_config": "h22__i1_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h23.txt": {
+   "B": 49378,
+   "K": 470974,
+   "K_old_pool120s": 502781,
+   "best_config": "h23__i2_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h24.txt": {
+   "B": 50012,
+   "K": 482090,
+   "K_old_pool120s": 505688,
+   "best_config": "h24__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h25.txt": {
+   "B": 50301,
+   "K": 482667,
+   "K_old_pool120s": 507273,
+   "best_config": "h25__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h26.txt": {
+   "B": 50146,
+   "K": 482244,
+   "K_old_pool120s": 505416,
+   "best_config": "h26__i0_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h27.txt": {
+   "B": 52115,
+   "K": 501323,
+   "K_old_pool120s": 525577,
+   "best_config": "h27__i1_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h28.txt": {
+   "B": 50134,
+   "K": 483643,
+   "K_old_pool120s": 503760,
+   "best_config": "h28__i2_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h29.txt": {
+   "B": 50523,
+   "K": 481348,
+   "K_old_pool120s": 509048,
+   "best_config": "h29__i0_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h30.txt": {
+   "B": 50788,
+   "K": 487621,
+   "K_old_pool120s": 511607,
+   "best_config": "h30__i2_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h31.txt": {
+   "B": 51226,
+   "K": 487565,
+   "K_old_pool120s": 512540,
+   "best_config": "h31__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h32.txt": {
+   "B": 50605,
+   "K": 482680,
+   "K_old_pool120s": 510756,
+   "best_config": "h32__i2_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h33.txt": {
+   "B": 48866,
+   "K": 469384,
+   "K_old_pool120s": 493776,
+   "best_config": "h33__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h34.txt": {
+   "B": 49572,
+   "K": 477883,
+   "K_old_pool120s": 496959,
+   "best_config": "h34__i0_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h35.txt": {
+   "B": 50981,
+   "K": 485047,
+   "K_old_pool120s": 516123,
+   "best_config": "h35__i0_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h36.txt": {
+   "B": 49370,
+   "K": 475398,
+   "K_old_pool120s": 497723,
+   "best_config": "h36__i0_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h37.txt": {
+   "B": 50645,
+   "K": 483953,
+   "K_old_pool120s": 510730,
+   "best_config": "h37__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h38.txt": {
+   "B": 49374,
+   "K": 475314,
+   "K_old_pool120s": 496479,
+   "best_config": "h38__i2_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h39.txt": {
+   "B": 49743,
+   "K": 479120,
+   "K_old_pool120s": 502321,
+   "best_config": "h39__i0_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h40.txt": {
+   "B": 48738,
+   "K": 468169,
+   "K_old_pool120s": 493750,
+   "best_config": "h40__i1_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h41.txt": {
+   "B": 51308,
+   "K": 490410,
+   "K_old_pool120s": 515777,
+   "best_config": "h41__i0_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h42.txt": {
+   "B": 49099,
+   "K": 477938,
+   "K_old_pool120s": 495766,
+   "best_config": "h42__i0_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h43.txt": {
+   "B": 50301,
+   "K": 486284,
+   "K_old_pool120s": 505536,
+   "best_config": "h43__i0_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h44.txt": {
+   "B": 53278,
+   "K": 512668,
+   "K_old_pool120s": 535355,
+   "best_config": "h44__i2_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h45.txt": {
+   "B": 48931,
+   "K": 469149,
+   "K_old_pool120s": 493245,
+   "best_config": "h45__i1_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h46.txt": {
+   "B": 49771,
+   "K": 476745,
+   "K_old_pool120s": 504377,
+   "best_config": "h46__i2_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h47.txt": {
+   "B": 51067,
+   "K": 487334,
+   "K_old_pool120s": 514653,
+   "best_config": "h47__i0_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h48.txt": {
+   "B": 49033,
+   "K": 469368,
+   "K_old_pool120s": 495517,
+   "best_config": "h48__i2_s101@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  },
+  "h49.txt": {
+   "B": 49517,
+   "K": 475052,
+   "K_old_pool120s": 499829,
+   "best_config": "h49__i0_s102@2s",
+   "k_provenance": "official-ahc041-2s-per-test;sa.cpp(6cfg:INITxSEED,T0=100,T1=0.2)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-8c8g,check_ahc041-ok"
+  }
+ },
+ "meta": {
+  "per_instance_seconds": 2,
+  "budget_note": "Aligned with official AHC041: 2 s per test case, per-instance hard limit, instances evaluated in parallel."
+ }
+}

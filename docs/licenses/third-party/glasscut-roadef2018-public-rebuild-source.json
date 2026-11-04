@@ -1,0 +1,54 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "glasscut-roadef2018",
+  "source_page": "https://www.roadef.org/challenge/2018/en/instances.php",
+  "scope": "Exactly70 unchanged public batch/defects inputs and30 unchanged hidden inputs from official data ZIPs, plus the identical115-byte shared public task parameter file in each product. Only declared input members opened. Historical input transformation is not applied because the frozen files already match original official bytes.",
+  "verified_products": {
+    "solver-glasscut-roadef2018-development-data": {
+      "result": {
+        "files": 71,
+        "bytes": 373529
+      }
+    },
+    "solver-glasscut-roadef2018-judging-data": {
+      "result": {
+        "files": 31,
+        "bytes": 192735
+      }
+    }
+  },
+  "downloaded_sources": [
+    {
+      "id": "roadef2018-dataset_A",
+      "url": "https://www.roadef.org/challenge/2018/files/dataset_A.zip",
+      "format": "zip",
+      "bytes": 65371,
+      "sha256": "f9e2f3c9c89fe41cde377225cbfe47fedd60b203d7c51f33e6b920e8b9caec67"
+    },
+    {
+      "id": "roadef2018-dataset_A_02032018",
+      "url": "https://www.roadef.org/challenge/2018/files/dataset_A_02032018.zip",
+      "format": "zip",
+      "bytes": 64361,
+      "sha256": "9a57c2010b28a249ac90a6e6751ad4becaa178eb2d5e97ac38071717fa50ebf4"
+    },
+    {
+      "id": "roadef2018-dataset_B",
+      "url": "https://www.roadef.org/challenge/2018/files/dataset_B.zip",
+      "format": "zip",
+      "bytes": 72730,
+      "sha256": "617ace487e5dccbb5bcd97d56e24529ff12e3e0ea9ebbf7d383afdc7b8632ff0"
+    },
+    {
+      "id": "roadef2018-dataset_X",
+      "url": "https://www.roadef.org/challenge/2018/files/dataset_X.zip",
+      "format": "zip",
+      "bytes": 70249,
+      "sha256": "b0f6cdb3599e7f26dce5066edfffa8d5e07acc00edec7ee298b3fd9291345c16"
+    }
+  ],
+  "retained_project_parameter": "assets/data/solver/glasscut-roadef2018/global_param.csv",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Official original data terms remain unresolved. Rebuilding exact inputs does not grant public redistribution approval."
+}

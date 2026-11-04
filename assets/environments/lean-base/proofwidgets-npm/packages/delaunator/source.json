@@ -1,0 +1,46 @@
+{
+  "author": "Vladimir Agafonkin",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "ISC",
+  "lock_entry": {
+    "dependencies": {
+      "robust-predicates": "^3.0.2"
+    },
+    "integrity": "sha512-8nvh+XBe96aCESrGOqMp/84b13H9cdKbG5P2ejQCh4d4sK9RL4371qou9drQjMhvnPmhWl5hnmqbEE0fXr9Xnw==",
+    "license": "ISC",
+    "resolved": "https://registry.npmjs.org/delaunator/-/delaunator-5.0.1.tgz",
+    "version": "5.0.1"
+  },
+  "lock_path": "node_modules/delaunator",
+  "name": "delaunator",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 738,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "b8878372a0d7d1c303f48659ddbd6881807cd2196e4af2f548d8da0c0f7c4d71",
+      "text_file": "image-notices/b8878372a0d7d1c303f48659ddbd6881807cd2196e4af2f548d8da0c0f7c4d71.txt"
+    }
+  ],
+  "package_license": "ISC",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 12504,
+    "installed_in_image": false,
+    "integrity": "sha512-8nvh+XBe96aCESrGOqMp/84b13H9cdKbG5P2ejQCh4d4sK9RL4371qou9drQjMhvnPmhWl5hnmqbEE0fXr9Xnw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/delaunator/-/delaunator-5.0.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "6b30e6cf0aa49bf7882a3fb6dd2b5d3c33478d3693356d8a74a88f65df411f55"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "5.0.1"
+}

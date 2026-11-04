@@ -1,0 +1,53 @@
+{
+  "author": "Jordan Harband <ljharb@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "call-bound": "^1.0.3",
+      "is-array-buffer": "^3.0.5"
+    },
+    "engines": {
+      "node": ">= 0.4"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "integrity": "sha512-LHE+8BuR7RYGDKvnrmcuSq3tDcKv9OFEXQt/HpbZhY7V6h0zlUXutnAD82GiFx9rdieCMjkvtcsPqBwgUl1Iiw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/array-buffer-byte-length/-/array-buffer-byte-length-1.0.2.tgz",
+    "version": "1.0.2"
+  },
+  "lock_path": "node_modules/array-buffer-byte-length",
+  "name": "array-buffer-byte-length",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1067,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "499507afc8a14166950bd5e445a8206d0b38fab61ea54e436b8bf2fa073cd59a",
+      "text_file": "image-notices/499507afc8a14166950bd5e445a8206d0b38fab61ea54e436b8bf2fa073cd59a.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 4891,
+    "installed_in_image": false,
+    "integrity": "sha512-LHE+8BuR7RYGDKvnrmcuSq3tDcKv9OFEXQt/HpbZhY7V6h0zlUXutnAD82GiFx9rdieCMjkvtcsPqBwgUl1Iiw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/array-buffer-byte-length/-/array-buffer-byte-length-1.0.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "57852a03833607fcc71ed3ccf0d1f1f638e09a6aacb16fa1f038945d27adf44e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.0.2"
+}

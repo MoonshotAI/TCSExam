@@ -1,0 +1,36 @@
+--- a/src/proof_translator.cc
++++ b/src/proof_translator.cc
+@@ -86,7 +86,7 @@
+ 
+ 	// the last empty constraint, but possibly not the only one (for enumeration proofs)
+ 	empty_constraint_id = empty_constraint_ids.back();
+-	constraint_type.resize(empty_constraint_id+1, 0);
++	constraint_type.resize(empty_constraint_id+3, 0);
+ 
+ 	clock_t end = clock();
+ 
+@@ -98,6 +98,8 @@
+ 	// used for intermediate learned constraints, every constraint must formally have an id
+ 	spare_QRP_IDs[0] = empty_constraint_id + 1;
+ 	spare_QRP_IDs[1] = empty_constraint_id + 2;
++	constraint_type[spare_QRP_IDs[0]] = primary_type;
++	constraint_type[spare_QRP_IDs[1]] = primary_type;
+ 
+ 	// load the formula from the QDIMACS file, it's necessary in every case
+ 	matrix = read_qdimacs(); // sets have_formula accordingly
+@@ -250,6 +252,7 @@
+ 				temporary_parent_left = parent_left;
+ 				while (i < parents_right.size() - 1) {
+ 					temporary_resolvent = spare_QRP_IDs[spare_QRP_ID_idx];
++					constraint_type[temporary_resolvent] = constraint_type[parents_right[i]];
+ 					spare_QRP_ID_idx = 1 - spare_QRP_ID_idx;
+ 					// compute resolution of temporary_parent_left and parents_right[i]
+ 					// into clause_database[temporary_resolvent]
+@@ -1131,6 +1134,7 @@
+ 		// rerouted.
+ 		
+ 		QRP_ClauseID reduct_id = spare_QRP_IDs[0];
++		constraint_type[reduct_id] = constraint_type[current_id];
+ 
+ 		// resolving with an empty constraint is in fact reduction
+ 		clause_database[reduct_id] = resolve(clause_database[current_id], {}, constraint_type[current_id]);

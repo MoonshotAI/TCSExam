@@ -1,0 +1,46 @@
+{
+  "author": "Google LLC",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BSD-3-Clause",
+  "lock_entry": {
+    "integrity": "sha512-p2+YcF+JE67SRX3mMlJ1TKCSTsgyOVdAwd/nxp3NuV1+Cb6MWALbN6nT7Ld4tpmYofcE5kcaSY1YBB9erY+6fw==",
+    "license": "BSD-3-Clause",
+    "peerDependencies": {
+      "@types/react": "17 || 18 || 19"
+    },
+    "resolved": "https://registry.npmjs.org/@lit/react/-/react-1.0.8.tgz",
+    "version": "1.0.8"
+  },
+  "lock_path": "node_modules/@lit/react",
+  "name": "@lit/react",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1517,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "45d31799d0db956cc3eb5469346abbd9b7025babc5ff29fab10d7095da992ef1",
+      "text_file": "image-notices/45d31799d0db956cc3eb5469346abbd9b7025babc5ff29fab10d7095da992ef1.txt"
+    }
+  ],
+  "package_license": "BSD-3-Clause",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 24853,
+    "installed_in_image": false,
+    "integrity": "sha512-p2+YcF+JE67SRX3mMlJ1TKCSTsgyOVdAwd/nxp3NuV1+Cb6MWALbN6nT7Ld4tpmYofcE5kcaSY1YBB9erY+6fw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@lit/react/-/react-1.0.8.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "c7e3c23544386612a9930c48f08cf1b81f8fa4283f388ce46f92c4b6c5d5c1b1"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.0.8"
+}

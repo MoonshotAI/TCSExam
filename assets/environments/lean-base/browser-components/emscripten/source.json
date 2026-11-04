@@ -1,0 +1,40 @@
+{
+  "component": "Emscripten runtime notices",
+  "coverage_scope": "Preserve runtime library licenses and exceptions; compiler use alone is not treated as a grant for output, and runtime code incorporated into the payload retains its terms. The fixed build input is verified; the exact linked runtime subset is not enumerated and the whole Emscripten project is not asserted to be linked.",
+  "installed_notices": [
+    "notices/LICENSE",
+    "notices/musl-COPYRIGHT",
+    "notices/libcxx-LICENSE.TXT"
+  ],
+  "license_texts": [
+    {
+      "bytes": 5093,
+      "name": "Emscripten-6.0.0-LICENSE",
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+      "status": 200,
+      "text_file": "image-notices/620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86.txt",
+      "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/6.0.0/LICENSE"
+    },
+    {
+      "bytes": 6196,
+      "name": "Emscripten-6.0.0-musl-COPYRIGHT",
+      "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b",
+      "status": 200,
+      "text_file": "image-notices/b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b.txt",
+      "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/6.0.0/system/lib/libc/musl/COPYRIGHT"
+    },
+    {
+      "bytes": 16703,
+      "name": "Emscripten-6.0.0-libcxx-LICENSE",
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+      "status": 200,
+      "text_file": "image-notices/539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b.txt",
+      "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/6.0.0/system/lib/libcxx/LICENSE.TXT"
+    }
+  ],
+  "schema_version": 1,
+  "source_archive_content_independently_verified": false,
+  "source_archive_url": "https://github.com/emscripten-core/emscripten/archive/6.0.0.tar.gz",
+  "source_policy": "Retain runtime license and exception texts conservatively. Exact source locations are supplied; this record does not claim that compiler use alone creates a source-offer obligation.",
+  "version_from_fixed_build_script": "6.0.0"
+}

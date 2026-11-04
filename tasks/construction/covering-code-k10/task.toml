@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/covering-code-k10-lean-open"
+version = "1.0.0"
+description = "Open conjecture: the minimum size K(10,1) of a binary covering code of length 10 and radius 1 (a dominating set of the hypercube {0,1}^10; published interval 107-120). State and prove in Lean 4 a construction (a covering code on at most k words); k <= 119 is a publishable new result after 35 years."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "covering-code", "hypercube", "dominating-set", "open-conjecture", "open-proof"]
+
+[metadata]
+family_id = "fam-covering-code-k10"
+candidate_id = "cand-covering-code-k10-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open-proof"
+difficulty_explanation = "Only the definition layer (the Covers predicate on Finset (Fin 10 → Fin 2)) and the statement template are given; the witness, the proof strategy and every lemma are up to the agent. Matching the published record (120 words, Ostergard 1991) already requires reconstructing a research-level construction and verifying it by native_decide."
+source_paper = "P. R. J. Ostergard, A new binary code of length 10 and covering radius 1, IEEE Trans. Inf. Theory 37(1):179-180 (1991) [record 120; also attributed to L. T. Wille 1990/1996]; R. Bertolo, P. R. J. Ostergard, W. D. Weakley, An updated table of binary/ternary mixed covering codes, J. Combin. Designs 12:157-176 (2004) [lower bound 107]; G. Keri, Tables for bounds on covering codes (online, last updated 2011)"
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 8192
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-construction-covering-code-k10-verifier"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 8192

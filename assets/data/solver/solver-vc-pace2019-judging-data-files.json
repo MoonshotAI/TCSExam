@@ -1,0 +1,804 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/vc-exact_002.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_002.xz",
+      "git_blob": "c148a15fbc0558eec9fe0f20f99dafd53660ed5e",
+      "bytes": 25596,
+      "sha256": "0f4b86263142efe23dc9fc627a8f6b3b84ea86ffcdd787d77886bfc6a4dfbb39",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_004.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_004.xz",
+      "git_blob": "2426a7949a14e05edecab550f3059638965923fd",
+      "bytes": 62384,
+      "sha256": "40835f6cca8e7e468f7a96e234d2c914ad4bc98bb65d2561ecc3b88c6a83a92e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_006.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_006.xz",
+      "git_blob": "44b2745bea8d7272dfaba9f2a7c37560352366c6",
+      "bytes": 2180,
+      "sha256": "c31edb60f774e30643f37fb74bf1a965b5b82ecb0620fd9285cd55c8e3988f8f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_008.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_008.xz",
+      "git_blob": "d70082fed02445b0d2fe9ff4719be0cc8ec309a1",
+      "bytes": 106692,
+      "sha256": "2a31d30af988701e58e5e916d74f274743431331f7e97a3251a1ed80f88ddf86",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_010.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_010.xz",
+      "git_blob": "5d895d2548df2204402e2132fdcec4b8a239cc84",
+      "bytes": 2216,
+      "sha256": "3bf55eb0733adcb219b2b9e80edb58a2efebb2b8728b1e52114b6b362c419341",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_012.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_012.xz",
+      "git_blob": "70d1f6e1bbe8c8a99c597fbe1dea7f3ff6ae333e",
+      "bytes": 30120,
+      "sha256": "6286a8a55a0f9d8480ab95dc5544a9481fe26351e28d9dd1cd94f795068ad16b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_014.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_014.xz",
+      "git_blob": "0246b029c707f9308edb05e90cf0c74d34f3ed81",
+      "bytes": 14892,
+      "sha256": "5502374b9e69509ec441d4a3563ba3dfc8cda910c52295beeddb0fae5500bd83",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_016.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_016.xz",
+      "git_blob": "cf6375423118a7e2be56809d855daab643f7187b",
+      "bytes": 1636,
+      "sha256": "fee91b69b3047b4f9024c4121df62438c1cc2e45761fe7d26e9dae44b9bf9a84",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_018.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_018.xz",
+      "git_blob": "cd144a13064b0db2a4046a94e6b91fd6ff21d8cf",
+      "bytes": 27672,
+      "sha256": "44ab9813602bf41518c9a354297e8c464038053747f2360a1bc1c1fd232fa8af",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_020.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_020.xz",
+      "git_blob": "3dae01ce64c1374519cc50098477481547a4ee89",
+      "bytes": 35772,
+      "sha256": "97e83336eea88b64956b471e14cf3af110bd99113439b987981da5728b7ed41a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_022.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_022.xz",
+      "git_blob": "71c6780f84a52b2c0b73aac12a2f7b06e0ed2145",
+      "bytes": 143256,
+      "sha256": "31a0c14a8d1190ed4e20a0498f71c82d23a6f0719d77a2c48d46ffd23cedf4a7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_024.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_024.xz",
+      "git_blob": "4f66b3d1309fbcd685ee5cfaaefdf19118690e9e",
+      "bytes": 69484,
+      "sha256": "8b64d7b3ceac59d9751399a3cd823e35f00250a08c1fd090d3047ebdd85f2ea9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_026.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_026.xz",
+      "git_blob": "539b1207de11e8c326296ac551a49da4b0d32b89",
+      "bytes": 59648,
+      "sha256": "460fa9a82636feb7f68a413af6b0f4f144fc621487225e98bffdb9707864e1a5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_028.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_028.xz",
+      "git_blob": "43cfed0c9db8f7dccf5a4e50f4ec68ba8e99c814",
+      "bytes": 29108,
+      "sha256": "6b44a5000be45f65d18d8b9b15ae0e98f83c888ac59ec61a97c8595a54c135c6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_030.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_030.xz",
+      "git_blob": "e00f161109775b56177971d1970a2d053b3de9d1",
+      "bytes": 32156,
+      "sha256": "d20354980ab9313c190c715d5bc3b66951dda9df637b67d508b415572142eeee",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_032.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_032.xz",
+      "git_blob": "0bfa18863257d6a76c5861dfe7af29ba02c959d4",
+      "bytes": 4444,
+      "sha256": "e1accd2f8b4517da83266e411d852d0e7210e15b1a8c571bb97230c80ede9dc1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_034.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_034.xz",
+      "git_blob": "70d79e20a13fe4b771cb1c9ccf2c282a296e30a3",
+      "bytes": 4440,
+      "sha256": "24b96436efadf1e65c016abe32c0faaf3c53d6e5fab0f3d6e8c322372c332ba9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_036.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_036.xz",
+      "git_blob": "5e9c1069befe6d589c6f78c7f6a6b1b148615b8b",
+      "bytes": 47208,
+      "sha256": "2a8404f721bbd1557057fbf06a1c08e45d009719f8d116c52bfe6004969d7136",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_038.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_038.xz",
+      "git_blob": "30f9d1628ce6d81c085e5a167bfab0b9a7cef19c",
+      "bytes": 22820,
+      "sha256": "972d06f2c08ecdb1e53e38215b2776ec8bd1c6090a1029d92558be8f8a414567",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_040.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_040.xz",
+      "git_blob": "610e0712c234a5cc41b42226c194e8466195f926",
+      "bytes": 1496,
+      "sha256": "7e8b786c089142dff07287a5b0a25d8fc529e63c3e168adf4ea28144e0b1fab9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_042.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_042.xz",
+      "git_blob": "9c51f9befc1e079a05c0469dea92ed3fa08a6682",
+      "bytes": 2740,
+      "sha256": "7b2b96ae2c4f28d47ea00ab1f35070c06483e451c5e7ed170bcfbcecbfe4d6a1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_044.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_044.xz",
+      "git_blob": "ed3b524817f5dc314615cc7a747da2e56e992bc7",
+      "bytes": 3276,
+      "sha256": "ecd30eb14974c8828a2f791cac28a87c42ad0838329a7dfbb1e4ac01b8c444e0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_046.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_046.xz",
+      "git_blob": "7b22550d76b5610737ffb32518452d394b9639dd",
+      "bytes": 1792,
+      "sha256": "e8c2df2b6dd11d253bcbfa21474bd1ce8393fc0331824befa023e458069678e2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_048.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_048.xz",
+      "git_blob": "8e8b25fe18efc5c4539a59a43a4a2ba51be12ea4",
+      "bytes": 2932,
+      "sha256": "20a1e1b9848252e281271c4f5ab38e3af84a8455d159c712af3d9180b8ad5953",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_050.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_050.xz",
+      "git_blob": "276812ef38a3c1a33056662c78b7f82461008774",
+      "bytes": 2928,
+      "sha256": "adbd21ba4b8fd752f6277ee92c5718c33b15a25a46ec38bdab266c7ae1ea4434",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_052.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_052.xz",
+      "git_blob": "e1b4445d43b12edc50eb8d250e146c3d6e4407f8",
+      "bytes": 2840,
+      "sha256": "8ad85acf5faef4c54f2b4d727128cd20d66a8ba6e529bcd9943447cd5a2212ae",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_054.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_054.xz",
+      "git_blob": "71714b92d6c186f326d817fd0bf80216d9f37abe",
+      "bytes": 2744,
+      "sha256": "497e5022163dd65e2818a45e73e11253b3a7c22399c8c87e581dc7967b09d8d4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_056.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_056.xz",
+      "git_blob": "4005894e91531e3ab2887b172a86c943332925cd",
+      "bytes": 3124,
+      "sha256": "d1ac5b9c8a5a80c87010c30f89e36d0bf6c478d520088041722a94d727cdd34d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_058.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_058.xz",
+      "git_blob": "9b90930e08107b4b395bedcf7907f8fdc34400ab",
+      "bytes": 3300,
+      "sha256": "b7b1d71e966717ffb6ab88caecfe755d26b0df20c528e20545c93f3ab5b66e83",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_060.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_060.xz",
+      "git_blob": "9e951cdf4a8813ede953df7d08071d5c7933d4a1",
+      "bytes": 3148,
+      "sha256": "492f280e13e21cb33131456365283867207a9d62842976e5ec26ade7e9a03ddc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_062.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_062.xz",
+      "git_blob": "36c710d3e2bb912ec70299e64d85a090d25bae6b",
+      "bytes": 3212,
+      "sha256": "fa3e4df2249fca5c2707124fcd0db430904cb4b253b4c7699d783ff1bc5da3fc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_064.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_064.xz",
+      "git_blob": "f124add94670efeb83eab162622c42dbb2dd419d",
+      "bytes": 2980,
+      "sha256": "7fb0556821a1ffc5e342026011316cdb1197de515abe1b7a476c4886bd866837",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_066.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_066.xz",
+      "git_blob": "f184f9b7e559acbe89441dcd7c5a80a2b199ca88",
+      "bytes": 2500,
+      "sha256": "5079087b87dd5780174d6f5f96487f2b2f97fb62cc1cb834203d29e8a88eecaa",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_068.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_068.xz",
+      "git_blob": "074d2841e5d44dd5937fb6e5575baae981461897",
+      "bytes": 2760,
+      "sha256": "63fc5182a5f55e86cadb755c4fece0091c925cd86f24cade114225bc4b1d9ae6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_070.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_070.xz",
+      "git_blob": "21032558b8d8838e44621bd14a5be42b70bfa601",
+      "bytes": 2492,
+      "sha256": "35248876003190c38a36696fd60356d3930e0b013786db9fa8347117d925dce5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_072.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_072.xz",
+      "git_blob": "57510d6b130bdd71038ba22602d70a8877440bca",
+      "bytes": 3296,
+      "sha256": "7cfd459f7080879b024f0300cb876559e39b20a58a803da600b1230d760587b0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_074.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_074.xz",
+      "git_blob": "496829873789e6af228efe10d830ac818b7eb8eb",
+      "bytes": 2340,
+      "sha256": "5d86ecc4785ec7c49c577668d6e6e7e2500ad874d1c43baff839313fd8fd5ac8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_076.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_076.xz",
+      "git_blob": "38ce390a85373f7fe26135fec56ee75e47587532",
+      "bytes": 47180,
+      "sha256": "a4744fd666eb0ec7d0e51df7b78f7932e11ca24934f946ccb704dc55d05a9020",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_078.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_078.xz",
+      "git_blob": "3f26cbafe399abacb0b48d80f7c5202ff21e0b13",
+      "bytes": 21684,
+      "sha256": "253b5fe8c7824b837f0bff2aa476dc01e6fbe8d7375d971fda931dc5303abca4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_080.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_080.xz",
+      "git_blob": "4e963c2c365cd92cf7cf86d4ec78cdd5aaa50f19",
+      "bytes": 45736,
+      "sha256": "772a507e2121a86d248a905203a134d551efad2b0a3461e70e13a3c29edd6d07",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_082.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_082.xz",
+      "git_blob": "f95a9cfc16a1851fcb74cb5e2c9b1ff8cd52f88c",
+      "bytes": 2760,
+      "sha256": "547dbaedac9d378d44db33fe8983e9a8d2a1c84ec67f101fc688d53f7930616b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_084.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_084.xz",
+      "git_blob": "7e547c544f40aa183356e44bff7cbe45b5753453",
+      "bytes": 26520,
+      "sha256": "af27120c45c2dd91762750613e1045cb8325af9643a8be84d2f0c75f427497b6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_086.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_086.xz",
+      "git_blob": "8defccaad8076ed77dad5f776b99364a3ddbde71",
+      "bytes": 46156,
+      "sha256": "87df90cef4c9b9ae6a0c0dcdd66d0f10004e149f3539636252054096215eccb1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_088.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_088.xz",
+      "git_blob": "9185dc02229a74624a6be452f059679029c33698",
+      "bytes": 46172,
+      "sha256": "fe51b004c08aaffbdae78a69f13113fe1b8fcff9c76b455387a1eb381158d499",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_090.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_090.xz",
+      "git_blob": "ea6f2d16fc6e33663a4d880dc9054df636189800",
+      "bytes": 21756,
+      "sha256": "3b573e290815d3b1c5b399615ddb4ec44da00c4f874d5de727d22a127acee613",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_092.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_092.xz",
+      "git_blob": "92c074d3e26bcf3f5f37918a9ecbf81b898b0c2b",
+      "bytes": 13368,
+      "sha256": "2486e4debbffb21afa709768b1f899c367dcfe4db77183d67adad4efe4a4943a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_094.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_094.xz",
+      "git_blob": "b2bf99ae52f1824e238f82685c2333f37ac5cf60",
+      "bytes": 18044,
+      "sha256": "0fcb4b0d63fa4ed5e109ba686725cd20ab7f4049953a1cfff75df86eba472da9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_096.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_096.xz",
+      "git_blob": "101ea58c41a64cc6131cdf57ab2d6515ca1c892e",
+      "bytes": 45000,
+      "sha256": "2fd7afe3cd669dca4afc5bdf624a506dd11f8399134e6da1cada61ddda05ef55",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_098.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_098.xz",
+      "git_blob": "a0383835b8481dabca3f234cac70a79348d770c2",
+      "bytes": 45792,
+      "sha256": "8058d952805481ad5fae37b7d71707778bc8c79d97d17e250c66ad4405e4e66c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_100.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_100.xz",
+      "git_blob": "a2f2bd921e1264d66cfd54d8beb99a9ac3e4e942",
+      "bytes": 46756,
+      "sha256": "bb950c04b0c5711c8f29d445c5f9957c6a0c9cdb8d22b00f42bb481242a551b7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_102.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_102.xz",
+      "git_blob": "8333ed24cd0c4c91e949048ca048e359bee91eb0",
+      "bytes": 45596,
+      "sha256": "1f0417a9e99effd5dfd3c77586af55310c1d9692ccdeb8aedffdd7e4c27b16b5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_104.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_104.xz",
+      "git_blob": "18da9e8a4e4dac0f8fe7c068107e46d23dad8d88",
+      "bytes": 44776,
+      "sha256": "6a0d809048b9e6276ca638bcd1c31acdb5d24116a7d7cad5e164e1a8ae9637da",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_106.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_106.xz",
+      "git_blob": "3559fa41f29da1fc4848268b0ede9d5fe4194efd",
+      "bytes": 9000,
+      "sha256": "08c6a3c8911ae2eaf4b5a9560f2d218acfee450fc4387fdb96a7be6ca270deed",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_108.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_108.xz",
+      "git_blob": "3f9f4f0e35b6c590aaa761faf28a89dadb3b3c0b",
+      "bytes": 45396,
+      "sha256": "68cf4a924cf98decb0fb7e5b8079ad4d156f2fa7100e714b98aac182c5b86523",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_110.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_110.xz",
+      "git_blob": "df6f25ac9a2b5a746faa032b98e99e850a4bd28b",
+      "bytes": 198704,
+      "sha256": "50c4c728c382597632eddb1ae2c90de9b230c0d1fb72efb4459723e7c5eebb69",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_112.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_112.xz",
+      "git_blob": "04f3658f5f2a0669bddbcd8f64457bd33ed2aee0",
+      "bytes": 35308,
+      "sha256": "5c2c4af70a103e41467a394bc05109d2666a8b1be9895c8970e70c1521920f7c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_114.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_114.xz",
+      "git_blob": "725a84ed5704a8bab4cb5e856d821d6a5b614203",
+      "bytes": 30356,
+      "sha256": "2e8e53b2c0668d49ceecc7655972197aec70c338a5a3d205649f95bb66b2ebef",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_116.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_116.xz",
+      "git_blob": "70d40f8f1adf0da35eb519858f181f913edc1fc1",
+      "bytes": 45780,
+      "sha256": "ec15673a5d836cbd1ae2899923eb7005e4ab1beb1598004eca1714f837a9d977",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_118.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_118.xz",
+      "git_blob": "f1c4cdffe8365c217adb4e8aeca375f72cb4c4ef",
+      "bytes": 44656,
+      "sha256": "bfb112f806ac5197ff5b6021b1d92ad803b71240a1fd0923d58580517d2936e3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_120.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_120.xz",
+      "git_blob": "9c91cd2432912709ed3ae63be147089ca8dbedd2",
+      "bytes": 132676,
+      "sha256": "ab7c1a41fcdad51baef950059370789c0446323473a4cfc8d51263265a9a229c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_122.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_122.xz",
+      "git_blob": "0f5452c2443fd832215abd68385eff7f7d6566b7",
+      "bytes": 46076,
+      "sha256": "ad359ce2172a461d99f19dca4cca55cab91ed1f94ccf86cf764b8e869db0b6c4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_124.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_124.xz",
+      "git_blob": "317ad97ca10d3c6fd3860469a9952b6cdbd4cdb8",
+      "bytes": 45828,
+      "sha256": "52a149edbc3e80c895f0d706318a6f54860167731b2d9513468afc500375b6d7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_126.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_126.xz",
+      "git_blob": "7d969d932d14ffc75132ed040425eaa34a80d23d",
+      "bytes": 35032,
+      "sha256": "92e20db1659d8fb0a1d5f776e029d93eb99a2b080d01db4dffb8c83c3fb4c854",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_128.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_128.xz",
+      "git_blob": "167198db173302c159c6faa49bd654778befb805",
+      "bytes": 45224,
+      "sha256": "6ed0f0baf0ae7bea961a6da104bbce8a4e1bce76e166f732aa53da8bbf3e2d1a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_130.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_130.xz",
+      "git_blob": "60e81245054694d69c73fa89d1ddb6a19fe5436f",
+      "bytes": 44924,
+      "sha256": "dcf82b992da919b4afad1f768353615871b4122a32ff4c6af591ede68b743165",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_132.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_132.xz",
+      "git_blob": "510a5bf125a7ef8afceaffc9ec539c3a9ca7434b",
+      "bytes": 30752,
+      "sha256": "09b048ab690a3303e832049c735050a84b5c7c917916a572462f0dbf0a6e044a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_134.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_134.xz",
+      "git_blob": "97eea07a585aeb63a258360aea4b60ccda2aacdf",
+      "bytes": 44540,
+      "sha256": "871137bde5ae6e62720db6d9e8ca67ab9e47e48eca4b44a941fac8067a2089ef",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_136.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_136.xz",
+      "git_blob": "9fe0af74f86daa134d2bc31193a63d1ea81f097d",
+      "bytes": 35516,
+      "sha256": "be977d73d93bf1d6aac4398fd942ff3e66625d9c2ac53bfd1bac4926a028c501",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_138.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_138.xz",
+      "git_blob": "8c3922e8f470ea25ba3f94044216b0e67f2da995",
+      "bytes": 35368,
+      "sha256": "3bfd216dfa655a6ad0225040f0d22c5eaaca3f64271296ce68fa89efec928de9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_140.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_140.xz",
+      "git_blob": "e9fcf161d26c30cf9db3cbc9a0106408902ed552",
+      "bytes": 44904,
+      "sha256": "72d2a97878e7dc48ad458d0f36a98395a388baafe65278df82bcc41faa8107b4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_142.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_142.xz",
+      "git_blob": "22b8bb48b5441ae37d2f0c0c06f8d39a0b275c9f",
+      "bytes": 8928,
+      "sha256": "dbd0aabc158d42757143d40711bf3ad89b95f122ad3dc181a9cdd2bebbdece16",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_144.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_144.xz",
+      "git_blob": "cf2b196675f9a508a6be98641a2ae8c764ab5eb1",
+      "bytes": 44908,
+      "sha256": "1e35caa4ad3a6fd54c436e952e7f46e67b80fbac8569ce8bcc80feab7cf12f06",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_146.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_146.xz",
+      "git_blob": "0fbdb510e6ab0b51cce5ca431a1c8e80ff63b5e2",
+      "bytes": 44964,
+      "sha256": "84a8fab8e44308d8e1c059e820e479c34bb73bc875ee43c5479a2b9ed2b8b1aa",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_148.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_148.xz",
+      "git_blob": "0d86aec1b4d99c4df37a00fe26a851e479e0ad5b",
+      "bytes": 45300,
+      "sha256": "32261c64e00d529d6b03831ddc420111c2dc4a0d48553b1195f90e05dfa7e945",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_150.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_150.xz",
+      "git_blob": "24940f827ad1aa58def68896accc97d60b508595",
+      "bytes": 45776,
+      "sha256": "ab999cbb119a749f1a8f11e31478bbc6f15ec172795a687ce11811777fb9e29c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_152.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_152.xz",
+      "git_blob": "9f3da2ae44e2523a7215be1d5143267c2346532c",
+      "bytes": 26712,
+      "sha256": "175cbe0d5baf4fcb6b86cb50b188bd3747f78ad41958078636b41c764120b215",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_154.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_154.xz",
+      "git_blob": "e45adeb105b5009bc224338d1097758663780ab3",
+      "bytes": 30764,
+      "sha256": "3004c599dddd30c99a63be966cc2258f3889aac9a7a2cac8275c9bf22f8080ae",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_156.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_156.xz",
+      "git_blob": "7f0ca87fbb67707449427b740e0a413c320034f5",
+      "bytes": 13484,
+      "sha256": "5d73c866091cad2d737f4b377c6ee46891d8fb3b8e9098bdb00e643f26b44604",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_158.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_158.xz",
+      "git_blob": "4c0ab777cdd888eb3c0e5dc7dc3d04e9c2b29b6d",
+      "bytes": 30368,
+      "sha256": "ae7c64dab22a8ce2cfcc21520c569e961c7c1143baff794e5a3236044b9aab1a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_160.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_160.xz",
+      "git_blob": "309b11625585baa93f48a9406edad49f581fa081",
+      "bytes": 35456,
+      "sha256": "10bd686023512c524a467f200a2a02a1b91d7522e47d43d0f2709153bca57c76",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_162.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_162.xz",
+      "git_blob": "22e446093c2b55e81df874bb70380a8a91a28668",
+      "bytes": 102944,
+      "sha256": "831998540a338dfee17b9f8f7088a2ae551770567e254e0aec4040ee300370ee",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_164.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_164.xz",
+      "git_blob": "ad56df1039a2ae08ba48c39fca04488f2fe53ed3",
+      "bytes": 51112,
+      "sha256": "d64a7d715073ebaf2680a0c51c90b2dc4b78e5e38c94f8244b4a9fc24e69a54e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_166.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_166.xz",
+      "git_blob": "98e22632a28896343dc265fa9715343b8b24ce9c",
+      "bytes": 9884,
+      "sha256": "2319bf81c0dd19c5a1e7edd7366ad42439b614ccc99033e75df66c372b51dda9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_168.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_168.xz",
+      "git_blob": "3e93b39be6671bf1bb90b0a4f02fa46ca283e2ed",
+      "bytes": 9040,
+      "sha256": "56993467e0cb1ddb29fa6753dd057ea7f1a3c0ecc98b93f9bfdee5fc0f948df1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_170.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_170.xz",
+      "git_blob": "65eb7fe56508c6e8c65787a4364392e80be2ac5f",
+      "bytes": 30584,
+      "sha256": "4c9668be4d26a62e0d7285c943e7acbb7de465061109c995790ed30481c28da0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_172.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_172.xz",
+      "git_blob": "9e9ca580aa8f860ce007608d2f987a7ce17b0670",
+      "bytes": 11584,
+      "sha256": "7a0d7b7c0582a4706bfce03411a92415a450fd4aacc6164e7fdd40b6aaec02b0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_174.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_174.xz",
+      "git_blob": "8402f8902791727fea01ef8804af63530804f2e2",
+      "bytes": 9020,
+      "sha256": "5ef6dc19e868a4e723249c05d61560db767d1fa92701f2adc356f806b95c71f4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_176.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_176.xz",
+      "git_blob": "9170989b221c9d93a9a41b3a1b0d6aadf8924dba",
+      "bytes": 30460,
+      "sha256": "88d2ac85db32496ca48f8c9ce4645d29969f9bc4933b99e90c9245d98091c64b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_178.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_178.xz",
+      "git_blob": "be4ea60506844a010e1d5786f81fe2cdfb66ba01",
+      "bytes": 35352,
+      "sha256": "485bfce00252768008127134c86283001b494a7a73ab90558781dd27db52cb9b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_180.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_180.xz",
+      "git_blob": "4b3391d1a0245f508a3754973c1b24d42bcb6a12",
+      "bytes": 31084,
+      "sha256": "ca50ddd774b010d1d200ef8cfa19822ebebdb62c0f26d983d751162b2ee575ac",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_182.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_182.xz",
+      "git_blob": "c11adb4daf7a7320e6292a7125e6b439bf6fd7d9",
+      "bytes": 45704,
+      "sha256": "ccc2331be46012bc7118653dda3778823dcf7bbcb63e6e08e1f6ff8a5d1fba7b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_184.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_184.xz",
+      "git_blob": "9beaed8a09de7b7357428bcb427175c512e5ff1c",
+      "bytes": 18788,
+      "sha256": "b59b32df8aa0fc64505582054317745e6cd0a6497650285eaff96d9f58136608",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_186.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_186.xz",
+      "git_blob": "bb7f5231794f7fa5dfd69a051db4038a9d63384f",
+      "bytes": 44836,
+      "sha256": "182140ab976f250fa44fc2dd378cbdafb510fad301bee89b724a3c2c0c705b91",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_188.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_188.xz",
+      "git_blob": "bd6de7a5fef52d2c574f67fa94e60d8a1b77bfc7",
+      "bytes": 19804,
+      "sha256": "ba17426e0b12561df2490324e49691db73034d9c89271d9e77979b0b5981ae06",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_190.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_190.xz",
+      "git_blob": "42e88a805539bdec1dc839db19c63ce0de80a47f",
+      "bytes": 11696,
+      "sha256": "c062285a1697a383c12e818aac1943c14005a247c011b1255a16f6dbb3cf48d2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_192.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_192.xz",
+      "git_blob": "48abc73ec81bec7e9497debca4509a89b69af8ac",
+      "bytes": 9168,
+      "sha256": "0d98c98f1c2306b3b66cf26edb6ca39091b7c507fe206cee59d371175ded0495",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_194.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_194.xz",
+      "git_blob": "5223e76d114f211c5b651b09a7b5798be6549b5a",
+      "bytes": 67736,
+      "sha256": "c266eecdb71abcd462b2a8f2a027ce1e3c573b42f62113b9e4528a97b816ffef",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_196.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_196.xz",
+      "git_blob": "3a53856a42c77e41a1deed39aafb7438ca177015",
+      "bytes": 104544,
+      "sha256": "44127cfa900fdb0902f24f5a37feea9ec8798f20de51efc518f17b9675b4d576",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_198.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_198.xz",
+      "git_blob": "81bf75f3b16d5b8a538d4782f5acf1a97e22e2b7",
+      "bytes": 66368,
+      "sha256": "87b9c76e4d6517e2b95bdd23c2a1190324e564a4f7d028d45dfa6bc290807400",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/vc-exact_200.xz",
+      "source_path": "tasks/solver/online/vc-pace2019/tests/instances/vc-exact_200.xz",
+      "git_blob": "7770f2c76f12d00beab54b68502e0d9bef13893b",
+      "bytes": 67044,
+      "sha256": "58f4d3c04224de5b22987bb85703360ba9ccc4845a86b6bf5cd66f445e9a4ab8",
+      "mode": "0644"
+    }
+  ]
+}

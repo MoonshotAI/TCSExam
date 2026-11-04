@@ -1,0 +1,52 @@
+{
+  "author": "Raynos <raynos2@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "is-callable": "^1.2.7"
+    },
+    "engines": {
+      "node": ">= 0.4"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "integrity": "sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/for-each/-/for-each-0.3.5.tgz",
+    "version": "0.3.5"
+  },
+  "lock_path": "node_modules/for-each",
+  "name": "for-each",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1075,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "d07913d776eef217a95d7ee3ee83577fc3c365b9c870f5a3411f785b81090614",
+      "text_file": "image-notices/d07913d776eef217a95d7ee3ee83577fc3c365b9c870f5a3411f785b81090614.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 8133,
+    "installed_in_image": false,
+    "integrity": "sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/for-each/-/for-each-0.3.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "4bd2cfc8e674c93cf7abb3bd3d6fd8e388fa10324bec011223a8fa4f287185d1"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.3.5"
+}

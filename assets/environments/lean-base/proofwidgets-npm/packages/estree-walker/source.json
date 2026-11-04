@@ -1,0 +1,44 @@
+{
+  "author": "Rich Harris",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dev": true,
+    "integrity": "sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz",
+    "version": "2.0.2"
+  },
+  "lock_path": "node_modules/estree-walker",
+  "name": "estree-walker",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1126,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "8a6dcbabe7179f9c8489c08a7d874d0f1e093ae7449e03756ccf87cb9d0e296e",
+      "text_file": "image-notices/8a6dcbabe7179f9c8489c08a7d874d0f1e093ae7449e03756ccf87cb9d0e296e.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 8353,
+    "installed_in_image": false,
+    "integrity": "sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "302931e539a9c5568d56634119290c4df9a7bde64a2f2dbc646d6013e3b03c58"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.0.2"
+}

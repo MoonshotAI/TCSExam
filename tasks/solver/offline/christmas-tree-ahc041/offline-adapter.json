@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/christmas-tree-ahc041",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/christmas-tree-ahc041/tests/checker.py",
+      "target": "tasks/solver/offline/christmas-tree-ahc041/tests/checker.py",
+      "sha256": "577d3c32534792c72b5a0d7c3c0ad5ec8032ffb256ffa463e9f0c2e522fc8453"
+    },
+    {
+      "source": "tasks/solver/online/christmas-tree-ahc041/tests/reference-hidden.json",
+      "target": "tasks/solver/offline/christmas-tree-ahc041/tests/reference.json",
+      "sha256": "1f18177a1561ccbeb6dd3db2f30cd5f77cead4af4f6230dad2a4ecadeee22d50"
+    },
+    {
+      "source": "tasks/solver/online/christmas-tree-ahc041/tests/anchors.json",
+      "target": "tasks/solver/offline/christmas-tree-ahc041/tests/anchors.json",
+      "sha256": "cb037e78bcabbca09df161b7fc94fc704040a34c63f6a59a3e9a9557c5b5ba75"
+    },
+    {
+      "source": "tasks/solver/online/christmas-tree-ahc041/tests/metric_config.json",
+      "target": "tasks/solver/offline/christmas-tree-ahc041/tests/metric_config.json",
+      "sha256": "a3c087be6b5791673fcd370d924b3475d84234422d6681dc5030696ebe63ace4"
+    }
+  ],
+  "development_dependency": "dev-online-christmas-tree-ahc041",
+  "verifier_dependency": "backend-online-christmas-tree-ahc041",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

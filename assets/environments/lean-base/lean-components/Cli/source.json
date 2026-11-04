@@ -1,0 +1,31 @@
+{
+  "actual_candidate_head": "da07ca808b6718cb2aed14dba154e5a08b8f8ecf",
+  "checked": "2026-10-29",
+  "commit": "da07ca808b6718cb2aed14dba154e5a08b8f8ecf",
+  "commit_url": "https://github.com/leanprover/lean4-cli/commit/da07ca808b6718cb2aed14dba154e5a08b8f8ecf",
+  "independent_notice": {
+    "non_notice_copyright_files": [],
+    "present": false,
+    "status": "no_independent_notice_found",
+    "tree_api": "https://api.github.com/repos/leanprover/lean4-cli/git/trees/da07ca808b6718cb2aed14dba154e5a08b8f8ecf?recursive=1",
+    "tree_entries": 16,
+    "tree_http_status": 200,
+    "tree_truncated": false
+  },
+  "installed_license": "LICENSE",
+  "license": {
+    "bytes": 1062,
+    "http_status": 200,
+    "id": "MIT",
+    "local_content_matches_fixed_upstream": true,
+    "local_file": "Cli-LICENSE.txt",
+    "sha256": "f7e95706807e931782b6efd9a9d2789508a52423ad67b56ee7e5e324362d4aac",
+    "url": "https://raw.githubusercontent.com/leanprover/lean4-cli/da07ca808b6718cb2aed14dba154e5a08b8f8ecf/LICENSE"
+  },
+  "name": "Cli",
+  "repository": "https://github.com/leanprover/lean4-cli",
+  "schema_version": 1,
+  "source_archive_content_independently_verified": false,
+  "source_archive_http_status": 200,
+  "source_archive_url": "https://github.com/leanprover/lean4-cli/archive/da07ca808b6718cb2aed14dba154e5a08b8f8ecf.tar.gz"
+}

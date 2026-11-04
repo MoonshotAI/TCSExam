@@ -1,0 +1,84 @@
+{
+ "b_spec": "qute wrapper @900s (same protocol as the judging side, )",
+ "instances": {
+  "IssueServiceImpl": {
+   "B": 0,
+   "K": 0,
+   "b_seconds": null,
+   "status": "unknown"
+  },
+  "exquery_query42_1344n": {
+   "B": 1,
+   "K": 1,
+   "b_seconds": 0.08,
+   "status": "false"
+  },
+  "falsequ_query64_1344n": {
+   "B": 1,
+   "K": 1,
+   "b_seconds": 0.03,
+   "status": "false"
+  },
+  "falsequ_query71_1344n": {
+   "B": 1,
+   "K": 1,
+   "b_seconds": 0.03,
+   "status": "false"
+  },
+  "ntrivil_query64_1344": {
+   "B": 1,
+   "K": 1,
+   "b_seconds": 0.03,
+   "status": "true"
+  },
+  "ntrivil_query71_1344n": {
+   "B": 1,
+   "K": 1,
+   "b_seconds": 0.03,
+   "status": "false"
+  },
+  "nxquery_query64_1344n": {
+   "B": 1,
+   "K": 1,
+   "b_seconds": 0.06,
+   "status": "false"
+  },
+  "pipesnotankage19_9": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "status": "false"
+  },
+  "sdlx-fixpoint-6": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "status": "false"
+  },
+  "stmt23_66_96": {
+   "B": 0,
+   "K": 0,
+   "b_seconds": null,
+   "status": "true"
+  },
+  "trivial_query60_1344n": {
+   "B": 1,
+   "K": 1,
+   "b_seconds": 0.07,
+   "status": "false"
+  },
+  "trivial_query64_1344n": {
+   "B": 1,
+   "K": 1,
+   "b_seconds": 0.06,
+   "status": "false"
+  },
+  "trueque_query60_1344n": {
+   "B": 1,
+   "K": 1,
+   "b_seconds": 0.03,
+   "status": "false"
+  }
+ },
+ "per_instance_seconds": 900
+}

@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-np-vs-acc"
+version = "0.1.0"
+description = "Prove or refute NP-vs-ACC (some language in NP has no constant-depth, polynomial-size circuit family over unbounded fan-in AND/OR/MOD_m gates; pinned to SAT under the dense CNF-matrix encoding) in Lean 4 (machine-verified). Open problem: no ground truth; the Lean kernel is the judge. A kernel-verified proof of either direction scores 1.0, otherwise 0 — no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "circuit-complexity", "ACC", "circuit-lower-bounds", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-np-vs-acc"
+candidate_id = "cand-np-vs-acc"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open problem (NEXP vs ACC settled by Williams 2011, NQP vs ACC by Murray-Williams 2018; NP vs ACC remains open and is the recognized next step of the algorithmic method). Full score needs a kernel-verified proof or disproof of the conjecture itself; there are no checkpoint slots and no partial credit."
+source_paper = "Background: Williams 2011 (STOC), Murray-Williams 2018 (STOC); textbook statement Arora-Barak, Computational Complexity: A Modern Approach, Ch. 14. Definition-layer survey: proof-circuit.md (historical report not included in this package) (section 4.2). Circuit encoding adapted from SamuelSchlesinger/circuit-complexity (Apache-2.0)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-np-vs-acc-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

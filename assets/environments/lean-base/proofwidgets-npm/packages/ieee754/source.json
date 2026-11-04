@@ -1,0 +1,61 @@
+{
+  "author": {
+    "email": "feross@feross.org",
+    "name": "Feross Aboukhadijeh",
+    "url": "https://feross.org"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BSD-3-Clause",
+  "lock_entry": {
+    "funding": [
+      {
+        "type": "github",
+        "url": "https://github.com/sponsors/feross"
+      },
+      {
+        "type": "patreon",
+        "url": "https://www.patreon.com/feross"
+      },
+      {
+        "type": "consulting",
+        "url": "https://feross.org/support"
+      }
+    ],
+    "integrity": "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==",
+    "license": "BSD-3-Clause",
+    "resolved": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz",
+    "version": "1.2.1"
+  },
+  "lock_path": "node_modules/ieee754",
+  "name": "ieee754",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1465,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "18d45466ba3253deae04667e267a91ea8de8548f18c1125264d1c9db28194cc1",
+      "text_file": "image-notices/18d45466ba3253deae04667e267a91ea8de8548f18c1125264d1c9db28194cc1.txt"
+    }
+  ],
+  "package_license": "BSD-3-Clause",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 2886,
+    "installed_in_image": false,
+    "integrity": "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "8ef14b9b397e339db89db97881fb714f49319d8f0eb1275901f45567b28f9dac"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.2.1"
+}

@@ -1,0 +1,41 @@
+{
+  "task": "tasks/solver/online/maxclique-dimacs",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/maxclique-dimacs/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:01456030064f618ebc4bc49de0390eff80f611c18c66f6a4ef3bb86a299d0e4e"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/maxclique-dimacs/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "5e736477f8d521d0fea48e801c50e68b165e1c54104be1fa354b0eda5fa1b36b"
+    },
+    {
+      "source": "tasks/solver/online/maxclique-dimacs/tests/scoring.py",
+      "target": "/opt/maxclique/scoring.py",
+      "sha256": "b2e16c4039d4f27bb4544ee93a08cf07af25341e396bbf806e51230a8f49f6b5"
+    },
+    {
+      "source": "tasks/solver/online/maxclique-dimacs/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "4ba06f5ff2f5befb69aaef75ee9dce99c2360a6faad7e812e4182d6b65533f87"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": false,
+  "public_source_rebuild_verified": false,
+  "limitations": [
+    "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
+  ]
+}

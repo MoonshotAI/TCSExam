@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/hs-pace2025",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/hs-pace2025/tests/checker.py",
+      "target": "tasks/solver/offline/hs-pace2025/tests/checker.py",
+      "sha256": "9ac48ab0910453a19e11f5fe1f0ef38e6c27b5ed0880db7a0e8be2f9429e87b4"
+    },
+    {
+      "source": "tasks/solver/online/hs-pace2025/tests/reference.json",
+      "target": "tasks/solver/offline/hs-pace2025/tests/reference.json",
+      "sha256": "088d0e1e7e90ecde6f36eb4a7e21eafc2a62965f35a24d761e4d55d63caead34"
+    },
+    {
+      "source": "tasks/solver/online/hs-pace2025/tests/anchors.json",
+      "target": "tasks/solver/offline/hs-pace2025/tests/anchors.json",
+      "sha256": "76e4582b452d89df01f863c412978114a50053a1178e0ddada53131dbba673d8"
+    },
+    {
+      "source": "tasks/solver/online/hs-pace2025/tests/metric_config.json",
+      "target": "tasks/solver/offline/hs-pace2025/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-hs-pace2025",
+  "verifier_dependency": "backend-online-hs-pace2025",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "The Offline Docker controller uses the original checker with the full hidden instance set, preserves submitted application files, and retains build-failure and no-output handling. Runtime and image acceptance evidence is maintained separately."
+}

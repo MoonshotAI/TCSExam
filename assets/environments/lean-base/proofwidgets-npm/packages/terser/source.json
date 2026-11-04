@@ -1,0 +1,56 @@
+{
+  "author": "Mihai Bazon <mihai.bazon@gmail.com> (http://lisperator.net/)",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BSD-2-Clause",
+  "lock_entry": {
+    "bin": {
+      "terser": "bin/terser"
+    },
+    "dependencies": {
+      "@jridgewell/source-map": "^0.3.3",
+      "acorn": "^8.15.0",
+      "commander": "^2.20.0",
+      "source-map-support": "~0.5.20"
+    },
+    "dev": true,
+    "engines": {
+      "node": ">=10"
+    },
+    "integrity": "sha512-jTwoImyr/QbOWFFso3YoU3ik0jBBDJ6JTOQiy/J2YxVJdZCc+5u7skhNwiOR3FQIygFqVUPHl7qbbxtjW2K3Qg==",
+    "license": "BSD-2-Clause",
+    "resolved": "https://registry.npmjs.org/terser/-/terser-5.46.0.tgz",
+    "version": "5.46.0"
+  },
+  "lock_path": "node_modules/terser",
+  "name": "terser",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1303,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "901d0a7fcaccaae9917d165039c0473c354e5da2e0e94140dde67aad9ffb19da",
+      "text_file": "image-notices/901d0a7fcaccaae9917d165039c0473c354e5da2e0e94140dde67aad9ffb19da.txt"
+    }
+  ],
+  "package_license": "BSD-2-Clause",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 452256,
+    "installed_in_image": false,
+    "integrity": "sha512-jTwoImyr/QbOWFFso3YoU3ik0jBBDJ6JTOQiy/J2YxVJdZCc+5u7skhNwiOR3FQIygFqVUPHl7qbbxtjW2K3Qg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/terser/-/terser-5.46.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "dc69077799155f73db8a8edb9a7ab552740178f8c5e11984e1c5616874567fac"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "5.46.0"
+}

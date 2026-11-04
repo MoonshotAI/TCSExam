@@ -1,0 +1,259 @@
+{
+  "checked": "2026-10-29",
+  "cliui_archive": {
+    "all_modules_mapped": true,
+    "bytes": 109508,
+    "dist_module_count": 7,
+    "gitHead": "b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0",
+    "integrity": "sha512-AokJm4tuBHillT+FpMtxQ60n8ObyXBatq7jD2/JA9dxbDDokKQm8KMht5ibGzLVU9IJDIKK4TPKgMHEYMn3lMg==",
+    "root_license_scope": "The root BlueOak license covers everything else. Vendored modules retain their respective licenses as stated in the root LICENSE.md.",
+    "sha256": "5b73422eadcd1784bad03303830ee818c22deb64d21b925f767b5161e514ed77",
+    "url": "https://registry.npmjs.org/@isaacs/cliui/-/cliui-9.0.0.tgz",
+    "version": "9.0.0"
+  },
+  "modules": [
+    {
+      "cliui_source": {
+        "commit": "b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0",
+        "index_sha256": "d60a17a66ce347eabfe6126d722651f5af4299c25d7fff0b2ff835b984c0aaf6",
+        "index_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/ansi-regex/index.ts",
+        "license_sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+        "license_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/ansi-regex/license"
+      },
+      "module": "ansi-regex",
+      "notice": {
+        "bytes": 1117,
+        "installed_file": "notices/vendored/ansi-regex/license",
+        "kind": "reused_fixed_lock_original_notice",
+        "origin": "Reused original notice from node_modules/ansi-regex; the fixed cliui source license matches by SHA-256. This is a vendored correspondence copy, not an original cliui npm archive NOTICE.",
+        "ref": "94983fc6ba00e1e9657f72c07eb7b9c75e4011a2",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+        "source_lock_path": "node_modules/ansi-regex",
+        "url": "https://raw.githubusercontent.com/chalk/ansi-regex/94983fc6ba00e1e9657f72c07eb7b9c75e4011a2/license"
+      },
+      "source": {
+        "archive_url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.2.2.tgz",
+        "fixed_lock_path": "node_modules/ansi-regex",
+        "gitHead": "94983fc6ba00e1e9657f72c07eb7b9c75e4011a2",
+        "integrity": "sha512-Bq3SmSpyFHaWjPk8If9yc6svM8c56dB5BAtW4Qbw5jHTwwXXcTLoRMkpDJp6VL0XzlWaCHTXrkFURMYmD0sLqg==",
+        "registry_version": "6.2.2",
+        "repository": "https://github.com/chalk/ansi-regex",
+        "version_basis": "The fixed ProofWidgets lock supplies the package version. The independent upstream license and the fixed cliui source license have the same SHA-256, and the module directory is present in the fixed cliui npm dist."
+      },
+      "vendored_paths": [
+        "dist/commonjs/ansi-regex/index.js",
+        "dist/esm/ansi-regex/index.js"
+      ],
+      "version": "6.2.2"
+    },
+    {
+      "cliui_source": {
+        "commit": "b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0",
+        "index_sha256": "a27c171cbcc67289924902cedeec81d4ab89b5c08008a9e174b594f111fe723b",
+        "index_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/ansi-styles/index.ts",
+        "license_sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+        "license_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/ansi-styles/license"
+      },
+      "module": "ansi-styles",
+      "notice": {
+        "bytes": 1117,
+        "installed_file": "notices/vendored/ansi-styles/license",
+        "kind": "reused_fixed_lock_original_notice",
+        "origin": "Reused original notice from node_modules/ansi-styles; the fixed cliui source license matches by SHA-256. This is a vendored correspondence copy, not an original cliui npm archive NOTICE.",
+        "ref": "28d11988aea80a0b4fdbea5794aa45b701819995",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+        "source_lock_path": "node_modules/ansi-styles",
+        "url": "https://raw.githubusercontent.com/chalk/ansi-styles/28d11988aea80a0b4fdbea5794aa45b701819995/license"
+      },
+      "source": {
+        "archive_url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.3.tgz",
+        "fixed_lock_path": "node_modules/ansi-styles",
+        "gitHead": "28d11988aea80a0b4fdbea5794aa45b701819995",
+        "integrity": "sha512-4Dj6M28JB+oAH8kFkTLUo+a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg==",
+        "registry_version": "6.2.3",
+        "repository": "https://github.com/chalk/ansi-styles",
+        "version_basis": "The fixed ProofWidgets lock supplies the package version. The independent upstream license and the fixed cliui source license have the same SHA-256, and the module directory is present in the fixed cliui npm dist."
+      },
+      "vendored_paths": [
+        "dist/commonjs/ansi-styles/index.js",
+        "dist/esm/ansi-styles/index.js"
+      ],
+      "version": "6.2.3"
+    },
+    {
+      "cliui_source": {
+        "commit": "b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0",
+        "index_sha256": "aad7cdab9d1bfef8cb2c5eb799186879463941178ca24b82d7ffaf5b77acdf5e",
+        "index_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/eastasianwidth/index.ts",
+        "license_sha256": "94aa6016fb9d436508366433e9caba061443ca58f4c7eb515caec7badf90ae5a",
+        "license_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/eastasianwidth/license"
+      },
+      "module": "eastasianwidth",
+      "notice": {
+        "bytes": 1043,
+        "installed_file": "notices/vendored/eastasianwidth/license",
+        "kind": "supplemental_fixed_cliui_source",
+        "origin": "Supplemental license from the fixed cliui source tree, omitted from the npm dist payload. It is not an original npm dist NOTICE.",
+        "ref": "b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0",
+        "sha256": "94aa6016fb9d436508366433e9caba061443ca58f4c7eb515caec7badf90ae5a",
+        "source_lock_path": null,
+        "url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/eastasianwidth/license"
+      },
+      "source": {
+        "archive_bytes": 2932,
+        "archive_sha256": "8b52fac4f929a5de61bbef98594907848b8587c46b7417abe4e66acf65a38552",
+        "archive_url": "https://registry.npmjs.org/eastasianwidth/-/eastasianwidth-0.3.0.tgz",
+        "gitHead": "e5ee638e2039093c924b60d8a2ba7c12c52549f8",
+        "integrity": "sha512-JqasYqGO32J2c91uYKdhu1vNmXGADaLB7OOgjAhjMvpjdvGb0tsYcuwn381MwqCg4YBQDtByQcNlFYuv2kmOug==",
+        "package_json_sha256": "32ffd87591938680573e7ccf18e507d7e0c79e0e25bbc15d77288d097b69690e",
+        "package_json_url": "https://raw.githubusercontent.com/komagata/eastasianwidth/e5ee638e2039093c924b60d8a2ba7c12c52549f8/package.json",
+        "registry_version": "0.3.0",
+        "repository": "https://github.com/komagata/eastasianwidth",
+        "version_basis": "The registry and fixed package.json identify 0.3.0. The fixed cliui vendored source provides the same eastAsianWidth, characterLength, stringToArray, length, and slice function set and logic."
+      },
+      "vendored_paths": [
+        "dist/commonjs/eastasianwidth/index.js",
+        "dist/esm/eastasianwidth/index.js"
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "cliui_source": {
+        "commit": "b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0",
+        "index_sha256": "5afa72757162a9972f1092be01aef9c07108691206f8b853f467572053e64c92",
+        "index_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/emoji-regex/index.ts",
+        "license_sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+        "license_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/emoji-regex/license"
+      },
+      "module": "emoji-regex",
+      "notice": {
+        "bytes": 1077,
+        "installed_file": "notices/vendored/emoji-regex/LICENSE-MIT.txt",
+        "kind": "reused_fixed_lock_original_notice",
+        "origin": "Reused original notice from node_modules/emoji-regex; the fixed cliui source license matches by SHA-256. This is a vendored correspondence copy, not an original cliui npm archive NOTICE.",
+        "ref": "70451eae5f7bbb7c211fec0887f88c444cd562a5",
+        "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+        "source_lock_path": "node_modules/emoji-regex",
+        "url": "https://raw.githubusercontent.com/mathiasbynens/emoji-regex/70451eae5f7bbb7c211fec0887f88c444cd562a5/LICENSE-MIT.txt"
+      },
+      "source": {
+        "archive_url": "https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz",
+        "fixed_lock_path": "node_modules/emoji-regex",
+        "gitHead": "70451eae5f7bbb7c211fec0887f88c444cd562a5",
+        "integrity": "sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==",
+        "registry_version": "10.6.0",
+        "repository": "https://github.com/mathiasbynens/emoji-regex",
+        "version_basis": "The fixed ProofWidgets lock supplies the package version. The independent upstream license and the fixed cliui source license have the same SHA-256, and the module directory is present in the fixed cliui npm dist."
+      },
+      "vendored_paths": [
+        "dist/commonjs/emoji-regex/index.js",
+        "dist/esm/emoji-regex/index.js"
+      ],
+      "version": "10.6.0"
+    },
+    {
+      "cliui_source": {
+        "commit": "b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0",
+        "index_sha256": "95b92e709c30d48c9f12090edcc7114bf924731bf58953f12c9ee90bfa17a8e8",
+        "index_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/string-width/index.ts",
+        "license_sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+        "license_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/string-width/license"
+      },
+      "module": "string-width",
+      "notice": {
+        "bytes": 1117,
+        "installed_file": "notices/vendored/string-width/license",
+        "kind": "reused_fixed_lock_original_notice",
+        "origin": "Reused original notice from node_modules/string-width; the fixed cliui source license matches by SHA-256. This is a vendored correspondence copy, not an original cliui npm archive NOTICE.",
+        "ref": "ac09208fd52063c2ffaa4396c9b339fec05cab67",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+        "source_lock_path": "node_modules/string-width",
+        "url": "https://raw.githubusercontent.com/sindresorhus/string-width/ac09208fd52063c2ffaa4396c9b339fec05cab67/license"
+      },
+      "source": {
+        "archive_url": "https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz",
+        "fixed_lock_path": "node_modules/string-width",
+        "gitHead": "ac09208fd52063c2ffaa4396c9b339fec05cab67",
+        "integrity": "sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==",
+        "registry_version": "7.2.0",
+        "repository": "https://github.com/sindresorhus/string-width",
+        "version_basis": "The fixed ProofWidgets lock supplies the package version. The independent upstream license and the fixed cliui source license have the same SHA-256, and the module directory is present in the fixed cliui npm dist."
+      },
+      "vendored_paths": [
+        "dist/commonjs/string-width/index.js",
+        "dist/esm/string-width/index.js"
+      ],
+      "version": "7.2.0"
+    },
+    {
+      "cliui_source": {
+        "commit": "b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0",
+        "index_sha256": "e4b0909125d553b5d201a55e23120063b2a4928f7f51745aeeeb4ba09e62451e",
+        "index_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/strip-ansi/index.ts",
+        "license_sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+        "license_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/strip-ansi/license"
+      },
+      "module": "strip-ansi",
+      "notice": {
+        "bytes": 1117,
+        "installed_file": "notices/vendored/strip-ansi/license",
+        "kind": "reused_fixed_lock_original_notice",
+        "origin": "Reused original notice from node_modules/strip-ansi; the fixed cliui source license matches by SHA-256. This is a vendored correspondence copy, not an original cliui npm archive NOTICE.",
+        "ref": "38ff9f2282540422031ed523f0060c7bb575e20f",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+        "source_lock_path": "node_modules/strip-ansi",
+        "url": "https://raw.githubusercontent.com/chalk/strip-ansi/38ff9f2282540422031ed523f0060c7bb575e20f/license"
+      },
+      "source": {
+        "archive_url": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.2.0.tgz",
+        "fixed_lock_path": "node_modules/strip-ansi",
+        "gitHead": "38ff9f2282540422031ed523f0060c7bb575e20f",
+        "integrity": "sha512-yDPMNjp4WyfYBkHnjIRLfca1i6KMyGCtsVgoKe/z1+6vukgaENdgGBZt+ZmKPc4gavvEZ5OgHfHdrazhgNyG7w==",
+        "registry_version": "7.2.0",
+        "repository": "https://github.com/chalk/strip-ansi",
+        "version_basis": "The fixed ProofWidgets lock supplies the package version. The independent upstream license and the fixed cliui source license have the same SHA-256, and the module directory is present in the fixed cliui npm dist."
+      },
+      "vendored_paths": [
+        "dist/commonjs/strip-ansi/index.js",
+        "dist/esm/strip-ansi/index.js"
+      ],
+      "version": "7.2.0"
+    },
+    {
+      "cliui_source": {
+        "commit": "b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0",
+        "index_sha256": "afced1af719925e33dd68e909ba846eaeaf25546008bbaaf1e439d11863fa2eb",
+        "index_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/wrap-ansi/index.ts",
+        "license_sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+        "license_url": "https://raw.githubusercontent.com/isaacs/cliui/b33b76c344fc3e76cca1a6e8d8cf25ae09f33fc0/src/wrap-ansi/license"
+      },
+      "module": "wrap-ansi",
+      "notice": {
+        "bytes": 1117,
+        "installed_file": "notices/vendored/wrap-ansi/license",
+        "kind": "reused_fixed_lock_original_notice",
+        "origin": "Reused original notice from node_modules/wrap-ansi; the fixed cliui source license matches by SHA-256. This is a vendored correspondence copy, not an original cliui npm archive NOTICE.",
+        "ref": "cf1d1e65e9bc23c7e621f23a3418730fb46a17ea",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+        "source_lock_path": "node_modules/wrap-ansi",
+        "url": "https://raw.githubusercontent.com/chalk/wrap-ansi/cf1d1e65e9bc23c7e621f23a3418730fb46a17ea/license"
+      },
+      "source": {
+        "archive_url": "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-9.0.2.tgz",
+        "fixed_lock_path": "node_modules/wrap-ansi",
+        "gitHead": "cf1d1e65e9bc23c7e621f23a3418730fb46a17ea",
+        "integrity": "sha512-42AtmgqjV+X1VpdOfyTGOYRi0/zsoLqtXQckTmqTeybT+BDIbM/Guxo7x3pE2vtpr1ok6xRqM9OpBe+Jyoqyww==",
+        "registry_version": "9.0.2",
+        "repository": "https://github.com/chalk/wrap-ansi",
+        "version_basis": "The fixed ProofWidgets lock supplies the package version. The independent upstream license and the fixed cliui source license have the same SHA-256, and the module directory is present in the fixed cliui npm dist."
+      },
+      "vendored_paths": [
+        "dist/commonjs/wrap-ansi/index.js",
+        "dist/esm/wrap-ansi/index.js"
+      ],
+      "version": "9.0.2"
+    }
+  ],
+  "no_npm_lifecycle_scripts_executed": true,
+  "schema_version": 1
+}

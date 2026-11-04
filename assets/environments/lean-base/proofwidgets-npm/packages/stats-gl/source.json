@@ -1,0 +1,51 @@
+{
+  "author": "Renaud ROHLINGER (https://github.com/RenaudRohlinger)",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "@types/three": "*",
+      "three": "^0.170.0"
+    },
+    "integrity": "sha512-g5O9B0hm9CvnM36+v7SFl39T7hmAlv541tU81ME8YeSb3i1CIP5/QdDeSB3A0la0bKNHpxpwxOVRo2wFTYEosQ==",
+    "license": "MIT",
+    "peerDependencies": {
+      "@types/three": "*",
+      "three": "*"
+    },
+    "resolved": "https://registry.npmjs.org/stats-gl/-/stats-gl-2.4.2.tgz",
+    "version": "2.4.2"
+  },
+  "lock_path": "node_modules/stats-gl",
+  "name": "stats-gl",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 14517,
+    "installed_in_image": false,
+    "integrity": "sha512-g5O9B0hm9CvnM36+v7SFl39T7hmAlv541tU81ME8YeSb3i1CIP5/QdDeSB3A0la0bKNHpxpwxOVRo2wFTYEosQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/stats-gl/-/stats-gl-2.4.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "9d871fdf4f5f81f70f82488acba5d86e62822a623c795280b3f49c7bebbf95cd"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 4763,
+    "installed_file": "notices/supplementary/cd3199d6423780f805bf7f0cdf73dffc595c661f3539ad7c33a762eee60e4fd3.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "c12b2e391d5a88616e0b30f3c7f0577966426239",
+    "scope": "Exact version metadata explicitly declares the recorded license. This source retains the same project full notice; HEAD, when used, is a currently retrieved supplemental text, not represented as an old shipped license file.",
+    "sha256": "cd3199d6423780f805bf7f0cdf73dffc595c661f3539ad7c33a762eee60e4fd3",
+    "text_file": "image-notices/cd3199d6423780f805bf7f0cdf73dffc595c661f3539ad7c33a762eee60e4fd3.txt",
+    "url": "https://raw.githubusercontent.com/RenaudRohlinger/stats-gl/c12b2e391d5a88616e0b30f3c7f0577966426239/README.md"
+  },
+  "version": "2.4.2"
+}

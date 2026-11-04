@@ -1,0 +1,15 @@
+#!/bin/bash
+# Baseline wrapper: pin the iteration budget per instance (sha256 lookup in
+# budgets.tsv) so the shipped configuration is machine-independent. The
+# remaining shared time pool is still honoured by the binary itself
+# (ITC2021_TIME_POOL backstop) as a safety net.
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+TMP="$(mktemp)"
+trap 'rm -f "$TMP"' EXIT
+cat > "$TMP"
+HASH=$(sha256sum "$TMP" | cut -d' ' -f1)
+BUDGET=$(grep -m1 "^$HASH " "$ROOT/budgets.tsv" 2>/dev/null | cut -d' ' -f2 || true)
+if [ -z "${ITC_ITERS:-}" ]; then
+  ITC_ITERS="${BUDGET:-4000000}"
+fi
+exec env ITC_ITERS="$ITC_ITERS" "$ROOT/solver-bin" < "$TMP"

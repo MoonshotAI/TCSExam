@@ -1,0 +1,13 @@
+{
+  "main_theorem": "qma_qcma_oracle_separation",
+  "namespace": "QmaQcmaOracle",
+  "checkpoints": [
+    {
+      "name": "qma_qcma_oracle_separation",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 14.1 with the QMA containment of Bostanci-Haferkamp-Nirkhe-Zhandry (arXiv 2511.09551v2): beyond a size threshold depending only on the resource bound a*n^a, spectral Forrelation at gap 59/100 vs 57/100 has a constant-query QMA verifier (quantum witness on the first qQ work qubits with all other qubits pinned to |0>, qmaAcceptProb), and every classical-witness query algorithm within the bound misclassifies some instance. The Marriott-Watrous amplification, the matrix concentration (Claims 7.6-7.7) and the bosonic sampling upper bound (Theorem 9.1) are packaged as hypotheses."
+    }
+  ]
+}

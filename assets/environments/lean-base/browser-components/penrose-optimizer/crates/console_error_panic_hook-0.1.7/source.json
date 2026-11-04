@@ -1,0 +1,34 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "Nick Fitzgerald <fitzgen@gmail.com>"
+  ],
+  "bytes": 507196,
+  "checksum_sha256": "a06aeb73f470f66dcdbf7223caeebb85984942f22f1adb2a088cf9668146bbbc",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "Apache-2.0/MIT",
+  "name": "console_error_panic_hook",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 10848,
+      "installed_file": "notices/original/LICENSE-APACHE",
+      "path": "console_error_panic_hook-0.1.7/LICENSE-APACHE",
+      "sha256": "353b508bbc50274d47a23729f568bab2618e3d0eaa10208616f5fd475255b896",
+      "text_file": "image-notices/353b508bbc50274d47a23729f568bab2618e3d0eaa10208616f5fd475255b896.txt"
+    },
+    {
+      "bytes": 1059,
+      "installed_file": "notices/original/LICENSE-MIT",
+      "path": "console_error_panic_hook-0.1.7/LICENSE-MIT",
+      "sha256": "77674336af8ded214dc3ae07da631c7dd35cc8205f39298474ba98a889e57272",
+      "text_file": "image-notices/77674336af8ded214dc3ae07da631c7dd35cc8205f39298474ba98a889e57272.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/console_error_panic_hook/console_error_panic_hook-0.1.7.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "0.1.7"
+}

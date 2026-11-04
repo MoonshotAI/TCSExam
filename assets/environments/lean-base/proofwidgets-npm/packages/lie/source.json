@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "immediate": "~3.0.5"
+    },
+    "integrity": "sha512-UaiMJzeWRlEujzAuw5LokY1L5ecNQYZKfmyZ9L7wDHb/p5etKaxXhohBcrw0EYby+G/NA52vRSN4N39dxHAIwQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/lie/-/lie-3.3.0.tgz",
+    "version": "3.3.0"
+  },
+  "lock_path": "node_modules/lie",
+  "name": "lie",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1084,
+      "installed_file": "notices/original/package/license.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/license.md",
+      "sha256": "5c81b0caa98593408b03125efa25efe622341ed87ae55561968828cd887d64a4",
+      "text_file": "image-notices/5c81b0caa98593408b03125efa25efe622341ed87ae55561968828cd887d64a4.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 8877,
+    "installed_in_image": false,
+    "integrity": "sha512-UaiMJzeWRlEujzAuw5LokY1L5ecNQYZKfmyZ9L7wDHb/p5etKaxXhohBcrw0EYby+G/NA52vRSN4N39dxHAIwQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/lie/-/lie-3.3.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "2db8461cd4a10e2fc3588c8c55da34d33465ff81cc19c72416bbcaec7ee6a36e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.3.0"
+}

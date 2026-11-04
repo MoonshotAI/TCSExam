@@ -1,0 +1,50 @@
+{
+  "author": "Roly Fentanes (https://github.com/fent)",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "discontinuous-range": "1.0.0",
+      "ret": "~0.1.10"
+    },
+    "engines": {
+      "node": ">=0.12"
+    },
+    "integrity": "sha512-80WNmd9DA0tmZrw9qQa62GPPWfuXJknrmVmLcxvq4uZBdYqb1wYoKTmnlGUchvVWe0XiLupYkBoXVOxz3C8DYQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/randexp/-/randexp-0.4.6.tgz",
+    "version": "0.4.6"
+  },
+  "lock_path": "node_modules/randexp",
+  "name": "randexp",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1061,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "c7b6718db5ace1d13eb030d29c53eb2b02f90e84ba21ba59eee63dfd4fcbefee",
+      "text_file": "image-notices/c7b6718db5ace1d13eb030d29c53eb2b02f90e84ba21ba59eee63dfd4fcbefee.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 5283,
+    "installed_in_image": false,
+    "integrity": "sha512-80WNmd9DA0tmZrw9qQa62GPPWfuXJknrmVmLcxvq4uZBdYqb1wYoKTmnlGUchvVWe0XiLupYkBoXVOxz3C8DYQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/randexp/-/randexp-0.4.6.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "ea473d07093cc57efd482f3287e5add292522acb2c763007ee4b1be5f0e45307"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.4.6"
+}

@@ -1,0 +1,49 @@
+# Task: O(sqrt k) discrepancy for column-sparse matrices at large k
+
+A Lean 4 (with mathlib) project lives in `/app`. `Task/Basic.lean`
+contains a definition layer (colorings, combinatorial discrepancy
+`disc(A) := min_{x ∈ {−1,1}^n} ‖Ax‖∞`, column sparsity, and the
+`{0,±1}`-entries predicate) and exactly one theorem, stated in full and
+"proved" by `sorry` inside a marked slot. **Prove that theorem.**
+
+The theorem comes from discrepancy theory. Given a matrix
+`A ∈ {0,±1}^{m×n}` where every column has at most `k` non-zero entries,
+the discrepancy is the minimum over ±1 colorings `x` of `‖Ax‖∞` — how
+evenly the columns can be split into two parts. It is conjectured that `disc(A) = O(√k)`
+for every `k`. The theorem
+(`sparse_column_discrepancy_large_k`) states: there are constants `c, C > 0` such that
+every `{0,±1}` matrix `A` with at most `k` non-zero entries per column
+and `k ≥ c (log n)²` has a ±1 coloring with `‖Ax‖∞ ≤ C √k` (for
+`2 ≤ n`).
+
+## Rules
+
+- Do not modify anything above the line `-- END OF FIXED PART`, the
+  theorem statement, or the `-- CHECKPOINT ...` marker lines.
+- You may add your own auxiliary definitions and lemmas below the
+  `-- END OF FIXED PART` line, outside the checkpoint slot.
+- No new `axiom` declarations and no `native_decide`; the verifier
+  rejects these lexically. `sorry`/`admit` left in the theorem slot
+  score 0. A `sorry` in your own auxiliary lemmas is not scanned for,
+  but if the main theorem's proof depends on it, the `#print axioms`
+  check fails (`sorryAx` is never allowed) and the score is 0.
+- The project builds offline against the mathlib checkout at
+  `/opt/lean-lib/mathlib4`; use `lake build Task` in `/app` to check.
+- No `notation` / `macro` / `syntax` / `elab` / `macro_rules` /
+  `initialize` declarations anywhere in your solution — they are
+  rejected as semantic-layer rewriting.
+- You may create auxiliary/scratch files (e.g. under `/app/Task/` or
+  `/tmp`) for exploration, but do not import them from
+  `Task/Basic.lean` — an `import` line at the top of
+  `Task/Basic.lean` counts as a change to the fixed part and scores
+  0. Auxiliary content used by the main proof must live below the
+  `-- END OF FIXED PART` line in `Task/Basic.lean` itself.
+
+## Scoring
+
+All-or-nothing: the score is 1 if the project compiles with the theorem
+proved (no `sorry`) using only the standard axioms, and 0 otherwise.
+
+## Notes
+
+- Time budget: you have up to **12 hours** of wall-clock time for this task; the run is terminated when it expires.

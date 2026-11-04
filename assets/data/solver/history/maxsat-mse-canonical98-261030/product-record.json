@@ -1,0 +1,49 @@
+{
+  "id": "solver-maxsat-mse-judging-data",
+  "type": "data",
+  "task_id": "maxsat-mse",
+  "data_split": "hidden",
+  "consumers": [
+    "tasks/solver/online/maxsat-mse",
+    "tasks/solver/offline/maxsat-mse"
+  ],
+  "content_version": "frozen-inputs-261029-v1",
+  "target_root": "/",
+  "product_record_id": "solver-maxsat-mse-judging-data",
+  "recipe": "assets/data/solver/solver-maxsat-mse-judging-data-recipe.json",
+  "files_manifest": "assets/data/solver/solver-maxsat-mse-judging-data-files.json",
+  "image_digest": null,
+  "public_image": null,
+  "public_pull_verified": false,
+  "product_prepared": false,
+  "public_upload_allowed": false,
+  "distribution": "local_prepare",
+  "distribution_evidence": "docs/licenses/third-party/solver-frozen-data-candidates.json",
+  "status": "local_preparation_required",
+  "build_argument": "TCSEXAM_JUDGE_DATA_IMAGE",
+  "manifest_sha256": "6b05630fc35b918aaf60c2c2c60661b0eb1777aecd81fcac34bf5abaa6ad5f89",
+  "content_digest": "sha256:827af1e6fded504206a91260efcedcbad4be53e46c1e75b5e32e7df6b10ff8a5",
+  "files": 98,
+  "bytes": 109631880,
+  "recipe_format": "official_maxsat_generator",
+  "source_recipe_generator": "solver_data_recipes",
+  "acquisition": {
+    "preferred": "local_build"
+  },
+  "source_inputs": [
+    {
+      "id": "maxsat-mse2026-anytime-weighted-zip",
+      "url": "https://zenodo.org/records/21358014/files/benchmarks-anytime-weighted.zip?download=1",
+      "bytes": 1969015603,
+      "sha256": "4b9bc198d1bb12a5125194e8c5cbcc98976852e01f53849db5d80bb9d4715fb5",
+      "filename": "instances.zip"
+    },
+    {
+      "id": "xz-utils-5.2.5-tar-gz",
+      "url": "https://tukaani.org/xz/xz-5.2.5.tar.gz",
+      "bytes": 1791345,
+      "sha256": "f6f4910fd033078738bd82bfba4f49219d03b17eb0794eb91efbae419f4aba10",
+      "filename": "xz-source.tar.gz"
+    }
+  ]
+}

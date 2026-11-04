@@ -1,0 +1,17 @@
+TCSExam project-authored documentation
+Copyright 2026 TCSExam contributors
+
+Except for third-party materials and separately identified content, the
+project-authored documentation is licensed under the Creative Commons
+Attribution 4.0 International License (SPDX: CC-BY-4.0).
+
+The legal terms are available at:
+https://creativecommons.org/licenses/by/4.0/legalcode.en
+An unmodified copy is included in CC-BY-4.0.txt.
+
+When sharing or adapting this documentation, give appropriate credit to
+TCSExam and its contributors, link to the license, and indicate changes.
+
+This grant does not change the licenses of third-party code, datasets,
+reference solutions, figures, papers, license texts, or container components.
+See README.md and THIRD_PARTY_NOTICES.md for scope and exceptions.

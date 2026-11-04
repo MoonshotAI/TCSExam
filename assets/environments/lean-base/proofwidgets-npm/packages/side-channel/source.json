@@ -1,0 +1,56 @@
+{
+  "author": "Jordan Harband <ljharb@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "es-errors": "^1.3.0",
+      "object-inspect": "^1.13.3",
+      "side-channel-list": "^1.0.0",
+      "side-channel-map": "^1.0.1",
+      "side-channel-weakmap": "^1.0.2"
+    },
+    "engines": {
+      "node": ">= 0.4"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "integrity": "sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/wbbhnpw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz",
+    "version": "1.1.0"
+  },
+  "lock_path": "node_modules/side-channel",
+  "name": "side-channel",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1071,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "cfc3f455254c0af0655cc3ff46a41ed644b67599f6043346169d285bf2b3cf3b",
+      "text_file": "image-notices/cfc3f455254c0af0655cc3ff46a41ed644b67599f6043346169d285bf2b3cf3b.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 7750,
+    "installed_in_image": false,
+    "integrity": "sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/wbbhnpw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "8493e77b990b242efebd824d0912df161bf640fc75071d5bc844ce0d7706a485"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.1.0"
+}

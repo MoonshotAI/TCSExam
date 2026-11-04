@@ -1,0 +1,40 @@
+schema_version = "1.4"
+
+# Root-level field; it must appear before the first [section]. If placed in the [task] section, pydantic silently ignores it and it has no effect.
+artifacts = ["/app"]
+
+[task]
+name = "tcsexam/qbf-qbfeval"
+version = "1.0.0"
+description = "Optimize a QBF solver (Qute, MIT): solve as many of 57 hidden QBFEVAL'20 PCNF instances (true/false mixed, agent never sees them — 13 public tuning instances from the QBFEVAL'20 dataset are provided instead, calibrated to the judged difficulty band) as possible within one shared total time pool (20 s per instance x 57, no per-instance limit). Both TRUE and FALSE answers must carry a (long-distance) Q-resolution certificate verified by qrp2rup + drat-trim. Scored as normalized solve-count improvement over the baseline toward the QBFEVAL'20 PCNF winner at the competition 900 s budget."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "qbf", "qcdcl", "qute", "qbfeval", "type-2-solver"]
+
+[metadata]
+family_id = "fam-qbf"
+candidate_id = "cand-qbf-qbfeval-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "The judged set is 57 hidden PCNF instances from the QBFEVAL instance pool and the baseline is a full QCDCL solver (Qute), so marginal tuning helps a little, but gaining on the gap instances needs real ideas (preprocessing, expansion/portfolio hybrids, schedule tuning for short budgets); every answer is machine-verified through a two-stage certificate chain (qrp2rup strategy extraction + drat-trim UNSAT check of strategy-plus-matrix), so no label lookup can score — each additionally verified instance scores."
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[verifier]
+timeout_sec = 345600.0
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:97eca0b59d13b38713b2d312b5d55797cfd09e7a2e3a7896b2aa5123e092ecb5"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:2302a34eaf9198352fd03bc23608c61c4e12684d2526f5183ff17241d3f8e4cd"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 12288

@@ -1,0 +1,42 @@
+{
+  "author": "Google Draco Team",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "Apache-2.0",
+  "lock_entry": {
+    "integrity": "sha512-m6WCKt/erDXcw+70IJXnG7M3awwQPAsZvJGX5zY7beBqpELw6RDGkYVU0W43AFxye4pDZ5i2Lbyc/NNGqwjUVQ==",
+    "license": "Apache-2.0",
+    "resolved": "https://registry.npmjs.org/draco3d/-/draco3d-1.5.7.tgz",
+    "version": "1.5.7"
+  },
+  "lock_path": "node_modules/draco3d",
+  "name": "draco3d",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "Apache-2.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 313988,
+    "installed_in_image": false,
+    "integrity": "sha512-m6WCKt/erDXcw+70IJXnG7M3awwQPAsZvJGX5zY7beBqpELw6RDGkYVU0W43AFxye4pDZ5i2Lbyc/NNGqwjUVQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/draco3d/-/draco3d-1.5.7.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "f2d2b97a938c514dfc1a0f07564eee95b1d889f6862c9c9ccad3001eb0c6f26e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 13898,
+    "installed_file": "notices/supplementary/d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "8786740086a9f4d83f44aa83badfbea4dce7a1b5",
+    "sha256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4",
+    "text_file": "image-notices/d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4.txt",
+    "url": "https://raw.githubusercontent.com/google/draco/8786740086a9f4d83f44aa83badfbea4dce7a1b5/LICENSE"
+  },
+  "version": "1.5.7"
+}

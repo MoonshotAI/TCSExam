@@ -1,0 +1,60 @@
+{
+  "author": "mrdoob",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-Psv6bbd3d/M/01MT2zZ+VmD0Vj2dbWTNhfe4CuSg7w5TuW96M3NOyCVuh9SZQ05CpGmD7NEcJhZw4GVjhCYxfQ==",
+    "license": "MIT",
+    "peer": true,
+    "resolved": "https://registry.npmjs.org/three/-/three-0.183.1.tgz",
+    "version": "0.183.1"
+  },
+  "lock_path": "node_modules/three",
+  "name": "three",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 2006,
+      "installed_file": "notices/original/package/examples/fonts/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/examples/fonts/LICENSE",
+      "sha256": "35e8279356d7890871c4fce804d157e3f21456a7311ef2caab5cb4705c71b6bd",
+      "text_file": "image-notices/35e8279356d7890871c4fce804d157e3f21456a7311ef2caab5cb4705c71b6bd.txt"
+    },
+    {
+      "bytes": 1081,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "text_file": "image-notices/8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc.txt"
+    },
+    {
+      "bytes": 10695,
+      "installed_file": "notices/original/package/examples/fonts/droid/NOTICE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/examples/fonts/droid/NOTICE",
+      "sha256": "38751245389e1e23f73e6f5384b5cbe7fa972cc4410c5adc9c04b082a0b9561a",
+      "text_file": "image-notices/38751245389e1e23f73e6f5384b5cbe7fa972cc4410c5adc9c04b082a0b9561a.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 12549736,
+    "installed_in_image": false,
+    "integrity": "sha512-Psv6bbd3d/M/01MT2zZ+VmD0Vj2dbWTNhfe4CuSg7w5TuW96M3NOyCVuh9SZQ05CpGmD7NEcJhZw4GVjhCYxfQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/three/-/three-0.183.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "140b04fdab4b4dae9e6fb1a24d21c8e2cb59cc09c8b4926efc262e0fbe6fa79f"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.183.1"
+}

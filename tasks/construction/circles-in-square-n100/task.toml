@@ -1,0 +1,36 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/circles-in-square-n100-lean-open"
+version = "1.0.0"
+description = "Certify in Lean 4 a packing of 100 equal circles in the unit square: a list of 100 rational centers with pairwise squared distance >= 4r^2 and every center in [r, 1-r]^2 (a machine-checked lower bound on the optimal radius; Packomania printed record 0.051401071774; any verified r strictly above it is a new world record)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["construction", "circle-packing", "square", "packomania", "lean4", "machine-checked", "open-problem"]
+
+[metadata]
+family_id = "fam-circles-in-square-n100"
+candidate_id = "cand-circles-in-square-n100-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open"
+difficulty_explanation = "Prove existence of a valid 100-center rational circle packing in Lean 4 with only a computable boundary/pairwise-distance predicate given; the agent chooses the radius r and the construction. The published record (0.051401071774, Packomania csq table, unmoved since 2022-08-22) can in principle be beaten — any verified r strictly above the printed value is a literature-level new result at n = 100 (open for every n >= 31)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-construction-circles-in-square-n100-verifier"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

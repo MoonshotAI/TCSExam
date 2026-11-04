@@ -1,0 +1,675 @@
+{
+  "format": "official_files",
+  "description": "Exactly sixty frozen nurse scheduling XML inputs from the fixed upstream commit. Frozen instances retain original bytes and official scheduling IDs; only payload filenames differ. Historical employee-relabeling code does not apply to this frozen product. No schedules or scores downloaded.",
+  "sources": [
+    {
+      "id": "nurse-long01.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long01.xml",
+      "bytes": 102707,
+      "sha256": "964d5cbe581cbc815420ef5c9a24893adb8c24224e3d00c0107f1c319d7f3b93"
+    },
+    {
+      "id": "nurse-long02.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long02.xml",
+      "bytes": 102707,
+      "sha256": "775ae2d8bcbb84797296a4d8f6e8ac81509902073066737f085b981c68ceb59f"
+    },
+    {
+      "id": "nurse-long03.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long03.xml",
+      "bytes": 102707,
+      "sha256": "79e7632cb528096080b1516a23d64c3eca3f6a24b4c0cff31dc964aa3faaef71"
+    },
+    {
+      "id": "nurse-long04.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long04.xml",
+      "bytes": 102706,
+      "sha256": "cbd8dd6622d4649589bceb698187751c801e95cedd8d3906cabc8e262003e8da"
+    },
+    {
+      "id": "nurse-long05.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long05.xml",
+      "bytes": 102707,
+      "sha256": "db8686987ab56d73031cb2be0eb033cce1e77bfe393e26c2ddc605f41ca47432"
+    },
+    {
+      "id": "nurse-long_hidden01.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_hidden01.xml",
+      "bytes": 20753,
+      "sha256": "904832aaeecb80a35abf014099cd5c7d4b42ba8630221f4773930cba9253b468"
+    },
+    {
+      "id": "nurse-long_hidden02.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_hidden02.xml",
+      "bytes": 20741,
+      "sha256": "a84f28d979747052ec5039062e7c26554c88dcea790820e2381dab56d1b0d8d6"
+    },
+    {
+      "id": "nurse-long_hidden03.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_hidden03.xml",
+      "bytes": 20736,
+      "sha256": "978f6730dff69b425f500a1bf24ba314aa4c08ef65dc64c0ca96c2c4ad28ea97"
+    },
+    {
+      "id": "nurse-long_hidden04.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_hidden04.xml",
+      "bytes": 20742,
+      "sha256": "892ff1d1aaa565dbec3cf35123c231e5c7f3b9a105b3eff2ce990af2068362bd"
+    },
+    {
+      "id": "nurse-long_hidden05.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_hidden05.xml",
+      "bytes": 22284,
+      "sha256": "7a075fb939681ddc38b2baee789ce3171631048d9f0cb85cbfb5f94ccd20da9d"
+    },
+    {
+      "id": "nurse-medium01.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium01.xml",
+      "bytes": 67143,
+      "sha256": "59d3f85fdb49ee30eef1485e215fa1d4ca669016710365aa07895daa5f796a1c"
+    },
+    {
+      "id": "nurse-medium02.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium02.xml",
+      "bytes": 67143,
+      "sha256": "6d5957a4fff1ac68f05f6bf2e89fa02ec7d632398a57b7b3de70999c16d6def9"
+    },
+    {
+      "id": "nurse-medium03.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium03.xml",
+      "bytes": 67142,
+      "sha256": "a632cfa15f670f804e905166a0b4aebaab37fccc673e86274a980089db68f41a"
+    },
+    {
+      "id": "nurse-medium04.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium04.xml",
+      "bytes": 67143,
+      "sha256": "3ede22b5981a96a3d34890cfc340680768e0bf519a1abaa49e145c167b5eb1c0"
+    },
+    {
+      "id": "nurse-medium05.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium05.xml",
+      "bytes": 67143,
+      "sha256": "4d0f55423daf57ac9bdb23e5409c32b777c9380e33141eeb02825615ac8699cc"
+    },
+    {
+      "id": "nurse-medium_late01.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_late01.xml",
+      "bytes": 68756,
+      "sha256": "bc0d49609c0c268a0124533455a2f022651faea10ef7efc71b6aeb986dd8da7a"
+    },
+    {
+      "id": "nurse-medium_late02.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_late02.xml",
+      "bytes": 67259,
+      "sha256": "3597656ecc0deb445a2d3282a68bb9430a65e98718754707d70fee5ee0ce3349"
+    },
+    {
+      "id": "nurse-medium_late03.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_late03.xml",
+      "bytes": 65270,
+      "sha256": "06f46e516beb05c9e89d126f3d9f8c85e05ed121027f4263f20dede877d5e03e"
+    },
+    {
+      "id": "nurse-medium_late04.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_late04.xml",
+      "bytes": 67260,
+      "sha256": "834a81a38e4e3cac041f1ddebcdfe3e425f465bcfe257ac3a12f697930870591"
+    },
+    {
+      "id": "nurse-medium_late05.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_late05.xml",
+      "bytes": 69694,
+      "sha256": "533974ed89e5a5c292bc0f6fe036ddf1ccaf69fb694d990693a759ded9323655"
+    },
+    {
+      "id": "nurse-sprint01.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint01.xml",
+      "bytes": 29635,
+      "sha256": "94a43575a181f1794c022c9945c82bb7035bd14f81121a63cacb7544ca13bbec"
+    },
+    {
+      "id": "nurse-sprint03.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint03.xml",
+      "bytes": 29635,
+      "sha256": "6b876d6daee4128f0058c03d62b1235028e51f7a1be63ae2830af134fa2c59dd"
+    },
+    {
+      "id": "nurse-sprint05.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint05.xml",
+      "bytes": 29635,
+      "sha256": "b969b2e9abc92db0aaf863fb1f232b3e0b60313e119a203bf3f03fd7896551d5"
+    },
+    {
+      "id": "nurse-sprint07.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint07.xml",
+      "bytes": 29635,
+      "sha256": "39d3d101d4e402ae0916b6127a05609db2c0679bf239be1c7df2a3dddccdbe47"
+    },
+    {
+      "id": "nurse-sprint09.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint09.xml",
+      "bytes": 29635,
+      "sha256": "f983a9c2e459f44061c9d5dc396c7c81d15a9048468eda1e975dd0404d7bc784"
+    },
+    {
+      "id": "nurse-sprint_hidden01.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hidden01.xml",
+      "bytes": 27753,
+      "sha256": "9714f9fbc2fc9408bf92d1c32a8baf128f5d18a5f07c7226369abe72323a4e5b"
+    },
+    {
+      "id": "nurse-sprint_hidden04.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hidden04.xml",
+      "bytes": 30345,
+      "sha256": "f4847838798ad9024eef04255fb11eb3659915502397451131ef0a71cfc7ee65"
+    },
+    {
+      "id": "nurse-sprint_hidden05.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hidden05.xml",
+      "bytes": 30304,
+      "sha256": "17f8e6314d920c0968ade50e4dfafd75f66558e3a22c170799fc9e3ada70f77a"
+    },
+    {
+      "id": "nurse-sprint_hidden10.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hidden10.xml",
+      "bytes": 47459,
+      "sha256": "5e8f463c69fc0aa1f67799667a82a17e8d0e38d9847effe8762c939bca7f4732"
+    },
+    {
+      "id": "nurse-sprint_late08.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_late08.xml",
+      "bytes": 9556,
+      "sha256": "20d1f6458a34dae2eb35bf1e08265c63aadbb4f6dec81fed3019137363806428"
+    },
+    {
+      "id": "nurse-long_late01.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_late01.xml",
+      "bytes": 20822,
+      "sha256": "6933b081af46ee658f8288c25f7e299a95a2ba175568adc47a15947208582239"
+    },
+    {
+      "id": "nurse-long_late02.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_late02.xml",
+      "bytes": 22388,
+      "sha256": "205d399512d76379cd8147ecea94e5cc2b1f24048ed8022c24d327a9ea6b2955"
+    },
+    {
+      "id": "nurse-long_late03.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_late03.xml",
+      "bytes": 20821,
+      "sha256": "f7e154f86cafd5d91c05d953f8cd2fd51dc9529490e3ddf398079e5fac690bcc"
+    },
+    {
+      "id": "nurse-long_late04.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_late04.xml",
+      "bytes": 22387,
+      "sha256": "ce69905ad1fe8d7005756b6aa626fbd383bc656a26bca4b0491e7d9872f92227"
+    },
+    {
+      "id": "nurse-long_late05.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_late05.xml",
+      "bytes": 20817,
+      "sha256": "a5348f6475bb3b8812c9d0f686998abad6a5caf893c746cd968a1f2a89fa5c00"
+    },
+    {
+      "id": "nurse-medium_hidden01.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_hidden01.xml",
+      "bytes": 19228,
+      "sha256": "9f87bd13b89ce8df1c77937b01f39f277c1e005cdcd2f54e24a24713159a94bf"
+    },
+    {
+      "id": "nurse-medium_hidden02.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_hidden02.xml",
+      "bytes": 19228,
+      "sha256": "698677f4bcabe14e24bf594ac58c86354b2e53718dc59b26764661bc4439b92d"
+    },
+    {
+      "id": "nurse-medium_hidden03.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_hidden03.xml",
+      "bytes": 19213,
+      "sha256": "d4deb86431f6c1bf93aa63b754af858b747776e8c498ac96b2764750370eb45c"
+    },
+    {
+      "id": "nurse-medium_hidden04.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_hidden04.xml",
+      "bytes": 19212,
+      "sha256": "d886d4644d0229425c87cee046ebdada5e90a2e8b0eecb6ef05bfeec4403a217"
+    },
+    {
+      "id": "nurse-medium_hidden05.xml",
+      "url": "https://media.githubusercontent.com/media/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_hidden05.xml",
+      "bytes": 19228,
+      "sha256": "d5967a5d393854f64913aea669bac846774962feb586569b409515d0fffdeb5a"
+    },
+    {
+      "id": "nurse-sprint02.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint02.xml",
+      "bytes": 29636,
+      "sha256": "ebab2ce8196447fcdb504f38aafb5e35b575f19700c54e2056126f595b58d9f8"
+    },
+    {
+      "id": "nurse-sprint04.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint04.xml",
+      "bytes": 29635,
+      "sha256": "3b89c9419ef70c6d31dc6c925fee452eba843e7bfbc7aeddceb06511a0fb6f14"
+    },
+    {
+      "id": "nurse-sprint06.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint06.xml",
+      "bytes": 29635,
+      "sha256": "20c9d2f671e0d4da459a0d4bfee21c9d79abbf5e763f394c87fdfc7163898726"
+    },
+    {
+      "id": "nurse-sprint08.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint08.xml",
+      "bytes": 29635,
+      "sha256": "83dd8aa6aa33e97558d0f0d0b8b561fa5b5a96b22edceb90c0036e88570f4fbe"
+    },
+    {
+      "id": "nurse-sprint10.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint10.xml",
+      "bytes": 29635,
+      "sha256": "a9a6bbe7d3f26f0ea16250c0912b57f36ee1d3c431ede288007b1e2e4d34a05d"
+    },
+    {
+      "id": "nurse-sprint_hidden02.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hidden02.xml",
+      "bytes": 27753,
+      "sha256": "8100292c2782cd7567cfee9d678d6fe423c5bfd036b8a3ed4d97db8c9a3803d9"
+    },
+    {
+      "id": "nurse-sprint_hidden03.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hidden03.xml",
+      "bytes": 38195,
+      "sha256": "9bf72b84cc3e7e60b188ccda7d39458632916811bb1d45e177a39289ab53caf3"
+    },
+    {
+      "id": "nurse-sprint_hidden06.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hidden06.xml",
+      "bytes": 44866,
+      "sha256": "5c40919b1775701746db3d93aa277a648d43356feb4442cb9eb84504f864781a"
+    },
+    {
+      "id": "nurse-sprint_hidden07.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hidden07.xml",
+      "bytes": 44865,
+      "sha256": "41316bda153258eef81e1882e09e937faea802449e49ea4763c6fe9995a30007"
+    },
+    {
+      "id": "nurse-sprint_hidden08.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hidden08.xml",
+      "bytes": 55307,
+      "sha256": "b9be79910f194a0d662609fb750ab2be2c3deff7250a456e7ca91b6a9832f034"
+    },
+    {
+      "id": "nurse-sprint_hidden09.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hidden09.xml",
+      "bytes": 47196,
+      "sha256": "a4b181f81944dbfadc4830dc79e6a34b32fb570564f2d419c70056b09a276ee2"
+    },
+    {
+      "id": "nurse-sprint_late01.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_late01.xml",
+      "bytes": 30344,
+      "sha256": "50a9a60beca9e69108ae6873f4e0f25a81554aa87721e99d426cd6593054dad1"
+    },
+    {
+      "id": "nurse-sprint_late02.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_late02.xml",
+      "bytes": 26332,
+      "sha256": "39862fd2e7e78531c67c225d79ba20fddc9d8863dd74472d72301337ce5b4069"
+    },
+    {
+      "id": "nurse-sprint_late03.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_late03.xml",
+      "bytes": 30345,
+      "sha256": "2963feb4044a5fc4800f2b45981f52426c666f975605e12af2681b94e17de50f"
+    },
+    {
+      "id": "nurse-sprint_late04.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_late04.xml",
+      "bytes": 30359,
+      "sha256": "9bbac86677a6f0e6676422880e06072d22c208aba174e5acef78c63189782c3f"
+    },
+    {
+      "id": "nurse-sprint_late05.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_late05.xml",
+      "bytes": 30344,
+      "sha256": "c682836d1a29e25498f905f8cf7782cc322308c328264c29fe50f165bdafc31a"
+    },
+    {
+      "id": "nurse-sprint_late06.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_late06.xml",
+      "bytes": 26684,
+      "sha256": "ff4d901c832b8b30469f8958f78bf9e2ac1286a269b0fcac749a5ba0281509a5"
+    },
+    {
+      "id": "nurse-sprint_late07.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_late07.xml",
+      "bytes": 26696,
+      "sha256": "f2fe2886a855f9e29dab85e9035881794f862e1a3096f94cd18f1752ac8c5c8c"
+    },
+    {
+      "id": "nurse-sprint_late09.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_late09.xml",
+      "bytes": 9562,
+      "sha256": "b7e25d7bad5df575f87ba6c2897eeed76649e39eabb3028033c81be5569f2a1d"
+    },
+    {
+      "id": "nurse-sprint_late10.xml",
+      "url": "https://media.githubusercontent.com/media/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_late10.xml",
+      "bytes": 26696,
+      "sha256": "161c0784536b8404ceff49a7cc5cbb681382c0591e100d727a33434fef3d6ddf"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tests/instances/ex001.xml",
+      "source_id": "nurse-long01.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex002.xml",
+      "source_id": "nurse-long02.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex003.xml",
+      "source_id": "nurse-long03.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex004.xml",
+      "source_id": "nurse-long04.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex005.xml",
+      "source_id": "nurse-long05.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex006.xml",
+      "source_id": "nurse-long_hidden01.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex007.xml",
+      "source_id": "nurse-long_hidden02.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex008.xml",
+      "source_id": "nurse-long_hidden03.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex009.xml",
+      "source_id": "nurse-long_hidden04.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex010.xml",
+      "source_id": "nurse-long_hidden05.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex011.xml",
+      "source_id": "nurse-medium01.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex012.xml",
+      "source_id": "nurse-medium02.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex013.xml",
+      "source_id": "nurse-medium03.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex014.xml",
+      "source_id": "nurse-medium04.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex015.xml",
+      "source_id": "nurse-medium05.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex016.xml",
+      "source_id": "nurse-medium_late01.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex017.xml",
+      "source_id": "nurse-medium_late02.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex018.xml",
+      "source_id": "nurse-medium_late03.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex019.xml",
+      "source_id": "nurse-medium_late04.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex020.xml",
+      "source_id": "nurse-medium_late05.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex021.xml",
+      "source_id": "nurse-sprint01.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex022.xml",
+      "source_id": "nurse-sprint03.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex023.xml",
+      "source_id": "nurse-sprint05.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex024.xml",
+      "source_id": "nurse-sprint07.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex025.xml",
+      "source_id": "nurse-sprint09.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex026.xml",
+      "source_id": "nurse-sprint_hidden01.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex027.xml",
+      "source_id": "nurse-sprint_hidden04.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex028.xml",
+      "source_id": "nurse-sprint_hidden05.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex029.xml",
+      "source_id": "nurse-sprint_hidden10.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex030.xml",
+      "source_id": "nurse-sprint_late08.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex031.xml",
+      "source_id": "nurse-long_late01.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex032.xml",
+      "source_id": "nurse-long_late02.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex033.xml",
+      "source_id": "nurse-long_late03.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex034.xml",
+      "source_id": "nurse-long_late04.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex035.xml",
+      "source_id": "nurse-long_late05.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex036.xml",
+      "source_id": "nurse-medium_hidden01.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex037.xml",
+      "source_id": "nurse-medium_hidden02.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex038.xml",
+      "source_id": "nurse-medium_hidden03.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex039.xml",
+      "source_id": "nurse-medium_hidden04.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex040.xml",
+      "source_id": "nurse-medium_hidden05.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex041.xml",
+      "source_id": "nurse-sprint02.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex042.xml",
+      "source_id": "nurse-sprint04.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex043.xml",
+      "source_id": "nurse-sprint06.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex044.xml",
+      "source_id": "nurse-sprint08.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex045.xml",
+      "source_id": "nurse-sprint10.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex046.xml",
+      "source_id": "nurse-sprint_hidden02.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex047.xml",
+      "source_id": "nurse-sprint_hidden03.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex048.xml",
+      "source_id": "nurse-sprint_hidden06.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex049.xml",
+      "source_id": "nurse-sprint_hidden07.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex050.xml",
+      "source_id": "nurse-sprint_hidden08.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex051.xml",
+      "source_id": "nurse-sprint_hidden09.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex052.xml",
+      "source_id": "nurse-sprint_late01.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex053.xml",
+      "source_id": "nurse-sprint_late02.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex054.xml",
+      "source_id": "nurse-sprint_late03.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex055.xml",
+      "source_id": "nurse-sprint_late04.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex056.xml",
+      "source_id": "nurse-sprint_late05.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex057.xml",
+      "source_id": "nurse-sprint_late06.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex058.xml",
+      "source_id": "nurse-sprint_late07.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex059.xml",
+      "source_id": "nurse-sprint_late09.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "tests/instances/ex060.xml",
+      "source_id": "nurse-sprint_late10.xml",
+      "operation": "copy"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py"
+  ],
+  "source_commit": "7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Original benchmark terms remain unresolved; local reconstruction grants no public redistribution approval."
+}

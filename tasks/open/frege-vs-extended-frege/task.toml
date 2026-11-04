@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-frege-vs-extended-frege"
+version = "0.1.0"
+description = "Prove or refute in Lean 4 (machine-verified) the separation of Frege and Extended Frege (framework and question: Cook-Reckhow 1979; as the prevailing conjecture see Krajicek, Proof Complexity, CUP 2019): can Frege polynomially simulate Extended Frege proofs in symbol size? The prevailing conjecture says no. Open problem: no ground truth; the Lean kernel is the judge. A kernel-verified proof of either direction scores 1.0, otherwise 0 — no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "proof-complexity", "propositional-proof-systems", "frege", "extended-frege", "p-simulation", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-frege-vs-extended-frege"
+candidate_id = "cand-frege-vs-extended-frege"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open problem (unresolved since Cook-Reckhow 1979; the first gap in the proof-strength hierarchy of propositional proof systems). Full score needs a kernel-verified proof of the separation or of its negation; there are no checkpoint slots and no partial credit."
+source_paper = "S. A. Cook, R. A. Reckhow, The relative efficiency of propositional proof systems, J. Symbolic Logic 44(1):36-50, 1979; J. Krajicek, Proof Complexity, Cambridge University Press, 2019. Background check: Wikipedia articles 'Frege system' (incl. the Extended Frege section) / 'Propositional proof system' (fetched 2026-09-06); definition-layer survey proof-circuit.md (historical report not included in this package) (section 4.1; shares the Frege definition layer with open-frege-not-pbounded)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-frege-vs-extended-frege-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

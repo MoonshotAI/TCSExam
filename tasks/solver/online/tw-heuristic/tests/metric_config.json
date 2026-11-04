@@ -1,0 +1,6 @@
+{
+ "anchors_file": "anchors.json",
+ "direction": "min",
+ "params": {},
+ "shape": "gap_ratio"
+}

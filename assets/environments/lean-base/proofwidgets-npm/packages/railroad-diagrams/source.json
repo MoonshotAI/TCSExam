@@ -1,0 +1,43 @@
+{
+  "author": "Tab Atkins Jr.",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "CC0-1.0",
+  "lock_entry": {
+    "integrity": "sha512-cz93DjNeLY0idrCNOH6PviZGRN9GJhsdm9hpn1YCS879fj4W+x5IFJhhkRZcwVgMmFF7R82UA/7Oh+R8lLZg6A==",
+    "license": "CC0-1.0",
+    "resolved": "https://registry.npmjs.org/railroad-diagrams/-/railroad-diagrams-1.0.0.tgz",
+    "version": "1.0.0"
+  },
+  "lock_path": "node_modules/railroad-diagrams",
+  "name": "railroad-diagrams",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "CC0-1.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 13328,
+    "installed_in_image": false,
+    "integrity": "sha512-cz93DjNeLY0idrCNOH6PviZGRN9GJhsdm9hpn1YCS879fj4W+x5IFJhhkRZcwVgMmFF7R82UA/7Oh+R8lLZg6A==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/railroad-diagrams/-/railroad-diagrams-1.0.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "89bca8b225095e78a338699f1acb1ef841fa8e7526a45555960a28a09896e722"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 1071,
+    "installed_file": "notices/supplementary/37c9e7457d89cfcffe04ffdc4d1340f5a05648f30300fc48677cde7e1b2abfab.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "HEAD",
+    "scope": "Exact version metadata explicitly declares the recorded license. This source retains the same project full notice; HEAD, when used, is a currently retrieved supplemental text, not represented as an old shipped license file.",
+    "sha256": "37c9e7457d89cfcffe04ffdc4d1340f5a05648f30300fc48677cde7e1b2abfab",
+    "text_file": "image-notices/37c9e7457d89cfcffe04ffdc4d1340f5a05648f30300fc48677cde7e1b2abfab.txt",
+    "url": "https://raw.githubusercontent.com/tabatkins/railroad-diagrams/HEAD/LICENSE"
+  },
+  "version": "1.0.0"
+}

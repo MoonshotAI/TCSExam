@@ -1,0 +1,19 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "mr-roadef2012",
+  "scope": "Forty unchanged public model/initial-assignment input files plus the original official197799-byte problem PDF, and ten transformed hidden model/initial-assignment pairs. Original MR row/label transformation retained with saved full permutations. Initial assignments are problem inputs; no solver answers read.",
+  "source_commit": "06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c",
+  "verified_products": {
+    "solver-mr-roadef2012-development-data": {
+      "files": 41,
+      "bytes": 100206766
+    },
+    "solver-mr-roadef2012-judging-data": {
+      "files": 20,
+      "bytes": 99616939
+    }
+  },
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Data-file attribution and Apache2 notice follow the existing OR-Tools source record. Official reference PDF remains separately copyrighted; no new redistribution authorization."
+}

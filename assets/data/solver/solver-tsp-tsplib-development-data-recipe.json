@@ -1,0 +1,696 @@
+{
+  "format": "official_files",
+  "description": "Exactly 61 frozen original public TSPLIB inputs plus the original TSPLIB95 reference PDF. Fixed source commits for instance mirrors and independently hash-pinned university documentation. No tours or score files.",
+  "sources": [
+    {
+      "id": "tsplib-public-ali535-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/ali535.tsp",
+      "bytes": 9548,
+      "sha256": "1c4311ae8004b217b3fac7c54e1acaa8fa0ecd11ae814790d297b5d45f36b356"
+    },
+    {
+      "id": "tsplib-public-att48-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/att48.tsp",
+      "bytes": 738,
+      "sha256": "7a7b04423c4463e873ec5d1f0592ad4a5cba168018e3f4edfd7f7e541fde03ac"
+    },
+    {
+      "id": "tsplib-public-bier127-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/bier127.tsp",
+      "bytes": 2560,
+      "sha256": "a4c944ca4b32fc9facd00ab664e47ebc37853f4349b971e5094cea4215ff71da"
+    },
+    {
+      "id": "tsplib-public-brazil58-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/brazil58.tsp",
+      "bytes": 8041,
+      "sha256": "7bd4c233951e3ddcf08118798d38dd42a8d3eb679988e389bf793b7dba231790"
+    },
+    {
+      "id": "tsplib-public-brd14051-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/brd14051.tsp",
+      "bytes": 309282,
+      "sha256": "ddfb0884fef819603869179f887b6a653f945b522c087b95c14a35babc1086ca"
+    },
+    {
+      "id": "tsplib-public-brg180-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/brg180.tsp",
+      "bytes": 98436,
+      "sha256": "08aa555527b2434f02ca52d8f9e45251297ccb0742c70d87e367b05b4960ffe2"
+    },
+    {
+      "id": "tsplib-public-ch150-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/ch150.tsp",
+      "bytes": 5070,
+      "sha256": "05abd424f773269b13477d367e534797aac080fb536a28074a72a9c0ba8064f5"
+    },
+    {
+      "id": "tsplib-public-d1655-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/d1655.tsp",
+      "bytes": 47015,
+      "sha256": "d0467ac6193c1fcc09038c40691f7cc8bd061004a6ebfaf443e2675e9211f384"
+    },
+    {
+      "id": "tsplib-public-d18512-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/d18512.tsp",
+      "bytes": 407423,
+      "sha256": "a3c9c7cce1821929052cf48a63a08a84cdbea718f5a219ac88d72b68c4357651"
+    },
+    {
+      "id": "tsplib-public-d493-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/d493.tsp",
+      "bytes": 13821,
+      "sha256": "a017d8773a1bb279356929a3dd196df11d3fae7b9d45cc5e92d3385616252820"
+    },
+    {
+      "id": "tsplib-public-dantzig42-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/dantzig42.tsp",
+      "bytes": 4739,
+      "sha256": "44e695b2084b13fe3efe790c783a4db1745df8947a482b1c8edcda63cb15b29d"
+    },
+    {
+      "id": "tsplib-public-dsj1000-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/dsj1000.tsp",
+      "bytes": 18972,
+      "sha256": "6fdad6e74c25ed4a4756a561ba941c1c8e7fd77c4a3d0903ed788ec2d4095f61"
+    },
+    {
+      "id": "tsplib-public-eil51-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/eil51.tsp",
+      "bytes": 579,
+      "sha256": "66c05ad077ffd64d5778e358bbd16be049f8c8ae880cbd24f034487331d1ccce"
+    },
+    {
+      "id": "tsplib-public-fl1400-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/fl1400.tsp",
+      "bytes": 39621,
+      "sha256": "7afc62a19f3c691f13193fbc55865938097071370882174c926aff722db42a7c"
+    },
+    {
+      "id": "tsplib-public-fl3795-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/fl3795.tsp",
+      "bytes": 109076,
+      "sha256": "cd71aa52a4528e5425f639ade7183addc90b7a97d3809fe3d783449111ce06aa"
+    },
+    {
+      "id": "tsplib-public-fl417-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/fl417.tsp",
+      "bytes": 11694,
+      "sha256": "9aa83df5f95d14156a1adabcfde6556148f51f6d9cf5938f11e220c0d616e146"
+    },
+    {
+      "id": "tsplib-public-fri26-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/fri26.tsp",
+      "bytes": 1325,
+      "sha256": "80d6b51cf41459ba33ca883324f50b2f0694a4b787f2ae153c9cd97c8d8948c0"
+    },
+    {
+      "id": "tsplib-public-gil262-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/gil262.tsp",
+      "bytes": 2841,
+      "sha256": "662dac76952a676c709d250b124e689ce6b85782c7c595e8b9666217aaae9b65"
+    },
+    {
+      "id": "tsplib-public-gr120-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/gr120.tsp",
+      "bytes": 30909,
+      "sha256": "de903724360c2ec745b1ec9119a1bd5679c49abff8ad39ef2e4e75e59e9b5d54"
+    },
+    {
+      "id": "tsplib-public-gr137-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/gr137.tsp",
+      "bytes": 2579,
+      "sha256": "71bbef1e0f21ef9f130ef4ec0cfec86b9cbbdf7f202cbaaf526ea1bf9370c090"
+    },
+    {
+      "id": "tsplib-public-gr21-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/gr21.tsp",
+      "bytes": 1912,
+      "sha256": "3ff0ab452689b2e9ffb7aa206a7dcee4e6053dbb915afa99e66005f84e8b54b4"
+    },
+    {
+      "id": "tsplib-public-gr229-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/gr229.tsp",
+      "bytes": 4091,
+      "sha256": "f1c6e77a14a9464fa937831e98284df2304c95e2091bd90cb724304c6bdebddb"
+    },
+    {
+      "id": "tsplib-public-gr24-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/gr24.tsp",
+      "bytes": 1250,
+      "sha256": "7fcf61204842785f06c58e7098a3e1eb2786831179e115645083ce500c065779"
+    },
+    {
+      "id": "tsplib-public-gr431-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/gr431.tsp",
+      "bytes": 7504,
+      "sha256": "06d2096f926ee8523b1a8139189a9888c711cde3459a1dea886ec450d0223a62"
+    },
+    {
+      "id": "tsplib-public-hk48-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/hk48.tsp",
+      "bytes": 6123,
+      "sha256": "f62c053a704daacc56ff4d6156e8e6c180263c2767c80637f901deeb08a6b596"
+    },
+    {
+      "id": "tsplib-public-kroA100-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/kroA100.tsp",
+      "bytes": 1345,
+      "sha256": "e103100c1cf31dfc06be95a9d04011b5a8753bb65a3339594ca34404e574bdf5"
+    },
+    {
+      "id": "tsplib-public-kroA150-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/kroA150.tsp",
+      "bytes": 2001,
+      "sha256": "acfeddc0cf4dd78ae69dd0c379b52b4031a4a8daa61a0cab3f46c1e3e2a616ba"
+    },
+    {
+      "id": "tsplib-public-kroB100-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/kroB100.tsp",
+      "bytes": 1352,
+      "sha256": "283d8c912e3334deea76cc9fe95e915d09111979e7753d0affaf14d9aa21cdbe"
+    },
+    {
+      "id": "tsplib-public-kroB150-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/kroB150.tsp",
+      "bytes": 1997,
+      "sha256": "f6c573fc55f60d90573f09cee01c0c6e09eef87f1315ac8fb6cd2719a1cfd468"
+    },
+    {
+      "id": "tsplib-public-kroC100-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/kroC100.tsp",
+      "bytes": 1341,
+      "sha256": "aef750b8051e011df3b0fae21f4d71273cf129bcf7f2a9b697c2406bcaec68d2"
+    },
+    {
+      "id": "tsplib-public-kroD100-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/kroD100.tsp",
+      "bytes": 1341,
+      "sha256": "e2297d9c40abc8341792e7b785e7a9c04ed21dfda0c667d9388888b4ba8cb52d"
+    },
+    {
+      "id": "tsplib-public-kroE100-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/kroE100.tsp",
+      "bytes": 1342,
+      "sha256": "de5a20663b3903407150d1798c9be517d2df2030d7a910ddc9fc3c024a5c3bb4"
+    },
+    {
+      "id": "tsplib-public-lin105-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/lin105.tsp",
+      "bytes": 1358,
+      "sha256": "8d34cafef4279bf6ab077a5c5c75bc4757a509f9cbbfd42f7e3170a5e280e1cb"
+    },
+    {
+      "id": "tsplib-public-pcb1173-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/pcb1173.tsp",
+      "bytes": 33047,
+      "sha256": "14f0665de450385aa6a59a6f002e8e99103d4550550d38525fa6deb5169d5920"
+    },
+    {
+      "id": "tsplib-public-pcb3038-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/pcb3038.tsp",
+      "bytes": 87139,
+      "sha256": "25081ac540357ec34935a4b366f32e58b0d605565b888f876211769ec972b87a"
+    },
+    {
+      "id": "tsplib-public-pcb442-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/pcb442.tsp",
+      "bytes": 12414,
+      "sha256": "0f58bc2f1aa0023764ebc14b3b0dcb6e765ffe173963fdc1cb8443d969842b51"
+    },
+    {
+      "id": "tsplib-public-pla85900-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/pla85900.tsp",
+      "bytes": 1789674,
+      "sha256": "a26144f6a9bc949c388334d954167f02da862f6134d5c3ab18bf14ce9f79ac20"
+    },
+    {
+      "id": "tsplib-public-pr1002-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/pr1002.tsp",
+      "bytes": 14744,
+      "sha256": "2211b491e3b8c6ad087d58ead2a8480f9b1bb006fc4b9a245fc594cedd2ee8a7"
+    },
+    {
+      "id": "tsplib-public-pr107-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/pr107.tsp",
+      "bytes": 1600,
+      "sha256": "e0d774d2e853fbb1a507f06e8aa83e625690edc29866268e970471ea6febf65b"
+    },
+    {
+      "id": "tsplib-public-pr136-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/pr136.tsp",
+      "bytes": 2020,
+      "sha256": "15b7b21610bcc291167d380367f9e2f220a9ba1ad8216567c899e9382f9952c4"
+    },
+    {
+      "id": "tsplib-public-pr152-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/pr152.tsp",
+      "bytes": 2206,
+      "sha256": "3448615f2e08f5f1d5a0f6114893c0c0a3e6faae426bb245b8c64a89ff4d032b"
+    },
+    {
+      "id": "tsplib-public-pr264-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/pr264.tsp",
+      "bytes": 3787,
+      "sha256": "af8238a6cc962d77d50d4d8b3f0c9099fe972f7858994ef8cf4ccb2d31b2e6c0"
+    },
+    {
+      "id": "tsplib-public-pr439-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/pr439.tsp",
+      "bytes": 6540,
+      "sha256": "45118258cc9f42372f3eed76bcbc9a99902052b508ccdf65e5c5469398f1b2fa"
+    },
+    {
+      "id": "tsplib-public-rat195-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/rat195.tsp",
+      "bytes": 2319,
+      "sha256": "8218a9ebc7b7af2044cf8a27929513eb6975e75af2a87ddae8510c6f275796a5"
+    },
+    {
+      "id": "tsplib-public-rat783-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/rat783.tsp",
+      "bytes": 9739,
+      "sha256": "b9535dc5e44549f613bf6e34ee8667eed6f7a13e6b74c0b0451de95a480cabde"
+    },
+    {
+      "id": "tsplib-public-rd100-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/rd100.tsp",
+      "bytes": 2821,
+      "sha256": "6f62863c4f5d9fe1d7226077923716b8d0ba76d58bae7eb65fdaff127c5cdf5c"
+    },
+    {
+      "id": "tsplib-public-rd400-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/rd400.tsp",
+      "bytes": 11221,
+      "sha256": "1f2543164d67d93eaea4537f3033a94fa8f14d105f3caf8a817abaddcd346693"
+    },
+    {
+      "id": "tsplib-public-rl11849-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/rl11849.tsp",
+      "bytes": 344492,
+      "sha256": "abbfe2a3b9a039e7b86c8b01fcc4644ed2e7dc7a2b20f111392e07c20803386c"
+    },
+    {
+      "id": "tsplib-public-rl1323-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/rl1323.tsp",
+      "bytes": 37385,
+      "sha256": "53bb2e53c7846fb6244bfbb3d7d8a92062d05fd9e1031cecd4060affe56d9521"
+    },
+    {
+      "id": "tsplib-public-rl1889-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/rl1889.tsp",
+      "bytes": 53799,
+      "sha256": "6be6b4e2d3e3a2c4119bd2248ee209d1c6856741291ffa6523e4d7feea94d2f8"
+    },
+    {
+      "id": "tsplib-public-rl5934-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/rl5934.tsp",
+      "bytes": 171104,
+      "sha256": "9b16ad6a492201fd83dfc739fc37f3948057ccd99707408be350b411e62a9da8"
+    },
+    {
+      "id": "tsplib-public-si1032-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/si1032.tsp",
+      "bytes": 2162350,
+      "sha256": "54ba7b531cfc87720a2ffc4124283cfa70bde4774fe8394f824622fbd8a5a9a1"
+    },
+    {
+      "id": "tsplib-public-si175-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/si175.tsp",
+      "bytes": 62351,
+      "sha256": "f1c43203b7afa7cac97c67dce9f73b543cc622dbb36b91d0edfa6e5393c4e565"
+    },
+    {
+      "id": "tsplib-public-st70-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/st70.tsp",
+      "bytes": 734,
+      "sha256": "60c09e8886609bf22d6dc699fe7d7aa1924207d084578aad1a377ec65cf15b1b"
+    },
+    {
+      "id": "tsplib-public-tsp225-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/tsp225.tsp",
+      "bytes": 4174,
+      "sha256": "3d356ab7c1a724cd1e05e0809cf2db11932c3bc8f54f6124e02c2b6c7f5fd901"
+    },
+    {
+      "id": "tsplib-public-u1060-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/u1060.tsp",
+      "bytes": 29768,
+      "sha256": "b650149d3662588d39be22024c04b68df2957c0c7ab2a351ef84b30e780505c0"
+    },
+    {
+      "id": "tsplib-public-u1432-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/u1432.tsp",
+      "bytes": 40548,
+      "sha256": "3762b5ec208d8ba303863f6a1a0d2edbb4930edd9e4742b2046df07699199c2f"
+    },
+    {
+      "id": "tsplib-public-u1817-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/u1817.tsp",
+      "bytes": 51713,
+      "sha256": "a91126f8908ae999bd9358ad43bf4b88c7298cdef19c67acbfe9b6819d1d56b0"
+    },
+    {
+      "id": "tsplib-public-u574-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/u574.tsp",
+      "bytes": 16089,
+      "sha256": "f6219abf1edc76e50e89126659257ba6d55d16551dcb25d6c6733b8566782ad3"
+    },
+    {
+      "id": "tsplib-public-u724-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/u724.tsp",
+      "bytes": 20289,
+      "sha256": "d13ca314d1c2cddebf473b4e049665ddd4c2814badf2be4b3ec15077dad6459f"
+    },
+    {
+      "id": "tsplib-public-vm1084-tsp",
+      "url": "https://raw.githubusercontent.com/mastqe/tsplib/775541365dc3f7f3cd6faa8d0e206036d2c45e0e/vm1084.tsp",
+      "bytes": 30458,
+      "sha256": "37bdb51ff01b47f7f76189ff366f9ee11ae56799860ca9cf53dbb2175376a34d"
+    },
+    {
+      "id": "tsplib-public-tsp95-pdf",
+      "url": "https://www.or.uni-bonn.de/lectures/ws17/co_exercises/programming/tsp/tsp95.pdf",
+      "bytes": 137370,
+      "sha256": "4a3c4dd2074301c6aaa31eea1a817fe7edf004f4b805d4f56bb1ce68ed3639d3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances/ali535.tsp",
+      "source_id": "tsplib-public-ali535-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/att48.tsp",
+      "source_id": "tsplib-public-att48-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/bier127.tsp",
+      "source_id": "tsplib-public-bier127-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/brazil58.tsp",
+      "source_id": "tsplib-public-brazil58-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/brd14051.tsp",
+      "source_id": "tsplib-public-brd14051-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/brg180.tsp",
+      "source_id": "tsplib-public-brg180-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/ch150.tsp",
+      "source_id": "tsplib-public-ch150-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/d1655.tsp",
+      "source_id": "tsplib-public-d1655-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/d18512.tsp",
+      "source_id": "tsplib-public-d18512-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/d493.tsp",
+      "source_id": "tsplib-public-d493-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/dantzig42.tsp",
+      "source_id": "tsplib-public-dantzig42-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/dsj1000.tsp",
+      "source_id": "tsplib-public-dsj1000-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/eil51.tsp",
+      "source_id": "tsplib-public-eil51-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/fl1400.tsp",
+      "source_id": "tsplib-public-fl1400-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/fl3795.tsp",
+      "source_id": "tsplib-public-fl3795-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/fl417.tsp",
+      "source_id": "tsplib-public-fl417-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/fri26.tsp",
+      "source_id": "tsplib-public-fri26-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/gil262.tsp",
+      "source_id": "tsplib-public-gil262-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/gr120.tsp",
+      "source_id": "tsplib-public-gr120-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/gr137.tsp",
+      "source_id": "tsplib-public-gr137-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/gr21.tsp",
+      "source_id": "tsplib-public-gr21-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/gr229.tsp",
+      "source_id": "tsplib-public-gr229-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/gr24.tsp",
+      "source_id": "tsplib-public-gr24-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/gr431.tsp",
+      "source_id": "tsplib-public-gr431-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/hk48.tsp",
+      "source_id": "tsplib-public-hk48-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/kroA100.tsp",
+      "source_id": "tsplib-public-kroA100-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/kroA150.tsp",
+      "source_id": "tsplib-public-kroA150-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/kroB100.tsp",
+      "source_id": "tsplib-public-kroB100-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/kroB150.tsp",
+      "source_id": "tsplib-public-kroB150-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/kroC100.tsp",
+      "source_id": "tsplib-public-kroC100-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/kroD100.tsp",
+      "source_id": "tsplib-public-kroD100-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/kroE100.tsp",
+      "source_id": "tsplib-public-kroE100-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/lin105.tsp",
+      "source_id": "tsplib-public-lin105-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/pcb1173.tsp",
+      "source_id": "tsplib-public-pcb1173-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/pcb3038.tsp",
+      "source_id": "tsplib-public-pcb3038-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/pcb442.tsp",
+      "source_id": "tsplib-public-pcb442-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/pla85900.tsp",
+      "source_id": "tsplib-public-pla85900-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/pr1002.tsp",
+      "source_id": "tsplib-public-pr1002-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/pr107.tsp",
+      "source_id": "tsplib-public-pr107-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/pr136.tsp",
+      "source_id": "tsplib-public-pr136-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/pr152.tsp",
+      "source_id": "tsplib-public-pr152-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/pr264.tsp",
+      "source_id": "tsplib-public-pr264-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/pr439.tsp",
+      "source_id": "tsplib-public-pr439-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/rat195.tsp",
+      "source_id": "tsplib-public-rat195-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/rat783.tsp",
+      "source_id": "tsplib-public-rat783-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/rd100.tsp",
+      "source_id": "tsplib-public-rd100-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/rd400.tsp",
+      "source_id": "tsplib-public-rd400-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/rl11849.tsp",
+      "source_id": "tsplib-public-rl11849-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/rl1323.tsp",
+      "source_id": "tsplib-public-rl1323-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/rl1889.tsp",
+      "source_id": "tsplib-public-rl1889-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/rl5934.tsp",
+      "source_id": "tsplib-public-rl5934-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/si1032.tsp",
+      "source_id": "tsplib-public-si1032-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/si175.tsp",
+      "source_id": "tsplib-public-si175-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/st70.tsp",
+      "source_id": "tsplib-public-st70-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tsp225.tsp",
+      "source_id": "tsplib-public-tsp225-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/u1060.tsp",
+      "source_id": "tsplib-public-u1060-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/u1432.tsp",
+      "source_id": "tsplib-public-u1432-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/u1817.tsp",
+      "source_id": "tsplib-public-u1817-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/u574.tsp",
+      "source_id": "tsplib-public-u574-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/u724.tsp",
+      "source_id": "tsplib-public-u724-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/vm1084.tsp",
+      "source_id": "tsplib-public-vm1084-tsp",
+      "operation": "copy"
+    },
+    {
+      "path": "app/tsp95.pdf",
+      "source_id": "tsplib-public-tsp95-pdf",
+      "operation": "copy"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Original TSPLIB redistribution terms remain unresolved. Reconstruction grants no public upload approval."
+}

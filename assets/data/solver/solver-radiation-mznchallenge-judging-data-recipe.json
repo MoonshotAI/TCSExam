@@ -1,0 +1,434 @@
+{
+  "format": "official_files",
+  "description": "Recover all 47 frozen judging inputs: 23 fixed upstream MIT files and 24 original Apache-2.0 project source assets. Original names, split, bytes and scoring remain unchanged.",
+  "task_id": "radiation-mznchallenge",
+  "data_split": "hidden",
+  "sources": [
+    {
+      "id": "radiation-mznchallenge-hidden-01.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/01.dzn",
+      "bytes": 151,
+      "sha256": "c31db98e95b484c3f46f2d8201c51cf43075b80b786c89d7694e3b37598819ef"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-02.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/02.dzn",
+      "bytes": 151,
+      "sha256": "c04f77a664c42085e502cab929711725700dfc2633882ee80159433900056447"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-03.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/03.dzn",
+      "bytes": 151,
+      "sha256": "9c42ab5578b8298352061fd905fe410a76731f868b73a401f78f457d35390627"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-04.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/04.dzn",
+      "bytes": 185,
+      "sha256": "78eac452c97852cd795a3a7f061fa68f62d86de328bdd83aa7f05bdacacc5927"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-05.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/05.dzn",
+      "bytes": 185,
+      "sha256": "f70c198afc772b9555afe944f520eb121504860a9cbd1f4a32452e98a0e007a7"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-06.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/06.dzn",
+      "bytes": 185,
+      "sha256": "07f6b48646d0574942068fed9fb49711e6b5705c2925b7a0582460f5e62af90f"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-07.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/07.dzn",
+      "bytes": 185,
+      "sha256": "1f1f2aa0971194cc5a38676319113d8796a936048343ed453b909143b14ce3f5"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-08.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/08.dzn",
+      "bytes": 185,
+      "sha256": "29f304371317f4cf012025e42e90ea6091bd94a45b9bf9e5dee1e4f7446f76ec"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-09.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/09.dzn",
+      "bytes": 185,
+      "sha256": "9be41ddb04c9f3f43230496cc6d24e893b30954ca9abb5db40ee56be314f8827"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-i14-9.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/i14-9.dzn",
+      "bytes": 675,
+      "sha256": "2bb74ad654568c597cae8cb6714478e4612676df19dbf9d56f8b2f2f19eb7bcb"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-i6-11.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/i6-11.dzn",
+      "bytes": 222,
+      "sha256": "45a48d7e47abd12993816969d2348f3c0e978f02eb9fb382d25c91c49afa4002"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-i6-21.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/i6-21.dzn",
+      "bytes": 222,
+      "sha256": "1d9f67ad25882d80f6e345c5b66669fb6d955ed5bf07489d829a0089c62c6289"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-i6-7.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/i6-7.dzn",
+      "bytes": 185,
+      "sha256": "f05b8d1626bb1bb1e6e5233d4c83c2bb6da8c407ce47bcedaff89bee65f0d6fe"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-i7-15.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/i7-15.dzn",
+      "bytes": 275,
+      "sha256": "7cb74b19613235bf2d0ba98c082e843c298b1f2033c90ecbaf47e3fa9f3089e1"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-i7-9.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/i7-9.dzn",
+      "bytes": 225,
+      "sha256": "d93a1c8a3f4eb00085eb5f6a12d1c62d35f486335a4fa62a295c45e9b657a603"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-i8-7.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/i8-7.dzn",
+      "bytes": 271,
+      "sha256": "e7fdf53f24c5c13a4a8b02eb58123f761ad21c8d5e9416707c07fe1fd51d6976"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-i9-11.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/i9-11.dzn",
+      "bytes": 405,
+      "sha256": "e7aabdc17b556037a876f8ebb1736cdbd815009016ada87bb6742bb3be1f7f4c"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-i9-23.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/i9-23.dzn",
+      "bytes": 405,
+      "sha256": "65901197b7d6f01837dcd86219a7a1bbd699526c7274e5562cf85b3a5a0cd4da"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-m06_15_15.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/m06_15_15.dzn",
+      "bytes": 187,
+      "sha256": "ba8403146c93ac0f45ee716d4f471e02cfd0bf023123931a7b224f1c7cfde4fc"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-m07_07_20.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/m07_07_20.dzn",
+      "bytes": 241,
+      "sha256": "b8fdd0a791a88acc9c128bb77f72e10c2f165e0ca4f04ffdb2418024d16557b7"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-m12_10_20.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/m12_10_20.dzn",
+      "bytes": 621,
+      "sha256": "94e9eaa9c6e62af60825290c31ba902a7133939e5de7ba7c8b676c9b8e746eec"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-m18_12_05.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/m18_12_05.dzn",
+      "bytes": 1347,
+      "sha256": "ac4a49ee29789b842a9fbd07d5b263ceb8d38c8d20a4c0a69bae295e8a3488cd"
+    },
+    {
+      "id": "radiation-mznchallenge-hidden-m40_10_02.dzn",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/m40_10_02.dzn",
+      "bytes": 6473,
+      "sha256": "67c4de4bed73bcf077ee42ed8c51397087e12319ff61701acff2af9c878bd232"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tests/instances/ex001.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex001.dzn"
+    },
+    {
+      "path": "tests/instances/ex002.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex002.dzn"
+    },
+    {
+      "path": "tests/instances/ex003.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex003.dzn"
+    },
+    {
+      "path": "tests/instances/ex004.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex004.dzn"
+    },
+    {
+      "path": "tests/instances/ex005.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex005.dzn"
+    },
+    {
+      "path": "tests/instances/ex006.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex006.dzn"
+    },
+    {
+      "path": "tests/instances/ex007.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex007.dzn"
+    },
+    {
+      "path": "tests/instances/ex008.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex008.dzn"
+    },
+    {
+      "path": "tests/instances/ex009.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex009.dzn"
+    },
+    {
+      "path": "tests/instances/ex010.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex010.dzn"
+    },
+    {
+      "path": "tests/instances/ex011.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-01.dzn"
+    },
+    {
+      "path": "tests/instances/ex012.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-02.dzn"
+    },
+    {
+      "path": "tests/instances/ex013.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-03.dzn"
+    },
+    {
+      "path": "tests/instances/ex014.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-04.dzn"
+    },
+    {
+      "path": "tests/instances/ex015.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-05.dzn"
+    },
+    {
+      "path": "tests/instances/ex016.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-06.dzn"
+    },
+    {
+      "path": "tests/instances/ex017.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-07.dzn"
+    },
+    {
+      "path": "tests/instances/ex018.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-08.dzn"
+    },
+    {
+      "path": "tests/instances/ex019.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-09.dzn"
+    },
+    {
+      "path": "tests/instances/ex020.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex020.dzn"
+    },
+    {
+      "path": "tests/instances/ex021.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex021.dzn"
+    },
+    {
+      "path": "tests/instances/ex022.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex022.dzn"
+    },
+    {
+      "path": "tests/instances/ex023.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex023.dzn"
+    },
+    {
+      "path": "tests/instances/ex024.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex024.dzn"
+    },
+    {
+      "path": "tests/instances/ex025.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex025.dzn"
+    },
+    {
+      "path": "tests/instances/ex026.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex026.dzn"
+    },
+    {
+      "path": "tests/instances/ex027.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex027.dzn"
+    },
+    {
+      "path": "tests/instances/ex028.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex028.dzn"
+    },
+    {
+      "path": "tests/instances/ex029.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex029.dzn"
+    },
+    {
+      "path": "tests/instances/ex030.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex030.dzn"
+    },
+    {
+      "path": "tests/instances/ex031.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex031.dzn"
+    },
+    {
+      "path": "tests/instances/ex032.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex032.dzn"
+    },
+    {
+      "path": "tests/instances/ex033.dzn",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/radiation-mznchallenge/hidden-generated/ex033.dzn"
+    },
+    {
+      "path": "tests/instances/ex034.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-i14-9.dzn"
+    },
+    {
+      "path": "tests/instances/ex035.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-i6-11.dzn"
+    },
+    {
+      "path": "tests/instances/ex036.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-i6-21.dzn"
+    },
+    {
+      "path": "tests/instances/ex037.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-i6-7.dzn"
+    },
+    {
+      "path": "tests/instances/ex038.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-i7-15.dzn"
+    },
+    {
+      "path": "tests/instances/ex039.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-i7-9.dzn"
+    },
+    {
+      "path": "tests/instances/ex040.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-i8-7.dzn"
+    },
+    {
+      "path": "tests/instances/ex041.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-i9-11.dzn"
+    },
+    {
+      "path": "tests/instances/ex042.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-i9-23.dzn"
+    },
+    {
+      "path": "tests/instances/ex043.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-m06_15_15.dzn"
+    },
+    {
+      "path": "tests/instances/ex044.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-m07_07_20.dzn"
+    },
+    {
+      "path": "tests/instances/ex045.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-m12_10_20.dzn"
+    },
+    {
+      "path": "tests/instances/ex046.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-m18_12_05.dzn"
+    },
+    {
+      "path": "tests/instances/ex047.dzn",
+      "operation": "copy",
+      "source_id": "radiation-mznchallenge-hidden-m40_10_02.dzn"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py",
+    "docs/licenses/third-party/radiation-mznchallenge-judging-source.json",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/LICENSE",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/MINIZINC-MIT.txt",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/NOTICE",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex001.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex002.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex003.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex004.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex005.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex006.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex007.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex008.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex009.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex010.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex020.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex021.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex022.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex023.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex024.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex025.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex026.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex027.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex028.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex029.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex030.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex031.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex032.dzn",
+    "assets/data/solver/radiation-mznchallenge/hidden-generated/ex033.dzn"
+  ],
+  "license_files": [
+    {
+      "path": "assets/data/solver/radiation-mznchallenge/hidden-generated/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "assets/data/solver/radiation-mznchallenge/hidden-generated/NOTICE",
+      "bytes": 856,
+      "sha256": "49efe3c246745657d383beb8cd3302fd9dfe17a11e9e6509bc174f45ee73d239"
+    },
+    {
+      "path": "assets/data/solver/radiation-mznchallenge/hidden-generated/MINIZINC-MIT.txt",
+      "bytes": 1086,
+      "sha256": "682e731b25055903120b0e67dfb1cc981dda8981e85a1837e3c266d44732282b"
+    }
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "distribution_evidence": "docs/licenses/third-party/radiation-mznchallenge-judging-source.json"
+}

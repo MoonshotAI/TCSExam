@@ -1,0 +1,27 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "sebcrozet <developer@crozet.re>"
+  ],
+  "bytes": 50905,
+  "checksum_sha256": "c48e45e5961033db030b56ad67aef22e9c908c493a6e8348c0a0f6b93433cd77",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "Apache-2.0",
+  "name": "simba",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 11347,
+      "installed_file": "notices/original/LICENSE",
+      "path": "simba-0.7.2/LICENSE",
+      "sha256": "ceacfa4d7fa67df64ab09a56fe248c50a3bfc9bc00374d69bd74ad763b14b89c",
+      "text_file": "image-notices/ceacfa4d7fa67df64ab09a56fe248c50a3bfc9bc00374d69bd74ad763b14b89c.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/simba/simba-0.7.2.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "0.7.2"
+}

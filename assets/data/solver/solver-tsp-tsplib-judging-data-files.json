@@ -1,0 +1,268 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/tx001.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx001.tsp",
+      "git_blob": "c16410b599162624b9ed46fbb784955f0d32ec10",
+      "bytes": 3096,
+      "sha256": "b41064bba0993728a466cdf0c07afe07cd88d8c768f01adf31f7cb0bb19637dc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx002.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx002.tsp",
+      "git_blob": "6224d506aa935090ed0bf1aabb143744597cb8d1",
+      "bytes": 3408,
+      "sha256": "4614b6c5128964523323f540302ddc6ad8242797cea394bc11d8491747102639",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx003.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx003.tsp",
+      "git_blob": "1c0ede9e608629aa5186b0a3fc592808b8f98bb6",
+      "bytes": 912,
+      "sha256": "b09df503ef8fa1d2f896037be04322f10efd26f6669fb106f87878c0f859c474",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx004.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx004.tsp",
+      "git_blob": "994ab322662eb237ebed0eb847028f436a96ddd8",
+      "bytes": 386,
+      "sha256": "cb439313badd9ea1f9de69db207d48f996079606e0b89b4a49d232e5fb81d8bf",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx005.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx005.tsp",
+      "git_blob": "f354fdeace27b00ca1a00cd29aedb9782a63bf1d",
+      "bytes": 4386,
+      "sha256": "56be6d679fb97466853000b79e5dcc3d98f2728754d8281b8e02c17403fb590f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx006.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx006.tsp",
+      "git_blob": "2505c2e1c9e5b8c0af763a349851979aeaced0b7",
+      "bytes": 36459,
+      "sha256": "1780116f6c50aba6fd55323944aabb99403014f6ab29747011ffc1f353a89c6b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx007.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx007.tsp",
+      "git_blob": "b4ff69307869cdd3c9de0b54a949a9b6e3205e45",
+      "bytes": 247044,
+      "sha256": "77a70170c5cb989755a0659c73b22d3504fd40035f6ba86e33be46d2c256bac9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx008.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx008.tsp",
+      "git_blob": "84ef293c50d30cb76779d4891fd216637d9496bb",
+      "bytes": 18413,
+      "sha256": "116052d4094f944abfa48fbc6e1fe808c789b8944539a978de5d6d475698a9d8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx009.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx009.tsp",
+      "git_blob": "f71eb94a8ddb78e089c539c8cc4c82524569fb9e",
+      "bytes": 801,
+      "sha256": "628d7b9999d6ba58697c3103366c780ed9ad438e918e59d6b9ce14986e1312f6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx010.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx010.tsp",
+      "git_blob": "dad8ed6168fde6eaf30602c2c12933adf9833e79",
+      "bytes": 44754,
+      "sha256": "be6822cd437254e75ca54f041a75f25a0ff1cce84cd59c92c365450b205607b2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx011.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx011.tsp",
+      "git_blob": "86266488d438944c1ec48865c78ea41d002daee6",
+      "bytes": 716,
+      "sha256": "0d962fbe73729b50fb90e50fb4350c3b493dee59e6c3565b172820a4d347b934",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx012.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx012.tsp",
+      "git_blob": "0547fc58df207de32efbe945ecb3b45cfa370ad6",
+      "bytes": 10972,
+      "sha256": "61c8acc21cb531adbdc45052c8916e34f3dfbf4bc04e98cf994ea1f53867466f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx013.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx013.tsp",
+      "git_blob": "884f781c44eac19fd8329748fd2f4497de16963b",
+      "bytes": 1605,
+      "sha256": "5d5f0b59b39142755ab047595e54ed2825f9633f4d2d7b425ceafce08e25f332",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx014.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx014.tsp",
+      "git_blob": "98ed4477e94251088bb594b5652c3ccbaa346390",
+      "bytes": 2656,
+      "sha256": "84e072e945324c060f0e46e806289a2444335acccd13c5000f9bf03ad7acd8d7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx015.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx015.tsp",
+      "git_blob": "5673cd542ab6154e1ff1efdf80bcd31012655071",
+      "bytes": 2663,
+      "sha256": "46b28617ce4cb5b3b2305e9ab921cd86238024f2c2ae9c290f22f1ec40fc12ac",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx016.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx016.tsp",
+      "git_blob": "6caad5ae60eb67317806a8d410a9fa2bba50210e",
+      "bytes": 19730,
+      "sha256": "ec46419015c1c45d23fa62b4b1f97969b9c2ed56144bdbcf2a607012e0c57a3c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx017.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx017.tsp",
+      "git_blob": "2b1e9b649ce941b37f9978970c040bca8894643a",
+      "bytes": 18329,
+      "sha256": "820b5423a37281021baf9c75c1958a4941d2dba3986bcd609c384aac427372b2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx018.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx018.tsp",
+      "git_blob": "1c82ac115e199725bd8754736da9e836c730145a",
+      "bytes": 494531,
+      "sha256": "e73a1dcac7c0606c624324b973ea2e864791d1f85e56103c158875a38365a19c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx019.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx019.tsp",
+      "git_blob": "2455f60b1f2c4445ed251046d73897d3c84ff81b",
+      "bytes": 660338,
+      "sha256": "c170cf60ae8bd345b5a36ff2a1a8954bd6f50acf9b1ab8ba9bf7800059552fed",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx020.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx020.tsp",
+      "git_blob": "26aab271926b8d5352e038396f907419050bbac8",
+      "bytes": 2128,
+      "sha256": "1b20910485820654c422735a8e09eb63b507041ca74c1dc38c08bf36acd97689",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx021.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx021.tsp",
+      "git_blob": "51e77215bdfd2a1205ec8c871c5c614c39126ceb",
+      "bytes": 68398,
+      "sha256": "78a72df5dcd086786c0e43dfeb87c59bb2c5ff4672d440f5feb3d876b0861667",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx022.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx022.tsp",
+      "git_blob": "9db57ea117f88106991966c298a29a474477bf93",
+      "bytes": 4212,
+      "sha256": "3935bf123cef7b96d20fc31a4080507e1ba89392c887d3eb89573f8d616e787e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx023.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx023.tsp",
+      "git_blob": "d9ca21821b80359d4ef81e8abc1cacf49e006232",
+      "bytes": 1172,
+      "sha256": "0ed05e448acff7845cb4e5fdbd52eadd4eb5244cf04bbda44b280ec883fe3c4b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx024.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx024.tsp",
+      "git_blob": "0f827cddc45ee2ba704d3d30e9bdd6475f459906",
+      "bytes": 6522,
+      "sha256": "bf410e944b37dfcddaf449ec77c633f5c4fd8e09b66b6eaaac650f6616dee184",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx025.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx025.tsp",
+      "git_blob": "bedb2cda8462e0bb36e30ff9fc4f88b1068d8b92",
+      "bytes": 36834,
+      "sha256": "99e48af3afbdf0dcc51a1559bede887b1e396ac9541a6dcc323ad04cdfc61672",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx026.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx026.tsp",
+      "git_blob": "4a1a0fbcd3f58ee69d2611aa82ee7320a609e3f8",
+      "bytes": 170553,
+      "sha256": "5f5032f80f7c414e6ea7f0169346d0e300dd498ec956c3a64ab33e29b00ccacf",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx027.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx027.tsp",
+      "git_blob": "2aad886552e57e99abdb4d0a37c3473dc10ca31d",
+      "bytes": 570854,
+      "sha256": "7461c978285fe4224e2d8863699876a37a2909fa9511167e37ca5abe1aa419e3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx028.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx028.tsp",
+      "git_blob": "862f1385ed360f50ef970df43fe69bd52dad6ebe",
+      "bytes": 3435,
+      "sha256": "150f24f5b40e23df1a6510c53fd1ec65c91030ca02afba8d8f8a088b28ad3ab0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx029.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx029.tsp",
+      "git_blob": "d67cfd751bde963fe59e3ab0ffd29855a58f8b42",
+      "bytes": 4469,
+      "sha256": "47ed26790d1bd59b35746ee5d682d089fbd43c0cb9411331b16793940c5cb702",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx030.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx030.tsp",
+      "git_blob": "2cdec25258a56bf164c8afc20a224132c95ca00d",
+      "bytes": 66271,
+      "sha256": "0918a213df3607af5b38e55031deef247c1d992eace6e835f4f55df9c615431d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx031.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx031.tsp",
+      "git_blob": "0fadd90ce82b3e644fce662fb1b116144ef6e36b",
+      "bytes": 401,
+      "sha256": "d9b909a4ade1686a076be308355961b72dd678315f47ac7ad90a3312577fa03d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx032.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx032.tsp",
+      "git_blob": "57c3389c5d0881c062499f88139b9d9519c3097c",
+      "bytes": 491,
+      "sha256": "075269710c85376e5e9f52c7ed063a128d267fc12c94057245f74cf1caab80a7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx033.tsp",
+      "source_path": "tasks/solver/online/tsp-tsplib/tests/instances/tx033.tsp",
+      "git_blob": "7d68ee5c645c3ccce508f861b447a2d338018557",
+      "bytes": 369595,
+      "sha256": "92c30bb16a16ebafc0fc1767ec91d8a8ef10bb756595b08bf129ff28adab5283",
+      "mode": "0644"
+    }
+  ]
+}

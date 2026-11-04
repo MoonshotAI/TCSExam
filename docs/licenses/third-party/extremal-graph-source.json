@@ -1,0 +1,26 @@
+{
+  "source_commit": "f6c80b4aa75236b0d4e6ff4f11f197621080f180",
+  "archive_url": "https://raw.githubusercontent.com/AGT-Kulak/searchMaxSizeMinGirth/f6c80b4aa75236b0d4e6ff4f11f197621080f180/resultGraphs/iter2UpXtra_150.zip",
+  "graph_path": "n124.g6",
+  "graph_index": 0,
+  "archive_bytes": 12009947,
+  "archive_sha256": "925936ace275c20fb7afa7ab353b12dc1f95cc42f1eff6e159b2d0582fc5ffc8",
+  "archive_member": "iter2UpXtra_150/n124.g6",
+  "first_graph_sha256": "b84a1564f99f805b5b5782ebb669f87b93d298b24b389213b20ab3104785d47c",
+  "vertices": 124,
+  "edges": 629,
+  "exact_edge_list_match": true,
+  "license": "GPL-3.0",
+  "license_scope": "Repository default GPL-3.0: README expressly includes code and data, including resultGraphs; complete fixed tree has only the root LICENSE and no nested license exception. Use the original GPL terms for the result graph and its translated encoding.",
+  "historical_adoption_commit": "Not established",
+  "checked": "2026-10-15",
+  "license_scope_evidence": {
+    "readme_url": "https://github.com/AGT-Kulak/searchMaxSizeMinGirth/blob/f6c80b4aa75236b0d4e6ff4f11f197621080f180/README.md",
+    "license_url": "https://github.com/AGT-Kulak/searchMaxSizeMinGirth/blob/f6c80b4aa75236b0d4e6ff4f11f197621080f180/LICENSE",
+    "tree_complete": true,
+    "nested_license_or_exception_found": false
+  },
+  "historical_adoption_commit_note": "Unknown development-adoption commit is a provenance limitation. The verified public snapshot can be the stated release source for this identical graph; no assumption of retroactive permission is needed.",
+  "distribution_conditions": "Retain attribution and GPL-3.0. Provide original graph6 data, the Lean encoding and conversion description as editable source; mark the format conversion. A combined file incorporating covered material must meet GPL-3.0; project-original Apache-2.0 notices remain. Independent project files are not automatically relicensed.",
+  "copyright_scope_note": "This follows the upstream repository grant; no claim is made that a mathematical graph itself always has copyright protection."
+}

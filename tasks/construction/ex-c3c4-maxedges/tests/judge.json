@@ -1,0 +1,33 @@
+{
+ "namespace": "ExC3C4",
+ "main_theorem": "submission_lower",
+ "score_mode": "solver_cubic",
+ "compile_timeout_sec": 1200,
+ "min_n": 1,
+ "max_n": 7626,
+ "allowed_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "claims": [
+  {
+   "name": "submission_lower",
+   "direction": "lower",
+   "header_pattern": ":\\s*∃\\s*g\\s*:\\s*Gph\\s*124\\s*,\\s*WellFormed\\s+124\\s+g\\s*=\\s*true\\s*∧\\s*C3C4Free\\s+124\\s+g\\s*=\\s*true\\s*∧\\s*edgeCount\\s+124\\s+g\\s*≥\\s*(\\d+)"
+  }
+ ],
+ "scoring": {
+  "modes": [
+   "solver_cubic"
+  ],
+  "lower": {
+   "vacuous_below": 1,
+   "baseline_n": 483,
+   "record_n": 629,
+   "record_broken_from": 630
+  }
+ }
+}

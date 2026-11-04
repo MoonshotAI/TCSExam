@@ -1,0 +1,384 @@
+{
+  "format": "official_archive",
+  "description": "Exact frozen ROADEF2018 batch, defects and global parameter input files selected from fixed official ZIP archives, plus the unchanged115-byte shared public task parameter file retained as a project asset. No solution, certificate, score or checker archive is opened.",
+  "sources": [
+    {
+      "id": "roadef2018-dataset_A",
+      "url": "https://www.roadef.org/challenge/2018/files/dataset_A.zip",
+      "format": "zip",
+      "bytes": 65371,
+      "sha256": "f9e2f3c9c89fe41cde377225cbfe47fedd60b203d7c51f33e6b920e8b9caec67"
+    },
+    {
+      "id": "roadef2018-dataset_B",
+      "url": "https://www.roadef.org/challenge/2018/files/dataset_B.zip",
+      "format": "zip",
+      "bytes": 72730,
+      "sha256": "617ace487e5dccbb5bcd97d56e24529ff12e3e0ea9ebbf7d383afdc7b8632ff0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances/A10_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A10_batch.csv"
+    },
+    {
+      "path": "app/instances/A10_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A10_defects.csv"
+    },
+    {
+      "path": "app/instances/A11_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A11_batch.csv"
+    },
+    {
+      "path": "app/instances/A11_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A11_defects.csv"
+    },
+    {
+      "path": "app/instances/A12_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A12_batch.csv"
+    },
+    {
+      "path": "app/instances/A12_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A12_defects.csv"
+    },
+    {
+      "path": "app/instances/A13_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A13_batch.csv"
+    },
+    {
+      "path": "app/instances/A13_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A13_defects.csv"
+    },
+    {
+      "path": "app/instances/A14_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A14_batch.csv"
+    },
+    {
+      "path": "app/instances/A14_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A14_defects.csv"
+    },
+    {
+      "path": "app/instances/A15_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A15_batch.csv"
+    },
+    {
+      "path": "app/instances/A15_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A15_defects.csv"
+    },
+    {
+      "path": "app/instances/A16_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A16_batch.csv"
+    },
+    {
+      "path": "app/instances/A16_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A16_defects.csv"
+    },
+    {
+      "path": "app/instances/A17_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A17_batch.csv"
+    },
+    {
+      "path": "app/instances/A17_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A17_defects.csv"
+    },
+    {
+      "path": "app/instances/A18_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A18_batch.csv"
+    },
+    {
+      "path": "app/instances/A18_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A18_defects.csv"
+    },
+    {
+      "path": "app/instances/A19_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A19_batch.csv"
+    },
+    {
+      "path": "app/instances/A19_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A19_defects.csv"
+    },
+    {
+      "path": "app/instances/A1_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A1_batch.csv"
+    },
+    {
+      "path": "app/instances/A1_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A1_defects.csv"
+    },
+    {
+      "path": "app/instances/A20_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A20_batch.csv"
+    },
+    {
+      "path": "app/instances/A20_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A20_defects.csv"
+    },
+    {
+      "path": "app/instances/A2_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A2_batch.csv"
+    },
+    {
+      "path": "app/instances/A2_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A2_defects.csv"
+    },
+    {
+      "path": "app/instances/A3_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A3_batch.csv"
+    },
+    {
+      "path": "app/instances/A3_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A3_defects.csv"
+    },
+    {
+      "path": "app/instances/A4_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A4_batch.csv"
+    },
+    {
+      "path": "app/instances/A4_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A4_defects.csv"
+    },
+    {
+      "path": "app/instances/A5_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A5_batch.csv"
+    },
+    {
+      "path": "app/instances/A5_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A5_defects.csv"
+    },
+    {
+      "path": "app/instances/A6_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A6_batch.csv"
+    },
+    {
+      "path": "app/instances/A6_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A6_defects.csv"
+    },
+    {
+      "path": "app/instances/A7_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A7_batch.csv"
+    },
+    {
+      "path": "app/instances/A7_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A7_defects.csv"
+    },
+    {
+      "path": "app/instances/A8_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A8_batch.csv"
+    },
+    {
+      "path": "app/instances/A8_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A8_defects.csv"
+    },
+    {
+      "path": "app/instances/A9_batch.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A9_batch.csv"
+    },
+    {
+      "path": "app/instances/A9_defects.csv",
+      "source_id": "roadef2018-dataset_A",
+      "source_member": "dataset_A/A9_defects.csv"
+    },
+    {
+      "path": "app/instances/B10_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B10_batch.csv"
+    },
+    {
+      "path": "app/instances/B10_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B10_defects.csv"
+    },
+    {
+      "path": "app/instances/B11_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B11_batch.csv"
+    },
+    {
+      "path": "app/instances/B11_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B11_defects.csv"
+    },
+    {
+      "path": "app/instances/B12_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B12_batch.csv"
+    },
+    {
+      "path": "app/instances/B12_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B12_defects.csv"
+    },
+    {
+      "path": "app/instances/B13_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B13_batch.csv"
+    },
+    {
+      "path": "app/instances/B13_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B13_defects.csv"
+    },
+    {
+      "path": "app/instances/B14_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B14_batch.csv"
+    },
+    {
+      "path": "app/instances/B14_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B14_defects.csv"
+    },
+    {
+      "path": "app/instances/B15_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B15_batch.csv"
+    },
+    {
+      "path": "app/instances/B15_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B15_defects.csv"
+    },
+    {
+      "path": "app/instances/B1_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B1_batch.csv"
+    },
+    {
+      "path": "app/instances/B1_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B1_defects.csv"
+    },
+    {
+      "path": "app/instances/B2_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B2_batch.csv"
+    },
+    {
+      "path": "app/instances/B2_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B2_defects.csv"
+    },
+    {
+      "path": "app/instances/B3_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B3_batch.csv"
+    },
+    {
+      "path": "app/instances/B3_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B3_defects.csv"
+    },
+    {
+      "path": "app/instances/B4_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B4_batch.csv"
+    },
+    {
+      "path": "app/instances/B4_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B4_defects.csv"
+    },
+    {
+      "path": "app/instances/B5_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B5_batch.csv"
+    },
+    {
+      "path": "app/instances/B5_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B5_defects.csv"
+    },
+    {
+      "path": "app/instances/B6_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B6_batch.csv"
+    },
+    {
+      "path": "app/instances/B6_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B6_defects.csv"
+    },
+    {
+      "path": "app/instances/B7_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B7_batch.csv"
+    },
+    {
+      "path": "app/instances/B7_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B7_defects.csv"
+    },
+    {
+      "path": "app/instances/B8_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B8_batch.csv"
+    },
+    {
+      "path": "app/instances/B8_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B8_defects.csv"
+    },
+    {
+      "path": "app/instances/B9_batch.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B9_batch.csv"
+    },
+    {
+      "path": "app/instances/B9_defects.csv",
+      "source_id": "roadef2018-dataset_B",
+      "source_member": "dataset_B/B9_defects.csv"
+    },
+    {
+      "path": "app/instances/global_param.csv",
+      "operation": "project_file",
+      "source_path": "assets/data/solver/glasscut-roadef2018/global_param.csv"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_archive_data.py",
+    "assets/data/solver/glasscut-roadef2018/global_param.csv"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Original official benchmark data terms remain unresolved; local reconstruction grants no upload approval."
+}

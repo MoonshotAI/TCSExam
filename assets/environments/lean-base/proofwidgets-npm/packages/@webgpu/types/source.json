@@ -1,0 +1,43 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BSD-3-Clause",
+  "lock_entry": {
+    "integrity": "sha512-RPmm6kgRbI8e98zSD3RVACvnuktIja5+yLgDAkTmxLr90BEwdTXRQWNLF3ETTTyH/8mKhznZuN5AveXYFEsMGQ==",
+    "license": "BSD-3-Clause",
+    "resolved": "https://registry.npmjs.org/@webgpu/types/-/types-0.1.69.tgz",
+    "version": "0.1.69"
+  },
+  "lock_path": "node_modules/@webgpu/types",
+  "name": "@webgpu/types",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1500,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "ad88400fc55c2871ba2ed33930dc13001ef01907c2ddcbfa3caa8656e9142f05",
+      "text_file": "image-notices/ad88400fc55c2871ba2ed33930dc13001ef01907c2ddcbfa3caa8656e9142f05.txt"
+    }
+  ],
+  "package_license": "BSD-3-Clause",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 28716,
+    "installed_in_image": false,
+    "integrity": "sha512-RPmm6kgRbI8e98zSD3RVACvnuktIja5+yLgDAkTmxLr90BEwdTXRQWNLF3ETTTyH/8mKhznZuN5AveXYFEsMGQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@webgpu/types/-/types-0.1.69.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "75cd353e673e49af2408248668c6e1004f4188559cce66ef2e36cc865a8923ef"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.1.69"
+}

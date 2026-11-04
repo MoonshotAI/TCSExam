@@ -1,0 +1,35 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "bluss",
+    "R. Janis Goldschmidt"
+  ],
+  "bytes": 49247,
+  "checksum_sha256": "add85d4dd35074e6fedc608f8c8f513a3548619a9024b751949ef0e8e45a4d84",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "MIT/Apache-2.0",
+  "name": "matrixmultiply",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 10847,
+      "installed_file": "notices/original/LICENSE-APACHE",
+      "path": "matrixmultiply-0.3.2/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+    },
+    {
+      "bytes": 1159,
+      "installed_file": "notices/original/LICENSE-MIT",
+      "path": "matrixmultiply-0.3.2/LICENSE-MIT",
+      "sha256": "b8504ded431f96a42903a56d2e997619a5105d5d238c473e2dcc151374010f97",
+      "text_file": "image-notices/b8504ded431f96a42903a56d2e997619a5105d5d238c473e2dcc151374010f97.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/matrixmultiply/matrixmultiply-0.3.2.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "0.3.2"
+}

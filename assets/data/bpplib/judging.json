@@ -1,0 +1,11 @@
+{
+  "source_recipe": "assets/data/bpplib/development.json",
+  "reconstruction": "docs/licenses/third-party/bpplib-reconstruction.json",
+  "transform": "tasks/solver/online/bpp-bpplib/tests/transform.py",
+  "generator_paths": [
+    "src/tcsexam/bpplib.py",
+    "tasks/solver/online/bpp-bpplib/tests/transform.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false
+}

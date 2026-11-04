@@ -1,0 +1,8 @@
+name = "task"
+
+[[require]]
+name = "mathlib"
+path = "/opt/lean-lib/mathlib4"
+
+[[lean_lib]]
+name = "Task"

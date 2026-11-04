@@ -1,0 +1,27 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "Peter Atashian <retep998@gmail.com>"
+  ],
+  "bytes": 2947998,
+  "checksum_sha256": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "MIT/Apache-2.0",
+  "name": "winapi-x86_64-pc-windows-gnu",
+  "notice_basis": "Exact released Cargo.toml explicitly identifies the license and authors; a same-project current source notice supplements an archive that omitted a standalone license text. The retrieved text is not represented as an originally shipped historical file.",
+  "original_notice_files": [],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/winapi-x86_64-pc-windows-gnu/winapi-x86_64-pc-windows-gnu-0.4.0.crate",
+  "supplementary_project_notice": {
+    "bytes": 1073,
+    "installed_file": "notices/supplementary/ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b.txt",
+    "name": "winapi-MIT",
+    "sha256": "ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b",
+    "status": 200,
+    "text_file": "image-notices/ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b.txt",
+    "url": "https://raw.githubusercontent.com/retep998/winapi-rs/0.3/LICENSE-MIT"
+  },
+  "target_note": "Windows-only dependency in Cargo.lock; it is not treated as copied wasm32 program code.",
+  "version": "0.4.0"
+}

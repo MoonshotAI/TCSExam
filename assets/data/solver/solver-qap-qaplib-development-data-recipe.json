@@ -1,0 +1,838 @@
+{
+  "format": "official_files",
+  "sources": [
+    {
+      "id": "qaplib-bur26b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/bur26b.dat",
+      "sha256": "ce22dbeb3d2dc84062dc67baac875c73a7bf99b7488f71e4656cac3cbfd60cd3",
+      "bytes": 4842
+    },
+    {
+      "id": "qaplib-bur26d.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/bur26d.dat",
+      "sha256": "dd4a5caa91d503d85e11796690326c392132796900e1574f49bb8fe628ba3bb8",
+      "bytes": 5414
+    },
+    {
+      "id": "qaplib-bur26e.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/bur26e.dat",
+      "sha256": "7ad46f4fac5cae24eaacac2870baba1fe12fbb080ebf8d5ba2769882d178b0e0",
+      "bytes": 4817
+    },
+    {
+      "id": "qaplib-bur26f.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/bur26f.dat",
+      "sha256": "8f9593f19812537a1ceaf9d741ecc932f2634b1904d60b78fee86bc75fa73d9c",
+      "bytes": 4817
+    },
+    {
+      "id": "qaplib-bur26h.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/bur26h.dat",
+      "sha256": "59f25c5116f66c034c0bc96d8f27a6f60367830a94ca05887672cf924302b1f6",
+      "bytes": 4998
+    },
+    {
+      "id": "qaplib-chr12a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/chr12a.dat",
+      "sha256": "fcfa6ecd04a8d54590677755d0a463f020a3bda1137f3bd62020a19bcedcbfb1",
+      "bytes": 1710
+    },
+    {
+      "id": "qaplib-chr15a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/chr15a.dat",
+      "sha256": "76f11323c1a90b601f6cba1d0bc669bf282f0c1352a3c9ec485d5de2ed844078",
+      "bytes": 1357
+    },
+    {
+      "id": "qaplib-chr15b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/chr15b.dat",
+      "sha256": "51af271b4bd3dfbcc2d6805d1f07e044290900c09eb1431ef6f7c674e2e4c761",
+      "bytes": 1357
+    },
+    {
+      "id": "qaplib-chr18a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/chr18a.dat",
+      "sha256": "dbe39078792488c9d1e09e44c3653be818dfee42d8aada23f74c010acb19d583",
+      "bytes": 1950
+    },
+    {
+      "id": "qaplib-chr20b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/chr20b.dat",
+      "sha256": "5982959046627fd558ee825f0920f70609f07841e4ea4d67c6236f4e870c3505",
+      "bytes": 2005
+    },
+    {
+      "id": "qaplib-chr20c.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/chr20c.dat",
+      "sha256": "70172ff3f29498a5508d8494b3bf63f47ef39c7df3930539a5420a5c9d8bffbd",
+      "bytes": 2406
+    },
+    {
+      "id": "qaplib-chr22a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/chr22a.dat",
+      "sha256": "cc60a1117a2bf6776d0c807da1ecea178d4b706d98152527e821f3566b505fb4",
+      "bytes": 2910
+    },
+    {
+      "id": "qaplib-chr25a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/chr25a.dat",
+      "sha256": "e840425ca03bd14822e63d4c2b8055fad0ddb1b6ef504095fc0abcb87a472bc8",
+      "bytes": 3756
+    },
+    {
+      "id": "qaplib-els19.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/els19.dat",
+      "sha256": "649de7f196439afdd098bd5c2c2aa175e8046e59059ee9a84f8637e2dff8d4d3",
+      "bytes": 3616
+    },
+    {
+      "id": "qaplib-esc128.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc128.dat",
+      "sha256": "0c95fd15b8ce0e2aa6a9c0d4693eb3da037a3b5295c429ef68f0130130a8cf10",
+      "bytes": 65797
+    },
+    {
+      "id": "qaplib-esc16a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc16a.dat",
+      "sha256": "43d87cba944821dd094f4e49ad0b465077406df9dfe2ffcfc3528d573f43dfc9",
+      "bytes": 1028
+    },
+    {
+      "id": "qaplib-esc16c.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc16c.dat",
+      "sha256": "bfc4d0433462430397e22a6fb54a031d6c4237ab864c6b6e605c6a906ea8c587",
+      "bytes": 1030
+    },
+    {
+      "id": "qaplib-esc16d.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc16d.dat",
+      "sha256": "c773c5327b8da35cf3de40c9f6ab1befa9becbb70cbe153778141f12b154d55d",
+      "bytes": 1030
+    },
+    {
+      "id": "qaplib-esc16f.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc16f.dat",
+      "sha256": "57435637d52cccbef3287b0ef4fd720b37ce61abac91a6ef39c07306a7c02122",
+      "bytes": 1060
+    },
+    {
+      "id": "qaplib-esc16g.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc16g.dat",
+      "sha256": "3c9fa3cfd4556460eea72bbb9172542fb7b5b04994fe1bffcccf49b34a7aa136",
+      "bytes": 1030
+    },
+    {
+      "id": "qaplib-esc16j.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc16j.dat",
+      "sha256": "231127dcfdd681905eb2013b44a9dc1d966e5be4c65b7ccdf782023fe5c1c163",
+      "bytes": 1059
+    },
+    {
+      "id": "qaplib-esc32a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc32a.dat",
+      "sha256": "52185fb0f9cb61e4fdd1b6722f23a3f9a79fd91a905596696c63b254568e48d4",
+      "bytes": 4102
+    },
+    {
+      "id": "qaplib-esc32c.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc32c.dat",
+      "sha256": "6c1bc2241c85dac403eefc2854bf1ac2f0743ad2aeb75dcd6b6ef0fb3cc3662d",
+      "bytes": 4101
+    },
+    {
+      "id": "qaplib-esc32g.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc32g.dat",
+      "sha256": "6454a5d29bb2b6cce2bdd044d7ea1050e8704764bcc82f360694c4580ca55436",
+      "bytes": 4164
+    },
+    {
+      "id": "qaplib-esc32h.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc32h.dat",
+      "sha256": "758d932836e817b3b6972c4bd4b3e99729558424bb22a1c4188d4186eb1f0d65",
+      "bytes": 4164
+    },
+    {
+      "id": "qaplib-had14.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/had14.dat",
+      "sha256": "4d369dbfdd598a7d45f504267772f8d05540dddcb1207e5f764318a36fbe292b",
+      "bytes": 1230
+    },
+    {
+      "id": "qaplib-had18.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/had18.dat",
+      "sha256": "1e4e743ec5a8583d1578dc170ecce125daedd9c0c6e9960df019f770cfd84ff3",
+      "bytes": 1988
+    },
+    {
+      "id": "qaplib-had20.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/had20.dat",
+      "sha256": "7fcf5045bd3918f543bc7a6c91108b44096dd3e3f09101854a29f8107a02c42b",
+      "bytes": 2448
+    },
+    {
+      "id": "qaplib-kra30a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/kra30a.dat",
+      "sha256": "edc54d8bfc77d054dcb88ca45d5d5ce0c4301bb1fdbf12d127dfabfc01009c6e",
+      "bytes": 9187
+    },
+    {
+      "id": "qaplib-lipa20a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa20a.dat",
+      "sha256": "3e0346b250c7060b82f9d8f57604defffb8fc913f725ab4f6525e65b00cd5433",
+      "bytes": 1912
+    },
+    {
+      "id": "qaplib-lipa30a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa30a.dat",
+      "sha256": "c04d6028774a2fe24d911901db2cf0be18fa7ef06087b85dd00eecc4f83776a2",
+      "bytes": 4504
+    },
+    {
+      "id": "qaplib-lipa30b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa30b.dat",
+      "sha256": "dc6ba6f02c6f4e0918352ed3365cf0cf0f6c5142a37fee5afe21b2097f7d9622",
+      "bytes": 5077
+    },
+    {
+      "id": "qaplib-lipa40b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa40b.dat",
+      "sha256": "da4b86feee53bc815f7b04cf84706ec469f664b08b4530c96fe2328f32eed9ff",
+      "bytes": 9295
+    },
+    {
+      "id": "qaplib-lipa50a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa50a.dat",
+      "sha256": "c4691880bd5a8910a50eb521d631a5c90b58935432af0abc8bdf5a4d20fdeff4",
+      "bytes": 12817
+    },
+    {
+      "id": "qaplib-lipa50b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa50b.dat",
+      "sha256": "d05f42c264866a078c9443fdaaeb8219dd5ab1e2d61d05865a03fafb8fc25125",
+      "bytes": 14761
+    },
+    {
+      "id": "qaplib-lipa80a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa80a.dat",
+      "sha256": "63e1b3a9663b282174b9cdb01d1bc28685d734d60950c6038c25535de314fe6e",
+      "bytes": 33045
+    },
+    {
+      "id": "qaplib-lipa80b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa80b.dat",
+      "sha256": "dbcff9d4e95aa34c01d44cd883f2c203a83d5fbcb68d6c3b1223453e1c89cff1",
+      "bytes": 38524
+    },
+    {
+      "id": "qaplib-lipa90b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa90b.dat",
+      "sha256": "05c8ba34f8d7eb7aed447633821f9d79a94164709409df24c67d3a308869f8ba",
+      "bytes": 48969
+    },
+    {
+      "id": "qaplib-nug12.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug12.dat",
+      "sha256": "15ad1047d3d39e2820466349dc75ce8cc560443e125c4f67ff06223d735f47b6",
+      "bytes": 713
+    },
+    {
+      "id": "qaplib-nug15.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug15.dat",
+      "sha256": "3b38058a5e721e059739ab5a3f66c81792d575a41a93673ecb88b108f976c149",
+      "bytes": 1130
+    },
+    {
+      "id": "qaplib-nug16a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug16a.dat",
+      "sha256": "3c7d75160f74e589229a82b4d08f24a62c1e6ceba947810fc32cce48811de8f7",
+      "bytes": 1543
+    },
+    {
+      "id": "qaplib-nug17.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug17.dat",
+      "sha256": "d5cbe356fe81388225e0af527077dd69d37ad79a46121bb58cb7669087fbd59a",
+      "bytes": 1741
+    },
+    {
+      "id": "qaplib-nug18.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug18.dat",
+      "sha256": "607e4a0575b4e2c12549f343c2ed38e5ebcaa4daffa7ffe309d3c2a247902382",
+      "bytes": 1951
+    },
+    {
+      "id": "qaplib-nug21.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug21.dat",
+      "sha256": "f3842d64ce29c99603b7a80227ba218a57f8787d6ca2e9f92bade94f9dc0f202",
+      "bytes": 2212
+    },
+    {
+      "id": "qaplib-nug25.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug25.dat",
+      "sha256": "c8c62f0ec01dd5c0eb8ddfdd3c8a353086e5a9b245d11ea902628f0a210d2015",
+      "bytes": 3133
+    },
+    {
+      "id": "qaplib-nug30.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug30.dat",
+      "sha256": "7c8e1001b1fb13e93417193707f4975c968bd2ff2d27451b8c4fccbd76645c09",
+      "bytes": 4505
+    },
+    {
+      "id": "qaplib-rou20.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/rou20.dat",
+      "sha256": "7a2c7acf9ee38b256fa75ef027d4906bca3334fdddd5b64c09b572a014479833",
+      "bytes": 2406
+    },
+    {
+      "id": "qaplib-scr20.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/scr20.dat",
+      "sha256": "2511fcaae6de80b2d7aaeb29c5469e13a46201d754bdc807e8a61b8b723daf33",
+      "bytes": 2808
+    },
+    {
+      "id": "qaplib-sko100c.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/sko100c.dat",
+      "sha256": "1b4050f8c75d43f3552df3a6ae1fd78116048b558fbdf5a8ab5abbe692887424",
+      "bytes": 61007
+    },
+    {
+      "id": "qaplib-sko100f.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/sko100f.dat",
+      "sha256": "8eecea5e5c6045af008021dcfdfce206833d1b0b7fab937206f76513f9d57ec5",
+      "bytes": 61007
+    },
+    {
+      "id": "qaplib-sko42.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/sko42.dat",
+      "sha256": "fd3887537642630295bb6d0c24755dcdc39848202ad3065f394645beafba49d0",
+      "bytes": 10842
+    },
+    {
+      "id": "qaplib-sko56.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/sko56.dat",
+      "sha256": "581b41269fd70985f2dabfbf543070014b40548a356a676658a5f76f194e4cc2",
+      "bytes": 19159
+    },
+    {
+      "id": "qaplib-sko64.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/sko64.dat",
+      "sha256": "fc1a95a121c50da5e221a19b4694cfc4bad33631615626ab2bf404cbc31905e4",
+      "bytes": 25095
+    },
+    {
+      "id": "qaplib-sko81.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/sko81.dat",
+      "sha256": "40aae61081c6076a6a5f6ace32f9d2ef0770777746d66de2a7b791b01e0524c8",
+      "bytes": 40183
+    },
+    {
+      "id": "qaplib-sko90.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/sko90.dat",
+      "sha256": "4fb7cf51a0f351bf78f26de308d86f974f1be47469d532ea92c8f7279f108cd9",
+      "bytes": 49507
+    },
+    {
+      "id": "qaplib-ste36c.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/ste36c.dat",
+      "sha256": "9071556e17b7461d5bae15d829a2605a2969b440ea6c28d2575f3debd328a2ff",
+      "bytes": 13254
+    },
+    {
+      "id": "qaplib-tai100a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai100a.dat",
+      "sha256": "de053a8df4044c71d3d3da8b86a6e3bf32b1ac3053ab1970e6d81098a26a0895",
+      "bytes": 60209
+    },
+    {
+      "id": "qaplib-tai100b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai100b.dat",
+      "sha256": "eb79163d5fac8230042584ad94b28d0b266a4aeeae8a5e5667a9a7954304a4f5",
+      "bytes": 120107
+    },
+    {
+      "id": "qaplib-tai10a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai10a.dat",
+      "sha256": "3d52a255d8db7a8decca1460717c97c58a5eb1648d7d511014831c9f27b2f561",
+      "bytes": 626
+    },
+    {
+      "id": "qaplib-tai12a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai12a.dat",
+      "sha256": "3a9fa8069e82f9fd7806c37175e9c568a66ffcf9798935bf1f7336df81938318",
+      "bytes": 895
+    },
+    {
+      "id": "qaplib-tai12b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai12b.dat",
+      "sha256": "b1a9cccd03c6ca1a6e6481f9887a8c3478993745367addeb5719050931c71f02",
+      "bytes": 1745
+    },
+    {
+      "id": "qaplib-tai15a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai15a.dat",
+      "sha256": "374f8225097d01ab29bd933dfa41a2c1b8d753bcc5deb05cd3179faf97b9fb65",
+      "bytes": 1386
+    },
+    {
+      "id": "qaplib-tai17a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai17a.dat",
+      "sha256": "8a1a0ea94d3a8c4d23ec64cacf48613aee1b1448ea1a2f37ca7fc5b9f4c4358d",
+      "bytes": 1775
+    },
+    {
+      "id": "qaplib-tai20a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai20a.dat",
+      "sha256": "39eeebc193ffa134e7be20ca32d4ffacadcadda7f75268ef0dee142d27a1fb74",
+      "bytes": 2446
+    },
+    {
+      "id": "qaplib-tai256c.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai256c.dat",
+      "sha256": "e7d72083d49f4768e5a15a02ee33fde038a794e7407e5e485c3c110f1509fafd",
+      "bytes": 655886
+    },
+    {
+      "id": "qaplib-tai25a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai25a.dat",
+      "sha256": "90cf743e9027fccb9dccd28c38988d9e148e7cec709fb41525a4732ea15b67ad",
+      "bytes": 3805
+    },
+    {
+      "id": "qaplib-tai30a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai30a.dat",
+      "sha256": "45cf69409dfbba614c4908203d47b543ce9880d6874c2d04f4b3f0740123439c",
+      "bytes": 5466
+    },
+    {
+      "id": "qaplib-tai35a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai35a.dat",
+      "sha256": "78ac8afe13129e9074a1431e5358ad670d5daacfa944222b7d2f420f94679316",
+      "bytes": 7428
+    },
+    {
+      "id": "qaplib-tai35b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai35b.dat",
+      "sha256": "7082b75870365c9e313b095f13ff9d6f6b851e6063934fb4b2dcf302d4febeaf",
+      "bytes": 14740
+    },
+    {
+      "id": "qaplib-tai50a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai50a.dat",
+      "sha256": "3ff7b0cc5cbc28d0cafbc37fea4ac61d490db81bb20453757fad557ec468bf9c",
+      "bytes": 15105
+    },
+    {
+      "id": "qaplib-tai50b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai50b.dat",
+      "sha256": "4977aa11a530a0699bf0a91eb3ca1962687782fd317accdf63b054fcaf7df288",
+      "bytes": 30055
+    },
+    {
+      "id": "qaplib-tai60b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai60b.dat",
+      "sha256": "a417c51bd1b0c602120048abf256101541f73dd31820f2983de0eedb49b4fb3a",
+      "bytes": 43266
+    },
+    {
+      "id": "qaplib-tai80b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai80b.dat",
+      "sha256": "cea03ad8f4fd1755922d86f084c3a3d6bf10bc3525f40ce34d584b8705f5cd0a",
+      "bytes": 76884
+    },
+    {
+      "id": "qaplib-tho30.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tho30.dat",
+      "sha256": "270072ddc0b14bcdd1aaa31e71ba46542b28acb2b03e7cd6ed15e19e702b32c2",
+      "bytes": 7267
+    },
+    {
+      "id": "qaplib-wil50.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/wil50.dat",
+      "sha256": "ad67fae8ff5e78aadded6004e101baa252f4eeac5a786a56e353f71b07bcb2f7",
+      "bytes": 20108
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances/bur26b.dat",
+      "source_id": "qaplib-bur26b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/bur26d.dat",
+      "source_id": "qaplib-bur26d.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/bur26e.dat",
+      "source_id": "qaplib-bur26e.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/bur26f.dat",
+      "source_id": "qaplib-bur26f.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/bur26h.dat",
+      "source_id": "qaplib-bur26h.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/chr12a.dat",
+      "source_id": "qaplib-chr12a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/chr15a.dat",
+      "source_id": "qaplib-chr15a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/chr15b.dat",
+      "source_id": "qaplib-chr15b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/chr18a.dat",
+      "source_id": "qaplib-chr18a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/chr20b.dat",
+      "source_id": "qaplib-chr20b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/chr20c.dat",
+      "source_id": "qaplib-chr20c.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/chr22a.dat",
+      "source_id": "qaplib-chr22a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/chr25a.dat",
+      "source_id": "qaplib-chr25a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/els19.dat",
+      "source_id": "qaplib-els19.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/esc128.dat",
+      "source_id": "qaplib-esc128.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/esc16a.dat",
+      "source_id": "qaplib-esc16a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/esc16c.dat",
+      "source_id": "qaplib-esc16c.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/esc16d.dat",
+      "source_id": "qaplib-esc16d.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/esc16f.dat",
+      "source_id": "qaplib-esc16f.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/esc16g.dat",
+      "source_id": "qaplib-esc16g.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/esc16j.dat",
+      "source_id": "qaplib-esc16j.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/esc32a.dat",
+      "source_id": "qaplib-esc32a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/esc32c.dat",
+      "source_id": "qaplib-esc32c.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/esc32g.dat",
+      "source_id": "qaplib-esc32g.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/esc32h.dat",
+      "source_id": "qaplib-esc32h.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/had14.dat",
+      "source_id": "qaplib-had14.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/had18.dat",
+      "source_id": "qaplib-had18.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/had20.dat",
+      "source_id": "qaplib-had20.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/kra30a.dat",
+      "source_id": "qaplib-kra30a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/lipa20a.dat",
+      "source_id": "qaplib-lipa20a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/lipa30a.dat",
+      "source_id": "qaplib-lipa30a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/lipa30b.dat",
+      "source_id": "qaplib-lipa30b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/lipa40b.dat",
+      "source_id": "qaplib-lipa40b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/lipa50a.dat",
+      "source_id": "qaplib-lipa50a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/lipa50b.dat",
+      "source_id": "qaplib-lipa50b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/lipa80a.dat",
+      "source_id": "qaplib-lipa80a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/lipa80b.dat",
+      "source_id": "qaplib-lipa80b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/lipa90b.dat",
+      "source_id": "qaplib-lipa90b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/nug12.dat",
+      "source_id": "qaplib-nug12.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/nug15.dat",
+      "source_id": "qaplib-nug15.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/nug16a.dat",
+      "source_id": "qaplib-nug16a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/nug17.dat",
+      "source_id": "qaplib-nug17.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/nug18.dat",
+      "source_id": "qaplib-nug18.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/nug21.dat",
+      "source_id": "qaplib-nug21.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/nug25.dat",
+      "source_id": "qaplib-nug25.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/nug30.dat",
+      "source_id": "qaplib-nug30.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/rou20.dat",
+      "source_id": "qaplib-rou20.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/scr20.dat",
+      "source_id": "qaplib-scr20.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/sko100c.dat",
+      "source_id": "qaplib-sko100c.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/sko100f.dat",
+      "source_id": "qaplib-sko100f.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/sko42.dat",
+      "source_id": "qaplib-sko42.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/sko56.dat",
+      "source_id": "qaplib-sko56.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/sko64.dat",
+      "source_id": "qaplib-sko64.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/sko81.dat",
+      "source_id": "qaplib-sko81.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/sko90.dat",
+      "source_id": "qaplib-sko90.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/ste36c.dat",
+      "source_id": "qaplib-ste36c.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai100a.dat",
+      "source_id": "qaplib-tai100a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai100b.dat",
+      "source_id": "qaplib-tai100b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai10a.dat",
+      "source_id": "qaplib-tai10a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai12a.dat",
+      "source_id": "qaplib-tai12a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai12b.dat",
+      "source_id": "qaplib-tai12b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai15a.dat",
+      "source_id": "qaplib-tai15a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai17a.dat",
+      "source_id": "qaplib-tai17a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai20a.dat",
+      "source_id": "qaplib-tai20a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai256c.dat",
+      "source_id": "qaplib-tai256c.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai25a.dat",
+      "source_id": "qaplib-tai25a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai30a.dat",
+      "source_id": "qaplib-tai30a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai35a.dat",
+      "source_id": "qaplib-tai35a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai35b.dat",
+      "source_id": "qaplib-tai35b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai50a.dat",
+      "source_id": "qaplib-tai50a.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai50b.dat",
+      "source_id": "qaplib-tai50b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai60b.dat",
+      "source_id": "qaplib-tai60b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tai80b.dat",
+      "source_id": "qaplib-tai80b.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/tho30.dat",
+      "source_id": "qaplib-tho30.dat",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/wil50.dat",
+      "source_id": "qaplib-wil50.dat",
+      "operation": "copy"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "description": "Download the exact official QAPLIB input files and verify their fixed SHA-256. Hidden instances replay the historical facility and location relabeling; preserve original seed strings and names."
+}

@@ -1,0 +1,10 @@
+{
+  "task": "tcsexam/open-online-bin-packing-ratio",
+  "namespace": "OnlineBinPacking",
+  "main_slots": [
+    "conj",
+    "refuted"
+  ],
+  "weight_note": "prove-or-refute v1 (mains-only): a clean proof of `conj` (the conjecture) or of `refuted` (its negation) scores 1.0; there is no partial credit — this is an open problem. Both slots are mandatory and must stay in the reference order (conj, refuted). Slot statements define R* as the infimum over online algorithms of the asymptotic competitive ratio (additive constant allowed), with instances as lists of real item sizes in (0,1]; the definition layer (instances, offline optimum, online algorithms as prefix-consistent feasible assignments, Next Fit and First Fit as concrete instances) lives in the OnlineBinPacking namespace (see environment/app/Task/Basic.lean header and tests/reference/concept-ledger.md).",
+  "checkpoints": []
+}

@@ -1,0 +1,49 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260827",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/sygus-comp/PROVENANCE.md: K is the set solved by cvc5 1.3.4 with its default configuration at 600s per instance (past SyGuS-Comp editions published only track-level counts, not per-benchmark public values).",
+   "tier": "self-measured"
+  }
+ },
+ "family": "program-synthesis",
+ "id": "sygus-comp",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-sygus-comp-judge-v14"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "SYGUS_INSTANCE_SECONDS",
+  "n_hidden": 60,
+  "n_public": 100,
+  "per_instance_seconds": 3600,
+  "shard_cores": 4,
+  "shard_mem_gb": 32,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "max",
+  "kind": "decision"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "SyGuS-Comp",
+  "hidden_set": "holdout-split",
+  "memorization_risk": "medium",
+  "transform": null
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "solve_rate shape; the 60 hidden instances are a selected subset of the public benchmark set (convert.py uses the same pipeline on both sides and only renames them ex*, with no content transformation; recorded as holdout-split, see discrepancies). B is measured in the same environment with the shipped wrapper (cvc5 hard-limited to 60s)."
+ },
+ "subdomain": "logic",
+ "title": "SyGuS program synthesis"
+}

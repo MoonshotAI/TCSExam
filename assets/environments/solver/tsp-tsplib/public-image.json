@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "task": "tasks/solver/online/tsp-tsplib",
+  "remove_paths": ["/tests"],
+  "allow_content_paths": [
+    "/tests-public",
+    "/public-instances",
+    "/public_reference.json",
+    "/judge",
+    "/opt/tsp/scoring.py",
+    "/opt/tsp/src",
+    "/usr/local/bin/tsp_check"
+  ],
+  "required_paths": [
+    "/judge/entry.sh",
+    "/judge/judge_worker.py",
+    "/tests-public/checker.py",
+    "/tests-public/reference.json",
+    "/tests-public/instances",
+    "/public-instances",
+    "/public_reference.json",
+    "/opt/tsp/scoring.py",
+    "/opt/tsp/src",
+    "/usr/local/bin/tsp_check"
+  ]
+}

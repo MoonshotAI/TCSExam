@@ -1,0 +1,484 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/ex001.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex001.sl",
+      "git_blob": "4bb613da9eb322c796be47fc139b371f23570574",
+      "bytes": 6055,
+      "sha256": "ef5373ee448aab80559580c197cb8217e8cc2d2e3b3f6d6ee2e23fe8f1c8e63d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex002.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex002.sl",
+      "git_blob": "6d8ece29d71032649883474f6fb8679e790f22c0",
+      "bytes": 545,
+      "sha256": "9ed26a1bc50ebf04d26510c78ae9eb46fe21dc7eefdd893d180126d1c799783a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex003.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex003.sl",
+      "git_blob": "108eef5bca71395493cd50579d678b3fa65bb7f2",
+      "bytes": 1007,
+      "sha256": "ba666b0cc4643ad4a6e87409456f7c924721c7abd8f4c23b92471db7f3c29898",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex004.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex004.sl",
+      "git_blob": "71505ed5f3edeecd3497739b715d33f33422f3b9",
+      "bytes": 1566,
+      "sha256": "9ff71fb7f544f500130aea546d72d36e9230a8afba18db9f9a5fe7024bc9d51d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex005.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex005.sl",
+      "git_blob": "62b521bdf2bfcf6ec9a633e59374dcccced21b0d",
+      "bytes": 537,
+      "sha256": "61192c124019b5791af51e410f657fbaae7ee7c1487b2bc210ac0335a3e1e6af",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex006.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex006.sl",
+      "git_blob": "b2ce071f9daf53008a6c4ea8b1f7b916950809f8",
+      "bytes": 1259,
+      "sha256": "4d301b2088bf5d0c3c9e35317a86079d1165a3a3d4ac6a853ded2f28b5cee7cc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex007.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex007.sl",
+      "git_blob": "9db71c9fa2a1d0f8c2b40d39fe4be9f35eb33367",
+      "bytes": 790,
+      "sha256": "edc2156f78cbb95978a944cb5f18210dda118a079e5a4f9bbd11b972f88e963d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex008.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex008.sl",
+      "git_blob": "838a75f7b1201e4bee7830d7090e4071381be888",
+      "bytes": 188,
+      "sha256": "08452ccb52aaab62b8432a0e2998c5fb59d204ba5fb9a20ac79d4fadd44f5fb7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex009.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex009.sl",
+      "git_blob": "78d69234ccd4c9235a9dde935f334617cdcc0ad9",
+      "bytes": 1240,
+      "sha256": "d37a70bff929bbc2b5a1a98bffbb3565386a77ab0d56ea323d5523a2f611937b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex010.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex010.sl",
+      "git_blob": "9a411878571e810b9bbefed6c8c1a4ac2842b250",
+      "bytes": 2847,
+      "sha256": "4bf9bfad07d2266cfa6566fa2c12ebc09cda7dfd02446caf6cf79879b57ca1d1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex011.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex011.sl",
+      "git_blob": "4f2bd39fd761963e97f8f59935a601ed14abf600",
+      "bytes": 960,
+      "sha256": "a55b245793a9d9641ee2f4f885a82c3f0de610d72dd467c817744f6e88ec6e41",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex012.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex012.sl",
+      "git_blob": "9883d6d3657c7882b16e94d00606352c9f3de094",
+      "bytes": 608,
+      "sha256": "8920a5761a8069916028b48055fce395a46688caefff6898b1fbc7ccdfa4ea67",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex013.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex013.sl",
+      "git_blob": "aa0e940be57d7cb63522458ab46e3b4917073320",
+      "bytes": 834,
+      "sha256": "64d590e09a68789eae166366de8b36ec79cc7c6c48659fc83653a6407a90aca2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex014.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex014.sl",
+      "git_blob": "fcfc843dfe6139e022d3b719939c953af83ffb0b",
+      "bytes": 1634,
+      "sha256": "c3c3fdf6b7244605380433768f4c56cc889bec3db18b27ed65b0fbc4d331791d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex015.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex015.sl",
+      "git_blob": "9f91169fabd49af7d60d271a20f8764f90e7fabb",
+      "bytes": 1487,
+      "sha256": "95c4c355cb529aa78fd211b865a27143b12e18a63575f0fdec71771c30470143",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex016.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex016.sl",
+      "git_blob": "c4d7fceadc4453401f2a9d7eb0e195625a4863c7",
+      "bytes": 569,
+      "sha256": "147ef4352c112942d93ea037542bbf3b0dd71dfcde5af28fe8d21a0f4ebde7a8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex017.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex017.sl",
+      "git_blob": "a0e6688f35737faa0e6bcffbe784e4dc099840cf",
+      "bytes": 1949,
+      "sha256": "3f8144f092942fb29bae98e656f2fb3eb92a69a23be990078782b06a8d153ed6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex018.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex018.sl",
+      "git_blob": "74ec0c76e580837b3e1e89bef4c9a3d3f2d86866",
+      "bytes": 1951,
+      "sha256": "704b9a33ba78259f1be5fd208977d994c1d04d6bc400628dfecdd8b09ae948dc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex019.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex019.sl",
+      "git_blob": "91a42ebfbd7dc02fcc75a97acc01d59ce4f55abe",
+      "bytes": 366,
+      "sha256": "7e49d3d5e7d2ed776ed6f7fc90601b9c6a3e632186fef8ce457eab4ec4d122f9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex020.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex020.sl",
+      "git_blob": "3daeea60788e99155430b9fd36814be459476f47",
+      "bytes": 1532,
+      "sha256": "90a26edf97d62a066572e18b07d1536668650e58047bb30d1036dfbea72c26f0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex021.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex021.sl",
+      "git_blob": "e2388efd2513d23dfd7de9b934a12e6d434dbadb",
+      "bytes": 1172,
+      "sha256": "aec06468913556e01db5342525e70f298398dcabdf1598a844da0f54b1493088",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex022.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex022.sl",
+      "git_blob": "02203329938a48d866c3906f12ce05fa93e66a86",
+      "bytes": 1394,
+      "sha256": "6b58c05e0f7760ffaa132ef598eaecc80110f1078a1d951b4ef429f0008410b9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex023.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex023.sl",
+      "git_blob": "88cca56070329b456a729342efbe14371a858576",
+      "bytes": 366,
+      "sha256": "a9c7d749200483a189ada5a52a6cd65ac30ce0cbdb925fe938ad03ae9fb9e5a9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex024.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex024.sl",
+      "git_blob": "9669a384552d32652914f3a4e923129971d51625",
+      "bytes": 10654,
+      "sha256": "b5723972f9a63833bf5a08433eee685d7cdcaad9960bc31d2f82cbcea5e0ff8a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex025.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex025.sl",
+      "git_blob": "c0f263696d1ff98685db9b111ead4b41a6d32cbd",
+      "bytes": 2032,
+      "sha256": "496fbe1dd61a88f1428b25051512b96c232ebde000d52822b1f10a49f4b4a43a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex026.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex026.sl",
+      "git_blob": "2f30b418ba9438ddaa2b079b3369f705c5d006ea",
+      "bytes": 3901,
+      "sha256": "b8e7d0ebbd1bd1fe6142cba1f97abe17f5776c3f814354057b46d389941e26e7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex027.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex027.sl",
+      "git_blob": "8225bca703b1c152439336928977d12fce21548f",
+      "bytes": 3732,
+      "sha256": "998e505431cb4b9ff2236c65d80603352b820327a32b321a405844f66844dec7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex028.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex028.sl",
+      "git_blob": "5595daba37e60ac86dff5d26534dc37d16c59dbb",
+      "bytes": 4532,
+      "sha256": "8b131dc5f3db1bb6435db5ca011bee62555a5c1882ad16ea9d5ca3d2ed20b991",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex029.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex029.sl",
+      "git_blob": "a5df2b0b77272a41f869bde802b989022a0f0592",
+      "bytes": 4029,
+      "sha256": "34e15a9d3c034451ffd6c24eaaaec06b2d97879f2b2660e32193ab67f7217c99",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex030.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex030.sl",
+      "git_blob": "eb72cc2f6c9af70bcbe7827db32efc6863f3c384",
+      "bytes": 2865,
+      "sha256": "955f15c0df25e30e0de6c402a9080571f435373b5b5ac5a5fea1a3a4bea1c214",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex031.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex031.sl",
+      "git_blob": "a2c0487bb6cc53e165c01e0c83ce85648622cfe4",
+      "bytes": 2868,
+      "sha256": "545344f072878fc43d22043cec016ba4dd6487a0c4c4902b011fcd0640871c40",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex032.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex032.sl",
+      "git_blob": "343120beb37c845f905a0e0accc551415dbdca04",
+      "bytes": 2887,
+      "sha256": "60799ba81ae5356a5562696f4c32cfaff1af96429bcb89043744800f23f1871d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex033.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex033.sl",
+      "git_blob": "e31932ee8a67786504655243096734c3e2bbb6ed",
+      "bytes": 3065,
+      "sha256": "c797591d6889c2cd4d60409d18a9de98645b968e2870c0b346356a59946ebb0d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex034.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex034.sl",
+      "git_blob": "ac399e4c9f17decf6255039ad781cf4b8ae52abe",
+      "bytes": 2105,
+      "sha256": "53cb16c7d98ea19691ece2f84db60e8d056394151478f1c3f16958584a865d0c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex035.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex035.sl",
+      "git_blob": "c0dc23ee5355586a73dcf483ebee4a054e98692d",
+      "bytes": 6685,
+      "sha256": "58f0f8323dc4c30e3de8c2fa8d397b7bb270cedde19fb451fe93f00771b66776",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex036.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex036.sl",
+      "git_blob": "cb25f90c2e7eff3998b3e3c660c15db19f0d4dd6",
+      "bytes": 6685,
+      "sha256": "4407e5e745f0253d828e9e2460e8f5d3f4cca4e8b4ad92170d1f4dec9ef4c07b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex037.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex037.sl",
+      "git_blob": "753fac61ccab66566bd6b32357bb3d454178861d",
+      "bytes": 59785,
+      "sha256": "c8b318480d8cde6b331bce172e255fa116f1b2b587973db1631a05b6989a5695",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex038.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex038.sl",
+      "git_blob": "fdeed57682f1e323bf50b97f7432939e17fc3007",
+      "bytes": 6685,
+      "sha256": "d4385037ce6af35964ab2724462405b8b2e823efd1aff7e44d28ce3d16ddaaed",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex039.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex039.sl",
+      "git_blob": "ac4a1fab6a1006df86752102711fea84a639a88a",
+      "bytes": 6685,
+      "sha256": "e3c6bbb6f48308821a9220c5dd679cde8870afd86aea5b62ff575dae3f0c2598",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex040.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex040.sl",
+      "git_blob": "21269940206af3a7b0f2e4cecf395455a1f6ae9b",
+      "bytes": 59785,
+      "sha256": "863f5fa84194ea34781411ab9fd7c559d04bd483bcf32098dd415b437afce718",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex041.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex041.sl",
+      "git_blob": "4d7eaf085a4ef37eb9237d72e53f7e6bbd10410a",
+      "bytes": 1375,
+      "sha256": "76b6ec729ef418f1c1fd62446ba8f8c5c30a81d84714ef3673024f3b49d1814a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex042.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex042.sl",
+      "git_blob": "1c8a3ee869b7eccd65812c275ba3c09a6799b134",
+      "bytes": 59785,
+      "sha256": "07a12c44a4d186d22a7c3db994618695ecdef7c4762e824fa880441268f3c8f6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex043.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex043.sl",
+      "git_blob": "4a7d6b16be621386589be9c5383e001620379a23",
+      "bytes": 59785,
+      "sha256": "8a37808016f7a10698a1c640cb1ee5c21579076edc80ee6740168779e3a32ea4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex044.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex044.sl",
+      "git_blob": "bdfc20b50af7a5b908b54c5f7021d52527c722dc",
+      "bytes": 1375,
+      "sha256": "57375c91ccb62bf4887b1e043604f8e86e36959d4d6d6763e09b76617fceb137",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex045.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex045.sl",
+      "git_blob": "608d487f9f3f397ba3525c20dc997e62efabc39b",
+      "bytes": 3263,
+      "sha256": "85e844329e8eca6b0fe1538206e6543b85787398efff92954dc5f714f4ad2d21",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex046.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex046.sl",
+      "git_blob": "95c238f6076b27a281490ed044827cedcd79f1f1",
+      "bytes": 2142,
+      "sha256": "b276f37b3a43123c7bcc43500e5da136fa4f5c526d8efa519743a37ae8b3bc8b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex047.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex047.sl",
+      "git_blob": "8d8a7d010f996baf960dff254f927aea04f7ff7f",
+      "bytes": 4974,
+      "sha256": "52be8279a6f14035a3341ab7aa311d464078db311dc230e6d8d51a4aa828d1cb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex048.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex048.sl",
+      "git_blob": "65f78ce483e63382da342b36257d6f99225d8027",
+      "bytes": 2201,
+      "sha256": "8c17a6709c4feaace2cffdae9bcaf1e817d39fc6e5b326bf0726a3299ee03cda",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex049.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex049.sl",
+      "git_blob": "b062c64ae15019d0ee759de9592f463973387857",
+      "bytes": 872,
+      "sha256": "b9501ebf03315272b95b8d31b774670ade69cd064a4a532b1fd1f8c4be9920e3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex050.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex050.sl",
+      "git_blob": "32f3efe812afdb87e2c234f219037fddbd4336ee",
+      "bytes": 943,
+      "sha256": "c1744fe77f0b7a39fc6d393dcf79c641167df55361bc1d978904186bf5c085ae",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex051.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex051.sl",
+      "git_blob": "edfb85f9e0afe3d91bb7f9a3526dc775a41427eb",
+      "bytes": 777,
+      "sha256": "3a6535793c8b6b8788bc88619d0a374818faac4adbb58b0fd054b96290c71efd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex052.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex052.sl",
+      "git_blob": "2992f114e015e857fd31903c3122092db4b0562c",
+      "bytes": 776,
+      "sha256": "ed84b04b0e048dd10565921b67522ea92abdaa3ead3a236f24832e38fdee71dd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex053.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex053.sl",
+      "git_blob": "a4ddd0c50d0fb88a66f23b94a0e18eed8012447e",
+      "bytes": 926,
+      "sha256": "1c903c8c43c8b1be54a23383c28dc97742c88cf2a4f4f786f59ceacb1281f882",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex054.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex054.sl",
+      "git_blob": "d3f10b528177e69102e8f3393cd091d5119dac44",
+      "bytes": 872,
+      "sha256": "c104cbc5fccf0a5e3ae2534c5e5864d526ead76cf397ec71b7bf99314708a06b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex055.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex055.sl",
+      "git_blob": "9d5cd8d829a57c530ace56a290fd2320b3c6222f",
+      "bytes": 795,
+      "sha256": "f4677f3e9466b2c866d5146156360035ed87321c9362b543c27eb7778dc7369a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex056.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex056.sl",
+      "git_blob": "1d0aa60e885c8668ac8bf136f5ec3741914d7c11",
+      "bytes": 774,
+      "sha256": "8d34f8d1826bb436b9a70080ca78f71a336ae2c2acf326c87755e4cc550b0fd0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex057.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex057.sl",
+      "git_blob": "355e4a079d923e788db53cc2ae36a6f86774d262",
+      "bytes": 950,
+      "sha256": "61027abceb4a8491bda44408297bbb3ccfbd36d0cae76c921cc53542a4ca8adf",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex058.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex058.sl",
+      "git_blob": "7799e76c530c6c698f1233685b54e592ef244cbc",
+      "bytes": 2363,
+      "sha256": "66eccdda9036fc0c578a79367e588a073446ca3e8feeef50f7c076dfc9686594",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex059.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex059.sl",
+      "git_blob": "907bc768a46d8c77ae37a6f7f122befca710ecc9",
+      "bytes": 1484,
+      "sha256": "c12e87ec94c5fb630be034f5e5935a69740916ad0bb34e6561b714edc51f1978",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex060.sl",
+      "source_path": "tasks/solver/online/sygus-comp/tests/instances/ex060.sl",
+      "git_blob": "127efad3e05f10cae07fb722303236e6f0f47c3b",
+      "bytes": 1335,
+      "sha256": "ceff175f7502b903f0123dfb497e67cccf597869651c782028d695102d6d7cd0",
+      "mode": "0644"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "author": "Piotr Witek <piotrek.witek@gmail.com> (http://piotrwitek.github.io)",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": ">= 4"
+    },
+    "integrity": "sha512-6Z7Ma2aVEWisaL6TvBCy7P8rm2LQoPv6dJ7ecIaIixHcwfbJ0x7mWdbcwlIM5IGQxPZSFYeqRCqlOOeKoJYMkw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/utility-types/-/utility-types-3.11.0.tgz",
+    "version": "3.11.0"
+  },
+  "lock_path": "node_modules/utility-types",
+  "name": "utility-types",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1124,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "eba0c3a8b90636744cc57e1a90f2d87767a57cccc86578a8168130f96896c9a9",
+      "text_file": "image-notices/eba0c3a8b90636744cc57e1a90f2d87767a57cccc86578a8168130f96896c9a9.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 14934,
+    "installed_in_image": false,
+    "integrity": "sha512-6Z7Ma2aVEWisaL6TvBCy7P8rm2LQoPv6dJ7ecIaIixHcwfbJ0x7mWdbcwlIM5IGQxPZSFYeqRCqlOOeKoJYMkw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/utility-types/-/utility-types-3.11.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "d8a4ab48578f90e6d787e7a64b13c4374a337b4bb61d487b15db8f968e9475f1"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.11.0"
+}

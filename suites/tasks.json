@@ -1,0 +1,1822 @@
+{
+  "schema_version": 2,
+  "tasks": [
+    {
+      "id": "binary-code-a22-10",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/binary-code-a22-10",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "binary-code-a24-10",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/binary-code-a24-10",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "cage-girth",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/cage-girth",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "capset-d7",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/capset-d7",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "circles-in-square-n100",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/circles-in-square-n100",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "covering-code-k10",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/covering-code-k10",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "ex-c3c4-maxedges",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/ex-c3c4-maxedges",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "graph-tsp-gap",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/graph-tsp-gap",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "kissing-d13",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/kissing-d13",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "kissing-d9",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/kissing-d9",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "mols-n10",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/mols-n10",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "quantum-code-25-7",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/quantum-code-25-7",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "ramsey-r3-10",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/ramsey-r3-10",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "ramsey-r46",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/ramsey-r46",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "ramsey-r55",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/ramsey-r55",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "rectilinear-tsp-gap",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/rectilinear-tsp-gap",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "sorting-network-size",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/sorting-network-size",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "spherical-code-d3-n50",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/spherical-code-d3-n50",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "tsp-gap",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/tsp-gap",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "vdw-w27",
+      "track": "construction",
+      "variants": {
+        "default": {
+          "path": "tasks/construction/vdw-w27",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "aaronson-ambainis",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/aaronson-ambainis",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Representative native Harbor empty run: completed judging, zero reward, preserved /app; no paid model or live online backend request"
+          }
+        }
+      }
+    },
+    {
+      "id": "alon-jaeger-tarsi",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/alon-jaeger-tarsi",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "bin-packing-mirup",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/bin-packing-mirup",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "caccetta-haggkvist",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/caccetta-haggkvist",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "d-vs-r-total-functions",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/d-vs-r-total-functions",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "evasiveness-graph-properties",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/evasiveness-graph-properties",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "explicit-ramsey-graph-log",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/explicit-ramsey-graph-log",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "explicit-rigid-matrix",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/explicit-rigid-matrix",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "fourier-entropy-influence",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/fourier-entropy-influence",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "frege-not-pbounded",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/frege-not-pbounded",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "frege-vs-extended-frege",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/frege-vs-extended-frege",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "krw-composition-conjecture",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/krw-composition-conjecture",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "log-rank-conjecture",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/log-rank-conjecture",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "lovasz-hamiltonicity",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/lovasz-hamiltonicity",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "mansour-conjecture",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/mansour-conjecture",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "mds-conjecture-nonprime",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/mds-conjecture-nonprime",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "nexp-vs-tc0",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/nexp-vs-tc0",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "np-vs-acc",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/np-vs-acc",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "omega-2",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/omega-2",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "online-bin-packing-ratio",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/online-bin-packing-ratio",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "online-matching-random-order",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/online-matching-random-order",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "permanent-vs-determinant",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/permanent-vs-determinant",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "pfr-integers",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/pfr-integers",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "planar-l1-gnrs",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/planar-l1-gnrs",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "polar-scaling-exponent",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/polar-scaling-exponent",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "prg-constant-width-robp",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/prg-constant-width-robp",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "ryser-conjecture",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/ryser-conjecture",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "total-coloring-conjecture",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/total-coloring-conjecture",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "tuza-conjecture",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/tuza-conjecture",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "xor-log-rank-conjecture",
+      "track": "open",
+      "variants": {
+        "default": {
+          "path": "tasks/open/xor-log-rank-conjecture",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "ahc058-atcoder",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/ahc058-atcoder",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/ahc058-atcoder",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "bpp-bpplib",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/bpp-bpplib",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/bpp-bpplib",
+          "protocol": "solver-public-development-final-once-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "ce-pace2021",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/ce-pace2021",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/ce-pace2021",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "celar-rlfap",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/celar-rlfap",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/celar-rlfap",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "christmas-tree-ahc041",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/christmas-tree-ahc041",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/christmas-tree-ahc041",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "coloring-dimacs",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/coloring-dimacs",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/coloring-dimacs",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "curriculum-itc2007",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/curriculum-itc2007",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/curriculum-itc2007",
+          "protocol": "solver-public-development-final-once-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "cvrp-cvrplib",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/cvrp-cvrplib",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/cvrp-cvrplib",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "dfvs-pace2022",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/dfvs-pace2022",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/dfvs-pace2022",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "ds-pace2025",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/ds-pace2025",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/ds-pace2025",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "glasscut-roadef2018",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/glasscut-roadef2018",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/glasscut-roadef2018",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "gp-dimacs10",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/gp-dimacs10",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/gp-dimacs10",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "hs-pace2025",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/hs-pace2025",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/hs-pace2025",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "itc2021-sports-timetabling",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/itc2021-sports-timetabling",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/itc2021-sports-timetabling",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "jsplib-jssp",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/jsplib-jssp",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/jsplib-jssp",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "logic-syn-iwls2023",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/logic-syn-iwls2023",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/logic-syn-iwls2023",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "maxclique-dimacs",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/maxclique-dimacs",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/maxclique-dimacs",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "maxcut-mqlib",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/maxcut-mqlib",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/maxcut-mqlib",
+          "protocol": "solver-public-development-final-once-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "maxsat-mse",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/maxsat-mse",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/maxsat-mse",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "mr-roadef2012",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/mr-roadef2012",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/mr-roadef2012",
+          "protocol": "solver-public-development-final-once-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "nurse-inrc",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/nurse-inrc",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/nurse-inrc",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "oscm-pace2024",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/oscm-pace2024",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/oscm-pace2024",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "qap-qaplib",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/qap-qaplib",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/qap-qaplib",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "qbf-qbfeval",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/qbf-qbfeval",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/qbf-qbfeval",
+          "protocol": "solver-public-development-final-once-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "radiation-mznchallenge",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/radiation-mznchallenge",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/radiation-mznchallenge",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "scp-orlib",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/scp-orlib",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/scp-orlib",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "sygus-comp",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/sygus-comp",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/sygus-comp",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "tsp-tsplib",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/tsp-tsplib",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/tsp-tsplib",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "tw-heuristic",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/tw-heuristic",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/tw-heuristic",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "vc-pace2019",
+      "track": "solver",
+      "variants": {
+        "online": {
+          "path": "tasks/solver/online/vc-pace2019",
+          "protocol": "solver-development-feedback-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "user_backend_required"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        },
+        "offline": {
+          "path": "tasks/solver/offline/vc-pace2019",
+          "protocol": "local-docker-final-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "corners-quasipoly",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/corners-quasipoly",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "dijkstra-universal",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/dijkstra-universal",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Representative native Harbor empty run: completed judging, zero reward, preserved /app; no paid model or live online backend request"
+          }
+        }
+      }
+    },
+    {
+      "id": "discrepancy-beyond-banaszczyk",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/discrepancy-beyond-banaszczyk",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "discrete-bidding-games",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/discrete-bidding-games",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "folded-rs-gsb",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/folded-rs-gsb",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "gg26-proximity",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/gg26-proximity",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "lcc-exp-lb",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/lcc-exp-lb",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "monotonicity-test-lb",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/monotonicity-test-lb",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "mts-diamond-lb",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/mts-diamond-lb",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "multiflow-gap-planar",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/multiflow-gap-planar",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "negations-small-depth",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/negations-small-depth",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "pcp-alphabet-soundness",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/pcp-alphabet-soundness",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "planar-is-reconfig-kernel",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/planar-is-reconfig-kernel",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "posbody-chasing",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/posbody-chasing",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "qma-qcma-oracle",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/qma-qcma-oracle",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/quantum-crypto-algorithmica",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only.",
+          "previous_runtime_acceptance": {
+            "readiness": "ready",
+            "readiness_scope": "Native Harbor model-free empty-submission run with completed judging, zero reward and app preservation; arbitrary correct submissions and paid model runs are outside this scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "strategy-improvement-lb",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/strategy-improvement-lb",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "three-taxi",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/three-taxi",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "unitary-synthesis-lb",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/unitary-synthesis-lb",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    },
+    {
+      "id": "xor3-parallel-repetition",
+      "track": "theorem",
+      "variants": {
+        "default": {
+          "path": "tasks/theorem/xor3-parallel-repetition",
+          "protocol": "lean-kernel-v1",
+          "readiness": "local_build_runtime_acceptance_pending",
+          "previous_runtime_acceptance": {
+            "readiness": "full_task_runtime_acceptance_pending"
+          },
+          "readiness_scope": "Current public-source build recipes and independent verification require version-specific build and runtime acceptance; previous acceptance applies to its recorded image version only."
+        }
+      }
+    }
+  ]
+}

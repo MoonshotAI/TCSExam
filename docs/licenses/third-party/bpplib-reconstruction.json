@@ -1,0 +1,825 @@
+{
+  "checked": "2026-10-13",
+  "commit": "fc3aa784a3b14282fc591d710f056abc1b1451c3",
+  "license": "CC-BY-NC-ND-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.en",
+  "reproduction_tool": "tcsexam resources --resource bpplib-judging --cache CACHE_DIR (src/tcsexam/bpplib.py::prepare_judging)",
+  "byte_identical_original_files": 6345,
+  "byte_identical_original_packings": 63,
+  "byte_identical_transformed_instances_and_packings": 39,
+  "full_report_sha256": "a96a6dee6f63db74bfe6e3454397bffae2125d49a9bd9c18968a88fe9163a59c",
+  "negative_checks": [
+    {
+      "case": "changed_weight",
+      "rejected": true,
+      "reason": "BPP/CSP weights differ"
+    },
+    {
+      "case": "missing_last_pattern",
+      "rejected": true,
+      "reason": "Packing does not cover all items"
+    }
+  ],
+  "archives": [
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/1_Falkenauer.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/1_Falkenauer.rar",
+      "bytes": 43346,
+      "sha256": "e09f6ed02addc00f21db98229c17e1bdc0e42d201a3a799598594057a5a85316"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/2_Scholl.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/2_Scholl.rar",
+      "bytes": 270434,
+      "sha256": "b1b0dd2c4f641256a5a5638fc5a5eb0819ac3f2da9baf1be0cad87176e5d1971"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/3_Wäscher.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/3_W%C3%A4scher.rar",
+      "bytes": 4106,
+      "sha256": "61c703fb5a76fa3f74e4be5baad60a1ace57a11a73833843fba33f9575cfeb88"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/4_Schwerin.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/4_Schwerin.rar",
+      "bytes": 35021,
+      "sha256": "3c7d0a5d291cf842669cbca5d0b5249e6c0ec22476c4e0c9d9dace35571b7d59"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/5_Hard28.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/5_Hard28.rar",
+      "bytes": 10425,
+      "sha256": "cee6c3417a5fd34d69da1142898e70720f32a4b37c2e555e9cc07aae83104fec"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/6_Randomly_Generated.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/6_Randomly_Generated.rar",
+      "bytes": 1152499,
+      "sha256": "cf2c0776567715900e4ab98b6fbaacb082c583bfccd074c6bf53a49553dbc630"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/7_ANI_AI.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/7_ANI_AI.rar",
+      "bytes": 639289,
+      "sha256": "049d4b37b3f67ad9a195879ec2a3f5589270ad84f33a5ed54d3da6e918e76c42"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/8_GI.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/8_GI.rar",
+      "bytes": 289162,
+      "sha256": "36f370f2535825275e55c3792bd514ffa9eb4e0afe4bf4a856929aa78f556415"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/9_SSTriples_BPP.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/9_SSTriples_BPP.rar",
+      "bytes": 139437,
+      "sha256": "1e923a610641fc3e904429067ed21565f80f9a4f34e3886e23ee1103cd2b0aef"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Solutions/Readme.txt",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Solutions/Readme.txt",
+      "bytes": 743,
+      "sha256": "b4cb4b868a6e9dfcf0915ba6dba84baeb474ebd8c03e8ed53a3b29e0bafd5c7a"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Solutions/Results_VPS.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Solutions/Results_VPS.rar",
+      "bytes": 12476716,
+      "sha256": "42ae58f4e4ea8baa83cd57e5902e4828b7bc4281bf93961febd70653e064021d"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/1_Falkenauer_CSP.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/1_Falkenauer_CSP.rar",
+      "bytes": 49494,
+      "sha256": "b48ee87f3222a0a1ff19c3ed1021b61d46d8a4fb95dd9eada6bf435000c9c63b"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/2_Scholl_CSP.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/2_Scholl_CSP.rar",
+      "bytes": 304327,
+      "sha256": "95d8cdf869d3f47a865de15ed9be17e9d1496b48e339a0964d220ba414981ef1"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/3_Wäscher_CSP.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/3_W%C3%A4scher_CSP.rar",
+      "bytes": 4325,
+      "sha256": "ff8f9e00a49be80521bf028203b2e555330f4fd4eef2d05bf4671f3da65f4f42"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/4_Schwerin_CSP.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/4_Schwerin_CSP.rar",
+      "bytes": 40745,
+      "sha256": "6f961b374eea4c727791a795ba0d06f9d27a920a359d8ce748f610c46412cb3e"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/5_Hard28_CSP.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/5_Hard28_CSP.rar",
+      "bytes": 10979,
+      "sha256": "4f2e74ffd7b1d1fc7de3dbf90bb7701d666bb6c1ddb7a081aa609b74bbcc6100"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/6_Randomly_Generated_CSP.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/6_Randomly_Generated_CSP.rar",
+      "bytes": 1343337,
+      "sha256": "b57ff00c57d361cf3e454bc82d9150f1fe59db95f9793cf71b0b95cb173f0cf8"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/7_ANI_AI_CSP.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/7_ANI_AI_CSP.rar",
+      "bytes": 649036,
+      "sha256": "aa2906490ece3b786a62907668d8eba8ef159c731f516a14ae231704eaaf40a2"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/8_GI CSP.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/8_GI%20CSP.rar",
+      "bytes": 338100,
+      "sha256": "912f77840be9e0ec6ca540b0f4dc32a46071ec3d83dfbb3108fec0c40bd27e9f"
+    },
+    {
+      "name": "bpplib-upstream/Instances/Benchmarks/9_SSTriples_CSP.rar",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/9_SSTriples_CSP.rar",
+      "bytes": 137153,
+      "sha256": "fc9d4ec915890ccb741a2dd3e0cdc3df46b8e7af2126027ebc6b7838a53c608e"
+    }
+  ],
+  "original_packings": [
+    {
+      "path": "tests/official-packs/201_2500_DI_38.pack",
+      "sha256": "4ff7e61a1cb1f991babb836a6936996942fed7c7de8e53717848924b81dfd42c",
+      "bins": 65,
+      "csp": "7_ANI_AI_CSP/ANI_AI_CSP/AI/201_2500_DI_38.txt",
+      "log": "Results_VPS/Results_VPS/201_2500_DI_38_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/402_10000_DI_2.pack",
+      "sha256": "b5d4a20c609380a6d94f01bfaf2daea323a064918f072da4b3784bcf2773eb76",
+      "bins": 132,
+      "csp": "7_ANI_AI_CSP/ANI_AI_CSP/AI/402_10000_DI_2.txt",
+      "log": "Results_VPS/Results_VPS/402_10000_DI_2_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/600_20000_DI_31.pack",
+      "sha256": "f93a75cdc33117d68ca0c809d0ce92de77105422e7a7e9a22b3e1a99ee3f232d",
+      "bins": 198,
+      "csp": "7_ANI_AI_CSP/ANI_AI_CSP/AI/600_20000_DI_31.txt",
+      "log": "Results_VPS/Results_VPS/600_20000_DI_31_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/BPP_200_50_0.1_0.7_2.pack",
+      "sha256": "c78d304a80d93a5d56383cc594e4db1aecc1ea28dee349972251766954dae80e",
+      "bins": 78,
+      "csp": "6_Randomly_Generated_CSP/Randomly_Generated_CSP/BPP_200_50_0.1_0.7_2.txt",
+      "log": "Results_VPS/Results_VPS/BPP_200_50_0.1_0.7_2_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/BPP_300_300_0.2_0.7_9.pack",
+      "sha256": "835e011deb008c279cbf7f5792d13ea8551def6f49bfefc5df373c061f5e9021",
+      "bins": 138,
+      "csp": "6_Randomly_Generated_CSP/Randomly_Generated_CSP/BPP_300_300_0.2_0.7_9.txt",
+      "log": "Results_VPS/Results_VPS/BPP_300_300_0.2_0.7_9_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/BPP_500_200_0.1_0.7_4.pack",
+      "sha256": "83ccacd3cfcb16b634d5d8377a72835ab6e5b071b8ea45f87b597fbfeeb76f04",
+      "bins": 202,
+      "csp": "6_Randomly_Generated_CSP/Randomly_Generated_CSP/BPP_500_200_0.1_0.7_4.txt",
+      "log": "Results_VPS/Results_VPS/BPP_500_200_0.1_0.7_4_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/BPP_750_400_0.2_0.7_8.pack",
+      "sha256": "b368bac0ff359ca0495dde9c7801e58b6619a31dda9b1787bfc7d9f86dd65372",
+      "bins": 337,
+      "csp": "6_Randomly_Generated_CSP/Randomly_Generated_CSP/BPP_750_400_0.2_0.7_8.txt",
+      "log": "Results_VPS/Results_VPS/BPP_750_400_0.2_0.7_8_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Falkenauer_t249_14.pack",
+      "sha256": "268db1f1ed752d8bc4b6ba35280b98d6a316636be3dae1d988f550256a1d3b40",
+      "bins": 83,
+      "csp": "1_Falkenauer_CSP/Falkenauer_CSP/Falkenauer_T/Falkenauer_t249_14.txt",
+      "log": "Results_VPS/Results_VPS/Falkenauer_t249_14_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Falkenauer_t501_16.pack",
+      "sha256": "d13dd2be0c3cd4e7671baadeca0b53a68272d17f2727c7b8f93c6f8c8eec522a",
+      "bins": 167,
+      "csp": "1_Falkenauer_CSP/Falkenauer_CSP/Falkenauer_T/Falkenauer_t501_16.txt",
+      "log": "Results_VPS/Results_VPS/Falkenauer_t501_16_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Falkenauer_u120_06.pack",
+      "sha256": "8f88a0a4cc47d078b6566e3d313f18e86a3fdbdda6aab4631af3a0de16781939",
+      "bins": 48,
+      "csp": "1_Falkenauer_CSP/Falkenauer_CSP/Falkenauer_U/Falkenauer_u120_06.txt",
+      "log": "Results_VPS/Results_VPS/Falkenauer_u120_06_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Hard28_BPP195.pack",
+      "sha256": "3b60a85351abf09b46482b252a357b5150790a0dae635cd696b38ed96f67e9e7",
+      "bins": 64,
+      "csp": "5_Hard28_CSP/Hard28_CSP/Hard28_BPP195.txt",
+      "log": "Results_VPS/Results_VPS/Hard28_BPP195_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Hard28_BPP645.pack",
+      "sha256": "1d21798af8867a77c44427867a7966d3fd86d2cfafb20daf81a2d9022587fd9c",
+      "bins": 58,
+      "csp": "5_Hard28_CSP/Hard28_CSP/Hard28_BPP645.txt",
+      "log": "Results_VPS/Results_VPS/Hard28_BPP645_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Hard28_BPP709.pack",
+      "sha256": "61fc0a5d54d51d3fc523ddca14d0a53acdfcfa44566a0e0533056f6a594577c4",
+      "bins": 67,
+      "csp": "5_Hard28_CSP/Hard28_CSP/Hard28_BPP709.txt",
+      "log": "Results_VPS/Results_VPS/Hard28_BPP709_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Hard28_BPP781.pack",
+      "sha256": "482a478f405a9a3b44a53c165d3310d0b82ee54c0d516aee51a77e61a307dcb9",
+      "bins": 71,
+      "csp": "5_Hard28_CSP/Hard28_CSP/Hard28_BPP781.txt",
+      "log": "Results_VPS/Results_VPS/Hard28_BPP781_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/N1C2W2_H.pack",
+      "sha256": "944c66783f0f8ef71e94dda506691f15de1e15611c811b30767e80b1a3df5fe4",
+      "bins": 23,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_1/N1C2W2_H.txt",
+      "log": "Results_VPS/Results_VPS/N1C2W2_H_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/N1W3B1R0.pack",
+      "sha256": "77a0562b810dba105b21c8d33fa08e2a89a6c93f87bb408110816a5aaf2e80cf",
+      "bins": 7,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_2/N1W3B1R0.txt",
+      "log": "Results_VPS/Results_VPS/N1W3B1R0_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/N2C3W4_F.pack",
+      "sha256": "a3f0d75db3bd6f358eed903f2b6ccc9228bbeb377539a96f71e1c4bb6d98a539",
+      "bins": 45,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_1/N2C3W4_F.txt",
+      "log": "Results_VPS/Results_VPS/N2C3W4_F_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/N2W1B1R4.pack",
+      "sha256": "716fd001f3c60ee27045485b772a18c878259fa8dc542a044a36b37396c1df84",
+      "bins": 34,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_2/N2W1B1R4.txt",
+      "log": "Results_VPS/Results_VPS/N2W1B1R4_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/N3C3W2_D.pack",
+      "sha256": "55ef4ffa9245c5aa36c75c45edc2ed2ff2c2406becbba99bbd7234320766b344",
+      "bins": 79,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_1/N3C3W2_D.txt",
+      "log": "Results_VPS/Results_VPS/N3C3W2_D_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/N3W2B1R1.pack",
+      "sha256": "5d1182235d5ca80f2d204f61d3f229caffeb3b5889fc3b6a5cec42c8c43236a4",
+      "bins": 41,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_2/N3W2B1R1.txt",
+      "log": "Results_VPS/Results_VPS/N3W2B1R1_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/N3W3B1R8.pack",
+      "sha256": "78b6bdd19da9a6cbd2331ed6d187c65747485e3e114d0038c8e27c4208aa60c1",
+      "bins": 29,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_2/N3W3B1R8.txt",
+      "log": "Results_VPS/Results_VPS/N3W3B1R8_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/N4C3W2_K.pack",
+      "sha256": "479c41783275a508133d1534d253d37a926b728b6eeafd5c5ad93f97221b3e5a",
+      "bins": 204,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_1/N4C3W2_K.txt",
+      "log": "Results_VPS/Results_VPS/N4C3W2_K_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/N4W4B1R3.pack",
+      "sha256": "b636534662eeb198e0ca81367b53e0f2c86485b15f5c0ba5c58b3acf837893f5",
+      "bins": 56,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_2/N4W4B1R3.txt",
+      "log": "Results_VPS/Results_VPS/N4W4B1R3_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Schwerin1_BPP19.pack",
+      "sha256": "3ef0209d6b3af332e5a69973c0dd71bb95840ec7817b62c2ae6ff98286193f98",
+      "bins": 18,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_1/Schwerin1_BPP19.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin1_BPP19_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Schwerin1_BPP65.pack",
+      "sha256": "b19e4defca9b48c0f8fa97007bcd0c39ec5bffbb53019afcc9d170c544449be1",
+      "bins": 18,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_1/Schwerin1_BPP65.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin1_BPP65_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Schwerin2_BPP10.pack",
+      "sha256": "138f741978483999f0afd39aa0064f4858166954c38171ddc4219407860d73b9",
+      "bins": 21,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_2/Schwerin2_BPP10.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin2_BPP10_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Schwerin2_BPP23.pack",
+      "sha256": "e6527923517bf4436ff04ff0c4ed7f52c00d73110ba059849ce1e901027111ed",
+      "bins": 22,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_2/Schwerin2_BPP23.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin2_BPP23_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Schwerin2_BPP32.pack",
+      "sha256": "ade7d669e8a3f7b85ae6a39006a0549edc9a72383a4366b2c546d437e7188889",
+      "bins": 22,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_2/Schwerin2_BPP32.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin2_BPP32_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Schwerin2_BPP56.pack",
+      "sha256": "2b186f7017e78044cd03a55bab69e4e332f3dbb50cdf23013de7ecd7e7572045",
+      "bins": 21,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_2/Schwerin2_BPP56.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin2_BPP56_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Schwerin2_BPP71.pack",
+      "sha256": "5f0f07439560e420d73b9376974cf2aa45e788b745721a8a738ce560239fcb9c",
+      "bins": 21,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_2/Schwerin2_BPP71.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin2_BPP71_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Schwerin2_BPP8.pack",
+      "sha256": "dbb7a18c6780799dc2f7bec37679301e0c6011629a8ba7fb6c0f2bdce02a5473",
+      "bins": 21,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_2/Schwerin2_BPP8.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin2_BPP8_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Schwerin2_BPP87.pack",
+      "sha256": "9df385f00ddc17c06ec895e73d130ad7b85396be380cb42c80978f3e2e669ea3",
+      "bins": 22,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_2/Schwerin2_BPP87.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin2_BPP87_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/Waescher_TEST0014.pack",
+      "sha256": "d2d39e0e9b3a41a9bc72e64019d167b072a2c01523f164c1880a58fd313745e2",
+      "bins": 23,
+      "csp": "3_Wäscher_CSP/Waescher_CSP/Waescher_TEST0014.txt",
+      "log": "Results_VPS/Results_VPS/Waescher_TEST0014_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/csAA125_14.pack",
+      "sha256": "90d8586c1ff0921bd251fedcdb3efdaf2952f4c448d63af771a07bb7a6b26678",
+      "bins": 600,
+      "csp": "8_GI CSP/Irnich CSP/csAA125_14.txt",
+      "log": "Results_VPS/Results_VPS/csAA125_14_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/csAA500_16.pack",
+      "sha256": "8d845e9977f8a343fa971e482bc269607030f47689e8ed16f31a42cb93d8dfa7",
+      "bins": 2124,
+      "csp": "8_GI CSP/Irnich CSP/csAA500_16.txt",
+      "log": "Results_VPS/Results_VPS/csAA500_16_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/csAA500_5.pack",
+      "sha256": "f7e6ca012e2784ebd075db48bb7b1e167520a29145e1bcde249b70274935306c",
+      "bins": 2099,
+      "csp": "8_GI CSP/Irnich CSP/csAA500_5.txt",
+      "log": "Results_VPS/Results_VPS/csAA500_5_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/csBA125_13.pack",
+      "sha256": "5b8ff79c68bce1d949422efaf4600e5f5f8c6bde7fa0b20d4cc9c3c3d9a3ef08",
+      "bins": 512,
+      "csp": "8_GI CSP/Irnich CSP/csBA125_13.txt",
+      "log": "Results_VPS/Results_VPS/csBA125_13_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/csBA250_14.pack",
+      "sha256": "464ca3316f0e825e6a94269e4a9f75f483cb98cf40e06269dc9693c92b9aef72",
+      "bins": 1004,
+      "csp": "8_GI CSP/Irnich CSP/csBA250_14.txt",
+      "log": "Results_VPS/Results_VPS/csBA250_14_Results_VPS.txt"
+    },
+    {
+      "path": "tests/official-packs/csBA250_16.pack",
+      "sha256": "02c9fbd887592e5237ff52f7ba1a16739f4aa2a8515539d8bd6859c62443db3d",
+      "bins": 1054,
+      "csp": "8_GI CSP/Irnich CSP/csBA250_16.txt",
+      "log": "Results_VPS/Results_VPS/csBA250_16_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/201_2500_DI_20.pack",
+      "sha256": "6322bd67087882043a93aa9bf6e55e78378b82cf542505059f4bfa83fc6088a6",
+      "bins": 65,
+      "csp": "7_ANI_AI_CSP/ANI_AI_CSP/AI/201_2500_DI_20.txt",
+      "log": "Results_VPS/Results_VPS/201_2500_DI_20_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/600_20000_DI_35.pack",
+      "sha256": "6a1e1f3c0e117d9e3240ec84a671403dd92c6853a214c1f71930e88a91b0edc8",
+      "bins": 198,
+      "csp": "7_ANI_AI_CSP/ANI_AI_CSP/AI/600_20000_DI_35.txt",
+      "log": "Results_VPS/Results_VPS/600_20000_DI_35_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/BPP_1000_120_0.1_0.7_3.pack",
+      "sha256": "690413b186266d7c411037e802052b145888bb0b75e7c47fb59811857234935b",
+      "bins": 395,
+      "csp": "6_Randomly_Generated_CSP/Randomly_Generated_CSP/BPP_1000_120_0.1_0.7_3.txt",
+      "log": "Results_VPS/Results_VPS/BPP_1000_120_0.1_0.7_3_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/BPP_200_100_0.2_0.8_2.pack",
+      "sha256": "a89526852a9343ec20635f91d2c59a16a0b379ed042994223073a720d841fac0",
+      "bins": 100,
+      "csp": "6_Randomly_Generated_CSP/Randomly_Generated_CSP/BPP_200_100_0.2_0.8_2.txt",
+      "log": "Results_VPS/Results_VPS/BPP_200_100_0.2_0.8_2_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/BPP_500_200_0.1_0.8_6.pack",
+      "sha256": "f5b0d6ffdb4e5c9ff45f03ea6e39cce68711b59781ac89cf437353c4a397af7e",
+      "bins": 228,
+      "csp": "6_Randomly_Generated_CSP/Randomly_Generated_CSP/BPP_500_200_0.1_0.8_6.txt",
+      "log": "Results_VPS/Results_VPS/BPP_500_200_0.1_0.8_6_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/Falkenauer_t120_06.pack",
+      "sha256": "b71baa82de8a059990648cd9400492ca0957fb89c5f9ea0e6f4bfb0eec0d3493",
+      "bins": 40,
+      "csp": "1_Falkenauer_CSP/Falkenauer_CSP/Falkenauer_T/Falkenauer_t120_06.txt",
+      "log": "Results_VPS/Results_VPS/Falkenauer_t120_06_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/Falkenauer_u120_13.pack",
+      "sha256": "6c10b3a1368d580604ef159f125443bc5de6c002aa937c53b3f84cbe61f26939",
+      "bins": 49,
+      "csp": "1_Falkenauer_CSP/Falkenauer_CSP/Falkenauer_U/Falkenauer_u120_13.txt",
+      "log": "Results_VPS/Results_VPS/Falkenauer_u120_13_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/Falkenauer_u250_19.pack",
+      "sha256": "a16d6cd2cdaa46666c1e84b7ebaea71e21a1c46794454bb36ba509ceff5d16a5",
+      "bins": 102,
+      "csp": "1_Falkenauer_CSP/Falkenauer_CSP/Falkenauer_U/Falkenauer_u250_19.txt",
+      "log": "Results_VPS/Results_VPS/Falkenauer_u250_19_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/Falkenauer_u500_15.pack",
+      "sha256": "c81b9028e2a20a7d93f30fde58018f0984870e2fb0b37f363ab75f7e08e4430b",
+      "bins": 201,
+      "csp": "1_Falkenauer_CSP/Falkenauer_CSP/Falkenauer_U/Falkenauer_u500_15.txt",
+      "log": "Results_VPS/Results_VPS/Falkenauer_u500_15_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/Hard28_BPP119.pack",
+      "sha256": "6cbb3390c45778c5ab23c598fc093ab342f0789f5bc34bb139375b46ded17ede",
+      "bins": 77,
+      "csp": "5_Hard28_CSP/Hard28_CSP/Hard28_BPP119.txt",
+      "log": "Results_VPS/Results_VPS/Hard28_BPP119_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/N1C3W1_N.pack",
+      "sha256": "b89a80d6983cb7ffb6a7b5c296d6159e1c776c87571e5bde204dfee18f4bb953",
+      "bins": 20,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_1/N1C3W1_N.txt",
+      "log": "Results_VPS/Results_VPS/N1C3W1_N_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/N1C3W4_P.pack",
+      "sha256": "bf4c304591e5d8d11df141da5890936ab8b7d65e9eacb0ffac99f95eb3ab96a3",
+      "bins": 25,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_1/N1C3W4_P.txt",
+      "log": "Results_VPS/Results_VPS/N1C3W4_P_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/N2C3W2_C.pack",
+      "sha256": "bee35d52845f91885edc36bd094fe07f97f0ff76a3732ba3ff1aae5878254119",
+      "bins": 41,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_1/N2C3W2_C.txt",
+      "log": "Results_VPS/Results_VPS/N2C3W2_C_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/N2W1B3R3.pack",
+      "sha256": "e894e6b17049fc35149c4420505f74964c77b34ef3a3cb3ce7b85c71df2425f4",
+      "bins": 33,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_2/N2W1B3R3.txt",
+      "log": "Results_VPS/Results_VPS/N2W1B3R3_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/N3C3W4_F.pack",
+      "sha256": "69d7312be0e7d69ad3723c164cdaf6fb31f3ac91d484c09df3488ddf7f38b136",
+      "bins": 84,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_1/N3C3W4_F.txt",
+      "log": "Results_VPS/Results_VPS/N3C3W4_F_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/N4W3B1R4.pack",
+      "sha256": "2880d5b7e9a35ff13f239cf5600b60f46b139d2a86d1c34761b3b826c83a83a7",
+      "bins": 71,
+      "csp": "2_Scholl_CSP/Scholl_CSP/Scholl_2/N4W3B1R4.txt",
+      "log": "Results_VPS/Results_VPS/N4W3B1R4_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/Schwerin2_BPP3.pack",
+      "sha256": "b7975f6052170eb088705985f11d2eaaf95869c2168364dd13075091aaf2a744",
+      "bins": 22,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_2/Schwerin2_BPP3.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin2_BPP3_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/Schwerin2_BPP33.pack",
+      "sha256": "738c6092914533aef9c43fef65ddb33567cb31ad8f34831f853a3f1e88c9c8a6",
+      "bins": 22,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_2/Schwerin2_BPP33.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin2_BPP33_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/Schwerin2_BPP78.pack",
+      "sha256": "e4daba2464e2218491284cdc38a6dd09c4b0fc29acc734be0989c21660cbe4c3",
+      "bins": 22,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_2/Schwerin2_BPP78.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin2_BPP78_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/Schwerin2_BPP82.pack",
+      "sha256": "6e6c4d76d59298849bf6fae8a341032920196a99f5e082e1248f0db0055eea64",
+      "bins": 22,
+      "csp": "4_Schwerin_CSP/Schwerin_CSP/Schwerin_2/Schwerin2_BPP82.txt",
+      "log": "Results_VPS/Results_VPS/Schwerin2_BPP82_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/Waescher_TEST0022.pack",
+      "sha256": "3848c88132e4519daf1c6ea6c4a75b3e764e09da6e3390094f0203aa6768206f",
+      "bins": 15,
+      "csp": "3_Wäscher_CSP/Waescher_CSP/Waescher_TEST0022.txt",
+      "log": "Results_VPS/Results_VPS/Waescher_TEST0022_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/csAA125_13.pack",
+      "sha256": "c4bb9908d9e2fa781d8a8761ff700b3868f08bd16a294722868e186dcb20f90f",
+      "bins": 559,
+      "csp": "8_GI CSP/Irnich CSP/csAA125_13.txt",
+      "log": "Results_VPS/Results_VPS/csAA125_13_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/csBA125_18.pack",
+      "sha256": "cd362356d4c347ac7f0fe4811f220fff4534417d5d84ce8eac6b6385ef16a5f3",
+      "bins": 550,
+      "csp": "8_GI CSP/Irnich CSP/csBA125_18.txt",
+      "log": "Results_VPS/Results_VPS/csBA125_18_Results_VPS.txt"
+    },
+    {
+      "path": "environment/app/solutions/csBA125_8.pack",
+      "sha256": "920b5fa1f0360e068bb997a977810dd7abcfa33049ac2600c31439c2cfc2eda8",
+      "bins": 530,
+      "csp": "8_GI CSP/Irnich CSP/csBA125_8.txt",
+      "log": "Results_VPS/Results_VPS/csBA125_8_Results_VPS.txt"
+    }
+  ],
+  "transformed": [
+    {
+      "code": "ex002.txt",
+      "official": "201_2500_DI_38.txt",
+      "instance_sha256": "9499ad4235100b51b2fa84613208161974e14842a4efe9d46a05e0c0569f7743",
+      "packing_sha256": "6c7e1a98255ebb4a05040ebe7a5f3fa2ed7c033bf01bdeb8b48d7fda054fbace"
+    },
+    {
+      "code": "ex006.txt",
+      "official": "402_10000_DI_2.txt",
+      "instance_sha256": "d51794d62be0858f8bd0889f57bd6dfc0a0669fb8568e37c3b369319dd896ff8",
+      "packing_sha256": "814ffb69561540b7fa2bad41ccda5c682fcd6c031f572aea4b2777698ebcced2"
+    },
+    {
+      "code": "ex009.txt",
+      "official": "600_20000_DI_31.txt",
+      "instance_sha256": "1a2044309ab71e550a681c4e2624e0ae012733d9320f87c269f24e3e39ad296a",
+      "packing_sha256": "b0a87342c596763ce2bcb429ad4c19413694dfbaf06b37c59611345d5e8427e3"
+    },
+    {
+      "code": "ex013.txt",
+      "official": "BPP_200_50_0.1_0.7_2.txt",
+      "instance_sha256": "3602639d561669513f5709aeff8537e6c8753f8b29718eb086cf62ea76eac404",
+      "packing_sha256": "1dc65a8a7fe6b2ef8707e87917bdfc9a71ee1060986cb56fcff0defe5f33011e"
+    },
+    {
+      "code": "ex016.txt",
+      "official": "BPP_300_300_0.2_0.7_9.txt",
+      "instance_sha256": "98996fa66cd7d3e4905c673b9f1164328159ac7ad0e709dd7f5acefdc9f5a319",
+      "packing_sha256": "fee5fd84218c5d724e0b10a4a35f37d06055ac8daf712f90a0309deacb2ab59a"
+    },
+    {
+      "code": "ex018.txt",
+      "official": "BPP_500_200_0.1_0.7_4.txt",
+      "instance_sha256": "f325b26a4016dbd19bc938a096df95cacae10c37e83453f181c18512e94cfbdd",
+      "packing_sha256": "1c5d144e9ee401c0e884a30fe8090d217a075b11c4b1bd02f71719339aa5e4a8"
+    },
+    {
+      "code": "ex021.txt",
+      "official": "BPP_750_400_0.2_0.7_8.txt",
+      "instance_sha256": "75968cdeed0928b9a9aa5a78ee89175d8181850782d00d8f92d5ac829607e9c4",
+      "packing_sha256": "baca9a84e498bd0232c38d1810753f2db0a26e5679bf4623af84cdc37e13d34b"
+    },
+    {
+      "code": "ex024.txt",
+      "official": "Falkenauer_t249_14.txt",
+      "instance_sha256": "b373f9897444c0eae772e2db46e1784fec2ffc8f104a11457ed391e588f3d6ba",
+      "packing_sha256": "87d144e1a517f310ceb1ab77ac3441f02e926c5313aace4c420e044f20338e9f"
+    },
+    {
+      "code": "ex026.txt",
+      "official": "Falkenauer_t501_16.txt",
+      "instance_sha256": "d57c3fb98e88eb5d91ccf017648d189a810138d40c21f924f780fd7b2d3ee293",
+      "packing_sha256": "e37ac67a3b34070f1f3d2450e5b5bc80ed285ac48b73b0fce531c063b285cc1e"
+    },
+    {
+      "code": "ex029.txt",
+      "official": "Falkenauer_u120_06.txt",
+      "instance_sha256": "cda11205ecbda590b63ac473b7a3ef8a2de562557371e8f67bd5ab2e7ce822ab",
+      "packing_sha256": "8528076448829ce70f562d5b450d7262e862bcdee31143db1253de61dce943e8"
+    },
+    {
+      "code": "ex034.txt",
+      "official": "Hard28_BPP195.txt",
+      "instance_sha256": "9aa39d8de69c1da73c747c9c3d4ee04fd3d1f5e3991768a4ff9a42200bd0dbbf",
+      "packing_sha256": "391b7838091da7702316e48622f22d4d8dfd9a5f15bedb938dc3f756dd16053d"
+    },
+    {
+      "code": "ex040.txt",
+      "official": "Hard28_BPP645.txt",
+      "instance_sha256": "0ecf8df1b0af769994c1c72f3077c6c7be21e82759ca3c8af7e363f77e0c8745",
+      "packing_sha256": "f43506e4830138ced2c4b481416974de2bda7e67ff8b1281f81a7ed08ffa92ee"
+    },
+    {
+      "code": "ex041.txt",
+      "official": "Hard28_BPP709.txt",
+      "instance_sha256": "50bf2361d81271c31960d72d0653f35e816c45eebd8d6ad6192d0d6394e4331f",
+      "packing_sha256": "ef7414442fcef2199842827f9038953606edf6113568110e1f9cc0be5966da5d"
+    },
+    {
+      "code": "ex044.txt",
+      "official": "Hard28_BPP781.txt",
+      "instance_sha256": "a00fb67188a80ae383782d344cc7c10e7278d88a5ebb238e7014daa5d0590e28",
+      "packing_sha256": "9139a6daa4f21f49587f8c20d882154f0d9d18fd177ea4ebaf097c035988dd5b"
+    },
+    {
+      "code": "ex047.txt",
+      "official": "N1C2W2_H.txt",
+      "instance_sha256": "72ea62d4632cc105f79fe1fe87d2d1846237343dd042d0248fe7ba8ae31a3bb3",
+      "packing_sha256": "53db0e149d21f6a6ed75c717349c9aa9c356365b82a52b906fbe677538a9e9a7"
+    },
+    {
+      "code": "ex051.txt",
+      "official": "N1W3B1R0.txt",
+      "instance_sha256": "142b0cf01812d38c0df820499d5cc3541f65f0ae056e5b6fa3f7584c1c0438a9",
+      "packing_sha256": "74a93a2b1451f009cae659a3e5391a2229910bd415ee5a25ff01cf6d7c8b7f02"
+    },
+    {
+      "code": "ex054.txt",
+      "official": "N2C3W4_F.txt",
+      "instance_sha256": "1db7bb484883712497c661ee7d6990ab831e5bfd6d729bee46f713f4def5cedf",
+      "packing_sha256": "a183364da8d2b0f48fa24d64b33e72d79123279108cbc5beb30e1da2248c199d"
+    },
+    {
+      "code": "ex057.txt",
+      "official": "N2W1B1R4.txt",
+      "instance_sha256": "a378e601bbb2f665d45c4e785225627f2e0479103a3a31df4628a05858edf176",
+      "packing_sha256": "6a29363e2b33d25250ee7c252b6c611907cb6457aac0933e80db940f3c41e317"
+    },
+    {
+      "code": "ex061.txt",
+      "official": "N3C3W2_D.txt",
+      "instance_sha256": "06ab08b8bf72f592ff9f9aeb3931c746dfd0a5c229c23eaf0f29e35c2dcd9774",
+      "packing_sha256": "5e02442bca356da44a2b83d5b613b5c59e8d375808dcc82d78f4e024386e5281"
+    },
+    {
+      "code": "ex064.txt",
+      "official": "N3W2B1R1.txt",
+      "instance_sha256": "e7f30e884503962f22a35f708b2b2f67e420714441000f246aa2409296ef595b",
+      "packing_sha256": "5639de01558c0604ecc882ea5e2e8723fc72bb1a4b23b451202acc63e81ce671"
+    },
+    {
+      "code": "ex067.txt",
+      "official": "N3W3B1R8.txt",
+      "instance_sha256": "cffa5e2ff24be192314a0a4cb30521bbae629021f8faab18425644b7cb6dbfe6",
+      "packing_sha256": "51d6a435282a1517dcc3ddba6a9363cb719f8b28198fa75d4ea6256c1e8c8b6b"
+    },
+    {
+      "code": "ex071.txt",
+      "official": "N4C3W2_K.txt",
+      "instance_sha256": "a932ee45f6e12ef22d6f9bd1087a1a7f917b458a7745c0886d0e6a3f827bb014",
+      "packing_sha256": "3b2d35f1aaf31e20e1fc9272a69348f02e3cebf934b1a0c19af71bc3162ccb4c"
+    },
+    {
+      "code": "ex074.txt",
+      "official": "N4W4B1R3.txt",
+      "instance_sha256": "2d7317c3800135fe18037c7aab232aabceb1d726c86ca798cbe3bbc593efb6b0",
+      "packing_sha256": "8e08eeed296482a4954f2e95004b3acf3a803b1df7a0b6d81e61621546903d5f"
+    },
+    {
+      "code": "ex077.txt",
+      "official": "Schwerin1_BPP19.txt",
+      "instance_sha256": "bca2b0f9088aad25be778f0e573e3aca7561065f2193e57ffcf46df5722faf49",
+      "packing_sha256": "6be4e656fcad30ae56cb7c686f9ca9f05124491258a074bd199d9f0e59f1ffb8"
+    },
+    {
+      "code": "ex081.txt",
+      "official": "Schwerin1_BPP65.txt",
+      "instance_sha256": "8255b91347173fdcf950f632a12b0ad8cb18b88a0c243765cc98b70166cfe8ea",
+      "packing_sha256": "4f88e32105da8749e4d39b6d65adc49409a5aebfb6315de12043c354d4ce4fa2"
+    },
+    {
+      "code": "ex084.txt",
+      "official": "Schwerin2_BPP10.txt",
+      "instance_sha256": "bd143599542d7f2edb6dbba4d271b8c5bafaa1501ad2f4f0d06ffba337ecb4d4",
+      "packing_sha256": "355fb19befcc0359a2dd716b9061434349a2462ac3274a6d0b2587f6a4336f97"
+    },
+    {
+      "code": "ex087.txt",
+      "official": "Schwerin2_BPP23.txt",
+      "instance_sha256": "654e5131a53f96b9f4a32daa0bc3e7d9e152686f5abc2b795b4c53af27fe3c50",
+      "packing_sha256": "74f4c676bf3026b31c6b8c6aed33b78a0a09698d21bd03262b3e7f4a5a17fef0"
+    },
+    {
+      "code": "ex091.txt",
+      "official": "Schwerin2_BPP32.txt",
+      "instance_sha256": "564721df4c9ac8f4170ac8d398151747ad54f66e1e486a4689f5d2c91ea79c21",
+      "packing_sha256": "3412d568aa1f04ede981abcb653de22b8d22eeccdadd977017204f0b1bcf208a"
+    },
+    {
+      "code": "ex094.txt",
+      "official": "Schwerin2_BPP56.txt",
+      "instance_sha256": "f7caafba375ba21590f163ab8d5586653c9eab98890c9f824187c39915a9b99a",
+      "packing_sha256": "e832a2606fbd5f7f078ee4d29269a064a4ac561d2f93e989794f5e91863717c2"
+    },
+    {
+      "code": "ex097.txt",
+      "official": "Schwerin2_BPP71.txt",
+      "instance_sha256": "db2e39cb0cac7f6d034aecaef36e38c4e18d40c6e5167500fe50e3cb2bab40c1",
+      "packing_sha256": "271bd9c6ed16158c7ae23028983e9239e7b3854386c64b6d73e4cfb5009c406c"
+    },
+    {
+      "code": "ex101.txt",
+      "official": "Schwerin2_BPP8.txt",
+      "instance_sha256": "c36e89cba65590b961ab7dcc80720aacab3722d3a956fb7a89db4ac1c15b8ce7",
+      "packing_sha256": "9772cfb1675969f882abcb57f824aba5e71857caff013f212d7ee668f2250db4"
+    },
+    {
+      "code": "ex104.txt",
+      "official": "Schwerin2_BPP87.txt",
+      "instance_sha256": "19a1e42713169297346c10b5bf719253854b58ba24053c6bbd14c8624c811773",
+      "packing_sha256": "e3eaf1868cf636fc6ed41009e90c81a0760b866ea3020db01b3ef1d8e9dfdc97"
+    },
+    {
+      "code": "ex106.txt",
+      "official": "Waescher_TEST0014.txt",
+      "instance_sha256": "be298bc597495e452fed1d099d105866b3b6199815ca7980b40b57d2211e23b0",
+      "packing_sha256": "f7d22f5c6bd7b43648d33aef0144db8762450894005b50b9551da629db954d1f"
+    },
+    {
+      "code": "ex110.txt",
+      "official": "csAA125_14.txt",
+      "instance_sha256": "3ccfa5b0fdff82dc9264ac07293587fd3b6dc289d9d3cd413bad822f97583426",
+      "packing_sha256": "58b552a7d174d332167d39a58fe2e0394e9197facc0c83dbcfc72b150c187e63"
+    },
+    {
+      "code": "ex118.txt",
+      "official": "csAA500_16.txt",
+      "instance_sha256": "98b9c3efab66e90dbb361b30e39a39bfd6dd701bdfec4404d1b242db3a44626d",
+      "packing_sha256": "521614742095a1e89085f6f5159c105c43a074152b4f07058d0126802f0d70ca"
+    },
+    {
+      "code": "ex120.txt",
+      "official": "csAA500_5.txt",
+      "instance_sha256": "65793407163a8eb83e1af7140078acdcd7cc1f493384aa6fc2b8db429c9e7372",
+      "packing_sha256": "b3d8a4f58c15e03da3b1f42b7ce8ae2236a9ebd15b23cf9eab832e5bcb6e2939"
+    },
+    {
+      "code": "ex121.txt",
+      "official": "csBA125_13.txt",
+      "instance_sha256": "7c3fcbadee15f24a350e17cda1f73f621692a858a12128c386176515b34aaa7a",
+      "packing_sha256": "5d8bab3ebf8e6a3c0559f017b798e58eb3b39fae222f8034bc117984044c2882"
+    },
+    {
+      "code": "ex124.txt",
+      "official": "csBA250_14.txt",
+      "instance_sha256": "b859f1c21db091ce1058fd8b82791495b98284b9fa8595a7a2cbdc580e6897c4",
+      "packing_sha256": "b0794bd0b943b2378ae128d952c47fa8bc20d11f3d5b069f52561be16c1895bf"
+    },
+    {
+      "code": "ex125.txt",
+      "official": "csBA250_16.txt",
+      "instance_sha256": "7d41bcb23256ec79374bf400c4a842ac65baa2ba182d05c64858db908e780c41",
+      "packing_sha256": "deb8ea752d3846813c6c2cd56e3cffb9af85cc080d26bef183207ae897bb0c5a"
+    }
+  ],
+  "release_route": "Original upstream materials retain NC-ND terms; keep adapted outputs local to the noncommercial user. Public export/build integration is pending; verification alone does not grant redistribution."
+}

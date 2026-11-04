@@ -1,0 +1,53 @@
+{
+  "author": "Isaac Z. Schlueter <i@izs.me>",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BlueOak-1.0.0",
+  "lock_entry": {
+    "dependencies": {
+      "@isaacs/cliui": "^9.0.0"
+    },
+    "dev": true,
+    "engines": {
+      "node": "20 || >=22"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/isaacs"
+    },
+    "integrity": "sha512-ykkVRwrYvFm1nb2AJfKKYPr0emF6IiXDYUaFx4Zn9ZuIH7MrzEZ3sD5RlqGXNRpHtvUHJyOnCEFxOlNDtGo7wg==",
+    "license": "BlueOak-1.0.0",
+    "resolved": "https://registry.npmjs.org/jackspeak/-/jackspeak-4.2.3.tgz",
+    "version": "4.2.3"
+  },
+  "lock_path": "node_modules/jackspeak",
+  "name": "jackspeak",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1550,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901",
+      "text_file": "image-notices/2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901.txt"
+    }
+  ],
+  "package_license": "BlueOak-1.0.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 156182,
+    "installed_in_image": false,
+    "integrity": "sha512-ykkVRwrYvFm1nb2AJfKKYPr0emF6IiXDYUaFx4Zn9ZuIH7MrzEZ3sD5RlqGXNRpHtvUHJyOnCEFxOlNDtGo7wg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/jackspeak/-/jackspeak-4.2.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "f4154fec0865809b835720573c90bf4f5bdb37e974457eac89acb0f978068c6f"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.2.3"
+}

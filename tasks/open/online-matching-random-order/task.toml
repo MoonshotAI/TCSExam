@@ -1,0 +1,43 @@
+schema_version = "1.4"
+
+# Preserve the final agent workspace before verification, including auxiliary sources.
+artifacts = ["/app"]
+
+[task]
+name = "tcsexam/open-online-matching-random-order"
+version = "0.1.0"
+description = "Prove or refute in Lean 4 (machine-verified): from some size threshold N on, at every size n >= N some randomized online bipartite matching algorithm (deterministic decision rule fed by a t-bit uniform random tape) guarantees expected matching size at least 3/4 of the maximum matching under uniformly random arrival order (model: Karp-Vazirani-Vazirani STOC 1990). The optimal competitive ratio in the random order model is open (best known: lower bound 0.696 by Mahdian-Yan STOC 2011; upper bound 0.823 by Manshadi-Oveis Gharan-Saberi 2012, improved to 1-e/e^e=0.82062 by Chierichetti et al. ICALP 2025). Proving the statement improves the lower bound to 0.75; proving its negation (every randomized algorithm beaten at infinitely many sizes) improves the upper bound to 0.75. No ground truth; the Lean kernel is the judge. Proving either main statement (conj or refuted) scores 1.0; there is no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "online-algorithms", "bipartite-matching", "competitive-ratio", "random-order-model", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-online-matching-random-order"
+candidate_id = "cand-online-matching-random-order"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open problem (random order model optimal competitive ratio unresolved since KVV 1990; gap 0.696 vs 0.82062 still open as of 2025-2026 literature). Full score needs a kernel-verified proof of one of the two main statements (conj or refuted); there are no checkpoints and no partial credit."
+source_paper = "Karp, Vazirani, Vazirani, STOC 1990 (model); Mahdian, Yan, STOC 2011 (0.696); Manshadi, Oveis Gharan, Saberi, SODA 2011 / Math. Oper. Res. 37(4):559-573, 2012 (0.823); Chierichetti, Giacchini, Panconesi, Vattani, ICALP 2025 (1-e/e^e=0.82062). Background survey: online-dynamic-streaming.md (historical report not included in this package) section 6 (short name online-matching-random-order)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+network_mode = "public"
+timeout_sec = 43200.0
+
+[environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:9b5581e199dbf8ec8547c102561991d806c6e2295b92411af9e964e0115c6324"
+os = "linux"
+network_mode = "public"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:20bf396f8d358de8fec97c2a031de8c6fb5d3576b2ad5794f77ba984eb9ab7b4"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

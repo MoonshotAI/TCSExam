@@ -1,0 +1,46 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/jsplib-jssp"
+version = "1.0.0"
+description = "Optimize a job-shop scheduling solver: minimize the makespan on 198 public practice instances from a public JSSP benchmark library; final judging once on 85 hidden instances — scored continuously against a packaged heuristic baseline and best-known values, under a 600 s per-instance limit on one pinned core."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "job-shop-scheduling", "jsplib", "constraint-programming", "type-2-solver"]
+
+[metadata]
+family_id = "fam-jssp"
+candidate_id = "cand-jsplib-jssp-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "The packaged baseline (priority-rule Giffler-Thompson plus critical-path local search) is beatable in an afternoon, and a stock CP-SAT model already reaches the 0.3 anchor; but the 1.0 anchor sits at best-known values produced by 10x-budget CP-SAT and a long tabu search (the 31 fresh instances) or by decades of literature (the 252 classic instances, 60 of them still open), so the top 0.5 of the score ladder needs real algorithmic work: search-parameter tuning, warm-start hybrids, decomposition, or a better local search than the shipped one."
+
+[verifier]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 2400.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 16
+memory_mb = 8192
+storage_mb = 8192
+
+[environment.env]
+TCSEXAM_TOKEN_ID = "${TCSEXAM_TOKEN_ID}"
+TCSEXAM_TOKEN_SECRET = "${TCSEXAM_TOKEN_SECRET}"
+TCSEXAM_BASE_URL = "${TCSEXAM_BASE_URL}"
+CLAUDE_CODE_EFFORT_LEVEL = "${CLAUDE_CODE_EFFORT_LEVEL}"
+CLAUDE_CODE_MAX_OUTPUT_TOKENS = "${CLAUDE_CODE_MAX_OUTPUT_TOKENS}"
+CLAUDE_CODE_AUTO_COMPACT_WINDOW = "${CLAUDE_CODE_AUTO_COMPACT_WINDOW}"
+CLAUDE_CODE_MAX_CONTEXT_TOKENS = "${CLAUDE_CODE_MAX_CONTEXT_TOKENS}"
+CLAUDE_CODE_MAX_RETRIES = "${CLAUDE_CODE_MAX_RETRIES}"
+CLAUDE_CODE_RETRY_WATCHDOG = "${CLAUDE_CODE_RETRY_WATCHDOG}"
+API_TIMEOUT_MS = "${API_TIMEOUT_MS}"

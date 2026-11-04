@@ -1,0 +1,364 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/t01.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t01.txt",
+      "git_blob": "2e2544403f02a7126af357e738e9b7585f7a1662",
+      "bytes": 335,
+      "sha256": "a571e795a43d44078471aacb14c34d0092e3aa3288f28798dec47b2a409a4fde",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t02.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t02.txt",
+      "git_blob": "51ed1392297c6dcc24462600e4520f2cd8c5815f",
+      "bytes": 327,
+      "sha256": "0fb891feca57fb4537886a8a39ac02f75c764574af4d72eb54238b6d5bb6ff99",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t03.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t03.txt",
+      "git_blob": "935c80f5c885be07968c2919ee11f3f97332f21f",
+      "bytes": 335,
+      "sha256": "2a755a7e05f978a9d2bc61df234131fd7eb7fd6acb18ee9bb65115cb0e06fc25",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t04.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t04.txt",
+      "git_blob": "c6889fb81808208904e0803271ad6adbe9534c4d",
+      "bytes": 328,
+      "sha256": "1f24846cbcaed7877849f6de67241fdb7b102fd9c8064c10f72066cc1a411293",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t05.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t05.txt",
+      "git_blob": "f79ec60f8d0258caf065e1fd47fe6e74a267cf2c",
+      "bytes": 322,
+      "sha256": "2334479ad52f4bbb106300da59ce460bf3da24f51dd886319191d2c1895cfa78",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t06.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t06.txt",
+      "git_blob": "22d18680b0118b5b99021e02b425b6e4842719ac",
+      "bytes": 326,
+      "sha256": "2271225e94650efbc6d68865e08bb7eecf4ddfd1709a5839b0cc2e2243062842",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t07.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t07.txt",
+      "git_blob": "83848506d4658669465d56cbbe6f6888fce9fff8",
+      "bytes": 327,
+      "sha256": "73cd2809f7289979631348836da9ea608c90c0bc4ce7d024fd6bc681e997d319",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t08.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t08.txt",
+      "git_blob": "27091ee79a95949c9ee83ada1c7cf69321ad6403",
+      "bytes": 348,
+      "sha256": "16e78dbc90683a7af5a4b6ffb629d01c9f0440951ff6d2f35ab9002a2d508ace",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t09.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t09.txt",
+      "git_blob": "915669657f233c86a47b5ac227d08d31bdd50125",
+      "bytes": 334,
+      "sha256": "2e2ee8c20523ba2fd58e8440a385945451c915b6bebaba2098cecc0ae043c335",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t10.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t10.txt",
+      "git_blob": "65996bd71ce1d8d0d71f2200852e8ec920aa2d95",
+      "bytes": 334,
+      "sha256": "b5b492e4d48d46c841807eb506de4182ff1e3291c6f3d375e4ee0361b8a68256",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t11.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t11.txt",
+      "git_blob": "dd6aacab87ce9a7bda250905c252c99d964035ed",
+      "bytes": 322,
+      "sha256": "f880fda1962be120e84979069377d31b6ae642a92a6dc0c60ca0c83448f5f5ee",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t12.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t12.txt",
+      "git_blob": "5f60cf769af8ce2ec07bfb7a04e612d1eddb55cd",
+      "bytes": 341,
+      "sha256": "5163b9d1c6133eded1acfb6e6a79021ebd588afe1fa41400dd8e7016878f0d74",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t13.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t13.txt",
+      "git_blob": "881fe4f044602878fb994ab4eb7bf45b72a4b32a",
+      "bytes": 329,
+      "sha256": "70c8271c4085331a496f1da2248ec53f71397ddbf69c1fc00faec5c9cf4bfce0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t14.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t14.txt",
+      "git_blob": "fe63319dc5be3ea90b1a67a915d4efec7145b814",
+      "bytes": 324,
+      "sha256": "2b70d219c6a8d5d516801f4ed633465889845927683ca324edda354aceaab5d3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t15.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t15.txt",
+      "git_blob": "12277267f1fd81db95fd356fcbe2561b318d1c23",
+      "bytes": 333,
+      "sha256": "177e23155c6a90d1b1ce6af52c4d9ba8c9d847683c71b6ba84af44d3e574b8eb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t16.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t16.txt",
+      "git_blob": "23670bc58d6d11d2674171874fa5bd4acbe7b04a",
+      "bytes": 352,
+      "sha256": "c7b997c1cba55589d8719571e74482c139e7a6a9fc4d0f022d13d71df7c78659",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t17.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t17.txt",
+      "git_blob": "22b39057566d06fcb51a8bea70174ba1f9e42fcc",
+      "bytes": 318,
+      "sha256": "aee99d29c8005e5e82190632f652fb472414f772d50edef2e8ce4f910deabb70",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t18.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t18.txt",
+      "git_blob": "500a6e6ccb351e46d6fbb1dde83d8685534c9134",
+      "bytes": 342,
+      "sha256": "9b0cab9cdcfaf9920f02ca4517fce978e634043783beeef4fa5228fccb3a4807",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t19.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t19.txt",
+      "git_blob": "d939b910892aa9dc9c187896c10f776feb15af1d",
+      "bytes": 323,
+      "sha256": "4b33a7b3c669ce0ba2a429f4d0821d58b2082649bb93d5428200940cb7d73c7c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t20.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t20.txt",
+      "git_blob": "a9a393cca36fef122d6b1a402ca919e7138a2d24",
+      "bytes": 338,
+      "sha256": "9a18d7672af8dd182036afcc38e283fc73e35382b8203f224098aa2db0d2b080",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t21.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t21.txt",
+      "git_blob": "47f1a4418a5cedefe79f548ecc487d64b01bfb01",
+      "bytes": 332,
+      "sha256": "c9ff5093cf002e2d502334fc3692e18536c0a38c075d329ce92832bcf858987d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t22.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t22.txt",
+      "git_blob": "f9063b443871482a380ede6893877b7a220d294a",
+      "bytes": 335,
+      "sha256": "5cd02c19f5b6c04fc43fbb4bc6275d31657ed95215c70f7497b3698f2ff90d58",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t23.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t23.txt",
+      "git_blob": "7924032a5f14ab410c02c604b754c41eebe3953b",
+      "bytes": 350,
+      "sha256": "ba127433478593598b448339908094e63b46c69bed17fcbc4b0b386b766cd7ae",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t24.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t24.txt",
+      "git_blob": "2bb7d4f34dcaed9adb502884ddc2a975fc9ff334",
+      "bytes": 340,
+      "sha256": "94c071f35b57ced34572fdd3101755b07f64fb55e446473f1d141a00b3ee7a64",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t25.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t25.txt",
+      "git_blob": "69ab8dc6b7058c2c39870101271aca17420a4892",
+      "bytes": 344,
+      "sha256": "6e9052845a6580f2dc1d135e3ede7dfd99c8ee70ef94655bee1397c39eef79b4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t26.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t26.txt",
+      "git_blob": "62f081f8d61e8960ab467f7170c4008b9ce6227b",
+      "bytes": 333,
+      "sha256": "aed20e33086430d6214861142e353e196572458f34333676a98179566e009339",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t27.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t27.txt",
+      "git_blob": "2bb62acfdd208b162b1860cdf38f5098caac8d3e",
+      "bytes": 341,
+      "sha256": "14f7d49cb7a7b67849b8fa16ec87bc273428d392b5bfd963c8e35934261afaf0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t28.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t28.txt",
+      "git_blob": "b14b5aa06dc9e79cf94959a5d5db4c023a1f4108",
+      "bytes": 329,
+      "sha256": "f4eac31471841356358f07e3eb8bb3f6afd3fdde6792e405bd09043e1f78fee9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t29.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t29.txt",
+      "git_blob": "7adc7b8eef6ff397e4d273bdd6b89b6c8545bbeb",
+      "bytes": 330,
+      "sha256": "2497543a6b9411907aeb4208bed75cfbcc766529d42d7de1a0dfcf5c8644a298",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t30.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t30.txt",
+      "git_blob": "88f838041f516bca17d9665eacc555a53192eaae",
+      "bytes": 332,
+      "sha256": "01ff5586d9dbfec8220c633696ab4ab91e0c316985e209275f77a5b5697c0a64",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t31.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t31.txt",
+      "git_blob": "fc08e5e0ccca601662abdd6afd2e283d9e14ec4a",
+      "bytes": 331,
+      "sha256": "7a3e96ea83f97cd7a60eb3f1c96301de4b391439310af3ea7f6eae8e031389ca",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t32.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t32.txt",
+      "git_blob": "42971d9d17130081989fb17e171152571829f24f",
+      "bytes": 317,
+      "sha256": "8e6c1a9320415ac479e1991d7ccc6f5c7fc5aca6ffd18082bd66c4af0b46ca2e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t33.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t33.txt",
+      "git_blob": "7abfcad2149247ef386ab0e7168f76574252d427",
+      "bytes": 338,
+      "sha256": "af362df070e6a0022bbe3b6d84bc018992f1fac55a8f1d20cf9e5f0831293c4a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t34.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t34.txt",
+      "git_blob": "318c3d8454989517c8b29c5fc5717cd0c6f70b43",
+      "bytes": 331,
+      "sha256": "d554a49dc7c8674dce8ce397bca5af2f9e266e972a8104115320790423412d4e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t35.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t35.txt",
+      "git_blob": "c3865af1136e8ed021b1bfeeeddc429c25ac9fed",
+      "bytes": 311,
+      "sha256": "cec6c4daeded7a45b211b910b5856576e46c78422066a7a63229f0d4d62a17aa",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t36.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t36.txt",
+      "git_blob": "5de53a5800238fd7887256e9872d5c531570036b",
+      "bytes": 321,
+      "sha256": "42a6a32d74bffdb1cc4317d9e1091b52ce528c59436f46e3914fa1b4c7543e46",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t37.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t37.txt",
+      "git_blob": "2fb21b51317c2ae2b827d16bc04c3a8869ac37e6",
+      "bytes": 332,
+      "sha256": "da5f699d5336ed1f4dae7ff21262360a6811a98259e082d1935bcc96d752b3c5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t38.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t38.txt",
+      "git_blob": "ab404876c3414412e91620d8d5d64bb16aa68da6",
+      "bytes": 336,
+      "sha256": "3db924ed8c30f466a1eb4aaa8df34799e760ab0ddd7b3b0a6ec86b103be35f4d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t39.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t39.txt",
+      "git_blob": "28aa789dd5f8e14356c8d715bd7385ae531949de",
+      "bytes": 329,
+      "sha256": "2b9563537084341c6d41852b409566bce1a7c1bcefefecce6d8be57560f39d66",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t40.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t40.txt",
+      "git_blob": "77756c63770871827e7cbbcdb8cd4c47055a714d",
+      "bytes": 336,
+      "sha256": "c5f91f968df9d1bb4d2dc57b398d9964c2aaee8a35781afc2c68167b9427b3e4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t41.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t41.txt",
+      "git_blob": "23a36957a1e3ac2ad12985f777b6ad9c09618e97",
+      "bytes": 321,
+      "sha256": "6e5bda477611df24c905195522e8bd3f47d7a409dad5424eecf7ad5fce233195",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t42.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t42.txt",
+      "git_blob": "7b741229af0b64da236125e1b300817fb1d301d9",
+      "bytes": 327,
+      "sha256": "12a00c630d9c79f8410f8932bf12c181de9ce1016837d3d1e90f60c37b55ebb2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t43.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t43.txt",
+      "git_blob": "7b3deb1095c92eb8d6e1161c6d87ab9dce3ced35",
+      "bytes": 336,
+      "sha256": "91841f55254a0367a680c784ad4a3798aac48775eef797b5f98ce048ef3daf94",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t44.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t44.txt",
+      "git_blob": "5e1d6b98bdee4065a0895a2265800bf3ea5ae0ee",
+      "bytes": 339,
+      "sha256": "65d9fe7ee2d9ab0acb87b06ab8e11b1cf42d53f3d42f30e609ca3ab609de6cf2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t45.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/tests/instances/t45.txt",
+      "git_blob": "9f029c9e9796b079d90c8040d7046c5d53b01b1e",
+      "bytes": 329,
+      "sha256": "815d863cd7c13d8d168b28fa1ee3e548688c65efb721612947a59a0532ac6db9",
+      "mode": "0644"
+    }
+  ]
+}

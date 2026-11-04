@@ -1,0 +1,39 @@
+{
+  "task_id": "maxsat-mse",
+  "data_split": "hidden",
+  "content_version": "original-judging211-260912-v1",
+  "source": "Original adopted211 transformed MSE2026 judging inputs, restored at historical commit943a1b6db3173c9d8fdf1ae42344497d09b84b32.",
+  "official_source_record": "https://zenodo.org/records/21358014",
+  "official_original_archive_sha256": "4b9bc198d1bb12a5125194e8c5cbcc98976852e01f53849db5d80bb9d4715fb5",
+  "historical_selection": {
+    "original_context": 98,
+    "data_image": 113,
+    "total": 211
+  },
+  "verification": {
+    "files": 211,
+    "compressed_bytes": 8332683020,
+    "manifest_sha256": "ac00850349c32f7d853802c0a6e0b331615523b8b458eab9948f7ce419d719e1",
+    "all_compressed_and_historical_plaintext_sha_verified": true
+  },
+  "historical_canonical98": "assets/data/solver/history/maxsat-mse-canonical98-261030/history.json",
+  "acquisition": "Exact input-only original archive, explicitly supplied by the user. No automatic private cache, data-image pull or generated replacement is used.",
+  "public_recipe_reconstruction_limit": "Public official raw archive and original transformation implementation are recorded, but exact historic mixed compression toolchain reproduction for all211 is not established. Explicit original archive is used.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "public_pin": null,
+  "new_distribution_authorization": false,
+  "license_basis": "Retain the existing MSE source-record attribution and CC-BY-4.0 notice. This change adds no redistribution permission or public image pin.",
+  "excluded": [
+    "answers",
+    "solver output",
+    "reference values",
+    "logs",
+    "credentials",
+    "undeclared files"
+  ],
+  "scope": "This record identifies the original compressed archive only. The separately versioned default official reconstruction retains every decompressed formula identity.",
+  "other_content_versions": [
+    "docs/licenses/third-party/maxsat-mse-hidden-rebuild-source.json"
+  ]
+}

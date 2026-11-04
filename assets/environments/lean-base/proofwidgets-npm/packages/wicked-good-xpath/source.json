@@ -1,0 +1,45 @@
+{
+  "author": {
+    "name": "Google Inc."
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-Gd9+TUn5nXdwj/hFsPVx5cuHHiF5Bwuc30jZ4+ronF1qHK5O7HD0sgmXWSEgwKquT3ClLoKPVbO6qGwVwLzvAw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/wicked-good-xpath/-/wicked-good-xpath-1.3.0.tgz",
+    "version": "1.3.0"
+  },
+  "lock_path": "node_modules/wicked-good-xpath",
+  "name": "wicked-good-xpath",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1110,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "1691999de7a5de50698e735c25506ea8ab6b71d008d27ef9e1400a5075000e78",
+      "text_file": "image-notices/1691999de7a5de50698e735c25506ea8ab6b71d008d27ef9e1400a5075000e78.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 12594,
+    "installed_in_image": false,
+    "integrity": "sha512-Gd9+TUn5nXdwj/hFsPVx5cuHHiF5Bwuc30jZ4+ronF1qHK5O7HD0sgmXWSEgwKquT3ClLoKPVbO6qGwVwLzvAw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/wicked-good-xpath/-/wicked-good-xpath-1.3.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "6dfd720a0f86ffcc8ad205e26ec9a45ae8c713ebd2f5e9cf99e9b02541995481"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.3.0"
+}

@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/maxsat-mse"
+version = "1.0.0"
+description = "Optimize a weighted MaxSAT solver (MaxSAT Evaluation 2026 anytime benchmark): minimize the cost of falsified soft clauses on hidden instances from the public MSE 2026 anytime-weighted set, scored continuously against an anytime Open-WBO baseline and registry best-known/proven-optimal costs, under a per-instance wall-clock limit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "maxsat", "weighted-maxsat", "mse2026", "sat-based-methods", "type-2-solver"]
+
+[metadata]
+family_id = "fam-maxsat"
+candidate_id = "cand-maxsat-mse-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "Weighted MaxSAT is NP-hard and the standard encoding for many applied optimization problems. The shipped baseline is Open-WBO 2.1 (a classic SAT-based solver) wrapped as an anytime solver with a wall-clock soft limit: it proves optima on easy instances but leaves a wide cost gap on the hard MSE 2026 anytime-weighted instances. Closing that gap within 300 s per instance needs real machinery — better core-guided search or encodings, preprocessing, stochastic local search, or portfolio strategies — and the continuous score rewards every unit of cost between the baseline and the registry best known value; the K anchors come from the MaxSAT Evaluation 2026 registry (proven optima from the exact track) cross-checked against solver-log witnesses."
+
+[verifier]
+timeout_sec = 1209600.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 8192
+
+
+[verifier.environment]
+network_mode = "no-network"
+build_timeout_sec = 3600.0

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "Apache-2.0",
+  "lock_entry": {
+    "integrity": "sha512-t6JAK5pVxG+PRbZkOiD0AAW+Fnu7AgU74PTcjbg9VJUjv/z5xjBHkxdCBbPTsMdrquOm5q2dR//U6alf1HHs5g==",
+    "license": "Apache-2.0",
+    "resolved": "https://registry.npmjs.org/@leanprover/infoview-api/-/infoview-api-0.11.0.tgz",
+    "version": "0.11.0"
+  },
+  "lock_path": "node_modules/@leanprover/infoview-api",
+  "name": "@leanprover/infoview-api",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "Apache-2.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 14791,
+    "installed_in_image": false,
+    "integrity": "sha512-t6JAK5pVxG+PRbZkOiD0AAW+Fnu7AgU74PTcjbg9VJUjv/z5xjBHkxdCBbPTsMdrquOm5q2dR//U6alf1HHs5g==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@leanprover/infoview-api/-/infoview-api-0.11.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "08f2110d93331a9ed80ddb1083a6610c9b0b93daf7ff39b6d4734c05a013cd1b"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 10174,
+    "installed_file": "notices/supplementary/69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "8ae6710deae85b9f7b379e4fd3cf6a7495ec1424",
+    "sha256": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b",
+    "text_file": "image-notices/69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b.txt",
+    "url": "https://raw.githubusercontent.com/leanprover/vscode-lean4/8ae6710deae85b9f7b379e4fd3cf6a7495ec1424/LICENSE"
+  },
+  "version": "0.11.0"
+}

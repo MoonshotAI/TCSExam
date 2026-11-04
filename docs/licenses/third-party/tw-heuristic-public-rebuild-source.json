@@ -1,0 +1,11 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "tw-heuristic",
+  "source": "https://github.com/PACE-challenge/Treewidth-PACE-2017-instances",
+  "commit": "44e40b0ce87d2360f6114ba2aa503ef8df5e9256",
+  "scope": "Exactly 100 unchanged original odd-numbered PACE 2017 heuristic-track plaintext input graphs.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Official repository README declares CC0. No image publication is authorized by this record.",
+  "integrity_policy": "Use the declared official source URLs or explicitly supplied identical source files; verify source and output hashes from the selected recipe. Network failures must not select an undeclared cache or alternate instance set."
+}

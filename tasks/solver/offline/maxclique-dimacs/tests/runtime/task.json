@@ -1,0 +1,18 @@
+{
+  "task": "maxclique-dimacs",
+  "cpus": 1,
+  "memory_mb": 8192,
+  "seconds": 180,
+  "build_seconds": 600,
+  "check_seconds": 300,
+  "pool": false,
+  "module_dir": "/opt/maxclique",
+  "disk_mb": 8192,
+  "relative_cpu_indices": true,
+  "outer_timeout_seconds": 3360,
+  "judge_env": {
+    "TESTS_DIR": "/tests"
+  },
+  "instance_count": 24,
+  "budget_source": "Frozen backend environment and original checker preparation script; original scoring enforces the actual budget."
+}

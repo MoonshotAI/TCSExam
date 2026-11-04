@@ -1,0 +1,49 @@
+{
+  "author": "Jordan Harband <ljharb@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": ">= 0.4"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "integrity": "sha512-1Qed0/Hr2m+YqxnM09CjA2d/i6YZNfF6R2oRAOj36eUdS6qIV/huPJNSEpKbupewFs+ZsJlxsjjPbc0/afW6Lw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/is-map/-/is-map-2.0.3.tgz",
+    "version": "2.0.3"
+  },
+  "lock_path": "node_modules/is-map",
+  "name": "is-map",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1067,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "5a26e47b9d7020848f061bcad66f8e73cab95f529dab5c02588b21e57c4f876c",
+      "text_file": "image-notices/5a26e47b9d7020848f061bcad66f8e73cab95f529dab5c02588b21e57c4f876c.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 7928,
+    "installed_in_image": false,
+    "integrity": "sha512-1Qed0/Hr2m+YqxnM09CjA2d/i6YZNfF6R2oRAOj36eUdS6qIV/huPJNSEpKbupewFs+ZsJlxsjjPbc0/afW6Lw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/is-map/-/is-map-2.0.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "9b981d8ca28db4343aa5b285d20342a175ef34ae25840a302c1e39d3fcb6e98f"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.0.3"
+}

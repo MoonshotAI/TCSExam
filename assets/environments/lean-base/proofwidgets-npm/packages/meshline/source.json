@@ -1,0 +1,46 @@
+{
+  "author": "Jaume Sanchez <the.spite@gmail.com> (https://www.clicktorelease.com)",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-/TQj+JdZkeSUOl5Mk2J7eLcYTLiQm2IDzmlSvYm7ov15anEcDJ92GHqqazxTSreeNgfnYu24kiEvvv0WlbCdFQ==",
+    "license": "MIT",
+    "peerDependencies": {
+      "three": ">=0.137"
+    },
+    "resolved": "https://registry.npmjs.org/meshline/-/meshline-3.3.1.tgz",
+    "version": "3.3.1"
+  },
+  "lock_path": "node_modules/meshline",
+  "name": "meshline",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1091,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "60616aab1af71f2603d9d4ab3c29b5d80cc43cd9a62e2e8b3fa68c1c5597103f",
+      "text_file": "image-notices/60616aab1af71f2603d9d4ab3c29b5d80cc43cd9a62e2e8b3fa68c1c5597103f.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 8995,
+    "installed_in_image": false,
+    "integrity": "sha512-/TQj+JdZkeSUOl5Mk2J7eLcYTLiQm2IDzmlSvYm7ov15anEcDJ92GHqqazxTSreeNgfnYu24kiEvvv0WlbCdFQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/meshline/-/meshline-3.3.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "65543d347be8c5cff2533aa91fabb8f809ff68bed93a0770ba72f3a66462c2bf"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.3.1"
+}

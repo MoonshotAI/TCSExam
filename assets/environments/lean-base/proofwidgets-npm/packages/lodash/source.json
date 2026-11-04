@@ -1,0 +1,43 @@
+{
+  "author": "John-David Dalton <john.david.dalton@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.23.tgz",
+    "version": "4.17.23"
+  },
+  "lock_path": "node_modules/lodash",
+  "name": "lodash",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1952,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "f71e8ed126b46346494aad5486874cd8f0aafe95092ed67d2e3cb6110f939abc",
+      "text_file": "image-notices/f71e8ed126b46346494aad5486874cd8f0aafe95092ed67d2e3cb6110f939abc.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 314877,
+    "installed_in_image": false,
+    "integrity": "sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/lodash/-/lodash-4.17.23.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "9aba685f4b44d7a8e778cdf7085e9512143dabd78812df40e258375e1e8dceb4"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.17.23"
+}

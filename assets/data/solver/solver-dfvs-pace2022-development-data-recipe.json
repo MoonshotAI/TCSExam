@@ -1,0 +1,55 @@
+{
+  "description": "Download the official PACE 2022 exact-track public archive, select exactly the 100 odd-numbered public instances, and recreate the frozen XZ outputs with XZ Utils 5.2.5 in a pinned Docker builder. Every output is checked against the retained manifest and decompressed for comparison with the official plaintext. The upstream archive has no data license; this local recipe grants no public redistribution right.",
+  "source": {
+    "id": "pace-2022-exact-public-tar-gz",
+    "url": "https://heibox.uni-heidelberg.de/f/be4337d9e4234bca8606/?dl=1",
+    "bytes": 14237896,
+    "sha256": "56158c1e637c5f5a332e46e0e51afb99c062c5261e76acc61d195b03cc67bc18"
+  },
+  "archive_format": "tar.gz",
+  "generator_paths": [
+    "src/tcsexam/dfvs_pace2022.py"
+  ],
+  "selection": {
+    "source_root": "exact_public",
+    "output_directory": "app/instances",
+    "first_instance": 1,
+    "last_instance": 199,
+    "instance_step": 2,
+    "instance_count": 100
+  },
+  "compression": {
+    "format": "xz",
+    "check": "crc64",
+    "threads": 2,
+    "arguments": [
+      "--format=xz",
+      "--stdout",
+      "--threads=2",
+      "--check=crc64"
+    ],
+    "preset": 6,
+    "preset_overrides": {},
+    "tool": {
+      "version": "5.2.5",
+      "archive_root": "xz-5.2.5",
+      "source": {
+        "id": "xz-utils-5.2.5-tar-gz",
+        "url": "https://tukaani.org/xz/xz-5.2.5.tar.gz",
+        "bytes": 1791345,
+        "sha256": "f6f4910fd033078738bd82bfba4f49219d03b17eb0794eb91efbae419f4aba10"
+      },
+      "configure": [
+        "--disable-shared",
+        "--enable-static",
+        "--disable-nls"
+      ]
+    }
+  },
+  "build": {
+    "builder_image": "ubuntu:22.04@sha256:0a9887931b0e38af2e3487ed39e29436b0535c4f3f52e57745baaf79d1898956",
+    "cwd": ".",
+    "timeout_sec": 3600,
+    "download_timeout_sec": 300
+  }
+}

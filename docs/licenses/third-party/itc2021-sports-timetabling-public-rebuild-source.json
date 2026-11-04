@@ -1,0 +1,27 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "itc2021-sports-timetabling",
+  "repository": "https://github.com/Robin-X/RobinX",
+  "commit": "636951ec6450c1ebe5eb70713e24ec40de85e731",
+  "outputs": 29,
+  "official_downloads": 29,
+  "retained_project_public_inputs": [],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "verification_status": "passed",
+  "terms": "Retain the existing resource-specific terms. This reconstruction does not add redistribution approval.",
+  "verified_products": {
+    "solver-itc2021-sports-timetabling-development-data": {
+      "result": {
+        "files": 29,
+        "bytes": 2577836
+      }
+    },
+    "solver-itc2021-sports-timetabling-judging-data": {
+      "result": {
+        "files": 16,
+        "bytes": 2059277
+      }
+    }
+  }
+}

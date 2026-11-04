@@ -1,0 +1,350 @@
+{
+  "cargo_lock_sha256": "37ab4de2c96f7d7b3c9f1b6b9ce58081365a3c68b6073a4d5a5a4f9bf92d10c9",
+  "component": "Penrose optimizer and exact Cargo.lock registry set",
+  "coverage_scope": "All 46 exact Cargo.lock registry archives were verified, as a conservative notice set including build/host/Windows dependencies; this is not a claim all are linked into wasm32.",
+  "crates": [
+    {
+      "directory": "crates/Inflector-0.11.4",
+      "license": "BSD-2-Clause",
+      "name": "Inflector",
+      "payload_linkage": "not_asserted",
+      "version": "0.11.4"
+    },
+    {
+      "directory": "crates/approx-0.5.1",
+      "license": "Apache-2.0",
+      "name": "approx",
+      "payload_linkage": "not_asserted",
+      "version": "0.5.1"
+    },
+    {
+      "directory": "crates/autocfg-1.1.0",
+      "license": "Apache-2.0 OR MIT",
+      "name": "autocfg",
+      "payload_linkage": "not_asserted",
+      "version": "1.1.0"
+    },
+    {
+      "directory": "crates/bumpalo-3.11.1",
+      "license": "MIT/Apache-2.0",
+      "name": "bumpalo",
+      "payload_linkage": "not_asserted",
+      "version": "3.11.1"
+    },
+    {
+      "directory": "crates/bytemuck-1.12.1",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "name": "bytemuck",
+      "payload_linkage": "not_asserted",
+      "version": "1.12.1"
+    },
+    {
+      "directory": "crates/cfg-if-1.0.0",
+      "license": "MIT/Apache-2.0",
+      "name": "cfg-if",
+      "payload_linkage": "not_asserted",
+      "version": "1.0.0"
+    },
+    {
+      "directory": "crates/console_error_panic_hook-0.1.7",
+      "license": "Apache-2.0/MIT",
+      "name": "console_error_panic_hook",
+      "payload_linkage": "not_asserted",
+      "version": "0.1.7"
+    },
+    {
+      "directory": "crates/console_log-0.2.0",
+      "license": "MIT/Apache-2.0",
+      "name": "console_log",
+      "payload_linkage": "not_asserted",
+      "version": "0.2.0"
+    },
+    {
+      "directory": "crates/js-sys-0.3.60",
+      "license": "MIT/Apache-2.0",
+      "name": "js-sys",
+      "payload_linkage": "not_asserted",
+      "version": "0.3.60"
+    },
+    {
+      "directory": "crates/log-0.4.17",
+      "license": "MIT OR Apache-2.0",
+      "name": "log",
+      "payload_linkage": "not_asserted",
+      "version": "0.4.17"
+    },
+    {
+      "directory": "crates/matrixmultiply-0.3.2",
+      "license": "MIT/Apache-2.0",
+      "name": "matrixmultiply",
+      "payload_linkage": "not_asserted",
+      "version": "0.3.2"
+    },
+    {
+      "directory": "crates/nalgebra-0.31.1",
+      "license": "BSD-3-Clause",
+      "name": "nalgebra",
+      "payload_linkage": "not_asserted",
+      "version": "0.31.1"
+    },
+    {
+      "directory": "crates/nalgebra-macros-0.1.0",
+      "license": "Apache-2.0",
+      "name": "nalgebra-macros",
+      "payload_linkage": "not_asserted",
+      "version": "0.1.0"
+    },
+    {
+      "directory": "crates/num-complex-0.4.2",
+      "license": "MIT OR Apache-2.0",
+      "name": "num-complex",
+      "payload_linkage": "not_asserted",
+      "version": "0.4.2"
+    },
+    {
+      "directory": "crates/num-integer-0.1.45",
+      "license": "MIT OR Apache-2.0",
+      "name": "num-integer",
+      "payload_linkage": "not_asserted",
+      "version": "0.1.45"
+    },
+    {
+      "directory": "crates/num-rational-0.4.1",
+      "license": "MIT OR Apache-2.0",
+      "name": "num-rational",
+      "payload_linkage": "not_asserted",
+      "version": "0.4.1"
+    },
+    {
+      "directory": "crates/num-traits-0.2.15",
+      "license": "MIT OR Apache-2.0",
+      "name": "num-traits",
+      "payload_linkage": "not_asserted",
+      "version": "0.2.15"
+    },
+    {
+      "directory": "crates/once_cell-1.16.0",
+      "license": "MIT OR Apache-2.0",
+      "name": "once_cell",
+      "payload_linkage": "not_asserted",
+      "version": "1.16.0"
+    },
+    {
+      "directory": "crates/paste-1.0.9",
+      "license": "MIT OR Apache-2.0",
+      "name": "paste",
+      "payload_linkage": "not_asserted",
+      "version": "1.0.9"
+    },
+    {
+      "directory": "crates/proc-macro2-1.0.43",
+      "license": "MIT OR Apache-2.0",
+      "name": "proc-macro2",
+      "payload_linkage": "not_asserted",
+      "version": "1.0.43"
+    },
+    {
+      "directory": "crates/quote-1.0.21",
+      "license": "MIT OR Apache-2.0",
+      "name": "quote",
+      "payload_linkage": "not_asserted",
+      "version": "1.0.21"
+    },
+    {
+      "directory": "crates/rawpointer-0.2.1",
+      "license": "MIT/Apache-2.0",
+      "name": "rawpointer",
+      "payload_linkage": "not_asserted",
+      "version": "0.2.1"
+    },
+    {
+      "directory": "crates/safe_arch-0.6.0",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "name": "safe_arch",
+      "payload_linkage": "not_asserted",
+      "version": "0.6.0"
+    },
+    {
+      "directory": "crates/serde-1.0.147",
+      "license": "MIT OR Apache-2.0",
+      "name": "serde",
+      "payload_linkage": "not_asserted",
+      "version": "1.0.147"
+    },
+    {
+      "directory": "crates/serde-wasm-bindgen-0.4.5",
+      "license": "MIT",
+      "name": "serde-wasm-bindgen",
+      "payload_linkage": "not_asserted",
+      "version": "0.4.5"
+    },
+    {
+      "directory": "crates/serde_derive-1.0.147",
+      "license": "MIT OR Apache-2.0",
+      "name": "serde_derive",
+      "payload_linkage": "not_asserted",
+      "version": "1.0.147"
+    },
+    {
+      "directory": "crates/simba-0.7.2",
+      "license": "Apache-2.0",
+      "name": "simba",
+      "payload_linkage": "not_asserted",
+      "version": "0.7.2"
+    },
+    {
+      "directory": "crates/syn-1.0.99",
+      "license": "MIT OR Apache-2.0",
+      "name": "syn",
+      "payload_linkage": "not_asserted",
+      "version": "1.0.99"
+    },
+    {
+      "directory": "crates/termcolor-1.1.3",
+      "license": "Unlicense OR MIT",
+      "name": "termcolor",
+      "payload_linkage": "not_asserted",
+      "version": "1.1.3"
+    },
+    {
+      "directory": "crates/thiserror-1.0.37",
+      "license": "MIT OR Apache-2.0",
+      "name": "thiserror",
+      "payload_linkage": "not_asserted",
+      "version": "1.0.37"
+    },
+    {
+      "directory": "crates/thiserror-impl-1.0.37",
+      "license": "MIT OR Apache-2.0",
+      "name": "thiserror-impl",
+      "payload_linkage": "not_asserted",
+      "version": "1.0.37"
+    },
+    {
+      "directory": "crates/ts-rs-6.2.1",
+      "license": "MIT",
+      "name": "ts-rs",
+      "payload_linkage": "not_asserted",
+      "version": "6.2.1"
+    },
+    {
+      "directory": "crates/ts-rs-macros-6.2.0",
+      "license": "MIT",
+      "name": "ts-rs-macros",
+      "payload_linkage": "not_asserted",
+      "version": "6.2.0"
+    },
+    {
+      "directory": "crates/typenum-1.15.0",
+      "license": "MIT OR Apache-2.0",
+      "name": "typenum",
+      "payload_linkage": "not_asserted",
+      "version": "1.15.0"
+    },
+    {
+      "directory": "crates/unicode-ident-1.0.4",
+      "license": "(MIT OR Apache-2.0) AND Unicode-DFS-2016",
+      "name": "unicode-ident",
+      "payload_linkage": "not_asserted",
+      "version": "1.0.4"
+    },
+    {
+      "directory": "crates/wasm-bindgen-0.2.84",
+      "license": "MIT/Apache-2.0",
+      "name": "wasm-bindgen",
+      "payload_linkage": "not_asserted",
+      "version": "0.2.84"
+    },
+    {
+      "directory": "crates/wasm-bindgen-backend-0.2.84",
+      "license": "MIT/Apache-2.0",
+      "name": "wasm-bindgen-backend",
+      "payload_linkage": "not_asserted",
+      "version": "0.2.84"
+    },
+    {
+      "directory": "crates/wasm-bindgen-macro-0.2.84",
+      "license": "MIT/Apache-2.0",
+      "name": "wasm-bindgen-macro",
+      "payload_linkage": "not_asserted",
+      "version": "0.2.84"
+    },
+    {
+      "directory": "crates/wasm-bindgen-macro-support-0.2.84",
+      "license": "MIT/Apache-2.0",
+      "name": "wasm-bindgen-macro-support",
+      "payload_linkage": "not_asserted",
+      "version": "0.2.84"
+    },
+    {
+      "directory": "crates/wasm-bindgen-shared-0.2.84",
+      "license": "MIT/Apache-2.0",
+      "name": "wasm-bindgen-shared",
+      "payload_linkage": "not_asserted",
+      "version": "0.2.84"
+    },
+    {
+      "directory": "crates/web-sys-0.3.60",
+      "license": "MIT/Apache-2.0",
+      "name": "web-sys",
+      "payload_linkage": "not_asserted",
+      "version": "0.3.60"
+    },
+    {
+      "directory": "crates/wide-0.7.4",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "name": "wide",
+      "payload_linkage": "not_asserted",
+      "version": "0.7.4"
+    },
+    {
+      "directory": "crates/winapi-0.3.9",
+      "license": "MIT/Apache-2.0",
+      "name": "winapi",
+      "payload_linkage": "not_asserted",
+      "version": "0.3.9"
+    },
+    {
+      "directory": "crates/winapi-i686-pc-windows-gnu-0.4.0",
+      "license": "MIT/Apache-2.0",
+      "name": "winapi-i686-pc-windows-gnu",
+      "payload_linkage": "not_asserted",
+      "version": "0.4.0"
+    },
+    {
+      "directory": "crates/winapi-util-0.1.5",
+      "license": "Unlicense/MIT",
+      "name": "winapi-util",
+      "payload_linkage": "not_asserted",
+      "version": "0.1.5"
+    },
+    {
+      "directory": "crates/winapi-x86_64-pc-windows-gnu-0.4.0",
+      "license": "MIT/Apache-2.0",
+      "name": "winapi-x86_64-pc-windows-gnu",
+      "payload_linkage": "not_asserted",
+      "version": "0.4.0"
+    }
+  ],
+  "installed_project_license": "LICENSE",
+  "license": "MIT",
+  "original_notice_file_count": 77,
+  "payload_scope": "The exact candidate Penrose JavaScript payloads match the reviewed fixed ProofWidgets content. Individual crate linkage into wasm32 is not asserted.",
+  "project_license": {
+    "bytes": 1057,
+    "ref": "fd4aae0b95ad6f7b35863de87b16e796e2c3bfda",
+    "sha256": "afb11426e09da40a1ae4f8fa17ddcc6b6a52d14df04c29bc5bcd06eb8730624d",
+    "text_file": "image-notices/afb11426e09da40a1ae4f8fa17ddcc6b6a52d14df04c29bc5bcd06eb8730624d.txt",
+    "url": "https://raw.githubusercontent.com/penrose/penrose/fd4aae0b95ad6f7b35863de87b16e796e2c3bfda/LICENSE"
+  },
+  "schema_version": 1,
+  "source_archive_content_independently_verified": false,
+  "source_archive_url": "https://github.com/penrose/penrose/archive/fd4aae0b95ad6f7b35863de87b16e796e2c3bfda.tar.gz",
+  "source_commit": "fd4aae0b95ad6f7b35863de87b16e796e2c3bfda",
+  "source_policy": "Retain exact crate notices and license declarations. Exact crate archive URLs and SHA-256 values are supplied for source retrieval; the 46 crate archives are not installed in the image and no all-linked claim is made.",
+  "source_url": "https://github.com/penrose/penrose/tree/fd4aae0b95ad6f7b35863de87b16e796e2c3bfda/packages/optimizer",
+  "supplementary_notice_file_count": 6,
+  "total_crate_archives": 46,
+  "verified_crate_archives": 46,
+  "version": "3.2.0"
+}

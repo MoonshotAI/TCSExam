@@ -1,0 +1,3 @@
+DIMACS maximum-clique benchmark inputs. Original source index: https://iridia.ulb.ac.be/~fmascia/maximum_clique/ . Historical complete archive: DIMACS_all_ascii.tar.bz2.
+The original complete archive URL currently returns404; the CMU second source covers only12 of24 selected hidden graphs. Original graph bytes, full saved hidden vertex permutations and exact frozen input-only candidates are preserved.
+Benchmark-family redistribution terms remain unresolved. No public upload or new data license is authorized. Both splits contain only explicitly declared graph inputs; no cliques, colors, score tables or answers are included.

@@ -1,0 +1,54 @@
+{
+  "author": "Isaac Z. Schlueter <i@izs.me> (https://blog.izs.me)",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BlueOak-1.0.0",
+  "lock_entry": {
+    "dependencies": {
+      "lru-cache": "^11.0.0",
+      "minipass": "^7.1.2"
+    },
+    "dev": true,
+    "engines": {
+      "node": "18 || 20 || >=22"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/isaacs"
+    },
+    "integrity": "sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg==",
+    "license": "BlueOak-1.0.0",
+    "resolved": "https://registry.npmjs.org/path-scurry/-/path-scurry-2.0.2.tgz",
+    "version": "2.0.2"
+  },
+  "lock_path": "node_modules/path-scurry",
+  "name": "path-scurry",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1552,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "text_file": "image-notices/8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004.txt"
+    }
+  ],
+  "package_license": "BlueOak-1.0.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 101468,
+    "installed_in_image": false,
+    "integrity": "sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/path-scurry/-/path-scurry-2.0.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "dea3e3dab1c00c28fcb5871b1133b02050c7e110dde2dbe31e14067922c23ec1"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.0.2"
+}

@@ -1,0 +1,52 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260920",
+   "kind": "shipped-baseline",
+   "measured_on": "judge-service"
+  },
+  "K": {
+   "ref": "tasks/cvrp-cvrplib/PROVENANCE.md §B/K derivation: BKS values from the CVRPLIB page (the page marks 85 keys as proven optimal and gives best scores for 29; solution files passed the real checker).",
+   "tier": "proven-optimal"
+  }
+ },
+ "family": "cvrp",
+ "id": "cvrp-cvrplib",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-cvrp-cvrplib-judge-v12"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": null,
+  "n_hidden": 34,
+  "n_public": 80,
+  "per_instance_seconds": 180,
+  "shard_cores": 4,
+  "shard_mem_gb": 8,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "library",
+  "ecosystem": "CVRPLIB",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "customer permutation (depot fixed)"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "form2 is in place: split.json has 80 public / 34 hidden (stratified by family=set × size=customer count n). Hidden B for all 34 keys was measured and anchored under the judging resource envelope (260920, with the fallback-fixed baseline; ex087 triggered the fallback and produced a valid measurement, while the other 33 keys never triggered the fallback; all 80 public keys reconfirmed A==B). Environment contents: /app/instances has 80 public instances and /app/library has 76 background instances (excluding the 114 judged instances)."
+ },
+ "subdomain": "routing",
+ "title": "Capacitated vehicle routing"
+}

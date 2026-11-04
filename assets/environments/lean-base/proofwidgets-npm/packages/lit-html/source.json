@@ -1,0 +1,46 @@
+{
+  "author": "Google LLC",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BSD-3-Clause",
+  "lock_entry": {
+    "dependencies": {
+      "@types/trusted-types": "^2.0.2"
+    },
+    "integrity": "sha512-Qy9hU88zcmaxBXcc10ZpdK7cOLXvXpRoBxERdtqV9QOrfpMZZ6pSYP91LhpPtap3sFMUiL7Tw2RImbe0Al2/kw==",
+    "license": "BSD-3-Clause",
+    "resolved": "https://registry.npmjs.org/lit-html/-/lit-html-3.3.2.tgz",
+    "version": "3.3.2"
+  },
+  "lock_path": "node_modules/lit-html",
+  "name": "lit-html",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1518,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "2b66f9390afde29edfe4314daff93f01fb182e1178053e228120178987e5db75",
+      "text_file": "image-notices/2b66f9390afde29edfe4314daff93f01fb182e1178053e228120178987e5db75.txt"
+    }
+  ],
+  "package_license": "BSD-3-Clause",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 314485,
+    "installed_in_image": false,
+    "integrity": "sha512-Qy9hU88zcmaxBXcc10ZpdK7cOLXvXpRoBxERdtqV9QOrfpMZZ6pSYP91LhpPtap3sFMUiL7Tw2RImbe0Al2/kw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/lit-html/-/lit-html-3.3.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "82b5e0feacc17112dc35c73cc9ea0bce438201344b3a5b4e016e4d039fb339ba"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.3.2"
+}

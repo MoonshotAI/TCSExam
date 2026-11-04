@@ -1,0 +1,49 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260912",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/glasscut-roadef2018/PROVENANCE.md §B/K derivation: OF values from validated solutions in the champion repository's solutions_best (supported by the official final-results table and per-team xlsx files).",
+   "tier": "competition-record"
+  }
+ },
+ "family": "guillotine-glass-cutting",
+ "id": "glasscut-roadef2018",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-glasscut-roadef2018-judge-v12"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "GLASSCUT_TIME_LIMIT",
+  "n_hidden": 15,
+  "n_public": 35,
+  "per_instance_seconds": 3600,
+  "shard_cores": 4,
+  "shard_mem_gb": 32,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "ROADEF 2018",
+  "hidden_set": "official-private",
+  "memorization_risk": "high",
+  "transform": null
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "Official two-tier format: run each instance independently for 180s and then 3600s, and combine the results with weights 0.1/0.9. per_instance_seconds records the main tier, 3600; the two-tier meaning is in notes because the schema cannot express it with one value. Judging uses 32GB memory as a compromise because the official 48GB exceeds the isolated execution environment per-sandbox limit; the task statement's 48GB figure is stale (see discrepancies)."
+ },
+ "subdomain": "packing",
+ "title": "2D guillotine glass cutting"
+}

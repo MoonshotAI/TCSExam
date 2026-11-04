@@ -1,0 +1,51 @@
+{
+  "author": {
+    "email": "contact@tada5hi.net",
+    "name": "Peter Placzek",
+    "url": "https://github.com/tada5hi"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dev": true,
+    "engines": {
+      "node": ">=20.0.0"
+    },
+    "integrity": "sha512-KAkBqZl3c2GvNgNhcoyJae1aKldDW0LO279wF9bk1PnluRTETKBq0WyzRXxEhoQLk56yHaOY4JCBEKDuJIET5g==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/smob/-/smob-1.6.1.tgz",
+    "version": "1.6.1"
+  },
+  "lock_path": "node_modules/smob",
+  "name": "smob",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1075,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "c85886d9005151bb2f0a81fa4f64dac639913799db5c550ec3681dbdeb3dea65",
+      "text_file": "image-notices/c85886d9005151bb2f0a81fa4f64dac639913799db5c550ec3681dbdeb3dea65.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 12520,
+    "installed_in_image": false,
+    "integrity": "sha512-KAkBqZl3c2GvNgNhcoyJae1aKldDW0LO279wF9bk1PnluRTETKBq0WyzRXxEhoQLk56yHaOY4JCBEKDuJIET5g==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/smob/-/smob-1.6.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "fc70185156253b39282f40dd5a3025023dfdcf08f24af60f1aaab7c68a9f3694"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.6.1"
+}

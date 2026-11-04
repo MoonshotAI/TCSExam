@@ -1,0 +1,46 @@
+{
+  "author": "Jason Johnston",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "require-from-string": "^2.0.2"
+    },
+    "integrity": "sha512-RKshQI1R3YQ+n9YJz2QQ147P66ELpa1FQEg20Dk8oW9t2KgLbpDLLp9aGZ7y8WHSshDknG0bknqGw5/tyCs5tw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/bidi-js/-/bidi-js-1.0.3.tgz",
+    "version": "1.0.3"
+  },
+  "lock_path": "node_modules/bidi-js",
+  "name": "bidi-js",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1071,
+      "installed_file": "notices/original/package/LICENSE.txt",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.txt",
+      "sha256": "49d4d143fed599deb502a0fe6e02f49832f87e9a3a4cd0502e469596d50faa6d",
+      "text_file": "image-notices/49d4d143fed599deb502a0fe6e02f49832f87e9a3a4cd0502e469596d50faa6d.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 44565,
+    "installed_in_image": false,
+    "integrity": "sha512-RKshQI1R3YQ+n9YJz2QQ147P66ELpa1FQEg20Dk8oW9t2KgLbpDLLp9aGZ7y8WHSshDknG0bknqGw5/tyCs5tw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/bidi-js/-/bidi-js-1.0.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "a7cc59b071f40782b660352e57da68863510c842d93c0f42efe40c1394658cd2"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.0.3"
+}

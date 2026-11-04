@@ -1,0 +1,29 @@
+{
+ "namespace": "RectTSPGap",
+ "main_theorem": "main",
+ "interface_defs": [
+  "certN",
+  "certPX",
+  "certPY",
+  "claimedAlpha"
+ ],
+ "baseline_alpha": "1/1",
+ "standing_alpha": "142/121",
+ "record_per_n": {
+  "11": "17/15",
+  "12": "8/7",
+  "13": "23/20",
+  "14": "22/19",
+  "15": "7/6",
+  "16": "142/121"
+ },
+ "conjecture_4_3": "4/3",
+ "standard_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "probe_timeout_sec": 1700
+}

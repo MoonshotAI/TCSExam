@@ -1,0 +1,1804 @@
+{
+ "instances": {
+  "e_001": {
+   "B": 2,
+   "K": 2,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 651,
+   "n": 512
+  },
+  "e_002": {
+   "B": 56,
+   "K": 27,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 3322,
+   "n": 1024
+  },
+  "e_003": {
+   "B": 703,
+   "K": 674,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 6055,
+   "n": 1024
+  },
+  "e_004": {
+   "B": 189,
+   "K": 185,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 5081,
+   "n": 1024
+  },
+  "e_005": {
+   "B": 652,
+   "K": 631,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 5736,
+   "n": 1024
+  },
+  "e_006": {
+   "B": 133,
+   "K": 133,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 2211,
+   "n": 1024
+  },
+  "e_007": {
+   "B": 281,
+   "K": 276,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 4198,
+   "n": 1024
+  },
+  "e_008": {
+   "B": 1407,
+   "K": 1368,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 15020,
+   "n": 2048
+  },
+  "e_009": {
+   "B": 450,
+   "K": 450,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 6804,
+   "n": 1024
+  },
+  "e_010": {
+   "B": 520,
+   "K": 477,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 7005,
+   "n": 1024
+  },
+  "e_011": {
+   "B": 2033,
+   "K": 1917,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 15076,
+   "n": 4096
+  },
+  "e_012": {
+   "B": 2023,
+   "K": 1913,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 15066,
+   "n": 4096
+  },
+  "e_013": {
+   "B": 575,
+   "K": 547,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 7038,
+   "n": 2048
+  },
+  "e_014": {
+   "B": 632,
+   "K": 595,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 7847,
+   "n": 2048
+  },
+  "e_015": {
+   "B": 807,
+   "K": 788,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 9390,
+   "n": 2048
+  },
+  "e_016": {
+   "B": 635,
+   "K": 632,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 10655,
+   "n": 2048
+  },
+  "e_017": {
+   "B": 366,
+   "K": 364,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 3800,
+   "n": 1024
+  },
+  "e_018": {
+   "B": 832,
+   "K": 796,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 5964,
+   "n": 2048
+  },
+  "e_019": {
+   "B": 1171,
+   "K": 1137,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 11718,
+   "n": 2048
+  },
+  "e_020": {
+   "B": 591,
+   "K": 555,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 7039,
+   "n": 2048
+  },
+  "e_021": {
+   "B": 541,
+   "K": 510,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 6147,
+   "n": 2048
+  },
+  "e_022": {
+   "B": 261,
+   "K": 258,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 1884,
+   "n": 1024
+  },
+  "e_023": {
+   "B": 459,
+   "K": 452,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 5400,
+   "n": 2048
+  },
+  "e_024": {
+   "B": 686,
+   "K": 667,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 7546,
+   "n": 2048
+  },
+  "e_025": {
+   "B": 273,
+   "K": 273,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 2802,
+   "n": 1024
+  },
+  "e_026": {
+   "B": 204,
+   "K": 201,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 1365,
+   "n": 1024
+  },
+  "e_027": {
+   "B": 580,
+   "K": 575,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 9406,
+   "n": 2048
+  },
+  "e_028": {
+   "B": 703,
+   "K": 655,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 7372,
+   "n": 2048
+  },
+  "e_029": {
+   "B": 717,
+   "K": 715,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 11302,
+   "n": 2048
+  },
+  "e_030": {
+   "B": 1186,
+   "K": 1159,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 11894,
+   "n": 2048
+  },
+  "e_031": {
+   "B": 2158,
+   "K": 2079,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 26071,
+   "n": 4096
+  },
+  "e_032": {
+   "B": 999,
+   "K": 978,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 10642,
+   "n": 2048
+  },
+  "e_033": {
+   "B": 282,
+   "K": 277,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 2010,
+   "n": 1024
+  },
+  "e_034": {
+   "B": 343,
+   "K": 333,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 2650,
+   "n": 1024
+  },
+  "e_035": {
+   "B": 2313,
+   "K": 2179,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 17074,
+   "n": 4096
+  },
+  "e_036": {
+   "B": 2813,
+   "K": 2744,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 29827,
+   "n": 4096
+  },
+  "e_037": {
+   "B": 2805,
+   "K": 2679,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 28675,
+   "n": 4096
+  },
+  "e_038": {
+   "B": 257,
+   "K": 254,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 1496,
+   "n": 1024
+  },
+  "e_039": {
+   "B": 406,
+   "K": 400,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 2570,
+   "n": 1024
+  },
+  "e_040": {
+   "B": 1825,
+   "K": 1774,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 21948,
+   "n": 4096
+  },
+  "e_041": {
+   "B": 2636,
+   "K": 2509,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 27082,
+   "n": 4096
+  },
+  "e_042": {
+   "B": 473,
+   "K": 470,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 5013,
+   "n": 2048
+  },
+  "e_043": {
+   "B": 528,
+   "K": 521,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 5700,
+   "n": 2048
+  },
+  "e_044": {
+   "B": 2013,
+   "K": 1962,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 23319,
+   "n": 4096
+  },
+  "e_045": {
+   "B": 2957,
+   "K": 2837,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 30202,
+   "n": 4096
+  },
+  "e_046": {
+   "B": 407,
+   "K": 397,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 2671,
+   "n": 1024
+  },
+  "e_047": {
+   "B": 2793,
+   "K": 2666,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 28612,
+   "n": 4096
+  },
+  "e_048": {
+   "B": 2157,
+   "K": 2093,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 12722,
+   "n": 4096
+  },
+  "e_049": {
+   "B": 2133,
+   "K": 2043,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 23857,
+   "n": 4096
+  },
+  "e_050": {
+   "B": 2669,
+   "K": 2576,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 20102,
+   "n": 4096
+  },
+  "e_051": {
+   "B": 2156,
+   "K": 2086,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 12946,
+   "n": 4096
+  },
+  "e_052": {
+   "B": 2159,
+   "K": 2103,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 12958,
+   "n": 4096
+  },
+  "e_053": {
+   "B": 2696,
+   "K": 2628,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 26872,
+   "n": 4096
+  },
+  "e_054": {
+   "B": 403,
+   "K": 403,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 1951,
+   "n": 1024
+  },
+  "e_055": {
+   "B": 2012,
+   "K": 1948,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 12085,
+   "n": 4096
+  },
+  "e_056": {
+   "B": 2720,
+   "K": 2648,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 26915,
+   "n": 4096
+  },
+  "e_057": {
+   "B": 2005,
+   "K": 1955,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 12298,
+   "n": 4096
+  },
+  "e_058": {
+   "B": 3718,
+   "K": 3514,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 27574,
+   "n": 8192
+  },
+  "e_059": {
+   "B": 221,
+   "K": 214,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 1124,
+   "n": 1024
+  },
+  "e_060": {
+   "B": 2187,
+   "K": 2094,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 22629,
+   "n": 4096
+  },
+  "e_061": {
+   "B": 560,
+   "K": 554,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 4320,
+   "n": 2048
+  },
+  "e_062": {
+   "B": 261,
+   "K": 257,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 1272,
+   "n": 1024
+  },
+  "e_063": {
+   "B": 2345,
+   "K": 2267,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 23766,
+   "n": 4096
+  },
+  "e_064": {
+   "B": 786,
+   "K": 774,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 6447,
+   "n": 2048
+  },
+  "e_065": {
+   "B": 3829,
+   "K": 3709,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 48759,
+   "n": 8192
+  },
+  "e_066": {
+   "B": 4016,
+   "K": 3811,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 29503,
+   "n": 8192
+  },
+  "e_067": {
+   "B": 514,
+   "K": 513,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 4241,
+   "n": 2048
+  },
+  "e_068": {
+   "B": 2352,
+   "K": 2260,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 24043,
+   "n": 4096
+  },
+  "e_069": {
+   "B": 2174,
+   "K": 2092,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 22368,
+   "n": 4096
+  },
+  "e_070": {
+   "B": 764,
+   "K": 754,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 5184,
+   "n": 2048
+  },
+  "e_071": {
+   "B": 687,
+   "K": 675,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 4896,
+   "n": 2048
+  },
+  "e_072": {
+   "B": 1852,
+   "K": 1790,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 18054,
+   "n": 4096
+  },
+  "e_073": {
+   "B": 4613,
+   "K": 4420,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 51796,
+   "n": 8192
+  },
+  "e_074": {
+   "B": 386,
+   "K": 378,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 1525,
+   "n": 1024
+  },
+  "e_075": {
+   "B": 4285,
+   "K": 4069,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 31504,
+   "n": 8192
+  },
+  "e_076": {
+   "B": 5020,
+   "K": 4872,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 51863,
+   "n": 8192
+  },
+  "e_077": {
+   "B": 5423,
+   "K": 5292,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 54744,
+   "n": 8192
+  },
+  "e_078": {
+   "B": 1880,
+   "K": 1826,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 15992,
+   "n": 4096
+  },
+  "e_079": {
+   "B": 5050,
+   "K": 4906,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 52154,
+   "n": 8192
+  },
+  "e_080": {
+   "B": 74,
+   "K": 38,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 3480,
+   "n": 1024
+  },
+  "e_081": {
+   "B": 5038,
+   "K": 4887,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 51030,
+   "n": 8192
+  },
+  "e_082": {
+   "B": 4510,
+   "K": 4441,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 43548,
+   "n": 8192
+  },
+  "e_083": {
+   "B": 752,
+   "K": 745,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 3537,
+   "n": 2048
+  },
+  "e_084": {
+   "B": 44,
+   "K": 28,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 1024,
+   "n": 512
+  },
+  "e_085": {
+   "B": 6479,
+   "K": 6254,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 69446,
+   "n": 8192
+  },
+  "e_086": {
+   "B": 11268,
+   "K": 10962,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 124104,
+   "n": 16384
+  },
+  "e_087": {
+   "B": 6476,
+   "K": 6253,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 69372,
+   "n": 8192
+  },
+  "e_088": {
+   "B": 6074,
+   "K": 5809,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 65903,
+   "n": 8192
+  },
+  "e_089": {
+   "B": 5202,
+   "K": 4928,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 55556,
+   "n": 8192
+  },
+  "e_090": {
+   "B": 791,
+   "K": 779,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 3544,
+   "n": 2048
+  },
+  "e_091": {
+   "B": 770,
+   "K": 755,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 3364,
+   "n": 2048
+  },
+  "e_092": {
+   "B": 10008,
+   "K": 9819,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 119263,
+   "n": 16384
+  },
+  "e_093": {
+   "B": 10893,
+   "K": 10616,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 109487,
+   "n": 16384
+  },
+  "e_094": {
+   "B": 4398,
+   "K": 4278,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 41813,
+   "n": 8192
+  },
+  "e_095": {
+   "B": 5473,
+   "K": 5198,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 59029,
+   "n": 8192
+  },
+  "e_096": {
+   "B": 9109,
+   "K": 8908,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 113251,
+   "n": 16384
+  },
+  "e_097": {
+   "B": 10084,
+   "K": 9797,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 103725,
+   "n": 16384
+  },
+  "e_098": {
+   "B": 9566,
+   "K": 9409,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 107319,
+   "n": 16384
+  },
+  "e_099": {
+   "B": 4850,
+   "K": 4752,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 38175,
+   "n": 8192
+  },
+  "e_100": {
+   "B": 22521,
+   "K": 21935,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 246591,
+   "n": 32768
+  },
+  "e_101": {
+   "B": 22472,
+   "K": 21900,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 246723,
+   "n": 32768
+  },
+  "e_102": {
+   "B": 10079,
+   "K": 9661,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 73685,
+   "n": 16384
+  },
+  "e_103": {
+   "B": 10556,
+   "K": 10159,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 77536,
+   "n": 16384
+  },
+  "e_104": {
+   "B": 10558,
+   "K": 10146,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 77432,
+   "n": 16384
+  },
+  "e_105": {
+   "B": 148,
+   "K": 58,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 10584,
+   "n": 2048
+  },
+  "e_106": {
+   "B": 10659,
+   "K": 10064,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 119809,
+   "n": 16384
+  },
+  "e_107": {
+   "B": 9493,
+   "K": 8888,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 104833,
+   "n": 16384
+  },
+  "e_108": {
+   "B": 1699,
+   "K": 1637,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 30272,
+   "n": 2048
+  },
+  "e_109": {
+   "B": 13143,
+   "K": 12710,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 149298,
+   "n": 16384
+  },
+  "e_110": {
+   "B": 121,
+   "K": 63,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 6990,
+   "n": 2048
+  },
+  "e_111": {
+   "B": 1794,
+   "K": 1741,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 31904,
+   "n": 2048
+  },
+  "e_112": {
+   "B": 1708,
+   "K": 1641,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 30308,
+   "n": 2048
+  },
+  "e_113": {
+   "B": 935,
+   "K": 915,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 25750,
+   "n": 1024
+  },
+  "e_114": {
+   "B": 1504,
+   "K": 1411,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 23899,
+   "n": 2048
+  },
+  "e_115": {
+   "B": 25186,
+   "K": 24084,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 304304,
+   "n": 32768
+  },
+  "e_116": {
+   "B": 897,
+   "K": 869,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 24462,
+   "n": 1024
+  },
+  "e_117": {
+   "B": 25218,
+   "K": 24091,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 304790,
+   "n": 32768
+  },
+  "e_118": {
+   "B": 20786,
+   "K": 19503,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 240624,
+   "n": 32768
+  },
+  "e_119": {
+   "B": 22977,
+   "K": 21755,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 272707,
+   "n": 32768
+  },
+  "e_120": {
+   "B": 1647,
+   "K": 1579,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 28679,
+   "n": 2048
+  },
+  "e_121": {
+   "B": 139,
+   "K": 73,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 5480,
+   "n": 1024
+  },
+  "e_122": {
+   "B": 25191,
+   "K": 24103,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 305033,
+   "n": 32768
+  },
+  "e_123": {
+   "B": 21859,
+   "K": 20628,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 256256,
+   "n": 32768
+  },
+  "e_124": {
+   "B": 24037,
+   "K": 22871,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 288288,
+   "n": 32768
+  },
+  "e_125": {
+   "B": 24053,
+   "K": 22898,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 288748,
+   "n": 32768
+  },
+  "e_126": {
+   "B": 24005,
+   "K": 22870,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 288979,
+   "n": 32768
+  },
+  "e_127": {
+   "B": 1559,
+   "K": 1469,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 25492,
+   "n": 2048
+  },
+  "e_128": {
+   "B": 22962,
+   "K": 21746,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 272272,
+   "n": 32768
+  },
+  "e_129": {
+   "B": 21810,
+   "K": 20630,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 256665,
+   "n": 32768
+  },
+  "e_130": {
+   "B": 22920,
+   "K": 21755,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 272924,
+   "n": 32768
+  },
+  "e_131": {
+   "B": 20773,
+   "K": 19518,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 240240,
+   "n": 32768
+  },
+  "e_132": {
+   "B": 1795,
+   "K": 1740,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 31866,
+   "n": 2048
+  },
+  "e_133": {
+   "B": 1410,
+   "K": 1314,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 22332,
+   "n": 2048
+  },
+  "e_134": {
+   "B": 21889,
+   "K": 20645,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 256870,
+   "n": 32768
+  },
+  "e_135": {
+   "B": 20820,
+   "K": 19506,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 240816,
+   "n": 32768
+  },
+  "e_136": {
+   "B": 39949,
+   "K": 38335,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 288528,
+   "n": 65536
+  },
+  "e_137": {
+   "B": 148,
+   "K": 68,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 7003,
+   "n": 2048
+  },
+  "e_138": {
+   "B": 37907,
+   "K": 36224,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 273310,
+   "n": 65536
+  },
+  "e_139": {
+   "B": 39911,
+   "K": 38321,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 288492,
+   "n": 65536
+  },
+  "e_140": {
+   "B": 37912,
+   "K": 36278,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 273600,
+   "n": 65536
+  },
+  "e_141": {
+   "B": 41971,
+   "K": 40325,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 303686,
+   "n": 65536
+  },
+  "e_142": {
+   "B": 37930,
+   "K": 36290,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 273337,
+   "n": 65536
+  },
+  "e_143": {
+   "B": 41955,
+   "K": 40318,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 303696,
+   "n": 65536
+  },
+  "e_144": {
+   "B": 41999,
+   "K": 40371,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 303996,
+   "n": 65536
+  },
+  "e_145": {
+   "B": 1603,
+   "K": 1526,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 27086,
+   "n": 2048
+  },
+  "e_146": {
+   "B": 39910,
+   "K": 38294,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 288796,
+   "n": 65536
+  },
+  "e_147": {
+   "B": 937,
+   "K": 918,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 25052,
+   "n": 1024
+  },
+  "e_148": {
+   "B": 1540,
+   "K": 1458,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 25737,
+   "n": 2048
+  },
+  "e_149": {
+   "B": 105,
+   "K": 55,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 3624,
+   "n": 1024
+  },
+  "e_150": {
+   "B": 873,
+   "K": 839,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 22042,
+   "n": 1024
+  },
+  "e_151": {
+   "B": 51110,
+   "K": 48837,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 653240,
+   "n": 65536
+  },
+  "e_152": {
+   "B": 48837,
+   "K": 46473,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 618237,
+   "n": 65536
+  },
+  "e_153": {
+   "B": 1453,
+   "K": 1345,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 22306,
+   "n": 2048
+  },
+  "e_154": {
+   "B": 51136,
+   "K": 48896,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 653641,
+   "n": 65536
+  },
+  "e_155": {
+   "B": 48895,
+   "K": 46490,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 619239,
+   "n": 65536
+  },
+  "e_156": {
+   "B": 46731,
+   "K": 44267,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 584478,
+   "n": 65536
+  },
+  "e_157": {
+   "B": 51107,
+   "K": 48880,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 652583,
+   "n": 65536
+  },
+  "e_158": {
+   "B": 46742,
+   "K": 44289,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 584837,
+   "n": 65536
+  },
+  "e_159": {
+   "B": 44684,
+   "K": 42093,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 550097,
+   "n": 65536
+  },
+  "e_160": {
+   "B": 1793,
+   "K": 1743,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 32172,
+   "n": 2048
+  },
+  "e_161": {
+   "B": 1650,
+   "K": 1570,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 28713,
+   "n": 2048
+  },
+  "e_162": {
+   "B": 79719,
+   "K": 76482,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 573836,
+   "n": 131072
+  },
+  "e_163": {
+   "B": 79764,
+   "K": 76438,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 574081,
+   "n": 131072
+  },
+  "e_164": {
+   "B": 44713,
+   "K": 42108,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 549544,
+   "n": 65536
+  },
+  "e_165": {
+   "B": 83693,
+   "K": 80478,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 603932,
+   "n": 131072
+  },
+  "e_166": {
+   "B": 46707,
+   "K": 44313,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 583890,
+   "n": 65536
+  },
+  "e_167": {
+   "B": 146,
+   "K": 73,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 5487,
+   "n": 1024
+  },
+  "e_168": {
+   "B": 44647,
+   "K": 42107,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 550435,
+   "n": 65536
+  },
+  "e_169": {
+   "B": 83839,
+   "K": 80521,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 604300,
+   "n": 131072
+  },
+  "e_170": {
+   "B": 79650,
+   "K": 76383,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 573737,
+   "n": 131072
+  },
+  "e_171": {
+   "B": 83822,
+   "K": 80549,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 604042,
+   "n": 131072
+  },
+  "e_172": {
+   "B": 3450,
+   "K": 3322,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 67676,
+   "n": 4096
+  },
+  "e_173": {
+   "B": 878,
+   "K": 842,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 23175,
+   "n": 1024
+  },
+  "e_174": {
+   "B": 79,
+   "K": 45,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 2048,
+   "n": 1024
+  },
+  "e_175": {
+   "B": 1407,
+   "K": 1322,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 22520,
+   "n": 2048
+  },
+  "e_176": {
+   "B": 3458,
+   "K": 3319,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 66372,
+   "n": 4096
+  },
+  "e_177": {
+   "B": 26681,
+   "K": 25788,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 320320,
+   "n": 32768
+  },
+  "e_178": {
+   "B": 3453,
+   "K": 3326,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 66408,
+   "n": 4096
+  },
+  "e_179": {
+   "B": 1592,
+   "K": 1518,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 27346,
+   "n": 2048
+  },
+  "e_180": {
+   "B": 26687,
+   "K": 25774,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 320832,
+   "n": 32768
+  },
+  "e_181": {
+   "B": 26673,
+   "K": 25792,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 321088,
+   "n": 32768
+  },
+  "e_182": {
+   "B": 82,
+   "K": 48,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 2048,
+   "n": 1024
+  },
+  "e_183": {
+   "B": 126,
+   "K": 65,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 5471,
+   "n": 1024
+  },
+  "e_184": {
+   "B": 99135,
+   "K": 94367,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 1315170,
+   "n": 131072
+  },
+  "e_185": {
+   "B": 3349,
+   "K": 3194,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 62879,
+   "n": 4096
+  },
+  "e_186": {
+   "B": 1480,
+   "K": 1378,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 23928,
+   "n": 2048
+  },
+  "e_187": {
+   "B": 98,
+   "K": 57,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 3632,
+   "n": 1024
+  },
+  "e_188": {
+   "B": 3332,
+   "K": 3193,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 62913,
+   "n": 4096
+  },
+  "e_189": {
+   "B": 84,
+   "K": 51,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 2048,
+   "n": 1024
+  },
+  "e_190": {
+   "B": 130,
+   "K": 70,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "Dagger@1800s proven(pace2022-spec)",
+   "m": 7005,
+   "n": 2048
+  },
+  "e_191": {
+   "B": 172,
+   "K": 92,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 4143,
+   "n": 2048
+  },
+  "e_192": {
+   "B": 192,
+   "K": 92,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 7307,
+   "n": 2048
+  },
+  "e_193": {
+   "B": 784,
+   "K": 738,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 17144,
+   "n": 1024
+  },
+  "e_194": {
+   "B": 473,
+   "K": 244,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 15440,
+   "n": 2048
+  },
+  "e_195": {
+   "B": 855,
+   "K": 766,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 32768,
+   "n": 1024
+  },
+  "e_196": {
+   "B": 720,
+   "K": 605,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 16384,
+   "n": 1024
+  },
+  "e_197": {
+   "B": 3417,
+   "K": 3229,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 93346,
+   "n": 4096
+  },
+  "e_198": {
+   "B": 7187,
+   "K": 6895,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 230662,
+   "n": 8192
+  },
+  "e_199": {
+   "B": 14999,
+   "K": 14581,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 559996,
+   "n": 16384
+  },
+  "e_200": {
+   "B": 25084,
+   "K": 23389,
+   "L": null,
+   "b_source": "baseline@1800s(pace2022-spec, fixed measurement remeasure on isolated execution environment sandbox)",
+   "k_source": "DiVerSeS-upper-bound(pace2022-spec)",
+   "m": 503421,
+   "n": 32768
+  }
+ }
+}

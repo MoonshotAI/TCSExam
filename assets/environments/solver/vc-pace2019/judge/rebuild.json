@@ -1,0 +1,41 @@
+{
+  "task": "tasks/solver/online/vc-pace2019",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/vc-pace2019/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:b73ff48a6535c6e9c934d7d4464ff9b3d95ab2e7b505dcf64b2438a68fe32345"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/vc-pace2019/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "8cbf3801cfd2470b58e0788c8e9b89f4a69257b2971b482291765d7921bac4e9"
+    },
+    {
+      "source": "tasks/solver/online/vc-pace2019/tests/scoring.py",
+      "target": "/opt/vc/scoring.py",
+      "sha256": "ee71f3b51eee16fe73868ce9deb6fc2c0a93cbf4736722d486a487bc3ea78c9a"
+    },
+    {
+      "source": "tasks/solver/online/vc-pace2019/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "f7043eb69fab92469296023e153f9bfda81d72e8f9535946bda5220f9ea49424"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": false,
+  "public_source_rebuild_verified": false,
+  "limitations": [
+    "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
+  ]
+}

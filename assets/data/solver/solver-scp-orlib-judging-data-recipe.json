@@ -1,0 +1,434 @@
+{
+  "format": "official_files",
+  "description": "Fixed official OR-Library files, exact historical railway transpose and frozen row/column relabeling. Select only the established split.",
+  "sources": [
+    {
+      "id": "orlib-rail2536",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/rail2536.gz",
+      "bytes": 5328649,
+      "sha256": "c3b6b90ce43661902c351ad273dacb4df0a917e73c1d4415d1ccf3309dc1088e"
+    },
+    {
+      "id": "orlib-rail582",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/rail582.txt",
+      "bytes": 1897663,
+      "sha256": "870db91f8217fc8defb7a95b642791975e56aba736741b210df8642890df385b"
+    },
+    {
+      "id": "orlib-scp410",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scp410.txt",
+      "bytes": 20123,
+      "sha256": "d10d8531380a005299a4dce4c08a77c11568cdbd484a0ccf1da3a3e7c65b5187"
+    },
+    {
+      "id": "orlib-scp45",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scp45.txt",
+      "bytes": 20262,
+      "sha256": "05ddb202c92a26623036486fadd089f73d5ec0ce8cfc262ca44f17a3b9de8863"
+    },
+    {
+      "id": "orlib-scp48",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scp48.txt",
+      "bytes": 20554,
+      "sha256": "5c1137889bc04ea982f21ce9783c16fb88092d628fd9fe739150821cc03f3be8"
+    },
+    {
+      "id": "orlib-scp510",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scp510.txt",
+      "bytes": 44238,
+      "sha256": "e7d521e4d2df266cb80d87d9f43604bac0805d2bb634b959b21a2f934cb32e87"
+    },
+    {
+      "id": "orlib-scp55",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scp55.txt",
+      "bytes": 43595,
+      "sha256": "939e60400a50bd9ca400e90242e5d9085fa7350a74c8827ecc328dfc74f84395"
+    },
+    {
+      "id": "orlib-scp58",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scp58.txt",
+      "bytes": 43835,
+      "sha256": "23868d4492a4dc1d8879d20fff14aecfe0bbe9181515395a4ad175f69502fbaa"
+    },
+    {
+      "id": "orlib-scp62",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scp62.txt",
+      "bytes": 44884,
+      "sha256": "d496833a8234fb5fd2b091f87d72e40bba573b4bd3c2dc321930f2a0b8604500"
+    },
+    {
+      "id": "orlib-scp64",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scp64.txt",
+      "bytes": 44318,
+      "sha256": "8503f1cc32c8641b0ece857518131b973bf79708a41efcd4d3368a2c5d93921c"
+    },
+    {
+      "id": "orlib-scpa2",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpa2.txt",
+      "bytes": 97016,
+      "sha256": "e8fd17b3e0e505c905531d561f4f594a592d23963fb4bff4115fcf0e58b307de"
+    },
+    {
+      "id": "orlib-scpa4",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpa4.txt",
+      "bytes": 97021,
+      "sha256": "bee46166d53b16141d0148cbe25b16da358bb0de8b7b2ae935c70a302cd481d3"
+    },
+    {
+      "id": "orlib-scpb2",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpb2.txt",
+      "bytes": 225038,
+      "sha256": "d89600b2f4c6300199063aa84346e537819e2ff7837873e911ba2fdeefd059ff"
+    },
+    {
+      "id": "orlib-scpb4",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpb4.txt",
+      "bytes": 225215,
+      "sha256": "2af8da888923351f192fc7b604e8b3aca58fdb7b65dfa9660a824669742b6e22"
+    },
+    {
+      "id": "orlib-scpc2",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpc2.txt",
+      "bytes": 169702,
+      "sha256": "e5eee8ff791b3cef6d798d22de4adef0c29ace58c956557c9ac57e2366f04b4c"
+    },
+    {
+      "id": "orlib-scpc4",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpc4.txt",
+      "bytes": 169724,
+      "sha256": "50f6664962ab5310c0f69cd1c7279da4a8df6ababe6b1ff8af6817e44d606b6c"
+    },
+    {
+      "id": "orlib-scpclr12",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpclr12.txt",
+      "bytes": 511915,
+      "sha256": "10f228f4419bdc4b2a698289b58509606a92c222ec2612234970e39e02fa528d"
+    },
+    {
+      "id": "orlib-scpcyc07",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpcyc07.txt",
+      "bytes": 15119,
+      "sha256": "0b358ecba9227bb2e942f9b4edf9a6c557483df6157b5aa2b73e4e4882f020e3"
+    },
+    {
+      "id": "orlib-scpcyc10",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpcyc10.txt",
+      "bytes": 300665,
+      "sha256": "0f53dc9cd09c16ee3e11e01313be0ea209b81832658770a1f2d35e267b5d46e7"
+    },
+    {
+      "id": "orlib-scpd2",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpd2.txt",
+      "bytes": 404045,
+      "sha256": "d7f1f02605500b679842e5c83d90dd30caee92fa4384bee4940d9719c63e6be2"
+    },
+    {
+      "id": "orlib-scpd4",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpd4.txt",
+      "bytes": 403746,
+      "sha256": "735a292f127584092bdb62941e042f44cbf7c93d8d9c7468d6a97c9d5548ccb0"
+    },
+    {
+      "id": "orlib-scpe3",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpe3.txt",
+      "bytes": 20679,
+      "sha256": "b314906d85d852a2dbff9b6b536b44720c22b7d0fc7039d37a722ed3f5ba700b"
+    },
+    {
+      "id": "orlib-scpnre3",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpnre3.txt",
+      "bytes": 1243514,
+      "sha256": "53237a6e9e7210edc5a5123c568cbd047234121d49850a9b7756dfd529fad821"
+    },
+    {
+      "id": "orlib-scpnrf3",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpnrf3.txt",
+      "bytes": 2470758,
+      "sha256": "63ee594cfe45332cd30481e27772c548559a25feec2995e2e56b04ebce3f47d6"
+    },
+    {
+      "id": "orlib-scpnrg3",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpnrg3.txt",
+      "bytes": 1039319,
+      "sha256": "bb408dc057bb2bc04bcc6334acb440b8014c459d186b6dc6342bcebc0bd13e29"
+    },
+    {
+      "id": "orlib-scpnrh3",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpnrh3.txt",
+      "bytes": 2544330,
+      "sha256": "7adad74e197e807f0c0fb72ccfbc804f7fb9756c2a8e19baf2e9938c16805d89"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tests/instances/ex001.txt",
+      "source_id": "orlib-rail2536",
+      "operation": "scp_relabel",
+      "rail": true,
+      "compressed": true,
+      "official_stem": "rail2536",
+      "seed_suffix": "",
+      "transform_params_sha256": "7db6bde1ccbee6a446827da812fa812cf85e2c527c19e2fac6917c43a15dfc97"
+    },
+    {
+      "path": "tests/instances/ex007.txt",
+      "source_id": "orlib-rail582",
+      "operation": "scp_relabel",
+      "rail": true,
+      "compressed": false,
+      "official_stem": "rail582",
+      "seed_suffix": "",
+      "transform_params_sha256": "9efc71336ad968a58c2e7ae8e21931974b6272ec9ff09dd3e7b783e068ce1fe1"
+    },
+    {
+      "path": "tests/instances/ex009.txt",
+      "source_id": "orlib-scp410",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scp410",
+      "seed_suffix": "",
+      "transform_params_sha256": "d5d9ac2fbdbdcc38fd5e1f758ded9ed2c3a943c12e3a9591d882f3799aead4ff"
+    },
+    {
+      "path": "tests/instances/ex013.txt",
+      "source_id": "orlib-scp45",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scp45",
+      "seed_suffix": "",
+      "transform_params_sha256": "9cd6709922d65797635d035782e126be1c1415f6c90ff331757922681ec74f9a"
+    },
+    {
+      "path": "tests/instances/ex016.txt",
+      "source_id": "orlib-scp48",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scp48",
+      "seed_suffix": "",
+      "transform_params_sha256": "bd93d1d7a5f1f914e069afca8a75568270680c9e6e103ff282e15cb236f43653"
+    },
+    {
+      "path": "tests/instances/ex019.txt",
+      "source_id": "orlib-scp510",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scp510",
+      "seed_suffix": "",
+      "transform_params_sha256": "e1f59958ca306130eb2b696831f488507b6fa9a6f7fdc6f623509f3777f46650"
+    },
+    {
+      "path": "tests/instances/ex023.txt",
+      "source_id": "orlib-scp55",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scp55",
+      "seed_suffix": "",
+      "transform_params_sha256": "ae878e3ab76f8a16cbc3cad3b565ad813a2e203a0650becd6f8c2c26e937048a"
+    },
+    {
+      "path": "tests/instances/ex026.txt",
+      "source_id": "orlib-scp58",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scp58",
+      "seed_suffix": "",
+      "transform_params_sha256": "7c34fe3e75004bdd3ddd6f0d16c9e47d42ec1c83c6aa478fbec1a3018dfc50a5"
+    },
+    {
+      "path": "tests/instances/ex029.txt",
+      "source_id": "orlib-scp62",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scp62",
+      "seed_suffix": "",
+      "transform_params_sha256": "6d79e4445aaa13ef12b9fdcfb7bf115735cf8c3eab9a5eb665c24ab0fb218d76"
+    },
+    {
+      "path": "tests/instances/ex031.txt",
+      "source_id": "orlib-scp64",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scp64",
+      "seed_suffix": "",
+      "transform_params_sha256": "12cfcdfc2d41731c21006ccbe10af7ff711e09d0fe57ba50bfa3ea2b793417e3"
+    },
+    {
+      "path": "tests/instances/ex034.txt",
+      "source_id": "orlib-scpa2",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpa2",
+      "seed_suffix": "",
+      "transform_params_sha256": "513a5a28b6080db00bf8b63aaa9a113b5ba36fb490e783dc87dfa9113cadf9a2"
+    },
+    {
+      "path": "tests/instances/ex036.txt",
+      "source_id": "orlib-scpa4",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpa4",
+      "seed_suffix": "",
+      "transform_params_sha256": "19a78cfe50c47a7de51821ae1f9c92ab75700a694729030eb28990dc1883325e"
+    },
+    {
+      "path": "tests/instances/ex039.txt",
+      "source_id": "orlib-scpb2",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpb2",
+      "seed_suffix": "",
+      "transform_params_sha256": "db6ff7eb50a8209093357dfffb96d7ae5f8dc31c1b07e8ad5912b7fa7dd0b060"
+    },
+    {
+      "path": "tests/instances/ex041.txt",
+      "source_id": "orlib-scpb4",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpb4",
+      "seed_suffix": "",
+      "transform_params_sha256": "369019e88c26c67e1253dbe415cbd6377d59d33cedf840419a0ee8189eaeca07"
+    },
+    {
+      "path": "tests/instances/ex044.txt",
+      "source_id": "orlib-scpc2",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpc2",
+      "seed_suffix": "",
+      "transform_params_sha256": "57c51f728eece4ae9c5e5e77fb30cf51675300a5f4be070accd790ad0d54df18"
+    },
+    {
+      "path": "tests/instances/ex046.txt",
+      "source_id": "orlib-scpc4",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpc4",
+      "seed_suffix": "",
+      "transform_params_sha256": "60e5d30cc751de2717b1d3fbe3f2221dd5ed6a685ee7be41512c8d17a6fa7b03"
+    },
+    {
+      "path": "tests/instances/ex050.txt",
+      "source_id": "orlib-scpclr12",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpclr12",
+      "seed_suffix": "",
+      "transform_params_sha256": "7c158729682cc03016e329b7262c8987fca06d93126efce2e5a7676fee537eab"
+    },
+    {
+      "path": "tests/instances/ex053.txt",
+      "source_id": "orlib-scpcyc07",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpcyc07",
+      "seed_suffix": "",
+      "transform_params_sha256": "b12c0980d9a75e3b2e5674ce4901fb778cb0c9cc1cc9e2f0f7724196d8b54ebb"
+    },
+    {
+      "path": "tests/instances/ex056.txt",
+      "source_id": "orlib-scpcyc10",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpcyc10",
+      "seed_suffix": "",
+      "transform_params_sha256": "51c6b258223b2d3364ebd9f04250af6937db39e0406582b6e3ec966a3485cb6e"
+    },
+    {
+      "path": "tests/instances/ex059.txt",
+      "source_id": "orlib-scpd2",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpd2",
+      "seed_suffix": "",
+      "transform_params_sha256": "aa5cb1a3447dc9318f6cbdeabbaa15f01c0004667e970837bde6e73709550df2"
+    },
+    {
+      "path": "tests/instances/ex061.txt",
+      "source_id": "orlib-scpd4",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpd4",
+      "seed_suffix": "",
+      "transform_params_sha256": "014bd18e7658cf9810a72fc405058351022f4901c6ba855a3d5b53b3b2d4bfea"
+    },
+    {
+      "path": "tests/instances/ex065.txt",
+      "source_id": "orlib-scpe3",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpe3",
+      "seed_suffix": "",
+      "transform_params_sha256": "62e3680c969ffc80bdef931bc70044e810a2e967f29cca1d3f3c3b9d9a1d3a93"
+    },
+    {
+      "path": "tests/instances/ex070.txt",
+      "source_id": "orlib-scpnre3",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpnre3",
+      "seed_suffix": "",
+      "transform_params_sha256": "e6005f4d3ea9d90347d04ece24121fc8f349e7dd6830d55dddda6b202602e975"
+    },
+    {
+      "path": "tests/instances/ex075.txt",
+      "source_id": "orlib-scpnrf3",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpnrf3",
+      "seed_suffix": "",
+      "transform_params_sha256": "bffd4a37b9d0f2c83a66f4b1944b3bc01b54942fa5f219b5e3aa5410a3df4144"
+    },
+    {
+      "path": "tests/instances/ex080.txt",
+      "source_id": "orlib-scpnrg3",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpnrg3",
+      "seed_suffix": "",
+      "transform_params_sha256": "1634acdddeef45f62c01ccc5ee80fa1df01a13f89c5de7990313080eae28791f"
+    },
+    {
+      "path": "tests/instances/ex085.txt",
+      "source_id": "orlib-scpnrh3",
+      "operation": "scp_relabel",
+      "rail": false,
+      "compressed": false,
+      "official_stem": "scpnrh3",
+      "seed_suffix": "",
+      "transform_params_sha256": "0169cd6726db8265c47700181a0ad7f6354fb98714faae2eaaa13199aedb6542"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py",
+    "src/tcsexam/scp_data.py",
+    "assets/data/solver/scp-orlib/transform.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "license_notice": "docs/licenses/third-party/OR-Library-MIT.txt",
+  "transform": "assets/data/solver/scp-orlib/transform.py",
+  "transform_sha256": "ae674ce2665eb6c792e0c3f9c4f93a8bcf71dc3d06b62ee5ae586df17d9fdbac"
+}

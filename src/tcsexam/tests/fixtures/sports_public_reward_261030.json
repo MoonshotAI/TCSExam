@@ -1,0 +1,315 @@
+{
+ "beat_known_best": [],
+ "excluded_B_equals_K": [
+  "ITC2021_Early_1.xml",
+  "ITC2021_Early_10.xml",
+  "ITC2021_Early_4.xml",
+  "ITC2021_Early_5.xml",
+  "ITC2021_Late_1.xml",
+  "ITC2021_Late_10.xml",
+  "ITC2021_Late_11.xml",
+  "ITC2021_Late_13.xml",
+  "ITC2021_Late_4.xml",
+  "ITC2021_Late_6.xml",
+  "ITC2021_Middle_1.xml",
+  "ITC2021_Middle_10.xml",
+  "ITC2021_Middle_14.xml",
+  "ITC2021_Middle_2.xml",
+  "ITC2021_Middle_4.xml",
+  "ITC2021_Middle_7.xml",
+  "ITC2021_Middle_8.xml",
+  "ITC2021_Test3.xml",
+  "ITC2021_Test4.xml",
+  "ITC2021_Test6.xml",
+  "ITC2021_Test8.xml"
+ ],
+ "mean_raw_unclipped": 0.0,
+ "participating": 8,
+ "per_instance": {
+  "ITC2021_Early_1.xml": {
+   "A": null,
+   "B": null,
+   "K": 362,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 24.07,
+   "status": "invalid solution (1 hard-constraint violation(s))"
+  },
+  "ITC2021_Early_10.xml": {
+   "A": null,
+   "B": null,
+   "K": 3400,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 18.31,
+   "status": "invalid solution (136 hard-constraint violation(s))"
+  },
+  "ITC2021_Early_14.xml": {
+   "A": 696,
+   "B": 696,
+   "K": 4,
+   "raw": 0.0,
+   "score": 0.0,
+   "seconds": 18.45,
+   "status": "ok"
+  },
+  "ITC2021_Early_3.xml": {
+   "A": 1922,
+   "B": 1922,
+   "K": 934,
+   "raw": 0.0,
+   "score": 0.0,
+   "seconds": 18.25,
+   "status": "ok"
+  },
+  "ITC2021_Early_4.xml": {
+   "A": null,
+   "B": null,
+   "K": 430,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 18.2,
+   "status": "invalid solution (61 hard-constraint violation(s))"
+  },
+  "ITC2021_Early_5.xml": {
+   "A": null,
+   "B": null,
+   "K": 3127,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 19.56,
+   "status": "invalid solution (117 hard-constraint violation(s))"
+  },
+  "ITC2021_Early_8.xml": {
+   "A": 2785,
+   "B": 2785,
+   "K": 1051,
+   "raw": 0.0,
+   "score": 0.0,
+   "seconds": 19.9,
+   "status": "ok"
+  },
+  "ITC2021_Early_9.xml": {
+   "A": 1188,
+   "B": 1188,
+   "K": 56,
+   "raw": 0.0,
+   "score": 0.0,
+   "seconds": 19.3,
+   "status": "ok"
+  },
+  "ITC2021_Late_1.xml": {
+   "A": null,
+   "B": null,
+   "K": 1919,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 22.51,
+   "status": "invalid solution (4 hard-constraint violation(s))"
+  },
+  "ITC2021_Late_10.xml": {
+   "A": null,
+   "B": null,
+   "K": 1786,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 18.2,
+   "status": "invalid solution (132 hard-constraint violation(s))"
+  },
+  "ITC2021_Late_11.xml": {
+   "A": null,
+   "B": null,
+   "K": 201,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 30.12,
+   "status": "invalid solution (5 hard-constraint violation(s))"
+  },
+  "ITC2021_Late_13.xml": {
+   "A": null,
+   "B": null,
+   "K": 1813,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 19.75,
+   "status": "invalid solution (29 hard-constraint violation(s))"
+  },
+  "ITC2021_Late_3.xml": {
+   "A": 4528,
+   "B": 4528,
+   "K": 2369,
+   "raw": 0.0,
+   "score": 0.0,
+   "seconds": 18.3,
+   "status": "ok"
+  },
+  "ITC2021_Late_4.xml": {
+   "A": null,
+   "B": null,
+   "K": 0,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 48.62,
+   "status": "invalid solution (2 hard-constraint violation(s))"
+  },
+  "ITC2021_Late_6.xml": {
+   "A": null,
+   "B": null,
+   "K": 872,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 18.65,
+   "status": "invalid solution (35 hard-constraint violation(s))"
+  },
+  "ITC2021_Late_9.xml": {
+   "A": 2395,
+   "B": 2395,
+   "K": 498,
+   "raw": 0.0,
+   "score": 0.0,
+   "seconds": 19.06,
+   "status": "ok"
+  },
+  "ITC2021_Middle_1.xml": {
+   "A": null,
+   "B": null,
+   "K": 5177,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 18.35,
+   "status": "invalid solution (60 hard-constraint violation(s))"
+  },
+  "ITC2021_Middle_10.xml": {
+   "A": null,
+   "B": null,
+   "K": 1228,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 17.55,
+   "status": "invalid solution (46 hard-constraint violation(s))"
+  },
+  "ITC2021_Middle_14.xml": {
+   "A": null,
+   "B": null,
+   "K": 1140,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 33.34,
+   "status": "invalid solution (3 hard-constraint violation(s))"
+  },
+  "ITC2021_Middle_15.xml": {
+   "A": 2053,
+   "B": 2053,
+   "K": 462,
+   "raw": 0.0,
+   "score": 0.0,
+   "seconds": 18.55,
+   "status": "ok"
+  },
+  "ITC2021_Middle_2.xml": {
+   "A": null,
+   "B": null,
+   "K": 7115,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 18.41,
+   "status": "invalid solution (87 hard-constraint violation(s))"
+  },
+  "ITC2021_Middle_4.xml": {
+   "A": null,
+   "B": null,
+   "K": 7,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 67.15,
+   "status": "invalid solution (5 hard-constraint violation(s))"
+  },
+  "ITC2021_Middle_7.xml": {
+   "A": null,
+   "B": null,
+   "K": 1780,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 20.66,
+   "status": "invalid solution (38 hard-constraint violation(s))"
+  },
+  "ITC2021_Middle_8.xml": {
+   "A": null,
+   "B": null,
+   "K": 129,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 28.33,
+   "status": "invalid solution (2 hard-constraint violation(s))"
+  },
+  "ITC2021_Test1.xml": {
+   "A": 1137,
+   "B": 1137,
+   "K": 1066,
+   "raw": 0.0,
+   "score": 0.0,
+   "seconds": 17.2,
+   "status": "ok"
+  },
+  "ITC2021_Test3.xml": {
+   "A": null,
+   "B": null,
+   "K": 1253,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 20.82,
+   "status": "invalid solution (7 hard-constraint violation(s))"
+  },
+  "ITC2021_Test4.xml": {
+   "A": null,
+   "B": null,
+   "K": 4535,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 19.56,
+   "status": "invalid solution (7 hard-constraint violation(s))"
+  },
+  "ITC2021_Test6.xml": {
+   "A": null,
+   "B": null,
+   "K": 3144,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 20.16,
+   "status": "invalid solution (50 hard-constraint violation(s))"
+  },
+  "ITC2021_Test8.xml": {
+   "A": null,
+   "B": null,
+   "K": 3165,
+   "anchor_baseline_unsolved": true,
+   "raw": null,
+   "score": 0.0,
+   "seconds": 24.12,
+   "status": "invalid solution (3 hard-constraint violation(s))"
+  }
+ },
+ "pool_seconds": 1740.0,
+ "pool_seconds_spent": 675.46,
+ "reward": 0.0
+}

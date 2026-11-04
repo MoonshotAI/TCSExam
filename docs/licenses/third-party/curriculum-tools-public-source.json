@@ -1,0 +1,40 @@
+{
+  "checked": "2026-10-29",
+  "resource_id": "solver-curriculum-itc2007-development-tools",
+  "repository": "https://github.com/tomas-muller/cpsolver-itc2007",
+  "commit": "a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06",
+  "method": "Direct fixed-commit public downloads; compare byte size, SHA256 and Git blob ID with the existing frozen tool manifest. No JAR rebuild or solver execution.",
+  "files": [
+    {
+      "name": "cpsolver-all-1.2.jar",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/lib/cpsolver-all-1.2.jar",
+      "bytes": 891430,
+      "sha256": "73d4b2e866ddf3646cd29db919675ed49b6425873ed4b92f63a81df669b12366",
+      "git_blob": "fe56144990407d4f6c8f314e967e325962eb611a",
+      "all_checks_passed": true
+    },
+    {
+      "name": "dom4j-1.6.1.jar",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/lib/dom4j-1.6.1.jar",
+      "bytes": 313898,
+      "sha256": "593552ffea3c5823c6602478b5002a7c525fd904a3c44f1abe4065c22edfac73",
+      "git_blob": "c8c4dbb92d6c23a7fbb2813eb721eb4cce91750c",
+      "all_checks_passed": true
+    },
+    {
+      "name": "log4j-1.2.8.jar",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/lib/log4j-1.2.8.jar",
+      "bytes": 352668,
+      "sha256": "c316595a68f7bc74ee0931e0c4435481cdeddc91c95d2cb78eada107c5b01a65",
+      "git_blob": "493a3ccc1361b0d84889798a995a351138826511",
+      "all_checks_passed": true
+    }
+  ],
+  "content_digest": "sha256:849d88e8156c9409529dad60db9be8638e5174c3100946c5be7680afb87083a2",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "tool_behavior_changed": false,
+  "historical_build_materials": "docs/licenses/third-party/cpsolver-core-source.json",
+  "historical_distribution_materials": "docs/licenses/third-party/cpsolver-distribution-files.json",
+  "runtime_verified": false
+}

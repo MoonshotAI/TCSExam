@@ -1,0 +1,52 @@
+{
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://bost.ocks.org/mike"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "ISC",
+  "lock_entry": {
+    "dependencies": {
+      "delaunator": "5"
+    },
+    "engines": {
+      "node": ">=12"
+    },
+    "integrity": "sha512-mdjtIZ1XLAM8bm/hx3WwjfHt6Sggek7qH043O8KEjDXN40xi3vx/6pYSVTwLjEgiXQTbvaouWKynLBiUZ6SK6A==",
+    "license": "ISC",
+    "resolved": "https://registry.npmjs.org/d3-delaunay/-/d3-delaunay-6.0.4.tgz",
+    "version": "6.0.4"
+  },
+  "lock_path": "node_modules/d3-delaunay",
+  "name": "d3-delaunay",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 757,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "582c3022bd01942336095f92b58a90b1be624dc547d987555c6c956512dd24c1",
+      "text_file": "image-notices/582c3022bd01942336095f92b58a90b1be624dc547d987555c6c956512dd24c1.txt"
+    }
+  ],
+  "package_license": "ISC",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 25941,
+    "installed_in_image": false,
+    "integrity": "sha512-mdjtIZ1XLAM8bm/hx3WwjfHt6Sggek7qH043O8KEjDXN40xi3vx/6pYSVTwLjEgiXQTbvaouWKynLBiUZ6SK6A==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/d3-delaunay/-/d3-delaunay-6.0.4.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "935113ffa78d545505c8f1accf95be0e48594737eab34db8f50c9d6319907971"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "6.0.4"
+}

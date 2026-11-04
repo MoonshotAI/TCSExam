@@ -1,0 +1,212 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/ex001.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex001.txt",
+      "git_blob": "e91b5e9271b71be7823e76694ddb8b94a2d0e131",
+      "bytes": 80843197,
+      "sha256": "828f03857cfd493148786743812cbfa1fd5756ebe2b0959750452c600977e451",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex007.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex007.txt",
+      "git_blob": "e710334090f7fc6db25963991bc9b08fa254e28a",
+      "bytes": 2519486,
+      "sha256": "ef200c28ec4e0d3825169e0ca4fb0f79401a3b55777896ed5ddbd3c8f06a2347",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex009.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex009.txt",
+      "git_blob": "81b5126a36c6169ece2770a19f7d38277bd50856",
+      "bytes": 19573,
+      "sha256": "2b8805c4be6de396af1ded913bfe69be54bdc0d464a17ceed6fdf79a454e47cd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex013.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex013.txt",
+      "git_blob": "78b60c98787c02ec996c10e9d89cda9a2527711b",
+      "bytes": 19724,
+      "sha256": "27941864b83f93e7ed1dd8ac309463417dcbac76c96980be6330ba3df5bcdd9a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex016.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex016.txt",
+      "git_blob": "97dd24a5beeee6066a98355cf0f7763739cbea7a",
+      "bytes": 20031,
+      "sha256": "71e929aea0c744094b35efc0faa85ca7bb000530166008ac8e0c78b150f271b0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex019.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex019.txt",
+      "git_blob": "76d9750998fb76877fd07d55ad1fc274932931b0",
+      "bytes": 43811,
+      "sha256": "14a6aed43d4f00a0fab90ac3013e34f6513adfaa357eabfb60f0fb463907cd47",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex023.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex023.txt",
+      "git_blob": "a4a022a02be3572907c4d575ca47df3e9fcf322d",
+      "bytes": 43017,
+      "sha256": "9d11834aa888cd6bfedf931780c7afec10560efdc25f070f91ef15bbf24758a5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex026.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex026.txt",
+      "git_blob": "48510c5657586a8e600f6e3131a94a6bba97a751",
+      "bytes": 43291,
+      "sha256": "b53dc7070f787db74ca3917099ba2c75d56a1958dca09edb550436e627ee54ef",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex029.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex029.txt",
+      "git_blob": "8f44cca5c300894c1cd98d62a64a5f2baf9a6d73",
+      "bytes": 44322,
+      "sha256": "1b187b60aac385826ebf501e63c1ec1974aa1a4685714fcc1490f23aa6814363",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex031.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex031.txt",
+      "git_blob": "5dd878f874fd08a07d8a163263c2c248516c0bd2",
+      "bytes": 43748,
+      "sha256": "c2ed09342722c3132c427c4b9d2a0678c173027a1e2a12f3b929fe6883410267",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex034.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex034.txt",
+      "git_blob": "14a9eca56e767073f2be8e48d6be3b99469e8a4b",
+      "bytes": 96933,
+      "sha256": "55267779f7ef8f97ab38ec1dcfd859db3ba6ae4d877cf336f237c7e2f66786e1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex036.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex036.txt",
+      "git_blob": "90cfc2e0d15b9645f1ea4b7af9d640d651386351",
+      "bytes": 97036,
+      "sha256": "2f57374294b72da628b469fa6560b2edd10b59bfc54f3644c9fc1c6f3f775ffa",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex039.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex039.txt",
+      "git_blob": "31186f6fef7e725630813b93cebbacf73bd63211",
+      "bytes": 225750,
+      "sha256": "522f0de619120c2f0cd4efc946e72e5efd82df4c1a95bcf8b441c5ca5998fb17",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex041.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex041.txt",
+      "git_blob": "693b43ea590fe242a183cbb9df018e8249220ddd",
+      "bytes": 225880,
+      "sha256": "6e110c74ad9aeec610da09263fb2c6bc6b453df37e49f9af84a1dc49f4aba166",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex044.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex044.txt",
+      "git_blob": "7c525d0ed75172273c1009e5c0805c4d98ee7ef4",
+      "bytes": 169868,
+      "sha256": "b729ae2f35f3980de476a4f2e2fd4a7d683ce88771ee14006e18d9b9fa669487",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex046.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex046.txt",
+      "git_blob": "a1af2f623af18883064e664ca53c602d53facfbf",
+      "bytes": 169935,
+      "sha256": "1f05ae8688ad25a7ac958aa88b51dc290630862166f76e91956990933478a592",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex050.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex050.txt",
+      "git_blob": "0d8f96ba560bb853b4683b89fffbe41ea65905eb",
+      "bytes": 506262,
+      "sha256": "5eddb3d9cfc752a4632ef1cd7c693128b3a8402eea4755625914507534b59c7b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex053.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex053.txt",
+      "git_blob": "ebe6b1a2ce6fe3e8672d01483b6c94cbe010fc04",
+      "bytes": 12990,
+      "sha256": "17002f67549e1c8d4f6cea69d639e203150601def0be022f3a86be4e8e91831e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex056.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex056.txt",
+      "git_blob": "54b8ae480adb6550c772b335e5f7a6633d3286e3",
+      "bytes": 264184,
+      "sha256": "470cdd49c4fc8f36f0250d581c60617f3ec87a69b07792ad7d637f05216dca68",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex059.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex059.txt",
+      "git_blob": "a67b55ed123119b1114dafbf641f23d39aa2df1f",
+      "bytes": 405768,
+      "sha256": "adbf81216c46abdec0f28c9bb5d172c95a4678e8e468ccf958cde2933996d303",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex061.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex061.txt",
+      "git_blob": "7171b4f23e5607efff427769fbb7a1353d598ffe",
+      "bytes": 405431,
+      "sha256": "b1c35c9a79ae12fd7769e25e0f07ff2e89b81e86e62fa639dcca06bbae0b4867",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex065.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex065.txt",
+      "git_blob": "4437f0ca4a70fa676c76ba60a944e2d201b188e3",
+      "bytes": 21210,
+      "sha256": "63df12fd612fab3037041b276eb8a837a5255a631573d1e66271db578595ec65",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex070.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex070.txt",
+      "git_blob": "7df2935eb2b6e435d9db6e22e6f0a2a86b985ac1",
+      "bytes": 1250739,
+      "sha256": "7887abf8b86aa52e5a1f67dcbec1f856fe809365a6d25b4283e944d1d96f4ea5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex075.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex075.txt",
+      "git_blob": "792f9acf7b9616511f3ada4e37f7f510aed56be9",
+      "bytes": 2486257,
+      "sha256": "d57edf33f521390309727e74dbdf95ee713ec1875d9b2a77131fc1797d6865c3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex080.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex080.txt",
+      "git_blob": "ae8c1ee391f0b240bf0534ce759bc47815aceac6",
+      "bytes": 1043708,
+      "sha256": "699a364b9cf655367682132084eab776c4b955f057bda68d18b930d1c0fa18f9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex085.txt",
+      "source_path": "tasks/solver/online/scp-orlib/tests/instances/ex085.txt",
+      "git_blob": "e055e659f80d46fb5ec0bd18439033dead63f254",
+      "bytes": 2558426,
+      "sha256": "9c410f660ead1abbf99f5af4bc40da5204dd57a3d60078f5b150fbe37f8db940",
+      "mode": "0644"
+    }
+  ]
+}

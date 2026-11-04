@@ -1,0 +1,41 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "David Tolnay <dtolnay@gmail.com>"
+  ],
+  "bytes": 35491,
+  "checksum_sha256": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "(MIT OR Apache-2.0) AND Unicode-DFS-2016",
+  "name": "unicode-ident",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 10847,
+      "installed_file": "notices/original/LICENSE-APACHE",
+      "path": "unicode-ident-1.0.4/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+    },
+    {
+      "bytes": 1023,
+      "installed_file": "notices/original/LICENSE-MIT",
+      "path": "unicode-ident-1.0.4/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "text_file": "image-notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt"
+    },
+    {
+      "bytes": 2315,
+      "installed_file": "notices/original/LICENSE-UNICODE",
+      "path": "unicode-ident-1.0.4/LICENSE-UNICODE",
+      "sha256": "68f5b9f5ea36881a0942ba02f558e9e1faf76cc09cb165ad801744c61b738844",
+      "text_file": "image-notices/68f5b9f5ea36881a0942ba02f558e9e1faf76cc09cb165ad801744c61b738844.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/unicode-ident/unicode-ident-1.0.4.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "1.0.4"
+}

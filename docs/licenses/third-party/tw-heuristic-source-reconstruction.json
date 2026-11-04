@@ -1,0 +1,23 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "tw-heuristic",
+  "scope": "Frozen hidden100 are official original plaintext bytes. Historical graph relabeling does not match this frozen product and is excluded. Fixed official commit and bounded XZ streaming restore exact outputs; CC0 original-source notice retained.",
+  "records": [
+    {
+      "id": "solver-tw-heuristic-judging-data",
+      "result": {
+        "files": 100,
+        "bytes": 1329882827
+      },
+      "recipe": "assets/data/solver/solver-tw-heuristic-judging-data-recipe.json",
+      "recipe_sha256": "b29184f54993b0e8ac79e746a9d0634124667dbfe483fbe8d1314aa2a1b7e40d",
+      "format": "official_files",
+      "acquisition_verification": "anonymous_download_verified",
+      "docker_adapter_exercised": false
+    }
+  ],
+  "distribution": "local_prepare",
+  "new_distribution_authorization": false,
+  "public_upload_performed": false,
+  "public_pin": null
+}

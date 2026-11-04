@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/gp-dimacs10",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/gp-dimacs10/tests/checker.py",
+      "target": "tasks/solver/offline/gp-dimacs10/tests/checker.py",
+      "sha256": "80f23c37597e2c172240b14892351f678a46ea0d73c5d7c97832b523b79da19b"
+    },
+    {
+      "source": "tasks/solver/online/gp-dimacs10/tests/reference.json",
+      "target": "tasks/solver/offline/gp-dimacs10/tests/reference.json",
+      "sha256": "d3d38a848ebd1ba7a16406dbedd76417eec75f7cbfecd125f053ff7406784276"
+    },
+    {
+      "source": "tasks/solver/online/gp-dimacs10/tests/anchors.json",
+      "target": "tasks/solver/offline/gp-dimacs10/tests/anchors.json",
+      "sha256": "a4a674e6bbccbbefb0b385eee71ba697c31420d61e3bd982bbdd37a8da1ff6a9"
+    },
+    {
+      "source": "tasks/solver/online/gp-dimacs10/tests/metric_config.json",
+      "target": "tasks/solver/offline/gp-dimacs10/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-gp-dimacs10",
+  "verifier_dependency": "backend-online-gp-dimacs10",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

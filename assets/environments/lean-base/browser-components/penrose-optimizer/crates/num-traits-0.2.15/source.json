@@ -1,0 +1,34 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "The Rust Project Developers"
+  ],
+  "bytes": 49262,
+  "checksum_sha256": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "MIT OR Apache-2.0",
+  "name": "num-traits",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 10847,
+      "installed_file": "notices/original/LICENSE-APACHE",
+      "path": "num-traits-0.2.15/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+    },
+    {
+      "bytes": 1071,
+      "installed_file": "notices/original/LICENSE-MIT",
+      "path": "num-traits-0.2.15/LICENSE-MIT",
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "text_file": "image-notices/6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/num-traits/num-traits-0.2.15.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "0.2.15"
+}

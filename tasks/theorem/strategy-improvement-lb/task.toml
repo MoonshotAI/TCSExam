@@ -1,0 +1,39 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-strategy-improvement-lb-bare-proof"
+version = "0.1.0"
+description = "Prove the vDLM24 symmetric strategy improvement lower-bound chain (Section 4 facts on the family G_n, Lemmas 5/6, Observations 8/9/10, Proposition 7 lower bound, Theorem 1 of van Dijk-Loho-Maat, CSL 2024 / arXiv 2309.02223) in Lean 4 (machine-verified). L2: statement fidelity only, no ground truth. [bare variant: main theorem only, 0/1]"
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "parity-games", "strategy-improvement", "lower-bound", "type-2"]
+
+[metadata]
+family_id = "fam-strategy-improvement-lb"
+candidate_id = "cand-vdlm24-symmetric-ssi"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task: the proofs need the play-value order machinery, optimal-counterstrategy analysis on the explicit family G_n, and a five-phase trajectory induction with a transfer to arbitrary improvement rules; no ground truth is provided."
+source_paper = "Tom van Dijk, Georg Loho, Matthew T. Maat: The Worst-Case Complexity of Symmetric Strategy Improvement, CSL 2024; arXiv 2309.02223."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-theorem-strategy-improvement-lb-verifier"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

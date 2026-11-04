@@ -1,0 +1,53 @@
+{
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://bost.ocks.org/mike"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "ISC",
+  "lock_entry": {
+    "dependencies": {
+      "d3-color": "1 - 3",
+      "d3-interpolate": "1 - 3"
+    },
+    "engines": {
+      "node": ">=12"
+    },
+    "integrity": "sha512-A3s5PWiZ9YCXFye1o246KoscMWqf8BsD9eRiJ3He7C9OBaxKhAd5TFCdEx/7VbKtxxTsu//1mMJFrEt572cEyQ==",
+    "license": "ISC",
+    "resolved": "https://registry.npmjs.org/d3-scale-chromatic/-/d3-scale-chromatic-3.1.0.tgz",
+    "version": "3.1.0"
+  },
+  "lock_path": "node_modules/d3-scale-chromatic",
+  "name": "d3-scale-chromatic",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1423,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "0986d93944902cca9af86824b6a641b4b7c2d10602fc510c433a8bcd443919fe",
+      "text_file": "image-notices/0986d93944902cca9af86824b6a641b4b7c2d10602fc510c433a8bcd443919fe.txt"
+    }
+  ],
+  "package_license": "ISC",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 20179,
+    "installed_in_image": false,
+    "integrity": "sha512-A3s5PWiZ9YCXFye1o246KoscMWqf8BsD9eRiJ3He7C9OBaxKhAd5TFCdEx/7VbKtxxTsu//1mMJFrEt572cEyQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/d3-scale-chromatic/-/d3-scale-chromatic-3.1.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "2573f980e0acbbecc919f5c5fdf7cd3a8110eda2497da7b94ae303fab9c32aa4"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.1.0"
+}

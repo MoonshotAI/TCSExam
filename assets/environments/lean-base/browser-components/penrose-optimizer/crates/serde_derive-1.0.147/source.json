@@ -1,0 +1,35 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "Erick Tryzelaar <erick.tryzelaar@gmail.com>",
+    "David Tolnay <dtolnay@gmail.com>"
+  ],
+  "bytes": 54861,
+  "checksum_sha256": "4f1d362ca8fc9c3e3a7484440752472d68a6caa98f1ab81d99b5dfe517cec852",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "MIT OR Apache-2.0",
+  "name": "serde_derive",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 10847,
+      "installed_file": "notices/original/LICENSE-APACHE",
+      "path": "serde_derive-1.0.147/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+    },
+    {
+      "bytes": 1023,
+      "installed_file": "notices/original/LICENSE-MIT",
+      "path": "serde_derive-1.0.147/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "text_file": "image-notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/serde_derive/serde_derive-1.0.147.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "1.0.147"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/glasscut-roadef2018",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/glasscut-roadef2018/tests/checker.py",
+      "target": "tasks/solver/offline/glasscut-roadef2018/tests/checker.py",
+      "sha256": "499c088853f30d1e3095b28255f7421a94f7156df6c0cafe68e4f1178c63647b"
+    },
+    {
+      "source": "tasks/solver/online/glasscut-roadef2018/tests/reference.json",
+      "target": "tasks/solver/offline/glasscut-roadef2018/tests/reference.json",
+      "sha256": "991872a793e8b95751d6ff9771ccaa2143f4cca49c92bc5e7fb6351d479f9619"
+    },
+    {
+      "source": "tasks/solver/online/glasscut-roadef2018/tests/anchors.json",
+      "target": "tasks/solver/offline/glasscut-roadef2018/tests/anchors.json",
+      "sha256": "9789eb2c880cf13a9ed7b380267c79f8c42e4f89ff66f7b7e43968f36408bc26"
+    },
+    {
+      "source": "tasks/solver/online/glasscut-roadef2018/tests/metric_config.json",
+      "target": "tasks/solver/offline/glasscut-roadef2018/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-glasscut-roadef2018",
+  "verifier_dependency": "backend-online-glasscut-roadef2018",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

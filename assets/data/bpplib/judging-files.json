@@ -1,0 +1,238 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/ex002.txt",
+      "bytes": 844,
+      "mode": "0644",
+      "sha256": "9499ad4235100b51b2fa84613208161974e14842a4efe9d46a05e0c0569f7743"
+    },
+    {
+      "path": "tests/instances/ex006.txt",
+      "bytes": 1836,
+      "mode": "0644",
+      "sha256": "d51794d62be0858f8bd0889f57bd6dfc0a0669fb8568e37c3b369319dd896ff8"
+    },
+    {
+      "path": "tests/instances/ex009.txt",
+      "bytes": 3008,
+      "mode": "0644",
+      "sha256": "1a2044309ab71e550a681c4e2624e0ae012733d9320f87c269f24e3e39ad296a"
+    },
+    {
+      "path": "tests/instances/ex013.txt",
+      "bytes": 575,
+      "mode": "0644",
+      "sha256": "3602639d561669513f5709aeff8537e6c8753f8b29718eb086cf62ea76eac404"
+    },
+    {
+      "path": "tests/instances/ex016.txt",
+      "bytes": 1127,
+      "mode": "0644",
+      "sha256": "98996fa66cd7d3e4905c673b9f1164328159ac7ad0e709dd7f5acefdc9f5a319"
+    },
+    {
+      "path": "tests/instances/ex018.txt",
+      "bytes": 1680,
+      "mode": "0644",
+      "sha256": "f325b26a4016dbd19bc938a096df95cacae10c37e83453f181c18512e94cfbdd"
+    },
+    {
+      "path": "tests/instances/ex021.txt",
+      "bytes": 2926,
+      "mode": "0644",
+      "sha256": "75968cdeed0928b9a9aa5a78ee89175d8181850782d00d8f92d5ac829607e9c4"
+    },
+    {
+      "path": "tests/instances/ex024.txt",
+      "bytes": 1005,
+      "mode": "0644",
+      "sha256": "b373f9897444c0eae772e2db46e1784fec2ffc8f104a11457ed391e588f3d6ba"
+    },
+    {
+      "path": "tests/instances/ex026.txt",
+      "bytes": 2013,
+      "mode": "0644",
+      "sha256": "d57c3fb98e88eb5d91ccf017648d189a810138d40c21f924f780fd7b2d3ee293"
+    },
+    {
+      "path": "tests/instances/ex029.txt",
+      "bytes": 371,
+      "mode": "0644",
+      "sha256": "cda11205ecbda590b63ac473b7a3ef8a2de562557371e8f67bd5ab2e7ce822ab"
+    },
+    {
+      "path": "tests/instances/ex034.txt",
+      "bytes": 697,
+      "mode": "0644",
+      "sha256": "9aa39d8de69c1da73c747c9c3d4ee04fd3d1f5e3991768a4ff9a42200bd0dbbf"
+    },
+    {
+      "path": "tests/instances/ex040.txt",
+      "bytes": 619,
+      "mode": "0644",
+      "sha256": "0ecf8df1b0af769994c1c72f3077c6c7be21e82759ca3c8af7e363f77e0c8745"
+    },
+    {
+      "path": "tests/instances/ex041.txt",
+      "bytes": 709,
+      "mode": "0644",
+      "sha256": "50bf2361d81271c31960d72d0653f35e816c45eebd8d6ad6192d0d6394e4331f"
+    },
+    {
+      "path": "tests/instances/ex044.txt",
+      "bytes": 770,
+      "mode": "0644",
+      "sha256": "a00fb67188a80ae383782d344cc7c10e7278d88a5ebb238e7014daa5d0590e28"
+    },
+    {
+      "path": "tests/instances/ex047.txt",
+      "bytes": 157,
+      "mode": "0644",
+      "sha256": "72ea62d4632cc105f79fe1fe87d2d1846237343dd042d0248fe7ba8ae31a3bb3"
+    },
+    {
+      "path": "tests/instances/ex051.txt",
+      "bytes": 208,
+      "mode": "0644",
+      "sha256": "142b0cf01812d38c0df820499d5cc3541f65f0ae056e5b6fa3f7584c1c0438a9"
+    },
+    {
+      "path": "tests/instances/ex054.txt",
+      "bytes": 310,
+      "mode": "0644",
+      "sha256": "1db7bb484883712497c661ee7d6990ab831e5bfd6d729bee46f713f4def5cedf"
+    },
+    {
+      "path": "tests/instances/ex057.txt",
+      "bytes": 409,
+      "mode": "0644",
+      "sha256": "a378e601bbb2f665d45c4e785225627f2e0479103a3a31df4628a05858edf176"
+    },
+    {
+      "path": "tests/instances/ex061.txt",
+      "bytes": 609,
+      "mode": "0644",
+      "sha256": "06ab08b8bf72f592ff9f9aeb3931c746dfd0a5c229c23eaf0f29e35c2dcd9774"
+    },
+    {
+      "path": "tests/instances/ex064.txt",
+      "bytes": 809,
+      "mode": "0644",
+      "sha256": "e7f30e884503962f22a35f708b2b2f67e420714441000f246aa2409296ef595b"
+    },
+    {
+      "path": "tests/instances/ex067.txt",
+      "bytes": 809,
+      "mode": "0644",
+      "sha256": "cffa5e2ff24be192314a0a4cb30521bbae629021f8faab18425644b7cb6dbfe6"
+    },
+    {
+      "path": "tests/instances/ex071.txt",
+      "bytes": 1515,
+      "mode": "0644",
+      "sha256": "a932ee45f6e12ef22d6f9bd1087a1a7f917b458a7745c0886d0e6a3f827bb014"
+    },
+    {
+      "path": "tests/instances/ex074.txt",
+      "bytes": 1903,
+      "mode": "0644",
+      "sha256": "2d7317c3800135fe18037c7aab232aabceb1d726c86ca798cbe3bbc593efb6b0"
+    },
+    {
+      "path": "tests/instances/ex077.txt",
+      "bytes": 409,
+      "mode": "0644",
+      "sha256": "bca2b0f9088aad25be778f0e573e3aca7561065f2193e57ffcf46df5722faf49"
+    },
+    {
+      "path": "tests/instances/ex081.txt",
+      "bytes": 409,
+      "mode": "0644",
+      "sha256": "8255b91347173fdcf950f632a12b0ad8cb18b88a0c243765cc98b70166cfe8ea"
+    },
+    {
+      "path": "tests/instances/ex084.txt",
+      "bytes": 489,
+      "mode": "0644",
+      "sha256": "bd143599542d7f2edb6dbba4d271b8c5bafaa1501ad2f4f0d06ffba337ecb4d4"
+    },
+    {
+      "path": "tests/instances/ex087.txt",
+      "bytes": 489,
+      "mode": "0644",
+      "sha256": "654e5131a53f96b9f4a32daa0bc3e7d9e152686f5abc2b795b4c53af27fe3c50"
+    },
+    {
+      "path": "tests/instances/ex091.txt",
+      "bytes": 489,
+      "mode": "0644",
+      "sha256": "564721df4c9ac8f4170ac8d398151747ad54f66e1e486a4689f5d2c91ea79c21"
+    },
+    {
+      "path": "tests/instances/ex094.txt",
+      "bytes": 489,
+      "mode": "0644",
+      "sha256": "f7caafba375ba21590f163ab8d5586653c9eab98890c9f824187c39915a9b99a"
+    },
+    {
+      "path": "tests/instances/ex097.txt",
+      "bytes": 489,
+      "mode": "0644",
+      "sha256": "db2e39cb0cac7f6d034aecaef36e38c4e18d40c6e5167500fe50e3cb2bab40c1"
+    },
+    {
+      "path": "tests/instances/ex101.txt",
+      "bytes": 489,
+      "mode": "0644",
+      "sha256": "c36e89cba65590b961ab7dcc80720aacab3722d3a956fb7a89db4ac1c15b8ce7"
+    },
+    {
+      "path": "tests/instances/ex104.txt",
+      "bytes": 489,
+      "mode": "0644",
+      "sha256": "19a1e42713169297346c10b5bf719253854b58ba24053c6bbd14c8624c811773"
+    },
+    {
+      "path": "tests/instances/ex106.txt",
+      "bytes": 454,
+      "mode": "0644",
+      "sha256": "be298bc597495e452fed1d099d105866b3b6199815ca7980b40b57d2211e23b0"
+    },
+    {
+      "path": "tests/instances/ex110.txt",
+      "bytes": 9754,
+      "mode": "0644",
+      "sha256": "3ccfa5b0fdff82dc9264ac07293587fd3b6dc289d9d3cd413bad822f97583426"
+    },
+    {
+      "path": "tests/instances/ex118.txt",
+      "bytes": 36601,
+      "mode": "0644",
+      "sha256": "98b9c3efab66e90dbb361b30e39a39bfd6dd701bdfec4404d1b242db3a44626d"
+    },
+    {
+      "path": "tests/instances/ex120.txt",
+      "bytes": 36107,
+      "mode": "0644",
+      "sha256": "65793407163a8eb83e1af7140078acdcd7cc1f493384aa6fc2b8db429c9e7372"
+    },
+    {
+      "path": "tests/instances/ex121.txt",
+      "bytes": 9204,
+      "mode": "0644",
+      "sha256": "7c3fcbadee15f24a350e17cda1f73f621692a858a12128c386176515b34aaa7a"
+    },
+    {
+      "path": "tests/instances/ex124.txt",
+      "bytes": 17373,
+      "mode": "0644",
+      "sha256": "b859f1c21db091ce1058fd8b82791495b98284b9fa8595a7a2cbdc580e6897c4"
+    },
+    {
+      "path": "tests/instances/ex125.txt",
+      "bytes": 18073,
+      "mode": "0644",
+      "sha256": "7d41bcb23256ec79374bf400c4a842ac65baa2ba182d05c64858db908e780c41"
+    }
+  ]
+}

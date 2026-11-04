@@ -1,0 +1,29 @@
+{
+ "namespace": "CSQ100",
+ "main_theorem": "submission_lower",
+ "score_mode": "solver_cubic",
+ "compile_timeout_sec": 1200,
+ "allowed_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "claims": [
+  {
+   "name": "submission_lower",
+   "direction": "lower",
+   "header_pattern": ":\\s*∃\\s*S\\s*:\\s*List\\s*\\(Rat\\s*×\\s*Rat\\)\\s*,\\s*S\\.length\\s*=\\s*100\\s*∧\\s*CircleConfig\\s+([0-9]+(?:\\.[0-9]+)?)\\s+S"
+  }
+ ],
+ "scoring": {
+  "modes": [
+   "solver_cubic"
+  ],
+  "lower": {
+   "baseline_r": "0.05",
+   "record_r": "0.0514010717743403"
+  }
+ }
+}

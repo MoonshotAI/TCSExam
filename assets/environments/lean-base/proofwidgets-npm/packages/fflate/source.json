@@ -1,0 +1,43 @@
+{
+  "author": "Arjun Barrett <arjunbarrett@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-cPJU47OaAoCbg0pBvzsgpTPhmhqI5eJjh/JIu8tPj5q+T7iLvW/JAYUqmE7KOB4R1ZyEhzBaIQpQpardBF5z8A==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/fflate/-/fflate-0.8.2.tgz",
+    "version": "0.8.2"
+  },
+  "lock_path": "node_modules/fflate",
+  "name": "fflate",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1069,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243",
+      "text_file": "image-notices/805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 168507,
+    "installed_in_image": false,
+    "integrity": "sha512-cPJU47OaAoCbg0pBvzsgpTPhmhqI5eJjh/JIu8tPj5q+T7iLvW/JAYUqmE7KOB4R1ZyEhzBaIQpQpardBF5z8A==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/fflate/-/fflate-0.8.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "61fd5061e2fc8e5e3e3129f7f2fec7bd78a313e1bf4becbf1cc1cc9998d141dc"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.8.2"
+}

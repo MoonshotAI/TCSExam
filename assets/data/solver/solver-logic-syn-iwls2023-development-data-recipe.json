@@ -1,0 +1,21 @@
+{
+  "description": "Download the pinned official IWLS 2022 archive, select exactly the 100 public practice truth tables and the MIT license, and verify every output byte. No submission circuits, paper PDFs, hidden instances, reference answers or manually prepared archive are used.",
+  "source": {
+    "id": "iwls2022-ls-contest-ee93f7ca-tar-gz",
+    "url": "https://codeload.github.com/alanminko/iwls2022-ls-contest/tar.gz/ee93f7ca742f172aa64a4a6e12a5b59944475bf0",
+    "bytes": 1986506,
+    "sha256": "70c83b6c9fd453fc599758f1dfb490e0e86ddec7d6c36f706507f0a750196df2"
+  },
+  "archive_format": "tar.gz",
+  "generator_paths": [
+    "src/tcsexam/logic_syn.py"
+  ],
+  "selection": {
+    "source_root": "iwls2022-ls-contest-ee93f7ca742f172aa64a4a6e12a5b59944475bf0",
+    "benchmark_directory": "benchmarks",
+    "output_directory": "app/instances",
+    "truth_table_count": 100,
+    "license_member": "LICENSE",
+    "license_output": "app/instances/LICENSE"
+  }
+}

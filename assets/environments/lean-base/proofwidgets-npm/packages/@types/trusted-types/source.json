@@ -1,0 +1,43 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz",
+    "version": "2.0.7"
+  },
+  "lock_path": "node_modules/@types/trusted-types",
+  "name": "@types/trusted-types",
+  "name_basis": "Name from the exact npm lock path; archive-root package metadata was not copied by the notice-only extraction.",
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1141,
+      "installed_file": "notices/original/trusted-types/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "trusted-types/LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "text_file": "image-notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt"
+    }
+  ],
+  "package_license": null,
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 2997,
+    "installed_in_image": false,
+    "integrity": "sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "28521d6d9bcb45f9527cf45b9346e9e2142e81b17c6518229973df04044941d3"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.0.7"
+}

@@ -1,0 +1,64 @@
+{
+  "description": "Download the official PACE 2021 heuristic archive, select exactly the 100 odd-numbered public instances, and recreate the frozen XZ outputs with XZ Utils 5.8.4 in a pinned Docker builder. Every compressed output is checked against the retained manifest; no manually prepared source archive is required.",
+  "source": {
+    "id": "pace-2021-heur-tar-gz",
+    "url": "https://fpt.akt.tu-berlin.de/pace2021/heur.tar.gz",
+    "bytes": 114857966,
+    "sha256": "7fa6fbbdc0427fd99ea64d0ba2c95e160220889e988de99f57e9333241c42bff"
+  },
+  "archive_format": "tar.gz",
+  "generator_paths": [
+    "src/tcsexam/ce_pace2021.py"
+  ],
+  "selection": {
+    "source_root": "heur",
+    "output_directory": "app/instances",
+    "first_instance": 1,
+    "last_instance": 199,
+    "instance_step": 2,
+    "instance_count": 100
+  },
+  "compression": {
+    "format": "xz",
+    "check": "crc64",
+    "threads": 2,
+    "arguments": [
+      "--format=xz",
+      "--stdout",
+      "--threads=2",
+      "--check=crc64"
+    ],
+    "preset": 9,
+    "preset_overrides": {
+      "heur199.gr": 6
+    },
+    "tool": {
+      "version": "5.8.4",
+      "archive_root": "xz-5.8.4",
+      "source": {
+        "id": "xz-utils-5.8.4-tar-gz",
+        "url": "https://github.com/tukaani-project/xz/releases/download/v5.8.4/xz-5.8.4.tar.gz",
+        "bytes": 2799797,
+        "sha256": "0014c7886930454fe8bd4228665b51af55eeae560ea135c9c4cd33f55b2591d9"
+      },
+      "configure": [
+        "--disable-shared",
+        "--enable-static",
+        "--disable-nls"
+      ]
+    }
+  },
+  "build": {
+    "builder_image": "ubuntu:22.04@sha256:0a9887931b0e38af2e3487ed39e29436b0535c4f3f52e57745baaf79d1898956",
+    "cwd": ".",
+    "timeout_sec": 3600,
+    "download_timeout_sec": 300
+  },
+  "license_files": [
+    {
+      "path": "docs/licenses/third-party/PACE-CC0-1.0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    }
+  ]
+}

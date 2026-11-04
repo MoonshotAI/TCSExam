@@ -1,0 +1,908 @@
+{
+ "b_source": "baseline@1800s(fixed measurement-sandbox)",
+ "comment": "Judged set (v2, 2026-08-31 relocation): the official PRIVATE 100 (101.gr..200.gr) only \u2014 the public 100 are practice-layer material (/app/instances) and no longer scored (registered D-class deviation fix; v1 judged the full 200). B = shipped deterministic baseline (barycenter + adjacent-exchange + sifting to convergence, environment/app/solver.cpp), re-measured under the official 1800 s per-instance budget (evaluation runner oracle historical validation record, measure/oscm-b-1800s). K = proven optimum from official PACE 2024 published solutions, counted with the official verifier pace2024-verifier 0.3.8. Instances with B == K are kept but carry no signal (zero denominator). B re-measured 2026-08-31 on the transformed judged set (free-layer relabeling) on an isolated execution environment sandbox; K unchanged (isomorphism invariant).",
+ "instances": {
+  "101.gr": {
+   "B": 281,
+   "K": 281,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 112,
+   "n1": 298,
+   "n2": 261
+  },
+  "102.gr": {
+   "B": 1892,
+   "K": 1892,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1937,
+   "n1": 990,
+   "n2": 948
+  },
+  "103.gr": {
+   "B": 2652,
+   "K": 2652,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 2705,
+   "n1": 1378,
+   "n2": 1328
+  },
+  "104.gr": {
+   "B": 3540,
+   "K": 3540,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 3601,
+   "n1": 1830,
+   "n2": 1772
+  },
+  "105.gr": {
+   "B": 4556,
+   "K": 4556,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 4625,
+   "n1": 2346,
+   "n2": 2280
+  },
+  "106.gr": {
+   "B": 5700,
+   "K": 5700,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 5777,
+   "n1": 2926,
+   "n2": 2852
+  },
+  "107.gr": {
+   "B": 7656,
+   "K": 7656,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 7745,
+   "n1": 3916,
+   "n2": 3830
+  },
+  "108.gr": {
+   "B": 9900,
+   "K": 9900,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 10001,
+   "n1": 5050,
+   "n2": 4952
+  },
+  "109.gr": {
+   "B": 12432,
+   "K": 12432,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 12545,
+   "n1": 6328,
+   "n2": 6218
+  },
+  "110.gr": {
+   "B": 930,
+   "K": 930,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 150,
+   "n1": 382,
+   "n2": 364
+  },
+  "111.gr": {
+   "B": 6472,
+   "K": 6467,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 808,
+   "n1": 358,
+   "n2": 428
+  },
+  "112.gr": {
+   "B": 1823,
+   "K": 1823,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 190,
+   "n1": 452,
+   "n2": 496
+  },
+  "113.gr": {
+   "B": 19723,
+   "K": 19720,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 2344,
+   "n1": 1147,
+   "n2": 1165
+  },
+  "114.gr": {
+   "B": 8591,
+   "K": 8590,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1028,
+   "n1": 474,
+   "n2": 532
+  },
+  "115.gr": {
+   "B": 7686,
+   "K": 7686,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 964,
+   "n1": 463,
+   "n2": 549
+  },
+  "116.gr": {
+   "B": 8140,
+   "K": 8139,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1093,
+   "n1": 589,
+   "n2": 537
+  },
+  "117.gr": {
+   "B": 2194,
+   "K": 2194,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1349,
+   "n1": 652,
+   "n2": 565
+  },
+  "118.gr": {
+   "B": 10882,
+   "K": 10879,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1283,
+   "n1": 675,
+   "n2": 593
+  },
+  "119.gr": {
+   "B": 2923,
+   "K": 2923,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 265,
+   "n1": 684,
+   "n2": 639
+  },
+  "120.gr": {
+   "B": 3704,
+   "K": 3704,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1887,
+   "n1": 723,
+   "n2": 700
+  },
+  "121.gr": {
+   "B": 5589,
+   "K": 5587,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 291,
+   "n1": 739,
+   "n2": 711
+  },
+  "122.gr": {
+   "B": 9038,
+   "K": 9038,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 384,
+   "n1": 739,
+   "n2": 730
+  },
+  "123.gr": {
+   "B": 2971,
+   "K": 2971,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 300,
+   "n1": 751,
+   "n2": 747
+  },
+  "124.gr": {
+   "B": 13510,
+   "K": 13510,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 481,
+   "n1": 848,
+   "n2": 856
+  },
+  "125.gr": {
+   "B": 2976,
+   "K": 2975,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 2047,
+   "n1": 916,
+   "n2": 903
+  },
+  "126.gr": {
+   "B": 18018,
+   "K": 18018,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 4827,
+   "n1": 1044,
+   "n2": 1089
+  },
+  "127.gr": {
+   "B": 4851,
+   "K": 4851,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 4476,
+   "n1": 2286,
+   "n2": 2145
+  },
+  "128.gr": {
+   "B": 5308,
+   "K": 5308,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 4575,
+   "n1": 2297,
+   "n2": 2166
+  },
+  "129.gr": {
+   "B": 8611,
+   "K": 8611,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 7510,
+   "n1": 3773,
+   "n2": 3587
+  },
+  "130.gr": {
+   "B": 9074,
+   "K": 9074,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 7530,
+   "n1": 3768,
+   "n2": 3594
+  },
+  "131.gr": {
+   "B": 11698,
+   "K": 11698,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 11062,
+   "n1": 5597,
+   "n2": 5353
+  },
+  "132.gr": {
+   "B": 12722,
+   "K": 12722,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 11161,
+   "n1": 5611,
+   "n2": 5361
+  },
+  "133.gr": {
+   "B": 17305,
+   "K": 17305,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1349,
+   "n1": 438,
+   "n2": 450
+  },
+  "134.gr": {
+   "B": 39613,
+   "K": 39608,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 3215,
+   "n1": 947,
+   "n2": 1227
+  },
+  "135.gr": {
+   "B": 22393,
+   "K": 22393,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1893,
+   "n1": 548,
+   "n2": 710
+  },
+  "136.gr": {
+   "B": 1008,
+   "K": 1008,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1291,
+   "n1": 657,
+   "n2": 664
+  },
+  "137.gr": {
+   "B": 24332,
+   "K": 24321,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 2030,
+   "n1": 769,
+   "n2": 626
+  },
+  "138.gr": {
+   "B": 4960,
+   "K": 4960,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 2057,
+   "n1": 721,
+   "n2": 715
+  },
+  "139.gr": {
+   "B": 28972,
+   "K": 28967,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 2195,
+   "n1": 664,
+   "n2": 779
+  },
+  "140.gr": {
+   "B": 34306,
+   "K": 34306,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 654,
+   "n1": 907,
+   "n2": 984
+  },
+  "141.gr": {
+   "B": 40428,
+   "K": 40412,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 2861,
+   "n1": 904,
+   "n2": 991
+  },
+  "142.gr": {
+   "B": 64997,
+   "K": 64997,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 866,
+   "n1": 1052,
+   "n2": 1068
+  },
+  "143.gr": {
+   "B": 85789,
+   "K": 85757,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1000,
+   "n1": 1139,
+   "n2": 1176
+  },
+  "144.gr": {
+   "B": 225444,
+   "K": 225378,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 8132,
+   "n1": 4444,
+   "n2": 2296
+  },
+  "145.gr": {
+   "B": 243954,
+   "K": 243860,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 9154,
+   "n1": 4986,
+   "n2": 2621
+  },
+  "146.gr": {
+   "B": 1342981,
+   "K": 1342820,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 20073,
+   "n1": 10014,
+   "n2": 3070
+  },
+  "147.gr": {
+   "B": 280175,
+   "K": 280041,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 10816,
+   "n1": 5659,
+   "n2": 3123
+  },
+  "148.gr": {
+   "B": 194334,
+   "K": 194250,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 7048,
+   "n1": 7048,
+   "n2": 2016
+  },
+  "149.gr": {
+   "B": 313027,
+   "K": 312894,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 11640,
+   "n1": 6257,
+   "n2": 3323
+  },
+  "150.gr": {
+   "B": 323464,
+   "K": 323331,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 11936,
+   "n1": 6547,
+   "n2": 3401
+  },
+  "151.gr": {
+   "B": 208948,
+   "K": 208851,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 8092,
+   "n1": 8092,
+   "n2": 2347
+  },
+  "152.gr": {
+   "B": 247087,
+   "K": 246974,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 8883,
+   "n1": 8883,
+   "n2": 2520
+  },
+  "153.gr": {
+   "B": 301670,
+   "K": 301537,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 11251,
+   "n1": 11251,
+   "n2": 3212
+  },
+  "154.gr": {
+   "B": 263793,
+   "K": 263689,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 9719,
+   "n1": 9719,
+   "n2": 2760
+  },
+  "155.gr": {
+   "B": 327262,
+   "K": 327113,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 11854,
+   "n1": 11854,
+   "n2": 3391
+  },
+  "156.gr": {
+   "B": 146350,
+   "K": 146350,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1100,
+   "n1": 496,
+   "n2": 550
+  },
+  "157.gr": {
+   "B": 54146,
+   "K": 54146,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 672,
+   "n1": 281,
+   "n2": 336
+  },
+  "158.gr": {
+   "B": 56506,
+   "K": 56506,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 696,
+   "n1": 291,
+   "n2": 348
+  },
+  "159.gr": {
+   "B": 286207,
+   "K": 286207,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1779,
+   "n1": 882,
+   "n2": 898
+  },
+  "160.gr": {
+   "B": 68675,
+   "K": 68675,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 878,
+   "n1": 456,
+   "n2": 423
+  },
+  "161.gr": {
+   "B": 74612,
+   "K": 74612,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1192,
+   "n1": 596,
+   "n2": 596
+  },
+  "162.gr": {
+   "B": 75102,
+   "K": 75102,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1214,
+   "n1": 607,
+   "n2": 607
+  },
+  "163.gr": {
+   "B": 99087,
+   "K": 99087,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1344,
+   "n1": 672,
+   "n2": 672
+  },
+  "164.gr": {
+   "B": 267789,
+   "K": 267789,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 2290,
+   "n1": 1145,
+   "n2": 1145
+  },
+  "165.gr": {
+   "B": 104874,
+   "K": 104874,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1458,
+   "n1": 729,
+   "n2": 729
+  },
+  "166.gr": {
+   "B": 97550,
+   "K": 97550,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1492,
+   "n1": 746,
+   "n2": 746
+  },
+  "167.gr": {
+   "B": 112888,
+   "K": 112881,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1761,
+   "n1": 885,
+   "n2": 877
+  },
+  "168.gr": {
+   "B": 141041,
+   "K": 141031,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1820,
+   "n1": 922,
+   "n2": 899
+  },
+  "169.gr": {
+   "B": 175697,
+   "K": 175687,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 2083,
+   "n1": 1057,
+   "n2": 1027
+  },
+  "170.gr": {
+   "B": 254496,
+   "K": 254481,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 2550,
+   "n1": 1268,
+   "n2": 1283
+  },
+  "171.gr": {
+   "B": 378426,
+   "K": 378071,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 9618,
+   "n1": 2474,
+   "n2": 2433
+  },
+  "172.gr": {
+   "B": 115663,
+   "K": 115613,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 882,
+   "n1": 294,
+   "n2": 294
+  },
+  "173.gr": {
+   "B": 114599,
+   "K": 114585,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 888,
+   "n1": 296,
+   "n2": 296
+  },
+  "174.gr": {
+   "B": 111380,
+   "K": 111327,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 894,
+   "n1": 298,
+   "n2": 298
+  },
+  "175.gr": {
+   "B": 95650,
+   "K": 95650,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 864,
+   "n1": 379,
+   "n2": 432
+  },
+  "176.gr": {
+   "B": 101731,
+   "K": 101731,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 900,
+   "n1": 406,
+   "n2": 450
+  },
+  "177.gr": {
+   "B": 110740,
+   "K": 110740,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 940,
+   "n1": 424,
+   "n2": 470
+  },
+  "178.gr": {
+   "B": 113266,
+   "K": 113171,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 993,
+   "n1": 488,
+   "n2": 506
+  },
+  "179.gr": {
+   "B": 134648,
+   "K": 134648,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1060,
+   "n1": 478,
+   "n2": 530
+  },
+  "180.gr": {
+   "B": 125380,
+   "K": 125344,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1023,
+   "n1": 506,
+   "n2": 518
+  },
+  "181.gr": {
+   "B": 137330,
+   "K": 137225,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1080,
+   "n1": 532,
+   "n2": 549
+  },
+  "182.gr": {
+   "B": 136745,
+   "K": 136673,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1085,
+   "n1": 537,
+   "n2": 549
+  },
+  "183.gr": {
+   "B": 144817,
+   "K": 144789,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1091,
+   "n1": 550,
+   "n2": 542
+  },
+  "184.gr": {
+   "B": 141374,
+   "K": 141328,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1096,
+   "n1": 552,
+   "n2": 545
+  },
+  "185.gr": {
+   "B": 131538,
+   "K": 131538,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1243,
+   "n1": 640,
+   "n2": 604
+  },
+  "186.gr": {
+   "B": 220966,
+   "K": 220903,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1296,
+   "n1": 672,
+   "n2": 668
+  },
+  "187.gr": {
+   "B": 269053,
+   "K": 269053,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1456,
+   "n1": 677,
+   "n2": 728
+  },
+  "188.gr": {
+   "B": 242360,
+   "K": 242359,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 2342,
+   "n1": 1199,
+   "n2": 1144
+  },
+  "189.gr": {
+   "B": 294825,
+   "K": 294693,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 5669,
+   "n1": 1466,
+   "n2": 1430
+  },
+  "190.gr": {
+   "B": 335387,
+   "K": 335379,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 2901,
+   "n1": 1463,
+   "n2": 1439
+  },
+  "191.gr": {
+   "B": 446737,
+   "K": 446284,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 6741,
+   "n1": 1724,
+   "n2": 1687
+  },
+  "192.gr": {
+   "B": 670773,
+   "K": 670094,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 7753,
+   "n1": 1941,
+   "n2": 1985
+  },
+  "193.gr": {
+   "B": 543878,
+   "K": 543459,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 9033,
+   "n1": 2338,
+   "n2": 2237
+  },
+  "194.gr": {
+   "B": 481008,
+   "K": 480562,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 9503,
+   "n1": 2380,
+   "n2": 2405
+  },
+  "195.gr": {
+   "B": 126734,
+   "K": 126699,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 912,
+   "n1": 304,
+   "n2": 304
+  },
+  "196.gr": {
+   "B": 209923,
+   "K": 209910,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1102,
+   "n1": 375,
+   "n2": 362
+  },
+  "197.gr": {
+   "B": 562037,
+   "K": 562001,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1893,
+   "n1": 856,
+   "n2": 865
+  },
+  "198.gr": {
+   "B": 298380,
+   "K": 298282,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1380,
+   "n1": 454,
+   "n2": 467
+  },
+  "199.gr": {
+   "B": 379490,
+   "K": 379465,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1467,
+   "n1": 500,
+   "n2": 482
+  },
+  "200.gr": {
+   "B": 272234,
+   "K": 272189,
+   "b_source": "baseline@1800s(fixed measurement-sandbox)",
+   "k_source": "official-solution(pace2024)",
+   "m": 1349,
+   "n1": 621,
+   "n2": 607
+  }
+ },
+ "k_source": "official-solution(pace2024)",
+ "per_instance_seconds": 1800
+}

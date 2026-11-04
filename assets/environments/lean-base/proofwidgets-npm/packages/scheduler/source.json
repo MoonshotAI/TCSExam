@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "loose-envify": "^1.1.0"
+    },
+    "integrity": "sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/scheduler/-/scheduler-0.21.0.tgz",
+    "version": "0.21.0"
+  },
+  "lock_path": "node_modules/scheduler",
+  "name": "scheduler",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1086,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "text_file": "image-notices/52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 17808,
+    "installed_in_image": false,
+    "integrity": "sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/scheduler/-/scheduler-0.21.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "caa03fbcbc97ae020f7f011a94a2b98d8ddc793407a0853782c7c0cac393e840"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.21.0"
+}

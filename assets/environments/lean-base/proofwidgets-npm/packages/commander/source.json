@@ -1,0 +1,46 @@
+{
+  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": ">= 10"
+    },
+    "integrity": "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz",
+    "version": "7.2.0"
+  },
+  "lock_path": "node_modules/commander",
+  "name": "commander",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1098,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b",
+      "text_file": "image-notices/04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 38162,
+    "installed_in_image": false,
+    "integrity": "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "cbb0895e31309d01f270ba9e94a0bea386acab0165672f6a1539df8b3a6448f6"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "7.2.0"
+}

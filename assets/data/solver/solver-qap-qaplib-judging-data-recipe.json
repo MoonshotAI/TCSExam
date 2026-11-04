@@ -1,0 +1,549 @@
+{
+  "format": "official_files",
+  "sources": [
+    {
+      "id": "qaplib-bur26c.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/bur26c.dat",
+      "sha256": "84800fdbeb7adddc11628512d632444ead1454e8c63472eff4cc0281a2bb0bcd",
+      "bytes": 5414
+    },
+    {
+      "id": "qaplib-bur26g.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/bur26g.dat",
+      "sha256": "d5b9a1968e3a99acbd35252c8370a36901b7e0cadf7adfa311abf146595b1fab",
+      "bytes": 4998
+    },
+    {
+      "id": "qaplib-chr12b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/chr12b.dat",
+      "sha256": "7e46fa75ca5d7607845cadd2b9f80635349fd7750e44ca59cbfda1cf8edf623a",
+      "bytes": 1709
+    },
+    {
+      "id": "qaplib-chr15c.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/chr15c.dat",
+      "sha256": "61b307b61269d6a7aac1eb3750b5d056e426106b68bf1736a92615b6f1371e7b",
+      "bytes": 1357
+    },
+    {
+      "id": "qaplib-chr20a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/chr20a.dat",
+      "sha256": "cb502ab86e5a75eafd3f76f6437ff8c225e0102f77dd97876a16759214a1cd35",
+      "bytes": 2005
+    },
+    {
+      "id": "qaplib-chr22b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/chr22b.dat",
+      "sha256": "a7f5d0c107e39b69d4e31d7ffa49c0ec34f32b792d6181fb44804c5935024e4e",
+      "bytes": 2910
+    },
+    {
+      "id": "qaplib-esc16b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc16b.dat",
+      "sha256": "cdd1c1a90c7457ed0cc62aa3f6628cc009b26d531c8e43857df18de17f061292",
+      "bytes": 1030
+    },
+    {
+      "id": "qaplib-esc16e.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc16e.dat",
+      "sha256": "8d3e191192d25982912a925d9448460b05ccca7f03ae2f22b2f1fef2f6514b82",
+      "bytes": 1030
+    },
+    {
+      "id": "qaplib-esc16h.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc16h.dat",
+      "sha256": "468151e74eb4aa35ac799e923d027f181666995abe828f045b5fe4f4634de39c",
+      "bytes": 1072
+    },
+    {
+      "id": "qaplib-esc32b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc32b.dat",
+      "sha256": "0e0b494e7af80a25c7a16dd38c51032858ef35babb0929a78b170b7f125f8220",
+      "bytes": 4102
+    },
+    {
+      "id": "qaplib-esc32e.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc32e.dat",
+      "sha256": "d67e89575654700ddf894c8902bc89b4dfdd21f69554c0a5bcb2448c99f38c14",
+      "bytes": 4164
+    },
+    {
+      "id": "qaplib-esc64a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/esc64a.dat",
+      "sha256": "a8aa36d0a4c9d442ae33fbe445c7c3f755d1bdf550a5f133ae9f57947f02dce7",
+      "bytes": 16516
+    },
+    {
+      "id": "qaplib-had16.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/had16.dat",
+      "sha256": "13a6f5e3318b8a50adaa0e44e1c540ba9431befe292e49962da044e9004f41bb",
+      "bytes": 1579
+    },
+    {
+      "id": "qaplib-kra30b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/kra30b.dat",
+      "sha256": "e497b762f1253e0840a1c9a7d349952916b10194786e3ad358ef60bb8def2e56",
+      "bytes": 9187
+    },
+    {
+      "id": "qaplib-lipa20b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa20b.dat",
+      "sha256": "9cd89b2f6dc2ca982006b00921cd934a3ab4619ae699f295dbcfd7711c51a192",
+      "bytes": 2079
+    },
+    {
+      "id": "qaplib-lipa40a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa40a.dat",
+      "sha256": "af7dd326e3b6037e27a0b5554c4420184262459f999cfadfd9a51118826bdc5e",
+      "bytes": 8146
+    },
+    {
+      "id": "qaplib-lipa60a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa60a.dat",
+      "sha256": "bc1f1aa3d35a82b91e816e5c9c20def9c6ab6161edc149f983e9aa7dfa9877c6",
+      "bytes": 18507
+    },
+    {
+      "id": "qaplib-lipa70b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa70b.dat",
+      "sha256": "8e671d6df985f88df8da41811283e596f69a5fa686ee55220f0a1d33c7969f4f",
+      "bytes": 29371
+    },
+    {
+      "id": "qaplib-lipa90a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/lipa90a.dat",
+      "sha256": "8448c98c34e4811fc19eec0f7d0df0c60bee7044224fb6cbc1b5b2bc1377e9b3",
+      "bytes": 41893
+    },
+    {
+      "id": "qaplib-nug14.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug14.dat",
+      "sha256": "ffa06e53e4ffde301651f2a3c627ff1350b9282d53fdd8b76f388c76d0ec0ed0",
+      "bytes": 1183
+    },
+    {
+      "id": "qaplib-nug16b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug16b.dat",
+      "sha256": "563c86cdd61da5a46e78e134daed837199671cfc9a81f86762b9d2e9572578e6",
+      "bytes": 1543
+    },
+    {
+      "id": "qaplib-nug20.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug20.dat",
+      "sha256": "a82316ada09e9c8d7fe40591306cfe0a2505b44254f37da54f2916ea81f1ecf1",
+      "bytes": 2005
+    },
+    {
+      "id": "qaplib-nug24.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug24.dat",
+      "sha256": "2d25e7b435571b58b653ad47000bc182ee25c1016613ac3c7f58aa80c3bb992a",
+      "bytes": 2912
+    },
+    {
+      "id": "qaplib-nug28.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug28.dat",
+      "sha256": "22c6adabf44141432aa76693cd0d5fa9d98bb2a262e6ef8a7097b072cdc12c30",
+      "bytes": 6333
+    },
+    {
+      "id": "qaplib-rou15.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/rou15.dat",
+      "sha256": "7631c0017c53061e2e3587adaefe138ab11dfac2f70736ab9744c5c00037a549",
+      "bytes": 1355
+    },
+    {
+      "id": "qaplib-scr15.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/scr15.dat",
+      "sha256": "82c331582812c7615e03d2304205fe1b4a47fe8fba361d932fd4fcf8eb69d6ee",
+      "bytes": 1584
+    },
+    {
+      "id": "qaplib-sko100b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/sko100b.dat",
+      "sha256": "ab0c805adf06e5db952a2bcc4dbfe61cbf1bc353bb22c71f4dc6a89ffae32a88",
+      "bytes": 61007
+    },
+    {
+      "id": "qaplib-sko100e.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/sko100e.dat",
+      "sha256": "7d8a66283ba4780a612b1e22b7b4829b3659e0c6ce192e9fda7110a990aaec3d",
+      "bytes": 61007
+    },
+    {
+      "id": "qaplib-sko49.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/sko49.dat",
+      "sha256": "6b363fb280df946a292830a1bf8335272bb0c8462fdb8fc6928a74837b79b255",
+      "bytes": 14707
+    },
+    {
+      "id": "qaplib-sko72.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/sko72.dat",
+      "sha256": "1d28250962c4f12b97c847209409e39a0ca5763a95299cd9862ab584920709c8",
+      "bytes": 31687
+    },
+    {
+      "id": "qaplib-ste36b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/ste36b.dat",
+      "sha256": "d3e953a6eb8a7794317375326c3ce56817a51c7f9002a3b9ebe7efb3848086eb",
+      "bytes": 13254
+    },
+    {
+      "id": "qaplib-tai10b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai10b.dat",
+      "sha256": "59ff1378aa52906a28aeb69a0bf89eb475b9788f9ada3a91a7a80889b2f03573",
+      "bytes": 1218
+    },
+    {
+      "id": "qaplib-tai150b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai150b.dat",
+      "sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464",
+      "bytes": 270158
+    },
+    {
+      "id": "qaplib-tai15b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai15b.dat",
+      "sha256": "e70c07ef1dee3d5b3ef902b6f15cb8a32e1997c2dc5bd353e5b9df8957ca2fdc",
+      "bytes": 2722
+    },
+    {
+      "id": "qaplib-tai20b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai20b.dat",
+      "sha256": "99efd6bc04aae2f8d27cce380165867497c9fe807fca798e53131d25c09831f5",
+      "bytes": 4825
+    },
+    {
+      "id": "qaplib-tai30b.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai30b.dat",
+      "sha256": "1044b3c6fc0d0aa6e435da5b8754df322d27f6587d4ec7b0952a4d1da8d90504",
+      "bytes": 10835
+    },
+    {
+      "id": "qaplib-tai40a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai40a.dat",
+      "sha256": "4920f20750ebb667cec1963ce0c85b9e55538971de7237d4e370e1c80ab3b3c5",
+      "bytes": 9687
+    },
+    {
+      "id": "qaplib-tai60a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai60a.dat",
+      "sha256": "b32cae60a3539c788e1e228a10f5581ee1c31dbaa58930c697d80c7947c054a1",
+      "bytes": 21726
+    },
+    {
+      "id": "qaplib-tai80a.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai80a.dat",
+      "sha256": "99a401c93d7294429383823dfab749e6e74cdd9d0208ed0cf9e52bcb18d1681a",
+      "bytes": 38565
+    },
+    {
+      "id": "qaplib-tho40.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tho40.dat",
+      "sha256": "2701531cf5f9e03d5ba267f206db6ff94f354fcdd5d8e2112fc5d90571b0c73e",
+      "bytes": 12887
+    },
+    {
+      "id": "qaplib-wil100.dat",
+      "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/wil100.dat",
+      "sha256": "9477abe6459def2fc664ee49f612a592bba7b59c2a3027c4a0382d068c6aa4ca",
+      "bytes": 80208
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tests/instances/ex003.dat",
+      "source_id": "qaplib-bur26c.dat",
+      "operation": "qap_relabel",
+      "official_name": "bur26c.dat",
+      "transform_params_sha256": "528342f1a18889d0f6d767cf92ba0a1f1eb7786fd5f4de8c6d09893474dd68eb"
+    },
+    {
+      "path": "tests/instances/ex007.dat",
+      "source_id": "qaplib-bur26g.dat",
+      "operation": "qap_relabel",
+      "official_name": "bur26g.dat",
+      "transform_params_sha256": "3ebf1a613deec0ffb3cacf23f546cca75ad1454cd5e479d185b27441277c13df"
+    },
+    {
+      "path": "tests/instances/ex010.dat",
+      "source_id": "qaplib-chr12b.dat",
+      "operation": "qap_relabel",
+      "official_name": "chr12b.dat",
+      "transform_params_sha256": "db0f2d9a8fb4cec06482cd115955958c337119116381d332ac1c2a9f5dd6fce5"
+    },
+    {
+      "path": "tests/instances/ex014.dat",
+      "source_id": "qaplib-chr15c.dat",
+      "operation": "qap_relabel",
+      "official_name": "chr15c.dat",
+      "transform_params_sha256": "eb4f01c57de3ea53fbbe937c24a164007500d3e6e18da2cb49a3a49383417eb1"
+    },
+    {
+      "path": "tests/instances/ex017.dat",
+      "source_id": "qaplib-chr20a.dat",
+      "operation": "qap_relabel",
+      "official_name": "chr20a.dat",
+      "transform_params_sha256": "c7e323a3c4246678932857f64e1b2de33a47aef0552fa1c58480c856c8ae9880"
+    },
+    {
+      "path": "tests/instances/ex021.dat",
+      "source_id": "qaplib-chr22b.dat",
+      "operation": "qap_relabel",
+      "official_name": "chr22b.dat",
+      "transform_params_sha256": "53a6c67233eaff2c7025e138cc146b8fc19ae7ba4828f5e695fca71d59ac7585"
+    },
+    {
+      "path": "tests/instances/ex026.dat",
+      "source_id": "qaplib-esc16b.dat",
+      "operation": "qap_relabel",
+      "official_name": "esc16b.dat",
+      "transform_params_sha256": "078bd92f096dbebd8bd1b9308b6bfb6e03ea0d3c6eb5aa1ed8852f456365ab67"
+    },
+    {
+      "path": "tests/instances/ex029.dat",
+      "source_id": "qaplib-esc16e.dat",
+      "operation": "qap_relabel",
+      "official_name": "esc16e.dat",
+      "transform_params_sha256": "40fe843b370016accad721cfd15e5a57210ce474713cd97748ae90069aa0e6aa"
+    },
+    {
+      "path": "tests/instances/ex032.dat",
+      "source_id": "qaplib-esc16h.dat",
+      "operation": "qap_relabel",
+      "official_name": "esc16h.dat",
+      "transform_params_sha256": "4d5f52858480a6638bec350fcbd33bf58ea3e8e58d7165f86ec13d2f6b06d545"
+    },
+    {
+      "path": "tests/instances/ex036.dat",
+      "source_id": "qaplib-esc32b.dat",
+      "operation": "qap_relabel",
+      "official_name": "esc32b.dat",
+      "transform_params_sha256": "7fd01c31323804f3a9a946808465b68f8c5ab0ae0c682af21a7789561a8a655d"
+    },
+    {
+      "path": "tests/instances/ex039.dat",
+      "source_id": "qaplib-esc32e.dat",
+      "operation": "qap_relabel",
+      "official_name": "esc32e.dat",
+      "transform_params_sha256": "b1835e28af263aee89ef091d98c7e2beb36ca46c88311c2fe2653f13f8370099"
+    },
+    {
+      "path": "tests/instances/ex042.dat",
+      "source_id": "qaplib-esc64a.dat",
+      "operation": "qap_relabel",
+      "official_name": "esc64a.dat",
+      "transform_params_sha256": "97cfff72fa628584dea38691787bf46ece20552e28480f77aa94eb2ddf1ede90"
+    },
+    {
+      "path": "tests/instances/ex045.dat",
+      "source_id": "qaplib-had16.dat",
+      "operation": "qap_relabel",
+      "official_name": "had16.dat",
+      "transform_params_sha256": "9e24e7acfea1b75eee0056c329a35ffac4dd5a596836423b1cb4b84c11d4c314"
+    },
+    {
+      "path": "tests/instances/ex049.dat",
+      "source_id": "qaplib-kra30b.dat",
+      "operation": "qap_relabel",
+      "official_name": "kra30b.dat",
+      "transform_params_sha256": "6141d14da159815ed8d014db2d4dd59e5bb14574b81b4108fea87a74b2a5d1ed"
+    },
+    {
+      "path": "tests/instances/ex052.dat",
+      "source_id": "qaplib-lipa20b.dat",
+      "operation": "qap_relabel",
+      "official_name": "lipa20b.dat",
+      "transform_params_sha256": "48b2c3ed6e4dc1953cb771497720ff75e79ed2a5db57888d072bdeb4fdf563f1"
+    },
+    {
+      "path": "tests/instances/ex055.dat",
+      "source_id": "qaplib-lipa40a.dat",
+      "operation": "qap_relabel",
+      "official_name": "lipa40a.dat",
+      "transform_params_sha256": "a2a31eee1a593d13485356d80f4e8f53f86cda76ecd8163e39f9ee46e8080edb"
+    },
+    {
+      "path": "tests/instances/ex059.dat",
+      "source_id": "qaplib-lipa60a.dat",
+      "operation": "qap_relabel",
+      "official_name": "lipa60a.dat",
+      "transform_params_sha256": "a574424273b920c6766b37dccdb09c7ad1a78a3ab0bd47e0ad32d751215db77d"
+    },
+    {
+      "path": "tests/instances/ex062.dat",
+      "source_id": "qaplib-lipa70b.dat",
+      "operation": "qap_relabel",
+      "official_name": "lipa70b.dat",
+      "transform_params_sha256": "85a234d1be24022290d4625a5c90fa1abf293cf3d5f788402104542e0a4036c7"
+    },
+    {
+      "path": "tests/instances/ex065.dat",
+      "source_id": "qaplib-lipa90a.dat",
+      "operation": "qap_relabel",
+      "official_name": "lipa90a.dat",
+      "transform_params_sha256": "3c7b19007f066ac1db698487e20b8f2e2ea61727287155cac6df3dbd5e945b14"
+    },
+    {
+      "path": "tests/instances/ex068.dat",
+      "source_id": "qaplib-nug14.dat",
+      "operation": "qap_relabel",
+      "official_name": "nug14.dat",
+      "transform_params_sha256": "e2a4e5063f1fee715e082a25da198ed56e81e7e3e54252f1154bf4ddfac0ca67"
+    },
+    {
+      "path": "tests/instances/ex071.dat",
+      "source_id": "qaplib-nug16b.dat",
+      "operation": "qap_relabel",
+      "official_name": "nug16b.dat",
+      "transform_params_sha256": "7a6092dc40ef9c704f2738da9e6ff77e94cda634aef272260f5d73456508f04b"
+    },
+    {
+      "path": "tests/instances/ex074.dat",
+      "source_id": "qaplib-nug20.dat",
+      "operation": "qap_relabel",
+      "official_name": "nug20.dat",
+      "transform_params_sha256": "d0b7ce34e9c7d5033ca04b95e3dd67b6348d1890b61f53825bc2e1fe8761291f"
+    },
+    {
+      "path": "tests/instances/ex077.dat",
+      "source_id": "qaplib-nug24.dat",
+      "operation": "qap_relabel",
+      "official_name": "nug24.dat",
+      "transform_params_sha256": "fe9d51f10dbc7d9acf703f4f58222dc1a394cf5c719ab011d1353406413aeac5"
+    },
+    {
+      "path": "tests/instances/ex080.dat",
+      "source_id": "qaplib-nug28.dat",
+      "operation": "qap_relabel",
+      "official_name": "nug28.dat",
+      "transform_params_sha256": "efe6352931d6d91bfdbdaa1be61e9ef16df655f7ade65eab5b73827a6e6660a7"
+    },
+    {
+      "path": "tests/instances/ex083.dat",
+      "source_id": "qaplib-rou15.dat",
+      "operation": "qap_relabel",
+      "official_name": "rou15.dat",
+      "transform_params_sha256": "cac09e044a39960046c74333da8733f4ddcd7847146c017973dfa1749f6728b0"
+    },
+    {
+      "path": "tests/instances/ex086.dat",
+      "source_id": "qaplib-scr15.dat",
+      "operation": "qap_relabel",
+      "official_name": "scr15.dat",
+      "transform_params_sha256": "2d28a3528d855d252ec07e1026aea360950fe8494cdbfe2f50f584cd846ff333"
+    },
+    {
+      "path": "tests/instances/ex089.dat",
+      "source_id": "qaplib-sko100b.dat",
+      "operation": "qap_relabel",
+      "official_name": "sko100b.dat",
+      "transform_params_sha256": "2d78705084f12a313fb155a708fb4604d6c03f2561e16d7593500c8728f0378f"
+    },
+    {
+      "path": "tests/instances/ex092.dat",
+      "source_id": "qaplib-sko100e.dat",
+      "operation": "qap_relabel",
+      "official_name": "sko100e.dat",
+      "transform_params_sha256": "8405dd8dc56a56de572640751af8ec0ce23e27a79657b774397bfdb3e5d117ff"
+    },
+    {
+      "path": "tests/instances/ex095.dat",
+      "source_id": "qaplib-sko49.dat",
+      "operation": "qap_relabel",
+      "official_name": "sko49.dat",
+      "transform_params_sha256": "c0f62db576dd4dbf591c200b84265cc2bd5db53eb2b224d34149983c9616668c"
+    },
+    {
+      "path": "tests/instances/ex098.dat",
+      "source_id": "qaplib-sko72.dat",
+      "operation": "qap_relabel",
+      "official_name": "sko72.dat",
+      "transform_params_sha256": "49d2a2b1a99d8a44bd04afddb73f2b164e2f7089a69b3666c3da100b2a7db94f"
+    },
+    {
+      "path": "tests/instances/ex102.dat",
+      "source_id": "qaplib-ste36b.dat",
+      "operation": "qap_relabel",
+      "official_name": "ste36b.dat",
+      "transform_params_sha256": "3cc427e24e7dabab3c3962316f4a85f4bf23b37791b8c9a8ce87905c060a0a48"
+    },
+    {
+      "path": "tests/instances/ex107.dat",
+      "source_id": "qaplib-tai10b.dat",
+      "operation": "qap_relabel",
+      "official_name": "tai10b.dat",
+      "transform_params_sha256": "1d910e8c56b4367cc288dda85b23fa65dedd827f9eb3b8f240b15d976bc15d8d"
+    },
+    {
+      "path": "tests/instances/ex110.dat",
+      "source_id": "qaplib-tai150b.dat",
+      "operation": "qap_relabel",
+      "official_name": "tai150b.dat",
+      "transform_params_sha256": "f104ac7883051baf33e3e2b818559801960ded100ef1d9a6b0ff4f289df18ecb"
+    },
+    {
+      "path": "tests/instances/ex112.dat",
+      "source_id": "qaplib-tai15b.dat",
+      "operation": "qap_relabel",
+      "official_name": "tai15b.dat",
+      "transform_params_sha256": "4a1147227a337791064cd84008bc5f7dda5f336634d76d1f9699697492c7a439"
+    },
+    {
+      "path": "tests/instances/ex115.dat",
+      "source_id": "qaplib-tai20b.dat",
+      "operation": "qap_relabel",
+      "official_name": "tai20b.dat",
+      "transform_params_sha256": "09aca7377330fb1eb0b0f3b132f899c094aa769c8f3b437228fd12b3edf4c064"
+    },
+    {
+      "path": "tests/instances/ex120.dat",
+      "source_id": "qaplib-tai30b.dat",
+      "operation": "qap_relabel",
+      "official_name": "tai30b.dat",
+      "transform_params_sha256": "f1d572369ae3519d01244310abed5138b42f37f2a7a8dea0916ca193d6d06dde"
+    },
+    {
+      "path": "tests/instances/ex123.dat",
+      "source_id": "qaplib-tai40a.dat",
+      "operation": "qap_relabel",
+      "official_name": "tai40a.dat",
+      "transform_params_sha256": "18ff1a9d76de16976220a29f846641aef7077f52c384aaec565cc6fc3297cfc4"
+    },
+    {
+      "path": "tests/instances/ex127.dat",
+      "source_id": "qaplib-tai60a.dat",
+      "operation": "qap_relabel",
+      "official_name": "tai60a.dat",
+      "transform_params_sha256": "45e6bc6d6112018ecaed6dd7d2ce7f0bd4e45908de0c48cb16d577179979727f"
+    },
+    {
+      "path": "tests/instances/ex130.dat",
+      "source_id": "qaplib-tai80a.dat",
+      "operation": "qap_relabel",
+      "official_name": "tai80a.dat",
+      "transform_params_sha256": "fbd655a7f1087c7507d0e1dc1e246363efbf29aa6804844ff72115337f1c0eb3"
+    },
+    {
+      "path": "tests/instances/ex134.dat",
+      "source_id": "qaplib-tho40.dat",
+      "operation": "qap_relabel",
+      "official_name": "tho40.dat",
+      "transform_params_sha256": "d18213769c98b9900b6d94c03b698a850fea87c7db0444d72dd0d6045fbd54c2"
+    },
+    {
+      "path": "tests/instances/ex135.dat",
+      "source_id": "qaplib-wil100.dat",
+      "operation": "qap_relabel",
+      "official_name": "wil100.dat",
+      "transform_params_sha256": "f83e3610c6c4e9fc2ec874bbbf560759fc8d52c8f159f01549c891442dbdb526"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py",
+    "assets/data/solver/qap-qaplib/transform.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "description": "Download the exact official QAPLIB input files and verify their fixed SHA-256. Hidden instances replay the historical facility and location relabeling; preserve original seed strings and names.",
+  "transform": "assets/data/solver/qap-qaplib/transform.py",
+  "transform_sha256": "f68d2be99ccde22d78b750b58dcd04be1dba1d6f78183299da4471df58add5e0"
+}

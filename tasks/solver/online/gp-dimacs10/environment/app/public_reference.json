@@ -1,0 +1,139 @@
+{
+ "instances": {
+  "3elt.graph": {
+   "B": 260,
+   "K": 198,
+   "k_source": "walshaw-archive"
+  },
+  "add20.graph": {
+   "B": 1303,
+   "K": 1134,
+   "k_source": "walshaw-archive"
+  },
+  "add32.graph": {
+   "B": 59,
+   "K": 33,
+   "k_source": "walshaw-archive"
+  },
+  "bcsstk31.graph": {
+   "B": 8953,
+   "K": 7148,
+   "k_source": "walshaw-archive"
+  },
+  "bcsstk33.graph": {
+   "B": 23413,
+   "K": 20762,
+   "k_source": "walshaw-archive"
+  },
+  "cs4.graph": {
+   "B": 1130,
+   "K": 917,
+   "k_source": "walshaw-archive"
+  },
+  "cti.graph": {
+   "B": 1225,
+   "K": 916,
+   "k_source": "walshaw-archive"
+  },
+  "delaunay100k-s12.graph": {
+   "B": 1226,
+   "K": 1050,
+   "k_source": "kahip-longrun"
+  },
+  "delaunay20k-p02.graph": {
+   "B": 574,
+   "K": 477,
+   "k_source": "kahip-longrun"
+  },
+  "delaunay30k-s11.graph": {
+   "B": 686,
+   "K": 588,
+   "k_source": "kahip-longrun"
+  },
+  "fe_ocean.graph": {
+   "B": 2192,
+   "K": 1693,
+   "k_source": "walshaw-archive"
+  },
+  "fe_pwt.graph": {
+   "B": 744,
+   "K": 700,
+   "k_source": "walshaw-archive"
+  },
+  "fe_rotor.graph": {
+   "B": 10608,
+   "K": 7049,
+   "k_source": "walshaw-archive"
+  },
+  "fe_sphere.graph": {
+   "B": 866,
+   "K": 764,
+   "k_source": "walshaw-archive"
+  },
+  "kron131k-ef16-s23.graph": {
+   "B": 716063,
+   "K": 495695,
+   "k_source": "kahip-longrun"
+  },
+  "kron16k-ef16-p03.graph": {
+   "B": 94432,
+   "K": 79750,
+   "k_source": "kahip-longrun"
+  },
+  "kron32k-ef16-s21.graph": {
+   "B": 182806,
+   "K": 129923,
+   "k_source": "kahip-longrun"
+  },
+  "m14b.graph": {
+   "B": 14332,
+   "K": 12948,
+   "k_source": "walshaw-archive"
+  },
+  "memplus.graph": {
+   "B": 10952,
+   "K": 9309,
+   "k_source": "walshaw-archive"
+  },
+  "rgg12k-d12-p01.graph": {
+   "B": 443,
+   "K": 378,
+   "k_source": "kahip-longrun"
+  },
+  "rgg150k-d20-s03.graph": {
+   "B": 5052,
+   "K": 4050,
+   "k_source": "kahip-longrun"
+  },
+  "rgg25k-d10-s01.graph": {
+   "B": 543,
+   "K": 334,
+   "k_source": "kahip-longrun"
+  },
+  "t60k.graph": {
+   "B": 299,
+   "K": 203,
+   "k_source": "walshaw-archive"
+  },
+  "uk.graph": {
+   "B": 46,
+   "K": 39,
+   "k_source": "walshaw-archive"
+  },
+  "wave.graph": {
+   "B": 21999,
+   "K": 16633,
+   "k_source": "walshaw-archive"
+  },
+  "wing.graph": {
+   "B": 2549,
+   "K": 1593,
+   "k_source": "walshaw-archive"
+  },
+  "wing_nodal.graph": {
+   "B": 3779,
+   "K": 3534,
+   "k_source": "walshaw-archive"
+  }
+ }
+}

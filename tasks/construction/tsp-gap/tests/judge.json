@@ -1,0 +1,28 @@
+{
+ "namespace": "TSPGap",
+ "main_theorem": "main",
+ "interface_defs": [
+  "certN",
+  "certCost",
+  "claimedAlpha"
+ ],
+ "baseline_alpha": "11/10",
+ "standing_alpha": "76/61",
+ "record_per_n": {
+  "15": "11/9",
+  "16": "27/22",
+  "17": "53/43",
+  "18": "26/21",
+  "19": "77/62",
+  "20": "76/61"
+ },
+ "table4_max": "27/22",
+ "standard_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "probe_timeout_sec": 1700
+}

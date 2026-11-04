@@ -1,0 +1,47 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "@types/prop-types": "*",
+      "csstype": "^3.2.2"
+    },
+    "integrity": "sha512-z9VXpC7MWrhfWipitjNdgCauoMLRdIILQsAEV+ZesIzBq/oUlxk0m3ApZuMFCXdnS4U7KrI+l3WRUEGQ8K1QKw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@types/react/-/react-18.3.28.tgz",
+    "version": "18.3.28"
+  },
+  "lock_path": "node_modules/@types/react",
+  "name": "@types/react",
+  "name_basis": "Name from the exact npm lock path; archive-root package metadata was not copied by the notice-only extraction.",
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1141,
+      "installed_file": "notices/original/react v18.3/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "react v18.3/LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "text_file": "image-notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt"
+    }
+  ],
+  "package_license": null,
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 80631,
+    "installed_in_image": false,
+    "integrity": "sha512-z9VXpC7MWrhfWipitjNdgCauoMLRdIILQsAEV+ZesIzBq/oUlxk0m3ApZuMFCXdnS4U7KrI+l3WRUEGQ8K1QKw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@types/react/-/react-18.3.28.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "f60bb14df4bd20ca52ef080c59e6a013bc90b2722fffce08e37fbd12a3142e05"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "18.3.28"
+}

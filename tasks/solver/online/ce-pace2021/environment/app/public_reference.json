@@ -1,0 +1,905 @@
+{
+ "instances": {
+  "heur001.gr": {
+   "B": 24,
+   "K": 10,
+   "L": 10,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 31,
+   "n": 10
+  },
+  "heur003.gr": {
+   "B": 2576,
+   "K": 1481,
+   "L": 1498,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 2588,
+   "n": 120
+  },
+  "heur005.gr": {
+   "B": 3977,
+   "K": 2434,
+   "L": 2434,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 4015,
+   "n": 160
+  },
+  "heur007.gr": {
+   "B": 6708,
+   "K": 4198,
+   "L": 4312,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 6731,
+   "n": 200
+  },
+  "heur009.gr": {
+   "B": 1380,
+   "K": 707,
+   "L": 716,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 1450,
+   "n": 250
+  },
+  "heur011.gr": {
+   "B": 6365,
+   "K": 1775,
+   "L": 1775,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 6574,
+   "n": 250
+  },
+  "heur013.gr": {
+   "B": 22272,
+   "K": 5807,
+   "L": 5807,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 22395,
+   "n": 250
+  },
+  "heur015.gr": {
+   "B": 14942,
+   "K": 7675,
+   "L": 7701,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 15035,
+   "n": 300
+  },
+  "heur017.gr": {
+   "B": 15432,
+   "K": 6866,
+   "L": 6866,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 15641,
+   "n": 300
+  },
+  "heur019.gr": {
+   "B": 28420,
+   "K": 6978,
+   "L": 6978,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 28765,
+   "n": 300
+  },
+  "heur021.gr": {
+   "B": 13206,
+   "K": 4707,
+   "L": 4707,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 13507,
+   "n": 320
+  },
+  "heur023.gr": {
+   "B": 15804,
+   "K": 5123,
+   "L": 5123,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 16183,
+   "n": 329
+  },
+  "heur025.gr": {
+   "B": 32136,
+   "K": 5050,
+   "L": 5051,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 32168,
+   "n": 329
+  },
+  "heur027.gr": {
+   "B": 2161,
+   "K": 1088,
+   "L": 1115,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 2256,
+   "n": 330
+  },
+  "heur029.gr": {
+   "B": 4236,
+   "K": 2193,
+   "L": 2220,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 4329,
+   "n": 330
+  },
+  "heur031.gr": {
+   "B": 7107,
+   "K": 3696,
+   "L": 3704,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 7270,
+   "n": 330
+  },
+  "heur033.gr": {
+   "B": 13672,
+   "K": 7005,
+   "L": 7034,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 13861,
+   "n": 330
+  },
+  "heur035.gr": {
+   "B": 15488,
+   "K": 2982,
+   "L": 2982,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 17798,
+   "n": 345
+  },
+  "heur037.gr": {
+   "B": 31633,
+   "K": 8563,
+   "L": 8563,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 31752,
+   "n": 347
+  },
+  "heur039.gr": {
+   "B": 13417,
+   "K": 4456,
+   "L": 4457,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 13593,
+   "n": 361
+  },
+  "heur041.gr": {
+   "B": 25489,
+   "K": 3435,
+   "L": 3435,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 25559,
+   "n": 361
+  },
+  "heur043.gr": {
+   "B": 20561,
+   "K": 9172,
+   "L": 9173,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 20918,
+   "n": 374
+  },
+  "heur045.gr": {
+   "B": 10888,
+   "K": 5444,
+   "L": 5444,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 11076,
+   "n": 391
+  },
+  "heur047.gr": {
+   "B": 33923,
+   "K": 14772,
+   "L": 14905,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 33970,
+   "n": 391
+  },
+  "heur049.gr": {
+   "B": 28582,
+   "K": 13915,
+   "L": 13915,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 28650,
+   "n": 400
+  },
+  "heur051.gr": {
+   "B": 31127,
+   "K": 7249,
+   "L": 7249,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 32613,
+   "n": 400
+  },
+  "heur053.gr": {
+   "B": 70020,
+   "K": 8908,
+   "L": 8908,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 70027,
+   "n": 400
+  },
+  "heur055.gr": {
+   "B": 9272,
+   "K": 3578,
+   "L": 3580,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 10991,
+   "n": 449
+  },
+  "heur057.gr": {
+   "B": 5611,
+   "K": 2820,
+   "L": 2832,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 5958,
+   "n": 491
+  },
+  "heur059.gr": {
+   "B": 21274,
+   "K": 11983,
+   "L": 11985,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 21375,
+   "n": 491
+  },
+  "heur061.gr": {
+   "B": 39803,
+   "K": 24979,
+   "L": 25020,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 39849,
+   "n": 500
+  },
+  "heur063.gr": {
+   "B": 48750,
+   "K": 23652,
+   "L": 23652,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 48884,
+   "n": 500
+  },
+  "heur065.gr": {
+   "B": 62234,
+   "K": 32430,
+   "L": 32390,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 62268,
+   "n": 500
+  },
+  "heur067.gr": {
+   "B": 13561,
+   "K": 2425,
+   "L": 2427,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 14636,
+   "n": 533
+  },
+  "heur069.gr": {
+   "B": 6432,
+   "K": 2430,
+   "L": 2430,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 7608,
+   "n": 551
+  },
+  "heur071.gr": {
+   "B": 33695,
+   "K": 14687,
+   "L": 14669,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 33998,
+   "n": 551
+  },
+  "heur073.gr": {
+   "B": 15860,
+   "K": 6243,
+   "L": 6522,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 17026,
+   "n": 601
+  },
+  "heur075.gr": {
+   "B": 3904,
+   "K": 2531,
+   "L": 2637,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 3992,
+   "n": 620
+  },
+  "heur077.gr": {
+   "B": 35116,
+   "K": 15831,
+   "L": 15831,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 35188,
+   "n": 620
+  },
+  "heur079.gr": {
+   "B": 163799,
+   "K": 27073,
+   "L": 27073,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 163863,
+   "n": 620
+  },
+  "heur081.gr": {
+   "B": 13770,
+   "K": 6544,
+   "L": 6534,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 14454,
+   "n": 871
+  },
+  "heur083.gr": {
+   "B": 39459,
+   "K": 12736,
+   "L": 12770,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 39768,
+   "n": 871
+  },
+  "heur085.gr": {
+   "B": 71678,
+   "K": 31469,
+   "L": 31527,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 71770,
+   "n": 871
+  },
+  "heur087.gr": {
+   "B": 10322,
+   "K": 3049,
+   "L": 3050,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 15185,
+   "n": 885
+  },
+  "heur089.gr": {
+   "B": 20465,
+   "K": 1916,
+   "L": 1915,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 26076,
+   "n": 885
+  },
+  "heur091.gr": {
+   "B": 35182,
+   "K": 22716,
+   "L": 22735,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 35535,
+   "n": 926
+  },
+  "heur093.gr": {
+   "B": 53474,
+   "K": 35196,
+   "L": 35226,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 53620,
+   "n": 926
+  },
+  "heur095.gr": {
+   "B": 15229,
+   "K": 3938,
+   "L": 3939,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 17922,
+   "n": 1051
+  },
+  "heur097.gr": {
+   "B": 33400,
+   "K": 4034,
+   "L": 4035,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 39275,
+   "n": 1051
+  },
+  "heur099.gr": {
+   "B": 41179,
+   "K": 15468,
+   "L": 15470,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 41737,
+   "n": 1190
+  },
+  "heur101.gr": {
+   "B": 90671,
+   "K": 23295,
+   "L": 23295,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 91104,
+   "n": 1190
+  },
+  "heur103.gr": {
+   "B": 35874,
+   "K": 11677,
+   "L": 11685,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 37325,
+   "n": 1292
+  },
+  "heur105.gr": {
+   "B": 83511,
+   "K": 26931,
+   "L": 26948,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 84278,
+   "n": 1292
+  },
+  "heur107.gr": {
+   "B": 22950,
+   "K": 5154,
+   "L": 5154,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 24217,
+   "n": 1345
+  },
+  "heur109.gr": {
+   "B": 54671,
+   "K": 21187,
+   "L": 21187,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 56627,
+   "n": 1345
+  },
+  "heur111.gr": {
+   "B": 163889,
+   "K": 68490,
+   "L": 68490,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 164203,
+   "n": 1345
+  },
+  "heur113.gr": {
+   "B": 32131,
+   "K": 9350,
+   "L": 9352,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 33470,
+   "n": 1386
+  },
+  "heur115.gr": {
+   "B": 65881,
+   "K": 25536,
+   "L": 25555,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 66405,
+   "n": 1386
+  },
+  "heur117.gr": {
+   "B": 40887,
+   "K": 10051,
+   "L": 10057,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 50179,
+   "n": 2054
+  },
+  "heur119.gr": {
+   "B": 70285,
+   "K": 17433,
+   "L": 17434,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 76550,
+   "n": 2054
+  },
+  "heur121.gr": {
+   "B": 151804,
+   "K": 66386,
+   "L": 66449,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 161088,
+   "n": 2054
+  },
+  "heur123.gr": {
+   "B": 66236,
+   "K": 13356,
+   "L": 13354,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 71531,
+   "n": 2362
+  },
+  "heur125.gr": {
+   "B": 100981,
+   "K": 32535,
+   "L": 32379,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 108147,
+   "n": 2362
+  },
+  "heur127.gr": {
+   "B": 37147,
+   "K": 19824,
+   "L": 19917,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 37570,
+   "n": 2831
+  },
+  "heur129.gr": {
+   "B": 689045,
+   "K": 485269,
+   "L": 485313,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 689265,
+   "n": 2831
+  },
+  "heur131.gr": {
+   "B": 3315430,
+   "K": 652019,
+   "L": 652019,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 3353846,
+   "n": 2831
+  },
+  "heur133.gr": {
+   "B": 445,
+   "K": 445,
+   "L": 445,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 4005420,
+   "n": 2831
+  },
+  "heur135.gr": {
+   "B": 53222,
+   "K": 22921,
+   "L": 23061,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 53737,
+   "n": 2912
+  },
+  "heur137.gr": {
+   "B": 744863,
+   "K": 510857,
+   "L": 511096,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 745066,
+   "n": 2912
+  },
+  "heur139.gr": {
+   "B": 3462037,
+   "K": 722787,
+   "L": 722787,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 3515629,
+   "n": 2912
+  },
+  "heur141.gr": {
+   "B": 9507,
+   "K": 2083,
+   "L": 2082,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 9775,
+   "n": 2936
+  },
+  "heur143.gr": {
+   "B": 231884,
+   "K": 157299,
+   "L": 157712,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 232022,
+   "n": 2936
+  },
+  "heur145.gr": {
+   "B": 2063206,
+   "K": 1094793,
+   "L": 1094795,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 2065631,
+   "n": 2936
+  },
+  "heur147.gr": {
+   "B": 4144039,
+   "K": 148412,
+   "L": 148412,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 4160168,
+   "n": 2936
+  },
+  "heur149.gr": {
+   "B": 16806,
+   "K": 3773,
+   "L": 3793,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 17115,
+   "n": 2939
+  },
+  "heur151.gr": {
+   "B": 76136,
+   "K": 38881,
+   "L": 38979,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 76493,
+   "n": 2939
+  },
+  "heur153.gr": {
+   "B": 288558,
+   "K": 178894,
+   "L": 179157,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 288774,
+   "n": 2939
+  },
+  "heur155.gr": {
+   "B": 874843,
+   "K": 539029,
+   "L": 539218,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 875079,
+   "n": 2939
+  },
+  "heur157.gr": {
+   "B": 2060961,
+   "K": 961451,
+   "L": 961645,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 2064822,
+   "n": 2939
+  },
+  "heur159.gr": {
+   "B": 3472640,
+   "K": 784235,
+   "L": 784235,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 3533156,
+   "n": 2939
+  },
+  "heur161.gr": {
+   "B": 4287202,
+   "K": 22268,
+   "L": 22268,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 4295123,
+   "n": 2939
+  },
+  "heur163.gr": {
+   "B": 194673,
+   "K": 59164,
+   "L": 60289,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 197318,
+   "n": 3387
+  },
+  "heur165.gr": {
+   "B": 601390,
+   "K": 314327,
+   "L": 314620,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 601686,
+   "n": 3387
+  },
+  "heur167.gr": {
+   "B": 10883,
+   "K": 6059,
+   "L": 6130,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 14484,
+   "n": 5242
+  },
+  "heur169.gr": {
+   "B": 12055,
+   "K": 11275,
+   "L": 11389,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 12572,
+   "n": 6474
+  },
+  "heur171.gr": {
+   "B": 31067,
+   "K": 27893,
+   "L": 28375,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 31525,
+   "n": 8717
+  },
+  "heur173.gr": {
+   "B": 22068,
+   "K": 15863,
+   "L": 16100,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 25973,
+   "n": 9877
+  },
+  "heur175.gr": {
+   "B": 104350,
+   "K": 46223,
+   "L": 46675,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 118489,
+   "n": 12008
+  },
+  "heur177.gr": {
+   "B": 54100,
+   "K": 48408,
+   "L": 49057,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 54705,
+   "n": 22687
+  },
+  "heur179.gr": {
+   "B": 171516,
+   "K": 150652,
+   "L": 151884,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 183831,
+   "n": 36692
+  },
+  "heur181.gr": {
+   "B": 318687,
+   "K": 305798,
+   "L": 308423,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 327429,
+   "n": 77351
+  },
+  "heur183.gr": {
+   "B": 1330745,
+   "K": 1069487,
+   "L": 1073490,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 1342296,
+   "n": 81306
+  },
+  "heur185.gr": {
+   "B": 339194,
+   "K": 325149,
+   "L": 327912,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 348590,
+   "n": 82141
+  },
+  "heur187.gr": {
+   "B": 486031,
+   "K": 463573,
+   "L": 466293,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 501498,
+   "n": 131829
+  },
+  "heur189.gr": {
+   "B": 822876,
+   "K": 542197,
+   "L": 552989,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 899792,
+   "n": 262111
+  },
+  "heur191.gr": {
+   "B": 894472,
+   "K": 607973,
+   "L": 613245,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 1049866,
+   "n": 317080
+  },
+  "heur193.gr": {
+   "B": 855738,
+   "K": 613486,
+   "L": 627176,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 925872,
+   "n": 334863
+  },
+  "heur195.gr": {
+   "B": 2333797,
+   "K": 1650936,
+   "L": 1670042,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 2443408,
+   "n": 403394
+  },
+  "heur197.gr": {
+   "B": 1357882,
+   "K": 945027,
+   "L": 989311,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 1541898,
+   "n": 1088092
+  },
+  "heur199.gr": {
+   "B": 1685359,
+   "K": 1165392,
+   "L": 1220786,
+   "k_source": "kapoce-fast-min(60s,600s)",
+   "l_source": "anchor-ls-greedy+vertex-move-ls@pool6000s(docker,v1.2)",
+   "m": 1921660,
+   "n": 1379917
+  }
+ },
+ "notes": "B = baseline greedy closed-neighborhood solver (60 s cap); K = best of KaPoCE heuristic (fast.ini) runs at 60 s and 600 s per instance (competition-spec budget) on the authoring machine; upper bound, not proven optimal. L (v1.2) = same calibration solver as the hidden reference (tests/calibration/anchor_ls_app), measured in-container through the judge pipeline ; scoring anchors B -> 0.0, L -> 0.3, K -> 1.0, piecewise linear."
+}

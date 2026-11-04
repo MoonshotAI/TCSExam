@@ -1,0 +1,47 @@
+{
+  "author": "Garrett Johnson <garrett.kjohnson@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "deprecated": "Deprecated due to three.js version incompatibility. Please use v0.8.0, instead.",
+    "integrity": "sha512-BGEZTOIC14U0XIRw3tO4jY7IjP7n7v24nv9JXS1CyeVRWOCkcOMhRnmENUjuV39gktAw4Ofhr0OvIAiTspQrrw==",
+    "license": "MIT",
+    "peerDependencies": {
+      "three": ">= 0.151.0"
+    },
+    "resolved": "https://registry.npmjs.org/three-mesh-bvh/-/three-mesh-bvh-0.7.8.tgz",
+    "version": "0.7.8"
+  },
+  "lock_path": "node_modules/three-mesh-bvh",
+  "name": "three-mesh-bvh",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1072,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "b106ef6198a9862ed2b5b873e944ecf3583c631a84a7462d400ecc1910ce7fee",
+      "text_file": "image-notices/b106ef6198a9862ed2b5b873e944ecf3583c631a84a7462d400ecc1910ce7fee.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 278212,
+    "installed_in_image": false,
+    "integrity": "sha512-BGEZTOIC14U0XIRw3tO4jY7IjP7n7v24nv9JXS1CyeVRWOCkcOMhRnmENUjuV39gktAw4Ofhr0OvIAiTspQrrw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/three-mesh-bvh/-/three-mesh-bvh-0.7.8.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "f21fa6b4efb98c61403988fffbdb757c8d2e4e0502d163340c44f5de581b6134"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.7.8"
+}

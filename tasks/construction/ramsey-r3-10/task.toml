@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/ramsey-r3-10-lean-open"
+version = "1.0.0"
+description = "Open-proof task: prove a bound on the Ramsey number R(3,10) in Lean 4 (either exhibit a 2-coloring of K_N with no red K3 and no blue K10, or refute one). No instance, no witness, no lemma ladder; the definition layer (Coloring, MonoFree) is fixed and machine-checked, N is parsed from the proven claim and scored against the literature record (lower 39 / Exoo 1989, upper 41 / Angeltveit 2025). The interval is one wide: a new result in either direction closes the problem."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "ramsey", "graph-coloring", "open-problem", "open-construction"]
+
+[metadata]
+family_id = "fam-ramsey-r3-10"
+candidate_id = "cand-ramsey-r3-10-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open-proof"
+difficulty_explanation = "No ground truth and no scaffolding: the agent must find a construction (or a refutation argument) and formalize it against a fixed definition layer. Even the alpha milestone (any verified non-vacuous bound) needs a real formalization; the record zone (N=39 construction, or any upper-bound proof at N<=41) is at or beyond the published research frontier, and the interval being one wide means a new result in either direction settles R(3,10) exactly."
+source_paper = "G. Exoo, On Two Classical Ramsey Numbers of the Form R(3,n), SIAM J. Discrete Math. 2:488-490, 1989; Angeltveit, Electron. J. Combin. 32(4) #P4.30, 2025; Radziszowski, Small Ramsey Numbers, EJC DS1 rev #18"
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-construction-ramsey-r3-10-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

@@ -1,0 +1,4 @@
+{
+  "policy": "task-lean-sources",
+  "trusted_app": "/opt/tcsexam-trusted-app"
+}

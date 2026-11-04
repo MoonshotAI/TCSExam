@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: Apache-2.0
+# Clean public workspace supplies the original compiler/checking tools.
+# The parent contains public practice data only; this product adds the selected
+# judging split, which is read exclusively through /tests[-public]/instances.
+ARG TCSEXAM_CLEAN_TOOLS_IMAGE
+ARG TCSEXAM_JUDGE_DATA_IMAGE
+FROM ${TCSEXAM_JUDGE_DATA_IMAGE} AS tcsexam_data
+FROM ${TCSEXAM_CLEAN_TOOLS_IMAGE}
+COPY --from=tcsexam_data /payload/rootfs/ /
+COPY assets/environments/solver/judge-runtime/*.py /judge/
+# Keep generic decompression unchanged; only this hidden VC backend adds .gr aliases.
+COPY assets/environments/solver/judge-runtime/prepare.py /judge/compressed_prepare.py
+COPY assets/environments/solver/vc-pace2019/judge/prepare_vc.py /judge/prepare.py
+COPY assets/data/solver/solver-vc-pace2019-judging-data-files.json /judge/vc-instance-manifest.json
+COPY tasks/solver/offline/vc-pace2019/tests/runtime/task.json /judge/task.json
+COPY assets/environments/solver/vc-pace2019/judge/scoring.py /opt/vc/scoring.py
+COPY assets/environments/solver/vc-pace2019/judge/scoring.py /tests/scoring.py
+COPY tasks/solver/online/vc-pace2019/tests/checker.py /tests/checker.py
+COPY tasks/solver/online/vc-pace2019/tests/reference.json /tests/reference.json
+RUN mkdir -p /tests /work /logs/verifier /submission && rm -rf /app && mkdir /app \
+ && printf "#!/bin/sh\nset -eu\npython3 /judge/run_checker.py\n" > /tests/test.sh \
+ && chmod 755 /tests/test.sh
+ENV TESTS_DIR=/tests APP_DIR=/app WORK_DIR=/work PORT=8082 INSTANCE_SET=hidden JUDGE_CMD="bash /tests/test.sh" JUDGE_TIMEOUT=242500
+WORKDIR /work
+ENTRYPOINT []
+CMD ["python3", "/judge/judge_worker.py"]

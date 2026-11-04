@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/sygus-comp",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/sygus-comp/tests/checker.py",
+      "target": "tasks/solver/offline/sygus-comp/tests/checker.py",
+      "sha256": "77885d1414e6c2c5070a4348f86262bdae294d69ec9a4dd991d79d97ce062c7b"
+    },
+    {
+      "source": "tasks/solver/online/sygus-comp/tests/reference.json",
+      "target": "tasks/solver/offline/sygus-comp/tests/reference.json",
+      "sha256": "4541a427e26ffc39d56a2b83e22a3238937ccceb89559942a4c3381d0b6364a0"
+    },
+    {
+      "source": "tasks/solver/online/sygus-comp/tests/anchors.json",
+      "target": "tasks/solver/offline/sygus-comp/tests/anchors.json",
+      "sha256": "44d5b5d654a6d45f35d56015ffe3b34574d2721404a3d42e22a27c41bb1b51b6"
+    },
+    {
+      "source": "tasks/solver/online/sygus-comp/tests/metric_config.json",
+      "target": "tasks/solver/offline/sygus-comp/tests/metric_config.json",
+      "sha256": "0fb5c93875d82eb152767cf088c72b563de0a85bef17e475f3fec4404d869553"
+    }
+  ],
+  "development_dependency": "dev-online-sygus-comp",
+  "verifier_dependency": "backend-online-sygus-comp",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

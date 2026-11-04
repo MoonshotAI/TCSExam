@@ -1,0 +1,39 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-unitary-synthesis-lb-bare-proof"
+version = "0.1.0"
+description = "Prove Theorem 4.17 of Lombardi-Ma-Wright (STOC 2024 / arXiv 2310.08870), the one-query distinguishing-advantage expectation bound E_R[adv] <= C sqrt(ln M / K) at the core of the one-query lower bound for unitary synthesis, in Lean 4 (machine-verified). L2: statement fidelity only, no ground truth. [bare variant: main theorem only, 0/1]"
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "quantum-query-lower-bound", "unitary-synthesis", "decoupling", "spectral-relaxation", "matrix-rademacher", "sub-exponential", "bernstein"]
+
+[metadata]
+family_id = "fam-unitary-synthesis-lb"
+candidate_id = "cand-lmw24-one-query-unitary-synthesis"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task: the proofs need a decoupling coupling argument, finite-dimensional spectral relaxation, Tropp's matrix Rademacher concentration (quoted external ingredient), sub-exponential centering via MGFs, Bernstein-type tails with a width union bound, and a two-regime assembly; no ground truth is provided."
+source_paper = "Alex Lombardi, Fermi Ma, John Wright: A one-query lower bound for unitary synthesis and breaking quantum cryptography, STOC 2024; arXiv 2310.08870."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-theorem-unitary-synthesis-lb-verifier"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

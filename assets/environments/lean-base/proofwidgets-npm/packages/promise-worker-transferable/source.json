@@ -1,0 +1,47 @@
+{
+  "author": "Roman Viskin <npm@terikon.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "Apache-2.0",
+  "lock_entry": {
+    "dependencies": {
+      "is-promise": "^2.1.0",
+      "lie": "^3.0.2"
+    },
+    "integrity": "sha512-bN+0ehEnrXfxV2ZQvU2PetO0n4gqBD4ulq3MI1WOPLgr7/Mg9yRQkX5+0v1vagr74ZTsl7XtzlaYDo2EuCeYJw==",
+    "license": "Apache-2.0",
+    "resolved": "https://registry.npmjs.org/promise-worker-transferable/-/promise-worker-transferable-1.0.4.tgz",
+    "version": "1.0.4"
+  },
+  "lock_path": "node_modules/promise-worker-transferable",
+  "name": "promise-worker-transferable",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 11391,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "0f0ba7a9d825b6cac29a3c949860dcfc0b87f2f0f57a078199520a3cd03896f6",
+      "text_file": "image-notices/0f0ba7a9d825b6cac29a3c949860dcfc0b87f2f0f57a078199520a3cd03896f6.txt"
+    }
+  ],
+  "package_license": "Apache-2.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 13434,
+    "installed_in_image": false,
+    "integrity": "sha512-bN+0ehEnrXfxV2ZQvU2PetO0n4gqBD4ulq3MI1WOPLgr7/Mg9yRQkX5+0v1vagr74ZTsl7XtzlaYDo2EuCeYJw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/promise-worker-transferable/-/promise-worker-transferable-1.0.4.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "399c508d701f61753c58a1b84d52724ca6930f807f02d610be055a15a6a4651b"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.0.4"
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 2,
+  "name": "TCSExam-Lite",
+  "version": "0.2-staging",
+  "suite": "lite",
+  "task_count": 20,
+  "tasks": [
+    {
+      "id": "binary-code-a24-10",
+      "track": "construction"
+    },
+    {
+      "id": "ex-c3c4-maxedges",
+      "track": "construction"
+    },
+    {
+      "id": "kissing-d13",
+      "track": "construction"
+    },
+    {
+      "id": "ramsey-r46",
+      "track": "construction"
+    },
+    {
+      "id": "tsp-gap",
+      "track": "construction"
+    },
+    {
+      "id": "evasiveness-graph-properties",
+      "track": "open"
+    },
+    {
+      "id": "frege-not-pbounded",
+      "track": "open"
+    },
+    {
+      "id": "log-rank-conjecture",
+      "track": "open"
+    },
+    {
+      "id": "online-matching-random-order",
+      "track": "open"
+    },
+    {
+      "id": "prg-constant-width-robp",
+      "track": "open"
+    },
+    {
+      "id": "bpp-bpplib",
+      "track": "solver"
+    },
+    {
+      "id": "curriculum-itc2007",
+      "track": "solver"
+    },
+    {
+      "id": "maxcut-mqlib",
+      "track": "solver"
+    },
+    {
+      "id": "mr-roadef2012",
+      "track": "solver"
+    },
+    {
+      "id": "qbf-qbfeval",
+      "track": "solver"
+    },
+    {
+      "id": "corners-quasipoly",
+      "track": "theorem"
+    },
+    {
+      "id": "discrete-bidding-games",
+      "track": "theorem"
+    },
+    {
+      "id": "folded-rs-gsb",
+      "track": "theorem"
+    },
+    {
+      "id": "negations-small-depth",
+      "track": "theorem"
+    },
+    {
+      "id": "quantum-crypto-algorithmica",
+      "track": "theorem"
+    }
+  ],
+  "default_solver_protocol": "offline"
+}

@@ -1,0 +1,35 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "radiation-mznchallenge",
+  "repository": "https://github.com/MiniZinc/minizinc-benchmarks",
+  "commit": "26bcd0a78433025f7b6896a6fa8caf128795760b",
+  "outputs": 15,
+  "official_downloads": 11,
+  "retained_project_public_inputs": [
+    "assets/data/solver/radiation-mznchallenge/public-generated/pub14_12a.dzn",
+    "assets/data/solver/radiation-mznchallenge/public-generated/pub16_12a.dzn",
+    "assets/data/solver/radiation-mznchallenge/public-generated/pub16_14a.dzn",
+    "assets/data/solver/radiation-mznchallenge/public-generated/pub18_15a.dzn"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "verification_status": "passed",
+  "terms": "Retain the existing resource-specific terms. This reconstruction does not add redistribution approval.",
+  "verified_products": {
+    "solver-radiation-mznchallenge-development-data": {
+      "result": {
+        "files": 15,
+        "bytes": 6479
+      }
+    }
+  },
+  "related_judging_source": "docs/licenses/third-party/radiation-mznchallenge-judging-source.json",
+  "judging_provenance": {
+    "files": 47,
+    "project_generated_apache_2_0": 24,
+    "upstream_mit": 23,
+    "manifest_sha256": "827a13e3bc564d5f06d7dcd2a0c2d9b8e200042b89fad5ece0b81bff45d15b27",
+    "source_route": "official_files; no private input required",
+    "historical_image_acceptance_not_relabelled": true
+  }
+}

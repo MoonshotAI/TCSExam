@@ -1,0 +1,150 @@
+{
+  "sources": [
+    {
+      "id": "1_Falkenauer",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/1_Falkenauer.rar",
+      "bytes": 43346,
+      "sha256": "e09f6ed02addc00f21db98229c17e1bdc0e42d201a3a799598594057a5a85316"
+    },
+    {
+      "id": "2_Scholl",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/2_Scholl.rar",
+      "bytes": 270434,
+      "sha256": "b1b0dd2c4f641256a5a5638fc5a5eb0819ac3f2da9baf1be0cad87176e5d1971"
+    },
+    {
+      "id": "3_Wäscher",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/3_W%C3%A4scher.rar",
+      "bytes": 4106,
+      "sha256": "61c703fb5a76fa3f74e4be5baad60a1ace57a11a73833843fba33f9575cfeb88"
+    },
+    {
+      "id": "4_Schwerin",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/4_Schwerin.rar",
+      "bytes": 35021,
+      "sha256": "3c7d0a5d291cf842669cbca5d0b5249e6c0ec22476c4e0c9d9dace35571b7d59"
+    },
+    {
+      "id": "5_Hard28",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/5_Hard28.rar",
+      "bytes": 10425,
+      "sha256": "cee6c3417a5fd34d69da1142898e70720f32a4b37c2e555e9cc07aae83104fec"
+    },
+    {
+      "id": "6_Randomly_Generated",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/6_Randomly_Generated.rar",
+      "bytes": 1152499,
+      "sha256": "cf2c0776567715900e4ab98b6fbaacb082c583bfccd074c6bf53a49553dbc630"
+    },
+    {
+      "id": "7_ANI_AI",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/7_ANI_AI.rar",
+      "bytes": 639289,
+      "sha256": "049d4b37b3f67ad9a195879ec2a3f5589270ad84f33a5ed54d3da6e918e76c42"
+    },
+    {
+      "id": "8_GI",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/8_GI.rar",
+      "bytes": 289162,
+      "sha256": "36f370f2535825275e55c3792bd514ffa9eb4e0afe4bf4a856929aa78f556415"
+    },
+    {
+      "id": "9_SSTriples_BPP",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/9_SSTriples_BPP.rar",
+      "bytes": 139437,
+      "sha256": "1e923a610641fc3e904429067ed21565f80f9a4f34e3886e23ee1103cd2b0aef"
+    },
+    {
+      "id": "Results_VPS",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Solutions/Results_VPS.rar",
+      "bytes": 12476716,
+      "sha256": "42ae58f4e4ea8baa83cd57e5902e4828b7bc4281bf93961febd70653e064021d"
+    },
+    {
+      "id": "1_Falkenauer_CSP",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/1_Falkenauer_CSP.rar",
+      "bytes": 49494,
+      "sha256": "b48ee87f3222a0a1ff19c3ed1021b61d46d8a4fb95dd9eada6bf435000c9c63b"
+    },
+    {
+      "id": "2_Scholl_CSP",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/2_Scholl_CSP.rar",
+      "bytes": 304327,
+      "sha256": "95d8cdf869d3f47a865de15ed9be17e9d1496b48e339a0964d220ba414981ef1"
+    },
+    {
+      "id": "3_Wäscher_CSP",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/3_W%C3%A4scher_CSP.rar",
+      "bytes": 4325,
+      "sha256": "ff8f9e00a49be80521bf028203b2e555330f4fd4eef2d05bf4671f3da65f4f42"
+    },
+    {
+      "id": "4_Schwerin_CSP",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/4_Schwerin_CSP.rar",
+      "bytes": 40745,
+      "sha256": "6f961b374eea4c727791a795ba0d06f9d27a920a359d8ce748f610c46412cb3e"
+    },
+    {
+      "id": "5_Hard28_CSP",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/5_Hard28_CSP.rar",
+      "bytes": 10979,
+      "sha256": "4f2e74ffd7b1d1fc7de3dbf90bb7701d666bb6c1ddb7a081aa609b74bbcc6100"
+    },
+    {
+      "id": "6_Randomly_Generated_CSP",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/6_Randomly_Generated_CSP.rar",
+      "bytes": 1343337,
+      "sha256": "b57ff00c57d361cf3e454bc82d9150f1fe59db95f9793cf71b0b95cb173f0cf8"
+    },
+    {
+      "id": "7_ANI_AI_CSP",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/7_ANI_AI_CSP.rar",
+      "bytes": 649036,
+      "sha256": "aa2906490ece3b786a62907668d8eba8ef159c731f516a14ae231704eaaf40a2"
+    },
+    {
+      "id": "8_GI CSP",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Benchmarks/8_GI%20CSP.rar",
+      "bytes": 338100,
+      "sha256": "912f77840be9e0ec6ca540b0f4dc32a46071ec3d83dfbb3108fec0c40bd27e9f"
+    },
+    {
+      "id": "Solutions.xlsx",
+      "url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Solutions/Solutions.xlsx",
+      "sha256": "e783cd15bb3380766ebe20879eea775acf62ea8f75c25285cd4335fa20a6cbb4",
+      "bytes": 235079
+    }
+  ],
+  "table_intro": [
+    "# BPPLIB instance table",
+    "",
+    "One row per instance in this environment: the 90 public practice instances at `/app/instances/` plus the 6,216 additional library instances at `/app/library/` (the two sets do not overlap).",
+    "",
+    "- `best` — the BPPLIB-registered best value: a single number when the registered best lower bound equals the best upper bound (a proven optimum), otherwise `lb..ub`.",
+    "- `ffd` — bins used by the shipped First-Fit Decreasing baseline; `gap` = `ffd` − `best upper bound`.",
+    ""
+  ],
+  "provenance": [
+    "docs/licenses/third-party/bpplib-reconstruction.json",
+    "docs/licenses/third-party/bpplib-table-source.json"
+  ],
+  "requirements": [
+    "Python >=3.11",
+    "system libarchive with RAR support"
+  ],
+  "generator_paths": [
+    "src/tcsexam/bpplib.py"
+  ],
+  "distribution": "local_prepare",
+  "table_headings": {
+    "ANI_AI": 500,
+    "Falkenauer": 160,
+    "GI": 240,
+    "Hard28": 28,
+    "Randomly_Generated": 3840,
+    "SSTriples": 150,
+    "Scholl": 1210,
+    "Schwerin": 200,
+    "Wäscher": 17
+  }
+}

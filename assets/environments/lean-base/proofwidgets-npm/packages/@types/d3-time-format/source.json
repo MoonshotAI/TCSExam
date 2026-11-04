@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dev": true,
+    "integrity": "sha512-5xg9rC+wWL8kdDj153qZcsJ0FWiFt0J5RB6LYUNZjwSnesfblqrI/bJ1wBdJ8OQfncgbJG5+2F+qfqnqyzYxyg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@types/d3-time-format/-/d3-time-format-4.0.3.tgz",
+    "version": "4.0.3"
+  },
+  "lock_path": "node_modules/@types/d3-time-format",
+  "name": "@types/d3-time-format",
+  "name_basis": "Name from the exact npm lock path; archive-root package metadata was not copied by the notice-only extraction.",
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1141,
+      "installed_file": "notices/original/d3-time-format/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "d3-time-format/LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "text_file": "image-notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt"
+    }
+  ],
+  "package_license": null,
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 4029,
+    "installed_in_image": false,
+    "integrity": "sha512-5xg9rC+wWL8kdDj153qZcsJ0FWiFt0J5RB6LYUNZjwSnesfblqrI/bJ1wBdJ8OQfncgbJG5+2F+qfqnqyzYxyg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@types/d3-time-format/-/d3-time-format-4.0.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "9297fd008937821e938921da6e5f4ef8271bd47524aa62940bf9450bb323fa73"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.0.3"
+}

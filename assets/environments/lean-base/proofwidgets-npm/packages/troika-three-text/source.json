@@ -1,0 +1,52 @@
+{
+  "author": "Jason Johnston <jason.johnston@protectwise.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "bidi-js": "^1.0.2",
+      "troika-three-utils": "^0.52.4",
+      "troika-worker-utils": "^0.52.0",
+      "webgl-sdf-generator": "1.1.1"
+    },
+    "integrity": "sha512-V50EwcYGruV5rUZ9F4aNsrytGdKcXKALjEtQXIOBfhVoZU9VAqZNIoGQ3TMiooVqFAbR1w15T+f+8gkzoFzawg==",
+    "license": "MIT",
+    "peerDependencies": {
+      "three": ">=0.125.0"
+    },
+    "resolved": "https://registry.npmjs.org/troika-three-text/-/troika-three-text-0.52.4.tgz",
+    "version": "0.52.4"
+  },
+  "lock_path": "node_modules/troika-three-text",
+  "name": "troika-three-text",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1102,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "c514829145810d3bf5730a78b5054250bd1b711b2823f2fc58c2ba89930bce5c",
+      "text_file": "image-notices/c514829145810d3bf5730a78b5054250bd1b711b2823f2fc58c2ba89930bce5c.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 222011,
+    "installed_in_image": false,
+    "integrity": "sha512-V50EwcYGruV5rUZ9F4aNsrytGdKcXKALjEtQXIOBfhVoZU9VAqZNIoGQ3TMiooVqFAbR1w15T+f+8gkzoFzawg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/troika-three-text/-/troika-three-text-0.52.4.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "28af3dea584972b05c63289687697249db6e1942eb6d7a5e7492304857d1991d"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.52.4"
+}

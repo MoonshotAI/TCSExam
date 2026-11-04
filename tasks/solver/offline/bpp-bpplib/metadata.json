@@ -1,0 +1,53 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260920",
+   "kind": "shipped-baseline",
+   "measured_on": "judge-service"
+  },
+  "K": {
+   "ref": "tasks/bpp-bpplib/PROVENANCE.md §B/K derivation: best upper bounds listed in Solutions.xlsx (the entire judged set is closed, meaning optimality is proven; dual anchors were reconstructed and checked using Results_VPS logs).",
+   "tier": "proven-optimal"
+  }
+ },
+ "family": "bin-packing",
+ "id": "bpp-bpplib",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-bpp-bpplib-judge-v11"
+ },
+ "judging": {
+  "budget_kind": "pool",
+  "form": "final-once",
+  "instance_cores": 4,
+  "limit_env": "BPP_TIME_POOL",
+  "n_hidden": 39,
+  "n_public": 90,
+  "per_instance_seconds": 30,
+  "pool_seconds": 1170,
+  "shard_cores": 4,
+  "shard_mem_gb": 8,
+  "shards": 1
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "library",
+  "ecosystem": "BPPLIB",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "item permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "form2 is in place: split.json has 90 public / 39 hidden (stratified by family=class × size=n). Hidden B is temporarily a placeholder measured by FFD on original instances during task authoring (a deterministic constant that depends on order); replace it after batch remeasurement according to measure-manifest. pool_seconds=30x39. Environment contents: /app/instances has 90 public instances, and /app/library has 6216 background instances (excluding the 129 judged instances)."
+ },
+ "subdomain": "packing",
+ "title": "One-dimensional bin packing"
+}

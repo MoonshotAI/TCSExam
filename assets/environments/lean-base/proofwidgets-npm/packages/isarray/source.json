@@ -1,0 +1,47 @@
+{
+  "author": {
+    "email": "mail@juliangruber.com",
+    "name": "Julian Gruber",
+    "url": "http://juliangruber.com"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/isarray/-/isarray-2.0.5.tgz",
+    "version": "2.0.5"
+  },
+  "lock_path": "node_modules/isarray",
+  "name": "isarray",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1096,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "68f12f6e2c33688699249c01d8f9623c534da20aa71989c57b061b7bc1676d14",
+      "text_file": "image-notices/68f12f6e2c33688699249c01d8f9623c534da20aa71989c57b061b7bc1676d14.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 1859,
+    "installed_in_image": false,
+    "integrity": "sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/isarray/-/isarray-2.0.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "72bae463b81a604b4a118c00012c76ee9b8d155b9da62d1f362876c9f8b5f793"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.0.5"
+}

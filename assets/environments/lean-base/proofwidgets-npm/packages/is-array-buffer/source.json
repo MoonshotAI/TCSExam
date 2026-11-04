@@ -1,0 +1,54 @@
+{
+  "author": "Jordan Harband <ljharb@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "call-bind": "^1.0.8",
+      "call-bound": "^1.0.3",
+      "get-intrinsic": "^1.2.6"
+    },
+    "engines": {
+      "node": ">= 0.4"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "integrity": "sha512-DDfANUiiG2wC1qawP66qlTugJeL5HyzMpfr8lLK+jMQirGzNod0B12cFB/9q838Ru27sBwfw78/rdoU7RERz6A==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/is-array-buffer/-/is-array-buffer-3.0.5.tgz",
+    "version": "3.0.5"
+  },
+  "lock_path": "node_modules/is-array-buffer",
+  "name": "is-array-buffer",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1082,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "b505862c2bf0b38f98a4629efe0d17fb87690cbd35a9f3ae95d2fd769d7cea23",
+      "text_file": "image-notices/b505862c2bf0b38f98a4629efe0d17fb87690cbd35a9f3ae95d2fd769d7cea23.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 6323,
+    "installed_in_image": false,
+    "integrity": "sha512-DDfANUiiG2wC1qawP66qlTugJeL5HyzMpfr8lLK+jMQirGzNod0B12cFB/9q838Ru27sBwfw78/rdoU7RERz6A==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/is-array-buffer/-/is-array-buffer-3.0.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "e199725bf272b3088568b3309e918ce623e616f005b43e23b132182b58d791ef"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.0.5"
+}

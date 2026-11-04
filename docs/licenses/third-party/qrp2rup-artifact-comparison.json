@@ -1,0 +1,627 @@
+{
+  "checked": "2026-10-15",
+  "artifact_doi": "10.5281/zenodo.14530908",
+  "record_license": "CC-BY-4.0",
+  "retrieval": "Complete official archive reconstructed from standard HTTP byte ranges; archive MD5 matches Zenodo record and all 1215 ZIP directory entries passed decompression/CRC validation.",
+  "prefix_bytes": 1237328,
+  "prefix_sha256": "942aed4ea072baee22593b1ad521ee95f8b67ce99ecd22c5fefc67434b2e0870",
+  "selected_files": 139,
+  "qrp_adopted_files": 23,
+  "qrp_identical_files": 11,
+  "qrp_comparison": [
+    {
+      "adopted_path": "CMakeLists.txt",
+      "sha256": "604377938f37db60d90a04f731be708cc4426e2980c58e821219b19e215af271",
+      "identical_artifact_paths": [],
+      "same_basename_artifact_paths": [
+        "CMakeLists.txt"
+      ]
+    },
+    {
+      "adopted_path": "README.md",
+      "sha256": "24780e886d2cc235b6c1e8ea96ec7b84cc778282f36a554d4c8f4f0ec56a17de",
+      "identical_artifact_paths": [],
+      "same_basename_artifact_paths": [
+        "README.md"
+      ]
+    },
+    {
+      "adopted_path": "helpers/gchk",
+      "sha256": "b81a8ef21dd0b1976c49ed8184c2951c8c5b14d836bc21c457aa8b2f07b3a7c6",
+      "identical_artifact_paths": [
+        "gchk"
+      ],
+      "same_basename_artifact_paths": [
+        "gchk"
+      ]
+    },
+    {
+      "adopted_path": "helpers/grat-diagnoser.py",
+      "sha256": "34338121e2df2f931c6edb0a12af7e1c8edf1a5a0f33556aa45a8ca0c0776659",
+      "identical_artifact_paths": [
+        "grat-diagnoser.py"
+      ],
+      "same_basename_artifact_paths": [
+        "grat-diagnoser.py"
+      ]
+    },
+    {
+      "adopted_path": "memory_unsigned_int.hh",
+      "sha256": "997733ee936b2ef7700384f4caed17da4152d392f0dd4a084533032e74905f16",
+      "identical_artifact_paths": [
+        "memory_unsigned_int.hh"
+      ],
+      "same_basename_artifact_paths": [
+        "memory_unsigned_int.hh"
+      ]
+    },
+    {
+      "adopted_path": "rfao_node.hh",
+      "sha256": "e82d0b35e1f28ae9c5bcc9b6bef76261060b636f7729af11aec081f2d4a8e58b",
+      "identical_artifact_paths": [
+        "rfao_node.hh"
+      ],
+      "same_basename_artifact_paths": [
+        "rfao_node.hh"
+      ]
+    },
+    {
+      "adopted_path": "src/CMakeLists.txt",
+      "sha256": "f117dd39e882698131c111a7aa09fb2430d415d6c8f8ae645ff9625a3c57daa5",
+      "identical_artifact_paths": [],
+      "same_basename_artifact_paths": [
+        "CMakeLists.txt"
+      ]
+    },
+    {
+      "adopted_path": "src/aig_circuit.cc",
+      "sha256": "fe58d32dd05e6650303cc892fba85edbf0d86d9875192951887e1513a487bda0",
+      "identical_artifact_paths": [],
+      "same_basename_artifact_paths": []
+    },
+    {
+      "adopted_path": "src/aig_circuit.hh",
+      "sha256": "0363a541eb1273dd2022f4d5bc5f02abcd09aa1a3438737632bf0f948fd80698",
+      "identical_artifact_paths": [],
+      "same_basename_artifact_paths": []
+    },
+    {
+      "adopted_path": "src/circuit.hh",
+      "sha256": "681bf2d2f1f0fdebbcd32cbb6f7b49dd8afc738d3146d50325995ab71703a5e7",
+      "identical_artifact_paths": [],
+      "same_basename_artifact_paths": [
+        "circuit.hh"
+      ]
+    },
+    {
+      "adopted_path": "src/clause_writer.cc",
+      "sha256": "97e5461df6f9d670d50feba0ce587039b1223e05cbc7915b781cb162411815dc",
+      "identical_artifact_paths": [
+        "clause_writer.cc"
+      ],
+      "same_basename_artifact_paths": [
+        "clause_writer.cc"
+      ]
+    },
+    {
+      "adopted_path": "src/clause_writer.hh",
+      "sha256": "928c26ac3c11d226daded6f78136283226ae5ffb41ea88fbb2c73761c32326d1",
+      "identical_artifact_paths": [],
+      "same_basename_artifact_paths": [
+        "clause_writer.hh"
+      ]
+    },
+    {
+      "adopted_path": "src/cnf_circuit.cc",
+      "sha256": "703240815d2e495c77683400f0aabbcb1b12b060bebfdd69eb1cff5e621b173e",
+      "identical_artifact_paths": [],
+      "same_basename_artifact_paths": [
+        "cnf_circuit.cc"
+      ]
+    },
+    {
+      "adopted_path": "src/cnf_circuit.hh",
+      "sha256": "119f8b4d4f0b5f2e2615aeabe63f87204dc04462eb80962957deacc6482ba008",
+      "identical_artifact_paths": [],
+      "same_basename_artifact_paths": [
+        "cnf_circuit.hh"
+      ]
+    },
+    {
+      "adopted_path": "src/defaults.hh",
+      "sha256": "600fba89e2fe7280ce622b03c18c1862e80bbc5b81853d57c22643ec9a73c441",
+      "identical_artifact_paths": [
+        "defaults.hh"
+      ],
+      "same_basename_artifact_paths": [
+        "defaults.hh"
+      ]
+    },
+    {
+      "adopted_path": "src/grat_manager.cc",
+      "sha256": "22d4d8de08a251658f5d534333d2e366df0cede225c6ea2635d3df72074135ff",
+      "identical_artifact_paths": [
+        "grat_manager.cc"
+      ],
+      "same_basename_artifact_paths": [
+        "grat_manager.cc"
+      ]
+    },
+    {
+      "adopted_path": "src/grat_manager.hh",
+      "sha256": "d1d1dd0e1141dedd7899b305d9dd27d42e173975d9329747d9d1da4e0cba9452",
+      "identical_artifact_paths": [
+        "grat_manager.hh"
+      ],
+      "same_basename_artifact_paths": [
+        "grat_manager.hh"
+      ]
+    },
+    {
+      "adopted_path": "src/io.cc",
+      "sha256": "b4ada111f4296c4b2ac155c4f2c34f916e5742bcd22b5b1a55aa71d5236afafd",
+      "identical_artifact_paths": [
+        "io.cc"
+      ],
+      "same_basename_artifact_paths": [
+        "io.cc"
+      ]
+    },
+    {
+      "adopted_path": "src/proof_translator.cc",
+      "sha256": "a8d155e3f9a1b238043e2ab131b86937d3be4c05ecf12d9b7cb1e80437d8e908",
+      "identical_artifact_paths": [],
+      "same_basename_artifact_paths": [
+        "proof_translator.cc"
+      ]
+    },
+    {
+      "adopted_path": "src/proof_translator.hh",
+      "sha256": "ad76d53e4f8c02fa3653149e3b312324c00c89fedb2ceb7aa930d466a7eede6c",
+      "identical_artifact_paths": [],
+      "same_basename_artifact_paths": [
+        "proof_translator.hh"
+      ]
+    },
+    {
+      "adopted_path": "src/qrp2rup.cc",
+      "sha256": "ff4b039963280794cb9a5cf7e1d371a8140f8119e720836a212fb22c3118cb27",
+      "identical_artifact_paths": [],
+      "same_basename_artifact_paths": [
+        "qrp2rup.cc"
+      ]
+    },
+    {
+      "adopted_path": "src/sorted_query_oracle.hh",
+      "sha256": "875069ebc83914cb2f7c7def10c64198b67f6f8168d720f27fc8b35df7195e92",
+      "identical_artifact_paths": [
+        "sorted_query_oracle.hh"
+      ],
+      "same_basename_artifact_paths": [
+        "sorted_query_oracle.hh"
+      ]
+    },
+    {
+      "adopted_path": "src/types.hh",
+      "sha256": "40bd62785c1f5d06a6421a7daec958d9b44ec2705dcb11dd4c37285332384fc6",
+      "identical_artifact_paths": [
+        "types.hh"
+      ],
+      "same_basename_artifact_paths": [
+        "types.hh"
+      ]
+    }
+  ],
+  "qute_src_files": 53,
+  "qute_identical_files": 18,
+  "qute_comparison": [
+    {
+      "path": "qute-sms/src/CMakeLists.txt",
+      "sha256": "12224d02d870103216cc6a32657c06f2b925f2aab1cacc6c08163210ccfd0352",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/alloc.hh",
+      "sha256": "6bbc22e3035a2f6091678729fc2a378e60c38099248b7766869996845bce3b39",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/constraint.hh",
+      "sha256": "317da17c15b8851133a5f566fb5449092d5076718b9c41c1e5063457f7190dcf",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/constraint_DB.cc",
+      "sha256": "389d2e0718972bc26e94a9d41f5b31885ebe0f16148f047428ef474ae0435620",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/constraint_DB.hh",
+      "sha256": "fb2df03d293f010c8a666dc179c4354cb4e8876019eef5656d73cce292618929",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/debug_helper.cc",
+      "sha256": "811e3f587a78c2aff5e9c2ecde2c4585e8bfaa3a8fbb267e549b91ed9a32b1cd",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/debug_helper.hh",
+      "sha256": "8391ea0ddff8d4b718f64f2f0d1464504fb32a4c294811f7fc131d5da5808526",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/decision_heuristic.cc",
+      "sha256": "42864ad6d66add079dcb076446a5c4d987a335cf54be3e91551e5f26ae0ad504",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/decision_heuristic.hh",
+      "sha256": "01ca6e5da574f65031e29caf8dcaf26bffe46e7d7f632c98f339bf2f144068dd",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/decision_heuristic_SGDB.cc",
+      "sha256": "695c6606d32833594e32398acd45e021d41146bcaca714a6eebd4dcdf4a159da",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/decision_heuristic_SGDB.hh",
+      "sha256": "7d951926ab80208c2a7f3c8ea12a056cb60445c50276c390464f304493d9675d",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/decision_heuristic_VMTF_deplearn.cc",
+      "sha256": "a5dbb9f6707bbaeb98d10d96906ba801eb9986c137f4460d082732e02240224d",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/decision_heuristic_VMTF_deplearn.hh",
+      "sha256": "6893e07ac605a52531a7328de80627951d28fd6a3a618d31dbaac54462018785",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/decision_heuristic_VMTF_prefix.cc",
+      "sha256": "6b34d2793a5f2a1aa0e7596227d9c549404efec7ab2682a134c927f787619509",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/decision_heuristic_VMTF_prefix.hh",
+      "sha256": "ac7b763549ee05e81eb2dfe067f4cbf2632ec7040cb4975f4437ee3a63165db3",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/decision_heuristic_VSIDS_deplearn.cc",
+      "sha256": "3510ee7b6b760b25c75b54f1a8849bf49ee6530f04b64cdf7fe4ba74ff52a45d",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/decision_heuristic_VSIDS_deplearn.hh",
+      "sha256": "bbd8c75df45aa4757ea5ce1822eda00e1c3cc48d0f2ca2aa8225b5d6ada93ef6",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/dependency_manager.hh",
+      "sha256": "edfa90d2475e5a14a0c90ae2431809b6af10bf6679f9796734d4aa515ae0d3cd",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/dependency_manager_rrs.cc",
+      "sha256": "ddc6cb7d0bdde0b8f020f31b1c4f60cfdd5ea62854abf0ec03c54270d12e908e",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/dependency_manager_rrs.hh",
+      "sha256": "fc65718e887a3e7651be334b7b9dcb516337e7efe6bb00a7913cdc37ac0e6d34",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/dependency_manager_watched.cc",
+      "sha256": "59a728424616faf7205907b7a32aa8f181e804146938081edbb2c4af5af6a9f8",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/dependency_manager_watched.hh",
+      "sha256": "916f5670dba69fb797f6904f2cc526eebaea072ecc4ba4752e862df765383db7",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/learning_engine.hh",
+      "sha256": "d94e331b204182e8c36befd9467ccfc25747279ce2bd27d5e7e95702a80810aa",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/logging.hh",
+      "sha256": "d2624e8093493d37dab2efc76adcab2f997dc058066d1d6501f8e9859b0aea36",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/main.cc",
+      "sha256": "13e7bd1e51e8c04225cd110f42ebfde6ce2f2ab64af11254bb0cf47d2d1f1fac",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/main.hh",
+      "sha256": "fab08a3977e5d5f2df4c1c43d4f4d9e627b91ea64d5943298b36049d290e9551",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/model_generator.cc",
+      "sha256": "4e2c63180da85597b54c1d1c7510a0958cafc456d91ea355b2a706bf3e0af701",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/model_generator.hh",
+      "sha256": "7186942ed4e7d1d1093ba39905dfb1b4bddfa00c4c4e542d025294e214e5d4f0",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/model_generator_simple.cc",
+      "sha256": "f04a673551a89545f7b4763eadec983687d63d39acb5b53501c08009493128fa",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/model_generator_simple.hh",
+      "sha256": "88be5d11961f2fe59dcf5a5f8777d4758cc4e0e760596abd08538b666d99a0f6",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/model_generator_weighted.cc",
+      "sha256": "f4da6752b53ed7acf9c4dd61012d7e26005808756d9d8c1d0b1fd9c54d6dadf6",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/model_generator_weighted.hh",
+      "sha256": "18315b8970f9eea03b2fe4cd587eb772d9b9b273e3ed0eaa5bfb5286e0c302d1",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/parser.cc",
+      "sha256": "83e5f84080164b038a05c0a966f786e35823acd49333f9f847e088db92dd0abe",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/parser.hh",
+      "sha256": "8ca3fb1e5d51c81f55c69aa09ed769bc2403a3d3e676ce8e9b1aba0e56e13d64",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/pcnf_container.hh",
+      "sha256": "96f183e2745a429bf5d53dab3a753d8ceacb40344a474a7ea3fb12cd5af4f510",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/propagator.hh",
+      "sha256": "681374dc4dd6703021ffe4619bbe69d2cbcb2801f6303005993bd11f4e96b648",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/qcdcl.cc",
+      "sha256": "dbd788e15e5f9a4b09de06e527ceee9ed1f826755463b9778b6c520810b76b97",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/qcdcl.hh",
+      "sha256": "40fd23d8286a6db3ac5508487d985c2b8fedec9319b5edc0440db45d7b5aef76",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/restart_scheduler.hh",
+      "sha256": "4585434d0bd869aa56c600947bc35cebfc4622058fd40c3426943263e303317b",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/restart_scheduler_ema.hh",
+      "sha256": "25a386ba4028d0b54bec20df3f95b5ac2c89dd77dfdf3e72f9033cafdb097572",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/restart_scheduler_inner_outer.hh",
+      "sha256": "00cbb9d8c2e69942e0952ac75e66749bf20f8be0297a536bbac8f093f5b04749",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/restart_scheduler_luby.hh",
+      "sha256": "b43456b12f6d897c7687400a65a03154221f8c994ae6bfbc21e73f08d4aa00d4",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/restart_scheduler_none.hh",
+      "sha256": "f527220b37b221d66a489245b1b0a32f4c2e9bfc568de2b173ba0ad54e1ff9d7",
+      "artifact_present": true,
+      "identical": true,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/simple_tracer.cc",
+      "sha256": "67c924240db52ec594e6a12a30e8ade0f19d5b38551388952c99f511cfe5fb8a",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/simple_tracer.hh",
+      "sha256": "0a017da6b69369927db506309bda97275a3a79940a2d24f5b40ae1de35c32d2d",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/solver_types.hh",
+      "sha256": "bf5c85435f6464e3dad85008aeab2309b9bfb4992923070575cab93a92ce3286",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/standard_learning_engine.cc",
+      "sha256": "33013f459a68ac9ef04cef4b3d48a23c0325d0398520a04533436b13d0184533",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/standard_learning_engine.hh",
+      "sha256": "669067a5fd8ce8c446b54cac7e487e47fb8f1d363081c21c012089a3612aebcd",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/tracer.hh",
+      "sha256": "093981042486f47537a579c7e46049278f98195da3f2bcaca62bbd2cbd08d4f6",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/variable_data.cc",
+      "sha256": "c5dc8bef1665c7fc5d249d2aa80e2589b04559362d2541988caba2c15a4e52cd",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/variable_data.hh",
+      "sha256": "817f2bcd6c4cb5e14d50c176bd92e3a2a8d943f8a8f6f86bff10226ad116a77a",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": true
+    },
+    {
+      "path": "qute-sms/src/watched_literal_propagator.cc",
+      "sha256": "f46b17c438da4ef48b2e35ae2d71b80b2e83e0e375176c530101ba3656745624",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    },
+    {
+      "path": "qute-sms/src/watched_literal_propagator.hh",
+      "sha256": "59608811381d6c12fe98aae72f5b4ccc812bf9aa7c8c5adc958ea813346e9696",
+      "artifact_present": true,
+      "identical": false,
+      "identical_to_mit_snapshot": false
+    }
+  ],
+  "scope": "The artifact license does not establish permission for later changed or additional files in the adopted snapshots.",
+  "archive_full_checksum_verified": true,
+  "archive_md5": "d920b9fae79e13206cdceab1d6ebeb9b",
+  "archive_sha256": "dd38c914ed02c8af0b37d8746114bc7e4a0c84e1c971aa00ce39d8787019bc06",
+  "archive_bytes": 6164331,
+  "archive_license_files": [
+    {
+      "path": "cqesto-sms/LICENSE.txt",
+      "sha256": "f5fc0e809165ec388522ee38ef59c8a694c2bee14db4b6744fd282ee7fbc900b"
+    },
+    {
+      "path": "qute-sms/minisat/LICENSE",
+      "sha256": "c75f5063560674728fcfa7b9b291d26a3a8b9436a0d9940eadc81aab7779d62b"
+    },
+    {
+      "path": "qute-sms/docopt.cpp/LICENSE-Boost-1.0",
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "path": "qute-sms/docopt.cpp/LICENSE-MIT",
+      "sha256": "b2959a980bc25f5d5e020d7a31777b7184aace6eb160acc80619f85edf646f19"
+    },
+    {
+      "path": "sat-modulo-symmetries/cadical/LICENSE",
+      "sha256": "88d79ee9ae2982afc3272b5b697c226e23b0772420db2182ca49942253dd6b63"
+    },
+    {
+      "path": "sat-modulo-symmetries/LICENSE",
+      "sha256": "1caceba7339ce8df792336b16e72256e90f0c3bb13e1b51d01b8c49e9e609510"
+    },
+    {
+      "path": "cqesto-sms/contrib/minisat/minisat/LICENSE",
+      "sha256": "c75f5063560674728fcfa7b9b291d26a3a8b9436a0d9940eadc81aab7779d62b"
+    }
+  ],
+  "qute_identical_to_either_later_snapshot": 25,
+  "qute_different_from_both_later_snapshots": 28
+}

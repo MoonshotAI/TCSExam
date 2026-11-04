@@ -1,0 +1,3 @@
+# local self-test artifacts
+*.log
+__pycache__/

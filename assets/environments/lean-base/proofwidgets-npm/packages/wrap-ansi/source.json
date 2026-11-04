@@ -1,0 +1,58 @@
+{
+  "author": {
+    "email": "sindresorhus@gmail.com",
+    "name": "Sindre Sorhus",
+    "url": "https://sindresorhus.com"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "ansi-styles": "^6.2.1",
+      "string-width": "^7.0.0",
+      "strip-ansi": "^7.1.0"
+    },
+    "engines": {
+      "node": ">=18"
+    },
+    "funding": {
+      "url": "https://github.com/chalk/wrap-ansi?sponsor=1"
+    },
+    "integrity": "sha512-42AtmgqjV+X1VpdOfyTGOYRi0/zsoLqtXQckTmqTeybT+BDIbM/Guxo7x3pE2vtpr1ok6xRqM9OpBe+Jyoqyww==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-9.0.2.tgz",
+    "version": "9.0.2"
+  },
+  "lock_path": "node_modules/wrap-ansi",
+  "name": "wrap-ansi",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1117,
+      "installed_file": "notices/original/package/license",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "text_file": "image-notices/5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 4316,
+    "installed_in_image": false,
+    "integrity": "sha512-42AtmgqjV+X1VpdOfyTGOYRi0/zsoLqtXQckTmqTeybT+BDIbM/Guxo7x3pE2vtpr1ok6xRqM9OpBe+Jyoqyww==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-9.0.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "0a42a5c5cee0936544691a75aa7aef11620971c961988473f99b5a6540f78e7e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "9.0.2"
+}

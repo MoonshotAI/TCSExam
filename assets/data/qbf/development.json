@@ -1,0 +1,21 @@
+{
+  "source_archive": {
+    "url": "https://zenodo.org/api/records/18832723/files/paraproofa-artifact.tar.gz/content",
+    "bytes": 949310172,
+    "md5": "6d67830f9db1fd6cdd906705615f9a23",
+    "sha256": "cfdeb7d92dc3dbc38c304fbdd920f0b1411febc496ad284e36f29a08238e548f",
+    "checksum_matches": true
+  },
+  "distribution": "redistributable",
+  "licenses_evidence": "docs/licenses/third-party/qbf-data-distribution-source.json",
+  "frozen_input": {
+    "bytes": 3036472,
+    "sha256": "c2e6e1f943b1260c4ebf4d6de7dae97dcf5d3fdf1dd3f62ac605d57b97f1f143",
+    "url": null
+  },
+  "compression": {
+    "format": "xz",
+    "preset": 9,
+    "check": "crc64"
+  }
+}

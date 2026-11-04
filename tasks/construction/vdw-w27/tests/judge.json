@@ -1,0 +1,33 @@
+{
+ "namespace": "W27",
+ "main_theorem": "submission",
+ "score_mode": "solver_cubic",
+ "compile_timeout_sec": 1200,
+ "min_n": 1,
+ "max_n": 100000,
+ "allowed_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "claims": [
+  {
+   "name": "submission",
+   "direction": "lower",
+   "header_pattern": ":\\s*\u2203\\s*c\\s*:\\s*Nat\\s*\u2192\\s*Fin\\s*2\\s*,\\s*APFree\\s+c\\s+(\\d+)"
+  }
+ ],
+ "scoring": {
+  "modes": [
+   "solver_cubic"
+  ],
+  "lower": {
+   "vacuous_below": 7,
+   "baseline_n": 400,
+   "record_n": 3703,
+   "record_broken_from": 3704
+  }
+ }
+}

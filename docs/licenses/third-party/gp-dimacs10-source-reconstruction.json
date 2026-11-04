@@ -1,0 +1,35 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "gp-dimacs10",
+  "scope": "Fixed official graph inputs, original generator seeds, pinned numerical-library wheels and recorded vertex permutations. See each declared recipe for acquisition and exact output verification.",
+  "records": [
+    {
+      "id": "solver-gp-dimacs10-development-data",
+      "result": {
+        "files": 27,
+        "bytes": 33774108
+      },
+      "recipe": "assets/data/solver/solver-gp-dimacs10-development-data-recipe.json",
+      "recipe_sha256": "5f97bd6e2148c8e982d9f0fd31d5659f5af65d2d536a8cf7a90479b902c0627d",
+      "format": "official_gp_generator",
+      "acquisition_verification": "anonymous_download_verified",
+      "docker_adapter_exercised": false
+    },
+    {
+      "id": "solver-gp-dimacs10-judging-data",
+      "result": {
+        "files": 13,
+        "bytes": 37590554
+      },
+      "recipe": "assets/data/solver/solver-gp-dimacs10-judging-data-recipe.json",
+      "recipe_sha256": "6f51a5594b4fb54a48aa0519ce5f76c3cc3bf2d9f88837717267cee804720357",
+      "format": "official_gp_generator",
+      "acquisition_verification": "official_archived_input_verified",
+      "docker_adapter_exercised": false
+    }
+  ],
+  "distribution": "local_prepare",
+  "new_distribution_authorization": false,
+  "public_upload_performed": false,
+  "public_pin": null
+}

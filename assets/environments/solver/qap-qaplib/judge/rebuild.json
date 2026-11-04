@@ -1,0 +1,41 @@
+{
+  "task": "tasks/solver/online/qap-qaplib",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/qap-qaplib/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:19f69433d5f69e4a66e4e6a61fe3a72ddf7679b18001eb01aabdfe41a805e195"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/qap-qaplib/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "1cd368da18d45d140fa371f730042ee86dca2d59467d7fea63db2929ec41aa74"
+    },
+    {
+      "source": "tasks/solver/online/qap-qaplib/tests/scoring.py",
+      "target": "/opt/qap/scoring.py",
+      "sha256": "02b90c185ca5d1d030da31be1c48403ac76bd014bbb3f146428f5da80e1ba5a0"
+    },
+    {
+      "source": "tasks/solver/online/qap-qaplib/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "1956c21a9fd0fcc7ffa073fd23952b8a4e2ba610970f787357f29492cecbadac"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": false,
+  "public_source_rebuild_verified": false,
+  "limitations": [
+    "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
+  ]
+}

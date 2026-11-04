@@ -1,0 +1,32 @@
+{
+ "namespace": "SN16",
+ "main_theorem": "submission",
+ "score_mode": "solver_linear",
+ "compile_timeout_sec": 1200,
+ "min_n": 0,
+ "max_n": 2000,
+ "allowed_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "claims": [
+  {
+   "name": "submission",
+   "direction": "upper",
+   "header_pattern": ":\\s*∃\\s*net\\s*:\\s*List\\s*Cmp\\s*,\\s*wellFormed\\s+16\\s+net\\s*∧\\s*sortsBinary\\s+16\\s+net\\s*=\\s*true\\s*∧\\s*net\\.length\\s*≤\\s*(\\d+)"
+  }
+ ],
+ "scoring": {
+  "modes": [
+   "solver_linear"
+  ],
+  "upper": {
+   "trivial_n": 63,
+   "record_n": 60,
+   "proven_lb": 57
+  }
+ }
+}

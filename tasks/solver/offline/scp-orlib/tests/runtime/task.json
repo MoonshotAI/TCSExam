@@ -1,0 +1,18 @@
+{
+  "task": "scp-orlib",
+  "cpus": 4,
+  "memory_mb": 8192,
+  "seconds": 780,
+  "build_seconds": 600,
+  "check_seconds": 1560,
+  "pool": true,
+  "module_dir": "/opt/scp",
+  "disk_mb": 8192,
+  "relative_cpu_indices": true,
+  "outer_timeout_seconds": 3600,
+  "judge_env": {
+    "TESTS_DIR": "/tests"
+  },
+  "instance_count": 26,
+  "budget_source": "Frozen backend environment and original checker preparation script; original scoring enforces the actual budget."
+}

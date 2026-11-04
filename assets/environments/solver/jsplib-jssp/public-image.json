@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "task": "tasks/solver/online/jsplib-jssp",
+  "remove_paths": ["/tests"],
+  "allow_content_paths": [
+    "/tests-public",
+    "/judge",
+    "/opt/jssp/scoring.py",
+    "/opt/jssp/jssp_check.cpp",
+    "/usr/local/bin/jssp_check"
+  ],
+  "required_paths": [
+    "/judge/entry.sh",
+    "/judge/judge_worker.py",
+    "/tests-public/checker.py",
+    "/tests-public/reference.json",
+    "/tests-public/instances",
+    "/opt/jssp/scoring.py",
+    "/opt/jssp/jssp_check.cpp",
+    "/usr/local/bin/jssp_check"
+  ]
+}

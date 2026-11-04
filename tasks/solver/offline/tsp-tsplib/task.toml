@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/tsp-tsplib"
+version = "1.0.0"
+description = "Optimize a TSP solver (TSPLIB symmetric instances; form2: 78 public practice instances + 33 hidden structure-preserved instances, final-once judging): minimize tour lengths, scored once by the post-run judging on the hidden set against a nearest-neighbour + 2-opt ILS baseline and documented proven optima, under a 600 s per-instance wall-clock limit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "traveling-salesman", "tsplib", "combinatorial-optimization", "type-2-solver"]
+
+[metadata]
+family_id = "fam-tsp"
+candidate_id = "cand-tsp-tsplib"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "K is the proven optimum for every instance, so the score measures how much of the baseline-to-optimal gap the agent closes: easy points on small instances (where the baseline is already near-optimal are excluded), real algorithmic work (LKH-style local search, candidate lists, kicks, time allocation) on the mid and large ones; matching a proven optimum on the largest instances within 600 s is research-grade heuristic engineering."
+
+[verifier]
+timeout_sec = 1209600.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 16
+memory_mb = 8192
+storage_mb = 8192
+
+
+[verifier.environment]
+network_mode = "no-network"
+build_timeout_sec = 3600.0

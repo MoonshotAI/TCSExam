@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-tuza-conjecture"
+version = "0.1.0"
+description = "Prove or refute Tuza's conjecture (Tuza 1981: every finite graph has triangle edge cover number at most twice its triangle edge packing number, tau(G) <= 2*nu(G)) in Lean 4 (machine-verified). Open problem: no ground truth; the Lean kernel is the judge. Proving either main statement (conj or refuted) scores 1.0; there is no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "extremal-combinatorics", "graph-theory", "packing-covering", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-tuza-conjecture"
+candidate_id = "cand-tuza-conjecture"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open conjecture (unresolved since 1981; best known constant 66/23 by Haxell 1999). Full score needs a kernel-verified proof of one of the two main statements (conj or refuted); there are no checkpoints and no partial credit."
+source_paper = "Zs. Tuza, Finite and Infinite Sets, Proc. Colloq. Math. Soc. Janos Bolyai 37, North-Holland 1984, p. 888. Background survey: dig2-extremal-set-design.md (historical report not included in this package) (short name tuza-conjecture)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-tuza-conjecture-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

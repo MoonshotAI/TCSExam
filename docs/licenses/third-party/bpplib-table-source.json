@@ -1,0 +1,12 @@
+{
+  "checked": "2026-10-15",
+  "upstream_commit": "fc3aa784a3b14282fc591d710f056abc1b1451c3",
+  "xlsx_url": "https://raw.githubusercontent.com/mdelorme2/BPPLIB/fc3aa784a3b14282fc591d710f056abc1b1451c3/Instances/Solutions/Solutions.xlsx",
+  "xlsx_sha256": "e783cd15bb3380766ebe20879eea775acf62ea8f75c25285cd4335fa20a6cbb4",
+  "upstream_registry_rows": 6345,
+  "current_table_rows": 6306,
+  "table_bounds_and_dimensions_verified": 6306,
+  "reference_K_rows_checked": 129,
+  "issues": [],
+  "scope": "Read-only source/bounds/dimensions/arithmetic comparison; no FFD solver execution or changes to baselines, anchors, instances or scores. Public table extraction/build integration remains pending."
+}

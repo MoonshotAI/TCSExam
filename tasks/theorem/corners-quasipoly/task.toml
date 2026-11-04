@@ -1,0 +1,43 @@
+artifacts = ["/app"]
+
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-corners-quasipoly-bare-proof"
+version = "0.1.0"
+description = "Prove the Jaber-Liu-Lovett-Ostuni-Sawhney quasipolynomial bound for the corners theorem (FOCS 2025 best paper, arXiv 2504.07006, Theorem 1.1) in Lean 4 (machine-verified), given only the main theorem statement. L2: statement fidelity only, no ground truth."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "additive-combinatorics", "corners-theorem", "grid-norms", "relative-sifting", "density-increment", "type-2"]
+
+[metadata]
+family_id = "fam-corners-quasipoly"
+candidate_id = "cand-jllos25-corners"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task: only the main theorem statement is given; the whole spreadness-sifting machinery and the Bohr-set density increment must be reconstructed; no ground truth is provided."
+source_paper = "Jaber, Liu, Lovett, Ostuni, Sawhney: Quasipolynomial Bounds for the Corners Theorem, FOCS 2025 (best paper award); arXiv 2504.07006v2."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:a417abf4b59ff77f891f2e00cc840bc1afe490ac738c2bdb594a43bf4d33ce70"
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:abb3a9368eb7c0069cb605c16f1c447cd8a3dbf418dd700c516387bce3675d38"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

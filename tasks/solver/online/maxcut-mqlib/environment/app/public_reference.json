@@ -1,0 +1,1054 @@
+{
+ "instances": {
+  "G56.txt": {
+   "B": 3243.0,
+   "K": 3985.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "gset",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed344@37.4s)",
+   "m": 12498,
+   "n": 5000
+  },
+  "G64.txt": {
+   "B": 7504.0,
+   "K": 8653.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "gset",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed544@83.8s)",
+   "m": 41459,
+   "n": 7000
+  },
+  "G67.txt": {
+   "B": 5396.0,
+   "K": 6834.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "gset",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed544@123s)",
+   "m": 20000,
+   "n": 10000
+  },
+  "culberson100.txt": {
+   "B": 472876.209419,
+   "K": 500461.644517,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "culberson",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed344@42.8s)",
+   "m": 14501,
+   "n": 4453
+  },
+  "culberson2.txt": {
+   "B": 241302.679434,
+   "K": 255742.86137,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "culberson",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed144@19s)",
+   "m": 7419,
+   "n": 3048
+  },
+  "culberson40.txt": {
+   "B": 44262.0,
+   "K": 45684.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "culberson",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed244@45.1s)",
+   "m": 32304,
+   "n": 4517
+  },
+  "culberson44.txt": {
+   "B": 21856.0,
+   "K": 23404.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "culberson",
+   "k_provenance": "Judge-validated model-produced solution, independently checked by mc_check.",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed344@12.5s)",
+   "m": 7045,
+   "n": 2915
+  },
+  "culberson60.txt": {
+   "B": 5523.01691668,
+   "K": 5698.24731765,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "culberson",
+   "k_provenance": "Judge-validated model-produced solution, independently checked by mc_check.",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed444@56s)",
+   "m": 31517,
+   "n": 4448
+  },
+  "culberson67.txt": {
+   "B": 4914536.0,
+   "K": 4926042.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "culberson",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed144@72.4s)",
+   "m": 177229,
+   "n": 3144
+  },
+  "culberson85.txt": {
+   "B": 12445852.5121,
+   "K": 12474167.1361,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "culberson",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed344@485s)",
+   "m": 1979284,
+   "n": 4794
+  },
+  "culberson88.txt": {
+   "B": 2306.72650363,
+   "K": 2454.38951303,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "culberson",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed444@40.6s)",
+   "m": 11517,
+   "n": 4457
+  },
+  "culberson94.txt": {
+   "B": 8352.41431465,
+   "K": 8448.60780532,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "culberson",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed444@15.7s)",
+   "m": 23788,
+   "n": 2190
+  },
+  "culberson97.txt": {
+   "B": 109697.435533,
+   "K": 114953.175015,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "culberson",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed544@32s)",
+   "m": 23474,
+   "n": 3499
+  },
+  "culberson99.txt": {
+   "B": 1247117.0,
+   "K": 1267857.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "culberson",
+   "k_provenance": "Judge-validated model-produced solution, independently checked by mc_check.",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed144@28.2s)",
+   "m": 36286,
+   "n": 2950
+  },
+  "g000052.txt": {
+   "B": 38876.0,
+   "K": 39894.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed444@22.9s)",
+   "m": 24065,
+   "n": 3000
+  },
+  "g000064.txt": {
+   "B": 143526.973286,
+   "K": 145599.564958,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Judge-validated model-produced solution, independently checked by mc_check.",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed144@34.5s)",
+   "m": 29293,
+   "n": 3863
+  },
+  "g000087.txt": {
+   "B": 3546698.0,
+   "K": 3969267.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002GPR/seed544@2.52e+03s)",
+   "m": 71657,
+   "n": 38418
+  },
+  "g000107.txt": {
+   "B": 85838.0,
+   "K": 96142.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002G/seed144@77.5s)",
+   "m": 11046,
+   "n": 6466
+  },
+  "g000109.txt": {
+   "B": 46003876.5175,
+   "K": 46428404.1613,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed144@41.6s)",
+   "m": 618227,
+   "n": 2499
+  },
+  "g000113.txt": {
+   "B": 1771521.24101,
+   "K": 1773806.98427,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Judge-validated model-produced solution, independently checked by mc_check.",
+   "k_source": "mqlib-results:best-of-37x5(ALKHAMIS1998/seed144@130s)",
+   "m": 336595,
+   "n": 3667
+  },
+  "g000230.txt": {
+   "B": 3476252.51625,
+   "K": 3543199.81401662,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed444@101s)",
+   "m": 1248522,
+   "n": 2607
+  },
+  "g000378.txt": {
+   "B": 797215.0,
+   "K": 839184.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(MERZ1999GLS/seed5@540s,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002GPR/seed444@3.66s)",
+   "m": 1978,
+   "n": 1416
+  },
+  "g000392.txt": {
+   "B": 71283.9737949,
+   "K": 71991.6800535,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed344@68.6s)",
+   "m": 79608,
+   "n": 4045
+  },
+  "g000415.txt": {
+   "B": 1839153.0,
+   "K": 2044658.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002G/seed144@634s)",
+   "m": 35665,
+   "n": 19112
+  },
+  "g000417.txt": {
+   "B": 8766006.0,
+   "K": 9094853.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "ising",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed544@1.37s)",
+   "m": 44850,
+   "n": 300
+  },
+  "g000432.txt": {
+   "B": 188155.914836,
+   "K": 188363.084072,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Judge-validated model-produced solution, independently checked by mc_check.",
+   "k_source": "mqlib-results:best-of-37x5(MERZ2004/seed544@53.8s)",
+   "m": 250371,
+   "n": 2153
+  },
+  "g000475.txt": {
+   "B": 3872.0,
+   "K": 4017.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Judge-validated model-produced solution, independently checked by mc_check.",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002G/seed144@0.514s)",
+   "m": 723,
+   "n": 537
+  },
+  "g000546.txt": {
+   "B": 312261604.0,
+   "K": 331501248.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(FESTA2002GPR/seed1@540s,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002GPR/seed144@2.87s)",
+   "m": 1853,
+   "n": 1294
+  },
+  "g000563.txt": {
+   "B": 6067.0,
+   "K": 6405.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed344@1.85s)",
+   "m": 1250,
+   "n": 1000
+  },
+  "g000580.txt": {
+   "B": 262955.560764,
+   "K": 268986.973509,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed144@445s)",
+   "m": 2084580,
+   "n": 3756
+  },
+  "g000682.txt": {
+   "B": 87225.0,
+   "K": 89505.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed444@0.844s)",
+   "m": 960,
+   "n": 640
+  },
+  "g000752.txt": {
+   "B": 768029.0,
+   "K": 847482.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002G/seed544@111s)",
+   "m": 14753,
+   "n": 8017
+  },
+  "g000762.txt": {
+   "B": 7782275.0,
+   "K": 7919143.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "ising",
+   "k_provenance": "Judge-validated model-produced solution, independently checked by mc_check.",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed344@0.963s)",
+   "m": 31125,
+   "n": 250
+  },
+  "g000770.txt": {
+   "B": 248062154.0,
+   "K": 284320274.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "torus",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed144@30.7s)",
+   "m": 10125,
+   "n": 3375
+  },
+  "g000777.txt": {
+   "B": 72308.0,
+   "K": 80051.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002G/seed144@46.1s)",
+   "m": 9055,
+   "n": 5021
+  },
+  "g000794.txt": {
+   "B": 47981.0,
+   "K": 50107.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed144@16.7s)",
+   "m": 5575,
+   "n": 3023
+  },
+  "g000824.txt": {
+   "B": 14168.0,
+   "K": 14185.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST3/seed344@0.0527s)",
+   "m": 269,
+   "n": 160
+  },
+  "g000908.txt": {
+   "B": 93200.0,
+   "K": 95165.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed244@0.85s)",
+   "m": 960,
+   "n": 640
+  },
+  "g000947.txt": {
+   "B": 10530.0,
+   "K": 10940.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed544@1.06s)",
+   "m": 1304,
+   "n": 932
+  },
+  "g000949.txt": {
+   "B": 2006.0,
+   "K": 2420.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "festa2002",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed344@11s)",
+   "m": 8232,
+   "n": 2744
+  },
+  "g001083.txt": {
+   "B": 76775.0,
+   "K": 79574.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed8@540s,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed444@89.3s)",
+   "m": 47915,
+   "n": 6000
+  },
+  "g001097.txt": {
+   "B": 463859857.0,
+   "K": 497248865.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(MERZ1999GLS/seed1@540s,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002G/seed144@14s)",
+   "m": 3997,
+   "n": 2733
+  },
+  "g001127.txt": {
+   "B": 446316.034153,
+   "K": 447203.555728,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed144@118.8s(recorded),isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed144@119s)",
+   "m": 545266,
+   "n": 2841
+  },
+  "g001146.txt": {
+   "B": 182051.0,
+   "K": 201248.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002G/seed144@246s)",
+   "m": 22384,
+   "n": 11749
+  },
+  "g001162.txt": {
+   "B": 128449.0,
+   "K": 133204.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed444@245s)",
+   "m": 80288,
+   "n": 10000
+  },
+  "g001167.txt": {
+   "B": 898.0,
+   "K": 930.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed344@0.601s)",
+   "m": 1320,
+   "n": 660
+  },
+  "g001275.txt": {
+   "B": 25662.0,
+   "K": 26323.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed244@5.59s)",
+   "m": 2991,
+   "n": 1704
+  },
+  "g001296.txt": {
+   "B": 30870.0,
+   "K": 31598.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed544@162s)",
+   "m": 889512,
+   "n": 3553
+  },
+  "g001308.txt": {
+   "B": 102960.0,
+   "K": 106827.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Judge-validated model-produced solution, independently checked by mc_check.",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed344@158s)",
+   "m": 64373,
+   "n": 8000
+  },
+  "g001314.txt": {
+   "B": 335886699.0,
+   "K": 354154935.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(MERZ1999GLS/seed1@540s,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002GPR/seed144@3.34s)",
+   "m": 1932,
+   "n": 1335
+  },
+  "g001349.txt": {
+   "B": 98489.0,
+   "K": 101723.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed344@0.847s)",
+   "m": 960,
+   "n": 640
+  },
+  "g001469.txt": {
+   "B": 14203756.2033,
+   "K": 14224784.9491,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed444@164s)",
+   "m": 1345896,
+   "n": 2412
+  },
+  "g001506.txt": {
+   "B": 3921587.0,
+   "K": 3949317.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "ising",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed244@0.375s)",
+   "m": 11175,
+   "n": 150
+  },
+  "g001535.txt": {
+   "B": 6044388.95877,
+   "K": 6066916.0955986,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(HASAN2000TS/seed344@49.8s)",
+   "m": 188300,
+   "n": 1883
+  },
+  "g001618.txt": {
+   "B": 8090788.17346,
+   "K": 8138809.8132,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed244@119s)",
+   "m": 271488,
+   "n": 4306
+  },
+  "g001633.txt": {
+   "B": 262406.711277,
+   "K": 268592.258154,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(MERZ1999GLS/seed244@18.5s(recorded),isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed244@18.5s)",
+   "m": 446118,
+   "n": 955
+  },
+  "g001642.txt": {
+   "B": 917759.0,
+   "K": 929724.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "gka-bqp",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed344@70.6s)",
+   "m": 309077,
+   "n": 2500
+  },
+  "g001671.txt": {
+   "B": 26882.8027366,
+   "K": 27935.218585,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed4@540s,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed244@1.42s)",
+   "m": 1456,
+   "n": 728
+  },
+  "g001679.txt": {
+   "B": 8151346.89609,
+   "K": 8242468.88313,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed444@1.13e+03s)",
+   "m": 465120,
+   "n": 15504
+  },
+  "g001716.txt": {
+   "B": 57444.0,
+   "K": 59637.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002GPR/seed144@0.497s)",
+   "m": 714,
+   "n": 500
+  },
+  "g001844.txt": {
+   "B": 506353367.0,
+   "K": 541621234.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002GVNS/seed544@16.8s)",
+   "m": 4484,
+   "n": 2984
+  },
+  "g001857.txt": {
+   "B": 225975251.0,
+   "K": 235258522.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002GVNS/seed344@0.849s)",
+   "m": 951,
+   "n": 662
+  },
+  "g001891.txt": {
+   "B": 125233.0,
+   "K": 128524.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed344@0.916s)",
+   "m": 1280,
+   "n": 640
+  },
+  "g001983.txt": {
+   "B": 713513.097464,
+   "K": 725454.346411,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed144@53.1s)",
+   "m": 347956,
+   "n": 2715
+  },
+  "g002071.txt": {
+   "B": 127746.0,
+   "K": 130588.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed144@0.883s)",
+   "m": 960,
+   "n": 640
+  },
+  "g002085.txt": {
+   "B": 15900.0360585,
+   "K": 16404.0705638803,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002GVNSPR/seed144@0.712s)",
+   "m": 530,
+   "n": 836
+  },
+  "g002241.txt": {
+   "B": 3548174.0,
+   "K": 3608529.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed244@827s)",
+   "m": 4476174,
+   "n": 3000
+  },
+  "g002249.txt": {
+   "B": 327325051.0,
+   "K": 346450119.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002GPR/seed144@3.35s)",
+   "m": 2056,
+   "n": 1408
+  },
+  "g002269.txt": {
+   "B": 3232.0,
+   "K": 3358.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002GVNSPR/seed144@0.487s)",
+   "m": 625,
+   "n": 500
+  },
+  "g002317.txt": {
+   "B": 3099.32230699,
+   "K": 3158.64624487,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed344@2.57e+03s)",
+   "m": 1534680,
+   "n": 31465
+  },
+  "g002328.txt": {
+   "B": 3550546.0,
+   "K": 3970377.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002GVNSPR/seed244@2.26e+03s)",
+   "m": 71533,
+   "n": 38294
+  },
+  "g002374.txt": {
+   "B": 13595751.0,
+   "K": 13618388.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(MERZ2004/seed344@367.8s(recorded),isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ2004/seed344@368s)",
+   "m": 1310217,
+   "n": 4709
+  },
+  "g002377.txt": {
+   "B": 108329086.0,
+   "K": 108514809.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002G/seed244@0.051s)",
+   "m": 209,
+   "n": 154
+  },
+  "g002422.txt": {
+   "B": 2108529.84919,
+   "K": 2112521.25782,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed244@101s)",
+   "m": 319261,
+   "n": 3161
+  },
+  "g002440.txt": {
+   "B": 1994367.35649,
+   "K": 2000460.35895,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed344@33.3s)",
+   "m": 110979,
+   "n": 2242
+  },
+  "g002441.txt": {
+   "B": 97.4944611059,
+   "K": 98.8798445823,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(MERZ1999GLS/seed4@540s,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed344@6.03s)",
+   "m": 97284,
+   "n": 727
+  },
+  "g002471.txt": {
+   "B": 11008939.4043,
+   "K": 11024058.1447,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(GLOVER2010/seed544@270.7s(recorded),isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(GLOVER2010/seed544@271s)",
+   "m": 715466,
+   "n": 4212
+  },
+  "g002479.txt": {
+   "B": 48800.0,
+   "K": 49050.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002G/seed144@0.13s)",
+   "m": 287,
+   "n": 280
+  },
+  "g002545.txt": {
+   "B": 489921960.0,
+   "K": 524658445.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002GVNS/seed544@15s)",
+   "m": 4187,
+   "n": 2846
+  },
+  "g002631.txt": {
+   "B": 1834768.0,
+   "K": 2045077.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002G/seed144@634s)",
+   "m": 35644,
+   "n": 19091
+  },
+  "g002638.txt": {
+   "B": 6530622.59586,
+   "K": 6539336.332,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(MERZ2004/seed344@400.7s(recorded),isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ2004/seed344@401s)",
+   "m": 1686248,
+   "n": 4346
+  },
+  "g002681.txt": {
+   "B": 5193182.7616,
+   "K": 5213627.73963,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(GLOVER2010/seed144@224.0s(recorded),isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(GLOVER2010/seed144@224s)",
+   "m": 1120633,
+   "n": 3150
+  },
+  "g002696.txt": {
+   "B": 815825.301293,
+   "K": 823083.694337,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed444@32.6s)",
+   "m": 115403,
+   "n": 2261
+  },
+  "g002701.txt": {
+   "B": 823842.0,
+   "K": 825338.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2006/seed244@595s)",
+   "m": 3377842,
+   "n": 4552
+  },
+  "g002711.txt": {
+   "B": 77028.0,
+   "K": 79771.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(BURER2002/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed244@80.7s)",
+   "m": 48077,
+   "n": 6000
+  },
+  "g002776.txt": {
+   "B": 921651.0,
+   "K": 932158.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "gka-bqp",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed344@70.8s)",
+   "m": 308705,
+   "n": 2500
+  },
+  "g002804.txt": {
+   "B": 70340.0,
+   "K": 78897.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002G/seed144@51.3s)",
+   "m": 8893,
+   "n": 5181
+  },
+  "g002826.txt": {
+   "B": 149612.0,
+   "K": 149872.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed2@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ2004/seed544@145s)",
+   "m": 327231,
+   "n": 4542
+  },
+  "g002935.txt": {
+   "B": 7966503.0,
+   "K": 8242614.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "ising",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed544@1.39s)",
+   "m": 44850,
+   "n": 300
+  },
+  "g003046.txt": {
+   "B": 2528513.0,
+   "K": 2568424.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(LU2010/seed544@423s)",
+   "m": 2238426,
+   "n": 3000
+  },
+  "g003071.txt": {
+   "B": 1342.9527878,
+   "K": 1408.56723387,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Judge-validated model-produced solution, independently checked by mc_check.",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed244@3.54s)",
+   "m": 2089,
+   "n": 1431
+  },
+  "g003104.txt": {
+   "B": 45078240.0,
+   "K": 45146547.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Judge-validated model-produced solution, independently checked by mc_check.",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed144@650s)",
+   "m": 2555954,
+   "n": 5289
+  },
+  "g003131.txt": {
+   "B": 30155.0,
+   "K": 32702.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(BURER2002/seed144@8.75s)",
+   "m": 3702,
+   "n": 2132
+  },
+  "g003158.txt": {
+   "B": 98986.0,
+   "K": 101460.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Judge-validated model-produced solution, independently checked by mc_check.",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed544@0.872s)",
+   "m": 960,
+   "n": 640
+  },
+  "g003164.txt": {
+   "B": 3240612.0,
+   "K": 3289835.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(PARDALOS2008/seed344@673s)",
+   "m": 3579791,
+   "n": 3000
+  },
+  "g003178.txt": {
+   "B": 982.447972592,
+   "K": 999.826390076,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed444@39.5s)",
+   "m": 71400,
+   "n": 3060
+  },
+  "g003193.txt": {
+   "B": 5113000.0,
+   "K": 5294000.0,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "stp",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(FESTA2002G/seed144@0.915s)",
+   "m": 2340,
+   "n": 1250
+  },
+  "g003220.txt": {
+   "B": 1132140.6172,
+   "K": 1133315.38818,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "misc",
+   "k_provenance": "Measured and checker-validated(PALUBECKIS2004bMST2/seed1@540s,isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(PALUBECKIS2004bMST2/seed444@460s)",
+   "m": 1565802,
+   "n": 5503
+  },
+  "imgseg_112082.txt": {
+   "B": 19875732.9173,
+   "K": 20229683.1802,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "imgseg",
+   "k_provenance": "Measured and checker-validated(MERZ1999GLS/seed244@420.7s(recorded),isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed244@421s)",
+   "m": 24795,
+   "n": 13001
+  },
+  "imgseg_117054.txt": {
+   "B": 18905820.9689,
+   "K": 19395512.5951,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "imgseg",
+   "k_provenance": "Measured and checker-validated(MERZ1999GLS/seed544@457.2s(recorded),isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed544@457s)",
+   "m": 30363,
+   "n": 13879
+  },
+  "imgseg_147062.txt": {
+   "B": 29284481.4206,
+   "K": 30359234.6678711,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "imgseg",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed244@1.85e+03s)",
+   "m": 65453,
+   "n": 28552
+  },
+  "imgseg_22093.txt": {
+   "B": 15074405.0787,
+   "K": 15379137.1945,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "imgseg",
+   "k_provenance": "Measured and checker-validated(MERZ1999GLS/seed244@240.7s(recorded),isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed244@241s)",
+   "m": 20405,
+   "n": 9885
+  },
+  "imgseg_254033.txt": {
+   "B": 19553395.0754,
+   "K": 20003995.9198,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "imgseg",
+   "k_provenance": "Measured and checker-validated(MERZ1999GLS/seed144@397.9s(recorded),isolated-cpu,mc_check-ok)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed144@398s)",
+   "m": 26280,
+   "n": 12724
+  },
+  "imgseg_274007.txt": {
+   "B": 20804360.8707,
+   "K": 21282189.5722405,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "imgseg",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed544@560s)",
+   "m": 29689,
+   "n": 15103
+  },
+  "imgseg_309004.txt": {
+   "B": 17538172.2915,
+   "K": 17925000.2579057,
+   "b_source": "maxcut-kb:historical-validation-record(BEASLEY1998TS/seed1@540s,600s-cap,isolated execution environment)",
+   "family": "imgseg",
+   "k_provenance": "Measured and checker-validated(in-budget sweep did not exceed K)",
+   "k_source": "mqlib-results:best-of-37x5(MERZ1999GLS/seed244@1.13e+03s)",
+   "m": 41125,
+   "n": 21462
+  }
+ }
+}

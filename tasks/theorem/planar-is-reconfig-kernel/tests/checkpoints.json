@@ -1,0 +1,13 @@
+{
+  "main_theorem": "isr_tj_linear_kernel",
+  "namespace": "PlanarISReconfigKernel",
+  "checkpoints": [
+    {
+      "name": "isr_tj_linear_kernel",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 1 of BC26 (LIPIcs.STACS.2026.19), explicit-constant form: for 1 <= r, 1 <= k, a K_{3,r}-minor-free graph with a given proper (max{r,6300}+3)-coloring (Kostochka-Prince, packaged as a hypothesis) and N2+N3 <= 2^(5r+13)*(r+3)^(2r+5)*k (Corollary 10 via the paper's reference [7], packaged as a hypothesis), there is W ⊇ X with |W| <= K(r)*k, K(r) = 2 + q + (r-1)*B + q*(B*(4r-1)+1), such that Is reconfigures to It under token jumping iff it does so using only vertices of W (see tests/reference/concept-ledger.md)."
+    }
+  ]
+}

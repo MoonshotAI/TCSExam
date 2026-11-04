@@ -1,0 +1,48 @@
+{
+  "author": {
+    "email": "me@jongleberry.com",
+    "name": "Jonathan Ong",
+    "twitter": "https://twitter.com/jongleberry",
+    "url": "http://jongleberry.com"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dev": true,
+    "integrity": "sha512-51ypPSPCoTEIN9dy5Oy+h4pShgJmPCygKfyRCISBI+JoWT/2oJvK8QPxmwv7b/p239jXrm9M1mlQbyKJ5A152g==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/is-module/-/is-module-1.0.0.tgz",
+    "version": "1.0.0"
+  },
+  "lock_path": "node_modules/is-module",
+  "name": "is-module",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 1736,
+    "installed_in_image": false,
+    "integrity": "sha512-51ypPSPCoTEIN9dy5Oy+h4pShgJmPCygKfyRCISBI+JoWT/2oJvK8QPxmwv7b/p239jXrm9M1mlQbyKJ5A152g==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/is-module/-/is-module-1.0.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "22bf997e4deeb4a29682d4235c9abfea0b183810bbc9baab1edc858afbc2512c"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 1081,
+    "installed_file": "notices/supplementary/b361c02315511fd009bf81dab3cf1255f83aa1ad0f3010e87ee1998fb2c7064b.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "1.0.0",
+    "sha256": "b361c02315511fd009bf81dab3cf1255f83aa1ad0f3010e87ee1998fb2c7064b",
+    "text_file": "image-notices/b361c02315511fd009bf81dab3cf1255f83aa1ad0f3010e87ee1998fb2c7064b.txt",
+    "url": "https://raw.githubusercontent.com/component/is-module/1.0.0/LICENSE"
+  },
+  "version": "1.0.0"
+}

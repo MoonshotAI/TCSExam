@@ -1,0 +1,53 @@
+{
+  "author": "",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BSD-3-Clause",
+  "lock_entry": {
+    "dependencies": {
+      "@babel/runtime": "^7.5.5",
+      "dom-helpers": "^5.0.1",
+      "loose-envify": "^1.4.0",
+      "prop-types": "^15.6.2"
+    },
+    "integrity": "sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==",
+    "license": "BSD-3-Clause",
+    "peerDependencies": {
+      "react": ">=16.6.0",
+      "react-dom": ">=16.6.0"
+    },
+    "resolved": "https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.5.tgz",
+    "version": "4.4.5"
+  },
+  "lock_path": "node_modules/react-transition-group",
+  "name": "react-transition-group",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1608,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "b9adc17ad75a847d8743be2843935f0842a0ea4f45e7b0c7e17ed0be98614b9b",
+      "text_file": "image-notices/b9adc17ad75a847d8743be2843935f0842a0ea4f45e7b0c7e17ed0be98614b9b.txt"
+    }
+  ],
+  "package_license": "BSD-3-Clause",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 48771,
+    "installed_in_image": false,
+    "integrity": "sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "30a70dea3287ae9638e9d31974add118ff34011c3642d4f83d31e90c0a8a034a"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.4.5"
+}

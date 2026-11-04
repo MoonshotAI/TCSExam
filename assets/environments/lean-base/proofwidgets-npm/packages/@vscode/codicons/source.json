@@ -1,0 +1,53 @@
+{
+  "author": {
+    "name": "Microsoft Corporation"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "CC-BY-4.0",
+  "lock_entry": {
+    "integrity": "sha512-R8sEDXthD86JHsk3xERrMcTN6sMovbk1AXYB5/tGoEYCE8DWwya6al5VLrAmQYXC1bQhUHIfHALj8ijQUs11cQ==",
+    "license": "CC-BY-4.0",
+    "resolved": "https://registry.npmjs.org/@vscode/codicons/-/codicons-0.0.40.tgz",
+    "version": "0.0.40"
+  },
+  "lock_path": "node_modules/@vscode/codicons",
+  "name": "@vscode/codicons",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 19047,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "d6239afa918961b465b07bf7411cbe34ff6685854f58553db7966f4881a0211f",
+      "text_file": "image-notices/d6239afa918961b465b07bf7411cbe34ff6685854f58553db7966f4881a0211f.txt"
+    },
+    {
+      "bytes": 1162,
+      "installed_file": "notices/original/package/LICENSE-CODE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE-CODE",
+      "sha256": "9906940f61b1f0b533fa7d99baf55178b2808fbe113ea51dfbfad8572ccd5f2b",
+      "text_file": "image-notices/9906940f61b1f0b533fa7d99baf55178b2808fbe113ea51dfbfad8572ccd5f2b.txt"
+    }
+  ],
+  "package_license": "CC-BY-4.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 507506,
+    "installed_in_image": false,
+    "integrity": "sha512-R8sEDXthD86JHsk3xERrMcTN6sMovbk1AXYB5/tGoEYCE8DWwya6al5VLrAmQYXC1bQhUHIfHALj8ijQUs11cQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@vscode/codicons/-/codicons-0.0.40.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "08b9e3185bf018e5c40698de2f8c1dccbe62abbb61baa31e7bc2e2e6732539c9"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.0.40"
+}

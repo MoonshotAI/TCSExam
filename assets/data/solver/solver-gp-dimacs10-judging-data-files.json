@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/tx001.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx001.graph.bz2",
+      "git_blob": "5c1b4ef06fd74cd0a648f06d4d6e6030cdd3ed4a",
+      "bytes": 5198780,
+      "sha256": "a5e930b567e68872b1258f034017f3b944b1a5722c520d48368da797bf305b6f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx002.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx002.graph.bz2",
+      "git_blob": "d2174083c6637a7cfd6a6cd97ab6cfe7e0092c9b",
+      "bytes": 169168,
+      "sha256": "07db3a4dcc0debfaeead9ad369e0da542a1c89dde419bea93a545e952a9ffbfe",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx003.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx003.graph.bz2",
+      "git_blob": "40707bbe74269eaec4b7fb9c4ec6c9b5d4b9aafc",
+      "bytes": 18550116,
+      "sha256": "5326c2ac3bcd157e79af5aa6735de9cf3b5876e29ed6011740417538ff87fbde",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx004.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx004.graph.bz2",
+      "git_blob": "1d6337401224544ab88cb9059d0039f4a02922d2",
+      "bytes": 613944,
+      "sha256": "aab43d102024b66a13dc2302307d2ec1f5e046bd59717fac3db2fec4c22c13d3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx005.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx005.graph.bz2",
+      "git_blob": "39201a65bb7c47d2debf4dbba8a4971b8dd99e02",
+      "bytes": 3345194,
+      "sha256": "ddbef75cddc28c63d16bea8d8e48eb1c931da771668b5893c77a9f944f7dc00a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx006.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx006.graph.bz2",
+      "git_blob": "21ca8e752712227de4afd0a2157991aaae989f97",
+      "bytes": 1541266,
+      "sha256": "7ee8337b86809706410c710fc463c056226be8ca28a3109fc0e0a5a5efb47ecf",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx007.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx007.graph.bz2",
+      "git_blob": "59c1fcf011289d6bd06b64e64faf6d7042190903",
+      "bytes": 2437910,
+      "sha256": "2595b3cf974c8f4e8c961d42449ea39d7d161adbf8d42aaf36cd48358cd7c127",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx008.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx008.graph.bz2",
+      "git_blob": "f0b1c601f9d187728bfd07d45dda6819b4acc036",
+      "bytes": 115022,
+      "sha256": "f1af46be58885a13ddca497e886b83e3152f0826d3c6d397d065e812a43c2a0f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx009.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx009.graph.bz2",
+      "git_blob": "4bbfaa4d6005d499c4b7aefd037d4f5ec301feb7",
+      "bytes": 675275,
+      "sha256": "befffc4365fb664a135ef0224a23f94875af20e7e179d6d66057047174529b64",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx010.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx010.graph.bz2",
+      "git_blob": "f666fa73f3dc5ffc44dc9d762352e663fd0a284e",
+      "bytes": 2684581,
+      "sha256": "30164e828b7ffd64f786116cebecd8f81210027433cccbc176fce401477b0f16",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx011.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx011.graph.bz2",
+      "git_blob": "92b1e650bc7b6d6852b2fc136d141cbd939cf5d4",
+      "bytes": 1751951,
+      "sha256": "add99c60d65078f6b977f20a12ad3e1fa6ca20d04f2dcb0572be1e014d71936e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx012.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx012.graph.bz2",
+      "git_blob": "529dfa8bb43b25a666c4f04b88e783c8389c63a3",
+      "bytes": 407589,
+      "sha256": "7decaaf19f173f9c0955ea8b2578e0ac3e7905d27bec1788c6385269f381d1dc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx013.graph.bz2",
+      "source_path": "tasks/solver/online/gp-dimacs10/tests/instances/tx013.graph.bz2",
+      "git_blob": "ff6648ab0f938ba07df756c2fcd585cdbad87b39",
+      "bytes": 99758,
+      "sha256": "469199b9a138334d96cab3aa6cbe057a9503cf63e652991d069c31563073c92e",
+      "mode": "0644"
+    }
+  ]
+}

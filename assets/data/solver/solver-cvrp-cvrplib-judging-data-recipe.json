@@ -1,0 +1,493 @@
+{
+  "format": "official_files",
+  "description": "Exactly 34 hidden capacitated vehicle routing instances. Download only official instance endpoints; replay the original vertex relabeling and neutral headers with saved parameter-hash checks. No routes or scores downloaded.",
+  "sources": [
+    {
+      "id": "cvrplib-A-n34-k5",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/8",
+      "bytes": 759,
+      "sha256": "393117f10a26d0e803a8206e7dd1157a67de2429d6b9fd2d60c070a98b7c73bb"
+    },
+    {
+      "id": "cvrplib-A-n39-k5",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/13",
+      "bytes": 832,
+      "sha256": "d3afcea200df090c673805d02d4f3c3fad84f4ebaee26a54edc28b30a72cbac9"
+    },
+    {
+      "id": "cvrplib-A-n45-k6",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/16",
+      "bytes": 934,
+      "sha256": "b3e7a3290b732e2140aa180b0b8a83b4dcccc6297045af270c50f62edcb15f31"
+    },
+    {
+      "id": "cvrplib-A-n54-k7",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/21",
+      "bytes": 1082,
+      "sha256": "a85afa8f15544b168ce3413d759a5c4f5fbfef5e1f7ea0972839c2761c958438"
+    },
+    {
+      "id": "cvrplib-A-n63-k10",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/27",
+      "bytes": 1250,
+      "sha256": "d837c6c264249b2c1bf643cdb113785bf3b0e6eb9596539d1cb705454a61724b"
+    },
+    {
+      "id": "cvrplib-A-n69-k9",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/30",
+      "bytes": 1323,
+      "sha256": "7b9bd50d901639c15a9f4ff1cf38ccef7a5bf050697b4e6796ff07bc95920c64"
+    },
+    {
+      "id": "cvrplib-B-n38-k6",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/34",
+      "bytes": 818,
+      "sha256": "89f6b1fa8e877b2ba62a1a49148e74b72a53be1ce37698a6b2bf73d1db375fbf"
+    },
+    {
+      "id": "cvrplib-B-n44-k7",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/38",
+      "bytes": 938,
+      "sha256": "d55e850549cd77f83dd8089f5909eff70e99caf57a8a342f2a4ef6ec95e07fe8"
+    },
+    {
+      "id": "cvrplib-B-n51-k7",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/43",
+      "bytes": 1041,
+      "sha256": "2067347938f788f2342b8f44cff98a0f524468fa191849691a1a3629c49a30c1"
+    },
+    {
+      "id": "cvrplib-B-n57-k9",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/47",
+      "bytes": 1150,
+      "sha256": "8524695df2202fb5075db3789cc73d3c27386f00200476201b93a69e0131fd6a"
+    },
+    {
+      "id": "cvrplib-B-n68-k9",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/52",
+      "bytes": 1311,
+      "sha256": "e09fb3cbf4ace034fb0347d1a0792c818cc6ffd1e35bc643e9a87bea8657dfa2"
+    },
+    {
+      "id": "cvrplib-M-n151-k12",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/72",
+      "bytes": 2494,
+      "sha256": "f0c528c854dda4cd62c9e94e8b2239cd086d7a5927e4df7e701dc2cc6ad0fad1"
+    },
+    {
+      "id": "cvrplib-X-n115-k10",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/161",
+      "bytes": 2466,
+      "sha256": "cba9bc7ad48a1b6f7005690b37a55c37bf37866eec77c6dbac3202ab812b3f07"
+    },
+    {
+      "id": "cvrplib-X-n129-k18",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/164",
+      "bytes": 2736,
+      "sha256": "c686c1a1c9cb9ab8b44b7b01679da4eacde0167b2b590d5ec063cab01b760551"
+    },
+    {
+      "id": "cvrplib-X-n157-k13",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/170",
+      "bytes": 3302,
+      "sha256": "d3fd75174272cb3470dd9100cbe875ffd566a3e0501f191e91b348756750f69a"
+    },
+    {
+      "id": "cvrplib-X-n181-k23",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/175",
+      "bytes": 3842,
+      "sha256": "e9d9348209ebd58fe1d7c97724f3d45f64319dd9e1a6b50b0b8fdfee16cc0c16"
+    },
+    {
+      "id": "cvrplib-X-n200-k36",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/179",
+      "bytes": 4367,
+      "sha256": "c9524bedaf4b9aac542538ca56fffd33ae935f667f3580fbd1d61f1c2c5988f9"
+    },
+    {
+      "id": "cvrplib-X-n219-k73",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/183",
+      "bytes": 4593,
+      "sha256": "36099c8e8dcfa8318b1fdf7601aa0449ffdf45f4cc08ae6b65200637a59aa31b"
+    },
+    {
+      "id": "cvrplib-X-n237-k14",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/187",
+      "bytes": 4967,
+      "sha256": "b41f20eb4c7cb1a56caad157088932414a1a9b9639e52b60a68a99110d19b532"
+    },
+    {
+      "id": "cvrplib-X-n256-k16",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/191",
+      "bytes": 5642,
+      "sha256": "774ef0c981ba462682475062ba4202af574ab0f8370280e54e5fc494755d0963"
+    },
+    {
+      "id": "cvrplib-X-n280-k17",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/196",
+      "bytes": 5924,
+      "sha256": "d5b39b59491997b9e74299a5bf343719627cc4cde87727ef2e10764924b84f96"
+    },
+    {
+      "id": "cvrplib-X-n308-k13",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/202",
+      "bytes": 6479,
+      "sha256": "e94414156b38b9281736bf527dc8bba7db33c45b10513034b261b74cf3b060b5"
+    },
+    {
+      "id": "cvrplib-X-n327-k20",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/206",
+      "bytes": 6922,
+      "sha256": "fd4550e0511cd159e1a1ea39b61be8db51ffc8e4ba605274a3b8e72e4340cf6a"
+    },
+    {
+      "id": "cvrplib-X-n351-k40",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/210",
+      "bytes": 7389,
+      "sha256": "7d6d5d57545c4b869e571413d1b02ce7083801159c5c98b63808b6076d87640d"
+    },
+    {
+      "id": "cvrplib-X-n376-k94",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/213",
+      "bytes": 7470,
+      "sha256": "e5cd5cc70fb755caa7875d1844629e2133c8d172d92c27da6cbb83b28de8c781"
+    },
+    {
+      "id": "cvrplib-X-n420-k130",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/218",
+      "bytes": 8422,
+      "sha256": "a015956fd982706c909004a8ee9a7b78ec75d53c2681f6e22a77d9ac12772cfa"
+    },
+    {
+      "id": "cvrplib-X-n480-k70",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/224",
+      "bytes": 9701,
+      "sha256": "4585ac3d135d19aa1f5f1c9e32f4241da80df04e096635afa170171e18624734"
+    },
+    {
+      "id": "cvrplib-X-n513-k21",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/227",
+      "bytes": 10277,
+      "sha256": "235d809f940b9e113f510f305624f095c0db546102f0b65b91bf53e070943696"
+    },
+    {
+      "id": "cvrplib-X-n573-k30",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/232",
+      "bytes": 11515,
+      "sha256": "27f52a15d0574a47696264c0429e8fadf04fffdd2da42cd8708d7690a59af5e9"
+    },
+    {
+      "id": "cvrplib-X-n627-k43",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/236",
+      "bytes": 12521,
+      "sha256": "9e3827d8e188658b4493d57697dd1abce27811529bbe68a74bd34ca69bcd707a"
+    },
+    {
+      "id": "cvrplib-X-n685-k75",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/240",
+      "bytes": 14253,
+      "sha256": "cf2d00acd5e5304b479535b6e919c8ecea31899f223100f0911ddf693e10c56c"
+    },
+    {
+      "id": "cvrplib-X-n749-k98",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/244",
+      "bytes": 15598,
+      "sha256": "68d2539f434b9ca48c4938f060f6401d040fe91c0a55015b1200374f668fc622"
+    },
+    {
+      "id": "cvrplib-X-n837-k142",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/249",
+      "bytes": 16691,
+      "sha256": "353d34df3a10e01930f189ece3a23ea944439c0f06574c67b1abedeb02a57158"
+    },
+    {
+      "id": "cvrplib-X-n916-k207",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/download/instance/253",
+      "bytes": 18323,
+      "sha256": "73bbb5243cb1255ecabc19372d803603647cdd4449b456e83a542559e8309d6e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tests/instances/ex002.vrp",
+      "source_id": "cvrplib-A-n34-k5",
+      "operation": "cvrp_relabel",
+      "official_name": "A-n34-k5.vrp",
+      "transform_params_sha256": "853f7fdb4149dd158dd599e60df6b170d4f22aab96652011d3b43e0ff8e26815",
+      "neutral_name": "ex002-k5"
+    },
+    {
+      "path": "tests/instances/ex006.vrp",
+      "source_id": "cvrplib-A-n39-k5",
+      "operation": "cvrp_relabel",
+      "official_name": "A-n39-k5.vrp",
+      "transform_params_sha256": "a0f246660f46dcacfe7094cd44e92344a868929c0395b4ce55db36fab6a712fd",
+      "neutral_name": "ex006-k5"
+    },
+    {
+      "path": "tests/instances/ex009.vrp",
+      "source_id": "cvrplib-A-n45-k6",
+      "operation": "cvrp_relabel",
+      "official_name": "A-n45-k6.vrp",
+      "transform_params_sha256": "1d3b186d8cc8d45f0010627ab3445dd2584eec3ec7dff674c322504e52fd05e8",
+      "neutral_name": "ex009-k6"
+    },
+    {
+      "path": "tests/instances/ex012.vrp",
+      "source_id": "cvrplib-A-n54-k7",
+      "operation": "cvrp_relabel",
+      "official_name": "A-n54-k7.vrp",
+      "transform_params_sha256": "81bd43e959d6209a6399f53bf7e44dbbc56f397a5abdbe73f9709c6b997afb8c",
+      "neutral_name": "ex012-k7"
+    },
+    {
+      "path": "tests/instances/ex016.vrp",
+      "source_id": "cvrplib-A-n63-k10",
+      "operation": "cvrp_relabel",
+      "official_name": "A-n63-k10.vrp",
+      "transform_params_sha256": "aba5c9eae76734bbb7880ec7984541be466283db7a03cb43751aaf5761c8ba13",
+      "neutral_name": "ex016-k10"
+    },
+    {
+      "path": "tests/instances/ex019.vrp",
+      "source_id": "cvrplib-A-n69-k9",
+      "operation": "cvrp_relabel",
+      "official_name": "A-n69-k9.vrp",
+      "transform_params_sha256": "d038a89fe84090fd446f0e4e3c769011234a1a19ca653b237ba51c1699581630",
+      "neutral_name": "ex019-k9"
+    },
+    {
+      "path": "tests/instances/ex022.vrp",
+      "source_id": "cvrplib-B-n38-k6",
+      "operation": "cvrp_relabel",
+      "official_name": "B-n38-k6.vrp",
+      "transform_params_sha256": "60c42223044e9972f60594d674f8a84de64d2e2fd559474b6a75e0d720f9f3a3",
+      "neutral_name": "ex022-k6"
+    },
+    {
+      "path": "tests/instances/ex026.vrp",
+      "source_id": "cvrplib-B-n44-k7",
+      "operation": "cvrp_relabel",
+      "official_name": "B-n44-k7.vrp",
+      "transform_params_sha256": "5242a1209d539e7e3f932690f6a62982547f12ba8ee09fb0916e76d6c0915cb5",
+      "neutral_name": "ex026-k7"
+    },
+    {
+      "path": "tests/instances/ex030.vrp",
+      "source_id": "cvrplib-B-n51-k7",
+      "operation": "cvrp_relabel",
+      "official_name": "B-n51-k7.vrp",
+      "transform_params_sha256": "b79fee10f23308a105d2324ab908464665a268994800e662073a8e316843f2ab",
+      "neutral_name": "ex030-k7"
+    },
+    {
+      "path": "tests/instances/ex033.vrp",
+      "source_id": "cvrplib-B-n57-k9",
+      "operation": "cvrp_relabel",
+      "official_name": "B-n57-k9.vrp",
+      "transform_params_sha256": "0e7a8a16fe14f5b59ae38e3b3c2bcf9f7f81dc075a99041f1ea5d62461410120",
+      "neutral_name": "ex033-k9"
+    },
+    {
+      "path": "tests/instances/ex037.vrp",
+      "source_id": "cvrplib-B-n68-k9",
+      "operation": "cvrp_relabel",
+      "official_name": "B-n68-k9.vrp",
+      "transform_params_sha256": "9ac2711d903e8b42d32e1ec7d18b3ef66722360317fdb2bfe05585246cecf208",
+      "neutral_name": "ex037-k9"
+    },
+    {
+      "path": "tests/instances/ex041.vrp",
+      "source_id": "cvrplib-M-n151-k12",
+      "operation": "cvrp_relabel",
+      "official_name": "M-n151-k12.vrp",
+      "transform_params_sha256": "7b1a78eaf552aa8f407fb398a6f89c0baf8afbab7a9e11eea3e218bc7117b98c",
+      "neutral_name": "ex041-k12"
+    },
+    {
+      "path": "tests/instances/ex044.vrp",
+      "source_id": "cvrplib-X-n115-k10",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n115-k10.vrp",
+      "transform_params_sha256": "e0bf835f780da4fca895a5d697db15ce1e0b05d83e15fd5c2c7091510db7ba4d",
+      "neutral_name": "ex044-k10"
+    },
+    {
+      "path": "tests/instances/ex047.vrp",
+      "source_id": "cvrplib-X-n129-k18",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n129-k18.vrp",
+      "transform_params_sha256": "798bc3fd157060f9565bc36ac047352d37241ecae57177740f38877a2477855e",
+      "neutral_name": "ex047-k18"
+    },
+    {
+      "path": "tests/instances/ex051.vrp",
+      "source_id": "cvrplib-X-n157-k13",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n157-k13.vrp",
+      "transform_params_sha256": "1a9c78eac1a45986bb36d1159361a9f40d2ef2a1234a3f6b026e8fa5a2753335",
+      "neutral_name": "ex051-k13"
+    },
+    {
+      "path": "tests/instances/ex054.vrp",
+      "source_id": "cvrplib-X-n181-k23",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n181-k23.vrp",
+      "transform_params_sha256": "97466f9a7c4ef5f4a338b841a78f045d71f57f4a04362734e4a294208b4f5c24",
+      "neutral_name": "ex054-k23"
+    },
+    {
+      "path": "tests/instances/ex057.vrp",
+      "source_id": "cvrplib-X-n200-k36",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n200-k36.vrp",
+      "transform_params_sha256": "4194e31c54f905a0a16b95e62a377a9bc743a3176e0c3c59f937c372345c6146",
+      "neutral_name": "ex057-k36"
+    },
+    {
+      "path": "tests/instances/ex061.vrp",
+      "source_id": "cvrplib-X-n219-k73",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n219-k73.vrp",
+      "transform_params_sha256": "dab665ba654e5b2c10e0f2ada393f33376765eebd3bfa9b9dced168a556e2765",
+      "neutral_name": "ex061-k73"
+    },
+    {
+      "path": "tests/instances/ex064.vrp",
+      "source_id": "cvrplib-X-n237-k14",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n237-k14.vrp",
+      "transform_params_sha256": "bfd5f5d2b8a5e59eedd22bcfb4d5d2d7a7b48122a32e54332e2524fa96de8f22",
+      "neutral_name": "ex064-k14"
+    },
+    {
+      "path": "tests/instances/ex067.vrp",
+      "source_id": "cvrplib-X-n256-k16",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n256-k16.vrp",
+      "transform_params_sha256": "0d62e28ad52d7e83d587309a9d6979ddaf1107baea08be4aaf7b2b9dfbff6775",
+      "neutral_name": "ex067-k16"
+    },
+    {
+      "path": "tests/instances/ex070.vrp",
+      "source_id": "cvrplib-X-n280-k17",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n280-k17.vrp",
+      "transform_params_sha256": "c938e3a95ced546fb0ff5990545feb95cf8f4592789c611d9f0c643dd3472027",
+      "neutral_name": "ex070-k17"
+    },
+    {
+      "path": "tests/instances/ex074.vrp",
+      "source_id": "cvrplib-X-n308-k13",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n308-k13.vrp",
+      "transform_params_sha256": "dfdff962241a745d22ed7f0eb5ca087953a907ce35b64333163db4b5c84630ef",
+      "neutral_name": "ex074-k13"
+    },
+    {
+      "path": "tests/instances/ex077.vrp",
+      "source_id": "cvrplib-X-n327-k20",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n327-k20.vrp",
+      "transform_params_sha256": "54e88e298cf3559f4252b4c0809e23766f7a58090fc9556924b59728a2f9f0a8",
+      "neutral_name": "ex077-k20"
+    },
+    {
+      "path": "tests/instances/ex080.vrp",
+      "source_id": "cvrplib-X-n351-k40",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n351-k40.vrp",
+      "transform_params_sha256": "534af77bc60eeca2725322d38c127c9160222687cb9189f71f3b7b7236e52896",
+      "neutral_name": "ex080-k40"
+    },
+    {
+      "path": "tests/instances/ex083.vrp",
+      "source_id": "cvrplib-X-n376-k94",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n376-k94.vrp",
+      "transform_params_sha256": "7644ea28d6909836abffa12c987d7d8e72b88d6710661d2d2eebe7baa64d2e8d",
+      "neutral_name": "ex083-k94"
+    },
+    {
+      "path": "tests/instances/ex087.vrp",
+      "source_id": "cvrplib-X-n420-k130",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n420-k130.vrp",
+      "transform_params_sha256": "011c7795b1d6b22df2602663662e3cb50a4485e157f68a1ac024a0903b14248b",
+      "neutral_name": "ex087-k130"
+    },
+    {
+      "path": "tests/instances/ex090.vrp",
+      "source_id": "cvrplib-X-n480-k70",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n480-k70.vrp",
+      "transform_params_sha256": "a301b14403dad309efc3d8b9f8fb1cb126fa2bd4876fb249651310e9c23a5108",
+      "neutral_name": "ex090-k70"
+    },
+    {
+      "path": "tests/instances/ex093.vrp",
+      "source_id": "cvrplib-X-n513-k21",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n513-k21.vrp",
+      "transform_params_sha256": "070853f99c087c3389f4a3be6b69b135e9c94f4fa6ae4e3816aac8454ca7ebcb",
+      "neutral_name": "ex093-k21"
+    },
+    {
+      "path": "tests/instances/ex097.vrp",
+      "source_id": "cvrplib-X-n573-k30",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n573-k30.vrp",
+      "transform_params_sha256": "3038662582de61430268062e106f91eaad67d480cf2b36106a69b67d4ede8bd0",
+      "neutral_name": "ex097-k30"
+    },
+    {
+      "path": "tests/instances/ex100.vrp",
+      "source_id": "cvrplib-X-n627-k43",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n627-k43.vrp",
+      "transform_params_sha256": "5cba0a9f4aa148eea6112f466693f50e34aff37d9eb5b3027e18e9d66cfaff49",
+      "neutral_name": "ex100-k43"
+    },
+    {
+      "path": "tests/instances/ex103.vrp",
+      "source_id": "cvrplib-X-n685-k75",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n685-k75.vrp",
+      "transform_params_sha256": "1151a16a6403690508b07c57562fed53da9af8dfff7159f9fd2845c07faa3bb2",
+      "neutral_name": "ex103-k75"
+    },
+    {
+      "path": "tests/instances/ex106.vrp",
+      "source_id": "cvrplib-X-n749-k98",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n749-k98.vrp",
+      "transform_params_sha256": "f82d048cdd3f519e148fb03ba96e251ab350a1f8d9ecfd25696f558fd30c721b",
+      "neutral_name": "ex106-k98"
+    },
+    {
+      "path": "tests/instances/ex110.vrp",
+      "source_id": "cvrplib-X-n837-k142",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n837-k142.vrp",
+      "transform_params_sha256": "a42d1bdb44f3c6b372d4420cac01fe9eca31ec2d2b13cde43c67b58f115bfaa3",
+      "neutral_name": "ex110-k142"
+    },
+    {
+      "path": "tests/instances/ex113.vrp",
+      "source_id": "cvrplib-X-n916-k207",
+      "operation": "cvrp_relabel",
+      "official_name": "X-n916-k207.vrp",
+      "transform_params_sha256": "2f2930e08922ea49c66e91d4b98fbc76f38697eb95722dec30bc1dcaa4d3eacd",
+      "neutral_name": "ex113-k207"
+    }
+  ],
+  "transform": "assets/data/solver/cvrp-cvrplib/transform.py",
+  "transform_sha256": "a33d7f21c3b8710173e02d2c739abe08fe540cfb6103683787cf22654d8d9fba",
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py",
+    "assets/data/solver/cvrp-cvrplib/transform.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "CVRPLIB original terms remain unresolved; local reconstruction grants no public redistribution approval."
+}

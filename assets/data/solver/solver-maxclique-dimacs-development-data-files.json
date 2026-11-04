@@ -1,0 +1,400 @@
+{
+  "files": [
+    {
+      "path": "app/instances/C125.9.clq",
+      "source_context_path": "app/instances/C125.9.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/C125.9.clq",
+      "git_blob": "52f1c63a444d571751e66d8dd3a500afb3a01347",
+      "bytes": 58214,
+      "sha256": "546f576d40edfe21e1f5c602e57cc1483b0e2fe9e3e3f9cff25659d7d4be1ad7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/C2000.9.clq",
+      "source_context_path": "app/instances/C2000.9.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/C2000.9.clq",
+      "git_blob": "d18d48af1d35ef0073cc5914d971dfed8d19516b",
+      "bytes": 19602828,
+      "sha256": "aa4b1d7df7f9c1afbf8c9f35fcf5bdfc6370fd27db5c9f3fd5409dfd0d164f16",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/C250.9.clq",
+      "source_context_path": "app/instances/C250.9.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/C250.9.clq",
+      "git_blob": "5a85992c3582a68c6def628068050d35ffa8b803",
+      "bytes": 256266,
+      "sha256": "b4c0c254ac61d9844d61675c6ea4da31b3ebe530a6d4cfdbfb5fc55085027ab2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/C4000.5.clq",
+      "source_context_path": "app/instances/C4000.5.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/C4000.5.clq",
+      "git_blob": "814aba4a48a92d5f16a7e26bb8eb6d155b671dd1",
+      "bytes": 45790538,
+      "sha256": "18ca07d9f656ce56b492384a268e457152e5c7320a2dbd780742a5deb6829799",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/DSJC1000_5.clq",
+      "source_context_path": "app/instances/DSJC1000_5.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/DSJC1000_5.clq",
+      "git_blob": "adf20699e16ae6f90e4ba855306199ebe8aa8775",
+      "bytes": 2445393,
+      "sha256": "86aa45045d2673efd505f9b24f9bce7de6a04544d05a01dea2ce93eeb03e3398",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/DSJC500_5.clq",
+      "source_context_path": "app/instances/DSJC500_5.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/DSJC500_5.clq",
+      "git_blob": "24bc1ec39a79c75b23fb7be0c33b48d0db764b64",
+      "bytes": 599513,
+      "sha256": "33c9b6bd4456550db2b7dca779c0cc85d2b50be557fa8813c4c8ab6541422feb",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/MANN_a27.clq",
+      "source_context_path": "app/instances/MANN_a27.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/MANN_a27.clq",
+      "git_blob": "3d99e859cd72d318712b06b73f3f3b019ea2f43a",
+      "bytes": 666425,
+      "sha256": "371ab170a97effeeeb222bcf854558f6c7ab382b865d82d710471c8d93a39fac",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/MANN_a9.clq",
+      "source_context_path": "app/instances/MANN_a9.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/MANN_a9.clq",
+      "git_blob": "bfcb3ac3c89395a27493e64f3eaf5d0ebffd9db0",
+      "bytes": 7370,
+      "sha256": "066fdc6b2ab5d4c24cffa76155a7d4f70877f0fec507ff9f062d7a0c6df2d7c3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/brock200_2.clq",
+      "source_context_path": "app/instances/brock200_2.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/brock200_2.clq",
+      "git_blob": "2b17c00810696f4bff637f13c53d78ee38a3ffe7",
+      "bytes": 88473,
+      "sha256": "75658ed5e1c683344ef78a8b65f4bb354704bf2ddd5163df60e4b37f6b1e6adb",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/brock200_3.clq",
+      "source_context_path": "app/instances/brock200_3.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/brock200_3.clq",
+      "git_blob": "619781188080e06ddc678b0f95d533c256858895",
+      "bytes": 107920,
+      "sha256": "fd77497851782c81e5c58cf96fa4ffd0ea61af08a11f3d4ec84aa0215b1979f1",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/brock400_3.clq",
+      "source_context_path": "app/instances/brock400_3.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/brock400_3.clq",
+      "git_blob": "34c4610a15de378f0a234c66e03133c4e399de3f",
+      "bytes": 565144,
+      "sha256": "d74040681b0d511c2fb7293a44f4290c70baf86049ebe2a38ff6f4b96207a7e5",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/brock400_4.clq",
+      "source_context_path": "app/instances/brock400_4.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/brock400_4.clq",
+      "git_blob": "33dbdd66c314eac8ae662064b9202ccfa34a0987",
+      "bytes": 565906,
+      "sha256": "129f1dd2c1db48049369a1a16315afcb162c16dceb3ed45060ccb9f2dc49aa94",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/brock800_1.clq",
+      "source_context_path": "app/instances/brock800_1.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/brock800_1.clq",
+      "git_blob": "5cef78975e0df3f32783fee225d6653a7d2a8657",
+      "bytes": 2019556,
+      "sha256": "0aa177255082e7fd79849a5d5d6c748ba9b0cc8292665dd2ce3481ca2f78d541",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/brock800_4.clq",
+      "source_context_path": "app/instances/brock800_4.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/brock800_4.clq",
+      "git_blob": "f0ee92b912e12fcfc89fe3d8ab63eaf9d473e117",
+      "bytes": 2020892,
+      "sha256": "76ee4f95470bfe60f8e2b196c74b063c77548eed3cea95ab32ea729880dcf6d3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/c-fat200-1.clq",
+      "source_context_path": "app/instances/c-fat200-1.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/c-fat200-1.clq",
+      "git_blob": "164d7a9f01966cec511ccfc75c355cf0dd53d288",
+      "bytes": 14005,
+      "sha256": "8a7ed1e6ccfcee1b6076feb73bba06934df8f31d0ae06c77a63e6ada07e06be6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/c-fat200-2.clq",
+      "source_context_path": "app/instances/c-fat200-2.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/c-fat200-2.clq",
+      "git_blob": "9b915cd89e856161615d8dbb78799526508c7c85",
+      "bytes": 29191,
+      "sha256": "0a00ce2fb69c4bf3595e936f3942b0849d9bc950dedee32136238abf37cb5842",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/c-fat500-10.clq",
+      "source_context_path": "app/instances/c-fat500-10.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/c-fat500-10.clq",
+      "git_blob": "08319136ce4c91a23ec03889e9e17354d38fba97",
+      "bytes": 446463,
+      "sha256": "8fb5495e4183e67d88a1b6e5ec0a929d8ea72e9caef85ab7cf66b1806b594697",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/gen200_p0.9_55.clq",
+      "source_context_path": "app/instances/gen200_p0.9_55.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/gen200_p0.9_55.clq",
+      "git_blob": "54da611cafbfafa113d7527051ae61554c8bb0c6",
+      "bytes": 160049,
+      "sha256": "14905b0aded564fbba9a770377c3c986452506f92a4341f326031afd9c467502",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/gen400_p0.9_55.clq",
+      "source_context_path": "app/instances/gen400_p0.9_55.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/gen400_p0.9_55.clq",
+      "git_blob": "70a29ec543a21c7c9c2d6234a417003f4c2e677d",
+      "bytes": 679582,
+      "sha256": "8f376d7c0f45e66f525a03662f6475a381302838530356567065335a2bbf6b58",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/hamming10-2.clq",
+      "source_context_path": "app/instances/hamming10-2.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/hamming10-2.clq",
+      "git_blob": "cb6021c047a104daf6b20abecc6233d7db430b3b",
+      "bytes": 5102742,
+      "sha256": "215615ee39e1609f195bd693adecbdf233aa1b04108d49f60600473f2e6e8385",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/hamming6-2.clq",
+      "source_context_path": "app/instances/hamming6-2.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/hamming6-2.clq",
+      "git_blob": "072d026da2906a87a94f689baa03993b80b02515",
+      "bytes": 14335,
+      "sha256": "0ad4095c004dfd979653719aded4397a7c2f836f332191759686c9e6df7eba34",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/hamming8-2.clq",
+      "source_context_path": "app/instances/hamming8-2.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/hamming8-2.clq",
+      "git_blob": "e3d48192df441dc23549ec793deb0b73f068da27",
+      "bytes": 289742,
+      "sha256": "d6a537d3b942fce947d5d7fb507390f6dc363c542f95d52470b2b84b2e9bb91f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/johnson16-2-4.clq",
+      "source_context_path": "app/instances/johnson16-2-4.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/johnson16-2-4.clq",
+      "git_blob": "c6ad102b2af2a8135a1f4a9e9d02825b61d877c5",
+      "bytes": 45084,
+      "sha256": "219741676a39ea31b321da79ad26ceb358b523ceb91c616127e8e1ab7e0b4cf6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/johnson32-2-4.clq",
+      "source_context_path": "app/instances/johnson32-2-4.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/johnson32-2-4.clq",
+      "git_blob": "a38d1b9bbbfeb4c415f36b8cc34edc4113553826",
+      "bytes": 1032134,
+      "sha256": "50271a08cd5f44988720f7739ff9d87a5fca6f37bb839a91541eea3595c7aef5",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/keller4.clq",
+      "source_context_path": "app/instances/keller4.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/keller4.clq",
+      "git_blob": "2812d922f876beb908d04ac604f681ef901d8d1a",
+      "bytes": 82552,
+      "sha256": "9b8e4e71b3057b625ab00e748128f916ce8301bb05acc4163a9152a863feecda",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/keller6.clq",
+      "source_context_path": "app/instances/keller6.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/keller6.clq",
+      "git_blob": "b0ce64360a4f5a797e799d7f96a0377cbe5c13bd",
+      "bytes": 52351063,
+      "sha256": "7568c97a0a7882012467dc65d4540f010bc72094e3ec31d8ba1adca994c30614",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/p_hat1000-1.clq",
+      "source_context_path": "app/instances/p_hat1000-1.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/p_hat1000-1.clq",
+      "git_blob": "e0744e28ebba0c99349b5c42ce1d8e7a3b9af3f9",
+      "bytes": 1197400,
+      "sha256": "25251de55662e7f0bafffe010b91fa416846f7078a42c972b0713961020b773c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/p_hat1000-2.clq",
+      "source_context_path": "app/instances/p_hat1000-2.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/p_hat1000-2.clq",
+      "git_blob": "42a9f6cba9c1d24effdda8ab31b5c098d6f5795d",
+      "bytes": 2397085,
+      "sha256": "419e5489e87a07c78fd500d9c2b48fa3eb2818d931bf9cfc370d329ec5e8a010",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/p_hat1500-1.clq",
+      "source_context_path": "app/instances/p_hat1500-1.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/p_hat1500-1.clq",
+      "git_blob": "a8c15b063c8fe1b41e90eaa64671a59fc32e37bb",
+      "bytes": 3002181,
+      "sha256": "509dc87b138d083fa5e8d1f8e76409e9e60cccc49baac71d13196c3c76d6f45e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/p_hat300-1.clq",
+      "source_context_path": "app/instances/p_hat300-1.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/p_hat300-1.clq",
+      "git_blob": "46f11cbcdcd8c5e3ae70777d34396e2bf7254a3d",
+      "bytes": 102408,
+      "sha256": "0bc25665fac1dd825fa0c0f3288c76770396b11eb761a62f4d07dd51db7af93a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/p_hat300-2.clq",
+      "source_context_path": "app/instances/p_hat300-2.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/p_hat300-2.clq",
+      "git_blob": "6c448e4139d482089c0d09e1d23eca9be2119e7b",
+      "bytes": 204755,
+      "sha256": "c1a5f5e8670017819ff23925073a9b700376c7b691724fe09a9a65725e561f6e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/p_hat500-2.clq",
+      "source_context_path": "app/instances/p_hat500-2.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/p_hat500-2.clq",
+      "git_blob": "23646c69646d0b9a287adc860b4e91be3a9a776e",
+      "bytes": 603383,
+      "sha256": "0c653a1b45e8176a3aa14a7acd685d3629bb7529f346cd2e988d984b53e1396b",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/p_hat500-3.clq",
+      "source_context_path": "app/instances/p_hat500-3.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/p_hat500-3.clq",
+      "git_blob": "4d5944e05ee2858b1856dff59172cf83f883cf79",
+      "bytes": 898238,
+      "sha256": "aa96f77001ff50734a21835f8b542c355ddc7b8f79d17bd135f796b3c90d4ca1",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/p_hat700-2.clq",
+      "source_context_path": "app/instances/p_hat700-2.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/p_hat700-2.clq",
+      "git_blob": "a286003f0e9fa5bba7ae9f1dbe5e19f257ff7b30",
+      "bytes": 1181051,
+      "sha256": "42551a343937796579ee7316611d765f043ccade030dfdd14d95df0181398a97",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/p_hat700-3.clq",
+      "source_context_path": "app/instances/p_hat700-3.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/p_hat700-3.clq",
+      "git_blob": "bf3c6a18e402f4f09fb0eab13793cb4ea9f921ba",
+      "bytes": 1774306,
+      "sha256": "0f9db449669483afb66466c0ecf348a11c2b75db74b3feed6ef8697147f198ba",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/san1000.clq",
+      "source_context_path": "app/instances/san1000.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/san1000.clq",
+      "git_blob": "ac0d06203fb19f37b855db8408d4d2ea46d19afc",
+      "bytes": 2452104,
+      "sha256": "c6f4b04b57f48c3fbd1960647c6655fc9121d59a54ab5fa613a9c9f3b7d132c7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/san200_0.7_2.clq",
+      "source_context_path": "app/instances/san200_0.7_2.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/san200_0.7_2.clq",
+      "git_blob": "93f58d9dfed1dba1b39fd331d697a246fba7759a",
+      "bytes": 124560,
+      "sha256": "6892a23e789f0e7e99cb971e744a110f6b02d923723c8439d669ff5e2599c363",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/san200_0.9_1.clq",
+      "source_context_path": "app/instances/san200_0.9_1.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/san200_0.9_1.clq",
+      "git_blob": "9f169bc651c3636a86ef730c7af93ba3ac6d3fe9",
+      "bytes": 160034,
+      "sha256": "b1e811caedec50f925f853e2866263f02e5ccc1903be32f0971e24ea28adf1e8",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/san200_0.9_3.clq",
+      "source_context_path": "app/instances/san200_0.9_3.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/san200_0.9_3.clq",
+      "git_blob": "db81b7cc542184944b247cb9caa7d625efda09bb",
+      "bytes": 160142,
+      "sha256": "2819231e39f8d68608c7aabb679883ff54be308edf49ea1ce1fe5c13e2522d1c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/san400_0.5_1.clq",
+      "source_context_path": "app/instances/san400_0.5_1.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/san400_0.5_1.clq",
+      "git_blob": "6342af9631462f5171b124e0b42f98d9cd1ddef7",
+      "bytes": 377938,
+      "sha256": "25a29adac24f99e2cf1eb00065b9ce2a477727eb2c257c64e7807afe4574afc2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/san400_0.7_1.clq",
+      "source_context_path": "app/instances/san400_0.7_1.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/san400_0.7_1.clq",
+      "git_blob": "83d064e5c7073c05a9dd8af00a3809db0530b1c1",
+      "bytes": 528806,
+      "sha256": "1cfcc4b0c4f6991e4ee1b4d11679c4716ae9ab8b8ea4450275e4c5f628212f2e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/san400_0.9_1.clq",
+      "source_context_path": "app/instances/san400_0.9_1.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/san400_0.9_1.clq",
+      "git_blob": "743dfb52fb95cf52908e22189fe3595d4abc8360",
+      "bytes": 679795,
+      "sha256": "9e514d0bc4be4a97a589cf9087975ae2baf33de73ca53d324cf35e8b71f1cbe3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/sanr200_0.7.clq",
+      "source_context_path": "app/instances/sanr200_0.7.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/sanr200_0.7.clq",
+      "git_blob": "64835a2f4cfe5b020676e16fa5a6dbb9d5d847da",
+      "bytes": 124178,
+      "sha256": "f2b09e6965e8be5b43983892abd77a809ce02d8b0f71d84a8ce75b74ba8efd80",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/sanr400_0.7.clq",
+      "source_context_path": "app/instances/sanr400_0.7.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/environment/app/instances/sanr400_0.7.clq",
+      "git_blob": "58be8cf346bc75a4362ddb968641c94626bfaebd",
+      "bytes": 528973,
+      "sha256": "7e78a6cd4da93c82f8bea2128ec8473c313cb6bfd26f06b5de30f9ab0563d9f3",
+      "mode": "0644"
+    }
+  ]
+}

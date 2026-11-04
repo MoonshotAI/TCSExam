@@ -1,0 +1,41 @@
+{
+  "task": "tasks/solver/online/christmas-tree-ahc041",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/christmas-tree-ahc041/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:2c23ff77a98ca34d54e1a080e2de4df0222e88f012b2c641332cd21fc8fefc5d"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/christmas-tree-ahc041/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "577d3c32534792c72b5a0d7c3c0ad5ec8032ffb256ffa463e9f0c2e522fc8453"
+    },
+    {
+      "source": "tasks/solver/online/christmas-tree-ahc041/tests/scoring.py",
+      "target": "/opt/ahc041/scoring.py",
+      "sha256": "11afb6562287742d858ac81e3e5adcacf132e2250e19ff168472c1cef6b7ce3e"
+    },
+    {
+      "source": "tasks/solver/online/christmas-tree-ahc041/tests/reference-hidden.json",
+      "target": "/tests/reference.json",
+      "sha256": "848a459bea4aeae5436bf07733ea79dbdb2cf2cf1b6c80c382b2bec58531298d"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": false,
+  "public_source_rebuild_verified": false,
+  "limitations": [
+    "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "author": "Nick Fitzgerald <nfitzgerald@mozilla.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BSD-3-Clause",
+  "lock_entry": {
+    "dev": true,
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "integrity": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+    "license": "BSD-3-Clause",
+    "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz",
+    "version": "0.6.1"
+  },
+  "lock_path": "node_modules/source-map",
+  "name": "source-map",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1526,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "text_file": "image-notices/6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd.txt"
+    }
+  ],
+  "package_license": "BSD-3-Clause",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 199644,
+    "installed_in_image": false,
+    "integrity": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "bdbca10d17ff5a5802d5acfc7b2f22f9f9bf587632a95650d3c5f513c7092b86"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.6.1"
+}

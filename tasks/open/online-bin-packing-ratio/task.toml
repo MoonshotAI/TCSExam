@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-online-bin-packing-ratio"
+version = "0.1.0"
+description = "Prove or refute, in Lean 4 (machine-verified), a threshold on the optimal asymptotic competitive ratio R* of one-dimensional online bin packing: R* <= 1.56 (conj, an upper-bound improvement over 1.57829 of Balogh-Bekesi-Dosa-Epstein-Levin, ESA 2018) or R* > 1.56 (refuted, a lower-bound improvement over 1.54278 of Balogh-Bekesi-Dosa-Epstein-Levin, Algorithmica 2021). Open problem: no ground truth; the Lean kernel is the judge. A kernel-verified proof of either threshold direction scores 1.0, otherwise 0 — no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "online-algorithms", "bin-packing", "competitive-ratio", "open-problem", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-online-bin-packing-ratio"
+candidate_id = "cand-online-bin-packing-ratio"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open problem (the true value of the optimal asymptotic competitive ratio of classic online bin packing has been bracketed in [1.54278, 1.57829] since 2018 and the gap is unresolved). Full score needs a kernel-verified proof of either threshold direction; there are no checkpoint slots and no partial credit."
+source_paper = "Upper bound: J. Balogh, J. Bekesi, G. Dosa, L. Epstein, A. Levin, A New and Improved Algorithm for Online Bin Packing, ESA 2018 (LIPIcs 112, 5:1-5:14, DOI 10.4230/LIPIcs.ESA.2018.5), ratio <= 1.57829. Lower bound: same authors, A New Lower Bound for Classic Online Bin Packing, Algorithmica 83(7):2047-2062 (2021), DOI 10.1007/s00453-021-00818-7 (also WAOA 2018), bound above 1.54278. Background survey: online-dynamic-streaming.md (historical report not included in this package) (entry 5, short name online-bin-packing-ratio)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-online-bin-packing-ratio-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

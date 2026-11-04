@@ -1,0 +1,13 @@
+*
+!Dockerfile
+!runtime/
+!runtime/**
+!anchors.json
+!metric_config.json
+!reference.json
+!metric/
+!metric/**
+!test.sh
+!qrp2rup-upstream.tar.gz
+!apply_qrp2rup_fix.py
+!qrp2rup-temporary-type-fix.patch

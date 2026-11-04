@@ -1,0 +1,19 @@
+{
+  "task": "maxsat-mse",
+  "cpus": 1,
+  "memory_mb": 32768,
+  "seconds": 300,
+  "build_seconds": 600,
+  "check_seconds": 300,
+  "pool": false,
+  "module_dir": "/opt/maxsat",
+  "disk_mb": 8192,
+  "relative_cpu_indices": false,
+  "outer_timeout_seconds": 20000,
+  "judge_env": {
+    "TESTS_DIR": "/tests"
+  },
+  "instance_count": 211,
+  "budget_source": "Frozen backend environment and original checker preparation script; original scoring enforces the actual budget.",
+  "compressed_preparation": ".xz"
+}

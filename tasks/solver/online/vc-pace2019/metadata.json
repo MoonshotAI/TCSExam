@@ -1,0 +1,49 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260911",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/vc-pace2019/PROVENANCE.md §B/K derivation: proven optima for 81 instances from WeGotYouCovered/peaty, plus peaty incumbent@1800s values for 19 instances (registered as record-breaking ratchet values).",
+   "tier": "proven-optimal"
+  }
+ },
+ "family": "vertex-cover",
+ "id": "vc-pace2019",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-vc-pace2019-judge-v10"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "VC_TIME_LIMIT",
+  "n_hidden": 100,
+  "n_public": 100,
+  "per_instance_seconds": 1800,
+  "shard_cores": 1,
+  "shard_mem_gb": 8,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "max",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "PACE 2019",
+  "hidden_set": "official-private",
+  "memorization_risk": "low",
+  "transform": null
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "solve_rate shape: A=1 iff the output is valid under the official validator and has size ≤ K (since 260924, A<K is marked solved and flagged records_broken; it is recorded without ratcheting K). The 19 fixed-value keys are not proven optimal."
+ },
+ "subdomain": "graph-optimization",
+ "title": "Vertex cover — exact solving"
+}

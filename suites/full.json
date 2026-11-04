@@ -1,0 +1,410 @@
+{
+  "schema_version": 2,
+  "name": "TCSExam-Full",
+  "version": "0.2-staging",
+  "suite": "full",
+  "task_count": 100,
+  "tasks": [
+    {
+      "id": "binary-code-a22-10",
+      "track": "construction"
+    },
+    {
+      "id": "binary-code-a24-10",
+      "track": "construction"
+    },
+    {
+      "id": "cage-girth",
+      "track": "construction"
+    },
+    {
+      "id": "capset-d7",
+      "track": "construction"
+    },
+    {
+      "id": "circles-in-square-n100",
+      "track": "construction"
+    },
+    {
+      "id": "covering-code-k10",
+      "track": "construction"
+    },
+    {
+      "id": "ex-c3c4-maxedges",
+      "track": "construction"
+    },
+    {
+      "id": "graph-tsp-gap",
+      "track": "construction"
+    },
+    {
+      "id": "kissing-d13",
+      "track": "construction"
+    },
+    {
+      "id": "kissing-d9",
+      "track": "construction"
+    },
+    {
+      "id": "mols-n10",
+      "track": "construction"
+    },
+    {
+      "id": "quantum-code-25-7",
+      "track": "construction"
+    },
+    {
+      "id": "ramsey-r3-10",
+      "track": "construction"
+    },
+    {
+      "id": "ramsey-r46",
+      "track": "construction"
+    },
+    {
+      "id": "ramsey-r55",
+      "track": "construction"
+    },
+    {
+      "id": "rectilinear-tsp-gap",
+      "track": "construction"
+    },
+    {
+      "id": "sorting-network-size",
+      "track": "construction"
+    },
+    {
+      "id": "spherical-code-d3-n50",
+      "track": "construction"
+    },
+    {
+      "id": "tsp-gap",
+      "track": "construction"
+    },
+    {
+      "id": "vdw-w27",
+      "track": "construction"
+    },
+    {
+      "id": "aaronson-ambainis",
+      "track": "open"
+    },
+    {
+      "id": "alon-jaeger-tarsi",
+      "track": "open"
+    },
+    {
+      "id": "bin-packing-mirup",
+      "track": "open"
+    },
+    {
+      "id": "caccetta-haggkvist",
+      "track": "open"
+    },
+    {
+      "id": "d-vs-r-total-functions",
+      "track": "open"
+    },
+    {
+      "id": "evasiveness-graph-properties",
+      "track": "open"
+    },
+    {
+      "id": "explicit-ramsey-graph-log",
+      "track": "open"
+    },
+    {
+      "id": "explicit-rigid-matrix",
+      "track": "open"
+    },
+    {
+      "id": "fourier-entropy-influence",
+      "track": "open"
+    },
+    {
+      "id": "frege-not-pbounded",
+      "track": "open"
+    },
+    {
+      "id": "frege-vs-extended-frege",
+      "track": "open"
+    },
+    {
+      "id": "krw-composition-conjecture",
+      "track": "open"
+    },
+    {
+      "id": "log-rank-conjecture",
+      "track": "open"
+    },
+    {
+      "id": "lovasz-hamiltonicity",
+      "track": "open"
+    },
+    {
+      "id": "mansour-conjecture",
+      "track": "open"
+    },
+    {
+      "id": "mds-conjecture-nonprime",
+      "track": "open"
+    },
+    {
+      "id": "nexp-vs-tc0",
+      "track": "open"
+    },
+    {
+      "id": "np-vs-acc",
+      "track": "open"
+    },
+    {
+      "id": "omega-2",
+      "track": "open"
+    },
+    {
+      "id": "online-bin-packing-ratio",
+      "track": "open"
+    },
+    {
+      "id": "online-matching-random-order",
+      "track": "open"
+    },
+    {
+      "id": "permanent-vs-determinant",
+      "track": "open"
+    },
+    {
+      "id": "pfr-integers",
+      "track": "open"
+    },
+    {
+      "id": "planar-l1-gnrs",
+      "track": "open"
+    },
+    {
+      "id": "polar-scaling-exponent",
+      "track": "open"
+    },
+    {
+      "id": "prg-constant-width-robp",
+      "track": "open"
+    },
+    {
+      "id": "ryser-conjecture",
+      "track": "open"
+    },
+    {
+      "id": "total-coloring-conjecture",
+      "track": "open"
+    },
+    {
+      "id": "tuza-conjecture",
+      "track": "open"
+    },
+    {
+      "id": "xor-log-rank-conjecture",
+      "track": "open"
+    },
+    {
+      "id": "ahc058-atcoder",
+      "track": "solver"
+    },
+    {
+      "id": "bpp-bpplib",
+      "track": "solver"
+    },
+    {
+      "id": "ce-pace2021",
+      "track": "solver"
+    },
+    {
+      "id": "celar-rlfap",
+      "track": "solver"
+    },
+    {
+      "id": "christmas-tree-ahc041",
+      "track": "solver"
+    },
+    {
+      "id": "coloring-dimacs",
+      "track": "solver"
+    },
+    {
+      "id": "curriculum-itc2007",
+      "track": "solver"
+    },
+    {
+      "id": "cvrp-cvrplib",
+      "track": "solver"
+    },
+    {
+      "id": "dfvs-pace2022",
+      "track": "solver"
+    },
+    {
+      "id": "ds-pace2025",
+      "track": "solver"
+    },
+    {
+      "id": "glasscut-roadef2018",
+      "track": "solver"
+    },
+    {
+      "id": "gp-dimacs10",
+      "track": "solver"
+    },
+    {
+      "id": "hs-pace2025",
+      "track": "solver"
+    },
+    {
+      "id": "itc2021-sports-timetabling",
+      "track": "solver"
+    },
+    {
+      "id": "jsplib-jssp",
+      "track": "solver"
+    },
+    {
+      "id": "logic-syn-iwls2023",
+      "track": "solver"
+    },
+    {
+      "id": "maxclique-dimacs",
+      "track": "solver"
+    },
+    {
+      "id": "maxcut-mqlib",
+      "track": "solver"
+    },
+    {
+      "id": "maxsat-mse",
+      "track": "solver"
+    },
+    {
+      "id": "mr-roadef2012",
+      "track": "solver"
+    },
+    {
+      "id": "nurse-inrc",
+      "track": "solver"
+    },
+    {
+      "id": "oscm-pace2024",
+      "track": "solver"
+    },
+    {
+      "id": "qap-qaplib",
+      "track": "solver"
+    },
+    {
+      "id": "qbf-qbfeval",
+      "track": "solver"
+    },
+    {
+      "id": "radiation-mznchallenge",
+      "track": "solver"
+    },
+    {
+      "id": "scp-orlib",
+      "track": "solver"
+    },
+    {
+      "id": "sygus-comp",
+      "track": "solver"
+    },
+    {
+      "id": "tsp-tsplib",
+      "track": "solver"
+    },
+    {
+      "id": "tw-heuristic",
+      "track": "solver"
+    },
+    {
+      "id": "vc-pace2019",
+      "track": "solver"
+    },
+    {
+      "id": "corners-quasipoly",
+      "track": "theorem"
+    },
+    {
+      "id": "dijkstra-universal",
+      "track": "theorem"
+    },
+    {
+      "id": "discrepancy-beyond-banaszczyk",
+      "track": "theorem"
+    },
+    {
+      "id": "discrete-bidding-games",
+      "track": "theorem"
+    },
+    {
+      "id": "folded-rs-gsb",
+      "track": "theorem"
+    },
+    {
+      "id": "gg26-proximity",
+      "track": "theorem"
+    },
+    {
+      "id": "lcc-exp-lb",
+      "track": "theorem"
+    },
+    {
+      "id": "monotonicity-test-lb",
+      "track": "theorem"
+    },
+    {
+      "id": "mts-diamond-lb",
+      "track": "theorem"
+    },
+    {
+      "id": "multiflow-gap-planar",
+      "track": "theorem"
+    },
+    {
+      "id": "negations-small-depth",
+      "track": "theorem"
+    },
+    {
+      "id": "pcp-alphabet-soundness",
+      "track": "theorem"
+    },
+    {
+      "id": "planar-is-reconfig-kernel",
+      "track": "theorem"
+    },
+    {
+      "id": "posbody-chasing",
+      "track": "theorem"
+    },
+    {
+      "id": "qma-qcma-oracle",
+      "track": "theorem"
+    },
+    {
+      "id": "quantum-crypto-algorithmica",
+      "track": "theorem"
+    },
+    {
+      "id": "strategy-improvement-lb",
+      "track": "theorem"
+    },
+    {
+      "id": "three-taxi",
+      "track": "theorem"
+    },
+    {
+      "id": "unitary-synthesis-lb",
+      "track": "theorem"
+    },
+    {
+      "id": "xor3-parallel-repetition",
+      "track": "theorem"
+    }
+  ],
+  "default_solver_protocol": "online"
+}

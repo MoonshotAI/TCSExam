@@ -1,0 +1,28 @@
+{
+ "namespace": "Cage",
+ "main_theorem": "submission_lower",
+ "score_mode": "solver_linear",
+ "compile_timeout_sec": 1200,
+ "min_n": 1,
+ "allowed_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "claims": [
+  {
+   "name": "submission_lower",
+   "header_pattern": ":\\s*∃\\s*G\\s*:\\s*CageGraph\\s*,\\s*WellFormed\\s+G\\s*∧\\s*IsKRegular\\s+G\\s+(\\d+)\\s*∧\\s*GirthGE\\s+G\\s+(\\d+)\\s*∧\\s*G\\.n\\s*≤\\s*(\\d+)"
+  }
+ ],
+ "cells": {
+  "3,5": {"sanity": true, "baseline_n": 18, "record_n": 10, "lower_bound_n": 10},
+  "3,13": {"baseline_n": 4096, "record_n": 272, "lower_bound_n": 202},
+  "4,10": {"baseline_n": 8748, "record_n": 320, "lower_bound_n": 243},
+  "3,16": {"baseline_n": 32768, "record_n": 936, "lower_bound_n": 512},
+  "4,11": {"baseline_n": 39368, "record_n": 713, "lower_bound_n": 486},
+  "3,17": {"baseline_n": 65536, "record_n": 2048, "lower_bound_n": 768}
+ }
+}

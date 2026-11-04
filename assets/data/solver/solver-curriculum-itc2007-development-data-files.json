@@ -1,0 +1,112 @@
+{
+  "files": [
+    {
+      "path": "app/instances/comp01.ctt",
+      "source_context_path": "app/instances/comp01.ctt",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/instances/comp01.ctt",
+      "git_blob": "9e243992f5ce4984f830dd275aad77c364de8012",
+      "bytes": 1709,
+      "sha256": "57227834c435519b848543a283d765c8f82668616cf951b887dc9d77b2a7ac08",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/comp03.ctt",
+      "source_context_path": "app/instances/comp03.ctt",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/instances/comp03.ctt",
+      "git_blob": "d6c3b521047202f2098d366b6be470f8bceea119",
+      "bytes": 10053,
+      "sha256": "b57680c3af18b168a7564d8a795917e2e7dda12998a0b90fa2ba40b1ae710021",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/comp08.ctt",
+      "source_context_path": "app/instances/comp08.ctt",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/instances/comp08.ctt",
+      "git_blob": "5aa5571be0301b3fa70771327e3a8ea3574912dd",
+      "bytes": 8754,
+      "sha256": "53df346086e70f5427d4de30d25314a1d6346339ac1ff9bd91bf2d2e7dea5ed1",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/comp10.ctt",
+      "source_context_path": "app/instances/comp10.ctt",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/instances/comp10.ctt",
+      "git_blob": "8e46ba8f56efc4cdf999277b49bf69ef8d492ec8",
+      "bytes": 12306,
+      "sha256": "1266e73d63b8f61945fbbb693c62e4621856618a4d5c29a6228a518d72a5ac92",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/comp12.ctt",
+      "source_context_path": "app/instances/comp12.ctt",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/instances/comp12.ctt",
+      "git_blob": "14c865c6302c173cbe14afa54175cc7e0132c93b",
+      "bytes": 30337,
+      "sha256": "952f24be4aea585ec7b16807bfb25852b2dea04bffed133ad2aaafb36a730da0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/comp13.ctt",
+      "source_context_path": "app/instances/comp13.ctt",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/instances/comp13.ctt",
+      "git_blob": "a4977e663e9ec9c4ad8af086035c3abfd5e1cd4b",
+      "bytes": 8716,
+      "sha256": "a3d0e2505b3c4dba31d38160a99cab18358483f84ff3ea832384c5e3d07be3d6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/comp14.ctt",
+      "source_context_path": "app/instances/comp14.ctt",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/instances/comp14.ctt",
+      "git_blob": "461c57b39d6d142617846391ff884c0158f3d678",
+      "bytes": 9101,
+      "sha256": "9bc5eca4729dc37af93065fb107e0f6aa10d3be9566ae0ac7d54f4740f0d261d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/comp16.ctt",
+      "source_context_path": "app/instances/comp16.ctt",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/instances/comp16.ctt",
+      "git_blob": "9b35677e0d52040c545641cf5fb0eb1d6e262d3d",
+      "bytes": 10251,
+      "sha256": "5e18801fce5c63de1764684f316b28ff9f8f5a1e3d20e81c86e80baa12ea80aa",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/comp17.ctt",
+      "source_context_path": "app/instances/comp17.ctt",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/instances/comp17.ctt",
+      "git_blob": "ab9f7b4261ee2cd22c076e4ff8ff27d2acadc070",
+      "bytes": 10312,
+      "sha256": "3501f98bbc7c7e3b4bccfc088feb8d7b117ce186cfb69d223fab18428886bfb6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/comp18.ctt",
+      "source_context_path": "app/instances/comp18.ctt",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/instances/comp18.ctt",
+      "git_blob": "df74558da94a1e94628991368028f70e0e4b184f",
+      "bytes": 17702,
+      "sha256": "af887ddc88e5a3b7b3e5298617e7e5b7f65cd6b069a0616fbf5723afa79d884d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/comp19.ctt",
+      "source_context_path": "app/instances/comp19.ctt",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/instances/comp19.ctt",
+      "git_blob": "0d4bf6c2f114a8a9e580936b87dac6837d5c3c91",
+      "bytes": 8644,
+      "sha256": "e09401452e8418b0eeda25d387e824f35c23ab97acc21fb5471e71bb3225266a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/comp20.ctt",
+      "source_context_path": "app/instances/comp20.ctt",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/instances/comp20.ctt",
+      "git_blob": "a67dafed2354ddc92678bf3002642384389532a2",
+      "bytes": 12746,
+      "sha256": "401a111aa480b5dab23291ee9c3cde702c6b5b4550d28671f16463c81aa11711",
+      "mode": "0644"
+    }
+  ]
+}

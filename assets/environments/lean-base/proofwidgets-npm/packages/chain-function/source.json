@@ -1,0 +1,43 @@
+{
+  "author": "jquense",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-SxltgMwL9uCko5/ZCLiyG2B7R9fY4pDZUw7hJ4MhirdjBLosoDqkWABi3XMucddHdLiFJMb7PD2MZifZriuMTg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/chain-function/-/chain-function-1.0.1.tgz",
+    "version": "1.0.1"
+  },
+  "lock_path": "node_modules/chain-function",
+  "name": "chain-function",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1079,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "c723853839d64f0681ef52105cffac0e096476f5c732e98914862207065d6e3c",
+      "text_file": "image-notices/c723853839d64f0681ef52105cffac0e096476f5c732e98914862207065d6e3c.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 1831,
+    "installed_in_image": false,
+    "integrity": "sha512-SxltgMwL9uCko5/ZCLiyG2B7R9fY4pDZUw7hJ4MhirdjBLosoDqkWABi3XMucddHdLiFJMb7PD2MZifZriuMTg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/chain-function/-/chain-function-1.0.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "262a285d45d673b18f571eaa2545ff44d2edb36e0534daa13746ffd6ac7f2772"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.0.1"
+}

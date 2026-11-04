@@ -1,0 +1,1114 @@
+{
+  "format": "official_files",
+  "description": "Download all 100 original official PACE 2025 post-contest private-track input archives from the fixed public upstream commit. Hidden means unavailable to model development, not permanently secret. Verify each unchanged plaintext instance against the frozen manifest.",
+  "source_commit": "e0bff608037db1f2b9eec7a7963e31b86663e1ed",
+  "sources": [
+    {
+      "id": "ds-private-private_heuristic_001.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_001.gr.tar.xz",
+      "bytes": 4598108,
+      "sha256": "b2de640e8da9a932299a84c27434b7e1c15f8946da07c84182f2a9c54a5b3ef3"
+    },
+    {
+      "id": "ds-private-private_heuristic_002.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_002.gr.tar.xz",
+      "bytes": 1063580,
+      "sha256": "737eab6080f746dd5da7d7570873c04f9c1dfd605bde616df591a92380ccc104"
+    },
+    {
+      "id": "ds-private-private_heuristic_003.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_003.gr.tar.xz",
+      "bytes": 610380,
+      "sha256": "55fe7963f8a051d66e1db1ba00b66afa7fe239159e00482b6ad9bfd12d9213a8"
+    },
+    {
+      "id": "ds-private-private_heuristic_004.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_004.gr.tar.xz",
+      "bytes": 11175232,
+      "sha256": "f46e3543b092f6c7e49a42b7c8fe55fad5bf8b93d6eb455a463ea4b1e2974a47"
+    },
+    {
+      "id": "ds-private-private_heuristic_005.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_005.gr.tar.xz",
+      "bytes": 1925700,
+      "sha256": "8caf4035f71fbb84983c443e5f5e5f83058e8021512a378257814fff2e92a9d0"
+    },
+    {
+      "id": "ds-private-private_heuristic_006.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_006.gr.tar.xz",
+      "bytes": 1382256,
+      "sha256": "4782203a9d1722fb51f4c3cd724dea8acbc2fb022f7bf54023c8717fbec22c96"
+    },
+    {
+      "id": "ds-private-private_heuristic_007.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_007.gr.tar.xz",
+      "bytes": 1077568,
+      "sha256": "c18d81ad54374e50745a74bf27e181f77850219bebdc3d14e2e8f2ce8afd1f32"
+    },
+    {
+      "id": "ds-private-private_heuristic_008.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_008.gr.tar.xz",
+      "bytes": 1595436,
+      "sha256": "f3ae5a294aed3795c6d3fb47e090a9374e458bfb4639cdc5f44c92471d3a6282"
+    },
+    {
+      "id": "ds-private-private_heuristic_009.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_009.gr.tar.xz",
+      "bytes": 1525828,
+      "sha256": "7dc1383d74346e47f61565136b90734ab50d3ce47f5c7d88cd884733820818d1"
+    },
+    {
+      "id": "ds-private-private_heuristic_010.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_010.gr.tar.xz",
+      "bytes": 1341528,
+      "sha256": "e63092a497369f628615aa38351a42c0d5768eaa04b4eba6d24dec86e38dd7ae"
+    },
+    {
+      "id": "ds-private-private_heuristic_011.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_011.gr.tar.xz",
+      "bytes": 3277996,
+      "sha256": "4f1c3d0d0ed51542c7021b50812d4cd658e28f4c2967b9705c76328bb67014d9"
+    },
+    {
+      "id": "ds-private-private_heuristic_012.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_012.gr.tar.xz",
+      "bytes": 7262356,
+      "sha256": "c6f06ecb4df70c59578658060e01a7f3fd689bcff12920759de2ba7401d5df86"
+    },
+    {
+      "id": "ds-private-private_heuristic_013.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_013.gr.tar.xz",
+      "bytes": 16906728,
+      "sha256": "2aafa2144408dca1220edc69d9581af1c652e2278347af3943b0d8f1a1061fd9"
+    },
+    {
+      "id": "ds-private-private_heuristic_014.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_014.gr.tar.xz",
+      "bytes": 5953104,
+      "sha256": "4d739e31f0ac6df6311b5715f4194a7ea278fc905c1f986951079745a71637f8"
+    },
+    {
+      "id": "ds-private-private_heuristic_015.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_015.gr.tar.xz",
+      "bytes": 17621380,
+      "sha256": "26fb57d219b78d84aa6e8f3162961b8dee31bad762fe4a0f16b4a62dc779fe2e"
+    },
+    {
+      "id": "ds-private-private_heuristic_016.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_016.gr.tar.xz",
+      "bytes": 6294008,
+      "sha256": "4f327fec42316f6f0fe395c27bfdf534d8da9f2f5a9f8fdb9a60621b159df324"
+    },
+    {
+      "id": "ds-private-private_heuristic_017.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_017.gr.tar.xz",
+      "bytes": 2044548,
+      "sha256": "266c2bbecdf33a2c99df32daf0a48f6c714741faa50f8a8662a4f01bae524e5c"
+    },
+    {
+      "id": "ds-private-private_heuristic_018.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_018.gr.tar.xz",
+      "bytes": 4296048,
+      "sha256": "ec921b42040713b71e2b70b0f44c75a58cf06915ec6e1732d69c31854f76a594"
+    },
+    {
+      "id": "ds-private-private_heuristic_019.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_019.gr.tar.xz",
+      "bytes": 15285872,
+      "sha256": "fffdbd423bb12f127d422f37a4a0798fa8566916a051e6806a3f148f613bfc5a"
+    },
+    {
+      "id": "ds-private-private_heuristic_020.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_020.gr.tar.xz",
+      "bytes": 11756432,
+      "sha256": "5be832a314e86b9f53dd37724fe5a85a77b52df4f469274a975f982c9f8c2b79"
+    },
+    {
+      "id": "ds-private-private_heuristic_021.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_021.gr.tar.xz",
+      "bytes": 20128936,
+      "sha256": "6b0249691791ee025a58667214dceb59c9ef99710e4af5e7caceba33595ae6e9"
+    },
+    {
+      "id": "ds-private-private_heuristic_022.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_022.gr.tar.xz",
+      "bytes": 5549852,
+      "sha256": "1f48183ab355caa3aaa61b7c13ee6c3ef1e160b2838e9b7717b6fa2426aed495"
+    },
+    {
+      "id": "ds-private-private_heuristic_023.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_023.gr.tar.xz",
+      "bytes": 1662896,
+      "sha256": "e3b5c4c44d5c9c213e295fce93affdf14dde99e5640494500f3ad63b57a8739d"
+    },
+    {
+      "id": "ds-private-private_heuristic_024.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_024.gr.tar.xz",
+      "bytes": 2538700,
+      "sha256": "1ceb55b2fd80402785b1e09b7211311b92728152ebed548b16993bda71329d37"
+    },
+    {
+      "id": "ds-private-private_heuristic_025.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_025.gr.tar.xz",
+      "bytes": 9930036,
+      "sha256": "065a724fe0c921b858327879bfca0e1f37d88e2400f3dceff6dd955a13d837f6"
+    },
+    {
+      "id": "ds-private-private_heuristic_026.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_026.gr.tar.xz",
+      "bytes": 10234068,
+      "sha256": "b5f29bdbbc30cfef92b59c78440b0f0d163129091b440b678e1383b99504a2e5"
+    },
+    {
+      "id": "ds-private-private_heuristic_027.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_027.gr.tar.xz",
+      "bytes": 6072596,
+      "sha256": "71b4fbd62a1a0ec48ef982ce4ecece27877087b5724b1e0e7b7b5031395379d9"
+    },
+    {
+      "id": "ds-private-private_heuristic_028.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_028.gr.tar.xz",
+      "bytes": 17325452,
+      "sha256": "f5bd586c3c7cc3d365d5b8e4d50d06603ae7fe700f4c8ba2df2328e20b0b2142"
+    },
+    {
+      "id": "ds-private-private_heuristic_029.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_029.gr.tar.xz",
+      "bytes": 3883068,
+      "sha256": "702a5e1fc0f5de59314ed520db4b4c5a333ebf631ff32dce8e70b7e5a07b9191"
+    },
+    {
+      "id": "ds-private-private_heuristic_030.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_030.gr.tar.xz",
+      "bytes": 9408104,
+      "sha256": "35c84c35d047cea502197811c7f944c6a1e9f92224f42030fcbc508b217f4f56"
+    },
+    {
+      "id": "ds-private-private_heuristic_031.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_031.gr.tar.xz",
+      "bytes": 5482208,
+      "sha256": "7917c4573c1479d842ff5a3fe85158d6bb20a0678293fb938db711e01c8fa33d"
+    },
+    {
+      "id": "ds-private-private_heuristic_032.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_032.gr.tar.xz",
+      "bytes": 23965028,
+      "sha256": "d10701be33bf6ee58554472ca31650943cbfe64502bcf56b0ac0af37eb7f04b1"
+    },
+    {
+      "id": "ds-private-private_heuristic_033.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_033.gr.tar.xz",
+      "bytes": 6488712,
+      "sha256": "01c0fd23ab65c9eac8d2c9784a36ce4e6b8b9f689328cfb6cbdcdc874aeb9bdd"
+    },
+    {
+      "id": "ds-private-private_heuristic_034.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_034.gr.tar.xz",
+      "bytes": 9605700,
+      "sha256": "21c705bb4d51bbfcd710e3831033f9b6a06da756b2215ab036af0af43100c731"
+    },
+    {
+      "id": "ds-private-private_heuristic_035.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_035.gr.tar.xz",
+      "bytes": 2122996,
+      "sha256": "c19affc75aee9872261c12a12d98a40e8393cb1514932880bc6d2c47c212413e"
+    },
+    {
+      "id": "ds-private-private_heuristic_036.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_036.gr.tar.xz",
+      "bytes": 14766136,
+      "sha256": "091b2341168718f8a77986351c2fe6fb5d98d6464dc3d6a79cc8967ea497dfeb"
+    },
+    {
+      "id": "ds-private-private_heuristic_037.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_037.gr.tar.xz",
+      "bytes": 1384616,
+      "sha256": "5ff12531a80f0646763e6b23895a8800581ea44f2a5b7fc24420f2936fa6e142"
+    },
+    {
+      "id": "ds-private-private_heuristic_038.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_038.gr.tar.xz",
+      "bytes": 1867856,
+      "sha256": "c88f772765053cade11f7280fded3b3cb320e69fb2ab7f03d9d66bcd2e8873a2"
+    },
+    {
+      "id": "ds-private-private_heuristic_039.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_039.gr.tar.xz",
+      "bytes": 7320216,
+      "sha256": "3b8d6fc33cda81acfa6b310f677621e7e24d98eb2ff40d8438f9930e9ac16615"
+    },
+    {
+      "id": "ds-private-private_heuristic_040.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_040.gr.tar.xz",
+      "bytes": 66152936,
+      "sha256": "02550ba88251837a9f973da81f3b7463bdcd8fdf34fff32138f224d0e698da2c"
+    },
+    {
+      "id": "ds-private-private_heuristic_041.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_041.gr.tar.xz",
+      "bytes": 1728440,
+      "sha256": "538a4e5580184572f1959f449aefabf55401d3238bb240355efbcff679c6cc37"
+    },
+    {
+      "id": "ds-private-private_heuristic_042.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_042.gr.tar.xz",
+      "bytes": 7701308,
+      "sha256": "aab1f6cc6b625f509db5d5a980aad05720dd926941ba71ac08b92591dfc070b8"
+    },
+    {
+      "id": "ds-private-private_heuristic_043.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_043.gr.tar.xz",
+      "bytes": 545868,
+      "sha256": "0a3699dcd0b767f5e3501c38ddfdd8b45b1dd018907f8b9f7b471dde98905170"
+    },
+    {
+      "id": "ds-private-private_heuristic_044.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_044.gr.tar.xz",
+      "bytes": 7717064,
+      "sha256": "045f537e8db1ec56e71e9d8e28d31abafb921a1e9317edc2cb5856bb97db5860"
+    },
+    {
+      "id": "ds-private-private_heuristic_045.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_045.gr.tar.xz",
+      "bytes": 36621848,
+      "sha256": "193dbbab10e7b0a90aa9c6d75e0532d0fed99f4baa2423980c8b04f829227a07"
+    },
+    {
+      "id": "ds-private-private_heuristic_046.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_046.gr.tar.xz",
+      "bytes": 747628,
+      "sha256": "6cdedc61c30f8ce90dad4cb32e16778035d8143d088b2fbb2b5c3cbe922db055"
+    },
+    {
+      "id": "ds-private-private_heuristic_047.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_047.gr.tar.xz",
+      "bytes": 1337512,
+      "sha256": "dae292487fa209a630a9269f3c3280ccb86508391ae4209c1c67dda9270ebb46"
+    },
+    {
+      "id": "ds-private-private_heuristic_048.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_048.gr.tar.xz",
+      "bytes": 1679032,
+      "sha256": "f7d4f36098e4a1be42f067ae2cfec051af43f17da292b9df1e3353579fc1cc29"
+    },
+    {
+      "id": "ds-private-private_heuristic_049.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_049.gr.tar.xz",
+      "bytes": 29887412,
+      "sha256": "4565aa28aa75eb8cc0670ca8aa7f68c37b91f30ff6339281b3f3131276f7315f"
+    },
+    {
+      "id": "ds-private-private_heuristic_050.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_050.gr.tar.xz",
+      "bytes": 15154832,
+      "sha256": "c56bbbafe72df81f58d54fafcfb14c006b4167937de865e4774562893fbb34f9"
+    },
+    {
+      "id": "ds-private-private_heuristic_051.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_051.gr.tar.xz",
+      "bytes": 21961224,
+      "sha256": "f43aa52fb12ae87e734d924e801afee962f96c7dec188b167983375a3c50c434"
+    },
+    {
+      "id": "ds-private-private_heuristic_052.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_052.gr.tar.xz",
+      "bytes": 5678308,
+      "sha256": "e411db217a865f5e1990db13629b383ee5d03e752e09e7d0955f26afd1f5d3ec"
+    },
+    {
+      "id": "ds-private-private_heuristic_053.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_053.gr.tar.xz",
+      "bytes": 7090968,
+      "sha256": "38309e527c61026353383d9fea05d3005a893021d84e43b2e60694d6845eed44"
+    },
+    {
+      "id": "ds-private-private_heuristic_054.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_054.gr.tar.xz",
+      "bytes": 22145252,
+      "sha256": "de47a8442dc8400825a26bf00360718c30bfd865b338bdb6b4c08e039b910a2f"
+    },
+    {
+      "id": "ds-private-private_heuristic_055.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_055.gr.tar.xz",
+      "bytes": 1541484,
+      "sha256": "e4159e2e9a672c7f1db8837a24568bd06ae7ba18490f0b67f9a4a5b70d946060"
+    },
+    {
+      "id": "ds-private-private_heuristic_056.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_056.gr.tar.xz",
+      "bytes": 6811576,
+      "sha256": "e3d3d7a96fc0ad0e637e2ba43267ceb13838be09bea9fb56ab9c018e1a1e4971"
+    },
+    {
+      "id": "ds-private-private_heuristic_057.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_057.gr.tar.xz",
+      "bytes": 5252644,
+      "sha256": "8f3da2fb8142919b6d5bb6c53be9635dc2784f01154aa40d5d5333f00618014c"
+    },
+    {
+      "id": "ds-private-private_heuristic_058.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_058.gr.tar.xz",
+      "bytes": 245440,
+      "sha256": "a83327912dbcb695a633643c3f5472bc69342e42b228906cba7e1f6843794c7c"
+    },
+    {
+      "id": "ds-private-private_heuristic_059.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_059.gr.tar.xz",
+      "bytes": 513676,
+      "sha256": "30e2b44fdb443643632292ab51581c7ad06f35f5209f9417c0def6a8c26c4f15"
+    },
+    {
+      "id": "ds-private-private_heuristic_060.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_060.gr.tar.xz",
+      "bytes": 9635092,
+      "sha256": "2ee0ada0ed58e362b5200083341f91fe63cef2df99830f9e50e36fcb413ad7ee"
+    },
+    {
+      "id": "ds-private-private_heuristic_061.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_061.gr.tar.xz",
+      "bytes": 1337044,
+      "sha256": "d2252c23e24b1774c45e1755440393de7680b5c73c771858994209648dba4dfd"
+    },
+    {
+      "id": "ds-private-private_heuristic_062.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_062.gr.tar.xz",
+      "bytes": 3534868,
+      "sha256": "84fca8036348e63d205ddfd9a45838a83a78ed5a74e6682878feee1c7bd9ee0e"
+    },
+    {
+      "id": "ds-private-private_heuristic_063.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_063.gr.tar.xz",
+      "bytes": 237712,
+      "sha256": "101978ac665d7d3759e0b95f712196b37eb36a5baa588e877cf425e5f68cdbb4"
+    },
+    {
+      "id": "ds-private-private_heuristic_064.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_064.gr.tar.xz",
+      "bytes": 2132988,
+      "sha256": "a6a0c1a17d00c735d480fcd95e2f922707fcbfab73b8525987cc6965302e7d0a"
+    },
+    {
+      "id": "ds-private-private_heuristic_065.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_065.gr.tar.xz",
+      "bytes": 8510780,
+      "sha256": "1414ca4122e479a789c196c943bbc3a13033de947d7bd6ac80573c3b474dcda8"
+    },
+    {
+      "id": "ds-private-private_heuristic_066.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_066.gr.tar.xz",
+      "bytes": 8174108,
+      "sha256": "1f5954f9f84e4a0a7b512b537d7f52145d08a838d49bd1c3cdf24e657962cd04"
+    },
+    {
+      "id": "ds-private-private_heuristic_067.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_067.gr.tar.xz",
+      "bytes": 9793472,
+      "sha256": "2bf75569f5f37b1f21a385201f83fd54ef7374bec65f928e7bb92c20d0638e54"
+    },
+    {
+      "id": "ds-private-private_heuristic_068.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_068.gr.tar.xz",
+      "bytes": 12667708,
+      "sha256": "d1234acfdfe4d4d7643e6efe519fcb0abdd844fca313ca19994c63b344041b28"
+    },
+    {
+      "id": "ds-private-private_heuristic_069.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_069.gr.tar.xz",
+      "bytes": 8612700,
+      "sha256": "7b279b39e8510552858dac3f943cdadb909f939d5c333282f3899c15e6ff7c23"
+    },
+    {
+      "id": "ds-private-private_heuristic_070.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_070.gr.tar.xz",
+      "bytes": 1595116,
+      "sha256": "6b03c8d0f66eadcb02b60a620fe60d535d9620dca43e1908ebf82575ee7bd496"
+    },
+    {
+      "id": "ds-private-private_heuristic_071.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_071.gr.tar.xz",
+      "bytes": 5489232,
+      "sha256": "1161692c59d19ec72b9dff545e65fd213e6d612ec85f1c570ee7f97a9bcdda59"
+    },
+    {
+      "id": "ds-private-private_heuristic_072.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_072.gr.tar.xz",
+      "bytes": 5008740,
+      "sha256": "2eb40e5568ef1fb29b8a04c2ab2ce9abd4a128cd7edbebc4eb4ebd6d205d0676"
+    },
+    {
+      "id": "ds-private-private_heuristic_073.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_073.gr.tar.xz",
+      "bytes": 9622744,
+      "sha256": "0935294ea841e007c3498b62d215bff89256e1a269f36941b269642d0f0ef2f0"
+    },
+    {
+      "id": "ds-private-private_heuristic_074.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_074.gr.tar.xz",
+      "bytes": 763036,
+      "sha256": "9866831e66f0d8a15feaddf593a8f1b7bf4097b1659e47a7eac59eac6b46118c"
+    },
+    {
+      "id": "ds-private-private_heuristic_075.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_075.gr.tar.xz",
+      "bytes": 14877856,
+      "sha256": "bf3e50d4bd1b80987cfb399fc973e3d99516178771d2ae5349ac98428d415abf"
+    },
+    {
+      "id": "ds-private-private_heuristic_076.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_076.gr.tar.xz",
+      "bytes": 12708632,
+      "sha256": "bd6fe8f20ed0524efdbbd76c4c61f048dde78e23b4ad694df41f994cba0e373e"
+    },
+    {
+      "id": "ds-private-private_heuristic_077.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_077.gr.tar.xz",
+      "bytes": 17085836,
+      "sha256": "4e85694967a9f76ac340527ef65778ee980433be5638aa5eff5d86dbac25b814"
+    },
+    {
+      "id": "ds-private-private_heuristic_078.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_078.gr.tar.xz",
+      "bytes": 5294268,
+      "sha256": "75b1f0dc8f08374f2ec7e59e0bee74a6d4bf2075e6c2d3338b4bfb37f4e697ce"
+    },
+    {
+      "id": "ds-private-private_heuristic_079.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_079.gr.tar.xz",
+      "bytes": 30651024,
+      "sha256": "754f7c81f6d2caed85e0cbc05b535247de9078bf9991f1910dd59169731aab81"
+    },
+    {
+      "id": "ds-private-private_heuristic_080.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_080.gr.tar.xz",
+      "bytes": 1834644,
+      "sha256": "e2bc5befdc99ff6b40e6dfbad9833719838a14e588a53a44ec8632d7904dbd21"
+    },
+    {
+      "id": "ds-private-private_heuristic_081.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_081.gr.tar.xz",
+      "bytes": 1291116,
+      "sha256": "2e32e28c6d4a0de7c69c21514517ef25ccc453c88f51abc8016aca578f8c3344"
+    },
+    {
+      "id": "ds-private-private_heuristic_082.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_082.gr.tar.xz",
+      "bytes": 5287832,
+      "sha256": "1050a4d50a0713a7c7d44d76e5c9511fd85b3225608f75691c33438fc3b7b244"
+    },
+    {
+      "id": "ds-private-private_heuristic_083.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_083.gr.tar.xz",
+      "bytes": 13368276,
+      "sha256": "f3ea5d0be299c643c04aa059f5573403a173e33a122637b94c64b2c6f6b474e2"
+    },
+    {
+      "id": "ds-private-private_heuristic_084.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_084.gr.tar.xz",
+      "bytes": 27532340,
+      "sha256": "44be9e686ed8ac850f1169717c11aed3568d96fbbe4c3ad4144ac2de88593a16"
+    },
+    {
+      "id": "ds-private-private_heuristic_085.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_085.gr.tar.xz",
+      "bytes": 8826900,
+      "sha256": "03ce53babe45c3f6acad12bb88c81e0c35a0fd2618d362f65e957f4ff4215fbe"
+    },
+    {
+      "id": "ds-private-private_heuristic_086.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_086.gr.tar.xz",
+      "bytes": 3103664,
+      "sha256": "45b9acbb4dba8e23d6941d84d86160f43e3ecad5ac1dd24750a86b13a75a17e9"
+    },
+    {
+      "id": "ds-private-private_heuristic_087.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_087.gr.tar.xz",
+      "bytes": 1147320,
+      "sha256": "d1806ea9f66e61d889ea84fdfed55aa5400af10bfbd72f35fdd2c18afd22d1c5"
+    },
+    {
+      "id": "ds-private-private_heuristic_088.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_088.gr.tar.xz",
+      "bytes": 22768792,
+      "sha256": "87782dda5adcbd1f7aa59c8ab8956ef9251f9ec63ee43b469485c675e6fd23bb"
+    },
+    {
+      "id": "ds-private-private_heuristic_089.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_089.gr.tar.xz",
+      "bytes": 5107744,
+      "sha256": "addd05e829c154e7bbfba9c3462ca01782ad07c74851286c70eac90b56cbbed3"
+    },
+    {
+      "id": "ds-private-private_heuristic_090.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_090.gr.tar.xz",
+      "bytes": 20316828,
+      "sha256": "b487634cc5f7529c0a79669eb18f582344fc37da221ab4e6089b1bc2ac3121b0"
+    },
+    {
+      "id": "ds-private-private_heuristic_091.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_091.gr.tar.xz",
+      "bytes": 3514432,
+      "sha256": "ebb5fc6d50be06bdc2bf3accb70cbc4863c1769f7fe981046ee2b7c5bfe46411"
+    },
+    {
+      "id": "ds-private-private_heuristic_092.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_092.gr.tar.xz",
+      "bytes": 8124652,
+      "sha256": "ba397b8e9d5a96446e645ea30b5ad08f6da10fdd83defbe58f4c14a347f8c28d"
+    },
+    {
+      "id": "ds-private-private_heuristic_093.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_093.gr.tar.xz",
+      "bytes": 687364,
+      "sha256": "d88df4c4644409df3e24f95eaa47d539eed725ee20b55b5ca7c3b4f516fb9432"
+    },
+    {
+      "id": "ds-private-private_heuristic_094.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_094.gr.tar.xz",
+      "bytes": 500052,
+      "sha256": "7efaa0cdad512cd93f3f6b53811bec75847271cdf20a60d887381252602cae88"
+    },
+    {
+      "id": "ds-private-private_heuristic_095.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_095.gr.tar.xz",
+      "bytes": 1035524,
+      "sha256": "cb716363c1de9b669bbe84d4819ae9f2810a56c3c743f32c4cf3f322bbcb95ba"
+    },
+    {
+      "id": "ds-private-private_heuristic_096.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_096.gr.tar.xz",
+      "bytes": 3119696,
+      "sha256": "daa584f2636203ba314a1671b1531fba03c986a53e08595227761f9e890ef4fb"
+    },
+    {
+      "id": "ds-private-private_heuristic_097.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_097.gr.tar.xz",
+      "bytes": 1350476,
+      "sha256": "47cad90c5697a7f5b307577db62c41341c3fefb1e64e31d5166941c15ffdb70c"
+    },
+    {
+      "id": "ds-private-private_heuristic_098.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_098.gr.tar.xz",
+      "bytes": 824192,
+      "sha256": "eb0ee4bef7c041fde64c4252cee8dd0d41becfccf8248286009e1b216ebcb565"
+    },
+    {
+      "id": "ds-private-private_heuristic_099.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_099.gr.tar.xz",
+      "bytes": 10105164,
+      "sha256": "5035d9e14732fa6ee870e2c238a925f9b3b4807fd50641c2d8a94b7f07a0d59e"
+    },
+    {
+      "id": "ds-private-private_heuristic_100.gr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/ds/heuristic/private_heuristic_100.gr.tar.xz",
+      "bytes": 11684552,
+      "sha256": "be06cd76e577801655464675a9da4ab40702a6ff4bddad7fb3ae05315029d638"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tests/instances/private_heuristic_001.gr",
+      "source_id": "ds-private-private_heuristic_001.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_002.gr",
+      "source_id": "ds-private-private_heuristic_002.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_003.gr",
+      "source_id": "ds-private-private_heuristic_003.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_004.gr",
+      "source_id": "ds-private-private_heuristic_004.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_005.gr",
+      "source_id": "ds-private-private_heuristic_005.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_006.gr",
+      "source_id": "ds-private-private_heuristic_006.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_007.gr",
+      "source_id": "ds-private-private_heuristic_007.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_008.gr",
+      "source_id": "ds-private-private_heuristic_008.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_009.gr",
+      "source_id": "ds-private-private_heuristic_009.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_010.gr",
+      "source_id": "ds-private-private_heuristic_010.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_011.gr",
+      "source_id": "ds-private-private_heuristic_011.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_012.gr",
+      "source_id": "ds-private-private_heuristic_012.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_013.gr",
+      "source_id": "ds-private-private_heuristic_013.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_014.gr",
+      "source_id": "ds-private-private_heuristic_014.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_015.gr",
+      "source_id": "ds-private-private_heuristic_015.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_016.gr",
+      "source_id": "ds-private-private_heuristic_016.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_017.gr",
+      "source_id": "ds-private-private_heuristic_017.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_018.gr",
+      "source_id": "ds-private-private_heuristic_018.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_019.gr",
+      "source_id": "ds-private-private_heuristic_019.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_020.gr",
+      "source_id": "ds-private-private_heuristic_020.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_021.gr",
+      "source_id": "ds-private-private_heuristic_021.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_022.gr",
+      "source_id": "ds-private-private_heuristic_022.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_023.gr",
+      "source_id": "ds-private-private_heuristic_023.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_024.gr",
+      "source_id": "ds-private-private_heuristic_024.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_025.gr",
+      "source_id": "ds-private-private_heuristic_025.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_026.gr",
+      "source_id": "ds-private-private_heuristic_026.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_027.gr",
+      "source_id": "ds-private-private_heuristic_027.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_028.gr",
+      "source_id": "ds-private-private_heuristic_028.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_029.gr",
+      "source_id": "ds-private-private_heuristic_029.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_030.gr",
+      "source_id": "ds-private-private_heuristic_030.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_031.gr",
+      "source_id": "ds-private-private_heuristic_031.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_032.gr",
+      "source_id": "ds-private-private_heuristic_032.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_033.gr",
+      "source_id": "ds-private-private_heuristic_033.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_034.gr",
+      "source_id": "ds-private-private_heuristic_034.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_035.gr",
+      "source_id": "ds-private-private_heuristic_035.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_036.gr",
+      "source_id": "ds-private-private_heuristic_036.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_037.gr",
+      "source_id": "ds-private-private_heuristic_037.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_038.gr",
+      "source_id": "ds-private-private_heuristic_038.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_039.gr",
+      "source_id": "ds-private-private_heuristic_039.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_040.gr",
+      "source_id": "ds-private-private_heuristic_040.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_041.gr",
+      "source_id": "ds-private-private_heuristic_041.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_042.gr",
+      "source_id": "ds-private-private_heuristic_042.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_043.gr",
+      "source_id": "ds-private-private_heuristic_043.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_044.gr",
+      "source_id": "ds-private-private_heuristic_044.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_045.gr",
+      "source_id": "ds-private-private_heuristic_045.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_046.gr",
+      "source_id": "ds-private-private_heuristic_046.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_047.gr",
+      "source_id": "ds-private-private_heuristic_047.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_048.gr",
+      "source_id": "ds-private-private_heuristic_048.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_049.gr",
+      "source_id": "ds-private-private_heuristic_049.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_050.gr",
+      "source_id": "ds-private-private_heuristic_050.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_051.gr",
+      "source_id": "ds-private-private_heuristic_051.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_052.gr",
+      "source_id": "ds-private-private_heuristic_052.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_053.gr",
+      "source_id": "ds-private-private_heuristic_053.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_054.gr",
+      "source_id": "ds-private-private_heuristic_054.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_055.gr",
+      "source_id": "ds-private-private_heuristic_055.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_056.gr",
+      "source_id": "ds-private-private_heuristic_056.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_057.gr",
+      "source_id": "ds-private-private_heuristic_057.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_058.gr",
+      "source_id": "ds-private-private_heuristic_058.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_059.gr",
+      "source_id": "ds-private-private_heuristic_059.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_060.gr",
+      "source_id": "ds-private-private_heuristic_060.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_061.gr",
+      "source_id": "ds-private-private_heuristic_061.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_062.gr",
+      "source_id": "ds-private-private_heuristic_062.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_063.gr",
+      "source_id": "ds-private-private_heuristic_063.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_064.gr",
+      "source_id": "ds-private-private_heuristic_064.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_065.gr",
+      "source_id": "ds-private-private_heuristic_065.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_066.gr",
+      "source_id": "ds-private-private_heuristic_066.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_067.gr",
+      "source_id": "ds-private-private_heuristic_067.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_068.gr",
+      "source_id": "ds-private-private_heuristic_068.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_069.gr",
+      "source_id": "ds-private-private_heuristic_069.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_070.gr",
+      "source_id": "ds-private-private_heuristic_070.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_071.gr",
+      "source_id": "ds-private-private_heuristic_071.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_072.gr",
+      "source_id": "ds-private-private_heuristic_072.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_073.gr",
+      "source_id": "ds-private-private_heuristic_073.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_074.gr",
+      "source_id": "ds-private-private_heuristic_074.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_075.gr",
+      "source_id": "ds-private-private_heuristic_075.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_076.gr",
+      "source_id": "ds-private-private_heuristic_076.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_077.gr",
+      "source_id": "ds-private-private_heuristic_077.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_078.gr",
+      "source_id": "ds-private-private_heuristic_078.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_079.gr",
+      "source_id": "ds-private-private_heuristic_079.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_080.gr",
+      "source_id": "ds-private-private_heuristic_080.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_081.gr",
+      "source_id": "ds-private-private_heuristic_081.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_082.gr",
+      "source_id": "ds-private-private_heuristic_082.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_083.gr",
+      "source_id": "ds-private-private_heuristic_083.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_084.gr",
+      "source_id": "ds-private-private_heuristic_084.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_085.gr",
+      "source_id": "ds-private-private_heuristic_085.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_086.gr",
+      "source_id": "ds-private-private_heuristic_086.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_087.gr",
+      "source_id": "ds-private-private_heuristic_087.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_088.gr",
+      "source_id": "ds-private-private_heuristic_088.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_089.gr",
+      "source_id": "ds-private-private_heuristic_089.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_090.gr",
+      "source_id": "ds-private-private_heuristic_090.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_091.gr",
+      "source_id": "ds-private-private_heuristic_091.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_092.gr",
+      "source_id": "ds-private-private_heuristic_092.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_093.gr",
+      "source_id": "ds-private-private_heuristic_093.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_094.gr",
+      "source_id": "ds-private-private_heuristic_094.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_095.gr",
+      "source_id": "ds-private-private_heuristic_095.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_096.gr",
+      "source_id": "ds-private-private_heuristic_096.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_097.gr",
+      "source_id": "ds-private-private_heuristic_097.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_098.gr",
+      "source_id": "ds-private-private_heuristic_098.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_099.gr",
+      "source_id": "ds-private-private_heuristic_099.gr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_100.gr",
+      "source_id": "ds-private-private_heuristic_100.gr",
+      "operation": "tar_single_file"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false
+}

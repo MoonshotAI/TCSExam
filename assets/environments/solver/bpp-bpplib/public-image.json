@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "task": "tasks/solver/online/bpp-bpplib",
+  "remove_paths": ["/tests"],
+  "allow_content_paths": [
+    "/tests-public",
+    "/judge",
+    "/opt/bpp/scoring.py"
+  ],
+  "required_paths": [
+    "/judge/entry.sh",
+    "/judge/judge_worker.py",
+    "/tests-public/checker.py",
+    "/tests-public/reference.json",
+    "/tests-public/instances",
+    "/opt/bpp/scoring.py"
+  ]
+}

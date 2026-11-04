@@ -1,0 +1,24 @@
+QBF data distribution source
+
+Mark Peyrer, Maximilian Heisinger and Martina Seidl (2026).
+Artifact for ParaProofa: A Certifying Parallel Cube-and-Conquer QBF-Solving
+Framework, v1. https://doi.org/10.5281/zenodo.18832723.
+The dataset record uses CC BY 4.0. Retain its creators, title, permanent
+link and license. Original QBF family contributors remain credited in
+qbf-original-source-review.json.
+
+Three selected BMC instances retain the University of Toronto 2007
+noncommercial education/research permission and disclaimer in
+QBF-BMC-Toronto-research.txt; the general dataset record does not remove
+these known original conditions.
+
+Changes to 57 selected inputs: block-preserving variable bijections,
+literal/clause reordering and comment removal. The original source and
+output hashes are recorded in qbf-data-distribution-source.json. Original
+notices must accompany the transformed files. No mathematical statement,
+instance membership, solver, checker, score or reference value changed
+in this documentation work.
+
+The source archive's root MIT notice covers its software/documentation;
+it is retained separately. No grant for unrelated programs in that
+archive is inferred from the dataset's CC BY label.

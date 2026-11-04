@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "task_id": "vc-pace2019",
+  "product_id": "backend-public-online-vc-pace2019",
+  "licenses_and_sources": {
+    "project_license": "/licenses/TCSExam-LICENSE",
+    "project_notice": "/licenses/TCSExam-NOTICE",
+    "public_data_license": "/licenses/CC-BY-4.0.txt",
+    "public_data_notice": "/licenses/PACE2019-VC-NOTICE.txt",
+    "validator_source": "/opt/vc/corresponding-source/vc_validate.cpp",
+    "validator_license": "/opt/vc/corresponding-source/LICENSE-vc_validate",
+    "validator_build_instructions": "/opt/vc/BUILD-vc_validate.md",
+    "system_source_manifest": "/usr/share/tcsexam/source-packages/manifest.json",
+    "system_source_instructions": "/usr/share/tcsexam/source-packages/README.md"
+  },
+  "checker_rebuild": {
+    "source_record": {
+      "schema_version": 1,
+      "component": "vc_validate",
+      "license": "GPL-3.0",
+      "upstream": "https://github.com/hmarkus/vc_validate",
+      "upstream_path": "cpp/vc_validate.cpp",
+      "reviewed_commit": "8b6a8cd6dfe5d98b5ddba8b2049423c81576326d",
+      "source_url": "https://raw.githubusercontent.com/hmarkus/vc_validate/8b6a8cd6dfe5d98b5ddba8b2049423c81576326d/cpp/vc_validate.cpp",
+      "source_sha256": "a728ea6a3ca2bbc8a8b0f367c1485759d799724e22da615117a1fc04d8e7856a",
+      "license_sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "source_modified_for_release": false,
+      "build": {
+        "script": "build-vc_validate.sh",
+        "toolchain": "docker.io/library/gcc@sha256:b99b86a28812b1e6453a231a947dc43d76fe192788a12f344a9b568bf9f5d24c",
+        "platform": "linux/amd64",
+        "compiler_reported": "g++ (GCC) 14.2.0",
+        "arguments": [
+          "g++",
+          "-std=c++11",
+          "-O3",
+          "-o",
+          "/out/vc_validate",
+          "/src/vc_validate.cpp"
+        ],
+        "original_binary_sha256": "dbeb592aed921967305a9de012d88eddce4e98ff1acca4cb4fa2b9b057a9ed3a",
+        "rebuilt_binary_sha256": "9b8d648791cbe238a0dbececfeadefbbb3122f989fd690fb8a62e48d37f5d356",
+        "original_binary_retained": true,
+        "byte_identical": false
+      }
+    },
+    "build_script_executed": true,
+    "build_script_reproduced_rebuilt_binary_sha256": "9b8d648791cbe238a0dbececfeadefbbb3122f989fd690fb8a62e48d37f5d356",
+    "original_binary_retained": true,
+    "binary_bytes_replaced": false,
+    "behavior_scope": "Exact process results for 100 public instances with valid, uncovered-edge invalid, and wrong-header inputs, plus complete public scoring documents with only elapsed seconds normalized.",
+    "global_or_formal_equivalence_claimed": false
+  },
+  "system_dependencies": {
+    "manifest": "tasks/solver/online/vc-pace2019/tests/public-release/system-dependencies.json",
+    "installed_debian_binary_packages": 151,
+    "copyright_files_present": 151,
+    "exact_debian_source_versions": 86,
+    "debian_source_files": 278,
+    "python_and_pip_source_files": 2,
+    "total_source_files": 280,
+    "total_source_bytes": 569249871,
+    "full_source_archives_included": true,
+    "all_dsc_checksums_verified": true,
+    "dsc_openpgp_independently_verified": false,
+    "complete": true
+  },
+  "scope": "License and corresponding-source requirements for the public vertex-cover self-test judge. Hidden data and other image products retain their own distribution decisions."
+}

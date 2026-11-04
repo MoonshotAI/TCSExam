@@ -1,0 +1,53 @@
+{
+  "author": {
+    "email": "sindresorhus@gmail.com",
+    "name": "Sindre Sorhus",
+    "url": "https://sindresorhus.com"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": ">=12"
+    },
+    "funding": {
+      "url": "https://github.com/chalk/ansi-regex?sponsor=1"
+    },
+    "integrity": "sha512-Bq3SmSpyFHaWjPk8If9yc6svM8c56dB5BAtW4Qbw5jHTwwXXcTLoRMkpDJp6VL0XzlWaCHTXrkFURMYmD0sLqg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.2.2.tgz",
+    "version": "6.2.2"
+  },
+  "lock_path": "node_modules/ansi-regex",
+  "name": "ansi-regex",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1117,
+      "installed_file": "notices/original/package/license",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "text_file": "image-notices/5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 2880,
+    "installed_in_image": false,
+    "integrity": "sha512-Bq3SmSpyFHaWjPk8If9yc6svM8c56dB5BAtW4Qbw5jHTwwXXcTLoRMkpDJp6VL0XzlWaCHTXrkFURMYmD0sLqg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.2.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "e746bb8f5dd8805dc40c399b91a4a232db7d9f93fe2d83b771a9cace7b5231d7"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "6.2.2"
+}

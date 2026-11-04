@@ -1,0 +1,53 @@
+{
+  "author": {
+    "email": "kevinmartensson@gmail.com",
+    "name": "Kevin M\u00e5rtensson",
+    "url": "github.com/kevva"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "shebang-regex": "^3.0.0"
+    },
+    "engines": {
+      "node": ">=8"
+    },
+    "integrity": "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz",
+    "version": "2.0.0"
+  },
+  "lock_path": "node_modules/shebang-command",
+  "name": "shebang-command",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1116,
+      "installed_file": "notices/original/package/license",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/license",
+      "sha256": "69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3",
+      "text_file": "image-notices/69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 1506,
+    "installed_in_image": false,
+    "integrity": "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "9acba5bd18a51e9cdf5898380e4df63f803e1844def64ae1a46f88cff86d556e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.0.0"
+}

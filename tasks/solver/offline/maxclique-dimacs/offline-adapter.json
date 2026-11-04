@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/maxclique-dimacs",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/maxclique-dimacs/tests/checker.py",
+      "target": "tasks/solver/offline/maxclique-dimacs/tests/checker.py",
+      "sha256": "5e736477f8d521d0fea48e801c50e68b165e1c54104be1fa354b0eda5fa1b36b"
+    },
+    {
+      "source": "tasks/solver/online/maxclique-dimacs/tests/reference.json",
+      "target": "tasks/solver/offline/maxclique-dimacs/tests/reference.json",
+      "sha256": "408cb8ed99a08680259eb45e399c71ebb6c6d3030c5f6655931556bad702750c"
+    },
+    {
+      "source": "tasks/solver/online/maxclique-dimacs/tests/anchors.json",
+      "target": "tasks/solver/offline/maxclique-dimacs/tests/anchors.json",
+      "sha256": "d00b3c9d42e426cf2aa34e052687951e0b89e74ea86561e7afb900354b77f539"
+    },
+    {
+      "source": "tasks/solver/online/maxclique-dimacs/tests/metric_config.json",
+      "target": "tasks/solver/offline/maxclique-dimacs/tests/metric_config.json",
+      "sha256": "a3c087be6b5791673fcd370d924b3475d84234422d6681dc5030696ebe63ace4"
+    }
+  ],
+  "development_dependency": "dev-online-maxclique-dimacs",
+  "verifier_dependency": "backend-online-maxclique-dimacs",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

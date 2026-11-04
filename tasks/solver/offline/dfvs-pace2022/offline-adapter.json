@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/dfvs-pace2022",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/dfvs-pace2022/tests/checker.py",
+      "target": "tasks/solver/offline/dfvs-pace2022/tests/checker.py",
+      "sha256": "72beaaf8301758ca3295c07dc35ddd0b10eae78d9c524af56950e738a2dce1ba"
+    },
+    {
+      "source": "tasks/solver/online/dfvs-pace2022/tests/reference.json",
+      "target": "tasks/solver/offline/dfvs-pace2022/tests/reference.json",
+      "sha256": "1d7bde54ac9b65e95bd2602b4c9dd90811eeb4a131babca1ffe7723060c24064"
+    },
+    {
+      "source": "tasks/solver/online/dfvs-pace2022/tests/anchors.json",
+      "target": "tasks/solver/offline/dfvs-pace2022/tests/anchors.json",
+      "sha256": "2ecbd6a511f04924f35fae10d7b871eab7d4aafaf4544423d433339ac8344558"
+    },
+    {
+      "source": "tasks/solver/online/dfvs-pace2022/tests/metric_config.json",
+      "target": "tasks/solver/offline/dfvs-pace2022/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-dfvs-pace2022",
+  "verifier_dependency": "backend-online-dfvs-pace2022",
+  "verifier_tool_dependency": "solver-dfvs-pace2022-development-tools",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

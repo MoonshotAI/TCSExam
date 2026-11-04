@@ -1,0 +1,73 @@
+{
+  "description": "Download the fixed NumPy 2.2.6 CPython 3.12 manylinux wheel from the official PyPI file URL. Validate every wheel file against its RECORD, retain the wheel byte-for-byte as the only payload output with mode 0644, and verify the four reviewed upstream notice members against the staged license copies. Bundled-dependency licensing and corresponding-source obligations have not been completely reviewed, so the product is local-preparation-only and public upload is forbidden.",
+  "archive_format": "wheel",
+  "source": {
+    "id": "numpy-2.2.6-cp312-manylinux2014-x86-64-wheel",
+    "url": "https://files.pythonhosted.org/packages/8c/3d/1e1db36cfd41f895d266b103df00ca5b3cbe965184df824dec5c08c6b803/numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 16527618,
+    "sha256": "fd83c01228a688733f1ded5201c678f0c53ecc1006ffbc404db9f7a899ac6249"
+  },
+  "generator_paths": [
+    "src/tcsexam/oscm_pace2024_tools.py"
+  ],
+  "wheel": {
+    "filename": "numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "record_member": "numpy-2.2.6.dist-info/RECORD",
+    "record_bytes": 81729,
+    "record_sha256": "5eecf4a4205999a329c70c5003c419d03212a394f01cd75ef719539f0675357a",
+    "file_members": 876,
+    "notice_members": [
+      {
+        "member": "numpy-2.2.6.dist-info/LICENSE.txt",
+        "path": "docs/licenses/third-party/NumPy-2.2.6-LICENSE.txt",
+        "bytes": 47755,
+        "sha256": "c002bd26de7dc7aa464250a0de063d58fe55974452e4389e5c21c350a820bf06"
+      },
+      {
+        "member": "numpy/ma/LICENSE",
+        "path": "docs/licenses/third-party/NumPy-2.2.6-MA-LICENSE.txt",
+        "bytes": 1593,
+        "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6"
+      },
+      {
+        "member": "numpy/random/LICENSE.md",
+        "path": "docs/licenses/third-party/NumPy-2.2.6-RANDOM-LICENSE.md",
+        "bytes": 3511,
+        "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f"
+      },
+      {
+        "member": "numpy/_core/include/numpy/random/LICENSE.txt",
+        "path": "docs/licenses/third-party/NumPy-2.2.6-RANDOM-C-LICENSE.txt",
+        "bytes": 1018,
+        "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec"
+      }
+    ]
+  },
+  "license_files": [
+    {
+      "path": "docs/licenses/third-party/NumPy-2.2.6-LICENSE.txt",
+      "bytes": 47755,
+      "sha256": "c002bd26de7dc7aa464250a0de063d58fe55974452e4389e5c21c350a820bf06"
+    },
+    {
+      "path": "docs/licenses/third-party/NumPy-2.2.6-MA-LICENSE.txt",
+      "bytes": 1593,
+      "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6"
+    },
+    {
+      "path": "docs/licenses/third-party/NumPy-2.2.6-RANDOM-LICENSE.md",
+      "bytes": 3511,
+      "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f"
+    },
+    {
+      "path": "docs/licenses/third-party/NumPy-2.2.6-RANDOM-C-LICENSE.txt",
+      "bytes": 1018,
+      "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec"
+    }
+  ],
+  "build": {
+    "builder_image": "ubuntu:22.04@sha256:0a9887931b0e38af2e3487ed39e29436b0535c4f3f52e57745baaf79d1898956",
+    "cwd": ".",
+    "download_timeout_sec": 300
+  }
+}

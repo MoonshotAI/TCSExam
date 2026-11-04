@@ -1,0 +1,48 @@
+{
+  "author": "",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "ISC",
+  "lock_entry": {
+    "dependencies": {
+      "@lit/react": "^1.0.6",
+      "@vscode-elements/elements": "~1.7.0",
+      "react": "~18.0.0"
+    },
+    "integrity": "sha512-+H1aKuD7uID8Dc/YiQCQUFtGcWxCX+rWH9EIcQTUB1Gj8SfQrwN4Cd46BqQbwJAwtYJkOMl9i+Urfc5mkw8HWw==",
+    "license": "ISC",
+    "resolved": "https://registry.npmjs.org/@vscode-elements/react-elements/-/react-elements-0.5.0.tgz",
+    "version": "0.5.0"
+  },
+  "lock_path": "node_modules/@vscode-elements/react-elements",
+  "name": "@vscode-elements/react-elements",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1067,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "1507484960205015d7f58d3b8b5511a8e16ea115ebf51a6c3feb4a507b4120c7",
+      "text_file": "image-notices/1507484960205015d7f58d3b8b5511a8e16ea115ebf51a6c3feb4a507b4120c7.txt"
+    }
+  ],
+  "package_license": "ISC",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 5169,
+    "installed_in_image": false,
+    "integrity": "sha512-+H1aKuD7uID8Dc/YiQCQUFtGcWxCX+rWH9EIcQTUB1Gj8SfQrwN4Cd46BqQbwJAwtYJkOMl9i+Urfc5mkw8HWw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@vscode-elements/react-elements/-/react-elements-0.5.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "5252b62902813bf5c4b136379420ca85dc76dedba9c7609d67a23fcd0a8dff9d"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.5.0"
+}

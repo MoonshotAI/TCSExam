@@ -1,0 +1,43 @@
+{
+  "author": "Tim Radvan <tim@tjvr.org>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BSD-3-Clause",
+  "lock_entry": {
+    "integrity": "sha512-iSAJLHYKnX41mKcJKjqvnAN9sf0LMDTXDEvFv+ffuRR9a1MIuXLjMNL6EsnDHSkKLTWNqQQ5uo61P4EbU4NU+Q==",
+    "license": "BSD-3-Clause",
+    "resolved": "https://registry.npmjs.org/moo/-/moo-0.5.2.tgz",
+    "version": "0.5.2"
+  },
+  "lock_path": "node_modules/moo",
+  "name": "moo",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1517,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "db0b57e1acff55e7283e4de70069ef7c92524ce055bebb9a9795ebb9e97e6cb1",
+      "text_file": "image-notices/db0b57e1acff55e7283e4de70069ef7c92524ce055bebb9a9795ebb9e97e6cb1.txt"
+    }
+  ],
+  "package_license": "BSD-3-Clause",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 11083,
+    "installed_in_image": false,
+    "integrity": "sha512-iSAJLHYKnX41mKcJKjqvnAN9sf0LMDTXDEvFv+ffuRR9a1MIuXLjMNL6EsnDHSkKLTWNqQQ5uo61P4EbU4NU+Q==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/moo/-/moo-0.5.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "cfff9fab6985b432160463caf83161b5294420673c50d5b20d163b8a17b5119e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.5.2"
+}

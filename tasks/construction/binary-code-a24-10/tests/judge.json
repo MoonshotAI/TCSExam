@@ -1,0 +1,64 @@
+{
+ "task": "binary-code-a24-10-lean-open",
+ "fixed_end_mark": "-- END OF FIXED PART",
+ "min_n": 1,
+ "max_n": 16777216,
+ "compile_timeout_sec": 1200,
+ "allowed_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "forbidden_tokens": [
+  "axiom",
+  "sorryAx",
+  "notation",
+  "macro",
+  "macro_rules",
+  "syntax",
+  "elab",
+  "elab_rules",
+  "opaque",
+  "unsafe",
+  "extern",
+  "implemented_by",
+  "initialize",
+  "skipKernelTC"
+ ],
+ "claims": [
+  {
+   "name": "submission_construction",
+   "direction": "construction",
+   "header_pattern": ":\\s*∃\\s*S\\s*:\\s*Finset\\s*\\(Fin\\s*24\\s*→\\s*Fin\\s*2\\)\\s*,\\s*MinDist10\\s*S\\s*∧\\s*(\\d+)\\s*≤\\s*S\\.card"
+  },
+  {
+   "name": "submission_upper",
+   "direction": "upper",
+   "header_pattern": ":\\s*∀\\s*S\\s*:\\s*Finset\\s*\\(Fin\\s*24\\s*→\\s*Fin\\s*2\\)\\s*,\\s*MinDist10\\s*S\\s*→\\s*S\\.card\\s*≤\\s*(\\d+)"
+  }
+ ],
+ "statement_templates": {
+  "construction": "∃ S : Finset (Fin 24 → Fin 2), MinDist10 S ∧ {k} ≤ S.card",
+  "upper": "∀ S : Finset (Fin 24 → Fin 2), MinDist10 S → S.card ≤ {k}"
+ },
+ "scoring": {
+  "construction": {
+   "trivial_m": 2,
+   "record_m": 136,
+   "record_broken": "m >= 137",
+   "proven_upper_bound_m": 268
+  },
+  "upper": {
+   "baseline_k": 1295,
+   "record_k": 268,
+   "record_broken": "k <= 267",
+   "proven_lower_bound_k": 136
+  }
+ },
+ "notes": {
+  "construction": "reward = 0 for m <= 2 (trivial repetition-code baseline); ((m - 2) / 134)^3 otherwise; m = 136 -> 1.0 (record matched, Laaksonen–Östergård 2016); m >= 137 -> record_broken, scores above 1 not capped; m > 268 contradicts the published semidefinite-programming upper bound (Gijswijt–Mittelmann–Schrijver 2012) and is flagged for human review",
+  "upper": "reward = 0 for k >= 1295 (trivial sphere-packing bound floor(2^24 / 12951), radius-4 Hamming balls of size 1+24+276+2024+10626 are disjoint); ((1295 - k) / 1027)^3 otherwise; k = 268 -> 1.0 (record matched, Gijswijt–Mittelmann–Schrijver 2012); k <= 267 -> record_broken, scores above 1 not capped; k < 136 contradicts the published record construction (Laaksonen–Östergård 2016) and is flagged for human review"
+ }
+}

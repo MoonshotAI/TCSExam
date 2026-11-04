@@ -1,0 +1,332 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/ex003.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex003.dat",
+      "git_blob": "e37f23d18fdba65ad0f7361e6a5b9bda9e8c3fe5",
+      "bytes": 4055,
+      "sha256": "f63120dc4b69e09aa5f3891aa2bb5bd66b9df5b2fc3181ba0478ab6a5635cbe1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex007.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex007.dat",
+      "git_blob": "0c7027a2e856acfb9ecbd0ae8a7001b8dc11e805",
+      "bytes": 4165,
+      "sha256": "42e18e8c4bd88452f123587a5bfa9ee6d8535f431ee6683927f233e754237d0c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex010.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex010.dat",
+      "git_blob": "b841501f00c15fefb179359bcd3353525b256c35",
+      "bytes": 771,
+      "sha256": "6cf158d206c1f382ef13a764216cc9e297696d2197fda397fac8c0209eae82e9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex014.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex014.dat",
+      "git_blob": "10ab4bf2d759c6f815a1418286470783bc4c1b5a",
+      "bytes": 1179,
+      "sha256": "6be3bb62dcc0210043bcd2fc0d0270d4d62331e42f01700178f4e95c79fb07e6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex017.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex017.dat",
+      "git_blob": "29a29ecf9ee7a8f0669249df2fbd24aeaac68048",
+      "bytes": 1719,
+      "sha256": "8b748aa3b91940409f111601c715cffb4dc1975db7deef7ff68bef7033229d60",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex021.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex021.dat",
+      "git_blob": "bec65399ee7f6377cd9f714f6b43480733bf679f",
+      "bytes": 2509,
+      "sha256": "766e533dedcfc6e62b165675b1580511b13e626a9506a230ad210ca845e55643",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex026.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex026.dat",
+      "git_blob": "e1625cfbab02d96754b825e0aa86446fa1e8f868",
+      "bytes": 1091,
+      "sha256": "161e5ccd8be5f776b211979c32c5ca91b4a93d366f021a42b715810429dfa14c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex029.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex029.dat",
+      "git_blob": "d10d6845e1daecb3fa6e07f0473ecc312afb5f17",
+      "bytes": 1091,
+      "sha256": "a6bd5d3e6ff43d71190ae552b911f2562f1eb697b10005e301922361ac28ab90",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex032.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex032.dat",
+      "git_blob": "6cbb92fc32bd3cbee702b50ecc913d7e8a34d586",
+      "bytes": 1133,
+      "sha256": "b3d41fa3ffc4f3888dec0e981b1ffc2dad3791e002688dfbef2183bde47f7078",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex036.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex036.dat",
+      "git_blob": "4cb412f22194a344bf55c1e8da5645e4a9fabd39",
+      "bytes": 4227,
+      "sha256": "d0d5604ed546efbd470c878db5c90b6e07193d2cc43fd18a1e1ce771d2df4ecc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex039.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex039.dat",
+      "git_blob": "1ae105a78940fc80c53efdfb268526fd592ddbef",
+      "bytes": 4227,
+      "sha256": "0cab0084992916026803d2b2018c6b91bb3f9ff31de0e56d936d8e42241c4903",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex042.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex042.dat",
+      "git_blob": "09a5412f96f462a32699e9e0355e67bca843c618",
+      "bytes": 16643,
+      "sha256": "df24d650323519c2fc3ce39c6ed681d21b38361907203171b80ab6aa871d4d3a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex045.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex045.dat",
+      "git_blob": "1ddaa9bbb3c7be2cae59f7247b8db7333568b444",
+      "bytes": 1091,
+      "sha256": "4eeb72c1bfcb31c39cfbf2817e79ae0e42769d2ed9ffba13396595cac515df4a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex049.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex049.dat",
+      "git_blob": "4a87aecfec23be00f7076c998f01551544b6f1e0",
+      "bytes": 5375,
+      "sha256": "3719bc09d13516c3eb64104d9f837a81d20fdf733853c63577fe414f3759cdd9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex052.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex052.dat",
+      "git_blob": "7607c532de779d76b6996ad1a832b90fd778d994",
+      "bytes": 2076,
+      "sha256": "e2ae51b277be52f4ded126e4b82c75e1cc7fd00562881948accf26b1f65937c0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex055.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex055.dat",
+      "git_blob": "3fed6c8505628eac3a290343f119e19947ec81c9",
+      "bytes": 7983,
+      "sha256": "c2a4a320149c6d2e587159cb127f60d3aef682c8bc15510e21d57fe3434ec1a6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex059.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex059.dat",
+      "git_blob": "acb2e7d2fa43e27c340550699bf99ff9daba3e30",
+      "bytes": 18023,
+      "sha256": "d6de1df5bef1e2cb6b1b4c9eb53210892a0af05ff9781cb7b94c8307512bb1c1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex062.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex062.dat",
+      "git_blob": "08a18704aad2a8a3a2cc3bbf6c1fd1a137caa9b5",
+      "bytes": 28667,
+      "sha256": "b308628bfd857b513a5ab84519b7d2ba7851da4bd5b0b932889802b635379472",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex065.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex065.dat",
+      "git_blob": "9ac9d9b707ea8753e8c1530f8048ed59d9c60276",
+      "bytes": 40629,
+      "sha256": "5a5908b71c25f25199d82b4ec0748855112546f4846a77f2bef15be54cf36665",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex068.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex068.dat",
+      "git_blob": "bbf222f7917d54db74794502e2c3226d3c82430a",
+      "bytes": 857,
+      "sha256": "7794460b510214cc52c62b940dd0fc3087a63e9ab494bebe2b09ac525c3e8bd9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex071.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex071.dat",
+      "git_blob": "f2f2df120bbcb61c25d76619d94e672b5bec2da5",
+      "bytes": 1113,
+      "sha256": "9cd7756e8a7e03767314be25284a8c4183da2cbe18114734302d7d5748b860ea",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex074.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex074.dat",
+      "git_blob": "98151e302d83ea3b082f9514162745a32722dd70",
+      "bytes": 1717,
+      "sha256": "11e8e6ef2f12782f9b0bdebdd6c950ba9a94663e907260534b63bdb09e04253f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex077.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex077.dat",
+      "git_blob": "1fd6ae42ce12d549578595a90e4044881b0a3da1",
+      "bytes": 2441,
+      "sha256": "db45318d3e92377a37e3d45c72399edb26f620a3149f864c6c0099ea6a9834b9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex080.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex080.dat",
+      "git_blob": "8c3ea1f71d680b139e1d92cac8d8a96c3b69ca17",
+      "bytes": 3297,
+      "sha256": "687b78990e678c13cf3adc6a39a322f8965d5f1d55b407f6fe1526632fa47326",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex083.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex083.dat",
+      "git_blob": "7d94132ef880035de8b9ebe76c47781d5224abc3",
+      "bytes": 1339,
+      "sha256": "c9ba7f364942ec280b655db39fb177945845160d458d411d1643110b7cf4e9f1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex086.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex086.dat",
+      "git_blob": "59920a4ab98e92b81e0c552a11ebd3b51911885f",
+      "bytes": 1129,
+      "sha256": "4df3bceda405a32820e75f140de472998d771fbc5b14ce77aa3b6a3880d1c626",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex089.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex089.dat",
+      "git_blob": "8d2d15200072c48625fa1cfd76e5efe0db7bfda2",
+      "bytes": 43236,
+      "sha256": "619f8e40593cc01bcc0f5aa683d282fbb6f68c842c2869692c0b8d5742280748",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex092.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex092.dat",
+      "git_blob": "4a5e0ea9949066bdc3ee68e72f574fc85c0512ed",
+      "bytes": 43208,
+      "sha256": "02fb382139f8105afbdb6206963f0e5de557b3350a9579b45c1725c1690f370e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex095.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex095.dat",
+      "git_blob": "95d9d53a36a50ab9270d3efb6e3f85272e9f3cff",
+      "bytes": 10039,
+      "sha256": "878613f68970e805d6c7b21104ce2679b1f9b18f5639704d136e163fbff9566b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex098.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex098.dat",
+      "git_blob": "b5fe0626045e6a8babb52a9581a9a748e8c6b53a",
+      "bytes": 21955,
+      "sha256": "9b7d524417f026d665b44e6c821527b848f2b5bbdb3f6484ca8a92933cc3e564",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex102.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex102.dat",
+      "git_blob": "33ce7b359954ec2341267593c978df69dd19b55d",
+      "bytes": 6171,
+      "sha256": "bdf69091668751c7af0264a5b6c07c17cf7d32ce4fb31967e63b7b1e572952ee",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex107.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex107.dat",
+      "git_blob": "269d388aa2cf32701accf3d71cd90284c72e12b5",
+      "bytes": 608,
+      "sha256": "3ee992a350bbedf3ecc957b8829447207da1fa5cce44fcb6af10b1e527b69298",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex110.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex110.dat",
+      "git_blob": "a6ab280237366e4e017bd7e2d73ec9e8f5e0bc03",
+      "bytes": 131458,
+      "sha256": "b58e3eb074bd56c7321903482358dc463c6381704008e70db517d5cab57c6e07",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex112.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex112.dat",
+      "git_blob": "4090fc578fe91b60f495158b954b49948698a5af",
+      "bytes": 1318,
+      "sha256": "7b4abc3d609e0a36e2a86b5605b5cba6bc217ea9cdd2b36663cb734028a508fe",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex115.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex115.dat",
+      "git_blob": "b34b53ced5fca611d456364e8c02da6f91745aa0",
+      "bytes": 2565,
+      "sha256": "09196c74187e74c07d74b87b37cb58bb3acc339b47704f67fce36c448f5e4d26",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex120.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex120.dat",
+      "git_blob": "a6d1c59b72ea867100939a4170c1e16764845baf",
+      "bytes": 6406,
+      "sha256": "2059aa85abba8357e8cab60a336e825b887226b883e82f4243ee62f4bd9b3999",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex123.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex123.dat",
+      "git_blob": "c34d3ce1108e6a0a5162fd5c2eb90153c1f0c137",
+      "bytes": 9341,
+      "sha256": "db2979d49fefd9f0b9564d1ab756ff264bc1b527f84715bcfc99baa780b18a32",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex127.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex127.dat",
+      "git_blob": "2c36320d0a981c14d9cb2667863bf12d7402ec8a",
+      "bytes": 20993,
+      "sha256": "5258992f589630b55592f4268dd2fac821a82c7820559f3ea9750b53337ec281",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex130.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex130.dat",
+      "git_blob": "bb95d038f0ed889d872d384fe58efd9a094a3085",
+      "bytes": 37305,
+      "sha256": "df2be29009182bce6cd15d11b02f6152de62d9367ce23bca8378b66981f60dbb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex134.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex134.dat",
+      "git_blob": "aab5b41a9d9b1d44f8604f3c6e8af39fff21469a",
+      "bytes": 7563,
+      "sha256": "f237ccac76dcb59b549e5770166e807a0b62941eee01cdc1fc3ac867c3e7e9ca",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex135.dat",
+      "source_path": "tasks/solver/online/qap-qaplib/tests/instances/ex135.dat",
+      "git_blob": "625a961c1c92e7f57139aad8fb41653b685052bf",
+      "bytes": 42384,
+      "sha256": "1375b1e4cb8ec8b2135fdc11c6d13e9111475421d2047be30ba584d09dc2c117",
+      "mode": "0644"
+    }
+  ]
+}

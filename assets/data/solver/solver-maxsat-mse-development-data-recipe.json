@@ -1,0 +1,167 @@
+{
+  "format": "official_maxsat_generator",
+  "description": "Exactly the frozen selected MSE2026 inputs from the fixed official anytime-weighted archive. Retain original new-to-classic WCNF conversion, historical variable permutation and clause/literal shuffling, seed labels and XZ5.2.5 preset6. Public product also retains four unmodified official Open-WBO reference PDFs. No benchmark metadata with scores, solver logs, proofs or answers is read.",
+  "archive_source_id": "maxsat-mse2026-anytime-weighted-zip",
+  "xz_source_id": "xz-utils-5.2.5-tar-gz",
+  "sources": [
+    {
+      "id": "maxsat-mse2026-anytime-weighted-zip",
+      "url": "https://zenodo.org/records/21358014/files/benchmarks-anytime-weighted.zip?download=1",
+      "bytes": 1969015603,
+      "sha256": "4b9bc198d1bb12a5125194e8c5cbcc98976852e01f53849db5d80bb9d4715fb5",
+      "filename": "instances.zip"
+    },
+    {
+      "id": "xz-utils-5.2.5-tar-gz",
+      "url": "https://tukaani.org/xz/xz-5.2.5.tar.gz",
+      "bytes": 1791345,
+      "sha256": "f6f4910fd033078738bd82bfba4f49219d03b17eb0794eb91efbae419f4aba10",
+      "filename": "xz-source.tar.gz"
+    },
+    {
+      "id": "openwbo-reference-cp14.pdf",
+      "url": "https://raw.githubusercontent.com/sat-group/open-wbo/80f3073e41028b219b0b0ad7c61fba28351f88e6/papers/cp14.pdf",
+      "bytes": 617573,
+      "sha256": "aac3104aa7399f9a3370210906d79ac7fe823f84c12911eeff57df1caf0523ed",
+      "filename": "cp14.pdf"
+    },
+    {
+      "id": "openwbo-reference-mse17.pdf",
+      "url": "https://raw.githubusercontent.com/sat-group/open-wbo/80f3073e41028b219b0b0ad7c61fba28351f88e6/papers/mse17.pdf",
+      "bytes": 85351,
+      "sha256": "8e8a165ddda12c1732f2758ca776bf621b573982102a1e5f0ab3bf137065bd97",
+      "filename": "mse17.pdf"
+    },
+    {
+      "id": "openwbo-reference-sat14.pdf",
+      "url": "https://raw.githubusercontent.com/sat-group/open-wbo/80f3073e41028b219b0b0ad7c61fba28351f88e6/papers/sat14.pdf",
+      "bytes": 153239,
+      "sha256": "53866a00eb9bd2ab303ea5902163319c15247218e1f2a8cccb4e4e38208f6a07",
+      "filename": "sat14.pdf"
+    },
+    {
+      "id": "openwbo-reference-sat15.pdf",
+      "url": "https://raw.githubusercontent.com/sat-group/open-wbo/80f3073e41028b219b0b0ad7c61fba28351f88e6/papers/sat15.pdf",
+      "bytes": 564066,
+      "sha256": "d8a3910e4a6eaea3b2ac1ff2199bd8e625702b8cbc3e03b800166a47f534e6ce",
+      "filename": "sat15.pdf"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances/argumentation-framework-synthesis--1645126bc049f932.wcnf",
+      "source_member": "weighted-2026/1645126bc049f932c6a365aed4073e87.wcnf.xz",
+      "operation": "maxsat_convert",
+      "source_sha256_plain": "e63e30bcf07e1456e6dbf92cc95e76229d0858b71a11fb4b81b220533765d16c"
+    },
+    {
+      "path": "app/instances/decision-trees--d8f5cdbc2e7d1259.wcnf",
+      "source_member": "weighted-2026/d8f5cdbc2e7d125910757a85590e0a3f.wcnf.xz",
+      "operation": "maxsat_convert",
+      "source_sha256_plain": "b48ab00739d098bc7620eeb5028999fd4d19c6ff4baa1b2872e754193b7ed22e"
+    },
+    {
+      "path": "app/instances/inductive-logic-programming-minimum-description-length--a04c49fdcfb80a2b.wcnf",
+      "source_member": "weighted-2026/a04c49fdcfb80a2b2a28970b0a391db2.wcnf.xz",
+      "operation": "maxsat_convert",
+      "source_sha256_plain": "cd4b0d1ed821ab793a92771b44dce4b35a2bdec9fcd40f9b9bb21559cafde8d0"
+    },
+    {
+      "path": "app/instances/interpretable-rule-based-classifiers--d65e49e03a1bef21.wcnf",
+      "source_member": "weighted-2026/d65e49e03a1bef210c86572aea57752c.wcnf.xz",
+      "operation": "maxsat_convert",
+      "source_sha256_plain": "2f205be6c372af7ba80b7728e6ee017303af05b59d5b2b7f5e537b1b886b6f93"
+    },
+    {
+      "path": "app/instances/logistics-routing--b1f3bc82f34d8304.wcnf",
+      "source_member": "weighted-2026/b1f3bc82f34d8304967937fa42004233.wcnf.xz",
+      "operation": "maxsat_convert",
+      "source_sha256_plain": "84cf64621e77bbb04a94a8df379255f36da5fcff191a2229b2ae0c3bfe36b82e"
+    },
+    {
+      "path": "app/instances/max-realizability-robot-navigation--1d69eb0fbbde8c41.wcnf",
+      "source_member": "weighted-2026/1d69eb0fbbde8c41206c99b062d6ac4d.wcnf.xz",
+      "operation": "maxsat_convert",
+      "source_sha256_plain": "52c57c2b0693115cb218f6c428fc4a7943a9e7016ef4db30390eadb132692dce"
+    },
+    {
+      "path": "app/instances/maximum-colorful-subtree--aba43574fdcf5980.wcnf",
+      "source_member": "weighted-2026/aba43574fdcf5980731fc0f442a0d7a4.wcnf.xz",
+      "operation": "maxsat_convert",
+      "source_sha256_plain": "989f8cafbda5354dd6cdbf1823e2a3a26c3f341a4696ae24301cd717ffc0c118"
+    },
+    {
+      "path": "app/instances/pareto-optimal-interpretation-synthesis--3332f249f67f78ea.wcnf",
+      "source_member": "weighted-2026/3332f249f67f78ea332d79e914936ccd.wcnf.xz",
+      "operation": "maxsat_convert",
+      "source_sha256_plain": "913e381b1c2eb907bdb276ca9ace75dc6585b916542c37a2e3df512bdb2e189c"
+    },
+    {
+      "path": "app/instances/planning-hplus--ff3edb803a43f49e.wcnf",
+      "source_member": "weighted-2026/ff3edb803a43f49e4ac29f10716ac281.wcnf.xz",
+      "operation": "maxsat_convert",
+      "source_sha256_plain": "d2ac2a2ad6f6bd3802822d9b9fc5e75e31f619b392f7bfa9f0f5ec555c238e2c"
+    },
+    {
+      "path": "app/instances/railway-timetabling--91d8278936cbdcdd.wcnf",
+      "source_member": "weighted-2026/91d8278936cbdcddeb77a55e9deb0b46.wcnf.xz",
+      "operation": "maxsat_convert",
+      "source_sha256_plain": "2d13ebf8f3e70b8a30095359bb4ae1b38ae21fd07b4da426b313386d4ebd0bd3"
+    },
+    {
+      "path": "app/instances/single-cell-dna-sequencing--ae8b9d05d7e77b28.wcnf",
+      "source_member": "weighted-2026/ae8b9d05d7e77b281b14077de8059e3d.wcnf.xz",
+      "operation": "maxsat_convert",
+      "source_sha256_plain": "e07febe7daa884ba7a2f024bc8cf75c9bd36de38f608b1514196efbe6d745dd0"
+    },
+    {
+      "path": "app/openwbo/papers/cp14.pdf",
+      "operation": "copy_pdf",
+      "input_filename": "cp14.pdf"
+    },
+    {
+      "path": "app/openwbo/papers/mse17.pdf",
+      "operation": "copy_pdf",
+      "input_filename": "mse17.pdf"
+    },
+    {
+      "path": "app/openwbo/papers/sat14.pdf",
+      "operation": "copy_pdf",
+      "input_filename": "sat14.pdf"
+    },
+    {
+      "path": "app/openwbo/papers/sat15.pdf",
+      "operation": "copy_pdf",
+      "input_filename": "sat15.pdf"
+    }
+  ],
+  "implementation_files": {
+    "assets/data/solver/maxsat-mse/worker.py": {
+      "destination": "worker.py",
+      "sha256": "b95590e79549e83a41e0677dc8fc22cd385c89ace89653b7ef4662c1a4ac1379"
+    },
+    "assets/data/solver/maxsat-mse/convert.py": {
+      "destination": "convert.py",
+      "sha256": "d2bf8e06a29e9909764a2f7c23e56856a1a0d15017d2dfb31b8cf20ba746e2e3"
+    },
+    "assets/data/solver/maxsat-mse/transform.py": {
+      "destination": "transform.py",
+      "sha256": "5ca37d6a5eb7fb817e56e2f749a183af7dab3f58681da0e012129c1f58740a77"
+    }
+  },
+  "generator_paths": [
+    "src/tcsexam/maxsat_data.py",
+    "assets/data/solver/maxsat-mse/worker.py",
+    "assets/data/solver/maxsat-mse/convert.py",
+    "assets/data/solver/maxsat-mse/transform.py"
+  ],
+  "build": {
+    "builder_image": "ubuntu:22.04@sha256:0a9887931b0e38af2e3487ed39e29436b0535c4f3f52e57745baaf79d1898956",
+    "cwd": ".",
+    "timeout_sec": 7200,
+    "download_timeout_sec": 1200
+  },
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Retain Zenodo21358014 CC BY4 and original instance-author notices. Original four Open-WBO papers have separate terms. This reconstruction does not authorize public upload."
+}

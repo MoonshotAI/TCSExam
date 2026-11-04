@@ -1,0 +1,31 @@
+{
+  "actual_candidate_head": "18a90119a5d316358fde6c86e0ca24e59212e32c",
+  "checked": "2026-10-29",
+  "commit": "18a90119a5d316358fde6c86e0ca24e59212e32c",
+  "commit_url": "https://github.com/leanprover-community/import-graph/commit/18a90119a5d316358fde6c86e0ca24e59212e32c",
+  "independent_notice": {
+    "non_notice_copyright_files": [],
+    "present": false,
+    "status": "no_independent_notice_found",
+    "tree_api": "https://api.github.com/repos/leanprover-community/import-graph/git/trees/18a90119a5d316358fde6c86e0ca24e59212e32c?recursive=1",
+    "tree_entries": 69,
+    "tree_http_status": 200,
+    "tree_truncated": false
+  },
+  "installed_license": "LICENSE",
+  "license": {
+    "bytes": 11357,
+    "http_status": 200,
+    "id": "Apache-2.0",
+    "local_content_matches_fixed_upstream": true,
+    "local_file": "importGraph-LICENSE.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "url": "https://raw.githubusercontent.com/leanprover-community/import-graph/18a90119a5d316358fde6c86e0ca24e59212e32c/LICENSE"
+  },
+  "name": "importGraph",
+  "repository": "https://github.com/leanprover-community/import-graph",
+  "schema_version": 1,
+  "source_archive_content_independently_verified": false,
+  "source_archive_http_status": 200,
+  "source_archive_url": "https://github.com/leanprover-community/import-graph/archive/18a90119a5d316358fde6c86e0ca24e59212e32c.tar.gz"
+}

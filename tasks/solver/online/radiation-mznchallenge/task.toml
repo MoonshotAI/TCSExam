@@ -1,0 +1,46 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/radiation-mznchallenge"
+version = "1.0.0"
+description = "Optimize a radiotherapy planning solver (MiniZinc Challenge benchmarks): on hidden intensity-matrix instances, attain the structural beam-on-time lower bound (admission) and minimize the aperture count, scored continuously against a deterministic constructor baseline and best-known shape counts, under a per-instance wall-clock limit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "radiation-therapy", "minizinc", "constraint-programming", "cp-sat", "type-2-solver"]
+
+[metadata]
+family_id = "fam-radiation"
+candidate_id = "cand-radiation-mznchallenge-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "The shipped baseline is a deterministic unit-time constructor whose beam-on time always attains the structural lower bound (admission is free); the score comes from the shape count alone. The reference K values are the best shape counts at the bound (most are proven optimal; the unproven ones are best-known values that ratchet on better solutions, on the full 47-instance set after the 2026-09-12 fullset restore). Beating the constructor requires reusing longer beam-on times and coordinating rows; closing the last gap to K needs real modeling or search engineering on the hard instances (a stock warm-started CP-SAT only reaches K on the two smallest judged instances inside the judging budget)."
+
+[verifier]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 1500.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+
+[environment.env]
+TCSEXAM_TOKEN_ID = "${TCSEXAM_TOKEN_ID}"
+TCSEXAM_TOKEN_SECRET = "${TCSEXAM_TOKEN_SECRET}"
+TCSEXAM_BASE_URL = "${TCSEXAM_BASE_URL}"
+CLAUDE_CODE_EFFORT_LEVEL = "${CLAUDE_CODE_EFFORT_LEVEL}"
+CLAUDE_CODE_MAX_OUTPUT_TOKENS = "${CLAUDE_CODE_MAX_OUTPUT_TOKENS}"
+CLAUDE_CODE_AUTO_COMPACT_WINDOW = "${CLAUDE_CODE_AUTO_COMPACT_WINDOW}"
+CLAUDE_CODE_MAX_CONTEXT_TOKENS = "${CLAUDE_CODE_MAX_CONTEXT_TOKENS}"
+CLAUDE_CODE_MAX_RETRIES = "${CLAUDE_CODE_MAX_RETRIES}"
+CLAUDE_CODE_RETRY_WATCHDOG = "${CLAUDE_CODE_RETRY_WATCHDOG}"
+API_TIMEOUT_MS = "${API_TIMEOUT_MS}"

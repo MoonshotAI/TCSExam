@@ -1,0 +1,49 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260911",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/ce-pace2021/PROVENANCE.md: KaPoCE champion field-best @600s; for some instances use min(kapoce-fast, clues).",
+   "tier": "competition-record"
+  }
+ },
+ "family": "cluster-editing",
+ "id": "ce-pace2021",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-ce-pace2021-judge-v8"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": null,
+  "n_hidden": 100,
+  "n_public": 100,
+  "per_instance_seconds": 600,
+  "shard_cores": 16,
+  "shard_mem_gb": 8,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "PACE 2021",
+  "hidden_set": "official-private",
+  "memorization_risk": "low",
+  "transform": null
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "The solver reads the instance from stdin and is killed at the wall-clock limit; the limit is not passed through an environment variable (limit_env=null)."
+ },
+ "subdomain": "graph-optimization",
+ "title": "Cluster editing"
+}

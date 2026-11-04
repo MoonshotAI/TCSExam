@@ -1,0 +1,49 @@
+{
+  "author": "Alexander Shtuchkin <ashtuchkin@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "safer-buffer": ">= 2.1.2 < 3.0.0"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "integrity": "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz",
+    "version": "0.6.3"
+  },
+  "lock_path": "node_modules/iconv-lite",
+  "name": "iconv-lite",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1064,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "ac779f7314c74f232ef847ea86e714abe25cf6eeb5cc97b69451b74e2af6492d",
+      "text_file": "image-notices/ac779f7314c74f232ef847ea86e714abe25cf6eeb5cc97b69451b74e2af6492d.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 190667,
+    "installed_in_image": false,
+    "integrity": "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "7127ec148f994f031eff658a50dc0629f6010775a8202213b0526ec5e30fc8f4"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.6.3"
+}

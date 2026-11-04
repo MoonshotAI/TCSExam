@@ -1,0 +1,36 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/sorting-network-size-lean-open"
+version = "1.0.0"
+description = "Certify in Lean 4 a sorting network on 16 wires with at most k comparators (Bose-Nelson S(16) upper-bound certificates; published record 60, Green 1969; proven lower bound 57 as tightened 2025-04-21; native_decide allowed)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["construction", "sorting-network", "bose-nelson", "lean4", "machine-checked", "open-problem"]
+
+[metadata]
+family_id = "fam-sorting-network-size"
+candidate_id = "cand-sorting-network-size-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open"
+difficulty_explanation = "Prove existence of a sorting network in Lean 4 with only a computable 0-1-principle predicate given; the agent chooses k and the construction. The published record (60 comparators, Green 1969, 57 years old) can be tied and in principle broken (k <= 59 is a literature-level new result)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-construction-sorting-network-size-verifier"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

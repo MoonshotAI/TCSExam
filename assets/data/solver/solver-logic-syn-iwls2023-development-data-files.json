@@ -1,0 +1,910 @@
+{
+  "files": [
+    {
+      "path": "app/instances/ex00.truth",
+      "source_context_path": "app/instances/ex00.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex00.truth",
+      "git_blob": "8eecb119c9be412bdc446398e3eed93a0dfdb182",
+      "bytes": 65,
+      "sha256": "a9f9c66a31331cf4ca2284ddb4201646f4c549ebbbdc896bbeb7f81d7118d40c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex01.truth",
+      "source_context_path": "app/instances/ex01.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex01.truth",
+      "git_blob": "740d99eb9500afb76a8428d8bc5eae670d0340c9",
+      "bytes": 65,
+      "sha256": "f0243ea01854b5d55b1dd7d8cbcc628b4858d376f33130c80981a42a6cb9dfdf",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex02.truth",
+      "source_context_path": "app/instances/ex02.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex02.truth",
+      "git_blob": "a0965147561bf968c75234cf30caf2f0895afabc",
+      "bytes": 257,
+      "sha256": "c4101c0cb0a5b69932550d2ca3d50ef46fa958c82b2953e31b14803e7014d496",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex03.truth",
+      "source_context_path": "app/instances/ex03.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex03.truth",
+      "git_blob": "04834cef578c4d9a5194105cd314be1a43eb7531",
+      "bytes": 257,
+      "sha256": "e132e2096447f474995b9f6972c536ffef12483b51ff2991dc6b01f59eeaf505",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex04.truth",
+      "source_context_path": "app/instances/ex04.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex04.truth",
+      "git_blob": "3eeae4935e0e870b6f00bbd31b4fe01fd3a8f939",
+      "bytes": 1025,
+      "sha256": "20db6819506dec3ca6bc2a5ca84a974d67185d5e40b749a2d84f9f2aae2eb7a6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex05.truth",
+      "source_context_path": "app/instances/ex05.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex05.truth",
+      "git_blob": "7eeef7ebff810116bf2bc466f4bf2bdf2f8113d6",
+      "bytes": 1025,
+      "sha256": "55499e9f03d8200aa94f7dd0e249730f7ab7944fe841bbbaf2718fc844fbb7a4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex06.truth",
+      "source_context_path": "app/instances/ex06.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex06.truth",
+      "git_blob": "a105e86cedac14d17494b5e35afa4a423d34478c",
+      "bytes": 4097,
+      "sha256": "26ee8dda98c817fcc3d7747114ac01618ab6e39005fa5d3d4f9dc3fb67b5c3df",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex07.truth",
+      "source_context_path": "app/instances/ex07.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex07.truth",
+      "git_blob": "ea6ac1b44fe7faf1f1540be3607655512a80101b",
+      "bytes": 4097,
+      "sha256": "a2deb8b60e28544bce59d654fb552cd38b5cf7840e774795c3be55f0acd8d9f4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex08.truth",
+      "source_context_path": "app/instances/ex08.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex08.truth",
+      "git_blob": "aa160b43af1e1ef6ad174db40ecbae6568678f0d",
+      "bytes": 2056,
+      "sha256": "136d6e330b4d201af026871a6ff546c448ac48184c56d9c2d62820a78d893767",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex09.truth",
+      "source_context_path": "app/instances/ex09.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex09.truth",
+      "git_blob": "3c9ace65d13cdd86b6d21f011858e95005326b2b",
+      "bytes": 2056,
+      "sha256": "ff563168212074bb776cf414c7017d30d33b6da5eb3ce10ba9bc9c03cfffa2d1",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex10.truth",
+      "source_context_path": "app/instances/ex10.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex10.truth",
+      "git_blob": "1e151585ec90e26116c5e63796be241b5fc3c962",
+      "bytes": 33,
+      "sha256": "ca37ece48f3f4d02dbc19fad7fb8ad905b739cecfea77de3ff5f7cc207e2fa15",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex11.truth",
+      "source_context_path": "app/instances/ex11.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex11.truth",
+      "git_blob": "b9660334212309ee89b897b82fc7be5c2836d30d",
+      "bytes": 129,
+      "sha256": "e5b5afca81995c33617e513981fce1aab6f1a8f6c18ae6438977641a2a0578cd",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex12.truth",
+      "source_context_path": "app/instances/ex12.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex12.truth",
+      "git_blob": "745d0f2b8a312229e909edb3f564c3b91e77571c",
+      "bytes": 513,
+      "sha256": "f003326b225552129b8d1d4c4c591c40afe57936b042c199b69de869f1962d47",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex13.truth",
+      "source_context_path": "app/instances/ex13.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex13.truth",
+      "git_blob": "eb5ac34c78e0016352e5874377e5e3bc50939b9d",
+      "bytes": 2049,
+      "sha256": "818c63a565624c480307892b37ccd5d8de7a9cafea6a2b685b63c117ff6bef51",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex14.truth",
+      "source_context_path": "app/instances/ex14.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex14.truth",
+      "git_blob": "1f1043aa3716c488846b2a6350df398d87078857",
+      "bytes": 8193,
+      "sha256": "159d21c92c783236694fc2add50a2e00356552f119fcd714cc697965f25eaa8b",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex15.truth",
+      "source_context_path": "app/instances/ex15.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex15.truth",
+      "git_blob": "ab65f41a26ea72c94e17e42e5a48332c5cb69a4c",
+      "bytes": 32769,
+      "sha256": "9417cbe590c2968afa8e55a5b58a08faa2b10d0c64e1ddafb1d51b8efbbe95f3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex16.truth",
+      "source_context_path": "app/instances/ex16.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex16.truth",
+      "git_blob": "974249969fca713fbcac86a2871c33f8f2552c0c",
+      "bytes": 165,
+      "sha256": "93b49ca33971b2190c45056852ca4ff3442c406154a594c2e4e0b164658c87b7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex17.truth",
+      "source_context_path": "app/instances/ex17.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex17.truth",
+      "git_blob": "866b5f93afd3380bee9937f8a476cfa24a7452be",
+      "bytes": 390,
+      "sha256": "21e9692e2743dbd9df6413043d216fa5588724e3fdf2c32d43a00e6601f03e04",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex18.truth",
+      "source_context_path": "app/instances/ex18.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex18.truth",
+      "git_blob": "efa7d14d324933bde6ef158a563ce7f6cb6c0ea9",
+      "bytes": 903,
+      "sha256": "f7db593ca62b16193cff87a4f5a2567f86dd4d960eaf7a43b1445898a4e59eed",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex19.truth",
+      "source_context_path": "app/instances/ex19.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex19.truth",
+      "git_blob": "70588db19ee6217c183077e21f8b4f7fff202572",
+      "bytes": 2056,
+      "sha256": "60d6221f7ee43fe607a87387e56eea82036538aa28954869174130eb0f54b498",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex20.truth",
+      "source_context_path": "app/instances/ex20.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex20.truth",
+      "git_blob": "15d326f396ed5e174437b23627b721cfbb9107e6",
+      "bytes": 4617,
+      "sha256": "e2fbd698986eac964a51c9a29cb555474efadfc07ccda08f7184ba86b007f499",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex21.truth",
+      "source_context_path": "app/instances/ex21.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex21.truth",
+      "git_blob": "4c298b8667fa20bea1b7db64494ec24f82ceba46",
+      "bytes": 10250,
+      "sha256": "0b904e310e9a93835db33f054e9009ac0061de3dd13415179ac584205c141ab3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex22.truth",
+      "source_context_path": "app/instances/ex22.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex22.truth",
+      "git_blob": "adfdfedee157f8fbb256ec2acd2cace9d167aee1",
+      "bytes": 22539,
+      "sha256": "2deb9a02fd8cb7c2299c037fedaab85a247a1481c92ae2a4639c1af1b2e9acba",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex23.truth",
+      "source_context_path": "app/instances/ex23.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex23.truth",
+      "git_blob": "4f3ba72f46ca4def50d8490c4edfd2d5215fe3aa",
+      "bytes": 49164,
+      "sha256": "69af9c2b253bec3e7edc2e43cede7b744ce06560a3c81048f43567b379417b28",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex24.truth",
+      "source_context_path": "app/instances/ex24.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex24.truth",
+      "git_blob": "322774282fc75bac012fbc4393f63a6ee531da8d",
+      "bytes": 106509,
+      "sha256": "49ea64df98f4cde58756c97b820e4ea04be7e457588b104a2dbf6a135da96a95",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex25.truth",
+      "source_context_path": "app/instances/ex25.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex25.truth",
+      "git_blob": "9a1cc77b3d1237ff455338094399ea7e7186b628",
+      "bytes": 229390,
+      "sha256": "7772e38e206067401da97773c629a1b8304c3b9eec42a2f0cf7d84f078960050",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex26.truth",
+      "source_context_path": "app/instances/ex26.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex26.truth",
+      "git_blob": "fd225ee12ba6fb224bd9c565b47d98899db70dc0",
+      "bytes": 491535,
+      "sha256": "3d68e24151ce521256363f9ed979657a7205a633d8e06ed6a87db6e614647d6f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex27.truth",
+      "source_context_path": "app/instances/ex27.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex27.truth",
+      "git_blob": "6173e99af1d96b02869263cc9cd377ea9504d603",
+      "bytes": 1048592,
+      "sha256": "870733297166dccd8503bbb0418a11374d58c5d0ea7c8810937742e8eb22b200",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex28.truth",
+      "source_context_path": "app/instances/ex28.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex28.truth",
+      "git_blob": "aab18858266452aece481bf262041be9554da94a",
+      "bytes": 1290,
+      "sha256": "380893236cbf557f8872e880f227304d4b6e559d8d43ee8ea36c0f78d127c304",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex29.truth",
+      "source_context_path": "app/instances/ex29.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex29.truth",
+      "git_blob": "5acfc4e94a67abe0a4691c0da7b9843713f513ec",
+      "bytes": 513,
+      "sha256": "499121d34c761a6e9a1762c10e960ee42a54b2f798701b659f25c96b8040a089",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex30.truth",
+      "source_context_path": "app/instances/ex30.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex30.truth",
+      "git_blob": "bd65deba84e407995764e2d022cf3c5ca83163b6",
+      "bytes": 131080,
+      "sha256": "76a52452d77454e3704d9e52432d0ac3222858bcc28bd97ff128a58f8665593b",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex31.truth",
+      "source_context_path": "app/instances/ex31.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex31.truth",
+      "git_blob": "ffcc87eb99a89711e303ef0d9f0b968aafea50eb",
+      "bytes": 9234,
+      "sha256": "9b5a5e901105ff99f6fa192aac686526329a33d82b489e00fe95054ee4993abe",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex32.truth",
+      "source_context_path": "app/instances/ex32.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex32.truth",
+      "git_blob": "65a4af85d8e1f2f5180fd17f953094b50520d444",
+      "bytes": 294921,
+      "sha256": "2ce3c546b0de447eed02737c49760c264ba193ebd4543d3d0fa61b7293f9daf2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex33.truth",
+      "source_context_path": "app/instances/ex33.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex33.truth",
+      "git_blob": "d379fb9e910bca31ff1b3cfa2fbc7b0d7c2664b3",
+      "bytes": 924,
+      "sha256": "6cc5387c55ad40f668de67735e1fa7f119e9624a311adce25cf997caf21b66db",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex34.truth",
+      "source_context_path": "app/instances/ex34.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex34.truth",
+      "git_blob": "f71c72bcb36a014224b878c2f7ed3fe341785710",
+      "bytes": 2565,
+      "sha256": "5e15756daff51fd607db3ac3d7c0b3f344f5746942ec3e27f16ed6f0074185f7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex35.truth",
+      "source_context_path": "app/instances/ex35.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex35.truth",
+      "git_blob": "42cafd64a5ac82fe234e5122e4f572dd808c7354",
+      "bytes": 258,
+      "sha256": "9230f0ef616dcea31e0b6623776dcac39534dc32e2bc51db03cc2bb2f6cf1059",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex36.truth",
+      "source_context_path": "app/instances/ex36.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex36.truth",
+      "git_blob": "ccbd685aa06782a02498047d534f114467dcfad9",
+      "bytes": 10250,
+      "sha256": "0d7153f0964c8ffe3c8b3152153affd8b43b90779f976e7b457eb4015e5377e1",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex37.truth",
+      "source_context_path": "app/instances/ex37.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex37.truth",
+      "git_blob": "dcf8c829f51fec438747a0af1f9ea4192d029a66",
+      "bytes": 16191,
+      "sha256": "00f448e9b911d6fa48f760cf70e3c4db3dcd1c7b7232689fd49154c16770631d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex38.truth",
+      "source_context_path": "app/instances/ex38.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex38.truth",
+      "git_blob": "2727b1a327198998b8696ff4db715d16f6b14721",
+      "bytes": 1799,
+      "sha256": "b64c7582dbf498d9182c96302516dd317d0c324ca68262442f541dbd2a6a7d38",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex39.truth",
+      "source_context_path": "app/instances/ex39.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex39.truth",
+      "git_blob": "6e7eb0f323a0d34b724cb4c0eeba200468879dc4",
+      "bytes": 229390,
+      "sha256": "8a9ec07e661e770dbac7fc2396a46886cfa6684fcd8adeffefe0ff2285320a97",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex40.truth",
+      "source_context_path": "app/instances/ex40.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex40.truth",
+      "git_blob": "788c712a5b375288256ba06384f7599548350764",
+      "bytes": 2621480,
+      "sha256": "44bf85f3f63456990d1889d47931281f01e4871fa374db4f4186cf29213de482",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex41.truth",
+      "source_context_path": "app/instances/ex41.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex41.truth",
+      "git_blob": "33f2d7eb5cf1c0d805416514ed081e7f3122fe20",
+      "bytes": 99,
+      "sha256": "a6051bff30d783d9f3a2603d321942a7ee9392ba34ac7425071390acf6792fd4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex42.truth",
+      "source_context_path": "app/instances/ex42.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex42.truth",
+      "git_blob": "eae83c17e1b346e50593d2121dfe694a6ef68d2c",
+      "bytes": 387,
+      "sha256": "901c6a864ac23f209c31b27cb4a00b6a642b235ec2a45a825a476a6d3715ae58",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex43.truth",
+      "source_context_path": "app/instances/ex43.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex43.truth",
+      "git_blob": "fd118fa0d93288066f11db4a0cb6adc86002f675",
+      "bytes": 1028,
+      "sha256": "e99234e7c0b54ed36d58eb263f2a14792c869042860107254fe11ccac2676c53",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex44.truth",
+      "source_context_path": "app/instances/ex44.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex44.truth",
+      "git_blob": "03113897a262b6d84d0a1a08b1b854dde70a0d2e",
+      "bytes": 4100,
+      "sha256": "43d7bd4186d276922deb7cdc5a658885d3a20fd5d436738daa0bad9b12db07e2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex45.truth",
+      "source_context_path": "app/instances/ex45.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex45.truth",
+      "git_blob": "d558aad548655cfee72803fca0e28b854f5db8ba",
+      "bytes": 3014702,
+      "sha256": "bc9c5761130eb81bf46488d7ddc647d40cb1d858bac19b24f92e418f30384a74",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex46.truth",
+      "source_context_path": "app/instances/ex46.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex46.truth",
+      "git_blob": "e4033c37a3f17efab0d34f8d8b51b6653736e3f0",
+      "bytes": 264,
+      "sha256": "5df4d287bd5fea267f9300d399c519806e4a241e9824adda4e308fea7cc8450d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex47.truth",
+      "source_context_path": "app/instances/ex47.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex47.truth",
+      "git_blob": "4db65fff2ad7fc8e5206d55b9af852f9d6a2ca53",
+      "bytes": 65537,
+      "sha256": "add5f6dbbf4a53879eb6e0c530d73be0128e014e03f9a84246194c2db051cba0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex48.truth",
+      "source_context_path": "app/instances/ex48.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex48.truth",
+      "git_blob": "0ee4424e2281eb3225ed673520cf917cb406eec7",
+      "bytes": 229390,
+      "sha256": "b5069140f4611c5404326801704464c8795732e3da9c26dd93bfd2762b3da992",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex49.truth",
+      "source_context_path": "app/instances/ex49.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex49.truth",
+      "git_blob": "08b28a2e4acce41ba5a9d798988280093e90f364",
+      "bytes": 1290,
+      "sha256": "7d145c368d8e6d8ad3c578e4926ca98120df96645c82a8ec6c83c9507f550f1e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex50.truth",
+      "source_context_path": "app/instances/ex50.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex50.truth",
+      "git_blob": "6b8e662c3f1031921302d99c6be2a0d90298fe4e",
+      "bytes": 514,
+      "sha256": "5bb67882f97a4f4cc18edb1ea63182a6d998e081048b65f8dfb07a2a64575fcf",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex51.truth",
+      "source_context_path": "app/instances/ex51.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex51.truth",
+      "git_blob": "61b08a73c753c922f759a6140c6063628ba73e07",
+      "bytes": 514,
+      "sha256": "ec576555d51dca9471852f814407cc10110d0f232eb3b3ba2cefc01cf75f2480",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex52.truth",
+      "source_context_path": "app/instances/ex52.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex52.truth",
+      "git_blob": "378cf0fbd24735c9407adc041a1f78c5ba5efc32",
+      "bytes": 514,
+      "sha256": "9e58ab5edffe9189da88c454f3ecd05e307a40c775cfecc5145757ffdd1d4a52",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex53.truth",
+      "source_context_path": "app/instances/ex53.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex53.truth",
+      "git_blob": "59218b336a4ffab7020f8a991e80abde655766b5",
+      "bytes": 514,
+      "sha256": "3ce3e8c4a04301a7a3d46ca8a1e58afc2f51df5eb30071734c0aae28f7f644e9",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex54.truth",
+      "source_context_path": "app/instances/ex54.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex54.truth",
+      "git_blob": "c96a575f972da1aebe52eea3d150a1d7493e11ec",
+      "bytes": 514,
+      "sha256": "9ab3d235b0fb73fde51d7a2fd66b426d049a5ca23af52a1bfbe9f94f821b2f08",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex55.truth",
+      "source_context_path": "app/instances/ex55.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex55.truth",
+      "git_blob": "d624fb7f18c60f2b987be58136d0146881110c3e",
+      "bytes": 1799,
+      "sha256": "ed6079c4f4982977f330ce20fceae5fca6be03422206b13b8a426d95380bd65c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex56.truth",
+      "source_context_path": "app/instances/ex56.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex56.truth",
+      "git_blob": "b0a5904a8711d948fa377d191ed52b95ed887fae",
+      "bytes": 12291,
+      "sha256": "d5a718ee311b19a0f411ee8c2540861a0ffe940550638fd3b09eaaef04df5d16",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex57.truth",
+      "source_context_path": "app/instances/ex57.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex57.truth",
+      "git_blob": "caa126d4cd56e6f254c8d936a8fcd4109b230959",
+      "bytes": 12291,
+      "sha256": "17e4f9863af7dacd9243658db6a3dacf49c9c3afe6f29d2c1218678c5524cd59",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex58.truth",
+      "source_context_path": "app/instances/ex58.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex58.truth",
+      "git_blob": "9f4e374ab4c97cabcc6b3aea34512ba708fa9236",
+      "bytes": 12291,
+      "sha256": "7bdd58b36b9ccfc10fe5bae1b48b7e39a5a5a41018e78ed9d9cadcd280287b3d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex59.truth",
+      "source_context_path": "app/instances/ex59.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex59.truth",
+      "git_blob": "794547b678534c44bde24c919b16b2dd2612c5d7",
+      "bytes": 12291,
+      "sha256": "f50b0b827c72740e0905afb88710b84f019b4dff5e9cc2e6de9a718bacbff9b7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex60.truth",
+      "source_context_path": "app/instances/ex60.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex60.truth",
+      "git_blob": "939bc3d19a77c1be290a0e670ac6bdac096b54ff",
+      "bytes": 12291,
+      "sha256": "df21824200a0265c9ddc844ec8cb748fc0c2f09199148f51cd5d54d13a7dfa0c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex61.truth",
+      "source_context_path": "app/instances/ex61.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex61.truth",
+      "git_blob": "ffbae3644eb91dc54bc3dd3db9b3a379a42a86e8",
+      "bytes": 45067,
+      "sha256": "a685e5258255cbeb918b44d025d0a3b5c2bb1e5f62cc5f9c301e0bbcb802e9cb",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex62.truth",
+      "source_context_path": "app/instances/ex62.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex62.truth",
+      "git_blob": "d16ceb9fa0fbd22f1b02d2754b4011f842b54717",
+      "bytes": 262148,
+      "sha256": "d182ed286f82a6335c1b7146d81f31bde7811f63482147c1b727a9fbf3fb8a00",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex63.truth",
+      "source_context_path": "app/instances/ex63.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex63.truth",
+      "git_blob": "a8ef2c24139e977407c9618fbe8c63b6c2cff166",
+      "bytes": 262148,
+      "sha256": "151311568eb306a8260d083487b39d4f8b8e34b7ca1880b92f24caf1190f55cb",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex64.truth",
+      "source_context_path": "app/instances/ex64.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex64.truth",
+      "git_blob": "9a9ed91ec4081105b6f64708f065e5bfed74c1f5",
+      "bytes": 262148,
+      "sha256": "282ae1341b2c31d33fa85f65d5063d74a046a67b7b5261719d626abdd4e8d35d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex65.truth",
+      "source_context_path": "app/instances/ex65.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex65.truth",
+      "git_blob": "652d2c860092aa17ad1775bcb44eab12ced0c0c4",
+      "bytes": 262148,
+      "sha256": "c7ec864b82c280b5921738b11f65769bd6b1b5f40dceed68dd83886103272848",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex66.truth",
+      "source_context_path": "app/instances/ex66.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex66.truth",
+      "git_blob": "13a3b53571620a9fca5bdb502ae7e5a8af002713",
+      "bytes": 262148,
+      "sha256": "0edf275df6830d048ad230a2539df32b63ce8d5c8ac73bf64b87bad6558d94ee",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex67.truth",
+      "source_context_path": "app/instances/ex67.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex67.truth",
+      "git_blob": "fffb7314448291a579a005c781e39bc8d4e27bac",
+      "bytes": 78925,
+      "sha256": "6cf73df14a10766ed6c6f2f15deb5b28098e7560991e8a36c487e492e670d7fc",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex68.truth",
+      "source_context_path": "app/instances/ex68.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex68.truth",
+      "git_blob": "724a1136b54ea6876272dceab42138e2fb0ead12",
+      "bytes": 12291,
+      "sha256": "f5fa7993992ffb05e2e96d40156aeaad6a82121d92aa495a7952cffd890f17c6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex69.truth",
+      "source_context_path": "app/instances/ex69.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex69.truth",
+      "git_blob": "a6afa768dd0e1f4df2eb14cc5f7e359d69ab7b02",
+      "bytes": 12291,
+      "sha256": "79b77744468f0a0fc0e86a26813901d374b838dfb612c2b3ed1a8f2af41480b6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex70.truth",
+      "source_context_path": "app/instances/ex70.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex70.truth",
+      "git_blob": "a07bd7df2b03ef2d34befd921b77fec0f1cd8a6b",
+      "bytes": 12291,
+      "sha256": "96a69f73a89e4409b34783f6436be9487fe00918bb5f5f7d489d036739e7600a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex71.truth",
+      "source_context_path": "app/instances/ex71.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex71.truth",
+      "git_blob": "cce0f9d799be6f58f47039eb846c35b9455abc69",
+      "bytes": 12291,
+      "sha256": "4c75c96be1877f6188ff23b0704c78337e69ae2f66c4a60db169d60b444daa75",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex72.truth",
+      "source_context_path": "app/instances/ex72.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex72.truth",
+      "git_blob": "aec4e38a0b6763b5b608a8089b6e85c117492718",
+      "bytes": 12291,
+      "sha256": "fd596075fefb6e2a98b019bd43f4181e9c49900450f959a46cfc314534a71a93",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex73.truth",
+      "source_context_path": "app/instances/ex73.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex73.truth",
+      "git_blob": "84dfeaa188ff24b2c304c11a772d43c1a494502f",
+      "bytes": 12291,
+      "sha256": "99caa9af723b3f24b296f20e5767d69cd2af106fdbe646c69ce95fb6558aa0df",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex74.truth",
+      "source_context_path": "app/instances/ex74.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex74.truth",
+      "git_blob": "00564124eb25a92f03d0e36ee3c45ac58872c9db",
+      "bytes": 12291,
+      "sha256": "10ecb51f05516efbec5f4211631f1f22cdb375e8b2944720ddb2a7dd278596c7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex75.truth",
+      "source_context_path": "app/instances/ex75.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex75.truth",
+      "git_blob": "98fab09dfc3438ffc644887e6aa5eef51fa39185",
+      "bytes": 12291,
+      "sha256": "ba4e6fc584898e2ad5ff017161a0f67c04a5081acdfdf3cd12e860f531f1df9b",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex76.truth",
+      "source_context_path": "app/instances/ex76.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex76.truth",
+      "git_blob": "550ac61c03d38c12f4ea726ae5d7483e3bb853e1",
+      "bytes": 12291,
+      "sha256": "f2f691f1b85d609c10ee1f94c799ec7d39599a573f1e66dbd5e928d6e396be8f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex77.truth",
+      "source_context_path": "app/instances/ex77.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex77.truth",
+      "git_blob": "1218deace2598b71126d37ce83f07ce77d8f9725",
+      "bytes": 12291,
+      "sha256": "967c99e94340efbb91b38f7bd0dc621e58b6c618ee719ba78fc3763309dad172",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex78.truth",
+      "source_context_path": "app/instances/ex78.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex78.truth",
+      "git_blob": "a7b8c12e99aff5639ea4544fee8d41f97b6f99ff",
+      "bytes": 12291,
+      "sha256": "24125032bfbac2569296bff166796003eebcaa7bc5d08026b95ea0c51587fe49",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex79.truth",
+      "source_context_path": "app/instances/ex79.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex79.truth",
+      "git_blob": "2178be370156ff5b5be761fdce3ccb67d0c7cb0a",
+      "bytes": 12291,
+      "sha256": "6360f6c861df83ebdfe53ee613adb1ddba7c4403843ab5b74504d7732c828682",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex80.truth",
+      "source_context_path": "app/instances/ex80.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex80.truth",
+      "git_blob": "496dfb01194e947378ecceac95d6aab389cc9d8f",
+      "bytes": 12291,
+      "sha256": "b31f6e97fbfe454b1a37726698aab5426305357f09553d2efbefbfe12a020d13",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex81.truth",
+      "source_context_path": "app/instances/ex81.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex81.truth",
+      "git_blob": "f44021ee7d5eb4e15833286717cbbbdb8006c4c6",
+      "bytes": 12291,
+      "sha256": "8187c65a5d04fe48f89946988770f633250d3d6d13cf9aeb2b27a07b77551185",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex82.truth",
+      "source_context_path": "app/instances/ex82.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex82.truth",
+      "git_blob": "8ef258d56a6db0e1261924b4d6c4e17a83421a64",
+      "bytes": 12291,
+      "sha256": "3a1189e696f3c5f1fa94c477447dfb9e154f771314ee33e6ec6503de67363da5",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex83.truth",
+      "source_context_path": "app/instances/ex83.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex83.truth",
+      "git_blob": "643b419a3cdbfefa8cd5a8af7db7ea29ef423d9f",
+      "bytes": 12291,
+      "sha256": "021e5a888999f1afc8e334416b1ce1db4e2e05fc0cd27f3d78a9d22bd9cbf49f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex84.truth",
+      "source_context_path": "app/instances/ex84.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex84.truth",
+      "git_blob": "2216cd01f77425fe7c2598a83b57462eb01b159c",
+      "bytes": 12291,
+      "sha256": "d125beef3fd31c2f075c253858bfe089abf10260735b38c6cb3d7f800302d847",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex85.truth",
+      "source_context_path": "app/instances/ex85.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex85.truth",
+      "git_blob": "bd9b8aebc1409cfae14153dc714ceba53cffcca9",
+      "bytes": 12291,
+      "sha256": "97199af77b42e5f3c1f489f06ce69d53eb7f9e6125619b0b56719274717b6cff",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex86.truth",
+      "source_context_path": "app/instances/ex86.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex86.truth",
+      "git_blob": "d9d3c7656a1186cf88ed5fd2217e3913fe425b80",
+      "bytes": 12291,
+      "sha256": "4566d45de47d182e1574e78228aebdc384cb48a33f1b3ac2fd83eb3dad8e3b9f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex87.truth",
+      "source_context_path": "app/instances/ex87.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex87.truth",
+      "git_blob": "3fd6a25ede99b720c021f9d32c2d5a66dc00d978",
+      "bytes": 12291,
+      "sha256": "1cc30c5d570e2e3a988e59e5100f7c0f4c6c5f5e05cd68bde0878da6f5f467f9",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex88.truth",
+      "source_context_path": "app/instances/ex88.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex88.truth",
+      "git_blob": "cc3f7349ea2edb173dca3b4f5555d02b362d729d",
+      "bytes": 12291,
+      "sha256": "64409edf7bb964c947e7ef8550d4b436dcb8b5cc7856de9b20a383971dae3152",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex89.truth",
+      "source_context_path": "app/instances/ex89.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex89.truth",
+      "git_blob": "bfbf9ed28eea65a8d5167cf8160c512b860964e6",
+      "bytes": 12291,
+      "sha256": "7a23cde757b67e25b3c1ca7d1139fff5c6c5153e7fe4c1f527e55a32b432caa2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex90.truth",
+      "source_context_path": "app/instances/ex90.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex90.truth",
+      "git_blob": "62e8adac6cecf1d8556cc70bf7364874cb0765d1",
+      "bytes": 12291,
+      "sha256": "83ece142906465516fdf7f94cfdc47c8f52d31672b5541893c651c1e2c756736",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex91.truth",
+      "source_context_path": "app/instances/ex91.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex91.truth",
+      "git_blob": "4b37a94c465727ca17e5693a51c719ae7934e030",
+      "bytes": 12291,
+      "sha256": "5412d473803a6e8d4b52c92a0dbda89a71065303b338b5522d1aa3dfd021eae6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex92.truth",
+      "source_context_path": "app/instances/ex92.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex92.truth",
+      "git_blob": "11cd14602a814440b4bbc05b948db9e9489341ec",
+      "bytes": 3075,
+      "sha256": "e176e3043ace6957d2e2dc48678880f849b97cc7ae80e650c6a85a8095ac8466",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex93.truth",
+      "source_context_path": "app/instances/ex93.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex93.truth",
+      "git_blob": "626b61824afbf00eac7a83aa4bef69b2c0eb01ce",
+      "bytes": 12291,
+      "sha256": "a4a2277cf2ea145294681b0b97e7b328a89309c28a106b9a64a4939971807a47",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex94.truth",
+      "source_context_path": "app/instances/ex94.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex94.truth",
+      "git_blob": "407e4a36d2b9701dabdedd5cccffb08f313244fa",
+      "bytes": 6147,
+      "sha256": "99b9abda4b03de09c5263724d749570a258896dca92c658e3ca61c121423df1d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex95.truth",
+      "source_context_path": "app/instances/ex95.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex95.truth",
+      "git_blob": "26fc8ff64a868c4f14264fba2a247e2b8c742547",
+      "bytes": 6147,
+      "sha256": "99755da075f27633ef32aab9b2009686e397a74bf3d6f86a64d1068592cb67d2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex96.truth",
+      "source_context_path": "app/instances/ex96.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex96.truth",
+      "git_blob": "c7c59014a543d5cf973cba61762fa38dc8aee37e",
+      "bytes": 12291,
+      "sha256": "a525ede2947df2eda3a1f5b4971241b42b799c8aff6059b3ec233dd8897973bd",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex97.truth",
+      "source_context_path": "app/instances/ex97.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex97.truth",
+      "git_blob": "589e5bfc25ce6fad2c1c8c99d7dd00b2003fd7cb",
+      "bytes": 12291,
+      "sha256": "7a8d0d8c08304759d6059beb494cf6ec57daacb23ea97a14d968be9b2458511a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex98.truth",
+      "source_context_path": "app/instances/ex98.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex98.truth",
+      "git_blob": "950ffa3e2b9b4c29d517537187ab071b586c22bc",
+      "bytes": 12291,
+      "sha256": "93e53d6ccb82c3dd765cb9977e38a0e2a09f73b02f62a980e1cc83db3c81e4fd",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ex99.truth",
+      "source_context_path": "app/instances/ex99.truth",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/instances/ex99.truth",
+      "git_blob": "7e342e4f5b81e610a30e49cfe3ac26b274f7fd93",
+      "bytes": 12291,
+      "sha256": "f56c69b3fa643792d45f6e1d14a9b15373493249ea07e41f9a9356db8baddd5c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/LICENSE",
+      "bytes": 1072,
+      "sha256": "4b3b6776dbdc66e1239acab986f5a5cb823caadf9127e28c8a044dcb02b900e1",
+      "mode": "0644"
+    }
+  ]
+}

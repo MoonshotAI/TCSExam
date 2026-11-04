@@ -1,0 +1,39 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-monotonicity-test-lb-bare-proof"
+version = "0.1.0"
+description = "Prove the CCCPS26 monotonicity-testing lower-bound chain (Lemma 9 yes-monotonicity, the FLN violation-pairs bound, Lemma 10 no-farness, Lemma 15 safe-outcome ratio, Lemma 19 good-implies-safe bound, the Claim 28 counting lemma, Lemma 20 good-run whp, and Theorem 17 of Chen-Chen-Cui-Pires-Stockwell, STOC 2026 / arXiv 2511.04558) in Lean 4 (machine-verified). L2: statement fidelity only, no ground truth. [bare variant: main theorem only, 0/1]"
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "property-testing", "monotonicity-testing", "query-complexity", "talagrand-functions", "decision-trees", "yao-minimax", "type-2"]
+
+[metadata]
+family_id = "fam-monotonicity-test-lb"
+candidate_id = "cand-cccps26-monotonicity-testing-lb"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task: the proofs need case analysis on a unique-activation walk, violation-pair counting, explicit constant bookkeeping for o(1)/Omega(1) statements, bipartite double counting, a smoothing inequality with real exponents, a level-by-level induction, and a Yao-style averaging assembly over finite sample spaces; no ground truth is provided."
+source_paper = "Mark Chen, Xi Chen, Hao Cui, William Pires, Jonah Stockwell: Boolean function monotonicity testing requires (almost) n^{1/2} queries, STOC 2026 (best paper); arXiv 2511.04558v2."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-theorem-monotonicity-test-lb-verifier"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

@@ -1,0 +1,10 @@
+{
+  "task": "tcsexam/open-mansour-conjecture",
+  "namespace": "MansourConjecture",
+  "main_slots": [
+    "conj",
+    "refuted"
+  ],
+  "weight_note": "prove-or-refute v1 (mains-only): a clean proof of `conj` (the conjecture) or of `refuted` (its negation) scores 1.0; there is no partial credit — this is an open problem. Both slots are mandatory and must stay in the reference order (conj, refuted). Slot statements follow the Simons Institute open-problem collection (Mansour's conjecture: epsilon-concentration on at most s^{O(log(1/eps))} coefficients for DNFs of size s > 1, size = number of terms); the definition layer works over Q for the theory and over Z for kernel-decidable integer numerators (see environment/app/Task/Basic.lean header and tests/reference/concept-ledger.md).",
+  "checkpoints": []
+}

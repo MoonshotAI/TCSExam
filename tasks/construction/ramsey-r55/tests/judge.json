@@ -1,0 +1,25 @@
+{
+  "namespace": "R55",
+  "score_mode": "solver_cubic",
+  "compile_timeout_sec": 1200,
+  "min_n": 1,
+  "max_n": 64,
+  "allowed_axioms": ["propext", "Classical.choice", "Quot.sound"],
+  "claims": [
+    {
+      "name": "submission_lower",
+      "direction": "lower",
+      "header_pattern": ":\\s*∃\\s*c\\s*:\\s*Coloring\\s+(\\d+)\\s*,\\s*MonoFree\\s+c"
+    },
+    {
+      "name": "submission_upper",
+      "direction": "upper",
+      "header_pattern": ":\\s*∀\\s*c\\s*:\\s*Coloring\\s+(\\d+)\\s*,\\s*¬\\s*MonoFree\\s+c"
+    }
+  ],
+  "scoring": {
+    "modes": ["alpha_milestone", "solver_cubic"],
+    "lower": {"vacuous_below": 5, "baseline_n": 30, "record_n": 42, "record_broken_from": 43},
+    "upper": {"trivial_n": 70, "record_n": 46}
+  }
+}

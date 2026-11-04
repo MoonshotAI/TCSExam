@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "task": "tasks/solver/online/maxclique-dimacs",
+  "remove_paths": ["/tests"],
+  "allow_content_paths": [
+    "/tests-public",
+    "/public-instances",
+    "/public_reference.json",
+    "/judge",
+    "/opt/maxclique/scoring.py",
+    "/app/public_reference.json",
+    "/app/instances",
+    "/app/solutions",
+    "/app/score_public.py"
+  ],
+  "required_paths": [
+    "/judge/entry.sh",
+    "/judge/judge_worker.py",
+    "/tests-public/checker.py",
+    "/tests-public/reference.json",
+    "/public-instances",
+    "/public_reference.json",
+    "/opt/maxclique/scoring.py",
+    "/app/public_reference.json",
+    "/app/instances",
+    "/app/solutions"
+  ]
+}

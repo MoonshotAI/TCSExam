@@ -1,0 +1,29 @@
+{
+  "format": "fixed_data_archive",
+  "archive_format": "tar+gzip",
+  "task_id": "maxclique-dimacs",
+  "data_split": "public",
+  "source": {
+    "id": "solver-maxclique-dimacs-development-data-fixed-archive",
+    "url": null,
+    "bytes": 33178035,
+    "sha256": "4fefe032d7eb6b71b17964cb191a40f9cf726b43777007c14e23659f4ecc8fb9"
+  },
+  "manifest_sha256": "8a690fd4a21b8165dc15918eb64156a739dce6b4bfdd64b644ac76b7c0eadb86",
+  "generator_paths": [
+    "src/tcsexam/fixed_data_archive.py"
+  ],
+  "description": "Explicit exact input-only archive import. Preserve every frozen path, byte and mode; only manifest-declared data files are accepted.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "public_pin": null,
+  "public_acquisition_verified": false,
+  "new_distribution_authorization": false,
+  "excluded": [
+    "answers",
+    "logs",
+    "credentials",
+    "neither",
+    "undeclared files"
+  ]
+}

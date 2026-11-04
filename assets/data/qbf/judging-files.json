@@ -1,0 +1,346 @@
+{
+  "files": [
+    {
+      "path": "opt/qbf-judge300/ex001.qdimacs.xz",
+      "bytes": 72100,
+      "mode": "0644",
+      "sha256": "3684d2e3eed84455a7db1caae4be497f4ca4c01dc5e9c5f94cf758836905dcac"
+    },
+    {
+      "path": "opt/qbf-judge300/ex002.qdimacs.xz",
+      "bytes": 63252,
+      "mode": "0644",
+      "sha256": "b83e1404ffc7ac329a89130ebed0df3fe4d42563ba55c8a9bdafabf6ab30ac10"
+    },
+    {
+      "path": "opt/qbf-judge300/ex003.qdimacs.xz",
+      "bytes": 123836,
+      "mode": "0644",
+      "sha256": "174569997dbbbd92adc918bd9fc888ceebc7d9272af638a8f5f29a3901b94da5"
+    },
+    {
+      "path": "opt/qbf-judge300/ex004.qdimacs.xz",
+      "bytes": 33560,
+      "mode": "0644",
+      "sha256": "09351885745fc00278fc5e7a302cb89d2beb131b76d0318f74bf63167a5e484e"
+    },
+    {
+      "path": "opt/qbf-judge300/ex005.qdimacs.xz",
+      "bytes": 37248,
+      "mode": "0644",
+      "sha256": "86c9b4ad549a0edb772fdc24150ff13e9e9436189d08c2ebbfd29c081cf17046"
+    },
+    {
+      "path": "opt/qbf-judge300/ex006.qdimacs.xz",
+      "bytes": 22736,
+      "mode": "0644",
+      "sha256": "706b80c7253f5a996c1aaf4e3a560e1978918929a4597fcff0ca485bff3eec2c"
+    },
+    {
+      "path": "opt/qbf-judge300/ex007.qdimacs.xz",
+      "bytes": 25196,
+      "mode": "0644",
+      "sha256": "46603148bcb1e510d91cb097dc7d0ecfa4f9b7682e082c3babe0fad1db91c66b"
+    },
+    {
+      "path": "opt/qbf-judge300/ex008.qdimacs.xz",
+      "bytes": 27964,
+      "mode": "0644",
+      "sha256": "d86f1fefd420b9b882af53a6ff38de052e30e1726c30f0c585bf15df6db3c7c1"
+    },
+    {
+      "path": "opt/qbf-judge300/ex009.qdimacs.xz",
+      "bytes": 178208,
+      "mode": "0644",
+      "sha256": "26a31425d6d1a730726f32e931cfe13e50a1a9466ed145632b992b377da6b138"
+    },
+    {
+      "path": "opt/qbf-judge300/ex010.qdimacs.xz",
+      "bytes": 495192,
+      "mode": "0644",
+      "sha256": "4231dd86fa1d0001c11600ef598da64f812fad95bf3fe09498360c614d40c807"
+    },
+    {
+      "path": "opt/qbf-judge300/ex011.qdimacs.xz",
+      "bytes": 8400,
+      "mode": "0644",
+      "sha256": "03cb8fb5f1a37db02d1f731a6018b2d87c0b532701d6b8f572a009e28b80b025"
+    },
+    {
+      "path": "opt/qbf-judge300/ex012.qdimacs.xz",
+      "bytes": 208976,
+      "mode": "0644",
+      "sha256": "04852482ff2c298a4addbaf44c15188fa70e5cf6c167ec0569bc679ad2ac5924"
+    },
+    {
+      "path": "opt/qbf-judge300/ex013.qdimacs.xz",
+      "bytes": 587792,
+      "mode": "0644",
+      "sha256": "b409dd1a0d137a48debdab2b21d76fe3b9c94d49e8945fb47831c2aac7bdab79"
+    },
+    {
+      "path": "opt/qbf-judge300/ex014.qdimacs.xz",
+      "bytes": 546472,
+      "mode": "0644",
+      "sha256": "a455f3389d54d57d2f4dc9da8f17595c686bc0b3c60640a670d6f41454b84db4"
+    },
+    {
+      "path": "opt/qbf-judge300/ex015.qdimacs.xz",
+      "bytes": 963188,
+      "mode": "0644",
+      "sha256": "5573c98eca0d5ccbf293ecdf05d729740b60689d05ca84f94063394bd3a2351c"
+    },
+    {
+      "path": "opt/qbf-judge300/ex016.qdimacs.xz",
+      "bytes": 389464,
+      "mode": "0644",
+      "sha256": "126c82ac6ac9673e22a2f0d01367f6e44add791539c15f31b310f77369cacaa5"
+    },
+    {
+      "path": "opt/qbf-judge300/ex017.qdimacs.xz",
+      "bytes": 308620,
+      "mode": "0644",
+      "sha256": "96e54f40fa0d4572685ddac24a82ec8d8094f1de250821f6fb68587c4413fcd9"
+    },
+    {
+      "path": "opt/qbf-judge300/ex018.qdimacs.xz",
+      "bytes": 21205548,
+      "mode": "0644",
+      "sha256": "31b74918621c32489dbc4d5805bfeb322819f8fb11aee914370c985fc6ed1ea4"
+    },
+    {
+      "path": "opt/qbf-judge300/ex019.qdimacs.xz",
+      "bytes": 42955636,
+      "mode": "0644",
+      "sha256": "37b98691fc68f8937bb0c59f8fa088a7dc9eb0586804f945e7e3cd6b7525ed0d"
+    },
+    {
+      "path": "opt/qbf-judge300/ex020.qdimacs.xz",
+      "bytes": 2396552,
+      "mode": "0644",
+      "sha256": "07c58a9728cc3abfa1b61476716b0b73c88af40602d71104d8dba9df424ecd5e"
+    },
+    {
+      "path": "opt/qbf-judge300/ex021.qdimacs.xz",
+      "bytes": 18364,
+      "mode": "0644",
+      "sha256": "72a87d7d1f9d72657ce116b52d70468de7c6c2faf2f81e89d3a3077cdcfe2a97"
+    },
+    {
+      "path": "opt/qbf-judge300/ex022.qdimacs.xz",
+      "bytes": 32580,
+      "mode": "0644",
+      "sha256": "599f2633da406d83f477577c37ac139ecb621f8558b7c7d7f0eef2280a63032f"
+    },
+    {
+      "path": "opt/qbf-judge300/ex023.qdimacs.xz",
+      "bytes": 174612,
+      "mode": "0644",
+      "sha256": "0c29ed6a25f1bf821d76c4f99dbaf7593c35b39e30bc86c675ce676634ce4ef6"
+    },
+    {
+      "path": "opt/qbf-judge300/ex024.qdimacs.xz",
+      "bytes": 316444,
+      "mode": "0644",
+      "sha256": "4606f83f2457ed98d77cf07e018c7a2e4820a8e01734b1f58a56f7984651c1d6"
+    },
+    {
+      "path": "opt/qbf-judge300/ex025.qdimacs.xz",
+      "bytes": 10752,
+      "mode": "0644",
+      "sha256": "3587ca50af8e6ce650c713732a10b6bb7ba57b4c110b5871f9274615ad267fa3"
+    },
+    {
+      "path": "opt/qbf-judge300/ex026.qdimacs.xz",
+      "bytes": 41412,
+      "mode": "0644",
+      "sha256": "2f720770f2556f965d918cc8afb01a0f27a11ee379847079b760e793f088b886"
+    },
+    {
+      "path": "opt/qbf-judge300/ex027.qdimacs.xz",
+      "bytes": 8372,
+      "mode": "0644",
+      "sha256": "10ab61a0fbfdcf377ad27c498e562dd3e3cb73b8ca47e5e2a44de031ce1003e3"
+    },
+    {
+      "path": "opt/qbf-judge300/ex028.qdimacs.xz",
+      "bytes": 7032,
+      "mode": "0644",
+      "sha256": "3881f9b8674d1c14bd4e8a4f47708ae8065f3d4c636c8446f16eee84ceb191f6"
+    },
+    {
+      "path": "opt/qbf-judge300/ex029.qdimacs.xz",
+      "bytes": 6908,
+      "mode": "0644",
+      "sha256": "14b63f68dcf5f49ad2e7bdbedb6c05c3c147abb3a0e89718c98a174e8ab4e5fa"
+    },
+    {
+      "path": "opt/qbf-judge300/ex030.qdimacs.xz",
+      "bytes": 134064,
+      "mode": "0644",
+      "sha256": "225755da78f94bd338f20f7a9438597b924d257cde8d0160f2e75244154e4d53"
+    },
+    {
+      "path": "opt/qbf-judge300/ex031.qdimacs.xz",
+      "bytes": 9202572,
+      "mode": "0644",
+      "sha256": "98feab5f65cbae722a5acc4949bbb0d0b859b833c3105467446cdb1761675ae6"
+    },
+    {
+      "path": "opt/qbf-judge300/ex032.qdimacs.xz",
+      "bytes": 12711024,
+      "mode": "0644",
+      "sha256": "f318c1c4d8b85b456930065a1e01c10021498ad97e1a571cc20749464fddd318"
+    },
+    {
+      "path": "opt/qbf-judge300/ex033.qdimacs.xz",
+      "bytes": 7234988,
+      "mode": "0644",
+      "sha256": "2be51be52768d221d123d0f203f4459d60223ed4e9e98baf2666a238fcc02aab"
+    },
+    {
+      "path": "opt/qbf-judge300/ex034.qdimacs.xz",
+      "bytes": 9545792,
+      "mode": "0644",
+      "sha256": "a9e22a9b1a06dd617d4bcd504fd2ccacad8f20135f47256b72dd25240fbf538b"
+    },
+    {
+      "path": "opt/qbf-judge300/ex035.qdimacs.xz",
+      "bytes": 10608592,
+      "mode": "0644",
+      "sha256": "a437492f6eb85047e8251a98747ea41a5d8900a2c1aa90e7ef7e805bfd35ac07"
+    },
+    {
+      "path": "opt/qbf-judge300/ex036.qdimacs.xz",
+      "bytes": 13303240,
+      "mode": "0644",
+      "sha256": "f2ebccca161d4c94d1d5a86e2be8eff22ffe070a27a5f2b458ef41f72111ee77"
+    },
+    {
+      "path": "opt/qbf-judge300/ex037.qdimacs.xz",
+      "bytes": 158720,
+      "mode": "0644",
+      "sha256": "79a63bb6690f2f212aa7a618acf2b955bb20ec3ddb7ad4c69c3e574a5a39d712"
+    },
+    {
+      "path": "opt/qbf-judge300/ex038.qdimacs.xz",
+      "bytes": 271232,
+      "mode": "0644",
+      "sha256": "aace6109b6658dbd197e3b388804c6dc848d174f5283903e4c0a599403c8dde0"
+    },
+    {
+      "path": "opt/qbf-judge300/ex039.qdimacs.xz",
+      "bytes": 290272,
+      "mode": "0644",
+      "sha256": "2aadf87016faa531b544a0ae502f66736f7dedd7cb87774bd3cb09943f523252"
+    },
+    {
+      "path": "opt/qbf-judge300/ex040.qdimacs.xz",
+      "bytes": 220116,
+      "mode": "0644",
+      "sha256": "5ac69af929764cda7e447e731af241bc79ea900759143b1f633b539c90e2f24d"
+    },
+    {
+      "path": "opt/qbf-judge300/ex041.qdimacs.xz",
+      "bytes": 31852,
+      "mode": "0644",
+      "sha256": "02f7f7d1803d150374de9eb9fdbd489299bef1f7e9586f7a0f60700fd5ee04b0"
+    },
+    {
+      "path": "opt/qbf-judge300/ex042.qdimacs.xz",
+      "bytes": 80956,
+      "mode": "0644",
+      "sha256": "4edfb82908fd8cc9ba694dd2732081c14804b1ea2a5e894957c78948d6770588"
+    },
+    {
+      "path": "opt/qbf-judge300/ex043.qdimacs.xz",
+      "bytes": 36296,
+      "mode": "0644",
+      "sha256": "1ed6406b0c12677cc9f42c268d561cf1190b07f0e8ac3ee741c704fed89a5924"
+    },
+    {
+      "path": "opt/qbf-judge300/ex044.qdimacs.xz",
+      "bytes": 35640,
+      "mode": "0644",
+      "sha256": "f6f4ecd55cf0b38d0a8cbe8ecd62c9aaa53ed21514237d9b0c7c0ce20b516224"
+    },
+    {
+      "path": "opt/qbf-judge300/ex045.qdimacs.xz",
+      "bytes": 30464,
+      "mode": "0644",
+      "sha256": "a1f781e61116185c64d6857eebd5d0ad486ada40a607f74a838bee1d86cef1ca"
+    },
+    {
+      "path": "opt/qbf-judge300/ex046.qdimacs.xz",
+      "bytes": 498712,
+      "mode": "0644",
+      "sha256": "4dda9712522e2e5b9f69ff4a49e84ca8e022ed2944d8fbd867f584e70e2da67a"
+    },
+    {
+      "path": "opt/qbf-judge300/ex047.qdimacs.xz",
+      "bytes": 641400,
+      "mode": "0644",
+      "sha256": "3155cfa5003620d1c45ab4023c74d04a03170c00a67a962e37714829e0cc945f"
+    },
+    {
+      "path": "opt/qbf-judge300/ex048.qdimacs.xz",
+      "bytes": 275244,
+      "mode": "0644",
+      "sha256": "b06435f64214405de75413ae926b0ecf5449ecd35432c3491a985d123c79dad1"
+    },
+    {
+      "path": "opt/qbf-judge300/ex049.qdimacs.xz",
+      "bytes": 43808,
+      "mode": "0644",
+      "sha256": "8e3043bd2c672bb2b180f05c3ed5d1aec55dcbc6c8c23fe29cad9f11bc84b79c"
+    },
+    {
+      "path": "opt/qbf-judge300/ex050.qdimacs.xz",
+      "bytes": 43748,
+      "mode": "0644",
+      "sha256": "72ae440e1a0520f1c8f67aba995ea4f215c6646ac371d325c9c0d1e88b62fa3b"
+    },
+    {
+      "path": "opt/qbf-judge300/ex051.qdimacs.xz",
+      "bytes": 74144,
+      "mode": "0644",
+      "sha256": "e6b4a7dd822223c1da2299b9357a9adb12d07df5d04d7a6290066b03df3f4b6e"
+    },
+    {
+      "path": "opt/qbf-judge300/ex052.qdimacs.xz",
+      "bytes": 99896,
+      "mode": "0644",
+      "sha256": "02c81f7c9473c081513fbe4541a2bf7b5b0182b709205d85d44950b5d20a4f51"
+    },
+    {
+      "path": "opt/qbf-judge300/ex053.qdimacs.xz",
+      "bytes": 244548,
+      "mode": "0644",
+      "sha256": "48b3b50529ba50cf6668d5fe2c1e3121901d3ebf0d6880a17dc1586b52eb2b55"
+    },
+    {
+      "path": "opt/qbf-judge300/ex054.qdimacs.xz",
+      "bytes": 68064,
+      "mode": "0644",
+      "sha256": "1d46533216d3c41fe920fbe60bd459a03b16a22e11bc8c7a13de239e293cc020"
+    },
+    {
+      "path": "opt/qbf-judge300/ex055.qdimacs.xz",
+      "bytes": 220004,
+      "mode": "0644",
+      "sha256": "eb29ec92d7281c883ade46e6f6c22326b26379a55be611b813cd75d48014643f"
+    },
+    {
+      "path": "opt/qbf-judge300/ex056.qdimacs.xz",
+      "bytes": 35476,
+      "mode": "0644",
+      "sha256": "f89b8907aa2cd3c182928bf9131fb83825110964c30b1c2c0ebf56341a794656"
+    },
+    {
+      "path": "opt/qbf-judge300/ex057.qdimacs.xz",
+      "bytes": 30300,
+      "mode": "0644",
+      "sha256": "40575b813beb4de761c5653aeb7df6a42410e8f0173559b2113990df9c15e2c9"
+    }
+  ]
+}

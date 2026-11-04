@@ -1,0 +1,276 @@
+{
+ "instances": {
+  "A1": {
+   "B": 6720296,
+   "K": 425486,
+   "items_area": 4514704,
+   "n_items": 5,
+   "n_stacks": 1
+  },
+  "A10": {
+   "B": 63719761,
+   "K": 4084381,
+   "items_area": 71100239,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 86,
+   "n_stacks": 9
+  },
+  "A11": {
+   "B": 62350789,
+   "K": 4358929,
+   "items_area": 64444211,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 86,
+   "n_stacks": 10
+  },
+  "A12": {
+   "B": 28599994,
+   "K": 1879954,
+   "items_area": 29180006,
+   "n_items": 50,
+   "n_stacks": 8
+  },
+  "A13": {
+   "B": 152539023,
+   "K": 9331293,
+   "items_area": 213400977,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 272,
+   "n_stacks": 11
+  },
+  "A14": {
+   "B": 227854458,
+   "K": 10383378,
+   "items_area": 226360542,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 361,
+   "n_stacks": 12
+  },
+  "A15": {
+   "B": 215581961,
+   "K": 10828901,
+   "items_area": 238633039,
+   "n_items": 392,
+   "n_stacks": 14
+  },
+  "A16": {
+   "B": 31689323,
+   "K": 3380333,
+   "items_area": 37325677,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 38,
+   "n_stacks": 5
+  },
+  "A17": {
+   "B": 30131851,
+   "K": 3617251,
+   "items_area": 19623149,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 21,
+   "n_stacks": 2
+  },
+  "A18": {
+   "B": 66512898,
+   "K": 4983618,
+   "items_area": 60282102,
+   "n_items": 73,
+   "n_stacks": 6
+  },
+  "A19": {
+   "B": 35995124,
+   "K": 3323744,
+   "items_area": 41044876,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 47,
+   "n_stacks": 6
+  },
+  "A2": {
+   "B": 153918149,
+   "K": 4383509,
+   "items_area": 77201851,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 72,
+   "n_stacks": 72
+  },
+  "A20": {
+   "B": 15784525,
+   "K": 1467925,
+   "items_area": 14710475,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 17,
+   "n_stacks": 10
+  },
+  "A3": {
+   "B": 35243010,
+   "K": 2651880,
+   "items_area": 41796990,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 68,
+   "n_stacks": 7
+  },
+  "A4": {
+   "B": 54503010,
+   "K": 2924730,
+   "items_area": 41796990,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 68,
+   "n_stacks": 7
+  },
+  "A5": {
+   "B": 50964993,
+   "K": 3017223,
+   "items_area": 56570007,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 97,
+   "n_stacks": 12
+  },
+  "A6": {
+   "B": 45020130,
+   "K": 3225930,
+   "items_area": 43254870,
+   "n_items": 37,
+   "n_stacks": 6
+  },
+  "A7": {
+   "B": 56599830,
+   "K": 3920520,
+   "items_area": 70195170,
+   "n_items": 57,
+   "n_stacks": 9
+  },
+  "A8": {
+   "B": 123569804,
+   "K": 8378954,
+   "items_area": 138045196,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 129,
+   "n_stacks": 8
+  },
+  "A9": {
+   "B": 51420966,
+   "K": 2664276,
+   "items_area": 44879034,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 63,
+   "n_stacks": 9
+  },
+  "B1": {
+   "B": 49684608,
+   "K": 2661318,
+   "items_area": 77110392,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 68,
+   "n_stacks": 68
+  },
+  "B10": {
+   "B": 320170163,
+   "K": 21951533,
+   "items_area": 345904837,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 214,
+   "n_stacks": 13
+  },
+  "B11": {
+   "B": 330022130,
+   "K": 20626280,
+   "items_area": 336052870,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 274,
+   "n_stacks": 15
+  },
+  "B12": {
+   "B": 260143237,
+   "K": 12514207,
+   "items_area": 259876763,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 439,
+   "n_stacks": 18
+  },
+  "B13": {
+   "B": 432382125,
+   "K": 22657725,
+   "items_area": 484072875,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 656,
+   "n_stacks": 18
+  },
+  "B14": {
+   "B": 151295890,
+   "K": 8023960,
+   "items_area": 176124110,
+   "n_items": 267,
+   "n_stacks": 14
+  },
+  "B15": {
+   "B": 387596921,
+   "K": 22619921,
+   "items_area": 432558079,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 431,
+   "n_stacks": 21
+  },
+  "B2": {
+   "B": 243185915,
+   "K": 11931095,
+   "items_area": 315354085,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 383,
+   "n_stacks": 13
+  },
+  "B3": {
+   "B": 324110513,
+   "K": 15786803,
+   "items_area": 349989487,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 332,
+   "n_stacks": 12
+  },
+  "B4": {
+   "B": 151929385,
+   "K": 7315675,
+   "items_area": 148205615,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 261,
+   "n_stacks": 12
+  },
+  "B5": {
+   "B": 269323445,
+   "K": 72155615,
+   "items_area": 319711555,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 207,
+   "n_stacks": 2
+  },
+  "B6": {
+   "B": 165040927,
+   "K": 10800427,
+   "items_area": 192874073,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 204,
+   "n_stacks": 9
+  },
+  "B7": {
+   "B": 170168709,
+   "K": 6628839,
+   "items_area": 187746291,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 241,
+   "n_stacks": 241
+  },
+  "B8": {
+   "B": 276922189,
+   "K": 14398759,
+   "items_area": 339397811,
+   "k_source": "fontanf/roadef2018@cafccd0 solutions_best (official checker validated ; re-verified by judging checker )",
+   "n_items": 334,
+   "n_stacks": 12
+  },
+  "B9": {
+   "B": 341752357,
+   "K": 16495897,
+   "items_area": 293827643,
+   "n_items": 247,
+   "n_stacks": 12
+  }
+ }
+}

@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-aaronson-ambainis"
+version = "0.1.0"
+description = "Prove or refute the Aaronson–Ambainis conjecture (Conjecture 1.7 of Aaronson–Ambainis, Theory of Computing 10(6):133-166, 2014: every bounded low-degree polynomial on the Boolean cube has an influential variable) in Lean 4, machine-verified. Open problem, prove-or-refute v1 (mains-only): full score for proving or refuting, no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "boolean-function-analysis", "fourier-analysis", "influences", "open-conjecture", "prove-or-refute"]
+
+[metadata]
+family_id = "fam-open-aaronson-ambainis"
+candidate_id = "cand-open-aaronson-ambainis"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open conjecture (still open as of 2026-09; the random-restriction analogue was proved by Bhattacharya, ITCS 2025). Full score requires settling it in either direction; there is no partial credit."
+source_paper = "Aaronson, Ambainis: The Need for Structure in Quantum Speedups, Theory of Computing 10(6):133-166, 2014 (Conjecture 1.7); arXiv:0911.0996. Random-restriction version: Bhattacharya, ITCS 2025, arXiv:2402.13952."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-aaronson-ambainis-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

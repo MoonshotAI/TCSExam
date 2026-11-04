@@ -1,0 +1,129 @@
+{
+ "instances": {
+  "x_1": {
+   "B": 4468230392,
+   "K": 3039107723,
+   "K_source": "S41(gcc rebuild)/s15 @300s official budget, 1-core pinned, isolated-cpu-8c32g, in-sandbox official-checker verified (v3 authoritative leg; v2 poll-downloads proved unstable)",
+   "assignment": "assignment_x_1.txt",
+   "challenge2012_min": 3100852728,
+   "challenge2012_min_team": "S41",
+   "lower_bound_lb": 3023565050,
+   "model": "model_x_1.txt",
+   "nls2014_best": 3030246091,
+   "K_old": 3057986413,
+   "K_old_source": "our run s41/s6 (verified by official checker)"
+  },
+  "x_10": {
+   "B": 18292191969,
+   "K": 17816303305,
+   "K_source": "S41(gcc rebuild)/s4 @300s official budget, 1-core pinned, isolated-cpu-8c32g, verified by official checker",
+   "assignment": "assignment_x_10.txt",
+   "challenge2012_min": 17816514161,
+   "challenge2012_min_team": "S41",
+   "lower_bound_lb": 17814534020,
+   "model": "model_x_10.txt",
+   "nls2014_best": 17815045320,
+   "K_old": 17848131894,
+   "K_old_source": "our run s41/s4 (verified by official checker)"
+  },
+  "x_2": {
+   "B": 1102313078,
+   "K": 1002918841,
+   "K_source": "S41(gcc rebuild)/s4 @300s official budget, 1-core pinned, isolated-cpu-8c32g, verified by official checker",
+   "assignment": "assignment_x_2.txt",
+   "challenge2012_min": 1002502119,
+   "challenge2012_min_team": "S1",
+   "lower_bound_lb": 1001403470,
+   "model": "model_x_2.txt",
+   "nls2014_best": 1002698043,
+   "K_old": 1003047920,
+   "K_old_source": "our run s41/s5 (verified by official checker)"
+  },
+  "x_3": {
+   "B": 893951040,
+   "K": 240678,
+   "K_source": "our run j33/s1 (verified by official checker)",
+   "assignment": "assignment_x_3.txt",
+   "challenge2012_min": 211656,
+   "challenge2012_min_team": "J12",
+   "lower_bound_lb": 0,
+   "model": "model_x_3.txt",
+   "nls2014_best": 259656
+  },
+  "x_4": {
+   "B": 4722447627,
+   "K": 4721772360,
+   "K_source": "our run j33/s1 (verified by official checker)",
+   "assignment": "assignment_x_4.txt",
+   "challenge2012_min": 4721629497,
+   "challenge2012_min_team": "S38",
+   "lower_bound_lb": 4721558880,
+   "model": "model_x_4.txt",
+   "nls2014_best": 4721820325
+  },
+  "x_5": {
+   "B": 216069693,
+   "K": 86659,
+   "K_source": "our run j33/s3 (verified by official checker)",
+   "assignment": "assignment_x_5.txt",
+   "challenge2012_min": 93823,
+   "challenge2012_min_team": "S38",
+   "lower_bound_lb": 0,
+   "model": "model_x_5.txt",
+   "nls2014_best": 144768
+  },
+  "x_6": {
+   "B": 9546999173,
+   "K": 9546942338,
+   "K_source": "our run j33/s1 (verified by official checker)",
+   "assignment": "assignment_x_6.txt",
+   "challenge2012_min": 9546941232,
+   "challenge2012_min_team": "S34",
+   "lower_bound_lb": 9546930520,
+   "model": "model_x_6.txt",
+   "nls2014_best": 9546967016
+  },
+  "x_7": {
+   "B": 15427731318,
+   "K": 14253203012,
+   "K_source": "S41(gcc rebuild)/s6 @300s official budget, 1-core pinned, isolated-cpu-8c32g, verified by official checker",
+   "assignment": "assignment_x_7.txt",
+   "challenge2012_min": 14253273178,
+   "challenge2012_min_team": "S14",
+   "lower_bound_lb": 14251967330,
+   "model": "model_x_7.txt",
+   "nls2014_best": 14253133805,
+   "K_old": 14254873851,
+   "K_old_source": "our run s41/s5 (verified by official checker)"
+  },
+  "x_8": {
+   "B": 36517598,
+   "K": 38947,
+   "K_source": "our run j33/s2 (verified by official checker)",
+   "assignment": "assignment_x_8.txt",
+   "challenge2012_min": 42674,
+   "challenge2012_min_team": "J33",
+   "lower_bound_lb": 0,
+   "model": "model_x_8.txt",
+   "nls2014_best": 138083
+  },
+  "x_9": {
+   "B": 16126024634,
+   "K": 16125814145,
+   "K_source": "S41(gcc rebuild)/s3 @300s official budget, 1-core pinned, isolated-cpu-8c32g, verified by official checker",
+   "assignment": "assignment_x_9.txt",
+   "challenge2012_min": 16125612590,
+   "challenge2012_min_team": "S34",
+   "lower_bound_lb": 16125494300,
+   "model": "model_x_9.txt",
+   "nls2014_best": 16125746709,
+   "K_old": 16125772761,
+   "K_old_source": "our run s41/s3 (verified by official checker)"
+  }
+ },
+ "per_instance_seconds": 300,
+ "meta": {
+  "per_instance_seconds": 300,
+  "budget_note": "Aligned with official ROADEF/EURO 2012 final: 300 s per instance hard limit, instances evaluated in parallel."
+ }
+}

@@ -1,0 +1,42 @@
+{
+  "author": "Google LLC",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BSD-3-Clause",
+  "lock_entry": {
+    "integrity": "sha512-Aou5UdlSpr5whQe8AA/bZG0jMj96CoJIWbGfZ91qieWu5AWUMKw8VR/pAkQkJYvBNhmCcWnZlyyk5oze8JIqYA==",
+    "license": "BSD-3-Clause",
+    "resolved": "https://registry.npmjs.org/@lit-labs/ssr-dom-shim/-/ssr-dom-shim-1.5.1.tgz",
+    "version": "1.5.1"
+  },
+  "lock_path": "node_modules/@lit-labs/ssr-dom-shim",
+  "name": "@lit-labs/ssr-dom-shim",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "BSD-3-Clause",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 28294,
+    "installed_in_image": false,
+    "integrity": "sha512-Aou5UdlSpr5whQe8AA/bZG0jMj96CoJIWbGfZ91qieWu5AWUMKw8VR/pAkQkJYvBNhmCcWnZlyyk5oze8JIqYA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@lit-labs/ssr-dom-shim/-/ssr-dom-shim-1.5.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "9508c76b1e780788a18f0d7e968c1d207c4d64f5698e8a4d0667283978b0c953"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 1517,
+    "installed_file": "notices/supplementary/45d31799d0db956cc3eb5469346abbd9b7025babc5ff29fab10d7095da992ef1.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "f243134b226735320b61466cebdaf0c1e574bfa7",
+    "sha256": "45d31799d0db956cc3eb5469346abbd9b7025babc5ff29fab10d7095da992ef1",
+    "text_file": "image-notices/45d31799d0db956cc3eb5469346abbd9b7025babc5ff29fab10d7095da992ef1.txt",
+    "url": "https://raw.githubusercontent.com/lit/lit/f243134b226735320b61466cebdaf0c1e574bfa7/LICENSE"
+  },
+  "version": "1.5.1"
+}

@@ -1,0 +1,43 @@
+{
+  "source": "https://arxiv.org/src/1604.06022v3",
+  "orbit_sizes": [
+    24,
+    48,
+    24,
+    8,
+    24,
+    8
+  ],
+  "word_count": 136,
+  "minimum_distance": 10,
+  "lean_word_set_equal": true,
+  "lean_sha256": "f078ea7f3969a975bbf22b71361f4a9e64f603d70c24fefe8e8be514ba840e2f",
+  "sorted_words_sha256": "cfd8bb0366be56c9eb450d0b3b7fcd47b3d1cc929db1ae522ec2a23009dc1da0",
+  "paper_check": {
+    "url": "https://arxiv.org/src/1604.06022v3",
+    "input_sha256": "ab80dd66a1ec9f71e7fd3af7a956167e089250ccdd40fdaf08ee100d4bb69b2e",
+    "parameters_match": true
+  },
+  "checked": "2026-10-13",
+  "verification_tool": "tools/verify_a24_reference.py",
+  "distribution_scope": "Numerical generator cycles and orbit representatives; recomputed codeword integers and project Lean verification code. No paper PDF, TeX source, third-party program, or paper attachment is included in this task.",
+  "task_inventory": [
+    "tasks/construction/binary-code-a24-10/PROVENANCE.md",
+    "tasks/construction/binary-code-a24-10/environment/Dockerfile",
+    "tasks/construction/binary-code-a24-10/environment/app/Task/Basic.lean",
+    "tasks/construction/binary-code-a24-10/environment/app/Task.lean",
+    "tasks/construction/binary-code-a24-10/environment/app/lake-manifest.json",
+    "tasks/construction/binary-code-a24-10/environment/app/lakefile.toml",
+    "tasks/construction/binary-code-a24-10/environment/app/lean-toolchain",
+    "tasks/construction/binary-code-a24-10/environment/app/snapshot.sh",
+    "tasks/construction/binary-code-a24-10/instruction.md",
+    "tasks/construction/binary-code-a24-10/solution/Basic.lean",
+    "tasks/construction/binary-code-a24-10/solution/solve.sh",
+    "tasks/construction/binary-code-a24-10/task.toml",
+    "tasks/construction/binary-code-a24-10/tests/judge.json",
+    "tasks/construction/binary-code-a24-10/tests/reference/Basic.lean",
+    "tasks/construction/binary-code-a24-10/tests/reference/CONCEPTS.md",
+    "tasks/construction/binary-code-a24-10/tests/score.py",
+    "tasks/construction/binary-code-a24-10/tests/test.sh"
+  ]
+}

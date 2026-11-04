@@ -1,0 +1,788 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/ex001.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex001.wcnf.xz",
+      "git_blob": "729d625c81e393dfe644d2f41200b3b71ef28026",
+      "bytes": 472240,
+      "sha256": "0c59a311c967494ecc868051b908025e8c586fae90adadabda97cbc3fcd78cb9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex002.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex002.wcnf.xz",
+      "git_blob": "1445f9b24ecb557183fc353b0d0f0d733d866b55",
+      "bytes": 605328,
+      "sha256": "67d3c64a793c45f08b5aa6546f675d36dc63de69649bf9dff9330d6a83a707e6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex003.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex003.wcnf.xz",
+      "git_blob": "6d4c4b3e933e7a300be63f0b94ee302dcf3d54be",
+      "bytes": 294688,
+      "sha256": "51fdaf856b62783ff0dd4130570267b6003a291d654c0b167af695f7eb9c1ae4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex004.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex004.wcnf.xz",
+      "git_blob": "866f903bfd7349fbd579b04322b30b155a29b8d0",
+      "bytes": 173400,
+      "sha256": "bae1e152fc9ce09c04a29b9a657dd24a02e57c7065a62966643d04d43d09bca8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex005.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex005.wcnf.xz",
+      "git_blob": "a4ca3deefe201615dfd62d4f7861511bed20d3a0",
+      "bytes": 400828,
+      "sha256": "0da0cdb43eea71d75ce1fc40f357a57784edbf94a49d9911e2a3be37d5d17bac",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex006.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex006.wcnf.xz",
+      "git_blob": "667893d24fd04d221ebfb98cd41e686cc602e88b",
+      "bytes": 71200,
+      "sha256": "64b2ae4e9a1be5331ab3cf941cbecd7668c8eab172d27e3cdea52dbbc1b63aec",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex007.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex007.wcnf.xz",
+      "git_blob": "1f1b89f14a5071aa3f1bf094c528cfb864467813",
+      "bytes": 71352,
+      "sha256": "4f508dcae2144df0515bd4044718270b4272e916968406364fc8f6059bd45411",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex008.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex008.wcnf.xz",
+      "git_blob": "3e02c25a0a8278d50d4ce24127770c8df3f3517a",
+      "bytes": 789276,
+      "sha256": "c208a9c1e6c4843dede1ea19b35d6f0ea704f2e8feac2fc88fbadc4fc572f4f3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex009.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex009.wcnf.xz",
+      "git_blob": "3d46af77d6fd5672522adbeb628e40caa980ff0f",
+      "bytes": 892632,
+      "sha256": "c82551d1a564186d7a1e9baff2f3a0fef0d3feb9ae444124dc6651182f5cc3f6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex010.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex010.wcnf.xz",
+      "git_blob": "985a10025d9f9872afbfa07cacfbf768b1d285f5",
+      "bytes": 729108,
+      "sha256": "58eab61dcd62c4d92aa48229ef450523f44e5d96c54c7666480d33ceb676e930",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex011.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex011.wcnf.xz",
+      "git_blob": "37128e4a58aa92a389cbd711b0931f70988a3f22",
+      "bytes": 789608,
+      "sha256": "c61df1b3073519cbff8e36f6a4481b9073f73158cef0171dbd05cfe5fef5dbcd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex012.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex012.wcnf.xz",
+      "git_blob": "ed265f981e4a59a4058cccf51d8a442fe502949a",
+      "bytes": 717816,
+      "sha256": "f9b94cb7035a0fa9e5b672076a1c8b385ff7cf343e46139c2fda9eb0bb94f644",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex013.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex013.wcnf.xz",
+      "git_blob": "39974da2bdc169a8037ab68da69b49c3e6d7c35d",
+      "bytes": 115748,
+      "sha256": "42900a7facc1af6a2630f56ef5164041c4cb102d4a8c6584058907afd4a22b49",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex014.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex014.wcnf.xz",
+      "git_blob": "1d3aa7523ef1df64d879a54dec47a340317d79be",
+      "bytes": 267512,
+      "sha256": "d1f8916efed868855f26a8e8b60a5180a2dc6caa95f3f9c66b04dd26370cc598",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex015.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex015.wcnf.xz",
+      "git_blob": "8503c9e5c7306e5d4818e9d88a904f4a21a54522",
+      "bytes": 787584,
+      "sha256": "b20ccb91b20551478af605e1a15348c28eccb2087980c1e7f5bb39a09d325fcb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex016.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex016.wcnf.xz",
+      "git_blob": "1773b0b64574be5d5e73e84fa56d1e5ab1570918",
+      "bytes": 727336,
+      "sha256": "afd1ebd73b79abe4b406ce33e096747d743015561c969c6bd6d55eb62c339d31",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex017.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex017.wcnf.xz",
+      "git_blob": "7c69b4317ff17b0ee960291886393d7ce72b30dc",
+      "bytes": 223900,
+      "sha256": "ed48036316985254a8e851fac646823908474930c5a1116cb507f3183ad15fcc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex018.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex018.wcnf.xz",
+      "git_blob": "a0cacf6cccbef48df5fac9957e9be562b78caa93",
+      "bytes": 1090352,
+      "sha256": "dff2c5b12cba14261c87baecf7c38c85c8d39340e8ddd8d9ee4f46298624151f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex019.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex019.wcnf.xz",
+      "git_blob": "bdbb9e6f47ddc64f41d373782734e27465f440be",
+      "bytes": 77560,
+      "sha256": "622273cf43be2c4b10d2c94b5518fb4043bd074a4bc2d6c2f2e29c4a044ad6e1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex020.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex020.wcnf.xz",
+      "git_blob": "da92175df0bb2b8e407fb7bfdf405c45ebed451f",
+      "bytes": 2134744,
+      "sha256": "20cb573831611fb046030b0d00da096f68e295366978b3d610dee3091c49dfcc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex021.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex021.wcnf.xz",
+      "git_blob": "ba4e8e86802eb2e7592c4d430b3822aca5081f67",
+      "bytes": 160824,
+      "sha256": "9df2817cccf4301b0b2cdc9d20e1480cc28e25092ff81f3d1b1132d658fc22ab",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex022.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex022.wcnf.xz",
+      "git_blob": "01eaf5b179cd44ada961a641fe486d03a67cd4a9",
+      "bytes": 1755620,
+      "sha256": "fdff25479d9b51bad6e100bafa4d056a2bba24b3c7b27b42a4980bafdf4b07d0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex023.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex023.wcnf.xz",
+      "git_blob": "c016f2328b5adffae6c9b08dc005c129d0caf996",
+      "bytes": 3008820,
+      "sha256": "d07542f427c9eb968e052492f6568d1fc9d7781c8e5e3e9c6ef64c4bdbd416fd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex024.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex024.wcnf.xz",
+      "git_blob": "e00133689bcecd43d7cefbb556cc3cea1684ba45",
+      "bytes": 2887848,
+      "sha256": "2a1e08dda8fc711bc6a0bd1b818439b2db39b62b0030c345c1932c235da04fe9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex025.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex025.wcnf.xz",
+      "git_blob": "2203dfa1b102b6774766000143c0c5a7b6044885",
+      "bytes": 445528,
+      "sha256": "fd16dce9516ed8e36b9c28caa0f1dd1b19b1ab129472693f5ef65c5c987d8485",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex026.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex026.wcnf.xz",
+      "git_blob": "4da2ca14711f42d0cad45c01c5e9e99fbfa3425d",
+      "bytes": 3208856,
+      "sha256": "8895fe51a96116b3b48b91ee67dbb6794d2fadfe1cd96599416aae457725a28d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex027.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex027.wcnf.xz",
+      "git_blob": "aa07ae0b60c3a807b4478adaf7e4def7eff10591",
+      "bytes": 3607776,
+      "sha256": "6b31b10e00c65ac9f362fd9ca0dfc5f6efb7349034bf4795d3c2cbb7fcb47d04",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex028.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex028.wcnf.xz",
+      "git_blob": "b6bd7a800f245073f39d4578228d25695bfb5091",
+      "bytes": 553304,
+      "sha256": "688e34385c22f1b3b29ca634a29ecdc905fcbfb0626d73d0244b49d0de0f3322",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex029.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex029.wcnf.xz",
+      "git_blob": "7c5c3b49908e742adc285f5a0f2f7a025bdf1a2f",
+      "bytes": 34684,
+      "sha256": "f1c7e645c3cff939db64be205786165d2c64521ff256c267d87143185e34fc74",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex030.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex030.wcnf.xz",
+      "git_blob": "b4a8182b599240d05f1733486c7129cad58accdb",
+      "bytes": 19016,
+      "sha256": "a8a17c3a22348fbfb6283843f7b56909434bb903c79771854120bdb6fc107173",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex031.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex031.wcnf.xz",
+      "git_blob": "0d7581884aef0a23b4e578252d3700c04102e99f",
+      "bytes": 490440,
+      "sha256": "6ced3cfb9d2db0cc0e09e3d23a6c9c68fd1973951fe482a3d6b166f461b22d42",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex032.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex032.wcnf.xz",
+      "git_blob": "816d41f57462c8088180e783ee5030f984543d51",
+      "bytes": 1966336,
+      "sha256": "325b9c4295f733f7dcac601c03fffccf9b0c10d068843cff6282b1608dcd9377",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex033.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex033.wcnf.xz",
+      "git_blob": "e2d5ca8259378e0f41a31b853e4fd99d2ec6cea5",
+      "bytes": 169148,
+      "sha256": "c50fb6d4aee18b441c222cf42b5fabaa943c327850be035ad000823840e56c5c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex034.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex034.wcnf.xz",
+      "git_blob": "a8f768ba49722fab7076e86c57886d54f48ad43d",
+      "bytes": 298360,
+      "sha256": "300e96d15d89dcc6270fa6408af206c55fd152716e98fa623158f8fcdcdde57e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex035.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex035.wcnf.xz",
+      "git_blob": "8031f7b0b968fd6dd99cfa1f11185e4053e2c245",
+      "bytes": 113504,
+      "sha256": "558105ed01973919a75f499d9f80272a15a1b6c63703298483a0d857048d79da",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex036.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex036.wcnf.xz",
+      "git_blob": "9d989bc13dcbd727fd73e93032c8a295c570dc5e",
+      "bytes": 382876,
+      "sha256": "52f5de014d3efa6f8036002d54bc41761dd3d1bdaa80ac19fdb2564f11fb6555",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex037.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex037.wcnf.xz",
+      "git_blob": "cd53167252bf41705bdb39ae2cdfd2cca96c5635",
+      "bytes": 223380,
+      "sha256": "96ff8c95de88bed28c37e8840bba53202b7730eb19c9a0186d0dd57ccd21fcde",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex038.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex038.wcnf.xz",
+      "git_blob": "4493c10b874e9dcadec832674c7c91fc1d11f7b0",
+      "bytes": 344732,
+      "sha256": "3ab693829b04b592f6bb7fd690a21b6507e1f8ec207bc4c084023c1d5902dd08",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex039.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex039.wcnf.xz",
+      "git_blob": "ab44ccfa6de4a413e2c07a694618c7dadd674c98",
+      "bytes": 189336,
+      "sha256": "88bf3286d07b9a0722de6fb66e2d6b3e58bd23f820e0beb07aeabe0f9cb19d89",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex040.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex040.wcnf.xz",
+      "git_blob": "333893a9a9f303afdbf0e3770d30d1f0a2cfcfed",
+      "bytes": 199868,
+      "sha256": "f939eaa1917c273f7fd17cae15efaae1c2bdd5c4bb6a453da7f1a6b5690b2aa0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex041.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex041.wcnf.xz",
+      "git_blob": "69bf50165c5e07c047024bec185d0bd47da61ffd",
+      "bytes": 89020,
+      "sha256": "547719a9cf8abd2dd0439f626610ed5676ad7e10a9f6a7523cbdda84f5c3e28b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex042.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex042.wcnf.xz",
+      "git_blob": "bc6f9c4a96536cf9d41fe8411e5320d201b5bc0e",
+      "bytes": 432572,
+      "sha256": "234ec1516b123468f48ef4dfd91d10c9a1fd9bacd1c5085c6cc11e0ec930643b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex043.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex043.wcnf.xz",
+      "git_blob": "2b99a7f601e2dcbc252d3ac50a6e6ad98cf18652",
+      "bytes": 401864,
+      "sha256": "9ac84152ca131d57fe8685198818acf1967cdb80f81326c74f727b2d14e82d40",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex044.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex044.wcnf.xz",
+      "git_blob": "adab1f3ac52e636bf70160a8e8a2f586399d6636",
+      "bytes": 460912,
+      "sha256": "263e6fa22da8cda48d0e252690965ff995b0502b16596dcaa9cc19c631c166d5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex045.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex045.wcnf.xz",
+      "git_blob": "4a2fee5080e01f5997bbfc7bc13627978bab29ba",
+      "bytes": 671708,
+      "sha256": "5491527c812f6385ebe8b196bbabed57555251e4aab6de0d08a3b2ec649552a7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex046.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex046.wcnf.xz",
+      "git_blob": "240b335b2d6ca297c0bfd087c2d1f05289afe657",
+      "bytes": 665592,
+      "sha256": "787ab6f65347194a4ec53c16b457a58033442eeabe84a19ac67295886337d6f1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex047.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex047.wcnf.xz",
+      "git_blob": "d9ad89134f8c2af2e58a89079c8f560c93f16557",
+      "bytes": 898180,
+      "sha256": "bcfb5b55f1fd0b57a26ebcb6d2c3077a35b2ec98fef044cc8103cb913e5867cb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex048.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex048.wcnf.xz",
+      "git_blob": "d090ae135283275e22e073b279741d4e676d2d97",
+      "bytes": 859456,
+      "sha256": "e4b4ac120e08f2f1d1a91719585ff011c73f3dc916679a91259d9720834d4532",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex049.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex049.wcnf.xz",
+      "git_blob": "b94813da850ade1462c9d6ba465434986077af4c",
+      "bytes": 793196,
+      "sha256": "188c9ada517093fc12c39cc874a441d15df76c18e662c11576ef1506e20ce9f4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex050.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex050.wcnf.xz",
+      "git_blob": "f0016aabba6afaed48b9cd0781ac4cf286188695",
+      "bytes": 831288,
+      "sha256": "47022f1aa897a257c9247b5e74d5605b42014515983e87a3facfe5d81e52ef92",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex051.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex051.wcnf.xz",
+      "git_blob": "5e38ea948fda2237ad7aa4947010c190e7a04a39",
+      "bytes": 1087236,
+      "sha256": "3347368faa3a78f5f91a50e1e17869993649bf57bbf69d0211c2f32de76fd4b3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex052.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex052.wcnf.xz",
+      "git_blob": "9fbefe73d6193afda09df4c86daf4bd8bb07f386",
+      "bytes": 955652,
+      "sha256": "3f95f0d299a331e3ebe4d562f474ab3557f0c868da989bf43dda4ed3fb5ac3df",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex053.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex053.wcnf.xz",
+      "git_blob": "9fa1f0cea5ae7b878444ce7bb93136cdc010b038",
+      "bytes": 798816,
+      "sha256": "6b731fd65a7d567aa4f080782f6eed8e7eb761237ef35d16b1b3406205df6771",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex054.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex054.wcnf.xz",
+      "git_blob": "dc0224271e4cc9557176256eb3b7b7a27fcd4e6c",
+      "bytes": 1062740,
+      "sha256": "3daab94d9fb6f00ee172995516cabef855075d92a7bbd16f81401fd01ce6c139",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex055.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex055.wcnf.xz",
+      "git_blob": "b7bcd74a179824d0e132c93d08d3dfd8669ae22a",
+      "bytes": 985364,
+      "sha256": "f087ccc2ddae04a30567f0121bbeec1a72b5ec54e35112407135825564499df5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex056.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex056.wcnf.xz",
+      "git_blob": "a4562e284496a35fce2b93e3d521d2a3d1d0d451",
+      "bytes": 796336,
+      "sha256": "cefff0ba74ddde8945967c6b693ce90215322d3b323c2ae8cef10aacf792b199",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex057.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex057.wcnf.xz",
+      "git_blob": "fbae93945b3b8be4e4bb378281348d7a4cf41239",
+      "bytes": 847672,
+      "sha256": "6360ee849b0ddf3d2648c5893407e88a67bfefb19d7738198e9fb221172a5eae",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex058.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex058.wcnf.xz",
+      "git_blob": "f4b164bd757e1e8f170ca3b73c6892bc82d389f1",
+      "bytes": 864232,
+      "sha256": "b18f0337a15c482f0d657166974241e071b7a49cf7ab12bc1aa2362fdc2a194b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex059.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex059.wcnf.xz",
+      "git_blob": "e4af653e5411f5770a328804647eb85431b94a3f",
+      "bytes": 852488,
+      "sha256": "6f8c9f28f9948a16765f08ab9c347ce238d65413dd5190d2313fb0a6d25ec49d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex060.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex060.wcnf.xz",
+      "git_blob": "a06f6dfa6e64c402f16b74f734611245e7aba302",
+      "bytes": 847052,
+      "sha256": "d8b547f98f7d507586802759b60c95fe1c4a3478f2f2e1c542de739dd79b6bdf",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex061.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex061.wcnf.xz",
+      "git_blob": "a8792f969aabc40369193bff9c43781c6d5734c8",
+      "bytes": 825440,
+      "sha256": "f19a70211ec96abf75f940fa891eafc116b92c248b5caeb61a7a3fdf442594c5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex062.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex062.wcnf.xz",
+      "git_blob": "bb02977f785c0711fbb3deff3fdda603cabcbdec",
+      "bytes": 819656,
+      "sha256": "969fe78eb95a5d702f0d2ed267ff68c8ace4286d3fa70f329e6b468eb46094d6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex063.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex063.wcnf.xz",
+      "git_blob": "d65d54139cacdb49d667bba9cd5f3baca257c84b",
+      "bytes": 819696,
+      "sha256": "443ba8e88c6e3dd666a237f999ef08a8a18ae67b090cd0a352d71dc16d66b8db",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex064.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex064.wcnf.xz",
+      "git_blob": "dd2805afea8d7b1c1594b9a126a9633bb8ebdd98",
+      "bytes": 2391000,
+      "sha256": "d64e15eea61e51771d6949758d51cb934bc900aababc7ebcd71e08be40f9a78a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex065.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex065.wcnf.xz",
+      "git_blob": "d19f5634aebd91bdf00b29b0a93e2b1f84652d3e",
+      "bytes": 1524092,
+      "sha256": "c1f7dc5836eaea039025cd055345a0d2ac669b9db4ce56f7b6196f37733585be",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex066.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex066.wcnf.xz",
+      "git_blob": "4429ef0dc6325bc565ce9f12636484e74b73bb4b",
+      "bytes": 1706432,
+      "sha256": "ae9b1aa71ce4ea9c230ee6eb4466ddfb133a52c716dba5389b330a51070811f2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex067.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex067.wcnf.xz",
+      "git_blob": "cd328f2fdfc8a244c1626615a1e5ca205234956c",
+      "bytes": 104168,
+      "sha256": "df0f2602c9e08b75bf744e9742e3d9a734fed2bdab4be16283dd7d7ecf137544",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex068.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex068.wcnf.xz",
+      "git_blob": "c533f645a990e5cd80cda8c3993dff9d8e69d635",
+      "bytes": 390212,
+      "sha256": "4685a5e4f90faa263a5ab98be5c17c7d33ac65b0798bdffaa2caea530af62a24",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex069.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex069.wcnf.xz",
+      "git_blob": "3b7147ab63476b533d337d43ebaa3ce74e6a5a69",
+      "bytes": 1712844,
+      "sha256": "9744ec9b52abe255fb41121c14e46a476df80b9ef84ec8f94c5f69361468f03c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex070.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex070.wcnf.xz",
+      "git_blob": "ff6462c6936104b228d3f008416833df13cfcd96",
+      "bytes": 757248,
+      "sha256": "cd565c17cc125157365f1e3e1c6c34ef7a4b5c48af68e2876a6675472fe33176",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex071.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex071.wcnf.xz",
+      "git_blob": "7d7ba80395d837c4cdf6e0d32b58bcf93b8aae40",
+      "bytes": 1843828,
+      "sha256": "0a436b1f7d8fb81f409873ee6fb679ba49e26e2b31f98eb73e2116299305d509",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex072.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex072.wcnf.xz",
+      "git_blob": "bc651f91ac6eb0b1ebb97e395cf077f8eef1bc72",
+      "bytes": 1443340,
+      "sha256": "d81a3d2f607cb2f5c689e218af640321b64fa90dc7aad7559ab0706da9b6a3dd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex073.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex073.wcnf.xz",
+      "git_blob": "7d634ed4a66ea97a7b9f50dbf015d86623ab3e8b",
+      "bytes": 240144,
+      "sha256": "331454a116bd030816b9c74f5075bda118b0b3fe7a2f4ca7e72ed74fd8b79a60",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex074.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex074.wcnf.xz",
+      "git_blob": "ab6a9a43101febdc32daf3f15954821d8e9ff93c",
+      "bytes": 2299040,
+      "sha256": "9abb32dba088c7357e9b94fd6c0557f750d0aa78c8adf10ebadeda74d7db737d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex075.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex075.wcnf.xz",
+      "git_blob": "516da58a932e9f4e6bc485f5248cf80e05f37830",
+      "bytes": 463996,
+      "sha256": "e20167051b0f8c94f5cb6637e63d5c8a4a96e75a1b443cf2c8548a605f6d547e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex076.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex076.wcnf.xz",
+      "git_blob": "ba177d39405c409f9ee54b982cbbd8daf104e815",
+      "bytes": 3459468,
+      "sha256": "a2bf3db916da602644f8825beebe2d6bc9c58360e55c2bb241f9a86efc5968df",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex077.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex077.wcnf.xz",
+      "git_blob": "e6e12d1f72891261d167fee8892e61ad884e4122",
+      "bytes": 3456568,
+      "sha256": "8190843cecedb51ad70970c3a12aa08c8175b1085cc7f4403dd79c15e9a51b74",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex078.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex078.wcnf.xz",
+      "git_blob": "14cba52c48d3f77b58d28efcb170651baf4a1666",
+      "bytes": 3451236,
+      "sha256": "e89ae1f55bf63354a3f4a2c2862db598ba192c768c88b0762ab0632e2ab54ccc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex079.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex079.wcnf.xz",
+      "git_blob": "7575c9c6caedacc123ef48bf77682d69121982c5",
+      "bytes": 3462624,
+      "sha256": "53f8237c53ac88a1aec93afa4db09242d15a2e3230a42a42a3b019b3cc1e72f2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex080.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex080.wcnf.xz",
+      "git_blob": "5ac4a4bc054d01bc38378916eb3811aacc6925e6",
+      "bytes": 3454152,
+      "sha256": "e75b05f2b902fae5e5e8817a026293b81a2380af1086d7dc9703b3e4b7810099",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex081.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex081.wcnf.xz",
+      "git_blob": "b5484e99d2adf2cef9a82b645d5233f8c79368a2",
+      "bytes": 3491968,
+      "sha256": "274e14f21e396d24ed51cd0beb4a6b61f611b194b491d72447b9605e5408acde",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex082.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex082.wcnf.xz",
+      "git_blob": "64102bacf295b8e79fef9bf1e83bca6ec1b07e93",
+      "bytes": 3455984,
+      "sha256": "963f2362ba56245520a98bfc4a984da62af0d6589865e5e5e970f7e3e8be6406",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex083.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex083.wcnf.xz",
+      "git_blob": "9426321cfeb94e757021d48d081401e52d584673",
+      "bytes": 3476304,
+      "sha256": "104ab09acbdb6c3eaf09f61b3659905fb7890c9b1ed6f181d4871173260dc172",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex084.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex084.wcnf.xz",
+      "git_blob": "ab2f4891278d878230e98257e2397b584acd4c31",
+      "bytes": 3461940,
+      "sha256": "5ad6a0c88d61e82fdaa6ef65275ff8ad10dc4b2363e3e3f9705011da96fb71fe",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex085.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex085.wcnf.xz",
+      "git_blob": "77d6b1a3e003f99144dbd9e8fd3f0f500125593e",
+      "bytes": 3482584,
+      "sha256": "257fdfd6c7c227ac287d0d3ff80d4cc1f15a60ec2ff61de56137a27c6809d133",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex086.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex086.wcnf.xz",
+      "git_blob": "24a75f1b426b0f05a39b67654c7984d0cf51bf17",
+      "bytes": 3463264,
+      "sha256": "181ff8f244013f13fb76e67ec60b4d08808c82c9f4f923eab8ccae3a61809386",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex087.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex087.wcnf.xz",
+      "git_blob": "02a8b79aed4c74ff6deed8962fdafcfcc872640b",
+      "bytes": 99764,
+      "sha256": "bb04ae0ccf5a69ab108e81eb7785d16563f209e57b69e11671b649e468dda93a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex088.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex088.wcnf.xz",
+      "git_blob": "7c85b6d6ea42ad2abe2e66ccbc0d8dccc43f8ef8",
+      "bytes": 675080,
+      "sha256": "3bc40baba8f176c0e8c5f077ce64b53694f2db446f7fb2886ff2c25e3087c3cd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex089.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex089.wcnf.xz",
+      "git_blob": "9bebd7f75d6ecf3715edde9d2e169e0e08d68f2a",
+      "bytes": 670872,
+      "sha256": "4950368da5ca7193890f70bae6f364247f1261c48d0c3f1d61f110729f09a418",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex090.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex090.wcnf.xz",
+      "git_blob": "52685f45262618bdc856239c2b52841a3662d2f0",
+      "bytes": 669848,
+      "sha256": "cb6d26ec5372cc9212253a079e963d7932aa531a9cc59b14b5274a6495aad790",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex091.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex091.wcnf.xz",
+      "git_blob": "0b0268ca49af56d37d5b07cab73a3cf84698d092",
+      "bytes": 680432,
+      "sha256": "62baf0d061187a6f27e02e2c41b40fc89722d920fe412e1514676a74624f7bc0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex092.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex092.wcnf.xz",
+      "git_blob": "eb152d08fa9acf2f9bc1079fa2ac0e476371f344",
+      "bytes": 670980,
+      "sha256": "931dce6c3adfa2dc5c56fbb4ee1fcef71a17d8099ac8b2e2cfbdf2b33cf430bb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex093.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex093.wcnf.xz",
+      "git_blob": "276d972ddb24773ba347d0ff2e6afa449b0d70c3",
+      "bytes": 677580,
+      "sha256": "6c7b5b6de0d9164a6acd4179b9604ffac0c6ff99e3b495586eb8298c8dd0b72c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex094.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex094.wcnf.xz",
+      "git_blob": "844e89c7394348f2f039a209f7321ba81d6cbe61",
+      "bytes": 655708,
+      "sha256": "a0ba8967511ef0b3f3f0d8a1e2d658e5066da111ca5a229ce1a27c6e488d96b3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex095.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex095.wcnf.xz",
+      "git_blob": "615b6a35e795ba41b01d94c7e42408406ebc89d2",
+      "bytes": 662396,
+      "sha256": "e6ddf0839e8beb44d8e20e97f836dbefa583f25b5424bf32384bd0e0a4c13fb9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex096.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex096.wcnf.xz",
+      "git_blob": "f611bb02de7ec936061f7cce42bf9daa642ffacb",
+      "bytes": 672828,
+      "sha256": "0c4c4453f3ff794f8794d5d0509e23efd1499578e35007af27c9403c1322e9cb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex097.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex097.wcnf.xz",
+      "git_blob": "54819f4b4300773865c969ff8e6e42ad9d968b64",
+      "bytes": 671528,
+      "sha256": "5621b4d2adc5a07b076d3e7877f31e069430d7baa13786a5aa18fcd2ff87773e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex098.wcnf.xz",
+      "source_path": "tasks/solver/online/maxsat-mse/tests/instances/ex098.wcnf.xz",
+      "git_blob": "4459b819574e0a14f23fabe96dc1c50ad0a9cf0f",
+      "bytes": 673792,
+      "sha256": "b32137518aab2bf376970d042071d4068358ce75d9193b88a840dc24d9d5f26a",
+      "mode": "0644"
+    }
+  ]
+}

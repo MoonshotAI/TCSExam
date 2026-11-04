@@ -1,0 +1,49 @@
+{
+  "author": {
+    "name": "Guillaume Plique",
+    "url": "http://github.com/Yomguithereal"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "obliterator": "^2.0.1"
+    },
+    "integrity": "sha512-vyWo2K3fjrUw8YeeZ1zF0fy6Mu59RHokURlld8ymdUPjMlD9EC9ov1/YPqTgqRvUN9nTr3Gqfz29LYAmu0PHPQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/mnemonist/-/mnemonist-0.39.8.tgz",
+    "version": "0.39.8"
+  },
+  "lock_path": "node_modules/mnemonist",
+  "name": "mnemonist",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1099,
+      "installed_file": "notices/original/package/LICENSE.txt",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.txt",
+      "sha256": "dfa5b838b877406f163d57ed736fd6d7f99ed442dfde2152c11d7b34dff3dd81",
+      "text_file": "image-notices/dfa5b838b877406f163d57ed736fd6d7f99ed442dfde2152c11d7b34dff3dd81.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 69593,
+    "installed_in_image": false,
+    "integrity": "sha512-vyWo2K3fjrUw8YeeZ1zF0fy6Mu59RHokURlld8ymdUPjMlD9EC9ov1/YPqTgqRvUN9nTr3Gqfz29LYAmu0PHPQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/mnemonist/-/mnemonist-0.39.8.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "f35e3eb43d57915cff5ab8de683f212c972b5e595e82e4a088144589f7901bc3"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.39.8"
+}

@@ -1,0 +1,255 @@
+{
+  "method": "Compare all UD2 course, room, curriculum, unavailability fields and dimensions, excluding only display Name and fields for other CTT variants. Retain all task files unchanged.",
+  "upstream_archive_sha256": "d0487e8bedb626b0ea5669f0faa324ed7da5da31f7ef3f0d9573d7a5089db48c",
+  "checked": "2026-10-13",
+  "instances": [
+    {
+      "instance": "comp01",
+      "sha256": "57227834c435519b848543a283d765c8f82668616cf951b887dc9d77b2a7ac08",
+      "matches": [
+        {
+          "member": "instances/comp/comp01.ectt",
+          "sha256": "fb5101c01bf3d2b0de3ac634cab9c087bd23f43f39f0c543aea94840ba144868",
+          "bytes": 2033,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp01.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp02",
+      "sha256": "1f9242e694e96aef7621b18c8781cc94515557fcce1b4d9ab7ff4522d451fb5a",
+      "matches": [
+        {
+          "member": "instances/comp/comp02.ectt",
+          "sha256": "cf717eeb4d9b1954684f6710a8c1d32ba75f0f1e9ee161e779222464ee359607",
+          "bytes": 11467,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp02.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp03",
+      "sha256": "b57680c3af18b168a7564d8a795917e2e7dda12998a0b90fa2ba40b1ae710021",
+      "matches": [
+        {
+          "member": "instances/comp/comp03.ectt",
+          "sha256": "77fe1ab4795865ef392a9898f1c265fd9885ad4370072f789b4050182f2df9ce",
+          "bytes": 12123,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp03.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp04",
+      "sha256": "236a28e7603890efd02c7fc029f48507b42e5b1ac8d4a8f40a2fed55f4d61002",
+      "matches": [
+        {
+          "member": "instances/comp/comp04.ectt",
+          "sha256": "50352e543a840b2a13016f3c7bd94744edc9f54e1ed524ee3a96fc48abb29e12",
+          "bytes": 9570,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp04.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp05",
+      "sha256": "b7427e70ee89ac85ed18e5aa5eb72b406d3ddb9c42f0001b7237de9e0151976d",
+      "matches": [
+        {
+          "member": "instances/comp/comp05.ectt",
+          "sha256": "85de4e8e3e52c210e1163f7d66c8fdc22dc6106120c2835e1f3b218f0262b0eb",
+          "bytes": 19667,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp05.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp06",
+      "sha256": "ec6ced80e9afbe33fcee56b6f44e8fead48a98ad7db69819f3b44b18a3008d60",
+      "matches": [
+        {
+          "member": "instances/comp/comp06.ectt",
+          "sha256": "24c27d620c3c2516cf1bdcda6811bd88822ba110b23fb120f59761b5a6e74ce8",
+          "bytes": 14026,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp06.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp07",
+      "sha256": "6e5b83472c7a4f9b1ad013147cf1ca3698eb8a230f92691ebde96cc74aa7035e",
+      "matches": [
+        {
+          "member": "instances/comp/comp07.ectt",
+          "sha256": "5d18ef1fede21c259c811d621e972b53ca00aa069b0428b7334dc92b7e8f8894",
+          "bytes": 15850,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp07.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp08",
+      "sha256": "53df346086e70f5427d4de30d25314a1d6346339ac1ff9bd91bf2d2e7dea5ed1",
+      "matches": [
+        {
+          "member": "instances/comp/comp08.ectt",
+          "sha256": "d98cb634831b0e6ea5e1f3ad1c3c23376822002d60dfbefff4c8d63b1456372f",
+          "bytes": 10895,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp08.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp09",
+      "sha256": "4193898dda95b4fdc04e7ad4d78ef344a5c8730f381628b9d223fa733062528c",
+      "matches": [
+        {
+          "member": "instances/comp/comp09.ectt",
+          "sha256": "d8c82ae2b2fb88b9832f070ede9c69c07ddeaec93e861a1cc50e1c20cf32ff00",
+          "bytes": 9963,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp09.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp10",
+      "sha256": "1266e73d63b8f61945fbbb693c62e4621856618a4d5c29a6228a518d72a5ac92",
+      "matches": [
+        {
+          "member": "instances/comp/comp10.ectt",
+          "sha256": "214f05651960c72925a9aa706faa40aadaeba6fc6f5cfeca6779d258deec0041",
+          "bytes": 15035,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp10.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp11",
+      "sha256": "acafa60b1699c4f24bc4745a503b602cb6045d22a01ace7161309cce284ae457",
+      "matches": []
+    },
+    {
+      "instance": "comp12",
+      "sha256": "952f24be4aea585ec7b16807bfb25852b2dea04bffed133ad2aaafb36a730da0",
+      "matches": [
+        {
+          "member": "instances/comp/comp12.ectt",
+          "sha256": "57d0344ac116ab256701496045e696954c1cf161f020e02035369b8959b9c67a",
+          "bytes": 31486,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp12.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp13",
+      "sha256": "a3d0e2505b3c4dba31d38160a99cab18358483f84ff3ea832384c5e3d07be3d6",
+      "matches": [
+        {
+          "member": "instances/comp/comp13.ectt",
+          "sha256": "02d4db89f312690707dc6b76ed867f321a84990d9b344349a641e199f2d8088a",
+          "bytes": 10016,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp13.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp14",
+      "sha256": "9bc5eca4729dc37af93065fb107e0f6aa10d3be9566ae0ac7d54f4740f0d261d",
+      "matches": [
+        {
+          "member": "instances/comp/comp14.ectt",
+          "sha256": "473e7e8a55e99fa32814b73d9f59037230653815931dd5db4bc0baaac6291598",
+          "bytes": 10301,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp14.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp15",
+      "sha256": "0c6d38c18afb6d8edfb8964f7345e787f17c492bda1d5d995bed436722e21fe9",
+      "matches": [
+        {
+          "member": "instances/comp/comp03.ectt",
+          "sha256": "77fe1ab4795865ef392a9898f1c265fd9885ad4370072f789b4050182f2df9ce",
+          "bytes": 12123,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp03.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp16",
+      "sha256": "5e18801fce5c63de1764684f316b28ff9f8f5a1e3d20e81c86e80baa12ea80aa",
+      "matches": [
+        {
+          "member": "instances/comp/comp16.ectt",
+          "sha256": "b7226be0fd86a7a1801b8bd4a5f3c05e07e16a3a00740b31a3590ea9739c41ad",
+          "bytes": 12191,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp16.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp17",
+      "sha256": "3501f98bbc7c7e3b4bccfc088feb8d7b117ce186cfb69d223fab18428886bfb6",
+      "matches": [
+        {
+          "member": "instances/comp/comp17.ectt",
+          "sha256": "233ec542114116723e8fefc96ad0ed82562472303e16055cf0263ce1603a7074",
+          "bytes": 11770,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp17.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp18",
+      "sha256": "af887ddc88e5a3b7b3e5298617e7e5b7f65cd6b069a0616fbf5723afa79d884d",
+      "matches": [
+        {
+          "member": "instances/comp/comp18.ectt",
+          "sha256": "388ab04a20cced6ccaf6ef4cd1ed29c2149e5d3247da15d213af346b60b6755f",
+          "bytes": 18419,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp18.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp19",
+      "sha256": "e09401452e8418b0eeda25d387e824f35c23ab97acc21fb5471e71bb3225266a",
+      "matches": [
+        {
+          "member": "instances/comp/comp19.ectt",
+          "sha256": "298497da23ae206dfe5ad6ba9590c89683caedcba8893676339cb0f1b0b0c1cf",
+          "bytes": 9637,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp19.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp20",
+      "sha256": "401a111aa480b5dab23291ee9c3cde702c6b5b4550d28671f16463c81aa11711",
+      "matches": [
+        {
+          "member": "instances/comp/comp20.ectt",
+          "sha256": "3b84c801ddfe5d608649a061c2c8e2f81f5f9a58bd7db6bb87ec3f2292abd5be",
+          "bytes": 14754,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp20.ectt"
+        }
+      ]
+    },
+    {
+      "instance": "comp21",
+      "sha256": "304a88f77d7620d521a123b49ada4459e533cce3a1398be40af47076d250f45a",
+      "matches": [
+        {
+          "member": "instances/comp/comp21.ectt",
+          "sha256": "c20e56f4c9bff7c735f31ffb23dc516851594e7a99365d0628d330cbaaf28e8b",
+          "bytes": 10883,
+          "url": "https://github.com/iolab-uniud/cb-ctt/blob/9cb3eb63040241fd1954ba49abcaba64461702f6/instances/comp/comp21.ectt"
+        }
+      ]
+    }
+  ],
+  "upstream_commit": "9cb3eb63040241fd1954ba49abcaba64461702f6",
+  "upstream_archive_url": "https://codeload.github.com/iolab-uniud/cb-ctt/tar.gz/9cb3eb63040241fd1954ba49abcaba64461702f6",
+  "scope_note": "20 of 21 task instances have matching UD2 data at the CC BY 4.0 source; comp15 maps to comp03 after excluding display Name. comp11 still unresolved. Does not grant rights to validator or OptHub solutions."
+}

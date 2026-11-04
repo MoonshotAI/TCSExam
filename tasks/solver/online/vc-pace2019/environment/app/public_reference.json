@@ -1,0 +1,668 @@
+{
+ "B": null,
+ "b_source": "not measured on public instances (by design)",
+ "instances": {
+  "vc-exact_001": {
+   "B": 0,
+   "K": 2586,
+   "m": 40207,
+   "n": 6160
+  },
+  "vc-exact_003": {
+   "B": 1,
+   "K": 12190,
+   "m": 74220,
+   "n": 60541
+  },
+  "vc-exact_005": {
+   "B": 1,
+   "K": 129,
+   "m": 819,
+   "n": 200
+  },
+  "vc-exact_007": {
+   "B": 0,
+   "K": 4397,
+   "m": 10130,
+   "n": 8794
+  },
+  "vc-exact_009": {
+   "B": 0,
+   "K": 21348,
+   "m": 174645,
+   "n": 38452
+  },
+  "vc-exact_011": {
+   "B": 0,
+   "K": 4981,
+   "m": 25973,
+   "n": 9877
+  },
+  "vc-exact_013": {
+   "B": 1,
+   "K": 8610,
+   "m": 55440,
+   "n": 45307
+  },
+  "vc-exact_015": {
+   "B": 1,
+   "K": 10670,
+   "m": 65952,
+   "n": 53610
+  },
+  "vc-exact_017": {
+   "B": 0,
+   "K": 12082,
+   "m": 51747,
+   "n": 23541
+  },
+  "vc-exact_019": {
+   "B": 1,
+   "K": 130,
+   "m": 884,
+   "n": 200
+  },
+  "vc-exact_021": {
+   "B": 1,
+   "K": 5110,
+   "m": 30242,
+   "n": 24765
+  },
+  "vc-exact_023": {
+   "B": 0,
+   "K": 16013,
+   "m": 133665,
+   "n": 27717
+  },
+  "vc-exact_025": {
+   "B": 1,
+   "K": 4899,
+   "m": 28221,
+   "n": 23194
+  },
+  "vc-exact_027": {
+   "B": 1,
+   "K": 13431,
+   "m": 81245,
+   "n": 65866
+  },
+  "vc-exact_029": {
+   "B": 0,
+   "K": 6622,
+   "m": 21999,
+   "n": 13431
+  },
+  "vc-exact_031": {
+   "B": 1,
+   "K": 136,
+   "m": 813,
+   "n": 200
+  },
+  "vc-exact_033": {
+   "B": 0,
+   "K": 2725,
+   "m": 6885,
+   "n": 4410
+  },
+  "vc-exact_035": {
+   "B": 1,
+   "K": 133,
+   "m": 884,
+   "n": 200
+  },
+  "vc-exact_037": {
+   "B": 1,
+   "K": 131,
+   "m": 824,
+   "n": 198
+  },
+  "vc-exact_039": {
+   "B": 0,
+   "K": 4200,
+   "m": 10620,
+   "n": 6795
+  },
+  "vc-exact_041": {
+   "B": 1,
+   "K": 139,
+   "m": 1040,
+   "n": 200
+  },
+  "vc-exact_043": {
+   "B": 1,
+   "K": 139,
+   "b_source": "Measured in a public judging session with judge-v9 (the baseline proved the optimum within 1800s, equal to K; the old B=0 flag came from drift in the measurement conditions, as in the maxsat argumentation family).",
+   "m": 841,
+   "n": 200
+  },
+  "vc-exact_045": {
+   "B": 1,
+   "K": 137,
+   "m": 1044,
+   "n": 200
+  },
+  "vc-exact_047": {
+   "B": 1,
+   "K": 140,
+   "m": 1120,
+   "n": 200
+  },
+  "vc-exact_049": {
+   "B": 1,
+   "K": 136,
+   "m": 957,
+   "n": 200
+  },
+  "vc-exact_051": {
+   "B": 1,
+   "K": 140,
+   "m": 1135,
+   "n": 200
+  },
+  "vc-exact_053": {
+   "B": 1,
+   "K": 139,
+   "m": 1062,
+   "n": 200
+  },
+  "vc-exact_055": {
+   "B": 1,
+   "K": 134,
+   "m": 958,
+   "n": 200
+  },
+  "vc-exact_057": {
+   "B": 1,
+   "K": 142,
+   "m": 1200,
+   "n": 200
+  },
+  "vc-exact_059": {
+   "B": 1,
+   "K": 137,
+   "m": 988,
+   "n": 200
+  },
+  "vc-exact_061": {
+   "B": 1,
+   "K": 135,
+   "m": 952,
+   "n": 200
+  },
+  "vc-exact_063": {
+   "B": 1,
+   "K": 138,
+   "m": 1040,
+   "n": 200
+  },
+  "vc-exact_065": {
+   "B": 1,
+   "K": 138,
+   "m": 1037,
+   "n": 200
+  },
+  "vc-exact_067": {
+   "B": 1,
+   "K": 143,
+   "m": 1201,
+   "n": 200
+  },
+  "vc-exact_069": {
+   "B": 1,
+   "K": 140,
+   "m": 1120,
+   "n": 200
+  },
+  "vc-exact_071": {
+   "B": 1,
+   "K": 136,
+   "m": 984,
+   "n": 200
+  },
+  "vc-exact_073": {
+   "B": 1,
+   "K": 139,
+   "m": 1107,
+   "n": 200
+  },
+  "vc-exact_075": {
+   "B": 0,
+   "K": 16300,
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_077": {
+   "B": 1,
+   "K": 137,
+   "m": 988,
+   "n": 200
+  },
+  "vc-exact_079": {
+   "B": 0,
+   "K": 16300,
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_081": {
+   "B": 1,
+   "K": 141,
+   "m": 1124,
+   "n": 199
+  },
+  "vc-exact_083": {
+   "B": 1,
+   "K": 144,
+   "m": 1215,
+   "n": 200
+  },
+  "vc-exact_085": {
+   "B": 0,
+   "K": 7059,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 17408,
+   "n": 11470,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_087": {
+   "B": 0,
+   "K": 8400,
+   "m": 21240,
+   "n": 13590
+  },
+  "vc-exact_089": {
+   "B": 0,
+   "K": 34160,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 77978,
+   "n": 57316,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_091": {
+   "B": 1,
+   "K": 145,
+   "m": 1196,
+   "n": 200
+  },
+  "vc-exact_093": {
+   "B": 1,
+   "K": 143,
+   "m": 1207,
+   "n": 200
+  },
+  "vc-exact_095": {
+   "B": 0,
+   "K": 9755,
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_097": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_099": {
+   "B": 0,
+   "K": 16300,
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_101": {
+   "B": 0,
+   "K": 16300,
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_103": {
+   "B": 0,
+   "K": 9755,
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_105": {
+   "B": 0,
+   "K": 16300,
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_107": {
+   "B": 0,
+   "K": 8400,
+   "m": 21240,
+   "n": 13590
+  },
+  "vc-exact_109": {
+   "B": 0,
+   "K": 39908,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 90970,
+   "n": 66992,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_111": {
+   "B": 0,
+   "K": 420,
+   "m": 17831,
+   "n": 450
+  },
+  "vc-exact_113": {
+   "B": 0,
+   "K": 16300,
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_115": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_117": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_119": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_121": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_123": {
+   "B": 0,
+   "K": 16300,
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_125": {
+   "B": 0,
+   "K": 16300,
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_127": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_129": {
+   "B": 0,
+   "K": 9755,
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_131": {
+   "B": 0,
+   "K": 1920,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 5360,
+   "n": 2980,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_133": {
+   "B": 0,
+   "K": 9755,
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_135": {
+   "B": 0,
+   "K": 16300,
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_137": {
+   "B": 0,
+   "K": 16300,
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_139": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_141": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_143": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_145": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_147": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_149": {
+   "B": 0,
+   "K": 16300,
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_151": {
+   "B": 0,
+   "K": 9755,
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_153": {
+   "B": 0,
+   "K": 18040,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 45570,
+   "n": 29076,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_155": {
+   "B": 0,
+   "K": 16300,
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_157": {
+   "B": 0,
+   "K": 1922,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 5360,
+   "n": 2980,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_159": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_161": {
+   "B": 0,
+   "K": 87051,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 227241,
+   "n": 138141,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_163": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_165": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_167": {
+   "B": 0,
+   "K": 9755,
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_169": {
+   "B": 0,
+   "K": 3073,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 8576,
+   "n": 4768,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_171": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_173": {
+   "B": 0,
+   "K": 33881,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 77264,
+   "n": 56860,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_175": {
+   "B": 0,
+   "K": 2285,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 6446,
+   "n": 3523,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_177": {
+   "B": 0,
+   "K": 3266,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 9112,
+   "n": 5066,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_179": {
+   "B": 0,
+   "K": 9755,
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_181": {
+   "B": 0,
+   "K": 11185,
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_183": {
+   "B": 0,
+   "K": 45394,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 118362,
+   "n": 72420,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_185": {
+   "B": 0,
+   "K": 2286,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 6446,
+   "n": 3523,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_187": {
+   "B": 0,
+   "K": 2744,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 7734,
+   "n": 4227,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_189": {
+   "B": 0,
+   "K": 4805,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 13600,
+   "n": 7400,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_191": {
+   "B": 0,
+   "K": 2971,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 8378,
+   "n": 4579,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_193": {
+   "B": 0,
+   "K": 4565,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 12920,
+   "n": 7030,
+   "witness_note": "An M1 cover for the retained bound was verified with vc_validate."
+  },
+  "vc-exact_195": {
+   "B": 0,
+   "K": 1102,
+   "has_witness": false,
+   "k_source": "peaty local-search incumbent@1800s upper bound (unproven; K=n-alpha_LS from harvest-127283 KX log; better-than-K ratchets)",
+   "m": 81068,
+   "n": 1150,
+   "witness_note": "M1 did not improve on the peaty incumbent; no witness for the retained reference bound is available."
+  },
+  "vc-exact_197": {
+   "B": 0,
+   "K": 1477,
+   "has_witness": true,
+   "k_source": "peaty local-search incumbent@1800s upper bound (unproven; K=n-alpha_LS from harvest-127283 KX log; better-than-K ratchets)",
+   "m": 127011,
+   "n": 1534,
+   "witness_note": "An M1 cover matches the peaty incumbent and was verified with vc_validate."
+  },
+  "vc-exact_199": {
+   "B": 0,
+   "K": 1477,
+   "has_witness": false,
+   "k_source": "peaty local-search incumbent@1800s upper bound (unproven; K=n-alpha_LS from harvest-127283 KX log; better-than-K ratchets)",
+   "m": 126163,
+   "n": 1534,
+   "witness_note": "M1 did not improve on the peaty incumbent; no witness for the retained reference bound is available."
+  }
+ },
+ "k_source": "WeGotYouCovered/peaty@1800s proven(pace2019-spec)"
+}

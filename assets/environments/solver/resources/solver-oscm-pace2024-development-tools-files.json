@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "path": "opt/ocm/pkg/numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "source_context_path": "app/verifier/numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "source_path": "tasks/solver/online/oscm-pace2024/environment/app/verifier/numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "git_blob": "d766b101b12c67d35e1debf26e6175820b2a08ec",
+      "bytes": 16527618,
+      "sha256": "fd83c01228a688733f1ded5201c678f0c53ecc1006ffbc404db9f7a899ac6249",
+      "mode": "0644"
+    }
+  ]
+}

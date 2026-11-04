@@ -1,0 +1,1481 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/ex001.wcnf.xz",
+      "type": "file",
+      "bytes": 2444192,
+      "mode": "0644",
+      "sha256": "0cb75a23cd0da00c88db7552703f20506c92d672cd4080ba28204dc4f1a2bd70"
+    },
+    {
+      "path": "tests/instances/ex002.wcnf.xz",
+      "type": "file",
+      "bytes": 3413620,
+      "mode": "0644",
+      "sha256": "abce6eee2466f0ce9a1c8247d36643cec8388aca8f4060d88969f4f7005f4938"
+    },
+    {
+      "path": "tests/instances/ex003.wcnf.xz",
+      "type": "file",
+      "bytes": 1527940,
+      "mode": "0644",
+      "sha256": "f46743364fc401151a1c8a00011c4a753c2508e4fb8d4c789f09b4ed878b0a4f"
+    },
+    {
+      "path": "tests/instances/ex004.wcnf.xz",
+      "type": "file",
+      "bytes": 926236,
+      "mode": "0644",
+      "sha256": "363a1f687e9951d08b7a55dbaa781e761aa075129c334df1e2fa106c69f61c9f"
+    },
+    {
+      "path": "tests/instances/ex005.wcnf.xz",
+      "type": "file",
+      "bytes": 2170668,
+      "mode": "0644",
+      "sha256": "0f1374ad95c91701b24110e20719cb9ee8de8e9c152f906d6b77e001fff8213c"
+    },
+    {
+      "path": "tests/instances/ex006.wcnf.xz",
+      "type": "file",
+      "bytes": 166420,
+      "mode": "0644",
+      "sha256": "ae5a0237fbfa4b1b2de5400e73eadd730201172d719d74b0b6d953d83d8fefb6"
+    },
+    {
+      "path": "tests/instances/ex007.wcnf.xz",
+      "type": "file",
+      "bytes": 167668,
+      "mode": "0644",
+      "sha256": "ef3916cfeb8a292308131eef2848e66a388ef809156016e1b8632a24df50d907"
+    },
+    {
+      "path": "tests/instances/ex008.wcnf.xz",
+      "type": "file",
+      "bytes": 7461264,
+      "mode": "0644",
+      "sha256": "3260d110a8adb1ccaa25b7b50a5c1dd52f38e4e8f79ab3b0544f2594effd7180"
+    },
+    {
+      "path": "tests/instances/ex009.wcnf.xz",
+      "type": "file",
+      "bytes": 5347584,
+      "mode": "0644",
+      "sha256": "1b38bf5c04ad34cb7d250c2513f930e667b6f80180f207131054122f2a1ced9a"
+    },
+    {
+      "path": "tests/instances/ex010.wcnf.xz",
+      "type": "file",
+      "bytes": 6319196,
+      "mode": "0644",
+      "sha256": "307690c16b86a7dc6220da8410b126eb232a80e69585f9fc1d508b6230232636"
+    },
+    {
+      "path": "tests/instances/ex011.wcnf.xz",
+      "type": "file",
+      "bytes": 7094620,
+      "mode": "0644",
+      "sha256": "a2c8aabc187067a324adf257d8fc2be31fb910305fa424a159af875703d8e45d"
+    },
+    {
+      "path": "tests/instances/ex012.wcnf.xz",
+      "type": "file",
+      "bytes": 6281996,
+      "mode": "0644",
+      "sha256": "3dffc2a9ff3f1821cbafe9f1ae6775c7dc47f4e20c32c66503ea13c7cffa77c9"
+    },
+    {
+      "path": "tests/instances/ex013.wcnf.xz",
+      "type": "file",
+      "bytes": 992420,
+      "mode": "0644",
+      "sha256": "9b492f7b1365169ab6dfaf6947660c0d24833b310cd0acde1e4510f75cf1b1e5"
+    },
+    {
+      "path": "tests/instances/ex014.wcnf.xz",
+      "type": "file",
+      "bytes": 2531996,
+      "mode": "0644",
+      "sha256": "b6a149f6ec82fc558809b8c4672e2b1b9ceee37dcb32dea98659432963ef3530"
+    },
+    {
+      "path": "tests/instances/ex015.wcnf.xz",
+      "type": "file",
+      "bytes": 7087392,
+      "mode": "0644",
+      "sha256": "d650bdae3cefe4f0bd93e1d05b4d9df698bba896ac3da21da930683ac6d36f81"
+    },
+    {
+      "path": "tests/instances/ex016.wcnf.xz",
+      "type": "file",
+      "bytes": 6323024,
+      "mode": "0644",
+      "sha256": "5378e5f6b53d77468281568181874ba68417f1724bc6e428e9c46193c5091892"
+    },
+    {
+      "path": "tests/instances/ex017.wcnf.xz",
+      "type": "file",
+      "bytes": 2203156,
+      "mode": "0644",
+      "sha256": "a46f067085492177cc40f10a202b280bc6f039b6af4b86679b1a0b16af7d4c17"
+    },
+    {
+      "path": "tests/instances/ex018.wcnf.xz",
+      "type": "file",
+      "bytes": 8198068,
+      "mode": "0644",
+      "sha256": "9fb2a75b8b39f228844246182e8ed86996d50be5b6d587e15bc3b9c6df02d9a9"
+    },
+    {
+      "path": "tests/instances/ex019.wcnf.xz",
+      "type": "file",
+      "bytes": 208008,
+      "mode": "0644",
+      "sha256": "6d792e9ba6ecf259ef8303201ebec3b784b4374fdd1427fbb8fcc28b9a8da69f"
+    },
+    {
+      "path": "tests/instances/ex020.wcnf.xz",
+      "type": "file",
+      "bytes": 6269104,
+      "mode": "0644",
+      "sha256": "c848cd0e2994f3ddd58695ec3ffd690f90d8e6cb1c9161b1f8d22516d3e1d576"
+    },
+    {
+      "path": "tests/instances/ex021.wcnf.xz",
+      "type": "file",
+      "bytes": 563312,
+      "mode": "0644",
+      "sha256": "1f024f3e86b53d7f26012fae3cf311eb10b39c08dc479a878f34819d4803ab04"
+    },
+    {
+      "path": "tests/instances/ex022.wcnf.xz",
+      "type": "file",
+      "bytes": 6731488,
+      "mode": "0644",
+      "sha256": "cd0f175ec6fcef4a8eb83e3a24764c44f04994e8a6774fbd29d14f7abd271d9f"
+    },
+    {
+      "path": "tests/instances/ex023.wcnf.xz",
+      "type": "file",
+      "bytes": 10735152,
+      "mode": "0644",
+      "sha256": "262b9e8b7a4ddf64ae9832a7e5548bd61d346687c69d0d243ac5d73bb6dd2140"
+    },
+    {
+      "path": "tests/instances/ex024.wcnf.xz",
+      "type": "file",
+      "bytes": 11480968,
+      "mode": "0644",
+      "sha256": "e103112454daaa18537338b5dad2108cb3a0d84ecc9e3a6f0ee440ac0d73ebc0"
+    },
+    {
+      "path": "tests/instances/ex025.wcnf.xz",
+      "type": "file",
+      "bytes": 1767640,
+      "mode": "0644",
+      "sha256": "5a01b8d0470592be0d6d414b1d96431ec35bfcb2c0c1d7cb44b8cd460d9ef7b4"
+    },
+    {
+      "path": "tests/instances/ex026.wcnf.xz",
+      "type": "file",
+      "bytes": 11527296,
+      "mode": "0644",
+      "sha256": "e7ad742bb8d2894e7cd83aca3724ef312a12804cef34be72cc59f6739e3fee38"
+    },
+    {
+      "path": "tests/instances/ex027.wcnf.xz",
+      "type": "file",
+      "bytes": 11628236,
+      "mode": "0644",
+      "sha256": "f867f00d6c483b40f8d5e13deb35785355ff89b11639100ea4fe4f87ea621938"
+    },
+    {
+      "path": "tests/instances/ex028.wcnf.xz",
+      "type": "file",
+      "bytes": 2620940,
+      "mode": "0644",
+      "sha256": "964c0c991f414e26dfdf93115ff77800031c492f094a863c9906fc7a3d85d2c4"
+    },
+    {
+      "path": "tests/instances/ex029.wcnf.xz",
+      "type": "file",
+      "bytes": 167608,
+      "mode": "0644",
+      "sha256": "308fc84c062c86a1e3ceb7a9d84d4f1d178fbc5304db463ea330135850a0ecff"
+    },
+    {
+      "path": "tests/instances/ex030.wcnf.xz",
+      "type": "file",
+      "bytes": 76364,
+      "mode": "0644",
+      "sha256": "f8daf701748e4617ebcc8cdb1ecc4d59e3e1457c00ba9c19e2c9bbb0d551d530"
+    },
+    {
+      "path": "tests/instances/ex031.wcnf.xz",
+      "type": "file",
+      "bytes": 1950260,
+      "mode": "0644",
+      "sha256": "caa0ea2b8991cd99dada7ced513570b468f89fab4c54c56d50dfddc5bc734411"
+    },
+    {
+      "path": "tests/instances/ex032.wcnf.xz",
+      "type": "file",
+      "bytes": 10070376,
+      "mode": "0644",
+      "sha256": "ca98b71461f5f033714991f718e5cb8fc6f057ad7fa725a5c7268ee9a71a6f75"
+    },
+    {
+      "path": "tests/instances/ex033.wcnf.xz",
+      "type": "file",
+      "bytes": 699072,
+      "mode": "0644",
+      "sha256": "e4123ee0a9d9dfa7af44a05b03c73b0887b322dcc3db34e71b6ccac4930072c3"
+    },
+    {
+      "path": "tests/instances/ex034.wcnf.xz",
+      "type": "file",
+      "bytes": 1397784,
+      "mode": "0644",
+      "sha256": "0adbb1e9684d57e3b70078c8c55de37f8910001ddf8f73f2c1fd65d13cd334a0"
+    },
+    {
+      "path": "tests/instances/ex035.wcnf.xz",
+      "type": "file",
+      "bytes": 460408,
+      "mode": "0644",
+      "sha256": "6cd0e8339bfb8d71ed28de19f07baf99dada96cc0b8cb239751b6f0467b161f8"
+    },
+    {
+      "path": "tests/instances/ex036.wcnf.xz",
+      "type": "file",
+      "bytes": 1848116,
+      "mode": "0644",
+      "sha256": "438ad59355e28750df6ae1becddce945bc69bd3698f44a2017a4b967c8c3b7ca"
+    },
+    {
+      "path": "tests/instances/ex037.wcnf.xz",
+      "type": "file",
+      "bytes": 987216,
+      "mode": "0644",
+      "sha256": "4ce928ab1d55ceccfb16835209b881b8f3d8756f01317de98cfea6bf3975ae12"
+    },
+    {
+      "path": "tests/instances/ex038.wcnf.xz",
+      "type": "file",
+      "bytes": 1653620,
+      "mode": "0644",
+      "sha256": "10ee9533a3c4066cb6021473874216c502f696377fe597cc40785c68f5fbde96"
+    },
+    {
+      "path": "tests/instances/ex039.wcnf.xz",
+      "type": "file",
+      "bytes": 794268,
+      "mode": "0644",
+      "sha256": "1967946ab628d29134d64de57bf52d230daefc12c565ab5eb7a3a4c11b607339"
+    },
+    {
+      "path": "tests/instances/ex040.wcnf.xz",
+      "type": "file",
+      "bytes": 853496,
+      "mode": "0644",
+      "sha256": "6e3925a6a06f1d74b7339166ebc1e69fc4cda118528a03daf443d78ff9781578"
+    },
+    {
+      "path": "tests/instances/ex041.wcnf.xz",
+      "type": "file",
+      "bytes": 338048,
+      "mode": "0644",
+      "sha256": "3bbfd50c8981a09bd9f825571dfd559d02142b4ccb2a1d16f269a374abbff4ae"
+    },
+    {
+      "path": "tests/instances/ex042.wcnf.xz",
+      "type": "file",
+      "bytes": 2173432,
+      "mode": "0644",
+      "sha256": "c9826126e9a0b28cf0888051013c7b8dbbac9e254dfc698f2e220b8199c2dea9"
+    },
+    {
+      "path": "tests/instances/ex043.wcnf.xz",
+      "type": "file",
+      "bytes": 1998832,
+      "mode": "0644",
+      "sha256": "cfed7f48a05fa9d10bee068f853f23c1f603bc0edeb599efba6bb33267740561"
+    },
+    {
+      "path": "tests/instances/ex044.wcnf.xz",
+      "type": "file",
+      "bytes": 3519612,
+      "mode": "0644",
+      "sha256": "b32c450ece7c9ec477b705f1b8245d7086358a35abd6e73f66dcd072a334fda4"
+    },
+    {
+      "path": "tests/instances/ex045.wcnf.xz",
+      "type": "file",
+      "bytes": 4074312,
+      "mode": "0644",
+      "sha256": "cf1dbecc818891bf0641e64fe45b3aaa0f6bcdc51522154756476739f0c349d7"
+    },
+    {
+      "path": "tests/instances/ex046.wcnf.xz",
+      "type": "file",
+      "bytes": 4210968,
+      "mode": "0644",
+      "sha256": "c4648cfb9389c1b48d9160f6469e93ec75044341cb29919aa192a945d053ffbc"
+    },
+    {
+      "path": "tests/instances/ex047.wcnf.xz",
+      "type": "file",
+      "bytes": 5608392,
+      "mode": "0644",
+      "sha256": "2e4e83ebb0c184d66c7023b695fc95b382c1a6e34feabf6e0da6c5813d70902e"
+    },
+    {
+      "path": "tests/instances/ex048.wcnf.xz",
+      "type": "file",
+      "bytes": 4711608,
+      "mode": "0644",
+      "sha256": "9d16676e06ac5245260fe881472150e877b0803ff8ce2f1911b50abe4ad871f9"
+    },
+    {
+      "path": "tests/instances/ex049.wcnf.xz",
+      "type": "file",
+      "bytes": 4353276,
+      "mode": "0644",
+      "sha256": "51ad1c1055bbfd259162b5f392e34c2e8cf193df917eac03420dd4921c2d7a60"
+    },
+    {
+      "path": "tests/instances/ex050.wcnf.xz",
+      "type": "file",
+      "bytes": 4757268,
+      "mode": "0644",
+      "sha256": "8a45c9ba2a1e60058a2670f90b5d44fdc8ec83e7cca8f47003276caa027119a5"
+    },
+    {
+      "path": "tests/instances/ex051.wcnf.xz",
+      "type": "file",
+      "bytes": 7533068,
+      "mode": "0644",
+      "sha256": "d16d82205704590eca7ca9ba8e3d0a91c7119e007b1c161abf8a790456cbe961"
+    },
+    {
+      "path": "tests/instances/ex052.wcnf.xz",
+      "type": "file",
+      "bytes": 5412968,
+      "mode": "0644",
+      "sha256": "78e7a178b38f9a553ce0b556adb354c835726eace89319ada9241346cc4b5bba"
+    },
+    {
+      "path": "tests/instances/ex053.wcnf.xz",
+      "type": "file",
+      "bytes": 4265076,
+      "mode": "0644",
+      "sha256": "c97547b8d8c90099b9f9cc78434ed2043bd19d4aaca640537de50a48c4ccd073"
+    },
+    {
+      "path": "tests/instances/ex054.wcnf.xz",
+      "type": "file",
+      "bytes": 6058596,
+      "mode": "0644",
+      "sha256": "d433fd964d96461450e15bae01d5181b420544b7277571c211b2097421338a9b"
+    },
+    {
+      "path": "tests/instances/ex055.wcnf.xz",
+      "type": "file",
+      "bytes": 5176296,
+      "mode": "0644",
+      "sha256": "4ef5d55c0ec9d5575becf7d420492b82c66b5d861bbc794c7cd5f90225ba3663"
+    },
+    {
+      "path": "tests/instances/ex056.wcnf.xz",
+      "type": "file",
+      "bytes": 4398552,
+      "mode": "0644",
+      "sha256": "61e4195a2dcc119e430d4b452e7d1bcb65760444c4282f337edc3fdc0bc6f25b"
+    },
+    {
+      "path": "tests/instances/ex057.wcnf.xz",
+      "type": "file",
+      "bytes": 4819464,
+      "mode": "0644",
+      "sha256": "7ed12980a875ff6552f3625523c8c60d627f9205fc2d6da14c51d923165e92e0"
+    },
+    {
+      "path": "tests/instances/ex058.wcnf.xz",
+      "type": "file",
+      "bytes": 7417592,
+      "mode": "0644",
+      "sha256": "92f8104f450009f2cfacdeb51276675882c46a560d822ff2b72f7331e8bd3c7a"
+    },
+    {
+      "path": "tests/instances/ex059.wcnf.xz",
+      "type": "file",
+      "bytes": 7429016,
+      "mode": "0644",
+      "sha256": "3d4cd3e48d7e9d24553af4c4542061968c50c3eb62afbcf85b73d734e9aa4a7a"
+    },
+    {
+      "path": "tests/instances/ex060.wcnf.xz",
+      "type": "file",
+      "bytes": 7421744,
+      "mode": "0644",
+      "sha256": "8d6fc74838ed9f9f403a310b8b50994d6e00846b4922e12b1de0a95cf3a8d97d"
+    },
+    {
+      "path": "tests/instances/ex061.wcnf.xz",
+      "type": "file",
+      "bytes": 7418460,
+      "mode": "0644",
+      "sha256": "44e993b5b4386f171f8358dfe6e62f2e8710b1d6d3d2dada0a6f11819f5e7857"
+    },
+    {
+      "path": "tests/instances/ex062.wcnf.xz",
+      "type": "file",
+      "bytes": 7319876,
+      "mode": "0644",
+      "sha256": "a8077ca7dc9ec0a1b5460bbc582b2707e810913a241c8dcaa0fed43be749d574"
+    },
+    {
+      "path": "tests/instances/ex063.wcnf.xz",
+      "type": "file",
+      "bytes": 7419352,
+      "mode": "0644",
+      "sha256": "d2ed8ef2f46e520ed822b934b1757b9fea4ff0a16cd7fd151868275fb0c3ca1a"
+    },
+    {
+      "path": "tests/instances/ex064.wcnf.xz",
+      "type": "file",
+      "bytes": 7286564,
+      "mode": "0644",
+      "sha256": "a05ac1c3368eaaef4533085927650f0f639b95309064b93ee936c663098b9681"
+    },
+    {
+      "path": "tests/instances/ex065.wcnf.xz",
+      "type": "file",
+      "bytes": 6936004,
+      "mode": "0644",
+      "sha256": "607c6e6b9c37713d241da2ef494ca184bb3e69685902dde63ce4cc5223efdc80"
+    },
+    {
+      "path": "tests/instances/ex066.wcnf.xz",
+      "type": "file",
+      "bytes": 5108852,
+      "mode": "0644",
+      "sha256": "7afe75d0e8e569837bdcf72c7e7874610b4861330077c707456146d9546dfa8a"
+    },
+    {
+      "path": "tests/instances/ex067.wcnf.xz",
+      "type": "file",
+      "bytes": 239620,
+      "mode": "0644",
+      "sha256": "5761466f18fa3e148f55932a955a78fa11f1bd7c516df483019ee3bf8738e166"
+    },
+    {
+      "path": "tests/instances/ex068.wcnf.xz",
+      "type": "file",
+      "bytes": 903380,
+      "mode": "0644",
+      "sha256": "521a9bdf900db02041fbeba5ef931635ed9dba00834c992f9517030669f77b20"
+    },
+    {
+      "path": "tests/instances/ex069.wcnf.xz",
+      "type": "file",
+      "bytes": 7767904,
+      "mode": "0644",
+      "sha256": "a3deef991286f02c784693f47738777ad376eea6cb5ca8b74571c1ea90ddb7c9"
+    },
+    {
+      "path": "tests/instances/ex070.wcnf.xz",
+      "type": "file",
+      "bytes": 2036992,
+      "mode": "0644",
+      "sha256": "80ea336dd1eb4adf5d181f7aca2fa4dd08e85fa0b9700aeb8943529b1ff38188"
+    },
+    {
+      "path": "tests/instances/ex071.wcnf.xz",
+      "type": "file",
+      "bytes": 10942184,
+      "mode": "0644",
+      "sha256": "1ac94915a6a08a76ba99574ab03179cf8f97ae4f90cac1fc7e304b876841fa67"
+    },
+    {
+      "path": "tests/instances/ex072.wcnf.xz",
+      "type": "file",
+      "bytes": 8518452,
+      "mode": "0644",
+      "sha256": "91f16987262f271727c8c5d62dc05386df04e05edbb5e7600ad908ea30d1ab94"
+    },
+    {
+      "path": "tests/instances/ex073.wcnf.xz",
+      "type": "file",
+      "bytes": 464900,
+      "mode": "0644",
+      "sha256": "b768fa7cc7ddc617a1f2b120311bb7eb1242d38d7b6c0b64922bb3f190062bd9"
+    },
+    {
+      "path": "tests/instances/ex074.wcnf.xz",
+      "type": "file",
+      "bytes": 4745328,
+      "mode": "0644",
+      "sha256": "05ac64f3c26dc07e5f5b4552fdaa0922727bd2c3cf2bf206d98af71ec353340f"
+    },
+    {
+      "path": "tests/instances/ex075.wcnf.xz",
+      "type": "file",
+      "bytes": 5567612,
+      "mode": "0644",
+      "sha256": "d264aadadfd8bb920ec1c62ef1dbb1500ea1d2e669c2facca2d07d802901954a"
+    },
+    {
+      "path": "tests/instances/ex076.wcnf.xz",
+      "type": "file",
+      "bytes": 13716016,
+      "mode": "0644",
+      "sha256": "6f3b7e8a7c7a2b20ceb7324c50c830abfbc336fe29cd528c9002f8cd62717c9d"
+    },
+    {
+      "path": "tests/instances/ex077.wcnf.xz",
+      "type": "file",
+      "bytes": 13717664,
+      "mode": "0644",
+      "sha256": "2ab5bd1d7312dc5f0101e057e6cf232545cbd0cc27b49164c60a532f149e84e5"
+    },
+    {
+      "path": "tests/instances/ex078.wcnf.xz",
+      "type": "file",
+      "bytes": 13695240,
+      "mode": "0644",
+      "sha256": "22cd2f6714533fee75d666a942f49dc687ac9f2c4ee5f9958f2d734678abe649"
+    },
+    {
+      "path": "tests/instances/ex079.wcnf.xz",
+      "type": "file",
+      "bytes": 13720900,
+      "mode": "0644",
+      "sha256": "d3354792c01fd3364715952166a2f0bd4955069bea1cc455bedf6a478d43a50a"
+    },
+    {
+      "path": "tests/instances/ex080.wcnf.xz",
+      "type": "file",
+      "bytes": 13709448,
+      "mode": "0644",
+      "sha256": "f0d353053f5082183fa5651937895c60bbc8cf6c0aa4ba6c099dc413147235f4"
+    },
+    {
+      "path": "tests/instances/ex081.wcnf.xz",
+      "type": "file",
+      "bytes": 13729176,
+      "mode": "0644",
+      "sha256": "e29d523ecba6c8a3300ab4671c6766e98fbe0e76d474e62f4766d9f90d5ace09"
+    },
+    {
+      "path": "tests/instances/ex082.wcnf.xz",
+      "type": "file",
+      "bytes": 13714136,
+      "mode": "0644",
+      "sha256": "0f11a6dcae6bd454e3ad9b29234a8d22d941631609ba0fbd4b2cc020a5bf41e2"
+    },
+    {
+      "path": "tests/instances/ex083.wcnf.xz",
+      "type": "file",
+      "bytes": 13721632,
+      "mode": "0644",
+      "sha256": "3019cd26856a470448a9d4dff29deba3d6811915559ee625191f5babea2e61e9"
+    },
+    {
+      "path": "tests/instances/ex084.wcnf.xz",
+      "type": "file",
+      "bytes": 13705384,
+      "mode": "0644",
+      "sha256": "c6d5c2a31c0c18ebb6a894eab1459a9081783cf1ec84cadffec63fd04359cf27"
+    },
+    {
+      "path": "tests/instances/ex085.wcnf.xz",
+      "type": "file",
+      "bytes": 13701376,
+      "mode": "0644",
+      "sha256": "40350505030b9d96e5c21c8ec87217a983f9ef905f0d2a083d513800d47afab6"
+    },
+    {
+      "path": "tests/instances/ex086.wcnf.xz",
+      "type": "file",
+      "bytes": 13714624,
+      "mode": "0644",
+      "sha256": "606f4f9ddc57489365f578774a9ceb18bc8f869dfeaf4c1f162d9903a5b16004"
+    },
+    {
+      "path": "tests/instances/ex087.wcnf.xz",
+      "type": "file",
+      "bytes": 753680,
+      "mode": "0644",
+      "sha256": "c8b585e9484c5841599a15f83b40afaa9495239a201e279ce2013ec13fe8f6a8"
+    },
+    {
+      "path": "tests/instances/ex088.wcnf.xz",
+      "type": "file",
+      "bytes": 2273440,
+      "mode": "0644",
+      "sha256": "f85ba1519b74508e7f420ce97314efcb850c1556087dd0ab9572819cdce2ab23"
+    },
+    {
+      "path": "tests/instances/ex089.wcnf.xz",
+      "type": "file",
+      "bytes": 2270708,
+      "mode": "0644",
+      "sha256": "a81ae462d2cb96089d2447262172cee674ec30ea9515f008cdbadcaded9360dd"
+    },
+    {
+      "path": "tests/instances/ex090.wcnf.xz",
+      "type": "file",
+      "bytes": 2271472,
+      "mode": "0644",
+      "sha256": "899cc85040f3ba4fc6efecdaeefc08b46813af44704cec0416ef43f8c358a0fa"
+    },
+    {
+      "path": "tests/instances/ex091.wcnf.xz",
+      "type": "file",
+      "bytes": 2273948,
+      "mode": "0644",
+      "sha256": "72b8a7a5cc7cdd0a2f43d4875bfd1a16c32e38eb2409842e5a69a536bbe78d99"
+    },
+    {
+      "path": "tests/instances/ex092.wcnf.xz",
+      "type": "file",
+      "bytes": 2273700,
+      "mode": "0644",
+      "sha256": "15849840aa227d858bbc847b17c988d764ce10fdacc2559f993bd6245284cda1"
+    },
+    {
+      "path": "tests/instances/ex093.wcnf.xz",
+      "type": "file",
+      "bytes": 2272852,
+      "mode": "0644",
+      "sha256": "8fddb039375388d82744afaeb5b75d2080d3e79cdc36a8a6636bfb07fd461a02"
+    },
+    {
+      "path": "tests/instances/ex094.wcnf.xz",
+      "type": "file",
+      "bytes": 2200944,
+      "mode": "0644",
+      "sha256": "72cbc6a70e6924f94b244053a79e5edbd38dc30ecbd7b3a4f8ff3c532d339b29"
+    },
+    {
+      "path": "tests/instances/ex095.wcnf.xz",
+      "type": "file",
+      "bytes": 2269764,
+      "mode": "0644",
+      "sha256": "280742f8a1eb9cb0adf0d2569b05986c7ba2d2ec397fd673758203c0c0131b16"
+    },
+    {
+      "path": "tests/instances/ex096.wcnf.xz",
+      "type": "file",
+      "bytes": 2269628,
+      "mode": "0644",
+      "sha256": "1e6dc2fdf1724afbd65788021a39f4d256bfd691ab8f06167747e1c32ed915e6"
+    },
+    {
+      "path": "tests/instances/ex097.wcnf.xz",
+      "type": "file",
+      "bytes": 2270792,
+      "mode": "0644",
+      "sha256": "b529c880d99b62015001d9d5e55d8260846d02147697dcbe295cdf21e21d59a8"
+    },
+    {
+      "path": "tests/instances/ex098.wcnf.xz",
+      "type": "file",
+      "bytes": 2270288,
+      "mode": "0644",
+      "sha256": "8f9015941749db58457be244641c06587cfff5c212b1c751ca9b72eebe8adc2c"
+    },
+    {
+      "path": "tests/instances/ex099.wcnf.xz",
+      "type": "file",
+      "bytes": 1228968,
+      "mode": "0644",
+      "sha256": "025ea6ad8ea990b10fb741caef643f98878e3aeffd9846b4cc3f38a1b410736a"
+    },
+    {
+      "path": "tests/instances/ex100.wcnf.xz",
+      "type": "file",
+      "bytes": 6318856,
+      "mode": "0644",
+      "sha256": "2be93a9f8d62721c220f6430fccda2e47bac52863057666f193c477ccc214412"
+    },
+    {
+      "path": "tests/instances/ex101.wcnf.xz",
+      "type": "file",
+      "bytes": 4124796,
+      "mode": "0644",
+      "sha256": "0b71c6c5134f5263bc2212094f04d0f96ebbbe4274165222fe9d63c687a9db4c"
+    },
+    {
+      "path": "tests/instances/ex102.wcnf.xz",
+      "type": "file",
+      "bytes": 2612112,
+      "mode": "0644",
+      "sha256": "3a930a05d0c6583b795e693a2e7e9f643c49ff5acb3906fbad8f1bf238af1d07"
+    },
+    {
+      "path": "tests/instances/ex103.wcnf.xz",
+      "type": "file",
+      "bytes": 2335584,
+      "mode": "0644",
+      "sha256": "8c72ec77a882930158a3922f82e6b655b464962ea0ff96b1225a4bf50f8a1137"
+    },
+    {
+      "path": "tests/instances/ex104.wcnf.xz",
+      "type": "file",
+      "bytes": 2892308,
+      "mode": "0644",
+      "sha256": "7051997781cd73d99546f5e47a1f345268041e4e11ae1193cab976f94a1e839f"
+    },
+    {
+      "path": "tests/instances/ex105.wcnf.xz",
+      "type": "file",
+      "bytes": 5843804,
+      "mode": "0644",
+      "sha256": "d139284b3f162d5318b976e7912f5f58de61072392383ef60a96e4e53d429170"
+    },
+    {
+      "path": "tests/instances/ex106.wcnf.xz",
+      "type": "file",
+      "bytes": 21014180,
+      "mode": "0644",
+      "sha256": "31027135b2fa10a3d0a95e69561e7b8794a8f506557b1b1f406f50486dfd38ca"
+    },
+    {
+      "path": "tests/instances/ex107.wcnf.xz",
+      "type": "file",
+      "bytes": 22140752,
+      "mode": "0644",
+      "sha256": "c0555ea5381933620f3d141e21ffc67e02d01359a0e1c9f7f6c1ab52a9c332aa"
+    },
+    {
+      "path": "tests/instances/ex108.wcnf.xz",
+      "type": "file",
+      "bytes": 75248792,
+      "mode": "0644",
+      "sha256": "db1c94b3a095e8e4881cfb90e89c757d3260b4b2d892ae94b2bd55f2d9d620f7"
+    },
+    {
+      "path": "tests/instances/ex109.wcnf.xz",
+      "type": "file",
+      "bytes": 101572116,
+      "mode": "0644",
+      "sha256": "6e4094851b3c8428dc36e67b266e9db25441f35daf5491072ed3a00b684623f8"
+    },
+    {
+      "path": "tests/instances/ex110.wcnf.xz",
+      "type": "file",
+      "bytes": 1358116,
+      "mode": "0644",
+      "sha256": "3a337ad27b8e535eb8a142a903a3aaec98796c3e9bbe795aad63d7894721f846"
+    },
+    {
+      "path": "tests/instances/ex111.wcnf.xz",
+      "type": "file",
+      "bytes": 32270624,
+      "mode": "0644",
+      "sha256": "781172e8e2f8e8af14973145a7b943fba0c91eb5e847b66f6aac96b5d8736cae"
+    },
+    {
+      "path": "tests/instances/ex112.wcnf.xz",
+      "type": "file",
+      "bytes": 43011072,
+      "mode": "0644",
+      "sha256": "d4716531159709ba860145c67ef187e875b1bbd343aa5c05dfc549456f3140f0"
+    },
+    {
+      "path": "tests/instances/ex113.wcnf.xz",
+      "type": "file",
+      "bytes": 53837088,
+      "mode": "0644",
+      "sha256": "0ac2d430a67e986a7b418e0603cda163b2b72aaf6b4083b275909bfc13e53a2d"
+    },
+    {
+      "path": "tests/instances/ex114.wcnf.xz",
+      "type": "file",
+      "bytes": 15736928,
+      "mode": "0644",
+      "sha256": "f5c3daf292227889b600923858e3a4e9f244d9442235bfd81057b8047a279555"
+    },
+    {
+      "path": "tests/instances/ex115.wcnf.xz",
+      "type": "file",
+      "bytes": 26432824,
+      "mode": "0644",
+      "sha256": "24ac13c00b0e5159b73e288455bdd16a321c9079f2dcc55e883d5a3fbb0a4770"
+    },
+    {
+      "path": "tests/instances/ex116.wcnf.xz",
+      "type": "file",
+      "bytes": 6091004,
+      "mode": "0644",
+      "sha256": "b81922d83d4ce4431de27f85c38c66dc905dbad4a5d7127577860111c5c5cb0b"
+    },
+    {
+      "path": "tests/instances/ex117.wcnf.xz",
+      "type": "file",
+      "bytes": 12636044,
+      "mode": "0644",
+      "sha256": "159cf11bc23dd539d2dfcdbc2b0316746da8947d43f961e184fb6fa33af3886e"
+    },
+    {
+      "path": "tests/instances/ex118.wcnf.xz",
+      "type": "file",
+      "bytes": 35769472,
+      "mode": "0644",
+      "sha256": "e926b7d6c98b6677f2646c21e7744c5177a5519817b401f619113a5486acf545"
+    },
+    {
+      "path": "tests/instances/ex119.wcnf.xz",
+      "type": "file",
+      "bytes": 37988300,
+      "mode": "0644",
+      "sha256": "540c1c86120040960b396138771ff17f1d91ea590a264b1f380741e5cc176f91"
+    },
+    {
+      "path": "tests/instances/ex120.wcnf.xz",
+      "type": "file",
+      "bytes": 18552144,
+      "mode": "0644",
+      "sha256": "c8bda045ec2c229fb4638f9dad960e20698308a45701b2857f9098cd8e16ec78"
+    },
+    {
+      "path": "tests/instances/ex121.wcnf.xz",
+      "type": "file",
+      "bytes": 4946164,
+      "mode": "0644",
+      "sha256": "c263f11f659f3a11cbf84c889b48164463471d660d495d79763c82c28fd61686"
+    },
+    {
+      "path": "tests/instances/ex122.wcnf.xz",
+      "type": "file",
+      "bytes": 227459348,
+      "mode": "0644",
+      "sha256": "ded6be9ef79976cefd6050cf8613136bca5b0367e79805192a21ec6ed55a61d0"
+    },
+    {
+      "path": "tests/instances/ex123.wcnf.xz",
+      "type": "file",
+      "bytes": 22699932,
+      "mode": "0644",
+      "sha256": "def224fb71b979a7167f3cf5b362334047bf5d402ddbcef8079a54b72bcfac4a"
+    },
+    {
+      "path": "tests/instances/ex124.wcnf.xz",
+      "type": "file",
+      "bytes": 21815688,
+      "mode": "0644",
+      "sha256": "bba0dfe28d4869fef48c0b70da8f33e17e9b4735fd68f2463f169bfb3cd42e52"
+    },
+    {
+      "path": "tests/instances/ex125.wcnf.xz",
+      "type": "file",
+      "bytes": 22005036,
+      "mode": "0644",
+      "sha256": "26ab33022802d900eb534e63f91f8e467e26b40caf073c657a2095db5cf1b510"
+    },
+    {
+      "path": "tests/instances/ex126.wcnf.xz",
+      "type": "file",
+      "bytes": 21768408,
+      "mode": "0644",
+      "sha256": "ef9c80411917af3af6c478aac7347f8e59deaba1ba97862eabad7713d5069e6b"
+    },
+    {
+      "path": "tests/instances/ex127.wcnf.xz",
+      "type": "file",
+      "bytes": 22615072,
+      "mode": "0644",
+      "sha256": "dd327e1e6f485f9c32b5a072a9cb1eb387c684ba60c4fb8b69175ef1382d33d7"
+    },
+    {
+      "path": "tests/instances/ex128.wcnf.xz",
+      "type": "file",
+      "bytes": 22757020,
+      "mode": "0644",
+      "sha256": "6386a12c35cbded89de6b8eddac0d56b6fe1d66aed3328c8e780df19966170d8"
+    },
+    {
+      "path": "tests/instances/ex129.wcnf.xz",
+      "type": "file",
+      "bytes": 22105876,
+      "mode": "0644",
+      "sha256": "f077713766326e4b1630fe88a6f1d2d2d8f6d76c0ca19af36d33b86159cef972"
+    },
+    {
+      "path": "tests/instances/ex130.wcnf.xz",
+      "type": "file",
+      "bytes": 21858340,
+      "mode": "0644",
+      "sha256": "fc83567171d0b1b6d496d790fa78eae0df2a471f3a2f972457101252d5d0d3be"
+    },
+    {
+      "path": "tests/instances/ex131.wcnf.xz",
+      "type": "file",
+      "bytes": 22644340,
+      "mode": "0644",
+      "sha256": "d0236a0999aaea59bcf46573f1a17c2e56eb88746997141c520365b2771feef3"
+    },
+    {
+      "path": "tests/instances/ex132.wcnf.xz",
+      "type": "file",
+      "bytes": 22237728,
+      "mode": "0644",
+      "sha256": "00e7babfb560deadd8154e9587d4a4383e6507223e51dc0f333e2be7d8a4787c"
+    },
+    {
+      "path": "tests/instances/ex133.wcnf.xz",
+      "type": "file",
+      "bytes": 1251100,
+      "mode": "0644",
+      "sha256": "ac631ba8be382e7e56e673e4c9dc221aee3e577b2f25f64f2e9706633527ed7a"
+    },
+    {
+      "path": "tests/instances/ex134.wcnf.xz",
+      "type": "file",
+      "bytes": 1737892,
+      "mode": "0644",
+      "sha256": "27feaeb50594c495c8b14582bec6178331fe15ba4ef2a74320c5bad887eaf6fb"
+    },
+    {
+      "path": "tests/instances/ex135.wcnf.xz",
+      "type": "file",
+      "bytes": 3337076,
+      "mode": "0644",
+      "sha256": "9c4453668c7bc939d416caf0f6714b9f68a88d725bd009ad4ae6d67fb6365394"
+    },
+    {
+      "path": "tests/instances/ex136.wcnf.xz",
+      "type": "file",
+      "bytes": 2581288,
+      "mode": "0644",
+      "sha256": "69b016e27f71197ed76a5da980b4a884eefbb41c378bbbd3a7b1f162dbb7eff4"
+    },
+    {
+      "path": "tests/instances/ex137.wcnf.xz",
+      "type": "file",
+      "bytes": 1438684,
+      "mode": "0644",
+      "sha256": "b3ee79291b7ae5745e3273f4dcf5170b8e8fe0b57f413ef325bf926540e6fddc"
+    },
+    {
+      "path": "tests/instances/ex138.wcnf.xz",
+      "type": "file",
+      "bytes": 1511140,
+      "mode": "0644",
+      "sha256": "94c4bee9c38f794d358feb6abccacd73334112257e619983de5527212667e041"
+    },
+    {
+      "path": "tests/instances/ex139.wcnf.xz",
+      "type": "file",
+      "bytes": 957620,
+      "mode": "0644",
+      "sha256": "e4d28db7f878e834d91399d86fbd56e9453911a4086e6be00a1115656c6059d6"
+    },
+    {
+      "path": "tests/instances/ex140.wcnf.xz",
+      "type": "file",
+      "bytes": 2388220,
+      "mode": "0644",
+      "sha256": "5b81d44ffcab6e8d6c8545f684d05ddcd7c7a9fa33cb43fee91eee0bf18a74a0"
+    },
+    {
+      "path": "tests/instances/ex141.wcnf.xz",
+      "type": "file",
+      "bytes": 2327780,
+      "mode": "0644",
+      "sha256": "a0b16914e8af5d296e518cc37fd32bf39710ddc342705194d6ec172c0e0e97e7"
+    },
+    {
+      "path": "tests/instances/ex142.wcnf.xz",
+      "type": "file",
+      "bytes": 2537888,
+      "mode": "0644",
+      "sha256": "578702aab281733d79a69874ead8a8af75879b98133436a7bbe4657293fcb7fe"
+    },
+    {
+      "path": "tests/instances/ex143.wcnf.xz",
+      "type": "file",
+      "bytes": 1085932,
+      "mode": "0644",
+      "sha256": "bbc0005b53aeb8530ad43cd430111fd6f17f2d91017428b8f9ec6cf631615e6a"
+    },
+    {
+      "path": "tests/instances/ex144.wcnf.xz",
+      "type": "file",
+      "bytes": 1703152,
+      "mode": "0644",
+      "sha256": "dd579fab30870f545449954e70ceb27c78c5eb570c6fbba0cb48b2a870a942ad"
+    },
+    {
+      "path": "tests/instances/ex145.wcnf.xz",
+      "type": "file",
+      "bytes": 3154656,
+      "mode": "0644",
+      "sha256": "4d92c9cd4da206e72be9e73c452e3865a0c8d2fe1860b0d87b204b4c66912127"
+    },
+    {
+      "path": "tests/instances/ex146.wcnf.xz",
+      "type": "file",
+      "bytes": 7062536,
+      "mode": "0644",
+      "sha256": "83210a26f70ce51ecc1e312b4bee398793daa6c05d9840af128cddba0208fc77"
+    },
+    {
+      "path": "tests/instances/ex147.wcnf.xz",
+      "type": "file",
+      "bytes": 4907200,
+      "mode": "0644",
+      "sha256": "8d6c0b53792f6d5d3f87e1337f3458f839661570918f680be1ddb858a5490e27"
+    },
+    {
+      "path": "tests/instances/ex148.wcnf.xz",
+      "type": "file",
+      "bytes": 4251860,
+      "mode": "0644",
+      "sha256": "31ae482d03da4154f633737af36c098b6928c94997aa23b4a9e64dd2a6451faf"
+    },
+    {
+      "path": "tests/instances/ex149.wcnf.xz",
+      "type": "file",
+      "bytes": 3955420,
+      "mode": "0644",
+      "sha256": "887391cf2daeb5ec8e9429ccc78fd08d7baa07eae8c45db34897fb830b0fe7c2"
+    },
+    {
+      "path": "tests/instances/ex150.wcnf.xz",
+      "type": "file",
+      "bytes": 4010036,
+      "mode": "0644",
+      "sha256": "d7dd63c44247433addfe7058eae1ff21effe0f5aa180f9711df07c634ffd9760"
+    },
+    {
+      "path": "tests/instances/ex151.wcnf.xz",
+      "type": "file",
+      "bytes": 218140100,
+      "mode": "0644",
+      "sha256": "df1b8cffffd2d486753c54af665a6e7e2c384dd1896235e260ce5db0b5ad1fb0"
+    },
+    {
+      "path": "tests/instances/ex152.wcnf.xz",
+      "type": "file",
+      "bytes": 1146807324,
+      "mode": "0644",
+      "sha256": "2e15926ff017116457eac4eac6b16b9d808034464a07bfe1b0a1b71a126ce15c"
+    },
+    {
+      "path": "tests/instances/ex153.wcnf.xz",
+      "type": "file",
+      "bytes": 545650316,
+      "mode": "0644",
+      "sha256": "8eb3674b3ded8f39b0abba5fce3c0d5367afa44179b7503b8051e2759c72b78b"
+    },
+    {
+      "path": "tests/instances/ex154.wcnf.xz",
+      "type": "file",
+      "bytes": 334744076,
+      "mode": "0644",
+      "sha256": "7dc5971ff466667adf54aa326e08d42528055b700ac5cb11f6eabc897948851f"
+    },
+    {
+      "path": "tests/instances/ex155.wcnf.xz",
+      "type": "file",
+      "bytes": 45516540,
+      "mode": "0644",
+      "sha256": "95b0ac3f4ea345129fdab8171086fa7793397da3904beb742464058bf3a6002d"
+    },
+    {
+      "path": "tests/instances/ex156.wcnf.xz",
+      "type": "file",
+      "bytes": 456248892,
+      "mode": "0644",
+      "sha256": "a7647582ddc45fac21159d1c61cf641d94f13455add944cba75b574b4a90eefe"
+    },
+    {
+      "path": "tests/instances/ex157.wcnf.xz",
+      "type": "file",
+      "bytes": 775426020,
+      "mode": "0644",
+      "sha256": "02e7bd2621e04af014ac7132a102bae269e662cccb3566bc6c65b4f455425325"
+    },
+    {
+      "path": "tests/instances/ex158.wcnf.xz",
+      "type": "file",
+      "bytes": 463201744,
+      "mode": "0644",
+      "sha256": "846eda9e6b672e8b3ce8ea30520fb4547fb2763886f69f369093c3817536c8a6"
+    },
+    {
+      "path": "tests/instances/ex159.wcnf.xz",
+      "type": "file",
+      "bytes": 242761972,
+      "mode": "0644",
+      "sha256": "3930d39edfee19ea8ef3298b78b7d26ce93f9cbf03115c92de9ac5b6ad69f506"
+    },
+    {
+      "path": "tests/instances/ex160.wcnf.xz",
+      "type": "file",
+      "bytes": 16575532,
+      "mode": "0644",
+      "sha256": "40af99d21c295063db57e3d74736b0e62e71f44096aa1962c89e013faa96ca58"
+    },
+    {
+      "path": "tests/instances/ex161.wcnf.xz",
+      "type": "file",
+      "bytes": 11745700,
+      "mode": "0644",
+      "sha256": "76ccceefb9dbc876b63eab433d0f1b326b21283dad00ce98fb0b4e7f02cdf9d4"
+    },
+    {
+      "path": "tests/instances/ex162.wcnf.xz",
+      "type": "file",
+      "bytes": 7460048,
+      "mode": "0644",
+      "sha256": "8d76f20a6b5b4ba6d5d3dccc102df53d560f9b64c2f03a0ed57b13d396640860"
+    },
+    {
+      "path": "tests/instances/ex163.wcnf.xz",
+      "type": "file",
+      "bytes": 16561700,
+      "mode": "0644",
+      "sha256": "00a4de99abdf82f4959ab427d9175be44637ef2273f64e6bfde4593ab3d1b173"
+    },
+    {
+      "path": "tests/instances/ex164.wcnf.xz",
+      "type": "file",
+      "bytes": 10995964,
+      "mode": "0644",
+      "sha256": "78622e701d3a637169c72edb80a6066a841b7c5638487120bf6e55cbcc2d3593"
+    },
+    {
+      "path": "tests/instances/ex165.wcnf.xz",
+      "type": "file",
+      "bytes": 21272040,
+      "mode": "0644",
+      "sha256": "91df465b98c281a28093c650b5bed86501a7f2eb0c555ad69c36e9fc778cc454"
+    },
+    {
+      "path": "tests/instances/ex166.wcnf.xz",
+      "type": "file",
+      "bytes": 127516,
+      "mode": "0644",
+      "sha256": "79abd06e928dd17060dfd14207f7ce4d06e576bb4a0edb41c4810997253a76e9"
+    },
+    {
+      "path": "tests/instances/ex167.wcnf.xz",
+      "type": "file",
+      "bytes": 18464780,
+      "mode": "0644",
+      "sha256": "df2ef4c7ae36f18cfc0d495e37ed8e9500a8dad09c491c32141cecfd29bce1dc"
+    },
+    {
+      "path": "tests/instances/ex168.wcnf.xz",
+      "type": "file",
+      "bytes": 1533764,
+      "mode": "0644",
+      "sha256": "a8a20a1b4363be968dbdd0e9ee1237f2712a1a377c495a50b5fdce5829fa03e5"
+    },
+    {
+      "path": "tests/instances/ex169.wcnf.xz",
+      "type": "file",
+      "bytes": 16744304,
+      "mode": "0644",
+      "sha256": "5d7ffe9e082840b668187ca2c1c870daecd88e415bb6fa5ec59ffb2c6ffe059a"
+    },
+    {
+      "path": "tests/instances/ex170.wcnf.xz",
+      "type": "file",
+      "bytes": 17334360,
+      "mode": "0644",
+      "sha256": "7b05f6d39728c67b9eb7f8e5d0f47f9601f67fa83cfd8c960ef4fa7f72ed7480"
+    },
+    {
+      "path": "tests/instances/ex171.wcnf.xz",
+      "type": "file",
+      "bytes": 287188,
+      "mode": "0644",
+      "sha256": "c5a0a5dd49509344f674b36d17bb94fa5a44cebd426827bbbc947d100f435edb"
+    },
+    {
+      "path": "tests/instances/ex172.wcnf.xz",
+      "type": "file",
+      "bytes": 53635588,
+      "mode": "0644",
+      "sha256": "e4489d5cdaacd1d20f0cb145644df02204c552a29c7c946f63b8787d9f635d0e"
+    },
+    {
+      "path": "tests/instances/ex173.wcnf.xz",
+      "type": "file",
+      "bytes": 28505916,
+      "mode": "0644",
+      "sha256": "43fd429b28b5996df8c77dcd40723ede2a21f96995e1d641d9ba5e10c4ed2bd9"
+    },
+    {
+      "path": "tests/instances/ex174.wcnf.xz",
+      "type": "file",
+      "bytes": 52441204,
+      "mode": "0644",
+      "sha256": "769325731572174afcab7dd6faf7b45a1d0a2036e3a317a50376c909d8f79fdf"
+    },
+    {
+      "path": "tests/instances/ex175.wcnf.xz",
+      "type": "file",
+      "bytes": 41777636,
+      "mode": "0644",
+      "sha256": "af9d06539713ee74da75340d02bbf3db1b83cb3b6191fdae3e2393719aea81f0"
+    },
+    {
+      "path": "tests/instances/ex176.wcnf.xz",
+      "type": "file",
+      "bytes": 34948408,
+      "mode": "0644",
+      "sha256": "ab5f90ce3683254c1a1029529cb770a9275bfbfe6a16cb8c6d0f93969253db67"
+    },
+    {
+      "path": "tests/instances/ex177.wcnf.xz",
+      "type": "file",
+      "bytes": 10947196,
+      "mode": "0644",
+      "sha256": "fa48f3f32410c52c9d228b126ccfd1ef9646709a59d888c81821fe1445e18bbc"
+    },
+    {
+      "path": "tests/instances/ex178.wcnf.xz",
+      "type": "file",
+      "bytes": 65389236,
+      "mode": "0644",
+      "sha256": "a2efcbd4a593f86c15383e7e6dada949604c362781df697115c2b4eb43e82ad9"
+    },
+    {
+      "path": "tests/instances/ex179.wcnf.xz",
+      "type": "file",
+      "bytes": 67801948,
+      "mode": "0644",
+      "sha256": "983d8f8e0c33025ac2fd9bef8e72f3664ee9c4da027ceff1f93e20a9b1c4e30c"
+    },
+    {
+      "path": "tests/instances/ex180.wcnf.xz",
+      "type": "file",
+      "bytes": 36531132,
+      "mode": "0644",
+      "sha256": "fcd5b12e829802366cad0c49b38edb3d366e6d457d2b085b9c53b3f31eba80eb"
+    },
+    {
+      "path": "tests/instances/ex181.wcnf.xz",
+      "type": "file",
+      "bytes": 37521684,
+      "mode": "0644",
+      "sha256": "67e217589dc1033c574180360e38e48f44166a00b10eea3b3e35c74ea70d99f3"
+    },
+    {
+      "path": "tests/instances/ex182.wcnf.xz",
+      "type": "file",
+      "bytes": 30482848,
+      "mode": "0644",
+      "sha256": "d1bfd8c203c9e10eea6bd7b753780df0ede30115d239bef324d997947daadf6f"
+    },
+    {
+      "path": "tests/instances/ex183.wcnf.xz",
+      "type": "file",
+      "bytes": 32366896,
+      "mode": "0644",
+      "sha256": "392850dfb8aec6ebeaf34c3aab8a6ab28f825ec4b5d16bb5b154a61435394445"
+    },
+    {
+      "path": "tests/instances/ex184.wcnf.xz",
+      "type": "file",
+      "bytes": 12606900,
+      "mode": "0644",
+      "sha256": "e53e05bc8241dc3b6a3dbf728cc3d19851a2c9f4fcc8901aa92d8f10080c4f8a"
+    },
+    {
+      "path": "tests/instances/ex185.wcnf.xz",
+      "type": "file",
+      "bytes": 21545268,
+      "mode": "0644",
+      "sha256": "5d8dd48708bcf89aae799053d179b986063bb57e4add2ae4bb9be751bc2df1ba"
+    },
+    {
+      "path": "tests/instances/ex186.wcnf.xz",
+      "type": "file",
+      "bytes": 437984,
+      "mode": "0644",
+      "sha256": "47677e117a76353a609eea8133bd31149168591bbef65dd52aa926f1c67fd060"
+    },
+    {
+      "path": "tests/instances/ex187.wcnf.xz",
+      "type": "file",
+      "bytes": 57345280,
+      "mode": "0644",
+      "sha256": "ae785c2c55611b4f018c04b4b2e0e5481fcdc6a20e812fff691e8aa76eac41e4"
+    },
+    {
+      "path": "tests/instances/ex188.wcnf.xz",
+      "type": "file",
+      "bytes": 674604,
+      "mode": "0644",
+      "sha256": "6d6817cd2de189c0dfc73cd489f9cde67cd1cf32ebbb6bd3a1b385b891e1c171"
+    },
+    {
+      "path": "tests/instances/ex189.wcnf.xz",
+      "type": "file",
+      "bytes": 87075844,
+      "mode": "0644",
+      "sha256": "a0a26c439b1fc55f3c021790cc23edd77ed047e53c7a96f1a1c6c21953e58c21"
+    },
+    {
+      "path": "tests/instances/ex190.wcnf.xz",
+      "type": "file",
+      "bytes": 110919956,
+      "mode": "0644",
+      "sha256": "fd0013455d84f1ae1eacbdf7bdba5058433eb01e216725ebe2dd46b246cfbc3f"
+    },
+    {
+      "path": "tests/instances/ex191.wcnf.xz",
+      "type": "file",
+      "bytes": 63442112,
+      "mode": "0644",
+      "sha256": "346883cb356938e3358d69c0ec22cad00b6c7d15bd21e5eadd714acdac5fda40"
+    },
+    {
+      "path": "tests/instances/ex192.wcnf.xz",
+      "type": "file",
+      "bytes": 98986740,
+      "mode": "0644",
+      "sha256": "846d80aefc31117b6ed817b23f73633fd28baea82de52deec9f27c548ea6ac74"
+    },
+    {
+      "path": "tests/instances/ex193.wcnf.xz",
+      "type": "file",
+      "bytes": 51745220,
+      "mode": "0644",
+      "sha256": "9bbb51b91a45ba02b5aa6ac7ddefa8d8850bede4de5424eb934f47f7086aa651"
+    },
+    {
+      "path": "tests/instances/ex194.wcnf.xz",
+      "type": "file",
+      "bytes": 40483492,
+      "mode": "0644",
+      "sha256": "a48c125d5dca515d695ebb825a4dcf9abe1ea96afe6d60cb10289289eaece0b2"
+    },
+    {
+      "path": "tests/instances/ex195.wcnf.xz",
+      "type": "file",
+      "bytes": 63325948,
+      "mode": "0644",
+      "sha256": "b439f1aad82d256f9ed5517dd7e6e1c179ba3aaf648eb2b5c14a7fdc6fb667a6"
+    },
+    {
+      "path": "tests/instances/ex196.wcnf.xz",
+      "type": "file",
+      "bytes": 379277664,
+      "mode": "0644",
+      "sha256": "9656ec66825c2d79fedc1849589763e7ade453234f73b5b4823fbb27dd169d13"
+    },
+    {
+      "path": "tests/instances/ex197.wcnf.xz",
+      "type": "file",
+      "bytes": 378541072,
+      "mode": "0644",
+      "sha256": "ea5aa125964d1464dacab407aa4566a14b6823b9b9d3043699457a1829b46ece"
+    },
+    {
+      "path": "tests/instances/ex198.wcnf.xz",
+      "type": "file",
+      "bytes": 11538844,
+      "mode": "0644",
+      "sha256": "601802615727b655b7dc85720e19018da54647fa824725b434bfd84d5bc6c386"
+    },
+    {
+      "path": "tests/instances/ex199.wcnf.xz",
+      "type": "file",
+      "bytes": 11536388,
+      "mode": "0644",
+      "sha256": "31251c9c05b50cf3454d378b8c32c8dbee6acd8f2f41333af703a30aeec45b01"
+    },
+    {
+      "path": "tests/instances/ex200.wcnf.xz",
+      "type": "file",
+      "bytes": 63134788,
+      "mode": "0644",
+      "sha256": "00a22cccb805a8b9eefcd1facefe4329800a399718b0c1bd1e7b18e7fa85683b"
+    },
+    {
+      "path": "tests/instances/ex201.wcnf.xz",
+      "type": "file",
+      "bytes": 63352156,
+      "mode": "0644",
+      "sha256": "478a2e726a12325548d81ec553dd44016ee9215873238cdb30f2bebb00eb02c6"
+    },
+    {
+      "path": "tests/instances/ex202.wcnf.xz",
+      "type": "file",
+      "bytes": 378715596,
+      "mode": "0644",
+      "sha256": "7a2309eade7e424d43ce777d599c433bc502de369801c2a3d2258b1c81185927"
+    },
+    {
+      "path": "tests/instances/ex203.wcnf.xz",
+      "type": "file",
+      "bytes": 13784932,
+      "mode": "0644",
+      "sha256": "a9dc4f24febbe06574ed064d817239b4478e684f571ef907b0047c29ce5836e5"
+    },
+    {
+      "path": "tests/instances/ex204.wcnf.xz",
+      "type": "file",
+      "bytes": 1933256,
+      "mode": "0644",
+      "sha256": "3c32cab12707f115df5c386c6b8344809d47432f0d35f4a6f9d005fd8976bf84"
+    },
+    {
+      "path": "tests/instances/ex205.wcnf.xz",
+      "type": "file",
+      "bytes": 3458672,
+      "mode": "0644",
+      "sha256": "354dc674f0f60717dd6cf9d64584f31b8d53acf68ae23a4560a5ef8bdffaef98"
+    },
+    {
+      "path": "tests/instances/ex206.wcnf.xz",
+      "type": "file",
+      "bytes": 3504880,
+      "mode": "0644",
+      "sha256": "58d57718e15f103f49adc8026032b2db116d365be96aa376b1aaf91fbc607aad"
+    },
+    {
+      "path": "tests/instances/ex207.wcnf.xz",
+      "type": "file",
+      "bytes": 2270560,
+      "mode": "0644",
+      "sha256": "7b0d665d3db825c6d62290f518cffa4327ab9d368c85f35538215a5c663779a1"
+    },
+    {
+      "path": "tests/instances/ex208.wcnf.xz",
+      "type": "file",
+      "bytes": 2200656,
+      "mode": "0644",
+      "sha256": "400ca62db408012cb271e7eb3d1cbc198bb946c4f805e5206313ade163562080"
+    },
+    {
+      "path": "tests/instances/ex209.wcnf.xz",
+      "type": "file",
+      "bytes": 2273184,
+      "mode": "0644",
+      "sha256": "77b817f30b6f76ad940a37ea8fc385a357727b9ddcea73765cc8b47d930543e4"
+    },
+    {
+      "path": "tests/instances/ex210.wcnf.xz",
+      "type": "file",
+      "bytes": 2271744,
+      "mode": "0644",
+      "sha256": "4bd18886c04ebbee2f699927001c4768882c1c2695a1cc37d71cc829cb65deef"
+    },
+    {
+      "path": "tests/instances/ex211.wcnf.xz",
+      "type": "file",
+      "bytes": 2202788,
+      "mode": "0644",
+      "sha256": "97f162e2864122f535bf371129bc1147f89b5067d5c7a3763b67207d0f68e379"
+    }
+  ]
+}

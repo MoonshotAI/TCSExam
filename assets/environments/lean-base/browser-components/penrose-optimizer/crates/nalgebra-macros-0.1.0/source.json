@@ -1,0 +1,28 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "Andreas Longva",
+    "S\u00e9bastien Crozet <developer@crozet.re>"
+  ],
+  "bytes": 5758,
+  "checksum_sha256": "01fcc0b8149b4632adc89ac3b7b31a12fb6099a0317a4eb2ebff574ef7de7218",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "Apache-2.0",
+  "name": "nalgebra-macros",
+  "notice_basis": "Exact released Cargo.toml explicitly identifies the license and authors; a same-project current source notice supplements an archive that omitted a standalone license text. The retrieved text is not represented as an originally shipped historical file.",
+  "original_notice_files": [],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/nalgebra-macros/nalgebra-macros-0.1.0.crate",
+  "supplementary_project_notice": {
+    "bytes": 11347,
+    "installed_file": "notices/supplementary/ceacfa4d7fa67df64ab09a56fe248c50a3bfc9bc00374d69bd74ad763b14b89c.txt",
+    "name": "nalgebra-Apache",
+    "sha256": "ceacfa4d7fa67df64ab09a56fe248c50a3bfc9bc00374d69bd74ad763b14b89c",
+    "status": 200,
+    "text_file": "image-notices/ceacfa4d7fa67df64ab09a56fe248c50a3bfc9bc00374d69bd74ad763b14b89c.txt",
+    "url": "https://raw.githubusercontent.com/dimforge/nalgebra/master/LICENSE"
+  },
+  "target_note": null,
+  "version": "0.1.0"
+}

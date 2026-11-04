@@ -1,0 +1,43 @@
+artifacts = ["/app"]
+
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-discrete-bidding-games-bare-proof"
+version = "0.1.0"
+description = "Prove the Avni-Sadhukhan budget-agnostic winning strategy theorem for energy discrete-bidding games (CSL 2026, arXiv 2509.00506, Theorem 27) in Lean 4 (machine-verified), given only the main theorem statement. L2: statement fidelity only, no ground truth."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "game-theory", "bidding-games", "energy-games", "mean-payoff", "graph-games", "type-2"]
+
+[metadata]
+family_id = "fam-discrete-bidding-games"
+candidate_id = "cand-avni-sadhukhan-bidding"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task: only the main theorem statement is given; the whole value-iteration, threshold-budget and budget-agnostic-strategy machinery must be reconstructed; no ground truth is provided."
+source_paper = "Avni, Sadhukhan: Mean-payoff and Energy Discrete-Bidding Games, CSL 2026 (LIPIcs 363, 32:1-32:18); arXiv 2509.00506v1."
+
+[verifier]
+timeout_sec = 1800.0
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:6e783b599ab670e1658143a20641ff359b2b356b3d2b096853d98075e7e7fc24"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:3b26a8d02194e29f983f7735eb17932fc883d89a1b7f53a0fffe6623080d7975"
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

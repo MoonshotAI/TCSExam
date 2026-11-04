@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "task": "tasks/solver/online/celar-rlfap",
+  "remove_paths": [
+    "/tests"
+  ],
+  "allow_content_paths": [
+    "/tests-public",
+    "/public-instances",
+    "/public_reference.json",
+    "/judge",
+    "/opt/celar/scoring.py",
+    "/opt/celar/public_runner.py",
+    "/opt/minizinc",
+    "/app/public_reference.json",
+    "/app/instances",
+    "/app/solutions",
+    "/app/score_public.py"
+  ],
+  "required_paths": [
+    "/judge/entry.sh",
+    "/judge/judge_worker.py",
+    "/tests-public/checker.py",
+    "/tests-public/reference.json",
+    "/public-instances",
+    "/public_reference.json",
+    "/opt/celar/scoring.py",
+    "/opt/celar/public_runner.py",
+    "/opt/minizinc/bin",
+    "/opt/minizinc/lib",
+    "/opt/minizinc/share/minizinc",
+    "/app/public_reference.json",
+    "/app/instances",
+    "/app/solutions"
+  ],
+  "payload_allowlist": [
+    {
+      "root": "/app",
+      "files": [
+        "/app/build.sh",
+        "/app/celar.mzn",
+        "/app/construct.py",
+        "/app/instances/graph01.dzn",
+        "/app/instances/graph02.dzn",
+        "/app/instances/graph04.dzn",
+        "/app/instances/graph06.dzn",
+        "/app/instances/graph09.dzn",
+        "/app/instances/graph11.dzn",
+        "/app/instances/graph12.dzn",
+        "/app/instances/graph14.dzn",
+        "/app/instances/scen01.dzn",
+        "/app/instances/scen02.dzn",
+        "/app/instances/scen07.dzn",
+        "/app/instances/scen09.dzn",
+        "/app/instances/scen11.dzn",
+        "/app/instances_table.md",
+        "/app/public_reference.json",
+        "/app/run_public.py",
+        "/app/solutions/.gitkeep",
+        "/app/solve.py",
+        "/app/solve.sh",
+        "/app/solver"
+      ],
+      "regular_file_count": 23
+    },
+    {
+      "root": "/public-instances",
+      "files": [
+        "/public-instances/graph01.dzn",
+        "/public-instances/graph02.dzn",
+        "/public-instances/graph04.dzn",
+        "/public-instances/graph06.dzn",
+        "/public-instances/graph09.dzn",
+        "/public-instances/graph11.dzn",
+        "/public-instances/graph12.dzn",
+        "/public-instances/graph14.dzn",
+        "/public-instances/scen01.dzn",
+        "/public-instances/scen02.dzn",
+        "/public-instances/scen07.dzn",
+        "/public-instances/scen09.dzn",
+        "/public-instances/scen11.dzn"
+      ],
+      "regular_file_count": 13
+    },
+    {
+      "root": "/tests-public",
+      "files": [
+        "/tests-public/checker.py",
+        "/tests-public/reference.json"
+      ],
+      "regular_file_count": 2
+    },
+    {
+      "root": "/judge",
+      "files": [
+        "/judge/entry.sh",
+        "/judge/judge_worker.py"
+      ],
+      "regular_file_count": 2
+    },
+    {
+      "root": "/opt/celar",
+      "files": [
+        "/opt/celar/public_runner.py",
+        "/opt/celar/scoring.py"
+      ],
+      "regular_file_count": 2
+    }
+  ],
+  "distribution": "unresolved",
+  "public_upload_allowed": false
+}

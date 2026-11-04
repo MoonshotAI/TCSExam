@@ -1,0 +1,39 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-dijkstra-universal-bare-proof"
+version = "0.1.0"
+description = "Prove the universal optimality of Dijkstra's algorithm with a working-set-bound heap (Haeupler-Hladik-Rozhon-Tarjan-Tetek, FOCS 2024 best paper, arXiv 2311.11793v4, Theorem 7.4 combined with Theorems 6.5/6.6) in Lean 4 (machine-verified), given only the main theorem statement. L2: statement fidelity only, no ground truth."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "algorithms", "shortest-paths", "dijkstra", "universal-optimality", "beyond-worst-case", "heaps", "working-set-bound", "type-2"]
+
+[metadata]
+family_id = "fam-dijkstra-universal-optimality"
+candidate_id = "cand-hhrtt24-dijkstra-universal"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task: only the main theorem statement is given; the cost models, the adversary and dimension arguments, the interval-DAG coupling and the heap invariants must all be reconstructed; no ground truth is provided."
+source_paper = "Haeupler, Hladik, Rozhon, Tarjan, Tetek: Universal Optimality of Dijkstra via Beyond-Worst-Case Heaps, FOCS 2024 best paper; arXiv 2311.11793v4."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-theorem-dijkstra-universal-verifier"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

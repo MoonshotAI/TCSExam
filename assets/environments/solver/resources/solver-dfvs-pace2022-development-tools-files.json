@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "opt/dfvs/verifier/README.txt",
+      "source_member": "verifier/README.txt",
+      "bytes": 600,
+      "mode": "0644",
+      "sha256": "1f8b538de512eba2e305bbf1c866cf34b3407c8fa8511dfc9c695cd8e25373ab"
+    },
+    {
+      "path": "opt/dfvs/verifier/Makefile",
+      "source_member": "verifier/Makefile",
+      "bytes": 75,
+      "mode": "0644",
+      "sha256": "fe0c0f217c22058fe2776ae9dc4352abff11503fbdfb3e6db7b525e9a0831864"
+    },
+    {
+      "path": "opt/dfvs/verifier/graph.h",
+      "source_member": "verifier/graph.h",
+      "bytes": 1153,
+      "mode": "0644",
+      "sha256": "829631bfc5e91b20c03da3747b13500ceb9866af1844c9f229b025603e5f58ae"
+    },
+    {
+      "path": "opt/dfvs/verifier/verifier.cpp",
+      "source_member": "verifier/verifier.cpp",
+      "bytes": 3705,
+      "mode": "0644",
+      "sha256": "378164c7467ee562e026b915bfa5fee182756ed6de8fcabf6314dc53d0f7ec86"
+    },
+    {
+      "path": "opt/dfvs/verifier/verifier",
+      "bytes": 37856,
+      "mode": "0755",
+      "sha256": "21f73c58783c1d2eb17cf2fdbb437b2d17b2b86e350529ef2465d83ad75a4bf9"
+    },
+    {
+      "path": "usr/local/bin/fvs_verify",
+      "bytes": 37856,
+      "mode": "0755",
+      "sha256": "21f73c58783c1d2eb17cf2fdbb437b2d17b2b86e350529ef2465d83ad75a4bf9"
+    }
+  ]
+}

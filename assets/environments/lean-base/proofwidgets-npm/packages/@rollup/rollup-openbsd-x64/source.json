@@ -1,0 +1,50 @@
+{
+  "author": "Lukas Taegert-Atkinson",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "cpu": [
+      "x64"
+    ],
+    "dev": true,
+    "integrity": "sha512-M3bLRAVk6GOwFlPTIxVBSYKUaqfLrn8l0psKinkCFxl4lQvOSz8ZrKDz2gxcBwHFpci0B6rttydI4IpS4IS/jQ==",
+    "license": "MIT",
+    "optional": true,
+    "os": [
+      "openbsd"
+    ],
+    "resolved": "https://registry.npmjs.org/@rollup/rollup-openbsd-x64/-/rollup-openbsd-x64-4.59.0.tgz",
+    "version": "4.59.0"
+  },
+  "lock_path": "node_modules/@rollup/rollup-openbsd-x64",
+  "name": "@rollup/rollup-openbsd-x64",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 24059846,
+    "installed_in_image": false,
+    "integrity": "sha512-M3bLRAVk6GOwFlPTIxVBSYKUaqfLrn8l0psKinkCFxl4lQvOSz8ZrKDz2gxcBwHFpci0B6rttydI4IpS4IS/jQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@rollup/rollup-openbsd-x64/-/rollup-openbsd-x64-4.59.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "0c4a313642f39f911372a6913eedbf8453fe45d5a240c5f26d7763034a7a24bd"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 35231,
+    "installed_file": "notices/supplementary/fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "ae846957f109690a866cc3e4c073613c338d3476",
+    "sha256": "fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8",
+    "text_file": "image-notices/fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8.txt",
+    "url": "https://raw.githubusercontent.com/rollup/rollup/ae846957f109690a866cc3e4c073613c338d3476/LICENSE.md"
+  },
+  "version": "4.59.0"
+}

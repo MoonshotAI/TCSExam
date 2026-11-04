@@ -1,0 +1,75 @@
+{
+  "task_id": "logic-syn-iwls2023",
+  "checked_at": "2026-10-29",
+  "decision_scope": "Public development resources only: environment/app/instances/*.truth and environment/app/abc-src.tar.xz. Hidden judging files and solution/precomputed reference answers are unchanged and are not covered by this redistribution decision.",
+  "public_development_data": {
+    "upstream": {
+      "repository": "https://github.com/alanminko/iwls2022-ls-contest",
+      "commit": "ee93f7ca742f172aa64a4a6e12a5b59944475bf0",
+      "commit_url": "https://github.com/alanminko/iwls2022-ls-contest/commit/ee93f7ca742f172aa64a4a6e12a5b59944475bf0",
+      "archive_url": "https://codeload.github.com/alanminko/iwls2022-ls-contest/tar.gz/ee93f7ca742f172aa64a4a6e12a5b59944475bf0",
+      "archive_bytes": 1986506,
+      "archive_sha256": "70c83b6c9fd453fc599758f1dfb490e0e86ddec7d6c36f706507f0a750196df2",
+      "head_check": "git ls-remote reported the same commit for HEAD and refs/heads/main on 2026-10-29"
+    },
+    "license": {
+      "spdx": "MIT",
+      "url": "https://raw.githubusercontent.com/alanminko/iwls2022-ls-contest/ee93f7ca742f172aa64a4a6e12a5b59944475bf0/LICENSE",
+      "bytes": 1072,
+      "sha256": "4b3b6776dbdc66e1239acab986f5a5cb823caadf9127e28c8a044dcb02b900e1",
+      "local_copy": "docs/licenses/third-party/IWLS2022-MIT.txt",
+      "coverage": "The repository LICENSE accompanies the repository benchmarks; no software license from another component is used to infer data permission."
+    },
+    "selection": "Only benchmarks/ex00.truth through benchmarks/ex99.truth and LICENSE are written to the resource payload. Submission circuits, paper PDFs and all other upstream members are excluded.",
+    "output_truth_tables": 100,
+    "upstream_content_mismatches": [],
+    "output_license_path": "app/instances/LICENSE",
+    "manifest": "assets/data/solver/solver-logic-syn-iwls2023-development-data-files.json",
+    "manifest_sha256": "665dde08ee3b219fb8c9783bd2fa584840078d1e06d96d8fa13fddaaa29b813a"
+  },
+  "abc_source": {
+    "upstream": {
+      "repository": "https://github.com/berkeley-abc/abc",
+      "commit": "c6e8823c0b9f0c7c469a7538dc2a75b39da17cc4",
+      "commit_url": "https://github.com/berkeley-abc/abc/commit/c6e8823c0b9f0c7c469a7538dc2a75b39da17cc4",
+      "archive_url": "https://codeload.github.com/berkeley-abc/abc/tar.gz/c6e8823c0b9f0c7c469a7538dc2a75b39da17cc4",
+      "archive_bytes": 7770711,
+      "archive_sha256": "6384413f06b6eae900c9d05b48ee55b7107ef27f4eaea7c6096ed19956620010"
+    },
+    "license": {
+      "name": "UC Regents BSD-style notice",
+      "url": "https://raw.githubusercontent.com/berkeley-abc/abc/c6e8823c0b9f0c7c469a7538dc2a75b39da17cc4/copyright.txt",
+      "bytes": 1129,
+      "sha256": "819151b8f059a48f806c75732ef62b1f873b49b6a04fb128aed28bf87d3dcd6c",
+      "local_copy": "docs/licenses/third-party/ABC-copyright.txt",
+      "retained_in_archive_at": "abc/copyright.txt"
+    },
+    "recorded_differences_from_codeload": {
+      "excluded_files": [
+        "test/CMakeLists.txt",
+        "test/gia/CMakeLists.txt",
+        "test/gia/gia_test.cc",
+        "test/write_cnf_dangling.sh"
+      ],
+      "omitted_directory_entries": [
+        "test",
+        "test/gia"
+      ],
+      "replacement": ".gitcommit is restored to the literal $Format:%H$ line used by the original checkout",
+      "metadata": "Member order, mtimes and modes are fixed transform parameters. Ownership is numeric zero with empty user and group names. No source archive or compiled answer is embedded in these parameters."
+    },
+    "transform": "assets/environments/solver/resources/logic-syn-iwls2023-abc-transform.json",
+    "transform_sha256": "c8f2120024d6c2525e5266fe4e61264dbcaf5be750c1a5a3ac933a0115b8a60c",
+    "uncompressed_tar_bytes": 45301760,
+    "uncompressed_tar_sha256": "afc1303c3cc49b2a78f6a778be614ceb6a94d199b4fce26eeb1f0e1144e7c94f",
+    "output_bytes": 5121256,
+    "output_sha256": "8b6e0664e16ebe57074345d4704f6398cd7d07b5fc777d65e8366427497ad6d8",
+    "archive_ownership": {
+      "uid": 0,
+      "gid": 0,
+      "uname": "",
+      "gname": ""
+    },
+    "source_preservation": "Source member contents, paths, modes, mtimes, types and links remain unchanged; only archive ownership is normalized."
+  }
+}

@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-mansour-conjecture"
+version = "0.1.0"
+description = "Prove or refute Mansour's conjecture (Mansour 1992/1995: every DNF with s > 1 terms has its Fourier spectrum epsilon-concentrated on at most s^{O(log(1/epsilon))} coefficients) in Lean 4 (machine-verified). Open problem: no ground truth; the Lean kernel is the judge. A kernel-verified proof of either direction scores 1.0, otherwise 0 — no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "analysis-of-boolean-functions", "dnf", "fourier-spectrum", "learning-theory", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-mansour-conjecture"
+candidate_id = "cand-mansour-conjecture"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open conjecture (unresolved since 1992; best known bound is concentration on (s/eps)^{O(log log(s/eps) * log(1/eps))} coefficients, Mansour 1995 / Lecomte-Tan 2021). Full score needs a kernel-verified proof or disproof of the conjecture itself; there are no checkpoint slots and no partial credit."
+source_paper = "Y. Mansour, An O(n^{log log n}) learning algorithm for DNF under the uniform distribution, COLT 1992 / J. Comput. System Sci. 50(2):207-219, 1995; statement as in the Simons Institute collection 'Real Analysis in Computer Science: A Collection of Open Problems' and O'Donnell, Analysis of Boolean Functions, sec. 4.4. Background survey: learning-theory-boolean-testing.md (historical report not included in this package) (short name mansour-conjecture)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-mansour-conjecture-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

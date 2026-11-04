@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dev": true,
+    "integrity": "sha512-n6QBF9/+XASqcKK6waudgL0pf/S5XHPPI8APyMLLUHd8NqouBGLsU8MgtO7NINGtPBtk9Kko/W4ea0oAspwh9g==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@types/d3-dsv/-/d3-dsv-3.0.7.tgz",
+    "version": "3.0.7"
+  },
+  "lock_path": "node_modules/@types/d3-dsv",
+  "name": "@types/d3-dsv",
+  "name_basis": "Name from the exact npm lock path; archive-root package metadata was not copied by the notice-only extraction.",
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1141,
+      "installed_file": "notices/original/d3-dsv/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "d3-dsv/LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "text_file": "image-notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt"
+    }
+  ],
+  "package_license": null,
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 4582,
+    "installed_in_image": false,
+    "integrity": "sha512-n6QBF9/+XASqcKK6waudgL0pf/S5XHPPI8APyMLLUHd8NqouBGLsU8MgtO7NINGtPBtk9Kko/W4ea0oAspwh9g==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@types/d3-dsv/-/d3-dsv-3.0.7.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "6ca3213b4cb4053dcda8fa1c5c030ff7dc92de86ffb3c8932160521e8b458257"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.0.7"
+}

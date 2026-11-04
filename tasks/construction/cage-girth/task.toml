@@ -1,0 +1,36 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/cage-girth-lean-open"
+version = "1.0.0"
+description = "Certify in Lean 4 a k-regular graph of girth at least g on at most N vertices (a machine-checked upper bound on the cage number n(k,g); scoring cells (3,13)/(4,10)/(3,16)/(4,11)/(3,17) with records 272/320/936/713/2048, beating them is a literature-level new result)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["construction", "cage", "girth", "extremal-graphs", "lean4", "machine-checked", "open-problem"]
+
+[metadata]
+family_id = "fam-cage-girth"
+candidate_id = "cand-cage-girth-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open"
+difficulty_explanation = "Prove existence of a valid k-regular graph of girth at least g in Lean 4 with only a computable BFS girth predicate given; the agent chooses the cell and N. The published records (272/320/936/713/2048) can be tied and in principle broken (the (3,13) record has stood since 1989)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-construction-cage-girth-verifier"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

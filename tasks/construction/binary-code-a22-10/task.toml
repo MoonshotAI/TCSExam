@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/binary-code-a22-10-lean-open"
+version = "1.0.0"
+description = "Open conjecture: the maximum size A(22,10) of a binary error-correcting code of length 22 and minimum Hamming distance 10 (published interval 64-84). State and prove in Lean 4 either a construction (a valid code on at least k words; k >= 65 is a publishable new result after two decades) or an upper bound (every valid code has at most m words; m <= 83 is a new result)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "error-correcting-code", "binary-code", "hamming-distance", "open-conjecture", "open-proof"]
+
+[metadata]
+family_id = "fam-binary-code-a22-10"
+candidate_id = "cand-binary-code-a22-10-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open-proof"
+difficulty_explanation = "Only the definition layer (the isMinDist10Code / MinDist10Code predicate on List (Fin 22 → Fin 2)) and two claim templates are given; the witness, the proof strategy and every lemma are up to the agent. Matching the published record (64 words, Östergård 2005) already requires reconstructing a research-level construction and verifying it by native_decide; the upper-bound direction has no mass-production route at all (the published 84 is a semidefinite-programming computation)."
+source_paper = "P. R. J. Östergård, Two new four-error-correcting binary codes, Des. Codes Cryptogr. 37:283-288 (2005) [record 64]; D. C. Gijswijt, H. D. Mittelmann, A. Schrijver, Semidefinite code bounds based on quadruple distances, IEEE Trans. Inf. Theory 58(5):2697-2705 (2012) [upper bound 84]; A. E. Brouwer, Table of A(n,d) (online)"
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-construction-binary-code-a22-10-verifier"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

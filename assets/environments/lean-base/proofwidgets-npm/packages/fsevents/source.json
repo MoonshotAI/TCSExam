@@ -1,0 +1,52 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dev": true,
+    "engines": {
+      "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
+    },
+    "hasInstallScript": true,
+    "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
+    "license": "MIT",
+    "optional": true,
+    "os": [
+      "darwin"
+    ],
+    "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+    "version": "2.3.3"
+  },
+  "lock_path": "node_modules/fsevents",
+  "name": "fsevents",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1133,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1",
+      "text_file": "image-notices/2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 22808,
+    "installed_in_image": false,
+    "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "c77e7a5d5ff31dd7acea7c44d4a0455e0528cdacbd24a8cb6c82b66d239b587e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.3.3"
+}

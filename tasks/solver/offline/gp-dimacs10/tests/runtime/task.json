@@ -1,0 +1,18 @@
+{
+  "task": "gp-dimacs10",
+  "cpus": 4,
+  "memory_mb": 16384,
+  "seconds": 780,
+  "build_seconds": 600,
+  "check_seconds": 780,
+  "pool": true,
+  "module_dir": "/opt/gp",
+  "disk_mb": 8192,
+  "relative_cpu_indices": true,
+  "outer_timeout_seconds": 4440,
+  "judge_env": {
+    "TESTS_DIR": "/tests"
+  },
+  "instance_count": 13,
+  "budget_source": "Frozen backend environment and original checker preparation script; original scoring enforces the actual budget."
+}

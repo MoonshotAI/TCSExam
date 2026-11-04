@@ -1,0 +1,373 @@
+{
+  "files": [
+    {
+      "path": "app/instances/assignment_a1_1.txt",
+      "source_context_path": "app/instances/assignment_a1_1.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_a1_1.txt",
+      "git_blob": "db8b2aae92746c0aafe334b1c5769830ae8a50ac",
+      "bytes": 200,
+      "sha256": "da85d10336623e9bf4adb479e505ccad4921b80d2227ba9b0edce3ac782326ea",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_a1_2.txt",
+      "source_context_path": "app/instances/assignment_a1_2.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_a1_2.txt",
+      "git_blob": "edcf1664800a039b2a57d4b58a2d3388dc661afd",
+      "bytes": 2900,
+      "sha256": "371568eeb8376b564dd160c694a5b70ef0aa1d28177a7f4c6860d1f6c7c41aa5",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_a1_3.txt",
+      "source_context_path": "app/instances/assignment_a1_3.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_a1_3.txt",
+      "git_blob": "51a9d75a1dac8ab11ced25db4167593c758cadc2",
+      "bytes": 2883,
+      "sha256": "e479144d9f405b78de6bdbb26e51a0fa0e4133b3214744359c67bb41e8a09a33",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_a1_4.txt",
+      "source_context_path": "app/instances/assignment_a1_4.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_a1_4.txt",
+      "git_blob": "aa489988a6a7e950912177267a5dd0eb9e77c5c4",
+      "bytes": 2818,
+      "sha256": "a37344ddf5842c25c435ea49c67af11425bbbe4edb062fc7253ec7cc04466ac0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_a1_5.txt",
+      "source_context_path": "app/instances/assignment_a1_5.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_a1_5.txt",
+      "git_blob": "85757d794ef650cb161a31af9960b27a8639a757",
+      "bytes": 2144,
+      "sha256": "105586f5d172c0a533160421b79b5e19a55ada3a911322fddfd8595aacd0a28d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_a2_1.txt",
+      "source_context_path": "app/instances/assignment_a2_1.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_a2_1.txt",
+      "git_blob": "4f4e7c86aeac8aa2d97167a0d57ec0593c9bc34a",
+      "bytes": 2898,
+      "sha256": "0cdaa428f92123bd9d1ebf8681625a650699eba56d85a8ca707d42437b98cc47",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_a2_2.txt",
+      "source_context_path": "app/instances/assignment_a2_2.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_a2_2.txt",
+      "git_blob": "29d60ac01846f824ac741c0a37f73a5317cab89a",
+      "bytes": 2902,
+      "sha256": "35a6293752f259abbf94700de15b1776435f1fdd826ec2c5808a45833862a826",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_a2_3.txt",
+      "source_context_path": "app/instances/assignment_a2_3.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_a2_3.txt",
+      "git_blob": "84b910c76051bc1a68a5b873b147647fcb32acab",
+      "bytes": 2901,
+      "sha256": "bf9742763f635328f596d961e8d1bbd9bdcfaebab906d02f8c567611285df7ed",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_a2_4.txt",
+      "source_context_path": "app/instances/assignment_a2_4.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_a2_4.txt",
+      "git_blob": "d0ac3c0a219150c12cb8df488cca5000ab354b38",
+      "bytes": 2786,
+      "sha256": "ae22ff309dfa4e78c2e82219dc6927522c7d18425ebe252afe2e1d201ded52c6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_a2_5.txt",
+      "source_context_path": "app/instances/assignment_a2_5.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_a2_5.txt",
+      "git_blob": "62adfb08650e45defeb39d210a9515905ed468cd",
+      "bytes": 2781,
+      "sha256": "be0e7a8923042121b4452ff806c0c62a6a009af2ecc62d338878136df3c24337",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_b_1.txt",
+      "source_context_path": "app/instances/assignment_b_1.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_b_1.txt",
+      "git_blob": "ac85957cba292a5d3128bde7c9e1ee24a10e645e",
+      "bytes": 14507,
+      "sha256": "2c83fea37f3cb8250f48012f09cacd436744399ab0c1490221539c8dfe80effe",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_b_10.txt",
+      "source_context_path": "app/instances/assignment_b_10.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_b_10.txt",
+      "git_blob": "564875299ad6e0bf765ef048ae2e8a14e261374f",
+      "bytes": 238953,
+      "sha256": "6c8b727fd3cd625f6e11459ae9fcc5e05882b5e4b3043db1c60a16533227fe66",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_b_2.txt",
+      "source_context_path": "app/instances/assignment_b_2.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_b_2.txt",
+      "git_blob": "e2415a2cba158c7d28404faa1d448c14707c3f8c",
+      "bytes": 14489,
+      "sha256": "b92f7c6a86a372970317aa8c23c732828f66bd130d4e606d11ebc6e242fec23f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_b_3.txt",
+      "source_context_path": "app/instances/assignment_b_3.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_b_3.txt",
+      "git_blob": "34dabf5fa1a6e7b6d889b250ea41f8f895b40137",
+      "bytes": 58008,
+      "sha256": "66022c4c656b7317b130bf7a41ff0695b50b2ea614f7d8573baec62a0908f0d0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_b_4.txt",
+      "source_context_path": "app/instances/assignment_b_4.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_b_4.txt",
+      "git_blob": "8a5c2cbc8526ba55c5d02d8a44a0401a6517aa65",
+      "bytes": 75580,
+      "sha256": "f685a2aa2fec6224b9b294a7f7227e754558715dcf24d0c248d6cb312c7c64d2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_b_5.txt",
+      "source_context_path": "app/instances/assignment_b_5.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_b_5.txt",
+      "git_blob": "c4a5ef23e816542af47271959997e9ef1cd4d47d",
+      "bytes": 116026,
+      "sha256": "52fd65dde6f0d3fcc7256c745f6aed6fc5b930c0eb799aa06300c8469c99abb4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_b_6.txt",
+      "source_context_path": "app/instances/assignment_b_6.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_b_6.txt",
+      "git_blob": "39fabd3de63a3b0eab540c8b9c226cdb87b8fb17",
+      "bytes": 138007,
+      "sha256": "7896a7a3fe6d6ca087a7b110924b6294f5ae4431973dcacaed2f7343090df63e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_b_7.txt",
+      "source_context_path": "app/instances/assignment_b_7.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_b_7.txt",
+      "git_blob": "26d8d68330157eb1624baaded831b8988587a474",
+      "bytes": 188891,
+      "sha256": "f14f74413990be358cd3f6960e5aa2c6cb7f0ca7693e7a74002ff6b463dd8467",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_b_8.txt",
+      "source_context_path": "app/instances/assignment_b_8.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_b_8.txt",
+      "git_blob": "6a3496587258b918af1fa78f22429eec4c7988fb",
+      "bytes": 144953,
+      "sha256": "81d39ed1a25659f10b3771a9a66fb17cdaeab16b539e077fab9e61e08cab4010",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/assignment_b_9.txt",
+      "source_context_path": "app/instances/assignment_b_9.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/assignment_b_9.txt",
+      "git_blob": "4f6a012e925b569ba7a9bf36a2fefbd1a71fdcb6",
+      "bytes": 194359,
+      "sha256": "89943c3297f31bff0ef72fe6eb0060d0a443920b3f74502e96b251bde6d09eed",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_a1_1.txt",
+      "source_context_path": "app/instances/model_a1_1.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_a1_1.txt",
+      "git_blob": "7ae3ee9e2d2206dfa6a2ea68c8ef1b097f436472",
+      "bytes": 2389,
+      "sha256": "52dea68d80ea1e529bc5c51e4f6c09ef6d8211a3557ceceeb058bfff6f7459d5",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_a1_2.txt",
+      "source_context_path": "app/instances/model_a1_2.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_a1_2.txt",
+      "git_blob": "5e9ee798c03d15303f6c6e492103146e09104b9c",
+      "bytes": 62522,
+      "sha256": "9eaedd1aa6464275cf0eee82cc93748f006a5c642e22ea3c9dda67c71f2425b7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_a1_3.txt",
+      "source_context_path": "app/instances/model_a1_3.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_a1_3.txt",
+      "git_blob": "6c6470bdf0cbc88a78ddaf257225bcc13cb37fa9",
+      "bytes": 50863,
+      "sha256": "c1d016d860bc51e4525e37484a7fa3a666d1e5f61b219bd38645e4f73ffd6f53",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_a1_4.txt",
+      "source_context_path": "app/instances/model_a1_4.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_a1_4.txt",
+      "git_blob": "3f5aec10ca9fc043e4879e7da9e12acaa6c69627",
+      "bytes": 32825,
+      "sha256": "30add81e7d35e8278b76c73a421da2f613239c2985a0371d73250b3580b98265",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_a1_5.txt",
+      "source_context_path": "app/instances/model_a1_5.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_a1_5.txt",
+      "git_blob": "3cd47c47de98e57cf12af87686d05ef9397a24b8",
+      "bytes": 36914,
+      "sha256": "fc45b8a5dd788cf749bb0672662ff9a3b5a3109b305012f68ee6235ca2aa5d71",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_a2_1.txt",
+      "source_context_path": "app/instances/model_a2_1.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_a2_1.txt",
+      "git_blob": "2df11f2cf1ee59ed78e1d1c27373b067552691c7",
+      "bytes": 54706,
+      "sha256": "3ea1b5c1f9c525a05384708b979f1f7692c2a3bb0d2014797d26f4898b9c3048",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_a2_2.txt",
+      "source_context_path": "app/instances/model_a2_2.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_a2_2.txt",
+      "git_blob": "5da90fe1f7bc83f864835c5a7db43dff705afdeb",
+      "bytes": 109862,
+      "sha256": "2132bae5e781345c2b247ea5965932b57b285d43880fbc08d27cc55d2a3505a3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_a2_3.txt",
+      "source_context_path": "app/instances/model_a2_3.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_a2_3.txt",
+      "git_blob": "8370532d0ccf8743f6139cae7b812c47ce8c446b",
+      "bytes": 110852,
+      "sha256": "254cc96eff34179e07c661a9de44ec7380732791069d18b96b75743489805867",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_a2_4.txt",
+      "source_context_path": "app/instances/model_a2_4.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_a2_4.txt",
+      "git_blob": "8243512a15cb2dae43c029079de510dbff39274c",
+      "bytes": 87545,
+      "sha256": "9efeb99e20432bbf3ed394ba1b9bd4cf21e02daa3e0358fe761cf843110bf395",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_a2_5.txt",
+      "source_context_path": "app/instances/model_a2_5.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_a2_5.txt",
+      "git_blob": "3a14811e6d380d1d9d0f2fc4b58c3d1e83ed67ba",
+      "bytes": 86901,
+      "sha256": "4741abcc1a2ff34699850437ee3bd67f49c90ab27ac1cf51e15c2b85eaac61ca",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_b_1.txt",
+      "source_context_path": "app/instances/model_b_1.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_b_1.txt",
+      "git_blob": "9fef0b1bb6c809b829c462fa349ea77da9abfe7d",
+      "bytes": 427030,
+      "sha256": "306ddc315c5070387b1606718fbf031518f16ad22d623cb76d1eb79ad3a681e6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_b_10.txt",
+      "source_context_path": "app/instances/model_b_10.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_b_10.txt",
+      "git_blob": "d77da0be808164730a8ec13ec21c3a4709675a8b",
+      "bytes": 51668106,
+      "sha256": "14f4af171282bbed1f0c9200599a403fdfe15fae8e983afdb4e45c186e607855",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_b_2.txt",
+      "source_context_path": "app/instances/model_b_2.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_b_2.txt",
+      "git_blob": "8d5e4d9f312346b7758ab3335555b7e306e9a356",
+      "bytes": 424406,
+      "sha256": "0deb4decdffe988ebea4d7dcd6cddd4f45bbd0729981593d15eb449a64c8891a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_b_3.txt",
+      "source_context_path": "app/instances/model_b_3.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_b_3.txt",
+      "git_blob": "6aa1b6925a3b763d901d019d8a0409c169696ad8",
+      "bytes": 989332,
+      "sha256": "e11f06e5559ca7b05cff4426f920556984a70a284283a7d2c101644902ee0d64",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_b_4.txt",
+      "source_context_path": "app/instances/model_b_4.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_b_4.txt",
+      "git_blob": "8fab575ac86a13b3f2f2b1ed9def5e2f36208fbe",
+      "bytes": 1490568,
+      "sha256": "fb2bb4d6df59fc51ae8c622f49fd93eb24118810f418271f4d7dfb6b63ff07f0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_b_5.txt",
+      "source_context_path": "app/instances/model_b_5.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_b_5.txt",
+      "git_blob": "d784c6e1c9e189b03f2cfbe71cbbb40652b48c78",
+      "bytes": 1938357,
+      "sha256": "be040409c5fd7b0ffd9121b5395b40e972b5cb43f359d1f6aa26dff12c414e88",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_b_6.txt",
+      "source_context_path": "app/instances/model_b_6.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_b_6.txt",
+      "git_blob": "ba8bcdb13b5d0a5158f8afb462532af94f621677",
+      "bytes": 1945033,
+      "sha256": "41e7fe1c06783e6292157c5abbcb16ec91aabb7020c35a7323dc80651c5bbd66",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_b_7.txt",
+      "source_context_path": "app/instances/model_b_7.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_b_7.txt",
+      "git_blob": "11b1b490d4ebb54e50d0b9807841dc3f31d7a4ec",
+      "bytes": 34213694,
+      "sha256": "7e3300b993069c3aef3da86fe135db2b5156ea78097bb65d6e9d8d0c3515f9e0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_b_8.txt",
+      "source_context_path": "app/instances/model_b_8.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_b_8.txt",
+      "git_blob": "438512965a4e239e3114ec22add2982a946bd198",
+      "bytes": 1619726,
+      "sha256": "d51a4cc0ad76c598135007d499b853ce522d4e52ec0fd4a930d461df36c0c857",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/model_b_9.txt",
+      "source_context_path": "app/instances/model_b_9.txt",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/instances/model_b_9.txt",
+      "git_blob": "12864ee766ced88ba3ca7ebe6c41f69a123af55f",
+      "bytes": 3448350,
+      "sha256": "ad31efb387d96cebb125a9328ffb49277128d8e1d74f0f13a03976bdda667ff5",
+      "mode": "0644"
+    },
+    {
+      "path": "app/problem_definition_v1_1.pdf",
+      "source_context_path": "app/problem_definition_v1_1.pdf",
+      "source_path": "tasks/solver/online/mr-roadef2012/environment/app/problem_definition_v1_1.pdf",
+      "git_blob": "c77ae0ea811e84854c42d4bffa7178487f915630",
+      "bytes": 197799,
+      "sha256": "547b87663e080e13d691a4a62256a3bf1798cefbabf7ee17f0703d027e6a91c0",
+      "mode": "0644"
+    }
+  ]
+}

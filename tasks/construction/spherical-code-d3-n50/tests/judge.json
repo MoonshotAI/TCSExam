@@ -1,0 +1,27 @@
+{
+ "namespace": "SCN50",
+ "main_theorem": "submission_upper",
+ "score_mode": "solver_cubic",
+ "compile_timeout_sec": 1200,
+ "allowed_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "claims": [
+  {
+   "name": "submission_upper",
+   "direction": "upper",
+   "header_pattern": ":\\s*∃\\s*S\\s*:\\s*List\\s*\\(Fin\\s*3\\s*→\\s*Rat\\)\\s*,\\s*S\\.length\\s*=\\s*50\\s*∧\\s*SphericalCodeUpper\\s+S\\s+(\\d+)\\s+(\\d+)"
+  }
+ ],
+ "scoring": {
+  "upper": {
+   "baseline": "9045852811944625/10000000000000000",
+   "record": "8681732091268975/10000000000000000",
+   "t_max": "1"
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "main_theorem": "budget_agnostic_strategy_exists",
+  "namespace": "DiscreteBidding.BArena",
+  "checkpoints": [
+    {
+      "name": "budget_agnostic_strategy_exists",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 27 of Avni-Sadhukhan (arXiv 2509.00506v1): there is a legal budget-agnostic Pres strategy that M-wins from every configuration <v,B> with B >= Th(v), with M = (k+1)*(W + max_v Energy(v,Th(v))) explicit. Determinacy of reachability discrete-bidding games (Develin-Payne 2010; Aghajohari-Avni-Henzinger 2021) is taken as the hypothesis hdet."
+    }
+  ]
+}

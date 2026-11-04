@@ -1,0 +1,42 @@
+{
+  "checked": "2026-10-13",
+  "comparison_commit": "dbf334e5f393f93f9ea8d59f09cbb00da6fc1ecc",
+  "historical_adoption_commit": null,
+  "comparison_commit_role": "Public snapshot used for this audit; not asserted to be the original development snapshot.",
+  "reference_project": "FormalizedFormalLogic/Foundation contributors",
+  "license": "Apache-2.0",
+  "license_url": "https://github.com/FormalizedFormalLogic/Foundation/blob/dbf334e5f393f93f9ea8d59f09cbb00da6fc1ecc/LICENSE",
+  "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "notice_files": [],
+  "reference_files": [
+    {
+      "path": "Foundation/Propositional/Formula/Basic.lean",
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/dbf334e5f393f93f9ea8d59f09cbb00da6fc1ecc/Foundation/Propositional/Formula/Basic.lean",
+      "sha256": "7f7ff65bfc730db3a2cf20e6ada55c8e6ca437212288d113019bbbaea4ccfc91",
+      "copyright_headers_found": []
+    },
+    {
+      "path": "Foundation/Propositional/Hilbert/Basic.lean",
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/dbf334e5f393f93f9ea8d59f09cbb00da6fc1ecc/Foundation/Propositional/Hilbert/Basic.lean",
+      "sha256": "58a654a087e9c0cfe3bd73507928186fcfe49c92cfe36fb465de1216e5d43e9b",
+      "copyright_headers_found": []
+    }
+  ],
+  "local_files": [
+    {
+      "path": "tasks/open/frege-not-pbounded/environment/app/Task/Basic.lean",
+      "sha256": "ed8ae4374f76065b1ad8484fa467d39ca403366c9f647b7143d524ce5c897066"
+    },
+    {
+      "path": "tasks/open/frege-not-pbounded/tests/reference/Basic.lean",
+      "sha256": "ed8ae4374f76065b1ad8484fa467d39ca403366c9f647b7143d524ce5c897066"
+    }
+  ],
+  "observations": [
+    "The five propositional formula constructors and the recursive substitution structure correspond to the referenced Foundation API.",
+    "The task uses namespace Frege, Boolean valuation, a concrete ten-axiom system, and proofs represented as lists. Foundation uses namespace LO.Propositional and an inductive HilbertProof representation.",
+    "Task Lean imports and lake-manifest.json contain no Foundation dependency.",
+    "Code similarity and dependency inspection do not by themselves establish independent authorship. Retain Apache-2.0 and explicit Foundation reference attribution for the corresponding definition layer."
+  ],
+  "release_action": "Include Foundation attribution and modification explanation next to the two fixed definition-layer files, synchronizing both copies if a source header is added. Historical exact adoption snapshot remains unknown."
+}

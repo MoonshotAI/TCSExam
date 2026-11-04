@@ -1,0 +1,50 @@
+{
+  "author": "Lukas Taegert-Atkinson",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "cpu": [
+      "arm64"
+    ],
+    "dev": true,
+    "integrity": "sha512-tt9KBJqaqp5i5HUZzoafHZX8b5Q2Fe7UjYERADll83O4fGqJ49O1FsL6LpdzVFQcpwvnyd0i+K/VSwu/o/nWlA==",
+    "license": "MIT",
+    "optional": true,
+    "os": [
+      "openharmony"
+    ],
+    "resolved": "https://registry.npmjs.org/@rollup/rollup-openharmony-arm64/-/rollup-openharmony-arm64-4.59.0.tgz",
+    "version": "4.59.0"
+  },
+  "lock_path": "node_modules/@rollup/rollup-openharmony-arm64",
+  "name": "@rollup/rollup-openharmony-arm64",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 792340,
+    "installed_in_image": false,
+    "integrity": "sha512-tt9KBJqaqp5i5HUZzoafHZX8b5Q2Fe7UjYERADll83O4fGqJ49O1FsL6LpdzVFQcpwvnyd0i+K/VSwu/o/nWlA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@rollup/rollup-openharmony-arm64/-/rollup-openharmony-arm64-4.59.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "ef8f05a3c508d686a4bfa8bc55491b3e857b48f4cdc7f3068c4a00060dcf697f"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 35231,
+    "installed_file": "notices/supplementary/fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "ae846957f109690a866cc3e4c073613c338d3476",
+    "sha256": "fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8",
+    "text_file": "image-notices/fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8.txt",
+    "url": "https://raw.githubusercontent.com/rollup/rollup/ae846957f109690a866cc3e4c073613c338d3476/LICENSE.md"
+  },
+  "version": "4.59.0"
+}

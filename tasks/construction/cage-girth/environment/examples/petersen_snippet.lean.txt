@@ -1,0 +1,35 @@
+/- Worked example for cage-girth-lean-open: the Petersen graph as a
+CageGraph witness. Petersen is the (3,5)-cage (n(3,5) = 10), so it only
+counts on the closed sanity cell (3,5) — it does not count — but proving this
+claim exercises the whole pipeline: fixed layer, graph representation,
+native_decide. Copy the definitions between the fixed part and the
+claim of /app/Task/Basic.lean, and the proof term into the claim body.
+
+Petersen as the Kneser graph K(5,2): vertices = the ten 2-subsets of
+{0,..,4} (encoded as 5-bit masks), adjacent iff disjoint. Every vertex has
+exactly 3 disjoint 2-subsets; the girth is 5. -/
+
+def petersen : CageGraph where
+  n := 10
+  adj := fun u v =>
+    let mu := #[1+2, 1+4, 1+8, 1+16, 2+4, 2+8, 2+16, 4+8, 4+16, 8+16][u]!
+    let mv := #[1+2, 1+4, 1+8, 1+16, 2+4, 2+8, 2+16, 4+8, 4+16, 8+16][v]!
+    mu &&& mv == 0
+
+theorem petersen_wf : WellFormed petersen := by native_decide
+theorem petersen_reg : IsKRegular petersen 3 := by native_decide
+theorem petersen_girth : GirthGE petersen 5 := by native_decide
+
+-- the claim body then reads:
+--   exact ⟨petersen, petersen_wf, petersen_reg, petersen_girth, by decide⟩
+-- with the claim header `... IsKRegular G 3 ∧ GirthGE G 5 ∧ G.n ≤ 10`
+-- (the sanity cell: valid proof, does not count).
+
+/- Representation hint for the record cells: define the graph by a rule
+(group multiplication, congruences, a lift, ...) instead of a giant literal
+table — a rule keeps both the file small and `native_decide` fast. The
+record graphs are highly structured: the (3,13) record is a cubic Cayley
+graph of the affine group AGL(1,17) of order 272 = 17*16 (Biggs 1989), and
+the 2026 records are lifts over small groups (Exoo et al. 2026). At the
+record scales (N <= 2048) the BFS predicate evaluates under native_decide
+in seconds. -/

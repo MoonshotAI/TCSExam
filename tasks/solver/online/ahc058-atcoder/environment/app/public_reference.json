@@ -1,0 +1,872 @@
+{
+ "instances": {
+  "0000.txt": {
+   "B": 1722707,
+   "K": 5756724,
+   "K_old_260922": 5285302,
+   "K_old_beam300s": 4958214,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0001.txt": {
+   "B": 1697472,
+   "K": 5586272,
+   "K_old_260922": 4707281,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0002.txt": {
+   "B": 1664153,
+   "K": 5661564,
+   "K_old_260922": 5071747,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0003.txt": {
+   "B": 1505888,
+   "K": 5570040,
+   "K_old_260922": 4293651,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0004.txt": {
+   "B": 1772282,
+   "K": 5764218,
+   "K_old_260922": 5333753,
+   "K_old_beam300s": 5028218,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0005.txt": {
+   "B": 1640404,
+   "K": 5807379,
+   "K_old_260922": 5151810,
+   "K_old_beam300s": 4486432,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0006.txt": {
+   "B": 1710717,
+   "K": 5666940,
+   "K_old_260922": 4141129,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0007.txt": {
+   "B": 1480811,
+   "K": 5376670,
+   "K_old_260922": 4188859,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0008.txt": {
+   "B": 1749986,
+   "K": 5729793,
+   "K_old_260922": 5008663,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0009.txt": {
+   "B": 1625156,
+   "K": 5543485,
+   "K_old_260922": 3800479,
+   "best_config": "w50k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0010.txt": {
+   "B": 1672229,
+   "K": 5629702,
+   "K_old_260922": 4784913,
+   "best_config": "w50k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0011.txt": {
+   "B": 1580199,
+   "K": 5613655,
+   "K_old_260922": 4984453,
+   "best_config": "w50k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0012.txt": {
+   "B": 1754380,
+   "K": 5574722,
+   "K_old_260922": 4778562,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0013.txt": {
+   "B": 1700488,
+   "K": 5590653,
+   "K_old_260922": 3801822,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0014.txt": {
+   "B": 1681518,
+   "K": 5438215,
+   "K_old_260922": 4923446,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0015.txt": {
+   "B": 1660902,
+   "K": 5856316,
+   "K_old_260922": 4329213,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0016.txt": {
+   "B": 1633081,
+   "K": 5682384,
+   "K_old_260922": 5039748,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0017.txt": {
+   "B": 1711302,
+   "K": 5854516,
+   "K_old_260922": 5224631,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0018.txt": {
+   "B": 1688090,
+   "K": 5607095,
+   "K_old_260922": 4101480,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0019.txt": {
+   "B": 1576751,
+   "K": 5582532,
+   "K_old_260922": 4918792,
+   "K_old_beam300s": 3982982,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0020.txt": {
+   "B": 1730748,
+   "K": 5713101,
+   "K_old_260922": 4170823,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0021.txt": {
+   "B": 1700946,
+   "K": 5783934,
+   "K_old_260922": 3923831,
+   "best_config": "w50k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0022.txt": {
+   "B": 1712038,
+   "K": 5590183,
+   "K_old_260922": 5281574,
+   "K_old_beam300s": 4666197,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0023.txt": {
+   "B": 1633515,
+   "K": 5818044,
+   "K_old_260922": 4743661,
+   "K_old_beam300s": 4115670,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0024.txt": {
+   "B": 1640498,
+   "K": 5672403,
+   "K_old_260922": 3823564,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0025.txt": {
+   "B": 1742293,
+   "K": 5709203,
+   "K_old_260922": 3727101,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0026.txt": {
+   "B": 1728454,
+   "K": 5653309,
+   "K_old_260922": 3875908,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0027.txt": {
+   "B": 1757733,
+   "K": 5531994,
+   "K_old_260922": 4574451,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0028.txt": {
+   "B": 1688350,
+   "K": 5693162,
+   "K_old_260922": 5141837,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0029.txt": {
+   "B": 1766313,
+   "K": 5871936,
+   "K_old_260922": 4506704,
+   "best_config": "w50k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0030.txt": {
+   "B": 1644204,
+   "K": 5744635,
+   "K_old_260922": 5202954,
+   "K_old_beam300s": 4859707,
+   "best_config": "w50k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0031.txt": {
+   "B": 1709653,
+   "K": 5778394,
+   "K_old_260922": 5330365,
+   "K_old_beam300s": 4869494,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0032.txt": {
+   "B": 1691462,
+   "K": 5726619,
+   "K_old_260922": 4624409,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0033.txt": {
+   "B": 1651653,
+   "K": 5815529,
+   "K_old_260922": 5173880,
+   "K_old_beam300s": 4621808,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0034.txt": {
+   "B": 1690235,
+   "K": 5673163,
+   "K_old_260922": 5004169,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0035.txt": {
+   "B": 1762382,
+   "K": 5782964,
+   "K_old_260922": 4302127,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0036.txt": {
+   "B": 1749506,
+   "K": 5605475,
+   "K_old_260922": 4361306,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0037.txt": {
+   "B": 1730504,
+   "K": 5690532,
+   "K_old_260922": 4495714,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0038.txt": {
+   "B": 1681008,
+   "K": 5681139,
+   "K_old_260922": 4703557,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0039.txt": {
+   "B": 1648490,
+   "K": 5406292,
+   "K_old_260922": 2710025,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0040.txt": {
+   "B": 1610607,
+   "K": 5626327,
+   "K_old_260922": 4948434,
+   "best_config": "w50k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0041.txt": {
+   "B": 1694464,
+   "K": 5652299,
+   "K_old_260922": 4847067,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0042.txt": {
+   "B": 1711997,
+   "K": 5705846,
+   "K_old_260922": 5150583,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0043.txt": {
+   "B": 1721862,
+   "K": 5810961,
+   "K_old_260922": 5270324,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0044.txt": {
+   "B": 1760247,
+   "K": 5712967,
+   "K_old_260922": 4798267,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0045.txt": {
+   "B": 1764379,
+   "K": 5729805,
+   "K_old_260922": 4570072,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0046.txt": {
+   "B": 1712119,
+   "K": 5693690,
+   "K_old_260922": 4708713,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0047.txt": {
+   "B": 1735486,
+   "K": 5839742,
+   "K_old_260922": 4535546,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0048.txt": {
+   "B": 1701791,
+   "K": 5764549,
+   "K_old_260922": 5456931,
+   "K_old_beam300s": 5181068,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0049.txt": {
+   "B": 1691632,
+   "K": 5666424,
+   "K_old_260922": 4718006,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0050.txt": {
+   "B": 1809711,
+   "K": 5725375,
+   "K_old_260922": 3917165,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0051.txt": {
+   "B": 1728102,
+   "K": 5540615,
+   "K_old_260922": 4951155,
+   "K_old_beam300s": 3874313,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0052.txt": {
+   "B": 1732314,
+   "K": 5686987,
+   "K_old_260922": 5126215,
+   "K_old_beam300s": 4966582,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0053.txt": {
+   "B": 1583930,
+   "K": 5710655,
+   "K_old_260922": 4927588,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0054.txt": {
+   "B": 1639423,
+   "K": 5732368,
+   "K_old_260922": 4864021,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0055.txt": {
+   "B": 1650022,
+   "K": 5247334,
+   "K_old_260922": 2988477,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0056.txt": {
+   "B": 1671966,
+   "K": 5647839,
+   "K_old_260922": 3722441,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0057.txt": {
+   "B": 1717040,
+   "K": 5647300,
+   "K_old_260922": 4032538,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0058.txt": {
+   "B": 1763783,
+   "K": 5662368,
+   "K_old_260922": 4936926,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0059.txt": {
+   "B": 1702852,
+   "K": 5650999,
+   "K_old_260922": 4224756,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0060.txt": {
+   "B": 1751913,
+   "K": 5851169,
+   "K_old_260922": 4743527,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0061.txt": {
+   "B": 1688761,
+   "K": 5666415,
+   "K_old_260922": 4092440,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0062.txt": {
+   "B": 1711331,
+   "K": 5871405,
+   "K_old_260922": 5260849,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0063.txt": {
+   "B": 1666343,
+   "K": 5609635,
+   "K_old_260922": 3925989,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0064.txt": {
+   "B": 1700365,
+   "K": 5595485,
+   "K_old_260922": 5269946,
+   "K_old_beam300s": 4621233,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0065.txt": {
+   "B": 1797088,
+   "K": 5510306,
+   "K_old_260922": 4199766,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0066.txt": {
+   "B": 1779081,
+   "K": 5772528,
+   "K_old_260922": 5383360,
+   "K_old_beam300s": 4821838,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0067.txt": {
+   "B": 1737546,
+   "K": 5756042,
+   "K_old_260922": 5254002,
+   "K_old_beam300s": 4501333,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0068.txt": {
+   "B": 1649354,
+   "K": 5464287,
+   "K_old_260922": 3495298,
+   "best_config": "w50k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0069.txt": {
+   "B": 1675258,
+   "K": 5730482,
+   "K_old_260922": 4964610,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0070.txt": {
+   "B": 1730375,
+   "K": 5605310,
+   "K_old_260922": 4168611,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0071.txt": {
+   "B": 1737520,
+   "K": 5789749,
+   "K_old_260922": 4053519,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0072.txt": {
+   "B": 1640498,
+   "K": 5640050,
+   "K_old_260922": 5334780,
+   "K_old_beam300s": 5211901,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0073.txt": {
+   "B": 1774991,
+   "K": 5779654,
+   "K_old_260922": 4285532,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0074.txt": {
+   "B": 1691572,
+   "K": 5784326,
+   "K_old_260922": 4511375,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0075.txt": {
+   "B": 1668639,
+   "K": 5605842,
+   "K_old_260922": 3886758,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0076.txt": {
+   "B": 1715549,
+   "K": 5579406,
+   "K_old_260922": 3989774,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0077.txt": {
+   "B": 1602269,
+   "K": 5785134,
+   "K_old_260922": 4286980,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0078.txt": {
+   "B": 1566728,
+   "K": 5618584,
+   "K_old_260922": 5113766,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0079.txt": {
+   "B": 1663458,
+   "K": 5527961,
+   "K_old_260922": 5180022,
+   "K_old_beam300s": 4841726,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0080.txt": {
+   "B": 1779062,
+   "K": 5735235,
+   "K_old_260922": 5367725,
+   "K_old_beam300s": 5003263,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0081.txt": {
+   "B": 1698136,
+   "K": 5754713,
+   "K_old_260922": 4465286,
+   "best_config": "w50k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0082.txt": {
+   "B": 1712846,
+   "K": 5649506,
+   "K_old_260922": 4870459,
+   "best_config": "w50k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0083.txt": {
+   "B": 1721923,
+   "K": 5670873,
+   "K_old_260922": 5169326,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0084.txt": {
+   "B": 1701515,
+   "K": 5548045,
+   "K_old_260922": 3226242,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0085.txt": {
+   "B": 1629139,
+   "K": 5483773,
+   "K_old_260922": 4995695,
+   "K_old_beam300s": 3820701,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0086.txt": {
+   "B": 1739384,
+   "K": 5747981,
+   "K_old_260922": 4792218,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0087.txt": {
+   "B": 1692799,
+   "K": 5605377,
+   "K_old_260922": 3532694,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0088.txt": {
+   "B": 1708504,
+   "K": 5454368,
+   "K_old_260922": 3164029,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0089.txt": {
+   "B": 1720346,
+   "K": 5715956,
+   "K_old_260922": 4730374,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0090.txt": {
+   "B": 1753638,
+   "K": 5465749,
+   "K_old_260922": 3556382,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0091.txt": {
+   "B": 1751706,
+   "K": 5650812,
+   "K_old_260922": 5055187,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0092.txt": {
+   "B": 1706384,
+   "K": 5660679,
+   "K_old_260922": 3862152,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0093.txt": {
+   "B": 1719691,
+   "K": 5676662,
+   "K_old_260922": 4986861,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0094.txt": {
+   "B": 1700020,
+   "K": 5890909,
+   "K_old_260922": 5099289,
+   "best_config": "w100k-v8",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0095.txt": {
+   "B": 1602460,
+   "K": 5669729,
+   "K_old_260922": 4263228,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0096.txt": {
+   "B": 1723493,
+   "K": 5942991,
+   "K_old_260922": 5380670,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0097.txt": {
+   "B": 1853732,
+   "K": 5738823,
+   "K_old_260922": 4550565,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0098.txt": {
+   "B": 1649307,
+   "K": 5507731,
+   "K_old_260922": 3842569,
+   "best_config": "w50k-v7",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0099.txt": {
+   "B": 1740140,
+   "K": 5654648,
+   "K_old_260922": 5201830,
+   "K_old_beam300s": 3981394,
+   "best_config": "w50k-def",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "h00.txt": {
+   "B": 1670797,
+   "K": 5873168,
+   "K_old_260922": 5203910,
+   "K_old_pool120s": 5811287,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "h04.txt": {
+   "B": 1826849,
+   "K": 5616915,
+   "K_old_260922": 5395098,
+   "K_old_pool120s": 5557149,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "h19.txt": {
+   "B": 1718522,
+   "K": 5682289,
+   "K_old_260922": 5130248,
+   "K_old_pool120s": 5417954,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "h24.txt": {
+   "B": 1604350,
+   "K": 5665961,
+   "K_old_260922": 5173435,
+   "K_old_pool120s": 5598914,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "h27.txt": {
+   "B": 1679871,
+   "K": 5690083,
+   "K_old_260922": 5175552,
+   "K_old_pool120s": 5631933,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "fishylene AHC058 champion submission (AtCoder public), measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  }
+ },
+ "meta": {
+  "k_update_260922": "Reference values use checker-validated champion-submission measurements where they improve on the other retained reference sources."
+ }
+}

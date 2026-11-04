@@ -1,0 +1,1487 @@
+{
+  "checked": "2026-10-15",
+  "method": "Inspect exact generated JS; decode base91 and Zstandard bytes as data only. No JS or WebAssembly is executed, and no generated widget or task is changed.",
+  "graphviz": {
+    "version": "15.0.0",
+    "version_evidence": "Static strings in the actual embedded payload identify the 15.0.0 source directory, consistent with the fixed wrapper overlay. Build paths are retained only in internal evidence.",
+    "wasm_sha256": "b73447cdf82c85bc61be2ebb78f1ac17a70fb7567c9f739268d7542e88cc421c",
+    "wasm_bytes": 1586659,
+    "wrapper_package": "@hpcc-js/wasm 2.34.2",
+    "wrapper_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+    "wrapper_license": "Apache-2.0",
+    "program_license": "EPL-2.0",
+    "program_license_text": {
+      "name": "graphviz-15-license",
+      "url": "https://gitlab.com/graphviz/graphviz/-/raw/15.0.0/LICENSE",
+      "status": 200,
+      "bytes": 14198,
+      "sha256": "0becf16567beb77fa252b7664631dd177c8f9a1889e48995b45379c7130e5303",
+      "text_file": "image-notices/0becf16567beb77fa252b7664631dd177c8f9a1889e48995b45379c7130e5303.txt"
+    },
+    "source_archive_url": "https://gitlab.com/graphviz/graphviz/-/archive/15.0.0/graphviz-15.0.0.tar.gz",
+    "wrapper_and_build_source_url": "https://github.com/hpcc-systems/hpcc-js-wasm/archive/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4.tar.gz",
+    "modification_information": "The fixed overlay replaces Graphviz CMakeLists.txt and config_checks.cmake and repairs GVPLUGIN version variable substitutions. Original overlay/port files and build rules accompany this record; preserve these changes with any source offer.",
+    "source_distribution_condition": "Under EPL-2.0 section 3, accompany distribution with the agreement and a clear statement explaining how to obtain source for the Program, including actual modifications. Do not describe the whole payload as Apache-2.0. Final source-offer integration and any further modifications require release verification.",
+    "triangulation": "Actual payload states Graphviz was built without any triangulation library. The wrapper repository dependency list is not used to claim the noncommercial Triangle program is shipped in this payload.",
+    "expat": {
+      "version_from_fixed_vcpkg_port": "2.8.1",
+      "license": "MIT",
+      "fixed_port_ref": "microsoft/vcpkg 2026.06.01",
+      "license_text": {
+        "name": "Expat-2.8.1-MIT",
+        "url": "https://raw.githubusercontent.com/libexpat/libexpat/R_2_8_1/expat/COPYING",
+        "status": 200,
+        "bytes": 1144,
+        "sha256": "31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87",
+        "text_file": "image-notices/31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87.txt"
+      },
+      "version_scope": "The fixed build script and port specify 2.8.1; embedded payload confirms Expat is linked. The Expat runtime version function was not executed."
+    },
+    "emscripten": {
+      "version_from_fixed_build_script": "6.0.0",
+      "license_texts": [
+        {
+          "name": "Emscripten-6.0.0-LICENSE",
+          "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/6.0.0/LICENSE",
+          "status": 200,
+          "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+          "bytes": 5093,
+          "text_file": "image-notices/620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86.txt"
+        },
+        {
+          "name": "Emscripten-6.0.0-musl-COPYRIGHT",
+          "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/6.0.0/system/lib/libc/musl/COPYRIGHT",
+          "status": 200,
+          "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b",
+          "bytes": 6196,
+          "text_file": "image-notices/b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b.txt"
+        },
+        {
+          "name": "Emscripten-6.0.0-libcxx-LICENSE",
+          "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/6.0.0/system/lib/libcxx/LICENSE.TXT",
+          "status": 200,
+          "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+          "bytes": 16703,
+          "text_file": "image-notices/539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b.txt"
+        }
+      ],
+      "scope": "Preserve runtime library licenses and exceptions; compiler use alone is not treated as a grant for output, and runtime code incorporated into the payload retains its terms."
+    }
+  },
+  "penrose_optimizer": {
+    "version": "3.2.0",
+    "source_commit": "fd4aae0b95ad6f7b35863de87b16e796e2c3bfda",
+    "source_url": "https://github.com/penrose/penrose/tree/fd4aae0b95ad6f7b35863de87b16e796e2c3bfda/packages/optimizer",
+    "license": "MIT",
+    "cargo_lock_sha256": "37ab4de2c96f7d7b3c9f1b6b9ce58081365a3c68b6073a4d5a5a4f9bf92d10c9",
+    "verified_crate_archives": 46,
+    "total_crate_archives": 46,
+    "scope": "All 46 exact Cargo.lock registry archives were verified, as a conservative notice set including build/host/Windows dependencies; this is not a claim all are linked into wasm32.",
+    "crates": [
+      {
+        "name": "Inflector",
+        "version": "0.11.4",
+        "source_url": "https://static.crates.io/crates/Inflector/Inflector-0.11.4.crate",
+        "checksum_sha256": "fe438c63458706e03479442743baae6c88256498e6431708f6dfc520a26515d3",
+        "notices": [],
+        "archive_verified": true,
+        "bytes": 17438,
+        "license": "BSD-2-Clause",
+        "authors": [
+          "Josh Teeter<joshteeter@gmail.com>"
+        ],
+        "supplementary_project_notice": {
+          "name": "Inflector-BSD-full",
+          "url": "https://raw.githubusercontent.com/whatisinternet/inflector/master/LICENSE.md",
+          "status": 200,
+          "bytes": 1270,
+          "sha256": "03d1bd5bfbee8d44651e7f57faf9e5b4eda4233f0d4eda36a716f2f0533d230b",
+          "text_file": "image-notices/03d1bd5bfbee8d44651e7f57faf9e5b4eda4233f0d4eda36a716f2f0533d230b.txt"
+        },
+        "notice_basis": "Exact released Cargo.toml explicitly identifies the license and authors; a same-project current source notice supplements an archive that omitted a standalone license text. The retrieved text is not represented as an originally shipped historical file."
+      },
+      {
+        "name": "approx",
+        "version": "0.5.1",
+        "source_url": "https://static.crates.io/crates/approx/approx-0.5.1.crate",
+        "checksum_sha256": "cab112f0a86d568ea0e627cc1d6be74a1e9cd55214684db5561995f6dad897c6",
+        "notices": [
+          {
+            "path": "approx-0.5.1/LICENSE",
+            "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+            "bytes": 11560,
+            "text_file": "image-notices/3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 15100,
+        "license": "Apache-2.0",
+        "authors": [
+          "Brendan Zabarauskas <bjzaba@yahoo.com.au>"
+        ]
+      },
+      {
+        "name": "autocfg",
+        "version": "1.1.0",
+        "source_url": "https://static.crates.io/crates/autocfg/autocfg-1.1.0.crate",
+        "checksum_sha256": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "notices": [
+          {
+            "path": "autocfg-1.1.0/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "autocfg-1.1.0/LICENSE-MIT",
+            "sha256": "27995d58ad5c1145c1a8cd86244ce844886958a35eb2b78c6b772748669999ac",
+            "bytes": 1054,
+            "text_file": "image-notices/27995d58ad5c1145c1a8cd86244ce844886958a35eb2b78c6b772748669999ac.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 13272,
+        "license": "Apache-2.0 OR MIT",
+        "authors": [
+          "Josh Stone <cuviper@gmail.com>"
+        ]
+      },
+      {
+        "name": "bumpalo",
+        "version": "3.11.1",
+        "source_url": "https://static.crates.io/crates/bumpalo/bumpalo-3.11.1.crate",
+        "checksum_sha256": "572f695136211188308f16ad2ca5c851a712c464060ae6974944458eb83880ba",
+        "notices": [
+          {
+            "path": "bumpalo-3.11.1/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "bumpalo-3.11.1/LICENSE-MIT",
+            "sha256": "65f94e99ddaf4f5d1782a6dae23f35d4293a9a01444a13135a6887017d353cee",
+            "bytes": 1059,
+            "text_file": "image-notices/65f94e99ddaf4f5d1782a6dae23f35d4293a9a01444a13135a6887017d353cee.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 81207,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "Nick Fitzgerald <fitzgen@gmail.com>"
+        ]
+      },
+      {
+        "name": "bytemuck",
+        "version": "1.12.1",
+        "source_url": "https://static.crates.io/crates/bytemuck/bytemuck-1.12.1.crate",
+        "checksum_sha256": "2f5715e491b5a1598fc2bef5a606847b5dc1d48ea625bd3c02c00de8285591da",
+        "notices": [
+          {
+            "path": "bytemuck-1.12.1/LICENSE-APACHE",
+            "sha256": "870e20c217d15bcfcbe53d7c5867cd8fac44a4ca0b41fc1eb843557e16063eba",
+            "bytes": 10459,
+            "text_file": "image-notices/870e20c217d15bcfcbe53d7c5867cd8fac44a4ca0b41fc1eb843557e16063eba.txt"
+          },
+          {
+            "path": "bytemuck-1.12.1/LICENSE-MIT",
+            "sha256": "0b2d108c9c686a74ac312990ee8377902756a2a081a7af3b0f9d68abf0a8f1a1",
+            "bytes": 1119,
+            "text_file": "image-notices/0b2d108c9c686a74ac312990ee8377902756a2a081a7af3b0f9d68abf0a8f1a1.txt"
+          },
+          {
+            "path": "bytemuck-1.12.1/LICENSE-ZLIB",
+            "sha256": "682b4c81b85e83ce6cc6e1ace38fdd97aeb4de0e972bd2b44aa0916c54af8c96",
+            "bytes": 862,
+            "text_file": "image-notices/682b4c81b85e83ce6cc6e1ace38fdd97aeb4de0e972bd2b44aa0916c54af8c96.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 38293,
+        "license": "Zlib OR Apache-2.0 OR MIT",
+        "authors": [
+          "Lokathor <zefria@gmail.com>"
+        ]
+      },
+      {
+        "name": "cfg-if",
+        "version": "1.0.0",
+        "source_url": "https://static.crates.io/crates/cfg-if/cfg-if-1.0.0.crate",
+        "checksum_sha256": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "notices": [
+          {
+            "path": "cfg-if-1.0.0/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "cfg-if-1.0.0/LICENSE-MIT",
+            "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+            "bytes": 1057,
+            "text_file": "image-notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 7934,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "Alex Crichton <alex@alexcrichton.com>"
+        ]
+      },
+      {
+        "name": "console_error_panic_hook",
+        "version": "0.1.7",
+        "source_url": "https://static.crates.io/crates/console_error_panic_hook/console_error_panic_hook-0.1.7.crate",
+        "checksum_sha256": "a06aeb73f470f66dcdbf7223caeebb85984942f22f1adb2a088cf9668146bbbc",
+        "notices": [
+          {
+            "path": "console_error_panic_hook-0.1.7/LICENSE-APACHE",
+            "sha256": "353b508bbc50274d47a23729f568bab2618e3d0eaa10208616f5fd475255b896",
+            "bytes": 10848,
+            "text_file": "image-notices/353b508bbc50274d47a23729f568bab2618e3d0eaa10208616f5fd475255b896.txt"
+          },
+          {
+            "path": "console_error_panic_hook-0.1.7/LICENSE-MIT",
+            "sha256": "77674336af8ded214dc3ae07da631c7dd35cc8205f39298474ba98a889e57272",
+            "bytes": 1059,
+            "text_file": "image-notices/77674336af8ded214dc3ae07da631c7dd35cc8205f39298474ba98a889e57272.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 507196,
+        "license": "Apache-2.0/MIT",
+        "authors": [
+          "Nick Fitzgerald <fitzgen@gmail.com>"
+        ]
+      },
+      {
+        "name": "console_log",
+        "version": "0.2.0",
+        "source_url": "https://static.crates.io/crates/console_log/console_log-0.2.0.crate",
+        "checksum_sha256": "501a375961cef1a0d44767200e66e4a559283097e91d0730b1d75dfb2f8a1494",
+        "notices": [
+          {
+            "path": "console_log-0.2.0/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "console_log-0.2.0/LICENSE-MIT",
+            "sha256": "0315568149476c50fa16ce5f7f735267a24e10a582254a7656f6c3daacaa37b7",
+            "bytes": 1061,
+            "text_file": "image-notices/0315568149476c50fa16ce5f7f735267a24e10a582254a7656f6c3daacaa37b7.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 29003,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "Matthew Nicholson <matt@matt-land.com>"
+        ]
+      },
+      {
+        "name": "js-sys",
+        "version": "0.3.60",
+        "source_url": "https://static.crates.io/crates/js-sys/js-sys-0.3.60.crate",
+        "checksum_sha256": "49409df3e3bf0856b916e2ceaca09ee28e6871cf7d9ce97a692cacfdb2a25a47",
+        "notices": [
+          {
+            "path": "js-sys-0.3.60/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "js-sys-0.3.60/LICENSE-MIT",
+            "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+            "bytes": 1057,
+            "text_file": "image-notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 79257,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "The wasm-bindgen Developers"
+        ]
+      },
+      {
+        "name": "log",
+        "version": "0.4.17",
+        "source_url": "https://static.crates.io/crates/log/log-0.4.17.crate",
+        "checksum_sha256": "abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e",
+        "notices": [
+          {
+            "path": "log-0.4.17/LICENSE-APACHE",
+            "sha256": "7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c",
+            "bytes": 11048,
+            "text_file": "image-notices/7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c.txt"
+          },
+          {
+            "path": "log-0.4.17/LICENSE-MIT",
+            "sha256": "705aaaaecefa087c187bd2eacdb01b8ac1c5ee95b1d5d04d8d7efe0363207df8",
+            "bytes": 1096,
+            "text_file": "image-notices/705aaaaecefa087c187bd2eacdb01b8ac1c5ee95b1d5d04d8d7efe0363207df8.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 38028,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "The Rust Project Developers"
+        ]
+      },
+      {
+        "name": "matrixmultiply",
+        "version": "0.3.2",
+        "source_url": "https://static.crates.io/crates/matrixmultiply/matrixmultiply-0.3.2.crate",
+        "checksum_sha256": "add85d4dd35074e6fedc608f8c8f513a3548619a9024b751949ef0e8e45a4d84",
+        "notices": [
+          {
+            "path": "matrixmultiply-0.3.2/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "matrixmultiply-0.3.2/LICENSE-MIT",
+            "sha256": "b8504ded431f96a42903a56d2e997619a5105d5d238c473e2dcc151374010f97",
+            "bytes": 1159,
+            "text_file": "image-notices/b8504ded431f96a42903a56d2e997619a5105d5d238c473e2dcc151374010f97.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 49247,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "bluss",
+          "R. Janis Goldschmidt"
+        ]
+      },
+      {
+        "name": "nalgebra",
+        "version": "0.31.1",
+        "source_url": "https://static.crates.io/crates/nalgebra/nalgebra-0.31.1.crate",
+        "checksum_sha256": "e9e0a04ce089f9401aac565c740ed30c46291260f27d4911fdbaa6ca65fa3044",
+        "notices": [
+          {
+            "path": "nalgebra-0.31.1/LICENSE",
+            "sha256": "86ae51c591e742d80ce56823d35e2e176b53e38a99bd8499c85dae31ef4fe1f7",
+            "bytes": 11548,
+            "text_file": "image-notices/86ae51c591e742d80ce56823d35e2e176b53e38a99bd8499c85dae31ef4fe1f7.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 359265,
+        "license": "BSD-3-Clause",
+        "authors": [
+          "Sébastien Crozet <developer@crozet.re>"
+        ]
+      },
+      {
+        "name": "nalgebra-macros",
+        "version": "0.1.0",
+        "source_url": "https://static.crates.io/crates/nalgebra-macros/nalgebra-macros-0.1.0.crate",
+        "checksum_sha256": "01fcc0b8149b4632adc89ac3b7b31a12fb6099a0317a4eb2ebff574ef7de7218",
+        "notices": [],
+        "archive_verified": true,
+        "bytes": 5758,
+        "license": "Apache-2.0",
+        "authors": [
+          "Andreas Longva",
+          "Sébastien Crozet <developer@crozet.re>"
+        ],
+        "supplementary_project_notice": {
+          "name": "nalgebra-Apache",
+          "url": "https://raw.githubusercontent.com/dimforge/nalgebra/master/LICENSE",
+          "sha256": "ceacfa4d7fa67df64ab09a56fe248c50a3bfc9bc00374d69bd74ad763b14b89c",
+          "bytes": 11347,
+          "status": 200,
+          "text_file": "image-notices/ceacfa4d7fa67df64ab09a56fe248c50a3bfc9bc00374d69bd74ad763b14b89c.txt"
+        },
+        "notice_basis": "Exact released Cargo.toml explicitly identifies the license and authors; a same-project current source notice supplements an archive that omitted a standalone license text. The retrieved text is not represented as an originally shipped historical file."
+      },
+      {
+        "name": "num-complex",
+        "version": "0.4.2",
+        "source_url": "https://static.crates.io/crates/num-complex/num-complex-0.4.2.crate",
+        "checksum_sha256": "7ae39348c8bc5fbd7f40c727a9925f03517afd2ab27d46702108b6a7e5414c19",
+        "notices": [
+          {
+            "path": "num-complex-0.4.2/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "num-complex-0.4.2/LICENSE-MIT",
+            "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+            "bytes": 1071,
+            "text_file": "image-notices/6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 29341,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "The Rust Project Developers"
+        ]
+      },
+      {
+        "name": "num-integer",
+        "version": "0.1.45",
+        "source_url": "https://static.crates.io/crates/num-integer/num-integer-0.1.45.crate",
+        "checksum_sha256": "225d3389fb3509a24c93f5c29eb6bde2586b98d9f016636dff58d7c6f7569cd9",
+        "notices": [
+          {
+            "path": "num-integer-0.1.45/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "num-integer-0.1.45/LICENSE-MIT",
+            "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+            "bytes": 1071,
+            "text_file": "image-notices/6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 22529,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "The Rust Project Developers"
+        ]
+      },
+      {
+        "name": "num-rational",
+        "version": "0.4.1",
+        "source_url": "https://static.crates.io/crates/num-rational/num-rational-0.4.1.crate",
+        "checksum_sha256": "0638a1c9d0a3c0914158145bc76cff373a75a627e6ecbfb71cbe6f453a5a19b0",
+        "notices": [
+          {
+            "path": "num-rational-0.4.1/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "num-rational-0.4.1/LICENSE-MIT",
+            "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+            "bytes": 1071,
+            "text_file": "image-notices/6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 27889,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "The Rust Project Developers"
+        ]
+      },
+      {
+        "name": "num-traits",
+        "version": "0.2.15",
+        "source_url": "https://static.crates.io/crates/num-traits/num-traits-0.2.15.crate",
+        "checksum_sha256": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
+        "notices": [
+          {
+            "path": "num-traits-0.2.15/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "num-traits-0.2.15/LICENSE-MIT",
+            "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+            "bytes": 1071,
+            "text_file": "image-notices/6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 49262,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "The Rust Project Developers"
+        ]
+      },
+      {
+        "name": "once_cell",
+        "version": "1.16.0",
+        "source_url": "https://static.crates.io/crates/once_cell/once_cell-1.16.0.crate",
+        "checksum_sha256": "86f0b0d4bf799edbc74508c1e8bf170ff5f41238e5f8225603ca7caaae2b7860",
+        "notices": [
+          {
+            "path": "once_cell-1.16.0/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "once_cell-1.16.0/LICENSE-MIT",
+            "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+            "bytes": 1023,
+            "text_file": "image-notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 32120,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "Aleksey Kladov <aleksey.kladov@gmail.com>"
+        ]
+      },
+      {
+        "name": "paste",
+        "version": "1.0.9",
+        "source_url": "https://static.crates.io/crates/paste/paste-1.0.9.crate",
+        "checksum_sha256": "b1de2e551fb905ac83f73f7aedf2f0cb4a0da7e35efa24a202a936269f1f18e1",
+        "notices": [
+          {
+            "path": "paste-1.0.9/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "paste-1.0.9/LICENSE-MIT",
+            "sha256": "7f697f191d6ffb32881a6bcf535e817ebbebaaa11b9aacf4f0b26fd32e2cc201",
+            "bytes": 1043,
+            "text_file": "image-notices/7f697f191d6ffb32881a6bcf535e817ebbebaaa11b9aacf4f0b26fd32e2cc201.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 17752,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "David Tolnay <dtolnay@gmail.com>"
+        ]
+      },
+      {
+        "name": "proc-macro2",
+        "version": "1.0.43",
+        "source_url": "https://static.crates.io/crates/proc-macro2/proc-macro2-1.0.43.crate",
+        "checksum_sha256": "0a2ca2c61bc9f3d74d2886294ab7b9853abd9c1ad903a3ac7815c58989bb7bab",
+        "notices": [
+          {
+            "path": "proc-macro2-1.0.43/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "proc-macro2-1.0.43/LICENSE-MIT",
+            "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+            "bytes": 1057,
+            "text_file": "image-notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 41512,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "David Tolnay <dtolnay@gmail.com>",
+          "Alex Crichton <alex@alexcrichton.com>"
+        ]
+      },
+      {
+        "name": "quote",
+        "version": "1.0.21",
+        "source_url": "https://static.crates.io/crates/quote/quote-1.0.21.crate",
+        "checksum_sha256": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "notices": [
+          {
+            "path": "quote-1.0.21/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "quote-1.0.21/LICENSE-MIT",
+            "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5",
+            "bytes": 1071,
+            "text_file": "image-notices/c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 28030,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "David Tolnay <dtolnay@gmail.com>"
+        ]
+      },
+      {
+        "name": "rawpointer",
+        "version": "0.2.1",
+        "source_url": "https://static.crates.io/crates/rawpointer/rawpointer-0.2.1.crate",
+        "checksum_sha256": "60a357793950651c4ed0f3f52338f53b2f809f32d83a07f72909fa13e4c6c1e3",
+        "notices": [
+          {
+            "path": "rawpointer-0.2.1/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "rawpointer-0.2.1/LICENSE-MIT",
+            "sha256": "7576269ea71f767b99297934c0b2367532690f8c4badc695edf8e04ab6a1e545",
+            "bytes": 1043,
+            "text_file": "image-notices/7576269ea71f767b99297934c0b2367532690f8c4badc695edf8e04ab6a1e545.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 7490,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "bluss"
+        ]
+      },
+      {
+        "name": "safe_arch",
+        "version": "0.6.0",
+        "source_url": "https://static.crates.io/crates/safe_arch/safe_arch-0.6.0.crate",
+        "checksum_sha256": "794821e4ccb0d9f979512f9c1973480123f9bd62a90d74ab0f9426fcf8f4a529",
+        "notices": [
+          {
+            "path": "safe_arch-0.6.0/LICENSE-ZLIB.md",
+            "sha256": "6f5eb1806918b0e331db6aae84abddbcc7a297ffea58582211e41e941b5a1841",
+            "bytes": 862,
+            "text_file": "image-notices/6f5eb1806918b0e331db6aae84abddbcc7a297ffea58582211e41e941b5a1841.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 72016,
+        "license": "Zlib OR Apache-2.0 OR MIT",
+        "authors": [
+          "Lokathor <zefria@gmail.com>"
+        ]
+      },
+      {
+        "name": "serde",
+        "version": "1.0.147",
+        "source_url": "https://static.crates.io/crates/serde/serde-1.0.147.crate",
+        "checksum_sha256": "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965",
+        "notices": [
+          {
+            "path": "serde-1.0.147/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "serde-1.0.147/LICENSE-MIT",
+            "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+            "bytes": 1023,
+            "text_file": "image-notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 76697,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "Erick Tryzelaar <erick.tryzelaar@gmail.com>",
+          "David Tolnay <dtolnay@gmail.com>"
+        ]
+      },
+      {
+        "name": "serde-wasm-bindgen",
+        "version": "0.4.5",
+        "source_url": "https://static.crates.io/crates/serde-wasm-bindgen/serde-wasm-bindgen-0.4.5.crate",
+        "checksum_sha256": "e3b4c031cd0d9014307d82b8abf653c0290fbdaeb4c02d00c63cf52f728628bf",
+        "notices": [
+          {
+            "path": "serde-wasm-bindgen-0.4.5/LICENSE",
+            "sha256": "62a81c033fcf173693b50f068939cd903d8a414d915776ff1fef5d5869aabcb7",
+            "bytes": 1094,
+            "text_file": "image-notices/62a81c033fcf173693b50f068939cd903d8a414d915776ff1fef5d5869aabcb7.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 17012,
+        "license": "MIT",
+        "authors": [
+          "Ingvar Stepanyan <me@rreverser.com>"
+        ]
+      },
+      {
+        "name": "serde_derive",
+        "version": "1.0.147",
+        "source_url": "https://static.crates.io/crates/serde_derive/serde_derive-1.0.147.crate",
+        "checksum_sha256": "4f1d362ca8fc9c3e3a7484440752472d68a6caa98f1ab81d99b5dfe517cec852",
+        "notices": [
+          {
+            "path": "serde_derive-1.0.147/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "serde_derive-1.0.147/LICENSE-MIT",
+            "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+            "bytes": 1023,
+            "text_file": "image-notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 54861,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "Erick Tryzelaar <erick.tryzelaar@gmail.com>",
+          "David Tolnay <dtolnay@gmail.com>"
+        ]
+      },
+      {
+        "name": "simba",
+        "version": "0.7.2",
+        "source_url": "https://static.crates.io/crates/simba/simba-0.7.2.crate",
+        "checksum_sha256": "c48e45e5961033db030b56ad67aef22e9c908c493a6e8348c0a0f6b93433cd77",
+        "notices": [
+          {
+            "path": "simba-0.7.2/LICENSE",
+            "sha256": "ceacfa4d7fa67df64ab09a56fe248c50a3bfc9bc00374d69bd74ad763b14b89c",
+            "bytes": 11347,
+            "text_file": "image-notices/ceacfa4d7fa67df64ab09a56fe248c50a3bfc9bc00374d69bd74ad763b14b89c.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 50905,
+        "license": "Apache-2.0",
+        "authors": [
+          "sebcrozet <developer@crozet.re>"
+        ]
+      },
+      {
+        "name": "syn",
+        "version": "1.0.99",
+        "source_url": "https://static.crates.io/crates/syn/syn-1.0.99.crate",
+        "checksum_sha256": "58dbef6ec655055e20b86b15a8cc6d439cca19b667537ac6a1369572d151ab13",
+        "notices": [
+          {
+            "path": "syn-1.0.99/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "syn-1.0.99/LICENSE-MIT",
+            "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+            "bytes": 1023,
+            "text_file": "image-notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 236084,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "David Tolnay <dtolnay@gmail.com>"
+        ]
+      },
+      {
+        "name": "termcolor",
+        "version": "1.1.3",
+        "source_url": "https://static.crates.io/crates/termcolor/termcolor-1.1.3.crate",
+        "checksum_sha256": "bab24d30b911b2376f3a13cc2cd443142f0c81dda04c118693e35b3835757755",
+        "notices": [
+          {
+            "path": "termcolor-1.1.3/COPYING",
+            "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+            "bytes": 126,
+            "text_file": "image-notices/01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f.txt"
+          },
+          {
+            "path": "termcolor-1.1.3/LICENSE-MIT",
+            "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+            "bytes": 1081,
+            "text_file": "image-notices/0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 17242,
+        "license": "Unlicense OR MIT",
+        "authors": [
+          "Andrew Gallant <jamslam@gmail.com>"
+        ]
+      },
+      {
+        "name": "thiserror",
+        "version": "1.0.37",
+        "source_url": "https://static.crates.io/crates/thiserror/thiserror-1.0.37.crate",
+        "checksum_sha256": "10deb33631e3c9018b9baf9dcbbc4f737320d2b576bac10f6aefa048fa407e3e",
+        "notices": [
+          {
+            "path": "thiserror-1.0.37/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "thiserror-1.0.37/LICENSE-MIT",
+            "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+            "bytes": 1023,
+            "text_file": "image-notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 18752,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "David Tolnay <dtolnay@gmail.com>"
+        ]
+      },
+      {
+        "name": "thiserror-impl",
+        "version": "1.0.37",
+        "source_url": "https://static.crates.io/crates/thiserror-impl/thiserror-impl-1.0.37.crate",
+        "checksum_sha256": "982d17546b47146b28f7c22e3d08465f6b8903d0ea13c1660d9d84a6e7adcdbb",
+        "notices": [
+          {
+            "path": "thiserror-impl-1.0.37/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "thiserror-impl-1.0.37/LICENSE-MIT",
+            "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+            "bytes": 1023,
+            "text_file": "image-notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 15428,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "David Tolnay <dtolnay@gmail.com>"
+        ]
+      },
+      {
+        "name": "ts-rs",
+        "version": "6.2.1",
+        "source_url": "https://static.crates.io/crates/ts-rs/ts-rs-6.2.1.crate",
+        "checksum_sha256": "4added4070a4fdf9df03457206cd2e4b12417c8560a2954d91ffcbe60177a56a",
+        "notices": [],
+        "archive_verified": true,
+        "bytes": 13941,
+        "license": "MIT",
+        "authors": [
+          "Moritz Bischof <moritz.bischof1@gmail.com>"
+        ],
+        "supplementary_project_notice": {
+          "name": "ts-rs-MIT",
+          "url": "https://raw.githubusercontent.com/Aleph-Alpha/ts-rs/main/LICENSE",
+          "sha256": "db7f7f8e7236a2d0b41b855b2501b7b913caebbcda6ce498637a304ad1706ce1",
+          "bytes": 1073,
+          "status": 200,
+          "text_file": "image-notices/db7f7f8e7236a2d0b41b855b2501b7b913caebbcda6ce498637a304ad1706ce1.txt"
+        },
+        "notice_basis": "Exact released Cargo.toml explicitly identifies the license and authors; a same-project current source notice supplements an archive that omitted a standalone license text. The retrieved text is not represented as an originally shipped historical file."
+      },
+      {
+        "name": "ts-rs-macros",
+        "version": "6.2.0",
+        "source_url": "https://static.crates.io/crates/ts-rs-macros/ts-rs-macros-6.2.0.crate",
+        "checksum_sha256": "9f807fdb3151fee75df7485b901a89624358cd07a67a8fb1a5831bf5a07681ff",
+        "notices": [],
+        "archive_verified": true,
+        "bytes": 10444,
+        "license": "MIT",
+        "authors": [
+          "Moritz Bischof <moritz.bischof1@gmail.com>"
+        ],
+        "supplementary_project_notice": {
+          "name": "ts-rs-MIT",
+          "url": "https://raw.githubusercontent.com/Aleph-Alpha/ts-rs/main/LICENSE",
+          "sha256": "db7f7f8e7236a2d0b41b855b2501b7b913caebbcda6ce498637a304ad1706ce1",
+          "bytes": 1073,
+          "status": 200,
+          "text_file": "image-notices/db7f7f8e7236a2d0b41b855b2501b7b913caebbcda6ce498637a304ad1706ce1.txt"
+        },
+        "notice_basis": "Exact released Cargo.toml explicitly identifies the license and authors; a same-project current source notice supplements an archive that omitted a standalone license text. The retrieved text is not represented as an originally shipped historical file."
+      },
+      {
+        "name": "typenum",
+        "version": "1.15.0",
+        "source_url": "https://static.crates.io/crates/typenum/typenum-1.15.0.crate",
+        "checksum_sha256": "dcf81ac59edc17cc8697ff311e8f5ef2d99fcbd9817b34cec66f90b6c3dfd987",
+        "notices": [
+          {
+            "path": "typenum-1.15.0/LICENSE",
+            "sha256": "db11fec9946737df39ca3898d9cd8c10ec6f6c3a884a6802b0ad0b81b4e8f23a",
+            "bytes": 17,
+            "text_file": "image-notices/db11fec9946737df39ca3898d9cd8c10ec6f6c3a884a6802b0ad0b81b4e8f23a.txt"
+          },
+          {
+            "path": "typenum-1.15.0/LICENSE-APACHE",
+            "sha256": "516b24e051bf5630880ebbd55c40a25ce9552ebaf8970a53e8976eb70e522406",
+            "bytes": 10835,
+            "text_file": "image-notices/516b24e051bf5630880ebbd55c40a25ce9552ebaf8970a53e8976eb70e522406.txt"
+          },
+          {
+            "path": "typenum-1.15.0/LICENSE-MIT",
+            "sha256": "a825bd853ab71619a4923d7b4311221427848070ff44d990da39b0b274c1683f",
+            "bytes": 1083,
+            "text_file": "image-notices/a825bd853ab71619a4923d7b4311221427848070ff44d990da39b0b274c1683f.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 40741,
+        "license": "MIT OR Apache-2.0",
+        "authors": [
+          "Paho Lurie-Gregg <paho@paholg.com>",
+          "Andre Bogus <bogusandre@gmail.com>"
+        ]
+      },
+      {
+        "name": "unicode-ident",
+        "version": "1.0.4",
+        "source_url": "https://static.crates.io/crates/unicode-ident/unicode-ident-1.0.4.crate",
+        "checksum_sha256": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
+        "notices": [
+          {
+            "path": "unicode-ident-1.0.4/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "unicode-ident-1.0.4/LICENSE-MIT",
+            "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+            "bytes": 1023,
+            "text_file": "image-notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt"
+          },
+          {
+            "path": "unicode-ident-1.0.4/LICENSE-UNICODE",
+            "sha256": "68f5b9f5ea36881a0942ba02f558e9e1faf76cc09cb165ad801744c61b738844",
+            "bytes": 2315,
+            "text_file": "image-notices/68f5b9f5ea36881a0942ba02f558e9e1faf76cc09cb165ad801744c61b738844.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 35491,
+        "license": "(MIT OR Apache-2.0) AND Unicode-DFS-2016",
+        "authors": [
+          "David Tolnay <dtolnay@gmail.com>"
+        ]
+      },
+      {
+        "name": "wasm-bindgen",
+        "version": "0.2.84",
+        "source_url": "https://static.crates.io/crates/wasm-bindgen/wasm-bindgen-0.2.84.crate",
+        "checksum_sha256": "31f8dcbc21f30d9b8f2ea926ecb58f6b91192c17e9d33594b3df58b2007ca53b",
+        "notices": [
+          {
+            "path": "wasm-bindgen-0.2.84/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "wasm-bindgen-0.2.84/LICENSE-MIT",
+            "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+            "bytes": 1057,
+            "text_file": "image-notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 172947,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "The wasm-bindgen Developers"
+        ]
+      },
+      {
+        "name": "wasm-bindgen-backend",
+        "version": "0.2.84",
+        "source_url": "https://static.crates.io/crates/wasm-bindgen-backend/wasm-bindgen-backend-0.2.84.crate",
+        "checksum_sha256": "95ce90fd5bcc06af55a641a86428ee4229e44e07033963a2290a8e241607ccb9",
+        "notices": [
+          {
+            "path": "wasm-bindgen-backend-0.2.84/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "wasm-bindgen-backend-0.2.84/LICENSE-MIT",
+            "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+            "bytes": 1057,
+            "text_file": "image-notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 26344,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "The wasm-bindgen Developers"
+        ]
+      },
+      {
+        "name": "wasm-bindgen-macro",
+        "version": "0.2.84",
+        "source_url": "https://static.crates.io/crates/wasm-bindgen-macro/wasm-bindgen-macro-0.2.84.crate",
+        "checksum_sha256": "4c21f77c0bedc37fd5dc21f897894a5ca01e7bb159884559461862ae90c0b4c5",
+        "notices": [
+          {
+            "path": "wasm-bindgen-macro-0.2.84/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "wasm-bindgen-macro-0.2.84/LICENSE-MIT",
+            "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+            "bytes": 1057,
+            "text_file": "image-notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 12857,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "The wasm-bindgen Developers"
+        ]
+      },
+      {
+        "name": "wasm-bindgen-macro-support",
+        "version": "0.2.84",
+        "source_url": "https://static.crates.io/crates/wasm-bindgen-macro-support/wasm-bindgen-macro-support-0.2.84.crate",
+        "checksum_sha256": "2aff81306fcac3c7515ad4e177f521b5c9a15f2b08f4e32d823066102f35a5f6",
+        "notices": [
+          {
+            "path": "wasm-bindgen-macro-support-0.2.84/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "wasm-bindgen-macro-support-0.2.84/LICENSE-MIT",
+            "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+            "bytes": 1057,
+            "text_file": "image-notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 19076,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "The wasm-bindgen Developers"
+        ]
+      },
+      {
+        "name": "wasm-bindgen-shared",
+        "version": "0.2.84",
+        "source_url": "https://static.crates.io/crates/wasm-bindgen-shared/wasm-bindgen-shared-0.2.84.crate",
+        "checksum_sha256": "0046fef7e28c3804e5e38bfa31ea2a0f73905319b677e57ebe37e49358989b5d",
+        "notices": [
+          {
+            "path": "wasm-bindgen-shared-0.2.84/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "wasm-bindgen-shared-0.2.84/LICENSE-MIT",
+            "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+            "bytes": 1057,
+            "text_file": "image-notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 7219,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "The wasm-bindgen Developers"
+        ]
+      },
+      {
+        "name": "web-sys",
+        "version": "0.3.60",
+        "source_url": "https://static.crates.io/crates/web-sys/web-sys-0.3.60.crate",
+        "checksum_sha256": "bcda906d8be16e728fd5adc5b729afad4e444e106ab28cd1c7256e54fa61510f",
+        "notices": [
+          {
+            "path": "web-sys-0.3.60/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+            "bytes": 10847,
+            "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+          },
+          {
+            "path": "web-sys-0.3.60/LICENSE-MIT",
+            "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+            "bytes": 1057,
+            "text_file": "image-notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 700485,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "The wasm-bindgen Developers"
+        ]
+      },
+      {
+        "name": "wide",
+        "version": "0.7.4",
+        "source_url": "https://static.crates.io/crates/wide/wide-0.7.4.crate",
+        "checksum_sha256": "b3aba2d1dac31ac7cae82847ac5b8be822aee8f99a4e100f279605016b185c5f",
+        "notices": [
+          {
+            "path": "wide-0.7.4/LICENSE-ZLIB.md",
+            "sha256": "6f5eb1806918b0e331db6aae84abddbcc7a297ffea58582211e41e941b5a1841",
+            "bytes": 862,
+            "text_file": "image-notices/6f5eb1806918b0e331db6aae84abddbcc7a297ffea58582211e41e941b5a1841.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 70154,
+        "license": "Zlib OR Apache-2.0 OR MIT",
+        "authors": [
+          "Lokathor <zefria@gmail.com>"
+        ]
+      },
+      {
+        "name": "winapi",
+        "version": "0.3.9",
+        "source_url": "https://static.crates.io/crates/winapi/winapi-0.3.9.crate",
+        "checksum_sha256": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "notices": [
+          {
+            "path": "winapi-0.3.9/LICENSE-APACHE",
+            "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+            "bytes": 11357,
+            "text_file": "image-notices/b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1.txt"
+          },
+          {
+            "path": "winapi-0.3.9/LICENSE-MIT",
+            "sha256": "ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b",
+            "bytes": 1073,
+            "text_file": "image-notices/ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 1200382,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "Peter Atashian <retep998@gmail.com>"
+        ]
+      },
+      {
+        "name": "winapi-i686-pc-windows-gnu",
+        "version": "0.4.0",
+        "source_url": "https://static.crates.io/crates/winapi-i686-pc-windows-gnu/winapi-i686-pc-windows-gnu-0.4.0.crate",
+        "checksum_sha256": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "notices": [],
+        "archive_verified": true,
+        "bytes": 2918815,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "Peter Atashian <retep998@gmail.com>"
+        ],
+        "supplementary_project_notice": {
+          "name": "winapi-MIT",
+          "url": "https://raw.githubusercontent.com/retep998/winapi-rs/0.3/LICENSE-MIT",
+          "sha256": "ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b",
+          "bytes": 1073,
+          "status": 200,
+          "text_file": "image-notices/ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b.txt"
+        },
+        "target_note": "Windows-only dependency in Cargo.lock; it is not treated as copied wasm32 program code.",
+        "notice_basis": "Exact released Cargo.toml explicitly identifies the license and authors; a same-project current source notice supplements an archive that omitted a standalone license text. The retrieved text is not represented as an originally shipped historical file."
+      },
+      {
+        "name": "winapi-util",
+        "version": "0.1.5",
+        "source_url": "https://static.crates.io/crates/winapi-util/winapi-util-0.1.5.crate",
+        "checksum_sha256": "70ec6ce85bb158151cae5e5c87f95a8e97d2c0c4b001223f33a334e3ce5de178",
+        "notices": [
+          {
+            "path": "winapi-util-0.1.5/COPYING",
+            "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+            "bytes": 126,
+            "text_file": "image-notices/01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f.txt"
+          },
+          {
+            "path": "winapi-util-0.1.5/LICENSE-MIT",
+            "sha256": "cb3c929a05e6cbc9de9ab06a4c57eeb60ca8c724bef6c138c87d3a577e27aa14",
+            "bytes": 1081,
+            "text_file": "image-notices/cb3c929a05e6cbc9de9ab06a4c57eeb60ca8c724bef6c138c87d3a577e27aa14.txt"
+          }
+        ],
+        "archive_verified": true,
+        "bytes": 10164,
+        "license": "Unlicense/MIT",
+        "authors": [
+          "Andrew Gallant <jamslam@gmail.com>"
+        ]
+      },
+      {
+        "name": "winapi-x86_64-pc-windows-gnu",
+        "version": "0.4.0",
+        "source_url": "https://static.crates.io/crates/winapi-x86_64-pc-windows-gnu/winapi-x86_64-pc-windows-gnu-0.4.0.crate",
+        "checksum_sha256": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "notices": [],
+        "archive_verified": true,
+        "bytes": 2947998,
+        "license": "MIT/Apache-2.0",
+        "authors": [
+          "Peter Atashian <retep998@gmail.com>"
+        ],
+        "supplementary_project_notice": {
+          "name": "winapi-MIT",
+          "url": "https://raw.githubusercontent.com/retep998/winapi-rs/0.3/LICENSE-MIT",
+          "sha256": "ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b",
+          "bytes": 1073,
+          "status": 200,
+          "text_file": "image-notices/ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b.txt"
+        },
+        "target_note": "Windows-only dependency in Cargo.lock; it is not treated as copied wasm32 program code.",
+        "notice_basis": "Exact released Cargo.toml explicitly identifies the license and authors; a same-project current source notice supplements an archive that omitted a standalone license text. The retrieved text is not represented as an originally shipped historical file."
+      }
+    ]
+  },
+  "fixed_source_and_build_information": [
+    {
+      "path": "CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/CMakeLists.txt",
+      "sha256": "88c43ba1da2c81e8882f83fdcf84741b00556305d2ab80537399068a25e1a700",
+      "bytes": 3046,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--CMakeLists.txt.txt"
+    },
+    {
+      "path": "packages/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/packages/CMakeLists.txt",
+      "sha256": "7efee93783f44220d8d9347b472057474e6d176ceb5f143a87be401eff86fb3e",
+      "bytes": 171,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--packages--CMakeLists.txt.txt"
+    },
+    {
+      "path": "packages/base91/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/packages/base91/CMakeLists.txt",
+      "sha256": "fb3bcec360e81496e43e604a04cc3b6fc433ad888457daac0426595a77e3f971",
+      "bytes": 1143,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--packages--base91--CMakeLists.txt.txt"
+    },
+    {
+      "path": "packages/duckdb/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/packages/duckdb/CMakeLists.txt",
+      "sha256": "67be92053d76ac0451676e781e7e37875dfee020e0f238196aac9618e6d65aed",
+      "bytes": 1556,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--packages--duckdb--CMakeLists.txt.txt"
+    },
+    {
+      "path": "packages/expat/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/packages/expat/CMakeLists.txt",
+      "sha256": "ebddf051b225ed3dc6d3d24a3e601cb5646baa8ca5be0bcc587bf6155bdabd03",
+      "bytes": 1107,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--packages--expat--CMakeLists.txt.txt"
+    },
+    {
+      "path": "packages/graphviz/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/packages/graphviz/CMakeLists.txt",
+      "sha256": "ec0a539bea47ab8be9230bd8414f9f85031bc55cb21c074caae47eb792fc51fd",
+      "bytes": 3668,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--packages--graphviz--CMakeLists.txt.txt"
+    },
+    {
+      "path": "packages/llama/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/packages/llama/CMakeLists.txt",
+      "sha256": "2e3849068f26833c653b9f9a04b4b622763a30fbe086dd4671e906653528282e",
+      "bytes": 1544,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--packages--llama--CMakeLists.txt.txt"
+    },
+    {
+      "path": "packages/util/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/packages/util/CMakeLists.txt",
+      "sha256": "2ad5f69e63581d4ae910681f9aae87dfdf80dc1e701bcbf722249a2d9921680a",
+      "bytes": 892,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--packages--util--CMakeLists.txt.txt"
+    },
+    {
+      "path": "packages/zstd/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/packages/zstd/CMakeLists.txt",
+      "sha256": "106e566b77b369cc3a35c7f031e270a30f442a0d06f41b0da357a8566f7b0358",
+      "bytes": 1177,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--packages--zstd--CMakeLists.txt.txt"
+    },
+    {
+      "path": "vcpkg-overlays/base91/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg-overlays/base91/CMakeLists.txt",
+      "sha256": "c1af233db5f624129002332df72a1169460220319b6278b0468bdbbc115ff6cb",
+      "bytes": 661,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg-overlays--base91--CMakeLists.txt.txt"
+    },
+    {
+      "path": "vcpkg-overlays/base91/vcpkg.json",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg-overlays/base91/vcpkg.json",
+      "sha256": "7bdcc356cd9878afd809d96cbd6b28423756d0f5488561b1eb531d195eea0a33",
+      "bytes": 465,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg-overlays--base91--vcpkg.json.txt"
+    },
+    {
+      "path": "vcpkg-overlays/bison/vcpkg.json",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg-overlays/bison/vcpkg.json",
+      "sha256": "47e4f7697ef492cc19ca3850e56eb49e3399dda8e96196bf50442a6740516adb",
+      "bytes": 218,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg-overlays--bison--vcpkg.json.txt"
+    },
+    {
+      "path": "vcpkg-overlays/duckdb/vcpkg.json",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg-overlays/duckdb/vcpkg.json",
+      "sha256": "491256bfb6384a27723487127f8e007ae70370eabd0bfec751ccecfb7adf9ec0",
+      "bytes": 1662,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg-overlays--duckdb--vcpkg.json.txt"
+    },
+    {
+      "path": "vcpkg-overlays/flex/vcpkg.json",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg-overlays/flex/vcpkg.json",
+      "sha256": "6755b07b84d4a9c38b57fbb03b1881c945b405ac03125ec5de2574ddeb89d361",
+      "bytes": 228,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg-overlays--flex--vcpkg.json.txt"
+    },
+    {
+      "path": "vcpkg-overlays/graphviz/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg-overlays/graphviz/CMakeLists.txt",
+      "sha256": "689178aec652f7c3d74d72ce9e1a72164c3d4fa6261425eb8d72fc197961950e",
+      "bytes": 30111,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg-overlays--graphviz--CMakeLists.txt.txt"
+    },
+    {
+      "path": "vcpkg-overlays/graphviz/cmake/config_checks.cmake",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg-overlays/graphviz/cmake/config_checks.cmake",
+      "sha256": "b383f657687ee7b7337a51be3b6b3e545edded5f84f29fd5cdb5f0f433644c85",
+      "bytes": 2375,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg-overlays--graphviz--cmake--config_checks.cmake.txt"
+    },
+    {
+      "path": "vcpkg-overlays/graphviz/portfile.cmake",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg-overlays/graphviz/portfile.cmake",
+      "sha256": "42894db6c9c93c6ac7ab6e0254891cd7db845870b487921b87c7f6d40edc6f6b",
+      "bytes": 2571,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg-overlays--graphviz--portfile.cmake.txt"
+    },
+    {
+      "path": "vcpkg-overlays/graphviz/vcpkg.json",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg-overlays/graphviz/vcpkg.json",
+      "sha256": "dcbdfd155dce7b17b2fed3ebc447575e335b147708b24fa5b8f265fac57a24f1",
+      "bytes": 820,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg-overlays--graphviz--vcpkg.json.txt"
+    },
+    {
+      "path": "vcpkg-overlays/llama-cpp/vcpkg.json",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg-overlays/llama-cpp/vcpkg.json",
+      "sha256": "672f563392fc1fd33c003a02ac03cd38fd47d396bbed4adbcdaa3d8b83e86459",
+      "bytes": 627,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg-overlays--llama-cpp--vcpkg.json.txt"
+    },
+    {
+      "path": "vcpkg.json",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/vcpkg.json",
+      "sha256": "d3a08e2f58de3a36b668dc53d842a3cd8310a390f628a9c1bfa463b24a4c9846",
+      "bytes": 515,
+      "source_package": "@hpcc-js/wasm",
+      "fixed_commit": "8b86e2f83cc7344aca44fb3d8aa29a227358c5c4",
+      "local_file": "embedded-build-info/hpcc-js-wasm--vcpkg.json.txt"
+    },
+    {
+      "path": "Cargo.lock",
+      "url": "https://raw.githubusercontent.com/penrose/penrose/fd4aae0b95ad6f7b35863de87b16e796e2c3bfda/Cargo.lock",
+      "sha256": "37ab4de2c96f7d7b3c9f1b6b9ce58081365a3c68b6073a4d5a5a4f9bf92d10c9",
+      "bytes": 11068,
+      "source_package": "@penrose/optimizer",
+      "fixed_commit": "fd4aae0b95ad6f7b35863de87b16e796e2c3bfda",
+      "local_file": "embedded-build-info/penrose-optimizer--Cargo.lock.txt"
+    },
+    {
+      "path": "Cargo.toml",
+      "url": "https://raw.githubusercontent.com/penrose/penrose/fd4aae0b95ad6f7b35863de87b16e796e2c3bfda/Cargo.toml",
+      "sha256": "8ce77a895dd66793c40b2ec2a02bda16fcfc35643275433f77f6f975e712c413",
+      "bytes": 45,
+      "source_package": "@penrose/optimizer",
+      "fixed_commit": "fd4aae0b95ad6f7b35863de87b16e796e2c3bfda",
+      "local_file": "embedded-build-info/penrose-optimizer--Cargo.toml.txt"
+    },
+    {
+      "path": "packages/optimizer/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/penrose/penrose/fd4aae0b95ad6f7b35863de87b16e796e2c3bfda/packages/optimizer/Cargo.toml",
+      "sha256": "e4bd96bc0f5b788699c6af04d690f7c86b20e4886a61e05af632ad2a8f068187",
+      "bytes": 331,
+      "source_package": "@penrose/optimizer",
+      "fixed_commit": "fd4aae0b95ad6f7b35863de87b16e796e2c3bfda",
+      "local_file": "embedded-build-info/penrose-optimizer--packages--optimizer--Cargo.toml.txt"
+    },
+    {
+      "name": "emsdk-build-script",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/scripts/cpp-install-emsdk.sh",
+      "sha256": "077cb0a9001b21a8a76b99409a6263754d4f7e87b9344e3eb8e64b4ffd3938b5",
+      "bytes": 731,
+      "status": 200,
+      "local_file": "embedded-build-info/emsdk-build-script.txt"
+    },
+    {
+      "name": "vcpkg-build-script",
+      "url": "https://raw.githubusercontent.com/hpcc-systems/hpcc-js-wasm/8b86e2f83cc7344aca44fb3d8aa29a227358c5c4/scripts/cpp-install-vcpkg.sh",
+      "sha256": "a8b7ca15e05ff0c2cae01164072637ac1bf3ee57736c0b0ef10e401736e38edd",
+      "bytes": 654,
+      "status": 200,
+      "local_file": "embedded-build-info/vcpkg-build-script.txt"
+    },
+    {
+      "name": "vcpkg-expat-version",
+      "url": "https://raw.githubusercontent.com/microsoft/vcpkg/2026.06.01/ports/expat/vcpkg.json",
+      "status": 200,
+      "sha256": "90d7aebbe7f41e8b7cfdaef50d767993fc052d6c7e961e94396423dd3931f3ef",
+      "bytes": 323,
+      "local_file": "embedded-build-info/vcpkg-expat-version.txt"
+    },
+    {
+      "name": "vcpkg-expat-port",
+      "url": "https://raw.githubusercontent.com/microsoft/vcpkg/2026.06.01/ports/expat/portfile.cmake",
+      "status": 200,
+      "sha256": "f7b027c0848a45dc246532e622939f180d0aba860d88a6b1610746556affd7f8",
+      "bytes": 1607,
+      "local_file": "embedded-build-info/vcpkg-expat-port.txt"
+    }
+  ],
+  "integration_complete": false
+}

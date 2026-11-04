@@ -1,0 +1,177 @@
+{
+  "description": "Download the two fixed official PACE 2024 OSCM ZIP archives and copy exactly 100 Exact Track instances plus 60 medium and 13 tiny test-set instances as binary plaintext. Only archive paths and output permissions change. Every output must match the retained SHA-256, byte count and 0644 mode. The 100 Exact Track instances have no data license; the MIT license covers only the 73 test-set instances. The combined product is local-preparation-only and must not be uploaded publicly.",
+  "archive_format": "zip",
+  "sources": {
+    "exact_public": {
+      "id": "pace-2024-oscm-exact-public-zip",
+      "url": "https://pacechallenge.org/2024/exact-public.zip",
+      "bytes": 1013555,
+      "sha256": "2b047d7327691820ab041452ebc77410143af16bd5415fe4c42a16f1894e2e10"
+    },
+    "testsets": {
+      "id": "pace-2024-oscm-testsets-603fd742-zip",
+      "url": "https://codeload.github.com/PhKindermann/Pace2024-Testsets/zip/603fd742fd525971cd78d93195d0eca7256056e9",
+      "bytes": 134770,
+      "sha256": "23f30c72bd057c8ecfd7b86e6ed08b7f09c2448407ce1a7cb3d6f83a97209517"
+    }
+  },
+  "generator_paths": [
+    "src/tcsexam/oscm_pace2024.py"
+  ],
+  "selection": {
+    "exact_public": {
+      "source": "exact_public",
+      "output_directory": "app/instances",
+      "first_instance": 1,
+      "last_instance": 100,
+      "instance_count": 100
+    },
+    "testsets": {
+      "source": "testsets",
+      "archive_root": "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9",
+      "medium_output_directory": "app/testsets/medium_test_set/instances",
+      "medium_first_instance": 1,
+      "medium_last_instance": 60,
+      "tiny_output_directory": "app/testsets/tiny_test_set/instances",
+      "tiny_instances": [
+        "complete_4_5.gr",
+        "cycle_8_shuffled.gr",
+        "cycle_8_sorted.gr",
+        "grid_9_shuffled.gr",
+        "ladder_4_4_shuffled.gr",
+        "ladder_4_4_sorted.gr",
+        "matching_4_4.gr",
+        "path_9_shuffled.gr",
+        "path_9_sorted.gr",
+        "plane_5_6.gr",
+        "star_6.gr",
+        "tree_6_10.gr",
+        "website_20.gr"
+      ]
+    }
+  },
+  "archive_policy": {
+    "exact_public": {
+      "directories": [],
+      "additional_files": [],
+      "checked_files": []
+    },
+    "testsets": {
+      "directories": [
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/instances",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/instances",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions"
+      ],
+      "additional_files": [
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/LICENSE",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/README.md",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/1.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/2.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/3.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/4.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/5.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/6.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/7.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/8.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/9.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/10.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/11.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/12.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/13.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/14.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/15.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/16.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/17.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/18.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/19.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/20.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/21.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/22.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/23.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/24.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/25.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/26.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/27.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/28.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/29.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/30.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/31.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/32.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/33.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/34.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/35.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/36.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/37.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/38.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/39.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/40.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/41.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/42.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/43.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/44.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/45.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/46.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/47.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/48.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/49.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/50.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/51.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/52.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/53.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/54.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/55.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/56.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/57.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/58.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/59.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/medium_test_set/solutions/60.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/complete_4_5.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/cycle_8_shuffled.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/cycle_8_sorted.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/grid_9_shuffled.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/ladder_4_4_shuffled.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/ladder_4_4_sorted.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/matching_4_4.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/path_9_shuffled.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/path_9_sorted.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/plane_5_6.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/star_6.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/tree_6_10.sol",
+        "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/tiny_test_set/solutions/website_20.sol"
+      ],
+      "checked_files": [
+        {
+          "path": "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/LICENSE",
+          "bytes": 1069,
+          "sha256": "0d2c12b508572359c08666901c3bf1d510db7ac870e4e105050f9e75ee8b594a"
+        },
+        {
+          "path": "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9/README.md",
+          "bytes": 460,
+          "sha256": "702a81cd42a25c160a65996bdb00fa725bb4893d087aa1f9a5dd5215688bc82f"
+        }
+      ]
+    }
+  },
+  "license_files": [
+    {
+      "path": "docs/licenses/third-party/PACE2024-OSCM-NOTICE.txt",
+      "bytes": 3063,
+      "sha256": "f12c1b873bad90db815c83ea23998301f891fc65bf740f2f11a111e5d3008b4a"
+    },
+    {
+      "path": "docs/licenses/third-party/PACE2024-Testsets-MIT.txt",
+      "bytes": 1069,
+      "sha256": "0d2c12b508572359c08666901c3bf1d510db7ac870e4e105050f9e75ee8b594a"
+    }
+  ],
+  "build": {
+    "builder_image": "ubuntu:22.04@sha256:0a9887931b0e38af2e3487ed39e29436b0535c4f3f52e57745baaf79d1898956",
+    "cwd": ".",
+    "download_timeout_sec": 300
+  }
+}

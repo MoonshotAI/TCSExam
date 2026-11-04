@@ -1,0 +1,530 @@
+{
+ "instances": {
+  "bur26b.dat": {
+   "B": 3821357,
+   "B_status": "measured",
+   "K": 3817852,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "bur26d.dat": {
+   "B": 3822109,
+   "B_status": "measured",
+   "K": 3821225,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "bur26e.dat": {
+   "B": 5387576,
+   "B_status": "measured",
+   "K": 5386879,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "bur26f.dat": {
+   "B": 3782577,
+   "B_status": "measured",
+   "K": 3782044,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "bur26h.dat": {
+   "B": 7099265,
+   "B_status": "measured",
+   "K": 7098658,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "chr12a.dat": {
+   "B": 9552,
+   "B_status": "measured",
+   "K": 9552,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "chr15a.dat": {
+   "B": 10108,
+   "B_status": "measured",
+   "K": 9896,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "chr15b.dat": {
+   "B": 7990,
+   "B_status": "measured",
+   "K": 7990,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "chr18a.dat": {
+   "B": 13874,
+   "B_status": "measured",
+   "K": 11098,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "chr20b.dat": {
+   "B": 2650,
+   "B_status": "measured",
+   "K": 2298,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "chr20c.dat": {
+   "B": 17734,
+   "B_status": "measured",
+   "K": 14142,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "chr22a.dat": {
+   "B": 6502,
+   "B_status": "measured",
+   "K": 6156,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "chr25a.dat": {
+   "B": 3796,
+   "B_status": "measured",
+   "K": 3796,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "els19.dat": {
+   "B": 17937024,
+   "B_status": "measured",
+   "K": 17212548,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "esc128.dat": {
+   "B": 64,
+   "B_status": "measured",
+   "K": 64,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "esc16a.dat": {
+   "B": 68,
+   "B_status": "measured",
+   "K": 68,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "esc16c.dat": {
+   "B": 160,
+   "B_status": "measured",
+   "K": 160,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "esc16d.dat": {
+   "B": 16,
+   "B_status": "measured",
+   "K": 16,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "esc16f.dat": {
+   "B": 0,
+   "B_status": "measured",
+   "K": 0,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "esc16g.dat": {
+   "B": 26,
+   "B_status": "measured",
+   "K": 26,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "esc16j.dat": {
+   "B": 8,
+   "B_status": "measured",
+   "K": 8,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "esc32a.dat": {
+   "B": 144,
+   "B_status": "measured",
+   "K": 130,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "esc32c.dat": {
+   "B": 642,
+   "B_status": "measured",
+   "K": 642,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "esc32g.dat": {
+   "B": 6,
+   "B_status": "measured",
+   "K": 6,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "esc32h.dat": {
+   "B": 438,
+   "B_status": "measured",
+   "K": 438,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "had14.dat": {
+   "B": 2724,
+   "B_status": "measured",
+   "K": 2724,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "had18.dat": {
+   "B": 5358,
+   "B_status": "measured",
+   "K": 5358,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "had20.dat": {
+   "B": 6922,
+   "B_status": "measured",
+   "K": 6922,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "kra30a.dat": {
+   "B": 90960,
+   "B_status": "measured",
+   "K": 88900,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "lipa20a.dat": {
+   "B": 3730,
+   "B_status": "measured",
+   "K": 3683,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "lipa30a.dat": {
+   "B": 13368,
+   "B_status": "measured",
+   "K": 13178,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "lipa30b.dat": {
+   "B": 151426,
+   "B_status": "measured",
+   "K": 151426,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "lipa40b.dat": {
+   "B": 476581,
+   "B_status": "measured",
+   "K": 476581,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "lipa50a.dat": {
+   "B": 62763,
+   "B_status": "measured",
+   "K": 62093,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "lipa50b.dat": {
+   "B": 1210244,
+   "B_status": "measured",
+   "K": 1210244,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "lipa80a.dat": {
+   "B": 255036,
+   "B_status": "measured",
+   "K": 253195,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "lipa80b.dat": {
+   "B": 7763962,
+   "B_status": "measured",
+   "K": 7763962,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "lipa90b.dat": {
+   "B": 12490441,
+   "B_status": "measured",
+   "K": 12490441,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "nug12.dat": {
+   "B": 578,
+   "B_status": "measured",
+   "K": 578,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "nug15.dat": {
+   "B": 1150,
+   "B_status": "measured",
+   "K": 1150,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "nug16a.dat": {
+   "B": 1622,
+   "B_status": "measured",
+   "K": 1610,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "nug17.dat": {
+   "B": 1734,
+   "B_status": "measured",
+   "K": 1732,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "nug18.dat": {
+   "B": 1948,
+   "B_status": "measured",
+   "K": 1930,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "nug21.dat": {
+   "B": 2454,
+   "B_status": "measured",
+   "K": 2438,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "nug25.dat": {
+   "B": 3744,
+   "B_status": "measured",
+   "K": 3744,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "nug30.dat": {
+   "B": 6158,
+   "B_status": "measured",
+   "K": 6124,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "rou20.dat": {
+   "B": 733926,
+   "B_status": "measured",
+   "K": 725522,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "scr20.dat": {
+   "B": 111286,
+   "B_status": "measured",
+   "K": 110030,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "sko100c.dat": {
+   "B": 148842,
+   "B_status": "measured",
+   "K": 147862,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "sko100f.dat": {
+   "B": 150610,
+   "B_status": "measured",
+   "K": 149036,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "sko42.dat": {
+   "B": 15882,
+   "B_status": "measured",
+   "K": 15812,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "sko56.dat": {
+   "B": 34792,
+   "B_status": "measured",
+   "K": 34458,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "sko64.dat": {
+   "B": 48912,
+   "B_status": "measured",
+   "K": 48498,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "sko81.dat": {
+   "B": 91558,
+   "B_status": "measured",
+   "K": 90998,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "sko90.dat": {
+   "B": 116562,
+   "B_status": "measured",
+   "K": 115534,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "ste36c.dat": {
+   "B": 8381658,
+   "B_status": "measured",
+   "K": 8239110,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "tai100a.dat": {
+   "B": 21561074,
+   "B_status": "measured",
+   "K": 21044752,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "tai100b.dat": {
+   "B": 1199062176,
+   "B_status": "measured",
+   "K": 1185996137,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "tai10a.dat": {
+   "B": 135028,
+   "B_status": "measured",
+   "K": 135028,
+   "k_source": "exact enumeration, tests/calibration/tai10_exact/ (QAPLIB publishes no entry for this instance)",
+   "proven_optimal": true,
+   "sln_permutation_matches": false
+  },
+  "tai12a.dat": {
+   "B": 224416,
+   "B_status": "measured",
+   "K": 224416,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "tai12b.dat": {
+   "B": 39464925,
+   "B_status": "measured",
+   "K": 39464925,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "tai15a.dat": {
+   "B": 390258,
+   "B_status": "measured",
+   "K": 388214,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "tai17a.dat": {
+   "B": 501850,
+   "B_status": "measured",
+   "K": 491812,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "tai20a.dat": {
+   "B": 713482,
+   "B_status": "measured",
+   "K": 703482,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "tai256c.dat": {
+   "B": 44883722,
+   "B_status": "measured",
+   "K": 44759294,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "tai25a.dat": {
+   "B": 1196802,
+   "B_status": "measured",
+   "K": 1167256,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "tai30a.dat": {
+   "B": 1864870,
+   "B_status": "measured",
+   "K": 1818146,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "tai35a.dat": {
+   "B": 2488022,
+   "B_status": "measured",
+   "K": 2422002,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "tai35b.dat": {
+   "B": 285618984,
+   "B_status": "measured",
+   "K": 283315445,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "tai50a.dat": {
+   "B": 5114036,
+   "B_status": "measured",
+   "K": 4938796,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "tai50b.dat": {
+   "B": 461415184,
+   "B_status": "measured",
+   "K": 458821517,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "tai60b.dat": {
+   "B": 612046084,
+   "B_status": "measured",
+   "K": 608215054,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "tai80b.dat": {
+   "B": 829698080,
+   "B_status": "measured",
+   "K": 818415043,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  },
+  "tho30.dat": {
+   "B": 151202,
+   "B_status": "measured",
+   "K": 149936,
+   "proven_optimal": true,
+   "sln_permutation_matches": true
+  },
+  "wil50.dat": {
+   "B": 49010,
+   "B_status": "measured",
+   "K": 48816,
+   "proven_optimal": false,
+   "sln_permutation_matches": true
+  }
+ }
+}

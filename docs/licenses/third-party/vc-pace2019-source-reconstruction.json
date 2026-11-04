@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "vc-pace2019",
+  "records": [
+    {
+      "stage": "vc-hidden-final",
+      "id": "solver-vc-pace2019-judging-data",
+      "status": "passed",
+      "result": {
+        "files": 100,
+        "bytes": 3342372
+      },
+      "scope": "All100 frozen hidden original VC inputs rebuilt from the anonymously downloaded official Zenodo all-instance archive and frozen XZ5.2.5 source. Native unchanged compression command on bounded CPU; Docker adapter not re-exercised.",
+      "docker_adapter_exercised": false
+    }
+  ],
+  "scope": "Only explicitly selected original inputs and necessary public documentation; original transformation labels, saved parameter hashes, frozen bytes, modes and split retained. Original dataset notices and resource-specific terms remain.",
+  "public_upload_performed": false,
+  "new_distribution_authorization": false,
+  "docker_adapter_exercised": false
+}

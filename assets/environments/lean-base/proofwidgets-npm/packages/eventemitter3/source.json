@@ -1,0 +1,43 @@
+{
+  "author": "Arnout Kazemier",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz",
+    "version": "4.0.7"
+  },
+  "lock_path": "node_modules/eventemitter3",
+  "name": "eventemitter3",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1082,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "3aecc12b1cb28832b5f65ab64291de96568c3f236a74d646281b4491f7bcadbf",
+      "text_file": "image-notices/3aecc12b1cb28832b5f65ab64291de96568c3f236a74d646281b4491f7bcadbf.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 9657,
+    "installed_in_image": false,
+    "integrity": "sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "703cdecfa6951d9ad258f615ab96895750add3cb2d95e3727837b78709975de8"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.0.7"
+}

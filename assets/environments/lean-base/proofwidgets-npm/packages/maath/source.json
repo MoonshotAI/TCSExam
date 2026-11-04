@@ -1,0 +1,47 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-tRvbDF0Pgqz+9XUa4jjfgAQ8/aPKmQdWXilFu2tMy4GWj4NOsx99HlULO4IeREfbO3a0sA145DZYyvXPkybm0g==",
+    "license": "MIT",
+    "peerDependencies": {
+      "@types/three": ">=0.134.0",
+      "three": ">=0.134.0"
+    },
+    "resolved": "https://registry.npmjs.org/maath/-/maath-0.10.8.tgz",
+    "version": "0.10.8"
+  },
+  "lock_path": "node_modules/maath",
+  "name": "maath",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 38594,
+    "installed_in_image": false,
+    "integrity": "sha512-tRvbDF0Pgqz+9XUa4jjfgAQ8/aPKmQdWXilFu2tMy4GWj4NOsx99HlULO4IeREfbO3a0sA145DZYyvXPkybm0g==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/maath/-/maath-0.10.8.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "18f03b8de32be2d4f3c180a49671196155bf01ffd8481b089240cb34b0c2017c"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 1071,
+    "installed_file": "notices/supplementary/f8ed15d0893b846b869dc0290a5aee14c82319a09d3522091ad300a0e5f73291.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "HEAD",
+    "scope": "Exact version metadata explicitly declares the recorded license. This source retains the same project full notice; HEAD, when used, is a currently retrieved supplemental text, not represented as an old shipped license file.",
+    "sha256": "f8ed15d0893b846b869dc0290a5aee14c82319a09d3522091ad300a0e5f73291",
+    "text_file": "image-notices/f8ed15d0893b846b869dc0290a5aee14c82319a09d3522091ad300a0e5f73291.txt",
+    "url": "https://raw.githubusercontent.com/pmndrs/maath/HEAD/LICENSE"
+  },
+  "version": "0.10.8"
+}

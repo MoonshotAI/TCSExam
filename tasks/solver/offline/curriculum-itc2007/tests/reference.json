@@ -1,0 +1,76 @@
+{
+ "baseline": {
+  "budget_max_iters": 10000000,
+  "note": "iteration-budget deterministic; B is a pinned constant, machine-independent",
+  "seed": 12345,
+  "solver": "CPSolver ITC 2007 (Track 3 winner), vendored"
+ },
+ "instances": {
+  "h01.ctt": {
+   "B": 41,
+   "B_status": "measured",
+   "K": 35,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/8G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 240s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit).",
+   "b_source": "Packaged baseline measurement on the transformed input (1C/8G).",
+   "baseline_seconds_on_calibration_machine": 53.51,
+   "k_contributor": "Antony Phillips",
+   "lb": 35,
+   "proven_optimal": true
+  },
+  "h02.ctt": {
+   "B": 343,
+   "B_status": "measured",
+   "K": 283,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/8G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 240s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit).",
+   "b_source": "Packaged baseline measurement on the transformed input (1C/8G).",
+   "baseline_seconds_on_calibration_machine": 102.38,
+   "k_contributor": "Luciano Rigolin de Almeida",
+   "lb": 247,
+   "proven_optimal": false
+  },
+  "h03.ctt": {
+   "B": 56,
+   "B_status": "measured",
+   "K": 27,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/8G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 240s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit).",
+   "b_source": "Packaged baseline measurement on the transformed input (1C/8G).",
+   "baseline_seconds_on_calibration_machine": 64.64,
+   "k_contributor": "Barcelogic Team",
+   "lb": 27,
+   "proven_optimal": true
+  },
+  "h04.ctt": {
+   "B": 31,
+   "B_status": "measured",
+   "K": 6,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/8G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 240s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit).",
+   "b_source": "Packaged baseline measurement on the transformed input (1C/8G).",
+   "baseline_seconds_on_calibration_machine": 67.62,
+   "k_contributor": "Barcelogic Team",
+   "lb": 6,
+   "proven_optimal": true
+  },
+  "h05.ctt": {
+   "B": 104,
+   "B_status": "measured",
+   "K": 96,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/8G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 240s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit).",
+   "b_source": "Packaged baseline measurement on the transformed input (1C/8G).",
+   "baseline_seconds_on_calibration_machine": 52.82,
+   "k_contributor": "lu and hao",
+   "lb": 96,
+   "proven_optimal": true
+  },
+  "h06.ctt": {
+   "B": 0,
+   "B_status": "measured",
+   "K": 0,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/8G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 240s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit).",
+   "b_source": "Packaged baseline measurement on the transformed input (1C/8G).",
+   "baseline_seconds_on_calibration_machine": 42.53,
+   "k_contributor": "ANMAR ABUHAMDAH and MASRI AYOB",
+   "lb": 0,
+   "proven_optimal": true
+  }
+ }
+}

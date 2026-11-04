@@ -1,0 +1,43 @@
+{
+  "author": "Martin Hensel",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "Apache-2.0",
+  "lock_entry": {
+    "integrity": "sha512-kYmyrCirqJf3zZ9t/0wGgRZ4/ZJw//VwaRVGA75C4nhE60vtnIzhl9J9ndkX/h6hxSN7pjg/cE0VxbnNM+bnDQ==",
+    "license": "Apache-2.0",
+    "resolved": "https://registry.npmjs.org/mhchemparser/-/mhchemparser-4.2.1.tgz",
+    "version": "4.2.1"
+  },
+  "lock_path": "node_modules/mhchemparser",
+  "name": "mhchemparser",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 11357,
+      "installed_file": "notices/original/package/LICENSE.txt",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "text_file": "image-notices/b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1.txt"
+    }
+  ],
+  "package_license": "Apache-2.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 44450,
+    "installed_in_image": false,
+    "integrity": "sha512-kYmyrCirqJf3zZ9t/0wGgRZ4/ZJw//VwaRVGA75C4nhE60vtnIzhl9J9ndkX/h6hxSN7pjg/cE0VxbnNM+bnDQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/mhchemparser/-/mhchemparser-4.2.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "2e314f7b4ace7f24786919a65ac0b9ab07d61f64d1a962625a65569eb7cacaf7"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.2.1"
+}

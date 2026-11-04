@@ -1,0 +1,54 @@
+{
+  "author": "recharts group",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "decimal.js-light": "^2.4.1"
+    },
+    "integrity": "sha512-kivNFO+0OcUNu7jQquLXAxz1FIwZj8nrj+YkOKc5694NbjCvcT6aSZiIzNzd2Kul4o4rTto8QVR9lMNtxD4G1w==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/recharts-scale/-/recharts-scale-0.4.5.tgz",
+    "version": "0.4.5"
+  },
+  "lock_path": "node_modules/recharts-scale",
+  "name": "recharts-scale",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1076,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "9b0d4666d301c53eb4be4e2fec89e5589a7e5da450026153c27e34c2b3115921",
+      "text_file": "image-notices/9b0d4666d301c53eb4be4e2fec89e5589a7e5da450026153c27e34c2b3115921.txt"
+    },
+    {
+      "bytes": 83,
+      "installed_file": "notices/original/package/umd/RechartsScale.min.js.LICENSE.txt",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/umd/RechartsScale.min.js.LICENSE.txt",
+      "sha256": "f6726d878b326c3aa1a2b3a16504f876a1904099c6dabb62a8dbb750e0ee6eff",
+      "text_file": "image-notices/f6726d878b326c3aa1a2b3a16504f876a1904099c6dabb62a8dbb750e0ee6eff.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 35262,
+    "installed_in_image": false,
+    "integrity": "sha512-kivNFO+0OcUNu7jQquLXAxz1FIwZj8nrj+YkOKc5694NbjCvcT6aSZiIzNzd2Kul4o4rTto8QVR9lMNtxD4G1w==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/recharts-scale/-/recharts-scale-0.4.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "69744faaf6d5e27e97ccfb576ac8fde2d4d175cbf0885a546f741d90d01ee856"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.4.5"
+}

@@ -1,0 +1,49 @@
+{
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "bin": {
+      "loose-envify": "cli.js"
+    },
+    "dependencies": {
+      "js-tokens": "^3.0.0 || ^4.0.0"
+    },
+    "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz",
+    "version": "1.4.0"
+  },
+  "lock_path": "node_modules/loose-envify",
+  "name": "loose-envify",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1100,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "4eb7543b08d955a6d23fcc224601d43ff566e775be918805e26210d7f6eb4893",
+      "text_file": "image-notices/4eb7543b08d955a6d23fcc224601d43ff566e775be918805e26210d7f6eb4893.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 2842,
+    "installed_in_image": false,
+    "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "1218830a93538a4f730d530138e945ea6a65b45e099ee7a9ea538a05141babdc"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.4.0"
+}

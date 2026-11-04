@@ -1,0 +1,13 @@
+{
+  "main_theorem": "maximal_zoomout_count",
+  "namespace": "PCPAlphabetSoundness",
+  "checkpoints": [
+    {
+      "name": "maximal_zoomout_count",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 5.26 of Minzer-Zheng (STOC 2024, arXiv 2404.07441v4): at most (160/delta) C^{-2} q^{100 (t-1)! (10/delta)^2 l / xi} (C, 1/5)-maximal zoom-out function pairs of codimension <= 10/delta on Q, under the packaged Lemma 5.24 (ManyZoomoutsRefinement) and Lemma 5.18 (GenericZoomSampling), with n >= 2^100 q^l, l sufficiently large, r1 <= 10/delta, C >= q^{-2(1-delta^3) l} (see tests/reference/concept-ledger.md)."
+    }
+  ]
+}

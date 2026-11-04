@@ -1,0 +1,1888 @@
+{
+  "files": [
+    {
+      "path": "app/instances/G56.txt.xz",
+      "source_context_path": "app/instances/G56.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/G56.txt.xz",
+      "git_blob": "84a65cd57ff87d2b17a38500c02c768b69468426",
+      "bytes": 36692,
+      "sha256": "bb344ad52906af951b5d3959d74bbf181bbd95edd687125e1b4d402524d31134",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/G64.txt.xz",
+      "source_context_path": "app/instances/G64.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/G64.txt.xz",
+      "git_blob": "d852868bb694bd377224c8c1f2c51f1a19fc394b",
+      "bytes": 104440,
+      "sha256": "9643becc12d0108a293e01a0b3e957fe62b9b12ba1a4af9f2f2b1f494ebbebf8",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/G67.txt.xz",
+      "source_context_path": "app/instances/G67.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/G67.txt.xz",
+      "git_blob": "9bf8e05ede7a1f50f10351b89da7907cf39e76da",
+      "bytes": 32312,
+      "sha256": "bea8220ebdccc6fabce6bbcc2c574855ff1a689292dafc80ab8ce2c8857154cd",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/culberson100.txt.xz",
+      "source_context_path": "app/instances/culberson100.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/culberson100.txt.xz",
+      "git_blob": "8157cfb442c7acfc721cb1cdc625dcda62b0536f",
+      "bytes": 130516,
+      "sha256": "b0648e008ee81351d445df79f3a66c8339cad8b0d93cfc3d1c3abb752bc52cc7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/culberson2.txt.xz",
+      "source_context_path": "app/instances/culberson2.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/culberson2.txt.xz",
+      "git_blob": "2d34ec57161f65aad1eb13f6eb7993859d982325",
+      "bytes": 66508,
+      "sha256": "425f6ef37c4a3f47ea8bb2e709508a589491382c3110ddeb69f3b53f6a492298",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/culberson40.txt.xz",
+      "source_context_path": "app/instances/culberson40.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/culberson40.txt.xz",
+      "git_blob": "d994c435faaf7eda5f868189b34c06f274c83bec",
+      "bytes": 63124,
+      "sha256": "3f7ad4df6762617b311aa75aea94ab0d4fecb1936217bd0b85d42cbbb373a92c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/culberson44.txt.xz",
+      "source_context_path": "app/instances/culberson44.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/culberson44.txt.xz",
+      "git_blob": "7b48c904846ca01256bee6380e528b99911e6843",
+      "bytes": 17336,
+      "sha256": "28d0645575a458a22d6546d5794427fc9e414a2e37495b151558f3d3f09d2d7f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/culberson60.txt.xz",
+      "source_context_path": "app/instances/culberson60.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/culberson60.txt.xz",
+      "git_blob": "e8999deb70546f39a2b88b38e81d8fc3b1c5110b",
+      "bytes": 263032,
+      "sha256": "b07bc7984fe499524883ae3463904da97a70710deebbee1d77087ad1d924e407",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/culberson67.txt.xz",
+      "source_context_path": "app/instances/culberson67.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/culberson67.txt.xz",
+      "git_blob": "8acf567f45f8916b129b1a959248e94b85a44bba",
+      "bytes": 465816,
+      "sha256": "20d773a27e9280ae8d4dafac1ad4b511206390c67dad44c3a9144a56b094fa90",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/culberson85.txt.xz",
+      "source_context_path": "app/instances/culberson85.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/culberson85.txt.xz",
+      "git_blob": "8b501ba57e0ecd4a282eb4b0597c7488193d071a",
+      "bytes": 16678492,
+      "sha256": "c2b5244b74ca7136de7d4ab69c506bf86f2b042adf403b1bb5d37ada1b3b452c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/culberson88.txt.xz",
+      "source_context_path": "app/instances/culberson88.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/culberson88.txt.xz",
+      "git_blob": "8a76fc0c4f741027744c356816177801c6274d3d",
+      "bytes": 100688,
+      "sha256": "0dd26b69ba98a8ee5a0e75247e8adbab6497f37879e7bc4da05acc0c45fc7212",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/culberson94.txt.xz",
+      "source_context_path": "app/instances/culberson94.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/culberson94.txt.xz",
+      "git_blob": "e622c9dbba9d157374556cfd63bc821887bebb93",
+      "bytes": 191528,
+      "sha256": "9dc69da127eaae5852f325f57e307a70cc2ec504fa7c1812298bd43333ad3a56",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/culberson97.txt.xz",
+      "source_context_path": "app/instances/culberson97.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/culberson97.txt.xz",
+      "git_blob": "e7c149eb0bf132111a9351502bb4dd57fb582dca",
+      "bytes": 218612,
+      "sha256": "e26d96ab1f18110417bb3f328faa510ddb6fdc3d2ad813e5ecdc0e53d74936e8",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/culberson99.txt.xz",
+      "source_context_path": "app/instances/culberson99.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/culberson99.txt.xz",
+      "git_blob": "6966df7c40741ba44eedadd6732373666a60caf6",
+      "bytes": 109848,
+      "sha256": "1030c0458513d7f379221d7c383b048b7ab6dc27a72097b211b73732df3afb04",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000052.txt.xz",
+      "source_context_path": "app/instances/g000052.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000052.txt.xz",
+      "git_blob": "ec2c82f9bcff0c25f1b8ef25eb4bc5d96caae06d",
+      "bytes": 58296,
+      "sha256": "e75de48c336a253f02418c09e5a0a33706533f66669d8b72ad2251c66aa548a7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000064.txt.xz",
+      "source_context_path": "app/instances/g000064.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000064.txt.xz",
+      "git_blob": "43364ab69d71c89f616fdb06393a4613d01b1e6f",
+      "bytes": 71680,
+      "sha256": "40f32277a3eb91a3070fbe6efc6ef89672d6a0377c9c0a9b148c1af116f64a80",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000087.txt.xz",
+      "source_context_path": "app/instances/g000087.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000087.txt.xz",
+      "git_blob": "049d9f380cc5841eaca38bb0d8c4b0a137188f35",
+      "bytes": 322316,
+      "sha256": "06038edeb913a0514b730c5e7dafbe12f97fd46dcb34506f5d8420db9cceaebc",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000107.txt.xz",
+      "source_context_path": "app/instances/g000107.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000107.txt.xz",
+      "git_blob": "6d18a8bd6c361f56a5a6da4018e37ad4d0f7e0e8",
+      "bytes": 13304,
+      "sha256": "ab87cac081dc926cebc83a67691ba6845062a73f60eaa85973a030d39cb24b22",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000109.txt.xz",
+      "source_context_path": "app/instances/g000109.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000109.txt.xz",
+      "git_blob": "5c1d918deb9722adcaafb85875f47d54388be7d6",
+      "bytes": 4569716,
+      "sha256": "33f701eaff63370d2f49c434628ce088bc86ce0c9de70dd2bd6a663f491681db",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000113.txt.xz",
+      "source_context_path": "app/instances/g000113.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000113.txt.xz",
+      "git_blob": "5cd854cb9bc835a39f1175db7637b71e82d9a017",
+      "bytes": 2506900,
+      "sha256": "c409f578fb00248c963571d7d793d2772df38c1e6c768f66c90e25ba895f6bff",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000230.txt.xz",
+      "source_context_path": "app/instances/g000230.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000230.txt.xz",
+      "git_blob": "0325f027defb369c60185d5257e2306fa4c21b5c",
+      "bytes": 8828024,
+      "sha256": "dc7ab6e9fa84dcb1ca760ecfbffe7516b8b2a9012f653e339f15ec9f58802de1",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000378.txt.xz",
+      "source_context_path": "app/instances/g000378.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000378.txt.xz",
+      "git_blob": "532a094b256d25760f0e81d0e48887a6c5a378b1",
+      "bytes": 7760,
+      "sha256": "8370d8d228377d90e8ae00baf94e65d0951def70f9362b1c541f0f18830e55b4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000392.txt.xz",
+      "source_context_path": "app/instances/g000392.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000392.txt.xz",
+      "git_blob": "03354830bbe5b60536cc4ebd68d9302d9f2a9684",
+      "bytes": 623208,
+      "sha256": "e533383815548af02d12fa16989d5632d86b06f059308cf07ca36351e4e3df33",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000415.txt.xz",
+      "source_context_path": "app/instances/g000415.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000415.txt.xz",
+      "git_blob": "a2aca28b0654bfa48e33398cb4e8da7fde9c0d68",
+      "bytes": 156572,
+      "sha256": "d643ad504b4fa96e2324be6764744e150ae5c7a881ce6c0ab6393180d8ae8d52",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000417.txt.xz",
+      "source_context_path": "app/instances/g000417.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000417.txt.xz",
+      "git_blob": "9a5bc281e88b13ac7c386419e8dbf13c97acf1ea",
+      "bytes": 86424,
+      "sha256": "2e1c2f8799859accf14d6bd012c2436757d08abaa7b9ddc770dc17f3a62c3e67",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000432.txt.xz",
+      "source_context_path": "app/instances/g000432.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000432.txt.xz",
+      "git_blob": "d5acb08ffebb8acb842fac300897b85ad7b638d1",
+      "bytes": 1901580,
+      "sha256": "e5b56ac5de85c3b355f5f9ce45402d5117facd0a88a8a4716dca1023a0383445",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000475.txt.xz",
+      "source_context_path": "app/instances/g000475.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000475.txt.xz",
+      "git_blob": "01b4d398ac7a97f6b8154470948b515156c3fc5d",
+      "bytes": 2732,
+      "sha256": "6ab7a73a74399b97cb3cb1173b2f8f13536a503b5aa5c5485bbb300266a92e7f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000546.txt.xz",
+      "source_context_path": "app/instances/g000546.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000546.txt.xz",
+      "git_blob": "aea0258a4b9a97b19fa2df313b6929cacad75b38",
+      "bytes": 10232,
+      "sha256": "7f478ab7fb1ad3c2b0f06f5eac09c5f1bbce60204e01c4217aaa1066f40c6aa2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000563.txt.xz",
+      "source_context_path": "app/instances/g000563.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000563.txt.xz",
+      "git_blob": "7a2274687ce19dddee402bf7f75881960cdf36b0",
+      "bytes": 5200,
+      "sha256": "600bc92045e260b26e035676b3fa4d83dc450802464bad7dead6c5e9a0440cc1",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000580.txt.xz",
+      "source_context_path": "app/instances/g000580.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000580.txt.xz",
+      "git_blob": "80eb86efe02d6340cb51309b562730c2b2d39cce",
+      "bytes": 16505960,
+      "sha256": "6309c50964e81383bfdb8a8dc34518ed760ceef5f2b860aabe6d703c03ad3e63",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000682.txt.xz",
+      "source_context_path": "app/instances/g000682.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000682.txt.xz",
+      "git_blob": "bde22156d5dd730019474a76ab86556ac1317f81",
+      "bytes": 3684,
+      "sha256": "95f107421205fcd8a6d81649dcfe9ce4f01641acebd6d183d47f47eb03761e2c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000752.txt.xz",
+      "source_context_path": "app/instances/g000752.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000752.txt.xz",
+      "git_blob": "e06e168edd3440d5b52496cfb3c12943397739ec",
+      "bytes": 59424,
+      "sha256": "7d51b0662328035a8c0891eb08a9c918779aa95e4e7d177cc5303c64e6dbeb36",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000762.txt.xz",
+      "source_context_path": "app/instances/g000762.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000762.txt.xz",
+      "git_blob": "8c095d807e2eb965173679b1f8139512ed044f56",
+      "bytes": 64432,
+      "sha256": "29dfec038bb9844336adec3905896dc6ae3e48b157355e572419408e8cdf306a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000770.txt.xz",
+      "source_context_path": "app/instances/g000770.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000770.txt.xz",
+      "git_blob": "5bdb674ee94bb08a79da98de482a2d2ac462ac3c",
+      "bytes": 50840,
+      "sha256": "d90b71bcab557f280a3faaaa9bdef871d172037c270959b40ff1970e3d9c8862",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000777.txt.xz",
+      "source_context_path": "app/instances/g000777.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000777.txt.xz",
+      "git_blob": "6e79c7c34b7bdcc6fdc213c675917ebd8973efaa",
+      "bytes": 9992,
+      "sha256": "1d3cb6af7028a402cfb8c91b69fa558aae08af5d0280043462a60a9d26d18b50",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000794.txt.xz",
+      "source_context_path": "app/instances/g000794.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000794.txt.xz",
+      "git_blob": "ab9e4f7d11abea870c294350dbb735cb6a791a26",
+      "bytes": 6336,
+      "sha256": "256c99553160ff0126b4bd33a4153f2a875c90d7ac7f5966d8a1d232170c05d3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000824.txt.xz",
+      "source_context_path": "app/instances/g000824.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000824.txt.xz",
+      "git_blob": "d0e2f5bde0f2a77b34365aeac342a4d733ada98e",
+      "bytes": 1400,
+      "sha256": "422e86b1e61a4e9b9e9d4d60f42e18af4f249524d8dd79b1bea4353df5d255e8",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000908.txt.xz",
+      "source_context_path": "app/instances/g000908.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000908.txt.xz",
+      "git_blob": "1846944fbdffdda3034ced07fb12e328a40232d7",
+      "bytes": 3664,
+      "sha256": "39ce0ab390ffc2e07596b2a3e6b6022587bee70b2d8c13d182843f359f7b8572",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000947.txt.xz",
+      "source_context_path": "app/instances/g000947.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000947.txt.xz",
+      "git_blob": "8895868749bfd4baccfe9048f9d3184f0c25672b",
+      "bytes": 2956,
+      "sha256": "df3001fc92569c146f383183153b4e062dc56cf2700a72d382cf7796409c932e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g000949.txt.xz",
+      "source_context_path": "app/instances/g000949.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g000949.txt.xz",
+      "git_blob": "069808447d2787bc2c4ceeeac60d21b35ebe07d9",
+      "bytes": 17164,
+      "sha256": "42e965d7aa076bb7f9f997ecaa815c923ec9af24c5a8d8e37abc88dbafde3bfe",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001083.txt.xz",
+      "source_context_path": "app/instances/g001083.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001083.txt.xz",
+      "git_blob": "ffea4ecfb20338b039f2c68aacb6df554daf82a7",
+      "bytes": 115652,
+      "sha256": "d124a14adf9b9766c866432b4c7f1cefe57e8b579431be56f0120ec343606336",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001097.txt.xz",
+      "source_context_path": "app/instances/g001097.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001097.txt.xz",
+      "git_blob": "25d4c7a6d1d6f06b00923a5819d925133f19a9e5",
+      "bytes": 21312,
+      "sha256": "8ab08d60636a55ee502efd55cc9a60206e0f707ffb999b11e5eb79a5040184e6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001127.txt.xz",
+      "source_context_path": "app/instances/g001127.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001127.txt.xz",
+      "git_blob": "014f74cd3b3650c4429f89ae07cd4ab531bbbd33",
+      "bytes": 3819416,
+      "sha256": "c1b073df60b2bdabd181e796b27b46af599d63056ef9570be5166333c4f02a72",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001146.txt.xz",
+      "source_context_path": "app/instances/g001146.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001146.txt.xz",
+      "git_blob": "5bf9d165788d720c1afd42be916fbd921c35510e",
+      "bytes": 23368,
+      "sha256": "e43d1acd8c4c5387825559c376bad80146840e1a6743f14ba5383f0585a6f623",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001162.txt.xz",
+      "source_context_path": "app/instances/g001162.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001162.txt.xz",
+      "git_blob": "293bab658819ce53ae48f2ecde08f225265daef6",
+      "bytes": 203040,
+      "sha256": "65138a30bd7c146ff2f8b36ba4711fd19a763eac55d967afc75b08c590744141",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001167.txt.xz",
+      "source_context_path": "app/instances/g001167.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001167.txt.xz",
+      "git_blob": "99fae048cbf271930c7f3337f3ff8d38fe91fc5a",
+      "bytes": 3332,
+      "sha256": "c05dd7c8beaa465d7b21b25e391a39a92c946defa04fda06c95c0d8fe5070911",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001275.txt.xz",
+      "source_context_path": "app/instances/g001275.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001275.txt.xz",
+      "git_blob": "444cefc158f7449a43874f84baf2306f9e1b5c51",
+      "bytes": 4508,
+      "sha256": "3ac0fc4c086744beaf6e193d688eba240ea80f3314fe41391f87e75af5a9d427",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001296.txt.xz",
+      "source_context_path": "app/instances/g001296.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001296.txt.xz",
+      "git_blob": "cc4e9a79e52737ded47a9e4a36187c62b50fa131",
+      "bytes": 1148880,
+      "sha256": "b80581eaeb63731e52bf868effe64e3097a40ef67792202a0b94141395c956bb",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001308.txt.xz",
+      "source_context_path": "app/instances/g001308.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001308.txt.xz",
+      "git_blob": "2692880c9bc9b802c71ea8f1a5f878667e81117e",
+      "bytes": 153272,
+      "sha256": "9824edc49e132094c72341b36db4c74b6164a73b1a5d82a953d50a7a850ea40d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001314.txt.xz",
+      "source_context_path": "app/instances/g001314.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001314.txt.xz",
+      "git_blob": "6b50b6c3a07c2c66e65949275b0422cd57ef02e8",
+      "bytes": 10524,
+      "sha256": "471713e423249fe72f203b0f29f4ba2ac5a76be7bda5ff58a0cdd6bab7a7b240",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001349.txt.xz",
+      "source_context_path": "app/instances/g001349.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001349.txt.xz",
+      "git_blob": "f7072294358a937cb94fcd87fb26541ff26cb3a2",
+      "bytes": 3652,
+      "sha256": "5fd773b402047aa2d0a2a43768f0ea184dd2f1a7a48786e3121a78986a358393",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001469.txt.xz",
+      "source_context_path": "app/instances/g001469.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001469.txt.xz",
+      "git_blob": "f3a44cea09de562d24d79e2c0a3fb29cf3310eac",
+      "bytes": 10535012,
+      "sha256": "a8ddf1b47ebba7d2d06bb3841feeab738678b4b13fab0d5c02764ee50c62361f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001506.txt.xz",
+      "source_context_path": "app/instances/g001506.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001506.txt.xz",
+      "git_blob": "7e4a4ad63454300585f09dbdd4b3c9a8637d9352",
+      "bytes": 22716,
+      "sha256": "d3967254625f382856e1d51bb9930201bc828ed4bf84bbeb87a4b06ba00dcdc7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001535.txt.xz",
+      "source_context_path": "app/instances/g001535.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001535.txt.xz",
+      "git_blob": "7ff558771e7756e3e5a5fdbb9e82148691fc23ae",
+      "bytes": 1286580,
+      "sha256": "0b342ecd1f00891beadcb1c8bd3186889401f041f400503a6f1220f61655a25e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001618.txt.xz",
+      "source_context_path": "app/instances/g001618.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001618.txt.xz",
+      "git_blob": "da39ac4e40dc5a37fd3c562df1f97c094f215cf6",
+      "bytes": 2248312,
+      "sha256": "01d2628ab893ac160087feb7fe4597cd0d543b3d3a02ec428d2dc521c9ee6dac",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001633.txt.xz",
+      "source_context_path": "app/instances/g001633.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001633.txt.xz",
+      "git_blob": "883b41693948a59dc1262764f38a2982b0227c8c",
+      "bytes": 3334220,
+      "sha256": "a79c284f0e6d15f810c99f8efd2174ead98942bd8ba777518c7745e096bd9ec2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001642.txt.xz",
+      "source_context_path": "app/instances/g001642.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001642.txt.xz",
+      "git_blob": "a9849ea9d3e0062472756b06fa0dcfa0005bb174",
+      "bytes": 835180,
+      "sha256": "f8f65bd9709d966c03d19e06622c1c4776a8b4d85ae45e8ae92c6a7775eca13d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001671.txt.xz",
+      "source_context_path": "app/instances/g001671.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001671.txt.xz",
+      "git_blob": "b109928039e996a596f774bb769682afe920d9a1",
+      "bytes": 13336,
+      "sha256": "2b20ab45f826ef00b988c9c1c1f649a803ebf6a3dc34fd31fcb49023fcc76efb",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001679.txt.xz",
+      "source_context_path": "app/instances/g001679.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001679.txt.xz",
+      "git_blob": "287795d84f5051c0e5432a488b16cf26753db0a1",
+      "bytes": 3654492,
+      "sha256": "8037739c9dfc7608dbb8934149159e7e9206cfbccb713946d6d5183d1bbb35f8",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001716.txt.xz",
+      "source_context_path": "app/instances/g001716.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001716.txt.xz",
+      "git_blob": "0804a9a634b3136c0a354b0ed45704c63eccbb61",
+      "bytes": 3108,
+      "sha256": "3376f4fcb42b567ede082bd26053f5ded607834f13e969c92be5bf4a465fe387",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001844.txt.xz",
+      "source_context_path": "app/instances/g001844.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001844.txt.xz",
+      "git_blob": "28e2b975ccf3c35e91bc7e14e83d311d4123ff3a",
+      "bytes": 23412,
+      "sha256": "bd45eca6d5f2ecd6c24406a16645da69229682ba2de4b1dd155e7d672ae0c1b8",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001857.txt.xz",
+      "source_context_path": "app/instances/g001857.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001857.txt.xz",
+      "git_blob": "d5b92f20ff665df246a234ff92bc3f8e47b1c184",
+      "bytes": 5340,
+      "sha256": "8bffb210bbe7aac7ce8c4668cc466bb90f97158507125fcfd7f62ce1953ccd41",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001891.txt.xz",
+      "source_context_path": "app/instances/g001891.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001891.txt.xz",
+      "git_blob": "62e544be12253afdebf9cbbafbc2852660d1b9a2",
+      "bytes": 4588,
+      "sha256": "6e3df006ea49c2fe530ed0be66cbf8b68e95155f9579b61acce57227860da07e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g001983.txt.xz",
+      "source_context_path": "app/instances/g001983.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g001983.txt.xz",
+      "git_blob": "2836731d7e854f16d598758120ccd94d929ac88e",
+      "bytes": 2532280,
+      "sha256": "136ed1d46e6711a1049be8b8b3e394c90f0f4b56181a0a8504991b33074109a5",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002071.txt.xz",
+      "source_context_path": "app/instances/g002071.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002071.txt.xz",
+      "git_blob": "b3e22a9616598be4b8dc7e1e536562f005086220",
+      "bytes": 3656,
+      "sha256": "3e0594476ebd599f2ccf952c90c6c2015d556efbb3e7368f61f06833600c8be4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002085.txt.xz",
+      "source_context_path": "app/instances/g002085.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002085.txt.xz",
+      "git_blob": "462e64835c6aaf8174e99df39cdd2ea237e28dba",
+      "bytes": 5008,
+      "sha256": "59c0990bce55e0dffb1d197d04b24fbc277328e51404124d1fd2428f1528a897",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002241.txt.xz",
+      "source_context_path": "app/instances/g002241.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002241.txt.xz",
+      "git_blob": "e3a0e14b931f336be0acc163b090f4c411c32973",
+      "bytes": 9862416,
+      "sha256": "05d1ab38613abfd58a77d04b62ec0e7d6a8307c0d9e1c941cb18505073a636ae",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002249.txt.xz",
+      "source_context_path": "app/instances/g002249.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002249.txt.xz",
+      "git_blob": "1572f677d247179d233aea73125ebb68025c05a4",
+      "bytes": 11040,
+      "sha256": "381394760bbfbf0c7f0a2c4234eb93159db971b3a736001ffe670dda630409b6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002269.txt.xz",
+      "source_context_path": "app/instances/g002269.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002269.txt.xz",
+      "git_blob": "d9e716859a01f39f4a3f0546a15024c25d534afc",
+      "bytes": 2688,
+      "sha256": "e18c81e22c508737c3f5b90cc3e6cb1dfa9f5280a71f0f128bd2d6314c9c5def",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002317.txt.xz",
+      "source_context_path": "app/instances/g002317.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002317.txt.xz",
+      "git_blob": "5f1bd0ed9550d063bae9e64e3149d7dfdf03e770",
+      "bytes": 13794340,
+      "sha256": "881d62ef4264a0270fa2f0e877d6e95db5807b635beabdfe760e42fa1f2a56b9",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002328.txt.xz",
+      "source_context_path": "app/instances/g002328.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002328.txt.xz",
+      "git_blob": "98b7705b650e800d9c5c5608c995a5441110911f",
+      "bytes": 322036,
+      "sha256": "b37ea4cdef388f3626e41480562d7e1b1d9fb29680855e9a42168e066d2f5942",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002374.txt.xz",
+      "source_context_path": "app/instances/g002374.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002374.txt.xz",
+      "git_blob": "3ca96b19eb56c1b8b6260bd462f02e7753c3457d",
+      "bytes": 3375416,
+      "sha256": "e25a54cf03a9fe39eb2acbdff3f36d51c36055c1dcbd0d1e2d8fe220ad7dd50c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002377.txt.xz",
+      "source_context_path": "app/instances/g002377.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002377.txt.xz",
+      "git_blob": "e1d38b924f45533265cbe10f3a5351354069f183",
+      "bytes": 1528,
+      "sha256": "9c381d0c7c3025682482b8e379fefba812b6a6b1ae123fc539ac92eac1e1f764",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002422.txt.xz",
+      "source_context_path": "app/instances/g002422.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002422.txt.xz",
+      "git_blob": "c5af0d90703cdf07bae8504585a23532c2920e9a",
+      "bytes": 2522492,
+      "sha256": "ea00f67db70e935354a7ac4769da6d64b0ea96aa15b2ada33018554ef609c025",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002440.txt.xz",
+      "source_context_path": "app/instances/g002440.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002440.txt.xz",
+      "git_blob": "93aa9e6b0cc8924dcbb2b4852d2febba8d3609fa",
+      "bytes": 918036,
+      "sha256": "8c27f9ad5e2cc75f79db23b43038674c420199d8ce489145ed261f92e2e26148",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002441.txt.xz",
+      "source_context_path": "app/instances/g002441.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002441.txt.xz",
+      "git_blob": "bf3cbea6114b9df1441b406393af78625fddc075",
+      "bytes": 784976,
+      "sha256": "af4eb3a3e8439021c4c6a2bdf67c5243ab058e7e0d2673d46b4bb8f38e579e3b",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002471.txt.xz",
+      "source_context_path": "app/instances/g002471.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002471.txt.xz",
+      "git_blob": "aee6ab3f30a6fca6a157330c4342d73d8e9b1e62",
+      "bytes": 5490460,
+      "sha256": "ef888e7fa65c98e42f09209868532b764e5b422e13325c576e2fc5ddb901141b",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002479.txt.xz",
+      "source_context_path": "app/instances/g002479.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002479.txt.xz",
+      "git_blob": "1601c2ebfbd280160e4168eaadfce32b7a9ced77",
+      "bytes": 1228,
+      "sha256": "b47c03d320ba05a1c2516ffcf80df582b29164c805281aad9f3d7adb321efa69",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002545.txt.xz",
+      "source_context_path": "app/instances/g002545.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002545.txt.xz",
+      "git_blob": "e5f4a6bdedb203fcc35b59d0fe6e3afd94b6205d",
+      "bytes": 22180,
+      "sha256": "446eea0d5be377cb3550a7a21ad4e856e5e1db87d8638338cb39154ba9fa31a0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002631.txt.xz",
+      "source_context_path": "app/instances/g002631.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002631.txt.xz",
+      "git_blob": "b65013d1d5ab0a1dd45942b9dfe9d5821b54212a",
+      "bytes": 156396,
+      "sha256": "e26363b364a8c97cdff5bf29eeb913d3462b4656131c6acc67f780e4241bef38",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002638.txt.xz",
+      "source_context_path": "app/instances/g002638.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002638.txt.xz",
+      "git_blob": "6ce2c59d401692ec4153983b1ce341f38f1d69b9",
+      "bytes": 13677600,
+      "sha256": "9262a9352d1929b278293adff04d990a9321bc33cc82a7db259cc81f71085bef",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002681.txt.xz",
+      "source_context_path": "app/instances/g002681.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002681.txt.xz",
+      "git_blob": "b672e6b7bba46a79285a2c68e900528a201a62f0",
+      "bytes": 9289588,
+      "sha256": "b9b713980ffeb77b5a82cfa245423e108a129b241682445ac73d84dfc8a9a15c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002696.txt.xz",
+      "source_context_path": "app/instances/g002696.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002696.txt.xz",
+      "git_blob": "02426fc54cda2a6783c51031b4da9b38631d59d0",
+      "bytes": 1009956,
+      "sha256": "d8a0f6169bc6ab52762156620d30177db156fcd321403f50e8c8b85c7981bb69",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002701.txt.xz",
+      "source_context_path": "app/instances/g002701.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002701.txt.xz",
+      "git_blob": "60b6ecb72d081923a791e13519acadd9e624703f",
+      "bytes": 3754540,
+      "sha256": "fe8e9dea3ef026e10f609419dfd7977b247283fe6a03ae7e1c50a18cc981260c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002711.txt.xz",
+      "source_context_path": "app/instances/g002711.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002711.txt.xz",
+      "git_blob": "82429c4fd19ed3828827966ce018ee649f0cde5c",
+      "bytes": 115320,
+      "sha256": "eca8076557d0a5362237a8dd68ce32597cddac6d18cd9e8a34250505b36e3ea8",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002776.txt.xz",
+      "source_context_path": "app/instances/g002776.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002776.txt.xz",
+      "git_blob": "1f8ca9456bb95e7085bd3c6074d21a58eaf22e27",
+      "bytes": 834760,
+      "sha256": "ae33a7897f53f7331d05d10ebbce80864d01b819b2a3878938069675728a7516",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002804.txt.xz",
+      "source_context_path": "app/instances/g002804.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002804.txt.xz",
+      "git_blob": "26c8ee305f247ad162286878b7b1dcc2904fd36d",
+      "bytes": 10584,
+      "sha256": "c8031c437cad4b474fe5b6ace68b1647436911abd7b997a549789c060444ccc1",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002826.txt.xz",
+      "source_context_path": "app/instances/g002826.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002826.txt.xz",
+      "git_blob": "053d01cb3e1ab9aad0be0b01a303e089d6798c19",
+      "bytes": 439828,
+      "sha256": "1c15cacb7015581ccbbf83b81085bbb3e9fe675af7f7cfafa7666dabf5a3059d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g002935.txt.xz",
+      "source_context_path": "app/instances/g002935.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g002935.txt.xz",
+      "git_blob": "15682ad743b306bfad46015e0bd627eb5645eb25",
+      "bytes": 48972,
+      "sha256": "5ee10482f3ce5a6a1332d3a9336a5619fa8267e40f8e75cf354a20feece4363a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g003046.txt.xz",
+      "source_context_path": "app/instances/g003046.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g003046.txt.xz",
+      "git_blob": "044f5d4210081c996961c0914ba896ba3df41a2c",
+      "bytes": 5257460,
+      "sha256": "81b38a7d282eb4d4e466bac458c278ae12a6048d3c292603be8b09b7f449e0ca",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g003071.txt.xz",
+      "source_context_path": "app/instances/g003071.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g003071.txt.xz",
+      "git_blob": "860b4bc628a299e8339417eeb25d57065d7c4722",
+      "bytes": 18360,
+      "sha256": "e77c17af80ccabeb1d7fc6f04a841c6a7966df92cf7391158985df4f5a6cbb54",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g003104.txt.xz",
+      "source_context_path": "app/instances/g003104.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g003104.txt.xz",
+      "git_blob": "2c11e71fd705badf17a988ada718b1caa47208f2",
+      "bytes": 7075832,
+      "sha256": "4e205d8f8a68bae04daddd8e1bc02a482d7b5d9fed322ed85c065c89249e9cda",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g003131.txt.xz",
+      "source_context_path": "app/instances/g003131.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g003131.txt.xz",
+      "git_blob": "7589973a99136f55f807984947bb370e858f4efb",
+      "bytes": 5032,
+      "sha256": "3c6361fcadd99c9337f946e2b6a5908cd96d1bc9a3932139fd236c659a354939",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g003158.txt.xz",
+      "source_context_path": "app/instances/g003158.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g003158.txt.xz",
+      "git_blob": "a8435064d2068be9909c7a61ea3a7780f9fcfddc",
+      "bytes": 3668,
+      "sha256": "7c0686142aafab39340ed73937aa99108c26d629710f9c0e580768191a979de0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g003164.txt.xz",
+      "source_context_path": "app/instances/g003164.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g003164.txt.xz",
+      "git_blob": "392c6fcfd3ac939700b2c6dba443ef37031e228a",
+      "bytes": 7894872,
+      "sha256": "0393495ca8312a8d02bef5b8ea571b8d0d0a83317b79f27d1b1fdbdb623aa5f3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g003178.txt.xz",
+      "source_context_path": "app/instances/g003178.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g003178.txt.xz",
+      "git_blob": "6aa802fa6623c0a5520df89a7e2ef42e5d88d731",
+      "bytes": 557640,
+      "sha256": "349fdd39523ad1ac37a310de5290e9777b95f1afea57c175018b76380306bb3d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g003193.txt.xz",
+      "source_context_path": "app/instances/g003193.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g003193.txt.xz",
+      "git_blob": "1501879cc5957033a3e2eff206399bdf071f14ee",
+      "bytes": 4060,
+      "sha256": "4d74e050f99e6ae3b0077a4ff822578a6fa090aa7f509b446f913ddbdb32f5f4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/g003220.txt.xz",
+      "source_context_path": "app/instances/g003220.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/g003220.txt.xz",
+      "git_blob": "197d9b0fbe8f5ac919834b44383b13137d5b88de",
+      "bytes": 11387500,
+      "sha256": "03fa6fc0a6869c6c9be4530d78df8044bd385109e556e37ba992a86082af3076",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/imgseg_112082.txt.xz",
+      "source_context_path": "app/instances/imgseg_112082.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/imgseg_112082.txt.xz",
+      "git_blob": "5bd5e9400d0899d02f3768e7233c06ac84dffb66",
+      "bytes": 257596,
+      "sha256": "822c32557a20b146620a7e0d0ea2fab07b3ec64c1326d184119ae627a120a041",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/imgseg_117054.txt.xz",
+      "source_context_path": "app/instances/imgseg_117054.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/imgseg_117054.txt.xz",
+      "git_blob": "bfeb050aef5ec3ba05b86dfb9dde8342a0861b1c",
+      "bytes": 322768,
+      "sha256": "c01c35196b0d1f4e684d3a4ae06e431d6eb5314bbb82c1af6a521171576c8831",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/imgseg_147062.txt.xz",
+      "source_context_path": "app/instances/imgseg_147062.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/imgseg_147062.txt.xz",
+      "git_blob": "bef4fd224af522cac706ac9c935cc3f5cf359835",
+      "bytes": 714488,
+      "sha256": "315c5e1c177367efe54c6d0db95f4b844ce8daa6da282834c515dc0d90c8d842",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/imgseg_22093.txt.xz",
+      "source_context_path": "app/instances/imgseg_22093.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/imgseg_22093.txt.xz",
+      "git_blob": "d6cd99eb5dc5f15d5ad3e139d74a29bf4b62f355",
+      "bytes": 212036,
+      "sha256": "7ce813c5fa0b0e84df84990d2604c241dd8445076969352347d9cfa7df39f523",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/imgseg_254033.txt.xz",
+      "source_context_path": "app/instances/imgseg_254033.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/imgseg_254033.txt.xz",
+      "git_blob": "7ebd3e79b0962929f75f4fa39212f93ba8967368",
+      "bytes": 276232,
+      "sha256": "539aaf1f666fcaeab1e8aa2f0db1d57777a023e862f3985e8272aa261647d973",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/imgseg_274007.txt.xz",
+      "source_context_path": "app/instances/imgseg_274007.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/imgseg_274007.txt.xz",
+      "git_blob": "5a1c2f1147bf978ecf8cf87f9fcfdfd76f606866",
+      "bytes": 309944,
+      "sha256": "b72f3a6eeb7518465c0ea36b37427c7297fab16d457ae8f378f30c7a86250119",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/imgseg_309004.txt.xz",
+      "source_context_path": "app/instances/imgseg_309004.txt.xz",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/instances/imgseg_309004.txt.xz",
+      "git_blob": "95adef663b3f0b9991954514fe816ef06f3da65e",
+      "bytes": 435844,
+      "sha256": "180459ba5aa7cfa63106d2376c2d28b9d9fd015ac0f57e60559badac62014471",
+      "mode": "0644"
+    },
+    {
+      "path": "app/mqlib/data/README.md",
+      "source_context_path": "app/mqlib/data/README.md",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/mqlib/data/README.md",
+      "git_blob": "62cb4ca3b9e72166f76ee0fee5f739c86c92072b",
+      "bytes": 3271,
+      "sha256": "0244b5b959f91d5243cc6fc1565193e00c6f8d1057cfb82067d85a2939458c51",
+      "mode": "0644"
+    },
+    {
+      "path": "app/mqlib/data/SearchResults_Filtered.txt",
+      "source_context_path": "app/mqlib/data/SearchResults_Filtered.txt",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/mqlib/data/SearchResults_Filtered.txt",
+      "git_blob": "ea7e43e57a872f4ee609571f5748670a3ecb75b9",
+      "bytes": 1345100,
+      "sha256": "37eba11103b4af147a26babd5d8faed074b96fcf4d3eecdf55070a1a6d457d7d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/mqlib/data/heuristics.txt",
+      "source_context_path": "app/mqlib/data/heuristics.txt",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/mqlib/data/heuristics.txt",
+      "git_blob": "6223fc2285ff40f84c3c86dcef7451ea4a796ed6",
+      "bytes": 519,
+      "sha256": "cd01e3c9fe221e52b3d817a870a12890e0f7f7d28b8b597d72952a5bed4278e3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/mqlib/data/instance_header_info.csv",
+      "source_context_path": "app/mqlib/data/instance_header_info.csv",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/mqlib/data/instance_header_info.csv",
+      "git_blob": "0753aa97361276b3a66c9329f71b6452e52a61c5",
+      "bytes": 31283,
+      "sha256": "a60dd2cf79df8c97d74ca907b7382a382db828b36ca4e2c84233acaa67945197",
+      "mode": "0644"
+    },
+    {
+      "path": "app/mqlib/data/instances.txt",
+      "source_context_path": "app/mqlib/data/instances.txt",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/mqlib/data/instances.txt",
+      "git_blob": "3fb10b3781bf31e7ac41ba137a763991a4608c15",
+      "bytes": 1333,
+      "sha256": "98bd9450d7feb20b8e63dcc48d00fba46e4a88a6a578c8921143d1efc935b965",
+      "mode": "0644"
+    },
+    {
+      "path": "app/mqlib/data/metrics.csv",
+      "source_context_path": "app/mqlib/data/metrics.csv",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/mqlib/data/metrics.csv",
+      "git_blob": "bd2fb685a5cc440932d14ddfb69789b86a529853",
+      "bytes": 55120,
+      "sha256": "8bd630bd63ab5d1fcb76bcd4e5bf8ed5afdd28341dc7f445b9d20da2418a5143",
+      "mode": "0644"
+    },
+    {
+      "path": "app/mqlib/data/results.zip",
+      "source_context_path": "app/mqlib/data/results.zip",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/mqlib/data/results.zip",
+      "git_blob": "6889536dd12f1db7797ed26a646ffad9b7170dfa",
+      "bytes": 309414,
+      "sha256": "c40450f505a0ab9858fbb1dee06233616508fb658c2502fcee6ae38e900594a3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/mqlib/data/results_imgseg.zip",
+      "source_context_path": "app/mqlib/data/results_imgseg.zip",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/mqlib/data/results_imgseg.zip",
+      "git_blob": "161708d8f2e6143d586df9df139db2e588434a84",
+      "bytes": 2127243,
+      "sha256": "d64d717406f873bc2abc72d68c88e400cdc37d6bc5057bade66af4977cc69b13",
+      "mode": "0644"
+    },
+    {
+      "path": "app/mqlib/data/scaling.csv",
+      "source_context_path": "app/mqlib/data/scaling.csv",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/mqlib/data/scaling.csv",
+      "git_blob": "c8193a93f612690f4a715caaa283d65861b2f443",
+      "bytes": 14396,
+      "sha256": "e1b65c8ca590094123edf8ed0dfc113994be3edb9561bb46a1732d2a2206d086",
+      "mode": "0644"
+    },
+    {
+      "path": "app/mqlib/data/standard.csv",
+      "source_context_path": "app/mqlib/data/standard.csv",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/mqlib/data/standard.csv",
+      "git_blob": "d6651e7282416c87f4b208b01db4f3bba1c4a23c",
+      "bytes": 180,
+      "sha256": "1d1c0128a8f7dcfba72504b486198a70ccdfe8a5d59d8018b8940ac44448d2f2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/mqlib/paper/SECM_final.pdf",
+      "source_context_path": "app/mqlib/paper/SECM_final.pdf",
+      "source_path": "tasks/solver/online/maxcut-mqlib/environment/app/mqlib/paper/SECM_final.pdf",
+      "git_blob": "0168a57f0aa769493a0e07134f4b6fcc3bc90463",
+      "bytes": 842515,
+      "sha256": "7926fc96d95c9b86a0e356c1ede8beec7f606b908397b385d222bc754c4d28ab",
+      "mode": "0644"
+    },
+    {
+      "path": "opt/mqlib-instances/G56.zip",
+      "sha256": "2286fc8828a72e6078eea96a517feda13c27c2d5ab5e5c355dcd70768aeb3471",
+      "bytes": 51613,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/G56.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/G64.zip",
+      "sha256": "2f89fabe335da4b0907449fc5a3ac35e2291377ce7c91f97bf77f7bf23b85cd2",
+      "bytes": 152944,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/G64.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/G67.zip",
+      "sha256": "eeb4ea118803096d4092a61da16f34c57948d9bd9c40695a5bf73f1b1b59ee9e",
+      "bytes": 66078,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/G67.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/culberson100.zip",
+      "sha256": "a6519b71f8c810f5575fdca5174819d37a761b66915a24109d7f3f93d54d8ae7",
+      "bytes": 159392,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/culberson100.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/culberson2.zip",
+      "sha256": "063eed2c818dc732019d69a3e33ec9825a4bd0eb92d8a9a5a67f3c4f550638a1",
+      "bytes": 81882,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/culberson2.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/culberson40.zip",
+      "sha256": "ac8c869cff67298b9c9b9107812ea2bcf9b2e7812cf1470cd6ee64a18a23d2ba",
+      "bytes": 113769,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/culberson40.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/culberson44.zip",
+      "sha256": "252374609f366e08cda4f2e38a8653dc319796fb79167136a93beb1221be194a",
+      "bytes": 27177,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/culberson44.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/culberson60.zip",
+      "sha256": "7885ca4c6a194044661bfc2f87b911f640087034226ff750673445a964880cca",
+      "bytes": 333157,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/culberson60.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/culberson67.zip",
+      "sha256": "a076d058d3fd8c054ce41d24601696d2952e85a1f4ed4ce95244d4e32a7c6b93",
+      "bytes": 748194,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/culberson67.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/culberson85.zip",
+      "sha256": "1d2efc9230f5b3b80b419719789ea7e5435576cf6c828a0dca14dab9a0f6aa7a",
+      "bytes": 20170799,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/culberson85.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/culberson88.zip",
+      "sha256": "5b29b706a975e0e38a0b45238f9fa54d1d80d6a0ca5a16f5c731bcecec63d6e1",
+      "bytes": 126211,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/culberson88.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/culberson94.zip",
+      "sha256": "27a1e41c204105bdce1ea353a41e671874809a8452b25fedfe68b85262451929",
+      "bytes": 244887,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/culberson94.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/culberson97.zip",
+      "sha256": "fb3909ad9f0227965deecb53ad163fbadb29abccda0d96e4252565ca16f6afde",
+      "bytes": 255480,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/culberson97.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/culberson99.zip",
+      "sha256": "6b0509229c401075e772b6d01fb19743651058544068d65a68dbb5ec4eeac871",
+      "bytes": 164398,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/culberson99.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000052.zip",
+      "sha256": "9ac6be5905919db8d665cc95bfb673049d66fd0be04472381d089fae738e89a9",
+      "bytes": 88284,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000052.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000064.zip",
+      "sha256": "cd07aa0a69d6bfbe043b48c185230fc948f6b298534212b08ec7e0679e2a577f",
+      "bytes": 104492,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000064.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000087.zip",
+      "sha256": "a1b4cfc80438dd31811d9ab77a49ade0e044b6693f4327a822340a5634935980",
+      "bytes": 400379,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000087.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000107.zip",
+      "sha256": "88fa948a9d010bc98af32b5f7be7b316128a15965e5c1e45084b137ca21dc71c",
+      "bytes": 43918,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000107.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000109.zip",
+      "sha256": "4a17d152d28c82240cbc98234a3bf375b770f3962fd9fe0eaa3ddfac3a59f98a",
+      "bytes": 5872261,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000109.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000113.zip",
+      "sha256": "17899958da9618804001e908e2c55bf0ca6e3acb3208c7c39bbab7c47a179123",
+      "bytes": 3169146,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000113.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000230.zip",
+      "sha256": "9ca93a6a65e74f9fad250ce7aafc90c4d0a83caa79c16196457e246b92bb3703",
+      "bytes": 11563882,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000230.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000378.zip",
+      "sha256": "ea10ef1b42482ca1aed0f9cb3a6369494dcc6ee198bdda5218894988b06b955f",
+      "bytes": 9180,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000378.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000392.zip",
+      "sha256": "71c601c420efc7d8744230fa2de2079d7aaf877798ca5550b351b9a8829cfc1c",
+      "bytes": 779608,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000392.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000415.zip",
+      "sha256": "a40868335617a41c6b1f963452979fd9b8a8491e1275e65330e470989324e456",
+      "bytes": 190861,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000415.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000417.zip",
+      "sha256": "9d930f6d116fca27b9f2d2ae14b30ce6a6c63f1b459bccfdd0f2294755893135",
+      "bytes": 141571,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000417.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000432.zip",
+      "sha256": "56389273aec174423b0525d8364850d76a066094cb1f37f4286d794ff6ece4db",
+      "bytes": 2333616,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000432.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000475.zip",
+      "sha256": "393901f79ff3ac959b361226cdd241a4acd62b6190f0089c1b25b78224589adc",
+      "bytes": 3207,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000475.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000546.zip",
+      "sha256": "53fc8e3f36b624f92246902fb19ef09ec0a943fa8eb644e158fa523463414907",
+      "bytes": 12235,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000546.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000563.zip",
+      "sha256": "c94ade93806749e296706829cde77bb0ab1a34ea18d4da9addbbc73eeb95f70f",
+      "bytes": 5780,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000563.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000580.zip",
+      "sha256": "3f2e6b0a833282d6f1b52465bba0b98c78077f3501cd43d3fbffe73bfec227aa",
+      "bytes": 20496807,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000580.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000682.zip",
+      "sha256": "851d8d86597324eaf9421124dedae7d204e995ff34cb62b525728ff56ebcb5d7",
+      "bytes": 4542,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000682.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000752.zip",
+      "sha256": "77e909b68811276a122472ba9974893f5ab61b29bb12376abc510b02023be51c",
+      "bytes": 76157,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000752.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000762.zip",
+      "sha256": "b2a383db0b7a1832d20870281f7d65fece7d2a23516d160bca45ca50aab907aa",
+      "bytes": 100280,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000762.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000770.zip",
+      "sha256": "d239b87efe12ad5f73ccf13cefdf29f552baa2b9425d5fe9301df5fa9fdcfb9a",
+      "bytes": 72037,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000770.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000777.zip",
+      "sha256": "98de0f92e9235f73e7453fd0c9005943a79aa2f00f81d6771bbb88aba42f1b33",
+      "bytes": 36955,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000777.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000794.zip",
+      "sha256": "e71f3dbbaf171a3281bae8de1ac4e5faa30637ac35ca5e98a6aec69f83795d46",
+      "bytes": 22625,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000794.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000824.zip",
+      "sha256": "fcb662825f0f1f78de03bf0a3c769b9fd016548bf84381b7d6064a086e53ed5f",
+      "bytes": 1588,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000824.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000908.zip",
+      "sha256": "e567e7bfb31a4a5f3dca1211f9884ffa16a3c2499d47d6744b62982b58e105a6",
+      "bytes": 4619,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000908.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000947.zip",
+      "sha256": "e2a36e7663110f0fe9982106d6974f22240bb5d30574947166441a4c3d2001b6",
+      "bytes": 4657,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000947.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g000949.zip",
+      "sha256": "d0b111570782d32a69e0425182f56d135137398339734b95dd03b00facd33e16",
+      "bytes": 29561,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g000949.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001083.zip",
+      "sha256": "0351b5cc5ebb5392d9daf52f2feb504bfb4be99bd07a39b21abfadcb47c8868f",
+      "bytes": 184506,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001083.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001097.zip",
+      "sha256": "288393164322b924b088014b810f83ffa3d2bc13f2bc0f4267ebb70bc2cbcd8b",
+      "bytes": 26296,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001097.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001127.zip",
+      "sha256": "9b661024b7e0ba8014e36daf85d2777ca7203d0ef9b8c96b233a3e5fd0d94d15",
+      "bytes": 4996941,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001127.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001146.zip",
+      "sha256": "0e73c7e07a0cfefa0d25d3a1eaa90419762b9dac172c92aa4b95061ec45dfa38",
+      "bytes": 90846,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001146.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001162.zip",
+      "sha256": "4bc125541a6319b0da070031fcad9781f5c6bd46a92406935a95c6d569cb4fdb",
+      "bytes": 319856,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001162.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001167.zip",
+      "sha256": "9f3df7450a28579137f2ea90561f88ed4598fa67719c7d79fbf3704f54ae0474",
+      "bytes": 4677,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001167.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001275.zip",
+      "sha256": "6e5ebe002edfca15bb351c1b08947b46d309540e243e11d05181a0857c3b44b7",
+      "bytes": 11900,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001275.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001296.zip",
+      "sha256": "db5ba25a42eb4e23cb0f936428db0f76390becd14fd69df13f5d4f099f6da4e0",
+      "bytes": 2384082,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001296.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001308.zip",
+      "sha256": "a71d25da41defaa55c509c86668f145da0f483315347153a3393ca395d4ec9ac",
+      "bytes": 252772,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001308.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001314.zip",
+      "sha256": "565c9ee263a2f1afbc1fd4f3f9114f2b98c23158d1feb0b1cecaea4549a1993e",
+      "bytes": 12671,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001314.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001349.zip",
+      "sha256": "56dfac1f30c773bc2e2809ee9b35b7d68aff9cbb2296237080fb564dd4ee26d3",
+      "bytes": 4538,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001349.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001469.zip",
+      "sha256": "bfa28ff59919e76e0b8a8f0e875ebd2600ff90b46c5f5f04f83ccbbe6132b9e9",
+      "bytes": 13168452,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001469.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001506.zip",
+      "sha256": "c088cb3b0721ae721b851d4aa928abe0291d050bf726fa558e8d85ff97b8b6f1",
+      "bytes": 35867,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001506.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001535.zip",
+      "sha256": "e7e5fd990535a1321fb64505b8ec08dc9bcca6770a6f642d8f2d48b94f36617b",
+      "bytes": 1782858,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001535.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001618.zip",
+      "sha256": "b1f9e121cbb42943d3d0989c583e2f8c036d9a892dfdf7b0fa7752882429fbd4",
+      "bytes": 2735407,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001618.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001633.zip",
+      "sha256": "4009ea2939cce98dab16df06962d03e2960aca26d9a890769660530852e42c21",
+      "bytes": 4318137,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001633.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001642.zip",
+      "sha256": "6e73e2e9fe0eaa87da57f4a5e578bf9bbcf29874da3e26a7b95838693c3cea1c",
+      "bytes": 1251257,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001642.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001671.zip",
+      "sha256": "55426554be708c820aeafab17e7f889888e6dac50375697586f2a7c1c42f8436",
+      "bytes": 16093,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001671.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001679.zip",
+      "sha256": "ebdb59a77129f36d3e05a70f0d994037b4618cd878e7683d44ddd64dd733958e",
+      "bytes": 4677228,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001679.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001716.zip",
+      "sha256": "413a28b636ee30faa109cdc1a203c9abcdd6f9f0f5788b9b5f4c749e2a2c9cac",
+      "bytes": 3635,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001716.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001844.zip",
+      "sha256": "09cfe012b2cf7fe7e84ded8cdecd174a7a04534ba342bebe0081ab3583f12287",
+      "bytes": 28854,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001844.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001857.zip",
+      "sha256": "5e2590ff75c644001fa63abcbb3f7e41f3d7f4a5369d247ebdc67b87f82227e1",
+      "bytes": 6294,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001857.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001891.zip",
+      "sha256": "f6f4eb5f4c590b9f7eda55cc6839e71cebfd56896751684f207a6770379e0a27",
+      "bytes": 5682,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001891.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g001983.zip",
+      "sha256": "17ced89576ef6a735a22fade19f4bacfa9be0a995f135c18e56977cd7820df6c",
+      "bytes": 3285486,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g001983.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002071.zip",
+      "sha256": "332e81ef585e143fe4fd733e1b2b55a64119ad6a233c6535345c278dd6f385f6",
+      "bytes": 4615,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002071.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002085.zip",
+      "sha256": "11f9888747a750b82be0009c3e167468f5ccabe78580ad896bb8708ad4ea9310",
+      "bytes": 6061,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002085.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002241.zip",
+      "sha256": "3360012e2036386adc3837475029963edef39e15a5027ece7e578204fd77edae",
+      "bytes": 16825467,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002241.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002249.zip",
+      "sha256": "36379765a2543c685972e93663dcb06cd51f1822126a27583f6f78dc435c8c3d",
+      "bytes": 13395,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002249.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002269.zip",
+      "sha256": "037d28f9ea48c200ad95fa4e03446d24ea16ff37b1e458ef7351d80eda31a058",
+      "bytes": 2938,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002269.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002317.zip",
+      "sha256": "4865a9be6333f3035f1d2e1615aa6e219da1282a7c1022139c56317eb3f9f643",
+      "bytes": 16804911,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002317.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002328.zip",
+      "sha256": "c973152ab61453d7c1e341a67c9549f0ac393d6b718978df461a9773cc4bd7e2",
+      "bytes": 399734,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002328.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002374.zip",
+      "sha256": "4d6ec31fe044ea351f2f9fb6a48016c2bd89ada660e54d226c4e39b0b36198d9",
+      "bytes": 4758457,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002374.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002377.zip",
+      "sha256": "b6ef064fea840577fa61098a6e8c3f08864671520f2566a5a40693dc12cddccc",
+      "bytes": 1704,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002377.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002422.zip",
+      "sha256": "e2300b452153246d96c27112e8019be55311d2839442ab87b35f3bf21fe91ad3",
+      "bytes": 3092687,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002422.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002440.zip",
+      "sha256": "5593e7f4f1c75c70222b5456a6ef496da9cb89508ca2ff3f35eb5bdf61b08b05",
+      "bytes": 1115815,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002440.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002441.zip",
+      "sha256": "5369a52691cbbbb5fd46c27e69269532f7635bef81d1eacacc5794f3a5b088ec",
+      "bytes": 977678,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002441.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002471.zip",
+      "sha256": "f2594805087fd5247c8936fbfdd2a000d9ad5c4c58e76d9726922fb6837e807e",
+      "bytes": 7009136,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002471.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002479.zip",
+      "sha256": "7a10b5d7e5fb9132ce8dd32c697d0864c8d119d934190677e683dfcc2e60f52e",
+      "bytes": 1462,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002479.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002545.zip",
+      "sha256": "38f850785c4d5b1a05138986c166649c06cc5db02f875f007333b01baf06f611",
+      "bytes": 27292,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002545.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002631.zip",
+      "sha256": "3efb6cf0fa6fb24203cdb44c4b70181c1e8b47eb3ecff04efaded843b86fd6e0",
+      "bytes": 190762,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002631.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002638.zip",
+      "sha256": "0e782f99287864c11000ab5bfa03d036174bc5fc5ce3687b8f6c686e2e304c7c",
+      "bytes": 16588774,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002638.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002681.zip",
+      "sha256": "2b5819ce32d3cd8297ccb25746e2cca1f1af58c8512206d30341d3c59b938446",
+      "bytes": 11305583,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002681.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002696.zip",
+      "sha256": "878187237d2adf9886c81219c73aae930421c6a5e4d60ff79360c6c23d24b76c",
+      "bytes": 1200922,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002696.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002701.zip",
+      "sha256": "2a5790c8bc36743a8edee3502f675b92bcd9acbc31ef1c6fc8fbb49bf6d2e5bc",
+      "bytes": 8612472,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002701.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002711.zip",
+      "sha256": "b29be869a1aafc805724492cb2bda700bc74f284126728611a2f13ac584bec1b",
+      "bytes": 185411,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002711.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002776.zip",
+      "sha256": "f9adb14865ce6941fb65e5bada4990f994855d11a0eebb0e288420fee5b64f73",
+      "bytes": 1249753,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002776.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002804.zip",
+      "sha256": "0b5f0605e6cf33fb43814cb4b420c574e4197aea9d29b06651e719fdc9a32804",
+      "bytes": 35895,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002804.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002826.zip",
+      "sha256": "d959d3ea6875506ace5b928ba23d623d81595e452377d3f19a05fbfd9d93ae3e",
+      "bytes": 891464,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002826.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g002935.zip",
+      "sha256": "bdeca2dfdd74be9ff96dd966d1c8226809bd0d23a04c171a710428c4dd0e2fe4",
+      "bytes": 129286,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g002935.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g003046.zip",
+      "sha256": "4c57a708bb49ec707fa797ecf1fba1620e0bc1182e9dbf650fa2dd045f2521d3",
+      "bytes": 8661157,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g003046.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g003071.zip",
+      "sha256": "79e14ae482bee3528f06dcfb376fe468803ab9733411fa49fd82d5a7f0cf2cd0",
+      "bytes": 22417,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g003071.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g003104.zip",
+      "sha256": "7ec5b8bbe33ed9c7d40aa0e1db194e29d919df74bb71b0b5883413a4937097ce",
+      "bytes": 9927260,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g003104.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g003131.zip",
+      "sha256": "da3352136b45d38456dd3365b9e001de54dd7f16eff0139e63be86e17f205ba3",
+      "bytes": 14948,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g003131.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g003158.zip",
+      "sha256": "6c605b7a735019ce0529ad76983fdfd5cca1838bdc727c8a1131521bf372c44e",
+      "bytes": 4570,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g003158.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g003164.zip",
+      "sha256": "56060203c2deca2a9b79cac4c9905e6ce7d4ba50e93cf21da555731f5e911547",
+      "bytes": 13606062,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g003164.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g003178.zip",
+      "sha256": "091d87874c36526273b36d60aac8568657ee59c0330547bb44ce400b776abfaa",
+      "bytes": 714523,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g003178.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g003193.zip",
+      "sha256": "e91cfe97583f21d21c2662cafcf10c7a9bda6cb768fe40e37942f38f8eb03fec",
+      "bytes": 6846,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g003193.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/g003220.zip",
+      "sha256": "f38a3c95fd9ea2e957ef2597e4a0a377ff8fd2447cc2e1b1582640caadf194f2",
+      "bytes": 14505018,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/g003220.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/imgseg_112082.zip",
+      "sha256": "668b8bba563a2c2b3c87c5f48035182b58f3a6cff7d4b3ac5e099d3dccb0933c",
+      "bytes": 282829,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/imgseg_112082.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/imgseg_117054.zip",
+      "sha256": "a9bb57e2cebf17b1f296d9aac36bf570c18c0761a22d19f723f77af1937ac5a8",
+      "bytes": 356003,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/imgseg_117054.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/imgseg_147062.zip",
+      "sha256": "8dbe99722e8125c31e64d1690b4c1f2b83f3175c6ad90db9db2c660541cacd26",
+      "bytes": 793751,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/imgseg_147062.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/imgseg_22093.zip",
+      "sha256": "fb86ddbfdc8cc597bb400e4e7ed7bf8297db63bd25e6a03379ae1e61efa49978",
+      "bytes": 233281,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/imgseg_22093.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/imgseg_254033.zip",
+      "sha256": "3ebbeba13154cb690b239cabbed70085037684a8bef4c30c8e342a502a9bad4c",
+      "bytes": 303514,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/imgseg_254033.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/imgseg_274007.zip",
+      "sha256": "e463374bb1e8f5810e92785e5d8081158cdd6773ad9ca37c9b3047555fc4cccd",
+      "bytes": 342828,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/imgseg_274007.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    },
+    {
+      "path": "opt/mqlib-instances/imgseg_309004.zip",
+      "sha256": "d2d79c49cfc87720fdefe72ba1e017afc6ea3f63ee442e9a00d3568c8aa13dc0",
+      "bytes": 481689,
+      "mode": "0644",
+      "source_url": "https://mqlibinstances.s3.amazonaws.com/imgseg_309004.zip",
+      "content_note": "The existing 105 public original ZIP background inputs, combined into the public data product."
+    }
+  ]
+}

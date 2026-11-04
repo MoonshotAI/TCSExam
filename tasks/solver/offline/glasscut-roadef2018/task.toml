@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/glasscut-roadef2018"
+version = "1.0.0"
+description = "Improve the ROADEF/EURO 2018 champion glass-cutting solver (2D guillotine cutting with defects, stack sequencing): minimize glass waste on hidden final-phase instances, scored continuously against the champion's short-budget results and its verified best-known patterns, under the official dual time limits (a 3-minute run and a 1-hour run per instance, composited 0.1/0.9)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "cutting-stock", "guillotine-cutting", "roadef-2018", "beam-search", "type-2-solver"]
+
+[metadata]
+family_id = "fam-glasscut"
+candidate_id = "cand-glasscut-roadef2018-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "The starting point IS the competition winner: at the 3-minute judging budget it already beats every other team's 3-minute results. K is the champion's own verified best (from runs up to 1 hour and post-competition tuning), so every point of score requires genuinely better search: a better per-tier strategy, better parameters, or a better algorithm — against a heavily engineered tree-search baseline."
+
+[verifier]
+timeout_sec = 1209600.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+
+
+[verifier.environment]
+network_mode = "no-network"
+build_timeout_sec = 3600.0

@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-explicit-rigid-matrix"
+version = "0.1.0"
+description = "Prove or refute Valiant's matrix-rigidity conjecture for the Hilbert-matrix family in Lean 4 (machine-verified). Open problem: proving P (rigidity) or not-P scores 1.0 either way; no partial credit. [prove-or-refute v1]"
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "matrix-rigidity", "circuit-lower-bounds", "valiant-1977", "prove-or-refute", "type-open"]
+
+[metadata]
+family_id = "fam-open-rigid-matrix"
+candidate_id = "cand-explicit-rigid-matrix"
+problem_class = "lean-open-prove-or-refute"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open since 1977 (Valiant). The conjecture is stated for one concrete candidate family (Hilbert matrices over Q, a totally-regular Cauchy family with no known non-rigidity result); the best known explicit lower bound Omega((n^2/r) log(n/r)) is a factor n away from the target. Both directions are research-level open."
+source_paper = "Valiant: Graph-theoretic arguments in low-level complexity, MFCS 1977. Background: Dvir-Liu, Theory of Computing 2020 (Fourier and circulant matrices are not rigid); Ramya, Recent Progress on Matrix Rigidity, arXiv:2009.09460."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-explicit-rigid-matrix-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

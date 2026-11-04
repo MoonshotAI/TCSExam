@@ -1,0 +1,65 @@
+{
+  "description": "Download the official PACE 2019 exact-track public-v2 archive, select exactly the 100 odd-numbered public instances, and recreate the frozen XZ outputs with XZ Utils 5.2.5 in a pinned Docker builder. No multithreading argument is used. Every output is checked against the retained manifest and decompressed for comparison with the official plaintext. The fixed Zenodo dataset declares CC BY 4.0; the required attribution, license and source record are included in the data image.",
+  "source": {
+    "id": "pace-2019-vc-exact-public-v2-tar-bz2",
+    "url": "https://pacechallenge.org/files/pace2019-vc-exact-public-v2.tar.bz2",
+    "bytes": 10695845,
+    "sha256": "c78177cb5b2f7468bc652bd6e082f002495b26ba220bdc8eee9993ac6ff834c6"
+  },
+  "archive_format": "tar.bz2",
+  "generator_paths": [
+    "src/tcsexam/vc_pace2019.py"
+  ],
+  "selection": {
+    "source_root": "public",
+    "output_directory": "app/instances",
+    "first_instance": 1,
+    "last_instance": 199,
+    "instance_step": 2,
+    "instance_count": 100
+  },
+  "compression": {
+    "format": "xz",
+    "check": "crc64",
+    "arguments": [
+      "--format=xz",
+      "--stdout",
+      "--check=crc64"
+    ],
+    "preset": 9,
+    "preset_overrides": {},
+    "tool": {
+      "version": "5.2.5",
+      "archive_root": "xz-5.2.5",
+      "source": {
+        "id": "xz-utils-5.2.5-tar-gz",
+        "url": "https://tukaani.org/xz/xz-5.2.5.tar.gz",
+        "bytes": 1791345,
+        "sha256": "f6f4910fd033078738bd82bfba4f49219d03b17eb0794eb91efbae419f4aba10"
+      },
+      "configure": [
+        "--disable-shared",
+        "--enable-static",
+        "--disable-nls"
+      ]
+    }
+  },
+  "build": {
+    "builder_image": "ubuntu:22.04@sha256:0a9887931b0e38af2e3487ed39e29436b0535c4f3f52e57745baaf79d1898956",
+    "cwd": ".",
+    "timeout_sec": 3600,
+    "download_timeout_sec": 300
+  },
+  "license_files": [
+    {
+      "path": "docs/licenses/third-party/PACE2019-VC-NOTICE.txt",
+      "bytes": 2730,
+      "sha256": "c02b5c550d669decf2712bc390a358f00aa1ca182b7eb67f1d830176c30a7f62"
+    },
+    {
+      "path": "docs/licenses/CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    }
+  ]
+}

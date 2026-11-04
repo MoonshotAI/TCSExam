@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-fourier-entropy-influence"
+version = "0.1.0"
+description = "Prove or refute the Fourier Entropy-Influence conjecture (FEI: there is a universal constant C such that every Boolean function f:{±1}^n -> {±1} has Fourier entropy H(f^2) <= C * I(f), I the total influence) in Lean 4 (machine-verified). Open problem: no ground truth; the Lean kernel is the judge; no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "analysis-of-boolean-functions", "fourier-analysis", "entropy", "influence", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-fourier-entropy-influence"
+candidate_id = "cand-fourier-entropy-influence"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open conjecture (raised by Friedgut-Kalai 1996, standardized by O'Donnell-Wright-Zhou ICALP 2011; best general bound H <= O(I + sum_k I_k log(1/I_k)) by Xiao Han 2024, Combinatorica 45(1)). Full score needs a kernel-verified proof or disproof; there is no partial credit."
+source_paper = "E. Friedgut, G. Kalai, Every monotone graph property has a sharp threshold, Proc. Amer. Math. Soc. 124(10):2993-3002, 1996 (first raised); R. O'Donnell, J. Wright, Y. Zhou, The Fourier Entropy-Influence Conjecture for certain classes of Boolean functions, ICALP 2011 (standardized form). Background survey: learning-theory-boolean-testing.md (historical report not included in this package) (short name fourier-entropy-influence)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-fourier-entropy-influence-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

@@ -1,0 +1,50 @@
+{
+  "author": {
+    "email": "luke.edwards05@gmail.com",
+    "name": "Luke Edwards",
+    "url": "https://lukeed.com"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": ">=6"
+    },
+    "integrity": "sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz",
+    "version": "3.2.0"
+  },
+  "lock_path": "node_modules/escalade",
+  "name": "escalade",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1104,
+      "installed_file": "notices/original/package/license",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/license",
+      "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97",
+      "text_file": "image-notices/9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 4483,
+    "installed_in_image": false,
+    "integrity": "sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "ba2755afc0e6c6705326711fd218ebe107a527eccbd6485155fde98ed000bee7"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.2.0"
+}

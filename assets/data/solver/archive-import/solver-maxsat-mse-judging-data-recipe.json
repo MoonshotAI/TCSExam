@@ -1,0 +1,33 @@
+{
+  "format": "fixed_data_archive",
+  "archive_format": "tar+gzip",
+  "task_id": "maxsat-mse",
+  "data_split": "hidden",
+  "content_version": "original-judging211-260912-v1",
+  "source": {
+    "id": "solver-maxsat-mse-judging211-260912-fixed-archive",
+    "url": null,
+    "bytes": 8333698883,
+    "sha256": "31bb63d866b10df1dfe5c1b2c65cf1655434d56bab5635f183a6c55a16cff012"
+  },
+  "manifest_sha256": "ac00850349c32f7d853802c0a6e0b331615523b8b458eab9948f7ce419d719e1",
+  "generator_paths": [
+    "src/tcsexam/fixed_data_archive.py",
+    "src/tcsexam/solver_data_recipes.py",
+    "assets/data/solver/solver-maxsat-mse-judging-data-recipe.json",
+    "docs/licenses/third-party/maxsat-mse-original211-source.json"
+  ],
+  "description": "Explicit exact original211 input-only archive. Canonical98 is a separate historical version, never a fallback.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "public_pin": null,
+  "public_acquisition_verified": false,
+  "new_distribution_authorization": false,
+  "excluded": [
+    "answers",
+    "logs",
+    "credentials",
+    "undeclared files"
+  ],
+  "files_manifest": "assets/data/solver/maxsat-mse/original211-files.json"
+}

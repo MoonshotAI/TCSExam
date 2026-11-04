@@ -1,0 +1,11 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "scp-orlib",
+  "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/",
+  "license_notice": "docs/licenses/third-party/OR-Library-MIT.txt",
+  "scope": "Exactly 48 public and 26 transformed hidden input files. No other original instance or answer is copied.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "OR-Library MIT notice retained. No new image upload is authorized by this record.",
+  "integrity_policy": "Use the declared official source URLs or explicitly supplied identical source files; verify source and output hashes from the selected recipe. Network failures must not select an undeclared cache or alternate instance set."
+}

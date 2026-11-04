@@ -1,0 +1,75 @@
+TCSExam
+Copyright 2026 TCSExam contributors
+
+Project-authored code is licensed under the Apache License, Version 2.0.
+Project-authored documentation is licensed under CC BY 4.0.
+These grants apply only to material the project contributors have the
+right to license. Third-party components retain their original terms.
+See docs/licenses/README.md and docs/licenses/THIRD_PARTY_NOTICES.md.
+
+Third-party notices include:
+This product includes software developed by the Apache Software Foundation
+(http://www.apache.org/).
+This product includes software developed by the DOM4J Project
+(http://www.dom4j.org/).
+
+Component-specific notices, license texts, and unresolved distribution
+conditions are documented in docs/licenses/THIRD_PARTY_NOTICES.md and docs/licenses/third-party/.
+
+qrp2rup source route: Tomáš Peitl; author software artifact by Tomáš Peitl
+and Leroy Chew, https://doi.org/10.5281/zenodo.20203771 (2026-05-15), CC BY 4.0.
+Changes: optional static-build flags and three spelling corrections.
+See docs/licenses/third-party/qrp2rup-current-license-source.json.
+
+Record graph: Jan Goedgebeur, Jorik Jooken, Gwenaël Joret and Tibo Van den Eede.
+Source: AGT-Kulak/searchMaxSizeMinGirth, f6c80b4aa75236b0d4e6ff4f11f197621080f180.
+The graph and translated encoding retain GPL-3.0; see the component record
+and source-material list in docs/licenses/third-party/.
+
+Selected QBF BMC data: University of Toronto, copyright 2007.
+The original permission and disclaimer are preserved in
+docs/licenses/third-party/QBF-BMC-Toronto-research.txt.
+
+Qute: Friedrich Slivovsky and Tomáš Peitl; project MIT notice retained.
+Actual source: 441ff50a2d7bf161b46edc7325463224670b4c8c (2020).
+MIT notice added upstream at 67c5e54e96eb2ba7aedc18186d5ae62230c4caf8 (2022).
+Recommended project-license scope and historical limitation are recorded in
+docs/licenses/third-party/qute-version-comparison.json; this is not a separate
+author confirmation concerning that historical snapshot.
+
+QBF data distribution source: Mark Peyrer, Maximilian Heisinger and
+Martina Seidl, ParaProofa artifact v1 (2026),
+https://doi.org/10.5281/zenodo.18832723. Dataset record: CC BY 4.0.
+Original family contributors and the Toronto research exception remain
+credited separately. The 57 transformed inputs use block-preserving
+variable bijections and literal/clause reordering; comment headers were
+removed and their notices must accompany the distributed data.
+See docs/licenses/third-party/QBF-DATA-NOTICE.txt and the full source-chain record.
+
+Image component notices, exact source locations and additional dependency
+notices are recorded in docs/licenses/third-party/image-license-inventory.json,
+system-license-materials.json and proofwidgets-npm-license-materials.json.
+
+ProofWidgets includes Graphviz 15.0.0 (EPL-2.0) through the Apache-2.0
+@hpcc-js/wasm wrapper. Retain the separate EPL agreement, exact Program
+source location and wrapper build/modification records. Expat, Emscripten
+runtimes and Penrose optimizer dependencies retain their original notices.
+See docs/licenses/third-party/proofwidgets-embedded-components.json.
+
+Documentation license text: docs/licenses/CC-BY-4.0.txt.
+Documentation attribution instructions: docs/licenses/documentation.txt.
+
+Full-task additions are documented in docs/licenses/full-review.md and
+docs/licenses/third-party/full-review.json. They include ScheduleOpt JSPLIB
+data (CC BY-SA 4.0), Janez Konc's modified MCQD (GPL-3.0-or-later),
+Samuel Schlesinger's circuit definitions and Jeroen Zuiddam's tensor-rank
+definitions (Apache-2.0), and Green's sorting network via Bert Dobbelaere's
+SorterHunter data (MIT). Each component keeps its own terms and credits.
+
+PACE 2019 vertex-cover data: M. Ayaz Dzulfikar, Johannes K. Fichte,
+Markus Hecher; https://doi.org/10.5281/zenodo.3368306, CC BY 4.0.
+MaxSAT Evaluation 2026 data and results: Dieter Vandesande, Christoph Jabs,
+Jeremias Berg, Johannes Fichte, George Katsirelos, Ruben Martins,
+André Schidler, Dominik Schreiber; https://doi.org/10.5281/zenodo.21358014,
+CC BY 4.0. Individual software components keep their own licenses.
+Preserve original family credits and notices describing transformations.

@@ -1,0 +1,40 @@
+{
+ "instances": {
+  "long_hint01.xml": {
+   "B": 88,
+   "K": 34
+  },
+  "long_hint02.xml": {
+   "B": 68,
+   "K": 20
+  },
+  "long_hint03.xml": {
+   "B": 259,
+   "K": 70
+  },
+  "medium_hint01.xml": {
+   "B": 90,
+   "K": 39
+  },
+  "medium_hint02.xml": {
+   "B": 229,
+   "K": 93
+  },
+  "medium_hint03.xml": {
+   "B": 348,
+   "K": 136
+  },
+  "sprint_hint01.xml": {
+   "B": 130,
+   "K": 76
+  },
+  "sprint_hint02.xml": {
+   "B": 77,
+   "K": 43
+  },
+  "sprint_hint03.xml": {
+   "B": 121,
+   "K": 50
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260920",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/ahc058-atcoder/PROVENANCE.md §B/K derivation: measured and ratcheted using the project's own beam/SA solver.",
+   "tier": "self-measured"
+  }
+ },
+ "family": "ahc058-hierarchical-production",
+ "id": "ahc058-atcoder",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-ahc058-judge-v9"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "AHC_INSTANCE_SECONDS",
+  "n_hidden": 45,
+  "n_public": 105,
+  "per_instance_seconds": 2,
+  "shard_cores": 4,
+  "shard_mem_gb": 8,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "max",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "AtCoder Heuristic Contest 058",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "low",
+  "transform": {
+   "k_preserving": true,
+   "type": "vertex permutation (dependency graph)"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "The 70/30 split is frozen (tests/split.json; 150-item pool → 105 public (100 official + 5 generated) and 45 hidden (all from the generated family, which is the only family covered by K anchors)). The 45 hidden instances were structure-preservingly transformed by permuting machine columns into tNN.txt. B is a placeholder from before transformation and awaits batch remeasurement (tests/calibration/measure-manifest.json). The form1 judging reference is separate in tests/reference-hidden.json; tests/reference.json retains 50 generated keys for rendering async anchors."
+ },
+ "subdomain": "games-puzzles",
+ "title": "Hierarchical production"
+}

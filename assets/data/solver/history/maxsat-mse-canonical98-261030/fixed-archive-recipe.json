@@ -1,0 +1,29 @@
+{
+  "format": "fixed_data_archive",
+  "archive_format": "tar+gzip",
+  "task_id": "maxsat-mse",
+  "data_split": "hidden",
+  "source": {
+    "id": "solver-maxsat-mse-judging-data-fixed-archive",
+    "url": null,
+    "bytes": 109677474,
+    "sha256": "a7ab00efc8d2bab922b914ac1613c0d6c7a9d7d51bc253255ed53a96b92e1e44"
+  },
+  "manifest_sha256": "6b05630fc35b918aaf60c2c2c60661b0eb1777aecd81fcac34bf5abaa6ad5f89",
+  "generator_paths": [
+    "src/tcsexam/fixed_data_archive.py"
+  ],
+  "description": "Explicit exact input-only archive import. Preserve every frozen path, byte and mode; only manifest-declared data files are accepted.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "public_pin": null,
+  "public_acquisition_verified": false,
+  "new_distribution_authorization": false,
+  "excluded": [
+    "answers",
+    "logs",
+    "credentials",
+    "neither",
+    "undeclared files"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/h01.dzn",
+      "source_path": "tasks/solver/online/celar-rlfap/tests/instances/h01.dzn",
+      "git_blob": "5f447bb4f43b270145ee506b50e816bcdb2fa088",
+      "bytes": 1622,
+      "sha256": "786635235362b1cd5ab8c03a13c149c82e845ffbe37ff18efd436d9c947c9a3b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/h02.dzn",
+      "source_path": "tasks/solver/online/celar-rlfap/tests/instances/h02.dzn",
+      "git_blob": "19b66e420498d2db984bb6be62657b4ec06ed29f",
+      "bytes": 30365,
+      "sha256": "18d6e3db3508d0efa28c6fd2a01cfaa34e5a843341cf2c65e9c41a4c15a23ada",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/h03.dzn",
+      "source_path": "tasks/solver/online/celar-rlfap/tests/instances/h03.dzn",
+      "git_blob": "62a7e4a94ae0a2fc78889ee90e82b4b2df4ad5d7",
+      "bytes": 2582,
+      "sha256": "2877dadc8053362422fd18ceef2dfebec24201754db8327168fa998e7cab1153",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/h04.dzn",
+      "source_path": "tasks/solver/online/celar-rlfap/tests/instances/h04.dzn",
+      "git_blob": "aeb706a0b8275e607cfc545261560d6f33418cf0",
+      "bytes": 2582,
+      "sha256": "afbf79e2157f487b7eea6bb6513ac62e7e367d7efe288d8cc65fcebff4ffa2af",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/h05.dzn",
+      "source_path": "tasks/solver/online/celar-rlfap/tests/instances/h05.dzn",
+      "git_blob": "c4304a6889e9cabe904ab79f3d065a2dc849c1c2",
+      "bytes": 2022,
+      "sha256": "ac8b281a6f10eea88bc4339ee2895b9dcfc455699af0f3dd8e29459b9b30a504",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/h06.dzn",
+      "source_path": "tasks/solver/online/celar-rlfap/tests/instances/h06.dzn",
+      "git_blob": "6ecff54987574119f688b03f9edab0bb2a4178fe",
+      "bytes": 2582,
+      "sha256": "f95f0f1e44a4d4c6346f88f3fd087fa54fc6e8721723b4f2d2fb84c0f55431ad",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/h07.dzn",
+      "source_path": "tasks/solver/online/celar-rlfap/tests/instances/h07.dzn",
+      "git_blob": "a23902cb74309eb08f3c54d2b5befbc1485135ec",
+      "bytes": 18278,
+      "sha256": "8a4999bc239332302795912cd724f95323bddea01e57c9ad581d214fda8193f8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/h08.dzn",
+      "source_path": "tasks/solver/online/celar-rlfap/tests/instances/h08.dzn",
+      "git_blob": "88883dfccd3e0c4805ad0d98449a38742ad899ca",
+      "bytes": 79746,
+      "sha256": "f1f0762e8422df767f5d21538275b5dcf34c4a57968068085ddbedd60ab98144",
+      "mode": "0644"
+    }
+  ]
+}

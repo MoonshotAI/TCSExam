@@ -1,0 +1,32 @@
+{
+  "task": "tasks/solver/online/coloring-dimacs",
+  "manifest": "assets/environments/solver/coloring-dimacs/public-image.json",
+  "payload_allowlist": {
+    "roots": {
+      "/app": 143,
+      "/public-instances": 132,
+      "/tests-public": 2,
+      "/judge": 2,
+      "/opt/coloring": 2
+    },
+    "total_regular_files": 281,
+    "public_practice_answers": [
+      "/app/solutions/DSJC250.5.col.sol",
+      "/app/solutions/mug88_1.col.sol",
+      "/app/solutions/myciel6.col.sol",
+      "/app/solutions/queen8_8.col.sol",
+      "/app/solutions/r250.5.col.sol"
+    ],
+    "public_solution_placeholders": []
+  },
+  "distribution": "local_prepare",
+  "license_review": {
+    "system_dependencies_and_third_party_data_reviewed_for_public_distribution": false,
+    "required_before_any_upload": true
+  },
+  "limitations": [
+    "Content and runtime acceptance do not establish public redistribution permission.",
+    "The OCI artifact is retained locally for further license review; no public image address is assigned and no upload is authorized."
+  ],
+  "scope": "Public self-test payload and distribution requirements. Build the declared public-only product; hidden judging inputs must not enter this image."
+}

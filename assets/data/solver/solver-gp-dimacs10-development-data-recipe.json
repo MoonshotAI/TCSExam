@@ -1,0 +1,364 @@
+{
+  "format": "official_gp_generator",
+  "description": "Exact frozen original public or saved-permutation hidden DIMACS10 inputs. Official Walshaw bz2 inputs plus original project C++ and Delaunay generators, frozen seeds and full hidden vertex maps. No partition/answer or score inputs.",
+  "sources": [
+    {
+      "id": "numpy-1.26.4-cp310-manylinux-x86_64",
+      "url": "https://files.pythonhosted.org/packages/4b/d7/ecf66c1cd12dc28b4040b15ab4d17b773b87fa9d29ca16125de01adb36cd/numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "filename": "numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 18240889,
+      "sha256": "ffa75af20b44f8dba823498024771d5ac50620e6915abac414251bd971b4529f",
+      "role": "python_wheel"
+    },
+    {
+      "id": "scipy-1.11.4-cp310-manylinux-x86_64",
+      "url": "https://files.pythonhosted.org/packages/e0/9e/80e2205d138960a49caea391f3710600895dd8292b6868dc9aff7aa593f9/scipy-1.11.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "filename": "scipy-1.11.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 36442040,
+      "sha256": "933baf588daa8dc9a92c20a0be32f56d43faf3d1a60ab11b3f08c356430f6e56",
+      "role": "python_wheel"
+    },
+    {
+      "id": "dimacs10-3elt-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/3elt.graph.bz2",
+      "role": "official_graph",
+      "bytes": 41604,
+      "sha256": "0c356f0a2a527bbb5aa9d41cdfc1d5b5ad0cddd2ffa8383560245d8494d37d32"
+    },
+    {
+      "id": "dimacs10-add20-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/add20.graph.bz2",
+      "role": "official_graph",
+      "bytes": 16810,
+      "sha256": "48b84b05557ad7ae6b62a70588919500098a230d061cf141a939614a810c75c8"
+    },
+    {
+      "id": "dimacs10-add32-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/add32.graph.bz2",
+      "role": "official_graph",
+      "bytes": 29216,
+      "sha256": "f5c57a8c733259a4ffbbe39de20d8ae173a370df675c9ec8ff9b2cff5eb5fc46"
+    },
+    {
+      "id": "dimacs10-bcsstk31-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/bcsstk31.graph.bz2",
+      "role": "official_graph",
+      "bytes": 445445,
+      "sha256": "4d9616b33056daab8336a0f984459a0905995496573b686f0b60aa22f08cce59"
+    },
+    {
+      "id": "dimacs10-bcsstk33-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/bcsstk33.graph.bz2",
+      "role": "official_graph",
+      "bytes": 125190,
+      "sha256": "16255ceff975154179ec88bbff9fd64641cb3413b6ed548e16fe007276e446b2"
+    },
+    {
+      "id": "dimacs10-cs4-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/cs4.graph.bz2",
+      "role": "official_graph",
+      "bytes": 188519,
+      "sha256": "70f20fbafca6621c24cdfec49b2d717cdcb637fbb1a4d7215fcf7be7f21d82a9"
+    },
+    {
+      "id": "dimacs10-cti-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/cti.graph.bz2",
+      "role": "official_graph",
+      "bytes": 159089,
+      "sha256": "902fda5f55b91c0d15fcd3c4566227c2f0b04593e892d1410e94e03382315faf"
+    },
+    {
+      "id": "dimacs10-fe_ocean-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/fe_ocean.graph.bz2",
+      "role": "official_graph",
+      "bytes": 1552056,
+      "sha256": "2eaada55e5e939221e4c2c3a698ef230c820da0f72c3cebba4a1ea0b133c7893"
+    },
+    {
+      "id": "dimacs10-fe_pwt-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/fe_pwt.graph.bz2",
+      "role": "official_graph",
+      "bytes": 446447,
+      "sha256": "5852b3726bcdb028a26c541ba9122d09f7f7b0fbc3f3ab41759cc2408f400da6"
+    },
+    {
+      "id": "dimacs10-fe_rotor-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/fe_rotor.graph.bz2",
+      "role": "official_graph",
+      "bytes": 2530485,
+      "sha256": "4cab2516b2517c448ac30bb90a8d0f14c2165023ab8e7afaf403ca35fedcb5fe"
+    },
+    {
+      "id": "dimacs10-fe_sphere-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/fe_sphere.graph.bz2",
+      "role": "official_graph",
+      "bytes": 167621,
+      "sha256": "95665261070aa965d648d204a4062ca85a88cad779348f9aef590e61213b6eb8"
+    },
+    {
+      "id": "dimacs10-m14b-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/m14b.graph.bz2",
+      "role": "official_graph",
+      "bytes": 6005846,
+      "sha256": "a93d6fe7083d7935fc631adc1866dc15fb75443c4c9847cfde3a5896673a8cd2"
+    },
+    {
+      "id": "dimacs10-memplus-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/memplus.graph.bz2",
+      "role": "official_graph",
+      "bytes": 144020,
+      "sha256": "01c5a980f0603672b275eb0e3f25e7b984768aef28b21d58d12b4dcddadc3867"
+    },
+    {
+      "id": "dimacs10-t60k-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/t60k.graph.bz2",
+      "role": "official_graph",
+      "bytes": 338774,
+      "sha256": "0c88d11d940d4ba83a70fafe07878232d0e7482c95cca1c2fd9398da4c5dddeb"
+    },
+    {
+      "id": "dimacs10-uk-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/uk.graph.bz2",
+      "role": "official_graph",
+      "bytes": 24563,
+      "sha256": "320d0e7cc014ccdec80927b92f4634de066acb67b678cff3b32ca430f3b614af"
+    },
+    {
+      "id": "dimacs10-wave-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/wave.graph.bz2",
+      "role": "official_graph",
+      "bytes": 3506329,
+      "sha256": "0d0b2bb6b970845993b8d234872e6ef7b7b74b29775fd67e8c039ab1df3001d0"
+    },
+    {
+      "id": "dimacs10-wing-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/wing.graph.bz2",
+      "role": "official_graph",
+      "bytes": 562765,
+      "sha256": "7040bd8e033f9d26913d706f12f333fb062ae1c076cd632b100d18c063de65ba"
+    },
+    {
+      "id": "dimacs10-wing_nodal-graph-bz2",
+      "url": "https://sites.cc.gatech.edu/dimacs10/archive/data/walshaw/wing_nodal.graph.bz2",
+      "role": "official_graph",
+      "bytes": 258563,
+      "sha256": "e55cee48fa3691e8a8d9c2b6cfdb7e7e0795c9eac30f66644c008df92e7e09d0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances-packed/3elt.graph.bz2",
+      "source_id": "dimacs10-3elt-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/add20.graph.bz2",
+      "source_id": "dimacs10-add20-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/add32.graph.bz2",
+      "source_id": "dimacs10-add32-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/bcsstk31.graph.bz2",
+      "source_id": "dimacs10-bcsstk31-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/bcsstk33.graph.bz2",
+      "source_id": "dimacs10-bcsstk33-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/cs4.graph.bz2",
+      "source_id": "dimacs10-cs4-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/cti.graph.bz2",
+      "source_id": "dimacs10-cti-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/delaunay100k-s12.graph.bz2",
+      "generator_key": "delaunay100k-s12.graph"
+    },
+    {
+      "path": "app/instances-packed/delaunay20k-p02.graph.bz2",
+      "generator_key": "delaunay20k-p02.graph"
+    },
+    {
+      "path": "app/instances-packed/delaunay30k-s11.graph.bz2",
+      "generator_key": "delaunay30k-s11.graph"
+    },
+    {
+      "path": "app/instances-packed/fe_ocean.graph.bz2",
+      "source_id": "dimacs10-fe_ocean-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/fe_pwt.graph.bz2",
+      "source_id": "dimacs10-fe_pwt-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/fe_rotor.graph.bz2",
+      "source_id": "dimacs10-fe_rotor-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/fe_sphere.graph.bz2",
+      "source_id": "dimacs10-fe_sphere-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/kron131k-ef16-s23.graph.bz2",
+      "generator_key": "kron131k-ef16-s23.graph"
+    },
+    {
+      "path": "app/instances-packed/kron16k-ef16-p03.graph.bz2",
+      "generator_key": "kron16k-ef16-p03.graph"
+    },
+    {
+      "path": "app/instances-packed/kron32k-ef16-s21.graph.bz2",
+      "generator_key": "kron32k-ef16-s21.graph"
+    },
+    {
+      "path": "app/instances-packed/m14b.graph.bz2",
+      "source_id": "dimacs10-m14b-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/memplus.graph.bz2",
+      "source_id": "dimacs10-memplus-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/rgg12k-d12-p01.graph.bz2",
+      "generator_key": "rgg12k-d12-p01.graph"
+    },
+    {
+      "path": "app/instances-packed/rgg150k-d20-s03.graph.bz2",
+      "generator_key": "rgg150k-d20-s03.graph"
+    },
+    {
+      "path": "app/instances-packed/rgg25k-d10-s01.graph.bz2",
+      "generator_key": "rgg25k-d10-s01.graph"
+    },
+    {
+      "path": "app/instances-packed/t60k.graph.bz2",
+      "source_id": "dimacs10-t60k-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/uk.graph.bz2",
+      "source_id": "dimacs10-uk-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/wave.graph.bz2",
+      "source_id": "dimacs10-wave-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/wing.graph.bz2",
+      "source_id": "dimacs10-wing-graph-bz2"
+    },
+    {
+      "path": "app/instances-packed/wing_nodal.graph.bz2",
+      "source_id": "dimacs10-wing_nodal-graph-bz2"
+    }
+  ],
+  "generated": {
+    "delaunay100k-s12.graph": {
+      "kind": "delaunay",
+      "arguments": [
+        2026081512,
+        100000
+      ]
+    },
+    "delaunay20k-p02.graph": {
+      "kind": "delaunay",
+      "arguments": [
+        2026081602,
+        20000
+      ]
+    },
+    "delaunay30k-s11.graph": {
+      "kind": "delaunay",
+      "arguments": [
+        2026081511,
+        30000
+      ]
+    },
+    "kron131k-ef16-s23.graph": {
+      "kind": "kron",
+      "arguments": [
+        2026081523,
+        17,
+        16
+      ]
+    },
+    "kron16k-ef16-p03.graph": {
+      "kind": "kron",
+      "arguments": [
+        2026081603,
+        14,
+        16
+      ]
+    },
+    "kron32k-ef16-s21.graph": {
+      "kind": "kron",
+      "arguments": [
+        2026081521,
+        15,
+        16
+      ]
+    },
+    "rgg12k-d12-p01.graph": {
+      "kind": "rgg",
+      "arguments": [
+        2026081601,
+        12000,
+        12
+      ]
+    },
+    "rgg150k-d20-s03.graph": {
+      "kind": "rgg",
+      "arguments": [
+        2026081503,
+        150000,
+        20
+      ]
+    },
+    "rgg25k-d10-s01.graph": {
+      "kind": "rgg",
+      "arguments": [
+        2026081501,
+        25000,
+        10
+      ]
+    }
+  },
+  "parameters_file": null,
+  "implementation_files": {
+    "assets/data/solver/gp-dimacs10/gen.cpp": {
+      "destination": "gen.cpp",
+      "sha256": "25458346d7a40cd60486f227255bd9dbe826948130ef420deffcadcb0d772057"
+    },
+    "assets/data/solver/gp-dimacs10/gen_delaunay.py": {
+      "destination": "gen_delaunay.py",
+      "sha256": "e1ed4273b364c67a728f40fb6762d4a6cfb29cc69200b8208a30a24705b02101"
+    },
+    "assets/data/solver/gp-dimacs10/worker.py": {
+      "destination": "worker.py",
+      "sha256": "9775527992f62cdb361209531d0ea847196778be3450aeba61a9ebe4c4a41970"
+    },
+    "assets/data/solver/gp-dimacs10/transform.py": {
+      "destination": "transform.py",
+      "sha256": "30b133a4bcf433a4edc8f0bc867329d1d2307979c352895043e07e4589ce30ca"
+    }
+  },
+  "generator_paths": [
+    "src/tcsexam/gp_data.py",
+    "assets/data/solver/gp-dimacs10/gen.cpp",
+    "assets/data/solver/gp-dimacs10/gen_delaunay.py",
+    "assets/data/solver/gp-dimacs10/worker.py",
+    "assets/data/solver/gp-dimacs10/transform.py"
+  ],
+  "build": {
+    "builder_image": "ubuntu:22.04@sha256:0a9887931b0e38af2e3487ed39e29436b0535c4f3f52e57745baaf79d1898956",
+    "cwd": ".",
+    "timeout_sec": 3600,
+    "download_timeout_sec": 300
+  },
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Original Walshaw/DIMACS data terms remain unresolved; project-generated portion is separately identified. No public upload authorization asserted."
+}

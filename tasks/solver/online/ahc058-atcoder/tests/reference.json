@@ -1,0 +1,408 @@
+{
+ "instances": {
+  "h00.txt": {
+   "B": 1670797,
+   "K": 5203910,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5811287
+  },
+  "h01.txt": {
+   "B": 1772128,
+   "K": 5111586,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5648224
+  },
+  "h02.txt": {
+   "B": 1620747,
+   "K": 4754862,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5047719
+  },
+  "h03.txt": {
+   "B": 1719456,
+   "K": 5134834,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5467074
+  },
+  "h04.txt": {
+   "B": 1826849,
+   "K": 5395098,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5557149
+  },
+  "h05.txt": {
+   "B": 1686064,
+   "K": 5365615,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5692164
+  },
+  "h06.txt": {
+   "B": 1614848,
+   "K": 5201609,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5301461
+  },
+  "h07.txt": {
+   "B": 1562659,
+   "K": 4998019,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5377771
+  },
+  "h08.txt": {
+   "B": 1770720,
+   "K": 5318030,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5887979
+  },
+  "h09.txt": {
+   "B": 1756696,
+   "K": 5117558,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5675358
+  },
+  "h10.txt": {
+   "B": 1801258,
+   "K": 5334432,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5535336
+  },
+  "h11.txt": {
+   "B": 1671877,
+   "K": 5178487,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5454142
+  },
+  "h12.txt": {
+   "B": 1715780,
+   "K": 5156878,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5468374
+  },
+  "h13.txt": {
+   "B": 1662381,
+   "K": 4786021,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 4994654
+  },
+  "h14.txt": {
+   "B": 1699700,
+   "K": 5139785,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5299081
+  },
+  "h15.txt": {
+   "B": 1679030,
+   "K": 5151612,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5261017
+  },
+  "h16.txt": {
+   "B": 1635633,
+   "K": 5152735,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5272898
+  },
+  "h17.txt": {
+   "B": 1763837,
+   "K": 5150850,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5644231
+  },
+  "h18.txt": {
+   "B": 1736449,
+   "K": 5268832,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5541638
+  },
+  "h19.txt": {
+   "B": 1718522,
+   "K": 5130248,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5417954
+  },
+  "h20.txt": {
+   "B": 1797922,
+   "K": 5410768,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5503449
+  },
+  "h21.txt": {
+   "B": 1729633,
+   "K": 5480591,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5629998
+  },
+  "h22.txt": {
+   "B": 1676571,
+   "K": 4844068,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5393487
+  },
+  "h23.txt": {
+   "B": 1671403,
+   "K": 5115930,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5226112
+  },
+  "h24.txt": {
+   "B": 1604350,
+   "K": 5173435,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5598914
+  },
+  "h25.txt": {
+   "B": 1719804,
+   "K": 5106045,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5241316
+  },
+  "h26.txt": {
+   "B": 1700519,
+   "K": 5209749,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5647715
+  },
+  "h27.txt": {
+   "B": 1679871,
+   "K": 5175552,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5631933
+  },
+  "h28.txt": {
+   "B": 1722544,
+   "K": 5299260,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5579007
+  },
+  "h29.txt": {
+   "B": 1674114,
+   "K": 4964569,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5138960
+  },
+  "h30.txt": {
+   "B": 1680684,
+   "K": 5090731,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5289551
+  },
+  "h31.txt": {
+   "B": 1710912,
+   "K": 5214011,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5309540
+  },
+  "h32.txt": {
+   "B": 1702501,
+   "K": 5127222,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5244684
+  },
+  "h33.txt": {
+   "B": 1702932,
+   "K": 5053757,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5171315
+  },
+  "h34.txt": {
+   "B": 1690173,
+   "K": 5066197,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5231270
+  },
+  "h35.txt": {
+   "B": 1681417,
+   "K": 5028080,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5640680
+  },
+  "h36.txt": {
+   "B": 1723528,
+   "K": 5243821,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5363876
+  },
+  "h37.txt": {
+   "B": 1733010,
+   "K": 5226130,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5314905
+  },
+  "h38.txt": {
+   "B": 1707732,
+   "K": 5341047,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5986017
+  },
+  "h39.txt": {
+   "B": 1609449,
+   "K": 4987180,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5185088
+  },
+  "h40.txt": {
+   "B": 1744075,
+   "K": 5146709,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5477694
+  },
+  "h41.txt": {
+   "B": 1700043,
+   "K": 5152143,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5801659
+  },
+  "h42.txt": {
+   "B": 1742577,
+   "K": 5164331,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5528475
+  },
+  "h43.txt": {
+   "B": 1715278,
+   "K": 5368300,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5438593
+  },
+  "h44.txt": {
+   "B": 1744777,
+   "K": 5128263,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5217961
+  },
+  "h45.txt": {
+   "B": 1722179,
+   "K": 5089055,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5603669
+  },
+  "h46.txt": {
+   "B": 1684418,
+   "K": 4938321,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5402411
+  },
+  "h47.txt": {
+   "B": 1783800,
+   "K": 5263511,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5604319
+  },
+  "h48.txt": {
+   "B": 1564036,
+   "K": 5239382,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5503539
+  },
+  "h49.txt": {
+   "B": 1716166,
+   "K": 5103783,
+   "best_config": "pilot44-kimi-k3-replay@2s",
+   "k_is_proven_optimal": false,
+   "k_provenance": "official-ahc058-2s-per-test;pilot44-model(kimi-k3,judging-pipeline measurement)@AHC_TIME_POOL=2-1core-pinned,isolated-cpu-4c8g,check_ahc-ok",
+   "K_old_pool120s": 5500065
+  }
+ },
+ "meta": {
+  "per_instance_seconds": 2,
+  "budget_note": "Aligned with official AHC058: 2 s per test case, per-instance hard limit, instances evaluated in parallel."
+ }
+}

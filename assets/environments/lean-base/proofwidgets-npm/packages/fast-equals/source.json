@@ -1,0 +1,46 @@
+{
+  "author": "tony_quetano@planttheidea.com",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": ">=6.0.0"
+    },
+    "integrity": "sha512-jt2DW/aNFNwke7AUd+Z+e6pz39KO5rzdbbFCg2sGafS4mk13MI7Z8O5z9cADNn5lhGODIgLwug6TZO2ctf7kcw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/fast-equals/-/fast-equals-5.4.0.tgz",
+    "version": "5.4.0"
+  },
+  "lock_path": "node_modules/fast-equals",
+  "name": "fast-equals",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1069,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "c0af1c3e74a891b408dc4365897482cc8c284365808e3837c56ea3c337ed7a2c",
+      "text_file": "image-notices/c0af1c3e74a891b408dc4365897482cc8c284365808e3837c56ea3c337ed7a2c.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 54120,
+    "installed_in_image": false,
+    "integrity": "sha512-jt2DW/aNFNwke7AUd+Z+e6pz39KO5rzdbbFCg2sGafS4mk13MI7Z8O5z9cADNn5lhGODIgLwug6TZO2ctf7kcw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/fast-equals/-/fast-equals-5.4.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "e6dd40093b2c5d45facfbc9d7dc67358df270cadf4b23c812c23174927812ec8"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "5.4.0"
+}

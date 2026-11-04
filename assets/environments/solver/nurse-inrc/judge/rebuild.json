@@ -1,0 +1,41 @@
+{
+  "task": "tasks/solver/online/nurse-inrc",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/nurse-inrc/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:2413bf19dc882041e06cc7671ac597acf2cedd1103d4eba88d260b5171f9fac3"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/nurse-inrc/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "7f8712676006ca7bb2025111d0c869246df061a8ed37036452e33c55552b0d4d"
+    },
+    {
+      "source": "tasks/solver/online/nurse-inrc/tests/scoring.py",
+      "target": "/opt/nurse/scoring.py",
+      "sha256": "d222152749b1330f9638b64ee9bc5d5e94547222dcc9c0896e5ba6a02470c555"
+    },
+    {
+      "source": "tasks/solver/online/nurse-inrc/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "e8fc06c6dec2308af99244bf7bcf17e91e369743191902ef7f5d416d8b229d5a"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": false,
+  "public_source_rebuild_verified": false,
+  "limitations": [
+    "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
+  ]
+}

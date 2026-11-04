@@ -1,0 +1,1354 @@
+{
+  "checked": "2026-10-13",
+  "source_commit": "585496274af5abb0849d0d47e135496b4688680b",
+  "source_url": "https://github.com/MQLib/MQLib/blob/585496274af5abb0849d0d47e135496b4688680b/data/instance_header_info.csv",
+  "scope": "150 selected instances matched to upstream metadata; image contents and generator reproducibility not checked",
+  "source_categories": {
+    "gset": 5,
+    "generated_random_graph": 64,
+    "stp_or_steiner_metadata": 57,
+    "ising": 6,
+    "other_named_source": 2,
+    "bqp": 6,
+    "berkeley_image_graph": 10
+  },
+  "rows": [
+    {
+      "instance": "G56.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [
+        "http://web.stanford.edu/~yyye/yyye/Gset/."
+      ],
+      "source_category": "gset",
+      "source_header_sha256": "bcea96ba249bb98a2285055d74f65ac79b638480a056ef109c3d5cdb4f77bb93"
+    },
+    {
+      "instance": "G64.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [
+        "http://web.stanford.edu/~yyye/yyye/Gset/."
+      ],
+      "source_category": "gset",
+      "source_header_sha256": "47c9e496c56ffbe8f32d3ebbe986582d7868245ec081f29b46efb0813afe4842"
+    },
+    {
+      "instance": "G65.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [
+        "http://web.stanford.edu/~yyye/yyye/Gset/."
+      ],
+      "source_category": "gset",
+      "source_header_sha256": "6513254de690914340be31b0376f933648293a8d4eb49a7914aa3fd872baa6f5"
+    },
+    {
+      "instance": "G67.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [
+        "http://web.stanford.edu/~yyye/yyye/Gset/."
+      ],
+      "source_category": "gset",
+      "source_header_sha256": "8e28ee0d9203dae8da1481b702b3b550eda922c922944b57846a9eeb8c748483"
+    },
+    {
+      "instance": "G77.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [
+        "http://web.stanford.edu/~yyye/yyye/Gset/."
+      ],
+      "source_category": "gset",
+      "source_header_sha256": "91cfe1c767bd8e8af48181c69fe14bec225ca566572b3e7d75eed3735c767d0d"
+    },
+    {
+      "instance": "culberson100.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "8cfb33504581fdf6fd035c28cb0e87744358586931014abe836332123534492b"
+    },
+    {
+      "instance": "culberson2.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "ad3eb2d0d2d3faa848629196a53f1e99feabc9198bb4bacd1a6316c7e64959a6"
+    },
+    {
+      "instance": "culberson40.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "b812a96127f34963149ad7198f563db23f1f40e3e7e0aa2f21d148106e51fe9a"
+    },
+    {
+      "instance": "culberson43.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "f46a69a1d600c2272cd6e87c7c60c8bcd0b18801a2abcd10f09bc545ca5dad76"
+    },
+    {
+      "instance": "culberson44.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "8e51e2b5f54863e4c606aca4946a1f7084e2d4a13b23b18b7481b3855600d2fb"
+    },
+    {
+      "instance": "culberson45.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "f7314e6fc8a4f22fd74d72eaecb2561da25b039235cf8c0f316e524f207039fb"
+    },
+    {
+      "instance": "culberson60.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "4516e9ecd81052164be3ac1e6e0d92e2d84f8b69300cf1e90574a8e966feb512"
+    },
+    {
+      "instance": "culberson67.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "cfdb01f99252d3b4aff350b474ee5a77c1466da0b99610c5bfa7ae9ad7646334"
+    },
+    {
+      "instance": "culberson85.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "fcdacdd767c2be9d755a38be65ab651fc8a0bd2a00f039982516fe817c016ca6"
+    },
+    {
+      "instance": "culberson86.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "1996fc75c00ec692b65da094c82bf571a489b0d9ac4133ac37a5df4d85e7c7a7"
+    },
+    {
+      "instance": "culberson88.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "b4fb6ef8bdae1c98eefd4cc8d11062cf78c7069d4b74b3e3becd9956c9824c21"
+    },
+    {
+      "instance": "culberson90.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "df8e2c320b56c1d9dce5badf7bc9c1171af260f543f7d87d04f334ab3742dc47"
+    },
+    {
+      "instance": "culberson94.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "3e90595211dea724e2c85ed2b31e2aa863fbf6ca767c2d8681d8d89a1d0de8e7"
+    },
+    {
+      "instance": "culberson97.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "4c8f7151a578d5c26b709f80d6db2f8591771fd76eddf7c2efa5001a70dcdbdc"
+    },
+    {
+      "instance": "culberson99.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "b5280e52f1e510d7317e5fa01d273a23fdd9c9ab0878a654e57215da0b1e53bc"
+    },
+    {
+      "instance": "g000052.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "2d1c8d9f1c4209afe2b41fe9fa0aeef364c8858a1cec9462d9e6099067148017",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000064.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "8be2395f117caa98a9cb835cdcd948d0b05e1af39aa507e746f5e6d971b847ea",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000071.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "9c9d8730125848100b8aed88af88da07bdf304a9af4c668b8687270b85a0b7ad"
+    },
+    {
+      "instance": "g000087.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "2835af17f51a3a39949c209801bc72b171ecc45fc056fdf34a155ddda0fbe5ad",
+      "previous_metadata_category": "other_named_source",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000107.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "bb15d738f4bdd31ee9b7395863bdcef6434e20d93df1ad185aee4635c169d17b",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000109.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "73e84795b80ad34afa9c86a5e4d4d1bb5e136e87eac273ab959f73a25b11feb3"
+    },
+    {
+      "instance": "g000113.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "548f5fca37fb459c47575fe62ed5263ea5d2cd5af40a0e5f1e7d584f26d5af4c"
+    },
+    {
+      "instance": "g000168.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "70e14293b34d5fc803a019161c3937ff7dbc39f4c3f5f37343b2a4df2f17bc46",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000219.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "21bf808744a0571e13ff05d10c1ebb4c5549636c6bade93f6cabf09f7ce36a77"
+    },
+    {
+      "instance": "g000230.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "f96ca075a4ca3460d1d5a6e18e4ba20d7e166247fe8476d8628101398947db93"
+    },
+    {
+      "instance": "g000262.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "aa1584db231f785525d100ab98c7add7638f7a52b286ea957207cb17ca820ba3",
+      "previous_metadata_category": "other_named_source",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000269.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "45bf94ef75e903b254c9f7250b4d4778b9c94d557ed326d3cf2fc53bae832ef2",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000378.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "ad8099113142f1263bdbb14f2895cb9f04e765b566f91e5beb9cf7ed945de83c",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000392.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "0012699fd81544b8c6aad8bdd5b930827c6d4f13daec76d92d48909dedb390e6"
+    },
+    {
+      "instance": "g000413.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "a2637a9a311dff44e4d3b943edad41bc2baa0947c2138ad5cd5bb80e9fc703bf"
+    },
+    {
+      "instance": "g000415.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "28e68446851906e5251b086b16ca7f82ccdbe0aa58219dfafadcb4618d1e6bf8",
+      "previous_metadata_category": "other_named_source",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000417.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "ising",
+      "source_header_sha256": "3c48a324e11ec51ffbcce6180250132c52c53b41d582e0d7621c225162e3146d"
+    },
+    {
+      "instance": "g000432.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "5de71d145f6435ed7bf2ac6e6aed35e15ebe054385c0f381421be002e33d594a"
+    },
+    {
+      "instance": "g000475.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "bca614bddc6b752c05cba67de94bc4651d1e0000676131cc351db578744a2c1c",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000481.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "ising",
+      "source_header_sha256": "74a733e12ac8dbebca523e485ca71fff96c1b03377eb2988c41f5199223d8ad8"
+    },
+    {
+      "instance": "g000546.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "4c44ad5e50ecb42c4eefe0200fdc1e6f8ca0621d6fd72fd93784ac8382b41116",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000563.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "88c2008b891d1a29a044f8c724b9a43fdd4ac42b2205eb1ca633a2bf80dc9d8b",
+      "previous_metadata_category": "other_named_source",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000580.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "17d1657ebe98a6c99aaa1b4bd74de511f54202e1fca278cf9e3eb710434395c6"
+    },
+    {
+      "instance": "g000670.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "5111604397dfb6d68fa630022b98cd3cfc7e50671ac0dbc7cf7a7ee03d709cf3"
+    },
+    {
+      "instance": "g000677.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "9defd69eccfab20407c449ab06740167553a28b42c6a32626a50284744844b82",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000682.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "471d53eefebecbbe18effbcb8e115c0d75880bb6a68f4e5d4f01cb97aa0944a5",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000752.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "25e3f48a767fb41be7f95d9864fa7e87800ce0fb2932eb169460f63b23d19aed",
+      "previous_metadata_category": "other_named_source",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000762.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "ising",
+      "source_header_sha256": "e587dab7cbb1a8473f95db584826107423eb225ab9f2eb4f09a1ef95b0c5d211"
+    },
+    {
+      "instance": "g000770.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "other_named_source",
+      "source_header_sha256": "0276fec540c37d3ecc6868f44e29cef5839a01c3bb29fc1361274d5da3a4b138"
+    },
+    {
+      "instance": "g000777.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "06c3e5295b7da909016d1ce48a7e49b8e0a4dce211f3a41f8d54daa039d9929c",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000794.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "9520365deaf2f362916461b06794c5063af89dd8ea0e13b804f12d389b545596",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000802.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "2f4f2dd686dfd63003db104c8a6997af9ec912794244bde1c2e96907609eed67"
+    },
+    {
+      "instance": "g000824.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "24704b67b5f87e6acd90c3f812f8ae610653820728e30f66487ba1419c57a5ae",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000908.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "7a4e3ac42495735ef143638fc40e4d212ebd520abf8229eec8d549c63a4d882d",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g000947.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "8e93d2b96d932288009d104d2d6437d237828eab7d74004afb0be0d9ac44bcce"
+    },
+    {
+      "instance": "g000949.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "other_named_source",
+      "source_header_sha256": "2401dbe9a98a8a4d2e9f68781e6ba03bc1d282040ce0e39e767579acd914f011"
+    },
+    {
+      "instance": "g000951.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "bed25218579d52c72b4a75ee5ef4826a835c0c6b72273aa1de7d2ffac38dfe12",
+      "previous_metadata_category": "other_named_source",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001083.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "38f688419d3eee490b2506ed1b267357dd876cef5fd9bb7fb151a60d02aae56d",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001097.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "ded32b3d710cf5cd1784ca840b327233c602c54b8b01493bf1721fb0128c1e11",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001127.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "a3d6a75eb4a675405063c915c8026e7a06549d58be861af930384f9af13a092d"
+    },
+    {
+      "instance": "g001146.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "6e1aa8a4111435804ad09c493b3aa7215df24af42c131f66e2f0de59af4c2310",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001162.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "28e598c1bda72e2cc2199da5b319bb29e1edc43431f2699d72b2fc179f89cd27",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001167.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "90a997d432799dead5030e15edc2f047ade5f72bd2f90d6ec6e92b3323def73e"
+    },
+    {
+      "instance": "g001190.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "9a2a106d1a17ca86b6992bac78b7983c75895a2598cabfd875aa5938e1bde085",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001215.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "bc2f8f8cf94de9545f117803cc959555fd1d56dccb2c0a943e00eb3f3dab4810",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001237.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "7186a46517c7285aa1fca0f56864588a924454f042e79eaa22a373d4f8cb3b31",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001270.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "2cd329ffd8943196370a7a8ceb1969114b96d7682ef1a19a4573e7b990cd22b3"
+    },
+    {
+      "instance": "g001275.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "e98e77390f3588e886f86b72e856d512d4947be606f7ffc3a7c1f72338c8583f",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001296.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "9e35b3f034136734d25637ee3d66cb4a907ac0c3d2d26aa521962fd62f9a8605"
+    },
+    {
+      "instance": "g001308.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "e9221480d4198900a57090bfb0665fa40876be45ec36e91a1fc5b4fc7bdb0d46",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001314.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "dcc33c5fdc6a46486045d173976fd1c2c7bfa40b9f9800cc0685571759b76810",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001349.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "2323d170405804bae81b18a9804e89fe1c4dbf1073c57d7f570de46ab2c53c4e",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001457.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "add0b4201582273775650ac8eb2c2c84e2d29aab5d00497cce85e895eb2c3760"
+    },
+    {
+      "instance": "g001469.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "846c17a393ae68443edf2810345ea2be677559c9cdd9e0294d39158955705702"
+    },
+    {
+      "instance": "g001506.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "ising",
+      "source_header_sha256": "89f4c7a676aa6eb88b66db504b063aa0df79987e77b3377e16b7e6c0a8b05358"
+    },
+    {
+      "instance": "g001535.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "c7e8db7b1d4fb9d3f8eec70cb470fe2ef748c2c45a554b687decf09a80571544"
+    },
+    {
+      "instance": "g001550.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "d7c3415ed6b7010672133b520ab6f1bde7d16f03f9aa5126fefca9c3e73aa649",
+      "previous_metadata_category": "other_named_source",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001590.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "d0c00bf5c1d347a1a859140f964cde66d2aa503aec5bdfb88eeb8fab63eaf528",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001618.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "7e3eea57c87ca82038c0a3cda6374ca1cd92bbd98716a9c2f1d3f38215f16ebc"
+    },
+    {
+      "instance": "g001633.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "c0bdef84abc26991865b05d497cff4887264c8e5c81889dbdcafff6e8e9c1c15"
+    },
+    {
+      "instance": "g001642.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [
+        "https://files.nyu.edu/jeb21/public/jeb/orlib/bqpinfo.html"
+      ],
+      "source_category": "bqp",
+      "source_header_sha256": "0d9c1f583306822bfdac70ddd67f3e45dc4f15c584f1b6421572ac87144b7b1b"
+    },
+    {
+      "instance": "g001662.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "1904e8481aa9b5e71cf4719f131af004e11638c15790cb57ccbd80ca41a2a6d4"
+    },
+    {
+      "instance": "g001671.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "a2d60db7eefcf901df60b90af77480daf026f688a0c83377879934f604bbfed1"
+    },
+    {
+      "instance": "g001679.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "6f66980b6c3d7141fb1b04271a4a96b6aa631828a3b3a4fd71369b06c8862bdb"
+    },
+    {
+      "instance": "g001716.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "ffafdde0562c196a0277cedd65f9ac0e166195916eb3c7711b8e71768c5372f2",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001789.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "22dfb8f91233501b74e5ea822a5b7b60fd26ca22a3c6ba7a7edf36cd5a0b59ba",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001844.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "65f1b09c5cde6c31382f643c029fb4a33cd978ea7e07a3b30a798eac295e0b29",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001857.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "3ea993a7bd611c24b071a3bca89058c18a8c551404dee78dd440ed1cd2fd2bba",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001886.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "6a96e0b0a68f17a8ae4b91ad7e0ad4d5938345a8cd5e92df7ab4df386ff21ab9",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001891.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "c49169d6bd5b823c6e635be512025969b4e11137bc897d59dab3fd068f4af4a5",
+      "previous_metadata_category": "other_named_source",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g001945.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "3db5a391aa9e40b515cecd5ffbf8964ff48d4a779025d76bde1f4918c32ff80e"
+    },
+    {
+      "instance": "g001983.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "564d771001a2e2fbedcc2087b400ebaebc80b4f16b40453c33b00c3490b3e6e4"
+    },
+    {
+      "instance": "g002032.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "84b532d48b1cec41c0e985d37307c6665e640a76b8cfd78b57014682790770ec"
+    },
+    {
+      "instance": "g002071.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "1a85d7d6af67091584f271e63bb2c3d85289d664840399dde63f4860c9fcc703",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002085.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "16c87f2aeb5ab23e73731c9b61d734a3effdf09d9821b597b46c1939ec0c8e3e"
+    },
+    {
+      "instance": "g002119.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "42e969bbd3406ca69c7dddbbb21b38ae7324b3808dae41e8d500c5a9924898c3"
+    },
+    {
+      "instance": "g002121.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "9822b88c905f4ede1440ddc01ba9508dd0fb10271f8691fed04017eadbbb8ff1",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002241.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [
+        "http://www.proin.ktu.lt/~gintaras/"
+      ],
+      "source_category": "bqp",
+      "source_header_sha256": "88cdff16932c6f1205a1a2641a0e259b0eed700d69b2f250fb634eaf603e1fe4"
+    },
+    {
+      "instance": "g002249.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "54b4fd08256c5f143bcd2ab40155e52aaf8bebc0afe9f2ba7153418c5f4778bd",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002269.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "fe24e8eb836ec533710cc2e34231be46b4acc95c92a589b8e1f3301b70b36cff",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002317.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "c35850ba4a307575e2e74f91d3b10ce980556f2e997b7dfddc74414dd418290a"
+    },
+    {
+      "instance": "g002322.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "ising",
+      "source_header_sha256": "ef603f6bfcd9996c4264e6bc5cc8a6cdcc9d363dd114ba8c25575644207de210"
+    },
+    {
+      "instance": "g002328.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "1fee54dc1487110a357aafc7773901c51375ad359b556b81b73c703b6e0e689d",
+      "previous_metadata_category": "other_named_source",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002374.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "5db2b750adfa150860478e8682537fcd3c4eede318156a51ae5534ae2b9cf936"
+    },
+    {
+      "instance": "g002377.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "41e1a1a80ac80c665fe82e6bc5651bbfe242aa6a90ab346409b354164f416d1a",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002422.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "f10142cd5986819d10ecc48f8ae476eeed0b671e5eaa7e3fe8441a0059e23cc3"
+    },
+    {
+      "instance": "g002440.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "36380150ea0ef5c692e8f5e8c18ba5b4a92665d2341f5e333dfaf0473b1147cb"
+    },
+    {
+      "instance": "g002441.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "99241b166a4270cc7700577bb480521c09606069631aef9d17bde2b47e195bc5"
+    },
+    {
+      "instance": "g002471.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "7cb2515b77b278a62d8dca1d120da6cc7c73220885b547f64066fe5835209338"
+    },
+    {
+      "instance": "g002479.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "4f0aeecf5664ca8447b39976ce90d6d2ef5b2dcbd08c12e70d66541c735ecfcb",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002512.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "a904be098ee1faf11eef8b7a3c2c921d62d5b418a1303e9cd1911773d5a0f4f6"
+    },
+    {
+      "instance": "g002530.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "b5d049dbec38c36835f6d52a466b0f03f6b56f1cfa9dae372e7b007c823e4153",
+      "previous_metadata_category": "other_named_source",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002545.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "f20e2f4257d3e578ddf4d1b7fff1f67192c92feb3b70095cafef381b6659bfc3",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002564.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [
+        "https://files.nyu.edu/jeb21/public/jeb/orlib/bqpinfo.html"
+      ],
+      "source_category": "bqp",
+      "source_header_sha256": "f5a4900bfd35481f4681303d408f26aa8b7703fab5aef95a860d07939eee6584"
+    },
+    {
+      "instance": "g002566.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "95b539f91cf2497638eb5da269b7f1d27418527957c621483663185c7ef2c6fa",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002631.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "ad7acbde801879dca4eab3c14551f4b0b174fe4058419d583f5c6b4548af6049",
+      "previous_metadata_category": "other_named_source",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002638.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "47424c8b51a0da9a23262bafb598960ef0ff38715830b39a7d7e69764da47f90"
+    },
+    {
+      "instance": "g002661.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "b23efea70675548b3ce2284c27289edef16afc17fdcdae0a7bc45181f9ef51de"
+    },
+    {
+      "instance": "g002681.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "c7d6f23e6117e166feefc833455788d8580f90224dec0e0ba928092b79ae786e"
+    },
+    {
+      "instance": "g002696.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "8707e7f6bb48f9556679b5fe50c6c12198805951fb15ccaa5df85f0cc47aa927"
+    },
+    {
+      "instance": "g002701.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "16d42d668243ded7b3a19e18b533336e4936c57ac63aa9b8acaf0ff8e337627f"
+    },
+    {
+      "instance": "g002711.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "72c09d42b81225a36c264f7d35321dc3dddf6e67a61530bd5a0ee67bd91511db",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002719.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "d0d168563c8078cb9d4cd61a572d8c713bbf5f45a05ec6af5810d4e485a2c168"
+    },
+    {
+      "instance": "g002776.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [
+        "https://files.nyu.edu/jeb21/public/jeb/orlib/bqpinfo.html"
+      ],
+      "source_category": "bqp",
+      "source_header_sha256": "c9091e69d5939a1d6d5b14587318f0a7243c25741245efd982e44ace134c4c94"
+    },
+    {
+      "instance": "g002780.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "db33d0a415f8a867f4b982a03d3b60b9cbd6603a4ae881aaea15181060302ab9"
+    },
+    {
+      "instance": "g002804.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "ffc90632ca24b9ee8c5947621ef17547e60f8ce7a1b476e7e2524ea179442cc6",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002812.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "75b0fbf4c30574921067252dc8babcf552bb4a6a5d8a909764c4721348c452e2"
+    },
+    {
+      "instance": "g002826.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "21a155418e7fd296397ca5afb55353c12c985d67ac0f065354eb135555a7ae3b"
+    },
+    {
+      "instance": "g002877.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "455ceebd0c3597599ec5b4ba3ce9b044bf62d48907c601ac9935621f4123c1ec",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g002935.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "ising",
+      "source_header_sha256": "254e20647c92908b8e8f441d6acbbea8b403da6e68aedf825fb480b86f6d3fe3"
+    },
+    {
+      "instance": "g003046.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [
+        "http://www.proin.ktu.lt/~gintaras/"
+      ],
+      "source_category": "bqp",
+      "source_header_sha256": "2edaaa16887477c080723df0dd6e01bf5e8584fe20c2aa9e27f0681f0cdbd792"
+    },
+    {
+      "instance": "g003071.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "1d219c9e795b24bacd0baff237a723335e6e1518ab53d9d1251c5be86e1eb2a4"
+    },
+    {
+      "instance": "g003084.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "4f203efb180a4a860991b6173be27ea39242ffa1dd64c2f74afc8d533600580c",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g003104.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "3c5be94e40c1f0636397d6fd6971298f8e650a0e358f99d3fd3a58b140de22a7"
+    },
+    {
+      "instance": "g003131.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "f82ee0bfba16c36dcfe2390c1304733b272280d977c99c95cfc339c2a291876b",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g003158.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "6a212a25993ca3515cfd4c331bdecac0730271fb4637050ecfbb9a8fae32a2c6",
+      "previous_metadata_category": "steiner_library",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g003164.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [
+        "http://www.proin.ktu.lt/~gintaras/"
+      ],
+      "source_category": "bqp",
+      "source_header_sha256": "3b7aad75d5f75870c54ee368a9234e1b63414f477dd72cf9675dda31a8d6be0a"
+    },
+    {
+      "instance": "g003178.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "72645a51bf7657b41d78657a36bee701926fceee5bdccf4750d0832a1a6e3f56"
+    },
+    {
+      "instance": "g003193.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "stp_or_steiner_metadata",
+      "source_header_sha256": "d8a677df31d95c7eccc978e23f80f281bf482793a66bea6a54eb1262f2320e25",
+      "previous_metadata_category": "other_named_source",
+      "classification_note": "Metadata format/name marker only; this does not establish SteinLib ownership or a data license."
+    },
+    {
+      "instance": "g003220.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "generated_random_graph",
+      "source_header_sha256": "24c5b0f568ced6c22ecc62642b13476e2749401001892d086e14557e2d31e0c6"
+    },
+    {
+      "instance": "imgseg_100098.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "berkeley_image_graph",
+      "source_header_sha256": "522732bca49a0c75c975a3a668b5734f68a59402bfd4cfb9a35e3c6236367ce9"
+    },
+    {
+      "instance": "imgseg_112082.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "berkeley_image_graph",
+      "source_header_sha256": "e8e51de151985743dcf760696bab1e4f825fa6dbcec1be5258dfb0523886bb13"
+    },
+    {
+      "instance": "imgseg_117054.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "berkeley_image_graph",
+      "source_header_sha256": "59e67513bb3e266f56582d3eb2e3b60fba7406bf934afd43b9d088edc6c3089f"
+    },
+    {
+      "instance": "imgseg_147062.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "berkeley_image_graph",
+      "source_header_sha256": "94f18a717592db3672ca4d81aba963a55657ad2071e4ca6423f755b7a351d2b5"
+    },
+    {
+      "instance": "imgseg_181091.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "berkeley_image_graph",
+      "source_header_sha256": "ad39ff41c8735644fdd489d3806d6edbabff29719238945d171ecdf3505d38e2"
+    },
+    {
+      "instance": "imgseg_22093.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "berkeley_image_graph",
+      "source_header_sha256": "12aae445341f37b5dd597fb20693cfbda593beab9423d4cbc0a907a9ee671f2a"
+    },
+    {
+      "instance": "imgseg_254033.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "berkeley_image_graph",
+      "source_header_sha256": "850e57786982c89cf1d1b8bd67df6d758686f6e4b4ed17108bb19ad48a37d9a6"
+    },
+    {
+      "instance": "imgseg_274007.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "berkeley_image_graph",
+      "source_header_sha256": "3ea95c34d27bda4eb7dd37e26a9afd4f12fc4a741e5edca30550409fe35e326c"
+    },
+    {
+      "instance": "imgseg_309004.txt",
+      "split": "public",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "berkeley_image_graph",
+      "source_header_sha256": "ee0e91e0a4e7e33c0cfd4022d9c3216f0c03726860fb3d39c199be0f6fbd1075"
+    },
+    {
+      "instance": "imgseg_48055.txt",
+      "split": "hidden",
+      "header_matched": true,
+      "source_urls": [],
+      "source_category": "berkeley_image_graph",
+      "source_header_sha256": "e1c383b7ec533a9f384b8237a512644ec43cbad12213da1a0f6023db186056d9"
+    }
+  ],
+  "classification_note": "Categories describe file-header clues. In particular STP format does not prove that the material came from SteinLib or that one license covers the group."
+}

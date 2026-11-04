@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-krw-composition-conjecture"
+version = "0.1.0"
+description = "Prove or refute the KRW composition conjecture in reciprocal-share form: there exists a universal integer k >= 2 such that k * D(f) + D(g) <= k * D(f diamond g) for all non-constant Boolean functions f and g, where D is formula depth and diamond is block composition. A Lean-kernel-verified proof of either direction scores 1.0, otherwise 0 — no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "circuit-complexity", "formula-depth", "communication-complexity", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-krw-composition-conjecture"
+candidate_id = "cand-krw-composition-conjecture"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open conjecture (unresolved since 1995; best formula-depth lower bound is still Hastad 1998's (3-o(1)) log n; recent progress only on restricted cases: strong composition of XOR with a random function, Chukhin-Kulikov-Mihajlin STACS 2025). Full score needs a kernel-verified proof or disproof of the conjecture itself; there are no checkpoint slots and no partial credit."
+source_paper = "M. Karchmer, R. Raz, A. Wigderson, Super-logarithmic depth lower bounds via the direct sum in communication complexity, computational complexity 5:191-204, 1995. Background survey: communication-information-complexity.md (historical report not included in this package) (short name krw-composition-conjecture)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-krw-composition-conjecture-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+services:
+  main:
+    pid: host
+    cgroup: host
+    labels:
+      org.tcsexam.public-judge.controller: "1"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /sys/fs/cgroup:/host-cgroup:ro

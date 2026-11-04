@@ -1,0 +1,53 @@
+{
+  "author": {
+    "email": "sindresorhus@gmail.com",
+    "name": "Sindre Sorhus",
+    "url": "https://sindresorhus.com"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": ">=12"
+    },
+    "funding": {
+      "url": "https://github.com/chalk/ansi-styles?sponsor=1"
+    },
+    "integrity": "sha512-4Dj6M28JB+oAH8kFkTLUo+a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.3.tgz",
+    "version": "6.2.3"
+  },
+  "lock_path": "node_modules/ansi-styles",
+  "name": "ansi-styles",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1117,
+      "installed_file": "notices/original/package/license",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "text_file": "image-notices/5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 5836,
+    "installed_in_image": false,
+    "integrity": "sha512-4Dj6M28JB+oAH8kFkTLUo+a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "e939cf5138d7a5d4e34100acd0153577b2953305931157a1cfe9faa56383911b"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "6.2.3"
+}

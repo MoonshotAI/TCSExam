@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "path": "app/lib/cpsolver-all-1.2.jar",
+      "source_context_path": "app/lib/cpsolver-all-1.2.jar",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/lib/cpsolver-all-1.2.jar",
+      "git_blob": "fe56144990407d4f6c8f314e967e325962eb611a",
+      "bytes": 891430,
+      "sha256": "73d4b2e866ddf3646cd29db919675ed49b6425873ed4b92f63a81df669b12366",
+      "mode": "0644"
+    },
+    {
+      "path": "app/lib/dom4j-1.6.1.jar",
+      "source_context_path": "app/lib/dom4j-1.6.1.jar",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/lib/dom4j-1.6.1.jar",
+      "git_blob": "c8c4dbb92d6c23a7fbb2813eb721eb4cce91750c",
+      "bytes": 313898,
+      "sha256": "593552ffea3c5823c6602478b5002a7c525fd904a3c44f1abe4065c22edfac73",
+      "mode": "0644"
+    },
+    {
+      "path": "app/lib/log4j-1.2.8.jar",
+      "source_context_path": "app/lib/log4j-1.2.8.jar",
+      "source_path": "tasks/solver/online/curriculum-itc2007/environment/app/lib/log4j-1.2.8.jar",
+      "git_blob": "493a3ccc1361b0d84889798a995a351138826511",
+      "bytes": 352668,
+      "sha256": "c316595a68f7bc74ee0931e0c4435481cdeddc91c95d2cb78eada107c5b01a65",
+      "mode": "0644"
+    }
+  ]
+}

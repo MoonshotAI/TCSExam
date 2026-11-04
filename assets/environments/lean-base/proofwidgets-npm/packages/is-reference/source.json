@@ -1,0 +1,45 @@
+{
+  "author": "Rich Harris",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "@types/estree": "*"
+    },
+    "dev": true,
+    "integrity": "sha512-U82MsXXiFIrjCK4otLT+o2NA2Cd2g5MLoOVXUZjIOhLurrRxpEXzI8O0KZHr3IjLvlAH1kTPYSuqer5T9ZVBKQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/is-reference/-/is-reference-1.2.1.tgz",
+    "version": "1.2.1"
+  },
+  "lock_path": "node_modules/is-reference",
+  "name": "is-reference",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "Exact released package.json and npm version metadata expressly state MIT; author field is Rich Harris. No independent upstream LICENSE file found in the inspected exact source tree. It is a build-only dependency; no node_modules or this tool binary is included in the fixed Lean image. Preserve the explicit package license declaration and author attribution; this standard SPDX text is explanatory, not a fabricated upstream copyright notice.",
+  "original_notice_files": [],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 2215,
+    "installed_in_image": false,
+    "integrity": "sha512-U82MsXXiFIrjCK4otLT+o2NA2Cd2g5MLoOVXUZjIOhLurrRxpEXzI8O0KZHr3IjLvlAH1kTPYSuqer5T9ZVBKQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/is-reference/-/is-reference-1.2.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "64378adcaca033879d0a0172497bae4a73f9c07a0e57df1c9469db82f18fafd5"
+  },
+  "standard_license_text": {
+    "bytes": 1077,
+    "installed_file": "notices/standard/c3b1b78bc8bd3ea13aa4bc9778442d16560270afa235006d816e5e88cef24db4.txt",
+    "origin": "Explanatory SPDX standard text; not an upstream package NOTICE or copyright attribution.",
+    "sha256": "c3b1b78bc8bd3ea13aa4bc9778442d16560270afa235006d816e5e88cef24db4",
+    "text_file": "image-notices/c3b1b78bc8bd3ea13aa4bc9778442d16560270afa235006d816e5e88cef24db4.txt",
+    "url": "https://spdx.org/licenses/MIT.txt"
+  },
+  "supplementary_project_notice": null,
+  "version": "1.2.1"
+}

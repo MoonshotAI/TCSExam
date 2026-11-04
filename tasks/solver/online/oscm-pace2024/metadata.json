@@ -1,0 +1,52 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260911",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/oscm-pace2024/PROVENANCE.md §B/K derivation: every official optimal-solution file passed the official validator (the exact track requires a proof of optimality).",
+   "tier": "proven-optimal"
+  }
+ },
+ "family": "crossing-minimization",
+ "id": "oscm-pace2024",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-oscm-pace2024-judge-v7"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": null,
+  "n_hidden": 100,
+  "n_public": 100,
+  "per_instance_seconds": 1800,
+  "shard_cores": 16,
+  "shard_mem_gb": 8,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "PACE 2024",
+  "hidden_set": "official-private",
+  "memorization_risk": "medium",
+  "transform": {
+   "k_preserving": true,
+   "type": "free-layer vertex permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "Hidden set: the 100 official private instances (101.gr–200.gr) undergo a secret unrestricted permutation on the judging side (the enum has no “official private + transformed” option, so the source is recorded as official-private and the transformation in the transform field; see discrepancies). public_reference.json covers all 100/100 instances (anchors for 17.gr/92.gr added on 260922: 17.gr is proven optimal; 92.gr is a competition best score verified by a solution file)."
+ },
+ "subdomain": "graph-optimization",
+ "title": "One-sided crossing minimization"
+}

@@ -1,0 +1,3169 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-23",
+  "source_commit": "ad464262ff723baa52d9588f85762767174a170e",
+  "scope": {
+    "task_count": 100,
+    "physical_task_packages": 105,
+    "lite_tasks": 20,
+    "additional_full_tasks": 80,
+    "final_images_examined_this_review": 0,
+    "automatic_legal_clearance": false,
+    "description": "Historical licensing inventory for source_commit, not the current package count or a final-image clearance."
+  },
+  "rules": {
+    "publisher_authorization": "Original code Apache-2.0; authored documentation CC BY 4.0; third-party exceptions retained.",
+    "local_prepare": "No public redistribution of this component by the project; users obtain it under original-source terms. A download script does not grant new permissions.",
+    "source_binding_due": "A source license was located; the exact material and transformations still need to be bound to the chosen fixed source for release.",
+    "authorship_scope": "Copyright protects eligible expression; mathematical facts/methods and copied programs/documentation require distinct analysis. This review does not assert blanket clearance for every jurisdiction.",
+    "copyleft_scope": "Obligations apply to the covered work/derivative and binaries; independent files are not automatically relicensed.",
+    "legacy_inventory": "Prior source inventory was used for discovery, not treated as sufficient authorization."
+  },
+  "coverage": [
+    {
+      "id": "binary-code-a22-10",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/binary-code-a22-10",
+          "files": 16,
+          "manifest_sha256": "acafc9d3ae054021abdd5fbe7acedcae36a6edf19dd259b26d7ad3380af0efda"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "binary-code-a24-10",
+      "track": "construction",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/binary-code-a24-10",
+          "files": 17,
+          "manifest_sha256": "eec0c02ae857d1d772f8d79ada59cf2651f2298f7d478218ce224605ca0d5d67"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "prior_lite_evidence": "a24-reference-source.json",
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "cage-girth",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/cage-girth",
+          "files": 18,
+          "manifest_sha256": "c4cd7eb1870b704afea2cee8adfe9d81c3e9b563995a99902162d8bd8f5e36e0"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "capset-d7",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/capset-d7",
+          "files": 21,
+          "manifest_sha256": "7d27c3e5863032a29a6bfc917a221fdc0102272ab058ea7f5082e0d1ae7ec640"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "circles-in-square-n100",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/circles-in-square-n100",
+          "files": 17,
+          "manifest_sha256": "32cdef2f59f56e7d3b616d927ee6e37061ff689fdc0e93db534f2b4dcabc3f5f"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "covering-code-k10",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/covering-code-k10",
+          "files": 16,
+          "manifest_sha256": "535025cc37010b80b116a16245215a6a091450a5f1daa4aa614afb2e93f4c6db"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "ex-c3c4-maxedges",
+      "track": "construction",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/ex-c3c4-maxedges",
+          "files": 19,
+          "manifest_sha256": "3044339dbd8b38cbf6747a2976930953634611c17b7d7d24fbe05d4a0343a19f"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "prior_lite_evidence": "extremal-graph-source.json",
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "graph-tsp-gap",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/graph-tsp-gap",
+          "files": 17,
+          "manifest_sha256": "98f6b5e7c77453a7bcabe36b9672a36fd0deb8bbcb30ae46dc83d1b47eb16d64"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "kissing-d13",
+      "track": "construction",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/kissing-d13",
+          "files": 19,
+          "manifest_sha256": "eb89254a6203f756fcc8492be2d995b3c096fe2ede991ce1c76a4963d278bc3f"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "kissing-d9",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/kissing-d9",
+          "files": 18,
+          "manifest_sha256": "db6f655f9a07316df97b0453f8ed5df14f3836c159af7e26472dd8d1e5421fee"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "mols-n10",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/mols-n10",
+          "files": 14,
+          "manifest_sha256": "f0d3ea3556134afab748cc9bb03022c568adecf53911fef87fb2b69cbf22ef69"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [
+        "Parker orthogonal pair / Sage MOLS_10_2"
+      ],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "quantum-code-25-7",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/quantum-code-25-7",
+          "files": 17,
+          "manifest_sha256": "5ed4fb044372362e12397f8a72c21f7020f56d975cf4436578d4490b5aa14208"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "ramsey-r3-10",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/ramsey-r3-10",
+          "files": 18,
+          "manifest_sha256": "2d736cc2b683571127aed775fd82287da87d03bf4480d1e13940115b76492b79"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "ramsey-r46",
+      "track": "construction",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/ramsey-r46",
+          "files": 19,
+          "manifest_sha256": "0cbd236b4530b5bea27fdf1a584ae34cf467d639140fac900293b735395ac6e6"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "ramsey-r55",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/ramsey-r55",
+          "files": 18,
+          "manifest_sha256": "852de9ff799e78d2f8f439fa94d2bee854d6f9c329789d35794d58f8d40a6c77"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "rectilinear-tsp-gap",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/rectilinear-tsp-gap",
+          "files": 17,
+          "manifest_sha256": "b4edc63961698b3f057cd156de140b0b597ea4b2d1249ab010d6c56ca7289064"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "sorting-network-size",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/sorting-network-size",
+          "files": 16,
+          "manifest_sha256": "f62387a8deb9b00694d9462c72265516396f034776bb18d8e00d4c64284c5509"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [
+        "SorterHunter / Green 16-input network"
+      ],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "spherical-code-d3-n50",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/spherical-code-d3-n50",
+          "files": 18,
+          "manifest_sha256": "a59b5fc094f56f3402e4670cfc82156fe677509ee79c416c02720d74ad64c9ee"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "tsp-gap",
+      "track": "construction",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/tsp-gap",
+          "files": 18,
+          "manifest_sha256": "959297d41cfe44313cf346098e0637afee6b0e37ad592b66c22e6e2e1cb3153c"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "vdw-w27",
+      "track": "construction",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/construction/vdw-w27",
+          "files": 16,
+          "manifest_sha256": "1bfb69f4004eb4c92906eadeee75fa26ab5c035385df1c77e36df78df508af43"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "aaronson-ambainis",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/aaronson-ambainis",
+          "files": 15,
+          "manifest_sha256": "6e63846589645a03964adad588d3dad08b25d8f2aaa744c6e4a74b8827fa7ebc"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "alon-jaeger-tarsi",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/alon-jaeger-tarsi",
+          "files": 15,
+          "manifest_sha256": "d6b9eec20a4905774d5c820d2ed6006119db12d96769553fca61e1c7ed6800ce"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "bin-packing-mirup",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/bin-packing-mirup",
+          "files": 16,
+          "manifest_sha256": "b45571e4d36e2449019e2474a1872993fefe21c645110736f96529114cf1655a"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "caccetta-haggkvist",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/caccetta-haggkvist",
+          "files": 15,
+          "manifest_sha256": "ca3c9eeb861c6b385a64839387e63e45b2242a83181a2674ffc2e4f05e8dda2f"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "d-vs-r-total-functions",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/d-vs-r-total-functions",
+          "files": 15,
+          "manifest_sha256": "3663ebd7985950734ba3f854fe0668c72b132782bcc6fa9d93f7dbf19e180e10"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "evasiveness-graph-properties",
+      "track": "open",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/evasiveness-graph-properties",
+          "files": 18,
+          "manifest_sha256": "a372af468639d6d227e47906f4ca08bc6804f640de73085109db05fc6f247993"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "explicit-ramsey-graph-log",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/explicit-ramsey-graph-log",
+          "files": 15,
+          "manifest_sha256": "dd3ed0be4865b54c388f9bf35af86dac954159c22fe7a4d7b4f3a7129fb88a86"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "explicit-rigid-matrix",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/explicit-rigid-matrix",
+          "files": 15,
+          "manifest_sha256": "4be80d102efe5f313c9044f435db9c9320da3ddb14477c1869e393998fd7418e"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "fourier-entropy-influence",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/fourier-entropy-influence",
+          "files": 15,
+          "manifest_sha256": "4bbf47c558295e5bd0a8b49248ed5f1e46a2001690e20b13823c2cb37912bfb7"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "frege-not-pbounded",
+      "track": "open",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/frege-not-pbounded",
+          "files": 16,
+          "manifest_sha256": "46793d9f868f86c0c20e3bc99fe14f852ab1cf94e7d29657a66fc61488b43920"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "prior_lite_evidence": "frege-reference-source.json",
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "frege-vs-extended-frege",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/frege-vs-extended-frege",
+          "files": 15,
+          "manifest_sha256": "3d8e1e8ebde585ad7517959f392336fadefaa78012a7dbdf0520508682782ec8"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "krw-composition-conjecture",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/krw-composition-conjecture",
+          "files": 15,
+          "manifest_sha256": "0cda4afd36acd4b8caf0597bca79eb76e7eaa1d330c14cb69505c41cdadf7341"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "log-rank-conjecture",
+      "track": "open",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/log-rank-conjecture",
+          "files": 18,
+          "manifest_sha256": "2e99d4eb7edc077f583bc02c2e428481ece8e7ca8ac7271e58c3edef2dc1211c"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "lovasz-hamiltonicity",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/lovasz-hamiltonicity",
+          "files": 15,
+          "manifest_sha256": "6b7524eed0b7ccf853ef9c99b88b20a706cee59ba1e01a456ab3a43b5f474446"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "mansour-conjecture",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/mansour-conjecture",
+          "files": 16,
+          "manifest_sha256": "02527aa8dca72a79cbbf1ef708122535f27774ab49b959a9672b650f84b5f774"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "mds-conjecture-nonprime",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/mds-conjecture-nonprime",
+          "files": 12,
+          "manifest_sha256": "0d1be2f47235ee23baafdd8a8fc5e6f515504352ebdedd34a7317fe882be9a8f"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "nexp-vs-tc0",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/nexp-vs-tc0",
+          "files": 15,
+          "manifest_sha256": "0d8541c6f496caa5a5b3dfec6662c1a58e14968606df2c02ad5aa983d00db4f8"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [
+        "CircuitComplexity"
+      ],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "np-vs-acc",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/np-vs-acc",
+          "files": 15,
+          "manifest_sha256": "b3101c36c021747791603de527acc528c623f064ed89a6b32907629a4d6da531"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [
+        "CircuitComplexity"
+      ],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "omega-2",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/omega-2",
+          "files": 16,
+          "manifest_sha256": "ddb50d666f6c6b4eaf34860e4f912bd68d6118ceee5fc0383f5af9ff3e9ca46b"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [
+        "AsymptoticTensorRankSemicontinuity"
+      ],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "online-bin-packing-ratio",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/online-bin-packing-ratio",
+          "files": 15,
+          "manifest_sha256": "2fa8f056a353fb07b82bb53819a3ea52a6a663deda168f50fdef32d42819cea3"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "online-matching-random-order",
+      "track": "open",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/online-matching-random-order",
+          "files": 16,
+          "manifest_sha256": "9223d63afd564e06eb2f79305bdd59969017d3abcb5a5aaeedc634081664edda"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "permanent-vs-determinant",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/permanent-vs-determinant",
+          "files": 15,
+          "manifest_sha256": "5cbca0b7e5ab331ca4ddbdcd473593409a70f60b6eda2dbb491c570ea7a55882"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "pfr-integers",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/pfr-integers",
+          "files": 15,
+          "manifest_sha256": "f4ff484d23bd2ca08e14e4cce373fdc9f5139d80e032c10c4cfca067cdc5afdc"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "planar-l1-gnrs",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/planar-l1-gnrs",
+          "files": 15,
+          "manifest_sha256": "1f1b21dbbebe36f003adfd287355f7197216015597220d36f51e82a7e2b7b71f"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "polar-scaling-exponent",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/polar-scaling-exponent",
+          "files": 26,
+          "manifest_sha256": "e0ad1f86a35929c466ca78ff090f5229efbe969ff10be8f897ca87d69ed3caa2"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "prg-constant-width-robp",
+      "track": "open",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/prg-constant-width-robp",
+          "files": 16,
+          "manifest_sha256": "71f44c91cd7a3b93fca1376b9821d2d4b028ff62be5cc79cb98b09283779965e"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "ryser-conjecture",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/ryser-conjecture",
+          "files": 15,
+          "manifest_sha256": "1bc6816860d2c8a102ad1c3ceba63cb4b9431f305296d9ad58bedb9acb37a7ce"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "total-coloring-conjecture",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/total-coloring-conjecture",
+          "files": 15,
+          "manifest_sha256": "55d8bdbb7a68e37def9d3e69dbfabb2f106459389baeb0a257dcf04930be6a91"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "tuza-conjecture",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/tuza-conjecture",
+          "files": 15,
+          "manifest_sha256": "e4d78666d2e8c81e6b7146f94d38fcd13b5ba3be25c85a2349faed3767c0ca40"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "xor-log-rank-conjecture",
+      "track": "open",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/open/xor-log-rank-conjecture",
+          "files": 16,
+          "manifest_sha256": "2a7b712792b25fab688c65117f6e05f83b7bf13d602fb312e949ee1c90b1a35c"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "ahc058-atcoder",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/ahc058-atcoder",
+          "files": 85,
+          "manifest_sha256": "cda056bf4ebb4e6f98050ba57449f1d6443209fcec17a3edbb7d1cc66735f665"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "ahc058-atcoder"
+    },
+    {
+      "id": "bpp-bpplib",
+      "track": "solver",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/bpp-bpplib",
+          "files": 6305,
+          "manifest_sha256": "33a1a20dae8f1321763ba5a5babc679b3660e6d6b89bcd0b1eff1b2649c5d604"
+        },
+        {
+          "variant": "offline",
+          "path": "tasks/solver/offline/bpp-bpplib",
+          "files": 6271,
+          "manifest_sha256": "3b093c30b6bb193ad8a3c58483c48359f43013899a5ab43563fe962452593d8c"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "bpp-bpplib"
+    },
+    {
+      "id": "ce-pace2021",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/ce-pace2021",
+          "files": 23,
+          "manifest_sha256": "ec50c5a91661711232c00ad284ddfd524195e3f88ab77338279964a9a31cc039"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "ce-pace2021"
+    },
+    {
+      "id": "celar-rlfap",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/celar-rlfap",
+          "files": 56,
+          "manifest_sha256": "d5a4f417fdcddf50f4410ed83d478f6efdd6ee19d6eec5651fae7739d1bc46dd"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "celar-rlfap"
+    },
+    {
+      "id": "christmas-tree-ahc041",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/christmas-tree-ahc041",
+          "files": 85,
+          "manifest_sha256": "40ef2005464a35ba65e318255936042f6e6bf19f58a1236af562aa4dcaf295db"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "christmas-tree-ahc041"
+    },
+    {
+      "id": "coloring-dimacs",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/coloring-dimacs",
+          "files": 35,
+          "manifest_sha256": "60374a56b3b9bd1f695231bd4c1e757e9284fea981e487fa815ba817b5f9cd28"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "coloring-dimacs"
+    },
+    {
+      "id": "curriculum-itc2007",
+      "track": "solver",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/curriculum-itc2007",
+          "files": 142,
+          "manifest_sha256": "657ea1dd9392a7f94781cd323282619319f06b15adb726d4712b70164349ae9a"
+        },
+        {
+          "variant": "offline",
+          "path": "tasks/solver/offline/curriculum-itc2007",
+          "files": 124,
+          "manifest_sha256": "9e8d9204bfdd4aa2aea8cf43350863b822042471e5d1d47cc4337ecc5a2c9ddc"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "curriculum-itc2007"
+    },
+    {
+      "id": "cvrp-cvrplib",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/cvrp-cvrplib",
+          "files": 149,
+          "manifest_sha256": "b0a503c5d5f783afea604d89081b4ef9a1a38c3658d298bc83b0a2fa2dc0a541"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "cvrp-cvrplib"
+    },
+    {
+      "id": "dfvs-pace2022",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/dfvs-pace2022",
+          "files": 28,
+          "manifest_sha256": "c9fd8cc0422393e80aacfa79574eb2088334f9af6cf146f9637ab5f37446ae9a"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "dfvs-pace2022"
+    },
+    {
+      "id": "ds-pace2025",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/ds-pace2025",
+          "files": 32,
+          "manifest_sha256": "a600048a2f98f159ba340de537bfab4205974bc413bbe019ef6b43c43f7a4cdd"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "ds-pace2025"
+    },
+    {
+      "id": "glasscut-roadef2018",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/glasscut-roadef2018",
+          "files": 30,
+          "manifest_sha256": "e65bef4ac7fe4890343d4da0c302ee6d8949cd25af37e7d44beb4aca5ba9522f"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "glasscut-roadef2018"
+    },
+    {
+      "id": "gp-dimacs10",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/gp-dimacs10",
+          "files": 26,
+          "manifest_sha256": "583cc589756c47c4f0922785c324ed196c3b60ea0dac534a8b8f8b2bd9cfbfc4"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "gp-dimacs10"
+    },
+    {
+      "id": "hs-pace2025",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/hs-pace2025",
+          "files": 32,
+          "manifest_sha256": "ef428f070dabc47d072fc11a0438062f53dd85067cb03e3829880800ddc574ef"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "hs-pace2025"
+    },
+    {
+      "id": "itc2021-sports-timetabling",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/itc2021-sports-timetabling",
+          "files": 116,
+          "manifest_sha256": "926ee8b1ddce61f7234d6ed9b82fcb5844eb9b477294fc21c59e0125cf59bec3"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "itc2021-sports-timetabling"
+    },
+    {
+      "id": "jsplib-jssp",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/jsplib-jssp",
+          "files": 403,
+          "manifest_sha256": "8632f343cec45132de4c0b0599544785d0adc3ccfd9deaa6bb78ab1d9231ca8f"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "jsplib-jssp"
+    },
+    {
+      "id": "logic-syn-iwls2023",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/logic-syn-iwls2023",
+          "files": 22,
+          "manifest_sha256": "e3f8e98938bca17b5083bbb0581df4d8757813ea5ddad9df9e8ca786b63b0ef3"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "logic-syn-iwls2023"
+    },
+    {
+      "id": "maxclique-dimacs",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/maxclique-dimacs",
+          "files": 38,
+          "manifest_sha256": "6f448696f087f6310ad5fe3b3b728627a08cd4cda9917a293d32de9551bec613"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "maxclique-dimacs"
+    },
+    {
+      "id": "maxcut-mqlib",
+      "track": "solver",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/maxcut-mqlib",
+          "files": 123,
+          "manifest_sha256": "b80c940be57af2763b8337174118ccfe100bea01db8290311764e45e87b1d516"
+        },
+        {
+          "variant": "offline",
+          "path": "tasks/solver/offline/maxcut-mqlib",
+          "files": 128,
+          "manifest_sha256": "2af8ca18cf347319b10d6719d6de8a8b79cf9e530e729af1ea93c108c764e768"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "maxcut-mqlib"
+    },
+    {
+      "id": "maxsat-mse",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/maxsat-mse",
+          "files": 217,
+          "manifest_sha256": "a9436a0cb6db4280c6f8a56adc142bdf24e1aa21188a7c0e734ec2eb5b5736fc"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "maxsat-mse"
+    },
+    {
+      "id": "mr-roadef2012",
+      "track": "solver",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/mr-roadef2012",
+          "files": 28,
+          "manifest_sha256": "11aa3c64f9fb4399b7be8079140a69604a9fec59ca4f4ef7cca2a001d6eceebd"
+        },
+        {
+          "variant": "offline",
+          "path": "tasks/solver/offline/mr-roadef2012",
+          "files": 34,
+          "manifest_sha256": "fb8184d9a119367aceda92c7f0acbfa645bde9f99120f9c01cc232188d5a7345"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "mr-roadef2012"
+    },
+    {
+      "id": "nurse-inrc",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/nurse-inrc",
+          "files": 22,
+          "manifest_sha256": "4f245e3b3db9571a8ba80a1768eaddc0d19cb13d21a2c9da2cd5c14d7e5f5072"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "nurse-inrc"
+    },
+    {
+      "id": "oscm-pace2024",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/oscm-pace2024",
+          "files": 100,
+          "manifest_sha256": "365e0e883e95aa7c4e36261473f55da83e829711504060a8792b1c687ae22b64"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "oscm-pace2024"
+    },
+    {
+      "id": "qap-qaplib",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/qap-qaplib",
+          "files": 165,
+          "manifest_sha256": "d72c788a2157d4feb44c21c6bc4d6fcb1a331520edefc9742bbd8121203fdfde"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "qap-qaplib"
+    },
+    {
+      "id": "qbf-qbfeval",
+      "track": "solver",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/qbf-qbfeval",
+          "files": 129,
+          "manifest_sha256": "89e2d48b4633f1ad9378bab265e9a5389896eb193af963b338ef79ad2913fbd9"
+        },
+        {
+          "variant": "offline",
+          "path": "tasks/solver/offline/qbf-qbfeval",
+          "files": 141,
+          "manifest_sha256": "e54ea296cee70269ec58482a6d8e993e2851e562c80e432b4927b468d836a6c6"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "qbf-qbfeval"
+    },
+    {
+      "id": "radiation-mznchallenge",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/radiation-mznchallenge",
+          "files": 33,
+          "manifest_sha256": "f6d6908e230a861333737e1762287e650024cd56c8330d81f02718b1b2440544"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "radiation-mznchallenge"
+    },
+    {
+      "id": "scp-orlib",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/scp-orlib",
+          "files": 55,
+          "manifest_sha256": "ddd723e62928f4b10dd6d7325ad0588c263242560941ff80783eeb37d4e6d076"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "scp-orlib"
+    },
+    {
+      "id": "sygus-comp",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/sygus-comp",
+          "files": 24,
+          "manifest_sha256": "0f8ffe4be6f437dbc713dc1e04edead99d7451c90c72a6ce13d3ed01f8a31ca2"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "sygus-comp"
+    },
+    {
+      "id": "tsp-tsplib",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/tsp-tsplib",
+          "files": 30,
+          "manifest_sha256": "d4db5b1cffda0d80747a71d737edff62d996b4ce4e1dcc308e56082d288b2f65"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "tsp-tsplib"
+    },
+    {
+      "id": "tw-heuristic",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/tw-heuristic",
+          "files": 62,
+          "manifest_sha256": "6ae86ab5d7e4f6c094ea0c893407d579e5cfb3d35b83ac506107d1caa1f06be4"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "tw-heuristic"
+    },
+    {
+      "id": "vc-pace2019",
+      "track": "solver",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "online",
+          "path": "tasks/solver/online/vc-pace2019",
+          "files": 24,
+          "manifest_sha256": "a07fdede935f9659ea3ff1a658abdfec89a722eb527a140855fce9a0c83ab452"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "decision_ref": "vc-pace2019"
+    },
+    {
+      "id": "corners-quasipoly",
+      "track": "theorem",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/corners-quasipoly",
+          "files": 16,
+          "manifest_sha256": "df089214306601536c6f960b56d972d1ace34c7b41adbc969b88895c9ce8486f"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "dijkstra-universal",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/dijkstra-universal",
+          "files": 15,
+          "manifest_sha256": "35a2c5f3ca42ddd509c0948dc9e91f40324752c189b2116d5d4c8e8661fb3dda"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "discrepancy-beyond-banaszczyk",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/discrepancy-beyond-banaszczyk",
+          "files": 15,
+          "manifest_sha256": "9f4fda41c5fc71b15b1bf12d03a0ddfbbe33af637551441c30f617eebd4a4399"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "discrete-bidding-games",
+      "track": "theorem",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/discrete-bidding-games",
+          "files": 16,
+          "manifest_sha256": "c8c7e5fb0f20796549683b6a0b841bc7195acafdb9d44e568fde17f46b80ca26"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "folded-rs-gsb",
+      "track": "theorem",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/folded-rs-gsb",
+          "files": 16,
+          "manifest_sha256": "c0cd38aa45ba6a0356f3d698416115d24a76a3e4d563faa308ab0c2366bf8390"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "gg26-proximity",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/gg26-proximity",
+          "files": 15,
+          "manifest_sha256": "ee17f60eb98b99f9b11f6578a0ffff832a87356b18083ecf8dee1472cf2fd934"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "lcc-exp-lb",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/lcc-exp-lb",
+          "files": 15,
+          "manifest_sha256": "3a39436ad05ae88e85c70d30ba67d7b82aaf9effd8e3615f4af8bcdca6c860bd"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "monotonicity-test-lb",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/monotonicity-test-lb",
+          "files": 15,
+          "manifest_sha256": "04ad465dad502c88d05a17aee01561706578a3793c354fabcbaedbb87fc0a213"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "mts-diamond-lb",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/mts-diamond-lb",
+          "files": 15,
+          "manifest_sha256": "6a75007be050d1b33d709482a857218442c93657111f9a2faec7a27a59b95118"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "multiflow-gap-planar",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/multiflow-gap-planar",
+          "files": 15,
+          "manifest_sha256": "791e94d19a47366e178dfa77748fb1f31a5ad3c5cf035ab218bcf0b37c6cc5a0"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "negations-small-depth",
+      "track": "theorem",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/negations-small-depth",
+          "files": 16,
+          "manifest_sha256": "94645eb0285135ab77a2a0a0a814b70cfd62aabee8adc0e50efcc423ffeb7678"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "pcp-alphabet-soundness",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/pcp-alphabet-soundness",
+          "files": 16,
+          "manifest_sha256": "98bcb876e6a8ef35f7ffbe87d1ff1e89ffc01ddedeac0ecd7a09a484630cf190"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "planar-is-reconfig-kernel",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/planar-is-reconfig-kernel",
+          "files": 15,
+          "manifest_sha256": "74ab9371434cb4e0cc83f739f95be74d2595fc35e791fd39c06391f7f7b1403f"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "posbody-chasing",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/posbody-chasing",
+          "files": 15,
+          "manifest_sha256": "a4206ddd0cc3c69a494ec180fd9962fb6026ec472a3a9894edd4d788f2daabed"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "qma-qcma-oracle",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/qma-qcma-oracle",
+          "files": 16,
+          "manifest_sha256": "c70c768212c8a28c53dd64f98c4423a0cf076baaeced562a6c32d446761ef840"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "lite": true,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/quantum-crypto-algorithmica",
+          "files": 16,
+          "manifest_sha256": "0f1cd8ccc682deda39ec2be416c43c1676797015c2fcb00ce53d97ebc1b1d6fe"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "strategy-improvement-lb",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/strategy-improvement-lb",
+          "files": 15,
+          "manifest_sha256": "dc6bef46ff4c755e32f9dfc2a352373f368c76980c200d147c8c03cf44eb5995"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "three-taxi",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/three-taxi",
+          "files": 15,
+          "manifest_sha256": "1556feda6aa1f5e7e77b180e1c2c7b947cb2067fbb08d5937ee3fe17111e42ae"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "unitary-synthesis-lb",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/unitary-synthesis-lb",
+          "files": 15,
+          "manifest_sha256": "3defef4a6e2e94de1534b70ae1ce99344c1dcff468462ee1b30c2cc1a0c6a71e"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    },
+    {
+      "id": "xor3-parallel-repetition",
+      "track": "theorem",
+      "lite": false,
+      "variants": [
+        {
+          "variant": "default",
+          "path": "tasks/theorem/xor3-parallel-repetition",
+          "files": 15,
+          "manifest_sha256": "580233b89032bed24fa3298ee081c29b1c44159c76ccfff3892f9c6e732710eb"
+        }
+      ],
+      "scope": "current source inventory and declared provenance; not final image clearance",
+      "release_cleared": false,
+      "shared_dependency_review": "Lean, mathlib and base-image components retain their pinned versions and component-specific notices.",
+      "additional_component_refs": [],
+      "source_screening": "Source file inventory and provenance references for task materials, including adaptations and construction solutions."
+    }
+  ],
+  "solver_decisions": [
+    {
+      "task_id": "ahc058-atcoder",
+      "data": "No clear redistribution terms were found for the official tool or the 100 public inputs; generating new seeds does not replace a license review of the code.",
+      "code": "`tools/src/lib.rs` is the official program; the origin of the scoring implementation still needs review.",
+      "required_action": "List only pinned sources and local preparation for the official tool and inputs; first review the scope of copied scoring code. Do not label it public until the issue is resolved.",
+      "evidence_ids": [
+        "ahc058-terms",
+        "atcoder-tos"
+      ],
+      "flags": [
+        "local_prepare",
+        "code_origin_review"
+      ],
+      "attention_paths": [
+        "environment/app/tools/",
+        "tests/scoring.py",
+        "environment/app/instances/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "bpp-bpplib",
+      "data": "Original data is under CC BY-NC-ND 4.0; prepare transformed data, packings, and table extraction locally under the arrangement already set for Lite.",
+      "code": "Handle project scripts and input materials separately.",
+      "required_action": "Retain the existing source chain and restrictions; exclude materials to be generated locally from every public layer.",
+      "evidence_ids": [],
+      "flags": [
+        "local_prepare"
+      ],
+      "attention_paths": [
+        "environment/app/library/",
+        "tests/official-instances/",
+        "solution/precomputed/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "ce-pace2021",
+      "data": "The official instance repository has CC0; its instances come from multiple upstream sources, so retain source records matched to the actual instances.",
+      "code": "No clear license was obtained for the separately downloaded verifier.cpp; the instance repository's CC0 does not apply to it.",
+      "required_action": "Integrate data by pinned version and hash; obtain the checker locally, or have the task owner independently implement it to specification and validate equivalence.",
+      "evidence_ids": [
+        "ce-readme",
+        "ce-license",
+        "ce-commit-head",
+        "pace2021-terms"
+      ],
+      "flags": [
+        "code_origin_review"
+      ],
+      "attention_paths": [
+        "environment/app/verifier/verifier.cpp"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "celar-rlfap",
+      "data": "Materials in the MiniZinc repository have MIT terms; no clear terms were obtained for the ZIB CALMA data source, so handle them separately.",
+      "code": "MiniZinc bundle components have separate terms; do not mark the entire bundle MIT.",
+      "required_action": "Prepare CALMA originals and transformations locally; match MiniZinc data to source files; add an inventory of bundle binary components and source.",
+      "evidence_ids": [
+        "minizinc-license",
+        "minizinc-readme",
+        "minizinc-commit",
+        "calma-zib"
+      ],
+      "flags": [
+        "local_prepare",
+        "binary_source_due"
+      ],
+      "attention_paths": [
+        "tests/instances-library/",
+        "environment/Dockerfile"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "christmas-tree-ahc041",
+      "data": "No clear redistribution terms were found for the official tool or inputs.",
+      "code": "`tests/scoring.py` is explicitly described as a behavior-faithful port of the official scorer; the scope of copied expression needs review.",
+      "required_action": "Prepare the official tool and inputs locally; deleting data alone does not resolve the ported scorer. Confirm the basis or implement it independently and compare results.",
+      "evidence_ids": [
+        "ahc041-terms",
+        "atcoder-tos"
+      ],
+      "flags": [
+        "local_prepare",
+        "code_origin_review"
+      ],
+      "attention_paths": [
+        "environment/app/tools/",
+        "tests/scoring.py",
+        "environment/app/PROBLEM.md"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "coloring-dimacs",
+      "data": "The MIT license for gc_instances is explicit; this review could not confirm uniform distribution terms for the original CMU DIMACS data.",
+      "code": "Keep project judging code separate from input data.",
+      "required_action": "Match files individually to licensed data in the pinned gc_instances source; obtain unmatched originals and tables locally.",
+      "evidence_ids": [
+        "gc-license",
+        "gc-readme",
+        "gc-commit",
+        "dimacs-color"
+      ],
+      "flags": [
+        "local_prepare"
+      ],
+      "attention_paths": [
+        "environment/app/instances/",
+        "tests/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "curriculum-itc2007",
+      "data": "A basis has been established for 20 corresponding CC BY data files; prepare comp11 and OptHub solutions locally.",
+      "code": "CPSolver LGPL, the specific dom4j BSD-style terms, and log4j 1.1 have been checked; no clear basis has been found for the old validator.cc.",
+      "required_action": "Use the Lite distribution arrangement and the CPSolver corresponding-source package; apply it to both online and offline packages.",
+      "evidence_ids": [],
+      "flags": [
+        "local_prepare",
+        "binary_source_due"
+      ],
+      "attention_paths": [
+        "environment/app/validator.cc",
+        "environment/app/lib/",
+        "solution/precomputed/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "cvrp-cvrplib",
+      "data": "No uniform license applicable to this project's redistribution was found on the public CVRPLIB pages.",
+      "code": "The old LKH measurement tool is not included in the current task package and does not create additional release obligations.",
+      "required_action": "Prepare instances, external solution files, and their transformations locally from pinned sources; public download does not equal redistribution authorization.",
+      "evidence_ids": [
+        "cvrplib-policy"
+      ],
+      "flags": [
+        "local_prepare"
+      ],
+      "attention_paths": [
+        "environment/app/instances/",
+        "solution/precomputed/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "dfvs-pace2022",
+      "data": "The official instances are public; this review found no clear distribution terms covering them.",
+      "code": "The license basis for the verifier.cpp downloaded from the official site is insufficiently clear.",
+      "required_action": "Obtain instances and official tools locally and preserve current checker results; any checker rewrite needs specific validation.",
+      "evidence_ids": [
+        "pace2022-terms"
+      ],
+      "flags": [
+        "local_prepare",
+        "code_origin_review"
+      ],
+      "attention_paths": [
+        "environment/app/verifier/verifier.cpp",
+        "environment/app/instances/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "ds-pace2025",
+      "data": "The README in the pinned instance repository identifies sources but no LICENSE was found; the verifier's GPL does not establish the data license.",
+      "code": "The official verifier source is GPL-3.0 and currently includes UPSTREAM-LICENSE.",
+      "required_action": "Prepare instances and transformations locally; distribute source, build instructions, and the GPL notice with the checker binary.",
+      "evidence_ids": [
+        "ds-data-readme",
+        "ds-data-license",
+        "ds-verifier"
+      ],
+      "flags": [
+        "local_prepare",
+        "binary_source_due"
+      ],
+      "attention_paths": [
+        "environment/verifier-src/",
+        "tests/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "hs-pace2025",
+      "data": "The README in the pinned instance repository identifies sources but no LICENSE was found; the verifier's GPL does not establish the data license.",
+      "code": "The official verifier source is GPL-3.0 and currently includes UPSTREAM-LICENSE.",
+      "required_action": "Prepare instances and transformations locally; distribute source, build instructions, and the GPL notice with the checker binary.",
+      "evidence_ids": [
+        "ds-data-readme",
+        "ds-data-license",
+        "hs-verifier"
+      ],
+      "flags": [
+        "local_prepare",
+        "binary_source_due"
+      ],
+      "attention_paths": [
+        "environment/verifier-src/",
+        "tests/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "glasscut-roadef2018",
+      "data": "No uniform, clear terms have been obtained for the official A/B/X data; the GPL-3.0 license in the fontanf repository cannot automatically be extended to all competition data.",
+      "code": "The champion implementation was not distributed according to the old inventory; do not misrecord historical solutions as bundled champion software.",
+      "required_action": "Obtain official inputs locally; retain the provenance of solutions_best and decide package scope only after checking the pinned source and the applicable data.",
+      "evidence_ids": [
+        "roadef2018",
+        "roadef-sol-license",
+        "roadef-sol-readme"
+      ],
+      "flags": [
+        "local_prepare",
+        "data_scope_review"
+      ],
+      "attention_paths": [
+        "solution/precomputed/",
+        "environment/app/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "gp-dimacs10",
+      "data": "No clear uniform redistribution terms were obtained for DIMACS10 / Walshaw data or reference tables; register generated inputs separately.",
+      "code": "The pinned KaHIP v3.25 commit has been verified as MIT.",
+      "required_action": "Prepare external data locally; retain the full copyright text and version with the KaHIP binary.",
+      "evidence_ids": [
+        "dimacs10",
+        "ka-hip-license"
+      ],
+      "flags": [
+        "local_prepare"
+      ],
+      "attention_paths": [
+        "environment/Dockerfile",
+        "tests/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "itc2021-sports-timetabling",
+      "data": "RobinX's Repository is a backup of third-party instances, bounds, and solutions; its README's GPL statement concerns software and does not establish that all XML files are GPL-licensed.",
+      "code": "The RobinX README and actual onlineMain.cpp explicitly state GPL; the program's v3 notice matches the bundled GPL text.",
+      "required_action": "Retain checker source and build files; obtain instances and external solutions locally first. This data scope is more conservative than the old conclusion that the entire repository was GPL.",
+      "evidence_ids": [
+        "robinx-readme",
+        "robinx-tree",
+        "robinx-online-main"
+      ],
+      "flags": [
+        "local_prepare",
+        "data_scope_review",
+        "binary_source_due"
+      ],
+      "attention_paths": [
+        "tests/validator-src/",
+        "solution/precomputed/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "jsplib-jssp",
+      "data": "ScheduleOpt/benchmarks explicitly uses CC BY-SA 4.0; the selected instances, tables, and transformations cannot be labeled Apache.",
+      "code": "OR-Tools has a separate software license; retain a separate notice for project-authored code.",
+      "required_action": "Include CC BY-SA, original sources, and conversion notes; adaptations to which the license applies remain under the same license, and bind the final data package to the corresponding original versions.",
+      "evidence_ids": [
+        "jsplib-license",
+        "jsplib-readme",
+        "jsplib-commit-head"
+      ],
+      "flags": [
+        "share_alike",
+        "source_binding_due"
+      ],
+      "attention_paths": [
+        "environment/app/jsplib/",
+        "tests/",
+        "solution/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "logic-syn-iwls2023",
+      "data": "The official IWLS 2022 / 2023 repositories use MIT; retain original attribution and conversion notes for the actual circuits and truth tables.",
+      "code": "ABC uses a UC Regents BSD-style notice.",
+      "required_action": "Provide the data after matching it to pinned sources; retain copyright.txt in the corresponding ABC build archive; do not include unused paper PDFs.",
+      "evidence_ids": [
+        "iwls2023-license",
+        "iwls2022-license",
+        "abc-license"
+      ],
+      "flags": [
+        "source_binding_due"
+      ],
+      "attention_paths": [
+        "environment/app/abc-src.tar.xz",
+        "solution/precomputed/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "maxclique-dimacs",
+      "data": "No clear uniform redistribution terms were obtained for the DIMACS data sources.",
+      "code": "`mcqd_anytime.h` explicitly derives from Janez Konc's GPL-3.0-or-later code and lists three modifications; the central notice did not previously cover it.",
+      "required_action": "The MCQD original text and path mapping have been added; include modified source and build instructions with compiled binaries; prepare inputs locally.",
+      "evidence_ids": [
+        "mcqd-license",
+        "dimacs-color"
+      ],
+      "flags": [
+        "local_prepare",
+        "copyleft",
+        "binary_source_due"
+      ],
+      "attention_paths": [
+        "environment/app/mcqd_anytime.h"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "maxcut-mqlib",
+      "data": "Only three OR-Library instances have an MIT basis; other families follow the Lite source-review findings.",
+      "code": "MQLib source is MIT; handle the paper and additional attachments separately.",
+      "required_action": "Follow the Lite local-preparation scope and existing source chain; build the image from a clean context.",
+      "evidence_ids": [
+        "orlibrary-legal"
+      ],
+      "flags": [
+        "local_prepare"
+      ],
+      "attention_paths": [
+        "environment/app/mqlib/",
+        "environment/app/instances/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "maxsat-mse",
+      "data": "The official MSE 2026 Zenodo record 21358014 explicitly applies CC BY 4.0 to the data, metadata, and results archive; it does not cover the separate licenses of each included solver.",
+      "code": "Retain the original licenses and modification records for Open-WBO / MiniSat.",
+      "required_action": "For the files actually used, retain the eight supplement authors, original instance-family attribution, and transformation notes; verify the final inputs against the archive hash.",
+      "evidence_ids": [
+        "maxsat-zenodo"
+      ],
+      "flags": [
+        "source_binding_due"
+      ],
+      "attention_paths": [
+        "environment/app/openwbo/",
+        "solution/precomputed/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "mr-roadef2012",
+      "data": "Fixed public Google data is Apache-2.0; the project produced the reference solutions; obtain the problem PDF locally.",
+      "code": "The Google checker is Apache-2.0; file-by-file differences have been checked.",
+      "required_action": "Follow the existing Lite source chain, PDF exclusion, and clean-rebuild requirements.",
+      "evidence_ids": [],
+      "flags": [
+        "local_prepare"
+      ],
+      "attention_paths": [
+        "environment/app/checker-src/",
+        "environment/app/problem_definition_v1_1.pdf"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "nurse-inrc",
+      "data": "NurseScheduler software has been verified as MIT; the INRC-I data collected in that repository came from a competition, and the software's MIT license alone does not establish rights to all data.",
+      "code": "The old record for the official JAR is only for result comparison; it is not a public release component. The project computed its reference schedules independently.",
+      "required_action": "Obtain external XML files and official tables locally first; do not add release requirements for champion software or the official JAR that are not packaged.",
+      "evidence_ids": [
+        "nurse-license",
+        "nurse-readme",
+        "nurse-official"
+      ],
+      "flags": [
+        "local_prepare",
+        "data_scope_review"
+      ],
+      "attention_paths": [
+        "environment/app/",
+        "tests/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "oscm-pace2024",
+      "data": "No clear distribution terms were found for the exact competition instances and solutions; the PhKindermann test set has been verified as MIT.",
+      "code": "The current wheel does contain the MIT text; the local wheel hash differs from the PyPI file for the same version, so byte-for-byte identity is not claimed. PROPERTIES.md says it reproduces the website text verbatim.",
+      "required_action": "Obtain data locally; include MIT with the wheel; replace the webpage text with a project-authored description preserving all required facts or have users obtain it locally. Before rewriting, verify that task information remains equivalent.",
+      "evidence_ids": [
+        "pace2024-terms",
+        "oscm-tests-license",
+        "oscm-pypi"
+      ],
+      "flags": [
+        "local_prepare",
+        "copied_document_review"
+      ],
+      "attention_paths": [
+        "environment/app/PROPERTIES.md",
+        "environment/app/verifier/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "qap-qaplib",
+      "data": "Clear terms for QAPLIB originals and external solutions were not obtained; failure to connect to the current site is not evidence of authorization.",
+      "code": "Keep the project runtime separate from input data.",
+      "required_action": "Pin original sources and hashes and prepare locally; retain a notice about retrieval failures on the release page.",
+      "evidence_ids": [
+        "qaplib-terms"
+      ],
+      "flags": [
+        "local_prepare"
+      ],
+      "attention_paths": [
+        "environment/app/",
+        "solution/precomputed/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "qbf-qbfeval",
+      "data": "Use the ParaProofa data supplement and original BMC non-commercial conditions through the Lite per-instance hash chain.",
+      "code": "Retain the existing records for Qute's historical MIT applicability assessment, qrp2rup under CC BY, drat-trim under MIT, and its subcomponents.",
+      "required_action": "There is no need to request author permission again; include the prepared original texts, modification notes, and corresponding source with the final artifacts, and check the new image layer.",
+      "evidence_ids": [],
+      "flags": [
+        "binary_source_due"
+      ],
+      "attention_paths": [
+        "environment/app/qute/",
+        "tests/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "radiation-mznchallenge",
+      "data": "MiniZinc instances and generator are MIT; register self-generated inputs separately.",
+      "code": "Retain each MiniZinc bundle component's separate terms.",
+      "required_action": "Bind instances to pinned sources; add exact bundle-component and corresponding-source inventories; do not describe the entire bundle as MIT.",
+      "evidence_ids": [
+        "minizinc-license",
+        "minizinc-readme",
+        "minizinc-commit"
+      ],
+      "flags": [
+        "source_binding_due",
+        "binary_source_due"
+      ],
+      "attention_paths": [
+        "environment/Dockerfile",
+        "environment/app/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "scp-orlib",
+      "data": "The official OR-Library legal page explicitly states MIT.",
+      "code": "Attribute project judging code and source data separately.",
+      "required_action": "Retain J. E. Beasley's copyright and MIT license, and pin the correspondence between originals and transformed files.",
+      "evidence_ids": [
+        "orlibrary-legal"
+      ],
+      "flags": [
+        "source_binding_due"
+      ],
+      "attention_paths": [
+        "environment/app/",
+        "tests/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "sygus-comp",
+      "data": "Only a README was found in the selected SyGuS benchmark repository; no LICENSE was found.",
+      "code": "The COPYING file for cvc5 1.3.4 specifies a base BSD license and lists components including GMP under LGPL, CaDiCaL under MIT, and the GCC exception; a non-GPL build label does not mean there are no LGPL obligations.",
+      "required_action": "Prepare the benchmark and transformations locally; inspect the linked components in the actual binary. For static combinations subject to LGPL, provide source and relinking materials, or use a build that satisfies the terms.",
+      "evidence_ids": [
+        "sygus-readme",
+        "sygus-license",
+        "github-sygus-tree",
+        "cvc5-license"
+      ],
+      "flags": [
+        "local_prepare",
+        "binary_source_due"
+      ],
+      "attention_paths": [
+        "environment/Dockerfile",
+        "tests/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "tsp-tsplib",
+      "data": "No uniform, clear redistribution terms were obtained for TSPLIB originals, external best-known tours, or tsp95.pdf; a software license on a mirror site does not automatically cover the original data.",
+      "code": "Review only programs actually distributed; do not extend the review to solvers that are not included.",
+      "required_action": "Obtain data and paper PDFs locally; keep code and paths fixed.",
+      "evidence_ids": [
+        "tsplib-terms"
+      ],
+      "flags": [
+        "local_prepare"
+      ],
+      "attention_paths": [
+        "environment/app/",
+        "solution/precomputed/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "tw-heuristic",
+      "data": "The PACE 2017 README explicitly releases the instances under CC0.",
+      "code": "td-validate is MIT and FlowCutter is BSD; the current task package already includes both notices.",
+      "required_action": "Retain notices, pinned sources, and transformation notes; finally check the actual versions added to the rebuilt image.",
+      "evidence_ids": [
+        "tw-readme",
+        "flow-license"
+      ],
+      "flags": [
+        "source_binding_due"
+      ],
+      "attention_paths": [
+        "environment/app/",
+        "tests/"
+      ],
+      "implementation_verified": false
+    },
+    {
+      "task_id": "vc-pace2019",
+      "data": "Correction to the old record: official Zenodo 3368306 explicitly states CC BY 4.0 and contains the archive of all 200 instances.",
+      "code": "vc_validate is GPL-3.0; the current task package includes the original text and source code.",
+      "required_action": "Retain the three data authors, CC BY, and conversion notes; bind the archive's official MD5 to the actual adopted originals in the package; provide corresponding source and build instructions for the checker.",
+      "evidence_ids": [
+        "vc-zenodo",
+        "vc-verifier"
+      ],
+      "flags": [
+        "source_binding_due",
+        "binary_source_due"
+      ],
+      "attention_paths": [
+        "environment/app/vc_validate.cpp",
+        "environment/app/LICENSE-vc_validate"
+      ],
+      "implementation_verified": false
+    }
+  ],
+  "additional_lean_and_construction": [
+    {
+      "task_ids": [
+        "np-vs-acc",
+        "nexp-vs-tc0"
+      ],
+      "component": "CircuitComplexity",
+      "license": "Apache-2.0",
+      "upstream_review_commit": "def6aca37be6b0bef80ae08ea9bce9031f46998e",
+      "evidence_ids": [
+        "circuit-basic-pinned",
+        "circuit-license-pinned"
+      ],
+      "credit": "Copyright 2026 Samuel Schlesinger",
+      "change": "`Basis` was renamed `CircuitBasis`; `eval` / `depth` now use structural recursion based on the number of gates already processed.",
+      "scope": "Adapted definition layer in `environment/app/Task/Basic.lean` and `tests/reference/Basic.lean`; existing headers are retained.",
+      "limitation": "The commit used during development is unrecorded; the reviewed commit confirms a traceable source and is not represented as the historical version used."
+    },
+    {
+      "task_ids": [
+        "omega-2"
+      ],
+      "component": "AsymptoticTensorRankSemicontinuity",
+      "license": "Apache-2.0",
+      "upstream_review_commit": "f3a83b4e862c84ab718163d063093ad64644c9ef",
+      "evidence_ids": [
+        "lean-tensor-source-pinned",
+        "lean-tensor-license-pinned"
+      ],
+      "credit": "Copyright 2026 Jeroen Zuiddam; Christandl, Hoeberechts, Nieuwboer, Vrana, Zuiddam",
+      "change": "Specialized to third-order tensors and generalized to finite index types for each component.",
+      "scope": "Tensor-rank definition layer in `environment/app/Task/Basic.lean` and `tests/reference/Basic.lean`.",
+      "limitation": "The commit used during development is unrecorded."
+    },
+    {
+      "task_ids": [
+        "sorting-network-size"
+      ],
+      "component": "SorterHunter / Green 16-input network",
+      "license": "MIT",
+      "upstream_review_commit": "2d3c63b0ca965768243e0e3b1c33b4a030b08613",
+      "evidence_ids": [
+        "sorting-data",
+        "sorting-license-pinned"
+      ],
+      "credit": "M. W. Green (1969); Bert Dobbelaere, Copyright 2017 bertdobbelaere",
+      "scope": "The 60 comparators in `solution/Basic.lean`, converted to a Lean tuple list.",
+      "comparison": {
+        "comparators": 60,
+        "ordered_pairs_equal": true,
+        "local_file_sha256": "b58253c8e7af1ee7f6df3f87661e17de1ea16f5cf4c845384597abf8813cdb3d"
+      },
+      "limitation": "This is the currently verifiable MIT distribution source with identical content; the website table was used during development."
+    },
+    {
+      "task_ids": [
+        "mols-n10"
+      ],
+      "component": "Parker orthogonal pair / Sage MOLS_10_2",
+      "license": "mathematical-data-provenance; Sage library code GPL-2.0-or-later",
+      "evidence_ids": [
+        "sage-mols",
+        "sage-license",
+        "sage-lam"
+      ],
+      "credit": "Parker 1959; C. W. H. Lam page; Sage developers",
+      "scope": "Only two 10×10 integer matrices; Sage's Python implementation, libraries, and compiled artifacts were not copied.",
+      "comparison": {
+        "matrices": 2,
+        "integers": 200,
+        "equal": true,
+        "local_file_sha256": "1c18929934bad540ad0038a2449b70de6cd53444e0371f7ca4ee2c766f97128b"
+      },
+      "limitation": "Assess mathematical objects and program expression separately. Values taken from Sage do not automatically make the entire Lean file GPL-licensed, and the original paper, webpage, or Sage implementation is not provided as Apache-licensed material. If its code is added later, review it under its original license."
+    }
+  ],
+  "sources": [
+    {
+      "id": "github-no-license",
+      "url": "https://choosealicense.com/no-permission/",
+      "checked_at": "2026-10-23T06:22:50.722293+00:00",
+      "status": 200,
+      "final_url": "https://choosealicense.com/no-permission/",
+      "bytes": 12479,
+      "sha256": "6513c2201c93c2642819071e4869e669e9d8530d26a479349429a5b30d5a0c9e"
+    },
+    {
+      "id": "cc-by-sa",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+      "checked_at": "2026-10-23T06:22:50.724332+00:00",
+      "status": 200,
+      "final_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+      "bytes": 51645,
+      "sha256": "47c0a954c88d793bdefe92fb007ae3c038fb3807f1a27083433d01aa7542c0d8"
+    },
+    {
+      "id": "gpl",
+      "url": "https://www.gnu.org/licenses/gpl-3.0.txt",
+      "checked_at": "2026-10-23T06:22:50.724806+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "id": "jsplib-license",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/master/LICENSE",
+      "checked_at": "2026-10-23T06:22:50.725258+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/master/LICENSE",
+      "bytes": 20137,
+      "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+      "license_copy": "docs/licenses/third-party/JSPLIB-CC-BY-SA-4.0.txt"
+    },
+    {
+      "id": "jsplib-readme",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/master/README.md",
+      "checked_at": "2026-10-23T06:22:50.726337+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/master/README.md",
+      "bytes": 1788,
+      "sha256": "03551de7cd28e5b0705d617f01b5520ee6bebb4bc0f89a9f8d8d02dffff9da90"
+    },
+    {
+      "id": "ce-readme",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Cluster-Editing-PACE-2021-instances/master/README.md",
+      "checked_at": "2026-10-23T06:22:50.726797+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/PACE-challenge/Cluster-Editing-PACE-2021-instances/master/README.md",
+      "bytes": 2565,
+      "sha256": "a64e04a71c94e0398d44d00e2d8a2a033b2f67bf65b3397821d6f088c9f1b73a"
+    },
+    {
+      "id": "ce-license",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Cluster-Editing-PACE-2021-instances/master/LICENSE",
+      "checked_at": "2026-10-23T06:22:51.667013+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/PACE-challenge/Cluster-Editing-PACE-2021-instances/master/LICENSE",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "license_copy": "docs/licenses/third-party/PACE-CC0-1.0.txt"
+    },
+    {
+      "id": "vc-zenodo",
+      "url": "https://zenodo.org/api/records/3368306",
+      "checked_at": "2026-10-23T06:22:51.677272+00:00",
+      "status": 200,
+      "final_url": "https://zenodo.org/api/records/3368306",
+      "bytes": 4199,
+      "sha256": "6a6a1f8cb64a610ae0df009e02e650e633c1956eef9add399a63268d08edcf29"
+    },
+    {
+      "id": "maxsat-zenodo",
+      "url": "https://zenodo.org/api/records/21358014",
+      "checked_at": "2026-10-23T06:22:51.689020+00:00",
+      "status": 200,
+      "final_url": "https://zenodo.org/api/records/21358014",
+      "bytes": 14989,
+      "sha256": "6abe0f84ed797f3caeb78f844b6eca1b6da2d3d30dab3e4eeaed83907c17355a"
+    },
+    {
+      "id": "ds-data-license",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/LICENSE",
+      "checked_at": "2026-10-23T06:22:52.084432+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "ds-data-readme",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/README.md",
+      "checked_at": "2026-10-23T06:22:52.213824+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/README.md",
+      "bytes": 1789,
+      "sha256": "728d6e47d7c160ee1c66c2d6f5527ba5ae15be34a89ffd8bf5d4d0bb878a3e7d"
+    },
+    {
+      "id": "ka-hip-license",
+      "url": "https://raw.githubusercontent.com/KaHIP/KaHIP/2e86d3da2065bcf6ddbf6fb84d2b52f33db1061f/LICENSE",
+      "checked_at": "2026-10-23T06:22:52.521524+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/KaHIP/KaHIP/2e86d3da2065bcf6ddbf6fb84d2b52f33db1061f/LICENSE",
+      "bytes": 1078,
+      "sha256": "832b8dd8b654299baeb49051cbee325c99445ef75804b845954558de443e6353",
+      "license_copy": "docs/licenses/third-party/KaHIP-MIT.txt"
+    },
+    {
+      "id": "robinx-license",
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec/GPL-LICENSE",
+      "checked_at": "2026-10-23T06:22:52.584009+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "robinx-readme",
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec/README.md",
+      "checked_at": "2026-10-23T06:22:52.937620+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec/README.md",
+      "bytes": 2088,
+      "sha256": "8dc3bf652962110ea2b6897b9dc92defceda3249b84ca938ecb70d9743dbaa5a"
+    },
+    {
+      "id": "iwls2023-license",
+      "url": "https://raw.githubusercontent.com/alanminko/iwls2023-ls-contest/main/LICENSE",
+      "checked_at": "2026-10-23T06:22:53.032708+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/alanminko/iwls2023-ls-contest/main/LICENSE",
+      "bytes": 1072,
+      "sha256": "4b3b6776dbdc66e1239acab986f5a5cb823caadf9127e28c8a044dcb02b900e1",
+      "license_copy": "docs/licenses/third-party/IWLS2023-MIT.txt"
+    },
+    {
+      "id": "iwls2022-license",
+      "url": "https://raw.githubusercontent.com/alanminko/iwls2022-ls-contest/main/LICENSE",
+      "checked_at": "2026-10-23T06:22:53.062879+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/alanminko/iwls2022-ls-contest/main/LICENSE",
+      "bytes": 1072,
+      "sha256": "4b3b6776dbdc66e1239acab986f5a5cb823caadf9127e28c8a044dcb02b900e1",
+      "license_copy": "docs/licenses/third-party/IWLS2022-MIT.txt"
+    },
+    {
+      "id": "abc-license",
+      "url": "https://raw.githubusercontent.com/berkeley-abc/abc/master/copyright.txt",
+      "checked_at": "2026-10-23T06:22:53.407179+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/berkeley-abc/abc/master/copyright.txt",
+      "bytes": 1129,
+      "sha256": "819151b8f059a48f806c75732ef62b1f873b49b6a04fb128aed28bf87d3dcd6c",
+      "license_copy": "docs/licenses/third-party/ABC-copyright.txt"
+    },
+    {
+      "id": "gc-license",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/main/LICENSE",
+      "checked_at": "2026-10-23T06:22:53.433178+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/main/LICENSE",
+      "bytes": 1062,
+      "sha256": "c468a2bb37e376c19c25bd81ab821c9d9c6008f1db979c0507f99abac9071d67",
+      "license_copy": "docs/licenses/third-party/GraphColoringInstances-MIT.txt"
+    },
+    {
+      "id": "gc-readme",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/main/README.md",
+      "checked_at": "2026-10-23T06:22:53.790994+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/main/README.md",
+      "bytes": 5551,
+      "sha256": "fc558241944d16f57ec7c470e7797aa1429b4e15cbf50b15247a83171a0cd7bf"
+    },
+    {
+      "id": "minizinc-license",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/master/LICENSE",
+      "checked_at": "2026-10-23T06:22:53.835065+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/master/LICENSE",
+      "bytes": 1086,
+      "sha256": "682e731b25055903120b0e67dfb1cc981dda8981e85a1837e3c266d44732282b",
+      "license_copy": "docs/licenses/third-party/MiniZinc-benchmarks-MIT.txt"
+    },
+    {
+      "id": "minizinc-readme",
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/master/README",
+      "checked_at": "2026-10-23T06:22:53.890111+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/master/README",
+      "bytes": 2656,
+      "sha256": "d70b44e11326d3acf2755eff77db55a2640e4c617f3d22aeb49e7dacdabd7936"
+    },
+    {
+      "id": "nurse-license",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/master/LICENSE",
+      "checked_at": "2026-10-23T06:22:54.315302+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/master/LICENSE",
+      "bytes": 1103,
+      "sha256": "65b9dd930443545838ccf8562b1ba95f80b94d688401f0e8974392995b9bb279"
+    },
+    {
+      "id": "nurse-readme",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/master/README.md",
+      "checked_at": "2026-10-23T06:22:54.321775+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/master/README.md",
+      "bytes": 11583,
+      "sha256": "cf9b0a4f2807409e238ef25c561ab7682df321323aa3ce0f44e6612d4870d326"
+    },
+    {
+      "id": "oscm-pypi",
+      "url": "https://pypi.org/pypi/pace2024-verifier/0.3.8/json",
+      "checked_at": "2026-10-23T06:22:54.652124+00:00",
+      "status": 200,
+      "final_url": "https://pypi.org/pypi/pace2024-verifier/0.3.8/json",
+      "bytes": 5777,
+      "sha256": "2d2308370c835719e5c65fdccb714ec3fb206bd51a343789409fb4ce9c03698d"
+    },
+    {
+      "id": "oscm-tests-license",
+      "url": "https://raw.githubusercontent.com/PhKindermann/Pace2024-Testsets/603fd742/LICENSE",
+      "checked_at": "2026-10-23T06:22:54.662996+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/PhKindermann/Pace2024-Testsets/603fd742/LICENSE",
+      "bytes": 1069,
+      "sha256": "0d2c12b508572359c08666901c3bf1d510db7ac870e4e105050f9e75ee8b594a"
+    },
+    {
+      "id": "sygus-readme",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/master/README.md",
+      "checked_at": "2026-10-23T06:22:54.670395+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/master/README.md",
+      "bytes": 856,
+      "sha256": "f5b36bd127e293e473489b47c49536d94cb5cc9f8eb7f6c8c3afd0c9e6a75aaa"
+    },
+    {
+      "id": "sygus-license",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/master/LICENSE",
+      "checked_at": "2026-10-23T06:22:55.134733+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "cvc5-license",
+      "url": "https://raw.githubusercontent.com/cvc5/cvc5/cvc5-1.3.4/COPYING",
+      "checked_at": "2026-10-23T06:22:55.272279+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/cvc5/cvc5/cvc5-1.3.4/COPYING",
+      "bytes": 6211,
+      "sha256": "341cd23c1133beda63509cad8d82b96a47dc8e321bdd49ce8190e371110ccff7",
+      "license_copy": "docs/licenses/third-party/cvc5-1.3.4-COPYING.txt"
+    },
+    {
+      "id": "tw-readme",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/master/README.md",
+      "checked_at": "2026-10-23T06:22:55.395327+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/master/README.md",
+      "bytes": 1184,
+      "sha256": "862e2dd7b61c788107d76796dc4cb7edc11889dc3b9d879e44dc2c36e9532a73"
+    },
+    {
+      "id": "flow-license",
+      "url": "https://raw.githubusercontent.com/kit-algo/flow-cutter-pace17/master/LICENSE",
+      "checked_at": "2026-10-23T06:22:55.572292+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/kit-algo/flow-cutter-pace17/master/LICENSE",
+      "bytes": 1284,
+      "sha256": "8e6dd335e858988592fc6af52e20151f90bac3e0dd6dba97e1f5e6a74b555b7a"
+    },
+    {
+      "id": "lean-circuit-license",
+      "url": "https://raw.githubusercontent.com/SamuelSchlesinger/circuit-complexity/master/LICENSE",
+      "checked_at": "2026-10-23T06:22:55.727909+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/SamuelSchlesinger/circuit-complexity/master/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "id": "lean-tensor-license",
+      "url": "https://raw.githubusercontent.com/spectra-research/asymptotic-tensor-rank-semicontinuity/main/LICENSE",
+      "checked_at": "2026-10-23T06:22:55.738101+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/spectra-research/asymptotic-tensor-rank-semicontinuity/main/LICENSE",
+      "bytes": 10760,
+      "sha256": "d8d6475adc9148cf69643a2fa3c4f21f406ef202a0914db0096e7910b6c5751c"
+    },
+    {
+      "id": "sorting-license",
+      "url": "https://raw.githubusercontent.com/bertdobbelaere/SorterHunter/master/LICENSE",
+      "checked_at": "2026-10-23T06:22:55.913601+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/bertdobbelaere/SorterHunter/master/LICENSE",
+      "bytes": 1071,
+      "sha256": "392ae9933f7f9b1bde9c13c22c28fe5c5cd1d9d6b5ef070bcb8fd26ca0035db5"
+    },
+    {
+      "id": "sorting-networks",
+      "url": "https://bertdobbelaere.github.io/sorting_networks.html",
+      "checked_at": "2026-10-23T06:22:56.109716+00:00",
+      "status": 200,
+      "final_url": "https://bertdobbelaere.github.io/sorting_networks.html",
+      "bytes": 70598,
+      "sha256": "fb08a5cd90a460607586be0f753fa19baedc1e5fe1c7d4247efc1923e6dfd0f6"
+    },
+    {
+      "id": "ahc058-terms",
+      "url": "https://atcoder.jp/contests/ahc058/tasks/ahc058_a?lang=en",
+      "checked_at": "2026-10-23T06:22:56.208101+00:00",
+      "status": 200,
+      "final_url": "https://atcoder.jp/contests/ahc058/tasks/ahc058_a?lang=en",
+      "bytes": 30839,
+      "sha256": "00afe86cdce3c1e15c9da2b9c2be2ca9a55d59f68de37da38ba1e2574c199889"
+    },
+    {
+      "id": "ahc041-terms",
+      "url": "https://atcoder.jp/contests/ahc041/tasks/ahc041_a?lang=en",
+      "checked_at": "2026-10-23T06:22:56.585682+00:00",
+      "status": 200,
+      "final_url": "https://atcoder.jp/contests/ahc041/tasks/ahc041_a?lang=en",
+      "bytes": 28272,
+      "sha256": "b77d06d5ab6897d466a787e57b40559195ea3bb701790f16373ec1d8fa962ee6"
+    },
+    {
+      "id": "pace2024-terms",
+      "url": "https://pacechallenge.org/2024/",
+      "checked_at": "2026-10-23T06:22:56.614214+00:00",
+      "status": 200,
+      "final_url": "https://pacechallenge.org/2024/",
+      "bytes": 19292,
+      "sha256": "5ed7b15cfa9231b14be5f1641f84ca9c63a7f1d4609a49d18dcfecab42534a00"
+    },
+    {
+      "id": "pace2022-terms",
+      "url": "https://pacechallenge.org/2022/",
+      "checked_at": "2026-10-23T06:22:56.662216+00:00",
+      "status": 200,
+      "final_url": "https://pacechallenge.org/2022/",
+      "bytes": 9832,
+      "sha256": "6d44153753c933179676c10c2d16d2bc3a85c1b582f83c3400f64c797ff9157c"
+    },
+    {
+      "id": "pace2021-terms",
+      "url": "https://pacechallenge.org/2021/tracks/",
+      "checked_at": "2026-10-23T06:22:56.765222+00:00",
+      "status": 200,
+      "final_url": "https://pacechallenge.org/2021/tracks/",
+      "bytes": 22513,
+      "sha256": "9c70a5250f5e6498c6217923f05848ca0b619f2ed1b3b1f1b2b11d7cfe88157c"
+    },
+    {
+      "id": "orlibrary-legal",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/legal.html",
+      "checked_at": "2026-10-23T06:22:56.794341+00:00",
+      "status": 200,
+      "final_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/legal.html",
+      "bytes": 1952,
+      "sha256": "b54e280ce74750d3cda799f1bc176edfb8a6ab5c4bf71063d907a10534f1e1dc"
+    },
+    {
+      "id": "sage-mols",
+      "url": "https://raw.githubusercontent.com/sagemath/sage/develop/src/sage/combinat/designs/database.py",
+      "checked_at": "2026-10-23T06:24:16.385817+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/sagemath/sage/develop/src/sage/combinat/designs/database.py",
+      "bytes": 241572,
+      "sha256": "761494ddc5af3a79e16be01df9a03f6c8feda262edf6dd3767d18c40ec5db721"
+    },
+    {
+      "id": "sage-license",
+      "url": "https://raw.githubusercontent.com/sagemath/sage/develop/COPYING.txt",
+      "checked_at": "2026-10-23T06:24:16.388217+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/sagemath/sage/develop/COPYING.txt",
+      "bytes": 61366,
+      "sha256": "c7fe308343eafd6ca2926eaa9ddb430098d7267cb87b30a5c3e328f6b3d56ac8"
+    },
+    {
+      "id": "sorting-tree",
+      "url": "https://api.github.com/repos/bertdobbelaere/SorterHunter/git/trees/master?recursive=1",
+      "checked_at": "2026-10-23T06:24:16.388540+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/bertdobbelaere/SorterHunter/git/trees/master?recursive=1",
+      "bytes": 166514,
+      "sha256": "12d2745f3365c80b26e69e88deff0ebe07316a398fa42a43ff678057ece09e68"
+    },
+    {
+      "id": "circuit-tree",
+      "url": "https://api.github.com/repos/SamuelSchlesinger/circuit-complexity/git/trees/main?recursive=1",
+      "checked_at": "2026-10-23T06:24:16.389149+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/SamuelSchlesinger/circuit-complexity/git/trees/main?recursive=1",
+      "bytes": 10901,
+      "sha256": "c8f04487f1a507757e1576221d3d696911aa7d9b6258ba4006d247fa097008f8"
+    },
+    {
+      "id": "circuit-tree-master",
+      "url": "https://api.github.com/repos/SamuelSchlesinger/circuit-complexity/git/trees/master?recursive=1",
+      "checked_at": "2026-10-23T06:24:16.389746+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "circuit-basic",
+      "url": "https://raw.githubusercontent.com/SamuelSchlesinger/circuit-complexity/main/CircuitComplexity/Basic.lean",
+      "checked_at": "2026-10-23T06:24:16.390109+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "lean-tensor-source",
+      "url": "https://raw.githubusercontent.com/spectra-research/asymptotic-tensor-rank-semicontinuity/main/TensorRank.lean",
+      "checked_at": "2026-10-23T06:24:17.135946+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "robinx-tree",
+      "url": "https://api.github.com/repos/Robin-X/RobinX/git/trees/636951ec?recursive=1",
+      "checked_at": "2026-10-23T06:24:17.284324+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/Robin-X/RobinX/git/trees/636951ec?recursive=1",
+      "bytes": 1469312,
+      "sha256": "2dbce97d14fd0ad200234f5438246354e827691879e08b746b50081145d5fcb5"
+    },
+    {
+      "id": "atcoder-tos",
+      "url": "https://atcoder.jp/tos",
+      "checked_at": "2026-10-23T06:24:17.301295+00:00",
+      "status": 200,
+      "final_url": "https://atcoder.jp/tos",
+      "bytes": 16467,
+      "sha256": "b9401a70299cc516c83cc6670e71ccdb468db228bb47cd03daa5803a7ba6a17a"
+    },
+    {
+      "id": "cvrplib-policy",
+      "url": "http://vrp.galgos.inf.puc-rio.br/index.php/en/",
+      "checked_at": "2026-10-23T06:24:17.370587+00:00",
+      "status": 200,
+      "final_url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/instances",
+      "bytes": 1953834,
+      "sha256": "e7cb165bea314c9e3ec3ccf4cbd15e47ee8b442acbfdac4f96ae68d03e548212"
+    },
+    {
+      "id": "qaplib-terms",
+      "url": "https://qaplib.mgi.polymtl.ca/",
+      "checked_at": "2026-10-23T06:24:17.484182+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "id": "dimacs-color",
+      "url": "https://mat.tepper.cmu.edu/COLOR/instances.html",
+      "checked_at": "2026-10-23T06:24:17.658891+00:00",
+      "status": 200,
+      "final_url": "https://mat.tepper.cmu.edu/COLOR/instances.html",
+      "bytes": 12583,
+      "sha256": "79ac93058c11533bc19bb0111372a46cdd2b4f0ecc1dd797b3992e6ff5aa0ba0"
+    },
+    {
+      "id": "dimacs10",
+      "url": "https://www.cc.gatech.edu/dimacs10/downloads.shtml",
+      "checked_at": "2026-10-23T06:24:17.781809+00:00",
+      "status": 200,
+      "final_url": "https://sites.cc.gatech.edu/dimacs10/downloads.shtml",
+      "bytes": 15629,
+      "sha256": "a69e4d4dbefc6be4a47d197779d644cbf7a553ac18cb6d0ccba6d4686ff2081a"
+    },
+    {
+      "id": "calma-zib",
+      "url": "http://fap.zib.de/problems/CALMA/",
+      "checked_at": "2026-10-23T06:24:18.520959+00:00",
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "id": "roadef2018",
+      "url": "https://www.roadef.org/challenge/2018/en/instances.php",
+      "checked_at": "2026-10-23T06:24:18.841631+00:00",
+      "status": 200,
+      "final_url": "https://roadef.org/challenge/2018/en/instances.php",
+      "bytes": 7396,
+      "sha256": "b31214204938d728d5faf2e78ea0b222d317d398bf7617fb6f6cca6a1c55a0f4"
+    },
+    {
+      "id": "roadef-sol-license",
+      "url": "https://raw.githubusercontent.com/fontanf/roadef2018/master/LICENSE",
+      "checked_at": "2026-10-23T06:24:19.546960+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/fontanf/roadef2018/master/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "id": "roadef-sol-readme",
+      "url": "https://raw.githubusercontent.com/fontanf/roadef2018/master/README.md",
+      "checked_at": "2026-10-23T06:24:19.822221+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/fontanf/roadef2018/master/README.md",
+      "bytes": 710,
+      "sha256": "41bd4f0315932b3af9dd20b72e1f5a85210f83de6d5ddcb963b3c81f6d85957e"
+    },
+    {
+      "id": "nurse-official",
+      "url": "https://nrpcompetition.kuleuven-kulak.be/instances-results/",
+      "checked_at": "2026-10-23T06:24:19.901110+00:00",
+      "error": "got more than 100 headers"
+    },
+    {
+      "id": "mcqd-license",
+      "url": "https://gitlab.com/janezkonc/mcqd/-/raw/9ab9717/COPYING",
+      "checked_at": "2026-10-23T06:24:20.601210+00:00",
+      "status": 200,
+      "final_url": "https://gitlab.com/janezkonc/mcqd/-/raw/9ab9717/COPYING",
+      "bytes": 35819,
+      "sha256": "b3d1eae7f524fc9ddd48562a4652efd2bcd848e38b03f05e388bcce943e73df2",
+      "license_copy": "docs/licenses/third-party/MCQD-GPL-3.0.txt"
+    },
+    {
+      "id": "tsplib-terms",
+      "url": "http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/",
+      "checked_at": "2026-10-23T06:24:20.701927+00:00",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "id": "cc0-legal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+      "checked_at": "2026-10-23T06:24:20.706013+00:00",
+      "status": 200,
+      "final_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+      "bytes": 32223,
+      "sha256": "b43732f4c1463b087cf10d4daf8d8766514b2bf8f21bc5ef50905f95be227726"
+    },
+    {
+      "id": "ds-verifier",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/ds_verifier/master/LICENSE",
+      "checked_at": "2026-10-23T06:24:21.173738+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/MarioGrobler/ds_verifier/master/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "id": "hs-verifier",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/hs_verifier/master/LICENSE",
+      "checked_at": "2026-10-23T06:24:21.526515+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/MarioGrobler/hs_verifier/master/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "id": "vc-verifier",
+      "url": "https://raw.githubusercontent.com/hmarkus/vc_validate/master/LICENSE",
+      "checked_at": "2026-10-23T06:24:21.612369+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/hmarkus/vc_validate/master/LICENSE",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "id": "github-sygus-tree",
+      "url": "https://api.github.com/repos/SyGuS-Org/benchmarks/git/trees/master",
+      "checked_at": "2026-10-23T06:24:21.695410+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/SyGuS-Org/benchmarks/git/trees/master",
+      "bytes": 1457,
+      "sha256": "195ce5ec49d096661b9177d2c8d4a89f573dbb3a9c6856a416814f9487556b3d"
+    },
+    {
+      "id": "sorting-data",
+      "url": "https://raw.githubusercontent.com/bertdobbelaere/SorterHunter/2d3c63b0ca965768243e0e3b1c33b4a030b08613/Networks/Sorters/Sort_16_60_10.json",
+      "checked_at": "2026-10-23T06:26:15.551023+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/bertdobbelaere/SorterHunter/2d3c63b0ca965768243e0e3b1c33b4a030b08613/Networks/Sorters/Sort_16_60_10.json",
+      "bytes": 572,
+      "sha256": "6880b0f02fa1d2001059eea5f7f984abb2c38990ba1a05a85c7e96869ed5519d"
+    },
+    {
+      "id": "sorting-license-pinned",
+      "url": "https://raw.githubusercontent.com/bertdobbelaere/SorterHunter/2d3c63b0ca965768243e0e3b1c33b4a030b08613/LICENSE",
+      "checked_at": "2026-10-23T06:26:15.553460+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/bertdobbelaere/SorterHunter/2d3c63b0ca965768243e0e3b1c33b4a030b08613/LICENSE",
+      "bytes": 1071,
+      "sha256": "392ae9933f7f9b1bde9c13c22c28fe5c5cd1d9d6b5ef070bcb8fd26ca0035db5",
+      "license_copy": "docs/licenses/third-party/SorterHunter-MIT.txt"
+    },
+    {
+      "id": "circuit-basic-pinned",
+      "url": "https://raw.githubusercontent.com/SamuelSchlesinger/circuit-complexity/def6aca37be6b0bef80ae08ea9bce9031f46998e/Circ/Basic.lean",
+      "checked_at": "2026-10-23T06:26:15.553807+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/SamuelSchlesinger/circuit-complexity/def6aca37be6b0bef80ae08ea9bce9031f46998e/Circ/Basic.lean",
+      "bytes": 9448,
+      "sha256": "42e88b2f8d5df21e536d1a190648013066379d5ea1f19aa3f5b76556a84971fa"
+    },
+    {
+      "id": "circuit-license-pinned",
+      "url": "https://raw.githubusercontent.com/SamuelSchlesinger/circuit-complexity/def6aca37be6b0bef80ae08ea9bce9031f46998e/LICENSE",
+      "checked_at": "2026-10-23T06:26:15.554125+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/SamuelSchlesinger/circuit-complexity/def6aca37be6b0bef80ae08ea9bce9031f46998e/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "license_copy": "docs/licenses/third-party/CircuitComplexity-Apache-2.0.txt"
+    },
+    {
+      "id": "lean-tensor-tree",
+      "url": "https://api.github.com/repos/spectra-research/asymptotic-tensor-rank-semicontinuity/git/trees/main?recursive=1",
+      "checked_at": "2026-10-23T06:26:15.554451+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/spectra-research/asymptotic-tensor-rank-semicontinuity/git/trees/main?recursive=1",
+      "bytes": 32866,
+      "sha256": "b7a065fe1d3d9b58b2b0915a88ceb50f0d3233dbdf2a8517fa0b9b30307f5143"
+    },
+    {
+      "id": "robinx-online-main",
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/interface/onlineMain.cpp",
+      "checked_at": "2026-10-23T06:26:15.554791+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/interface/onlineMain.cpp",
+      "bytes": 4485,
+      "sha256": "0b6ee99d094585a061132809ae844c03edee18979baa9140d68ae9f1ebff5910"
+    },
+    {
+      "id": "sage-lam",
+      "url": "https://www.cecm.sfu.ca/organics/papers/lam/paper/html/POLS10/POLS10.html",
+      "checked_at": "2026-10-23T06:26:16.317708+00:00",
+      "status": 200,
+      "final_url": "https://www.cecm.sfu.ca/organics/papers/lam/paper/html/POLS10/POLS10.html",
+      "bytes": 764,
+      "sha256": "fb813fbfef39b9aaf95b03842d814c7da6c13d8aefd110958239f980f94ddb00"
+    },
+    {
+      "id": "jsplib-commit",
+      "url": "https://api.github.com/repos/ScheduleOpt/benchmarks/commits/master",
+      "checked_at": "2026-10-23T06:26:16.353421+00:00",
+      "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+      "id": "gc-commit",
+      "url": "https://api.github.com/repos/Cyril-Grelier/gc_instances/commits/main",
+      "checked_at": "2026-10-23T06:26:16.369148+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/Cyril-Grelier/gc_instances/commits/main",
+      "bytes": 5484,
+      "sha256": "3fdbd481586254f60ed14410503e398b0e1539a50a850187155c04963e32e710"
+    },
+    {
+      "id": "ce-commit",
+      "url": "https://api.github.com/repos/PACE-challenge/Cluster-Editing-PACE-2021-instances/commits/master",
+      "checked_at": "2026-10-23T06:26:16.394397+00:00",
+      "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+      "id": "minizinc-commit",
+      "url": "https://api.github.com/repos/MiniZinc/minizinc-benchmarks/commits/master",
+      "checked_at": "2026-10-23T06:26:16.472615+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/MiniZinc/minizinc-benchmarks/commits/master",
+      "bytes": 4485,
+      "sha256": "254674b6d6fe971a4a5f329ecd7f4e4e85825302c12973e1b1136f886e334dab"
+    },
+    {
+      "id": "pace2024-pypi-source",
+      "url": "https://raw.githubusercontent.com/benlbr/pace2024-verifier/main/LICENSE",
+      "checked_at": "2026-10-23T06:26:16.476246+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "lean-tensor-source-pinned",
+      "url": "https://raw.githubusercontent.com/spectra-research/asymptotic-tensor-rank-semicontinuity/f3a83b4e862c84ab718163d063093ad64644c9ef/AsymptoticTensorRankSemicontinuity/TensorRank.lean",
+      "checked_at": "2026-10-23T06:27:31.073924+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/spectra-research/asymptotic-tensor-rank-semicontinuity/f3a83b4e862c84ab718163d063093ad64644c9ef/AsymptoticTensorRankSemicontinuity/TensorRank.lean",
+      "bytes": 31319,
+      "sha256": "4baf3a01116cd7ec2a9464bbfdf101e3123388e02bd4d86305e42ffd561f8667"
+    },
+    {
+      "id": "lean-tensor-license-pinned",
+      "url": "https://raw.githubusercontent.com/spectra-research/asymptotic-tensor-rank-semicontinuity/f3a83b4e862c84ab718163d063093ad64644c9ef/LICENSE",
+      "checked_at": "2026-10-23T06:27:31.076086+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/spectra-research/asymptotic-tensor-rank-semicontinuity/f3a83b4e862c84ab718163d063093ad64644c9ef/LICENSE",
+      "bytes": 10760,
+      "sha256": "d8d6475adc9148cf69643a2fa3c4f21f406ef202a0914db0096e7910b6c5751c",
+      "license_copy": "docs/licenses/third-party/TensorRank-Apache-2.0.txt"
+    },
+    {
+      "id": "jsplib-commit-head",
+      "url": "https://api.github.com/repos/ScheduleOpt/benchmarks/commits/HEAD",
+      "checked_at": "2026-10-23T06:27:31.076468+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/ScheduleOpt/benchmarks/commits/HEAD",
+      "bytes": 80890,
+      "sha256": "c737798482abb09a42b476401d427c01d03ffed773b698e1e7654236111add60"
+    },
+    {
+      "id": "ce-commit-head",
+      "url": "https://api.github.com/repos/PACE-challenge/Cluster-Editing-PACE-2021-instances/commits/HEAD",
+      "checked_at": "2026-10-23T06:27:31.077553+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/PACE-challenge/Cluster-Editing-PACE-2021-instances/commits/HEAD",
+      "bytes": 6811,
+      "sha256": "fae7b92bef4e4a00fc1d7b14c4b3a207ac7539c050893fffcfc26d9a6c61b999"
+    },
+    {
+      "id": "oscm-wheel-license",
+      "source_path": "tasks/solver/online/oscm-pace2024/environment/app/verifier/pace2024_verifier-0.3.8-py3-none-any.whl",
+      "wheel_sha256": "dac096298fd12437aa2b02c986b0adf4e3040ace3531cad11da87daf75386158",
+      "license_member": "pace2024_verifier-0.3.8.dist-info/licenses/LICENSE",
+      "sha256": "4b990369357f4745a4b84f406a0122c08d904066a5202ae561fcfd9dfc153cc8",
+      "license_copy": "docs/licenses/third-party/PACE2024-verifier-MIT.txt",
+      "note": "Repacked local wheel; PyPI same-version wheel has a different digest."
+    }
+  ],
+  "remaining_release_requirements": [
+    "Implement local preparation/exclusions in source, clean export and every image layer.",
+    "Resolve copied/unlicensed code and document scopes before public distribution.",
+    "Bind permitted data to exact source files and preserve change notices.",
+    "Supply corresponding source/build/relink material required by actual distributed binaries.",
+    "Recheck final image digests and newly built task layers."
+  ],
+  "current_layout": {
+    "task_count": 100,
+    "physical_task_packages": 130,
+    "online_solver_packages": 30,
+    "offline_solver_packages": 30,
+    "note": "Same-source offline variants retain the recorded material-specific terms; the historical per-file inventory and hashes are not a new audit of the expanded layout."
+  }
+}

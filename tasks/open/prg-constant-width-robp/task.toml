@@ -1,0 +1,43 @@
+schema_version = "1.4"
+
+# Preserve the final agent workspace before verification, including auxiliary sources.
+artifacts = ["/app"]
+
+[task]
+name = "tcsexam/open-prg-constant-width-robp"
+version = "0.1.0"
+description = "Prove or refute the constant-width PRG conjecture at width 4 (explicit pseudorandom generator with seed length o(log^2 n) fooling all width-4 length-n standard-order read-once branching programs with error 1/n; open since Nisan 1992, explicitly posed by Braverman-Rao-Raz-Yehudayoff FOCS 2010 and Forbes-Kelley FOCS 2018) in Lean 4 (machine-verified). Open problem: no ground truth; the Lean kernel is the judge. Proving either main statement (conj or refuted) scores 1.0; there is no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "pseudorandomness", "branching-programs", "derandomization", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-prg-constant-width-robp"
+candidate_id = "cand-prg-constant-width-robp"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open problem (no explicit o(log^2 n)-seed PRG known for any width >= 4 at error 1/n; Doron-Hoza APPROX/RANDOM 2025: for width-4 ROBPs there are no known explicit PRGs, WPRGs, or HSGs with seed length o(log^2 n)). Full score needs a kernel-verified proof of one of the two main statements (conj or refuted); there are no checkpoints and no partial credit."
+source_paper = "N. Nisan, Pseudorandom generators for space-bounded computation, Combinatorica 12(4):449-461, 1992; problem made explicit by M. Braverman, A. Rao, R. Raz, A. Yehudayoff (FOCS 2010; SICOMP 43(3):973-986, 2014) and M. A. Forbes, Z. Kelley (FOCS 2018). Background survey: pseudorandomness-explicit-constructions.md (historical report not included in this package) (short name prg-constant-width-robp)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+network_mode = "public"
+timeout_sec = 43200.0
+
+[environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:ec925d7fd4f6db793f6ff98ff82623d213b29a1bc5c9902f12e2c0e8f163656f"
+os = "linux"
+network_mode = "public"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:7100ffdf64338007053878f0746de89a246ebd1b67efa5783871d7930269bf0b"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

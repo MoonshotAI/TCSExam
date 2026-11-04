@@ -1,0 +1,804 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/private_heuristic_001.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_001.gr",
+      "git_blob": "9c3f5d5c567eeae35772724160e647047c5027a6",
+      "bytes": 10689583,
+      "sha256": "33cca13791e780bfa6c661bbae7ac6b2c432dedd191227e494d23b735e2c62b9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_002.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_002.gr",
+      "git_blob": "9bf3e6612af6cd5ac1883af254489b466f57e739",
+      "bytes": 2480574,
+      "sha256": "a387f1ad1618369d18ec9c15039fee61b72e83486b28fcb708bab2bd9c15df40",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_003.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_003.gr",
+      "git_blob": "df9adc4130b20fb572536300254179051257b3a6",
+      "bytes": 1560304,
+      "sha256": "d7469b614144046eedd1b8cb38f2eaf040565cbbf2f52bd75916f46335012f93",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_004.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_004.gr",
+      "git_blob": "ad2bd50ed0cfaf54e60806e24d868d912e5f1597",
+      "bytes": 26195686,
+      "sha256": "e64def3984b3f1e97e6b1e255529a2d00c63a3ab9c0494abd01b0ad67bc934ff",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_005.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_005.gr",
+      "git_blob": "50d24ab7c15180e934acafba59cbaf127f4e1642",
+      "bytes": 5034137,
+      "sha256": "ab0b5739e6aaefe66a3dae127d989483d35500b383237eb995a4a24d92ea4696",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_006.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_006.gr",
+      "git_blob": "9d6e87a7fdf450c5c17414dd63b2fb1ddd408e4b",
+      "bytes": 3651651,
+      "sha256": "5527bbd01c018ae8cab910eb52a39cec45cfa8f0f6c15cf9fd0bb9e5c1f40745",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_007.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_007.gr",
+      "git_blob": "13935c59271a2fa4703c1f6779c757de369b7677",
+      "bytes": 2820416,
+      "sha256": "e3c074fef7fad8f5d9235dad585d4199468369cb10b3a1c5e3d56b7baa60205a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_008.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_008.gr",
+      "git_blob": "ea91726bec5a21cb0e57c92bce0396eb12b4ed36",
+      "bytes": 4121532,
+      "sha256": "107fca2d2832c87e96aaf41323877ff7781dbbc78dc1114f02416a1cf54f2f17",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_009.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_009.gr",
+      "git_blob": "2ee90eebb49c09fdbddec00590c17f0b92dcb213",
+      "bytes": 3911344,
+      "sha256": "a386edbd0450c21c5cac15ab413cb34d1045e059bb10dbd2e98a8992c4d851ac",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_010.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_010.gr",
+      "git_blob": "6e44fd934adc03480e1e757c7e957fa584959794",
+      "bytes": 3521927,
+      "sha256": "656ae360cd72d65af9a7a1576208e91d455557942976390e35481ad29f651baf",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_011.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_011.gr",
+      "git_blob": "79d5bdb26b51846211735789d118e56d3cbe0f58",
+      "bytes": 7693987,
+      "sha256": "8acfe7b41b3ff13d6297a09b0d17940484835d111ba86c5690d78fc4dfbc5c88",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_012.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_012.gr",
+      "git_blob": "680c9bdf626880c27f075014c3ac053ad16ca647",
+      "bytes": 17214834,
+      "sha256": "0294dcca32dee56254bb5706170722745d79fd6bcf3c1601543379e425630084",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_013.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_013.gr",
+      "git_blob": "a26caf5003bfc27a9c21fc6bf56e4603f2e9cd59",
+      "bytes": 39312793,
+      "sha256": "01041fa77c30eac2b24cd9744fa4a6fe0078c9723a1e59111331dfe7533179d4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_014.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_014.gr",
+      "git_blob": "d8bd67a57fd2831880d2d1c770c26a724f2d7f01",
+      "bytes": 13876620,
+      "sha256": "ba5243a35130737e6dd7291529dcc4e2d94720741e151bd9cb627e8c9f4a0e7b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_015.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_015.gr",
+      "git_blob": "daea2198ad588649576138368a0407e949635544",
+      "bytes": 42200977,
+      "sha256": "dba1d917419d94edea9748f8af1e772212d8d07cc6366d037fc6ad53e62205dd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_016.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_016.gr",
+      "git_blob": "febbe64270859000b8a80aaca2f314413672cfe3",
+      "bytes": 15079756,
+      "sha256": "c59e1e7da78b45d7c496c9c1aa31e02c9f00dc041cd1004353a9a9b0e8c8688b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_017.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_017.gr",
+      "git_blob": "28ee98faabe1140ebfe0739408c10631832cfc0c",
+      "bytes": 5416216,
+      "sha256": "346eb34774cbaa00b42aeb2249949813ab58eba9a30fe1798ef815fb8c450abb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_018.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_018.gr",
+      "git_blob": "e48f1403fc45519d48c93c19d978e6f4b6510b16",
+      "bytes": 10361579,
+      "sha256": "74e10521d708ef03912c5a211dd63ed09c652322239913999ee40312ea87ce1f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_019.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_019.gr",
+      "git_blob": "d884f99403ae2bfc029819087155aa139c6ec550",
+      "bytes": 36410497,
+      "sha256": "18b9a1399d583668cfc0165b03cc79c221a34d4ed61157b3355b9cafbbafc8f7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_020.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_020.gr",
+      "git_blob": "5ee727445985f7996fc98c319d034a9eed00a187",
+      "bytes": 27699053,
+      "sha256": "22faeb3f6c761cf88a204d68aa6d377de84335324f4f0857bf9888fb1bc1adad",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_021.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_021.gr",
+      "git_blob": "927c24fe2021670858a643ee35892e07a2f8604a",
+      "bytes": 46531800,
+      "sha256": "ca9f0dcc973fa8f81639e5e8b13dffc921c3f78a9f8c211727ac08ed2ec417a7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_022.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_022.gr",
+      "git_blob": "e3bef56002dcc53d3ddf851e2c0cecbb48979ec1",
+      "bytes": 12945782,
+      "sha256": "ed2dd12ea54c909719a52180b91691c4e5fb527bd44a393d62a4a82e4260afaa",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_023.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_023.gr",
+      "git_blob": "5a65d16eb5c1aebb71b2005c69ca31004872b458",
+      "bytes": 4324201,
+      "sha256": "8c26aa1d971e40b26df0fedfb46735022cdc930c89eae60c29e4698369fd289e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_024.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_024.gr",
+      "git_blob": "b6b721f3de9ece03e55d9cc358678f176498c41c",
+      "bytes": 6033424,
+      "sha256": "f81f76a95566775088b2d65daa12d53dc21ad3be8bf53ecfed74336eb02cae10",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_025.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_025.gr",
+      "git_blob": "30d7fc7d8fdf02fce1a23da741fbde776463bb47",
+      "bytes": 22913900,
+      "sha256": "7a33692fbe8f1de3c6205dcc96574cf58e5c1e65ed85e1e216a41bf50f3ae150",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_026.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_026.gr",
+      "git_blob": "735ab259060655a41e638b8fa075ef0b9b150a1d",
+      "bytes": 25134558,
+      "sha256": "61ef25fcf80a43b75ab65222094cf02c433325bbb560f2b290c1f993584157de",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_027.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_027.gr",
+      "git_blob": "eb7cbfb5d4604c5ba05e6581b430c45f006bc70a",
+      "bytes": 14137974,
+      "sha256": "79cede44e39ffbae5c41de74fe517c64d888ee16ca15a69da77c5744416cd384",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_028.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_028.gr",
+      "git_blob": "5a49247f2b06f031e0d78b0115462675fc24e3a5",
+      "bytes": 40479943,
+      "sha256": "e33cf3f06ff83368bbf608d8c59bc0fdc63820a0d42a33fbe8129f54d47185f1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_029.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_029.gr",
+      "git_blob": "7204650c53b37ad0f43e69974eb302a8a137cf31",
+      "bytes": 9429967,
+      "sha256": "1eed02916c43dd5a62dd1e06599f1d6943379c534e6e50305cbb21d949f1f75d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_030.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_030.gr",
+      "git_blob": "34bc46d4e02c4e3083ec3e4e76e8c3ec7fa17f45",
+      "bytes": 22312298,
+      "sha256": "965ba6e0372787c70e6094da39d369596c2d8002845028b68e1a7fae8ac6b888",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_031.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_031.gr",
+      "git_blob": "96a370e11a6c6bcf33eb92f2f5e2f466ba6a49cf",
+      "bytes": 12806732,
+      "sha256": "ac69da9919f580d68184eb5b715f8c4ee3174140533392d827972083bc65b1f7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_032.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_032.gr",
+      "git_blob": "54dac6783e636d1d9b4ac617125b589ac21edd47",
+      "bytes": 58080641,
+      "sha256": "b6cfe6f4157d967754c0b80043bd8a6e0a958291073757b45aeff749d5688511",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_033.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_033.gr",
+      "git_blob": "b0dced41c5ab25b96f3a1a82dda775d46e8be28f",
+      "bytes": 15470182,
+      "sha256": "f75b06d705675b145e821aa4cd1ed4bbf8c71c16cfb022b6586013cb0406a6ea",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_034.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_034.gr",
+      "git_blob": "773939aece5c43bf1954d8da03c647a68468566a",
+      "bytes": 22135548,
+      "sha256": "d78e548f8c4495a694a9b7ca3e71a120866fd9c1365728d5400f059c6e4696cb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_035.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_035.gr",
+      "git_blob": "27dd6a9eca1a87266685644374390307643e9c61",
+      "bytes": 5157259,
+      "sha256": "a3648fa7804b9b915c24edc9345c7ed6f0ef0ed686c7e5d14cde28ed71f6a2a9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_036.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_036.gr",
+      "git_blob": "878b9f6e8811e390a813e89080d15214ad2e999b",
+      "bytes": 34571812,
+      "sha256": "5bf76303553bf9535107b2d88a2b927a8c0a11d16832deab4c22b0e8a62cd61a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_037.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_037.gr",
+      "git_blob": "03048720b38cf716d8b81ece8d63490d965b731b",
+      "bytes": 3656382,
+      "sha256": "74ae680d750f7a96ba84f89abaae867a041b6c4e0dede5bece34ea8783347ad7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_038.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_038.gr",
+      "git_blob": "86e6d5aa06e62e8f32107a4a3032dddeb9640b26",
+      "bytes": 4408409,
+      "sha256": "f8b9d28767e269b1f8ca646eae69c80c5fd6bc3e69ef18ebe6c2ee5003f00cd2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_039.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_039.gr",
+      "git_blob": "ee1926a1c2f3b56872c2ebf8d95317b3a4c759be",
+      "bytes": 16896677,
+      "sha256": "bbfd0e457a787ef7b4160c2e66cbe3f72e27a9c19f9e5596ab0983ad5966d172",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_040.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_040.gr",
+      "git_blob": "3e098765c2cb0475ced9e9558e9b2ba48fb7b470",
+      "bytes": 162685998,
+      "sha256": "798f5918c69e62b01aef97f6edfaef386dcd75b34b9b22417a05d5459f50d2da",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_041.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_041.gr",
+      "git_blob": "544f47a59c5ac0339bf64e34bf03968cdc9b1c4c",
+      "bytes": 4484082,
+      "sha256": "c892af59bb97c078e5982c7330f5aad4cc4b48e1d761788c5c204c5816e661dd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_042.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_042.gr",
+      "git_blob": "e5164d965106bc1d43bd98a0f306216c1be5d4f9",
+      "bytes": 17639097,
+      "sha256": "7c88d06f36c7ab4e4037f84ae0a9a8b0cf412cd3a03924c784ce2e91ca412893",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_043.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_043.gr",
+      "git_blob": "09e614b8c48b9205b1dfa94531c55f078bcdbe03",
+      "bytes": 1394616,
+      "sha256": "8ce379b60eda07d08f82640eebbfb9dbed27e9f835839fb8b98776e77e3de796",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_044.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_044.gr",
+      "git_blob": "708b8565bcaa3f17e2858094fb54b0de0d81b331",
+      "bytes": 17717812,
+      "sha256": "65430f97b27e96c48884c8d6675e27adec656617ef40b6c7003055a5a423f60f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_045.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_045.gr",
+      "git_blob": "440d29c149679f4d9e74b12090434dd2d53e43a4",
+      "bytes": 88599493,
+      "sha256": "b63a71fd150eecb94610883db9fb4835f1e47bae915c4376bb1b0fa5ca2c0393",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_046.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_046.gr",
+      "git_blob": "c3b4b6141d0ff5dff394508a70707679c2b33492",
+      "bytes": 1737321,
+      "sha256": "12a19c9fc850ebec0edd023ed780806c68e0593f9015165e87db3acee98402b9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_047.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_047.gr",
+      "git_blob": "5ae30c9e5bea880b6ed641e69478cae960d2f78b",
+      "bytes": 3517305,
+      "sha256": "07a3c2c44bb6d075e9188f91abc864fd550fd18ab0056eb4e4341b98490b8858",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_048.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_048.gr",
+      "git_blob": "5400b1e93c7ef51836a956007aa7cac1249b9387",
+      "bytes": 4352151,
+      "sha256": "38fcedcdb0f09579aa2721e722b0c0e93d09d3a785f8c344909c9a74a8543e2a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_049.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_049.gr",
+      "git_blob": "a8489714bd7097eda14214acbbddcdab5166054b",
+      "bytes": 72209149,
+      "sha256": "4c7aaea196c6524d9c934fb65541475e8d647ac482d9dd28c1cdc8bbcae8a717",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_050.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_050.gr",
+      "git_blob": "24fecfd2355bf1e6467995bfb3a13e25147279de",
+      "bytes": 35440380,
+      "sha256": "954d7be2b28aee65fa946b632da997ff95e91e97612b22781eaf454e131deac5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_051.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_051.gr",
+      "git_blob": "10db63232fbe2dc03e661480a1a527e685c7005d",
+      "bytes": 52823569,
+      "sha256": "f7eca30698841a1527f393c5d9eae314816d0328199215c679af3a065ba79702",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_052.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_052.gr",
+      "git_blob": "9092e2de68619f2ee609c4f7a6575f87e9c9c857",
+      "bytes": 13654604,
+      "sha256": "dad90d989a358f0534058433ee7788224540dcbfd0725c63fdd48819c8cf2604",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_053.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_053.gr",
+      "git_blob": "765dd94b3b2a80c6013b533872afc7039b654047",
+      "bytes": 16334049,
+      "sha256": "2a00b717badf5d106804d6d43055a677b70171d572b126ca5261d13f586654af",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_054.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_054.gr",
+      "git_blob": "d79422ab9b3004818f0ef0a4fc083f74f5d095e0",
+      "bytes": 51398336,
+      "sha256": "5689807d50b2bde367e086672af1f9e21950fc9e94968a012db4ba49a1f896fd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_055.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_055.gr",
+      "git_blob": "7f45ffe08fcc6158e448ac0edca56d28e5125ee6",
+      "bytes": 3961029,
+      "sha256": "72db6844a99617cb8520ce2b4f000170758a734c72e2963a1b93273ff5d04706",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_056.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_056.gr",
+      "git_blob": "0ee181f05f4dcb4dda91fbe12ec972da49a0d50e",
+      "bytes": 16200346,
+      "sha256": "34cc1619649ee8eefa2e4938858dcd249caf08024a2602d75608d51652c98ce3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_057.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_057.gr",
+      "git_blob": "7f375a89aff36224cf44836268b8e249155322a6",
+      "bytes": 12167040,
+      "sha256": "434fc026a9dba4fbcbba848f3cd019eec2618f806a3b97206c7e1a1a077f41b0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_058.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_058.gr",
+      "git_blob": "130014748cf3c7e3f07beeb78de5736d9c5fc34a",
+      "bytes": 603471,
+      "sha256": "77001fc2517f0d9b899c2ff8676573ef3aad75d3c27afd4f30ba0c105dcb8730",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_059.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_059.gr",
+      "git_blob": "100f7ffa0cb2eb60215ecbe88250807b18420b34",
+      "bytes": 1311659,
+      "sha256": "731ceb756df5a0c95a0874cb6c29f988b3bc29c88b20d0ebe08be0460dcae068",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_060.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_060.gr",
+      "git_blob": "5703beae37db57d526b29297c44be911ef14af8c",
+      "bytes": 22194929,
+      "sha256": "0dc07ecacbd0955ddd698b1618d5c1ae294a6b2f790baf3621cfcec34df5a074",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_061.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_061.gr",
+      "git_blob": "ce1b11aac21610c7bd804193c305b2ac2b5fab70",
+      "bytes": 3523440,
+      "sha256": "4a3e90f9e605854a35095e08dc3793b4b5bd31afd9a2a32a53b047548f6d37d3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_062.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_062.gr",
+      "git_blob": "add1ece7a425670002f821edeaefee040ad6ce6f",
+      "bytes": 8278772,
+      "sha256": "8b712a0e66287eacd1f336a05bee789b6983c29228fe3c8bcb231359262aaf50",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_063.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_063.gr",
+      "git_blob": "9fbd364d419e78aa7da038fab05df4abb6d3f8f2",
+      "bytes": 581762,
+      "sha256": "d160c1f9678bb930989d29fcea5afc9c9642f15b5cae22438c48fd18e9571748",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_064.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_064.gr",
+      "git_blob": "e7c2a37838f4619b0e37ebcd028d84050f718b62",
+      "bytes": 5623293,
+      "sha256": "fa57fcd9783c97162d437408fe4b195aef21c0f1bfd11f35896a0059fa3cb9bf",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_065.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_065.gr",
+      "git_blob": "4da7539f99a7c31eb36ca164621c6a4408f74ec7",
+      "bytes": 19623501,
+      "sha256": "b5624d85301bdd231b198584b1168f3b672bedcc15c7ed3a066758647a4cd894",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_066.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_066.gr",
+      "git_blob": "520b6bf5884db71b69b933e8341b0623721ebc07",
+      "bytes": 18842434,
+      "sha256": "5d9df21d447e5035ac7663751144bd582260b19cca8e06b968f5c5e8ce9e0f44",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_067.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_067.gr",
+      "git_blob": "370524ec4bd07b79c559d946616f486532a73f02",
+      "bytes": 22552782,
+      "sha256": "3a269d1ee8f1c161f122abc2d7572d729bd6ed8cac4a271b5e05da0676b1b38c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_068.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_068.gr",
+      "git_blob": "bac138e1583a741684d1cbb74626dbbf6514fac7",
+      "bytes": 29718272,
+      "sha256": "0d54be467800c6251b44a83e782da6401c4421e8a14d53a119ca65be9a6997bd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_069.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_069.gr",
+      "git_blob": "555f21ed59a6033f473dd076b83b51bb8080b0d8",
+      "bytes": 20344122,
+      "sha256": "23602b94cc40b16ca760898a82fdb9d2164b49083986273391d49d8e7e2e7a26",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_070.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_070.gr",
+      "git_blob": "7278ceace18d59a4c1bbe22248b46d57be0b5136",
+      "bytes": 4127115,
+      "sha256": "aa3a27f7ef32cb8ef7b699b37188c2178ab32d6f60c4f5a3436c6b2549229bfc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_071.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_071.gr",
+      "git_blob": "1ae55a0496cd2d64ad7e8abbf216ab37da992ccc",
+      "bytes": 12824628,
+      "sha256": "7800787ded11df258c7977603b9be639bd482ec8e9e082e431e9abf3f3c57de5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_072.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_072.gr",
+      "git_blob": "a39aa14cef6029b216dd8cb9eec13eb76d527838",
+      "bytes": 11627450,
+      "sha256": "42e3078adaf7070dd46ab24b1e19e0ec1c189e9b58e99fc239e90f98b78bf6b3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_073.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_073.gr",
+      "git_blob": "000868201234d689e4a2f8b001a24919cf93031b",
+      "bytes": 22932162,
+      "sha256": "4c32582da71a0bb17fcf495b55a248ef1c1e8eb443e6df390a3990453d1974ef",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_074.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_074.gr",
+      "git_blob": "79beb72fb9b8f7be229246b5149bbeb9dbe22d5a",
+      "bytes": 1915690,
+      "sha256": "0bca67d20097025ad1e042d123067ec2ea9423b2b7fd6bf51bcdd2864c8263f9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_075.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_075.gr",
+      "git_blob": "c7b64397e947554be6746262d2598050dd5d31f8",
+      "bytes": 34825091,
+      "sha256": "cb40a7b648c4370218cda83ff51ab3c1aea214d387acd45f648f1b169475b4e3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_076.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_076.gr",
+      "git_blob": "081d5d1a134f3aca487a92bc1914be093011c84d",
+      "bytes": 29773946,
+      "sha256": "28b99b95ce5e162d946f72f4f142c201584fe492d2dc92820f799a6cf1fba57b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_077.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_077.gr",
+      "git_blob": "fa3ea47d189f5024cb57b93266b48457cabc5daf",
+      "bytes": 41578631,
+      "sha256": "c1eba058ee3240f62be7c728a5eccdcd38a927b2e89a9e2010c98065089cae18",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_078.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_078.gr",
+      "git_blob": "19c2529d61936ca5ce6a5fdabe936875932d686c",
+      "bytes": 12749833,
+      "sha256": "0d9feeacadcf67f99817746a55c56b17f45e0873a931dde044e03c9bc9ff7f6d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_079.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_079.gr",
+      "git_blob": "685b39d08480ebb18250ecd45167b293fe1346cd",
+      "bytes": 84366883,
+      "sha256": "05a2b9ebb8ec121b14c4d849e62574e0e37bb5f85fef109fac8bc2edfa12b7da",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_080.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_080.gr",
+      "git_blob": "ef4de1a42ef17437913dbcb2bdee327959788221",
+      "bytes": 4820860,
+      "sha256": "b9a09be42c91424ad9242cfaa5a8bae4cd4bd0dfbf51eaab7e57df971d14d5f5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_081.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_081.gr",
+      "git_blob": "6a27738fa4d368917097b013158ec5903af2f405",
+      "bytes": 3375283,
+      "sha256": "235e45043894eeac5d361e9833dc78007c99ba6d25cabb54d66cacba2bf2da17",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_082.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_082.gr",
+      "git_blob": "376091102f64c857268d773301f9287a3de57671",
+      "bytes": 12727501,
+      "sha256": "ff25c6575a5a78703f2d323e0d3b662fde5bce5dd9acd8cadced536c41ad4698",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_083.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_083.gr",
+      "git_blob": "fbd3bb6c29632761262dfb591c87abb7a62d3014",
+      "bytes": 31419239,
+      "sha256": "6b712a5b587d33c1eb39e9168722a060ad4c517301bc69c1f7bc1e7c4944e555",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_084.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_084.gr",
+      "git_blob": "558450ce573cff85f31799c674fb6f5c043d7933",
+      "bytes": 65952441,
+      "sha256": "4fb068ac8b7a9dcdd3f16aa59f49efdd31baa8e1c8c973385fe47c3db4a2a238",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_085.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_085.gr",
+      "git_blob": "28c44f16b3b45e1b24facd922e5a1fada440dd01",
+      "bytes": 20433986,
+      "sha256": "8b51bdf0d90408830bf6850be27e3f9a6de82f49f6f1649755b94669d86fd4e6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_086.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_086.gr",
+      "git_blob": "d73bacaad9d43cc48c3d792db6253c2f9128b3a2",
+      "bytes": 7665859,
+      "sha256": "26e4cb914644a7dd80c41bafe0a557945c7584346f06b3bf67657ef146fb7e99",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_087.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_087.gr",
+      "git_blob": "3dd53f6152cd767d2fec5a884fc260c42a5080c0",
+      "bytes": 3007709,
+      "sha256": "cd0eee3a6fe5bce99ab0c6186b14ab96367b1a7d51fbc21365143517a6664875",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_088.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_088.gr",
+      "git_blob": "de3b00f8ee75ab46a5df01c3f15c4745e51ff589",
+      "bytes": 52658837,
+      "sha256": "fc66cdff2d17e5949f1c3b491559652e759d000043b3fcfc89823e27ecb4f9ff",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_089.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_089.gr",
+      "git_blob": "6e6273e50e7a16ea754b4f34d3ad2041bf87bffa",
+      "bytes": 11833945,
+      "sha256": "59a7edf9b04ea6d2b2d13c344e23a9dbf0e14780095a2f433ca518ad400ac03f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_090.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_090.gr",
+      "git_blob": "e4255b4ff64842a5c5d284259a011b3c0acf474a",
+      "bytes": 48270341,
+      "sha256": "3c9cbab07c0976a754a2eb51f43f80e61c6109b01fc1c606b8d8589bb6c4f589",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_091.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_091.gr",
+      "git_blob": "46387d1f2f7da4a14c9979f6db67c269e0b20f76",
+      "bytes": 8234277,
+      "sha256": "14389d43d172ab4c9072941f26adc2006f9732e72d46362eae9a9c1d87505101",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_092.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_092.gr",
+      "git_blob": "1030a0c86c36dba4e0ea4cc2dcb6be022478aa7b",
+      "bytes": 20897776,
+      "sha256": "ae9ff4532785d6b269d12858f2549046aa5af43cda5e4d9ce97bfe145efdd6ed",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_093.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_093.gr",
+      "git_blob": "b88e4242a30c3e2ff1d3f466e738311e23e882b2",
+      "bytes": 1780749,
+      "sha256": "d39016be3aa30c19bdd3ce2b214b11cc0a2c8ce2aad16fc4369016a4e2696cd7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_094.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_094.gr",
+      "git_blob": "0953e4c9d21eaab8f23bd2a3897ba7d055c2ba9f",
+      "bytes": 1270350,
+      "sha256": "5f4fda442c8c65f2faead359e846dba8e7e10cc2f902dc3b7b1debada6d6cac7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_095.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_095.gr",
+      "git_blob": "e70dff1e388d391ec91384fb6a910e59d2be8fe9",
+      "bytes": 2697215,
+      "sha256": "7314d6a9467d63f3464cc657d9f1c118e11af8ef81389b470ad83032606d75cb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_096.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_096.gr",
+      "git_blob": "4c2a54c87e75f859bdb72458a8d0315ae323deb3",
+      "bytes": 7691623,
+      "sha256": "7a9cabf309b7af16621dc53de491401bae9b714be9f3467ba72a8db50c4093f5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_097.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_097.gr",
+      "git_blob": "8907d4b8da8583936e5ac1696604d87379d8dc68",
+      "bytes": 3569686,
+      "sha256": "23702d801cd6769c71f86749dc31aa10c527bee495c7a60d660b244a857686d9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_098.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_098.gr",
+      "git_blob": "c393ab7de93e4b12436d1271c9cca9b71fe63563",
+      "bytes": 2090376,
+      "sha256": "b826caa0b44622d5ea28f76d5a385f05668696ad74c3c4be3a1ca40ca7b359d4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_099.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_099.gr",
+      "git_blob": "abc9d6ec9eec591b4cabdcc13ef3ae278c764c6c",
+      "bytes": 23862650,
+      "sha256": "342f78cf4a3a98180930bca3f5c210fd566e56b32686d942bcda2f62e1951ea2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_100.gr",
+      "source_path": "tasks/solver/online/ds-pace2025/tests/instances/private_heuristic_100.gr",
+      "git_blob": "26731f08ac837c0632ed17353fa5904ff9991ca3",
+      "bytes": 27338596,
+      "sha256": "7b522f8847c45fde78ff2c33b35808e5daaba51ceb9065f15206aff4161bc919",
+      "mode": "0644"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "checked": "2026-10-15",
+  "scope": "Companion QBF attribution and source correspondence, no data files, solver programs or secret permutation material.",
+  "files": [
+    {
+      "path": "docs/licenses/third-party/QBF-DATA-NOTICE.txt",
+      "bytes": 1213,
+      "sha256": "42624d84e4cd9abc41abac491f138c7b76598d7d8e324313fe43b65908a1e4ca"
+    },
+    {
+      "path": "docs/licenses/third-party/QBF-ParaProofa-CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "docs/licenses/third-party/ParaProofa-root-MIT.txt",
+      "bytes": 1096,
+      "sha256": "1a82d0c90a00ebd564f94eaeb9cc67d8e54b2979766d508a171aca08d1a91519"
+    },
+    {
+      "path": "docs/licenses/third-party/QBF-BMC-Toronto-research.txt",
+      "bytes": 1269,
+      "sha256": "0c39837c3bbabd3762733915f7f741df06d4db241a41e0322f372b26cc41acc8"
+    },
+    {
+      "path": "docs/licenses/third-party/qbf-data-distribution-source.json",
+      "bytes": 68229,
+      "sha256": "a1fefee7769b8e201dc7f8f222aee020221792f0077089bbcc80dd8bcffb785c"
+    },
+    {
+      "path": "docs/licenses/third-party/qbf-original-source-review.json",
+      "bytes": 61100,
+      "sha256": "c9ede22fa37bac889a18fb5c6adbc8554a52dc2013937f44360b4fb8fa6e49d5"
+    }
+  ],
+  "integration_complete": false
+}

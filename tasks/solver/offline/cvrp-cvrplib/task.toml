@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/cvrp-cvrplib"
+version = "1.0.0"
+description = "Optimize a capacitated vehicle routing solver (80 public practice instances from a public CVRP benchmark library, plus a 76-instance background library; final judging once on 34 hidden instances): minimize total route length under a per-instance wall-clock limit — scored against a deterministic Clarke-Wright savings + local search baseline and best-known values (mostly proven optima)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "vehicle-routing", "cvrp", "cvrplib", "metaheuristics", "type-2-solver"]
+
+[metadata]
+family_id = "fam-cvrp"
+candidate_id = "cand-cvrp-cvrplib-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "CVRP is NP-hard and the judged instances span 30 to 1,000 customers with a fleet-size constraint. The shipped baseline (Clarke-Wright savings + 2-opt/Or-opt/relocate/swap local search, fully deterministic) sits 0.3% to 26% above the library best-known values (median ~5%). Closing that gap within 180 s per instance needs real machinery — iterated local search with ruin-and-recreate, tabu, ALNS, or hybrid-genetic style population search — and the continuous score rewards every unit of route length saved; the K anchors are CVRPLIB best-known solutions (85 of 114 proven optimal), produced by state-of-the-art solvers with hours of compute."
+
+[verifier]
+timeout_sec = 1209600.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+
+
+[verifier.environment]
+network_mode = "no-network"
+build_timeout_sec = 3600.0

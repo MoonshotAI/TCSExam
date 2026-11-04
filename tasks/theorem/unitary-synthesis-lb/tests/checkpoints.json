@@ -1,0 +1,13 @@
+{
+  "main_theorem": "advantage_expectation_bound",
+  "namespace": "UnitarySynthesisLB",
+  "checkpoints": [
+    {
+      "name": "advantage_expectation_bound",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 4.17 of Lombardi-Ma-Wright (STOC 2024, arXiv 2310.08870v1): there is an absolute constant C > 0 such that every one-query adversary (M, V, Pi) with 1 <= M and 1 <= K has expected distinguishing advantage at most C sqrt(ln M / K) over a uniform function family; the zero-weight-row premise is packaged as a hypothesis, and the Section-3 game layer and the Theorem 4.18 tail upgrade are out of scope (see tests/reference/concept-ledger.md)."
+    }
+  ]
+}

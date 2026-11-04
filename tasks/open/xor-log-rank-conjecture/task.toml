@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-xor-log-rank-conjecture"
+version = "0.1.0"
+description = "Prove or refute the XOR log-rank conjecture (Montanaro-Osborne 2009, arXiv:0909.3392; parity decision tree form of Tsang-Wong-Xie-Zhang, FOCS 2013, arXiv:1304.1245: parity decision tree depth of any Boolean function is at most a universal power of the log of its Fourier sparsity) in Lean 4 (machine-verified). Open problem: no ground truth; the Lean kernel is the judge. Proving either main statement (conj or refuted) scores 1.0; there is no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "communication-complexity", "boolean-function-analysis", "fourier-analysis", "log-rank", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-xor-log-rank-conjecture"
+candidate_id = "cand-xor-log-rank-conjecture"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open conjecture (unresolved since 2009; best known upper bound PDT(f) = O(sqrt(sp(f))) by Tsang-Wong-Xie-Zhang 2013; for the communication form, Sudakov-Tomon 2023 (arXiv:2311.18524, Matrix discrepancy and the log-rank conjecture) modestly improved Lovett's bound to D^CC = O(sqrt(rank))). Full score needs a kernel-verified proof of one of the two main statements (conj or refuted); there are no checkpoints and no partial credit."
+source_paper = "A. Montanaro, T. Osborne, On the communication complexity of XOR functions, arXiv:0909.3392 (2009). H. Y. Tsang, C. H. Wong, N. Xie, S. Zhang, Fourier sparsity, spectral norm, and the Log-rank conjecture, FOCS 2013, arXiv:1304.1245. Background survey: communication-information-complexity.md (historical report not included in this package) (short name xor-log-rank-conjecture)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-xor-log-rank-conjecture-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "task": "tasks/solver/online/qbf-qbfeval",
+  "remove_paths": [
+    "/opt/qbf-judge300.tar.enc",
+    "/opt/qbf-judge300",
+    "/tests/judge300.key",
+    "/tests/reference.json",
+    "/tests/anchors.json",
+    "/tests/reference-hidden.json",
+    "/tests/solution"
+  ],
+  "allow_content_paths": [
+    "/judge",
+    "/tests-public",
+    "/public-instances",
+    "/public_reference.json",
+    "/opt/qbf-public100",
+    "/opt/qbf/scoring.py",
+    "/opt/qbf/verify_qbf.py",
+    "/opt/qbf/drat-trim",
+    "/opt/qbf/qrp2rup"
+  ],
+  "required_paths": [
+    "/judge/entry.sh",
+    "/judge/judge_worker.py",
+    "/tests-public/checker.py",
+    "/tests-public/reference.json",
+    "/public-instances",
+    "/public_reference.json",
+    "/opt/qbf-public100",
+    "/opt/qbf/scoring.py",
+    "/opt/qbf/verify_qbf.py",
+    "/opt/qbf/drat-trim",
+    "/opt/qbf/qrp2rup"
+  ],
+  "distribution": "redistributable",
+  "public_upload_allowed": true
+}

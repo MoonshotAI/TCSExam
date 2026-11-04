@@ -1,0 +1,13 @@
+{
+  "cpus": 1,
+  "memory_mb": 16384,
+  "seconds": 600,
+  "check_seconds": 300,
+  "module_dir": "/opt/maxcut",
+  "instances_dir": "/opt/public-instances-judge",
+  "pool": false,
+  "base": "solver-maxcut-mqlib-judge-os-v1",
+  "task": "maxcut-mqlib",
+  "build_seconds": 600,
+  "disk_mb": 8192
+}

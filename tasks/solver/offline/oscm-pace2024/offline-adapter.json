@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/oscm-pace2024",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/oscm-pace2024/tests/checker.py",
+      "target": "tasks/solver/offline/oscm-pace2024/tests/checker.py",
+      "sha256": "a51734d0e9472690b8a914cecfac2bfa6291aa0d6bfd5a582c4899e52583ae4e"
+    },
+    {
+      "source": "tasks/solver/online/oscm-pace2024/tests/reference.json",
+      "target": "tasks/solver/offline/oscm-pace2024/tests/reference.json",
+      "sha256": "509b4be1bda8d11cbdd5e678ac5183a26fb8da1b43cf77168080a2babf059c34"
+    },
+    {
+      "source": "tasks/solver/online/oscm-pace2024/tests/anchors.json",
+      "target": "tasks/solver/offline/oscm-pace2024/tests/anchors.json",
+      "sha256": "ddbbc1c12e9bfde8a6f41a5931cd82f1b208842b36c968174f2dc86fb5c3f367"
+    },
+    {
+      "source": "tasks/solver/online/oscm-pace2024/tests/metric_config.json",
+      "target": "tasks/solver/offline/oscm-pace2024/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-oscm-pace2024",
+  "verifier_dependency": "backend-online-oscm-pace2024",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

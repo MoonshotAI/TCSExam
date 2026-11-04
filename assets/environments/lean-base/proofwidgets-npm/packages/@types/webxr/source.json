@@ -1,0 +1,43 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-h8fgEd/DpoS9CBrjEQXR+dIDraopAEfu4wYVNY2tEPwk60stPWhvZMf4Foo5FakuQ7HFZoa8WceaWFervK2Ovg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@types/webxr/-/webxr-0.5.24.tgz",
+    "version": "0.5.24"
+  },
+  "lock_path": "node_modules/@types/webxr",
+  "name": "@types/webxr",
+  "name_basis": "Name from the exact npm lock path; archive-root package metadata was not copied by the notice-only extraction.",
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1141,
+      "installed_file": "notices/original/webxr/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "webxr/LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "text_file": "image-notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt"
+    }
+  ],
+  "package_license": null,
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 11239,
+    "installed_in_image": false,
+    "integrity": "sha512-h8fgEd/DpoS9CBrjEQXR+dIDraopAEfu4wYVNY2tEPwk60stPWhvZMf4Foo5FakuQ7HFZoa8WceaWFervK2Ovg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@types/webxr/-/webxr-0.5.24.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "3c846cf2797369ab971b6c89c9eb3089efb967261536c0f9bf31d6c250c9487a"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.5.24"
+}

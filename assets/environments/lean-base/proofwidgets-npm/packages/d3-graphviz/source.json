@@ -1,0 +1,59 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BSD-3-Clause",
+  "lock_entry": {
+    "dependencies": {
+      "@hpcc-js/wasm": "^2.20.0",
+      "d3-dispatch": "^3.0.1",
+      "d3-format": "^3.1.0",
+      "d3-interpolate": "^3.0.1",
+      "d3-path": "^3.1.0",
+      "d3-timer": "^3.0.1",
+      "d3-transition": "^3.0.1",
+      "d3-zoom": "^3.0.0"
+    },
+    "engines": {
+      "node": ">=14"
+    },
+    "integrity": "sha512-46OOyRv5Ioo9kZBc919FVIYPD/ObtdSZxOK1hv+qwmD7TunpPvvmsI1dSdxhVgH4GragJxFZ31+TQC5aOuXzzw==",
+    "license": "BSD-3-Clause",
+    "peerDependencies": {
+      "d3-selection": "^3.0.0"
+    },
+    "resolved": "https://registry.npmjs.org/d3-graphviz/-/d3-graphviz-5.6.0.tgz",
+    "version": "5.6.0"
+  },
+  "lock_path": "node_modules/d3-graphviz",
+  "name": "d3-graphviz",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1475,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "a947ac7373ed178e084036e186132eb919f740760db74f0944eb08285f78578f",
+      "text_file": "image-notices/a947ac7373ed178e084036e186132eb919f740760db74f0944eb08285f78578f.txt"
+    }
+  ],
+  "package_license": "BSD-3-Clause",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 1870606,
+    "installed_in_image": false,
+    "integrity": "sha512-46OOyRv5Ioo9kZBc919FVIYPD/ObtdSZxOK1hv+qwmD7TunpPvvmsI1dSdxhVgH4GragJxFZ31+TQC5aOuXzzw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/d3-graphviz/-/d3-graphviz-5.6.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "b1f44015c37e5ef18cb0aed8d361fc5756a81f66926c7f691ef2b470e4be665e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "5.6.0"
+}

@@ -1,0 +1,66 @@
+{
+  "author": "Paul Henschel",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": ">=12.20.0"
+    },
+    "integrity": "sha512-fdZY+dk7zn/vbWNCYmzZULHRrss0jx5pPFiOuMZ/5HJN6Yv3u+1Wswy/4MpZEkEGhtNH+pwxZB8OKgUBPzYAGg==",
+    "license": "MIT",
+    "peerDependencies": {
+      "@types/react": ">=18.0.0",
+      "immer": ">=9.0.6",
+      "react": ">=18.0.0",
+      "use-sync-external-store": ">=1.2.0"
+    },
+    "peerDependenciesMeta": {
+      "@types/react": {
+        "optional": true
+      },
+      "immer": {
+        "optional": true
+      },
+      "react": {
+        "optional": true
+      },
+      "use-sync-external-store": {
+        "optional": true
+      }
+    },
+    "resolved": "https://registry.npmjs.org/zustand/-/zustand-5.0.11.tgz",
+    "version": "5.0.11"
+  },
+  "lock_path": "node_modules/zustand",
+  "name": "zustand",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1070,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "c1e6e266563517467b1bf874817d23e426f3149252bd7d42758cd697514b8417",
+      "text_file": "image-notices/c1e6e266563517467b1bf874817d23e426f3149252bd7d42758cd697514b8417.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 22571,
+    "installed_in_image": false,
+    "integrity": "sha512-fdZY+dk7zn/vbWNCYmzZULHRrss0jx5pPFiOuMZ/5HJN6Yv3u+1Wswy/4MpZEkEGhtNH+pwxZB8OKgUBPzYAGg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/zustand/-/zustand-5.0.11.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "c0811ddcb770ba5d68052efacf96f28c0f7438907ce76f6a7bb645459657eb59"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "5.0.11"
+}

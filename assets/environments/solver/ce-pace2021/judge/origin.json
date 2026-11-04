@@ -1,0 +1,16 @@
+{
+  "source_image_digest": "sha256:e5c13090a9fc8d2c3a7331ced9326d8346b1302394e3a0de10c2c09504f78e60",
+  "source_path": "/opt/ce/scoring.py",
+  "sha256": "9e03328403b58f5626e77a5403414db2659abfa8bef709ce46f117fe7bd250b3",
+  "git_blob": "056b5169c4b346f7dc2e06c2083ab6a35bd49bd3",
+  "bytes": 10635,
+  "frozen_git_source_verified": true,
+  "public_source_rebuild_verified": false,
+  "purpose": "judge_rebuild_input",
+  "frozen_git_blob_available": true,
+  "frozen_git_blob_bytes_equal": true,
+  "git_source_commit": "7d760957a781c4c22ab3a40819649080e066527c",
+  "git_source_paths": [
+    "tasks/ce-pace2021-async/environment/app/scoring.py"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "main_theorem": "negations_small_depth_separation",
+  "namespace": "NegationsSmallDepth",
+  "checkpoints": [
+    {
+      "name": "negations_small_depth_separation",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 1.1 of Cavalar-Borem Fabris-Mukhopadhyay-Srinivasan-Yehudayoff (arXiv 2512.19515v1), per-degree form with explicit constants: for every degree d >= 2 there are a constant c > 0 and a threshold N0 such that for all n >= N0 and every n-vertex d-regular spectral expander G, the graph polynomial P_G is computed by an explicit arithmetic formula of size at most 35*(e(G)+1)^2*n, but every monotone arithmetic formula computing P_G has size at least 2^{c*n}. The random-matching lemma (Lemma 2.7 = Lemma 9 of Srinivasan 2020) is taken as the hypothesis expanderMatchingProp, with per-degree constants as in Srinivasan 2020."
+    }
+  ]
+}

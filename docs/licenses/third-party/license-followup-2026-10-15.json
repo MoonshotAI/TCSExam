@@ -1,0 +1,423 @@
+{
+  "checked": "2026-10-15",
+  "scope": "Additional primary-source and history checks for Qute, curriculum-timetabling resources, QBF origins, MQLib generator/data distinction and ROADEF PDF. Documentation only; no task or image changes.",
+  "qute": {
+    "judgment": "Recommend project-level MIT with preserved old-source identity; distinguish this interpretation from an explicit old-snapshot author confirmation.",
+    "license_commit": {
+      "url": "https://api.github.com/repos/fslivovsky/qute/commits/67c5e54e96eb2ba7aedc18186d5ae62230c4caf8",
+      "final_url": "https://api.github.com/repos/fslivovsky/qute/commits/67c5e54e96eb2ba7aedc18186d5ae62230c4caf8",
+      "status": 200,
+      "bytes": 5293,
+      "sha256": "f47eda204345a714d47a160cdeffb79e6ed1e6b1e2567244eab0c6d100ea8580",
+      "checked": "2026-10-15"
+    },
+    "official_software_page": {
+      "url": "https://ac.tuwien.ac.at/software/80-software-qute/",
+      "final_url": "https://ac.tuwien.ac.at/software/80-software-qute/",
+      "status": 200,
+      "bytes": 16755,
+      "sha256": "8e27caecb90ea526f09404d974a64d2e259f42e88647765e106960cd24e93321",
+      "checked": "2026-10-15"
+    },
+    "license": {
+      "url": "https://raw.githubusercontent.com/fslivovsky/qute/67c5e54e96eb2ba7aedc18186d5ae62230c4caf8/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/fslivovsky/qute/67c5e54e96eb2ba7aedc18186d5ae62230c4caf8/LICENSE",
+      "status": 200,
+      "bytes": 1088,
+      "sha256": "11a8ef276e61fbd3db14fe364edbdc578a3ffcfc851faddd6e4355171f40c597",
+      "checked": "2026-10-15"
+    },
+    "file_comparison": "qute-version-comparison.json",
+    "issue_and_commit_comments": "No license-scope clarification found in the fetched public issue comments and license-commit comments."
+  },
+  "curriculum_timetabling": {
+    "comp11_source": {
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp11.ctt",
+      "final_url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp11.ctt",
+      "status": 200,
+      "bytes": 2193,
+      "sha256": "acafa60b1699c4f24bc4745a503b602cb6045d22a01ace7161309cce284ae457",
+      "checked": "2026-10-15"
+    },
+    "directory_readme": {
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/readme.txt",
+      "final_url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/readme.txt",
+      "status": 200,
+      "bytes": 179,
+      "sha256": "4b4fd3bcf5ce63f53c0a8d08dd055aa5c60d63a5bc47db06151f8b5768efae99",
+      "checked": "2026-10-15"
+    },
+    "root_readme": {
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/README.md",
+      "final_url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/README.md",
+      "status": 200,
+      "bytes": 1839,
+      "sha256": "5676c50e71da7a772a2243fac7b8154312e9db9e14f65f2397a7e4b3862c71a5",
+      "checked": "2026-10-15"
+    },
+    "root_lgpl": {
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/lgpl.txt",
+      "final_url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/lgpl.txt",
+      "status": 200,
+      "bytes": 7650,
+      "sha256": "ea8af5e789cb2d4e9b10bce3874982ade163b749b6bfbdb32e2df21c4d106de1",
+      "checked": "2026-10-15"
+    },
+    "source_identity": "comp11 bytes match the task; root solver LGPL does not independently establish original-data permissions.",
+    "current_original_author_repository": {
+      "commit": "9cb3eb63040241fd1954ba49abcaba64461702f6",
+      "branches": {
+        "url": "https://api.github.com/repos/iolab-uniud/cb-ctt/branches?per_page=100",
+        "final_url": "https://api.github.com/repos/iolab-uniud/cb-ctt/branches?per_page=100",
+        "status": 200,
+        "bytes": 200,
+        "sha256": "a78e6117262f8fedfbf3e808d0d05e44d3751835bcef565ac4f4523b7a2661e5",
+        "checked": "2026-10-15"
+      },
+      "releases": {
+        "url": "https://api.github.com/repos/iolab-uniud/cb-ctt/releases?per_page=100",
+        "final_url": "https://api.github.com/repos/iolab-uniud/cb-ctt/releases?per_page=100",
+        "status": 200,
+        "bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "checked": "2026-10-15"
+      },
+      "tags": {
+        "url": "https://api.github.com/repos/iolab-uniud/cb-ctt/tags?per_page=100",
+        "final_url": "https://api.github.com/repos/iolab-uniud/cb-ctt/tags?per_page=100",
+        "status": 200,
+        "bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "checked": "2026-10-15"
+      },
+      "code_checked": [
+        {
+          "url": "https://raw.githubusercontent.com/iolab-uniud/cb-ctt/9cb3eb63040241fd1954ba49abcaba64461702f6/src/CTT_Data.cc",
+          "final_url": "https://raw.githubusercontent.com/iolab-uniud/cb-ctt/9cb3eb63040241fd1954ba49abcaba64461702f6/src/CTT_Data.cc",
+          "status": 200,
+          "bytes": 28048,
+          "sha256": "ad94bf863572f5ce54d8ad0f31c205feec844194a73dae8a60041701cc76682a",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/iolab-uniud/cb-ctt/9cb3eb63040241fd1954ba49abcaba64461702f6/src/CTT_Helpers.cc",
+          "final_url": "https://raw.githubusercontent.com/iolab-uniud/cb-ctt/9cb3eb63040241fd1954ba49abcaba64461702f6/src/CTT_Helpers.cc",
+          "status": 200,
+          "bytes": 49132,
+          "sha256": "8a2d20cf793fb3bdd9b872426ff83cd915f9b902dd941eeeb327c1597c0faa8f",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/iolab-uniud/cb-ctt/9cb3eb63040241fd1954ba49abcaba64461702f6/src/CTT_Data.hh",
+          "final_url": "https://raw.githubusercontent.com/iolab-uniud/cb-ctt/9cb3eb63040241fd1954ba49abcaba64461702f6/src/CTT_Data.hh",
+          "status": 200,
+          "bytes": 10126,
+          "sha256": "e56199a39f98c0a345c77c1590799a7a347bf1ceff07d73caad8020889d26ee9",
+          "checked": "2026-10-15"
+        }
+      ],
+      "license": {
+        "url": "https://raw.githubusercontent.com/iolab-uniud/cb-ctt/9cb3eb63040241fd1954ba49abcaba64461702f6/LICENSE.txt",
+        "final_url": "https://raw.githubusercontent.com/iolab-uniud/cb-ctt/9cb3eb63040241fd1954ba49abcaba64461702f6/LICENSE.txt",
+        "status": 200,
+        "bytes": 1359,
+        "sha256": "cc84d5f91823b3a78a4caef03f99052e30455aa88a4554408c2c84e38af34e3d",
+        "checked": "2026-10-15"
+      },
+      "limitation": "Current CC BY source has no Validator class in the checked files and has not been demonstrated to reproduce the old validator; common classes/function names are not treated as full source coverage."
+    },
+    "satt_repositories_checked": {
+      "account_index": {
+        "url": "https://api.bitbucket.org/2.0/repositories/satt?pagelen=100",
+        "final_url": "https://api.bitbucket.org/2.0/repositories/satt?pagelen=100",
+        "status": 200,
+        "bytes": 82436,
+        "sha256": "578547b010292e926d2a7803c816ec7064c950fdb2bf138abf5a0b8377d74976",
+        "checked": "2026-10-15"
+      },
+      "portfolio_instance_listing": {
+        "url": "https://api.bitbucket.org/2.0/repositories/satt/portfolio-instances/src/HEAD/?pagelen=100",
+        "final_url": "https://api.bitbucket.org/2.0/repositories/satt/portfolio-instances/src/HEAD/?pagelen=100",
+        "status": 200,
+        "bytes": 74225,
+        "sha256": "1cbac42ec04f1a30f5f41c43032a452d297c94325bded832cd94672b1fa2c628",
+        "checked": "2026-10-15"
+      },
+      "portfolio_result": "Portfolio optimization data, no CTT permission inferred.",
+      "easylocal_root": {
+        "url": "https://api.bitbucket.org/2.0/repositories/satt/easylocal-2/src/HEAD/?pagelen=100",
+        "final_url": "https://api.bitbucket.org/2.0/repositories/satt/easylocal-2/src/HEAD/?pagelen=100",
+        "status": 200,
+        "bytes": 12810,
+        "sha256": "07be9cf1bef0f637ce83a7364baaa7402d32bf0c35fd7b4f21edc699111c5c54",
+        "checked": "2026-10-15"
+      },
+      "easylocal_test": {
+        "url": "https://api.bitbucket.org/2.0/repositories/satt/easylocal-2/src/7a88d2f4744a851134e09a6ad354bb9848b330c8/test/?pagelen=100",
+        "final_url": "https://api.bitbucket.org/2.0/repositories/satt/easylocal-2/src/7a88d2f4744a851134e09a6ad354bb9848b330c8/test/?pagelen=100",
+        "status": 200,
+        "bytes": 2497,
+        "sha256": "d23b090f1462aa12201c36ce48e9806f05a9b21e1a329f16eab15b06ad9729aa",
+        "checked": "2026-10-15"
+      },
+      "easylocal_copying": {
+        "url": "https://api.bitbucket.org/2.0/repositories/satt/easylocal-2/src/7a88d2f4744a851134e09a6ad354bb9848b330c8/COPYING",
+        "final_url": "https://api.bitbucket.org/2.0/repositories/satt/easylocal-2/src/7a88d2f4744a851134e09a6ad354bb9848b330c8/COPYING",
+        "status": 200,
+        "bytes": 35148,
+        "sha256": "0ae0485a5bd37a63e63603596417e4eb0e653334fa6c7f932ca3a0e85d4af227",
+        "checked": "2026-10-15"
+      },
+      "easylocal_result": "Inspected test directory contains nQueens; no CTT validator grant inferred."
+    },
+    "remaining": "comp11, old validator and external OptHub solutions still lack a complete redistribution determination."
+  },
+  "qbf": {
+    "download_link_audit": {
+      "selected": 70,
+      "empty_href": 57,
+      "nonempty_href": 13,
+      "qdimacs_headers": 12,
+      "empty_file_at_nonempty_href": 1,
+      "review": "qbf-original-source-review.json"
+    },
+    "de_original_author_generator": {
+      "homepage": {
+        "url": "https://www.otaru-uc.ac.jp/~skip/sw/de/",
+        "final_url": "https://www.otaru-uc.ac.jp/~skip/sw/de/",
+        "status": 200,
+        "bytes": 2283,
+        "sha256": "fc414472a499c44ada2373f53beffd3e35182907d73cc620bd9f0bce5ba271fe",
+        "checked": "2026-10-15"
+      },
+      "legacy_archive": {
+        "url": "https://www.otaru-uc.ac.jp/~skip/sw/de/downloads/desc.tar.gz",
+        "final_url": "https://www.otaru-uc.ac.jp/~skip/sw/de/downloads/desc.tar.gz",
+        "status": 200,
+        "bytes": 1558722,
+        "sha256": "ea5f7901d3ff11f8d3b20da94cb8ba8822c374c54d84b82eea7acd450ef0c643",
+        "checked": "2026-10-15"
+      },
+      "current_archive": {
+        "url": "https://www.otaru-uc.ac.jp/~skip/sw/de/downloads/desc-012.tar.gz",
+        "final_url": "https://www.otaru-uc.ac.jp/~skip/sw/de/downloads/desc-012.tar.gz",
+        "status": 200,
+        "bytes": 916524,
+        "sha256": "39df2f42be9abc55a067db8fb243aa734ef0f63a12e8f58ff3f9b8b0c687e4aa",
+        "checked": "2026-10-15"
+      },
+      "grant": "ISC in primary project/source headers; distinct bundled third-party tools retain their licenses.",
+      "archive_member_counts": {
+        "legacy": 391,
+        "current": 372
+      },
+      "result": "No selected benchmark identifier or full benchmark instance found in the reviewed DE archives. Generator permission not presented as a license for the 20 existing reduction-finding formulas. No generator built or run."
+    },
+    "rabe_data_repository": {
+      "commit": "e75fb9f9938bc64f6240a0fb397a58b9d6d77ac0",
+      "tree": {
+        "url": "https://api.github.com/repos/MarkusRabe/qbf_formulas_for_rl/git/trees/HEAD?recursive=1",
+        "final_url": "https://api.github.com/repos/MarkusRabe/qbf_formulas_for_rl/git/trees/HEAD?recursive=1",
+        "status": 200,
+        "bytes": 1959268,
+        "sha256": "c664d07ba2a7bf9d81ec5b3fc5133c3e2cecbb68694c956e951f2aa2d28cf137",
+        "checked": "2026-10-15"
+      },
+      "readme": {
+        "url": "https://raw.githubusercontent.com/MarkusRabe/qbf_formulas_for_rl/e75fb9f9938bc64f6240a0fb397a58b9d6d77ac0/README.md",
+        "final_url": "https://raw.githubusercontent.com/MarkusRabe/qbf_formulas_for_rl/e75fb9f9938bc64f6240a0fb397a58b9d6d77ac0/README.md",
+        "status": 200,
+        "bytes": 132,
+        "sha256": "683b84fe885d1d8226e440a2eee9bacbac196e4d72b455ed6a5b75fa9d007f94",
+        "checked": "2026-10-15"
+      },
+      "obtained_original_files": [
+        {
+          "url": "https://raw.githubusercontent.com/MarkusRabe/qbf_formulas_for_rl/e75fb9f9938bc64f6240a0fb397a58b9d6d77ac0/qbfeval2017-2QBF/decomposition128.qdimacs",
+          "final_url": "https://raw.githubusercontent.com/MarkusRabe/qbf_formulas_for_rl/e75fb9f9938bc64f6240a0fb397a58b9d6d77ac0/qbfeval2017-2QBF/decomposition128.qdimacs",
+          "status": 200,
+          "bytes": 52034,
+          "sha256": "87454aac801f55cc8380cdc2c0ae42cd4a911d556879ad95f406ab781b9aa8af",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarkusRabe/qbf_formulas_for_rl/e75fb9f9938bc64f6240a0fb397a58b9d6d77ac0/qbfeval2017-2QBF/IssueServiceImpl.qdimacs",
+          "final_url": "https://raw.githubusercontent.com/MarkusRabe/qbf_formulas_for_rl/e75fb9f9938bc64f6240a0fb397a58b9d6d77ac0/qbfeval2017-2QBF/IssueServiceImpl.qdimacs",
+          "status": 200,
+          "bytes": 211709,
+          "sha256": "caaffcfffa1751fa9c9f4a339bf5943caf503403bc3fd2d280ee3e370e30523a",
+          "checked": "2026-10-15"
+        }
+      ],
+      "result": "No license file found in fetched full 7404-entry tree; inspected original formulas have no license statement. These are original-source candidates, not a certified reconstruction of transformed task data."
+    },
+    "rabe_separate_converter_license": {
+      "license": {
+        "url": "https://raw.githubusercontent.com/MarkusRabe/smtlib2qdimacs/e4f69e04609ba1135e5c9f3382165c9c70ae751a/LICENSE",
+        "final_url": "https://raw.githubusercontent.com/MarkusRabe/smtlib2qdimacs/e4f69e04609ba1135e5c9f3382165c9c70ae751a/LICENSE",
+        "status": 200,
+        "bytes": 1514,
+        "sha256": "317c6dd09dd5633a2633756bdf8101d27f0102f7bac34ae3c32c806bb6be77ac",
+        "checked": "2026-10-15"
+      },
+      "result": "Separate converter BSD text not extended to benchmark data."
+    },
+    "games_author_repository": {
+      "commit": "390662a00418679f2e291d8a34f4f3022f40249d",
+      "tree": {
+        "url": "https://api.github.com/repos/vale1410/positional-games-qbf-encoding/git/trees/HEAD?recursive=1",
+        "final_url": "https://api.github.com/repos/vale1410/positional-games-qbf-encoding/git/trees/HEAD?recursive=1",
+        "status": 200,
+        "bytes": 278161,
+        "sha256": "3f3e5733df6e4b6d50f6496e4c963f3c0de58c117304acbb249ce85e9c37b7b9",
+        "checked": "2026-10-15"
+      },
+      "readme": {
+        "url": "https://raw.githubusercontent.com/vale1410/positional-games-qbf-encoding/390662a00418679f2e291d8a34f4f3022f40249d/README.md",
+        "final_url": "https://raw.githubusercontent.com/vale1410/positional-games-qbf-encoding/390662a00418679f2e291d8a34f4f3022f40249d/README.md",
+        "status": 200,
+        "bytes": 3066,
+        "sha256": "6a40295c9c1606c9b82eedb59d792ab62795e12f2f6ce1b7f3633265be8f5ee1",
+        "checked": "2026-10-15"
+      },
+      "result": "Same-named underlying game description found; no independent license file in the inspected 978-entry tree. Generator output not produced or compared."
+    }
+  },
+  "roadef_pdf": {
+    "google_code_project": {
+      "url": "https://storage.googleapis.com/google-code-archive/v2/code.google.com/or-tools/project.json",
+      "final_url": "https://storage.googleapis.com/google-code-archive/v2/code.google.com/or-tools/project.json",
+      "status": 200,
+      "bytes": 710,
+      "sha256": "6ee26eb029d84e864bcb30379dcee03addfeff9e5384e6e666a4d048168fd398",
+      "checked": "2026-10-15"
+    },
+    "google_code_project_license_field": "asf20",
+    "google_code_project_content_license_field": "",
+    "pdf_path_histories": [
+      {
+        "url": "https://api.github.com/repos/google/or-tools/commits?path=data/roadef_challenge_2011/problem_definition_v1_1.pdf&per_page=100",
+        "final_url": "https://api.github.com/repos/google/or-tools/commits?path=data/roadef_challenge_2011/problem_definition_v1_1.pdf&per_page=100",
+        "status": 200,
+        "bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "checked": "2026-10-15"
+      },
+      {
+        "url": "https://api.github.com/repos/google/or-tools/commits?path=data/roadef_challenge_2011/problem_definition_v1.pdf&per_page=100",
+        "final_url": "https://api.github.com/repos/google/or-tools/commits?path=data/roadef_challenge_2011/problem_definition_v1.pdf&per_page=100",
+        "status": 200,
+        "bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "checked": "2026-10-15"
+      }
+    ],
+    "history_result": "Both queried PDF path histories are empty; inspected data import/compression commits contain data and checker source, not the PDF. Project metadata is not evidence of a license for an unmatched independent PDF.",
+    "official_pages": [
+      {
+        "url": "https://roadef.org/challenge/2012/en/sujet.php",
+        "final_url": "https://roadef.org/challenge/2012/en/sujet.php",
+        "status": 200,
+        "bytes": 4914,
+        "sha256": "68f5df9fa679a402ed5185c50f03b4e73722a6cb353db25d9bda939d5ec69c57",
+        "checked": "2026-10-15"
+      },
+      {
+        "url": "https://roadef.org/challenge/2012/en/instances.php",
+        "final_url": "https://roadef.org/challenge/2012/en/instances.php",
+        "status": 200,
+        "bytes": 5057,
+        "sha256": "aa98b47ad539b3251247aaa264e45d73466eab4f8c8b36eb4d3c6f496494a4d2",
+        "checked": "2026-10-15"
+      },
+      {
+        "url": "https://roadef.org/challenge/2012/en/reponse.php",
+        "final_url": "https://roadef.org/challenge/2012/en/reponse.php",
+        "status": 200,
+        "bytes": 7334,
+        "sha256": "cfb0956f8e57a4a1f361e896067df0ecd468bd075f310fa907328d850a08ab3a",
+        "checked": "2026-10-15"
+      },
+      {
+        "url": "https://roadef.org/challenge/2012/en/prix.php",
+        "final_url": "https://roadef.org/challenge/2012/en/prix.php",
+        "status": 200,
+        "bytes": 4518,
+        "sha256": "38eaa09725e31c97780dd5c7ef56fb89cc8d6fcf0e897f7aed0a2b64a6301257",
+        "checked": "2026-10-15"
+      },
+      {
+        "url": "https://roadef.org/challenge/2012/en/suiteIndustrielle.php",
+        "final_url": "https://roadef.org/challenge/2012/en/suiteIndustrielle.php",
+        "status": 200,
+        "bytes": 4655,
+        "sha256": "717348985136968b46dac96512a0478d2c4aff8371aa995258546a7f9f334fa2",
+        "checked": "2026-10-15"
+      }
+    ],
+    "result": "Official download/source established; no PDF redistribution grant found on these pages. Recommend linking the official PDF in a public export; no attachment removed in this review."
+  },
+  "mqlib": {
+    "fixed_readme": {
+      "url": "https://raw.githubusercontent.com/MQLib/MQLib/585496274af5abb0849d0d47e135496b4688680b/README.md",
+      "final_url": "https://raw.githubusercontent.com/MQLib/MQLib/585496274af5abb0849d0d47e135496b4688680b/README.md",
+      "status": 200,
+      "bytes": 12224,
+      "sha256": "15df5a7216fe59da55e4b2c1f00086cec42d412c2ea41f30b22f5fcbe3f85d34",
+      "checked": "2026-10-15"
+    },
+    "fixed_data_readme": {
+      "url": "https://raw.githubusercontent.com/MQLib/MQLib/585496274af5abb0849d0d47e135496b4688680b/data/README.md",
+      "final_url": "https://raw.githubusercontent.com/MQLib/MQLib/585496274af5abb0849d0d47e135496b4688680b/data/README.md",
+      "status": 200,
+      "bytes": 2686,
+      "sha256": "660511f0f5a6952ef1ae6a8102a75992781d8f1d709c559685f602b12ebe5ff7",
+      "checked": "2026-10-15"
+    },
+    "rudy_original_legacy_archive": {
+      "url": "https://www-user.tu-chemnitz.de/~helmberg/rudy.tar.gz",
+      "final_url": "https://www-user.tu-chemnitz.de/~helmberg/rudy.tar.gz",
+      "status": 200,
+      "bytes": 17847,
+      "sha256": "c6552a1a1ada8c9a33f2aea0a89884dda31caea3d0f376c981c6886e5da5ae25",
+      "checked": "2026-10-15"
+    },
+    "rudy_author_readme": {
+      "url": "https://raw.githubusercontent.com/g-rinaldi/rudy/main/README.md",
+      "final_url": "https://raw.githubusercontent.com/g-rinaldi/rudy/main/README.md",
+      "status": 200,
+      "bytes": 5495,
+      "sha256": "02cfcc0d419f13b6a0861ccd09140d21a12b7ea79be4300ae1f8f6eef04330e4",
+      "checked": "2026-10-15"
+    },
+    "rudy_sgb_notice": {
+      "url": "https://raw.githubusercontent.com/g-rinaldi/rudy/main/sgb/boilerplate.w",
+      "final_url": "https://raw.githubusercontent.com/g-rinaldi/rudy/main/sgb/boilerplate.w",
+      "status": 200,
+      "bytes": 1821,
+      "sha256": "ef08ba0e208b7a3e8eac07f1fa285f4c06a5848d6dcf1d808e7babbfb42156a8",
+      "checked": "2026-10-15"
+    },
+    "result": "MQLib README says code is MIT; data README identifies externally stored instances without adding a data grant. Rudy author README permits credited copying/modification/redistribution of root program; SGB has separate conditions. No automatic extension to existing graph files and no new generator-code clearance required for numerical outputs alone."
+  },
+  "not_performed": [
+    "External author contact or publication",
+    "Solver execution or Lean compilation",
+    "Task, grader, instance or experiment edits",
+    "Full image layer and OS package audit"
+  ],
+  "network_limitations": [
+    "Some old source sites failed TLS hostname verification; TLS verification was not disabled.",
+    "GitHub unauthenticated API returned rate-limit responses late in this round; existing cached trees and raw fixed files were used where available.",
+    "The 8000000-byte recursive synthetic_qbf_formulas tree response was truncated by the review byte limit and excluded from license conclusions; targeted root/generator trees were obtained instead."
+  ],
+  "scope_note": "Earlier search records are retained as evidence of their stated inspection scope; current distribution conclusions also use later full-archive, full-image and compiled-widget checks.",
+  "later_records": [
+    "qbf-data-distribution-source.json",
+    "distribution-decisions.json",
+    "image-license-inventory.json",
+    "system-license-materials.json",
+    "proofwidgets-npm-license-materials.json",
+    "proofwidgets-embedded-components.json"
+  ]
+}

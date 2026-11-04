@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/maxsat-mse",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/maxsat-mse/tests/checker.py",
+      "target": "tasks/solver/offline/maxsat-mse/tests/checker.py",
+      "sha256": "114de4f20b4954f82181cbd150ca18c48af3cb9c1d84235a1ad811f1676326a1"
+    },
+    {
+      "source": "tasks/solver/online/maxsat-mse/tests/reference.json",
+      "target": "tasks/solver/offline/maxsat-mse/tests/reference.json",
+      "sha256": "5b112ce3b4f049e05a4295e4bceb62e7e4b64c5df0bfaf0bb8f54a133861361b"
+    },
+    {
+      "source": "tasks/solver/online/maxsat-mse/tests/anchors.json",
+      "target": "tasks/solver/offline/maxsat-mse/tests/anchors.json",
+      "sha256": "de6add814d2fa3f1aedb1baa13dac0f760e9a0a2fd0ba4d02034efb376aad939"
+    },
+    {
+      "source": "tasks/solver/online/maxsat-mse/tests/metric_config.json",
+      "target": "tasks/solver/offline/maxsat-mse/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-maxsat-mse",
+  "verifier_dependency": "backend-online-maxsat-mse",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

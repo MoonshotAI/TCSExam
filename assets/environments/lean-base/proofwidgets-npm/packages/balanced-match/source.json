@@ -1,0 +1,47 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dev": true,
+    "engines": {
+      "node": "18 || 20 || >=22"
+    },
+    "integrity": "sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz",
+    "version": "4.0.4"
+  },
+  "lock_path": "node_modules/balanced-match",
+  "name": "balanced-match",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1155,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "d408f38ffa3355c5faec517153295338892eb0f1ea43f57874bb23c6075979b5",
+      "text_file": "image-notices/d408f38ffa3355c5faec517153295338892eb0f1ea43f57874bb23c6075979b5.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 4199,
+    "installed_in_image": false,
+    "integrity": "sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "9025508d9125eee531bbc49ce3ae560183975ad595f058c378bd56af4152fb16"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.0.4"
+}

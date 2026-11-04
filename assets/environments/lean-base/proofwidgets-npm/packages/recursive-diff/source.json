@@ -1,0 +1,43 @@
+{
+  "author": "Anant <anant.shukla.rkgit@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-5mqpskzvXDo5Vy29Vj8tH30a0+XBmY11aqWGoN/uB94UHRwndX2EuPvH+WtbqOYkrwAF718/lDo6U4CB1qSSqQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/recursive-diff/-/recursive-diff-1.0.9.tgz",
+    "version": "1.0.9"
+  },
+  "lock_path": "node_modules/recursive-diff",
+  "name": "recursive-diff",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1102,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "648a604aa86621e2bfa5cf29979a5104add9d0a87a0d490361374e9d8b42ddc7",
+      "text_file": "image-notices/648a604aa86621e2bfa5cf29979a5104add9d0a87a0d490361374e9d8b42ddc7.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 8986,
+    "installed_in_image": false,
+    "integrity": "sha512-5mqpskzvXDo5Vy29Vj8tH30a0+XBmY11aqWGoN/uB94UHRwndX2EuPvH+WtbqOYkrwAF718/lDo6U4CB1qSSqQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/recursive-diff/-/recursive-diff-1.0.9.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "6cfc0a4185eea4f147298a296543f20dd7464456add2766fcf8c5bc016b19f67"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.0.9"
+}

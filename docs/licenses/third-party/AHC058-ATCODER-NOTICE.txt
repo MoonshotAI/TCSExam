@@ -1,0 +1,62 @@
+AHC058 Apple Incremental Game - public development data source notice
+===================================================================
+
+Official task and tool source:
+  Task: AHC058 A - Apple Incremental Game
+  https://atcoder.jp/contests/ahc058/tasks/ahc058_a
+  Contest writer: itigo
+  https://atcoder.jp/contests/ahc058
+
+Official local-tools archive:
+  https://img.atcoder.jp/ahc058/UpvAVdx6.zip
+  Bytes: 49420
+  SHA-256: 580fa32d99059c78dbe87310b6de771cb64c385c4bf461c7f2865336c9a99ac8
+  S3 version ID: FCxG8B5QctZ7o5TmNYVpsOfGxqyzNHYq
+  Last-Modified: Fri, 12 Dec 2025 09:30:38 GMT
+
+AtCoder terms:
+  https://atcoder.jp/tos
+
+License review:
+  No open redistribution license for the statement, input data, generator,
+  scorer, or visualizer was found in the official materials. The tool archive
+  contains no LICENSE, COPYING, or NOTICE file. The generator Cargo package
+  declares no author or license field. This notice grants no additional rights.
+
+Local-preparation restriction:
+  The fixed public development data product and images containing it are for
+  local preparation only. Do not publicly upload the official archive, the
+  reconstructed instances, or those images. Statement, data, generator,
+  scorer, visualizer, and independently written solver software retain their
+  separate terms; no license from one component is applied to another.
+
+Input reconstruction:
+  1. The 100 files tools/in/0000.txt through tools/in/0099.txt are copied
+     byte-for-byte to app/instances/. Their combined size is 33,296 bytes.
+  2. Five additional public development instances are generated locally with
+     the official locked generator and these public-instance seed mappings:
+
+       h00.txt = 250854218785
+       h04.txt = 51468017913079
+       h19.txt = 129837058162460
+       h24.txt = 150636911777541
+       h27.txt = 161465247114690
+
+     The generator runs during local preparation with the official Cargo.lock
+     and the command:
+       cargo run --release --locked --bin gen -- PUBLIC5.seeds.txt --dir OUTPUT_DIR
+
+     Its five sequential outputs are renamed to the five public names above.
+     The project-selected build environment is linux/amd64 with rust:1.83-slim;
+     upstream does not specify this as the only supported compiler version.
+     The final development environment does not require a Rust toolchain.
+
+  3. Output modes are normalized to 0644. The 105 output paths, byte counts,
+     and SHA-256 values are checked against the retained manifest. Instance
+     text is not edited, reformatted, or recompressed. Total output size is
+     34,938 bytes.
+
+Only the five public-instance seed mappings above are included. No complete
+random stream, other sampling indices, hidden-instance mapping, judging data,
+or standard answer is included. This notice is kept outside app/instances/ so
+it does not become an additional public-runner input.

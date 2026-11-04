@@ -1,0 +1,43 @@
+{
+ "task": "covering-code-k10-lean-open",
+ "main_theorem": "covering_code_k10_main",
+ "fixed_end_mark": "-- END OF FIXED PART",
+ "allowed_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "forbidden_tokens": [
+  "axiom",
+  "sorryAx",
+  "sorry",
+  "admit",
+  "notation",
+  "macro",
+  "macro_rules",
+  "syntax",
+  "elab",
+  "elab_rules",
+  "opaque",
+  "unsafe",
+  "extern",
+  "implemented_by",
+  "initialize",
+  "skipKernelTC"
+ ],
+ "statement_templates": {
+  "construction": "\u2203 S : Finset (Fin 10 \u2192 Fin 2), Covers S \u2227 S.card \u2264 {k}"
+ },
+ "scoring": {
+  "mode": "cubic",
+  "baseline_k": 512,
+  "record_k": 120,
+  "record_broken": "k <= 119",
+  "proven_lower_bound_k": 107
+ },
+ "notes": {
+  "construction": "reward = 0 for k >= 512 (trivial even-weight baseline); ((512 - k) / 392)^3 otherwise; k = 120 -> 1.0 (record matched); k <= 119 -> record_broken, scores above 1 not capped; k < 107 contradicts the published lower bound (Bertolo-Ostergard-Weakley 2004) and is flagged for human review"
+ }
+}

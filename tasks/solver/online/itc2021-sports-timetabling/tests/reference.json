@@ -1,0 +1,76 @@
+{
+ "instances": {
+  "h01.xml": {
+   "B": null,
+   "K": 121
+  },
+  "h02.xml": {
+   "B": null,
+   "K": 2955
+  },
+  "h03.xml": {
+   "B": null,
+   "K": 3287
+  },
+  "h04.xml": {
+   "B": null,
+   "K": 4744
+  },
+  "h05.xml": {
+   "B": null,
+   "K": 3226
+  },
+  "h06.xml": {
+   "B": null,
+   "K": 0
+  },
+  "h07.xml": {
+   "B": null,
+   "K": 1849
+  },
+  "h08.xml": {
+   "B": null,
+   "K": 1558
+  },
+  "h09.xml": {
+   "B": null,
+   "K": 934
+  },
+  "h10.xml": {
+   "B": null,
+   "K": 2177
+  },
+  "h11.xml": {
+   "B": null,
+   "B_status": "baseline_no_valid_solution",
+   "K": 597,
+   "b_remeasured": " h11 note: the baseline produced one hard violation on the transformed instance (a team-permuted copy of Middle_12). Under the rule to record unsolved baselines as such, B was changed from placeholder 4913 to null (scored keys: 4→3)."
+  },
+  "h12.xml": {
+   "B": null,
+   "K": 8648
+  },
+  "h13.xml": {
+   "B": 2567,
+   "B_status": "measured",
+   "K": 279,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 60s×16=960s total pool and no sharding; scoring chain unchanged at /tests/test.sh; factory baseline in environment/app unchanged."
+  },
+  "h14.xml": {
+   "B": 2545,
+   "B_status": "measured",
+   "K": 415,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 60s×16=960s total pool and no sharding; scoring chain unchanged at /tests/test.sh; factory baseline in environment/app unchanged."
+  },
+  "h15.xml": {
+   "B": 178,
+   "B_status": "measured",
+   "K": 176,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 60s×16=960s total pool and no sharding; scoring chain unchanged at /tests/test.sh; factory baseline in environment/app unchanged."
+  },
+  "h16.xml": {
+   "B": null,
+   "K": 4421
+  }
+ }
+}

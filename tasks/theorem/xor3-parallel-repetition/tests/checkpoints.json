@@ -1,0 +1,13 @@
+{
+  "main_theorem": "xor3_parallel_repetition",
+  "namespace": "XOR3PR",
+  "checkpoints": [
+    {
+      "name": "xor3_parallel_repetition",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 1 of Bhangale-Braverman-Khot-Liu-Minzer (ECCC TR25-040; arXiv 2408.09352v1), conditional on the packaged Freiman-homomorphism inverse input FreimanAssumption (the paper's Lemma 8.1, proved there via [BKM23c, Section 2]): a 3-player XOR game of value < 1 whose question distribution has no Z-embeddings has exponentially decaying parallel-repetition value (n >= 1; the constant c may depend on the game, as in the paper)."
+    }
+  ]
+}

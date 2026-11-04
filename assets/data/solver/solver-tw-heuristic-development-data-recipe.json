@@ -1,0 +1,1115 @@
+{
+  "format": "official_files",
+  "description": "Exactly 100 original public odd-numbered PACE 2017 heuristic-track graph instances, decompressed without modification from a fixed official Git commit.",
+  "source_commit": "44e40b0ce87d2360f6114ba2aa503ef8df5e9256",
+  "sources": [
+    {
+      "id": "pace2017-he001.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he001.gr.xz",
+      "bytes": 104,
+      "sha256": "367e87afb8d61722aa8a7ce269b82246224593533c828179795feacf0bd42da9"
+    },
+    {
+      "id": "pace2017-he003.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he003.gr.xz",
+      "bytes": 852,
+      "sha256": "aa54ba8c871c32bb5076f9abcf0f7eae56009d3d2d90a9ed333e4f3effdc95fe"
+    },
+    {
+      "id": "pace2017-he005.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he005.gr.xz",
+      "bytes": 140,
+      "sha256": "b8d5a7b53e51f079f55005ea079e34c32511f65620e1d5f86d80bd2410c78314"
+    },
+    {
+      "id": "pace2017-he007.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he007.gr.xz",
+      "bytes": 1136,
+      "sha256": "b2bc27461c602695b4880696a6840b1d16717a7cbeea2b0cdd47203fa93744a2"
+    },
+    {
+      "id": "pace2017-he009.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he009.gr.xz",
+      "bytes": 1712,
+      "sha256": "7522219777752fecb6466ebab7cfcaf1cf81d6559326109e7c9d958aeae9ff15"
+    },
+    {
+      "id": "pace2017-he011.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he011.gr.xz",
+      "bytes": 2256,
+      "sha256": "760f96d398cd8f64958c13a41932fbce3f4731782cd97f8d5726154ea80380d2"
+    },
+    {
+      "id": "pace2017-he013.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he013.gr.xz",
+      "bytes": 2284,
+      "sha256": "87edbcae4a9f7f5c8b93cb468649cced12351a869bb396d4d958a134d1da1de7"
+    },
+    {
+      "id": "pace2017-he015.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he015.gr.xz",
+      "bytes": 2084,
+      "sha256": "c808a50f2f33b2f519ade042cff05457a0de340e51fb7aa479faadf62e4d26e2"
+    },
+    {
+      "id": "pace2017-he017.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he017.gr.xz",
+      "bytes": 2168,
+      "sha256": "50d4d465daec3802037ff6513c1248cee2309681160e8a6fd1d2a3140c02f0cf"
+    },
+    {
+      "id": "pace2017-he019.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he019.gr.xz",
+      "bytes": 2212,
+      "sha256": "46f9b8b60943f21948d88fd31b8c245fccc496c49cf17a95387dbebead04fdb4"
+    },
+    {
+      "id": "pace2017-he021.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he021.gr.xz",
+      "bytes": 1840,
+      "sha256": "5562517fa0cdd838df7233b6dc14da9946ac7ab89670021c072b1f87bb765d44"
+    },
+    {
+      "id": "pace2017-he023.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he023.gr.xz",
+      "bytes": 2976,
+      "sha256": "d93402b9602f3e22c32d8b8ba63c192764cbe8aaa97c5c750435bfda5f50b379"
+    },
+    {
+      "id": "pace2017-he025.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he025.gr.xz",
+      "bytes": 1856,
+      "sha256": "8257f7e08bb837c0a03fb7e260c8847526f75e2e6cbef3c051554443235dba44"
+    },
+    {
+      "id": "pace2017-he027.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he027.gr.xz",
+      "bytes": 2524,
+      "sha256": "bafa56ba5dae3774877e7b1939e5b9eb2a901f30f778336a9ab4893557d0f7de"
+    },
+    {
+      "id": "pace2017-he029.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he029.gr.xz",
+      "bytes": 2604,
+      "sha256": "be03a241d775e5183781e882d9827d45e7011f3e580ec929443a2580a83e4c0e"
+    },
+    {
+      "id": "pace2017-he031.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he031.gr.xz",
+      "bytes": 1632,
+      "sha256": "e181d4cef591dc4f5a73968290a77b257f66ead678bf9d2437024870db377bbf"
+    },
+    {
+      "id": "pace2017-he033.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he033.gr.xz",
+      "bytes": 1612,
+      "sha256": "652bcbaf8366200ec572a8797e10d7dd07237e7dcd751d94b35c5770410d2273"
+    },
+    {
+      "id": "pace2017-he035.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he035.gr.xz",
+      "bytes": 1784,
+      "sha256": "46e02b4c65f5b7f7b2c83e2b947d99b926c4c47f02c5377bec4fc02043250048"
+    },
+    {
+      "id": "pace2017-he037.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he037.gr.xz",
+      "bytes": 2244,
+      "sha256": "1e0fe14ae63c4916dfdf4b5ea1a0a7dbbe83675d75b76da910ab11f6d562885b"
+    },
+    {
+      "id": "pace2017-he039.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he039.gr.xz",
+      "bytes": 1616,
+      "sha256": "7d70413f886a8582de21cbfa5c49f5026cd889f35d908b2732685ac69c14baff"
+    },
+    {
+      "id": "pace2017-he041.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he041.gr.xz",
+      "bytes": 2764,
+      "sha256": "c1d72b5583c0e04ddbb3df79e935bfc20f50edef386935a2a4062c845af0649a"
+    },
+    {
+      "id": "pace2017-he043.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he043.gr.xz",
+      "bytes": 3328,
+      "sha256": "31efcfa2df7453518b0766fafefa80a48c5d653a89b33370b2dc4cd40a7d76b4"
+    },
+    {
+      "id": "pace2017-he045.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he045.gr.xz",
+      "bytes": 1364,
+      "sha256": "29016d5abd5b25484c0276dfa7a96585090944f2148dba4ba2d712178bee61aa"
+    },
+    {
+      "id": "pace2017-he047.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he047.gr.xz",
+      "bytes": 2044,
+      "sha256": "6f289496811a5d8f618afeb8f871765c3e7729ad0e9d8a562e754e5627be1398"
+    },
+    {
+      "id": "pace2017-he049.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he049.gr.xz",
+      "bytes": 708,
+      "sha256": "515cad1bc877427dc612b0720879f4683b155d25921c88338926a9b6ba29e5f2"
+    },
+    {
+      "id": "pace2017-he051.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he051.gr.xz",
+      "bytes": 2740,
+      "sha256": "75c819f1489c49a7300bbde30d549c0ffa2a938b00beeab92b65a68a1de205c8"
+    },
+    {
+      "id": "pace2017-he053.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he053.gr.xz",
+      "bytes": 1648,
+      "sha256": "e49f40434b488b9a48831eac1ea22a42f1739c43e230d882051787194fedc928"
+    },
+    {
+      "id": "pace2017-he055.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he055.gr.xz",
+      "bytes": 748,
+      "sha256": "1cb611fa03c69a30eccc06dd653bc5a7c2688fc29c620b491ace079228ef2359"
+    },
+    {
+      "id": "pace2017-he057.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he057.gr.xz",
+      "bytes": 500,
+      "sha256": "0087ada9e0e1ae4eb4e7a16456af7f88a36b1d016984ba666d6cdd07ac655e97"
+    },
+    {
+      "id": "pace2017-he059.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he059.gr.xz",
+      "bytes": 484,
+      "sha256": "bad7e408eceb75a87b07c53bc3f0f85c1e4ba2fa9afd80c0a1cd401e0a4a1e5d"
+    },
+    {
+      "id": "pace2017-he061.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he061.gr.xz",
+      "bytes": 580,
+      "sha256": "dfd094831dc33b5ed63eaa6771209723334536563c54d7da9aea3542c15f799b"
+    },
+    {
+      "id": "pace2017-he063.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he063.gr.xz",
+      "bytes": 912,
+      "sha256": "766a053d309571d178f94ca54d2d3ea51e2472fbde015e224a91e40d52acc4f6"
+    },
+    {
+      "id": "pace2017-he065.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he065.gr.xz",
+      "bytes": 552,
+      "sha256": "52e76882f52998c271cd8f37f32c13838506b2f0e2986b46260b773d0ae5528c"
+    },
+    {
+      "id": "pace2017-he067.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he067.gr.xz",
+      "bytes": 996,
+      "sha256": "3623340bb0e2d035b5320ec04f48d75cdadec6159c0c44a8b005abdbf6b85671"
+    },
+    {
+      "id": "pace2017-he069.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he069.gr.xz",
+      "bytes": 948,
+      "sha256": "29304a36617e1624ba18bb2e83de2ed79988242ab7a7ef3010d32b82b9019af1"
+    },
+    {
+      "id": "pace2017-he071.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he071.gr.xz",
+      "bytes": 1204,
+      "sha256": "ba9306337f6035707eaeea3098041d0b5a6a6c8d4e2a12a05c22140387d25666"
+    },
+    {
+      "id": "pace2017-he073.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he073.gr.xz",
+      "bytes": 1256,
+      "sha256": "2e5dfcef6b8b5d3d4620b99aa55e43db8c3f098e79f1d8728a1db600b81f1c5a"
+    },
+    {
+      "id": "pace2017-he075.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he075.gr.xz",
+      "bytes": 1712,
+      "sha256": "ae8b724638478c3abca0eae4816dc73de123acc5fa69fd61f0c756a712bc3fd8"
+    },
+    {
+      "id": "pace2017-he077.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he077.gr.xz",
+      "bytes": 340,
+      "sha256": "08c6c3d46e52813dfd25315f7ae8d505a48043240ba5970ff95278b6f8ca878e"
+    },
+    {
+      "id": "pace2017-he079.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he079.gr.xz",
+      "bytes": 4044,
+      "sha256": "6f12d29cd1483f1a6bf9b10cc968c1fea4579aa6ed336bafbaeac894722ab5b7"
+    },
+    {
+      "id": "pace2017-he081.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he081.gr.xz",
+      "bytes": 432,
+      "sha256": "8cf2c0dff8ad5fb474583cde13d3d1baf4f5e0aba0ff0ae6b952ee1b72ce84b5"
+    },
+    {
+      "id": "pace2017-he083.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he083.gr.xz",
+      "bytes": 608,
+      "sha256": "7ff0053c945393c79951e9c0551e6388a0338cee209e6e5f7b692d55236081eb"
+    },
+    {
+      "id": "pace2017-he085.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he085.gr.xz",
+      "bytes": 5108,
+      "sha256": "500a90de6ab085d2e5495c5dfb7662affac1219cdf9b6ae2ab6fdd997771b065"
+    },
+    {
+      "id": "pace2017-he087.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he087.gr.xz",
+      "bytes": 5300,
+      "sha256": "2bd92bd2ac60022494b08fcbd1872c492f0c60791b8c676a0968ed3b6c647927"
+    },
+    {
+      "id": "pace2017-he089.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he089.gr.xz",
+      "bytes": 4764,
+      "sha256": "27f30d37aeffbd0389efe66c794080b9f97c11660458e629643c594296ec47b9"
+    },
+    {
+      "id": "pace2017-he091.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he091.gr.xz",
+      "bytes": 4908,
+      "sha256": "99ece1cf369f181c2afa4a8366e8ecb2c4a450ab84087357a5300bf175a87f4e"
+    },
+    {
+      "id": "pace2017-he093.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he093.gr.xz",
+      "bytes": 5424,
+      "sha256": "3149e6257caf70e5567d17851c101585ff82fb6944364fa7d07213814227e546"
+    },
+    {
+      "id": "pace2017-he095.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he095.gr.xz",
+      "bytes": 4788,
+      "sha256": "e169c2890fd88e2714fa542733526f4080158e5d59eeececcb7045bd3081ca19"
+    },
+    {
+      "id": "pace2017-he097.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he097.gr.xz",
+      "bytes": 4364,
+      "sha256": "a96074897f26b33443c63747158b032e1dbd63b83cbdfd5266eea3c2ad9601ff"
+    },
+    {
+      "id": "pace2017-he099.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he099.gr.xz",
+      "bytes": 9772,
+      "sha256": "c0c5acf30a9769a20e976deb8c350dc56bca965dbf2105d5c21bf8b725ab586f"
+    },
+    {
+      "id": "pace2017-he101.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he101.gr.xz",
+      "bytes": 11196,
+      "sha256": "904e5d178bf37375963576cabea646d9e1cf5d77ef1240adb181ce893f30d46c"
+    },
+    {
+      "id": "pace2017-he103.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he103.gr.xz",
+      "bytes": 8808,
+      "sha256": "a41c04634445baacce7204fb81f163e132a94fb5ab23121c9233eead055f034b"
+    },
+    {
+      "id": "pace2017-he105.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he105.gr.xz",
+      "bytes": 11480,
+      "sha256": "9e908844eaf0b79647e206996061df264171fb5346b129200f9161d233d78abe"
+    },
+    {
+      "id": "pace2017-he107.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he107.gr.xz",
+      "bytes": 13748,
+      "sha256": "f47be5ed1bd74718642f0ef85549b8ca423dc80f47c21b4e1800dd5488f9aaa0"
+    },
+    {
+      "id": "pace2017-he109.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he109.gr.xz",
+      "bytes": 12392,
+      "sha256": "fcdd8a558a90b1c5efde794b84629e7701e2805430186c80ed5c26823d8dedb8"
+    },
+    {
+      "id": "pace2017-he111.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he111.gr.xz",
+      "bytes": 17328,
+      "sha256": "d757b31d4ae3d70abf69c5bf99e4323bc82912608e0711c4c4b8bcd394aeeb8f"
+    },
+    {
+      "id": "pace2017-he113.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he113.gr.xz",
+      "bytes": 20444,
+      "sha256": "3d16fc4f3e40a1ef152b53c6a53ac881a4a5e519734a733276b02cfce923a5af"
+    },
+    {
+      "id": "pace2017-he115.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he115.gr.xz",
+      "bytes": 26516,
+      "sha256": "fef3268cf8652089d7125de31b4487eb3471342701fcfedbe8f0e6ff11e1171a"
+    },
+    {
+      "id": "pace2017-he117.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he117.gr.xz",
+      "bytes": 26516,
+      "sha256": "6336286de49550351e4e180d5749ca29dd229b04f7a1cd06fded65e0d0bbf4c7"
+    },
+    {
+      "id": "pace2017-he119.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he119.gr.xz",
+      "bytes": 24936,
+      "sha256": "4ecf275373cecba0140fbfa3b3c4a5b5bdeb2a3933d63a54b7ff86f05b75b703"
+    },
+    {
+      "id": "pace2017-he121.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he121.gr.xz",
+      "bytes": 24784,
+      "sha256": "56254f3c0b06f7c93e514c62e846495c231715c5997807a1636fa9a7f9b4d138"
+    },
+    {
+      "id": "pace2017-he123.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he123.gr.xz",
+      "bytes": 29280,
+      "sha256": "d3f3635cec834af731c4e8c1aaa124740aaddfb13f65553f8940acf28bc298ea"
+    },
+    {
+      "id": "pace2017-he125.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he125.gr.xz",
+      "bytes": 28832,
+      "sha256": "1238243f62034ab4433a533078bf2985071a2936cf9419a31b5cc630f1d0ef0e"
+    },
+    {
+      "id": "pace2017-he127.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he127.gr.xz",
+      "bytes": 28692,
+      "sha256": "aa4f501e92875435a0abd8bd813c367c0b03eeac5e997291e8aae7c9367af8cf"
+    },
+    {
+      "id": "pace2017-he129.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he129.gr.xz",
+      "bytes": 32164,
+      "sha256": "d8f90bfd0bd3d3344dcd9c88e8818472ada2cae05fdca0c51240238be1a86916"
+    },
+    {
+      "id": "pace2017-he131.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he131.gr.xz",
+      "bytes": 34916,
+      "sha256": "87717ee5af4141a3fc6d0b73954e24420b3f555adb8fb74c54410c88d09b3ab4"
+    },
+    {
+      "id": "pace2017-he133.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he133.gr.xz",
+      "bytes": 32876,
+      "sha256": "b0496ad56cee2a439f8d8c6501cfea50e097a65913ee6ac761b682a3cc348ec4"
+    },
+    {
+      "id": "pace2017-he135.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he135.gr.xz",
+      "bytes": 42720,
+      "sha256": "ee46c95a3c8ca969e7dd2aba0ad210b7e7faca60e6240d299b9ee606ae0ce946"
+    },
+    {
+      "id": "pace2017-he137.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he137.gr.xz",
+      "bytes": 46052,
+      "sha256": "c2c2f229e5c5e72b5684ccea9baa1e405567f5ba0f084d26aaab5a43fcb6b389"
+    },
+    {
+      "id": "pace2017-he139.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he139.gr.xz",
+      "bytes": 49896,
+      "sha256": "3ce7abed9105de541c4364e65211ec601b1c6bd8f07d2254a6194abbc448bf06"
+    },
+    {
+      "id": "pace2017-he141.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he141.gr.xz",
+      "bytes": 61944,
+      "sha256": "9361edb1026f92e082d7554623d7f314dca4f826d92c8f6b3753ab24a7d11d24"
+    },
+    {
+      "id": "pace2017-he143.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he143.gr.xz",
+      "bytes": 71024,
+      "sha256": "551f5e18fc8700b8802444a899c429b315cbc30fcd8c8f383f41c7f61efd3eaf"
+    },
+    {
+      "id": "pace2017-he145.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he145.gr.xz",
+      "bytes": 82648,
+      "sha256": "f474e0bc15479a1172dc8345940b977a2211ffaad912e72189bc02ad3ae6e9ea"
+    },
+    {
+      "id": "pace2017-he147.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he147.gr.xz",
+      "bytes": 108052,
+      "sha256": "ec88a0ac4f9af394542ffa3a6c2e5162d6f2df50d01ad184cf6956f8af597fdb"
+    },
+    {
+      "id": "pace2017-he149.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he149.gr.xz",
+      "bytes": 134148,
+      "sha256": "285ab268035766396576fa412f3078dc3e42485fccc9aa4e47ed467cacdbaff5"
+    },
+    {
+      "id": "pace2017-he151.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he151.gr.xz",
+      "bytes": 144008,
+      "sha256": "91c716abc2bcb8fb01513d72c8e4b98588b845ae7a392f448ab5717fa2b01c84"
+    },
+    {
+      "id": "pace2017-he153.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he153.gr.xz",
+      "bytes": 169596,
+      "sha256": "e0dd11cf0989e8f23f52c00d506aec61bfe3f0e42774cd63a87b186d1a35158e"
+    },
+    {
+      "id": "pace2017-he155.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he155.gr.xz",
+      "bytes": 227432,
+      "sha256": "6c5b20fe6fb03c825236a4c2c9ce2003e243e726cc0bff89e3e2ce6c51d65b5b"
+    },
+    {
+      "id": "pace2017-he157.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he157.gr.xz",
+      "bytes": 297136,
+      "sha256": "0e05bbc08b82071db7cf176df185ed1217232e3378cd8f03bac50d8dfc4be2ed"
+    },
+    {
+      "id": "pace2017-he159.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he159.gr.xz",
+      "bytes": 352744,
+      "sha256": "c97216593dd32b7c8662993243ef3e2f8c12ad3635d0af7de27f737c4f700cdf"
+    },
+    {
+      "id": "pace2017-he161.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he161.gr.xz",
+      "bytes": 364724,
+      "sha256": "a29c35caa017128aadd5570a155294531df672fcd9aa3e9191af321d8168e73e"
+    },
+    {
+      "id": "pace2017-he163.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he163.gr.xz",
+      "bytes": 462732,
+      "sha256": "41cce0bb6a7a516fe5a929bac8a1a3f65c7914e3d87f8cb667672a84df660fd6"
+    },
+    {
+      "id": "pace2017-he165.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he165.gr.xz",
+      "bytes": 573540,
+      "sha256": "acdd194033037aa59c655ed670ba85e281474237e3c66eb85b8bb81aa7c030fd"
+    },
+    {
+      "id": "pace2017-he167.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he167.gr.xz",
+      "bytes": 793548,
+      "sha256": "d550ce2faa148073b53ea90f6413481b6397b29fe2595ee4a6792a55e54c2425"
+    },
+    {
+      "id": "pace2017-he169.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he169.gr.xz",
+      "bytes": 1000416,
+      "sha256": "13019b896842b923cbbd614106137d2f0f72e8fdb1f667c0660dcdeeffd15138"
+    },
+    {
+      "id": "pace2017-he171.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he171.gr.xz",
+      "bytes": 1097836,
+      "sha256": "375c9ddfe97d9e9e6ee4a1b4d76992f193a4b5d1ea03c64cd02196cb22460be1"
+    },
+    {
+      "id": "pace2017-he173.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he173.gr.xz",
+      "bytes": 1245536,
+      "sha256": "9fb5b6acc8049353b8ed23d77c1b42e3eeaf4fedb352b2d73615e611d09843d2"
+    },
+    {
+      "id": "pace2017-he175.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he175.gr.xz",
+      "bytes": 1697672,
+      "sha256": "178a9517d3ff41d94300cd3bf29d1e9878c91279c7583c598a52e4332a3e3396"
+    },
+    {
+      "id": "pace2017-he177.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he177.gr.xz",
+      "bytes": 1759692,
+      "sha256": "fa18d48cd3d28a01bade0806fb32088c139be9081948d9e3d317aa19dd99ec38"
+    },
+    {
+      "id": "pace2017-he179.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he179.gr.xz",
+      "bytes": 1819944,
+      "sha256": "63eb16de56ca1f72a8149a0d39a314cf7c20c4d6b1e0346307b9684aafd5abc6"
+    },
+    {
+      "id": "pace2017-he181.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he181.gr.xz",
+      "bytes": 2093800,
+      "sha256": "a6b7daef7084b56b3386264d7f7686c6c2d8c87f397a0afe0932e6172514ffec"
+    },
+    {
+      "id": "pace2017-he183.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he183.gr.xz",
+      "bytes": 4540884,
+      "sha256": "e9bb630894186a64dc0bb8f1170824133932d685a83f2a7905a70052a7bd94da"
+    },
+    {
+      "id": "pace2017-he185.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he185.gr.xz",
+      "bytes": 2373820,
+      "sha256": "003a10244d89be14c0cbb52698948d811b8e556100a3f973ad37e28ddfa594c4"
+    },
+    {
+      "id": "pace2017-he187.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he187.gr.xz",
+      "bytes": 2606296,
+      "sha256": "4f1d8de3c0cca8a243530876b809a14ada6622c7c8cd969401a426a3b980512e"
+    },
+    {
+      "id": "pace2017-he189.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he189.gr.xz",
+      "bytes": 3122004,
+      "sha256": "5c18a02f3f11a4f4c4103e15577aaaab66a498f54c0bea01f8ec98c6b711df59"
+    },
+    {
+      "id": "pace2017-he191.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he191.gr.xz",
+      "bytes": 3831164,
+      "sha256": "267dccb0ae5c6850fbf9acabe0611b23613afdbecacd20d2ea235f9ec5c9f1f1"
+    },
+    {
+      "id": "pace2017-he193.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he193.gr.xz",
+      "bytes": 5806780,
+      "sha256": "789658354341dd821f2fe6657243075a7d829b0ce5b6125346cc6d5d73501409"
+    },
+    {
+      "id": "pace2017-he195.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he195.gr.xz",
+      "bytes": 6452096,
+      "sha256": "b927ac0d7f94204f62c41021c6f558b16045e4f2345c61dbef4ac8c0b289ae0f"
+    },
+    {
+      "id": "pace2017-he197.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he197.gr.xz",
+      "bytes": 8463104,
+      "sha256": "b8d0885bbea4db4c92a830fa2e81a78cc55ed6f7888bf7a42431213d4d0e163c"
+    },
+    {
+      "id": "pace2017-he199.gr",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Treewidth-PACE-2017-instances/44e40b0ce87d2360f6114ba2aa503ef8df5e9256/gr/heuristic/he199.gr.xz",
+      "bytes": 22721904,
+      "sha256": "9ce70a7d506bf1a7ed683bb7173fc57f5a45721d73477febf3b2e8e179ac15db"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances/he001.gr",
+      "source_id": "pace2017-he001.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he003.gr",
+      "source_id": "pace2017-he003.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he005.gr",
+      "source_id": "pace2017-he005.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he007.gr",
+      "source_id": "pace2017-he007.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he009.gr",
+      "source_id": "pace2017-he009.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he011.gr",
+      "source_id": "pace2017-he011.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he013.gr",
+      "source_id": "pace2017-he013.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he015.gr",
+      "source_id": "pace2017-he015.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he017.gr",
+      "source_id": "pace2017-he017.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he019.gr",
+      "source_id": "pace2017-he019.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he021.gr",
+      "source_id": "pace2017-he021.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he023.gr",
+      "source_id": "pace2017-he023.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he025.gr",
+      "source_id": "pace2017-he025.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he027.gr",
+      "source_id": "pace2017-he027.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he029.gr",
+      "source_id": "pace2017-he029.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he031.gr",
+      "source_id": "pace2017-he031.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he033.gr",
+      "source_id": "pace2017-he033.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he035.gr",
+      "source_id": "pace2017-he035.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he037.gr",
+      "source_id": "pace2017-he037.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he039.gr",
+      "source_id": "pace2017-he039.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he041.gr",
+      "source_id": "pace2017-he041.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he043.gr",
+      "source_id": "pace2017-he043.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he045.gr",
+      "source_id": "pace2017-he045.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he047.gr",
+      "source_id": "pace2017-he047.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he049.gr",
+      "source_id": "pace2017-he049.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he051.gr",
+      "source_id": "pace2017-he051.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he053.gr",
+      "source_id": "pace2017-he053.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he055.gr",
+      "source_id": "pace2017-he055.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he057.gr",
+      "source_id": "pace2017-he057.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he059.gr",
+      "source_id": "pace2017-he059.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he061.gr",
+      "source_id": "pace2017-he061.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he063.gr",
+      "source_id": "pace2017-he063.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he065.gr",
+      "source_id": "pace2017-he065.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he067.gr",
+      "source_id": "pace2017-he067.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he069.gr",
+      "source_id": "pace2017-he069.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he071.gr",
+      "source_id": "pace2017-he071.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he073.gr",
+      "source_id": "pace2017-he073.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he075.gr",
+      "source_id": "pace2017-he075.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he077.gr",
+      "source_id": "pace2017-he077.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he079.gr",
+      "source_id": "pace2017-he079.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he081.gr",
+      "source_id": "pace2017-he081.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he083.gr",
+      "source_id": "pace2017-he083.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he085.gr",
+      "source_id": "pace2017-he085.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he087.gr",
+      "source_id": "pace2017-he087.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he089.gr",
+      "source_id": "pace2017-he089.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he091.gr",
+      "source_id": "pace2017-he091.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he093.gr",
+      "source_id": "pace2017-he093.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he095.gr",
+      "source_id": "pace2017-he095.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he097.gr",
+      "source_id": "pace2017-he097.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he099.gr",
+      "source_id": "pace2017-he099.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he101.gr",
+      "source_id": "pace2017-he101.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he103.gr",
+      "source_id": "pace2017-he103.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he105.gr",
+      "source_id": "pace2017-he105.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he107.gr",
+      "source_id": "pace2017-he107.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he109.gr",
+      "source_id": "pace2017-he109.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he111.gr",
+      "source_id": "pace2017-he111.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he113.gr",
+      "source_id": "pace2017-he113.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he115.gr",
+      "source_id": "pace2017-he115.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he117.gr",
+      "source_id": "pace2017-he117.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he119.gr",
+      "source_id": "pace2017-he119.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he121.gr",
+      "source_id": "pace2017-he121.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he123.gr",
+      "source_id": "pace2017-he123.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he125.gr",
+      "source_id": "pace2017-he125.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he127.gr",
+      "source_id": "pace2017-he127.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he129.gr",
+      "source_id": "pace2017-he129.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he131.gr",
+      "source_id": "pace2017-he131.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he133.gr",
+      "source_id": "pace2017-he133.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he135.gr",
+      "source_id": "pace2017-he135.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he137.gr",
+      "source_id": "pace2017-he137.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he139.gr",
+      "source_id": "pace2017-he139.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he141.gr",
+      "source_id": "pace2017-he141.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he143.gr",
+      "source_id": "pace2017-he143.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he145.gr",
+      "source_id": "pace2017-he145.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he147.gr",
+      "source_id": "pace2017-he147.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he149.gr",
+      "source_id": "pace2017-he149.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he151.gr",
+      "source_id": "pace2017-he151.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he153.gr",
+      "source_id": "pace2017-he153.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he155.gr",
+      "source_id": "pace2017-he155.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he157.gr",
+      "source_id": "pace2017-he157.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he159.gr",
+      "source_id": "pace2017-he159.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he161.gr",
+      "source_id": "pace2017-he161.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he163.gr",
+      "source_id": "pace2017-he163.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he165.gr",
+      "source_id": "pace2017-he165.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he167.gr",
+      "source_id": "pace2017-he167.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he169.gr",
+      "source_id": "pace2017-he169.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he171.gr",
+      "source_id": "pace2017-he171.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he173.gr",
+      "source_id": "pace2017-he173.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he175.gr",
+      "source_id": "pace2017-he175.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he177.gr",
+      "source_id": "pace2017-he177.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he179.gr",
+      "source_id": "pace2017-he179.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he181.gr",
+      "source_id": "pace2017-he181.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he183.gr",
+      "source_id": "pace2017-he183.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he185.gr",
+      "source_id": "pace2017-he185.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he187.gr",
+      "source_id": "pace2017-he187.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he189.gr",
+      "source_id": "pace2017-he189.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he191.gr",
+      "source_id": "pace2017-he191.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he193.gr",
+      "source_id": "pace2017-he193.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he195.gr",
+      "source_id": "pace2017-he195.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he197.gr",
+      "source_id": "pace2017-he197.gr",
+      "operation": "xz_file"
+    },
+    {
+      "path": "app/instances/he199.gr",
+      "source_id": "pace2017-he199.gr",
+      "operation": "xz_file"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "license": "CC0 (official repository README)"
+}

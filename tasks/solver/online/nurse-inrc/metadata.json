@@ -1,0 +1,52 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260911",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/nurse-inrc/PROVENANCE.md §B/K derivation: per-instance best-score table on the official INRC-I website (most medium/long instances are proven optimal in Burke & Curtois, EJOR 2014); solutions for all 30 judged keys were recomputed and verified.",
+   "tier": "competition-record"
+  }
+ },
+ "family": "nurse-rostering",
+ "id": "nurse-inrc",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-nurse-inrc-judge-v12"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "NURSE_INSTANCE_SECONDS",
+  "n_hidden": 60,
+  "n_public": 9,
+  "per_instance_seconds": 600,
+  "shard_cores": 1,
+  "shard_mem_gb": 8,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "INRC-I",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "nurse-id renumbering"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "The judged set is all 60 INRC-I instances (30 sprint + 15 medium + 15 long), transformed by relabeling nurse IDs (260831 batch; B is sensitive to numbering, so it was remeasured and changed on 27/30 keys). The 9 public hint instances are not judged."
+ },
+ "subdomain": "timetabling",
+ "title": "Nurse rostering"
+}

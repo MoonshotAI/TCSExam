@@ -1,0 +1,53 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260920",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/celar-rlfap/PROVENANCE.md §B/K derivation: best values measured with CP-SAT in this project and cross-checked against literature tables; unverified literature values without witnesses are not used.",
+   "tier": "self-measured"
+  }
+ },
+ "family": "celar-rlfap",
+ "id": "celar-rlfap",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-celar-rlfap-judge-v13"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "CELAR_TIME_LIMIT",
+  "n_hidden": 8,
+  "n_neither": 4,
+  "n_public": 13,
+  "per_instance_seconds": 1200,
+  "shard_cores": 1,
+  "shard_mem_gb": 16,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "library",
+  "ecosystem": "CALMA (CELAR RLFAP)",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "variable permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "The 70/30 split is frozen (tests/split.json; 25 total → 13 public + 8 hidden + 4 neither). The 8 hidden instances were structure-preservingly transformed into hNN.dzn by permuting variables and shuffling constraint rows while keeping the frequency domain unchanged. B is a pre-transformation placeholder and awaits batch remeasurement (tests/calibration/measure-manifest.json). 260920 holdout: 4 more public instances are assigned to neither; their names are stored only in the third bucket of split.json."
+ },
+ "subdomain": "constraint-programming",
+ "title": "Radio link frequency assignment"
+}

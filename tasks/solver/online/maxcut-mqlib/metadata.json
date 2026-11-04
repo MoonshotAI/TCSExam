@@ -1,0 +1,52 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260920",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/maxcut-mqlib/PROVENANCE.md: per-instance optimum over 37 heuristics × 5 seeds in the 2020-03 MQLib repository snapshot (literature-snapshot tier; not rechecked after that snapshot).",
+   "tier": "literature"
+  }
+ },
+ "family": "maxcut",
+ "id": "maxcut-mqlib",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-maxcut-mqlib-judge-v13"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": null,
+  "n_hidden": 45,
+  "n_public": 105,
+  "per_instance_seconds": 600,
+  "shard_cores": 16,
+  "shard_mem_gb": 16,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "max",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "library",
+  "ecosystem": "MQLib",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "vertex permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "form2 conversion (260920): the 70/30 split is recorded in tests/split.json (105 public / 45 hidden, stratified by family × size). The 45 hidden instances were transformed by vertex permutation (txNNN; tests/transform_manifest.json records the mapping and permutations). reference B is temporarily the form1 value on original instances; overwrite it after uniform batch remeasurement and update anchors.B.date. The solver enforces its own limit (shipped baseline MAXCUT_SECONDS=540); judging kills it at the wall-clock limit, and the limit is not passed through a judging-side environment variable."
+ },
+ "subdomain": "graph-optimization",
+ "title": "MaxCut"
+}

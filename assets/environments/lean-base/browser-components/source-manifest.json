@@ -1,0 +1,54 @@
+{
+  "checked": "2026-10-29",
+  "components": {
+    "emscripten": {
+      "directory": "emscripten",
+      "notice_material_ready": true,
+      "payload_linkage": "conservative_runtime_notice_set; exact linked subset not enumerated"
+    },
+    "expat": {
+      "directory": "expat",
+      "notice_material_ready": true,
+      "payload_linkage": "linked_in_reviewed_graphviz_payload"
+    },
+    "penrose_optimizer": {
+      "directory": "penrose-optimizer",
+      "notice_material_ready": true,
+      "payload_linkage": "optimizer payload verified; individual crates not asserted"
+    }
+  },
+  "generated_javascript_or_wasm_modified": false,
+  "overall_nested_review_complete": false,
+  "payload_evidence_scope": "The exact candidate JavaScript files and previously reviewed embedded payload evidence are used. No browser JavaScript or WebAssembly was executed for this integration.",
+  "pending": [
+    "The fixed 387-entry ProofWidgets npm lock set is covered separately in proofwidgets-npm; its source archive installation, fresh revalidation, and individual payload linkage remain pending.",
+    "Full source archives for Expat, Emscripten, Penrose, and the 46 crates are referenced by exact public locations but are not installed in the image.",
+    "Actual wasm32 linkage for individual Penrose crates and the exact Emscripten runtime subset was not determined."
+  ],
+  "penrose_crate_count": 46,
+  "penrose_original_notice_count": 77,
+  "penrose_supplementary_notice_count": 6,
+  "proofwidgets_commit": "b1436dc749e722c9920036b52cdc43b3451d0b69",
+  "schema_version": 1,
+  "scope": "Targeted browser nested-component notices for Expat, Emscripten runtime files, and Penrose optimizer with its exact Cargo.lock registry set. This is not a complete review of all ProofWidgets npm dependencies.",
+  "source_policy": "MIT, Apache, BSD, Zlib, Unlicense, and related notices are retained with attribution and exact source locations. Source-offer obligations are evaluated per license rather than copying the Graphviz EPL rule to every component.",
+  "targeted_materials_ready": true,
+  "verified_payload_files": [
+    {
+      "bytes": 2663470,
+      "candidate_matches_fixed_upstream": true,
+      "embedded_wasm_markers_from_reviewed_payload": true,
+      "path": "js/penroseDisplay.js",
+      "sha256": "9364a664c95a5ab19e8f92920b0a43fe4e1904053e9f38a64085f4a0124d66f6",
+      "source_url": "https://raw.githubusercontent.com/leanprover-community/ProofWidgets4/b1436dc749e722c9920036b52cdc43b3451d0b69/widget/js/penroseDisplay.js"
+    },
+    {
+      "bytes": 2661339,
+      "candidate_matches_fixed_upstream": true,
+      "embedded_wasm_markers_from_reviewed_payload": true,
+      "path": "js/penroseCanvas.js",
+      "sha256": "746775ae85eb641819b6bc53955581c9cf8103848eb0602fba23e4c3e195ba02",
+      "source_url": "https://raw.githubusercontent.com/leanprover-community/ProofWidgets4/b1436dc749e722c9920036b52cdc43b3451d0b69/widget/js/penroseCanvas.js"
+    }
+  ]
+}

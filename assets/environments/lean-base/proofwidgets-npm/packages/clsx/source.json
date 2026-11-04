@@ -1,0 +1,50 @@
+{
+  "author": {
+    "email": "luke.edwards05@gmail.com",
+    "name": "Luke Edwards",
+    "url": "https://lukeed.com"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": ">=6"
+    },
+    "integrity": "sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz",
+    "version": "2.1.1"
+  },
+  "lock_path": "node_modules/clsx",
+  "name": "clsx",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1104,
+      "installed_file": "notices/original/package/license",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/license",
+      "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97",
+      "text_file": "image-notices/9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 3936,
+    "installed_in_image": false,
+    "integrity": "sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "6320104b491ca645120e8f99589ce663ff1fb337ba80066719a011bd95320303"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.1.1"
+}

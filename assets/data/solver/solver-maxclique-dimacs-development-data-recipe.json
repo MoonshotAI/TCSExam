@@ -1,0 +1,502 @@
+{
+  "format": "official_files",
+  "description": "Original DIMACS and CMU graph inputs, original compact-binary conversion, and saved historical vertex permutations. Only declared input graphs selected.",
+  "sources": [
+    {
+      "id": "dimacs-clique-C125.9.clq",
+      "url": "https://mat.tepper.cmu.edu/COLOR02/INSTANCES/C125.9.clq",
+      "bytes": 58214,
+      "sha256": "546f576d40edfe21e1f5c602e57cc1483b0e2fe9e3e3f9cff25659d7d4be1ad7"
+    },
+    {
+      "id": "dimacs-clique-C2000.9.clq",
+      "url": "https://mat.tepper.cmu.edu/COLOR02/INSTANCES/C2000.9.clq",
+      "bytes": 19602828,
+      "sha256": "aa4b1d7df7f9c1afbf8c9f35fcf5bdfc6370fd27db5c9f3fd5409dfd0d164f16"
+    },
+    {
+      "id": "dimacs-clique-C250.9.clq",
+      "url": "https://mat.tepper.cmu.edu/COLOR02/INSTANCES/C250.9.clq",
+      "bytes": 256266,
+      "sha256": "b4c0c254ac61d9844d61675c6ea4da31b3ebe530a6d4cfdbfb5fc55085027ab2"
+    },
+    {
+      "id": "dimacs-clique-C4000.5.clq",
+      "url": "https://mat.tepper.cmu.edu/COLOR02/INSTANCES/C4000.5.clq",
+      "bytes": 45790538,
+      "sha256": "18ca07d9f656ce56b492384a268e457152e5c7320a2dbd780742a5deb6829799"
+    },
+    {
+      "id": "dimacs-clique-DSJC1000_5.clq",
+      "url": "https://mat.tepper.cmu.edu/COLOR02/INSTANCES/DSJC1000.5.clq",
+      "bytes": 2445393,
+      "sha256": "86aa45045d2673efd505f9b24f9bce7de6a04544d05a01dea2ce93eeb03e3398"
+    },
+    {
+      "id": "dimacs-clique-DSJC500_5.clq",
+      "url": "https://mat.tepper.cmu.edu/COLOR02/INSTANCES/DSJC500.5.clq",
+      "bytes": 599513,
+      "sha256": "33c9b6bd4456550db2b7dca779c0cc85d2b50be557fa8813c4c8ab6541422feb"
+    },
+    {
+      "id": "dimacs-clique-MANN_a27.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/MANN_a27.clq.b",
+      "bytes": 10071,
+      "sha256": "c8193a725ab7b868d564f3b49ee8a996ba228ce8257b73226974ab3a21eb4fdd"
+    },
+    {
+      "id": "dimacs-clique-MANN_a9.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/MANN_a9.clq.b",
+      "bytes": 540,
+      "sha256": "41f02394dcaf34151951e1e0e9791733758a642094413b03717b74b8c0cdead7"
+    },
+    {
+      "id": "dimacs-clique-brock200_2.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/brock200_2.clq.b",
+      "bytes": 2964,
+      "sha256": "9fb84254bc2b9a509b2898559f0c4b4d3b86f2b3dd53d5d39b014d46dc32a4d3"
+    },
+    {
+      "id": "dimacs-clique-brock200_3.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/brock200_3.clq.b",
+      "bytes": 2973,
+      "sha256": "ccf32fe9a68778d8baf2a52ea8148a20480d75bc1c7850a5d4f19e11cbd57636"
+    },
+    {
+      "id": "dimacs-clique-brock400_3.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/brock400_3.clq.b",
+      "bytes": 10641,
+      "sha256": "9c99cfde97f72106b00bc941dc765e0653179cd62b89cec2a21dd722318c78f1"
+    },
+    {
+      "id": "dimacs-clique-brock400_4.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/brock400_4.clq.b",
+      "bytes": 10652,
+      "sha256": "27ea24226e03b50461203dffcaa096fb2748b0e5a541144a8a6520b1ee0ff1d0"
+    },
+    {
+      "id": "dimacs-clique-brock800_1.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/brock800_1.clq.b",
+      "bytes": 40811,
+      "sha256": "d473aff67638c2ddb09d1ae28f632557b35e002e3bb9383a8e5af71e44491eaf"
+    },
+    {
+      "id": "dimacs-clique-brock800_4.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/brock800_4.clq.b",
+      "bytes": 40825,
+      "sha256": "8678f1b49a2799c698a8ef4eebcd309685b133e24561583f15f2fae6e0f0f4a5"
+    },
+    {
+      "id": "dimacs-clique-c-fat200-1.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/c-fat200-1.clq.b",
+      "bytes": 2941,
+      "sha256": "ab4534546d9ecc7341ffa05d01467fe1934dff591e3bfe3dcd25374bdbc0f618"
+    },
+    {
+      "id": "dimacs-clique-c-fat200-2.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/c-fat200-2.clq.b",
+      "bytes": 2941,
+      "sha256": "e84440b12a5406ee21b8841ac40ecb2165dc9c60e8b68c3acb20c079b0d4eeb8"
+    },
+    {
+      "id": "dimacs-clique-c-fat500-10.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/c-fat500-10.clq.b",
+      "bytes": 16219,
+      "sha256": "cc5c337cde02773fa90146c41b04ae34016831eb5e204abc4e970828b657cd12"
+    },
+    {
+      "id": "dimacs-clique-gen200_p0.9_55.clq",
+      "url": "https://mat.tepper.cmu.edu/COLOR02/INSTANCES/gen200_p0.9_55.clq",
+      "bytes": 160049,
+      "sha256": "14905b0aded564fbba9a770377c3c986452506f92a4341f326031afd9c467502"
+    },
+    {
+      "id": "dimacs-clique-gen400_p0.9_55.clq",
+      "url": "https://mat.tepper.cmu.edu/COLOR02/INSTANCES/gen400_p0.9_55.clq",
+      "bytes": 679582,
+      "sha256": "8f376d7c0f45e66f525a03662f6475a381302838530356567065335a2bbf6b58"
+    },
+    {
+      "id": "dimacs-clique-hamming10-2.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/hamming10-2.clq.b",
+      "bytes": 66313,
+      "sha256": "5e354c2fa619c98608d0722950e67953376af253815d2c15aec9b76e79a02f02"
+    },
+    {
+      "id": "dimacs-clique-hamming6-2.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/hamming6-2.clq.b",
+      "bytes": 548,
+      "sha256": "ebded15c7f06420ca92441e4415ab7342a44b08b6119c0254aceb9245edc05c8"
+    },
+    {
+      "id": "dimacs-clique-hamming8-2.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/hamming8-2.clq.b",
+      "bytes": 4486,
+      "sha256": "c969c705a813f15034692ab14e4ebecc566ec6d0a0c538103de011900249c4d4"
+    },
+    {
+      "id": "dimacs-clique-johnson16-2-4.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/johnson16-2-4.clq.b",
+      "bytes": 1276,
+      "sha256": "942daec7d621524d156eb6c03f817aad42bc3dfa1e7e6f453b10297a6c214c5e"
+    },
+    {
+      "id": "dimacs-clique-johnson32-2-4.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/johnson32-2-4.clq.b",
+      "bytes": 15942,
+      "sha256": "4509e603433fa8a297d72addf51390285cc2d9712200e83ae8a5137b50ccd77f"
+    },
+    {
+      "id": "dimacs-clique-keller4.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/keller4.clq.b",
+      "bytes": 2344,
+      "sha256": "46c9e11dfd3c1a8f72f62032ca4c1c211b763151b285d2775071e2287acd0b21"
+    },
+    {
+      "id": "dimacs-clique-keller6.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/keller6.clq.b",
+      "bytes": 708204,
+      "sha256": "b380203c27c1b88ebd71a2c72165bddb3f93997af0d44e5d0d301955f26abf49"
+    },
+    {
+      "id": "dimacs-clique-p_hat1000-1.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/p_hat1000-1.clq.b",
+      "bytes": 63601,
+      "sha256": "a808ad7a3c08ef0a70a55b623360b0638dc0c60e5642a6ccdf534dd2b93abf48"
+    },
+    {
+      "id": "dimacs-clique-p_hat1000-2.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/p_hat1000-2.clq.b",
+      "bytes": 63601,
+      "sha256": "38060d43b3b36b4dfb2fef888fb95eadf62fc9fe8568cec56ca1881f1228fa8b"
+    },
+    {
+      "id": "dimacs-clique-p_hat1500-1.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/p_hat1500-1.clq.b",
+      "bytes": 141978,
+      "sha256": "8e5c3df0bb0169821818a49680b4b7f6aa92a8500c09b152ef83e1d417d885fa"
+    },
+    {
+      "id": "dimacs-clique-p_hat300-1.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/p_hat300-1.clq.b",
+      "bytes": 6376,
+      "sha256": "c74d083b0253f7eb2b841baf6807fd4509fcf2717c67d0dd319cde7285cd54e7"
+    },
+    {
+      "id": "dimacs-clique-p_hat300-2.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/p_hat300-2.clq.b",
+      "bytes": 6376,
+      "sha256": "806f2886cf5cf06a1997682492caa64f9a126cc5ac4636b4487f6092ae45f616"
+    },
+    {
+      "id": "dimacs-clique-p_hat500-2.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/p_hat500-2.clq.b",
+      "bytes": 16476,
+      "sha256": "979c961adfb90bb413e30010b0cb3190964f23d4a51ea837cc675941e5d6f2fd"
+    },
+    {
+      "id": "dimacs-clique-p_hat500-3.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/p_hat500-3.clq.b",
+      "bytes": 16476,
+      "sha256": "9899322313aed7475a27362c9fde85da63cf975453d79e3cb476f672181c0080"
+    },
+    {
+      "id": "dimacs-clique-p_hat700-2.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/p_hat700-2.clq.b",
+      "bytes": 31592,
+      "sha256": "29a3b3e0e967924e77744020f553b65f730e82866fcc15a80d0e02b77f28bbcb"
+    },
+    {
+      "id": "dimacs-clique-p_hat700-3.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/p_hat700-3.clq.b",
+      "bytes": 31592,
+      "sha256": "0eb855ee9755f3c182f30fef4b463be7dd73778cda63173c0afa006f1808b0f3"
+    },
+    {
+      "id": "dimacs-clique-san1000.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/san1000.clq.b",
+      "bytes": 63521,
+      "sha256": "6b4aa153257d8683e61e8852b071d03b3f928bf9fbd91d5e15bb8e959f86136c"
+    },
+    {
+      "id": "dimacs-clique-san200_0.7_2.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/san200_0.7_2.clq.b",
+      "bytes": 2987,
+      "sha256": "42d370451376d7d4d5411face06813a4cd2d4967ad757669a7a08e6ac1df6fe7"
+    },
+    {
+      "id": "dimacs-clique-san200_0.9_1.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/san200_0.9_1.clq.b",
+      "bytes": 2987,
+      "sha256": "250d86413373ef61b5d81cf15d2b732526ea4af5c99911739e706de58f5b19b8"
+    },
+    {
+      "id": "dimacs-clique-san200_0.9_3.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/san200_0.9_3.clq.b",
+      "bytes": 2986,
+      "sha256": "10098c6c38a6ead93c04147abd527dbdbc2e9b0b1cdecfac5f1ee775b2f5c40d"
+    },
+    {
+      "id": "dimacs-clique-san400_0.5_1.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/san400_0.5_1.clq.b",
+      "bytes": 10587,
+      "sha256": "0f088ac002abeb270a7e9c5017c6eb826ae2951f4a524d4a8211622847d4a9f6"
+    },
+    {
+      "id": "dimacs-clique-san400_0.7_1.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/san400_0.7_1.clq.b",
+      "bytes": 10588,
+      "sha256": "20a7fad49dc16684eebe5cd7c169068f9900ff4a9d6cac0ff64a0b6ba7879ea5"
+    },
+    {
+      "id": "dimacs-clique-san400_0.9_1.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/san400_0.9_1.clq.b",
+      "bytes": 10588,
+      "sha256": "3f70aa8c3a48d5d7b3ac43d1426822383c6ef70b7d3e79679e2b97e765aacc53"
+    },
+    {
+      "id": "dimacs-clique-sanr200_0.7.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/sanr200_0.7.clq.b",
+      "bytes": 3110,
+      "sha256": "46e7e78f2253fa578fa6f19261e4ac8b6c3e62ced840affd3c39ef1386b54589"
+    },
+    {
+      "id": "dimacs-clique-sanr400_0.7.clq",
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/sanr400_0.7.clq.b",
+      "bytes": 10709,
+      "sha256": "c677c8a2698c6a368bb451900818afc84fbbade98af18a6a7b8dee698dcaa770"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances/C125.9.clq",
+      "source_id": "dimacs-clique-C125.9.clq",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/C2000.9.clq",
+      "source_id": "dimacs-clique-C2000.9.clq",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/C250.9.clq",
+      "source_id": "dimacs-clique-C250.9.clq",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/C4000.5.clq",
+      "source_id": "dimacs-clique-C4000.5.clq",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/DSJC1000_5.clq",
+      "source_id": "dimacs-clique-DSJC1000_5.clq",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/DSJC500_5.clq",
+      "source_id": "dimacs-clique-DSJC500_5.clq",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/MANN_a27.clq",
+      "source_id": "dimacs-clique-MANN_a27.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/MANN_a9.clq",
+      "source_id": "dimacs-clique-MANN_a9.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/brock200_2.clq",
+      "source_id": "dimacs-clique-brock200_2.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/brock200_3.clq",
+      "source_id": "dimacs-clique-brock200_3.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/brock400_3.clq",
+      "source_id": "dimacs-clique-brock400_3.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/brock400_4.clq",
+      "source_id": "dimacs-clique-brock400_4.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/brock800_1.clq",
+      "source_id": "dimacs-clique-brock800_1.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/brock800_4.clq",
+      "source_id": "dimacs-clique-brock800_4.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/c-fat200-1.clq",
+      "source_id": "dimacs-clique-c-fat200-1.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/c-fat200-2.clq",
+      "source_id": "dimacs-clique-c-fat200-2.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/c-fat500-10.clq",
+      "source_id": "dimacs-clique-c-fat500-10.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/gen200_p0.9_55.clq",
+      "source_id": "dimacs-clique-gen200_p0.9_55.clq",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/gen400_p0.9_55.clq",
+      "source_id": "dimacs-clique-gen400_p0.9_55.clq",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/hamming10-2.clq",
+      "source_id": "dimacs-clique-hamming10-2.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/hamming6-2.clq",
+      "source_id": "dimacs-clique-hamming6-2.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/hamming8-2.clq",
+      "source_id": "dimacs-clique-hamming8-2.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/johnson16-2-4.clq",
+      "source_id": "dimacs-clique-johnson16-2-4.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/johnson32-2-4.clq",
+      "source_id": "dimacs-clique-johnson32-2-4.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/keller4.clq",
+      "source_id": "dimacs-clique-keller4.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/keller6.clq",
+      "source_id": "dimacs-clique-keller6.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/p_hat1000-1.clq",
+      "source_id": "dimacs-clique-p_hat1000-1.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/p_hat1000-2.clq",
+      "source_id": "dimacs-clique-p_hat1000-2.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/p_hat1500-1.clq",
+      "source_id": "dimacs-clique-p_hat1500-1.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/p_hat300-1.clq",
+      "source_id": "dimacs-clique-p_hat300-1.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/p_hat300-2.clq",
+      "source_id": "dimacs-clique-p_hat300-2.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/p_hat500-2.clq",
+      "source_id": "dimacs-clique-p_hat500-2.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/p_hat500-3.clq",
+      "source_id": "dimacs-clique-p_hat500-3.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/p_hat700-2.clq",
+      "source_id": "dimacs-clique-p_hat700-2.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/p_hat700-3.clq",
+      "source_id": "dimacs-clique-p_hat700-3.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/san1000.clq",
+      "source_id": "dimacs-clique-san1000.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/san200_0.7_2.clq",
+      "source_id": "dimacs-clique-san200_0.7_2.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/san200_0.9_1.clq",
+      "source_id": "dimacs-clique-san200_0.9_1.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/san200_0.9_3.clq",
+      "source_id": "dimacs-clique-san200_0.9_3.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/san400_0.5_1.clq",
+      "source_id": "dimacs-clique-san400_0.5_1.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/san400_0.7_1.clq",
+      "source_id": "dimacs-clique-san400_0.7_1.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/san400_0.9_1.clq",
+      "source_id": "dimacs-clique-san400_0.9_1.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/sanr200_0.7.clq",
+      "source_id": "dimacs-clique-sanr200_0.7.clq",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/sanr400_0.7.clq",
+      "source_id": "dimacs-clique-sanr400_0.7.clq",
+      "operation": "dimacs_binary"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py",
+    "src/tcsexam/dimacs_binary_data.py",
+    "assets/data/solver/maxclique-dimacs/transform.py"
+  ],
+  "transform": "assets/data/solver/maxclique-dimacs/transform.py",
+  "transform_sha256": "4bf056bcaf541e9c3226c2fd3011b9a542185e90a01b1a9ecb73d4990878b68b",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Retain original benchmark-family notices. Official download availability establishes acquisition; no new redistribution grant or public pin is asserted."
+}

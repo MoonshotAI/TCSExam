@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": ">=14.6"
+    },
+    "integrity": "sha512-p96FSY54r+WJ50FIOsCOjyj/wavs8921hG5+kVMmZgKcvIKxMXHTrjNJvRgWa/zuX3B6t2lijLNFaOyuxUH+2A==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.9.8.tgz",
+    "version": "0.9.8"
+  },
+  "lock_path": "node_modules/@xmldom/xmldom",
+  "name": "@xmldom/xmldom",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1298,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "4da724fc305d81606b245b324d4d2586916b9d248b23d82183df753ace0fdf71",
+      "text_file": "image-notices/4da724fc305d81606b245b324d4d2586916b9d248b23d82183df753ace0fdf71.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 92609,
+    "installed_in_image": false,
+    "integrity": "sha512-p96FSY54r+WJ50FIOsCOjyj/wavs8921hG5+kVMmZgKcvIKxMXHTrjNJvRgWa/zuX3B6t2lijLNFaOyuxUH+2A==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.9.8.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "eb85b871f14f569d1fd93b951cddfb22c9e9de1e8010838dbf256bafb67fc1fc"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.9.8"
+}

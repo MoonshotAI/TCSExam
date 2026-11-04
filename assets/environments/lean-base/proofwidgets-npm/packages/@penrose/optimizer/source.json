@@ -1,0 +1,42 @@
+{
+  "author": "Penrose Team (https://penrose.cs.cmu.edu/)",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-xPb+Jvb0129Rti+mb5akmuY3GY/ZPt7Gq/647uhq+zSR8ewOp4UJ1NvWFVucLZ4V2aDgTvKg4axzRJsemWDpWQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@penrose/optimizer/-/optimizer-3.2.0.tgz",
+    "version": "3.2.0"
+  },
+  "lock_path": "node_modules/@penrose/optimizer",
+  "name": "@penrose/optimizer",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 98793,
+    "installed_in_image": false,
+    "integrity": "sha512-xPb+Jvb0129Rti+mb5akmuY3GY/ZPt7Gq/647uhq+zSR8ewOp4UJ1NvWFVucLZ4V2aDgTvKg4axzRJsemWDpWQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@penrose/optimizer/-/optimizer-3.2.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "41927f5490d0d77a0f4a8b035e7e10e0244a2d1fadd9c15bbf3feecd32e493ce"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 1057,
+    "installed_file": "notices/supplementary/afb11426e09da40a1ae4f8fa17ddcc6b6a52d14df04c29bc5bcd06eb8730624d.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "fd4aae0b95ad6f7b35863de87b16e796e2c3bfda",
+    "sha256": "afb11426e09da40a1ae4f8fa17ddcc6b6a52d14df04c29bc5bcd06eb8730624d",
+    "text_file": "image-notices/afb11426e09da40a1ae4f8fa17ddcc6b6a52d14df04c29bc5bcd06eb8730624d.txt",
+    "url": "https://raw.githubusercontent.com/penrose/penrose/fd4aae0b95ad6f7b35863de87b16e796e2c3bfda/LICENSE"
+  },
+  "version": "3.2.0"
+}

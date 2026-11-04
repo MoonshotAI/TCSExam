@@ -1,0 +1,196 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/tx001.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx001.clq",
+      "git_blob": "6038a883e662d799305aebc830596061831078ef",
+      "bytes": 4404586,
+      "sha256": "96560b683b95d37b638d112625d8787f6ae818e7c2acbabdd52850ab876f1522",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx002.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx002.clq",
+      "git_blob": "3210695ab36cd0809e5f030e08ff97d5420bb29f",
+      "bytes": 1074821,
+      "sha256": "d609a81ffd672b80b03f40fe9b4070f409ae3006a2aa85f41dc2d36aefa0a7a8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx003.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx003.clq",
+      "git_blob": "a699dc7579960796116bb148b6eff328ed779137",
+      "bytes": 5256993,
+      "sha256": "e3585920c946f37bc49903b8d0131398abfde796ca7300c9e22686f29544c832",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx004.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx004.clq",
+      "git_blob": "759cb1fd4debc33925baf2ec7e2fe9b9312419ad",
+      "bytes": 116808,
+      "sha256": "bf35f77ae4e2ba4094433c29389526e121476884ee6763b7fc5a17ccb0c8f3ef",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx005.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx005.clq",
+      "git_blob": "47c169e5cfd0344965fe7411ee7c495526bde0a9",
+      "bytes": 564940,
+      "sha256": "4f0ac75064a5a5e4baadfc7e95ad4fea583fdb1e63cd4e16198d2a7643856c72",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx006.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx006.clq",
+      "git_blob": "1af890ea09b68b3c2c6fd499f4226416ef0ed498",
+      "bytes": 2017519,
+      "sha256": "f8f180387a3ec042d7bf925458d8a12541273699933d9673f3ed1195f043525b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx007.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx007.clq",
+      "git_blob": "a356bb6686cedc57f662d899d477b727194bf585",
+      "bytes": 75637,
+      "sha256": "8f89b358ce49208458f185d085c3666911a7efc0a34bcdb5398f474732b81b1a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx008.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx008.clq",
+      "git_blob": "1adc0f3b989a45075f83728179c892b996bff0c5",
+      "bytes": 87491,
+      "sha256": "176a6186852e1bce1403afeca424f5d67724e0be41fa8bcb78d44aa48e44f0e7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx009.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx009.clq",
+      "git_blob": "605f81c9fcb95ae503cf09e68c0e2e22265abc9e",
+      "bytes": 221943,
+      "sha256": "4d04998c428dd9227b1c868d70d58d519291c4f0fbdd08760388168949da259a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx010.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx010.clq",
+      "git_blob": "1f1c19d77bf4d1f90f88bfa38b73faad489368b9",
+      "bytes": 159840,
+      "sha256": "b378981dc3ae111c5451e71108e0f59094e4754bb737de7f07373c8ac39a20c0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx011.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx011.clq",
+      "git_blob": "cad5695808bd8d3d7e23d00040c3ea6c1d5f76ed",
+      "bytes": 679388,
+      "sha256": "92fbd31e38dc6b44d5ad41f4e159f1dab3ee3056d5678518284bbe2dda9fa5cc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx012.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx012.clq",
+      "git_blob": "a912bcf3b541abe097395d1f8edb4d369849d7c9",
+      "bytes": 4271432,
+      "sha256": "21f90fa99d61362b4b77f1067a038c60ef9f8eff7d6650c6357cf21299c82fd8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx013.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx013.clq",
+      "git_blob": "bff30a843e7c2f63862269cf0764a77411503ba3",
+      "bytes": 5485,
+      "sha256": "a129f06c9e7c719046f8c84da5491a0bca3b1e6b1a09b816549589864c75913c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx014.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx014.clq",
+      "git_blob": "064d6849a9a7d34ec51e7dc0642701af2ac8390b",
+      "bytes": 191090,
+      "sha256": "26540cb19926416aff402ad0c7528d0670b775aff128e51a289dd2b99e3e9268",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx015.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx015.clq",
+      "git_blob": "790dd9f555d78a7f1d7191e13a9dd5bb87431928",
+      "bytes": 1596,
+      "sha256": "7ef1e3f9aedfefe0ecedb4f13ff0609d78e6d9ddc2833107f5b08dc3bf713815",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx016.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx016.clq",
+      "git_blob": "8b788efa3cd7b454cca0c21ce2ee9da3313dcf4f",
+      "bytes": 2197171,
+      "sha256": "95c3268bed3ad270d120f3b9bd52be81a801287288ea566f5b45e04c8e613f2b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx017.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx017.clq",
+      "git_blob": "651f30be8e3596800e683cde8ed3990d7f55a9e1",
+      "bytes": 5979866,
+      "sha256": "866f5c618072bab10b470f80708b99e602ebef40f3e5d546d959391a35f85492",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx018.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx018.clq",
+      "git_blob": "1975d298e1cdd7289df43332038a3d95b6890d1e",
+      "bytes": 8917155,
+      "sha256": "d0b96faf15bda47e2470c889d48b7c832959d91001369341c8d17de2299a70ef",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx019.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx019.clq",
+      "git_blob": "529bb9b96448f5e5ab4963a9276b96d8ebd81903",
+      "bytes": 309747,
+      "sha256": "b15ca79414871abdaea4fd7b35dc30676be840375d423436cb3afe3180be6cb2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx020.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx020.clq",
+      "git_blob": "b8bfcfdcbda94bff30974ef941ec193d59df1de7",
+      "bytes": 301775,
+      "sha256": "b301eb93d903f81df11e483bf351342a9acc44fa0c6f90ace5649eef8e28a578",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx021.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx021.clq",
+      "git_blob": "1647db61aad727b99ceaa7f0428dc4b5df7b51de",
+      "bytes": 159780,
+      "sha256": "f96eeb234400572c13f656bbe93639b35abf6247bb6b3972643f818fa717f85a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx022.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx022.clq",
+      "git_blob": "bda058c8d5ffdfe885f05bc63ff6bfa822f07290",
+      "bytes": 528494,
+      "sha256": "48508086470574806ce535d92feb4d3d5631fd12878f6406ab5096e62742fe03",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx023.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx023.clq",
+      "git_blob": "1fde0fc51403adb53b7b259e561133cdd441c217",
+      "bytes": 159428,
+      "sha256": "a619de43d635f5824d559cd75c0e0cfb68a42f756333597f5dcf97ff5f384589",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx024.clq",
+      "source_path": "tasks/solver/online/maxclique-dimacs/tests/instances/tx024.clq",
+      "git_blob": "41702bf8c9ae2858c481e0dccc1b9049d6597d92",
+      "bytes": 378303,
+      "sha256": "ff221b2b8181d7babd46eb03940a086191f18e28169c847d40dcb9e6d06ba106",
+      "mode": "0644"
+    }
+  ]
+}

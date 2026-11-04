@@ -1,0 +1,43 @@
+{
+  "author": "ForbesLindesay",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-+lP4/6lKUBfQjZ2pdxThZvLUAafmZb8OAxFb8XXtiQmS35INgr85hdOGoEs124ez1FCnZJt6jau/T+alh58QFQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/is-promise/-/is-promise-2.2.2.tgz",
+    "version": "2.2.2"
+  },
+  "lock_path": "node_modules/is-promise",
+  "name": "is-promise",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1058,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "44191656d296391e0ec97e32f5385f0d02b6f2992694082d22ea04ba0f66f9e4",
+      "text_file": "image-notices/44191656d296391e0ec97e32f5385f0d02b6f2992694082d22ea04ba0f66f9e4.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 1549,
+    "installed_in_image": false,
+    "integrity": "sha512-+lP4/6lKUBfQjZ2pdxThZvLUAafmZb8OAxFb8XXtiQmS35INgr85hdOGoEs124ez1FCnZJt6jau/T+alh58QFQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/is-promise/-/is-promise-2.2.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "355c65185f8538cf595ce2a8d7c710dc33b01cbe299e646a2d236a1e569c29fa"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.2.2"
+}

@@ -1,0 +1,15 @@
+TCSExam project-generated Radiation inputs
+Copyright 2026 TCSExam contributors
+
+The 24 ex*.dzn files in this directory are original project-generated numerical
+inputs, supplied under Apache-2.0; see LICENSE. They retain the historical
+bytes produced using MiniZinc/minizinc-benchmarks radiation generator at
+commit 26bcd0a78433025f7b6896a6fa8caf128795760b. The original UUID-derived
+random stream was not retained. These are data inputs, with no solution,
+reference score or solver output.
+
+The other 23 judging inputs are downloaded separately from the same fixed
+MiniZinc repository commit under its MIT license, Copyright (c) 2016 MiniZinc
+(individual authors). See MINIZINC-MIT.txt and the per-file source record.
+The generator also retains those MIT terms; its code license is separate
+from the project's Apache-2.0 grant for the 24 generated inputs.

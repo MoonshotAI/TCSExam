@@ -1,0 +1,34 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "David Tolnay <dtolnay@gmail.com>"
+  ],
+  "bytes": 17752,
+  "checksum_sha256": "b1de2e551fb905ac83f73f7aedf2f0cb4a0da7e35efa24a202a936269f1f18e1",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "MIT OR Apache-2.0",
+  "name": "paste",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 10847,
+      "installed_file": "notices/original/LICENSE-APACHE",
+      "path": "paste-1.0.9/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "text_file": "image-notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt"
+    },
+    {
+      "bytes": 1043,
+      "installed_file": "notices/original/LICENSE-MIT",
+      "path": "paste-1.0.9/LICENSE-MIT",
+      "sha256": "7f697f191d6ffb32881a6bcf535e817ebbebaaa11b9aacf4f0b26fd32e2cc201",
+      "text_file": "image-notices/7f697f191d6ffb32881a6bcf535e817ebbebaaa11b9aacf4f0b26fd32e2cc201.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/paste/paste-1.0.9.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "1.0.9"
+}

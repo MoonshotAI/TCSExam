@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/ahc058-atcoder",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/ahc058-atcoder/tests/checker.py",
+      "target": "tasks/solver/offline/ahc058-atcoder/tests/checker.py",
+      "sha256": "2bfd23ce3d466533fe21eeceba2f86c47658527e97a29c3c759028946ea16ef1"
+    },
+    {
+      "source": "tasks/solver/online/ahc058-atcoder/tests/reference-hidden.json",
+      "target": "tasks/solver/offline/ahc058-atcoder/tests/reference.json",
+      "sha256": "cc922cdcc732e432e5c1300e884bad26be615fb6cb55be58a85e068fa220ed98"
+    },
+    {
+      "source": "tasks/solver/online/ahc058-atcoder/tests/anchors.json",
+      "target": "tasks/solver/offline/ahc058-atcoder/tests/anchors.json",
+      "sha256": "c98f73f22bb851a7e1e56c8a05fce8da80774c9497f9498f47372ddc276148eb"
+    },
+    {
+      "source": "tasks/solver/online/ahc058-atcoder/tests/metric_config.json",
+      "target": "tasks/solver/offline/ahc058-atcoder/tests/metric_config.json",
+      "sha256": "a3c087be6b5791673fcd370d924b3475d84234422d6681dc5030696ebe63ace4"
+    }
+  ],
+  "development_dependency": "dev-online-ahc058-atcoder",
+  "verifier_dependency": "backend-online-ahc058-atcoder",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

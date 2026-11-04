@@ -1,0 +1,54 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260920",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/scp-orlib/PROVENANCE.md: literature best values listed in Yelbay 2014, Table 4 (original source Grossman-Wool 1997 and later improvements; not proven optimal).",
+   "tier": "literature"
+  }
+ },
+ "family": "set-covering",
+ "id": "scp-orlib",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-scp-orlib-judge-v13"
+ },
+ "judging": {
+  "budget_kind": "pool",
+  "form": "final-once",
+  "instance_cores": 4,
+  "limit_env": "SCP_TIME_POOL",
+  "n_hidden": 26,
+  "n_neither": 13,
+  "n_public": 48,
+  "per_instance_seconds": 30,
+  "pool_seconds": 780,
+  "shard_cores": 4,
+  "shard_mem_gb": 8,
+  "shards": 1
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "library",
+  "ecosystem": "ORLIB",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "element/set permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "form2 is in place: split.json has 48 public / 26 hidden / 13 neither (260920 holdout: the judged set is the full public registry, so about 15% of public instances are assigned proportionally by family × size to neither; names are stored only in tests/split.json). Hidden B is temporarily a placeholder from before transformation and will be remeasured in the batch phase. pool_seconds=30x26."
+ },
+ "subdomain": "other",
+ "title": "Set covering"
+}

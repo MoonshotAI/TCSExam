@@ -1,0 +1,41 @@
+{
+  "task": "tasks/solver/online/cvrp-cvrplib",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/cvrp-cvrplib/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:387b8f7585f8caef1dd1755563d457ceb628e567af4d0df886fb34a84a4d5a4a"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/cvrp-cvrplib/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "d6c554ab2814e76585382b0ccaba2fe30b5758a8260786ce07c23a8191799207"
+    },
+    {
+      "source": "tasks/solver/online/cvrp-cvrplib/tests/scoring.py",
+      "target": "/opt/cvrp/scoring.py",
+      "sha256": "7dc5a8d67d68245b35693547cfa8ff1ee5e55d45e0653d3b388c3d78e530c15a"
+    },
+    {
+      "source": "tasks/solver/online/cvrp-cvrplib/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "42acad85b457ce8e8361f1a9daf2a2bb1ac882a1ffbb2262114173d9b2b9e772"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": false,
+  "public_source_rebuild_verified": false,
+  "limitations": [
+    "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
+  ]
+}

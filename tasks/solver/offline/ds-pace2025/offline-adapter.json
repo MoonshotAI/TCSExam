@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/ds-pace2025",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/ds-pace2025/tests/checker.py",
+      "target": "tasks/solver/offline/ds-pace2025/tests/checker.py",
+      "sha256": "28867dc8d8b18f358d85c641bd1d7967be5e289b55b9427b9a5f5d384330431c"
+    },
+    {
+      "source": "tasks/solver/online/ds-pace2025/tests/reference.json",
+      "target": "tasks/solver/offline/ds-pace2025/tests/reference.json",
+      "sha256": "c8e5e157ee9eab7c731704fdeb9d5f2fbd42cd11f1f8056995ad05886a2cdc83"
+    },
+    {
+      "source": "tasks/solver/online/ds-pace2025/tests/anchors.json",
+      "target": "tasks/solver/offline/ds-pace2025/tests/anchors.json",
+      "sha256": "bd32433e52ead19fa4dd95de14b0e80a6dd1b804020420672acdb6c99513fbe3"
+    },
+    {
+      "source": "tasks/solver/online/ds-pace2025/tests/metric_config.json",
+      "target": "tasks/solver/offline/ds-pace2025/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-ds-pace2025",
+  "verifier_dependency": "backend-online-ds-pace2025",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

@@ -1,0 +1,50 @@
+{
+  "author": {
+    "email": "luke.edwards05@gmail.com",
+    "name": "Luke Edwards",
+    "url": "https://lukeed.com"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": ">=6"
+    },
+    "integrity": "sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz",
+    "version": "2.0.3"
+  },
+  "lock_path": "node_modules/dequal",
+  "name": "dequal",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1114,
+      "installed_file": "notices/original/package/license",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/license",
+      "sha256": "306fa513e39b23a6e8747520de761809d206b99800ef41907b530226574c59ae",
+      "text_file": "image-notices/306fa513e39b23a6e8747520de761809d206b99800ef41907b530226574c59ae.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 4286,
+    "installed_in_image": false,
+    "integrity": "sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "941d90d6629878167d10d2a05d8c6df8f8fa13acc826616abb49db63ac6a5c35"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.0.3"
+}

@@ -1,0 +1,54 @@
+{
+  "author": "Paul Henschel (https://github.com/drcmda)",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "@types/draco3d": "^1.4.0",
+      "@types/offscreencanvas": "^2019.6.4",
+      "@types/webxr": "^0.5.2",
+      "draco3d": "^1.4.1",
+      "fflate": "^0.6.9",
+      "potpack": "^1.0.1"
+    },
+    "integrity": "sha512-XyGQrFmNQ5O/IoKm556ftwKsBg11TIb301MB5dWNicziQBEs2g3gtOYIf7pFiLa0zI2gUwhtCjv9fmjnxKZ1Cg==",
+    "license": "MIT",
+    "peerDependencies": {
+      "three": ">=0.128.0"
+    },
+    "resolved": "https://registry.npmjs.org/three-stdlib/-/three-stdlib-2.36.1.tgz",
+    "version": "2.36.1"
+  },
+  "lock_path": "node_modules/three-stdlib",
+  "name": "three-stdlib",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1072,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "28eb7edf059a39094aa3d169db1fec46ac4a6279c921a90f965828d92ec86e79",
+      "text_file": "image-notices/28eb7edf059a39094aa3d169db1fec46ac4a6279c921a90f965828d92ec86e79.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 4955095,
+    "installed_in_image": false,
+    "integrity": "sha512-XyGQrFmNQ5O/IoKm556ftwKsBg11TIb301MB5dWNicziQBEs2g3gtOYIf7pFiLa0zI2gUwhtCjv9fmjnxKZ1Cg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/three-stdlib/-/three-stdlib-2.36.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "e246431950e1f73bad0f217ab928f1e66b08fc4e003e50ed5ce6817a8150c0cc"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.36.1"
+}

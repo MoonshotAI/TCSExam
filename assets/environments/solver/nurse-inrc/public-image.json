@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "task": "tasks/solver/online/nurse-inrc",
+  "remove_paths": ["/tests"],
+  "allow_content_paths": [
+    "/tests-public",
+    "/public-instances",
+    "/public_reference.json",
+    "/judge",
+    "/opt/nurse/scoring.py",
+    "/app/public_reference.json",
+    "/app/instances",
+    "/app/score_public.py"
+  ],
+  "required_paths": [
+    "/judge/entry.sh",
+    "/judge/judge_worker.py",
+    "/tests-public/checker.py",
+    "/tests-public/reference.json",
+    "/public-instances",
+    "/public_reference.json",
+    "/opt/nurse/scoring.py",
+    "/app/public_reference.json",
+    "/app/instances"
+  ]
+}

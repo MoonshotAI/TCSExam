@@ -1,0 +1,46 @@
+{
+  "author": "bendera",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "lit": "^3.2.0"
+    },
+    "integrity": "sha512-3iKAO+B5u/UKXVPOvnlpzFTCCh0lrESgonerNf6EOz2XgnBTBLC01qCHXTXTnFf/foSrcKEnLY7REZOnwZSe3A==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@vscode-elements/elements/-/elements-1.7.1.tgz",
+    "version": "1.7.1"
+  },
+  "lock_path": "node_modules/@vscode-elements/elements",
+  "name": "@vscode-elements/elements",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1068,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "3a062af907b9e1bd111cdf9fb5a6b4427c67bef37eb528cf5383780fc913657e",
+      "text_file": "image-notices/3a062af907b9e1bd111cdf9fb5a6b4427c67bef37eb528cf5383780fc913657e.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 242902,
+    "installed_in_image": false,
+    "integrity": "sha512-3iKAO+B5u/UKXVPOvnlpzFTCCh0lrESgonerNf6EOz2XgnBTBLC01qCHXTXTnFf/foSrcKEnLY7REZOnwZSe3A==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@vscode-elements/elements/-/elements-1.7.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "2c2ce35a4ded70defb515cd11dd97049066deaf112564f992f4fc334d2521da2"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.7.1"
+}

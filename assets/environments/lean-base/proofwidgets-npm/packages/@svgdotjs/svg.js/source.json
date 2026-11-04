@@ -1,0 +1,47 @@
+{
+  "author": "Wout Fierens <wout@mick-wout.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "funding": {
+      "type": "github",
+      "url": "https://github.com/sponsors/Fuzzyma"
+    },
+    "integrity": "sha512-/VNHWYhNu+BS7ktbYoVGrCmsXDh+chFMaONMwGNdIBcFHrWqk2jY8fNyr3DLdtQUIalvkPfM554ZSFa3dm3nxQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@svgdotjs/svg.js/-/svg.js-3.2.5.tgz",
+    "version": "3.2.5"
+  },
+  "lock_path": "node_modules/@svgdotjs/svg.js",
+  "name": "@svgdotjs/svg.js",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1089,
+      "installed_file": "notices/original/package/LICENSE.txt",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.txt",
+      "sha256": "455113977c98c54dad8598e092b99aad6be0ed8c5c4a0722154acf4b21df4730",
+      "text_file": "image-notices/455113977c98c54dad8598e092b99aad6be0ed8c5c4a0722154acf4b21df4730.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 643760,
+    "installed_in_image": false,
+    "integrity": "sha512-/VNHWYhNu+BS7ktbYoVGrCmsXDh+chFMaONMwGNdIBcFHrWqk2jY8fNyr3DLdtQUIalvkPfM554ZSFa3dm3nxQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@svgdotjs/svg.js/-/svg.js-3.2.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "c6a919bbfaea63dba4e9f3099b166fd3a5d36c4df2b9921b19ea59af6c1d7491"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.2.5"
+}

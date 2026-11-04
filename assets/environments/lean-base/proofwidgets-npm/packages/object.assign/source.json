@@ -1,0 +1,57 @@
+{
+  "author": "Jordan Harband",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "call-bind": "^1.0.8",
+      "call-bound": "^1.0.3",
+      "define-properties": "^1.2.1",
+      "es-object-atoms": "^1.0.0",
+      "has-symbols": "^1.1.0",
+      "object-keys": "^1.1.1"
+    },
+    "engines": {
+      "node": ">= 0.4"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "integrity": "sha512-nK28WOo+QIjBkDduTINE4JkF/UJJKyf2EJxvJKfblDpyg0Q+pkOHNTL0Qwy6NP6FhE/EnzV73BxxqcJaXY9anw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/object.assign/-/object.assign-4.1.7.tgz",
+    "version": "4.1.7"
+  },
+  "lock_path": "node_modules/object.assign",
+  "name": "object.assign",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1080,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "a596744eec6b05682ed972bf93937668bbc8da2caed93fbf6510389de019b5c0",
+      "text_file": "image-notices/a596744eec6b05682ed972bf93937668bbc8da2caed93fbf6510389de019b5c0.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 20235,
+    "installed_in_image": false,
+    "integrity": "sha512-nK28WOo+QIjBkDduTINE4JkF/UJJKyf2EJxvJKfblDpyg0Q+pkOHNTL0Qwy6NP6FhE/EnzV73BxxqcJaXY9anw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/object.assign/-/object.assign-4.1.7.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "08e4dcd218f7ac619100ac3d3bb76b54c66257cabf0b2409dbfbb6dff01bfcf3"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.1.7"
+}

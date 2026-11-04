@@ -1,0 +1,28 @@
+{
+ "anchors_file": "anchors.json",
+ "direction": "min",
+ "params": {
+  "known_issues": [
+   {
+    "detail": "Baseline-unsolved group (form2 hidden-set convention): under judging conditions, the shipped deterministic SA baseline with a fixed iteration budget per instance cannot produce a legal schedule with zero hard violations for these instances (ITC2021 hard constraints are difficult for a naive SA; full-set measurements are archived under tests/calibration/ and in the async package PROVENANCE). Under decision ③, record B=null. The hidden set also has 3 numeric-anchor keys where B>K across the board. After the batch-b-260920 remeasurement, the baseline on transformed instance h11 had one hard violation, so B changed from placeholder 4913 to null and scored-key count from 4 to 3. The temporary anchor adapter (fetch_best / fetch_final) excludes and records these; they are included when replaying with the finalized framework.",
+    "instances": [
+     "h01.xml",
+     "h02.xml",
+     "h03.xml",
+     "h04.xml",
+     "h05.xml",
+     "h06.xml",
+     "h07.xml",
+     "h08.xml",
+     "h09.xml",
+     "h10.xml",
+     "h11.xml",
+     "h12.xml",
+     "h16.xml"
+    ],
+    "kind": "anchor_not_numeric"
+   }
+  ]
+ },
+ "shape": "gap_ratio"
+}

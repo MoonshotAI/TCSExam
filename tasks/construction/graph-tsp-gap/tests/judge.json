@@ -1,0 +1,33 @@
+{
+ "namespace": "GraphTSPGap",
+ "main_theorem": "main",
+ "interface_defs": [
+  "certN",
+  "certAdj",
+  "certDist",
+  "claimedAlpha"
+ ],
+ "baseline_alpha": "1",
+ "standing_alpha": "26/21",
+ "record_per_n": {
+  "11": "7/6",
+  "12": "7/6",
+  "13": "32/27",
+  "14": "6/5",
+  "15": "6/5",
+  "16": "40/33",
+  "17": "11/9",
+  "18": "11/9",
+  "19": "16/13",
+  "20": "26/21"
+ },
+ "four_thirds": "4/3",
+ "standard_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "probe_timeout_sec": 1700
+}

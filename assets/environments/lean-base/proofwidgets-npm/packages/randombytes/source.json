@@ -1,0 +1,47 @@
+{
+  "author": "",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "safe-buffer": "^5.1.0"
+    },
+    "dev": true,
+    "integrity": "sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/randombytes/-/randombytes-2.1.0.tgz",
+    "version": "2.1.0"
+  },
+  "lock_path": "node_modules/randombytes",
+  "name": "randombytes",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1074,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "ddc0dd5947bd2966b9a4cfde098566b011de0acfbe7814536955636ce9e3eced",
+      "text_file": "image-notices/ddc0dd5947bd2966b9a4cfde098566b011de0acfbe7814536955636ce9e3eced.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 2667,
+    "installed_in_image": false,
+    "integrity": "sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/randombytes/-/randombytes-2.1.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "b8a6d3e6532817912ad3dacbb0e64be75026941a5167549aa1d7fecbafd1bcaa"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.1.0"
+}

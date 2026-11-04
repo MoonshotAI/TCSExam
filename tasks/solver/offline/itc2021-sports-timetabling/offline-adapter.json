@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/itc2021-sports-timetabling",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/itc2021-sports-timetabling/tests/checker.py",
+      "target": "tasks/solver/offline/itc2021-sports-timetabling/tests/checker.py",
+      "sha256": "9ed7644eb9817fe929461403649a85a6c47e90684bf4d69aeabfdea52cff84ab"
+    },
+    {
+      "source": "tasks/solver/online/itc2021-sports-timetabling/tests/reference.json",
+      "target": "tasks/solver/offline/itc2021-sports-timetabling/tests/reference.json",
+      "sha256": "eada575307dcb7c6c41dc3e8576f71a7726c35d26ab32c86a8736e8ac4fe3aea"
+    },
+    {
+      "source": "tasks/solver/online/itc2021-sports-timetabling/tests/anchors.json",
+      "target": "tasks/solver/offline/itc2021-sports-timetabling/tests/anchors.json",
+      "sha256": "16b9ab6eca0f112370079abd922b75684e0e650bce1a4192ae43cc6db2504f6c"
+    },
+    {
+      "source": "tasks/solver/online/itc2021-sports-timetabling/tests/metric_config.json",
+      "target": "tasks/solver/offline/itc2021-sports-timetabling/tests/metric_config.json",
+      "sha256": "ddc9280aafb48799f9c9354ad74a27e2984e0fa6acaf88369e52c2217544c881"
+    }
+  ],
+  "development_dependency": "dev-online-itc2021-sports-timetabling",
+  "verifier_dependency": "backend-online-itc2021-sports-timetabling",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

@@ -1,0 +1,39 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-pcp-alphabet-soundness-bare-proof"
+version = "0.1.0"
+description = "Prove Theorem 5.26 of Minzer-Zheng (arXiv 2404.07441, the maximal zoom-out counting bound behind the near-optimal alphabet-soundness tradeoff PCP) in Lean 4 (machine-verified), given only the statement. L2: statement fidelity only, no ground truth."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "pcp", "alphabet-soundness-tradeoff", "grassmann", "subspace-inclusion-test", "zoom-out", "type-2"]
+
+[metadata]
+family_id = "fam-pcp-alphabet-soundness"
+candidate_id = "cand-mz24-alphabet-soundness"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task: only the main theorem statement (Theorem 5.26) is given, with the two deep power sources packaged as hypotheses; the model must supply the entire argument, including the Section 5.3.3 counting assembly; no ground truth is provided."
+source_paper = "Dor Minzer, Kai Zhe Zheng: Near Optimal Alphabet-Soundness Tradeoff PCPs, STOC 2024 (best paper); arXiv 2404.07441v4."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-theorem-pcp-alphabet-soundness-verifier"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

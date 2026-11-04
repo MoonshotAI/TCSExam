@@ -1,0 +1,17 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "celar-rlfap",
+  "source": "https://fap.zib.de/problems/CALMA/",
+  "scope": "Thirteen public and eight hidden DZN inputs are reconstructed from the fixed CALMA archives. Select only the declared VAR, DOM, CTR and cst input files; preserve the recorded DZN conversion and permutations.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Original CALMA distribution terms remain unresolved; this record extends no redistribution authorization.",
+  "verified_products": {
+    "solver-celar-rlfap-development-data": {
+      "files": 13,
+      "bytes": 258484,
+      "acquisition": "explicit_checked_official_archives",
+      "anonymous_download_verified": false
+    }
+  }
+}

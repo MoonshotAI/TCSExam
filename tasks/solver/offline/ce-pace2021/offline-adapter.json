@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/ce-pace2021",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/ce-pace2021/tests/checker.py",
+      "target": "tasks/solver/offline/ce-pace2021/tests/checker.py",
+      "sha256": "c3dd07e4b111c5b0f31d1dcaa8850a714c796ac768a0a479750158013b746234"
+    },
+    {
+      "source": "tasks/solver/online/ce-pace2021/tests/reference.json",
+      "target": "tasks/solver/offline/ce-pace2021/tests/reference.json",
+      "sha256": "f16a02d5ec3eb5750036184c8b898090eabc1b25e8fb3ca92048f82f4637dd0d"
+    },
+    {
+      "source": "tasks/solver/online/ce-pace2021/tests/anchors.json",
+      "target": "tasks/solver/offline/ce-pace2021/tests/anchors.json",
+      "sha256": "5220c7c206aa9e42e9b2be660edbae94de61fb8e1aec1888e2910ec46f7360db"
+    },
+    {
+      "source": "tasks/solver/online/ce-pace2021/tests/metric_config.json",
+      "target": "tasks/solver/offline/ce-pace2021/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-ce-pace2021",
+  "verifier_dependency": "backend-online-ce-pace2021",
+  "verifier_tool_dependency": "solver-ce-pace2021-development-tools",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

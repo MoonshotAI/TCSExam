@@ -1,0 +1,50 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260912",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/radiation-mznchallenge/PROVENANCE.md: K for generated instances is measured by running CP-SAT at 48× judging compute (7/10 proven optimal); for public repository instances, K is the best score among all 29 solvers in MiniZinc Challenge 2012.",
+   "tier": "self-measured"
+  }
+ },
+ "family": "radiation-therapy-planning",
+ "id": "radiation-mznchallenge",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-radiation-judge-v9"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "RADIATION_TIME_LIMIT",
+  "n_hidden": 36,
+  "n_public": 15,
+  "per_instance_seconds": 1200,
+  "shard_cores": 1,
+  "shard_mem_gb": 16,
+  "shards": 10,
+  "shipped_judged": 11
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "MiniZinc Challenge",
+  "hidden_set": "holdout-split",
+  "memorization_risk": "medium",
+  "transform": null
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "Total judged instances = 47 = n_hidden 36 (24 generated + 12 public-repository instances) + shipped_judged 11 (11 released instances remain shipped in the environment and are also judged; represented by the shipped_judged field). The environment also contains 4 generated practice instances that are not judged. K sources are mixed: project measurements for generated instances and best scores from all solvers in MiniZinc Challenge 2012 for public-repository instances."
+ },
+ "subdomain": "constraint-programming",
+ "title": "Radiation therapy planning"
+}

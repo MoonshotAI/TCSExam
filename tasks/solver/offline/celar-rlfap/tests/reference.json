@@ -1,0 +1,52 @@
+{
+ "instances": {
+  "h01.dzn": {
+   "B": 0,
+   "B_status": "measured",
+   "K": 0,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/16G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 1200s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit)."
+  },
+  "h02.dzn": {
+   "B": 188349,
+   "B_status": "measured",
+   "K": 2236,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/16G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 1200s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit)."
+  },
+  "h03.dzn": {
+   "B": 0,
+   "B_status": "measured",
+   "K": 0,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/16G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 1200s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit)."
+  },
+  "h04.dzn": {
+   "B": 0,
+   "B_status": "measured",
+   "K": 0,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/16G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 1200s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit)."
+  },
+  "h05.dzn": {
+   "B": 0,
+   "B_status": "measured",
+   "K": 0,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/16G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 1200s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit)."
+  },
+  "h06.dzn": {
+   "B": 0,
+   "B_status": "measured",
+   "K": 0,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/16G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 1200s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit)."
+  },
+  "h07.dzn": {
+   "B": 114301,
+   "B_status": "measured",
+   "K": 3389,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/16G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 1200s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit)."
+  },
+  "h08.dzn": {
+   "B": 5264,
+   "B_status": "measured",
+   "K": 311,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 1C/16G; the judging runner parallelizes internally with JUDGE_JOBS=cpu_count and pins each instance to 1 core with taskset. The judging pipeline is unchanged (/tests/test.sh, fan-out by INSTANCE_SHARD, hard limit of 1200s per instance). The shipped baseline in environment/app is unchanged (excluding the same packaging as submit)."
+  }
+ }
+}

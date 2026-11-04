@@ -1,0 +1,374 @@
+{
+  "checked": "2026-10-30",
+  "repository": "https://github.com/Robin-X/RobinX",
+  "commit": "636951ec6450c1ebe5eb70713e24ec40de85e731",
+  "unchanged_official_source_files": 30,
+  "source_git_blobs_and_sha256": [
+    {
+      "path": "source/include/ClassException.h",
+      "official_git_blob": "b96d75aec233efb874ab34340157638eee46835a",
+      "local_git_blob": "b96d75aec233efb874ab34340157638eee46835a",
+      "same": true,
+      "sha256": "8a0dfe17c9fe41b8a25e1af5b40f52d1d428080ce138fbab95f802b5877ebae7",
+      "bytes": 3125,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/include/ClassException.h"
+    },
+    {
+      "path": "source/include/ClassInterface.h",
+      "official_git_blob": "2989d06cbfb63015d50ee1da5676f90834a1a8d3",
+      "local_git_blob": "2989d06cbfb63015d50ee1da5676f90834a1a8d3",
+      "same": true,
+      "sha256": "54eaa4dc8d0e8895f5822a5b210b0c36498d51ab222f439a63db392209ebed28",
+      "bytes": 4897,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/include/ClassInterface.h"
+    },
+    {
+      "path": "source/include/rlutil.h",
+      "official_git_blob": "a5063226970c8862d1d22bc8ce765d907546a13f",
+      "local_git_blob": "a5063226970c8862d1d22bc8ce765d907546a13f",
+      "same": true,
+      "sha256": "01f0442427602835a57f5605a8ea3c3e46f33ab4fc7263a836b908ff880b3fe5",
+      "bytes": 21408,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/include/rlutil.h"
+    },
+    {
+      "path": "source/include/tinyXMLParser.h",
+      "official_git_blob": "d4423fb48da7485a3194957ac1496555e30d90ed",
+      "local_git_blob": "d4423fb48da7485a3194957ac1496555e30d90ed",
+      "same": true,
+      "sha256": "9ea618fccb63bd443376d40596392b68a29c5d61d06cb5f0e04c96d3fbed8f4a",
+      "bytes": 4176,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/include/tinyXMLParser.h"
+    },
+    {
+      "path": "source/include/tinyxml2.h",
+      "official_git_blob": "c7d40704e85971ae03190fa22b79a074270d3894",
+      "local_git_blob": "c7d40704e85971ae03190fa22b79a074270d3894",
+      "same": true,
+      "sha256": "4897a9474ef4765b9f6a79d0a88c0e605f95711bf68fdfe6c9fa3de4281e0346",
+      "bytes": 70844,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/include/tinyxml2.h"
+    },
+    {
+      "path": "source/interface/onlineMain.cpp",
+      "official_git_blob": "56d1bde47f18cfbeaa503314c061585d16e500f2",
+      "local_git_blob": "56d1bde47f18cfbeaa503314c061585d16e500f2",
+      "same": true,
+      "sha256": "0b6ee99d094585a061132809ae844c03edee18979baa9140d68ae9f1ebff5910",
+      "bytes": 4485,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/interface/onlineMain.cpp"
+    },
+    {
+      "path": "source/parser/tinyXMLParser.cpp",
+      "official_git_blob": "9740510d00439684d81a2704cc6bbfbf275c4610",
+      "local_git_blob": "9740510d00439684d81a2704cc6bbfbf275c4610",
+      "same": true,
+      "sha256": "475fc6ed8cc7f2b2ccd1c79a78e2394624e00d5c18d445c17c501fb277cea9a5",
+      "bytes": 49609,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/parser/tinyXMLParser.cpp"
+    },
+    {
+      "path": "source/parser/tinyxml2.cpp",
+      "official_git_blob": "1c74279aee8551bd549f9b51ed6401e0bcad7a8e",
+      "local_git_blob": "1c74279aee8551bd549f9b51ed6401e0bcad7a8e",
+      "same": true,
+      "sha256": "a6b6cd65fa37887acf362494c280d5bed8314b39aa5e7fe2d81c055af7923cc1",
+      "bytes": 73755,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/parser/tinyxml2.cpp"
+    },
+    {
+      "path": "source/validator/ClassConstraint.cpp",
+      "official_git_blob": "27a130989fb922460dc8a7184e4ddac8562065be",
+      "local_git_blob": "27a130989fb922460dc8a7184e4ddac8562065be",
+      "same": true,
+      "sha256": "975e9f74388853fa4454c01dd8c21e73f39c361080c4a05024cb2027e65406b2",
+      "bytes": 76989,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassConstraint.cpp"
+    },
+    {
+      "path": "source/validator/ClassConstraint.h",
+      "official_git_blob": "1b9a8e5125b9531dbdc3b6062e22deb9ee998ce3",
+      "local_git_blob": "1b9a8e5125b9531dbdc3b6062e22deb9ee998ce3",
+      "same": true,
+      "sha256": "2bced27c76a2192e0f0829f3383de5b13a181b4220a4e0cc7db20c686bcaa162",
+      "bytes": 8937,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassConstraint.h"
+    },
+    {
+      "path": "source/validator/ClassException.cpp",
+      "official_git_blob": "8decb0481f59be6bcc25b0ed522166fb90b3fc19",
+      "local_git_blob": "8decb0481f59be6bcc25b0ed522166fb90b3fc19",
+      "same": true,
+      "sha256": "8a68f20620eea0b1744f8768742d03a49a3e70bd7c51c45cf179fcf83f6412db",
+      "bytes": 363,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassException.cpp"
+    },
+    {
+      "path": "source/validator/ClassInstance.cpp",
+      "official_git_blob": "4db3967b84b09e7f9be380379824efb3daf0ad9e",
+      "local_git_blob": "4db3967b84b09e7f9be380379824efb3daf0ad9e",
+      "same": true,
+      "sha256": "6706672695cbef4b5bcd3c5f21d51884622814606388c73a79f941cd4235be38",
+      "bytes": 31194,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassInstance.cpp"
+    },
+    {
+      "path": "source/validator/ClassInstance.h",
+      "official_git_blob": "8911f560976dfede17757b2bc712f4c3be1193f1",
+      "local_git_blob": "8911f560976dfede17757b2bc712f4c3be1193f1",
+      "same": true,
+      "sha256": "56fb7002c89d1af2ba9f55beb849730cfeb9ed6b1804cdee5a427e72f43608d7",
+      "bytes": 9903,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassInstance.h"
+    },
+    {
+      "path": "source/validator/ClassInterface.cpp",
+      "official_git_blob": "01445c943f3eced04399f52d500a62eb1607a45e",
+      "local_git_blob": "01445c943f3eced04399f52d500a62eb1607a45e",
+      "same": true,
+      "sha256": "132749d79f1b423e36caa663b66be3f5bd1ab4499902ea6e696cc2b63a77f939",
+      "bytes": 45541,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassInterface.cpp"
+    },
+    {
+      "path": "source/validator/ClassLeague.cpp",
+      "official_git_blob": "22805b4558eb96ab1643c1f73479007646ff0eaf",
+      "local_git_blob": "22805b4558eb96ab1643c1f73479007646ff0eaf",
+      "same": true,
+      "sha256": "96c1d6184c87854cd59dd6efb4339961778521c64f28aee9e80006fd30a1d872",
+      "bytes": 1552,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassLeague.cpp"
+    },
+    {
+      "path": "source/validator/ClassLeague.h",
+      "official_git_blob": "d4693a6ff9263204f3eeb3c1be8421ecfee59b9a",
+      "local_git_blob": "d4693a6ff9263204f3eeb3c1be8421ecfee59b9a",
+      "same": true,
+      "sha256": "a925b900d17f2d48a18af69c7b53a1675d869747a7eeb3fd0d795edea74d960e",
+      "bytes": 2763,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassLeague.h"
+    },
+    {
+      "path": "source/validator/ClassLeagueGroup.cpp",
+      "official_git_blob": "2d5e5b400225bacb1e7b000c4150e04bea536fb8",
+      "local_git_blob": "2d5e5b400225bacb1e7b000c4150e04bea536fb8",
+      "same": true,
+      "sha256": "a119c78b48a35f29f144d3f17701ea5edac8f8d1aecf31256398817d40a92e7d",
+      "bytes": 697,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassLeagueGroup.cpp"
+    },
+    {
+      "path": "source/validator/ClassLeagueGroup.h",
+      "official_git_blob": "3548516f025bde35e8b7d42688efdf9d626229ad",
+      "local_git_blob": "3548516f025bde35e8b7d42688efdf9d626229ad",
+      "same": true,
+      "sha256": "9e969179bc925ebc40f83a86c2defd0e72d66874f8afefaeeda2640ba78dee74",
+      "bytes": 1610,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassLeagueGroup.h"
+    },
+    {
+      "path": "source/validator/ClassMeeting.cpp",
+      "official_git_blob": "e26132869ef6bac2e972d8211a65174f2f071ffc",
+      "local_git_blob": "e26132869ef6bac2e972d8211a65174f2f071ffc",
+      "same": true,
+      "sha256": "041de698e2cfc5ef9650f30d56641facec1f3f7fdf4b95cb133ed01f6a577754",
+      "bytes": 613,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassMeeting.cpp"
+    },
+    {
+      "path": "source/validator/ClassMeeting.h",
+      "official_git_blob": "675509471c77bcd6af6d8764e3239576d2eff98f",
+      "local_git_blob": "675509471c77bcd6af6d8764e3239576d2eff98f",
+      "same": true,
+      "sha256": "5c2bf5c61d6f301a828ff87ab8b271c4f680ee0406462314aa9af5dd887830e4",
+      "bytes": 1445,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassMeeting.h"
+    },
+    {
+      "path": "source/validator/ClassSlot.cpp",
+      "official_git_blob": "da0e7c0907127db558ec32d423ca3d40dcb97063",
+      "local_git_blob": "da0e7c0907127db558ec32d423ca3d40dcb97063",
+      "same": true,
+      "sha256": "be8149d3f9806ba3b35deb35a98348ac2e48da4dab8daec02ed93e649976bfe9",
+      "bytes": 919,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassSlot.cpp"
+    },
+    {
+      "path": "source/validator/ClassSlot.h",
+      "official_git_blob": "3d436d1fe2a050e88c8ba258ca36cac699d37cc9",
+      "local_git_blob": "3d436d1fe2a050e88c8ba258ca36cac699d37cc9",
+      "same": true,
+      "sha256": "c380fad3711a66b689589cf713ae53cd031db2d4c9a0ea2e99fd08c3ca593e35",
+      "bytes": 1489,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassSlot.h"
+    },
+    {
+      "path": "source/validator/ClassSlotGroup.cpp",
+      "official_git_blob": "bc5f03ebaf49e5a975e0afc3fa3117bc159af7a6",
+      "local_git_blob": "bc5f03ebaf49e5a975e0afc3fa3117bc159af7a6",
+      "same": true,
+      "sha256": "3c7668459a8cfb118daecde7eb516378ef04820f470c85925256208c1b3085c3",
+      "bytes": 1343,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassSlotGroup.cpp"
+    },
+    {
+      "path": "source/validator/ClassSlotGroup.h",
+      "official_git_blob": "3a4d852d019c5a06ba7239df0152305c2aff3421",
+      "local_git_blob": "3a4d852d019c5a06ba7239df0152305c2aff3421",
+      "same": true,
+      "sha256": "8542e28217c419cfd1eac0ecf9c9c3a28c3bb20e60bf913857d32063909c88c5",
+      "bytes": 1623,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassSlotGroup.h"
+    },
+    {
+      "path": "source/validator/ClassTeam.cpp",
+      "official_git_blob": "3eb79a94b2ffd11698a3366614005b012fd936b7",
+      "local_git_blob": "3eb79a94b2ffd11698a3366614005b012fd936b7",
+      "same": true,
+      "sha256": "6a751bbb83acbe93a4ab31af7de1f23b069d8930291d45d7c89fabac77ed00ae",
+      "bytes": 1069,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassTeam.cpp"
+    },
+    {
+      "path": "source/validator/ClassTeam.h",
+      "official_git_blob": "1f2c07214cc90186143b063b8d6565b39db4a6c5",
+      "local_git_blob": "1f2c07214cc90186143b063b8d6565b39db4a6c5",
+      "same": true,
+      "sha256": "da72e2d779a8d194efd3e087b5f1efab78c0f624d298500ed0e383bb1b83af16",
+      "bytes": 1843,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassTeam.h"
+    },
+    {
+      "path": "source/validator/ClassTeamGroup.cpp",
+      "official_git_blob": "6ddbc8b4dfbd53da898e6b4475dddea8ab7a54af",
+      "local_git_blob": "6ddbc8b4dfbd53da898e6b4475dddea8ab7a54af",
+      "same": true,
+      "sha256": "0f5eafbd04767829ea62a3f8f524649f593061f420edbd815883292e7aed6200",
+      "bytes": 680,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassTeamGroup.cpp"
+    },
+    {
+      "path": "source/validator/ClassTeamGroup.h",
+      "official_git_blob": "5256987e7a68e7aacb5cc2b9781cb83795407c37",
+      "local_git_blob": "5256987e7a68e7aacb5cc2b9781cb83795407c37",
+      "same": true,
+      "sha256": "cc903ef770a13ecdfd61a7f05aaf5c448cd86e775940e9956c4f030479eb5303",
+      "bytes": 1568,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/ClassTeamGroup.h"
+    },
+    {
+      "path": "source/validator/Globals.cpp",
+      "official_git_blob": "856d53a852304d7ab7e4cb2cf137613760abe082",
+      "local_git_blob": "856d53a852304d7ab7e4cb2cf137613760abe082",
+      "same": true,
+      "sha256": "10b708d0ae8ee92d32cc12eded72351a9b6d1b663f78b3e986f1be709eaecd4f",
+      "bytes": 64,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/Globals.cpp"
+    },
+    {
+      "path": "source/validator/Globals.h",
+      "official_git_blob": "5a6148bb6f04df0b0027fbdf36414f0749b51b17",
+      "local_git_blob": "5a6148bb6f04df0b0027fbdf36414f0749b51b17",
+      "same": true,
+      "sha256": "817cb9067ad36e81b914c432ca5a869a2684d267c4a306af189079f1c5071b46",
+      "bytes": 5950,
+      "url": "https://raw.githubusercontent.com/Robin-X/RobinX/636951ec6450c1ebe5eb70713e24ec40de85e731/source/validator/Globals.h"
+    }
+  ],
+  "previous_binary": {
+    "bytes": 1919688,
+    "sha256": "f34b336c928e2789f37186eb98d8bb479fc26a65cb7bc87e660a3f037d3c808f",
+    "git_blob": "65ef66dadeff04ccc3d317ae273f31d61f8e036a",
+    "toolchain": "Alpine GCC13.2.1 musl static stripped"
+  },
+  "new_binary": {
+    "bytes": 2872984,
+    "sha256": "476387ba29f555d4fac6ad7855b2efb54bee065c259bf1ac4b59814c016d7bee"
+  },
+  "builder_image": "ubuntu:22.04@sha256:0a9887931b0e38af2e3487ed39e29436b0535c4f3f52e57745baaf79d1898956",
+  "pinned_packages": {
+    "make": "4.3-4.1build1",
+    "g++": "4:11.2.0-1ubuntu1",
+    "g++-11": "11.4.0-1ubuntu1~22.04.3",
+    "gcc-11": "11.4.0-1ubuntu1~22.04.3",
+    "cpp-11": "11.4.0-1ubuntu1~22.04.3",
+    "libstdc++-11-dev": "11.4.0-1ubuntu1~22.04.3",
+    "libgcc-11-dev": "11.4.0-1ubuntu1~22.04.3",
+    "libboost1.74-dev": "1.74.0-14ubuntu3"
+  },
+  "functional_comparison": {
+    "samples": 2,
+    "public_instance": "ITC2021_Early_14.xml",
+    "cases": [
+      "original baseline legal schedule",
+      "same schedule with one ScheduledMatch removed"
+    ],
+    "result": {
+      "legal": {
+        "RobinX-old": {
+          "exit_code": 184,
+          "objective": [
+            0,
+            696
+          ]
+        },
+        "RobinX-new": {
+          "exit_code": 184,
+          "objective": [
+            0,
+            696
+          ]
+        }
+      },
+      "invalid": {
+        "RobinX-old": {
+          "exit_code": 184,
+          "objective": [
+            2,
+            696
+          ]
+        },
+        "RobinX-new": {
+          "exit_code": 184,
+          "objective": [
+            2,
+            696
+          ]
+        }
+      }
+    },
+    "scope": "Comparison of a legal schedule and its one-missing-match variant for ITC2021_Early_14.xml."
+  },
+  "build_command": [
+    "g++",
+    "-std=c++11",
+    "-O2",
+    "-static",
+    "-s",
+    "-Isource/include",
+    "source/interface/onlineMain.cpp",
+    "source/parser/tinyXMLParser.cpp",
+    "source/parser/tinyxml2.cpp",
+    "source/validator/ClassConstraint.cpp",
+    "source/validator/ClassException.cpp",
+    "source/validator/ClassInstance.cpp",
+    "source/validator/ClassInterface.cpp",
+    "source/validator/ClassLeague.cpp",
+    "source/validator/ClassLeagueGroup.cpp",
+    "source/validator/ClassMeeting.cpp",
+    "source/validator/ClassSlot.cpp",
+    "source/validator/ClassSlotGroup.cpp",
+    "source/validator/ClassTeam.cpp",
+    "source/validator/ClassTeamGroup.cpp",
+    "source/validator/Globals.cpp",
+    "-pthread",
+    "-ldl",
+    "-o",
+    "/RobinX"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "actual_task_judging_verified": false,
+  "formal_docker_product_build_verified": false,
+  "license": "GPL-3.0-or-later; source and GPL text provided under assets/environments/solver/itc2021-sports-timetabling/tools."
+}

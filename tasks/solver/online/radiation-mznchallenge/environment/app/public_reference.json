@@ -1,0 +1,82 @@
+{
+ "baseline": "construct_lb (unit-time floor: N[1]=LB, deterministic, milliseconds)",
+ "objective_kind": "shapes_at_min_beamtime (260831 rework: admission = beamtime attains structural lower bound lb; scoring on shape count alone)",
+ "instances": {
+  "01.dzn": {
+   "B": 14,
+   "K": 6,
+   "lb": 14
+  },
+  "02.dzn": {
+   "B": 14,
+   "K": 5,
+   "lb": 14
+  },
+  "03.dzn": {
+   "B": 15,
+   "K": 6,
+   "lb": 15
+  },
+  "04.dzn": {
+   "B": 17,
+   "K": 7,
+   "lb": 17
+  },
+  "05.dzn": {
+   "B": 16,
+   "K": 6,
+   "lb": 16
+  },
+  "06.dzn": {
+   "B": 17,
+   "K": 6,
+   "lb": 17
+  },
+  "07.dzn": {
+   "B": 13,
+   "K": 6,
+   "lb": 13
+  },
+  "08.dzn": {
+   "B": 18,
+   "K": 7,
+   "lb": 18
+  },
+  "09.dzn": {
+   "B": 18,
+   "K": 7,
+   "lb": 18
+  },
+  "m06_15_15.dzn": {
+   "B": 19,
+   "K": 8,
+   "lb": 19
+  },
+  "m07_07_20.dzn": {
+   "B": 17,
+   "K": 6,
+   "lb": 17
+  },
+  "pub14_12a.dzn": {
+   "B": 53,
+   "K": 13,
+   "lb": 53
+  },
+  "pub16_12a.dzn": {
+   "B": 46,
+   "K": 15,
+   "lb": 46
+  },
+  "pub16_14a.dzn": {
+   "B": 54,
+   "K": 15,
+   "lb": 54
+  },
+  "pub18_15a.dzn": {
+   "B": 67,
+   "K": 16,
+   "lb": 67
+  }
+ },
+ "per_instance_seconds": 60
+}

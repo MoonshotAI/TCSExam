@@ -1,0 +1,37 @@
+{
+  "checked": "2026-10-29",
+  "scope": "The npm package @anthropic-ai/claude-code version 2.1.257 and its role in the historical derived Lean image. Other packages and versions retain their own terms.",
+  "package": {
+    "name": "@anthropic-ai/claude-code",
+    "version": "2.1.257",
+    "metadata_url": "https://registry.npmjs.org/@anthropic-ai/claude-code/2.1.257",
+    "archive_url": "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.257.tgz",
+    "archive_sha1": "5aa17a093a628f0030c691ed0e11bb50e3228c59",
+    "archive_sha1_verified": true,
+    "registry_integrity": "sha512-JzpBQDzbEV+IKV9lIs/SSRIdHGrAmQXhNScoz9PZgdjnatrVnbsBXRDrF26qBBBph38pA/39d+BhDpf+7RwkwA==",
+    "license_metadata": "SEE LICENSE IN README.md"
+  },
+  "license_evidence": {
+    "path_in_archive": "package/LICENSE.md",
+    "notice": "© Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.",
+    "readme_terms_url": "https://www.anthropic.com/legal/commercial-terms",
+    "assessment": "The package metadata and supplied notice do not provide an express general grant for us to redistribute the installed package in a public image. Do not infer such a grant from public npm availability."
+  },
+  "runtime_review": {
+    "supported_agent": "Kimi Code 0.43.0",
+    "harbor": "0.22.0",
+    "evidence_modules": [
+      "harbor.agents.installed.kimi_code",
+      "harbor.agents.installed.node_install"
+    ],
+    "agent_installation": "The pinned Harbor installer installs Node 22 through nvm and then installs the supported agent. These historical agent tools do not need to be preinstalled in the task base image.",
+    "historical_apt_node_version": "18.19.1",
+    "historical_claude_required_node": ">=22.0.0",
+    "engine_mismatch_observed": true
+  },
+  "decision": {
+    "public_distribution": "do_not_bundle_claude_code",
+    "implementation": "Build and validate the public Lean environment without historical preinstalled agent tools. Let the pinned Harbor installer provide the supported agent at run time.",
+    "remaining_validation": "Install the supported agent on the candidate base and exercise the complete native task path. The direct nop check that retained these historical tools is only internal comparison evidence, not approval to distribute that derived image."
+  }
+}

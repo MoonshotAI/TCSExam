@@ -1,0 +1,55 @@
+{
+  "author": "thecodrr <thecodrr@protonmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dev": true,
+    "engines": {
+      "node": ">=12.0.0"
+    },
+    "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+    "license": "MIT",
+    "peerDependencies": {
+      "picomatch": "^3 || ^4"
+    },
+    "peerDependenciesMeta": {
+      "picomatch": {
+        "optional": true
+      }
+    },
+    "resolved": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+    "version": "6.5.0"
+  },
+  "lock_path": "node_modules/fdir",
+  "name": "fdir",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1053,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86",
+      "text_file": "image-notices/9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 9742,
+    "installed_in_image": false,
+    "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "241ddcd9f31e2a1fca405326017dbb8333ce174198e887f0f96387c29f0d365e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "6.5.0"
+}

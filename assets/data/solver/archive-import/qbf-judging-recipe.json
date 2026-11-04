@@ -1,0 +1,29 @@
+{
+  "format": "fixed_data_archive",
+  "archive_format": "tar+gzip",
+  "task_id": "qbf-qbfeval",
+  "data_split": "hidden",
+  "source": {
+    "id": "qbf-judging-fixed-archive",
+    "url": null,
+    "bytes": 137460021,
+    "sha256": "64016f7e029f4c46d84e70b19c30915177b532de5f467aee4a324185df816378"
+  },
+  "manifest_sha256": "d2986c69f1cbbb7818da5d0beb1d3285f25777138bb81b2a68ad19817fe1812d",
+  "generator_paths": [
+    "src/tcsexam/fixed_data_archive.py"
+  ],
+  "description": "Explicit exact input-only archive import. Preserve every frozen path, byte and mode; only manifest-declared data files are accepted.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "public_pin": null,
+  "public_acquisition_verified": false,
+  "new_distribution_authorization": false,
+  "excluded": [
+    "answers",
+    "logs",
+    "credentials",
+    "neither",
+    "undeclared files"
+  ]
+}

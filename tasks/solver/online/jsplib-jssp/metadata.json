@@ -1,0 +1,52 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260920",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/jsplib-jssp/PROVENANCE.md: upper bounds from the JSPLib best-known-solutions archive for 252 classic instances, plus project measurements on 31 new gdmu/gta instances (CP-SAT/tabu field-best).",
+   "tier": "literature"
+  }
+ },
+ "family": "job-shop-scheduling",
+ "id": "jsplib-jssp",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-jsplib-jssp-judge-v18"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": null,
+  "n_hidden": 85,
+  "n_public": 198,
+  "per_instance_seconds": 600,
+  "shard_cores": 4,
+  "shard_mem_gb": 8,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "library",
+  "ecosystem": "JSPLib",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "job/machine permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "form2 is in place: split.json has 198 public / 85 hidden, stratified by family × size. Hidden B/L are temporarily placeholders from measurements on the original instances under the official 2026-08 convention; overwrite them after batch remeasurement according to measure-manifest. The limit is passed through argv LIMIT_SECONDS, not an environment variable."
+ },
+ "subdomain": "scheduling",
+ "title": "Job-shop scheduling"
+}

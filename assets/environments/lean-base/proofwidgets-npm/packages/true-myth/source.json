@@ -1,0 +1,50 @@
+{
+  "author": {
+    "email": "hello@chriskrycho.com",
+    "name": "Chris Krycho",
+    "url": "http://www.chriskrycho.com"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": "10.* || >= 12.*"
+    },
+    "integrity": "sha512-rqy30BSpxPznbbTcAcci90oZ1YR4DqvKcNXNerG5gQBU2v4jk0cygheiul5J6ExIMrgDVuanv/MkGfqZbKrNNg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/true-myth/-/true-myth-4.1.1.tgz",
+    "version": "4.1.1"
+  },
+  "lock_path": "node_modules/true-myth",
+  "name": "true-myth",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1069,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "71e73518b145d77e68ffe83b7c42b1d3890dec591b6ef115a00825601c642c73",
+      "text_file": "image-notices/71e73518b145d77e68ffe83b7c42b1d3890dec591b6ef115a00825601c642c73.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 96180,
+    "installed_in_image": false,
+    "integrity": "sha512-rqy30BSpxPznbbTcAcci90oZ1YR4DqvKcNXNerG5gQBU2v4jk0cygheiul5J6ExIMrgDVuanv/MkGfqZbKrNNg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/true-myth/-/true-myth-4.1.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "cc0d1a38b4fcc82263b2fcb628b50c99b4f721b63353794eaf556b7b91c83c7f"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.1.1"
+}

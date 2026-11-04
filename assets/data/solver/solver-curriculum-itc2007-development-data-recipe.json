@@ -1,0 +1,147 @@
+{
+  "format": "official_files",
+  "description": "Acquire the exact selected public practice files from the content-pinned upstream commit; every output is checked against the frozen manifest. Project-generated public inputs, when present, are retained byte-for-byte as small source assets. No hidden inputs or answers are included.",
+  "sources": [
+    {
+      "id": "curriculum-itc2007-comp01.ctt",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp01.ctt",
+      "bytes": 1709,
+      "sha256": "57227834c435519b848543a283d765c8f82668616cf951b887dc9d77b2a7ac08"
+    },
+    {
+      "id": "curriculum-itc2007-comp03.ctt",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp03.ctt",
+      "bytes": 10053,
+      "sha256": "b57680c3af18b168a7564d8a795917e2e7dda12998a0b90fa2ba40b1ae710021"
+    },
+    {
+      "id": "curriculum-itc2007-comp08.ctt",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp08.ctt",
+      "bytes": 8754,
+      "sha256": "53df346086e70f5427d4de30d25314a1d6346339ac1ff9bd91bf2d2e7dea5ed1"
+    },
+    {
+      "id": "curriculum-itc2007-comp10.ctt",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp10.ctt",
+      "bytes": 12306,
+      "sha256": "1266e73d63b8f61945fbbb693c62e4621856618a4d5c29a6228a518d72a5ac92"
+    },
+    {
+      "id": "curriculum-itc2007-comp12.ctt",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp12.ctt",
+      "bytes": 30337,
+      "sha256": "952f24be4aea585ec7b16807bfb25852b2dea04bffed133ad2aaafb36a730da0"
+    },
+    {
+      "id": "curriculum-itc2007-comp13.ctt",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp13.ctt",
+      "bytes": 8716,
+      "sha256": "a3d0e2505b3c4dba31d38160a99cab18358483f84ff3ea832384c5e3d07be3d6"
+    },
+    {
+      "id": "curriculum-itc2007-comp14.ctt",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp14.ctt",
+      "bytes": 9101,
+      "sha256": "9bc5eca4729dc37af93065fb107e0f6aa10d3be9566ae0ac7d54f4740f0d261d"
+    },
+    {
+      "id": "curriculum-itc2007-comp16.ctt",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp16.ctt",
+      "bytes": 10251,
+      "sha256": "5e18801fce5c63de1764684f316b28ff9f8f5a1e3d20e81c86e80baa12ea80aa"
+    },
+    {
+      "id": "curriculum-itc2007-comp17.ctt",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp17.ctt",
+      "bytes": 10312,
+      "sha256": "3501f98bbc7c7e3b4bccfc088feb8d7b117ce186cfb69d223fab18428886bfb6"
+    },
+    {
+      "id": "curriculum-itc2007-comp18.ctt",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp18.ctt",
+      "bytes": 17702,
+      "sha256": "af887ddc88e5a3b7b3e5298617e7e5b7f65cd6b069a0616fbf5723afa79d884d"
+    },
+    {
+      "id": "curriculum-itc2007-comp19.ctt",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp19.ctt",
+      "bytes": 8644,
+      "sha256": "e09401452e8418b0eeda25d387e824f35c23ab97acc21fb5471e71bb3225266a"
+    },
+    {
+      "id": "curriculum-itc2007-comp20.ctt",
+      "url": "https://raw.githubusercontent.com/tomas-muller/cpsolver-itc2007/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/comp20.ctt",
+      "bytes": 12746,
+      "sha256": "401a111aa480b5dab23291ee9c3cde702c6b5b4550d28671f16463c81aa11711"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances/comp01.ctt",
+      "source_id": "curriculum-itc2007-comp01.ctt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/comp03.ctt",
+      "source_id": "curriculum-itc2007-comp03.ctt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/comp08.ctt",
+      "source_id": "curriculum-itc2007-comp08.ctt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/comp10.ctt",
+      "source_id": "curriculum-itc2007-comp10.ctt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/comp12.ctt",
+      "source_id": "curriculum-itc2007-comp12.ctt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/comp13.ctt",
+      "source_id": "curriculum-itc2007-comp13.ctt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/comp14.ctt",
+      "source_id": "curriculum-itc2007-comp14.ctt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/comp16.ctt",
+      "source_id": "curriculum-itc2007-comp16.ctt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/comp17.ctt",
+      "source_id": "curriculum-itc2007-comp17.ctt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/comp18.ctt",
+      "source_id": "curriculum-itc2007-comp18.ctt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/comp19.ctt",
+      "source_id": "curriculum-itc2007-comp19.ctt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/comp20.ctt",
+      "source_id": "curriculum-itc2007-comp20.ctt",
+      "operation": "copy"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "source_commit": "a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06",
+  "source_repository": "https://github.com/tomas-muller/cpsolver-itc2007"
+}

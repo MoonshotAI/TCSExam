@@ -1,0 +1,27 @@
+# SPDX-License-Identifier: Apache-2.0
+# Clean public workspace supplies the original compiler/checking tools.
+# The parent contains public practice data only; this product adds the selected
+# judging split, which is read exclusively through /tests[-public]/instances.
+ARG TCSEXAM_CLEAN_TOOLS_IMAGE
+ARG TCSEXAM_JUDGE_DATA_IMAGE
+FROM ${TCSEXAM_JUDGE_DATA_IMAGE} AS tcsexam_data
+FROM ${TCSEXAM_CLEAN_TOOLS_IMAGE}
+COPY --from=tcsexam_data /payload/rootfs/ /
+COPY assets/environments/solver/judge-runtime/*.py /judge/
+COPY tasks/solver/offline/gp-dimacs10/tests/runtime/task.json /judge/task.json
+COPY assets/environments/solver/gp-dimacs10/judge/scoring.py /opt/gp/scoring.py
+COPY assets/environments/solver/gp-dimacs10/judge/scoring.py /tests/scoring.py
+COPY tasks/solver/online/gp-dimacs10/tests/make_neither.py /opt/gp/make_neither.py
+COPY tasks/solver/online/gp-dimacs10/tests/make_split.py /opt/gp/make_split.py
+COPY tasks/solver/online/gp-dimacs10/tests/test_transform.py /opt/gp/test_transform.py
+COPY tasks/solver/online/gp-dimacs10/tests/transform.py /opt/gp/transform.py
+COPY tasks/solver/online/gp-dimacs10/tests/checker.py /tests-public/checker.py
+COPY tasks/solver/online/gp-dimacs10/environment/app/public_reference.json /tests-public/reference.json
+RUN mkdir -p /tests-public /tests && cp -a /app/instances /tests-public/instances
+RUN mkdir -p /tests /work /logs/verifier /submission && rm -rf /app && mkdir /app \
+ && printf "#!/bin/sh\nset -eu\npython3 /judge/run_checker.py\n" > /tests/test.sh \
+ && chmod 755 /tests/test.sh
+ENV TESTS_DIR=/tests APP_DIR=/app WORK_DIR=/work PORT=8082 INSTANCE_SET=public JUDGE_CMD="bash /tests/test.sh" JUDGE_TIMEOUT=4740
+WORKDIR /work
+ENTRYPOINT []
+CMD ["python3", "/judge/judge_worker.py"]

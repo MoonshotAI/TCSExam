@@ -1,0 +1,47 @@
+{
+  "author": "Microsoft Corporation",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "vscode-jsonrpc": "8.2.0",
+      "vscode-languageserver-types": "3.17.5"
+    },
+    "integrity": "sha512-mb1bvRJN8SVznADSGWM9u/b07H7Ecg0I3OgXDuLdn307rl/J3A9YD6/eYOssqhecL27hK1IPZAsaqh00i/Jljg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.5.tgz",
+    "version": "3.17.5"
+  },
+  "lock_path": "node_modules/vscode-languageserver-protocol",
+  "name": "vscode-languageserver-protocol",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1095,
+      "installed_file": "notices/original/package/License.txt",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/License.txt",
+      "sha256": "ec9ee83580841e8eb687aca9867f221503809ba6426c7f876ede17d91b9fcfd0",
+      "text_file": "image-notices/ec9ee83580841e8eb687aca9867f221503809ba6426c7f876ede17d91b9fcfd0.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 59008,
+    "installed_in_image": false,
+    "integrity": "sha512-mb1bvRJN8SVznADSGWM9u/b07H7Ecg0I3OgXDuLdn307rl/J3A9YD6/eYOssqhecL27hK1IPZAsaqh00i/Jljg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "7473eb2d2163f3f8bea09644f9d803789a195e596b65d3946c4157e583e3ccc8"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.17.5"
+}

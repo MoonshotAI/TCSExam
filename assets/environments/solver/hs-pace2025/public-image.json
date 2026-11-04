@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "task": "tasks/solver/online/hs-pace2025",
+  "remove_paths": ["/tests", "/opt/hs100-private"],
+  "allow_content_paths": [
+    "/tests-public",
+    "/public-instances",
+    "/public_reference.json",
+    "/judge",
+    "/opt/hs2025/scoring.py",
+    "/opt/hs2025/hs_verifier.jar",
+    "/opt/hs2025/verifier-src",
+    "/opt/java/openjdk"
+  ],
+  "required_paths": [
+    "/__cacert_entrypoint.sh",
+    "/judge/entry.sh",
+    "/judge/judge_worker.py",
+    "/tests-public/checker.py",
+    "/tests-public/reference.json",
+    "/public-instances",
+    "/public_reference.json",
+    "/opt/hs2025/scoring.py",
+    "/opt/hs2025/hs_verifier.jar",
+    "/opt/java/openjdk"
+  ]
+}

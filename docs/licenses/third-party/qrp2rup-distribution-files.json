@@ -1,0 +1,145 @@
+{
+  "checked": "2026-10-15",
+  "status": "Prepared local component package; not published. Final public build integration is pending.",
+  "archive": "qrp2rup-component-materials-261015.tar.gz",
+  "archive_bytes": 39181,
+  "archive_sha256": "020eba628d22c4d688277b9add1c9aa465ae229715b8ae48ae62cf199bb47dd7",
+  "files": [
+    {
+      "path": "CC-BY-4.0.txt",
+      "bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    },
+    {
+      "path": "COMPONENT-NOTICES.txt",
+      "bytes": 846,
+      "sha256": "d32f0a353b806112670a76328f78451c1b12a26e8f31a15c0d0ed6be3424d5a9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 405,
+      "sha256": "d3f05f09b77ae5bd473fc9db0fd2187e9037862480e62a003f187637b2dffc63"
+    },
+    {
+      "path": "SOURCE-AND-CHANGES.json",
+      "bytes": 9338,
+      "sha256": "dbdc4f8713fcd4d278cd8abb616e5c2f02e802616e67761dc94263c3406aa504"
+    },
+    {
+      "path": "source/CMakeLists.txt",
+      "bytes": 263,
+      "sha256": "604377938f37db60d90a04f731be708cc4426e2980c58e821219b19e215af271"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 2512,
+      "sha256": "24780e886d2cc235b6c1e8ea96ec7b84cc778282f36a554d4c8f4f0ec56a17de"
+    },
+    {
+      "path": "source/helpers/gchk",
+      "bytes": 61,
+      "sha256": "b81a8ef21dd0b1976c49ed8184c2951c8c5b14d836bc21c457aa8b2f07b3a7c6"
+    },
+    {
+      "path": "source/helpers/grat-diagnoser.py",
+      "bytes": 7173,
+      "sha256": "34338121e2df2f931c6edb0a12af7e1c8edf1a5a0f33556aa45a8ca0c0776659"
+    },
+    {
+      "path": "source/memory_unsigned_int.hh",
+      "bytes": 526,
+      "sha256": "997733ee936b2ef7700384f4caed17da4152d392f0dd4a084533032e74905f16"
+    },
+    {
+      "path": "source/rfao_node.hh",
+      "bytes": 408,
+      "sha256": "e82d0b35e1f28ae9c5bcc9b6bef76261060b636f7729af11aec081f2d4a8e58b"
+    },
+    {
+      "path": "source/src/CMakeLists.txt",
+      "bytes": 147,
+      "sha256": "f117dd39e882698131c111a7aa09fb2430d415d6c8f8ae645ff9625a3c57daa5"
+    },
+    {
+      "path": "source/src/aig_circuit.cc",
+      "bytes": 3231,
+      "sha256": "fe58d32dd05e6650303cc892fba85edbf0d86d9875192951887e1513a487bda0"
+    },
+    {
+      "path": "source/src/aig_circuit.hh",
+      "bytes": 1328,
+      "sha256": "0363a541eb1273dd2022f4d5bc5f02abcd09aa1a3438737632bf0f948fd80698"
+    },
+    {
+      "path": "source/src/circuit.hh",
+      "bytes": 2022,
+      "sha256": "681bf2d2f1f0fdebbcd32cbb6f7b49dd8afc738d3146d50325995ab71703a5e7"
+    },
+    {
+      "path": "source/src/clause_writer.cc",
+      "bytes": 441,
+      "sha256": "97e5461df6f9d670d50feba0ce587039b1223e05cbc7915b781cb162411815dc"
+    },
+    {
+      "path": "source/src/clause_writer.hh",
+      "bytes": 1669,
+      "sha256": "928c26ac3c11d226daded6f78136283226ae5ffb41ea88fbb2c73761c32326d1"
+    },
+    {
+      "path": "source/src/cnf_circuit.cc",
+      "bytes": 3496,
+      "sha256": "703240815d2e495c77683400f0aabbcb1b12b060bebfdd69eb1cff5e621b173e"
+    },
+    {
+      "path": "source/src/cnf_circuit.hh",
+      "bytes": 1436,
+      "sha256": "119f8b4d4f0b5f2e2615aeabe63f87204dc04462eb80962957deacc6482ba008"
+    },
+    {
+      "path": "source/src/defaults.hh",
+      "bytes": 370,
+      "sha256": "600fba89e2fe7280ce622b03c18c1862e80bbc5b81853d57c22643ec9a73c441"
+    },
+    {
+      "path": "source/src/grat_manager.cc",
+      "bytes": 3698,
+      "sha256": "22d4d8de08a251658f5d534333d2e366df0cede225c6ea2635d3df72074135ff"
+    },
+    {
+      "path": "source/src/grat_manager.hh",
+      "bytes": 1352,
+      "sha256": "d1d1dd0e1141dedd7899b305d9dd27d42e173975d9329747d9d1da4e0cba9452"
+    },
+    {
+      "path": "source/src/io.cc",
+      "bytes": 10830,
+      "sha256": "b4ada111f4296c4b2ac155c4f2c34f916e5742bcd22b5b1a55aa71d5236afafd"
+    },
+    {
+      "path": "source/src/proof_translator.cc",
+      "bytes": 58699,
+      "sha256": "a8d155e3f9a1b238043e2ab131b86937d3be4c05ecf12d9b7cb1e80437d8e908"
+    },
+    {
+      "path": "source/src/proof_translator.hh",
+      "bytes": 11158,
+      "sha256": "ad76d53e4f8c02fa3653149e3b312324c00c89fedb2ceb7aa930d466a7eede6c"
+    },
+    {
+      "path": "source/src/qrp2rup.cc",
+      "bytes": 3587,
+      "sha256": "ff4b039963280794cb9a5cf7e1d371a8140f8119e720836a212fb22c3118cb27"
+    },
+    {
+      "path": "source/src/sorted_query_oracle.hh",
+      "bytes": 2953,
+      "sha256": "875069ebc83914cb2f7c7def10c64198b67f6f8168d720f27fc8b35df7195e92"
+    },
+    {
+      "path": "source/src/types.hh",
+      "bytes": 3585,
+      "sha256": "40bd62785c1f5d06a6421a7daec958d9b44ec2705dcb11dd4c37285332384fc6"
+    }
+  ],
+  "scope": "23 adopted source/build/documentation files reconstructed byte-for-byte from the licensed author artifact; no executable included or run."
+}

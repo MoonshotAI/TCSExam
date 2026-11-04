@@ -1,0 +1,41 @@
+{
+  "task": "tasks/solver/online/itc2021-sports-timetabling",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/itc2021-sports-timetabling/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:c5309df400fbd90afac34258b6aebcf19916386d3ea25a3f593bd36282f213b1"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/itc2021-sports-timetabling/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "9ed7644eb9817fe929461403649a85a6c47e90684bf4d69aeabfdea52cff84ab"
+    },
+    {
+      "source": "tasks/solver/online/itc2021-sports-timetabling/tests/scoring.py",
+      "target": "/tests/scoring.py",
+      "sha256": "ad4993f5030242029e757a08bb8b1703c29b114941777d17373a5ae44e18d126"
+    },
+    {
+      "source": "tasks/solver/online/itc2021-sports-timetabling/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "841420f2b9a2eadc1d8062339f651bb3ff597ce0f711a4868f4b684c6ec91847"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": false,
+  "public_source_rebuild_verified": false,
+  "limitations": [
+    "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
+  ]
+}

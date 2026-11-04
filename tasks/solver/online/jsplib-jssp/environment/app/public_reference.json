@@ -1,0 +1,1959 @@
+{
+ "instances": {
+  "abz5": {
+   "B": 1236,
+   "K": 1234,
+   "L": 1234,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1234 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "abz7": {
+   "B": 733,
+   "K": 656,
+   "L": 663,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 656 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "abz9": {
+   "B": 796,
+   "K": 678,
+   "L": 678,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 678 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "dmu01": {
+   "B": 2950,
+   "K": 2563,
+   "L": 2592,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2563 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "dmu03": {
+   "B": 3119,
+   "K": 2731,
+   "L": 2738,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2731 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "dmu04": {
+   "B": 2954,
+   "K": 2669,
+   "L": 2716,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2669 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "dmu05": {
+   "B": 3084,
+   "K": 2749,
+   "L": 2775,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2749 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "dmu06": {
+   "B": 3602,
+   "K": 3244,
+   "L": 3366,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3244 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  },
+  "dmu08": {
+   "B": 3509,
+   "K": 3188,
+   "L": 3201,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3188 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  },
+  "dmu09": {
+   "B": 3395,
+   "K": 3092,
+   "L": 3143,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3092 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  },
+  "dmu10": {
+   "B": 3250,
+   "K": 2984,
+   "L": 2996,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2984 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  },
+  "dmu11": {
+   "B": 4183,
+   "K": 3430,
+   "L": 3599,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3430 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "open"
+  },
+  "dmu13": {
+   "B": 4277,
+   "K": 3681,
+   "L": 3947,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3681 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "closed"
+  },
+  "dmu14": {
+   "B": 3820,
+   "K": 3394,
+   "L": 3562,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3394 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "closed"
+  },
+  "dmu15": {
+   "B": 3969,
+   "K": 3343,
+   "L": 3505,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3343 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "closed"
+  },
+  "dmu16": {
+   "B": 4338,
+   "K": 3750,
+   "L": 4034,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3750 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20"
+  },
+  "dmu18": {
+   "B": 4427,
+   "K": 3844,
+   "L": 4159,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3844 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20",
+   "status": "closed"
+  },
+  "dmu19": {
+   "B": 4516,
+   "K": 3764,
+   "L": 4082,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3764 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20",
+   "status": "open"
+  },
+  "dmu20": {
+   "B": 4343,
+   "K": 3699,
+   "L": 4131,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3699 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20",
+   "status": "open"
+  },
+  "dmu21": {
+   "B": 5081,
+   "K": 4380,
+   "L": 4982,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4380 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 15",
+   "status": "closed"
+  },
+  "dmu23": {
+   "B": 4939,
+   "K": 4668,
+   "L": 4803,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4668 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 15",
+   "status": "closed"
+  },
+  "dmu24": {
+   "B": 5030,
+   "K": 4648,
+   "L": 4778,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4648 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 15",
+   "status": "closed"
+  },
+  "dmu25": {
+   "B": 4491,
+   "K": 4164,
+   "L": 4207,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4164 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 15",
+   "status": "closed"
+  },
+  "dmu26": {
+   "B": 5455,
+   "K": 4647,
+   "L": 5134,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4647 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 20",
+   "status": "closed"
+  },
+  "dmu28": {
+   "B": 5518,
+   "K": 4692,
+   "L": 5448,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4692 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 20",
+   "status": "closed"
+  },
+  "dmu29": {
+   "B": 5485,
+   "K": 4691,
+   "L": 5206,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4691 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 20",
+   "status": "closed"
+  },
+  "dmu30": {
+   "B": 5636,
+   "K": 4732,
+   "L": 5399,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4732 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 20",
+   "status": "closed"
+  },
+  "dmu31": {
+   "B": 6251,
+   "K": 5640,
+   "L": 6339,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5640 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "closed"
+  },
+  "dmu33": {
+   "B": 6020,
+   "K": 5728,
+   "L": 6145,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5728 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "closed"
+  },
+  "dmu34": {
+   "B": 5907,
+   "K": 5385,
+   "L": 6032,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5385 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "closed"
+  },
+  "dmu35": {
+   "B": 6010,
+   "K": 5635,
+   "L": 6015,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5635 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "closed"
+  },
+  "dmu36": {
+   "B": 6683,
+   "K": 5621,
+   "L": 6553,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5621 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "closed"
+  },
+  "dmu38": {
+   "B": 6736,
+   "K": 5713,
+   "L": 6472,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5713 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "closed"
+  },
+  "dmu39": {
+   "B": 6633,
+   "K": 5747,
+   "L": 6477,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5747 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "closed"
+  },
+  "dmu40": {
+   "B": 6566,
+   "K": 5577,
+   "L": 6550,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5577 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "closed"
+  },
+  "dmu42": {
+   "B": 4113,
+   "K": 3390,
+   "L": 3648,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3390 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "open"
+  },
+  "dmu43": {
+   "B": 4005,
+   "K": 3441,
+   "L": 3655,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3441 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "dmu45": {
+   "B": 4016,
+   "K": 3266,
+   "L": 3551,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3266 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "open"
+  },
+  "dmu47": {
+   "B": 4698,
+   "K": 3939,
+   "L": 4301,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3939 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "open"
+  },
+  "dmu48": {
+   "B": 4592,
+   "K": 3763,
+   "L": 4022,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3763 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "open"
+  },
+  "dmu50": {
+   "B": 4451,
+   "K": 3729,
+   "L": 3956,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3729 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "open"
+  },
+  "dmu52": {
+   "B": 5549,
+   "K": 4297,
+   "L": 4760,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4297 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "open"
+  },
+  "dmu53": {
+   "B": 5665,
+   "K": 4378,
+   "L": 4840,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4378 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "open"
+  },
+  "dmu55": {
+   "B": 5693,
+   "K": 4258,
+   "L": 4697,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4258 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "open"
+  },
+  "dmu57": {
+   "B": 6118,
+   "K": 4643,
+   "L": 5395,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4643 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20",
+   "status": "open"
+  },
+  "dmu58": {
+   "B": 6307,
+   "K": 4701,
+   "L": 5349,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4701 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20",
+   "status": "open"
+  },
+  "dmu60": {
+   "B": 6161,
+   "K": 4721,
+   "L": 5361,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 4721 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20",
+   "status": "open"
+  },
+  "dmu62": {
+   "B": 6965,
+   "K": 5244,
+   "L": 5922,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5244 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 15",
+   "status": "open"
+  },
+  "dmu63": {
+   "B": 7277,
+   "K": 5296,
+   "L": 6032,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5296 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 15",
+   "status": "open"
+  },
+  "dmu65": {
+   "B": 6796,
+   "K": 5158,
+   "L": 5841,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5158 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 15",
+   "status": "open"
+  },
+  "dmu67": {
+   "B": 7688,
+   "K": 5774,
+   "L": 6777,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5774 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 20",
+   "status": "open"
+  },
+  "dmu68": {
+   "B": 8119,
+   "K": 5749,
+   "L": 6632,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5749 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 20",
+   "status": "open"
+  },
+  "dmu70": {
+   "B": 8076,
+   "K": 5868,
+   "L": 6966,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5868 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 20",
+   "status": "open"
+  },
+  "dmu72": {
+   "B": 9098,
+   "K": 6448,
+   "L": 7311,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 6448 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "open"
+  },
+  "dmu73": {
+   "B": 8689,
+   "K": 6132,
+   "L": 7094,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 6132 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "open"
+  },
+  "dmu75": {
+   "B": 8623,
+   "K": 6186,
+   "L": 7091,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 6186 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "open"
+  },
+  "dmu77": {
+   "B": 9499,
+   "K": 6739,
+   "L": 7971,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 6739 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "open"
+  },
+  "dmu78": {
+   "B": 9476,
+   "K": 6744,
+   "L": 7934,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 6744 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "open"
+  },
+  "dmu80": {
+   "B": 9319,
+   "K": 6621,
+   "L": 7953,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 6621 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "open"
+  },
+  "ft06": {
+   "B": 55,
+   "K": 55,
+   "L": 55,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 55 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "6 x 6",
+   "status": "closed"
+  },
+  "ft20": {
+   "B": 1325,
+   "K": 1165,
+   "L": 1165,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1165 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 5",
+   "status": "closed"
+  },
+  "gdmu20x15-s501": {
+   "B": 3030,
+   "K": 2950,
+   "L": 2950,
+   "b_source": "packaged baseline @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "k_source": "proven optimal 2950: CP-SAT closed this instance in the 2026-08 60 s screening (OPTIMAL); re-attained by the 6000 s CP-SAT run on one pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "size": "20 x 15"
+  },
+  "gdmu20x15-s503": {
+   "B": 2958,
+   "K": 2691,
+   "L": 2691,
+   "b_source": "packaged baseline @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "k_source": "proven optimal 2691: CP-SAT closed this instance in 294.5 s on one pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "size": "20 x 15"
+  },
+  "gdmu20x15-s504": {
+   "B": 3112,
+   "K": 2857,
+   "L": 2875,
+   "b_source": "packaged baseline @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain); reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "size": "20 x 15"
+  },
+  "gdmu20x15-s505": {
+   "B": 2974,
+   "K": 2690,
+   "L": 2718,
+   "b_source": "packaged baseline @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain); reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "size": "20 x 15"
+  },
+  "gdmu30x20-s601": {
+   "B": 4694,
+   "K": 4166,
+   "L": 4230,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20"
+  },
+  "gdmu30x20-s602": {
+   "B": 4375,
+   "K": 3878,
+   "L": 4065,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20"
+  },
+  "gdmu30x20-s603": {
+   "B": 4282,
+   "K": 3925,
+   "L": 4091,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20"
+  },
+  "gdmu40x20-s801": {
+   "B": 5568,
+   "K": 5084,
+   "L": 5469,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 20"
+  },
+  "gdmu40x20-s802": {
+   "B": 5745,
+   "K": 5176,
+   "L": 5543,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 20"
+  },
+  "gdmu40x20-s804": {
+   "B": 5393,
+   "K": 5153,
+   "L": 5464,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "40 x 20"
+  },
+  "gdmu50x20-s701": {
+   "B": 6542,
+   "K": 6117,
+   "L": 6256,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20"
+  },
+  "gdmu50x20-s702": {
+   "B": 6677,
+   "K": 6348,
+   "L": 6833,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20"
+  },
+  "gdmu50x20-s704": {
+   "B": 6600,
+   "K": 6370,
+   "L": 6668,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20"
+  },
+  "gta20x20-s201": {
+   "B": 1699,
+   "K": 1547,
+   "L": 1554,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20"
+  },
+  "gta20x20-s203": {
+   "B": 1779,
+   "K": 1606,
+   "L": 1614,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20"
+  },
+  "gta20x20-s204": {
+   "B": 1964,
+   "K": 1701,
+   "L": 1701,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20"
+  },
+  "gta30x15-s302": {
+   "B": 2063,
+   "K": 1825,
+   "L": 1826,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15"
+  },
+  "gta30x15-s303": {
+   "B": 1970,
+   "K": 1765,
+   "L": 1862,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15"
+  },
+  "gta30x15-s304": {
+   "B": 2061,
+   "K": 1763,
+   "L": 1840,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15"
+  },
+  "gta30x20-s401": {
+   "B": 2207,
+   "K": 1915,
+   "L": 1974,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20"
+  },
+  "gta30x20-s402": {
+   "B": 2270,
+   "K": 2054,
+   "L": 2101,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20"
+  },
+  "gta30x20-s404": {
+   "B": 2315,
+   "K": 2036,
+   "L": 2090,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "field-best of CP-SAT@6000s and tabu@6000s on one pinned core (evaluation runner oracle measurement; reference value, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20"
+  },
+  "la01": {
+   "B": 666,
+   "K": 666,
+   "L": 666,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 666 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 5",
+   "status": "closed"
+  },
+  "la03": {
+   "B": 611,
+   "K": 597,
+   "L": 597,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 597 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 5",
+   "status": "closed"
+  },
+  "la04": {
+   "B": 607,
+   "K": 590,
+   "L": 590,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 590 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 5",
+   "status": "closed"
+  },
+  "la05": {
+   "B": 593,
+   "K": 593,
+   "L": 593,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 593 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 5",
+   "status": "closed"
+  },
+  "la06": {
+   "B": 926,
+   "K": 926,
+   "L": 926,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 926 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 5",
+   "status": "closed"
+  },
+  "la08": {
+   "B": 863,
+   "K": 863,
+   "L": 863,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 863 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 5",
+   "status": "closed"
+  },
+  "la09": {
+   "B": 951,
+   "K": 951,
+   "L": 951,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 951 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 5",
+   "status": "closed"
+  },
+  "la10": {
+   "B": 958,
+   "K": 958,
+   "L": 958,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 958 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 5",
+   "status": "closed"
+  },
+  "la12": {
+   "B": 1039,
+   "K": 1039,
+   "L": 1039,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1039 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 5",
+   "status": "closed"
+  },
+  "la13": {
+   "B": 1150,
+   "K": 1150,
+   "L": 1150,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1150 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 5",
+   "status": "closed"
+  },
+  "la15": {
+   "B": 1207,
+   "K": 1207,
+   "L": 1207,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1207 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 5",
+   "status": "closed"
+  },
+  "la17": {
+   "B": 785,
+   "K": 784,
+   "L": 784,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 784 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "la18": {
+   "B": 855,
+   "K": 848,
+   "L": 848,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 848 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "la20": {
+   "B": 913,
+   "K": 902,
+   "L": 902,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 902 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "la22": {
+   "B": 962,
+   "K": 927,
+   "L": 927,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 927 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 10",
+   "status": "closed"
+  },
+  "la23": {
+   "B": 1033,
+   "K": 1032,
+   "L": 1032,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1032 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 10",
+   "status": "closed"
+  },
+  "la25": {
+   "B": 1026,
+   "K": 977,
+   "L": 977,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 977 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 10",
+   "status": "closed"
+  },
+  "la26": {
+   "B": 1277,
+   "K": 1218,
+   "L": 1218,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1218 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 10",
+   "status": "closed"
+  },
+  "la28": {
+   "B": 1344,
+   "K": 1216,
+   "L": 1216,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1216 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 10",
+   "status": "closed"
+  },
+  "la29": {
+   "B": 1254,
+   "K": 1152,
+   "L": 1158,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1152 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 10",
+   "status": "closed"
+  },
+  "la30": {
+   "B": 1383,
+   "K": 1355,
+   "L": 1355,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1355 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 10",
+   "status": "closed"
+  },
+  "la32": {
+   "B": 1850,
+   "K": 1850,
+   "L": 1850,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1850 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 10",
+   "status": "closed"
+  },
+  "la33": {
+   "B": 1722,
+   "K": 1719,
+   "L": 1719,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1719 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 10",
+   "status": "closed"
+  },
+  "la35": {
+   "B": 1889,
+   "K": 1888,
+   "L": 1888,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1888 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 10",
+   "status": "closed"
+  },
+  "la36": {
+   "B": 1341,
+   "K": 1268,
+   "L": 1268,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1268 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 15",
+   "status": "closed"
+  },
+  "la38": {
+   "B": 1295,
+   "K": 1196,
+   "L": 1196,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1196 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 15",
+   "status": "closed"
+  },
+  "la39": {
+   "B": 1339,
+   "K": 1233,
+   "L": 1233,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1233 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 15",
+   "status": "closed"
+  },
+  "la40": {
+   "B": 1298,
+   "K": 1222,
+   "L": 1222,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1222 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 15",
+   "status": "closed"
+  },
+  "orb01": {
+   "B": 1147,
+   "K": 1059,
+   "L": 1059,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1059 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "orb03": {
+   "B": 1062,
+   "K": 1005,
+   "L": 1005,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1005 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "orb04": {
+   "B": 1026,
+   "K": 1005,
+   "L": 1005,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1005 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "orb05": {
+   "B": 894,
+   "K": 887,
+   "L": 887,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 887 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "orb07": {
+   "B": 408,
+   "K": 397,
+   "L": 397,
+   "b_source": "packaged baseline (zero-duration fix) @600s, 1 pinned core (judging-pipeline measurement patch)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 397 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "orb08": {
+   "B": 954,
+   "K": 899,
+   "L": 899,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 899 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "orb10": {
+   "B": 961,
+   "K": 944,
+   "L": 944,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 944 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "swv01": {
+   "B": 1785,
+   "K": 1407,
+   "L": 1435,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1407 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 10",
+   "status": "closed"
+  },
+  "swv03": {
+   "B": 1710,
+   "K": 1398,
+   "L": 1452,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1398 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 10",
+   "status": "closed"
+  },
+  "swv04": {
+   "B": 1737,
+   "K": 1464,
+   "L": 1498,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1464 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 10",
+   "status": "closed"
+  },
+  "swv05": {
+   "B": 1682,
+   "K": 1424,
+   "L": 1451,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1424 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 10",
+   "status": "closed"
+  },
+  "swv07": {
+   "B": 1933,
+   "K": 1594,
+   "L": 1710,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1594 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "open"
+  },
+  "swv08": {
+   "B": 2158,
+   "K": 1751,
+   "L": 1834,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1751 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "open"
+  },
+  "swv10": {
+   "B": 2082,
+   "K": 1743,
+   "L": 1862,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1743 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "open"
+  },
+  "swv11": {
+   "B": 4065,
+   "K": 2983,
+   "L": 3347,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2983 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 10",
+   "status": "closed"
+  },
+  "swv13": {
+   "B": 4120,
+   "K": 3104,
+   "L": 3368,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 3104 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 10",
+   "status": "closed"
+  },
+  "swv14": {
+   "B": 3922,
+   "K": 2968,
+   "L": 3124,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2968 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 10",
+   "status": "closed"
+  },
+  "swv15": {
+   "B": 4056,
+   "K": 2885,
+   "L": 3189,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2885 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 10",
+   "status": "closed"
+  },
+  "swv17": {
+   "B": 2794,
+   "K": 2794,
+   "L": 2794,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2794 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 10",
+   "status": "closed"
+  },
+  "swv18": {
+   "B": 2852,
+   "K": 2852,
+   "L": 2852,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2852 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 10",
+   "status": "closed"
+  },
+  "swv20": {
+   "B": 2823,
+   "K": 2823,
+   "L": 2823,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2823 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 10",
+   "status": "closed"
+  },
+  "ta01js": {
+   "B": 1320,
+   "K": 1231,
+   "L": 1231,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1231 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 15",
+   "status": "closed"
+  },
+  "ta03js": {
+   "B": 1273,
+   "K": 1218,
+   "L": 1218,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1218 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 15",
+   "status": "closed"
+  },
+  "ta04js": {
+   "B": 1284,
+   "K": 1175,
+   "L": 1175,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1175 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 15",
+   "status": "closed"
+  },
+  "ta05js": {
+   "B": 1301,
+   "K": 1224,
+   "L": 1224,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1224 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 15",
+   "status": "closed"
+  },
+  "ta07js": {
+   "B": 1297,
+   "K": 1227,
+   "L": 1228,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1227 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 15",
+   "status": "closed"
+  },
+  "ta08js": {
+   "B": 1315,
+   "K": 1217,
+   "L": 1217,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1217 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 15",
+   "status": "closed"
+  },
+  "ta10js": {
+   "B": 1324,
+   "K": 1241,
+   "L": 1241,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1241 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "15 x 15",
+   "status": "closed"
+  },
+  "ta11js": {
+   "B": 1526,
+   "K": 1357,
+   "L": 1375,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1357 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "ta13js": {
+   "B": 1509,
+   "K": 1342,
+   "L": 1353,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1342 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "ta14js": {
+   "B": 1474,
+   "K": 1345,
+   "L": 1345,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1345 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "ta15js": {
+   "B": 1528,
+   "K": 1339,
+   "L": 1377,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1339 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "ta17js": {
+   "B": 1598,
+   "K": 1462,
+   "L": 1462,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1462 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "ta18js": {
+   "B": 1594,
+   "K": 1396,
+   "L": 1429,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1396 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "ta20js": {
+   "B": 1496,
+   "K": 1348,
+   "L": 1381,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1348 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 15",
+   "status": "closed"
+  },
+  "ta21js": {
+   "B": 1845,
+   "K": 1642,
+   "L": 1663,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1642 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  },
+  "ta23js": {
+   "B": 1742,
+   "K": 1557,
+   "L": 1578,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1557 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  },
+  "ta24js": {
+   "B": 1821,
+   "K": 1644,
+   "L": 1657,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1644 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  },
+  "ta25js": {
+   "B": 1784,
+   "K": 1595,
+   "L": 1619,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1595 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  },
+  "ta27js": {
+   "B": 1916,
+   "K": 1680,
+   "L": 1714,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1680 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  },
+  "ta28js": {
+   "B": 1782,
+   "K": 1603,
+   "L": 1619,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1603 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  },
+  "ta30js": {
+   "B": 1783,
+   "K": 1584,
+   "L": 1616,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1584 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20"
+  },
+  "ta31js": {
+   "B": 2055,
+   "K": 1764,
+   "L": 1861,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1764 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "closed"
+  },
+  "ta33js": {
+   "B": 2193,
+   "K": 1791,
+   "L": 1955,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1791 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "closed"
+  },
+  "ta34js": {
+   "B": 2106,
+   "K": 1828,
+   "L": 1969,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1828 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "closed"
+  },
+  "ta35js": {
+   "B": 2169,
+   "K": 2007,
+   "L": 2007,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2007 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "closed"
+  },
+  "ta37js": {
+   "B": 2055,
+   "K": 1771,
+   "L": 1923,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1771 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "closed"
+  },
+  "ta38js": {
+   "B": 1911,
+   "K": 1673,
+   "L": 1799,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1673 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "closed"
+  },
+  "ta40js": {
+   "B": 2000,
+   "K": 1669,
+   "L": 1830,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1669 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 15",
+   "status": "open"
+  },
+  "ta41js": {
+   "B": 2474,
+   "K": 2005,
+   "L": 2196,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2005 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20"
+  },
+  "ta43js": {
+   "B": 2242,
+   "K": 1846,
+   "L": 2014,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1846 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20",
+   "status": "open"
+  },
+  "ta44js": {
+   "B": 2345,
+   "K": 1978,
+   "L": 2184,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1978 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20",
+   "status": "open"
+  },
+  "ta45js": {
+   "B": 2361,
+   "K": 1997,
+   "L": 2101,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1997 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20",
+   "status": "closed"
+  },
+  "ta47js": {
+   "B": 2182,
+   "K": 1889,
+   "L": 2038,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1889 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20",
+   "status": "open"
+  },
+  "ta48js": {
+   "B": 2304,
+   "K": 1937,
+   "L": 2113,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1937 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20",
+   "status": "open"
+  },
+  "ta50js": {
+   "B": 2358,
+   "K": 1923,
+   "L": 2078,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 1923 (literature record; instance open, not proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "30 x 20",
+   "status": "open"
+  },
+  "ta51js": {
+   "B": 3360,
+   "K": 2760,
+   "L": 2880,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2760 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "closed"
+  },
+  "ta53js": {
+   "B": 2978,
+   "K": 2717,
+   "L": 2897,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2717 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "closed"
+  },
+  "ta54js": {
+   "B": 3079,
+   "K": 2839,
+   "L": 2904,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2839 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "closed"
+  },
+  "ta55js": {
+   "B": 3082,
+   "K": 2679,
+   "L": 2970,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2679 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "closed"
+  },
+  "ta57js": {
+   "B": 3229,
+   "K": 2943,
+   "L": 3025,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2943 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "closed"
+  },
+  "ta58js": {
+   "B": 3228,
+   "K": 2885,
+   "L": 3072,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2885 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "closed"
+  },
+  "ta60js": {
+   "B": 3036,
+   "K": 2723,
+   "L": 2915,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2723 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 15",
+   "status": "closed"
+  },
+  "ta61js": {
+   "B": 3325,
+   "K": 2868,
+   "L": 3223,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2868 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "closed"
+  },
+  "ta63js": {
+   "B": 3153,
+   "K": 2755,
+   "L": 3177,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2755 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "closed"
+  },
+  "ta64js": {
+   "B": 3123,
+   "K": 2702,
+   "L": 3009,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2702 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "closed"
+  },
+  "ta65js": {
+   "B": 3284,
+   "K": 2725,
+   "L": 3034,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2725 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "closed"
+  },
+  "ta67js": {
+   "B": 3267,
+   "K": 2825,
+   "L": 3172,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2825 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "closed"
+  },
+  "ta68js": {
+   "B": 3157,
+   "K": 2784,
+   "L": 3203,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2784 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "closed"
+  },
+  "ta70js": {
+   "B": 3465,
+   "K": 2995,
+   "L": 3337,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 2995 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "50 x 20",
+   "status": "closed"
+  },
+  "ta71js": {
+   "B": 6004,
+   "K": 5464,
+   "L": 5977,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5464 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "100 x 20",
+   "status": "closed"
+  },
+  "ta73js": {
+   "B": 6033,
+   "K": 5568,
+   "L": 6051,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5568 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "100 x 20",
+   "status": "closed"
+  },
+  "ta74js": {
+   "B": 5683,
+   "K": 5339,
+   "L": 5669,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5339 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "100 x 20",
+   "status": "closed"
+  },
+  "ta75js": {
+   "B": 5985,
+   "K": 5392,
+   "L": 6029,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5392 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "100 x 20",
+   "status": "closed"
+  },
+  "ta77js": {
+   "B": 5803,
+   "K": 5436,
+   "L": 5895,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5436 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "100 x 20",
+   "status": "closed"
+  },
+  "ta78js": {
+   "B": 5781,
+   "K": 5394,
+   "L": 5763,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5394 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "100 x 20",
+   "status": "closed"
+  },
+  "ta80js": {
+   "B": 5589,
+   "K": 5183,
+   "L": 5553,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 5183 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "100 x 20",
+   "status": "closed"
+  },
+  "tai_10_10_1": {
+   "B": 8387,
+   "K": 8219,
+   "L": 8219,
+   "b_source": "packaged baseline @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "k_source": "JSPLib best-known-solutions archive upper bound 8219 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "tai_10_10_2": {
+   "B": 7416,
+   "K": 7416,
+   "L": 7416,
+   "b_source": "packaged baseline @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "k_source": "JSPLib best-known-solutions archive upper bound 7416 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "tai_10_10_3": {
+   "B": 8212,
+   "K": 8094,
+   "L": 8094,
+   "b_source": "packaged baseline @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "k_source": "JSPLib best-known-solutions archive upper bound 8094 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "tai_10_10_4": {
+   "B": 8741,
+   "K": 8657,
+   "L": 8657,
+   "b_source": "packaged baseline @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "k_source": "JSPLib best-known-solutions archive upper bound 8657 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "tai_10_10_6": {
+   "B": 8567,
+   "K": 8509,
+   "L": 8509,
+   "b_source": "packaged baseline @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "k_source": "JSPLib best-known-solutions archive upper bound 8509 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "tai_10_10_7": {
+   "B": 8405,
+   "K": 8299,
+   "L": 8299,
+   "b_source": "packaged baseline @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "k_source": "JSPLib best-known-solutions archive upper bound 8299 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "tai_10_10_9": {
+   "B": 8517,
+   "K": 8300,
+   "L": 8300,
+   "b_source": "packaged baseline @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "k_source": "JSPLib best-known-solutions archive upper bound 8300 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (isolated execution environment measurement (sandbox judging environment, solver-jsplib-kb-v2, judge-equivalent toolchain))",
+   "size": "10 x 10",
+   "status": "closed"
+  },
+  "yn1": {
+   "B": 977,
+   "K": 884,
+   "L": 910,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 884 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  },
+  "yn2": {
+   "B": 1007,
+   "K": 904,
+   "L": 921,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 904 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  },
+  "yn4": {
+   "B": 1118,
+   "K": 967,
+   "L": 999,
+   "b_source": "packaged baseline @600s, 1 pinned core (judging-pipeline measurement)",
+   "k_source": "JSPLib best-known-solutions archive upper bound 967 (instance closed: archive lower bound meets upper bound, proven optimal)",
+   "l_source": "stock CP-SAT 9.15.6755 @600s, 1 pinned core (judging-pipeline measurement)",
+   "size": "20 x 20",
+   "status": "closed"
+  }
+ }
+}

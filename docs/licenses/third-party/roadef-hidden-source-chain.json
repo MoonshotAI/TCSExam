@@ -1,0 +1,448 @@
+{
+  "checked": "2026-10-15",
+  "source_commit": "06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c",
+  "license": "Apache-2.0",
+  "license_url": "https://github.com/google/or-tools/blob/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/LICENSE-2.0.txt",
+  "original_files": [
+    {
+      "name": "model_x_1.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/model_x_1.txt",
+      "upstream_blob": "6efed14864568a1e9a97f97def7698f427d3c867",
+      "upstream_bytes": 426118,
+      "local_exists": true,
+      "local_bytes": 426118,
+      "local_git_blob": "6efed14864568a1e9a97f97def7698f427d3c867",
+      "sha256": "dd3f5ffd2a2a41ffd211186fa705f9386ec560561838de11b539037cba75ae45",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "assignment_x_1.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/assignment_x_1.txt",
+      "upstream_blob": "9367e6279cf2f6cdca40735487f17b8b402403f5",
+      "upstream_bytes": 14543,
+      "local_exists": true,
+      "local_bytes": 14543,
+      "local_git_blob": "9367e6279cf2f6cdca40735487f17b8b402403f5",
+      "sha256": "1916c4939bf3c23c84db868284970a8099ff437fd05a540f39dbf201730f6db1",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "model_x_2.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/model_x_2.txt",
+      "upstream_blob": "07d00bf7220e20b087e6c5265257f14dba6611d9",
+      "upstream_bytes": 424410,
+      "local_exists": true,
+      "local_bytes": 424410,
+      "local_git_blob": "07d00bf7220e20b087e6c5265257f14dba6611d9",
+      "sha256": "b8fe8eee22ff0e60e844745d6565b8217e714e0fca2bc5ad2e16c3c90793beda",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "assignment_x_2.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/assignment_x_2.txt",
+      "upstream_blob": "222b43d66149ea752f83b2cef1cdd18753b56912",
+      "upstream_bytes": 14494,
+      "local_exists": true,
+      "local_bytes": 14494,
+      "local_git_blob": "222b43d66149ea752f83b2cef1cdd18753b56912",
+      "sha256": "c1681007113f4947cc39e39532fe825cc434a9f2a5a2742ad563838ac60f7d8e",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "model_x_3.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/model_x_3.txt",
+      "upstream_blob": "faa4930a4cd040aea2aaf3cb4197c96843bdd5c7",
+      "upstream_bytes": 983978,
+      "local_exists": true,
+      "local_bytes": 983978,
+      "local_git_blob": "faa4930a4cd040aea2aaf3cb4197c96843bdd5c7",
+      "sha256": "903bcb3ea453082026eb6492aa933cc836a31db960060d830cb4f2fc088dfc33",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "assignment_x_3.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/assignment_x_3.txt",
+      "upstream_blob": "9c95cd4ce9b4acad697028cc08a84127b6497ede",
+      "upstream_bytes": 58002,
+      "local_exists": true,
+      "local_bytes": 58002,
+      "local_git_blob": "9c95cd4ce9b4acad697028cc08a84127b6497ede",
+      "sha256": "f37e7ede291bbf9dc3f83e7d51f9d148c47c53d947fced2d5719c7ea992d171d",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "model_x_4.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/model_x_4.txt",
+      "upstream_blob": "baf612849495c44a3b10e2c63ed8b0fe89550e0f",
+      "upstream_bytes": 1482280,
+      "local_exists": true,
+      "local_bytes": 1482280,
+      "local_git_blob": "baf612849495c44a3b10e2c63ed8b0fe89550e0f",
+      "sha256": "afe78273a32a6eac64eb95e8651175d8edb025bc259d84a631e1a44e4a775ecc",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "assignment_x_4.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/assignment_x_4.txt",
+      "upstream_blob": "88b2bd48628e173bf3e839486ad245d207348bfd",
+      "upstream_bytes": 75576,
+      "local_exists": true,
+      "local_bytes": 75576,
+      "local_git_blob": "88b2bd48628e173bf3e839486ad245d207348bfd",
+      "sha256": "4f1506e9e98e6e95e9d3d685bc40970f21970fd26ff9acb84db7e4d89578c8d2",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "model_x_5.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/model_x_5.txt",
+      "upstream_blob": "da1aa7e9ee6ca271f6446a5e84e6046d1d5cafeb",
+      "upstream_bytes": 1956640,
+      "local_exists": true,
+      "local_bytes": 1956640,
+      "local_git_blob": "da1aa7e9ee6ca271f6446a5e84e6046d1d5cafeb",
+      "sha256": "1050008f36752a517e1d32020efeec1cc1ba5666f2cf75c7b82c0dce2eff770e",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "assignment_x_5.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/assignment_x_5.txt",
+      "upstream_blob": "3b640a87443fd938f0f1f0f60c9404d3a6e2d2fb",
+      "upstream_bytes": 116081,
+      "local_exists": true,
+      "local_bytes": 116081,
+      "local_git_blob": "3b640a87443fd938f0f1f0f60c9404d3a6e2d2fb",
+      "sha256": "0c5b3b13b82a4c905c5825ca1f90086e2f2f105bdc199a78997e44b9cf8df654",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "model_x_6.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/model_x_6.txt",
+      "upstream_blob": "2ae6a61bc9f24f7117c4af5d9a0078867818123a",
+      "upstream_bytes": 1939713,
+      "local_exists": true,
+      "local_bytes": 1939713,
+      "local_git_blob": "2ae6a61bc9f24f7117c4af5d9a0078867818123a",
+      "sha256": "1b83e661b25f3a749e58a012d25c7d90f5eacf872f20e2141a058dbcfb7bde95",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "assignment_x_6.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/assignment_x_6.txt",
+      "upstream_blob": "89e68f8627ffc9c90439b962d2bb26284435cc89",
+      "upstream_bytes": 137973,
+      "local_exists": true,
+      "local_bytes": 137973,
+      "local_git_blob": "89e68f8627ffc9c90439b962d2bb26284435cc89",
+      "sha256": "cb2778c310a5329db383712e189fc675109f9aa0ad536b89595f3617dd44a2c4",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "model_x_7.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/model_x_7.txt",
+      "upstream_blob": "fc33e784988c6e3e9bd987ef47b445398f20f5c5",
+      "upstream_bytes": 34215776,
+      "local_exists": true,
+      "local_bytes": 34215776,
+      "local_git_blob": "fc33e784988c6e3e9bd987ef47b445398f20f5c5",
+      "sha256": "a64cde34b39b68b45083af16ea8b82486ddaed1686256a4471337c790dedf02f",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "assignment_x_7.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/assignment_x_7.txt",
+      "upstream_blob": "264cd79f649fdfab216c15c68cee37f9eb2db53f",
+      "upstream_bytes": 188991,
+      "local_exists": true,
+      "local_bytes": 188991,
+      "local_git_blob": "264cd79f649fdfab216c15c68cee37f9eb2db53f",
+      "sha256": "921023a82f3213fee941fcf38d1b378118871e77f57077c35cbbeb1293e2031f",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "model_x_8.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/model_x_8.txt",
+      "upstream_blob": "4bdeecedc8cd484bba3e150a6b2002677b09aeba",
+      "upstream_bytes": 1610278,
+      "local_exists": true,
+      "local_bytes": 1610278,
+      "local_git_blob": "4bdeecedc8cd484bba3e150a6b2002677b09aeba",
+      "sha256": "d27ed56f364700b980780a66ac26ecc9d69691cc5dc8690281c6bececf8346a6",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "assignment_x_8.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/assignment_x_8.txt",
+      "upstream_blob": "0101234d5edf07b396ca387372cf12a8437b3f0b",
+      "upstream_bytes": 144992,
+      "local_exists": true,
+      "local_bytes": 144992,
+      "local_git_blob": "0101234d5edf07b396ca387372cf12a8437b3f0b",
+      "sha256": "5b00511eeda6a3eb0ac019feb960b36c1f1e78c73264d4eaa7fec636fefcd536",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "model_x_9.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/model_x_9.txt",
+      "upstream_blob": "9d7b09161a4d005c8aaad83b5d859195d3b30f1c",
+      "upstream_bytes": 3457245,
+      "local_exists": true,
+      "local_bytes": 3457245,
+      "local_git_blob": "9d7b09161a4d005c8aaad83b5d859195d3b30f1c",
+      "sha256": "81948dde62712795e201439386ff2df9a373218d2377167db513316858441a09",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "assignment_x_9.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/assignment_x_9.txt",
+      "upstream_blob": "18d83e330f82d99b6745d08552b804ac911dc680",
+      "upstream_bytes": 194441,
+      "local_exists": true,
+      "local_bytes": 194441,
+      "local_git_blob": "18d83e330f82d99b6745d08552b804ac911dc680",
+      "sha256": "73eacc0a43094d3ad615f3e5d083637a08297528dc9b7ed035ee4bc20080c5bb",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "model_x_10.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/model_x_10.txt",
+      "upstream_blob": "d405da82b1a9a8627f2495ea3354aeacb9d441bd",
+      "upstream_bytes": 51665300,
+      "local_exists": true,
+      "local_bytes": 51665300,
+      "local_git_blob": "d405da82b1a9a8627f2495ea3354aeacb9d441bd",
+      "sha256": "95fc16906cceabcad13f2b5c129ec33460f31525ed1289a296ef28a9f93ff165",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    },
+    {
+      "name": "assignment_x_10.txt",
+      "upstream_path": "data/roadef_challenge_2011/data/data_x/assignment_x_10.txt",
+      "upstream_blob": "16dff12688ddddc99ef3dc04e5bb1c7d84a685fb",
+      "upstream_bytes": 238785,
+      "local_exists": true,
+      "local_bytes": 238785,
+      "local_git_blob": "16dff12688ddddc99ef3dc04e5bb1c7d84a685fb",
+      "sha256": "54f17a27e5f89150907312712a8aa67db3a436cf04da35d12d141d5865e11461",
+      "identical": true,
+      "source_role": "original build input; not a path in the public task tree"
+    }
+  ],
+  "transform": "machine/resource/service/process/balance row permutations + neighborhood/location label permutations",
+  "chain": [
+    {
+      "name": "x_1",
+      "original_sha256_matches_official_file": true,
+      "transformed_sha256_in_solution_manifest": true,
+      "sha256_orig_model": "dd3f5ffd2a2a41ffd211186fa705f9386ec560561838de11b539037cba75ae45",
+      "sha256_new_model": "dc00d50c85d885878c53c65cc7585c65261f761be92698fecab3a8e85e3aaac5"
+    },
+    {
+      "name": "x_10",
+      "original_sha256_matches_official_file": true,
+      "transformed_sha256_in_solution_manifest": true,
+      "sha256_orig_model": "95fc16906cceabcad13f2b5c129ec33460f31525ed1289a296ef28a9f93ff165",
+      "sha256_new_model": "5547d8fd97ee2f1642f10263d58b1df854f80a1f58b06f7c41dceee15b1166fa"
+    },
+    {
+      "name": "x_2",
+      "original_sha256_matches_official_file": true,
+      "transformed_sha256_in_solution_manifest": true,
+      "sha256_orig_model": "b8fe8eee22ff0e60e844745d6565b8217e714e0fca2bc5ad2e16c3c90793beda",
+      "sha256_new_model": "7f575d0b74fe53e178c459f7d63103a6d175a078da260915787b7f04d74e03ac"
+    },
+    {
+      "name": "x_3",
+      "original_sha256_matches_official_file": true,
+      "transformed_sha256_in_solution_manifest": true,
+      "sha256_orig_model": "903bcb3ea453082026eb6492aa933cc836a31db960060d830cb4f2fc088dfc33",
+      "sha256_new_model": "778730f98ff1f34d5576f9aeb327b718c29a83241bbd3ffa178f3c41eb9cb32c"
+    },
+    {
+      "name": "x_4",
+      "original_sha256_matches_official_file": true,
+      "transformed_sha256_in_solution_manifest": true,
+      "sha256_orig_model": "afe78273a32a6eac64eb95e8651175d8edb025bc259d84a631e1a44e4a775ecc",
+      "sha256_new_model": "180f73f08bf4d590d9e3b6841db9f640a05ae37802d9d1613409931540a1d0f5"
+    },
+    {
+      "name": "x_5",
+      "original_sha256_matches_official_file": true,
+      "transformed_sha256_in_solution_manifest": true,
+      "sha256_orig_model": "1050008f36752a517e1d32020efeec1cc1ba5666f2cf75c7b82c0dce2eff770e",
+      "sha256_new_model": "b77c321f4b2f5182bf0871489a9069e77c56a979f72b84b9138085ac7c8127e8"
+    },
+    {
+      "name": "x_6",
+      "original_sha256_matches_official_file": true,
+      "transformed_sha256_in_solution_manifest": true,
+      "sha256_orig_model": "1b83e661b25f3a749e58a012d25c7d90f5eacf872f20e2141a058dbcfb7bde95",
+      "sha256_new_model": "9c6b9e6aab6acdbaecfc994bf724e38b530980d8a0217079bea9a3e4e6dc75ba"
+    },
+    {
+      "name": "x_7",
+      "original_sha256_matches_official_file": true,
+      "transformed_sha256_in_solution_manifest": true,
+      "sha256_orig_model": "a64cde34b39b68b45083af16ea8b82486ddaed1686256a4471337c790dedf02f",
+      "sha256_new_model": "3712e02374213079f554037d5482d366489d020422901a0a7b439964ebc1eae8"
+    },
+    {
+      "name": "x_8",
+      "original_sha256_matches_official_file": true,
+      "transformed_sha256_in_solution_manifest": true,
+      "sha256_orig_model": "d27ed56f364700b980780a66ac26ecc9d69691cc5dc8690281c6bececf8346a6",
+      "sha256_new_model": "3e8c3e2da9e26e051cc21e31192a17157fefe2b158f57a113396c509d0cfd205"
+    },
+    {
+      "name": "x_9",
+      "original_sha256_matches_official_file": true,
+      "transformed_sha256_in_solution_manifest": true,
+      "sha256_orig_model": "81948dde62712795e201439386ff2df9a373218d2377167db513316858441a09",
+      "sha256_new_model": "05b5edb0107fef6868e5ff9cd6ff518e147afba31d0cfc7e68f2920375c7901a"
+    }
+  ],
+  "method": "Streamed Git blob SHA1 and SHA256; no parsing, transformation or solver execution; existing transform manifest linked original input hashes to the adopted solution manifest.",
+  "scope": "Original inputs and existing build records; not a fresh comparison of every final image layer.",
+  "conditions": "Apache-2.0 permits modifications and redistribution. Retain Google copyright/license and identify row/label permutations; no additional permission is required merely because these inputs were transformed.",
+  "reference_solutions": "Existing calibration collector and producer manifest identify project-run S41/J33 output. These files contain integer assignments, not solver source. Tool licenses do not automatically license numeric outputs. The solver implementations are not distributed by this statement.",
+  "remaining": "Final image/data hashes and modified-file notices; PDF is a separate copyrighted document.",
+  "reference_file_checks": [
+    {
+      "path": "tasks/solver/mr-roadef2012/solution/precomputed/x_1.solution",
+      "bytes": 14599,
+      "sha256": "d7eef3ec52dda4abea625c4a9f5ec59a3c753ff6cc9785066b9f025fec7c7d07",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/solution/precomputed/x_10.solution",
+      "bytes": 238876,
+      "sha256": "c88da86f7228740bbae135f886bda7cb260dab327fd49ff38478ccd8491bf498",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/solution/precomputed/x_2.solution",
+      "bytes": 14569,
+      "sha256": "510e89ddfa274a0251152cafb8374515f1dd1b6ff0da98e40f5290d34a314eab",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/solution/precomputed/x_3.solution",
+      "bytes": 57902,
+      "sha256": "d515ff3c28a7dd414f340217fa366c1fe347b7dc4c2187ffe7200c06ac3dab40",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/solution/precomputed/x_4.solution",
+      "bytes": 75557,
+      "sha256": "0c288c3f47ddda7e91a4585d9581c9f6da16bd9264629fcce7e42975b07fdddc",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/solution/precomputed/x_5.solution",
+      "bytes": 115850,
+      "sha256": "3cb08b73850f99e238fdcfbed20377f98214d32fc40a6bed8afaa63d99008cc8",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/solution/precomputed/x_6.solution",
+      "bytes": 138083,
+      "sha256": "59797ac1a2148e4830c98d00a46757ba2590032d62fd178a3995a703cd5eea77",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/solution/precomputed/x_7.solution",
+      "bytes": 188916,
+      "sha256": "bb50283bd369567f02f002f0440e1712bde49ff39b589375640765092ecd4b25",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/solution/precomputed/x_8.solution",
+      "bytes": 144691,
+      "sha256": "adcc8be45c92c2beab55669fe93280e4c0c4beae5fe207af0d4a7b539b15f399",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/solution/precomputed/x_9.solution",
+      "bytes": 194531,
+      "sha256": "d73795460ef0c6f0bad41a81d7312ea902dbf4a32f12770633d22da38cb9e3c0",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/tests/solution/precomputed/x_1.solution",
+      "bytes": 19569,
+      "sha256": "b69a41edbd2b35ea298dc2e27f6a59d9d89497c3c6ee776ad1b8c7ac5f83327a",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/tests/solution/precomputed/x_10.solution",
+      "bytes": 288451,
+      "sha256": "e1412788a653e73479435c258836b6e1145384e8fb4124c6bd42c2a69a3bfe8a",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/tests/solution/precomputed/x_2.solution",
+      "bytes": 19620,
+      "sha256": "aa6bc48f1a4035a486eedb3f6025c8d005096c2a729ae0560ab885613bbac19c",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/tests/solution/precomputed/x_3.solution",
+      "bytes": 58093,
+      "sha256": "dc1e6374e5860f5ab8b67262c4c5f2187a7c8dc04b3e4344086d260203e8e28e",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/tests/solution/precomputed/x_4.solution",
+      "bytes": 95583,
+      "sha256": "99e6df1fb062fddc0c1fa07ebb6302153b00fa48ca5f233a77a64bbde4578ee8",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/tests/solution/precomputed/x_5.solution",
+      "bytes": 115835,
+      "sha256": "a0098a247bde2616dd3f0b311ae2fb2453af4428a58d302ca60842d55acba7f8",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/tests/solution/precomputed/x_6.solution",
+      "bytes": 177953,
+      "sha256": "a074db56bf61414ec7a455ce7e7f00beea7b2b624c3de71872fbe5f38353ea26",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/tests/solution/precomputed/x_7.solution",
+      "bytes": 228927,
+      "sha256": "18868f060b2adeb9f560875b4f5d2024c347eb677d82e23a97d9acb382517df7",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/tests/solution/precomputed/x_8.solution",
+      "bytes": 145412,
+      "sha256": "13294e0510009a949ef36a9ad9f219bb8159c805e95df853a6c9cf9f363e4f8d",
+      "integer_assignment_only": true
+    },
+    {
+      "path": "tasks/solver/mr-roadef2012/tests/solution/precomputed/x_9.solution",
+      "bytes": 244410,
+      "sha256": "e3b4988e7d4984850eaf47ec805a1f15f4599d2a73ade9cf2db2f6e4df2f4608",
+      "integer_assignment_only": true
+    }
+  ]
+}

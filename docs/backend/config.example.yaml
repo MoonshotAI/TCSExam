@@ -1,0 +1,162 @@
+# TCSExam judging backend — example configuration.
+#
+# Start with:   tcsexam backend serve --config config.yaml
+# Validate with: tcsexam backend check --config config.yaml
+#
+# This is a Docker example; other platforms use adapter: module:factory.
+# Commented values show their defaults. Secrets are injected from the
+# environment (TCSEXAM_TOKEN_ID / TCSEXAM_TOKEN_SECRET /
+# TCSEXAM_ARCHIVE_TOKEN / TCSEXAM_WORKER_GROUP / TCSEXAM_DOCKER_SOCKET) and
+# override this file — do not commit real tokens.
+
+# Bind address of the HTTP service.
+host: 0.0.0.0
+port: 8420
+
+# Base URL that the in-worker agents use to dial
+# <public_base_url>/v1/tunnel/{app}. This example runs the backend directly on
+# a Linux Docker host, so the workers use the host-gateway name below. Task
+# clients on the host instead use TCSEXAM_BASE_URL=http://127.0.0.1:8420.
+# Replace this when the workers must use another routable address.
+public_base_url: "http://host.docker.internal:8420"
+
+# Shared-token auth. When both are empty the service is UNAUTHENTICATED
+# (local testing only). Prefer the TCSEXAM_TOKEN_ID / TCSEXAM_TOKEN_SECRET
+# environment variables over writing secrets here.
+auth:
+  token_id: "CHANGE-ME-token-id"
+  token_secret: "CHANGE-ME-token-secret"
+  # Both primary fields must be non-empty strings; omit both for local no-auth tests.
+  # Rotation entries require a primary pair (workers authenticate with it).
+  # additional_tokens: [["old-id", "old-secret"]]
+  # Caller-identity enforcement: warn | required | off.
+  # run_id_mode: warn
+
+# Service state: session journal, archives, persisted payloads.
+state_dir: /tmp/tcsexam-backend-state
+
+# Platform adapter: how judge workers are created. REQUIRED for real use.
+#   docker           — self-hosted workers on a local Docker Unix socket.
+#   module:factory   — e.g. "mypackage.cloud:make_adapter"; the factory is
+#                      called with this config (or no arguments) and must
+#                      return an object implementing the PlatformAdapter
+#                      protocol (see tcsexam.backend.adapter).
+#   local-test       — TESTING ONLY: "workers" are temp directories on this
+#                      machine; no isolation, no resource enforcement.
+adapter: docker
+
+# Docker Engine Unix socket. The backend user needs read/write access; do not
+# mount this socket into a task or judge worker. TCSEXAM_DOCKER_SOCKET overrides
+# this path. Remote TCP Docker endpoints are deliberately not supported.
+docker_socket: /var/run/docker.sock
+# docker_network: bridge
+# docker_pull_missing_images: true
+# host-gateway supports the public_base_url used above on Linux Docker.
+# docker_host_gateway: true
+# Timeout for ordinary Engine API calls. Cold image pulls instead use the full
+# backend.ready_timeout_seconds creation budget.
+# docker_api_timeout_seconds: 60
+
+# Verifier-only credential (X-TCSEXAM-Archive-Token) for archive/payload,
+# hidden-session creation, every creation carrying judge_payload, and session
+# list/reconciliation queries. Empty disables those operations. Public
+# self-test creation without judge_payload and public submissions do not use
+# it; never inject it into judge workers or the model environment.
+# Inject via TCSEXAM_ARCHIVE_TOKEN; never commit a real value.
+# archive_token: ""
+
+# Public self-test image allowlist: exact client-requested original judge
+# image -> public-only worker image. The default empty map rejects every
+# public create; an unregistered image also gets 403 before worker creation.
+# There is no fallback to the requested original image. Hidden creates do not
+# use this map. Only map to images whose contents AND build history have been
+# verified to contain no hidden data; the map itself performs no such check.
+# public_image_map:
+#   "registry.example.com/judge:1": "registry.example.com/judge-public-only:1"
+
+# Worker-group tagging prefix: creations carrying a run-id are tagged
+# group_name = "<worker_group>--<run-id slug>" so the platform can reap one
+# attempt's workers. Empty = no group tagging. TCSEXAM_WORKER_GROUP overrides.
+# worker_group: tcsexam
+
+backend:
+  # Worker-creation retry budget: extra attempts after the first failure,
+  # transient errors only, exponential backoff (delay x 2^n, capped 10 min).
+  # create_retries: 20
+  # create_retry_delay_seconds: 60
+  # Concurrency gates: platform-wide creations, and per-session creations
+  # (the store takes the session gate first, always).
+  # create_concurrency: 64
+  # session_create_concurrency: 64
+  # Global usage pre-check (accept-time, live + in-flight + requested).
+  # max_sandboxes_global: 4096
+  # max_sandbox_memory_mb: 32768000
+  # Platform-side creation/readiness budget (cold image pulls).
+  # ready_timeout_seconds: 2400
+
+  judge_sessions:
+    # Global live-session cap; creates beyond it fail as transient.
+    # max_sessions: 16
+    # Opaque scheduling hint passed through to the adapter (adapter-defined
+    # meaning; the local test adapter ignores it). Empty = adapter default.
+    # profile: ""
+    # Per-worker resources handed to the adapter verbatim.
+    # spec: {cpu_count: 4, memory_mb: 8192, storage_mb: 20480}
+    # The judge worker started inside the worker (empty = the agent only
+    # relays to an already-running server) and the port it listens on.
+    # command: "python3 /judge/judge_worker.py"
+    # judge_port: 8082
+    # health_path: /health
+    # In-worker directory the agent bundle lands in.
+    # work_dir: /tcsexam-backend
+    # READY-frame label (service logs only).
+    # ready_label: tcsexam-judge
+    # Session lifetime: default TTL, caller-request clamp, idle-reap
+    # threshold (must exceed the longest single judge request).
+    # ttl_seconds: 21600
+    # max_ttl_seconds: 46800
+    # Development clients request 46800 s (12 h + 1 h margin); shorter caps
+    # can interrupt an active evaluation. Final sessions request 14400–28800 s.
+    # idle_ttl_seconds: 14400
+    # Create + boot budget before the tunnel wait fails.
+    # ready_timeout_seconds: 1800
+    # Worker startup uses min(ready_timeout_seconds, 7200), for every shard.
+    # read_timeout_seconds: 7200  # upstream response read, separate from TTL
+    # Sharding bounds and degraded-ready floor (1.0 = partial provisioning
+    # never produces a score; the whole session fails instead).
+    # max_shards: 512
+    # min_ready_ratio: 1.0
+    # shard_boot_retries: 2
+    # shard_boot_retry_delay_seconds: 15
+    # Fan-out / teardown concurrency and per-leg timeouts.
+    # fanout_concurrency: 64
+    # shard_call_timeout_seconds: 30
+    # submit_fanout_timeout_seconds: 120
+    # destroy_concurrency: 32
+    # Tunnel-drop grace: a shard is marked failed only after this many
+    # consecutive reaper ticks with its tunnel down.
+    # shard_down_grace_ticks: 4
+    # Session hibernation: settled + quiet sessions are recycled to
+    # metadata-only and re-provision on the next submit.
+    # hibernate_enabled: true
+    # hibernate_grace_seconds: 1800
+    # Cold-worker grace after the ready flip (transport failures here are
+    # stragglers, never shard failures).
+    # shard_boot_call_grace_seconds: 300
+    # Creation-payload persistence cap (64 MiB).
+    # payload_persist_max_bytes: 67108864
+    # Per-session submission cap (hidden channel). Public self-test sessions
+    # are journaled but never capped.
+    # submission_cap:
+    #   enabled: false
+    #   default: 10
+    #   effective_at: 0
+    #   overrides: {}
+    #   exempt_identities: []
+    #   exempt_identities_file: ""
+    # Per-image-family readiness/lifecycle budgets; first substring match wins.
+    # routes:
+    #   - match: {image_contains: "slow-proof-judge"}
+    #     ready_timeout_seconds: 3600
+    #     idle_ttl_seconds: 14400
+    #     ttl_seconds: 43200

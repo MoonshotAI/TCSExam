@@ -1,0 +1,12 @@
+{
+  "source_image_digest": "sha256:3ef01a7420945593e3a8e733de8fa87d362d35d8de993d521ab7b9454baa68ea",
+  "source_path": "/opt/glasscut/scoring.py",
+  "sha256": "3c5b6332ad395f26a19c35ecaffcd937adb2825b6452d4da60b1e2c86864b14a",
+  "git_blob": "e430313e673a7289dec1ecb83c184495a21b92c8",
+  "bytes": 33373,
+  "frozen_git_source_verified": false,
+  "public_source_rebuild_verified": false,
+  "purpose": "judge_rebuild_input",
+  "frozen_git_blob_available": true,
+  "frozen_git_blob_bytes_equal": true
+}

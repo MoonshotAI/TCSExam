@@ -1,0 +1,29 @@
+{
+  "format": "fixed_data_archive",
+  "archive_format": "tar+gzip",
+  "task_id": "radiation-mznchallenge",
+  "data_split": "hidden",
+  "source": {
+    "id": "solver-radiation-mznchallenge-judging-data-fixed-archive",
+    "url": null,
+    "bytes": 11622,
+    "sha256": "c570c18f151e2f39b3303de2fa0df435c0316b776da48380805db9452eda19a1"
+  },
+  "manifest_sha256": "827a13e3bc564d5f06d7dcd2a0c2d9b8e200042b89fad5ece0b81bff45d15b27",
+  "generator_paths": [
+    "src/tcsexam/fixed_data_archive.py"
+  ],
+  "description": "Explicit exact input-only archive import. Preserve every frozen path, byte and mode; only manifest-declared data files are accepted.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "public_pin": null,
+  "public_acquisition_verified": false,
+  "new_distribution_authorization": false,
+  "excluded": [
+    "answers",
+    "logs",
+    "credentials",
+    "neither",
+    "undeclared files"
+  ]
+}

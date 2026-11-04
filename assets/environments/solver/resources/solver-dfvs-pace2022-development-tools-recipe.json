@@ -1,0 +1,26 @@
+{
+  "description": "Download the official PACE 2022 Directed Feedback Vertex Set verifier, build it in a pinned Ubuntu 22.04 Docker toolchain, and install fvs_verify. No prebuilt verifier image is supplied.",
+  "source": {
+    "id": "dfvs-pace2022-verifier-tar-gz",
+    "url": "https://pacechallenge.org/2022/verifier.tar.gz",
+    "bytes": 2146,
+    "sha256": "f693fab5bd7ba8abb2879a5e2b303455d2889a8fe1dd015f424255aae560f32f"
+  },
+  "archive_format": "tar.gz",
+  "build": {
+    "builder_image": "ubuntu:22.04@sha256:0a9887931b0e38af2e3487ed39e29436b0535c4f3f52e57745baaf79d1898956",
+    "command": [
+      "make",
+      "all"
+    ],
+    "cwd": "opt/dfvs/verifier",
+    "artifact": "verifier",
+    "install": "usr/local/bin/fvs_verify",
+    "timeout_sec": 120
+  },
+  "build_requirements": {
+    "build_tool": "GNU make",
+    "verified_compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+    "note": "The compiled output SHA256 is pinned; a different toolchain must be reviewed and its output hashes updated rather than accepted silently."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "title": "MaxSAT Evaluation 2026: Solvers, Benchmarks & Results",
+  "doi": "10.5281/zenodo.21358014",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "creators": [
+    {
+      "name": "Vandesande, Dieter",
+      "affiliation": "Vrije Universiteit Brussel",
+      "orcid": "0000-0002-8150-3202"
+    },
+    {
+      "name": "Jabs, Christoph",
+      "affiliation": "University of Helsinki",
+      "orcid": "0000-0003-3532-696X"
+    },
+    {
+      "name": "Berg, Jeremias",
+      "affiliation": "University of Helsinki",
+      "orcid": "0000-0001-7660-8061"
+    },
+    {
+      "name": "Fichte, Johannes",
+      "affiliation": null,
+      "orcid": "0000-0002-8681-7470"
+    },
+    {
+      "name": "Katsirelos, George",
+      "affiliation": null,
+      "orcid": "0000-0002-3727-6698"
+    },
+    {
+      "name": "Martins, Ruben",
+      "affiliation": "Carnegie Mellon University",
+      "orcid": "0000-0003-1525-1382"
+    },
+    {
+      "name": "Schidler, André",
+      "affiliation": "University of Freiburg",
+      "orcid": "0000-0001-6790-7158"
+    },
+    {
+      "name": "Schreiber, Dominik",
+      "affiliation": "Karlsruhe Institute of Technology",
+      "orcid": "0000-0002-4185-1851"
+    }
+  ],
+  "official_record_url": "https://zenodo.org/records/21358014",
+  "instance_archive": {
+    "id": "71f683fe-b9c7-4981-a723-a996df984b02",
+    "key": "benchmarks-anytime-weighted.zip",
+    "size": 1969015603,
+    "checksum": "md5:e579b3fa5d1b38dd91b8d4fe91da0203",
+    "links": {
+      "self": "https://zenodo.org/api/records/21358014/files/benchmarks-anytime-weighted.zip/content"
+    }
+  }
+}

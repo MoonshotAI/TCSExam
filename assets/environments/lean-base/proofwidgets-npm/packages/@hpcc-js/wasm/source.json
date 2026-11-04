@@ -1,0 +1,49 @@
+{
+  "author": "hpcc-systems",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "Apache-2.0",
+  "lock_entry": {
+    "bin": {
+      "dot-wasm": "deprecated/dot-wasm.js"
+    },
+    "dependencies": {
+      "yargs": "18.0.0"
+    },
+    "integrity": "sha512-E96aDBuxYPsMu88ldvj7ONUHxxiyJ9lGdUKeWQrZNiQFUTcZ+mgRzt16CvbsXeb6wv22ab0OOhBIYv5kFqwMgw==",
+    "license": "Apache-2.0",
+    "resolved": "https://registry.npmjs.org/@hpcc-js/wasm/-/wasm-2.34.2.tgz",
+    "version": "2.34.2"
+  },
+  "lock_path": "node_modules/@hpcc-js/wasm",
+  "name": "@hpcc-js/wasm",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 11558,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "text_file": "image-notices/1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6.txt"
+    }
+  ],
+  "package_license": "Apache-2.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 29364730,
+    "installed_in_image": false,
+    "integrity": "sha512-E96aDBuxYPsMu88ldvj7ONUHxxiyJ9lGdUKeWQrZNiQFUTcZ+mgRzt16CvbsXeb6wv22ab0OOhBIYv5kFqwMgw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@hpcc-js/wasm/-/wasm-2.34.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "1380f114183c402b56f52ffff5c032c299f03a6474bc6dc2997af9650718b61d"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.34.2"
+}

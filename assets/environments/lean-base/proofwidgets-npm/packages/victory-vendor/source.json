@@ -1,0 +1,172 @@
+{
+  "author": "Formidable",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT AND ISC",
+  "lock_entry": {
+    "dependencies": {
+      "@types/d3-array": "^3.0.3",
+      "@types/d3-ease": "^3.0.0",
+      "@types/d3-interpolate": "^3.0.1",
+      "@types/d3-scale": "^4.0.2",
+      "@types/d3-shape": "^3.1.0",
+      "@types/d3-time": "^3.0.0",
+      "@types/d3-timer": "^3.0.0",
+      "d3-array": "^3.1.6",
+      "d3-ease": "^3.0.1",
+      "d3-interpolate": "^3.0.1",
+      "d3-scale": "^4.0.2",
+      "d3-shape": "^3.1.0",
+      "d3-time": "^3.0.0",
+      "d3-timer": "^3.0.1"
+    },
+    "integrity": "sha512-PnpQQMuxlwYdocC8fIJqVXvkeViHYzotI+NJrCuav0ZYFoq912ZHBk3mCeuj+5/VpodOjPe1z0Fk2ihgzlXqjQ==",
+    "license": "MIT AND ISC",
+    "resolved": "https://registry.npmjs.org/victory-vendor/-/victory-vendor-36.9.2.tgz",
+    "version": "36.9.2"
+  },
+  "lock_path": "node_modules/victory-vendor",
+  "name": "victory-vendor",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/lib-vendor/d3-array/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/d3-array/LICENSE",
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884",
+      "text_file": "image-notices/faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884.txt"
+    },
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/lib-vendor/d3-color/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/d3-color/LICENSE",
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884",
+      "text_file": "image-notices/faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884.txt"
+    },
+    {
+      "bytes": 1504,
+      "installed_file": "notices/original/package/lib-vendor/d3-ease/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/d3-ease/LICENSE",
+      "sha256": "b989d9085148d21ff64a75e14462aefa06b2589a55553b07b1460c70081c7d08",
+      "text_file": "image-notices/b989d9085148d21ff64a75e14462aefa06b2589a55553b07b1460c70081c7d08.txt"
+    },
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/lib-vendor/d3-format/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/d3-format/LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "text_file": "image-notices/e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee.txt"
+    },
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/lib-vendor/d3-interpolate/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/d3-interpolate/LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "text_file": "image-notices/e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee.txt"
+    },
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/lib-vendor/d3-path/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/d3-path/LICENSE",
+      "sha256": "0ab21426fad1e8b819ea8ab4c7faf5a24d4fca9c01572fe722490d600bba0d22",
+      "text_file": "image-notices/0ab21426fad1e8b819ea8ab4c7faf5a24d4fca9c01572fe722490d600bba0d22.txt"
+    },
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/lib-vendor/d3-scale/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/d3-scale/LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "text_file": "image-notices/e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee.txt"
+    },
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/lib-vendor/d3-shape/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/d3-shape/LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "text_file": "image-notices/e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee.txt"
+    },
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/lib-vendor/d3-time-format/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/d3-time-format/LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "text_file": "image-notices/e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee.txt"
+    },
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/lib-vendor/d3-time/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/d3-time/LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "text_file": "image-notices/e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee.txt"
+    },
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/lib-vendor/d3-timer/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/d3-timer/LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "text_file": "image-notices/e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee.txt"
+    },
+    {
+      "bytes": 2656,
+      "installed_file": "notices/original/package/lib-vendor/d3-voronoi/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/d3-voronoi/LICENSE",
+      "sha256": "ad6cf57648385d6c40a29f73c55e42922dd793823df5ea265ccd834873bf09b9",
+      "text_file": "image-notices/ad6cf57648385d6c40a29f73c55e42922dd793823df5ea265ccd834873bf09b9.txt"
+    },
+    {
+      "bytes": 726,
+      "installed_file": "notices/original/package/lib-vendor/internmap/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/lib-vendor/internmap/LICENSE",
+      "sha256": "9ea8903938dab5f12c4572d60725069bec2d1b0dc3bcc210b09bae946a5ebb1f",
+      "text_file": "image-notices/9ea8903938dab5f12c4572d60725069bec2d1b0dc3bcc210b09bae946a5ebb1f.txt"
+    }
+  ],
+  "package_license": "MIT AND ISC",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 83701,
+    "installed_in_image": false,
+    "integrity": "sha512-PnpQQMuxlwYdocC8fIJqVXvkeViHYzotI+NJrCuav0ZYFoq912ZHBk3mCeuj+5/VpodOjPe1z0Fk2ihgzlXqjQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/victory-vendor/-/victory-vendor-36.9.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "197fddfc1703ac425e867c1abe72f9509959c0ba05fab7ddc9430d4d2cb59e57"
+  },
+  "standard_license_text": null,
+  "root_license_review": {
+    "fixed_archive_sha256": "197fddfc1703ac425e867c1abe72f9509959c0ba05fab7ddc9430d4d2cb59e57",
+    "root_license_present": false,
+    "readme_license_declaration": "The fixed victory-vendor README Licenses section states that the project is released under MIT and that vendored libraries retain other licenses.",
+    "gap_resolution": "The root MIT text is supplemented from the exact victory 36.9.2 package, while the 13 original lib-vendor D3 and Internmap notices remain separately attributed."
+  },
+  "supplementary_project_notice": {
+    "url": "https://registry.npmjs.org/victory/-/victory-36.9.2.tgz",
+    "ref": "victory@36.9.2 / package/LICENSE.txt",
+    "archive_sha256": "6e833af3569663d7bb85154d8b7fe6bc46a1d0453e3bba3570526f913413ff65",
+    "archive_bytes": 444489,
+    "archive_integrity": "sha512-kgVgiSno4KpD0HxmUo5GzqWI4P/eILLOM6AmJfAlagCnOzrtYGsAw+N1YxOcYvTiKsh/zmWawxHlpw3TMenFDQ==",
+    "sha256": "34dee5fd5e5cc756efb5ad4d64652bce719bdf5e900ca5d7538253e737930bc4",
+    "bytes": 1626,
+    "installed_file": "notices/supplementary/victory-36.9.2-LICENSE.txt",
+    "origin": "Supplemental same-version Victory project MIT LICENSE. This is not an original file from the victory-vendor archive.",
+    "notice_basis": "The fixed victory-vendor archive has no root LICENSE, while its README declares MIT. The exact victory 36.9.2 package supplies the project MIT text with Formidable Labs and other listed copyright holders."
+  },
+  "version": "36.9.2"
+}

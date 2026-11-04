@@ -1,0 +1,53 @@
+{
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BlueOak-1.0.0",
+  "lock_entry": {
+    "dependencies": {
+      "brace-expansion": "^5.0.2"
+    },
+    "dev": true,
+    "engines": {
+      "node": "18 || 20 || >=22"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/isaacs"
+    },
+    "integrity": "sha512-oRjTw/97aTBN0RHbYCdtF1MQfvusSIBQM0IZEgzl6426+8jSC0nF1a/GmnVLpfB9yyr6g6FTqWqiZVbxrtaCIg==",
+    "license": "BlueOak-1.0.0",
+    "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-10.2.4.tgz",
+    "version": "10.2.4"
+  },
+  "lock_path": "node_modules/minimatch",
+  "name": "minimatch",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1550,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901",
+      "text_file": "image-notices/2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901.txt"
+    }
+  ],
+  "package_license": "BlueOak-1.0.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 116656,
+    "installed_in_image": false,
+    "integrity": "sha512-oRjTw/97aTBN0RHbYCdtF1MQfvusSIBQM0IZEgzl6426+8jSC0nF1a/GmnVLpfB9yyr6g6FTqWqiZVbxrtaCIg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/minimatch/-/minimatch-10.2.4.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "89d2c40b4596326c5061d95a63a13c5b757f3e03bcad229ab496a66735925529"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "10.2.4"
+}

@@ -1,0 +1,114 @@
+{
+  "format": "official_files",
+  "description": "Acquire the exact selected public practice files from the content-pinned upstream commit; every output is checked against the frozen manifest. Project-generated public inputs, when present, are retained byte-for-byte as small source assets. No hidden inputs or answers are included.",
+  "sources": [
+    {
+      "id": "nurse-inrc-long_hint01.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_hint01.xml",
+      "bytes": 20805,
+      "sha256": "75409218eaff5f4b4aa4d19a43807d17ee4b03f25935283faa467acd4eaa77b5"
+    },
+    {
+      "id": "nurse-inrc-long_hint02.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_hint02.xml",
+      "bytes": 19967,
+      "sha256": "7afbb70fc966d93b4d7d335bc2fc0f8f0bc0c6a9eb9a2ff7fdd0d7111e382547"
+    },
+    {
+      "id": "nurse-inrc-long_hint03.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/long_hint03.xml",
+      "bytes": 19979,
+      "sha256": "4511fc2af5d11bcc46fa6d2fc5e4ceb48f39a99bcc61d35c7429f52144065919"
+    },
+    {
+      "id": "nurse-inrc-medium_hint01.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_hint01.xml",
+      "bytes": 68743,
+      "sha256": "69c008224e65fbca20d5043bbc1fbdcc71428d584047fbe39a0b3378338fc153"
+    },
+    {
+      "id": "nurse-inrc-medium_hint02.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_hint02.xml",
+      "bytes": 67270,
+      "sha256": "aea70a0101fe6cf4c6b122f219363cfd398a3de65127800e2fb336acdab925b3"
+    },
+    {
+      "id": "nurse-inrc-medium_hint03.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/medium_hint03.xml",
+      "bytes": 68758,
+      "sha256": "8495162cabdae0d8ef47c46e7ce1bd46598d24b46615bb1c730cf34683971012"
+    },
+    {
+      "id": "nurse-inrc-sprint_hint01.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hint01.xml",
+      "bytes": 30359,
+      "sha256": "84ef0fcc545250bd4b5de2279c367f871ab4e75d370d33e4bec8d66fdb7caf7d"
+    },
+    {
+      "id": "nurse-inrc-sprint_hint02.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hint02.xml",
+      "bytes": 26696,
+      "sha256": "77a0ae2df2005715cca155f991c42b809b5664dc0b3c804b7f6829ff5b5ab0ee"
+    },
+    {
+      "id": "nurse-inrc-sprint_hint03.xml",
+      "url": "https://raw.githubusercontent.com/lab-core/NurseScheduler/7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3/datasets/INRC/instances_xml/sprint_hint03.xml",
+      "bytes": 30359,
+      "sha256": "de93cfcae0a085c63f378002fd0b099138bc1c7d8044530dd4b85e5763501e06"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances/long_hint01.xml",
+      "source_id": "nurse-inrc-long_hint01.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/long_hint02.xml",
+      "source_id": "nurse-inrc-long_hint02.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/long_hint03.xml",
+      "source_id": "nurse-inrc-long_hint03.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/medium_hint01.xml",
+      "source_id": "nurse-inrc-medium_hint01.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/medium_hint02.xml",
+      "source_id": "nurse-inrc-medium_hint02.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/medium_hint03.xml",
+      "source_id": "nurse-inrc-medium_hint03.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/sprint_hint01.xml",
+      "source_id": "nurse-inrc-sprint_hint01.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/sprint_hint02.xml",
+      "source_id": "nurse-inrc-sprint_hint02.xml",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/sprint_hint03.xml",
+      "source_id": "nurse-inrc-sprint_hint03.xml",
+      "operation": "copy"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "source_commit": "7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3",
+  "source_repository": "https://github.com/lab-core/NurseScheduler"
+}

@@ -1,0 +1,113 @@
+{
+ "instances": {
+  "X1": {
+   "B": 228491597,
+   "K": 13720127,
+   "items_area": 244983403,
+   "n_items": 300,
+   "n_stacks": 10
+  },
+  "X10": {
+   "B": 244043282,
+   "K": 16865162,
+   "items_area": 333756718,
+   "n_items": 375,
+   "n_stacks": 15
+  },
+  "X11": {
+   "B": 200311692,
+   "K": 11011572,
+   "items_area": 223408308,
+   "n_items": 362,
+   "n_stacks": 14
+  },
+  "X12": {
+   "B": 192561655,
+   "K": 10246495,
+   "items_area": 242393345,
+   "n_items": 302,
+   "n_stacks": 14
+  },
+  "X13": {
+   "B": 222032172,
+   "K": 12130272,
+   "items_area": 259467828,
+   "n_items": 344,
+   "n_stacks": 16
+  },
+  "X14": {
+   "B": 141725762,
+   "K": 7422572,
+   "items_area": 158409238,
+   "n_items": 253,
+   "n_stacks": 12
+  },
+  "X15": {
+   "B": 173003964,
+   "K": 10882914,
+   "items_area": 242691036,
+   "n_items": 296,
+   "n_stacks": 12
+  },
+  "X2": {
+   "B": 133812197,
+   "K": 4795877,
+   "items_area": 147062803,
+   "n_items": 247,
+   "n_stacks": 247
+  },
+  "X3": {
+   "B": 112809226,
+   "K": 6837496,
+   "items_area": 156830774,
+   "n_items": 258,
+   "n_stacks": 12
+  },
+  "X4": {
+   "B": 174437942,
+   "B_source": "Measured with the same two-tier pipeline as judging (isolated execution environment; solver-glasscut-roadef2018-judge-v8; INSTANCE_SHARD=9/15, one instance per shard; 4C/32G; ): the naive shelf baseline returned 174437942 in both the 3-minute and 1-hour tiers (the deterministic constructive baseline does not use wall time; each run took 0.03 s). This matches the value observed in a non-root local pipeline check with judge-v8.",
+   "K": 11405252,
+   "K_source": "ROADEF 2018 official final-results table, X set, 1-hour tier: 11405252 (official final results page). No solution-file witness is available, and this is recorded as such: the champion repository's solutions_best lacks X4; this project measured 13366562 for the champion with -t 3600 , but only the score log remains and the solution file was not archived. K uses the better official table value.",
+   "items_area": 241257058,
+   "n_items": 371,
+   "n_stacks": 18
+  },
+  "X5": {
+   "B": 75283997,
+   "K": 4522757,
+   "items_area": 78796003,
+   "n_items": 124,
+   "n_stacks": 16
+  },
+  "X6": {
+   "B": 194832683,
+   "K": 9365303,
+   "items_area": 248147317,
+   "n_items": 412,
+   "n_stacks": 18
+  },
+  "X7": {
+   "B": 315891930,
+   "K": 20568720,
+   "items_area": 369443070,
+   "n_items": 215,
+   "n_stacks": 10
+  },
+  "X8": {
+   "B": 127187661,
+   "B_source": "Measured with the same two-tier pipeline as judging (isolated execution environment; solver-glasscut-roadef2018-judge-v8; INSTANCE_SHARD=13/15, one instance per shard; 4C/32G; ): the naive shelf baseline returned 127187661 in both the 3-minute and 1-hour tiers (0.03 s each), matching the value observed in a non-root local pipeline check with judge-v8.",
+   "K": 22265601,
+   "K_source": "Champion repository file solutions_best/X8_solution.csv (official C++ checker reports valid=1; Python checker replica confirms OF==22265601; witness was rewritten for the structure-preserving transformation into solution/precomputed).",
+   "items_area": 134427339,
+   "n_items": 173,
+   "n_stacks": 2
+  },
+  "X9": {
+   "B": 324145305,
+   "K": 20039535,
+   "items_area": 361189695,
+   "n_items": 233,
+   "n_stacks": 12
+  }
+ }
+}

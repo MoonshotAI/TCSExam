@@ -1,0 +1,59 @@
+{
+  "task_id": "dfvs-pace2022",
+  "checked_at": "2026-10-29",
+  "decision_scope": "Public development instances only: the 100 odd-numbered PACE 2022 exact-track graphs under environment/app/instances. Hidden judging instances, even-numbered non-public files, solution/precomputed answers, the verifier, backend images and the complete development image are outside this local-preparation decision and retain their existing classifications.",
+  "public_development_data": {
+    "upstream": {
+      "track_page": "https://pacechallenge.org/2022/tracks/#exact-track",
+      "track_page_source_repository": "https://github.com/pacechallenge/pacechallenge.github.io",
+      "track_page_source_commit": "24fc2de2ba7b4377878d2d8c93db260c6cf1fb36",
+      "track_page_source_url": "https://raw.githubusercontent.com/pacechallenge/pacechallenge.github.io/24fc2de2ba7b4377878d2d8c93db260c6cf1fb36/2022/tracks.md",
+      "public_selection": "The official Exact Track section links a tar.gz archive containing all public instances.",
+      "archive_url": "https://heibox.uni-heidelberg.de/f/be4337d9e4234bca8606/?dl=1",
+      "archive_bytes": 14237896,
+      "archive_sha256": "56158c1e637c5f5a332e46e0e51afb99c062c5261e76acc61d195b03cc67bc18",
+      "archive_members": "One exact_public directory entry and exact_public/e_NNN for NNN=001,003,...,199; exactly 100 regular plaintext files and no other file members",
+      "plaintext_bytes": 66294762,
+      "source_modes_observed": {
+        "0664": 100
+      },
+      "download_page_shared_by": "Christian Schulz",
+      "attribution_context": [
+        "Ernestine Großmann",
+        "Tobias Heuer",
+        "Christian Schulz",
+        "Darren Strash"
+      ]
+    },
+    "license_review": {
+      "upstream_data_license": "not provided",
+      "local_prepare_only": true,
+      "public_upload_allowed": false,
+      "statement": "上游未附数据许可，本地准备不授予公开再分发权。",
+      "report_license_note": "The PACE report's CC-BY 4.0 license covers the report and is not applied to this data archive. No CC0 or other data license is asserted."
+    },
+    "transform": {
+      "mapping": "exact_public/e_NNN -> app/instances/e_NNN.xz",
+      "graph_content_transform": false,
+      "output_mode": "0644",
+      "source_modes_inherited": false,
+      "xz_version": "5.2.5",
+      "xz_source_url": "https://tukaani.org/xz/xz-5.2.5.tar.gz",
+      "xz_source_bytes": 1791345,
+      "xz_source_sha256": "f6f4910fd033078738bd82bfba4f49219d03b17eb0794eb91efbae419f4aba10",
+      "xz_arguments": [
+        "--format=xz",
+        "--stdout",
+        "--threads=2",
+        "--check=crc64",
+        "-6"
+      ],
+      "byte_identity_requirement": "Every output must match the retained manifest hash and decompress to the corresponding official plaintext. Two XZ threads are required; output from another XZ version, one thread, another preset, or Python lzma is not accepted as a substitute."
+    },
+    "output_files": 100,
+    "output_bytes": 10362488,
+    "manifest": "assets/data/solver/solver-dfvs-pace2022-development-data-files.json",
+    "manifest_sha256": "71de6fc2fc3b614ab31ec692908c728c47fe59dafcb6ab6140471d86a2548336",
+    "content_digest": "sha256:397d0d70cc6e97b0dcbedc1c7bf71c9bdeb6f4b53bc63a51606da602e93c46db"
+  }
+}

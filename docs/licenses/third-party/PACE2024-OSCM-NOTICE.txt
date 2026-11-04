@@ -1,0 +1,59 @@
+PACE 2024 OSCM development-data source notice
+
+This notice covers the fixed solver-oscm-pace2024-development-data product:
+100 Exact Track public instances and 73 public test-set instances.
+
+Distribution scope
+------------------
+The combined product is local_prepare with public_upload_allowed=false.
+The 100 Exact Track public instances have no upstream data license in the
+official page, archive, or archived website repository. No data license is
+asserted for them. Local preparation does not grant a right to upload the
+combined product or a derived image publicly.
+
+The MIT license in PACE2024-Testsets-MIT.txt covers only the 60 medium and
+13 tiny test-set instances from PhKindermann/Pace2024-Testsets. It does not
+cover the 100 Exact Track instances, hidden judging data, reference answers,
+the verifier, development tools, backends, or complete development images.
+The test-set MIT terms do not make the combined product publicly
+redistributable.
+
+Exact Track public instances (100 files)
+----------------------------------------
+Official page: https://pacechallenge.org/2024/
+Official properties page: https://pacechallenge.org/2024/properties/
+Fixed archive: https://pacechallenge.org/2024/exact-public.zip
+Archive bytes: 1013555
+Archive SHA-256: 2b047d7327691820ab041452ebc77410143af16bd5415fe4c42a16f1894e2e10
+Last archived-data commit: 7498dc8f3f35b05236ce0a1189dbc32983d0e89e
+Archived Git blob: 42d7a3394eb5467e00dded6f8aa7ca1968ec7fb7
+Mapping: exact-public.zip::<N>.gr -> app/instances/<N>.gr, N=1..100.
+
+Medium and tiny test sets (73 files)
+------------------------------------
+Repository: https://github.com/PhKindermann/Pace2024-Testsets
+Fixed commit: 603fd742fd525971cd78d93195d0eca7256056e9
+Fixed archive: https://codeload.github.com/PhKindermann/Pace2024-Testsets/zip/603fd742fd525971cd78d93195d0eca7256056e9
+Archive bytes: 134770
+Archive SHA-256: 23f30c72bd057c8ecfd7b86e6ed08b7f09c2448407ce1a7cb3d6f83a97209517
+MIT copyright: Copyright (c) 2024 PhKindermann
+MIT file bytes: 1069
+MIT file SHA-256: 0d2c12b508572359c08666901c3bf1d510db7ac870e4e105050f9e75ee8b594a
+Mappings:
+  <archive-root>/medium_test_set/instances/<N>.gr
+    -> app/testsets/medium_test_set/instances/<N>.gr, N=1..60.
+  <archive-root>/tiny_test_set/instances/<name>.gr
+    -> app/testsets/tiny_test_set/instances/<name>.gr for the 13 declared names.
+The archive root is Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9.
+
+Reconstruction
+--------------
+The two pinned ZIP archives are transport containers. Members are copied as
+binary plaintext with no newline, encoding, graph-content, or compression
+transformation. Output paths and modes are the only changes: all 173 outputs
+are regular files with mode 0644. The retained manifest fixes every output
+path, byte count, and SHA-256. Upstream README, LICENSE, directory entries,
+and the exactly declared solution-member names are accepted for archive
+validation; upstream solution files are not read into or copied to the
+product. Undeclared, duplicate, linked, special, or path-traversing members
+are rejected.

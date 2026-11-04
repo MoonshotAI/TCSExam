@@ -1,0 +1,423 @@
+{
+ "instances": {
+  "DSJC1000.1.col": {
+   "B": 22,
+   "K": 21,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "DSJC",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=20 not reproduced)",
+   "m": 49629,
+   "n": 1000
+  },
+  "DSJC1000.5.col": {
+   "B": 98,
+   "K": 91,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "DSJC",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=82 not reproduced)",
+   "m": 249826,
+   "n": 1000
+  },
+  "DSJC1000.9.col": {
+   "B": 251,
+   "K": 230,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "DSJC",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=222 not reproduced)",
+   "m": 449449,
+   "n": 1000
+  },
+  "DSJC125.5.col": {
+   "B": 18,
+   "K": 17,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "DSJC",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 3891,
+   "n": 125
+  },
+  "DSJC250.9.col": {
+   "B": 75,
+   "K": 72,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "DSJC",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 27897,
+   "n": 250
+  },
+  "DSJC500.1.col": {
+   "B": 13,
+   "K": 12,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "DSJC",
+   "k_proven": false,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 12458,
+   "n": 500
+  },
+  "DSJC500.5.col": {
+   "B": 54,
+   "K": 49,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "DSJC",
+   "k_proven": false,
+   "k_provenance": "ratcheted 2026-09-03 (article-10 sweep): 50 -> 49 by ILS-TabuCol sweep 175s on isolated execution environment sandbox historical validation environment, validated by task check_coloring (41/41 rechecked); prev k_source: self-run TabuCol target-k mining (literature K=47 not reproduced)",
+   "k_source": "self-run TabuCol target-k mining (literature K=47 not reproduced)",
+   "m": 62624,
+   "n": 500
+  },
+  "DSJC500.9.col": {
+   "B": 135,
+   "K": 127,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "DSJC",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=126 not reproduced)",
+   "m": 112437,
+   "n": 500
+  },
+  "DSJR500.1c.col": {
+   "B": 90,
+   "K": 87,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "DSJR",
+   "k_proven": false,
+   "k_provenance": "ratcheted 2026-09-03 (article-10 sweep): 89 -> 87 by ILS-TabuCol sweep 175s on isolated execution environment sandbox historical validation environment, validated by task check_coloring (41/41 rechecked); prev k_source: self-run TabuCol target-k mining (literature K=85 not reproduced)",
+   "k_source": "self-run TabuCol target-k mining (literature K=85 not reproduced)",
+   "m": 121275,
+   "n": 500
+  },
+  "DSJR500.5.col": {
+   "B": 130,
+   "K": 125,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "DSJR",
+   "k_proven": false,
+   "k_provenance": "ratcheted 2026-09-03 (article-10 sweep): 129 -> 125 by ILS-TabuCol sweep 175s on isolated execution environment sandbox historical validation environment, validated by task check_coloring (41/41 rechecked); prev k_source: self-run TabuCol target-k mining (literature K=122 not reproduced)",
+   "k_source": "self-run TabuCol target-k mining (literature K=122 not reproduced)",
+   "m": 58862,
+   "n": 500
+  },
+  "GEOM110b.col": {
+   "B": 16,
+   "K": 15,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "GEOM",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 1256,
+   "n": 110
+  },
+  "GEOM90a.col": {
+   "B": 13,
+   "K": 12,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "GEOM",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 789,
+   "n": 90
+  },
+  "R100_5g.col": {
+   "B": 15,
+   "K": 14,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "Rrand",
+   "k_proven": false,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 2456,
+   "n": 100
+  },
+  "R100_9g.col": {
+   "B": 36,
+   "K": 35,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "Rrand",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 4438,
+   "n": 100
+  },
+  "flat1000_50_0.col": {
+   "B": 97,
+   "K": 50,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "flat",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 245000,
+   "n": 1000
+  },
+  "flat1000_60_0.col": {
+   "B": 97,
+   "K": 60,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "flat",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 245830,
+   "n": 1000
+  },
+  "flat1000_76_0.col": {
+   "B": 97,
+   "K": 89,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "flat",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=76 not reproduced)",
+   "m": 246708,
+   "n": 1000
+  },
+  "flat300_26_0.col": {
+   "B": 33,
+   "K": 26,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "flat",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 21633,
+   "n": 300
+  },
+  "flat300_28_0.col": {
+   "B": 34,
+   "K": 31,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "flat",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=28 not reproduced)",
+   "m": 21695,
+   "n": 300
+  },
+  "latin_square_10.col": {
+   "B": 125,
+   "K": 103,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "latin",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=97 not reproduced)",
+   "m": 307350,
+   "n": 900
+  },
+  "le450_15a.col": {
+   "B": 16,
+   "K": 15,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "le450",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 8168,
+   "n": 450
+  },
+  "le450_15b.col": {
+   "B": 16,
+   "K": 15,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "le450",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 8169,
+   "n": 450
+  },
+  "le450_15d.col": {
+   "B": 22,
+   "K": 16,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "le450",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=15 not reproduced)",
+   "m": 16750,
+   "n": 450
+  },
+  "le450_25c.col": {
+   "B": 27,
+   "K": 26,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "le450",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=25 not reproduced)",
+   "m": 17343,
+   "n": 450
+  },
+  "le450_25d.col": {
+   "B": 27,
+   "K": 26,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "le450",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=25 not reproduced)",
+   "m": 17425,
+   "n": 450
+  },
+  "le450_5a.col": {
+   "B": 6,
+   "K": 5,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "le450",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 5714,
+   "n": 450
+  },
+  "le450_5b.col": {
+   "B": 6,
+   "K": 5,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "le450",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 5734,
+   "n": 450
+  },
+  "le450_5c.col": {
+   "B": 7,
+   "K": 5,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "le450",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 9803,
+   "n": 450
+  },
+  "queen12_12.col": {
+   "B": 14,
+   "K": 13,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "queen",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=12 not reproduced)",
+   "m": 2596,
+   "n": 144
+  },
+  "queen14_14.col": {
+   "B": 16,
+   "K": 15,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "queen",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=14 not reproduced)",
+   "m": 4186,
+   "n": 196
+  },
+  "queen15_15.col": {
+   "B": 17,
+   "K": 16,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "queen",
+   "k_proven": false,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 5180,
+   "n": 225
+  },
+  "queen16_16.col": {
+   "B": 18,
+   "K": 17,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "queen",
+   "k_proven": false,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 6320,
+   "n": 256
+  },
+  "r1000.1c.col": {
+   "B": 105,
+   "K": 99,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "r1000",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=98 not reproduced)",
+   "m": 485090,
+   "n": 1000
+  },
+  "r125.5.col": {
+   "B": 38,
+   "K": 36,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "r125",
+   "k_proven": true,
+   "k_source": "gc_instances best_scores (literature)",
+   "m": 3838,
+   "n": 125
+  },
+  "wap01a.col": {
+   "B": 47,
+   "K": 44,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "wap",
+   "k_proven": false,
+   "k_provenance": "ratcheted 2026-09-03 (article-10 sweep): 45 -> 44 by ILS-TabuCol sweep 175s on isolated execution environment sandbox historical validation environment, validated by task check_coloring (41/41 rechecked); prev k_source: self-run TabuCol target-k mining (literature K=41 not reproduced)",
+   "k_source": "self-run TabuCol target-k mining (literature K=41 not reproduced)",
+   "m": 110871,
+   "n": 2368
+  },
+  "wap02a.col": {
+   "B": 45,
+   "K": 43,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "wap",
+   "k_proven": false,
+   "k_provenance": "ratcheted 2026-09-03 (article-10 sweep): 44 -> 43 by ILS-TabuCol sweep 175s on isolated execution environment sandbox historical validation environment, validated by task check_coloring (41/41 rechecked); prev k_source: self-run TabuCol target-k mining (literature K=40 not reproduced)",
+   "k_source": "self-run TabuCol target-k mining (literature K=40 not reproduced)",
+   "m": 111742,
+   "n": 2464
+  },
+  "wap03a.col": {
+   "B": 53,
+   "K": 47,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "wap",
+   "k_proven": false,
+   "k_provenance": "ratcheted 2026-09-03 (article-10 sweep): 48 -> 47 by ILS-TabuCol sweep 175s on isolated execution environment sandbox historical validation environment, validated by task check_coloring (41/41 rechecked); prev k_source: self-run TabuCol target-k mining (literature K=43 not reproduced)",
+   "k_source": "self-run TabuCol target-k mining (literature K=43 not reproduced)",
+   "m": 286722,
+   "n": 4730
+  },
+  "wap04a.col": {
+   "B": 49,
+   "K": 45,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "wap",
+   "k_proven": false,
+   "k_source": "self-run TabuCol target-k mining (literature K=41 not reproduced)",
+   "m": 294902,
+   "n": 5231
+  },
+  "wap06a.col": {
+   "B": 46,
+   "K": 43,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "wap",
+   "k_proven": false,
+   "k_provenance": "ratcheted 2026-09-03 (article-10 sweep): 44 -> 43 by ILS-TabuCol sweep 175s on isolated execution environment sandbox historical validation environment, validated by task check_coloring (41/41 rechecked); prev k_source: self-run TabuCol target-k mining (literature K=40 not reproduced)",
+   "k_source": "self-run TabuCol target-k mining (literature K=40 not reproduced)",
+   "m": 43571,
+   "n": 947
+  },
+  "wap07a.col": {
+   "B": 46,
+   "K": 43,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "wap",
+   "k_proven": false,
+   "k_provenance": "ratcheted 2026-09-03 (article-10 sweep): 44 -> 43 by ILS-TabuCol sweep 175s on isolated execution environment sandbox historical validation environment, validated by task check_coloring (41/41 rechecked); prev k_source: self-run TabuCol target-k mining (literature K=41 not reproduced)",
+   "k_source": "self-run TabuCol target-k mining (literature K=41 not reproduced)",
+   "m": 103368,
+   "n": 1809
+  },
+  "wap08a.col": {
+   "B": 45,
+   "K": 42,
+   "b_source": "tabucol-baseline@5e6-steps(deterministic)",
+   "family": "wap",
+   "k_proven": false,
+   "k_provenance": "ratcheted 2026-09-03 (article-10 sweep): 44 -> 42 by ILS-TabuCol sweep 175s on isolated execution environment sandbox historical validation environment, validated by task check_coloring (41/41 rechecked); prev k_source: self-run TabuCol target-k mining (literature K=40 not reproduced)",
+   "k_source": "self-run TabuCol target-k mining (literature K=40 not reproduced)",
+   "m": 104176,
+   "n": 1870
+  }
+ }
+}

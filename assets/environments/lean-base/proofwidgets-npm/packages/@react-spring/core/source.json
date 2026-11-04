@@ -1,0 +1,55 @@
+{
+  "author": "Paul Henschel",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "@react-spring/animated": "~9.7.5",
+      "@react-spring/shared": "~9.7.5",
+      "@react-spring/types": "~9.7.5"
+    },
+    "funding": {
+      "type": "opencollective",
+      "url": "https://opencollective.com/react-spring/donate"
+    },
+    "integrity": "sha512-rmEqcxRcu7dWh7MnCcMXLvrf6/SDlSokLaLTxiPlAYi11nN3B5oiCUAblO72o+9z/87j2uzxa2Inm8UbLjXA+w==",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    },
+    "resolved": "https://registry.npmjs.org/@react-spring/core/-/core-9.7.5.tgz",
+    "version": "9.7.5"
+  },
+  "lock_path": "node_modules/@react-spring/core",
+  "name": "@react-spring/core",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1110,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+      "text_file": "image-notices/51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 402333,
+    "installed_in_image": false,
+    "integrity": "sha512-rmEqcxRcu7dWh7MnCcMXLvrf6/SDlSokLaLTxiPlAYi11nN3B5oiCUAblO72o+9z/87j2uzxa2Inm8UbLjXA+w==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@react-spring/core/-/core-9.7.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "2759f3f8e7e56186fa73646facf1d6cc89735b8da17e39d0bec3ede294e557e7"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "9.7.5"
+}

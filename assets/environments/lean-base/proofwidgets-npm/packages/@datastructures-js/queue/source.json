@@ -1,0 +1,43 @@
+{
+  "author": "Eyas Ranjous <eyas.ranjous@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-2RYt1+N4dtdcilwmB+A6j9HT/5MImHSK2UUjBA8WQAHoA2AEJC4YxJSSGhGTOBMyLMKpMiowwTrnB315YgtTrA==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@datastructures-js/queue/-/queue-4.3.0.tgz",
+    "version": "4.3.0"
+  },
+  "lock_path": "node_modules/@datastructures-js/queue",
+  "name": "@datastructures-js/queue",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1104,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "daabafe750636268483fd40b0fd3ff45d22f5dc7b4f4d25df2cfd9cd10797928",
+      "text_file": "image-notices/daabafe750636268483fd40b0fd3ff45d22f5dc7b4f4d25df2cfd9cd10797928.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 2922,
+    "installed_in_image": false,
+    "integrity": "sha512-2RYt1+N4dtdcilwmB+A6j9HT/5MImHSK2UUjBA8WQAHoA2AEJC4YxJSSGhGTOBMyLMKpMiowwTrnB315YgtTrA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@datastructures-js/queue/-/queue-4.3.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "0d6a7ecb26b655723ec8f50d330fd0441f77caf07b9e4e6c61f74cc050ad1bad"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.3.0"
+}

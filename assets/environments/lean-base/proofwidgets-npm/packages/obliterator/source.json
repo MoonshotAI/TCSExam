@@ -1,0 +1,46 @@
+{
+  "author": {
+    "name": "Guillaume Plique",
+    "url": "http://github.com/Yomguithereal"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-42CPE9AhahZRsMNslczq0ctAEtqk8Eka26QofnqC346BZdHDySk3LWka23LI7ULIw11NmltpiLagIq8gBozxTw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/obliterator/-/obliterator-2.0.5.tgz",
+    "version": "2.0.5"
+  },
+  "lock_path": "node_modules/obliterator",
+  "name": "obliterator",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1104,
+      "installed_file": "notices/original/package/LICENSE.txt",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.txt",
+      "sha256": "597c30078622c20d8e62f9d96b4d2b9f9013b9668b778a55eb00810d093cd08c",
+      "text_file": "image-notices/597c30078622c20d8e62f9d96b4d2b9f9013b9668b778a55eb00810d093cd08c.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 10383,
+    "installed_in_image": false,
+    "integrity": "sha512-42CPE9AhahZRsMNslczq0ctAEtqk8Eka26QofnqC346BZdHDySk3LWka23LI7ULIw11NmltpiLagIq8gBozxTw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/obliterator/-/obliterator-2.0.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "c69a2834ab9d1b151ddd3e26baa0133fb807e579fdc51ab5aaf88c489efcef57"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.0.5"
+}

@@ -1,0 +1,43 @@
+{
+  "author": "Ian McEwan, Ashima Arts, Stefan Gustavson",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-b/ZCF6amfAUb7dJM/MxRs7AetQEahYzJ8PtgfrmEdtw6uyGOr+ZSGtgjFm6mfsBkxJ4d2W7kg+Nlqzqvn3Bc0w==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/glsl-noise/-/glsl-noise-0.0.0.tgz",
+    "version": "0.0.0"
+  },
+  "lock_path": "node_modules/glsl-noise",
+  "name": "glsl-noise",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1129,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "bce6c887104eda776ad5e3a2c0b249d1ef5adca91573b350e7147a59d65757f1",
+      "text_file": "image-notices/bce6c887104eda776ad5e3a2c0b249d1ef5adca91573b350e7147a59d65757f1.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 6997,
+    "installed_in_image": false,
+    "integrity": "sha512-b/ZCF6amfAUb7dJM/MxRs7AetQEahYzJ8PtgfrmEdtw6uyGOr+ZSGtgjFm6mfsBkxJ4d2W7kg+Nlqzqvn3Bc0w==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/glsl-noise/-/glsl-noise-0.0.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "854201bdb89876874823514ba294b0ac1457d64470a289830a4af51558598d20"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.0.0"
+}

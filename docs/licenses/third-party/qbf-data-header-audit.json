@@ -1,0 +1,644 @@
+{
+  "checked": "2026-10-15",
+  "image_digest": "sha256:97eca0b59d13b38713b2d312b5d55797cfd09e7a2e3a7896b2aa5123e092ecb5",
+  "method": "Read-only 2 CPU / 4 GiB sandbox; hash stored files and inspect first 16 KiB after decompression. Duplicate public paths counted once. Sandbox closed after inspection.",
+  "files_checked": 70,
+  "hidden": 57,
+  "public": 13,
+  "files_with_leading_license_header": 0,
+  "official_rules_url": "https://www.qbflib.org/qbfeval20.php",
+  "conclusion": "The inspected distributed files provide no leading license grant. Organizer redistribution terms alone do not establish this project redistribution/adaptation rights; original pre-transformation family terms remain unverified.",
+  "image_layers_and_os_packages_audited": false,
+  "files": [
+    {
+      "name": "IssueServiceImpl.qdimacs.xz",
+      "split": "public",
+      "official": "IssueServiceImpl",
+      "stored_sha256": "658e21db328f89a72bd4fd60c72561aa57eaed188cfab8d142aa427e7d95612c",
+      "stored_bytes": 34028,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "exquery_query42_1344n.qdimacs.xz",
+      "split": "public",
+      "official": "exquery_query42_1344n",
+      "stored_sha256": "fa16aabe9dde9cdaf9530a6424bfcfd7b8edeaa25593fe814ae187b5cfb9da93",
+      "stored_bytes": 4768,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "falsequ_query64_1344n.qdimacs.xz",
+      "split": "public",
+      "official": "falsequ_query64_1344n",
+      "stored_sha256": "efa2d14775f8a936f6fe2dee89edf997919d456fa5cf3163018ff5313861538b",
+      "stored_bytes": 2836,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "falsequ_query71_1344n.qdimacs.xz",
+      "split": "public",
+      "official": "falsequ_query71_1344n",
+      "stored_sha256": "4eb7688be8d482c13d6c853eee8c3df3914e26ee7df8859c3ade30d83a65ad97",
+      "stored_bytes": 1980,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ntrivil_query64_1344.qdimacs.xz",
+      "split": "public",
+      "official": "ntrivil_query64_1344",
+      "stored_sha256": "7c594b188cf335d36331c870268c91c5a0050def1925720f673fcfa3f2a2210b",
+      "stored_bytes": 15000,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ntrivil_query71_1344n.qdimacs.xz",
+      "split": "public",
+      "official": "ntrivil_query71_1344n",
+      "stored_sha256": "e36a949ebdcfe061f01a4d570b2e13a6cc8101100afbca794477032a08ea0401",
+      "stored_bytes": 14460,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "nxquery_query64_1344n.qdimacs.xz",
+      "split": "public",
+      "official": "nxquery_query64_1344n",
+      "stored_sha256": "0d64285a3932799bc82c4839785591c8b896b36079c114c16ad2e655f30cb640",
+      "stored_bytes": 4792,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "pipesnotankage19_9.qdimacs.xz",
+      "split": "public",
+      "official": "pipesnotankage19_9",
+      "stored_sha256": "e54ef8ad5cbd920b28ff64f8aa23badf30f5741bcbe8710646a902c53d0af71f",
+      "stored_bytes": 2759468,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "sdlx-fixpoint-6.qdimacs.xz",
+      "split": "public",
+      "official": "sdlx-fixpoint-6",
+      "stored_sha256": "27acf7b8eb05e09a2f5b97cb3238f7268d9b1f00d6109e30835620ec2da4c8b4",
+      "stored_bytes": 71300,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "stmt23_66_96.qdimacs.xz",
+      "split": "public",
+      "official": "stmt23_66_96",
+      "stored_sha256": "12b9cf018a725d25902470a274f446e2671f8c126b77f4deb547617221404cbe",
+      "stored_bytes": 83636,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "trivial_query60_1344n.qdimacs.xz",
+      "split": "public",
+      "official": "trivial_query60_1344n",
+      "stored_sha256": "2e7d58e947aa59710f7100f98cae654cdc1a24149a3a61be6551a89fd67d3085",
+      "stored_bytes": 14860,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "trivial_query64_1344n.qdimacs.xz",
+      "split": "public",
+      "official": "trivial_query64_1344n",
+      "stored_sha256": "f10ecdad49fa77a29fe9791da8d6633c05cb1e07f2db3f42d3dae515312489a6",
+      "stored_bytes": 16644,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "trueque_query60_1344n.qdimacs.xz",
+      "split": "public",
+      "official": "trueque_query60_1344n",
+      "stored_sha256": "4855649f66f4fb0850dd79b42ebbb604d3ac83328f394e6a1a0a95c9ce5ab0e6",
+      "stored_bytes": 2044,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex001.qdimacs.xz",
+      "split": "hidden",
+      "official": "C6288.blif_0.10_0.20_0_1_out_exact",
+      "stored_sha256": "3684d2e3eed84455a7db1caae4be497f4ca4c01dc5e9c5f94cf758836905dcac",
+      "stored_bytes": 72100,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex002.qdimacs.xz",
+      "split": "hidden",
+      "official": "GuidanceService",
+      "stored_sha256": "b83e1404ffc7ac329a89130ebed0df3fe4d42563ba55c8a9bdafabf6ab30ac10",
+      "stored_bytes": 63252,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex003.qdimacs.xz",
+      "split": "hidden",
+      "official": "LoginService",
+      "stored_sha256": "174569997dbbbd92adc918bd9fc888ceebc7d9272af638a8f5f29a3901b94da5",
+      "stored_bytes": 123836,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex004.qdimacs.xz",
+      "split": "hidden",
+      "official": "W4-Umbrella_tbm_05.tex.moduleQ3.8S.000001",
+      "stored_sha256": "09351885745fc00278fc5e7a302cb89d2beb131b76d0318f74bf63167a5e484e",
+      "stored_bytes": 33560,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex005.qdimacs.xz",
+      "split": "hidden",
+      "official": "W4-Umbrella_tbm_25.tex.moduleQ3.7S.000003",
+      "stored_sha256": "86c9b4ad549a0edb772fdc24150ff13e9e9436189d08c2ebbfd29c081cf17046",
+      "stored_bytes": 37248,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex006.qdimacs.xz",
+      "split": "hidden",
+      "official": "W4-Umbrella_tbm_26.tex.moduleQ3.7S.000003",
+      "stored_sha256": "706b80c7253f5a996c1aaf4e3a560e1978918929a4597fcff0ca485bff3eec2c",
+      "stored_bytes": 22736,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex007.qdimacs.xz",
+      "split": "hidden",
+      "official": "add7_COMPLETE",
+      "stored_sha256": "46603148bcb1e510d91cb097dc7d0ecfa4f9b7682e082c3babe0fad1db91c66b",
+      "stored_bytes": 25196,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex008.qdimacs.xz",
+      "split": "hidden",
+      "official": "arbiter-05-comp-error01-qbf-hardness-depth-8",
+      "stored_sha256": "d86f1fefd420b9b882af53a6ff38de052e30e1726c30f0c585bf15df6db3c7c1",
+      "stored_bytes": 27964,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex009.qdimacs.xz",
+      "split": "hidden",
+      "official": "arbiter-09-comp-error01-qbf-hardness-depth-15",
+      "stored_sha256": "26a31425d6d1a730726f32e931cfe13e50a1a9466ed145632b992b377da6b138",
+      "stored_bytes": 178208,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex010.qdimacs.xz",
+      "split": "hidden",
+      "official": "arbiter-10-comp-error01-qbf-hardness-depth-23",
+      "stored_sha256": "4231dd86fa1d0001c11600ef598da64f812fad95bf3fe09498360c614d40c807",
+      "stored_bytes": 495192,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex011.qdimacs.xz",
+      "split": "hidden",
+      "official": "axquery_query64_1344n",
+      "stored_sha256": "03cb8fb5f1a37db02d1f731a6018b2d87c0b532701d6b8f572a009e28b80b025",
+      "stored_bytes": 8400,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex012.qdimacs.xz",
+      "split": "hidden",
+      "official": "biu.mv.xl_ao.bb-b003-p020-IPF02-c05.blif-biu.inv.prop.bb-bmc.conf01.01X-QBF.BB1-Zi.BB2-01X.BB3-01X.with-IOC.unfold-007",
+      "stored_sha256": "04852482ff2c298a4addbaf44c15188fa70e5cf6c167ec0569bc679ad2ac5924",
+      "stored_bytes": 208976,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex013.qdimacs.xz",
+      "split": "hidden",
+      "official": "biu.mv.xl_ao.bb-b003-p020-IPF03-c03.blif-biu.inv.prop.bb-bmc.with-IOC.unfold-009",
+      "stored_sha256": "b409dd1a0d137a48debdab2b21d76fe3b9c94d49e8945fb47831c2aac7bdab79",
+      "stored_bytes": 587792,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex014.qdimacs.xz",
+      "split": "hidden",
+      "official": "biu.mv.xl_ao.bb-b003-p020-MIF04-c05.blif-biu.inv.prop.bb-bmc.conf01.01X-QBF.BB1-Zi.BB2-01X.BB3-01X.with-IOC.unfold-010",
+      "stored_sha256": "a455f3389d54d57d2f4dc9da8f17595c686bc0b3c60640a670d6f41454b84db4",
+      "stored_bytes": 546472,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex015.qdimacs.xz",
+      "split": "hidden",
+      "official": "biu.mv.xl_ao.bb-b003-p020-MIF04-c05.blif-biu.inv.prop.bb-bmc.conf03.01X-QBF.BB1-Zi.BB2-Zi.BB3-01X.with-IOC.unfold-010",
+      "stored_sha256": "5573c98eca0d5ccbf293ecdf05d729740b60689d05ca84f94063394bd3a2351c",
+      "stored_bytes": 963188,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex016.qdimacs.xz",
+      "split": "hidden",
+      "official": "biu.mv.xl_ao.bb-b003-p020-MIF04-c05.blif-biu.inv.prop.bb-bmc.conf04.01X-QBF.BB1-01X.BB2-01X.BB3-Zi.with-IOC.unfold-009",
+      "stored_sha256": "126c82ac6ac9673e22a2f0d01367f6e44add791539c15f31b310f77369cacaa5",
+      "stored_bytes": 389464,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex017.qdimacs.xz",
+      "split": "hidden",
+      "official": "biu.mv.xl_ao.bb-b003-p020-MIF04-c05.blif-biu.inv.prop.bb-bmc.conf05.01X-QBF.BB1-Zi.BB2-01X.BB3-Zi.with-IOC.unfold-006",
+      "stored_sha256": "96e54f40fa0d4572685ddac24a82ec8d8094f1de250821f6fb68587c4413fcd9",
+      "stored_bytes": 308620,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex018.qdimacs.xz",
+      "split": "hidden",
+      "official": "c1_BMC_p2_k1024",
+      "stored_sha256": "31b74918621c32489dbc4d5805bfeb322819f8fb11aee914370c985fc6ed1ea4",
+      "stored_bytes": 21205548,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex019.qdimacs.xz",
+      "split": "hidden",
+      "official": "c1_BMC_p2_k2048",
+      "stored_sha256": "37b98691fc68f8937bb0c59f8fa088a7dc9eb0586804f945e7e3cd6b7525ed0d",
+      "stored_bytes": 42955636,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex020.qdimacs.xz",
+      "split": "hidden",
+      "official": "c6_BMC_p2_k1024",
+      "stored_sha256": "07c58a9728cc3abfa1b61476716b0b73c88af40602d71104d8dba9df424ecd5e",
+      "stored_bytes": 2396552,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex021.qdimacs.xz",
+      "split": "hidden",
+      "official": "decomposition128",
+      "stored_sha256": "72a87d7d1f9d72657ce116b52d70468de7c6c2faf2f81e89d3a3077cdcfe2a97",
+      "stored_bytes": 18364,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex022.qdimacs.xz",
+      "split": "hidden",
+      "official": "driver_c9n.sat",
+      "stored_sha256": "599f2633da406d83f477577c37ac139ecb621f8558b7c7d7f0eef2280a63032f",
+      "stored_bytes": 32580,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex023.qdimacs.xz",
+      "split": "hidden",
+      "official": "driverlog10_6",
+      "stored_sha256": "0c29ed6a25f1bf821d76c4f99dbaf7593c35b39e30bc86c675ce676634ce4ef6",
+      "stored_bytes": 174612,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex024.qdimacs.xz",
+      "split": "hidden",
+      "official": "driverlog11_8",
+      "stored_sha256": "4606f83f2457ed98d77cf07e018c7a2e4820a8e01734b1f58a56f7984651c1d6",
+      "stored_bytes": 316444,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex025.qdimacs.xz",
+      "split": "hidden",
+      "official": "eequery_query64_1344",
+      "stored_sha256": "3587ca50af8e6ce650c713732a10b6bb7ba57b4c110b5871f9274615ad267fa3",
+      "stored_bytes": 10752,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex026.qdimacs.xz",
+      "split": "hidden",
+      "official": "eijk.bs3330.S-d3",
+      "stored_sha256": "2f720770f2556f965d918cc8afb01a0f27a11ee379847079b760e793f088b886",
+      "stored_bytes": 41412,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex027.qdimacs.xz",
+      "split": "hidden",
+      "official": "exquery_query64_1344n",
+      "stored_sha256": "10ab61a0fbfdcf377ad27c498e562dd3e3cb73b8ca47e5e2a44de031ce1003e3",
+      "stored_bytes": 8372,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex028.qdimacs.xz",
+      "split": "hidden",
+      "official": "exquery_query71_1344",
+      "stored_sha256": "3881f9b8674d1c14bd4e8a4f47708ae8065f3d4c636c8446f16eee84ceb191f6",
+      "stored_bytes": 7032,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex029.qdimacs.xz",
+      "split": "hidden",
+      "official": "exquery_query71_1344n",
+      "stored_sha256": "14b63f68dcf5f49ad2e7bdbedb6c05c3c147abb3a0e89718c98a174e8ab4e5fa",
+      "stored_bytes": 6908,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex030.qdimacs.xz",
+      "split": "hidden",
+      "official": "filesys_smbmrx_midatlas.c",
+      "stored_sha256": "225755da78f94bd338f20f7a9438597b924d257cde8d0160f2e75244154e4d53",
+      "stored_bytes": 134064,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex031.qdimacs.xz",
+      "split": "hidden",
+      "official": "fpu-01Xh-error02-nonuniform-depth-18",
+      "stored_sha256": "98feab5f65cbae722a5acc4949bbb0d0b859b833c3105467446cdb1761675ae6",
+      "stored_bytes": 9202572,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex032.qdimacs.xz",
+      "split": "hidden",
+      "official": "fpu-01Xh-error02-uniform-depth-24",
+      "stored_sha256": "f318c1c4d8b85b456930065a1e01c10021498ad97e1a571cc20749464fddd318",
+      "stored_bytes": 12711024,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex033.qdimacs.xz",
+      "split": "hidden",
+      "official": "fpu-10Xh-correct04-nonuniform-depth-14",
+      "stored_sha256": "2be51be52768d221d123d0f203f4459d60223ed4e9e98baf2666a238fcc02aab",
+      "stored_bytes": 7234988,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex034.qdimacs.xz",
+      "split": "hidden",
+      "official": "fpu-10Xh-correct04-uniform-depth-18",
+      "stored_sha256": "a9e22a9b1a06dd617d4bcd504fd2ccacad8f20135f47256b72dd25240fbf538b",
+      "stored_bytes": 9545792,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex035.qdimacs.xz",
+      "split": "hidden",
+      "official": "fpu-10Xh-error01-uniform-depth-20",
+      "stored_sha256": "a437492f6eb85047e8251a98747ea41a5d8900a2c1aa90e7ef7e805bfd35ac07",
+      "stored_bytes": 10608592,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex036.qdimacs.xz",
+      "split": "hidden",
+      "official": "fpu-10Xh-error01-uniform-depth-25",
+      "stored_sha256": "f2ebccca161d4c94d1d5a86e2be8eff22ffe070a27a5f2b458ef41f72111ee77",
+      "stored_bytes": 13303240,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex037.qdimacs.xz",
+      "split": "hidden",
+      "official": "gttt_2_1_001020_4x4_torus_w_2020",
+      "stored_sha256": "79a63bb6690f2f212aa7a618acf2b955bb20ec3ddb7ad4c69c3e574a5a39d712",
+      "stored_bytes": 158720,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex038.qdimacs.xz",
+      "split": "hidden",
+      "official": "incrementer-enc07-nonuniform-depth-25",
+      "stored_sha256": "aace6109b6658dbd197e3b388804c6dc848d174f5283903e4c0a599403c8dde0",
+      "stored_bytes": 271232,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex039.qdimacs.xz",
+      "split": "hidden",
+      "official": "incrementer-enc08-nonuniform-depth-32",
+      "stored_sha256": "2aadf87016faa531b544a0ae502f66736f7dedd7cb87774bd3cb09943f523252",
+      "stored_bytes": 290272,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex040.qdimacs.xz",
+      "split": "hidden",
+      "official": "incrementer-enc09-nonuniform-depth-15",
+      "stored_sha256": "5ac69af929764cda7e447e731af241bc79ea900759143b1f633b539c90e2f24d",
+      "stored_bytes": 220116,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex041.qdimacs.xz",
+      "split": "hidden",
+      "official": "itc-b13-fixpoint-2",
+      "stored_sha256": "02f7f7d1803d150374de9eb9fdbd489299bef1f7e9586f7a0f60700fd5ee04b0",
+      "stored_bytes": 31852,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex042.qdimacs.xz",
+      "split": "hidden",
+      "official": "neclaftp4001",
+      "stored_sha256": "4edfb82908fd8cc9ba694dd2732081c14804b1ea2a5e894957c78948d6770588",
+      "stored_bytes": 80956,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex043.qdimacs.xz",
+      "split": "hidden",
+      "official": "ntrivil_query42_1344n",
+      "stored_sha256": "1ed6406b0c12677cc9f42c268d561cf1190b07f0e8ac3ee741c704fed89a5924",
+      "stored_bytes": 36296,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex044.qdimacs.xz",
+      "split": "hidden",
+      "official": "ntrivil_query64_1344n",
+      "stored_sha256": "f6f4ecd55cf0b38d0a8cbe8ecd62c9aaa53ed21514237d9b0c7c0ce20b516224",
+      "stored_bytes": 35640,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex045.qdimacs.xz",
+      "split": "hidden",
+      "official": "ntrivil_query71_1344",
+      "stored_sha256": "a1f781e61116185c64d6857eebd5d0ad486ada40a607f74a838bee1d86cef1ca",
+      "stored_bytes": 30464,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex046.qdimacs.xz",
+      "split": "hidden",
+      "official": "p10-10.pddl_planlen=19",
+      "stored_sha256": "4dda9712522e2e5b9f69ff4a49e84ca8e022ed2944d8fbd867f584e70e2da67a",
+      "stored_bytes": 498712,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex047.qdimacs.xz",
+      "split": "hidden",
+      "official": "pi-bus-fixpoint-2",
+      "stored_sha256": "3155cfa5003620d1c45ab4023c74d04a03170c00a67a962e37714829e0cc945f",
+      "stored_bytes": 641400,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex048.qdimacs.xz",
+      "split": "hidden",
+      "official": "reachqu_query64_1344n",
+      "stored_sha256": "b06435f64214405de75413ae926b0ecf5449ecd35432c3491a985d123c79dad1",
+      "stored_bytes": 275244,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex049.qdimacs.xz",
+      "split": "hidden",
+      "official": "s01423_PR_4_75",
+      "stored_sha256": "8e3043bd2c672bb2b180f05c3ed5d1aec55dcbc6c8c23fe29cad9f11bc84b79c",
+      "stored_bytes": 43808,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex050.qdimacs.xz",
+      "split": "hidden",
+      "official": "s01423_PR_4_90",
+      "stored_sha256": "72ae440e1a0520f1c8f67aba995ea4f215c6646ac371d325c9c0d1e88b62fa3b",
+      "stored_bytes": 43748,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex051.qdimacs.xz",
+      "split": "hidden",
+      "official": "sortnetsort9.AE.stepl.009",
+      "stored_sha256": "e6b4a7dd822223c1da2299b9357a9adb12d07df5d04d7a6290066b03df3f4b6e",
+      "stored_bytes": 74144,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex052.qdimacs.xz",
+      "split": "hidden",
+      "official": "sortnetsort9.AE.stepl.012",
+      "stored_sha256": "02c81f7c9473c081513fbe4541a2bf7b5b0182b709205d85d44950b5d20a4f51",
+      "stored_bytes": 99896,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex053.qdimacs.xz",
+      "split": "hidden",
+      "official": "stmt17_70_98",
+      "stored_sha256": "48b3b50529ba50cf6668d5fe2c1e3121901d3ebf0d6880a17dc1586b52eb2b55",
+      "stored_bytes": 244548,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex054.qdimacs.xz",
+      "split": "hidden",
+      "official": "stmt19_83_412",
+      "stored_sha256": "1d46533216d3c41fe920fbe60bd459a03b16a22e11bc8c7a13de239e293cc020",
+      "stored_bytes": 68064,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex055.qdimacs.xz",
+      "split": "hidden",
+      "official": "tlc05-uniform-depth-40",
+      "stored_sha256": "eb29ec92d7281c883ade46e6f6c22326b26379a55be611b813cd75d48014643f",
+      "stored_bytes": 220004,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex056.qdimacs.xz",
+      "split": "hidden",
+      "official": "trivial_query64_1344",
+      "stored_sha256": "f89b8907aa2cd3c182928bf9131fb83825110964c30b1c2c0ebf56341a794656",
+      "stored_bytes": 35476,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    },
+    {
+      "name": "ex057.qdimacs.xz",
+      "split": "hidden",
+      "official": "trivial_query71_1344",
+      "stored_sha256": "40575b813beb4de761c5653aeb7df6a42410e8f0173559b2113990df9c15e2c9",
+      "stored_bytes": 30300,
+      "leading_comment_lines": 0,
+      "license_header_matches": []
+    }
+  ]
+}

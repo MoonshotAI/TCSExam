@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "maxsat-mse",
+  "records": [
+    {
+      "stage": "maxsat",
+      "id": "solver-maxsat-mse-development-data",
+      "status": "passed",
+      "result": {
+        "files": 15,
+        "bytes": 196975123
+      },
+      "scope": "Explicit original official anytime-weighted archive checked against its original record MD5 and frozen SHA; original input-only conversion and saved complete-permutation hashes reproduced before all frozen output identities. Public PDFs downloaded from fixed official Open-WBO commit. Native command adapter; Docker adapter not exercised.",
+      "docker_adapter_exercised": false
+    }
+  ],
+  "scope": "Only explicitly selected original inputs and necessary public documentation; original transformation labels, saved parameter hashes, frozen bytes, modes and split retained. Original dataset notices and resource-specific terms remain.",
+  "public_upload_performed": false,
+  "new_distribution_authorization": false,
+  "docker_adapter_exercised": false
+}

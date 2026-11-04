@@ -1,0 +1,11 @@
+{
+  "files": [
+    {
+      "path": "opt/itc2021/RobinX",
+      "bytes": 2872984,
+      "sha256": "476387ba29f555d4fac6ad7855b2efb54bee065c259bf1ac4b59814c016d7bee",
+      "mode": "0755",
+      "build_recipe": "assets/environments/solver/resources/solver-itc2021-sports-timetabling-development-tools-recipe.json"
+    }
+  ]
+}

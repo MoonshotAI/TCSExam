@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-omega-2"
+version = "0.1.0"
+description = "Prove or refute that the matrix multiplication exponent omega equals 2 (infimum of real tau with n-by-n matrix multiplication doable in O(n^tau) arithmetic operations; frontier: omega < 2.371177 by Dupont et al. 2026, lower bound only the trivial omega >= 2) in Lean 4 (machine-verified). Open problem: no ground truth; the Lean kernel is the judge. A kernel-verified proof of either direction scores 1.0, otherwise 0 — no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "algebraic-complexity", "matrix-multiplication", "tensor-rank", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-omega-2"
+candidate_id = "cand-omega-2"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open problem (unresolved since Strassen 1969; current frontier omega < 2.371177, Dupont et al. 2026, arXiv:2608.16884; laser-method barrier results by Alman-Vassilevska Williams, FOCS 2018). Full score needs a kernel-verified proof or disproof of the conjecture itself; there are no checkpoint slots and no partial credit."
+source_paper = "V. Strassen, Gaussian elimination is not optimal, Numer. Math. 13 (1969), 354-356. Survey: J. Alman and V. Vassilevska Williams, A Refined Laser Method and Faster Matrix Multiplication, SODA 2021. Frontier: E. Dupont et al., arXiv:2608.16884 (2026)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-omega-2-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

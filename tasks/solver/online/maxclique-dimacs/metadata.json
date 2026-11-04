@@ -1,0 +1,53 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260920",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/maxclique-dimacs/PROVENANCE.md §B/K derivation: values from the Mascia page (proven optima for 8 star instances; literature best values for the rest; solution files passed the real checker).",
+   "tier": "literature"
+  }
+ },
+ "family": "maximum-clique",
+ "id": "maxclique-dimacs",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-maxclique-judge-v13"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": null,
+  "n_hidden": 24,
+  "n_neither": 12,
+  "n_public": 44,
+  "per_instance_seconds": 180,
+  "shard_cores": 4,
+  "shard_mem_gb": 8,
+  "shards": 6
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "max",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "library",
+  "ecosystem": "DIMACS (Mascia page)",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "vertex permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "form2 conversion (260920): the 70/30 split is recorded in tests/split.json (56 public / 24 hidden, stratified by family × size). The 24 hidden instances were transformed by vertex permutation (txNNN; tests/transform_manifest.json records the mapping and permutations). reference B is temporarily the form1 value on original instances (deterministic fixed values under a node budget); overwrite it after a uniform batch remeasurement and update anchors.B.date. 260920 holdout: because the judged set is close to the full public registry, 12 additional public instances (15%) are assigned to neither; they are absent from the environment and not judged. Their names are stored only in the third bucket of tests/split.json."
+ },
+ "subdomain": "graph-optimization",
+ "title": "Maximum clique"
+}

@@ -1,0 +1,13 @@
+{
+  "main_theorem": "linear_3lcc_exp_lower_bound",
+  "namespace": "LCCExpLB",
+  "checkpoints": [
+    {
+      "name": "linear_3lcc_exp_lower_bound",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 1 of Kothari-Manohar (arXiv 2311.00558v1), binary normal-form version: there is an absolute constant C > 0 such that every linear 3-query LCC in normal form satisfies k <= C*(log2 n)^8/delta^2. The GKST06 2-LDC lower bound (Fact 2.5) is taken as a hypothesis."
+    }
+  ]
+}

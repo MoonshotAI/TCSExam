@@ -1,0 +1,54 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "cliui": "^9.0.1",
+      "escalade": "^3.1.1",
+      "get-caller-file": "^2.0.5",
+      "string-width": "^7.2.0",
+      "y18n": "^5.0.5",
+      "yargs-parser": "^22.0.0"
+    },
+    "engines": {
+      "node": "^20.19.0 || ^22.12.0 || >=23"
+    },
+    "integrity": "sha512-4UEqdc2RYGHZc7Doyqkrqiln3p9X2DZVxaGbwhn2pi7MrRagKaOcIKe8L3OxYcbhXLgLFUS3zAYuQjKBQgmuNg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/yargs/-/yargs-18.0.0.tgz",
+    "version": "18.0.0"
+  },
+  "lock_path": "node_modules/yargs",
+  "name": "yargs",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1146,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "2f1a503bfab84b3ba7393627308b3274501e459e3b5185bbb56bbf16cb1602d4",
+      "text_file": "image-notices/2f1a503bfab84b3ba7393627308b3274501e459e3b5185bbb56bbf16cb1602d4.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 47876,
+    "installed_in_image": false,
+    "integrity": "sha512-4UEqdc2RYGHZc7Doyqkrqiln3p9X2DZVxaGbwhn2pi7MrRagKaOcIKe8L3OxYcbhXLgLFUS3zAYuQjKBQgmuNg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/yargs/-/yargs-18.0.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "99800bd5af16c7d01de7040265eb60b9cb3cc8c92aaec96701568700b5853350"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "18.0.0"
+}

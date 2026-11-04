@@ -1,0 +1,11 @@
+{
+ "witness_missing": [
+  "rail2536.txt",
+  "scpcyc07.txt",
+  "scpcyc10.txt",
+  "scpe3.txt",
+  "scpnrg3.txt",
+  "scpnrh3.txt"
+ ],
+ "note": "K uses the best literature value, or has no signal when B==K; the official library has no listed solution and no K coverage was produced during task authoring (tracked as item ② in PROVENANCE). Reuse by isomorphism is covered by round-trip consistency and multiset checks."
+}

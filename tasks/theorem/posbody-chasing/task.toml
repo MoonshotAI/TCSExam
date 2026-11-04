@@ -1,0 +1,39 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-posbody-chasing-bare-proof"
+version = "0.1.0"
+description = "Prove the Bhattacharya-Buchbinder-Levin-Saranurak O((1/epsilon)log(d/epsilon)) competitive bound for chasing positive bodies (FOCS 2023, arXiv 2304.01889; Theorem 3.6 = Theorem 1.1) in Lean 4 (machine-verified). L2: statement fidelity only, no ground truth."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "online-algorithms", "convex-body-chasing", "kl-divergence", "lp-duality", "competitive-analysis", "type-2"]
+
+[metadata]
+family_id = "fam-posbody-chasing"
+candidate_id = "cand-bbls23-posbody-chasing"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task (bare tier): only the main theorem statement is given; the whole analysis chain must be rebuilt."
+source_paper = "Bhattacharya, Buchbinder, Levin, Saranurak: Chasing Positive Bodies, FOCS 2023; arXiv 2304.01889v2."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-theorem-posbody-chasing-verifier"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

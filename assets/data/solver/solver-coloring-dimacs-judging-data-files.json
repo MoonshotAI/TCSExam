@@ -1,0 +1,580 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/tx001.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx001.col",
+      "git_blob": "30ce5d45870717126da9214af0f07b9bb11375a7",
+      "bytes": 4681,
+      "sha256": "c9fff8ec398c1b5f59452b94764191a80afd6c3e7098520fae42e1157b2fa2ee",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx002.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx002.col",
+      "git_blob": "328ea4a90acdd3b9818390f68843cb0ef2fb5a12",
+      "bytes": 1850,
+      "sha256": "cdaf8b70f0fb5c6038e94fa7f1dd01dc59975b095e35739847fb8da82e81f48f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx003.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx003.col",
+      "git_blob": "c44c76c51073e3d0a31fca35705684724df72dee",
+      "bytes": 597,
+      "sha256": "c3e86db9b4e02fe3bb78a42fb22248cb79f181e761a60c9d0b3c2b6107da30ca",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx004.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx004.col",
+      "git_blob": "f69635e2c23052493db30461ccb33e64a9159910",
+      "bytes": 4673,
+      "sha256": "639ae82bb5d987663afd3f4bb478023872be7cfd5ed1c57a5099697541ef1bf5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx005.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx005.col",
+      "git_blob": "d5d69a95d937186b5b081b58395f164f50108ee1",
+      "bytes": 37823,
+      "sha256": "79f38f376888004a4ba844ac00bb832aa1c0a5ef6d8ab37260bd85bdd5a9297a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx006.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx006.col",
+      "git_blob": "a94c3e7ad73b99e2ddb66d57a6b3c5ab00402419",
+      "bytes": 64385,
+      "sha256": "dcf7c84aab7c57803759d074a406b4252f4fdf3fd7ad20ae55fd10e687af4621",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx007.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx007.col",
+      "git_blob": "530f127a65c89900c7e13b304743901f42af0075",
+      "bytes": 887434,
+      "sha256": "c996f66b8e421f76d2b931af48ab4acd026e9205ede34500c79d4bda92bbb463",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx008.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx008.col",
+      "git_blob": "2e665ae6ea584a739bc8c0df4c1e3991690fdd4f",
+      "bytes": 6841,
+      "sha256": "537138014feebad58fe02db3db1aece99fa67f4057a3a89739779c2ba4bfe09c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx009.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx009.col",
+      "git_blob": "acf887a92a695cfcf13dff98cca21e4ebde97507",
+      "bytes": 113291,
+      "sha256": "03310470987ed80871e4a2a8d8ae4d00c0f5a421aecf82846d8c047863007cea",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx010.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx010.col",
+      "git_blob": "03579f7e7ab20ce79ff503a1220f4ec01db01010",
+      "bytes": 2444699,
+      "sha256": "77ca28a631771cffe5c18427f6cd9250296db0d077f288c85ae82d42769e29bd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx011.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx011.col",
+      "git_blob": "95976d290d2b762bb1a7b3803c5e6a0795f660ab",
+      "bytes": 6152,
+      "sha256": "5e2cff3f19a9fd27b4d5393d06fbfebaec93962cc303fbac2788b8aa31279545",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx012.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx012.col",
+      "git_blob": "e2b25807aa500c29dacb3cfcd26c8c954af3f18f",
+      "bytes": 32267,
+      "sha256": "9083bc46ef51a3c07e4de07361b5dd7de3fa00933ce9b695b7ee3d40f191826c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx013.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx013.col",
+      "git_blob": "da50782e97dcc30a00f1a39c4594a9abb5862a55",
+      "bytes": 254884,
+      "sha256": "d0c0e15d1ca516e976105653aa4b9314ace1e88f500beffaf0bcc1d2a279dfe9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx014.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx014.col",
+      "git_blob": "4762d54987cc867988796164eb14a029a322e631",
+      "bytes": 119232,
+      "sha256": "b39dc248dedc9eedb053dc617ce19679dd690d1adc5643898b0a304b573a6ec4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx015.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx015.col",
+      "git_blob": "311c7c74b179ab498d604527cd88c9b9e38eaaed",
+      "bytes": 8309,
+      "sha256": "da36cd19851805f4bbf7d3e8278cc319ffbd43c942396dfb74401fb53a091c12",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx016.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx016.col",
+      "git_blob": "f772089f3f0c24011c5238ad3aafb8528771dd04",
+      "bytes": 10204,
+      "sha256": "d1dde99cd9c622abcb540449b9c6bbc6ba754aa85a858f1a28fb32c5b96b3018",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx017.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx017.col",
+      "git_blob": "2668cd51294713211de62127db0e215e07270163",
+      "bytes": 196,
+      "sha256": "7cfde2084b4593f6ab8723e52e7cef7fe59c0a51be63e643a68a6e03a2a60ffa",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx018.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx018.col",
+      "git_blob": "60e738b22a59c89ffead56b605ff262c0190de52",
+      "bytes": 653,
+      "sha256": "ef24c77d02e027d3b7e92f5a306ac683ea6517f38eaeadb7cdd4cc07087dbba6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx019.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx019.col",
+      "git_blob": "19969893d1eed3412f861d27df10b2305f33714a",
+      "bytes": 1247,
+      "sha256": "90df464a482c0d75de420011cb591fa87eebfc67b20b21adbdcce4a86e9303fc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx020.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx020.col",
+      "git_blob": "14f90fc9b592bb517bbb9a46729af1e4fdaf1335",
+      "bytes": 2656,
+      "sha256": "45fc217718f0d257c946b0ec2d2b07cd1792cf5deb54dce3ed12f2a2f18a7629",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx021.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx021.col",
+      "git_blob": "03f171c8fe63f46b4128c7a809f190ff65e767fd",
+      "bytes": 2122,
+      "sha256": "e4fce78dacb1375b7975d66b8f8205da9ba061341d57864c4514693307f9a2f1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx022.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx022.col",
+      "git_blob": "a6ab9e6c6071c58b6b9166bb712042e196b130ba",
+      "bytes": 3612,
+      "sha256": "6722deaa22a1b7a7a0cd975c24636701c171ca28453e81cef2df4d0290e616f4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx023.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx023.col",
+      "git_blob": "33885f0a4f77c7f68ef6fdcd051c43140df3c58a",
+      "bytes": 6226,
+      "sha256": "8ed103577f1e4c61f22741b9114500634829eaca26ac1e01490a5691f324e50c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx024.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx024.col",
+      "git_blob": "df6c88bb27f827a145c171088ef93d4e7c13bec9",
+      "bytes": 6777,
+      "sha256": "e947ea867bee94350a2f0f27980e210be894fb0b62517d84115aa990ecec9045",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx025.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx025.col",
+      "git_blob": "bd3953313643ff8f1b7ffff4c3bf42be52da5f7a",
+      "bytes": 19330,
+      "sha256": "eef25a73d42ca52fb65d80a0470e71b811a1e21395eaf08e450e8906fde49bd4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx026.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx026.col",
+      "git_blob": "d7c4373129b6f14c29acb8a74f36fdb9261bfb98",
+      "bytes": 879,
+      "sha256": "68b4e3b43744f507a9cad35e4bfce2fcd531d2b75a3689aa09103ef0abab4936",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx027.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx027.col",
+      "git_blob": "c2a73ef7b03b7731277cb69425c8dc57d576ee95",
+      "bytes": 10978,
+      "sha256": "69b6781df256cb4606f12ff0932f7cbdd8df02209d3baeba60e1cf949db0828e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx028.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx028.col",
+      "git_blob": "8a3c4d4c81205e27c02cd4000a8db79166a1bebb",
+      "bytes": 40544,
+      "sha256": "37633b968ef82289e76ce572d253235d97fbd28c7e9024ff16b54cbb027f4fb9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx029.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx029.col",
+      "git_blob": "8037dc00c8911516c5fda74d8a1f142e0a399f54",
+      "bytes": 2406060,
+      "sha256": "3396a92070291339addb6fa969d3aa8cbc350660c802dade018b3a165270a4b0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx030.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx030.col",
+      "git_blob": "2763fe3d1593b2669676b7638f3b1c2ecd55255c",
+      "bytes": 198354,
+      "sha256": "d3b0f82d9b08648a11deac0b0d40df18e692e6c42b1b9d5760c5d45052d28996",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx031.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx031.col",
+      "git_blob": "51ca80adcc1c9414c70b3d29e27f9ae3df7307a3",
+      "bytes": 82474,
+      "sha256": "ba4ce6c82b721cb448f5cc603d05bcc17461e300ac79abef87689f7e8e4e7a97",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx032.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx032.col",
+      "git_blob": "d2be8cccac751301d4750bdedcdd69e7ab70e872",
+      "bytes": 134228,
+      "sha256": "cdbdf62ab372fd5eebc612afe509918d8acc157bd06bd754e66ff0cf45774d18",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx033.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx033.col",
+      "git_blob": "51d7afee3627fb2f80fbc752e5464229f8efbb6f",
+      "bytes": 77920,
+      "sha256": "791e172311c2c9c71d6d4bb44bc90abfb7a8dba2df16cbbf75aefc268036f385",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx034.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx034.col",
+      "git_blob": "74eac9aeb64107f7cb4014f31bea6cc435e58a6a",
+      "bytes": 158720,
+      "sha256": "2ab642408b0e5cc47c4d93ee6996e9a83714bd3a5caedbf9d50943d1e26be3ac",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx035.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx035.col",
+      "git_blob": "e17737b839d04bd26a5ae42fedac3a5b3cc648d3",
+      "bytes": 166466,
+      "sha256": "b0f9b85028b34c43c144c98e9854010e224ad0752d054ec42dcc19371949a4e1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx036.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx036.col",
+      "git_blob": "6cee5d85239a48a7b097a469870dad75720e9500",
+      "bytes": 93405,
+      "sha256": "260abbaae0098110402f16aee94039f5b790797ff59a924b730cc19992763ae5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx037.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx037.col",
+      "git_blob": "ba9c78e5c6cf87345e2e6d36a795257c1292e434",
+      "bytes": 43291,
+      "sha256": "526ddbec57fa32521ca295f42651e6a5ff11e30313f3410f60844c0082c4a34f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx038.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx038.col",
+      "git_blob": "378b0b37920d28608f0c83b6bc49bcb207c546e5",
+      "bytes": 9782,
+      "sha256": "2741a4dc12260582ee72df284c4d7eea32b08530c8e2583e9d804fc321d529d3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx039.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx039.col",
+      "git_blob": "19cce9ed499f96df9aeba2e305414ca0d5c0f609",
+      "bytes": 1357,
+      "sha256": "fe8398ab765726dc4df00deb347eee26400e8e0044ffa08f0367c69282443311",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx040.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx040.col",
+      "git_blob": "aa0fbb5099514bc1a912985cca73991c1bf7786e",
+      "bytes": 34789,
+      "sha256": "b327a2ecf3a325a77478b28b6ab93632067500437a9ec65ec9b7cbae408957f8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx041.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx041.col",
+      "git_blob": "1d12f1327d9d313c556cba0d3c3a2b64211f51c7",
+      "bytes": 569,
+      "sha256": "bd4bc5453b01998da784972a9bdbd549daae90ca230a3e5da2d629decb47e720",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx042.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx042.col",
+      "git_blob": "9c376a1f6769466d2fe869a04003ea7dd9c698b0",
+      "bytes": 1249,
+      "sha256": "63608f0fe197b06c1a617b06aa89e9453304f40757108abc3f29700236de78cc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx043.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx043.col",
+      "git_blob": "38972a24ecec2b2b75998b6d6f1c4114834b096f",
+      "bytes": 1071,
+      "sha256": "198218d4fd62edced219e7014c9e842d312fd20c8557ed56fdb9fc9d20c97ba7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx044.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx044.col",
+      "git_blob": "57bc5af7921c492bc40e32a03bc03d8032806d34",
+      "bytes": 1120,
+      "sha256": "6da138eadca43ec5ae77f5fd6249a795de13ddfc16f6283bb8ab3d49aed470bd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx045.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx045.col",
+      "git_blob": "6018af051a6fddee74f44a5c670524c8ce11da69",
+      "bytes": 1214,
+      "sha256": "80f956b610ef195f4551736ca8cb5b755197d6ecafe9e48fb26789dc8f7f83f6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx046.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx046.col",
+      "git_blob": "069ec900cba99bd2dfa8286ab27994cce088af1a",
+      "bytes": 956,
+      "sha256": "d8189a92fb5d03c49944cabb2596718599b13dd66ce5362050ededf3f6e53941",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx047.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx047.col",
+      "git_blob": "97d155f1c701e5736e12449b8eb71db08c5f7c42",
+      "bytes": 1374,
+      "sha256": "6e54770170d701c5d51e2906f81450be36ef136185e69dca4c7d732ae55f19d2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx048.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx048.col",
+      "git_blob": "9f8f0959171da91b980ff14de3e1ae6abefd8329",
+      "bytes": 1999,
+      "sha256": "b6e5cd36068b7360e172d641a8d449d70974cd8aa7496f444949d0e67ab6130e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx049.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx049.col",
+      "git_blob": "293cfcff269b7b7243c6584a79f3206d308c1e66",
+      "bytes": 2494,
+      "sha256": "1e850eaaf27b79964c60c571905cdd3007e813a0a6ff44de8610d07e6a67c63a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx050.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx050.col",
+      "git_blob": "adb84cff646be2d29f0329965e1d00a4323dc2b0",
+      "bytes": 3324,
+      "sha256": "a478499f60e46925412991f4a9600c921389eb958f184e01021cb3e100253e73",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx051.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx051.col",
+      "git_blob": "fa2e6f3b96e4ce7de61a134ddd6e5416660426e7",
+      "bytes": 10063,
+      "sha256": "34228aedcf5365d8464304ddb06e3e2d637ecc753842dc805596575aa55ff5f4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx052.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx052.col",
+      "git_blob": "913749e40639f06e8f53ce7bf55d6d2e0e8a6aab",
+      "bytes": 11661073,
+      "sha256": "aa37161cbcc0767d81af737925201e95b62b6819041412ea17bbc112b459217d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx053.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx053.col",
+      "git_blob": "6affcb4ca3a1f2d69f8000e54762076aafc29239",
+      "bytes": 254794,
+      "sha256": "5f8782216e8a6ac691494087e5880dc825f98abe4204a762a43711b19e2a685b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx054.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx054.col",
+      "git_blob": "ec3ab93849dee5d80166dccfbd934ec8f3ca466a",
+      "bytes": 16329,
+      "sha256": "2fa52afcee86488fe1c58fc8830f038b599ce82335d2d13745b807ec22e8e478",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx055.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx055.col",
+      "git_blob": "d016cbb66aeedaf0a9a02200cb2880715d84193e",
+      "bytes": 37271,
+      "sha256": "c94b59cbf56fcf6644248281220578a09501ad7077670d9bb25996930b609b17",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx056.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx056.col",
+      "git_blob": "9ff761a4a9c93ea38904048470d42f62d2d1fa62",
+      "bytes": 2230,
+      "sha256": "d048fa1c3c736ef12bdefb4851856821f27068537951d7d8e274ec7b3548da9f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx057.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx057.col",
+      "git_blob": "2809e0ed013af060605ae35f9324f0006cfea77d",
+      "bytes": 3687,
+      "sha256": "669df3f94dd71eaea05e1d121f7efcec219c59a2f571fb5aba4cec688a0f1911",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx058.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx058.col",
+      "git_blob": "d131a8c148b52f86dcd1359c1e7d5fb42704c01a",
+      "bytes": 12129,
+      "sha256": "90beb9318e4d1ba3c9c8e7448cbbf067fc4fad55503aacba7fb9c09888bbeddc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx059.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx059.col",
+      "git_blob": "601df5444cdf789fa36e1f4ebed28c064d053945",
+      "bytes": 10637,
+      "sha256": "3223aa0ba1d08e766c2acd63e421d33dc7073ea0c1198882b67edf79f3772aaa",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx060.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx060.col",
+      "git_blob": "1c156e9a4b179311ebb2780a291b4869a2d74458",
+      "bytes": 18365,
+      "sha256": "d51d0a7d3f6510bb52847e02de34f4ed724978d33c8d1b921f08273f43ea3878",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx061.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx061.col",
+      "git_blob": "76aea0e941db98b70f23babf7708914f1ade0e17",
+      "bytes": 31782,
+      "sha256": "18939cb76056e0b568c63cb1dcb1f9299064260522305a9f89c97aa95b72c876",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx062.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx062.col",
+      "git_blob": "3733638a7eedcc8d29c4d4e46a6e2c2ffce58692",
+      "bytes": 18385,
+      "sha256": "7462a7c846bbbd078b044dfef1872e2b65202f9962888e47703ac83a2f4856de",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx063.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx063.col",
+      "git_blob": "f5b6bdb2e675724230f1ada456f8ce36abee6d9c",
+      "bytes": 16508,
+      "sha256": "d384ab246a8f51714e2688f9003248be49fa77e0e25c7be7d924a85711ef8680",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx064.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx064.col",
+      "git_blob": "cced7d4ba4288f65740239a9da60501ea6ec88c5",
+      "bytes": 15960,
+      "sha256": "9a653937c58260e63bfb120d2202659c6e4863c290a31e76406e4a0e40b55ae4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx065.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx065.col",
+      "git_blob": "eb70973797846ef86b5d34ef0aa776b94a288e59",
+      "bytes": 30232,
+      "sha256": "e1889f8a5be02d41ed4977151bdaf9d2e92d595d3e30228cd9071bdb19d42b41",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx066.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx066.col",
+      "git_blob": "6137df16aeb9d40f003733656f4d7bc9b914ab03",
+      "bytes": 29266,
+      "sha256": "4491d604d343d7571f77e50579fb2e20b9437d4e293ed472e176b29250805f53",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx067.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx067.col",
+      "git_blob": "1e5cc885024195062461ffef5e2a99c78e070d4d",
+      "bytes": 34871,
+      "sha256": "2da0b5f7c7e67288e5fc90d9477cfcfe554874a9c7c214eaba7c9d5788fe2030",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx068.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx068.col",
+      "git_blob": "924b3f11bdf544460a0a907ff1e7a054723e11c1",
+      "bytes": 179979,
+      "sha256": "f2991761e712ace947a47c00116c9095e5eec9281ff2b322664609fb85b1360c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx069.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx069.col",
+      "git_blob": "4c7b5acbd08bb82e69eb85b6d533f7d2b91536fe",
+      "bytes": 425545,
+      "sha256": "4e88b93ef00d933f96ef1f84c5e3a12387966324f9a3e6ca6a8a1004492de0f3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx070.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx070.col",
+      "git_blob": "a0d44d2ad4d0c99577f321f769644725da98c24a",
+      "bytes": 1112547,
+      "sha256": "fed5d563f4ee7dc773c7623e63bec0b5f9724050382c419d6e8cab20ff73cd48",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx071.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx071.col",
+      "git_blob": "54eabaef5076ea33ef55b3c4a9a835aa8f60505b",
+      "bytes": 1129356,
+      "sha256": "b96468f60ba28abf0614c7107ddaaa70d3a914a291f2fd1b06d10bfc7451f89f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/tx072.col",
+      "source_path": "tasks/solver/online/coloring-dimacs/tests/instances/tx072.col",
+      "git_blob": "395feae0ac52a197fd5b0b52526a76a15fa32820",
+      "bytes": 36971,
+      "sha256": "d08e6cf27eaa19499fb69d7c8607072da0f15ac0bdf62a12e6b4650adcc90f3b",
+      "mode": "0644"
+    }
+  ]
+}

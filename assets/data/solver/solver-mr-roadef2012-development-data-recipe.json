@@ -1,0 +1,466 @@
+{
+  "format": "official_files",
+  "description": "Exactly40 original machine-reassignment input model/initial-assignment files from the fixed OR-Tools commit plus the original official problem-definition PDF. Initial assignments are declared problem inputs, and no solver answers or score files are downloaded.",
+  "source_commit": "06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c",
+  "sources": [
+    {
+      "id": "mr2012-assignment_a1_1-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a1/assignment_a1_1.txt",
+      "bytes": 200,
+      "sha256": "da85d10336623e9bf4adb479e505ccad4921b80d2227ba9b0edce3ac782326ea"
+    },
+    {
+      "id": "mr2012-assignment_a1_2-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a1/assignment_a1_2.txt",
+      "bytes": 2900,
+      "sha256": "371568eeb8376b564dd160c694a5b70ef0aa1d28177a7f4c6860d1f6c7c41aa5"
+    },
+    {
+      "id": "mr2012-assignment_a1_3-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a1/assignment_a1_3.txt",
+      "bytes": 2883,
+      "sha256": "e479144d9f405b78de6bdbb26e51a0fa0e4133b3214744359c67bb41e8a09a33"
+    },
+    {
+      "id": "mr2012-assignment_a1_4-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a1/assignment_a1_4.txt",
+      "bytes": 2818,
+      "sha256": "a37344ddf5842c25c435ea49c67af11425bbbe4edb062fc7253ec7cc04466ac0"
+    },
+    {
+      "id": "mr2012-assignment_a1_5-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a1/assignment_a1_5.txt",
+      "bytes": 2144,
+      "sha256": "105586f5d172c0a533160421b79b5e19a55ada3a911322fddfd8595aacd0a28d"
+    },
+    {
+      "id": "mr2012-assignment_a2_1-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a2/assignment_a2_1.txt",
+      "bytes": 2898,
+      "sha256": "0cdaa428f92123bd9d1ebf8681625a650699eba56d85a8ca707d42437b98cc47"
+    },
+    {
+      "id": "mr2012-assignment_a2_2-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a2/assignment_a2_2.txt",
+      "bytes": 2902,
+      "sha256": "35a6293752f259abbf94700de15b1776435f1fdd826ec2c5808a45833862a826"
+    },
+    {
+      "id": "mr2012-assignment_a2_3-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a2/assignment_a2_3.txt",
+      "bytes": 2901,
+      "sha256": "bf9742763f635328f596d961e8d1bbd9bdcfaebab906d02f8c567611285df7ed"
+    },
+    {
+      "id": "mr2012-assignment_a2_4-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a2/assignment_a2_4.txt",
+      "bytes": 2786,
+      "sha256": "ae22ff309dfa4e78c2e82219dc6927522c7d18425ebe252afe2e1d201ded52c6"
+    },
+    {
+      "id": "mr2012-assignment_a2_5-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a2/assignment_a2_5.txt",
+      "bytes": 2781,
+      "sha256": "be0e7a8923042121b4452ff806c0c62a6a009af2ecc62d338878136df3c24337"
+    },
+    {
+      "id": "mr2012-assignment_b_1-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/assignment_b_1.txt",
+      "bytes": 14507,
+      "sha256": "2c83fea37f3cb8250f48012f09cacd436744399ab0c1490221539c8dfe80effe"
+    },
+    {
+      "id": "mr2012-assignment_b_10-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/assignment_b_10.txt",
+      "bytes": 238953,
+      "sha256": "6c8b727fd3cd625f6e11459ae9fcc5e05882b5e4b3043db1c60a16533227fe66"
+    },
+    {
+      "id": "mr2012-assignment_b_2-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/assignment_b_2.txt",
+      "bytes": 14489,
+      "sha256": "b92f7c6a86a372970317aa8c23c732828f66bd130d4e606d11ebc6e242fec23f"
+    },
+    {
+      "id": "mr2012-assignment_b_3-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/assignment_b_3.txt",
+      "bytes": 58008,
+      "sha256": "66022c4c656b7317b130bf7a41ff0695b50b2ea614f7d8573baec62a0908f0d0"
+    },
+    {
+      "id": "mr2012-assignment_b_4-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/assignment_b_4.txt",
+      "bytes": 75580,
+      "sha256": "f685a2aa2fec6224b9b294a7f7227e754558715dcf24d0c248d6cb312c7c64d2"
+    },
+    {
+      "id": "mr2012-assignment_b_5-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/assignment_b_5.txt",
+      "bytes": 116026,
+      "sha256": "52fd65dde6f0d3fcc7256c745f6aed6fc5b930c0eb799aa06300c8469c99abb4"
+    },
+    {
+      "id": "mr2012-assignment_b_6-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/assignment_b_6.txt",
+      "bytes": 138007,
+      "sha256": "7896a7a3fe6d6ca087a7b110924b6294f5ae4431973dcacaed2f7343090df63e"
+    },
+    {
+      "id": "mr2012-assignment_b_7-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/assignment_b_7.txt",
+      "bytes": 188891,
+      "sha256": "f14f74413990be358cd3f6960e5aa2c6cb7f0ca7693e7a74002ff6b463dd8467"
+    },
+    {
+      "id": "mr2012-assignment_b_8-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/assignment_b_8.txt",
+      "bytes": 144953,
+      "sha256": "81d39ed1a25659f10b3771a9a66fb17cdaeab16b539e077fab9e61e08cab4010"
+    },
+    {
+      "id": "mr2012-assignment_b_9-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/assignment_b_9.txt",
+      "bytes": 194359,
+      "sha256": "89943c3297f31bff0ef72fe6eb0060d0a443920b3f74502e96b251bde6d09eed"
+    },
+    {
+      "id": "mr2012-model_a1_1-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a1/model_a1_1.txt",
+      "bytes": 2389,
+      "sha256": "52dea68d80ea1e529bc5c51e4f6c09ef6d8211a3557ceceeb058bfff6f7459d5"
+    },
+    {
+      "id": "mr2012-model_a1_2-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a1/model_a1_2.txt",
+      "bytes": 62522,
+      "sha256": "9eaedd1aa6464275cf0eee82cc93748f006a5c642e22ea3c9dda67c71f2425b7"
+    },
+    {
+      "id": "mr2012-model_a1_3-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a1/model_a1_3.txt",
+      "bytes": 50863,
+      "sha256": "c1d016d860bc51e4525e37484a7fa3a666d1e5f61b219bd38645e4f73ffd6f53"
+    },
+    {
+      "id": "mr2012-model_a1_4-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a1/model_a1_4.txt",
+      "bytes": 32825,
+      "sha256": "30add81e7d35e8278b76c73a421da2f613239c2985a0371d73250b3580b98265"
+    },
+    {
+      "id": "mr2012-model_a1_5-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a1/model_a1_5.txt",
+      "bytes": 36914,
+      "sha256": "fc45b8a5dd788cf749bb0672662ff9a3b5a3109b305012f68ee6235ca2aa5d71"
+    },
+    {
+      "id": "mr2012-model_a2_1-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a2/model_a2_1.txt",
+      "bytes": 54706,
+      "sha256": "3ea1b5c1f9c525a05384708b979f1f7692c2a3bb0d2014797d26f4898b9c3048"
+    },
+    {
+      "id": "mr2012-model_a2_2-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a2/model_a2_2.txt",
+      "bytes": 109862,
+      "sha256": "2132bae5e781345c2b247ea5965932b57b285d43880fbc08d27cc55d2a3505a3"
+    },
+    {
+      "id": "mr2012-model_a2_3-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a2/model_a2_3.txt",
+      "bytes": 110852,
+      "sha256": "254cc96eff34179e07c661a9de44ec7380732791069d18b96b75743489805867"
+    },
+    {
+      "id": "mr2012-model_a2_4-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a2/model_a2_4.txt",
+      "bytes": 87545,
+      "sha256": "9efeb99e20432bbf3ed394ba1b9bd4cf21e02daa3e0358fe761cf843110bf395"
+    },
+    {
+      "id": "mr2012-model_a2_5-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_a2/model_a2_5.txt",
+      "bytes": 86901,
+      "sha256": "4741abcc1a2ff34699850437ee3bd67f49c90ab27ac1cf51e15c2b85eaac61ca"
+    },
+    {
+      "id": "mr2012-model_b_1-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/model_b_1.txt",
+      "bytes": 427030,
+      "sha256": "306ddc315c5070387b1606718fbf031518f16ad22d623cb76d1eb79ad3a681e6"
+    },
+    {
+      "id": "mr2012-model_b_10-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/model_b_10.txt",
+      "bytes": 51668106,
+      "sha256": "14f4af171282bbed1f0c9200599a403fdfe15fae8e983afdb4e45c186e607855"
+    },
+    {
+      "id": "mr2012-model_b_2-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/model_b_2.txt",
+      "bytes": 424406,
+      "sha256": "0deb4decdffe988ebea4d7dcd6cddd4f45bbd0729981593d15eb449a64c8891a"
+    },
+    {
+      "id": "mr2012-model_b_3-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/model_b_3.txt",
+      "bytes": 989332,
+      "sha256": "e11f06e5559ca7b05cff4426f920556984a70a284283a7d2c101644902ee0d64"
+    },
+    {
+      "id": "mr2012-model_b_4-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/model_b_4.txt",
+      "bytes": 1490568,
+      "sha256": "fb2bb4d6df59fc51ae8c622f49fd93eb24118810f418271f4d7dfb6b63ff07f0"
+    },
+    {
+      "id": "mr2012-model_b_5-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/model_b_5.txt",
+      "bytes": 1938357,
+      "sha256": "be040409c5fd7b0ffd9121b5395b40e972b5cb43f359d1f6aa26dff12c414e88"
+    },
+    {
+      "id": "mr2012-model_b_6-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/model_b_6.txt",
+      "bytes": 1945033,
+      "sha256": "41e7fe1c06783e6292157c5abbcb16ec91aabb7020c35a7323dc80651c5bbd66"
+    },
+    {
+      "id": "mr2012-model_b_7-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/model_b_7.txt",
+      "bytes": 34213694,
+      "sha256": "7e3300b993069c3aef3da86fe135db2b5156ea78097bb65d6e9d8d0c3515f9e0"
+    },
+    {
+      "id": "mr2012-model_b_8-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/model_b_8.txt",
+      "bytes": 1619726,
+      "sha256": "d51a4cc0ad76c598135007d499b853ce522d4e52ec0fd4a930d461df36c0c857"
+    },
+    {
+      "id": "mr2012-model_b_9-txt",
+      "url": "https://raw.githubusercontent.com/google/or-tools/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/data/roadef_challenge_2011/data/data_b/model_b_9.txt",
+      "bytes": 3448350,
+      "sha256": "ad31efb387d96cebb125a9328ffb49277128d8e1d74f0f13a03976bdda667ff5"
+    },
+    {
+      "id": "mr2012-problem_definition_v1_1-pdf",
+      "url": "https://www.roadef.org/challenge/2012/files/problem_definition_v1_1.pdf",
+      "bytes": 197799,
+      "sha256": "547b87663e080e13d691a4a62256a3bf1798cefbabf7ee17f0703d027e6a91c0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances/assignment_a1_1.txt",
+      "source_id": "mr2012-assignment_a1_1-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_a1_2.txt",
+      "source_id": "mr2012-assignment_a1_2-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_a1_3.txt",
+      "source_id": "mr2012-assignment_a1_3-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_a1_4.txt",
+      "source_id": "mr2012-assignment_a1_4-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_a1_5.txt",
+      "source_id": "mr2012-assignment_a1_5-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_a2_1.txt",
+      "source_id": "mr2012-assignment_a2_1-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_a2_2.txt",
+      "source_id": "mr2012-assignment_a2_2-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_a2_3.txt",
+      "source_id": "mr2012-assignment_a2_3-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_a2_4.txt",
+      "source_id": "mr2012-assignment_a2_4-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_a2_5.txt",
+      "source_id": "mr2012-assignment_a2_5-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_b_1.txt",
+      "source_id": "mr2012-assignment_b_1-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_b_10.txt",
+      "source_id": "mr2012-assignment_b_10-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_b_2.txt",
+      "source_id": "mr2012-assignment_b_2-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_b_3.txt",
+      "source_id": "mr2012-assignment_b_3-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_b_4.txt",
+      "source_id": "mr2012-assignment_b_4-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_b_5.txt",
+      "source_id": "mr2012-assignment_b_5-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_b_6.txt",
+      "source_id": "mr2012-assignment_b_6-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_b_7.txt",
+      "source_id": "mr2012-assignment_b_7-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_b_8.txt",
+      "source_id": "mr2012-assignment_b_8-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/assignment_b_9.txt",
+      "source_id": "mr2012-assignment_b_9-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_a1_1.txt",
+      "source_id": "mr2012-model_a1_1-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_a1_2.txt",
+      "source_id": "mr2012-model_a1_2-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_a1_3.txt",
+      "source_id": "mr2012-model_a1_3-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_a1_4.txt",
+      "source_id": "mr2012-model_a1_4-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_a1_5.txt",
+      "source_id": "mr2012-model_a1_5-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_a2_1.txt",
+      "source_id": "mr2012-model_a2_1-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_a2_2.txt",
+      "source_id": "mr2012-model_a2_2-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_a2_3.txt",
+      "source_id": "mr2012-model_a2_3-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_a2_4.txt",
+      "source_id": "mr2012-model_a2_4-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_a2_5.txt",
+      "source_id": "mr2012-model_a2_5-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_b_1.txt",
+      "source_id": "mr2012-model_b_1-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_b_10.txt",
+      "source_id": "mr2012-model_b_10-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_b_2.txt",
+      "source_id": "mr2012-model_b_2-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_b_3.txt",
+      "source_id": "mr2012-model_b_3-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_b_4.txt",
+      "source_id": "mr2012-model_b_4-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_b_5.txt",
+      "source_id": "mr2012-model_b_5-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_b_6.txt",
+      "source_id": "mr2012-model_b_6-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_b_7.txt",
+      "source_id": "mr2012-model_b_7-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_b_8.txt",
+      "source_id": "mr2012-model_b_8-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/model_b_9.txt",
+      "source_id": "mr2012-model_b_9-txt",
+      "operation": "copy"
+    },
+    {
+      "path": "app/problem_definition_v1_1.pdf",
+      "source_id": "mr2012-problem_definition_v1_1-pdf",
+      "operation": "copy"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Original benchmark terms remain unresolved; local reconstruction grants no public redistribution approval."
+}

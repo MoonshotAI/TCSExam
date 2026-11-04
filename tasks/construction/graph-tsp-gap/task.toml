@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/graph-tsp-gap-lean-open"
+version = "1.0.0"
+description = "Open-proof task: in Lean 4, bring your own connected simple unweighted graph (n in [11,20] for the records), its exact shortest-path metric closure with walk witnesses, a rational subtour-LP feasible point and a Held-Karp potential table, and prove a lower bound alpha on the graph-TSP subtour-LP integrality gap. Milestones: the Desjardins 2017 per-n family values (26/21 at n = 20 scores 1.0), beating the per-n value is flagged record_broken, alpha > 4/3 is flagged beyond_4_3."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "graph-tsp", "subtour-lp", "integrality-gap", "held-karp", "4/3-conjecture", "open-proof", "open-construction"]
+
+[metadata]
+family_id = "fam-graph-tsp-gap"
+candidate_id = "cand-graph-tsp-gap-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open-proof"
+difficulty_explanation = "No instance, witness or lemma ladder is given: the agent must find a bad graph-TSP instance itself (the Desjardins 2017 family values, conjectured pointwise optimal, are the score anchors), certify the shortest-path closure exactly (metric premise, edge consistency, explicit realizing walks), engineer a kernel-checkable certificate (LP feasible point, Held-Karp potential table over 2^n masks) inside the fixed definition layer, and drive the large checks through native_decide within the verifier budget."
+source_paper = "Desjardins, On Applying Methods for Graph-TSP to Metric TSP, MSc thesis, University of Ottawa (Sylvia Boyd's group), 2017 (Conjecture 5.3.1, Figure 5.3.1, Theorem 5.3.2; exhaustive n <= 10); Sebo, Vygen, Shorter tours by nicer ears, Combinatorica 34(5):597-629, 2014 (upper bound 7/5 for graph-TSP)"
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-construction-graph-tsp-gap-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

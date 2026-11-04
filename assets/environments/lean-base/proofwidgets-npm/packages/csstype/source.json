@@ -1,0 +1,43 @@
+{
+  "author": "Fredrik Nicol <fredrik.nicol@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+    "version": "3.2.3"
+  },
+  "lock_path": "node_modules/csstype",
+  "name": "csstype",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1062,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e",
+      "text_file": "image-notices/11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 138324,
+    "installed_in_image": false,
+    "integrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "f3501f8ee1c73f7568fecb22c11231162c0467e59262461da5579519307427a3"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.2.3"
+}

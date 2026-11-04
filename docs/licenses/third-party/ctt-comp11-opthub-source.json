@@ -1,0 +1,33 @@
+{
+  "checked": "2026-10-13",
+  "source_page": "https://opthub.uniud.it/problems/timetabling/edutt/ctt/cb-ctt-ud2/instances/comp11",
+  "source_file": "https://opthubstorage.blob.core.windows.net/opthub-data/timetabling/edutt/ctt/cb-ctt-ud2/instances/ectt/comp11.ectt",
+  "local_sha256": "acafa60b1699c4f24bc4745a503b602cb6045d22a01ace7161309cce284ae457",
+  "upstream_sha256": "b356ab38b43c6003cd1eb1fa3a26ce5ab50a7e518b7d0f60c0ab92ea98a4639a",
+  "method": "Compare UD2 dimensions, course fields (first five), room fields (first two), curricula and unavailability; ignore END marker and additional ECTT variant fields outside UD2",
+  "matches": {
+    "name": true,
+    "dimensions": true,
+    "constraints": true,
+    "courses": true,
+    "rooms": true,
+    "curricula": true,
+    "unavailability": true
+  },
+  "reference_solution_sha256": "d17221d13e6790d5ac153e808213c3af244f1cc4c47048dec9811972f484e2cf",
+  "reference_solution_source_matches": [
+    "https://opthubstorage.blob.core.windows.net/opthub-data/timetabling/edutt/ctt/cb-ctt-ud2/solutions/comp11/comp11-anmar_81_hotmail_com_0.sol"
+  ],
+  "license_result": "No license statement found on inspected homepage, CTT listing or comp11 detail page; provenance match does not settle redistribution terms",
+  "upstream_solution_file_bytes_checked": true,
+  "followup_checked": "2026-10-15",
+  "additional_official_distribution": {
+    "repository": "https://github.com/tomas-muller/cpsolver-itc2007",
+    "fixed_commit": "a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06",
+    "source_file": "data/ctt/comp11.ctt",
+    "sha256": "acafa60b1699c4f24bc4745a503b602cb6045d22a01ace7161309cce284ae457",
+    "matches_local_bytes": true,
+    "directory_readme_source": "https://github.com/tomas-muller/cpsolver-itc2007/blob/a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06/data/ctt/readme.txt",
+    "directory_readme_scope": "Explicitly says instances were downloaded from the competition website. Root README describes the solver project. Root LGPL is not treated as an independent original-author grant for third-party competition data."
+  }
+}

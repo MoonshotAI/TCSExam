@@ -1,0 +1,38 @@
+{
+  "dependencies": [
+    {
+      "name": "base91"
+    },
+    {
+      "name": "duckdb",
+      "default-features": false,
+      "features": [
+        "autocomplete",
+        "json"
+      ]
+    },
+    {
+      "name": "expat"
+    },
+    {
+      "name": "graphviz"
+    },
+    {
+      "name": "llama-cpp",
+      "default-features": false,
+      "features": []
+    },
+    {
+      "name": "nlohmann-json"
+    },
+    {
+      "name": "triangle"
+    },
+    {
+      "name": "zstd"
+    },
+    {
+      "name": "zlib"
+    }
+  ]
+}

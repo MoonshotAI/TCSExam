@@ -1,0 +1,41 @@
+{
+  "task": "tasks/solver/online/jsplib-jssp",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/jsplib-jssp/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:8fed1489684d7749e7ba41bedbf1664faba43833b585ace3ae4cadf71b0167a8"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/jsplib-jssp/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "5835959ffe604295216b19e90b662b89c36c4a267b48d819b968d77b3802c7cd"
+    },
+    {
+      "source": "tasks/solver/online/jsplib-jssp/tests/scoring.py",
+      "target": "/opt/jssp/scoring.py",
+      "sha256": "f5f13f2a200983f2ea91398b842213fe0b25f2a2f43d4247ee968eb24cb22e7f"
+    },
+    {
+      "source": "tasks/solver/online/jsplib-jssp/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "a3d323c1b5883e2e44f90f8b9f19865a0829087694b0aaeb77d97fdec8f854f2"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": false,
+  "public_source_rebuild_verified": false,
+  "limitations": [
+    "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
+  ]
+}

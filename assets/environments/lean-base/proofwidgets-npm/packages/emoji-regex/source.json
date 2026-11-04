@@ -1,0 +1,46 @@
+{
+  "author": {
+    "name": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz",
+    "version": "10.6.0"
+  },
+  "lock_path": "node_modules/emoji-regex",
+  "name": "emoji-regex",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1077,
+      "installed_file": "notices/original/package/LICENSE-MIT.txt",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE-MIT.txt",
+      "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+      "text_file": "image-notices/483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 5610,
+    "installed_in_image": false,
+    "integrity": "sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "9f40e54c0586f30882ece0ee0d22654394b89321e89cb55e8faf12ed8ccff981"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "10.6.0"
+}

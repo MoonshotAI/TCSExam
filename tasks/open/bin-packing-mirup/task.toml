@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-bin-packing-mirup"
+version = "0.1.0"
+description = "Prove or refute the MIRUP conjecture (modified integer round-up property of one-dimensional bin packing: OPT(I) <= ceil(LP(I)) + 1 for the Gilmore-Gomory configuration LP) in Lean 4, kernel-verified. Open problem, mains-only: full score for proving or refuting, no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "combinatorial-optimization", "bin-packing", "cutting-stock", "integer-round-up", "mirup", "open-conjecture", "prove-or-refute"]
+
+[metadata]
+family_id = "fam-open-bin-packing-mirup"
+candidate_id = "bin-packing-mirup"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute"
+difficulty_explanation = "Open conjecture: MIRUP is unresolved since Scheithauer-Terno 1995 (IRUP verified for all instances with at most 9 items by Kartak-Kurz-Ripatti-Scheithauer 2015, non-IRUP instances known from 10 items on, no instance violating MIRUP known), so the two main slots are expected to stay unproven; there is no partial credit."
+source_paper = "MIRUP conjecture: Scheithauer-Terno 1995 (European Journal of Operational Research); non-IRUP threshold: Kartak-Kurz-Ripatti-Scheithauer, Discrete Applied Mathematics 2015, arXiv:1405.5988 (all instances with <= 9 items are IRUP; the 10-item instance (4,6,6,9,16,29,32,37,40,62)/81 has LP = 3, OPT = 4); still open: Borges et al., arXiv:2305.15291 (2023)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-bin-packing-mirup-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

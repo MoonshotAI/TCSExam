@@ -1,0 +1,740 @@
+{
+ "instances": {
+  "0000.txt": {
+   "B": 50563,
+   "K": 513068,
+   "K_old_260922": 508259,
+   "best_config": "0000-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0001.txt": {
+   "B": 51218,
+   "K": 518788,
+   "K_old_260922": 516575,
+   "best_config": "0001-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0002.txt": {
+   "B": 51261,
+   "K": 519914,
+   "K_old_260922": 517154,
+   "best_config": "0002-i1-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0003.txt": {
+   "B": 49460,
+   "K": 502193,
+   "K_old_260922": 500577,
+   "best_config": "0003-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0004.txt": {
+   "B": 51289,
+   "K": 518941,
+   "K_old_260922": 515874,
+   "best_config": "0004-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0005.txt": {
+   "B": 51588,
+   "K": 522488,
+   "K_old_260922": 490760,
+   "K_old_pool120s": 518561,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0006.txt": {
+   "B": 50060,
+   "K": 509756,
+   "K_old_260922": 509106,
+   "best_config": "0006-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0007.txt": {
+   "B": 49554,
+   "K": 503002,
+   "K_old_260922": 500688,
+   "best_config": "0007-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0008.txt": {
+   "B": 50087,
+   "K": 508519,
+   "K_old_260922": 505344,
+   "best_config": "0008-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0009.txt": {
+   "B": 50301,
+   "K": 510979,
+   "K_old_260922": 507387,
+   "best_config": "0009-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0010.txt": {
+   "B": 50134,
+   "K": 508118,
+   "best_config": "0010-i2-s101",
+   "k_provenance": "kfill-batch-b-260920:sa(6cfg:INIT\u00d7SEED,T0=100,T1=0.2,300s)@isolated execution environment-32C32G,verified-by-tests/scoring.py"
+  },
+  "0011.txt": {
+   "B": 50496,
+   "K": 511654,
+   "K_old_260922": 485865,
+   "K_old_pool120s": 510921,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0012.txt": {
+   "B": 49552,
+   "K": 504678,
+   "K_old_260922": 502996,
+   "best_config": "0012-i0-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0013.txt": {
+   "B": 52202,
+   "K": 530197,
+   "K_old_260922": 523431,
+   "best_config": "0013-i1-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0014.txt": {
+   "B": 49423,
+   "K": 501976,
+   "best_config": "0014-i1-s101",
+   "k_provenance": "kfill-batch-b-260920:sa(6cfg:INIT\u00d7SEED,T0=100,T1=0.2,300s)@isolated execution environment-32C32G,verified-by-tests/scoring.py"
+  },
+  "0015.txt": {
+   "B": 50196,
+   "K": 509036,
+   "K_old_260922": 508255,
+   "best_config": "0015-i0-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0016.txt": {
+   "B": 51290,
+   "K": 520757,
+   "K_old_260922": 519665,
+   "best_config": "0016-i1-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0017.txt": {
+   "B": 50118,
+   "K": 509170,
+   "K_old_260922": 508038,
+   "best_config": "0017-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0018.txt": {
+   "B": 49758,
+   "K": 504448,
+   "K_old_260922": 502376,
+   "best_config": "0018-i0-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0019.txt": {
+   "B": 50355,
+   "K": 511653,
+   "K_old_260922": 510094,
+   "best_config": "0019-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0020.txt": {
+   "B": 49900,
+   "K": 506535,
+   "K_old_260922": 478654,
+   "K_old_pool120s": 503387,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0021.txt": {
+   "B": 50397,
+   "K": 511365,
+   "K_old_260922": 482671,
+   "K_old_pool120s": 506988,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0022.txt": {
+   "B": 51280,
+   "K": 517713,
+   "K_old_260922": 517473,
+   "best_config": "0022-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0023.txt": {
+   "B": 49502,
+   "K": 503322,
+   "K_old_260922": 503121,
+   "best_config": "0023-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0024.txt": {
+   "B": 50568,
+   "K": 512424,
+   "K_old_260922": 508716,
+   "best_config": "0024-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0025.txt": {
+   "B": 50400,
+   "K": 511173,
+   "K_old_260922": 507326,
+   "best_config": "0025-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0026.txt": {
+   "B": 50583,
+   "K": 513828,
+   "K_old_260922": 485451,
+   "K_old_pool120s": 511014,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0027.txt": {
+   "B": 50585,
+   "K": 512675,
+   "K_old_260922": 487057,
+   "K_old_pool120s": 510491,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0028.txt": {
+   "B": 49766,
+   "K": 505346,
+   "K_old_260922": 481809,
+   "K_old_pool120s": 501964,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0029.txt": {
+   "B": 49737,
+   "K": 503704,
+   "K_old_260922": 501100,
+   "best_config": "0029-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0030.txt": {
+   "B": 51620,
+   "K": 523615,
+   "K_old_260922": 520653,
+   "best_config": "0030-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0031.txt": {
+   "B": 51210,
+   "K": 519987,
+   "K_old_260922": 517029,
+   "best_config": "0031-i1-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0032.txt": {
+   "B": 49657,
+   "K": 503417,
+   "best_config": "0032-i0-s101",
+   "k_provenance": "kfill-batch-b-260920:sa(6cfg:INIT\u00d7SEED,T0=100,T1=0.2,300s)@isolated execution environment-32C32G,verified-by-tests/scoring.py"
+  },
+  "0033.txt": {
+   "B": 51774,
+   "K": 524333,
+   "K_old_260922": 519473,
+   "best_config": "0033-i1-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0034.txt": {
+   "B": 50247,
+   "K": 509327,
+   "K_old_260922": 507890,
+   "best_config": "0034-i1-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0035.txt": {
+   "B": 50658,
+   "K": 513921,
+   "K_old_260922": 512755,
+   "best_config": "0035-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0036.txt": {
+   "B": 51344,
+   "K": 520713,
+   "K_old_260922": 494691,
+   "K_old_pool120s": 517032,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0037.txt": {
+   "B": 50122,
+   "K": 508825,
+   "K_old_260922": 482964,
+   "K_old_pool120s": 507242,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0038.txt": {
+   "B": 50021,
+   "K": 508088,
+   "K_old_260922": 506967,
+   "best_config": "0038-i1-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0039.txt": {
+   "B": 51217,
+   "K": 519499,
+   "K_old_260922": 516871,
+   "best_config": "0039-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0040.txt": {
+   "B": 50207,
+   "K": 508686,
+   "K_old_260922": 508018,
+   "best_config": "0040-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0041.txt": {
+   "B": 49575,
+   "K": 502530,
+   "K_old_260922": 472088,
+   "K_old_pool120s": 500451,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0042.txt": {
+   "B": 50487,
+   "K": 513733,
+   "K_old_260922": 509793,
+   "best_config": "0042-i1-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0043.txt": {
+   "B": 50699,
+   "K": 516439,
+   "K_old_260922": 514161,
+   "best_config": "0043-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0044.txt": {
+   "B": 49780,
+   "K": 506308,
+   "K_old_260922": 503679,
+   "best_config": "0044-i0-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0045.txt": {
+   "B": 51210,
+   "K": 519499,
+   "K_old_260922": 516144,
+   "best_config": "0045-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0046.txt": {
+   "B": 49797,
+   "K": 506683,
+   "K_old_260922": 503724,
+   "best_config": "0046-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0047.txt": {
+   "B": 50857,
+   "K": 516317,
+   "best_config": "0047-i0-s102",
+   "k_provenance": "kfill-batch-b-260920:sa(6cfg:INIT\u00d7SEED,T0=100,T1=0.2,300s)@isolated execution environment-32C32G,verified-by-tests/scoring.py"
+  },
+  "0048.txt": {
+   "B": 50727,
+   "K": 514836,
+   "K_old_260922": 511373,
+   "best_config": "0048-i0-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0049.txt": {
+   "B": 50525,
+   "K": 513195,
+   "K_old_260922": 512867,
+   "best_config": "0049-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0050.txt": {
+   "B": 50312,
+   "K": 511185,
+   "K_old_260922": 482721,
+   "K_old_pool120s": 508153,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0051.txt": {
+   "B": 50802,
+   "K": 515275,
+   "K_old_260922": 511103,
+   "best_config": "0051-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0052.txt": {
+   "B": 51173,
+   "K": 520156,
+   "K_old_260922": 517821,
+   "best_config": "0052-i1-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0053.txt": {
+   "B": 50774,
+   "K": 513391,
+   "K_old_260922": 511752,
+   "best_config": "0053-i0-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0054.txt": {
+   "B": 50490,
+   "K": 512101,
+   "K_old_260922": 511463,
+   "best_config": "0054-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0055.txt": {
+   "B": 49265,
+   "K": 500476,
+   "K_old_260922": 500194,
+   "best_config": "0055-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0056.txt": {
+   "B": 50500,
+   "K": 513616,
+   "K_old_260922": 509223,
+   "best_config": "0056-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0057.txt": {
+   "B": 49829,
+   "K": 505302,
+   "K_old_260922": 473837,
+   "K_old_pool120s": 500880,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0058.txt": {
+   "B": 49947,
+   "K": 506349,
+   "K_old_260922": 504295,
+   "best_config": "0058-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0059.txt": {
+   "B": 50533,
+   "K": 511194,
+   "K_old_260922": 508258,
+   "best_config": "0059-i1-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0060.txt": {
+   "B": 50512,
+   "K": 511586,
+   "K_old_260922": 508940,
+   "best_config": "0060-i0-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0061.txt": {
+   "B": 51488,
+   "K": 521075,
+   "K_old_260922": 520896,
+   "best_config": "0061-i1-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0062.txt": {
+   "B": 50651,
+   "K": 513760,
+   "K_old_260922": 511524,
+   "best_config": "0062-i0-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0063.txt": {
+   "B": 52251,
+   "K": 529236,
+   "K_old_260922": 526770,
+   "best_config": "0063-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0064.txt": {
+   "B": 51392,
+   "K": 521436,
+   "K_old_260922": 519727,
+   "best_config": "0064-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0065.txt": {
+   "B": 50317,
+   "K": 509885,
+   "K_old_260922": 508785,
+   "best_config": "0065-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0066.txt": {
+   "B": 50723,
+   "K": 515197,
+   "K_old_260922": 513438,
+   "best_config": "0066-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0067.txt": {
+   "B": 50158,
+   "K": 509156,
+   "K_old_260922": 507248,
+   "best_config": "0067-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0068.txt": {
+   "B": 48328,
+   "K": 490091,
+   "best_config": "0068-i0-s102",
+   "k_provenance": "kfill-batch-b-260920:sa(6cfg:INIT\u00d7SEED,T0=100,T1=0.2,300s)@isolated execution environment-32C32G,verified-by-tests/scoring.py"
+  },
+  "0069.txt": {
+   "B": 51127,
+   "K": 516914,
+   "K_old_260922": 486127,
+   "K_old_pool120s": 513824,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0070.txt": {
+   "B": 50667,
+   "K": 513777,
+   "K_old_260922": 481339,
+   "K_old_pool120s": 510161,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0071.txt": {
+   "B": 50247,
+   "K": 508048,
+   "K_old_260922": 484374,
+   "K_old_pool120s": 507140,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0072.txt": {
+   "B": 51249,
+   "K": 519921,
+   "K_old_260922": 517151,
+   "best_config": "0072-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0073.txt": {
+   "B": 50416,
+   "K": 511896,
+   "K_old_260922": 481413,
+   "K_old_pool120s": 508937,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0074.txt": {
+   "B": 50849,
+   "K": 514917,
+   "K_old_260922": 511481,
+   "best_config": "0074-i0-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0075.txt": {
+   "B": 51649,
+   "K": 522944,
+   "K_old_260922": 520423,
+   "best_config": "0075-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0076.txt": {
+   "B": 51512,
+   "K": 522012,
+   "K_old_260922": 518594,
+   "best_config": "0076-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0077.txt": {
+   "B": 50696,
+   "K": 515032,
+   "K_old_260922": 485591,
+   "K_old_pool120s": 511269,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0078.txt": {
+   "B": 50835,
+   "K": 516127,
+   "K_old_260922": 512981,
+   "best_config": "0078-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0079.txt": {
+   "B": 50658,
+   "K": 511472,
+   "K_old_260922": 509872,
+   "best_config": "0079-i1-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0080.txt": {
+   "B": 49331,
+   "K": 502136,
+   "K_old_260922": 499166,
+   "best_config": "0080-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0081.txt": {
+   "B": 49691,
+   "K": 504916,
+   "K_old_260922": 501632,
+   "best_config": "0081-i1-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0082.txt": {
+   "B": 50967,
+   "K": 518593,
+   "K_old_260922": 514558,
+   "best_config": "0082-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0083.txt": {
+   "B": 50134,
+   "K": 509830,
+   "best_config": "0083-i2-s101",
+   "k_provenance": "kfill-batch-b-260920:sa(6cfg:INIT\u00d7SEED,T0=100,T1=0.2,300s)@isolated execution environment-32C32G,verified-by-tests/scoring.py"
+  },
+  "0084.txt": {
+   "B": 50945,
+   "K": 516209,
+   "K_old_260922": 484002,
+   "K_old_pool120s": 512106,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0085.txt": {
+   "B": 49987,
+   "K": 509270,
+   "K_old_260922": 506342,
+   "best_config": "0085-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0086.txt": {
+   "B": 51206,
+   "K": 518603,
+   "K_old_260922": 517513,
+   "best_config": "0086-i0-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0087.txt": {
+   "B": 50231,
+   "K": 509034,
+   "K_old_260922": 480725,
+   "K_old_pool120s": 508263,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0088.txt": {
+   "B": 51113,
+   "K": 520195,
+   "K_old_260922": 515967,
+   "best_config": "0088-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0089.txt": {
+   "B": 50007,
+   "K": 509637,
+   "K_old_260922": 506700,
+   "best_config": "0089-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0090.txt": {
+   "B": 51879,
+   "K": 526597,
+   "K_old_260922": 523007,
+   "best_config": "0090-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0091.txt": {
+   "B": 51038,
+   "K": 519278,
+   "K_old_260922": 514522,
+   "best_config": "0091-i1-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0092.txt": {
+   "B": 49316,
+   "K": 503228,
+   "K_old_260922": 502070,
+   "best_config": "0092-i0-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0093.txt": {
+   "B": 50714,
+   "K": 513704,
+   "K_old_260922": 510756,
+   "best_config": "0093-i2-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0094.txt": {
+   "B": 51812,
+   "K": 525191,
+   "K_old_260922": 523672,
+   "best_config": "0094-i0-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0095.txt": {
+   "B": 50562,
+   "K": 511653,
+   "K_old_260922": 509409,
+   "best_config": "0095-i0-s102",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0096.txt": {
+   "B": 50006,
+   "K": 506588,
+   "best_config": "0096-i2-s101",
+   "k_provenance": "kfill-batch-b-260920:sa(6cfg:INIT\u00d7SEED,T0=100,T1=0.2,300s)@isolated execution environment-32C32G,verified-by-tests/scoring.py"
+  },
+  "0097.txt": {
+   "B": 50348,
+   "K": 509497,
+   "K_old_260922": 481975,
+   "K_old_pool120s": 505947,
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0098.txt": {
+   "B": 50365,
+   "K": 511660,
+   "K_old_260922": 508081,
+   "best_config": "0098-i1-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "0099.txt": {
+   "B": 51733,
+   "K": 524590,
+   "K_old_260922": 521165,
+   "best_config": "0099-i2-s101",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "h03.txt": {
+   "B": 51025,
+   "K": 517659,
+   "K_old_260922": 485594,
+   "K_old_pool120s": 513139,
+   "best_config": "h03__i0_s102@2s",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "h15.txt": {
+   "B": 49653,
+   "K": 504116,
+   "K_old_260922": 473995,
+   "K_old_pool120s": 502131,
+   "best_config": "h15__i2_s102@2s",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "h17.txt": {
+   "B": 50696,
+   "K": 512963,
+   "K_old_260922": 483711,
+   "K_old_pool120s": 510587,
+   "best_config": "h17__i2_s102@2s",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "h43.txt": {
+   "B": 50301,
+   "K": 509732,
+   "K_old_260922": 486284,
+   "K_old_pool120s": 505536,
+   "best_config": "h43__i0_s102@2s",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  },
+  "h48.txt": {
+   "B": 49033,
+   "K": 497280,
+   "K_old_260922": 469368,
+   "K_old_pool120s": 495517,
+   "best_config": "h48__i2_s101@2s",
+   "k_provenance": "hitonanode AHC041 top-tier submission (AtCoder public), median of 3 runs, measured isolated execution environment 1-core pinned, 2s/instance, scoring.py-revalidated"
+  }
+ },
+ "meta": {
+  "k_update_260922": "Reference values use checker-validated champion-submission measurements where they improve on the other retained reference sources."
+ }
+}

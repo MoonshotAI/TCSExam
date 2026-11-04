@@ -1,0 +1,43 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "Apache-2.0",
+  "lock_entry": {
+    "integrity": "sha512-7NO5s6n10TIV96d4g2uDpG7ZDpIhMh0QNfGdJw/W47JswFcosz457wqz/b5sAKvl12sxINGFCn80NZHKwxQEXA==",
+    "license": "Apache-2.0",
+    "resolved": "https://registry.npmjs.org/mj-context-menu/-/mj-context-menu-0.6.1.tgz",
+    "version": "0.6.1"
+  },
+  "lock_path": "node_modules/mj-context-menu",
+  "name": "mj-context-menu",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "Apache-2.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 51260,
+    "installed_in_image": false,
+    "integrity": "sha512-7NO5s6n10TIV96d4g2uDpG7ZDpIhMh0QNfGdJw/W47JswFcosz457wqz/b5sAKvl12sxINGFCn80NZHKwxQEXA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/mj-context-menu/-/mj-context-menu-0.6.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "60cad298c944909f8c424e69dadca8a028d0aa4e8606eebfae37bc82eea8af6d"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 11357,
+    "installed_file": "notices/supplementary/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "HEAD",
+    "scope": "Exact version metadata explicitly declares the recorded license. This source retains the same project full notice; HEAD, when used, is a currently retrieved supplemental text, not represented as an old shipped license file.",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "text_file": "image-notices/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt",
+    "url": "https://raw.githubusercontent.com/zorkow/context-menu/HEAD/LICENSE"
+  },
+  "version": "0.6.1"
+}

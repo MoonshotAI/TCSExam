@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/radiation-mznchallenge",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/radiation-mznchallenge/tests/checker.py",
+      "target": "tasks/solver/offline/radiation-mznchallenge/tests/checker.py",
+      "sha256": "287d08671381db6aafdd5f6168780a2383b8ce2246e8e144c483b4c4eb5f0713"
+    },
+    {
+      "source": "tasks/solver/online/radiation-mznchallenge/tests/reference.json",
+      "target": "tasks/solver/offline/radiation-mznchallenge/tests/reference.json",
+      "sha256": "145d7b287c562259d91143078bc764661e4d36d3c4d50a7fe5376089c4ec5896"
+    },
+    {
+      "source": "tasks/solver/online/radiation-mznchallenge/tests/anchors.json",
+      "target": "tasks/solver/offline/radiation-mznchallenge/tests/anchors.json",
+      "sha256": "64a721624ee52c0710f09cdcbcb155a178268797d9d9502a4fa839a425b18c0e"
+    },
+    {
+      "source": "tasks/solver/online/radiation-mznchallenge/tests/metric_config.json",
+      "target": "tasks/solver/offline/radiation-mznchallenge/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-radiation-mznchallenge",
+  "verifier_dependency": "backend-online-radiation-mznchallenge",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

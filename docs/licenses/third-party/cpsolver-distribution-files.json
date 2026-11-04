@@ -1,0 +1,92 @@
+{
+  "checked": "2026-10-15",
+  "artifact": "cpsolver-component-materials-261015.tar.gz",
+  "artifact_bytes": 2502399,
+  "artifact_sha256": "6441345f1316e98e0f1a3cfea6cbabd1606c0e97dddf01c44f8c6ec59c33f6bb",
+  "prepared_locally": true,
+  "published": false,
+  "scope": "Original core and dependency JARs, fixed official core source, existing build script, license texts and component notices; not the complete task or image release.",
+  "files": [
+    {
+      "path": "COMPONENT-NOTICES.txt",
+      "bytes": 960,
+      "sha256": "29a50937f0ba0a9ff97677726b9f71730a454fc8cd2ab9b9b4cdc9ec58f0968f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 847,
+      "sha256": "5a2eac9497b35373768f9e44ca3451d1f4d3b7cdbd52b424643b638702cba645"
+    },
+    {
+      "path": "binaries/cpsolver-all-1.2.jar",
+      "bytes": 891430,
+      "sha256": "73d4b2e866ddf3646cd29db919675ed49b6425873ed4b92f63a81df669b12366"
+    },
+    {
+      "path": "binaries/dom4j-1.6.1.jar",
+      "bytes": 313898,
+      "sha256": "593552ffea3c5823c6602478b5002a7c525fd904a3c44f1abe4065c22edfac73"
+    },
+    {
+      "path": "binaries/log4j-1.2.8.jar",
+      "bytes": 352668,
+      "sha256": "c316595a68f7bc74ee0931e0c4435481cdeddc91c95d2cb78eada107c5b01a65"
+    },
+    {
+      "path": "docs/cpsolver-source.md",
+      "bytes": 3724,
+      "sha256": "d16d4a29317f795d818377232206b0f4b836a2f1c61a5eb0efbaf28a569d53f3"
+    },
+    {
+      "path": "docs/licenses/third-party/CPSolver-LGPL-3.0.txt",
+      "bytes": 7650,
+      "sha256": "ea8af5e789cb2d4e9b10bce3874982ade163b749b6bfbdb32e2df21c4d106de1"
+    },
+    {
+      "path": "docs/licenses/third-party/GNU-GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "docs/licenses/third-party/Log4j-1.2.8-Apache-1.1.txt",
+      "bytes": 2756,
+      "sha256": "0829f84a71031927991b32e4346404182f7c559c171899a43e320579bb5ae5d9"
+    },
+    {
+      "path": "docs/licenses/third-party/cpsolver-build-verification.json",
+      "bytes": 1305,
+      "sha256": "31d08133d606a3c341d5f5102f5211ef737654bd513ffa2d55cec7d67c2ca839"
+    },
+    {
+      "path": "docs/licenses/third-party/cpsolver-core-source.json",
+      "bytes": 1992,
+      "sha256": "f95352518eef88230aabbcca3bd323f606ef76208fb9effc5fe3f906831004c4"
+    },
+    {
+      "path": "docs/licenses/third-party/dom4j-1.6.1-LICENSE.txt",
+      "bytes": 1918,
+      "sha256": "9a6b4e9e1668b2cc31453527ee07a1a68495f4cae149cfe03a8c955e6093ec55"
+    },
+    {
+      "path": "sources/cpsolver-1.2_bld46-source.tar.gz",
+      "bytes": 1023581,
+      "sha256": "205bc712f28f013858657e535cec001e00e5450420357576ba683c50d854b77a"
+    },
+    {
+      "path": "tools/build_cpsolver_core.py",
+      "bytes": 2839,
+      "sha256": "76546bde8f5d670e18f8fbd9e68a6983fdd9515064aeac0c8da4bfe6d2448462"
+    }
+  ],
+  "remaining": [
+    "Publish the source/materials beside the corresponding binary release",
+    "Verify application-wrapper source and actual runtime replacement route in final image",
+    "Check all other task/image resources separately"
+  ],
+  "repository_build_script": {
+    "path": "assets/environments/cpsolver/build_cpsolver_core.py",
+    "sha256": "76546bde8f5d670e18f8fbd9e68a6983fdd9515064aeac0c8da4bfe6d2448462",
+    "byte_identical_to_archived_script": true,
+    "checked": "2026-10-23"
+  }
+}

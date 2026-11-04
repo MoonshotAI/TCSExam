@@ -1,0 +1,772 @@
+{
+  "groups": [
+    {
+      "id": "solver-ahc058-atcoder-development-data",
+      "purpose": "public_development",
+      "distribution": "local_prepare",
+      "evidence": "docs/licenses/third-party/ahc058-atcoder-source.json",
+      "files": 105,
+      "bytes": 34938
+    },
+    {
+      "id": "tasks-solver-online-ahc058-atcoder-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 96,
+      "bytes": 194481
+    },
+    {
+      "id": "tasks-solver-online-ahc058-atcoder-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 45,
+      "bytes": 14938
+    },
+    {
+      "id": "bpplib-development",
+      "purpose": "public_development",
+      "distribution": "local_prepare",
+      "evidence": "docs/licenses/distribution.md",
+      "files": 12662,
+      "bytes": 32762470
+    },
+    {
+      "id": "tasks-solver-online-bpp-bpplib-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 40,
+      "bytes": 107981
+    },
+    {
+      "id": "tasks-solver-online-bpp-bpplib-hidden_judging-local_prepare",
+      "purpose": "hidden_judging",
+      "distribution": "local_prepare",
+      "evidence": "docs/licenses/distribution.md",
+      "files": 78,
+      "bytes": 338220
+    },
+    {
+      "id": "solver-ce-pace2021-development-data",
+      "purpose": "public_development",
+      "distribution": "redistributable",
+      "evidence": "docs/licenses/third-party/ce-pace2021-source.json",
+      "files": 100,
+      "bytes": 33577952
+    },
+    {
+      "id": "solver-ce-pace2021-development-tools",
+      "purpose": "public_development",
+      "distribution": "local_prepare",
+      "evidence": "docs/licenses/distribution.md",
+      "files": 4,
+      "bytes": 7961
+    },
+    {
+      "id": "tasks-solver-online-ce-pace2021-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 101,
+      "bytes": 29181487
+    },
+    {
+      "id": "tasks-solver-online-ce-pace2021-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 100,
+      "bytes": 41459744
+    },
+    {
+      "id": "solver-celar-rlfap-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 13,
+      "bytes": 258484
+    },
+    {
+      "id": "tasks-solver-online-celar-rlfap-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 34,
+      "bytes": 87945
+    },
+    {
+      "id": "tasks-solver-online-celar-rlfap-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 8,
+      "bytes": 139779
+    },
+    {
+      "id": "solver-christmas-tree-ahc041-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 105,
+      "bytes": 3553621
+    },
+    {
+      "id": "tasks-solver-online-christmas-tree-ahc041-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 116,
+      "bytes": 452103
+    },
+    {
+      "id": "tasks-solver-online-christmas-tree-ahc041-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 45,
+      "bytes": 1522705
+    },
+    {
+      "id": "solver-coloring-dimacs-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 132,
+      "bytes": 33481390
+    },
+    {
+      "id": "tasks-solver-online-coloring-dimacs-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 77,
+      "bytes": 219165
+    },
+    {
+      "id": "tasks-solver-online-coloring-dimacs-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 72,
+      "bytes": 22602738
+    },
+    {
+      "id": "solver-curriculum-itc2007-development-data",
+      "purpose": "public_development",
+      "distribution": "redistributable",
+      "evidence": "docs/licenses/third-party/ctt-source-comparison.json",
+      "files": 24,
+      "bytes": 281262
+    },
+    {
+      "id": "tasks-solver-online-curriculum-itc2007-public_development-unresolved",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 3,
+      "bytes": 1557996
+    },
+    {
+      "id": "tasks-solver-online-curriculum-itc2007-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 28,
+      "bytes": 148299
+    },
+    {
+      "id": "tasks-solver-online-curriculum-itc2007-hidden_judging-redistributable",
+      "purpose": "hidden_judging",
+      "distribution": "redistributable",
+      "evidence": "docs/licenses/third-party/ctt-source-comparison.json",
+      "files": 6,
+      "bytes": 56973
+    },
+    {
+      "id": "solver-cvrp-cvrplib-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 80,
+      "bytes": 450988
+    },
+    {
+      "id": "tasks-solver-online-cvrp-cvrplib-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 35,
+      "bytes": 43815
+    },
+    {
+      "id": "tasks-solver-online-cvrp-cvrplib-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 68,
+      "bytes": 370367
+    },
+    {
+      "id": "solver-dfvs-pace2022-development-data",
+      "purpose": "public_development",
+      "distribution": "local_prepare",
+      "evidence": "docs/licenses/third-party/dfvs-pace2022-source.json",
+      "files": 100,
+      "bytes": 10362488
+    },
+    {
+      "id": "solver-dfvs-pace2022-development-tools",
+      "purpose": "public_development",
+      "distribution": "local_prepare",
+      "evidence": "docs/licenses/distribution.md",
+      "files": 5,
+      "bytes": 43389
+    },
+    {
+      "id": "tasks-solver-online-dfvs-pace2022-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 201,
+      "bytes": 12851860
+    },
+    {
+      "id": "tasks-solver-online-dfvs-pace2022-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 200,
+      "bytes": 22306408
+    },
+    {
+      "id": "tasks-solver-online-ds-pace2025-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 102,
+      "bytes": 161654106
+    },
+    {
+      "id": "tasks-solver-online-ds-pace2025-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 100,
+      "bytes": 2004516497
+    },
+    {
+      "id": "solver-glasscut-roadef2018-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 71,
+      "bytes": 373529
+    },
+    {
+      "id": "tasks-solver-online-glasscut-roadef2018-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 14,
+      "bytes": 377047
+    },
+    {
+      "id": "tasks-solver-online-glasscut-roadef2018-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 31,
+      "bytes": 192735
+    },
+    {
+      "id": "solver-gp-dimacs10-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 27,
+      "bytes": 33774108
+    },
+    {
+      "id": "tasks-solver-online-gp-dimacs10-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 42,
+      "bytes": 3871552
+    },
+    {
+      "id": "tasks-solver-online-gp-dimacs10-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 13,
+      "bytes": 37590554
+    },
+    {
+      "id": "tasks-solver-online-hs-pace2025-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 1,
+      "bytes": 57181800
+    },
+    {
+      "id": "tasks-solver-online-itc2021-sports-timetabling-public_development-unresolved",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 2,
+      "bytes": 2015432
+    },
+    {
+      "id": "solver-itc2021-sports-timetabling-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 29,
+      "bytes": 2577836
+    },
+    {
+      "id": "tasks-solver-online-itc2021-sports-timetabling-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 70,
+      "bytes": 1092239
+    },
+    {
+      "id": "tasks-solver-online-itc2021-sports-timetabling-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 17,
+      "bytes": 3978965
+    },
+    {
+      "id": "tasks-solver-online-jsplib-jssp-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 170,
+      "bytes": 520796
+    },
+    {
+      "id": "tasks-solver-online-logic-syn-iwls2023-public_development-redistributable",
+      "purpose": "public_development",
+      "distribution": "redistributable",
+      "evidence": "docs/licenses/third-party/logic-syn-iwls2023-source.json",
+      "files": 1,
+      "bytes": 5122520
+    },
+    {
+      "id": "solver-logic-syn-iwls2023-development-data",
+      "purpose": "public_development",
+      "distribution": "redistributable",
+      "evidence": "docs/licenses/third-party/logic-syn-iwls2023-source.json",
+      "files": 100,
+      "bytes": 10533852
+    },
+    {
+      "id": "tasks-solver-online-logic-syn-iwls2023-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 101,
+      "bytes": 76364
+    },
+    {
+      "id": "tasks-solver-online-logic-syn-iwls2023-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 100,
+      "bytes": 31932748
+    },
+    {
+      "id": "solver-maxclique-dimacs-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 44,
+      "bytes": 151538717
+    },
+    {
+      "id": "tasks-solver-online-maxclique-dimacs-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 105,
+      "bytes": 38549
+    },
+    {
+      "id": "tasks-solver-online-maxclique-dimacs-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 24,
+      "bytes": 38061288
+    },
+    {
+      "id": "solver-maxcut-mqlib-development-data",
+      "purpose": "public_development",
+      "distribution": "local_prepare",
+      "evidence": "docs/licenses/distribution.md",
+      "files": 232,
+      "bytes": 380586044
+    },
+    {
+      "id": "tasks-solver-online-maxcut-mqlib-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 196,
+      "bytes": 2034616
+    },
+    {
+      "id": "tasks-solver-online-maxcut-mqlib-hidden_judging-local_prepare",
+      "purpose": "hidden_judging",
+      "distribution": "local_prepare",
+      "evidence": "docs/licenses/distribution.md",
+      "files": 45,
+      "bytes": 90719112
+    },
+    {
+      "id": "solver-maxsat-mse-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 15,
+      "bytes": 196975123
+    },
+    {
+      "id": "tasks-solver-online-maxsat-mse-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 105,
+      "bytes": 14643923
+    },
+    {
+      "id": "tasks-solver-online-maxsat-mse-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 98,
+      "bytes": 109631880
+    },
+    {
+      "id": "solver-mr-roadef2012-development-data",
+      "purpose": "public_development",
+      "distribution": "redistributable",
+      "evidence": "docs/licenses/third-party/roadef-data-source.json",
+      "files": 82,
+      "bytes": 200413532
+    },
+    {
+      "id": "tasks-solver-online-mr-roadef2012-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 11,
+      "bytes": 1185112
+    },
+    {
+      "id": "tasks-solver-online-mr-roadef2012-hidden_judging-redistributable",
+      "purpose": "hidden_judging",
+      "distribution": "redistributable",
+      "evidence": "docs/licenses/third-party/roadef-data-source.json",
+      "files": 20,
+      "bytes": 99345616
+    },
+    {
+      "id": "tasks-solver-online-mr-roadef2012-hidden_judging-private_only",
+      "purpose": "hidden_judging",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 10,
+      "bytes": 1393853
+    },
+    {
+      "id": "solver-nurse-inrc-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 9,
+      "bytes": 352936
+    },
+    {
+      "id": "tasks-solver-online-nurse-inrc-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 52,
+      "bytes": 2081884
+    },
+    {
+      "id": "tasks-solver-online-nurse-inrc-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 60,
+      "bytes": 2433399
+    },
+    {
+      "id": "solver-oscm-pace2024-development-data",
+      "purpose": "public_development",
+      "distribution": "local_prepare",
+      "evidence": "docs/licenses/third-party/oscm-pace2024-source.json",
+      "files": 173,
+      "bytes": 5001663
+    },
+    {
+      "id": "tasks-solver-online-oscm-pace2024-public_development-local_prepare",
+      "purpose": "public_development",
+      "distribution": "local_prepare",
+      "evidence": "docs/licenses/third-party/oscm-pace2024-development-tools-source.json",
+      "files": 1,
+      "bytes": 16527618
+    },
+    {
+      "id": "tasks-solver-online-oscm-pace2024-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 101,
+      "bytes": 701378
+    },
+    {
+      "id": "tasks-solver-online-oscm-pace2024-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 100,
+      "bytes": 3545093
+    },
+    {
+      "id": "solver-qap-qaplib-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 75,
+      "bytes": 1689672
+    },
+    {
+      "id": "tasks-solver-online-qap-qaplib-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 42,
+      "bytes": 13442
+    },
+    {
+      "id": "tasks-solver-online-qap-qaplib-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 82,
+      "bytes": 1351574
+    },
+    {
+      "id": "tasks-solver-online-qbf-qbfeval-reference_validation-redistributable",
+      "purpose": "reference_validation",
+      "distribution": "redistributable",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 40,
+      "bytes": 131396809
+    },
+    {
+      "id": "solver-radiation-mznchallenge-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 15,
+      "bytes": 6479
+    },
+    {
+      "id": "tasks-solver-online-radiation-mznchallenge-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 37,
+      "bytes": 266957
+    },
+    {
+      "id": "tasks-solver-online-radiation-mznchallenge-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 47,
+      "bytes": 52113
+    },
+    {
+      "id": "tasks-solver-online-scp-orlib-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 21,
+      "bytes": 8099
+    },
+    {
+      "id": "tasks-solver-online-scp-orlib-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 52,
+      "bytes": 185081111
+    },
+    {
+      "id": "solver-sygus-comp-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 100,
+      "bytes": 534603
+    },
+    {
+      "id": "tasks-solver-online-sygus-comp-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 59,
+      "bytes": 60277
+    },
+    {
+      "id": "tasks-solver-online-sygus-comp-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 60,
+      "bytes": 367603
+    },
+    {
+      "id": "solver-tsp-tsplib-development-data",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 62,
+      "bytes": 6299121
+    },
+    {
+      "id": "tasks-solver-online-tsp-tsplib-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 145,
+      "bytes": 1881317
+    },
+    {
+      "id": "tasks-solver-online-tsp-tsplib-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 33,
+      "bytes": 2876534
+    },
+    {
+      "id": "tasks-solver-online-tw-heuristic-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 81,
+      "bytes": 78644324
+    },
+    {
+      "id": "tasks-solver-online-tw-heuristic-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 100,
+      "bytes": 1329882827
+    },
+    {
+      "id": "solver-vc-pace2019-development-data",
+      "purpose": "public_development",
+      "distribution": "redistributable",
+      "evidence": "docs/licenses/third-party/vc-pace2019-source.json",
+      "files": 100,
+      "bytes": 3899952
+    },
+    {
+      "id": "tasks-solver-online-vc-pace2019-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 98,
+      "bytes": 4730645
+    },
+    {
+      "id": "tasks-solver-online-vc-pace2019-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 100,
+      "bytes": 3342372
+    },
+    {
+      "id": "tasks-solver-offline-bpp-bpplib-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 40,
+      "bytes": 107981
+    },
+    {
+      "id": "tasks-solver-offline-curriculum-itc2007-public_development-unresolved",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 3,
+      "bytes": 1557996
+    },
+    {
+      "id": "tasks-solver-offline-curriculum-itc2007-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 28,
+      "bytes": 148299
+    },
+    {
+      "id": "tasks-solver-offline-maxcut-mqlib-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 196,
+      "bytes": 2034616
+    },
+    {
+      "id": "tasks-solver-offline-mr-roadef2012-reference_validation-private_only",
+      "purpose": "reference_validation",
+      "distribution": "private_only",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 11,
+      "bytes": 1185112
+    },
+    {
+      "id": "tasks-solver-offline-qbf-qbfeval-public_development-unresolved",
+      "purpose": "public_development",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/distribution.md",
+      "files": 1,
+      "bytes": 28656
+    },
+    {
+      "id": "tasks-solver-offline-qbf-qbfeval-reference_validation-redistributable",
+      "purpose": "reference_validation",
+      "distribution": "redistributable",
+      "evidence": "docs/licenses/third-party/distribution-decisions.json",
+      "files": 40,
+      "bytes": 131396809
+    },
+    {
+      "id": "tasks-solver-offline-qbf-qbfeval-hidden_judging-unresolved",
+      "purpose": "hidden_judging",
+      "distribution": "unresolved",
+      "evidence": "docs/licenses/distribution.md",
+      "files": 1,
+      "bytes": 28656
+    }
+  ]
+}

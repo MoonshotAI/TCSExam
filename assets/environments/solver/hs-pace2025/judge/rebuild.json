@@ -1,0 +1,75 @@
+{
+  "task": "tasks/solver/online/hs-pace2025",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/hs-pace2025/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_HS_PUBLIC_DATA_IMAGE": "${TCSEXAM_HS_PUBLIC_DATA_IMAGE}",
+    "TCSEXAM_TEMURIN_IMAGE": "${TCSEXAM_TEMURIN_IMAGE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "public_instances_data_image",
+      "image_digest": "sha256:eb85d6533e3ecb2d58ab48165d591dae593bfa3cc5a1e8bb0f756d7dd353b650"
+    },
+    {
+      "role": "legacy_encrypted_judging_data_for_one_time_decryption",
+      "image_digest": "sha256:d97ae1a05f87291bb5bab7eb799c9baef0678d92cfdca85a18c1d3596d2b5a2e"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/hs-pace2025/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "9ac48ab0910453a19e11f5fe1f0ef38e6c27b5ed0880db7a0e8be2f9429e87b4"
+    },
+    {
+      "source": "tasks/solver/online/hs-pace2025/tests/scoring.py",
+      "target": "/opt/hs2025/scoring.py",
+      "sha256": "7207a0ea76c8e2eb3bd6120cff01d2d0f9bbef225732b7031a3f3f183e5de1f7"
+    },
+    {
+      "source": "tasks/solver/online/hs-pace2025/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "3765ef1163aa6c7621bb76810161e029e9a02d23a87de7ad9e4b2e8be270d83e"
+    },
+    {
+      "source": "assets/environments/solver/hs-pace2025/judge/test.sh",
+      "target": "/tests/test.sh",
+      "sha256": "33b07d15464bb4f00756b02eb1d2cae15f4a14e32bbb399907fdbda216ec0079"
+    },
+    {
+      "source": "assets/environments/solver/hs-pace2025/judge/judge_worker.py",
+      "target": "/judge/judge_worker.py",
+      "sha256": "c4574090e57d8ef73a4312ae13593e1158700806a115721c522b5b016c47940e"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": true,
+  "public_source_rebuild_verified": false,
+  "plaintext": {
+    "instance_count": 100,
+    "bytes": 1785675413,
+    "decrypted_from_legacy_bundle": true,
+    "public_upstream_byte_identical": 100,
+    "precomputed_indexes_verified": 100,
+    "upstream_manifest": "assets/environments/solver/hs-pace2025/judge/plaintext-files.json"
+  },
+  "products": {
+    "online_judge": {
+      "tag": "solver-hs-pace2025-judge-v9",
+      "image_digest": "sha256:ca3f2acbcb93bb290124bae1abb3783568074cb3bbf4a153d1fcc637044e9621"
+    },
+    "offline_verifier": {
+      "tag": "solver-hs-pace2025-offline-verifier-v9.1",
+      "image_digest": "sha256:8a0fae7bfbb240ae16df5870570b9d321aca89cc03690862ed6af0764d76118c"
+    }
+  },
+  "limitations": [
+    "The public-instance data image and pinned judge worker are reused; independent reconstruction of those components from public upstream sources has not been verified.",
+    "The accepted v9 and v9.1 images contain test.sh with source SHA256 2643bf679a0c49ea1181859721198b66f8281e54e30c48f3887e0393f9869535. The current source updates comments to describe plaintext judging; its executable lines are unchanged. The acceptance does not claim byte-for-byte identity with the current comment text."
+  ]
+}

@@ -1,0 +1,44 @@
+schema_version = "1.4"
+artifacts = ["/app"]
+
+[task]
+name = "tcsexam/ramsey-r46-lean-open"
+version = "1.0.0"
+description = "Open-proof task: prove a bound on the Ramsey number R(4,6) in Lean 4 (either exhibit a 2-coloring of K_N with no red K4 and no blue K6, or refute one). No instance, no witness, no lemma ladder; the definition layer (Coloring, MonoFree) is fixed and machine-checked, N is parsed from the proven claim and scored against the literature record (lower 35 / Exoo 2012, upper 41 / McKay-Radziszowski 1997; the dynamic survey reports the sharper, not yet formally published 40 from Angeltveit-McKay 2024)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "ramsey", "graph-coloring", "open-problem", "open-construction"]
+
+[metadata]
+family_id = "fam-ramsey-r46"
+candidate_id = "cand-ramsey-r46-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open-proof"
+difficulty_explanation = "No ground truth and no scaffolding: the agent must find a construction (or a refutation argument) and formalize it against a fixed definition layer. Even the alpha milestone (any verified non-vacuous bound) needs a real formalization; the record zone (N=35 construction, or any upper-bound proof at N<=41) is at or beyond the published research frontier, and the accepted interval is four wide (36..40), so several record-breaking values are consistent with the literature."
+source_paper = "G. Exoo, On the Ramsey Number R(4,6), Electron. J. Combin. 19(1) #P66, 2012; B. McKay & S. Radziszowski, R(4,5) = 25, J. Graph Theory 19(3):309-322, 1995; B. McKay & S. Radziszowski, Subgraph Counting Identities and Ramsey Numbers, JCT B 69:193-209, 1997 (R(4,6) <= 41); Radziszowski, Small Ramsey Numbers, EJC DS1 rev #18"
+
+[verifier]
+timeout_sec = 18000.0
+
+[verifier.env]
+REWARD_JSON = "/logs/verifier/score-details.json"
+
+[agent]
+network_mode = "public"
+timeout_sec = 43200.0
+
+[environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:a2fc687e5ffd95e53fe66ecb1310dfa65af1a8cce3173041e852692a334772bb"
+os = "linux"
+network_mode = "public"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:7227f10616199b15cd5ea456a64644827240a9e92aa958116200e29ba5574b03"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

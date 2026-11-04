@@ -1,0 +1,13 @@
+{
+  "main_theorem": "ssi_exponential_lower_bound",
+  "namespace": "StratImprLB.SinkGame",
+  "checkpoints": [
+    {
+      "name": "ssi_exponential_lower_bound",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 1 of van Dijk-Loho-Maat (CSL 2024, arXiv 2309.02223v1), parity-game content: for the explicit sink-parity-game family G_n (2n+2 nodes, 6n edges) and any improvement rule, no legal SSI chain from the initial pair (sigma0, tau0) of length at most 2^{n+1}-3 ends at the optimal strategy pair; iterations are modeled by a non-deterministic step relation with existentially quantified optimal counterstrategies (see tests/reference/concept-ledger.md)."
+    }
+  ]
+}

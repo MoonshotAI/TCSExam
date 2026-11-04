@@ -1,0 +1,39 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-multiflow-gap-planar-bare-proof"
+version = "0.1.0"
+description = "Prove the Kalantarzadeh-Kumar improved lower bound on multiflow-multicut gaps (APPROX 2025, arXiv 2507.06576, Theorem 8 + Corollary 2: cactus SDD-acceptability forces 8/7 <= w*p, the pure-graph form of the 16/7 planar gap lower bound) in Lean 4 (machine-verified), given only the main theorem statement. L2: statement fidelity only, no ground truth."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "approximation-algorithms", "multiflow-multicut-gap", "small-diameter-decomposition", "cactus-graphs", "planar-graphs", "type-2"]
+
+[metadata]
+family_id = "fam-multiflow-gap-planar-sdd"
+candidate_id = "cand-kk25-multiflow-gap"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task: only the main theorem statement is given; the whole small-diameter-decomposition machinery (1-sum averaging, critical guarantee, extremal-attachment cycle gadget) must be reconstructed; no ground truth is provided."
+source_paper = "Kalantarzadeh, Kumar: Improved Lower Bounds on Multiflow-Multicut Gaps, APPROX 2025 (LIPIcs 353, 14:1-14:18); arXiv 2507.06576v3."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-theorem-multiflow-gap-planar-verifier"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

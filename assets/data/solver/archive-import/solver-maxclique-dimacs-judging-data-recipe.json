@@ -1,0 +1,29 @@
+{
+  "format": "fixed_data_archive",
+  "archive_format": "tar+gzip",
+  "task_id": "maxclique-dimacs",
+  "data_split": "hidden",
+  "source": {
+    "id": "solver-maxclique-dimacs-judging-data-fixed-archive",
+    "url": null,
+    "bytes": 8700777,
+    "sha256": "1a6112c8d4b1bbece90a09920b9a5287ffedddb5ed508625e348f346376f10ca"
+  },
+  "manifest_sha256": "794300e8aabb3b1247412a198ec015399911ec9d4b8919b4ae2e07f09aa58473",
+  "generator_paths": [
+    "src/tcsexam/fixed_data_archive.py"
+  ],
+  "description": "Explicit exact input-only archive import. Preserve every frozen path, byte and mode; only manifest-declared data files are accepted.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "public_pin": null,
+  "public_acquisition_verified": false,
+  "new_distribution_authorization": false,
+  "excluded": [
+    "answers",
+    "logs",
+    "credentials",
+    "neither",
+    "undeclared files"
+  ]
+}

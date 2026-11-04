@@ -1,0 +1,13 @@
+{
+  "main_theorem": "monotonicity_testing_lb",
+  "namespace": "MonotonicityLB",
+  "checkpoints": [
+    {
+      "name": "monotonicity_testing_lb",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 17 of CCCPS26 (arXiv 2511.04558v2), the precise form of Theorem 1, against the stronger oracle of Section 3.4: for every integer constant l >= 1 there are a testing distance eps > 0 and an error delta > 0 such that for all large m (n = m^2) no randomized adaptive algorithm with all deterministic members of depth <= q = n^{1/2-1/(4l+2)}/log2 n can both accept Dyes with probability >= 1 - delta and jointly accept an eps-far Dno function with probability <= delta (see tests/reference/concept-ledger.md)."
+    }
+  ]
+}

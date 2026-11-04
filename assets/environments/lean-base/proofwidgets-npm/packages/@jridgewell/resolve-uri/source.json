@@ -1,0 +1,47 @@
+{
+  "author": "Justin Ridgewell <justin@ridgewell.name>",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dev": true,
+    "engines": {
+      "node": ">=6.0.0"
+    },
+    "integrity": "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz",
+    "version": "3.1.2"
+  },
+  "lock_path": "node_modules/@jridgewell/resolve-uri",
+  "name": "@jridgewell/resolve-uri",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1079,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "b8778b155bfde5a28b023a558753c0fa058a52bb9de35c343c250be1bbcdedab",
+      "text_file": "image-notices/b8778b155bfde5a28b023a558753c0fa058a52bb9de35c343c250be1bbcdedab.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 9622,
+    "installed_in_image": false,
+    "integrity": "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "db52f9f62558baab13353dd39e3200750fc33e6a129a575b46226f493776e230"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.1.2"
+}

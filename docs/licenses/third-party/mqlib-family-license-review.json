@@ -1,0 +1,91 @@
+{
+  "checked": "2026-10-15",
+  "scope": "Official origin terms for selected MQLib families; not a blanket license for all graphs.",
+  "families": [
+    {
+      "category": "or_library_bqp",
+      "selected_count": 3,
+      "instances": [
+        "g001642.txt",
+        "g002564.txt",
+        "g002776.txt"
+      ],
+      "origin_terms_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/legal.html",
+      "license": "MIT",
+      "evidence": "Fixed MQLib headers expressly identify bqp2500.txt from the OR-Library for these three files. The OR-Library legal page expressly grants MIT.",
+      "distribution_conditions": "Retain J E Beasley copyright, MIT permission and disclaimer, MQLib conversion notices and changes.",
+      "remaining": "Retain Beasley and MQLib provenance and notices in final packages. MIT permits the documented format changes and hidden permutations."
+    },
+    {
+      "category": "palubeckis_bqp",
+      "selected_count": 3,
+      "instances": [
+        "g002241.txt",
+        "g003046.txt",
+        "g003164.txt"
+      ],
+      "origin_terms_url": "http://www.proin.ktu.lt/~gintaras/",
+      "license": null,
+      "evidence": "Fixed MQLib headers expressly name Palubeckis p3000_5, p3000_1 and p3000_2, respectively; these are not the OR-Library bqp2500 source.",
+      "remaining": "Original site reset HTTPS connections; HTTP returned 502. No permission inferred from the separate OR-Library MIT page."
+    },
+    {
+      "category": "berkeley_image_graph",
+      "selected_count": 10,
+      "origin_terms_url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/",
+      "license": "noncommercial_research_download_permission",
+      "evidence": "Official page permits downloading a portion for non-commercial research and education, requests results and paper citation.",
+      "remaining": "No express permission for this project to redistribute converted graph files found in inspected text; image-to-graph rights scope requires separate assessment."
+    },
+    {
+      "category": "stp_or_steiner_metadata",
+      "selected_count": 57,
+      "origin_terms_urls": [
+        "https://steinlib.zib.de/steinlib.php",
+        "https://steinlib.zib.de/download.php",
+        "https://steinlib.zib.de/format.php"
+      ],
+      "license": null,
+      "remaining": "57 files have STP-format or Steiner-related header clues. These do not alone establish a common SteinLib origin or license. Official SteinLib pages inspected give no express redistribution grant found."
+    },
+    {
+      "category": "gset",
+      "selected_count": 5,
+      "origin_terms_url": "https://web.stanford.edu/~yyye/yyye/Gset/",
+      "license": null,
+      "remaining": "Directory listing gives files but no redistribution grant found."
+    },
+    {
+      "category": "ising",
+      "selected_count": 6,
+      "origin_terms_url": "https://biqmac.aau.at/biqmaclib.html",
+      "license": null,
+      "remaining": "Official library page establishes benchmark origin; no express redistribution grant found."
+    },
+    {
+      "category": "generated_random_graph",
+      "selected_count": 64,
+      "license": null,
+      "remaining": "Headers identify generators, seeds and parameters. No generator executed and no byte-identical regeneration claimed. License obligations for any generator actually redistributed are separate from the numerical graph output; do not require a new generator-code grant merely to use its output. A blanket redistribution grant for the selected MQLib graph files remains unestablished."
+    },
+    {
+      "category": "other_named_source",
+      "selected_count": 2,
+      "license": null,
+      "remaining": "Fixed headers identify Torusg_3_15 (DIMACS 7) and sg3dl147000 (Festa et al. 2002). Original applicable terms remain unlocated.",
+      "instances": [
+        "g000770.txt",
+        "g000949.txt"
+      ]
+    }
+  ],
+  "correction": "Earlier 2026-10-15 review incorrectly attributed all six BQP-derived instances to OR-Library. Corrected to three OR-Library and three Palubeckis using the original fixed header CSV.",
+  "storage_check": {
+    "checked": "2026-10-15",
+    "public_bucket_keys_checked": 3506,
+    "complete_listing": true,
+    "terms_filename_candidates": [],
+    "method": "List public object names only; inspect sample object HEAD metadata. No instance payload downloaded in this step.",
+    "result": "No object name containing license/licence/readme/copying/copyright/notice/terms/rights found, and no license metadata found in the inspected sample headers. This is not an assertion that no permission exists elsewhere."
+  }
+}

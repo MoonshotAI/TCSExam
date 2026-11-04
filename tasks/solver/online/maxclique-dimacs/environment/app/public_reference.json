@@ -1,0 +1,446 @@
+{
+ "instances": {
+  "C125.9.clq": {
+   "B": 34,
+   "K": 34,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "C",
+   "k_proven": true,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 6963,
+   "n": 125
+  },
+  "C2000.9.clq": {
+   "B": 62,
+   "K": 80,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "C",
+   "k_open_lb": true,
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 1799532,
+   "n": 2000
+  },
+  "C250.9.clq": {
+   "B": 41,
+   "K": 44,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "C",
+   "k_proven": true,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 27984,
+   "n": 250
+  },
+  "C4000.5.clq": {
+   "B": 17,
+   "K": 18,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "C",
+   "k_proven": true,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 4000268,
+   "n": 4000
+  },
+  "DSJC1000_5.clq": {
+   "B": 14,
+   "K": 15,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "DSJC",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 249826,
+   "n": 1000
+  },
+  "DSJC500_5.clq": {
+   "B": 13,
+   "K": 13,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "DSJC",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 62624,
+   "n": 500
+  },
+  "MANN_a27.clq": {
+   "B": 126,
+   "K": 126,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "MANN",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 70551,
+   "n": 378
+  },
+  "MANN_a9.clq": {
+   "B": 16,
+   "K": 16,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "MANN",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 918,
+   "n": 45
+  },
+  "brock200_2.clq": {
+   "B": 12,
+   "K": 12,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "brock",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 9876,
+   "n": 200
+  },
+  "brock200_3.clq": {
+   "B": 15,
+   "K": 15,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "brock",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 12048,
+   "n": 200
+  },
+  "brock400_3.clq": {
+   "B": 24,
+   "K": 31,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "brock",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 59681,
+   "n": 400
+  },
+  "brock400_4.clq": {
+   "B": 25,
+   "K": 33,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "brock",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 59765,
+   "n": 400
+  },
+  "brock800_1.clq": {
+   "B": 20,
+   "K": 23,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "brock",
+   "k_proven": false,
+   "k_source": "literature-best-known",
+   "m": 207505,
+   "n": 800
+  },
+  "brock800_4.clq": {
+   "B": 20,
+   "K": 26,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "brock",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 207643,
+   "n": 800
+  },
+  "c-fat200-1.clq": {
+   "B": 12,
+   "K": 12,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "c-fat",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 1534,
+   "n": 200
+  },
+  "c-fat200-2.clq": {
+   "B": 24,
+   "K": 24,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "c-fat",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 3235,
+   "n": 200
+  },
+  "c-fat500-10.clq": {
+   "B": 126,
+   "K": 126,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "c-fat",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 46627,
+   "n": 500
+  },
+  "gen200_p0.9_55.clq": {
+   "B": 55,
+   "K": 55,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "gen",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 17910,
+   "n": 200
+  },
+  "gen400_p0.9_55.clq": {
+   "B": 45,
+   "K": 55,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "gen",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 71820,
+   "n": 400
+  },
+  "hamming10-2.clq": {
+   "B": 512,
+   "K": 512,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "hamming",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 518656,
+   "n": 1024
+  },
+  "hamming6-2.clq": {
+   "B": 32,
+   "K": 32,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "hamming",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 1824,
+   "n": 64
+  },
+  "hamming8-2.clq": {
+   "B": 128,
+   "K": 128,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "hamming",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 31616,
+   "n": 256
+  },
+  "johnson16-2-4.clq": {
+   "B": 8,
+   "K": 8,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "johnson",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 5460,
+   "n": 120
+  },
+  "johnson32-2-4.clq": {
+   "B": 16,
+   "K": 16,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "johnson",
+   "k_proven": false,
+   "k_source": "literature-best-known",
+   "m": 107880,
+   "n": 496
+  },
+  "keller4.clq": {
+   "B": 11,
+   "K": 11,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "keller",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 9435,
+   "n": 171
+  },
+  "keller6.clq": {
+   "B": 54,
+   "K": 59,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "keller",
+   "k_open_lb": true,
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 4619898,
+   "n": 3361
+  },
+  "p_hat1000-1.clq": {
+   "B": 10,
+   "K": 10,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "p_hat",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 122253,
+   "n": 1000
+  },
+  "p_hat1000-2.clq": {
+   "B": 43,
+   "K": 46,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "p_hat",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 244799,
+   "n": 1000
+  },
+  "p_hat1500-1.clq": {
+   "B": 12,
+   "K": 12,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "p_hat",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 284923,
+   "n": 1500
+  },
+  "p_hat300-1.clq": {
+   "B": 8,
+   "K": 8,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "p_hat",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 10933,
+   "n": 300
+  },
+  "p_hat300-2.clq": {
+   "B": 25,
+   "K": 25,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "p_hat",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 21928,
+   "n": 300
+  },
+  "p_hat500-2.clq": {
+   "B": 36,
+   "K": 36,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "p_hat",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 62946,
+   "n": 500
+  },
+  "p_hat500-3.clq": {
+   "B": 48,
+   "K": 50,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "p_hat",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 93800,
+   "n": 500
+  },
+  "p_hat700-2.clq": {
+   "B": 44,
+   "K": 44,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "p_hat",
+   "k_proven": false,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 121728,
+   "n": 700
+  },
+  "p_hat700-3.clq": {
+   "B": 54,
+   "K": 62,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "p_hat",
+   "k_proven": true,
+   "k_source": "mascia-mirror+verified-clique",
+   "m": 183010,
+   "n": 700
+  },
+  "san1000.clq": {
+   "B": 15,
+   "K": 15,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "san",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 250500,
+   "n": 1000
+  },
+  "san200_0.7_2.clq": {
+   "B": 18,
+   "K": 18,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "san",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 13930,
+   "n": 200
+  },
+  "san200_0.9_1.clq": {
+   "B": 70,
+   "K": 70,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "san",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 17910,
+   "n": 200
+  },
+  "san200_0.9_3.clq": {
+   "B": 44,
+   "K": 44,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "san",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 17910,
+   "n": 200
+  },
+  "san400_0.5_1.clq": {
+   "B": 13,
+   "K": 13,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "san",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 39900,
+   "n": 400
+  },
+  "san400_0.7_1.clq": {
+   "B": 40,
+   "K": 40,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "san",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 55860,
+   "n": 400
+  },
+  "san400_0.9_1.clq": {
+   "B": 100,
+   "K": 100,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "san",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 71820,
+   "n": 400
+  },
+  "sanr200_0.7.clq": {
+   "B": 18,
+   "K": 18,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "sanr",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 13868,
+   "n": 200
+  },
+  "sanr400_0.7.clq": {
+   "B": 21,
+   "K": 21,
+   "b_source": "mcqd-anytime@5e6-steps(deterministic)",
+   "family": "sanr",
+   "k_proven": true,
+   "k_source": "self-proven-mcqd-unlimited",
+   "m": 55869,
+   "n": 400
+  }
+ }
+}

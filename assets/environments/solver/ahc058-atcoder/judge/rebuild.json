@@ -1,0 +1,41 @@
+{
+  "task": "tasks/solver/online/ahc058-atcoder",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/ahc058-atcoder/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:af7dc70ddfc213247ad0ffffc0276f3dcdec62ab2351ea8abc00a9517b66efa8"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/ahc058-atcoder/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "2bfd23ce3d466533fe21eeceba2f86c47658527e97a29c3c759028946ea16ef1"
+    },
+    {
+      "source": "tasks/solver/online/ahc058-atcoder/tests/scoring.py",
+      "target": "/opt/ahc058/scoring.py",
+      "sha256": "cac72b77f0cc82a8ba6a4e2ed34d8d848be245705e62896d57bed75bc7a24f3f"
+    },
+    {
+      "source": "tasks/solver/online/ahc058-atcoder/tests/reference-hidden.json",
+      "target": "/tests/reference.json",
+      "sha256": "6e9e5310de9900074df0a9b43e514657db6e476a6fe17c3e8d75877c125b8472"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": false,
+  "public_source_rebuild_verified": false,
+  "limitations": [
+    "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
+  ]
+}

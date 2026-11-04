@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-mds-conjecture-nonprime"
+version = "0.1.0"
+description = "Prove or refute the MDS main conjecture over non-prime finite fields (Segre's MDS conjecture, open case q = p^h with h >= 2: a nontrivial k-dimensional linear MDS code of length n over F_q satisfies n <= q+1, unless q is even and k = 3 or k = q-1, in which case n <= q+2) in Lean 4 (machine-verified). Open problem: no ground truth; the Lean kernel is the judge. Proving either main statement (conj or refuted) scores 1.0; there is no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "coding-theory", "mds-codes", "finite-geometry", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-mds-conjecture-nonprime"
+candidate_id = "cand-mds-conjecture-nonprime"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open conjecture (Segre 1955; prime-order case proved by Ball, JEMS 2012; non-prime case open, partial results Ball-De Beule 2012). Full score needs a kernel-verified proof of one of the two main statements (conj or refuted); there are no checkpoints and no partial credit."
+source_paper = "Ball, On sets of vectors of a finite vector space in which every subset of basis size is a basis, JEMS 14(3):733-748, 2012 (prime case); Ball-De Beule, Des. Codes Cryptogr. 65:5-14, 2012 (non-prime partial results). Classical statement: MacWilliams-Sloane Ch. 11; current-form statement checked against arXiv:2512.24292 Conjecture 4 and arXiv:1611.02354."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-mds-conjecture-nonprime-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

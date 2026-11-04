@@ -1,0 +1,43 @@
+schema_version = "1.4"
+
+# Preserve the final agent workspace before verification, including auxiliary sources.
+artifacts = ["/app"]
+
+[task]
+name = "tcsexam/open-log-rank-conjecture"
+version = "0.1.0"
+description = "Prove or refute the log-rank conjecture of communication complexity (Lovász-Saks, FOCS 1988: D(f) <= (1 + log2 rank(M_f))^c for some constant c, rank over the reals) in Lean 4, kernel-verified. Open problem: a kernel-verified proof of either direction scores 1.0, otherwise 0 — no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "communication-complexity", "log-rank-conjecture", "open-conjecture", "prove-or-refute"]
+
+[metadata]
+family_id = "fam-open-log-rank-conjecture"
+candidate_id = "log-rank-conjecture"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute"
+difficulty_explanation = "Open conjecture: the full statement is unresolved mathematics (open since 1988; upper bound O(sqrt(rank)) by Sudakov-Tomon 2024, lower bound Omega((log rank)^2) by Pabbaraju 2026), so the two main slots are expected to stay unproven; there are no checkpoint slots and no partial credit."
+source_paper = "Lovász, Saks: Lattices, Möbius functions and communication complexity, FOCS 1988, doi:10.1109/SFCS.1988.21924; journal version JCSS 47(2) 1993, doi:10.1016/0022-0000(93)90035-N. Frontier: upper bound O(sqrt(rank)) (Sudakov-Tomon 2024); lower bound Omega((log rank)^2) (Pabbaraju 2026, arXiv:2608.02533). Background survey: communication-information-complexity.md (historical report not included in this package) (entry 1)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+network_mode = "public"
+timeout_sec = 43200.0
+
+[environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:802bf9d6b35d233920a48eefaaad9e03dee95847137ac3518bcba28f3950c761"
+os = "linux"
+network_mode = "public"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:40b1a6ab706ab9f3f2f7c42e9ac3c326a863777e083ef34ed662a3bb348074cc"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

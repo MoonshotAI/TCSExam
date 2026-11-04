@@ -1,0 +1,334 @@
+{
+ "instances": {
+  "ex001.xml": {
+   "B": 233,
+   "K": 197
+  },
+  "ex002.xml": {
+   "B": 272,
+   "K": 219
+  },
+  "ex003.xml": {
+   "B": 254,
+   "K": 240
+  },
+  "ex004.xml": {
+   "B": 333,
+   "K": 303
+  },
+  "ex005.xml": {
+   "B": 312,
+   "K": 284
+  },
+  "ex006.xml": {
+   "B": 652,
+   "K": 346
+  },
+  "ex007.xml": {
+   "B": 166,
+   "K": 89
+  },
+  "ex008.xml": {
+   "B": 100,
+   "K": 38
+  },
+  "ex009.xml": {
+   "B": 92,
+   "K": 22
+  },
+  "ex010.xml": {
+   "B": 124,
+   "K": 41
+  },
+  "ex011.xml": {
+   "B": 270,
+   "K": 240
+  },
+  "ex012.xml": {
+   "B": 276,
+   "K": 240
+  },
+  "ex013.xml": {
+   "B": 274,
+   "K": 236
+  },
+  "ex014.xml": {
+   "B": 268,
+   "K": 237
+  },
+  "ex015.xml": {
+   "B": 340,
+   "K": 303
+  },
+  "ex016.xml": {
+   "B": 263,
+   "K": 157
+  },
+  "ex017.xml": {
+   "B": 76,
+   "K": 18
+  },
+  "ex018.xml": {
+   "B": 80,
+   "K": 29
+  },
+  "ex019.xml": {
+   "B": 87,
+   "K": 35
+  },
+  "ex020.xml": {
+   "B": 250,
+   "K": 107
+  },
+  "ex021.xml": {
+   "B": 68,
+   "K": 56
+  },
+  "ex022.xml": {
+   "B": 61,
+   "K": 51
+  },
+  "ex023.xml": {
+   "B": 67,
+   "K": 58
+  },
+  "ex024.xml": {
+   "B": 66,
+   "K": 56
+  },
+  "ex025.xml": {
+   "B": 69,
+   "K": 55
+  },
+  "ex026.xml": {
+   "B": 47,
+   "K": 32
+  },
+  "ex027.xml": {
+   "B": 82,
+   "K": 66
+  },
+  "ex028.xml": {
+   "B": 87,
+   "K": 59
+  },
+  "ex029.xml": {
+   "B": 462,
+   "K": 306
+  },
+  "ex030.xml": {
+   "B": 38,
+   "K": 17
+  },
+  "ex031.xml": {
+   "B": 404,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 235,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex032.xml": {
+   "B": 444,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 229,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex033.xml": {
+   "B": 554,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 220,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex034.xml": {
+   "B": 533,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 221,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex035.xml": {
+   "B": 297,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 83,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex036.xml": {
+   "B": 273,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 111,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex037.xml": {
+   "B": 430,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 219,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex038.xml": {
+   "B": 78,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 34,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex039.xml": {
+   "B": 157,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 78,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex040.xml": {
+   "B": 237,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 118,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex041.xml": {
+   "B": 68,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 58,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex042.xml": {
+   "B": 69,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 59,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex043.xml": {
+   "B": 66,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 54,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex044.xml": {
+   "B": 67,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 56,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex045.xml": {
+   "B": 64,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 52,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex046.xml": {
+   "B": 53,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 32,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex047.xml": {
+   "B": 83,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 62,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex048.xml": {
+   "B": 239,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 130,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex049.xml": {
+   "B": 288,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 153,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex050.xml": {
+   "B": 334,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 204,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex051.xml": {
+   "B": 429,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 338,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex052.xml": {
+   "B": 59,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 37,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex053.xml": {
+   "B": 63,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 42,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex054.xml": {
+   "B": 74,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 48,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex055.xml": {
+   "B": 140,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 73,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex056.xml": {
+   "B": 66,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 44,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex057.xml": {
+   "B": 56,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 42,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex058.xml": {
+   "B": 81,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 42,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex059.xml": {
+   "B": 37,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 17,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  },
+  "ex060.xml": {
+   "B": 77,
+   "B_status": "measured_judge_pipeline_260912",
+   "K": 43,
+   "b_note": "fullset-b M2 judge-pipeline measured 260912 (isolated execution environment, solver-nurse-inrc-judge-v9, factory baseline via /judge/entry.sh; three independent sandbox runs identical)",
+   "k_source": "Best scores listed on the INRC-I official Instances & Results page ( and archived in ktable_short.json)."
+  }
+ }
+}

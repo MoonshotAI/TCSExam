@@ -1,0 +1,18 @@
+{
+  "task": "nurse-inrc",
+  "cpus": 1,
+  "memory_mb": 8192,
+  "seconds": 600,
+  "build_seconds": 600,
+  "check_seconds": 300,
+  "pool": false,
+  "module_dir": "/opt/nurse",
+  "disk_mb": 8192,
+  "relative_cpu_indices": true,
+  "outer_timeout_seconds": 7200,
+  "judge_env": {
+    "TESTS_DIR": "/tests"
+  },
+  "instance_count": 60,
+  "budget_source": "Frozen backend environment and original checker preparation script; original scoring enforces the actual budget."
+}

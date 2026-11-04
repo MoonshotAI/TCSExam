@@ -1,0 +1,14 @@
+{
+  "source_image_digest": "sha256:4cdb9808278707e08219532f1ccbd4b6159117fa3bc5a9e3f188b008bdb7639b",
+  "source_path": "/opt/maxsat/scoring.py",
+  "sha256": "cf95466ec007e8c9bea99e6e793057be8c283c6bc8b8cf7a576b81a44e649017",
+  "git_blob": "45e77771017280a83b1dbb07a92f6c13cf154d11",
+  "bytes": 14627,
+  "frozen_git_source_verified": false,
+  "public_source_rebuild_verified": false,
+  "purpose": "judge_rebuild_input",
+  "frozen_git_blob_available": true,
+  "frozen_git_blob_bytes_equal": true,
+  "git_source_commit": "3942d53dc3a993dfa4c3fbdbc4405408ab940fd2",
+  "git_source_paths": []
+}

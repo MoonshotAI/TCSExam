@@ -1,0 +1,1114 @@
+{
+  "format": "official_files",
+  "description": "Download all 100 original official PACE 2025 post-contest private-track input archives from the fixed public upstream commit. Hidden means unavailable to model development, not permanently secret. Verify each unchanged plaintext instance against the frozen manifest.",
+  "source_commit": "e0bff608037db1f2b9eec7a7963e31b86663e1ed",
+  "sources": [
+    {
+      "id": "hs-private-private_heuristic_001.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_001.hgr.tar.xz",
+      "bytes": 20239364,
+      "sha256": "94db6fddc9c1adf8688416ff15e9451fa928b2edee831ac0fd7d7ce5ef4a821b"
+    },
+    {
+      "id": "hs-private-private_heuristic_002.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_002.hgr.tar.xz",
+      "bytes": 30022116,
+      "sha256": "27e8e88197827e0f0f6d6fe70a78d414f55dec432cff260b9a9b06d3077bd8ef"
+    },
+    {
+      "id": "hs-private-private_heuristic_003.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_003.hgr.tar.xz",
+      "bytes": 10026404,
+      "sha256": "507f41a67aed145bf1f6b600ded8e50c4aa5e9a616f54285a6af13fcd135eff2"
+    },
+    {
+      "id": "hs-private-private_heuristic_004.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_004.hgr.tar.xz",
+      "bytes": 2315660,
+      "sha256": "762d6a50beee71fea812a36125fa88fa21799638c546a07b7719fc5ebd57c1d9"
+    },
+    {
+      "id": "hs-private-private_heuristic_005.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_005.hgr.tar.xz",
+      "bytes": 1410148,
+      "sha256": "0227c953873bd4c0b15712f1030022e23f1fe5a876b3c1f03244e07d5d510894"
+    },
+    {
+      "id": "hs-private-private_heuristic_006.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_006.hgr.tar.xz",
+      "bytes": 280588,
+      "sha256": "8b1023f36a10152866e0843d5f9090c266e3436702fbb4834d3caec3d77391b0"
+    },
+    {
+      "id": "hs-private-private_heuristic_007.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_007.hgr.tar.xz",
+      "bytes": 2583648,
+      "sha256": "cd3abee271cffcc1a27a19061d0a9f993643703ea8af62c1e9fed0940f853581"
+    },
+    {
+      "id": "hs-private-private_heuristic_008.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_008.hgr.tar.xz",
+      "bytes": 1099780,
+      "sha256": "a011677cd54879b63bd3e75d02b909454847d094ee8589208e3056fd9d5accbb"
+    },
+    {
+      "id": "hs-private-private_heuristic_009.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_009.hgr.tar.xz",
+      "bytes": 5093552,
+      "sha256": "5214bb13f8b874c74e59967c1877886fd3d7b5c069e3900f6ca930e9f70a84e5"
+    },
+    {
+      "id": "hs-private-private_heuristic_010.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_010.hgr.tar.xz",
+      "bytes": 3683172,
+      "sha256": "331151e151676521bca666e0fd168839575c68e66088dda9423daf0acecfff0c"
+    },
+    {
+      "id": "hs-private-private_heuristic_011.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_011.hgr.tar.xz",
+      "bytes": 1052748,
+      "sha256": "57d31297e8d7efda7701b7927f17f0a4698308bf316f2f1bd904111e87327487"
+    },
+    {
+      "id": "hs-private-private_heuristic_012.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_012.hgr.tar.xz",
+      "bytes": 1476156,
+      "sha256": "0ec53dc41140ddfe20e0c3a3d78bbee94221cd69fb0a5fb51b288d33e35844de"
+    },
+    {
+      "id": "hs-private-private_heuristic_013.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_013.hgr.tar.xz",
+      "bytes": 1719440,
+      "sha256": "fa9d17052f429e0e841b7f9d52168d2c151578d0e8306c35dc3e5ecae736502d"
+    },
+    {
+      "id": "hs-private-private_heuristic_014.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_014.hgr.tar.xz",
+      "bytes": 876672,
+      "sha256": "f30cc4a348d062bb29a61bb909da5547fee9f00e7ec43301b9c120b9a06c02f6"
+    },
+    {
+      "id": "hs-private-private_heuristic_015.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_015.hgr.tar.xz",
+      "bytes": 1645328,
+      "sha256": "8131e928ddee8ae744533661b85042d276f33cd101a2c47701479bca37eb7445"
+    },
+    {
+      "id": "hs-private-private_heuristic_016.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_016.hgr.tar.xz",
+      "bytes": 19972236,
+      "sha256": "cf73d27465dce272964819e4c0b82697a44f085e3bd15cc9e686ff3fd284e10c"
+    },
+    {
+      "id": "hs-private-private_heuristic_017.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_017.hgr.tar.xz",
+      "bytes": 7867436,
+      "sha256": "499d4e86fbf4bc5da2c60005b6d4107d73fbff44567e537766ad2e06df10401a"
+    },
+    {
+      "id": "hs-private-private_heuristic_018.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_018.hgr.tar.xz",
+      "bytes": 573212,
+      "sha256": "259a5fa80818af76e8f18030351c1d581bab663078fa8f3f8a23c64bcc3ef761"
+    },
+    {
+      "id": "hs-private-private_heuristic_019.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_019.hgr.tar.xz",
+      "bytes": 6875196,
+      "sha256": "b638002525dd449972c6aef721267814269eb6687f5bef195da0b7283a345be7"
+    },
+    {
+      "id": "hs-private-private_heuristic_020.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_020.hgr.tar.xz",
+      "bytes": 8908576,
+      "sha256": "8acff52d81cc87795d83ead1b0a41324fb1da5299131295f1209ae94947ecf56"
+    },
+    {
+      "id": "hs-private-private_heuristic_021.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_021.hgr.tar.xz",
+      "bytes": 27268324,
+      "sha256": "ee5e55267d8cacce9964cab2c5d1a4a37296e24eb1656573b7d27a9010c67618"
+    },
+    {
+      "id": "hs-private-private_heuristic_022.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_022.hgr.tar.xz",
+      "bytes": 1103028,
+      "sha256": "7bb7cb418488b90e53fcbcbf446f4e1e9f027473421170a0764b39e46e2a9e9f"
+    },
+    {
+      "id": "hs-private-private_heuristic_023.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_023.hgr.tar.xz",
+      "bytes": 18406572,
+      "sha256": "674bc55d979f7e5f485c1cb3345027b3f598f41a1b5c8ab6703deebc8f5db78d"
+    },
+    {
+      "id": "hs-private-private_heuristic_024.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_024.hgr.tar.xz",
+      "bytes": 1788316,
+      "sha256": "2812d5dbbf132730b231a5f5681face1be448bc930d8a0ffe448dbc1e2ba18d6"
+    },
+    {
+      "id": "hs-private-private_heuristic_025.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_025.hgr.tar.xz",
+      "bytes": 6597136,
+      "sha256": "6e89cf05840b2a4d838ed1d188536e9d0e88374de9604f19a2d080ca423c2782"
+    },
+    {
+      "id": "hs-private-private_heuristic_026.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_026.hgr.tar.xz",
+      "bytes": 1152976,
+      "sha256": "877fcebd45090d98d9a6095d4d1794a7aa6c6546a3d621a68ed61fedfe8a3c7f"
+    },
+    {
+      "id": "hs-private-private_heuristic_027.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_027.hgr.tar.xz",
+      "bytes": 2577984,
+      "sha256": "035592ed1455a33ee7ff9c366296e5f79ae8351d955fd3872c7e9bb3339cdf03"
+    },
+    {
+      "id": "hs-private-private_heuristic_028.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_028.hgr.tar.xz",
+      "bytes": 3550548,
+      "sha256": "461c7ba82dcd71427dbf7bcbb58d587d7764dc21e314b802cd43e477a6eaeafd"
+    },
+    {
+      "id": "hs-private-private_heuristic_029.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_029.hgr.tar.xz",
+      "bytes": 1225048,
+      "sha256": "ad57e7b443c8da84befb0a2143a772e2509e20129bb2aff7c13d9011ddc211da"
+    },
+    {
+      "id": "hs-private-private_heuristic_030.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_030.hgr.tar.xz",
+      "bytes": 3667068,
+      "sha256": "4b1c344e554affe1fddaf7a7b8c9bccecd13f1c250bae8ef32029da23577e684"
+    },
+    {
+      "id": "hs-private-private_heuristic_031.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_031.hgr.tar.xz",
+      "bytes": 13309200,
+      "sha256": "fcb909c4c0426754a5461d7225485983a81601ddac9faaf75cf0c19c48110b53"
+    },
+    {
+      "id": "hs-private-private_heuristic_032.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_032.hgr.tar.xz",
+      "bytes": 23221356,
+      "sha256": "8b6008b0cc98a6b0d387fdb16d45c46213405368d927a6ef847e8e445f509b63"
+    },
+    {
+      "id": "hs-private-private_heuristic_033.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_033.hgr.tar.xz",
+      "bytes": 7567524,
+      "sha256": "045e5ea34680306ae1b0b4ed437440ca1578ef156eff955268e35c2d27fecc3b"
+    },
+    {
+      "id": "hs-private-private_heuristic_034.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_034.hgr.tar.xz",
+      "bytes": 9078544,
+      "sha256": "2d9b59949443d136712b44307d1148733df9f8d797dfa7a7c6353015fd17d8e8"
+    },
+    {
+      "id": "hs-private-private_heuristic_035.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_035.hgr.tar.xz",
+      "bytes": 2687440,
+      "sha256": "ebf60c182c73bbd28688c4e837c087a685c3c695706873ae9a05430e0dd9c335"
+    },
+    {
+      "id": "hs-private-private_heuristic_036.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_036.hgr.tar.xz",
+      "bytes": 812024,
+      "sha256": "0cb5fa8c9577e354de02ff4d405cd77042599f8f0a08610b5a30a0472805d6a7"
+    },
+    {
+      "id": "hs-private-private_heuristic_037.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_037.hgr.tar.xz",
+      "bytes": 1459488,
+      "sha256": "87c0040ed3a1281f031970fd2d3bceafd3270ea648e5b0f9758a0cb625ec25ac"
+    },
+    {
+      "id": "hs-private-private_heuristic_038.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_038.hgr.tar.xz",
+      "bytes": 4786128,
+      "sha256": "2d34a5e4db27690c22fe8e031f0c6b78c35bba23196c7bbc37222c033869a9fe"
+    },
+    {
+      "id": "hs-private-private_heuristic_039.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_039.hgr.tar.xz",
+      "bytes": 1426644,
+      "sha256": "576c2ba4a5ba3a520b8934d9da286c7c837ad98d96996b8b48e9a0eeaab488ea"
+    },
+    {
+      "id": "hs-private-private_heuristic_040.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_040.hgr.tar.xz",
+      "bytes": 1371980,
+      "sha256": "921a988634d3fbaca499bfc1bdbe16bc2d7d9b51c1b72b9949471fb5588476ac"
+    },
+    {
+      "id": "hs-private-private_heuristic_041.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_041.hgr.tar.xz",
+      "bytes": 11047924,
+      "sha256": "9cde491a4a3e3bb35efb1860727470043d26b98786c9bd60cc83d9405d073fd2"
+    },
+    {
+      "id": "hs-private-private_heuristic_042.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_042.hgr.tar.xz",
+      "bytes": 9851460,
+      "sha256": "b853eacaad7a967aa2dff9753dd96c9cee4b41d2d0bf301ac5fa01ee77ba7b85"
+    },
+    {
+      "id": "hs-private-private_heuristic_043.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_043.hgr.tar.xz",
+      "bytes": 608020,
+      "sha256": "4c6c7a2fcce47b8918a87543754c67feb43c04227bbb19382d269711887c4695"
+    },
+    {
+      "id": "hs-private-private_heuristic_044.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_044.hgr.tar.xz",
+      "bytes": 555652,
+      "sha256": "f0a52e16211610df934372f35a1c139f3a89aa42b2ec7bfa11a87bec335bb379"
+    },
+    {
+      "id": "hs-private-private_heuristic_045.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_045.hgr.tar.xz",
+      "bytes": 1581540,
+      "sha256": "5c3eb03b4e0fac282e55904f1233100a6d8ae80d9419f596d193cf979705ebfe"
+    },
+    {
+      "id": "hs-private-private_heuristic_046.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_046.hgr.tar.xz",
+      "bytes": 6747816,
+      "sha256": "3e85520828ab28a8bc5fb523773cc9f3784ed8915adba75257ba581d2153f451"
+    },
+    {
+      "id": "hs-private-private_heuristic_047.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_047.hgr.tar.xz",
+      "bytes": 6178780,
+      "sha256": "83337bd8fda1abc6129591fe16ca1b37fd19a588c17ff33da3ddfdd27db8dc29"
+    },
+    {
+      "id": "hs-private-private_heuristic_048.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_048.hgr.tar.xz",
+      "bytes": 9749860,
+      "sha256": "4b49444e5b6bdb7dc9d91909fbc0ca30bbac6d79ffa50ce964e855bae3b2fdc1"
+    },
+    {
+      "id": "hs-private-private_heuristic_049.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_049.hgr.tar.xz",
+      "bytes": 8311512,
+      "sha256": "0e1ddf736f0f548bcf97bf4591ac071fefd9b63e41c537879c80b1a907f52053"
+    },
+    {
+      "id": "hs-private-private_heuristic_050.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_050.hgr.tar.xz",
+      "bytes": 13212644,
+      "sha256": "7d13c86974773eccefed80adec2cf5bfa0203c72d302906cd3a78a94c47a056d"
+    },
+    {
+      "id": "hs-private-private_heuristic_051.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_051.hgr.tar.xz",
+      "bytes": 10359348,
+      "sha256": "00775022308a1c3a97e887a134df9c1c384908120f29017626fd064b106d4853"
+    },
+    {
+      "id": "hs-private-private_heuristic_052.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_052.hgr.tar.xz",
+      "bytes": 3606936,
+      "sha256": "6c137c6e921ade4f29edc958075bf4f2594eba87f2b9cb7c7c996b796bba55bd"
+    },
+    {
+      "id": "hs-private-private_heuristic_053.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_053.hgr.tar.xz",
+      "bytes": 2131360,
+      "sha256": "6a1729555b0e63c3cb765d0b2241fc06c0da76224b7e10abc708e5a2a17ee056"
+    },
+    {
+      "id": "hs-private-private_heuristic_054.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_054.hgr.tar.xz",
+      "bytes": 3667008,
+      "sha256": "a5046101a7a4485fc4860105e77e3d484333a4949b5f3709f932520fa16f7037"
+    },
+    {
+      "id": "hs-private-private_heuristic_055.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_055.hgr.tar.xz",
+      "bytes": 3565760,
+      "sha256": "c19962456b77d9f1ab88d0cf4adf038bcdda5314660ecd11b056db4f6b3961e5"
+    },
+    {
+      "id": "hs-private-private_heuristic_056.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_056.hgr.tar.xz",
+      "bytes": 6681724,
+      "sha256": "513160be6ed339394ae7fddd9652dde616433d5a07de04db089245ec91885080"
+    },
+    {
+      "id": "hs-private-private_heuristic_057.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_057.hgr.tar.xz",
+      "bytes": 13094032,
+      "sha256": "b85c695100ad00f9a795e34aed18805578fd89eab0207387bc31e6fab64d3227"
+    },
+    {
+      "id": "hs-private-private_heuristic_058.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_058.hgr.tar.xz",
+      "bytes": 7522816,
+      "sha256": "fe80ffffe011a1feeeaeb44a1787923ae082684aacc130309f61b8742ba98bf0"
+    },
+    {
+      "id": "hs-private-private_heuristic_059.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_059.hgr.tar.xz",
+      "bytes": 1471812,
+      "sha256": "a3e80c2ee32ac7757972b438a891920df73db73d0ca16f8d97d1013c94c6b1e7"
+    },
+    {
+      "id": "hs-private-private_heuristic_060.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_060.hgr.tar.xz",
+      "bytes": 4509976,
+      "sha256": "d8723387730eae18181b82852a745527a9ddca4449ee2d6e7d9fd62bbfd321f0"
+    },
+    {
+      "id": "hs-private-private_heuristic_061.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_061.hgr.tar.xz",
+      "bytes": 1998296,
+      "sha256": "223e416e36d54903f50efb60ca57175128cb6b407a37ffade253066c425344a0"
+    },
+    {
+      "id": "hs-private-private_heuristic_062.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_062.hgr.tar.xz",
+      "bytes": 5079320,
+      "sha256": "043a483ca1230f038f2f4d29659e5e6039b9474cd8705d8e5e7e17b60d99c3fd"
+    },
+    {
+      "id": "hs-private-private_heuristic_063.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_063.hgr.tar.xz",
+      "bytes": 7545244,
+      "sha256": "ed73bacf6eb968ab6c4f14d6169260593575e56c3775d717d8bba63687c1822e"
+    },
+    {
+      "id": "hs-private-private_heuristic_064.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_064.hgr.tar.xz",
+      "bytes": 17069100,
+      "sha256": "01fdc05de3eb73b07904b499067fea8e6560295e668178b976ae4ddefe25dbde"
+    },
+    {
+      "id": "hs-private-private_heuristic_065.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_065.hgr.tar.xz",
+      "bytes": 30291324,
+      "sha256": "0972e2840dbc2a3001d9384582373917cc25bc47a03027ea329cdfa0e550a696"
+    },
+    {
+      "id": "hs-private-private_heuristic_066.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_066.hgr.tar.xz",
+      "bytes": 1738616,
+      "sha256": "5f1660c1e7d023cba8cd2b6a54648545e619289c3525ad1799b510ca5b05c1b3"
+    },
+    {
+      "id": "hs-private-private_heuristic_067.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_067.hgr.tar.xz",
+      "bytes": 5866000,
+      "sha256": "2c72c18e681ce0e06aca9651d8cfc6acfb6d06895949e781baa28a8a01e463dd"
+    },
+    {
+      "id": "hs-private-private_heuristic_068.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_068.hgr.tar.xz",
+      "bytes": 1987376,
+      "sha256": "7c15ed7930b13ad4fd88424a39131449add35b81e2054d6c54df8e4cdff0ef63"
+    },
+    {
+      "id": "hs-private-private_heuristic_069.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_069.hgr.tar.xz",
+      "bytes": 290996,
+      "sha256": "0d25c4f24900483633c0a1bc668e60f59d1ca7c5da967b6aff4d0556d65837d2"
+    },
+    {
+      "id": "hs-private-private_heuristic_070.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_070.hgr.tar.xz",
+      "bytes": 4570488,
+      "sha256": "3d05e1ad631da33c2bd60eae001cd4bd3a73105684661606e787fa2277f7e8f5"
+    },
+    {
+      "id": "hs-private-private_heuristic_071.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_071.hgr.tar.xz",
+      "bytes": 2212532,
+      "sha256": "e194621b4f49c56c7461206db5581ddc08863b006e56c32f6cdeef30aef4fc72"
+    },
+    {
+      "id": "hs-private-private_heuristic_072.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_072.hgr.tar.xz",
+      "bytes": 6574876,
+      "sha256": "4ee9ce489ec9d13bfe0ba143737b8e6f107ee375c2a4fccac52c3b1f59df2616"
+    },
+    {
+      "id": "hs-private-private_heuristic_073.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_073.hgr.tar.xz",
+      "bytes": 5880720,
+      "sha256": "65979bd2643289160d38a1da22b0c0f0051352c0a2ba315de98d66baab3ee831"
+    },
+    {
+      "id": "hs-private-private_heuristic_074.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_074.hgr.tar.xz",
+      "bytes": 2456740,
+      "sha256": "c7c5ea4e2c31797f309a80d3063d396ce756f8525ca00792dcf3ef41170bbdc2"
+    },
+    {
+      "id": "hs-private-private_heuristic_075.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_075.hgr.tar.xz",
+      "bytes": 1439568,
+      "sha256": "0c31858fc584b81ba2b5465e4bac7d4984df4b97f0ea3e6cba23b638e25486a4"
+    },
+    {
+      "id": "hs-private-private_heuristic_076.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_076.hgr.tar.xz",
+      "bytes": 1640052,
+      "sha256": "f187c7e1e219823f680e8dcfda4c689c398806822e7d071c283a16c494162823"
+    },
+    {
+      "id": "hs-private-private_heuristic_077.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_077.hgr.tar.xz",
+      "bytes": 663152,
+      "sha256": "c47a202e8e39f005a87d41b317d68db7d00c4ba607802e590d3e4c6af6001495"
+    },
+    {
+      "id": "hs-private-private_heuristic_078.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_078.hgr.tar.xz",
+      "bytes": 15893980,
+      "sha256": "efe40ccac27989fccd50745a1610d0b1699f73b46096fb2fe35f235a56d8057d"
+    },
+    {
+      "id": "hs-private-private_heuristic_079.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_079.hgr.tar.xz",
+      "bytes": 4759976,
+      "sha256": "bdfea15ffa3c27c40524293ada759ab8eaedc61d28c072877b08cf7a55b45444"
+    },
+    {
+      "id": "hs-private-private_heuristic_080.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_080.hgr.tar.xz",
+      "bytes": 10438680,
+      "sha256": "2b4c121c6a53be510da21d91fab7383f021340e2ac5ff0ddac91bb4346201a7f"
+    },
+    {
+      "id": "hs-private-private_heuristic_081.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_081.hgr.tar.xz",
+      "bytes": 20741956,
+      "sha256": "679e3b3b42dc2278bc7bea2b988ea523e74d7e35d62528522998afa79c9fbaae"
+    },
+    {
+      "id": "hs-private-private_heuristic_082.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_082.hgr.tar.xz",
+      "bytes": 2606780,
+      "sha256": "7554f0ab41e5f3b992bc0f13b3bf9b14e5865423c22d290753eced799438de3b"
+    },
+    {
+      "id": "hs-private-private_heuristic_083.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_083.hgr.tar.xz",
+      "bytes": 4946276,
+      "sha256": "08a2d7f663c26e406c540754b51cee39b329cee9b3996589a80f05278605cc95"
+    },
+    {
+      "id": "hs-private-private_heuristic_084.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_084.hgr.tar.xz",
+      "bytes": 1911764,
+      "sha256": "254a3a8f05ed9a920784725e320ea3d59e3e408a90e0539607eba03aae0f909f"
+    },
+    {
+      "id": "hs-private-private_heuristic_085.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_085.hgr.tar.xz",
+      "bytes": 2815876,
+      "sha256": "64fa5463abe3494f0471d1617f2a427c9bb80f1ffc22dc49ce9ec230a97745e9"
+    },
+    {
+      "id": "hs-private-private_heuristic_086.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_086.hgr.tar.xz",
+      "bytes": 1565576,
+      "sha256": "39ec3d12175bda2b093da07270b93e536f316fc0598befb0aa979b98face608c"
+    },
+    {
+      "id": "hs-private-private_heuristic_087.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_087.hgr.tar.xz",
+      "bytes": 8117444,
+      "sha256": "fc5c4a692e9912a92185c70cc1b8d3b32d50c088e2d804b1cea43b01c79d780f"
+    },
+    {
+      "id": "hs-private-private_heuristic_088.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_088.hgr.tar.xz",
+      "bytes": 6255960,
+      "sha256": "91f9977f5fdc8061a28be384041a49ebaa0b8a01df9f4de0a11e3d3011a63ab8"
+    },
+    {
+      "id": "hs-private-private_heuristic_089.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_089.hgr.tar.xz",
+      "bytes": 3091024,
+      "sha256": "4027ce61b841f6997a1a130f981af133ea64251343990ee189cb8eff47cd9927"
+    },
+    {
+      "id": "hs-private-private_heuristic_090.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_090.hgr.tar.xz",
+      "bytes": 11205528,
+      "sha256": "13a227df66afd714e50cd1aaae04569ea8dd7b87dff030628a6413d953ea49a0"
+    },
+    {
+      "id": "hs-private-private_heuristic_091.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_091.hgr.tar.xz",
+      "bytes": 13073456,
+      "sha256": "239830b9b72fa7b7a3f153c283809f41b87aa6181006f6bfca943e8ece04901c"
+    },
+    {
+      "id": "hs-private-private_heuristic_092.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_092.hgr.tar.xz",
+      "bytes": 24106136,
+      "sha256": "490d84904490862fc43c5e6fa6e311dc6c2e0911b5fb5350682449e0d54b5c27"
+    },
+    {
+      "id": "hs-private-private_heuristic_093.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_093.hgr.tar.xz",
+      "bytes": 1416548,
+      "sha256": "d6d9637174a8b5cbc36d64b2873c84c99aaeabe0152fd6704d0e3c2146071dc7"
+    },
+    {
+      "id": "hs-private-private_heuristic_094.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_094.hgr.tar.xz",
+      "bytes": 16377744,
+      "sha256": "636f608cd9eb777b4400a782887f0b3e7dc5f8fdc02b8e45afe6d386bfd30d80"
+    },
+    {
+      "id": "hs-private-private_heuristic_095.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_095.hgr.tar.xz",
+      "bytes": 2026492,
+      "sha256": "b39fee425288da94ff4560c15e4754c5874800a5e4dc9ba831675674b157393f"
+    },
+    {
+      "id": "hs-private-private_heuristic_096.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_096.hgr.tar.xz",
+      "bytes": 755104,
+      "sha256": "578df9f9cb44b8da772de3722dedc8140dc5119e751d71df479b71068b4e14a5"
+    },
+    {
+      "id": "hs-private-private_heuristic_097.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_097.hgr.tar.xz",
+      "bytes": 11649812,
+      "sha256": "ef9ab34eb8eba01f0336bf1edb8916e00cd3734b16f7e8f9446a50473c7b7eba"
+    },
+    {
+      "id": "hs-private-private_heuristic_098.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_098.hgr.tar.xz",
+      "bytes": 1986416,
+      "sha256": "7c62c84e40f293bdb44c2b63560c0b940c77fe4cf66c88a789a22b0da1a1fb00"
+    },
+    {
+      "id": "hs-private-private_heuristic_099.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_099.hgr.tar.xz",
+      "bytes": 12078152,
+      "sha256": "491a9ad71d22b43deff3eaefe8e2eb1d01f49d1f279c1853f9cb38649d5a9d90"
+    },
+    {
+      "id": "hs-private-private_heuristic_100.hgr",
+      "url": "https://raw.githubusercontent.com/MarioGrobler/PACE2025-instances/e0bff608037db1f2b9eec7a7963e31b86663e1ed/private/hs/heuristic/private_heuristic_100.hgr.tar.xz",
+      "bytes": 16994324,
+      "sha256": "b149ccbc53ef1fdeab925f40e59645df5d589c56f8873b0aef8011f9225f7686"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tests/instances/private_heuristic_001.hgr",
+      "source_id": "hs-private-private_heuristic_001.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_002.hgr",
+      "source_id": "hs-private-private_heuristic_002.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_003.hgr",
+      "source_id": "hs-private-private_heuristic_003.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_004.hgr",
+      "source_id": "hs-private-private_heuristic_004.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_005.hgr",
+      "source_id": "hs-private-private_heuristic_005.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_006.hgr",
+      "source_id": "hs-private-private_heuristic_006.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_007.hgr",
+      "source_id": "hs-private-private_heuristic_007.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_008.hgr",
+      "source_id": "hs-private-private_heuristic_008.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_009.hgr",
+      "source_id": "hs-private-private_heuristic_009.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_010.hgr",
+      "source_id": "hs-private-private_heuristic_010.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_011.hgr",
+      "source_id": "hs-private-private_heuristic_011.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_012.hgr",
+      "source_id": "hs-private-private_heuristic_012.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_013.hgr",
+      "source_id": "hs-private-private_heuristic_013.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_014.hgr",
+      "source_id": "hs-private-private_heuristic_014.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_015.hgr",
+      "source_id": "hs-private-private_heuristic_015.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_016.hgr",
+      "source_id": "hs-private-private_heuristic_016.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_017.hgr",
+      "source_id": "hs-private-private_heuristic_017.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_018.hgr",
+      "source_id": "hs-private-private_heuristic_018.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_019.hgr",
+      "source_id": "hs-private-private_heuristic_019.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_020.hgr",
+      "source_id": "hs-private-private_heuristic_020.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_021.hgr",
+      "source_id": "hs-private-private_heuristic_021.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_022.hgr",
+      "source_id": "hs-private-private_heuristic_022.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_023.hgr",
+      "source_id": "hs-private-private_heuristic_023.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_024.hgr",
+      "source_id": "hs-private-private_heuristic_024.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_025.hgr",
+      "source_id": "hs-private-private_heuristic_025.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_026.hgr",
+      "source_id": "hs-private-private_heuristic_026.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_027.hgr",
+      "source_id": "hs-private-private_heuristic_027.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_028.hgr",
+      "source_id": "hs-private-private_heuristic_028.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_029.hgr",
+      "source_id": "hs-private-private_heuristic_029.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_030.hgr",
+      "source_id": "hs-private-private_heuristic_030.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_031.hgr",
+      "source_id": "hs-private-private_heuristic_031.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_032.hgr",
+      "source_id": "hs-private-private_heuristic_032.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_033.hgr",
+      "source_id": "hs-private-private_heuristic_033.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_034.hgr",
+      "source_id": "hs-private-private_heuristic_034.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_035.hgr",
+      "source_id": "hs-private-private_heuristic_035.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_036.hgr",
+      "source_id": "hs-private-private_heuristic_036.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_037.hgr",
+      "source_id": "hs-private-private_heuristic_037.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_038.hgr",
+      "source_id": "hs-private-private_heuristic_038.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_039.hgr",
+      "source_id": "hs-private-private_heuristic_039.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_040.hgr",
+      "source_id": "hs-private-private_heuristic_040.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_041.hgr",
+      "source_id": "hs-private-private_heuristic_041.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_042.hgr",
+      "source_id": "hs-private-private_heuristic_042.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_043.hgr",
+      "source_id": "hs-private-private_heuristic_043.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_044.hgr",
+      "source_id": "hs-private-private_heuristic_044.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_045.hgr",
+      "source_id": "hs-private-private_heuristic_045.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_046.hgr",
+      "source_id": "hs-private-private_heuristic_046.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_047.hgr",
+      "source_id": "hs-private-private_heuristic_047.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_048.hgr",
+      "source_id": "hs-private-private_heuristic_048.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_049.hgr",
+      "source_id": "hs-private-private_heuristic_049.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_050.hgr",
+      "source_id": "hs-private-private_heuristic_050.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_051.hgr",
+      "source_id": "hs-private-private_heuristic_051.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_052.hgr",
+      "source_id": "hs-private-private_heuristic_052.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_053.hgr",
+      "source_id": "hs-private-private_heuristic_053.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_054.hgr",
+      "source_id": "hs-private-private_heuristic_054.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_055.hgr",
+      "source_id": "hs-private-private_heuristic_055.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_056.hgr",
+      "source_id": "hs-private-private_heuristic_056.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_057.hgr",
+      "source_id": "hs-private-private_heuristic_057.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_058.hgr",
+      "source_id": "hs-private-private_heuristic_058.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_059.hgr",
+      "source_id": "hs-private-private_heuristic_059.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_060.hgr",
+      "source_id": "hs-private-private_heuristic_060.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_061.hgr",
+      "source_id": "hs-private-private_heuristic_061.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_062.hgr",
+      "source_id": "hs-private-private_heuristic_062.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_063.hgr",
+      "source_id": "hs-private-private_heuristic_063.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_064.hgr",
+      "source_id": "hs-private-private_heuristic_064.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_065.hgr",
+      "source_id": "hs-private-private_heuristic_065.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_066.hgr",
+      "source_id": "hs-private-private_heuristic_066.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_067.hgr",
+      "source_id": "hs-private-private_heuristic_067.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_068.hgr",
+      "source_id": "hs-private-private_heuristic_068.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_069.hgr",
+      "source_id": "hs-private-private_heuristic_069.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_070.hgr",
+      "source_id": "hs-private-private_heuristic_070.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_071.hgr",
+      "source_id": "hs-private-private_heuristic_071.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_072.hgr",
+      "source_id": "hs-private-private_heuristic_072.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_073.hgr",
+      "source_id": "hs-private-private_heuristic_073.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_074.hgr",
+      "source_id": "hs-private-private_heuristic_074.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_075.hgr",
+      "source_id": "hs-private-private_heuristic_075.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_076.hgr",
+      "source_id": "hs-private-private_heuristic_076.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_077.hgr",
+      "source_id": "hs-private-private_heuristic_077.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_078.hgr",
+      "source_id": "hs-private-private_heuristic_078.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_079.hgr",
+      "source_id": "hs-private-private_heuristic_079.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_080.hgr",
+      "source_id": "hs-private-private_heuristic_080.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_081.hgr",
+      "source_id": "hs-private-private_heuristic_081.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_082.hgr",
+      "source_id": "hs-private-private_heuristic_082.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_083.hgr",
+      "source_id": "hs-private-private_heuristic_083.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_084.hgr",
+      "source_id": "hs-private-private_heuristic_084.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_085.hgr",
+      "source_id": "hs-private-private_heuristic_085.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_086.hgr",
+      "source_id": "hs-private-private_heuristic_086.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_087.hgr",
+      "source_id": "hs-private-private_heuristic_087.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_088.hgr",
+      "source_id": "hs-private-private_heuristic_088.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_089.hgr",
+      "source_id": "hs-private-private_heuristic_089.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_090.hgr",
+      "source_id": "hs-private-private_heuristic_090.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_091.hgr",
+      "source_id": "hs-private-private_heuristic_091.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_092.hgr",
+      "source_id": "hs-private-private_heuristic_092.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_093.hgr",
+      "source_id": "hs-private-private_heuristic_093.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_094.hgr",
+      "source_id": "hs-private-private_heuristic_094.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_095.hgr",
+      "source_id": "hs-private-private_heuristic_095.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_096.hgr",
+      "source_id": "hs-private-private_heuristic_096.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_097.hgr",
+      "source_id": "hs-private-private_heuristic_097.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_098.hgr",
+      "source_id": "hs-private-private_heuristic_098.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_099.hgr",
+      "source_id": "hs-private-private_heuristic_099.hgr",
+      "operation": "tar_single_file"
+    },
+    {
+      "path": "tests/instances/private_heuristic_100.hgr",
+      "source_id": "hs-private-private_heuristic_100.hgr",
+      "operation": "tar_single_file"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false
+}

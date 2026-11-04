@@ -1,0 +1,10 @@
+{
+  "task": "tcsexam/open-lovasz-hamiltonicity",
+  "namespace": "LovaszHamiltonicity",
+  "main_slots": [
+    "conj",
+    "refuted"
+  ],
+  "weight_note": "prove-or-refute v1 (mains-only): a clean proof of `conj` (the conjecture) or of `refuted` (its negation) scores 1.0; there is no partial credit — this is an open problem. Both slots are mandatory and must stay in the reference order (conj, refuted). Slot statements follow Lovász 1969 (Combinatorial Structures and Their Applications, Proc. Calgary Internat. Conf. 1969, Gordon and Breach 1970): every finite connected vertex-transitive graph has a Hamiltonian PATH (not a cycle — the Petersen graph is the standard counterexample to the cycle version). Hamiltonian paths are mathlib's Walk.IsHamiltonian; vertex-transitivity uses automorphisms G ≃g G; the definition layer lives in the SimpleGraph namespace so dot notation works (see environment/app/Task/Basic.lean header and tests/reference/concept-ledger.md).",
+  "checkpoints": []
+}

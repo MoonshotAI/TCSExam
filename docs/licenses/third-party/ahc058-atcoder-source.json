@@ -1,0 +1,90 @@
+{
+  "task_id": "ahc058-atcoder",
+  "checked_at": "2026-10-29",
+  "status": "official_source_generation_and_local_runtime_acceptance_reviewed",
+  "decision_scope": "Source and local-preparation evidence for the 105 public development inputs in solver-ahc058-atcoder-development-data. Hidden judging data, solution/precomputed answers, statement text, solver implementations, verifier/backend products, complete development images and historical layers are outside this record.",
+  "combined_product": {
+    "id": "solver-ahc058-atcoder-development-data",
+    "distribution": "local_prepare",
+    "local_prepare_only": true,
+    "public_upload_allowed": false,
+    "derived_image_public_upload_allowed": false,
+    "local_preparation_grants_public_redistribution": false,
+    "output_files": 105,
+    "output_bytes": 34938,
+    "manifest": "assets/data/solver/solver-ahc058-atcoder-development-data-files.json",
+    "manifest_sha256": "db95b90ca29220870d6a672f08ec96af1dbd9b1b216e6e291e0479dfb1da78bf",
+    "content_digest": "sha256:eb14b2e5ed4cd9c35e2135bfb894b2bbe2841872e478b655f062cfb6545ba6eb",
+    "notice_file": "docs/licenses/third-party/AHC058-ATCODER-NOTICE.txt",
+    "notice_bytes": 2876,
+    "notice_sha256": "a4b56cc0814b2e63815cc310678b2ef318bd90500d2f253da741777ca3476c14",
+    "data_image_notice_path": "/licenses/AHC058-ATCODER-NOTICE.txt"
+  },
+  "official_tools": {
+    "task_page": "https://atcoder.jp/contests/ahc058/tasks/ahc058_a",
+    "contest_page": "https://atcoder.jp/contests/ahc058",
+    "writer": "itigo",
+    "terms": "https://atcoder.jp/tos",
+    "archive_url": "https://img.atcoder.jp/ahc058/UpvAVdx6.zip",
+    "archive_bytes": 49420,
+    "archive_sha256": "580fa32d99059c78dbe87310b6de771cb64c385c4bf461c7f2865336c9a99ac8",
+    "s3_version_id": "FCxG8B5QctZ7o5TmNYVpsOfGxqyzNHYq",
+    "last_modified": "Fri, 12 Dec 2025 09:30:38 GMT",
+    "archive_entry_count": 112,
+    "license_review": {
+      "statement": "No open redistribution license found",
+      "input_data": "No license file found in the official archive",
+      "generator": "No author or license declaration found",
+      "scorer_and_visualizer": "No independent license found; generator permissions are not inferred to cover them",
+      "solver_software": "Separate from this data record and not relicensed by it"
+    }
+  },
+  "official_instances": {
+    "files": 100,
+    "plaintext_bytes": 33296,
+    "mapping": "tools/in/NNNN.txt -> app/instances/NNNN.txt for NNNN=0000..0099",
+    "content_changed": false,
+    "output_mode": "0644"
+  },
+  "generated_public_instances": {
+    "files": 5,
+    "generator": "Official tools source and Cargo.lock, compiled and executed only during local preparation",
+    "command": "cargo run --release --locked --bin gen -- PUBLIC5.seeds.txt --dir OUTPUT_DIR",
+    "build_environment": "linux/amd64 with project-selected rust:1.83-slim@sha256:0f0dc99eb74e410d9420149cbb2b9be84abe00e8dbed6a4201a591a2c81844df; upstream does not designate this as the only supported compiler",
+    "rng": "ChaCha20Rng::seed_from_u64 with the locked rand_core 0.6.4, rand_chacha 0.3.1 and rand 0.8.5 dependency records",
+    "seed_scope": "Only these five public development mappings are included; no complete random stream, other sampling indices or judging mappings are included",
+    "instances": [
+      {
+        "path": "app/instances/h00.txt",
+        "seed": 250854218785,
+        "bytes": 337,
+        "sha256": "0df22c37abe8ad6d0c1159c97c7704b84dea3cd1c74a8a9c1a4ddde6548d5524"
+      },
+      {
+        "path": "app/instances/h04.txt",
+        "seed": 51468017913079,
+        "bytes": 329,
+        "sha256": "37c0fb970f96a663225c06b925b714267715d14f53564ba2e9b9bc32d92821e4"
+      },
+      {
+        "path": "app/instances/h19.txt",
+        "seed": 129837058162460,
+        "bytes": 331,
+        "sha256": "6d3d3dfec28adfefac39c0e24c34f20505ba8c46bfefd3cdb74220553ec93603"
+      },
+      {
+        "path": "app/instances/h24.txt",
+        "seed": 150636911777541,
+        "bytes": 330,
+        "sha256": "005cdcc54cff8dc12aef9849d12c0105ecec51ca49eae28932ba70b511b4bbbd"
+      },
+      {
+        "path": "app/instances/h27.txt",
+        "seed": 161465247114690,
+        "bytes": 315,
+        "sha256": "3805c7b9d9d8f9eb1bb1f972a9f1b68062faa7a02a367d5da933fbe9eadc9619"
+      }
+    ],
+    "renaming": "The generator's five sequential outputs are renamed in seed-file order to h00, h04, h19, h24 and h27. Output modes are normalized to 0644; instance text is not edited."
+  }
+}

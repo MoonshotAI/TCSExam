@@ -1,0 +1,112 @@
+{
+  "task_id": "oscm-pace2024",
+  "resource_id": "solver-oscm-pace2024-development-tools",
+  "checked_at": "2026-10-29",
+  "decision_scope": "Source and upstream-notice evidence for the single NumPy 2.2.6 wheel in solver-oscm-pace2024-development-tools. PACE instances, other verifier wheels, hidden judging data, reference answers, complete development images and backends are outside this record.",
+  "product": {
+    "distribution": "local_prepare",
+    "local_prepare_only": true,
+    "public_upload_allowed": false,
+    "derived_image_public_upload_allowed": false,
+    "statement": "已保留wheel内实际notice，但NumPy捆绑依赖的完整许可与对应源码义务尚未独立审查；tools成品和包含它的镜像只许本地准备，禁止公开上传。公开recipe和自动下载代码不因此受限。",
+    "output_files": 1,
+    "output_bytes": 16527618,
+    "manifest": "assets/environments/solver/resources/solver-oscm-pace2024-development-tools-files.json",
+    "manifest_sha256": "00a55847d74703c5b082f2c242883be752d8bffdf734e7234547c4342ae8da03",
+    "content_digest": "sha256:d3a11781ce4a8641ff957b3ed8dd113dba6a38be94b7a88f3cd6a1a1029089cc"
+  },
+  "upstream": {
+    "project": "NumPy",
+    "version": "2.2.6",
+    "project_url": "https://pypi.org/project/numpy/2.2.6/",
+    "metadata_url": "https://pypi.org/pypi/numpy/2.2.6/json",
+    "source_project_url": "https://github.com/numpy/numpy",
+    "copyright": "Copyright (c) 2005-2024, NumPy Developers.",
+    "wheel_url": "https://files.pythonhosted.org/packages/8c/3d/1e1db36cfd41f895d266b103df00ca5b3cbe965184df824dec5c08c6b803/numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "wheel_bytes": 16527618,
+    "wheel_sha256": "fd83c01228a688733f1ded5201c678f0c53ecc1006ffbc404db9f7a899ac6249",
+    "wheel_filename": "numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "output_mapping": "The official wheel is copied byte-for-byte to opt/ocm/pkg/<wheel-filename> with mode 0644; the wheel itself is not replaced or recompressed."
+  },
+  "archive_validation": {
+    "record_member": "numpy-2.2.6.dist-info/RECORD",
+    "record_bytes": 81729,
+    "record_sha256": "5eecf4a4205999a329c70c5003c419d03212a394f01cd75ef719539f0675357a",
+    "record_file_members": 876,
+    "observed_directory_members": 91,
+    "rule": "Every file must be declared by RECORD and match its recorded size and SHA-256. Directory entries must be parents of RECORD files. Duplicate, non-canonical, path-traversing, encrypted, linked, special and undeclared members are rejected."
+  },
+  "notice_review": {
+    "wheel_notice_members_reviewed": true,
+    "complete_bundled_dependency_license_review": false,
+    "corresponding_source_obligations_reviewed": false,
+    "files": [
+      {
+        "member": "numpy-2.2.6.dist-info/LICENSE.txt",
+        "local_copy": "docs/licenses/third-party/NumPy-2.2.6-LICENSE.txt",
+        "bytes": 47755,
+        "sha256": "c002bd26de7dc7aa464250a0de063d58fe55974452e4389e5c21c350a820bf06",
+        "coverage": "NumPy copyright and license, bundled-library notices, OpenBLAS, LAPACK, GCC runtime library and libquadmath notices, including the GCC Runtime Library Exception and license references."
+      },
+      {
+        "member": "numpy/ma/LICENSE",
+        "local_copy": "docs/licenses/third-party/NumPy-2.2.6-MA-LICENSE.txt",
+        "bytes": 1593,
+        "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+        "coverage": "NumPy MA copyright and BSD-style notice."
+      },
+      {
+        "member": "numpy/random/LICENSE.md",
+        "local_copy": "docs/licenses/third-party/NumPy-2.2.6-RANDOM-LICENSE.md",
+        "bytes": 3511,
+        "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+        "coverage": "NumPy random NCSA and 3-clause BSD notices."
+      },
+      {
+        "member": "numpy/_core/include/numpy/random/LICENSE.txt",
+        "local_copy": "docs/licenses/third-party/NumPy-2.2.6-RANDOM-C-LICENSE.txt",
+        "bytes": 1018,
+        "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+        "coverage": "Bundled libdivide zlib notice."
+      }
+    ],
+    "bundled_components_named_by_upstream_notice": [
+      {
+        "name": "lapack-lite",
+        "upstream_license_label": "BSD-3-Clause"
+      },
+      {
+        "name": "dragon4",
+        "upstream_license_label": "MIT"
+      },
+      {
+        "name": "libdivide",
+        "upstream_license_label": "Zlib"
+      },
+      {
+        "name": "OpenBLAS",
+        "upstream_license_label": "BSD-3-Clause"
+      },
+      {
+        "name": "LAPACK",
+        "upstream_license_label": "BSD-3-Clause-Attribution"
+      },
+      {
+        "name": "GCC runtime library",
+        "upstream_license_label": "GPL-3.0-with-GCC-exception"
+      },
+      {
+        "name": "libquadmath",
+        "upstream_license_label": "LGPL-2.1-or-later"
+      }
+    ],
+    "not_installed_components_note": "The main wheel notice says Meson, spin and tempita are vendored in the repository and source distribution but are not installed in built NumPy packages.",
+    "limitation": "The four wheel notice members are preserved verbatim. This record does not assert a complete legal review of every bundled dependency, corresponding-source availability, or permission for public redistribution."
+  },
+  "verification": {
+    "public_upload_performed": false,
+    "manual_cached_tool_product_used_as_production_recipe": false,
+    "hidden_judging_executed": false,
+    "reference_answers_used": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+ "anchors_file": "anchors.json",
+ "direction": "max",
+ "params": {
+  "note": "Solved-count metric: of 100 scored instances, 81 have proven optima and 19 use the known best upper bound (peaty local-search incumbent@1800s, unproven, used for record-breaking ratcheting). K is uniformly 1 (reference solved); B is the per-instance baseline solved flag (0/1), matching the scoring checker's 0/1 representation; judge-speedup-1i1s 0f8fc4c1."
+ },
+ "shape": "solve_rate"
+}

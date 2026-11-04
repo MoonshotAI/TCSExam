@@ -1,0 +1,38 @@
+{
+  "checked": "2026-10-29",
+  "source": {
+    "id": "ahc041-official-tools-m0bwp9wl-zip",
+    "url": "https://img.atcoder.jp/ahc041/m0Bwp9WL.zip",
+    "bytes": 1450011,
+    "sha256": "8ff26edd91a700f08a4798a997a559b60f37d1a32217bfbaf63b8122bcec1386"
+  },
+  "task_id": "christmas-tree-ahc041",
+  "public_count": 105,
+  "hidden_count": 45,
+  "generator_identity": [
+    {
+      "path": "tools/Cargo.lock",
+      "bytes": 11915,
+      "sha256": "03e42c544382b507430ff5e34c3382416eb61c546e077b026a1da52a481c28aa"
+    },
+    {
+      "path": "tools/Cargo.toml",
+      "bytes": 570,
+      "sha256": "88489f0cac5dc04e69072bdae45a387f14b5029155d6f13f1bd713bb0b85a357"
+    },
+    {
+      "path": "tools/src/bin/gen.rs",
+      "bytes": 1403,
+      "sha256": "10150c778dccaf04c85a34a44cbaf77ad2aa86cd78a649ff3b502c10ad4dcdb7"
+    },
+    {
+      "path": "tools/src/lib.rs",
+      "bytes": 13451,
+      "sha256": "cd3fa93e6ebf2ddae2c4dc7d7bbf1ae9b55c06acc8cb3c3fd08132a2d04d8e99"
+    }
+  ],
+  "data_terms": "No redistribution license accompanies the official AtCoder tools archive. Download and local preparation do not authorize public redistribution.",
+  "delivery": "official_atcoder_generator",
+  "public_upload_allowed": false,
+  "split_note": "Keep the original 100 official public instances, five generated public instances and 45 generated hidden instances. No resampling."
+}

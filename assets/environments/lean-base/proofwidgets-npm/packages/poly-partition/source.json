@@ -1,0 +1,46 @@
+{
+  "author": {
+    "name": "x6ud",
+    "url": "https://github.com/x6ud"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-uUqyuUq1n9wk3ZruUm7LdZiqcJ+RwBf3iPxdPe+kn6U3kn1H8jtH9EKg6I1NDG8pomnnxvuXoTpcusCWyemc2A==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/poly-partition/-/poly-partition-1.0.2.tgz",
+    "version": "1.0.2"
+  },
+  "lock_path": "node_modules/poly-partition",
+  "name": "poly-partition",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1082,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "a0a04e161ad02d7806c58f05855df7a26d0288743609de1faa28072451523ac2",
+      "text_file": "image-notices/a0a04e161ad02d7806c58f05855df7a26d0288743609de1faa28072451523ac2.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 22208,
+    "installed_in_image": false,
+    "integrity": "sha512-uUqyuUq1n9wk3ZruUm7LdZiqcJ+RwBf3iPxdPe+kn6U3kn1H8jtH9EKg6I1NDG8pomnnxvuXoTpcusCWyemc2A==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/poly-partition/-/poly-partition-1.0.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "15d273b99764a3804d091cc39220866b91e3d8c7ee864c139bbd370eedb54cd3"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.0.2"
+}

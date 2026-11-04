@@ -1,0 +1,548 @@
+{
+ "S_B": 1,
+ "S_K": 58,
+ "b_spec": "naive_sygus.py (factory naive baseline: bottom-up grammar enumeration + run the actual checker on every candidate; no CEGIS or portfolio), 3600 s per instance (official SyGuS-Comp budget), measured in an isolated execution environment 16C/32G sandbox (judge-matched profile);",
+ "instances": {
+  "ex001.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.13,
+   "k_verify": 0.08,
+   "track": "CLIA_Track"
+  },
+  "ex002.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.01,
+   "k_verify": 0.05,
+   "track": "CLIA_Track"
+  },
+  "ex003.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.02,
+   "k_verify": 0.04,
+   "track": "CLIA_Track"
+  },
+  "ex004.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.04,
+   "k_verify": 0.09,
+   "track": "CLIA_Track"
+  },
+  "ex005.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.02,
+   "k_verify": 0.02,
+   "track": "CLIA_Track"
+  },
+  "ex006.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.15,
+   "k_verify": 0.1,
+   "track": "CLIA_Track"
+  },
+  "ex007.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.02,
+   "k_verify": 0.01,
+   "track": "CLIA_Track"
+  },
+  "ex008.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.13,
+   "k_verify": 0.04,
+   "track": "CLIA_Track"
+  },
+  "ex009.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 106.82,
+   "k_verify": 0.04,
+   "track": "General_Track"
+  },
+  "ex010.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.01,
+   "k_verify": 0.01,
+   "track": "General_Track"
+  },
+  "ex011.sl": {
+   "B": 0,
+   "K": 0,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": null,
+   "k_verify": null,
+   "track": "General_Track"
+  },
+  "ex012.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 119.41,
+   "k_verify": 0.02,
+   "track": "General_Track"
+  },
+  "ex013.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 140.93,
+   "k_verify": 0.01,
+   "track": "General_Track"
+  },
+  "ex014.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.81,
+   "k_verify": 0.09,
+   "track": "General_Track"
+  },
+  "ex015.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.03,
+   "k_verify": 0.01,
+   "track": "General_Track"
+  },
+  "ex016.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 233.87,
+   "k_verify": 0.01,
+   "track": "General_Track"
+  },
+  "ex017.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 100.6,
+   "k_verify": 0.01,
+   "track": "General_Track"
+  },
+  "ex018.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 242.91,
+   "k_verify": 0.01,
+   "track": "General_Track"
+  },
+  "ex019.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 149.18,
+   "k_verify": 0.01,
+   "track": "General_Track"
+  },
+  "ex020.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.06,
+   "k_verify": 0.01,
+   "track": "General_Track"
+  },
+  "ex021.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.16,
+   "k_verify": 0.02,
+   "track": "General_Track"
+  },
+  "ex022.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 325.29,
+   "k_verify": 0.02,
+   "track": "General_Track"
+  },
+  "ex023.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.01,
+   "k_verify": 0.02,
+   "track": "Inv_Track"
+  },
+  "ex024.sl": {
+   "B": 0,
+   "K": 0,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": null,
+   "k_verify": null,
+   "track": "Inv_Track"
+  },
+  "ex025.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 219.94,
+   "k_verify": 0.07,
+   "track": "Inv_Track"
+  },
+  "ex026.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 159.87,
+   "k_verify": 0.05,
+   "track": "Inv_Track"
+  },
+  "ex027.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 190.25,
+   "k_verify": 0.05,
+   "track": "Inv_Track"
+  },
+  "ex028.sl": {
+   "B": 1,
+   "K": 1,
+   "b_seconds": 13.65,
+   "b_verify": null,
+   "k_seconds": 0.33,
+   "k_verify": 0.06,
+   "track": "Inv_Track"
+  },
+  "ex029.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 278.9,
+   "k_verify": 0.15,
+   "track": "Inv_Track"
+  },
+  "ex030.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 225.55,
+   "k_verify": 0.23,
+   "track": "Inv_Track"
+  },
+  "ex031.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 204.73,
+   "k_verify": 0.04,
+   "track": "Inv_Track"
+  },
+  "ex032.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 192.52,
+   "k_verify": 0.04,
+   "track": "Inv_Track"
+  },
+  "ex033.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 206.41,
+   "k_verify": 0.05,
+   "track": "Inv_Track"
+  },
+  "ex034.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 7.5,
+   "k_verify": 0.03,
+   "track": "Inv_Track"
+  },
+  "ex035.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.35,
+   "k_verify": 0.12,
+   "track": "PBE_BV_Track"
+  },
+  "ex036.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.03,
+   "k_verify": 0.21,
+   "track": "PBE_BV_Track"
+  },
+  "ex037.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 5.82,
+   "k_verify": 0.89,
+   "track": "PBE_BV_Track"
+  },
+  "ex038.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.09,
+   "k_verify": 0.42,
+   "track": "PBE_BV_Track"
+  },
+  "ex039.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 126.6,
+   "k_verify": 0.46,
+   "track": "PBE_BV_Track"
+  },
+  "ex040.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.81,
+   "k_verify": 1.07,
+   "track": "PBE_BV_Track"
+  },
+  "ex041.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.08,
+   "k_verify": 0.77,
+   "track": "PBE_BV_Track"
+  },
+  "ex042.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 2.57,
+   "k_verify": 1.45,
+   "track": "PBE_BV_Track"
+  },
+  "ex043.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 112.4,
+   "k_verify": 1.7,
+   "track": "PBE_BV_Track"
+  },
+  "ex044.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.01,
+   "k_verify": 0.7,
+   "track": "PBE_BV_Track"
+  },
+  "ex045.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.17,
+   "k_verify": 0.06,
+   "track": "PBE_BV_Track"
+  },
+  "ex046.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.11,
+   "k_verify": 0.27,
+   "track": "PBE_BV_Track"
+  },
+  "ex047.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.24,
+   "k_verify": 0.06,
+   "track": "PBE_BV_Track"
+  },
+  "ex048.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.15,
+   "k_verify": 0.15,
+   "track": "PBE_BV_Track"
+  },
+  "ex049.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 333.08,
+   "k_verify": 0.09,
+   "track": "PBE_SLIA_Track"
+  },
+  "ex050.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 280.15,
+   "k_verify": 0.02,
+   "track": "PBE_SLIA_Track"
+  },
+  "ex051.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 429.11,
+   "k_verify": 0.03,
+   "track": "PBE_SLIA_Track"
+  },
+  "ex052.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.6,
+   "k_verify": 0.04,
+   "track": "PBE_SLIA_Track"
+  },
+  "ex053.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 235.07,
+   "k_verify": 0.03,
+   "track": "PBE_SLIA_Track"
+  },
+  "ex054.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 211.89,
+   "k_verify": 0.04,
+   "track": "PBE_SLIA_Track"
+  },
+  "ex055.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 254.22,
+   "k_verify": 0.04,
+   "track": "PBE_SLIA_Track"
+  },
+  "ex056.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 524.3,
+   "k_verify": 0.07,
+   "track": "PBE_SLIA_Track"
+  },
+  "ex057.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 3.11,
+   "k_verify": 0.05,
+   "track": "PBE_SLIA_Track"
+  },
+  "ex058.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.26,
+   "k_verify": 0.02,
+   "track": "PBE_SLIA_Track"
+  },
+  "ex059.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 280.04,
+   "k_verify": 0.02,
+   "track": "PBE_SLIA_Track"
+  },
+  "ex060.sl": {
+   "B": 0,
+   "K": 1,
+   "b_seconds": null,
+   "b_verify": null,
+   "k_seconds": 0.12,
+   "k_verify": 0.07,
+   "track": "PBE_SLIA_Track"
+  }
+ },
+ "per_instance_seconds": 3600
+}

@@ -1,0 +1,52 @@
+{
+  "author": "JasonHzq",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "fast-equals": "^5.0.1",
+      "prop-types": "^15.8.1",
+      "react-transition-group": "^4.4.5"
+    },
+    "integrity": "sha512-gnGKTpYwqL0Iii09gHobNolvX4Kiq4PKx6eWBCYYix+8cdw+cGo3do906l1NBPKkSWx1DghC1dlWG9L2uGd61Q==",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+      "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+    },
+    "resolved": "https://registry.npmjs.org/react-smooth/-/react-smooth-4.0.4.tgz",
+    "version": "4.0.4"
+  },
+  "lock_path": "node_modules/react-smooth",
+  "name": "react-smooth",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1075,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "258fe95d585e52a42eb5bec05b103a78400532103c4d01f94bc4cfca59486540",
+      "text_file": "image-notices/258fe95d585e52a42eb5bec05b103a78400532103c4d01f94bc4cfca59486540.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 54605,
+    "installed_in_image": false,
+    "integrity": "sha512-gnGKTpYwqL0Iii09gHobNolvX4Kiq4PKx6eWBCYYix+8cdw+cGo3do906l1NBPKkSWx1DghC1dlWG9L2uGd61Q==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/react-smooth/-/react-smooth-4.0.4.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "ae36edff15eafef9cd3601f9fac141dc9b4f970f9c9745a7066e7de71a221fe2"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.0.4"
+}

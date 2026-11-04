@@ -1,0 +1,695 @@
+{
+ "rule": {
+  "frozen": "2026-09-20",
+  "total": 114,
+  "hidden_target": 34,
+  "stratification": "family (reference set) x size (customer count n); deterministic Hamilton apportionment for per-family hidden quota; evenly spaced picks by size within family",
+  "generator": "tests/make_split.py"
+ },
+ "instances": {
+  "A-n32-k5.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 31,
+   "capacity": 100
+  },
+  "A-n34-k5.vrp": {
+   "side": "hidden",
+   "family": "A",
+   "n": 33,
+   "capacity": 100
+  },
+  "A-n36-k5.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 35,
+   "capacity": 100
+  },
+  "A-n37-k5.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 36,
+   "capacity": 100
+  },
+  "A-n37-k6.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 36,
+   "capacity": 100
+  },
+  "A-n39-k5.vrp": {
+   "side": "hidden",
+   "family": "A",
+   "n": 38,
+   "capacity": 100
+  },
+  "A-n39-k6.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 38,
+   "capacity": 100
+  },
+  "A-n44-k6.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 43,
+   "capacity": 100
+  },
+  "A-n45-k6.vrp": {
+   "side": "hidden",
+   "family": "A",
+   "n": 44,
+   "capacity": 100
+  },
+  "A-n46-k7.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 45,
+   "capacity": 100
+  },
+  "A-n48-k7.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 47,
+   "capacity": 100
+  },
+  "A-n54-k7.vrp": {
+   "side": "hidden",
+   "family": "A",
+   "n": 53,
+   "capacity": 100
+  },
+  "A-n55-k9.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 54,
+   "capacity": 100
+  },
+  "A-n61-k9.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 60,
+   "capacity": 100
+  },
+  "A-n62-k8.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 61,
+   "capacity": 100
+  },
+  "A-n63-k10.vrp": {
+   "side": "hidden",
+   "family": "A",
+   "n": 62,
+   "capacity": 100
+  },
+  "A-n63-k9.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 62,
+   "capacity": 100
+  },
+  "A-n65-k9.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 64,
+   "capacity": 100
+  },
+  "A-n69-k9.vrp": {
+   "side": "hidden",
+   "family": "A",
+   "n": 68,
+   "capacity": 100
+  },
+  "A-n80-k10.vrp": {
+   "side": "public",
+   "family": "A",
+   "n": 79,
+   "capacity": 100
+  },
+  "B-n31-k5.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 30,
+   "capacity": 100
+  },
+  "B-n38-k6.vrp": {
+   "side": "hidden",
+   "family": "B",
+   "n": 37,
+   "capacity": 100
+  },
+  "B-n39-k5.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 38,
+   "capacity": 100
+  },
+  "B-n41-k6.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 40,
+   "capacity": 100
+  },
+  "B-n43-k6.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 42,
+   "capacity": 100
+  },
+  "B-n44-k7.vrp": {
+   "side": "hidden",
+   "family": "B",
+   "n": 43,
+   "capacity": 100
+  },
+  "B-n45-k6.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 44,
+   "capacity": 100
+  },
+  "B-n50-k7.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 49,
+   "capacity": 100
+  },
+  "B-n50-k8.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 49,
+   "capacity": 100
+  },
+  "B-n51-k7.vrp": {
+   "side": "hidden",
+   "family": "B",
+   "n": 50,
+   "capacity": 100
+  },
+  "B-n56-k7.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 55,
+   "capacity": 100
+  },
+  "B-n57-k7.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 56,
+   "capacity": 100
+  },
+  "B-n57-k9.vrp": {
+   "side": "hidden",
+   "family": "B",
+   "n": 56,
+   "capacity": 100
+  },
+  "B-n63-k10.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 62,
+   "capacity": 100
+  },
+  "B-n66-k9.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 65,
+   "capacity": 100
+  },
+  "B-n67-k10.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 66,
+   "capacity": 100
+  },
+  "B-n68-k9.vrp": {
+   "side": "hidden",
+   "family": "B",
+   "n": 67,
+   "capacity": 100
+  },
+  "B-n78-k10.vrp": {
+   "side": "public",
+   "family": "B",
+   "n": 77,
+   "capacity": 100
+  },
+  "M-n101-k10.vrp": {
+   "side": "public",
+   "family": "M",
+   "n": 100,
+   "capacity": 200
+  },
+  "M-n121-k7.vrp": {
+   "side": "public",
+   "family": "M",
+   "n": 120,
+   "capacity": 200
+  },
+  "M-n151-k12.vrp": {
+   "side": "hidden",
+   "family": "M",
+   "n": 150,
+   "capacity": 200
+  },
+  "M-n200-k16.vrp": {
+   "side": "public",
+   "family": "M",
+   "n": 199,
+   "capacity": 200
+  },
+  "X-n106-k14.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 105,
+   "capacity": 600
+  },
+  "X-n115-k10.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 114,
+   "capacity": 169
+  },
+  "X-n120-k6.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 119,
+   "capacity": 21
+  },
+  "X-n125-k30.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 124,
+   "capacity": 188
+  },
+  "X-n129-k18.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 128,
+   "capacity": 39
+  },
+  "X-n134-k13.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 133,
+   "capacity": 643
+  },
+  "X-n139-k10.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 138,
+   "capacity": 106
+  },
+  "X-n143-k7.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 142,
+   "capacity": 1190
+  },
+  "X-n157-k13.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 156,
+   "capacity": 12
+  },
+  "X-n162-k11.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 161,
+   "capacity": 1174
+  },
+  "X-n167-k10.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 166,
+   "capacity": 133
+  },
+  "X-n181-k23.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 180,
+   "capacity": 8
+  },
+  "X-n186-k15.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 185,
+   "capacity": 974
+  },
+  "X-n190-k8.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 189,
+   "capacity": 138
+  },
+  "X-n200-k36.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 199,
+   "capacity": 402
+  },
+  "X-n204-k19.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 203,
+   "capacity": 836
+  },
+  "X-n209-k16.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 208,
+   "capacity": 101
+  },
+  "X-n214-k11.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 213,
+   "capacity": 944
+  },
+  "X-n219-k73.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 218,
+   "capacity": 3
+  },
+  "X-n223-k34.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 222,
+   "capacity": 37
+  },
+  "X-n228-k23.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 227,
+   "capacity": 154
+  },
+  "X-n237-k14.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 236,
+   "capacity": 18
+  },
+  "X-n242-k48.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 241,
+   "capacity": 28
+  },
+  "X-n251-k28.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 250,
+   "capacity": 69
+  },
+  "X-n256-k16.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 255,
+   "capacity": 1225
+  },
+  "X-n266-k58.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 265,
+   "capacity": 35
+  },
+  "X-n275-k28.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 274,
+   "capacity": 10
+  },
+  "X-n280-k17.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 279,
+   "capacity": 192
+  },
+  "X-n284-k15.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 283,
+   "capacity": 109
+  },
+  "X-n298-k31.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 297,
+   "capacity": 55
+  },
+  "X-n303-k21.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 302,
+   "capacity": 794
+  },
+  "X-n308-k13.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 307,
+   "capacity": 246
+  },
+  "X-n317-k53.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 316,
+   "capacity": 6
+  },
+  "X-n322-k28.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 321,
+   "capacity": 868
+  },
+  "X-n327-k20.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 326,
+   "capacity": 128
+  },
+  "X-n331-k15.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 330,
+   "capacity": 23
+  },
+  "X-n344-k43.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 343,
+   "capacity": 61
+  },
+  "X-n351-k40.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 350,
+   "capacity": 436
+  },
+  "X-n359-k29.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 358,
+   "capacity": 68
+  },
+  "X-n367-k17.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 366,
+   "capacity": 218
+  },
+  "X-n376-k94.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 375,
+   "capacity": 4
+  },
+  "X-n393-k38.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 392,
+   "capacity": 78
+  },
+  "X-n401-k29.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 400,
+   "capacity": 745
+  },
+  "X-n411-k19.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 410,
+   "capacity": 216
+  },
+  "X-n420-k130.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 419,
+   "capacity": 18
+  },
+  "X-n439-k37.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 438,
+   "capacity": 12
+  },
+  "X-n449-k29.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 448,
+   "capacity": 777
+  },
+  "X-n480-k70.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 479,
+   "capacity": 52
+  },
+  "X-n491-k59.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 490,
+   "capacity": 428
+  },
+  "X-n502-k39.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 501,
+   "capacity": 13
+  },
+  "X-n513-k21.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 512,
+   "capacity": 142
+  },
+  "X-n536-k96.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 535,
+   "capacity": 371
+  },
+  "X-n548-k50.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 547,
+   "capacity": 11
+  },
+  "X-n561-k42.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 560,
+   "capacity": 74
+  },
+  "X-n573-k30.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 572,
+   "capacity": 210
+  },
+  "X-n586-k159.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 585,
+   "capacity": 28
+  },
+  "X-n613-k62.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 612,
+   "capacity": 523
+  },
+  "X-n627-k43.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 626,
+   "capacity": 110
+  },
+  "X-n641-k35.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 640,
+   "capacity": 1381
+  },
+  "X-n655-k131.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 654,
+   "capacity": 5
+  },
+  "X-n685-k75.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 684,
+   "capacity": 408
+  },
+  "X-n701-k44.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 700,
+   "capacity": 87
+  },
+  "X-n716-k35.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 715,
+   "capacity": 1007
+  },
+  "X-n749-k98.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 748,
+   "capacity": 396
+  },
+  "X-n766-k71.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 765,
+   "capacity": 166
+  },
+  "X-n783-k48.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 782,
+   "capacity": 832
+  },
+  "X-n801-k40.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 800,
+   "capacity": 20
+  },
+  "X-n837-k142.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 836,
+   "capacity": 44
+  },
+  "X-n856-k95.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 855,
+   "capacity": 9
+  },
+  "X-n876-k59.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 875,
+   "capacity": 764
+  },
+  "X-n916-k207.vrp": {
+   "side": "hidden",
+   "family": "X",
+   "n": 915,
+   "capacity": 33
+  },
+  "X-n957-k87.vrp": {
+   "side": "public",
+   "family": "X",
+   "n": 956,
+   "capacity": 11
+  }
+ }
+}

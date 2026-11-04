@@ -1,0 +1,13 @@
+{
+  "main_theorem": "cactus_sdd_gap_lower_bound",
+  "namespace": "MultiflowGapPlanar",
+  "checkpoints": [
+    {
+      "name": "cactus_sdd_gap_lower_bound",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 8 with Corollary 2 of Kalantarzadeh-Kumar (APPROX 2025, arXiv 2507.06576v3): if the cactus family is SDD(2w, p)-acceptable for even w >= 2 and 0 < p < 1, then 8/7 <= w*p. Via the paper's Theorem 2 (not formalized), this is the 16/7 multiflow-multicut gap lower bound for cactus, hence planar, graphs."
+    }
+  ]
+}

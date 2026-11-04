@@ -1,0 +1,52 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "Apache-2.0",
+  "lock_entry": {
+    "dependencies": {
+      "@leanprover/infoview-api": "~0.11.0",
+      "@vscode-elements/react-elements": "^0.5.0",
+      "@vscode/codicons": "^0.0.40",
+      "es-module-lexer": "^1.5.4",
+      "es-module-shims": "^1.7.3",
+      "react-fast-compare": "^3.2.2",
+      "tachyons": "^4.12.0",
+      "vscode-languageserver-protocol": "^3.17.3"
+    },
+    "integrity": "sha512-7E2ZhFBA6bbwFJhzDsnXtaJFDQj+bHL6faXiHTGWO0OMrK05cIOfG6yXZZ0RAjI6JOBoQwv8nhb6QObnnts8bQ==",
+    "license": "Apache-2.0",
+    "resolved": "https://registry.npmjs.org/@leanprover/infoview/-/infoview-0.11.0.tgz",
+    "version": "0.11.0"
+  },
+  "lock_path": "node_modules/@leanprover/infoview",
+  "name": "@leanprover/infoview",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "Apache-2.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 909499,
+    "installed_in_image": false,
+    "integrity": "sha512-7E2ZhFBA6bbwFJhzDsnXtaJFDQj+bHL6faXiHTGWO0OMrK05cIOfG6yXZZ0RAjI6JOBoQwv8nhb6QObnnts8bQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@leanprover/infoview/-/infoview-0.11.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "435e98b2df58d6de12904dbe5a4218e5d8e7c482b291ea7b406550e6c0813b51"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 10174,
+    "installed_file": "notices/supplementary/69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "8ae6710deae85b9f7b379e4fd3cf6a7495ec1424",
+    "sha256": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b",
+    "text_file": "image-notices/69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b.txt",
+    "url": "https://raw.githubusercontent.com/leanprover/vscode-lean4/8ae6710deae85b9f7b379e4fd3cf6a7495ec1424/LICENSE"
+  },
+  "version": "0.11.0"
+}

@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/itc2021-sports-timetabling"
+version = "1.0.0"
+description = "Optimize a sports timetabling solver: minimize the soft-constraint penalty of compact double round-robin schedules under hard capacity/break/fairness/separation rules, practiced on 29 public instances from a public competition benchmark and judged once at the end on 16 hidden structure-preserving-transformed instances from the same benchmark, scored continuously against a circle-method + simulated-annealing baseline and published best-known values, under one shared time pool. Final score = the verifier's single final judging (final-once, no best-of)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "sports-timetabling", "itc2021", "scheduling", "simulated-annealing", "type-2-solver"]
+
+[metadata]
+family_id = "fam-itc2021"
+candidate_id = "cand-itc2021-sports-timetabling"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "The baseline already produces compact feasible schedules on part of the set; beating it needs better search (richer neighbourhoods, repair heuristics, budget allocation across the shared time pool), and closing the gap to the competition best-known values needs the algorithmic ideas of the ITC2021 finalists: phased constructions, ejection chains, and long annealing schedules tuned per instance family."
+
+[verifier]
+timeout_sec = 1209600.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+
+
+[verifier.environment]
+network_mode = "no-network"
+build_timeout_sec = 3600.0

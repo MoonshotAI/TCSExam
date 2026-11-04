@@ -1,0 +1,43 @@
+{
+  "author": "Guy Bedford",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-HSSkRLkqFEyX6GrCAHrSOR5iz/QzQJRqZUF7bFJOZ4aoSw0WoSggfsTIGN2yFbF8v6xjQFhT4HGP6b+0qQZmEQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/es-module-shims/-/es-module-shims-1.10.1.tgz",
+    "version": "1.10.1"
+  },
+  "lock_path": "node_modules/es-module-shims",
+  "name": "es-module-shims",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1095,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "1fdec1aac505eee4dc4ea920432c66d2af22dbd718cdc2d4c0dd2742b8659db2",
+      "text_file": "image-notices/1fdec1aac505eee4dc4ea920432c66d2af22dbd718cdc2d4c0dd2742b8659db2.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 978292,
+    "installed_in_image": false,
+    "integrity": "sha512-HSSkRLkqFEyX6GrCAHrSOR5iz/QzQJRqZUF7bFJOZ4aoSw0WoSggfsTIGN2yFbF8v6xjQFhT4HGP6b+0qQZmEQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/es-module-shims/-/es-module-shims-1.10.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "30777df83d45b88526c457a820aff454a7a7e06bf327ac7b179dcfbf8af5729b"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.10.1"
+}

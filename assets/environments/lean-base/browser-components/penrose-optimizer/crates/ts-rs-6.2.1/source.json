@@ -1,0 +1,27 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "Moritz Bischof <moritz.bischof1@gmail.com>"
+  ],
+  "bytes": 13941,
+  "checksum_sha256": "4added4070a4fdf9df03457206cd2e4b12417c8560a2954d91ffcbe60177a56a",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "MIT",
+  "name": "ts-rs",
+  "notice_basis": "Exact released Cargo.toml explicitly identifies the license and authors; a same-project current source notice supplements an archive that omitted a standalone license text. The retrieved text is not represented as an originally shipped historical file.",
+  "original_notice_files": [],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/ts-rs/ts-rs-6.2.1.crate",
+  "supplementary_project_notice": {
+    "bytes": 1073,
+    "installed_file": "notices/supplementary/db7f7f8e7236a2d0b41b855b2501b7b913caebbcda6ce498637a304ad1706ce1.txt",
+    "name": "ts-rs-MIT",
+    "sha256": "db7f7f8e7236a2d0b41b855b2501b7b913caebbcda6ce498637a304ad1706ce1",
+    "status": 200,
+    "text_file": "image-notices/db7f7f8e7236a2d0b41b855b2501b7b913caebbcda6ce498637a304ad1706ce1.txt",
+    "url": "https://raw.githubusercontent.com/Aleph-Alpha/ts-rs/main/LICENSE"
+  },
+  "target_note": null,
+  "version": "6.2.1"
+}

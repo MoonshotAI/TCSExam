@@ -1,0 +1,89 @@
+{
+  "task_id": "ce-pace2021",
+  "checked_at": "2026-10-29",
+  "decision_scope": "Public development instances only: the 100 odd-numbered PACE 2021 heuristic-track graphs under environment/app/instances. Hidden judging instances, solution/precomputed answers, the verifier and the complete development image are outside this redistribution decision.",
+  "public_development_data": {
+    "upstream": {
+      "benchmark_page": "https://pacechallenge.org/2021/tracks/#benchmark-for-heuristic-track",
+      "public_selection": "The official page designates the odd-numbered instances among heur001.gr through heur200.gr as public.",
+      "archive_url": "https://fpt.akt.tu-berlin.de/pace2021/heur.tar.gz",
+      "archive_bytes": 114857966,
+      "archive_sha256": "7fa6fbbdc0427fd99ea64d0ba2c95e160220889e988de99f57e9333241c42bff",
+      "archive_members": "heur/heurNNN.gr for NNN=001,003,...,199; exactly 100 regular files"
+    },
+    "second_source": {
+      "repository": "https://github.com/PACE-challenge/Cluster-Editing-PACE-2021-instances",
+      "commit": "67f5df368c400f15fa2527ea1eb48ac1bd6a2d7a",
+      "commit_url": "https://github.com/PACE-challenge/Cluster-Editing-PACE-2021-instances/commit/67f5df368c400f15fa2527ea1eb48ac1bd6a2d7a",
+      "plain_files_byte_identical_to_official_archive": 100
+    },
+    "license": {
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/PACE-challenge/Cluster-Editing-PACE-2021-instances/67f5df368c400f15fa2527ea1eb48ac1bd6a2d7a/LICENSE",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "local_copy": "docs/licenses/third-party/PACE-CC0-1.0.txt",
+      "data_image_path": "/licenses/PACE-CC0-1.0.txt",
+      "coverage": "The CC0 dedication in the PACE instance repository covers the public instance data. This decision does not extend to other task components."
+    },
+    "source_data_families": {
+      "record_url": "https://raw.githubusercontent.com/PACE-challenge/Cluster-Editing-PACE-2021-instances/67f5df368c400f15fa2527ea1eb48ac1bd6a2d7a/pace-heur.csv",
+      "record_sha256": "c66eff959a2e398ea2bdc5c7cf7be1d93ed7d624568448f4ca3d39e5ed51192d",
+      "families": [
+        {
+          "name": "Jena",
+          "public_instances": 42
+        },
+        {
+          "name": "Newsgroups",
+          "public_instances": 18
+        },
+        {
+          "name": "SNAP",
+          "public_instances": 17
+        },
+        {
+          "name": "action_seq",
+          "public_instances": 13
+        },
+        {
+          "name": "strings",
+          "public_instances": 6
+        },
+        {
+          "name": "colors",
+          "public_instances": 4
+        }
+      ]
+    },
+    "transform": {
+      "mapping": "heur/heurNNN.gr -> app/instances/heurNNN.gr.xz",
+      "output_mode": "0644",
+      "source_modes_observed": {
+        "0644": 17,
+        "0664": 83
+      },
+      "source_modes_inherited": false,
+      "xz_version": "5.8.4",
+      "xz_source_url": "https://github.com/tukaani-project/xz/releases/download/v5.8.4/xz-5.8.4.tar.gz",
+      "xz_source_bytes": 2799797,
+      "xz_source_sha256": "0014c7886930454fe8bd4228665b51af55eeae560ea135c9c4cd33f55b2591d9",
+      "xz_arguments": [
+        "--format=xz",
+        "--stdout",
+        "--threads=2",
+        "--check=crc64",
+        "-9"
+      ],
+      "preset_overrides": {
+        "heur199.gr": "-6"
+      },
+      "byte_identity_requirement": "Every output must match the retained manifest hash; output from another XZ version or Python lzma is not accepted as a substitute."
+    },
+    "output_files": 100,
+    "output_bytes": 33577952,
+    "manifest": "assets/data/solver/solver-ce-pace2021-development-data-files.json",
+    "manifest_sha256": "7ee166b1aacba7a360473f8455d484af5d8db5dcd0cac0280d6cec3d2bbb988e",
+    "content_digest": "sha256:ee42ff35ce479bdb75194824d0a4681206872e38a4ba48e2ae703f70fe3f1538"
+  }
+}

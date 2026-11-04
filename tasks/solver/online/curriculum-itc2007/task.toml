@@ -1,0 +1,46 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/curriculum-itc2007"
+version = "1.0.0"
+description = "Optimize a curriculum-based course timetabling solver: minimize the soft-constraint penalty, practiced on 15 public instances from a public competition benchmark and judged once at the end on 6 hidden structure-preserving-transformed instances from the same benchmark, scored continuously against the competition-winning CPSolver baseline and verified best-known solutions, each instance under its own 240 s wall-clock limit. Final score = the verifier's single final judging (final-once, no best-of)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "timetabling", "curriculum-based-course-timetabling", "itc-2007", "local-search", "type-2-solver"]
+
+[metadata]
+family_id = "fam-ctt"
+candidate_id = "cand-curriculum-itc2007-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "The shipped baseline is the ITC 2007 Track 3 winning solver (CPSolver) itself, pinned to a fixed iteration budget, so beating it requires real search improvements, not just more compute; K is the community best-known (mostly proven optima) reproduced from verified solution files, so the last points need state-of-the-art local search (composite neighborhoods, large-neighborhood moves) on instances where even the 2007 winner left a wide gap, and each instance must be solved within its own 240 s limit — there is no borrowing time across instances of very different hardness."
+
+[verifier]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 6120.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+
+[environment.env]
+TCSEXAM_TOKEN_ID = "${TCSEXAM_TOKEN_ID}"
+TCSEXAM_TOKEN_SECRET = "${TCSEXAM_TOKEN_SECRET}"
+TCSEXAM_BASE_URL = "${TCSEXAM_BASE_URL}"
+CLAUDE_CODE_EFFORT_LEVEL = "${CLAUDE_CODE_EFFORT_LEVEL}"
+CLAUDE_CODE_MAX_OUTPUT_TOKENS = "${CLAUDE_CODE_MAX_OUTPUT_TOKENS}"
+CLAUDE_CODE_AUTO_COMPACT_WINDOW = "${CLAUDE_CODE_AUTO_COMPACT_WINDOW}"
+CLAUDE_CODE_MAX_CONTEXT_TOKENS = "${CLAUDE_CODE_MAX_CONTEXT_TOKENS}"
+CLAUDE_CODE_MAX_RETRIES = "${CLAUDE_CODE_MAX_RETRIES}"
+CLAUDE_CODE_RETRY_WATCHDOG = "${CLAUDE_CODE_RETRY_WATCHDOG}"
+API_TIMEOUT_MS = "${API_TIMEOUT_MS}"

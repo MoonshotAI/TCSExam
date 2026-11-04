@@ -1,0 +1,13 @@
+{
+  "cpus": 1,
+  "memory_mb": 8192,
+  "seconds": 240,
+  "check_seconds": 120,
+  "module_dir": "/opt/ctt",
+  "instances_dir": "/tests/instances",
+  "pool": false,
+  "base": "solver-curriculum-itc2007-judge-os-v1",
+  "task": "curriculum-itc2007",
+  "build_seconds": 600,
+  "disk_mb": 8192
+}

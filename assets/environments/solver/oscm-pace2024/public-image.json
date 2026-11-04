@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "task": "tasks/solver/online/oscm-pace2024",
+  "remove_paths": [
+    "/tests/instances",
+    "/tests/reference.json",
+    "/tests/anchors.json",
+    "/tests/reference-hidden.json",
+    "/tests/solution"
+  ],
+  "allow_content_paths": [
+    "/judge",
+    "/tests-public",
+    "/public-instances",
+    "/public_reference.json",
+    "/opt/ocm/scoring.py",
+    "/usr/local/lib/python3.12/site-packages/pace2024_verifier"
+  ],
+  "required_paths": [
+    "/judge/entry.sh",
+    "/judge/judge_worker.py",
+    "/tests-public/checker.py",
+    "/tests-public/reference.json",
+    "/public-instances",
+    "/public_reference.json",
+    "/opt/ocm/scoring.py",
+    "/usr/local/lib/python3.12/site-packages/pace2024_verifier",
+    "/usr/local/lib/python3.12/site-packages/pace2024_verifier/pace.py"
+  ]
+}

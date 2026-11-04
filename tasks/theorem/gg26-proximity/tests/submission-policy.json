@@ -1,0 +1,4 @@
+{
+  "policy": "basic-only",
+  "trusted_app": "/opt/tcsexam-trusted-app"
+}

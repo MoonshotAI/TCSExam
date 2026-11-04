@@ -1,0 +1,48 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260913",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/mr-roadef2012/PROVENANCE.md: per-instance minima for the 27 teams in the official ROADEF 2012 final (coordinates such as challenge2012_min/team are listed per instance in reference.json).",
+   "tier": "competition-record"
+  }
+ },
+ "family": "machine-reassignment",
+ "id": "mr-roadef2012",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-mr-roadef2012-judge-v8"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "MR_INSTANCE_SECONDS",
+  "n_hidden": 10,
+  "n_public": 20,
+  "per_instance_seconds": 300,
+  "shard_cores": 4,
+  "shard_mem_gb": 8,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "ROADEF 2012",
+  "hidden_set": "official-private",
+  "memorization_risk": "high",
+  "transform": null
+ },
+ "status": {
+  "in_split30": true
+ },
+ "subdomain": "scheduling",
+ "title": "Machine reassignment"
+}

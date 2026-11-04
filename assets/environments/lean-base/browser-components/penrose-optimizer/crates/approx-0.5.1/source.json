@@ -1,0 +1,27 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "Brendan Zabarauskas <bjzaba@yahoo.com.au>"
+  ],
+  "bytes": 15100,
+  "checksum_sha256": "cab112f0a86d568ea0e627cc1d6be74a1e9cd55214684db5561995f6dad897c6",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "Apache-2.0",
+  "name": "approx",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 11560,
+      "installed_file": "notices/original/LICENSE",
+      "path": "approx-0.5.1/LICENSE",
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+      "text_file": "image-notices/3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/approx/approx-0.5.1.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "0.5.1"
+}

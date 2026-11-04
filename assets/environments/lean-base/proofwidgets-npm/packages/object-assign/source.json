@@ -1,0 +1,50 @@
+{
+  "author": {
+    "email": "sindresorhus@gmail.com",
+    "name": "Sindre Sorhus",
+    "url": "sindresorhus.com"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "integrity": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz",
+    "version": "4.1.1"
+  },
+  "lock_path": "node_modules/object-assign",
+  "name": "object-assign",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1119,
+      "installed_file": "notices/original/package/license",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/license",
+      "sha256": "6fb9754611c20f6649f68805e8c990e83261f29316e29de9e6cedae607b8634c",
+      "text_file": "image-notices/6fb9754611c20f6649f68805e8c990e83261f29316e29de9e6cedae607b8634c.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 2675,
+    "installed_in_image": false,
+    "integrity": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "782d726a263ba7b26cced612af97b80035516df4b0cd788524e7b2cebc4e29ed"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.1.1"
+}

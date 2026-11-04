@@ -1,0 +1,50 @@
+{
+  "author": "Paul Henschel",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "@react-spring/rafz": "~9.7.5",
+      "@react-spring/types": "~9.7.5"
+    },
+    "integrity": "sha512-wdtoJrhUeeyD/PP/zo+np2s1Z820Ohr/BbuVYv+3dVLW7WctoiN7std8rISoYoHpUXtbkpesSKuPIw/6U1w1Pw==",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    },
+    "resolved": "https://registry.npmjs.org/@react-spring/shared/-/shared-9.7.5.tgz",
+    "version": "9.7.5"
+  },
+  "lock_path": "node_modules/@react-spring/shared",
+  "name": "@react-spring/shared",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1110,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+      "text_file": "image-notices/51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 188602,
+    "installed_in_image": false,
+    "integrity": "sha512-wdtoJrhUeeyD/PP/zo+np2s1Z820Ohr/BbuVYv+3dVLW7WctoiN7std8rISoYoHpUXtbkpesSKuPIw/6U1w1Pw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@react-spring/shared/-/shared-9.7.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "f9e0bd3d9e7fb176f6545baa629fb3918cfe95f10f69c519f4983304b5cd5881"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "9.7.5"
+}

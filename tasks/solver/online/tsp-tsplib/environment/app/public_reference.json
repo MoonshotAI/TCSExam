@@ -1,0 +1,492 @@
+{
+ "instances": {
+  "ali535": {
+   "B": 202411,
+   "K": 202339,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum 202339 (the 202310 value in the official documentation reflects a known difference in the GEO formula convention; the literature confirms 202339).",
+   "n": 535,
+   "type": "GEO"
+  },
+  "att48": {
+   "B": 10628,
+   "K": 10628,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum 10628 (ATT distance convention; verified by recomputing the optimal tour).",
+   "n": 48,
+   "type": "ATT"
+  },
+  "bier127": {
+   "B": 118282,
+   "K": 118282,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 127,
+   "type": "EUC_2D"
+  },
+  "brazil58": {
+   "B": 25395,
+   "K": 25395,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 58,
+   "type": "EXPLICIT/UPPER_ROW"
+  },
+  "brd14051": {
+   "B": 496660,
+   "K": 469385,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (the official Reinelt optimum table agrees with the mastqe mirror table; the value falls within the lower/upper-bound interval in the 1995 official documentation).",
+   "n": 14051,
+   "type": "EUC_2D"
+  },
+  "brg180": {
+   "B": 1950,
+   "K": 1950,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 180,
+   "type": "EXPLICIT/UPPER_ROW"
+  },
+  "ch150": {
+   "B": 6528,
+   "K": 6528,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 150,
+   "type": "EUC_2D"
+  },
+  "d1655": {
+   "B": 62367,
+   "K": 62128,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 1655,
+   "type": "EUC_2D"
+  },
+  "d18512": {
+   "B": 683051,
+   "K": 645238,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (the official Reinelt optimum table agrees with the mastqe mirror table; the value falls within the lower/upper-bound interval in the 1995 official documentation).",
+   "n": 18512,
+   "type": "EUC_2D"
+  },
+  "d493": {
+   "B": 35138,
+   "K": 35002,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 493,
+   "type": "EUC_2D"
+  },
+  "dantzig42": {
+   "B": 699,
+   "K": 699,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 42,
+   "type": "EXPLICIT/LOWER_DIAG_ROW"
+  },
+  "dsj1000": {
+   "B": 18824359,
+   "K": 18660188,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum 18660188 (CEIL_2D convention; 18659688 is the value under EUC_2D).",
+   "n": 1000,
+   "type": "CEIL_2D"
+  },
+  "eil51": {
+   "B": 426,
+   "K": 426,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 51,
+   "type": "EUC_2D"
+  },
+  "fl1400": {
+   "B": 20140,
+   "K": 20127,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 1400,
+   "type": "EUC_2D"
+  },
+  "fl3795": {
+   "B": 28965,
+   "K": 28772,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (the official Reinelt optimum table agrees with the mastqe mirror table; the value falls within the lower/upper-bound interval in the 1995 official documentation).",
+   "n": 3795,
+   "type": "EUC_2D"
+  },
+  "fl417": {
+   "B": 11862,
+   "K": 11861,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 417,
+   "type": "EUC_2D"
+  },
+  "fri26": {
+   "B": 937,
+   "K": 937,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 26,
+   "type": "EXPLICIT/LOWER_DIAG_ROW"
+  },
+  "gil262": {
+   "B": 2378,
+   "K": 2378,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 262,
+   "type": "EUC_2D"
+  },
+  "gr120": {
+   "B": 6942,
+   "K": 6942,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 120,
+   "type": "EXPLICIT/LOWER_DIAG_ROW"
+  },
+  "gr137": {
+   "B": 69853,
+   "K": 69853,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 137,
+   "type": "GEO"
+  },
+  "gr21": {
+   "B": 2707,
+   "K": 2707,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 21,
+   "type": "EXPLICIT/LOWER_DIAG_ROW"
+  },
+  "gr229": {
+   "B": 134602,
+   "K": 134602,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 229,
+   "type": "GEO"
+  },
+  "gr24": {
+   "B": 1272,
+   "K": 1272,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 24,
+   "type": "EXPLICIT/LOWER_DIAG_ROW"
+  },
+  "gr431": {
+   "B": 172058,
+   "K": 171414,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 431,
+   "type": "GEO/FUNCTION"
+  },
+  "hk48": {
+   "B": 11461,
+   "K": 11461,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 48,
+   "type": "EXPLICIT/LOWER_DIAG_ROW"
+  },
+  "kroA100": {
+   "B": 21282,
+   "K": 21282,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 100,
+   "type": "EUC_2D"
+  },
+  "kroA150": {
+   "B": 26524,
+   "K": 26524,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 150,
+   "type": "EUC_2D"
+  },
+  "kroB100": {
+   "B": 22141,
+   "K": 22141,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 100,
+   "type": "EUC_2D"
+  },
+  "kroB150": {
+   "B": 26132,
+   "K": 26130,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 150,
+   "type": "EUC_2D"
+  },
+  "kroC100": {
+   "B": 20749,
+   "K": 20749,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 100,
+   "type": "EUC_2D"
+  },
+  "kroD100": {
+   "B": 21294,
+   "K": 21294,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 100,
+   "type": "EUC_2D"
+  },
+  "kroE100": {
+   "B": 22068,
+   "K": 22068,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 100,
+   "type": "EUC_2D"
+  },
+  "lin105": {
+   "B": 14379,
+   "K": 14379,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 105,
+   "type": "EUC_2D"
+  },
+  "pcb1173": {
+   "B": 57218,
+   "K": 56892,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 1173,
+   "type": "EUC_2D"
+  },
+  "pcb3038": {
+   "B": 139161,
+   "K": 137694,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 3038,
+   "type": "EUC_2D"
+  },
+  "pcb442": {
+   "B": 50912,
+   "K": 50778,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 442,
+   "type": "EUC_2D"
+  },
+  "pla85900": {
+   "B": 151609129,
+   "K": 142382641,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (the official Reinelt optimum table agrees with the mastqe mirror table; the value falls within the lower/upper-bound interval in the 1995 official documentation).",
+   "n": 85900,
+   "type": "CEIL_2D"
+  },
+  "pr1002": {
+   "B": 261532,
+   "K": 259045,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 1002,
+   "type": "EUC_2D"
+  },
+  "pr107": {
+   "B": 44303,
+   "K": 44303,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 107,
+   "type": "EUC_2D"
+  },
+  "pr136": {
+   "B": 96772,
+   "K": 96772,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 136,
+   "type": "EUC_2D"
+  },
+  "pr152": {
+   "B": 73682,
+   "K": 73682,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 152,
+   "type": "EUC_2D"
+  },
+  "pr264": {
+   "B": 49135,
+   "K": 49135,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 264,
+   "type": "EUC_2D"
+  },
+  "pr439": {
+   "B": 107341,
+   "K": 107217,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 439,
+   "type": "EUC_2D"
+  },
+  "rat195": {
+   "B": 2328,
+   "K": 2323,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 195,
+   "type": "EUC_2D"
+  },
+  "rat783": {
+   "B": 8842,
+   "K": 8806,
+   "b_source": "tsp_bin seed0 @600s.",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 783,
+   "type": "EUC_2D"
+  },
+  "rd100": {
+   "B": 7910,
+   "K": 7910,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 100,
+   "type": "EUC_2D"
+  },
+  "rd400": {
+   "B": 15287,
+   "K": 15281,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 400,
+   "type": "EUC_2D"
+  },
+  "rl11849": {
+   "B": 956316,
+   "K": 923288,
+   "b_source": "tsp_bin seed0 @600s.",
+   "k_source": "TSPLIB proven optimum (the official Reinelt optimum table agrees with the mastqe mirror table; the value falls within the lower/upper-bound interval in the 1995 official documentation).",
+   "n": 11849,
+   "type": "EUC_2D"
+  },
+  "rl1323": {
+   "B": 271122,
+   "K": 270199,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 1323,
+   "type": "EUC_2D"
+  },
+  "rl1889": {
+   "B": 318391,
+   "K": 316536,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 1889,
+   "type": "EUC_2D"
+  },
+  "rl5934": {
+   "B": 567134,
+   "K": 556045,
+   "b_source": "tsp_bin seed0 @600s ( ratchet-3, fixed measurement: minimum observed value over three runs under judging conditions — gate 567139 from the 3678-key full-set check using judge-v10; two reruns in a matching isolated execution environment sandbox gave r1 567139 / r2 567134, with judge-v10 unchanged, isolated execution environment 1C/8GB, and full-shard INSTANCE_SHARD replay. This is a boundary key for a wall-clock-truncated baseline and varies within a noise band of about 0.007% (205321 previously measured exactly 0; this run reproduced +36). The conservative ratchet uses the minimum observation.)",
+   "k_source": "TSPLIB proven optimum (the official Reinelt optimum table agrees with the mastqe mirror table; the value falls within the lower/upper-bound interval in the 1995 official documentation).",
+   "n": 5934,
+   "type": "EUC_2D"
+  },
+  "si1032": {
+   "B": 92758,
+   "K": 92650,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 1032,
+   "type": "EXPLICIT/UPPER_DIAG_ROW"
+  },
+  "si175": {
+   "B": 21407,
+   "K": 21407,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 175,
+   "type": "EXPLICIT/UPPER_DIAG_ROW"
+  },
+  "st70": {
+   "B": 675,
+   "K": 675,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum; the official/image optimal-tour file was independently parsed and verified.",
+   "n": 70,
+   "type": "EUC_2D"
+  },
+  "tsp225": {
+   "B": 3916,
+   "K": 3916,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum 3916 (verified by recomputing the optimal tour; the old 3919 value in the official documentation has been updated).",
+   "n": 225,
+   "type": "EUC_2D"
+  },
+  "u1060": {
+   "B": 224818,
+   "K": 224094,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 1060,
+   "type": "EUC_2D"
+  },
+  "u1432": {
+   "B": 154111,
+   "K": 152970,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 1432,
+   "type": "EUC_2D"
+  },
+  "u1817": {
+   "B": 57710,
+   "K": 57201,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 1817,
+   "type": "EUC_2D"
+  },
+  "u574": {
+   "B": 36975,
+   "K": 36905,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 574,
+   "type": "EUC_2D"
+  },
+  "u724": {
+   "B": 42097,
+   "K": 41910,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 724,
+   "type": "EUC_2D"
+  },
+  "vm1084": {
+   "B": 239801,
+   "K": 239297,
+   "b_source": "tsp_bin seed0 @600s (measured by the evaluation runner oracle).",
+   "k_source": "TSPLIB proven optimum (consistent across the official Reinelt optimum table, the mastqe mirror table, and TSPLIB documentation).",
+   "n": 1084,
+   "type": "EUC_2D"
+  }
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "jsplib-jssp",
+  "repository": "https://github.com/ScheduleOpt/benchmarks",
+  "commit": "e5e62a01023ff827f658255b793fd1b86e5c1707",
+  "scope": "Exactly 198 public and 85 hidden frozen plaintext inputs. Official classic inputs downloaded at the fixed commit; tai input JSON converted to standard text; project-generated families recreated from original generator and seeds. Hidden job/machine permutations replay the original algorithm and verify saved parameter hashes.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Retain JSPLIB CC-BY-SA-4.0 and project-generated input terms. No new public image upload is authorized."
+}

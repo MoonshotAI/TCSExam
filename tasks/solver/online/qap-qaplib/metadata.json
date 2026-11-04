@@ -1,0 +1,54 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260920",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/qap-qaplib/PROVENANCE.md §B/K derivation: best solution values listed in QAPLIB (the full nug* family and others are proven optimal; the remaining listed best values are unproven); permutations were independently rescored.",
+   "tier": "literature"
+  }
+ },
+ "family": "quadratic-assignment",
+ "id": "qap-qaplib",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-qap-qaplib-judge-v16"
+ },
+ "judging": {
+  "budget_kind": "pool",
+  "form": "final-once",
+  "instance_cores": 4,
+  "limit_env": "QAP_TIME_POOL",
+  "n_hidden": 41,
+  "n_neither": 20,
+  "n_public": 75,
+  "per_instance_seconds": 30,
+  "pool_seconds": 1230,
+  "shard_cores": 4,
+  "shard_mem_gb": 8,
+  "shards": 1
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "library",
+  "ecosystem": "QAPLIB",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "row/column permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "form2 is in place: split.json has 75 public / 41 hidden / 20 neither (260920 holdout: the judged set is close to the full public registry, so about 15% of the public instances are assigned proportionally by family × size to neither; names are stored only in tests/split.json). Hidden B is temporarily a placeholder from before transformation and will be remeasured in the batch phase. pool_seconds=30x41."
+ },
+ "subdomain": "other",
+ "title": "Quadratic assignment problem"
+}

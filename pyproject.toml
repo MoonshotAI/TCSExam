@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tcsexam"
+version = "0.1.0"
+description = "TCSExam task selection and reproducible score aggregation"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/MoonshotAI/TCSExam"
+
+[project.optional-dependencies]
+runtime = ["harbor==0.22.0", "toml>=0.10.2"]
+backend = ["aiohttp>=3.9", "PyYAML>=6.0"]
+
+[project.scripts]
+tcsexam = "tcsexam.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tcsexam.tests", "tcsexam.tests.*", "tcsexam.backend.tests", "tcsexam.backend.tests.*"]
+
+[tool.setuptools.package-data]
+tcsexam = ["references/*.json"]

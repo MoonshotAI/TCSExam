@@ -1,0 +1,56 @@
+{
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://bost.ocks.org/mike"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "ISC",
+  "lock_entry": {
+    "dependencies": {
+      "d3-array": "2.10.0 - 3",
+      "d3-format": "1 - 3",
+      "d3-interpolate": "1.2.0 - 3",
+      "d3-time": "2.1.1 - 3",
+      "d3-time-format": "2 - 4"
+    },
+    "engines": {
+      "node": ">=12"
+    },
+    "integrity": "sha512-GZW464g1SH7ag3Y7hXjf8RoUuAFIqklOAq3MRl4OaWabTFJY9PN/E1YklhXLh+OQ3fM9yS2nOkCoS+WLZ6kvxQ==",
+    "license": "ISC",
+    "resolved": "https://registry.npmjs.org/d3-scale/-/d3-scale-4.0.2.tgz",
+    "version": "4.0.2"
+  },
+  "lock_path": "node_modules/d3-scale",
+  "name": "d3-scale",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "text_file": "image-notices/e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee.txt"
+    }
+  ],
+  "package_license": "ISC",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 33190,
+    "installed_in_image": false,
+    "integrity": "sha512-GZW464g1SH7ag3Y7hXjf8RoUuAFIqklOAq3MRl4OaWabTFJY9PN/E1YklhXLh+OQ3fM9yS2nOkCoS+WLZ6kvxQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/d3-scale/-/d3-scale-4.0.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "bf50a1f34ba0e6fa25cb7ae902abe0b9e2f85ced39fdca7b18fbe863fbaa39a7"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.0.2"
+}

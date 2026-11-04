@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/rectilinear-tsp-gap-lean-open"
+version = "1.0.0"
+description = "Open-proof task: in Lean 4, bring your own rectilinear (L1) TSP point set (n in [11,16] for the records, integer-scaled coordinates), a rational subtour-LP feasible point and a Held-Karp potential table, and prove a lower bound alpha on the subtour-LP integrality gap. Anchors: the Zhong 2025 per-n family values (11: 17/15, ..., 16: 64/55); 64/55 scores 1.0, the curve is uncapped, beating a per-n family value is flagged record_broken, exceeding 4/3 is flagged beyond_4_3."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "rectilinear-tsp", "subtour-lp", "integrality-gap", "held-karp", "open-proof", "open-construction"]
+
+[metadata]
+family_id = "fam-rectilinear-tsp-gap"
+candidate_id = "cand-rectilinear-tsp-gap-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open-proof"
+difficulty_explanation = "No instance, witness or lemma ladder is given: the agent must find a bad rectilinear point set itself (the Zhong 2025 three-line family members are the score anchors), engineer a kernel-checkable certificate (integer-scaled coordinates, LP feasible point, Held-Karp potential table over 2^n masks) inside the fixed definition layer, and drive the 2^16-mask enumerations through native_decide within the verifier budget."
+source_paper = "Xianghui Zhong, Lower bounds on the integrality ratio of the subtour LP for the traveling salesman problem, Discrete Applied Mathematics 365 (2025) 109-129 (arXiv:2102.04765)"
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-construction-rectilinear-tsp-gap-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

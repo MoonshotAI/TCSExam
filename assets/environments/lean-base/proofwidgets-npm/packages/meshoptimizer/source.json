@@ -1,0 +1,43 @@
+{
+  "author": "Arseny Kapoulkine",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-Vix+QlA1YYT3FwmBBZ+49cE5y/b+pRrcXKqGpS5ouh33d3lSp2PoTpCw19E0cKDFWalembrHnIaZetf27a+W2g==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-1.0.1.tgz",
+    "version": "1.0.1"
+  },
+  "lock_path": "node_modules/meshoptimizer",
+  "name": "meshoptimizer",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1079,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "e4a26033e3551fb2722888949fbb41e77aee628e8e8f04dcffeee301aa7e5634",
+      "text_file": "image-notices/e4a26033e3551fb2722888949fbb41e77aee628e8e8f04dcffeee301aa7e5634.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 72811,
+    "installed_in_image": false,
+    "integrity": "sha512-Vix+QlA1YYT3FwmBBZ+49cE5y/b+pRrcXKqGpS5ouh33d3lSp2PoTpCw19E0cKDFWalembrHnIaZetf27a+W2g==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-1.0.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "b924093d1a961f10652ac28f02a927af250f2c1be5ef8555db4ef7688af31cad"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.0.1"
+}

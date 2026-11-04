@@ -1,0 +1,27 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "Lokathor <zefria@gmail.com>"
+  ],
+  "bytes": 72016,
+  "checksum_sha256": "794821e4ccb0d9f979512f9c1973480123f9bd62a90d74ab0f9426fcf8f4a529",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "Zlib OR Apache-2.0 OR MIT",
+  "name": "safe_arch",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 862,
+      "installed_file": "notices/original/LICENSE-ZLIB.md",
+      "path": "safe_arch-0.6.0/LICENSE-ZLIB.md",
+      "sha256": "6f5eb1806918b0e331db6aae84abddbcc7a297ffea58582211e41e941b5a1841",
+      "text_file": "image-notices/6f5eb1806918b0e331db6aae84abddbcc7a297ffea58582211e41e941b5a1841.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/safe_arch/safe_arch-0.6.0.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "0.6.0"
+}

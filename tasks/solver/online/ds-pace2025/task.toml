@@ -1,0 +1,46 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/ds-pace2025"
+version = "1.0.0"
+description = "Optimize a dominating-set solver (PACE 2025 heuristic track): minimize solution size on the 100 private hidden instances, scored continuously against baseline and champion reference results, under the official 300 s per-instance limit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "dominating-set", "pace-2025", "graph-algorithms", "type-2-solver"]
+
+[metadata]
+family_id = "fam-dominating-set"
+candidate_id = "cand-ds2025-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "Beating naive set-cover greedy is easy to start (pruning, restarts), but the reference is the PACE 2025 heuristic champion's full-budget results on million-vertex graphs; closing that gap needs real algorithm engineering (reductions, local search) under a shared time pool."
+
+[verifier]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 7200.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 16
+memory_mb = 16384
+storage_mb = 8192
+
+[environment.env]
+TCSEXAM_TOKEN_ID = "${TCSEXAM_TOKEN_ID}"
+TCSEXAM_TOKEN_SECRET = "${TCSEXAM_TOKEN_SECRET}"
+TCSEXAM_BASE_URL = "${TCSEXAM_BASE_URL}"
+CLAUDE_CODE_EFFORT_LEVEL = "${CLAUDE_CODE_EFFORT_LEVEL}"
+CLAUDE_CODE_MAX_OUTPUT_TOKENS = "${CLAUDE_CODE_MAX_OUTPUT_TOKENS}"
+CLAUDE_CODE_AUTO_COMPACT_WINDOW = "${CLAUDE_CODE_AUTO_COMPACT_WINDOW}"
+CLAUDE_CODE_MAX_CONTEXT_TOKENS = "${CLAUDE_CODE_MAX_CONTEXT_TOKENS}"
+CLAUDE_CODE_MAX_RETRIES = "${CLAUDE_CODE_MAX_RETRIES}"
+CLAUDE_CODE_RETRY_WATCHDOG = "${CLAUDE_CODE_RETRY_WATCHDOG}"
+API_TIMEOUT_MS = "${API_TIMEOUT_MS}"

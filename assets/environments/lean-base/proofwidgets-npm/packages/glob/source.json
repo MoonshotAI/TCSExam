@@ -1,0 +1,62 @@
+{
+  "author": "Isaac Z. Schlueter <i@izs.me> (https://blog.izs.me/)",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BlueOak-1.0.0",
+  "lock_entry": {
+    "bin": {
+      "glob": "dist/esm/bin.mjs"
+    },
+    "dependencies": {
+      "foreground-child": "^3.3.1",
+      "jackspeak": "^4.1.1",
+      "minimatch": "^10.1.1",
+      "minipass": "^7.1.2",
+      "package-json-from-dist": "^1.0.0",
+      "path-scurry": "^2.0.0"
+    },
+    "deprecated": "Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me",
+    "dev": true,
+    "engines": {
+      "node": "20 || >=22"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/isaacs"
+    },
+    "integrity": "sha512-vuNwKSaKiqm7g0THUBu2x7ckSs3XJLXE+2ssL7/MfTGPLLcrJQ/4Uq1CjPTtO5cCIiRxqvN6Twy1qOwhL0Xjcw==",
+    "license": "BlueOak-1.0.0",
+    "resolved": "https://registry.npmjs.org/glob/-/glob-11.1.0.tgz",
+    "version": "11.1.0"
+  },
+  "lock_path": "node_modules/glob",
+  "name": "glob",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1764,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09",
+      "text_file": "image-notices/a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09.txt"
+    }
+  ],
+  "package_license": "BlueOak-1.0.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 74669,
+    "installed_in_image": false,
+    "integrity": "sha512-vuNwKSaKiqm7g0THUBu2x7ckSs3XJLXE+2ssL7/MfTGPLLcrJQ/4Uq1CjPTtO5cCIiRxqvN6Twy1qOwhL0Xjcw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/glob/-/glob-11.1.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "8816e244d245d86a1b8adf9ed0bf61c9665dbb1ee7b00dd6b3283f3ac0393bfb"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "11.1.0"
+}

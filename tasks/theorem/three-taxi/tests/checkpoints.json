@@ -1,0 +1,13 @@
+{
+  "main_theorem": "tripod_tracker_competitive",
+  "namespace": "ThreeTaxi",
+  "checkpoints": [
+    {
+      "name": "tripod_tracker_competitive",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 3.12 of Coester-Poon (arXiv 2510.25861v1, = Theorem 1.1): there exists kappa > 0 such that for every initial state with coinciding online/offline configurations and zero interval lengths, and every request sequence paired with offline taxi choices, the total online cost of the TripodTracker trajectory is at most kappa times the total offline cost. Constants a = 1/10000, b = 1/100, psi = 1/10, beta = 100, alpha = 100000 (epsilon = 1/10 instance of the footnote-2 hierarchy)."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "ISC",
+  "lock_entry": {
+    "dependencies": {
+      "cross-spawn": "^7.0.6",
+      "signal-exit": "^4.0.1"
+    },
+    "dev": true,
+    "engines": {
+      "node": ">=14"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/isaacs"
+    },
+    "integrity": "sha512-gIXjKqtFuWEgzFRJA9WCQeSJLZDjgJUOMCMzxtvFq/37KojM1BFGufqsCy0r4qSQmYLsZYMeyRqzIWOMup03sw==",
+    "license": "ISC",
+    "resolved": "https://registry.npmjs.org/foreground-child/-/foreground-child-3.3.1.tgz",
+    "version": "3.3.1"
+  },
+  "lock_path": "node_modules/foreground-child",
+  "name": "foreground-child",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 775,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "93f5d82a8d59442fe3275383453a255fef761647fb28265644010ba799806148",
+      "text_file": "image-notices/93f5d82a8d59442fe3275383453a255fef761647fb28265644010ba799806148.txt"
+    }
+  ],
+  "package_license": "ISC",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 12526,
+    "installed_in_image": false,
+    "integrity": "sha512-gIXjKqtFuWEgzFRJA9WCQeSJLZDjgJUOMCMzxtvFq/37KojM1BFGufqsCy0r4qSQmYLsZYMeyRqzIWOMup03sw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/foreground-child/-/foreground-child-3.3.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "af9cca5bb050049cadc01bf4a01af51bf0bc09aa209aa6c4458b45cb55c1673e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.3.1"
+}

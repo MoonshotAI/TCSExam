@@ -1,0 +1,1004 @@
+{
+ "instances": {
+  "ex00": {
+   "B": 110,
+   "B_baseline": "pdf_dc2",
+   "K": 56,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.08,
+   "m": 7,
+   "n": 14,
+   "truth": "ex00.truth"
+  },
+  "ex01": {
+   "B": 636,
+   "B_baseline": "pdf_dc2",
+   "K": 182,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.11,
+   "m": 5,
+   "n": 14,
+   "truth": "ex01.truth"
+  },
+  "ex02": {
+   "B": 1114,
+   "B_baseline": "pdf_dc2",
+   "K": 317,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.31,
+   "m": 6,
+   "n": 16,
+   "truth": "ex02.truth"
+  },
+  "ex03": {
+   "B": 84,
+   "B_baseline": "pdf_dc2",
+   "K": 52,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.62,
+   "m": 4,
+   "n": 16,
+   "truth": "ex03.truth"
+  },
+  "ex04": {
+   "B": 54,
+   "B_baseline": "pdf_dc2",
+   "K": 27,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.09,
+   "m": 10,
+   "n": 10,
+   "truth": "ex04.truth"
+  },
+  "ex05": {
+   "B": 2437,
+   "B_baseline": "pdf_dc2",
+   "K": 568,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.13,
+   "m": 6,
+   "n": 14,
+   "truth": "ex05.truth"
+  },
+  "ex06": {
+   "B": 57,
+   "B_baseline": "pdf_dc2",
+   "K": 40,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.06,
+   "m": 5,
+   "n": 14,
+   "truth": "ex06.truth"
+  },
+  "ex07": {
+   "B": 27,
+   "B_baseline": "pdf_dc2",
+   "K": 17,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.03,
+   "m": 5,
+   "n": 6,
+   "truth": "ex07.truth"
+  },
+  "ex08": {
+   "B": 1954,
+   "B_baseline": "pdf_dc2",
+   "K": 1056,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl on parent ex06, migrated through the official NPN re-encoding, verified",
+   "baseline_sec": 5.01,
+   "m": 5,
+   "n": 16,
+   "truth": "ex08.truth"
+  },
+  "ex09": {
+   "B": 1516,
+   "B_baseline": "pdf_dc2",
+   "K": 406,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 1.08,
+   "m": 20,
+   "n": 16,
+   "truth": "ex09.truth"
+  },
+  "ex10": {
+   "B": 88,
+   "B_baseline": "pdf_dc2",
+   "K": 38,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.04,
+   "m": 14,
+   "n": 10,
+   "truth": "ex10.truth"
+  },
+  "ex11": {
+   "B": 1899,
+   "B_baseline": "pdf_dc2",
+   "K": 175,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.18,
+   "m": 7,
+   "n": 15,
+   "truth": "ex11.truth"
+  },
+  "ex12": {
+   "B": 12,
+   "B_baseline": "pdf_dc2",
+   "K": 10,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.04,
+   "m": 2,
+   "n": 6,
+   "truth": "ex12.truth"
+  },
+  "ex13": {
+   "B": 84,
+   "B_baseline": "pdf_dc2",
+   "K": 28,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team epfl, verified",
+   "baseline_sec": 0.08,
+   "m": 5,
+   "n": 8,
+   "truth": "ex13.truth"
+  },
+  "ex14": {
+   "B": 43,
+   "B_baseline": "pdf_dc2",
+   "K": 31,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.04,
+   "m": 11,
+   "n": 6,
+   "truth": "ex14.truth"
+  },
+  "ex15": {
+   "B": 2538,
+   "B_baseline": "pdf_dc2",
+   "K": 1345,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl on parent ex36, migrated through the official NPN re-encoding, verified",
+   "baseline_sec": 0.33,
+   "m": 17,
+   "n": 12,
+   "truth": "ex15.truth"
+  },
+  "ex16": {
+   "B": 2162,
+   "B_baseline": "pdf_dc2",
+   "K": 142,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.72,
+   "m": 5,
+   "n": 14,
+   "truth": "ex16.truth"
+  },
+  "ex17": {
+   "B": 17,
+   "B_baseline": "pdf_dc2",
+   "K": 15,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.04,
+   "m": 4,
+   "n": 8,
+   "truth": "ex17.truth"
+  },
+  "ex18": {
+   "B": 8453,
+   "B_baseline": "pdf_dc2",
+   "K": 4911,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team epfl on parent ex67, migrated through the official NPN re-encoding, verified",
+   "baseline_sec": 1.22,
+   "m": 103,
+   "n": 12,
+   "truth": "ex18.truth"
+  },
+  "ex19": {
+   "B": 129,
+   "B_baseline": "pdf_dc2",
+   "K": 69,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.05,
+   "m": 2,
+   "n": 9,
+   "truth": "ex19.truth"
+  },
+  "ex20": {
+   "B": 605,
+   "B_baseline": "pdf_dc2",
+   "K": 167,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 2.62,
+   "m": 7,
+   "n": 16,
+   "truth": "ex20.truth"
+  },
+  "ex21": {
+   "B": 41,
+   "B_baseline": "pdf_dc2",
+   "K": 29,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.05,
+   "m": 6,
+   "n": 12,
+   "truth": "ex21.truth"
+  },
+  "ex22": {
+   "B": 925,
+   "B_baseline": "pdf_dc2",
+   "K": 528,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team epfl, verified",
+   "baseline_sec": 0.06,
+   "m": 12,
+   "n": 10,
+   "truth": "ex22.truth"
+  },
+  "ex23": {
+   "B": 24,
+   "B_baseline": "pdf_dc2",
+   "K": 20,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 9,
+   "truth": "ex23.truth"
+  },
+  "ex24": {
+   "B": 277,
+   "B_baseline": "pdf_dc2",
+   "K": 138,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.12,
+   "m": 79,
+   "n": 9,
+   "truth": "ex24.truth"
+  },
+  "ex25": {
+   "B": 1212,
+   "B_baseline": "pdf_dc2",
+   "K": 112,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.8,
+   "m": 4,
+   "n": 15,
+   "truth": "ex25.truth"
+  },
+  "ex26": {
+   "B": 968,
+   "B_baseline": "pdf_dc2",
+   "K": 181,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 4.19,
+   "m": 19,
+   "n": 16,
+   "truth": "ex26.truth"
+  },
+  "ex27": {
+   "B": 830,
+   "B_baseline": "pdf_dc2",
+   "K": 322,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.09,
+   "m": 5,
+   "n": 14,
+   "truth": "ex27.truth"
+  },
+  "ex28": {
+   "B": 1798,
+   "B_baseline": "pdf_dc2",
+   "K": 413,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.18,
+   "m": 7,
+   "n": 15,
+   "truth": "ex28.truth"
+  },
+  "ex29": {
+   "B": 2232,
+   "B_baseline": "pdf_dc2",
+   "K": 588,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2022 submission team ucb on parent ex83, migrated through the official NPN re-encoding, verified",
+   "baseline_sec": 0.19,
+   "m": 6,
+   "n": 15,
+   "truth": "ex29.truth"
+  },
+  "ex30": {
+   "B": 23,
+   "B_baseline": "pdf_dc2",
+   "K": 19,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.04,
+   "m": 5,
+   "n": 10,
+   "truth": "ex30.truth"
+  },
+  "ex31": {
+   "B": 559,
+   "B_baseline": "pdf_dc2",
+   "K": 180,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 6.68,
+   "m": 50,
+   "n": 16,
+   "truth": "ex31.truth"
+  },
+  "ex32": {
+   "B": 33,
+   "B_baseline": "pdf_dc2",
+   "K": 22,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.04,
+   "m": 2,
+   "n": 7,
+   "truth": "ex32.truth"
+  },
+  "ex33": {
+   "B": 1004,
+   "B_baseline": "pdf_dc2",
+   "K": 137,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 2.71,
+   "m": 8,
+   "n": 16,
+   "truth": "ex33.truth"
+  },
+  "ex34": {
+   "B": 4074,
+   "B_baseline": "pdf_dc2",
+   "K": 1319,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 1.06,
+   "m": 18,
+   "n": 16,
+   "truth": "ex34.truth"
+  },
+  "ex35": {
+   "B": 90,
+   "B_baseline": "pdf_dc2",
+   "K": 24,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team epfl, verified",
+   "baseline_sec": 0.09,
+   "m": 2,
+   "n": 9,
+   "truth": "ex35.truth"
+  },
+  "ex36": {
+   "B": 486,
+   "B_baseline": "pdf_dc2",
+   "K": 90,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 4.77,
+   "m": 20,
+   "n": 16,
+   "truth": "ex36.truth"
+  },
+  "ex37": {
+   "B": 698,
+   "B_baseline": "pdf_dc2",
+   "K": 106,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.26,
+   "m": 7,
+   "n": 16,
+   "truth": "ex37.truth"
+  },
+  "ex38": {
+   "B": 326,
+   "B_baseline": "pdf_dc2",
+   "K": 72,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 1.17,
+   "m": 19,
+   "n": 15,
+   "truth": "ex38.truth"
+  },
+  "ex39": {
+   "B": 129,
+   "B_baseline": "pdf_dc2",
+   "K": 37,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.04,
+   "m": 5,
+   "n": 9,
+   "truth": "ex39.truth"
+  },
+  "ex40": {
+   "B": 123,
+   "B_baseline": "pdf_dc2",
+   "K": 61,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.15,
+   "m": 6,
+   "n": 13,
+   "truth": "ex40.truth"
+  },
+  "ex41": {
+   "B": 19,
+   "B_baseline": "pdf_dc2",
+   "K": 18,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.06,
+   "m": 7,
+   "n": 6,
+   "truth": "ex41.truth"
+  },
+  "ex42": {
+   "B": 154,
+   "B_baseline": "pdf_dc2",
+   "K": 78,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 2.0,
+   "m": 7,
+   "n": 16,
+   "truth": "ex42.truth"
+  },
+  "ex43": {
+   "B": 887,
+   "B_baseline": "pdf_dc2",
+   "K": 92,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.12,
+   "m": 6,
+   "n": 15,
+   "truth": "ex43.truth"
+  },
+  "ex44": {
+   "B": 60,
+   "B_baseline": "pdf_dc2",
+   "K": 35,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.04,
+   "m": 4,
+   "n": 9,
+   "truth": "ex44.truth"
+  },
+  "ex45": {
+   "B": 224,
+   "B_baseline": "pdf_dc2",
+   "K": 63,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.23,
+   "m": 15,
+   "n": 13,
+   "truth": "ex45.truth"
+  },
+  "ex46": {
+   "B": 90,
+   "B_baseline": "pdf_dc2",
+   "K": 33,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.05,
+   "m": 6,
+   "n": 13,
+   "truth": "ex46.truth"
+  },
+  "ex47": {
+   "B": 257,
+   "B_baseline": "pdf_dc2",
+   "K": 115,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.1,
+   "m": 11,
+   "n": 10,
+   "truth": "ex47.truth"
+  },
+  "ex48": {
+   "B": 2293,
+   "B_baseline": "pdf_dc2",
+   "K": 1280,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.11,
+   "m": 24,
+   "n": 11,
+   "truth": "ex48.truth"
+  },
+  "ex49": {
+   "B": 60,
+   "B_baseline": "pdf_dc2",
+   "K": 40,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.06,
+   "m": 4,
+   "n": 14,
+   "truth": "ex49.truth"
+  },
+  "ex50": {
+   "B": 738,
+   "B_baseline": "pdf_dc2",
+   "K": 239,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.28,
+   "m": 7,
+   "n": 16,
+   "truth": "ex50.truth"
+  },
+  "ex51": {
+   "B": 13755,
+   "B_baseline": "pdf_dc2",
+   "K": 168,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 16.17,
+   "m": 5,
+   "n": 16,
+   "truth": "ex51.truth"
+  },
+  "ex52": {
+   "B": 93,
+   "B_baseline": "pdf_dc2",
+   "K": 39,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team epfl, verified",
+   "baseline_sec": 0.1,
+   "m": 13,
+   "n": 8,
+   "truth": "ex52.truth"
+  },
+  "ex53": {
+   "B": 55,
+   "B_baseline": "pdf_dc2",
+   "K": 35,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.04,
+   "m": 2,
+   "n": 10,
+   "truth": "ex53.truth"
+  },
+  "ex54": {
+   "B": 2210,
+   "B_baseline": "pdf_dc2",
+   "K": 435,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.19,
+   "m": 7,
+   "n": 15,
+   "truth": "ex54.truth"
+  },
+  "ex55": {
+   "B": 174,
+   "B_baseline": "pdf_dc2",
+   "K": 38,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.09,
+   "m": 3,
+   "n": 12,
+   "truth": "ex55.truth"
+  },
+  "ex56": {
+   "B": 416,
+   "B_baseline": "pdf_dc2",
+   "K": 114,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 3.58,
+   "m": 21,
+   "n": 16,
+   "truth": "ex56.truth"
+  },
+  "ex57": {
+   "B": 40,
+   "B_baseline": "pdf_dc2",
+   "K": 30,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.04,
+   "m": 3,
+   "n": 11,
+   "truth": "ex57.truth"
+  },
+  "ex58": {
+   "B": 891,
+   "B_baseline": "pdf_dc2",
+   "K": 290,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.34,
+   "m": 7,
+   "n": 16,
+   "truth": "ex58.truth"
+  },
+  "ex59": {
+   "B": 683,
+   "B_baseline": "pdf_dc2",
+   "K": 138,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 1.57,
+   "m": 24,
+   "n": 16,
+   "truth": "ex59.truth"
+  },
+  "ex60": {
+   "B": 771,
+   "B_baseline": "pdf_dc2",
+   "K": 172,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.69,
+   "m": 6,
+   "n": 15,
+   "truth": "ex60.truth"
+  },
+  "ex61": {
+   "B": 164,
+   "B_baseline": "pdf_dc2",
+   "K": 71,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.26,
+   "m": 5,
+   "n": 14,
+   "truth": "ex61.truth"
+  },
+  "ex62": {
+   "B": 44,
+   "B_baseline": "pdf_dc2",
+   "K": 25,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.07,
+   "m": 1,
+   "n": 16,
+   "truth": "ex62.truth"
+  },
+  "ex63": {
+   "B": 192,
+   "B_baseline": "pdf_dc2",
+   "K": 56,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.06,
+   "m": 17,
+   "n": 12,
+   "truth": "ex63.truth"
+  },
+  "ex64": {
+   "B": 755,
+   "B_baseline": "pdf_dc2",
+   "K": 261,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.72,
+   "m": 6,
+   "n": 15,
+   "truth": "ex64.truth"
+  },
+  "ex65": {
+   "B": 145,
+   "B_baseline": "pdf_dc2",
+   "K": 70,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.08,
+   "m": 43,
+   "n": 6,
+   "truth": "ex65.truth"
+  },
+  "ex66": {
+   "B": 7279,
+   "B_baseline": "pdf_dc2",
+   "K": 1182,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 11.45,
+   "m": 6,
+   "n": 16,
+   "truth": "ex66.truth"
+  },
+  "ex67": {
+   "B": 990,
+   "B_baseline": "pdf_dc2",
+   "K": 188,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.37,
+   "m": 8,
+   "n": 16,
+   "truth": "ex67.truth"
+  },
+  "ex68": {
+   "B": 122,
+   "B_baseline": "pdf_dc2",
+   "K": 51,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.11,
+   "m": 7,
+   "n": 12,
+   "truth": "ex68.truth"
+  },
+  "ex69": {
+   "B": 419,
+   "B_baseline": "pdf_dc2",
+   "K": 90,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.89,
+   "m": 19,
+   "n": 16,
+   "truth": "ex69.truth"
+  },
+  "ex70": {
+   "B": 2426,
+   "B_baseline": "pdf_dc2",
+   "K": 226,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 1.05,
+   "m": 6,
+   "n": 15,
+   "truth": "ex70.truth"
+  },
+  "ex71": {
+   "B": 100,
+   "B_baseline": "pdf_dc2",
+   "K": 39,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team epfl, verified",
+   "baseline_sec": 0.09,
+   "m": 13,
+   "n": 9,
+   "truth": "ex71.truth"
+  },
+  "ex72": {
+   "B": 771,
+   "B_baseline": "pdf_dc2",
+   "K": 89,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.14,
+   "m": 7,
+   "n": 15,
+   "truth": "ex72.truth"
+  },
+  "ex73": {
+   "B": 565,
+   "B_baseline": "pdf_dc2",
+   "K": 128,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.45,
+   "m": 6,
+   "n": 15,
+   "truth": "ex73.truth"
+  },
+  "ex74": {
+   "B": 1982,
+   "B_baseline": "pdf_dc2",
+   "K": 81,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.53,
+   "m": 8,
+   "n": 16,
+   "truth": "ex74.truth"
+  },
+  "ex75": {
+   "B": 767,
+   "B_baseline": "pdf_dc2",
+   "K": 118,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.39,
+   "m": 8,
+   "n": 16,
+   "truth": "ex75.truth"
+  },
+  "ex76": {
+   "B": 239,
+   "B_baseline": "pdf_dc2",
+   "K": 112,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.14,
+   "m": 7,
+   "n": 15,
+   "truth": "ex76.truth"
+  },
+  "ex77": {
+   "B": 395,
+   "B_baseline": "pdf_dc2",
+   "K": 168,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.8,
+   "m": 6,
+   "n": 15,
+   "truth": "ex77.truth"
+  },
+  "ex78": {
+   "B": 990,
+   "B_baseline": "pdf_dc2",
+   "K": 538,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.14,
+   "m": 11,
+   "n": 9,
+   "truth": "ex78.truth"
+  },
+  "ex79": {
+   "B": 37,
+   "B_baseline": "pdf_dc2",
+   "K": 24,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.03,
+   "m": 10,
+   "n": 7,
+   "truth": "ex79.truth"
+  },
+  "ex80": {
+   "B": 768,
+   "B_baseline": "pdf_dc2",
+   "K": 224,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 3.05,
+   "m": 7,
+   "n": 16,
+   "truth": "ex80.truth"
+  },
+  "ex81": {
+   "B": 31,
+   "B_baseline": "pdf_dc2",
+   "K": 29,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.31,
+   "m": 8,
+   "n": 16,
+   "truth": "ex81.truth"
+  },
+  "ex82": {
+   "B": 811,
+   "B_baseline": "pdf_dc2",
+   "K": 68,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.56,
+   "m": 12,
+   "n": 16,
+   "truth": "ex82.truth"
+  },
+  "ex83": {
+   "B": 128,
+   "B_baseline": "pdf_dc2",
+   "K": 46,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.13,
+   "m": 15,
+   "n": 12,
+   "truth": "ex83.truth"
+  },
+  "ex84": {
+   "B": 43,
+   "B_baseline": "pdf_dc2",
+   "K": 40,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.18,
+   "m": 5,
+   "n": 16,
+   "truth": "ex84.truth"
+  },
+  "ex85": {
+   "B": 158,
+   "B_baseline": "pdf_dc2",
+   "K": 77,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.47,
+   "m": 9,
+   "n": 16,
+   "truth": "ex85.truth"
+  },
+  "ex86": {
+   "B": 516,
+   "B_baseline": "pdf_dc2",
+   "K": 287,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.06,
+   "m": 4,
+   "n": 13,
+   "truth": "ex86.truth"
+  },
+  "ex87": {
+   "B": 987,
+   "B_baseline": "pdf_dc2",
+   "K": 215,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.34,
+   "m": 6,
+   "n": 14,
+   "truth": "ex87.truth"
+  },
+  "ex88": {
+   "B": 591,
+   "B_baseline": "pdf_dc2",
+   "K": 200,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.33,
+   "m": 6,
+   "n": 14,
+   "truth": "ex88.truth"
+  },
+  "ex89": {
+   "B": 13,
+   "B_baseline": "pdf_dc2",
+   "K": 12,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.03,
+   "m": 6,
+   "n": 9,
+   "truth": "ex89.truth"
+  },
+  "ex90": {
+   "B": 81,
+   "B_baseline": "pdf_dc2",
+   "K": 27,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.04,
+   "m": 4,
+   "n": 10,
+   "truth": "ex90.truth"
+  },
+  "ex91": {
+   "B": 136,
+   "B_baseline": "pdf_dc2",
+   "K": 60,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.13,
+   "m": 6,
+   "n": 15,
+   "truth": "ex91.truth"
+  },
+  "ex92": {
+   "B": 355,
+   "B_baseline": "pdf_dc2",
+   "K": 146,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.07,
+   "m": 5,
+   "n": 14,
+   "truth": "ex92.truth"
+  },
+  "ex93": {
+   "B": 55,
+   "B_baseline": "pdf_dc2",
+   "K": 44,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.4,
+   "m": 13,
+   "n": 16,
+   "truth": "ex93.truth"
+  },
+  "ex94": {
+   "B": 593,
+   "B_baseline": "pdf_dc2",
+   "K": 179,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 11.37,
+   "m": 61,
+   "n": 16,
+   "truth": "ex94.truth"
+  },
+  "ex95": {
+   "B": 62,
+   "B_baseline": "pdf_dc2",
+   "K": 32,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.03,
+   "m": 9,
+   "n": 8,
+   "truth": "ex95.truth"
+  },
+  "ex96": {
+   "B": 19,
+   "B_baseline": "pdf_dc2",
+   "K": 18,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.03,
+   "m": 4,
+   "n": 10,
+   "truth": "ex96.truth"
+  },
+  "ex97": {
+   "B": 129,
+   "B_baseline": "pdf_dc2",
+   "K": 44,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.04,
+   "m": 7,
+   "n": 10,
+   "truth": "ex97.truth"
+  },
+  "ex98": {
+   "B": 112,
+   "B_baseline": "pdf_dc2",
+   "K": 68,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team tuw, verified",
+   "baseline_sec": 0.11,
+   "m": 2,
+   "n": 16,
+   "truth": "ex98.truth"
+  },
+  "ex99": {
+   "B": 43,
+   "B_baseline": "pdf_dc2",
+   "K": 24,
+   "K_source": "best ever across IWLS 2022+2023 (github.com/alanminko/iwls2022-ls-contest + iwls2023-ls-contest): iwls2023 submission team google, verified",
+   "baseline_sec": 0.03,
+   "m": 2,
+   "n": 7,
+   "truth": "ex99.truth"
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "author": "Paul Henschel",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "zustand": "^4.3.2"
+    },
+    "integrity": "sha512-lR5VHmkPhzdhrM092lI2nACsLO4QubF0/yoOhzX7c+wIpbN1GjHNzCc91QlpxBi+cnx8vVJ+Ur6vL5cEoQPFpQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/tunnel-rat/-/tunnel-rat-0.1.2.tgz",
+    "version": "0.1.2"
+  },
+  "lock_path": "node_modules/tunnel-rat",
+  "name": "tunnel-rat",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1067,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "cd14add33d47bcecae9fed5559224ae135c5ec41e1d3a126601f5fbd82291834",
+      "text_file": "image-notices/cd14add33d47bcecae9fed5559224ae135c5ec41e1d3a126601f5fbd82291834.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 8202,
+    "installed_in_image": false,
+    "integrity": "sha512-lR5VHmkPhzdhrM092lI2nACsLO4QubF0/yoOhzX7c+wIpbN1GjHNzCc91QlpxBi+cnx8vVJ+Ur6vL5cEoQPFpQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/tunnel-rat/-/tunnel-rat-0.1.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "b7bc5bcddffb142255d6caad6185387416edb730f68cbee6278983f6b3e0977e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.1.2"
+}

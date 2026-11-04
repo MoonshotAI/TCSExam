@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "M8ch88l@gmail.com",
+    "name": "Michael Mclaughlin"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-qIMFpTMZmny+MMIitAB6D7iVPEorVw6YQRWkvarTkT4tBeSLLiHzcwj6q0MmYSFCiVpiqPJTJEYIrpcPzVEIvg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/decimal.js-light/-/decimal.js-light-2.5.1.tgz",
+    "version": "2.5.1"
+  },
+  "lock_path": "node_modules/decimal.js-light",
+  "name": "decimal.js-light",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1110,
+      "installed_file": "notices/original/package/LICENCE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENCE.md",
+      "sha256": "fc0397fbd5c128bec7edef4e8d3f45e15db5fd043cdd0a2edfc4f14d47fbc3e4",
+      "text_file": "image-notices/fc0397fbd5c128bec7edef4e8d3f45e15db5fd043cdd0a2edfc4f14d47fbc3e4.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 57282,
+    "installed_in_image": false,
+    "integrity": "sha512-qIMFpTMZmny+MMIitAB6D7iVPEorVw6YQRWkvarTkT4tBeSLLiHzcwj6q0MmYSFCiVpiqPJTJEYIrpcPzVEIvg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/decimal.js-light/-/decimal.js-light-2.5.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "8787a0a31cffb73b5ae183a6c2567704c915ee2ae67a57876f640dd8d3c6e9c1"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.5.1"
+}

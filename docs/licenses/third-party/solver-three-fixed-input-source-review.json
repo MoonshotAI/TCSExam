@@ -1,0 +1,117 @@
+{
+  "updated_at": "2026-10-30T02:52:26.967033+00:00",
+  "scope": "仅现有小JSON/源码和官方来源文档核对；未下载图数据、未解包、未新建CPU、未读答案、未改公共代码或images。保留49份已通过来源结果。",
+  "new_source_provenance": {
+    "radiation_generator": {
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/generate-radiation-instance",
+      "sha256": "b3ff9a2c0a8ccf9b35c08a94c0708267539e92f95ef9b19ad2df493daed3bb71",
+      "randomness": "/proc/sys/kernel/random/uuid, four hex digits per matrix value",
+      "replay_original_entropy": "not retained"
+    },
+    "generator_license": {
+      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/LICENSE",
+      "sha256": "682e731b25055903120b0e67dfb1cc981dda8981e85a1837e3c266d44732282b",
+      "type": "MIT",
+      "does_not_establish_project_generated_data_license": true
+    }
+  },
+  "no_category_upgrades": true,
+  "products": [
+    {
+      "id": "solver-maxclique-dimacs-judging-data",
+      "task_id": "maxclique-dimacs",
+      "data_split": "hidden",
+      "manifest_sha256": "794300e8aabb3b1247412a198ec015399911ec9d4b8919b4ae2e07f09aa58473",
+      "fixed_archive_source": {
+        "id": "solver-maxclique-dimacs-judging-data-fixed-archive",
+        "url": null,
+        "bytes": 8700777,
+        "sha256": "1a6112c8d4b1bbece90a09920b9a5287ffedddb5ed508625e348f346376f10ca"
+      },
+      "fixed_archive_recipe": "assets/data/solver/archive-import/solver-maxclique-dimacs-judging-data-recipe.json",
+      "local_image_archive_sha256": "7e0c450d690ec95b24209c79cf7731a0495bb0832c2c00fe07b5682d390d6764",
+      "source_acquisition": [
+        "已保留精确输入归档与精确数据镜像，均在CPU核完整manifest。",
+        "公开44图和隐藏24图均已找到官方/研究机构目录中的候选下载地址；公开两份DSJC名称需下划线改为小数点。",
+        "新目录覆盖不等同于源字节验收，当前仍为exact_candidate_only。"
+      ],
+      "publication_materials_missing": [
+        "覆盖选中全部原图家族的明确重分发条款，或覆盖本项目原图及重编号衍生输入的既有书面许可。当前官方目录和可下载事实未给出该条款。",
+        "原图家族到作者/条款的逐项映射及应保留的通知。原始项目没有通过保存置换改变上游权利归属。",
+        "完成上述材料后记录对应的具体产品/归档SHA及发布行为授权；上传后才测实际匿名拉取并固定registry digest。"
+      ],
+      "publication_route": "当前可实现本地显式原件导入及数据镜像导入。已有书面分发依据覆盖全部选中图后，发布同一已验镜像归档；若仅部分家族有依据，不通过删除图改变本产品，继续完整本地导入。",
+      "public_pin": null,
+      "new_distribution_authorization": false
+    },
+    {
+      "id": "solver-radiation-mznchallenge-judging-data",
+      "task_id": "radiation-mznchallenge",
+      "data_split": "hidden",
+      "manifest_sha256": "827a13e3bc564d5f06d7dcd2a0c2d9b8e200042b89fad5ece0b81bff45d15b27",
+      "fixed_archive_source": {
+        "id": "solver-radiation-mznchallenge-judging-data-fixed-archive",
+        "url": null,
+        "bytes": 11622,
+        "sha256": "c570c18f151e2f39b3303de2fa0df435c0316b776da48380805db9452eda19a1"
+      },
+      "fixed_archive_recipe": "assets/data/solver/archive-import/solver-radiation-mznchallenge-judging-data-recipe.json",
+      "local_image_archive_sha256": "7a6357aa661927461f0a79ef7477f48edc640f474bb3a79fee807fd11d25581c",
+      "source_acquisition": [
+        "The exact 47-file frozen input set comprises 24 project-generated inputs and 23 unmodified upstream MIT files; the earlier aggregate description of all47 as generated was incorrect.",
+        "The project-generated24 are supplied under Apache-2.0 as small original source assets;23 fixed upstream files are acquired using their public content-pinned URLs. The frozen manifest, naming and split remain unchanged."
+      ],
+      "publication_route": "Use the current per-file source recipe and per-file attribution record. Original images and their old no-public-pin facts are retained independently.",
+      "public_pin": null,
+      "new_distribution_authorization": false,
+      "provenance_correction_checked": "2026-11-01",
+      "current_provenance": "docs/licenses/third-party/radiation-mznchallenge-judging-source.json",
+      "historical_publication_materials_missing": [
+        "为这47份原始生成输入补一份项目来源声明：生成者/所属项目、原生成批次或现存历史记录、生成器固定版本、这批输入不含第三方预存实例的说明；缺失的生成日期/命令明确标未知。",
+        "由拥有这些项目生成输入分发权的一方给出覆盖本产品和具体归档SHA的对外数据分发条件，或补已有项目数据许可的明确适用记录；不能仅凭上游代码MIT许可替生成输出设新许可。",
+        "保留MiniZinc生成器MIT版权通知及固定版本来源；项目已有用户授权只覆盖准备本地候选，本阶段无上传授权。",
+        "材料齐备并获得具体发布行为授权后，上传当前已验镜像，再记录真实public pin和匿名拉取结果。"
+      ],
+      "publication_materials_missing": [],
+      "current_route": "Default official_files recipe:23 pinned MIT downloads plus24 bundled project Apache-2.0 inputs. The fixed archive remains optional; this historical review does not update image upload policy or claim a new Docker build."
+    },
+    {
+      "id": "solver-maxclique-dimacs-development-data",
+      "task_id": "maxclique-dimacs",
+      "data_split": "public",
+      "manifest_sha256": "8a690fd4a21b8165dc15918eb64156a739dce6b4bfdd64b644ac76b7c0eadb86",
+      "fixed_archive_source": {
+        "id": "solver-maxclique-dimacs-development-data-fixed-archive",
+        "url": null,
+        "bytes": 33178035,
+        "sha256": "4fefe032d7eb6b71b17964cb191a40f9cf726b43777007c14e23659f4ecc8fb9"
+      },
+      "fixed_archive_recipe": "assets/data/solver/archive-import/solver-maxclique-dimacs-development-data-recipe.json",
+      "local_image_archive_sha256": "0148bbd3d1d6d8669cc66cd9a261df7ff4a50e3e893be1b5fe0d527394342e90",
+      "source_acquisition": [
+        "已保留精确输入归档与精确数据镜像，均在CPU核完整manifest。",
+        "公开44图和隐藏24图均已找到官方/研究机构目录中的候选下载地址；公开两份DSJC名称需下划线改为小数点。",
+        "新目录覆盖不等同于源字节验收，当前仍为exact_candidate_only。"
+      ],
+      "publication_materials_missing": [
+        "覆盖选中全部原图家族的明确重分发条款，或覆盖本项目原图及重编号衍生输入的既有书面许可。当前官方目录和可下载事实未给出该条款。",
+        "原图家族到作者/条款的逐项映射及应保留的通知。原始项目没有通过保存置换改变上游权利归属。",
+        "完成上述材料后记录对应的具体产品/归档SHA及发布行为授权；上传后才测实际匿名拉取并固定registry digest。"
+      ],
+      "publication_route": "当前可实现本地显式原件导入及数据镜像导入。已有书面分发依据覆盖全部选中图后，发布同一已验镜像归档；若仅部分家族有依据，不通过删除图改变本产品，继续完整本地导入。",
+      "public_pin": null,
+      "new_distribution_authorization": false
+    }
+  ],
+  "official_source_urls": [
+    "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/",
+    "https://www.dcs.gla.ac.uk/~pat/jchoco/clique/dimacs/DIMACS_cliques/",
+    "https://www.dcs.gla.ac.uk/~pat/maxClique/distribution/DIMACS_cliques/",
+    "https://api.github.com/repos/MiniZinc/minizinc-benchmarks/contents/radiation?ref=26bcd0a78433025f7b6896a6fa8caf128795760b",
+    "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/generate-radiation-instance",
+    "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/LICENSE",
+    "https://archive.dimacs.rutgers.edu/pub/challenge/graph/",
+    "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/",
+    "https://mat.tepper.cmu.edu/COLOR02/INSTANCES/"
+  ]
+}

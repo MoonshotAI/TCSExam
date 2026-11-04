@@ -1,0 +1,1467 @@
+{
+  "format": "official_files",
+  "description": "Exactly the frozen132 public coloring input graphs. Fixed graph-collection raw files and original CMU binary inputs decoded in the original bin2asc row/bit order, preserving original preamble bytes. No coloring or answer files are opened.",
+  "sources": [
+    {
+      "id": "coloring-public-1-FullIns_3.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/1-FullIns_3.col",
+      "bytes": 915,
+      "sha256": "2579b0553e67e5420ce671d828e3da55f48023234e853eec2b0ed5183f2ee343"
+    },
+    {
+      "id": "coloring-public-1-FullIns_5.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/1-FullIns_5.col",
+      "bytes": 29913,
+      "sha256": "a6db9c7edfd91776d869767b6a99fc72abf87a55952db18399d668d9b240be02"
+    },
+    {
+      "id": "coloring-public-1-Insertions_6.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/1-Insertions_6.col",
+      "bytes": 60414,
+      "sha256": "cc531f829c1735af32d77a98e311cbc3d45ab3795c1c110fa9ec69715352199b"
+    },
+    {
+      "id": "coloring-public-2-FullIns_3.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/2-FullIns_3.col",
+      "bytes": 1725,
+      "sha256": "e0776c3c0d8f85baf42fe2fe0fc5b02272edfa4a1ac45c22b1e37bf0c3bc898c"
+    },
+    {
+      "id": "coloring-public-2-FullIns_4.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/2-FullIns_4.col",
+      "bytes": 14754,
+      "sha256": "abd8a77c882d066f64fe44aa981e819bb3a32fce5e8f765fca4ba338607df858"
+    },
+    {
+      "id": "coloring-public-3-FullIns_4.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/3-FullIns_4.col",
+      "bytes": 33630,
+      "sha256": "d5eb061268ede9203d68d5cba71b2a421f6604970e57419497c5db1626c3fdba"
+    },
+    {
+      "id": "coloring-public-3-FullIns_5.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/3-FullIns_5.col",
+      "bytes": 366145,
+      "sha256": "f45707c3c71757b68c276ecaa5a398c3bd9d86de4cb605b3f4f35745c5604866"
+    },
+    {
+      "id": "coloring-public-3-Insertions_3.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/3-Insertions_3.col",
+      "bytes": 1022,
+      "sha256": "c62c61de4f8ab04db0e55c9ad1f7b1508e530b2c32c052b41d39ef4b50287849"
+    },
+    {
+      "id": "coloring-public-3-Insertions_4.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/3-Insertions_4.col",
+      "bytes": 9784,
+      "sha256": "818806de3bef77868b6ffa3fd17485f7cc494789811f28f5d456dbacc9911470"
+    },
+    {
+      "id": "coloring-public-4-FullIns_3.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/4-FullIns_3.col",
+      "bytes": 4657,
+      "sha256": "28fb6a6155a910f6de1822b3f5c1982c9e53f74e291c100840c2ccec4b7c78d4"
+    },
+    {
+      "id": "coloring-public-4-Insertions_3.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/4-Insertions_3.col",
+      "bytes": 1390,
+      "sha256": "899f11fd1e31942d751ba169b2f58ed3c508d30077ec64dd8eb37df72107775a"
+    },
+    {
+      "id": "coloring-public-4-Insertions_4.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/4-Insertions_4.col",
+      "bytes": 17274,
+      "sha256": "1411a28c1661d2f010943c53f08ad41512d94b7fb5b27fa034ae103513e74ee8"
+    },
+    {
+      "id": "coloring-public-DSJC1000.9.col1",
+      "url": "https://mat.tepper.cmu.edu/COLOR/instances/DSJC1000.9.col.b",
+      "bytes": 63467,
+      "sha256": "03b0b90b2725e62fe9cb6a6ddea50478fc5619e07caad5e7a619878c2a9047ca"
+    },
+    {
+      "id": "coloring-public-DSJC250.1.col1",
+      "url": "https://mat.tepper.cmu.edu/COLOR/instances/DSJC250.1.col.b",
+      "bytes": 4495,
+      "sha256": "268bec563c64a1b1aecc8fea7d2a85292794aaa33cbf6ac2bd3cd1da2288c857"
+    },
+    {
+      "id": "coloring-public-DSJC250.5.col1",
+      "url": "https://mat.tepper.cmu.edu/COLOR/instances/DSJC250.5.col.b",
+      "bytes": 4496,
+      "sha256": "3a1fee019b1b798f8f82032ce47999efe3da1634e8d6770ac8adc2998b603807"
+    },
+    {
+      "id": "coloring-public-DSJC500.5.col1",
+      "url": "https://mat.tepper.cmu.edu/COLOR/instances/DSJC500.5.col.b",
+      "bytes": 16341,
+      "sha256": "f0eecb7f516921f39ad4bba0d20db0a33920bb43491a24d0c075574c4e1cc4f3"
+    },
+    {
+      "id": "coloring-public-DSJR500.1.col1",
+      "url": "https://mat.tepper.cmu.edu/COLOR/instances/DSJR500.1.col.b",
+      "bytes": 16652,
+      "sha256": "fd3ea5922c710d06ce041fa6b81c5d3def25649c51a16e2a7b43799ac8e7e9b0"
+    },
+    {
+      "id": "coloring-public-DSJR500.1c.col1",
+      "url": "https://mat.tepper.cmu.edu/COLOR/instances/DSJR500.1c.col.b",
+      "bytes": 16655,
+      "sha256": "bb669d113b7b154a758f4874c66ac1a044e91914af877d3e8481d2251bad0a66"
+    },
+    {
+      "id": "coloring-public-DSJR500.5.col1",
+      "url": "https://mat.tepper.cmu.edu/COLOR/instances/DSJR500.5.col.b",
+      "bytes": 16654,
+      "sha256": "dd655a9e539ae78b7131d6780befa60e0ffc9847fc29e61c860d4cd4f9c98912"
+    },
+    {
+      "id": "coloring-public-GEOM100.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM100.col",
+      "bytes": 4580,
+      "sha256": "af2fe2189e96b528c9bfcdbd89724e3b44f5027ac64f52938c39eaf6e1345bef"
+    },
+    {
+      "id": "coloring-public-GEOM100a.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM100a.col",
+      "bytes": 8054,
+      "sha256": "9e11a3cedbb7f8362573d1ac665bab2e24c848332b7735ec78513cd95a7a8f98"
+    },
+    {
+      "id": "coloring-public-GEOM110.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM110.col",
+      "bytes": 5396,
+      "sha256": "a3ee9161cc6ad597339861b7eafdc53d8d6a6d3c2f71ada19bea048605a9dc6f"
+    },
+    {
+      "id": "coloring-public-GEOM120.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM120.col",
+      "bytes": 6620,
+      "sha256": "7d1840c150fb517da9268ec4e1801da7ccae87a6cf5af57dc6c69a44120d5ffa"
+    },
+    {
+      "id": "coloring-public-GEOM120a.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM120a.col",
+      "bytes": 12040,
+      "sha256": "0888a92ac0c9967f51414fbaf8419db3e446373a25b4c2ac8567ce4b6712b44e"
+    },
+    {
+      "id": "coloring-public-GEOM20a.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM20a.col",
+      "bytes": 530,
+      "sha256": "1b7fd5cdc08022ddd146503807faae48c1cd10e5b200be31e0af0e796dec8425"
+    },
+    {
+      "id": "coloring-public-GEOM20b.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM20b.col",
+      "bytes": 502,
+      "sha256": "ca97d1802d61485ce4ef577d89e3a7d37af63d9ea0d446388fa558796c5701a4"
+    },
+    {
+      "id": "coloring-public-GEOM30.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM30.col",
+      "bytes": 643,
+      "sha256": "9584afba11db1fb888d95fb6bd7fe461d6057b8de88b608ad936559a8ec6203d"
+    },
+    {
+      "id": "coloring-public-GEOM30b.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM30b.col",
+      "bytes": 881,
+      "sha256": "68c99fa2c8260c5ab7376928108f792d0f25edd3a9678a21a0fb63a2d6b94ea2"
+    },
+    {
+      "id": "coloring-public-GEOM40a.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM40a.col",
+      "bytes": 1365,
+      "sha256": "e41321f8a14db16609f0987a7f4ee35d11da2adad6438767df8b966347b598dd"
+    },
+    {
+      "id": "coloring-public-GEOM50.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM50.col",
+      "bytes": 1253,
+      "sha256": "86bc9055427261837ee9deed725f2878eb486ce06c63a903f42858a0ccbf5ef2"
+    },
+    {
+      "id": "coloring-public-GEOM50a.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM50a.col",
+      "bytes": 2076,
+      "sha256": "fedd683dfa243d500bec4aec6c7c0875775c79235689b570a9171db1240a57d0"
+    },
+    {
+      "id": "coloring-public-GEOM50b.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM50b.col",
+      "bytes": 2191,
+      "sha256": "de2dc3dabe6d6f366eafb5756264c5e66714822b1e0955c7869df791562aa7d4"
+    },
+    {
+      "id": "coloring-public-GEOM60.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM60.col",
+      "bytes": 1707,
+      "sha256": "e54c70b8d244d4a3d0d676c7a660cdaab81425587afe17df42561722a3cd232e"
+    },
+    {
+      "id": "coloring-public-GEOM60b.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM60b.col",
+      "bytes": 3112,
+      "sha256": "75b04f9471ae4f4a5a63be525d3096bfab715c89aaa3a6da6b2df3167ac9e396"
+    },
+    {
+      "id": "coloring-public-GEOM70b.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM70b.col",
+      "bytes": 4068,
+      "sha256": "ebde0b433df5464f5d5f8a819db1f40b03fd4b72ee2f09a309a736973f265d5e"
+    },
+    {
+      "id": "coloring-public-GEOM80a.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM80a.col",
+      "bytes": 5021,
+      "sha256": "9523b41039d22999d91b68a1241789728f98b1f23876677391ac11641f787f5d"
+    },
+    {
+      "id": "coloring-public-GEOM90.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/GEOM90.col",
+      "bytes": 3727,
+      "sha256": "79a3ebb21d58ef87c206d4f10014921fef806c42055cded487bbcfcc101f03ec"
+    },
+    {
+      "id": "coloring-public-R100_1g.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/R100_1g.col",
+      "bytes": 4438,
+      "sha256": "6068b343db096d2d574c623718d140923b96a4e578edbafd0a72482f29aade10"
+    },
+    {
+      "id": "coloring-public-R50_5g.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/R50_5g.col",
+      "bytes": 5115,
+      "sha256": "b308e320465d2452fa0e4b6fa722eaa5bab8a46f89161b3f0df70ad2631301b0"
+    },
+    {
+      "id": "coloring-public-R75_1g.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/R75_1g.col",
+      "bytes": 2379,
+      "sha256": "2ceefe778b370e71e8581d5a85f0464b5951461d4774cd1f34855965adffd5c7"
+    },
+    {
+      "id": "coloring-public-R75_9g.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/R75_9g.col",
+      "bytes": 19947,
+      "sha256": "ed0c002b33430699000f174ec88510c8f17d3c707c018f962b52dbe0c0ac7cf6"
+    },
+    {
+      "id": "coloring-public-abb313GPIA.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/abb313GPIA.col",
+      "bytes": 691085,
+      "sha256": "c9bf550473f931961ee16ff2680f5eff2e4560b5c7f58ee56cc278b40732498e"
+    },
+    {
+      "id": "coloring-public-anna.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/anna.col",
+      "bytes": 8497,
+      "sha256": "94907497db819e1375db6f20273cc582f2b6601bfa21e9bdf72b47d3533cf22a"
+    },
+    {
+      "id": "coloring-public-ash958GPIA.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/ash958GPIA.col",
+      "bytes": 148659,
+      "sha256": "327c2b68190ec345b03a1e680c8958ba2a1b82132ff9ef4ca33bd11903d2d0cf"
+    },
+    {
+      "id": "coloring-public-david.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/david.col",
+      "bytes": 6463,
+      "sha256": "8a75efd18606b87cc2f9a4e0ec87f8b8ca3e237b7ecc710a1ef2f069fe212192"
+    },
+    {
+      "id": "coloring-public-flat1000_50_0.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/flat1000_50_0.col",
+      "bytes": 2398023,
+      "sha256": "1158790efcc47a182129a5e5f81f63bcdf593ef5d70411c89ea077919a4c65e7"
+    },
+    {
+      "id": "coloring-public-flat300_28_0.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/flat300_28_0.col",
+      "bytes": 201829,
+      "sha256": "cdceab73a5e8b51c9957d4fd8bc41fca3476a1d1da73b4ab090c547cc9f7d70b"
+    },
+    {
+      "id": "coloring-public-fpsol2.i.1.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/fpsol2.i.1.col",
+      "bytes": 106164,
+      "sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2"
+    },
+    {
+      "id": "coloring-public-fpsol2.i.2.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/fpsol2.i.2.col",
+      "bytes": 76640,
+      "sha256": "660ebcba830d86218134c45df81b8a6cb7af38b842daeaa4f802f47556c266d7"
+    },
+    {
+      "id": "coloring-public-games120.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/games120.col",
+      "bytes": 10616,
+      "sha256": "30bcc1004a11b6cbed6e96727d48e1927e74a36383d966ec04eead8b68cb38f9"
+    },
+    {
+      "id": "coloring-public-homer.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/homer.col",
+      "bytes": 31584,
+      "sha256": "38573989c4a1f1b2177f6f45fe86c87e75ea501ab6ef2035ac717e515aa0e22d"
+    },
+    {
+      "id": "coloring-public-huck.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/huck.col",
+      "bytes": 4752,
+      "sha256": "b635483fe5da294e3f35d890969d8f8b31c818e11e2b18521c2e5546fe2eb3ba"
+    },
+    {
+      "id": "coloring-public-inithx.i.1.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/inithx.i.1.col",
+      "bytes": 166511,
+      "sha256": "a61233d939d4840159069c0f0f5c2f3e165d25d7d2ab39e76dc48e6c44c0f9e2"
+    },
+    {
+      "id": "coloring-public-inithx.i.2.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/inithx.i.2.col",
+      "bytes": 122688,
+      "sha256": "90f4232e22ce53b9f38c5aa023bd258359a47dafc808373bdd39301560a96170"
+    },
+    {
+      "id": "coloring-public-jean.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/jean.col",
+      "bytes": 4051,
+      "sha256": "ad92a264160d87a2a55a9e1f0f41a9f584ca11c3f3ea1f6f1a7630d495e81790"
+    },
+    {
+      "id": "coloring-public-latin_square_10.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/latin_square_10.col",
+      "bytes": 2999866,
+      "sha256": "073eada85e7abebc0e2c2f0dea717a24eb66b57c4683d74db7f10d1452fbdcce"
+    },
+    {
+      "id": "coloring-public-le450_15a.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/le450_15a.col",
+      "bytes": 78818,
+      "sha256": "8536ae4db665d8129b347f187cbfb3ad2927fdca57bf776aa161da12b5f83b63"
+    },
+    {
+      "id": "coloring-public-le450_15d.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/le450_15d.col",
+      "bytes": 160613,
+      "sha256": "f4e06dba0c68e5d07584fcb52e92d89ac2eeee63a849c3dfa29d151690f5b24e"
+    },
+    {
+      "id": "coloring-public-le450_25a.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/le450_25a.col",
+      "bytes": 79877,
+      "sha256": "fb2a0ebbc1c89a57f765ffd72754e36d1c3a6a33ddd50cf8d36b8b2720a1a6a1"
+    },
+    {
+      "id": "coloring-public-le450_25c.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/le450_25c.col",
+      "bytes": 166375,
+      "sha256": "98bd407ab229a815b39ece98f1f1c268c5946c4f27013a75511dbfd2a3995524"
+    },
+    {
+      "id": "coloring-public-le450_5b.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/le450_5b.col",
+      "bytes": 55589,
+      "sha256": "b645467611cc3cbc6ae7e0ff80810b920e345dedd8668f793f231e04a005fc79"
+    },
+    {
+      "id": "coloring-public-le450_5d.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/le450_5d.col",
+      "bytes": 93979,
+      "sha256": "a0d91f59afed9c8fe04df2f14b0f37c44acc95790959ba5d1a2b9304ef2c9212"
+    },
+    {
+      "id": "coloring-public-miles1000.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/miles1000.col",
+      "bytes": 53913,
+      "sha256": "8243b080a46a5bd520454f6bb11bb117a99b64d45edc90517b350c0fb4c28ce0"
+    },
+    {
+      "id": "coloring-public-miles750.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/miles750.col",
+      "bytes": 35514,
+      "sha256": "de30585ae89d59e7c7a0600db40387ae780fd9a6f887d853ea9b8065a575afbc"
+    },
+    {
+      "id": "coloring-public-mug100_1.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/mug100_1.col",
+      "bytes": 1391,
+      "sha256": "730848eb8e28ba00a13176cd7db57f5c0eec723c311bbe465afde033aed31fbc"
+    },
+    {
+      "id": "coloring-public-mug88_1.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/mug88_1.col",
+      "bytes": 1225,
+      "sha256": "91136b8619daef9c7c360886151857d977dd215cfc27be6c9357d607bdf0a980"
+    },
+    {
+      "id": "coloring-public-mulsol.i.1.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/mulsol.i.1.col",
+      "bytes": 33225,
+      "sha256": "dd4d55ff7926e4e207c61bebf9cdb6011cd31eead8761aed9ef64343038ca8dd"
+    },
+    {
+      "id": "coloring-public-mulsol.i.2.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/mulsol.i.2.col",
+      "bytes": 32612,
+      "sha256": "850086f76b33d19dd2adb638a4e14fd41848f90f0134bce8828e5fca0eba7126"
+    },
+    {
+      "id": "coloring-public-mulsol.i.3.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/mulsol.i.3.col",
+      "bytes": 32861,
+      "sha256": "d1529e02020620951561f938544cd71fb3b90cbb1d5b92580b6e81fc369b3102"
+    },
+    {
+      "id": "coloring-public-myciel3.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/myciel3.col",
+      "bytes": 351,
+      "sha256": "45aa999c3142028995869f383e0c1936fb133bdf3b1589ad5633289a3228b2e4"
+    },
+    {
+      "id": "coloring-public-myciel6.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/myciel6.col",
+      "bytes": 6008,
+      "sha256": "5bb1be3fcb0da7bada24b90fa4e1ef67a02cdbcb1aa1e69587b2a75e287f61b1"
+    },
+    {
+      "id": "coloring-public-myciel7.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/myciel7.col",
+      "bytes": 20162,
+      "sha256": "8037aaba268f3da68d8278c17694db04a18dacd9fbca669660f8edb1e6010602"
+    },
+    {
+      "id": "coloring-public-p06.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p06.col",
+      "bytes": 441,
+      "sha256": "a43541e97cf2ebbf60bfe4f8fe7a11a337165b36ae150a1a8d73e55e88e21415"
+    },
+    {
+      "id": "coloring-public-p07.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p07.col",
+      "bytes": 845,
+      "sha256": "0962e95116bb3f66b5b5c87c6efb642f29ccb2b47f1490e35c800e6e6eba04b8"
+    },
+    {
+      "id": "coloring-public-p10.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p10.col",
+      "bytes": 400,
+      "sha256": "0bb603cc5f7b814f8a98642ed00b01ad1026f2fe05afd0b97b75c871649db2ba"
+    },
+    {
+      "id": "coloring-public-p14.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p14.col",
+      "bytes": 996,
+      "sha256": "c14528d75ae97b5d215c5ece7cb8515a642a32dbb8a4127bf75b20fe27d09da5"
+    },
+    {
+      "id": "coloring-public-p17.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p17.col",
+      "bytes": 1387,
+      "sha256": "dca701628bec5256699188032492f500d87ce2e9f1b75908dc819e7caee0d3d4"
+    },
+    {
+      "id": "coloring-public-p18.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p18.col",
+      "bytes": 1256,
+      "sha256": "8150467fd82ddb79c05020a60a1f7f6c2e1c0139ec193b16913350ef67e0df55"
+    },
+    {
+      "id": "coloring-public-p19.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p19.col",
+      "bytes": 1349,
+      "sha256": "0b0523780850387acc2d343649d8c87c5a0aca43ad1961a81ff98fbdf7cbbb56"
+    },
+    {
+      "id": "coloring-public-p21.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p21.col",
+      "bytes": 1346,
+      "sha256": "b6640c3e6402fd98cf1d341aecd507b4b5b9359e7f6deac2d4085f651a5fa981"
+    },
+    {
+      "id": "coloring-public-p23.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p23.col",
+      "bytes": 1734,
+      "sha256": "c6a1413170825ff368a207eb9852d291d4ed21978ed7bfa1b9ae889dfc853372"
+    },
+    {
+      "id": "coloring-public-p24.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p24.col",
+      "bytes": 964,
+      "sha256": "9397bdb6277573ad0372f6a5f539350ae255d40023b66a5ae6633b8a64e4cff2"
+    },
+    {
+      "id": "coloring-public-p26.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p26.col",
+      "bytes": 1165,
+      "sha256": "d0a3ca6be0d61d6f8052c544d2b54fcd7a7541720640d662d9f5417060e0b793"
+    },
+    {
+      "id": "coloring-public-p28.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p28.col",
+      "bytes": 1432,
+      "sha256": "f67eec3b3f4758611e129b822bd6f1d68d7699ca8111cb2a47fd1e1915d20242"
+    },
+    {
+      "id": "coloring-public-p31.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p31.col",
+      "bytes": 1551,
+      "sha256": "69ee9d6b20d2e7f0a6b524756dc4c9e29661f58b90061c35cde9db8eacde99fc"
+    },
+    {
+      "id": "coloring-public-p32.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p32.col",
+      "bytes": 1876,
+      "sha256": "087beba5918b74ab6ba48b4be39bcf25dbf8a2b36a34779e39974edf4b4ac69f"
+    },
+    {
+      "id": "coloring-public-p33.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p33.col",
+      "bytes": 2159,
+      "sha256": "2b3bd767b6d67427154fa9d7da63b5528a309db269031c382be9a10ef4f65a15"
+    },
+    {
+      "id": "coloring-public-p35.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p35.col",
+      "bytes": 4612,
+      "sha256": "817240237214f396005b7c393852f341e54b165b98cebe2d33f869c356ea8329"
+    },
+    {
+      "id": "coloring-public-p36.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p36.col",
+      "bytes": 6463,
+      "sha256": "53bee2e53f2feb92a3b7e1c0b24d6a410b47ef1105a9cb11c3d949a16e6c3de1"
+    },
+    {
+      "id": "coloring-public-p40.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p40.col",
+      "bytes": 4046,
+      "sha256": "51ad163dd336af9274d27b443c051528b92d3909a7a02e2ab34c46bc1969a12c"
+    },
+    {
+      "id": "coloring-public-p41.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/p41.col",
+      "bytes": 7495,
+      "sha256": "922d168aecd9fd716349df4957025d27def70c6361401ddf5298c4cbe291977d"
+    },
+    {
+      "id": "coloring-public-qg.order40.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/qg.order40.col",
+      "bytes": 662938,
+      "sha256": "2b623e125e7d633c560d704a53cbfcdcc2f8590a913dc2ef26e43f6507a199ca"
+    },
+    {
+      "id": "coloring-public-qg.order60.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/qg.order60.col",
+      "bytes": 2418660,
+      "sha256": "21992962505b7ee05d8857932a5578926e375d431124def14a7d690a910e9a0b"
+    },
+    {
+      "id": "coloring-public-queen12_12.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/queen12_12.col",
+      "bytes": 44289,
+      "sha256": "22e0a9ef880216172b4a41efd14e26804ee7949acefe7bb6f9d2dff1786f6cf2"
+    },
+    {
+      "id": "coloring-public-queen13_13.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/queen13_13.col",
+      "bytes": 58221,
+      "sha256": "26b5f7f36d833c5d322c57ebcb39b6aa7c5c3cf21f1caa680bd614b815428241"
+    },
+    {
+      "id": "coloring-public-queen15_15.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/queen15_15.col",
+      "bytes": 93958,
+      "sha256": "9b0414f3bec03beec771c0bb0cc9ad975833662466f47156bb81ee1b28482503"
+    },
+    {
+      "id": "coloring-public-queen5_5.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/queen5_5.col",
+      "bytes": 2504,
+      "sha256": "d3b770332eb3897d35a7332baece51ea7bce99150bb900f49b27eff234d8cfac"
+    },
+    {
+      "id": "coloring-public-queen8_12.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/queen8_12.col",
+      "bytes": 21564,
+      "sha256": "fbc5b112fc6a5a6212610ffcb594b880cbe0b03ada1de7a38b1eb3cd375a3fe4"
+    },
+    {
+      "id": "coloring-public-queen8_8.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/queen8_8.col",
+      "bytes": 11442,
+      "sha256": "1579f7e1cf2d5ab7a0bdd1682a4dad3131084dca54c4690547383dbf44731948"
+    },
+    {
+      "id": "coloring-public-queen9_9.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/queen9_9.col",
+      "bytes": 16637,
+      "sha256": "5c4637c94988ebab65dd49416bfc62ecc34e5518773615f27d6b6838d1c4c6c2"
+    },
+    {
+      "id": "coloring-public-r01.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r01.col",
+      "bytes": 11055,
+      "sha256": "9e77f5d652027939ba741e8efb70186af0b326d974cd5896835e3f4dba55b811"
+    },
+    {
+      "id": "coloring-public-r02.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r02.col",
+      "bytes": 10733,
+      "sha256": "ee75b8ebcf67db553ec792190c73a80ca2b95074d369e5094840b358aa07fe17"
+    },
+    {
+      "id": "coloring-public-r03.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r03.col",
+      "bytes": 10186,
+      "sha256": "15ad1d0728b71243cccb47cdd83ec85e2168860a27dea95b81e626074bac5365"
+    },
+    {
+      "id": "coloring-public-r05.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r05.col",
+      "bytes": 10948,
+      "sha256": "8a05612b587ae7cfa288b98b46806eef830225ac684a1781ee0f130b3db6e1df"
+    },
+    {
+      "id": "coloring-public-r06.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r06.col",
+      "bytes": 11913,
+      "sha256": "ac90240f733c2b9126e550ca7c977b221ec2c899e620dca4074aa7592b64b587"
+    },
+    {
+      "id": "coloring-public-r08.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r08.col",
+      "bytes": 10215,
+      "sha256": "c26e86840c141b92610dbb14308d9b41961c12a249933bebd21acac68ceab976"
+    },
+    {
+      "id": "coloring-public-r1000.1.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r1000.1.col",
+      "bytes": 141401,
+      "sha256": "e4fb0e5e8fd0b880306ced0853743760a8cc87e4b9f38370c9a081a85c0dbbed"
+    },
+    {
+      "id": "coloring-public-r1000.1c.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r1000.1c.col",
+      "bytes": 4747992,
+      "sha256": "01267eb0fffa0eedf49a87911841d89a7b39a66783e3c735f57d79a54c151d72"
+    },
+    {
+      "id": "coloring-public-r1000.5.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r1000.5.col",
+      "bytes": 2332264,
+      "sha256": "ef2189a6daea3f323513a4636253f7063a3dfd1b073119cfa6012a17ff80263a"
+    },
+    {
+      "id": "coloring-public-r11.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r11.col",
+      "bytes": 20321,
+      "sha256": "9d81443fee9454d8c3cd259701cf2eb0a317df4136be28fd49f05a2243f94847"
+    },
+    {
+      "id": "coloring-public-r125.1.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r125.1.col",
+      "bytes": 2563,
+      "sha256": "1e705013e6f63e5f094f647a568c15302366bdd28d513af9459de1c806e084b9"
+    },
+    {
+      "id": "coloring-public-r125.1c.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r125.1c.col",
+      "bytes": 62911,
+      "sha256": "16c6ebeaa3dc6c88ca8717c6ebc35fd8e7930986f85b4cb7cf650192ea1ec15c"
+    },
+    {
+      "id": "coloring-public-r14.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r14.col",
+      "bytes": 21730,
+      "sha256": "ab5d8349b1577790756e060028d641a8ff711b2018371cd8b113ad70dd131c09"
+    },
+    {
+      "id": "coloring-public-r18.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r18.col",
+      "bytes": 18674,
+      "sha256": "864c4f596963d3be650af911bf39980b5cb6ccbe0878f7d18c98e33e98a0cb60"
+    },
+    {
+      "id": "coloring-public-r21.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r21.col",
+      "bytes": 32966,
+      "sha256": "f960928e30cc978190ee28dcd01b885ebe7a6dfc4849a5e7733fce5a1c93f2ea"
+    },
+    {
+      "id": "coloring-public-r22.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r22.col",
+      "bytes": 34252,
+      "sha256": "c56113640853ab925bbeb303b36c9f7506f1fbc369d618e15e3f4ded7592cd86"
+    },
+    {
+      "id": "coloring-public-r23.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r23.col",
+      "bytes": 34866,
+      "sha256": "f70617d791cfce06050937415bbbb13daf57c28e3ebb1025b0fb45aeb2c0157f"
+    },
+    {
+      "id": "coloring-public-r250.1.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r250.1.col",
+      "bytes": 8794,
+      "sha256": "a6a8cf017b5501bc6f25148a6f08b2519035ba1390b2954defef4aa51708a0ec"
+    },
+    {
+      "id": "coloring-public-r250.1c.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r250.1c.col",
+      "bytes": 306389,
+      "sha256": "3f6a66cf7ce4147935d030c86e6157ab149d6c88982057282aaf9f5b5743e554"
+    },
+    {
+      "id": "coloring-public-r250.5.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r250.5.col",
+      "bytes": 136113,
+      "sha256": "70570f021e57f0f64e849b8ccd88240492565f9ef188ed32215b79ed7429416a"
+    },
+    {
+      "id": "coloring-public-r26.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r26.col",
+      "bytes": 33583,
+      "sha256": "7b8aed9bc4493215af8f8da06dea13e008fe5119e002d94bc09d0388881357dd"
+    },
+    {
+      "id": "coloring-public-r27.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r27.col",
+      "bytes": 27937,
+      "sha256": "d63ed520bb79f493483c1fbb1c7df8d27804092f6519dbaa55a10395ff68e15b"
+    },
+    {
+      "id": "coloring-public-r29.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r29.col",
+      "bytes": 32933,
+      "sha256": "ef3967fc0ca12c4934b2cb49746069aeef4417b0fd5a3da1f544d4373fbe0886"
+    },
+    {
+      "id": "coloring-public-r30.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/r30.col",
+      "bytes": 38496,
+      "sha256": "4992fc3775405c177acda982169f08f5ba77f498be41dbae8331fc34b804229a"
+    },
+    {
+      "id": "coloring-public-school1_nsh.col2",
+      "url": "https://mat.tepper.cmu.edu/COLOR/instances/school1_nsh.col",
+      "bytes": 137498,
+      "sha256": "1176f8ff58d903d0486125f6020c195d7c6f99494fadc57076364b6b9274f1b1"
+    },
+    {
+      "id": "coloring-public-wap01a.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/wap01a.col",
+      "bytes": 1271413,
+      "sha256": "e3677fa79d05c9098e793f0fd38bad7a88dd7aebffb6011bc86d5cc17eca9293"
+    },
+    {
+      "id": "coloring-public-wap02a.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/wap02a.col",
+      "bytes": 1285380,
+      "sha256": "d11478747e439af60b583611b00846d23a0867f43b87f319a238c9af941d2277"
+    },
+    {
+      "id": "coloring-public-wap03a.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/wap03a.col",
+      "bytes": 3361202,
+      "sha256": "741aa63e8ef736c805377a933644e05476a242977f6d560e82d093d37f5de814"
+    },
+    {
+      "id": "coloring-public-wap05a.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/wap05a.col",
+      "bytes": 426775,
+      "sha256": "372690a6a619faa3f93b7076ab33a50ce5e6264a3c6823414f5962043a3e2a0f"
+    },
+    {
+      "id": "coloring-public-will199GPIA.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/will199GPIA.col",
+      "bytes": 69693,
+      "sha256": "960db0503b8f6daeaf6ebf11b6ee844d02b783803b14db4c18ad7d74eb86a910"
+    },
+    {
+      "id": "coloring-public-zeroin.i.2.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/zeroin.i.2.col",
+      "bytes": 29840,
+      "sha256": "eb9ae2a30b6d49c1f0dd1508efaa002fabc110eec661e1aa9bd40491b8be19d5"
+    },
+    {
+      "id": "coloring-public-zeroin.i.3.col0",
+      "url": "https://raw.githubusercontent.com/Cyril-Grelier/gc_instances/68e2563a82af68a42ef2ce397317d80b78a5b2a1/original_graphs/zeroin.i.3.col",
+      "bytes": 29808,
+      "sha256": "518dc00ba12f55fcb6e7231f0130c72df62ab534370e78cbeede3413e7a2c440"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances/1-FullIns_3.col",
+      "source_id": "coloring-public-1-FullIns_3.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/1-FullIns_5.col",
+      "source_id": "coloring-public-1-FullIns_5.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/1-Insertions_6.col",
+      "source_id": "coloring-public-1-Insertions_6.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/2-FullIns_3.col",
+      "source_id": "coloring-public-2-FullIns_3.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/2-FullIns_4.col",
+      "source_id": "coloring-public-2-FullIns_4.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/3-FullIns_4.col",
+      "source_id": "coloring-public-3-FullIns_4.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/3-FullIns_5.col",
+      "source_id": "coloring-public-3-FullIns_5.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/3-Insertions_3.col",
+      "source_id": "coloring-public-3-Insertions_3.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/3-Insertions_4.col",
+      "source_id": "coloring-public-3-Insertions_4.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/4-FullIns_3.col",
+      "source_id": "coloring-public-4-FullIns_3.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/4-Insertions_3.col",
+      "source_id": "coloring-public-4-Insertions_3.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/4-Insertions_4.col",
+      "source_id": "coloring-public-4-Insertions_4.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/DSJC1000.9.col",
+      "source_id": "coloring-public-DSJC1000.9.col1",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/DSJC250.1.col",
+      "source_id": "coloring-public-DSJC250.1.col1",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/DSJC250.5.col",
+      "source_id": "coloring-public-DSJC250.5.col1",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/DSJC500.5.col",
+      "source_id": "coloring-public-DSJC500.5.col1",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/DSJR500.1.col",
+      "source_id": "coloring-public-DSJR500.1.col1",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/DSJR500.1c.col",
+      "source_id": "coloring-public-DSJR500.1c.col1",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/DSJR500.5.col",
+      "source_id": "coloring-public-DSJR500.5.col1",
+      "operation": "dimacs_binary"
+    },
+    {
+      "path": "app/instances/GEOM100.col",
+      "source_id": "coloring-public-GEOM100.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM100a.col",
+      "source_id": "coloring-public-GEOM100a.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM110.col",
+      "source_id": "coloring-public-GEOM110.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM120.col",
+      "source_id": "coloring-public-GEOM120.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM120a.col",
+      "source_id": "coloring-public-GEOM120a.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM20a.col",
+      "source_id": "coloring-public-GEOM20a.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM20b.col",
+      "source_id": "coloring-public-GEOM20b.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM30.col",
+      "source_id": "coloring-public-GEOM30.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM30b.col",
+      "source_id": "coloring-public-GEOM30b.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM40a.col",
+      "source_id": "coloring-public-GEOM40a.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM50.col",
+      "source_id": "coloring-public-GEOM50.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM50a.col",
+      "source_id": "coloring-public-GEOM50a.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM50b.col",
+      "source_id": "coloring-public-GEOM50b.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM60.col",
+      "source_id": "coloring-public-GEOM60.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM60b.col",
+      "source_id": "coloring-public-GEOM60b.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM70b.col",
+      "source_id": "coloring-public-GEOM70b.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM80a.col",
+      "source_id": "coloring-public-GEOM80a.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/GEOM90.col",
+      "source_id": "coloring-public-GEOM90.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/R100_1g.col",
+      "source_id": "coloring-public-R100_1g.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/R50_5g.col",
+      "source_id": "coloring-public-R50_5g.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/R75_1g.col",
+      "source_id": "coloring-public-R75_1g.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/R75_9g.col",
+      "source_id": "coloring-public-R75_9g.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/abb313GPIA.col",
+      "source_id": "coloring-public-abb313GPIA.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/anna.col",
+      "source_id": "coloring-public-anna.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/ash958GPIA.col",
+      "source_id": "coloring-public-ash958GPIA.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/david.col",
+      "source_id": "coloring-public-david.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/flat1000_50_0.col",
+      "source_id": "coloring-public-flat1000_50_0.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/flat300_28_0.col",
+      "source_id": "coloring-public-flat300_28_0.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/fpsol2.i.1.col",
+      "source_id": "coloring-public-fpsol2.i.1.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/fpsol2.i.2.col",
+      "source_id": "coloring-public-fpsol2.i.2.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/games120.col",
+      "source_id": "coloring-public-games120.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/homer.col",
+      "source_id": "coloring-public-homer.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/huck.col",
+      "source_id": "coloring-public-huck.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/inithx.i.1.col",
+      "source_id": "coloring-public-inithx.i.1.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/inithx.i.2.col",
+      "source_id": "coloring-public-inithx.i.2.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/jean.col",
+      "source_id": "coloring-public-jean.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/latin_square_10.col",
+      "source_id": "coloring-public-latin_square_10.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/le450_15a.col",
+      "source_id": "coloring-public-le450_15a.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/le450_15d.col",
+      "source_id": "coloring-public-le450_15d.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/le450_25a.col",
+      "source_id": "coloring-public-le450_25a.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/le450_25c.col",
+      "source_id": "coloring-public-le450_25c.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/le450_5b.col",
+      "source_id": "coloring-public-le450_5b.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/le450_5d.col",
+      "source_id": "coloring-public-le450_5d.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/miles1000.col",
+      "source_id": "coloring-public-miles1000.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/miles750.col",
+      "source_id": "coloring-public-miles750.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/mug100_1.col",
+      "source_id": "coloring-public-mug100_1.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/mug88_1.col",
+      "source_id": "coloring-public-mug88_1.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/mulsol.i.1.col",
+      "source_id": "coloring-public-mulsol.i.1.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/mulsol.i.2.col",
+      "source_id": "coloring-public-mulsol.i.2.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/mulsol.i.3.col",
+      "source_id": "coloring-public-mulsol.i.3.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/myciel3.col",
+      "source_id": "coloring-public-myciel3.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/myciel6.col",
+      "source_id": "coloring-public-myciel6.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/myciel7.col",
+      "source_id": "coloring-public-myciel7.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p06.col",
+      "source_id": "coloring-public-p06.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p07.col",
+      "source_id": "coloring-public-p07.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p10.col",
+      "source_id": "coloring-public-p10.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p14.col",
+      "source_id": "coloring-public-p14.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p17.col",
+      "source_id": "coloring-public-p17.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p18.col",
+      "source_id": "coloring-public-p18.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p19.col",
+      "source_id": "coloring-public-p19.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p21.col",
+      "source_id": "coloring-public-p21.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p23.col",
+      "source_id": "coloring-public-p23.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p24.col",
+      "source_id": "coloring-public-p24.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p26.col",
+      "source_id": "coloring-public-p26.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p28.col",
+      "source_id": "coloring-public-p28.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p31.col",
+      "source_id": "coloring-public-p31.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p32.col",
+      "source_id": "coloring-public-p32.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p33.col",
+      "source_id": "coloring-public-p33.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p35.col",
+      "source_id": "coloring-public-p35.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p36.col",
+      "source_id": "coloring-public-p36.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p40.col",
+      "source_id": "coloring-public-p40.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/p41.col",
+      "source_id": "coloring-public-p41.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/qg.order40.col",
+      "source_id": "coloring-public-qg.order40.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/qg.order60.col",
+      "source_id": "coloring-public-qg.order60.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/queen12_12.col",
+      "source_id": "coloring-public-queen12_12.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/queen13_13.col",
+      "source_id": "coloring-public-queen13_13.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/queen15_15.col",
+      "source_id": "coloring-public-queen15_15.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/queen5_5.col",
+      "source_id": "coloring-public-queen5_5.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/queen8_12.col",
+      "source_id": "coloring-public-queen8_12.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/queen8_8.col",
+      "source_id": "coloring-public-queen8_8.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/queen9_9.col",
+      "source_id": "coloring-public-queen9_9.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r01.col",
+      "source_id": "coloring-public-r01.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r02.col",
+      "source_id": "coloring-public-r02.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r03.col",
+      "source_id": "coloring-public-r03.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r05.col",
+      "source_id": "coloring-public-r05.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r06.col",
+      "source_id": "coloring-public-r06.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r08.col",
+      "source_id": "coloring-public-r08.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r1000.1.col",
+      "source_id": "coloring-public-r1000.1.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r1000.1c.col",
+      "source_id": "coloring-public-r1000.1c.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r1000.5.col",
+      "source_id": "coloring-public-r1000.5.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r11.col",
+      "source_id": "coloring-public-r11.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r125.1.col",
+      "source_id": "coloring-public-r125.1.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r125.1c.col",
+      "source_id": "coloring-public-r125.1c.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r14.col",
+      "source_id": "coloring-public-r14.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r18.col",
+      "source_id": "coloring-public-r18.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r21.col",
+      "source_id": "coloring-public-r21.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r22.col",
+      "source_id": "coloring-public-r22.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r23.col",
+      "source_id": "coloring-public-r23.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r250.1.col",
+      "source_id": "coloring-public-r250.1.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r250.1c.col",
+      "source_id": "coloring-public-r250.1c.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r250.5.col",
+      "source_id": "coloring-public-r250.5.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r26.col",
+      "source_id": "coloring-public-r26.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r27.col",
+      "source_id": "coloring-public-r27.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r29.col",
+      "source_id": "coloring-public-r29.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/r30.col",
+      "source_id": "coloring-public-r30.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/school1_nsh.col",
+      "source_id": "coloring-public-school1_nsh.col2",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/wap01a.col",
+      "source_id": "coloring-public-wap01a.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/wap02a.col",
+      "source_id": "coloring-public-wap02a.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/wap03a.col",
+      "source_id": "coloring-public-wap03a.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/wap05a.col",
+      "source_id": "coloring-public-wap05a.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/will199GPIA.col",
+      "source_id": "coloring-public-will199GPIA.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/zeroin.i.2.col",
+      "source_id": "coloring-public-zeroin.i.2.col0",
+      "operation": "copy"
+    },
+    {
+      "path": "app/instances/zeroin.i.3.col",
+      "source_id": "coloring-public-zeroin.i.3.col0",
+      "operation": "copy"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py",
+    "src/tcsexam/dimacs_binary_data.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Original DIMACS family terms retained. A mirror program license does not grant new data redistribution rights."
+}

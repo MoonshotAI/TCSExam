@@ -1,0 +1,48 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260911",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/hs-pace2025/PROVENANCE.md: K=Root@300s (PACE 2025 HS heuristic track champion), measured under the judging configuration.",
+   "tier": "competition-record"
+  }
+ },
+ "family": "hitting-set",
+ "id": "hs-pace2025",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-hs-pace2025-judge-v7"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "HS_TIME_POOL",
+  "n_hidden": 100,
+  "n_public": 100,
+  "per_instance_seconds": 300,
+  "shard_cores": 16,
+  "shard_mem_gb": 16,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "PACE 2025",
+  "hidden_set": "official-private",
+  "memorization_risk": "low",
+  "transform": null
+ },
+ "status": {
+  "in_split30": true
+ },
+ "subdomain": "graph-optimization",
+ "title": "Hitting set"
+}

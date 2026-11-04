@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/ramsey-r55-lean-open"
+version = "1.0.0"
+description = "Open-proof task: prove a bound on the Ramsey number R(5,5) in Lean 4 (either exhibit a K5-free 2-coloring of K_N, or refute one). No instance, no witness, no lemma ladder; the definition layer (Coloring, MonoFree) is fixed and machine-checked, N is parsed from the proven claim and scored against the literature record (lower 42 / Exoo 1989, upper 46 / Angeltveit-McKay 2026)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "ramsey", "graph-coloring", "open-problem", "open-construction"]
+
+[metadata]
+family_id = "fam-ramsey-r55"
+candidate_id = "cand-ramsey-r55-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open-proof"
+difficulty_explanation = "No ground truth and no scaffolding: the agent must find a construction (or a refutation argument) and formalize it against a fixed definition layer. Even the alpha milestone (any verified non-vacuous bound) needs a real formalization; the record zone (N=42 construction, or any upper-bound proof at N<=46) is at or beyond the published research frontier."
+source_paper = "G. Exoo, A lower bound for R(5,5), J. Graph Theory 13(1):97-98, 1989; Angeltveit-McKay, J. Graph Theory 2026 (arXiv:2409.15709); Radziszowski, Small Ramsey Numbers, EJC DS1 rev #18"
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-construction-ramsey-r55-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

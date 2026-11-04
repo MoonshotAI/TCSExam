@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/scp-orlib",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/scp-orlib/tests/checker.py",
+      "target": "tasks/solver/offline/scp-orlib/tests/checker.py",
+      "sha256": "3f2c5fd871468c77ea934d334e0346d37a9899c23e9c88be617e18e1af0c07e5"
+    },
+    {
+      "source": "tasks/solver/online/scp-orlib/tests/reference.json",
+      "target": "tasks/solver/offline/scp-orlib/tests/reference.json",
+      "sha256": "21eabddb59af7c2f913c3d0e8e7132c7a8f978fffdb2e01d09e0d6076b1e38ce"
+    },
+    {
+      "source": "tasks/solver/online/scp-orlib/tests/anchors.json",
+      "target": "tasks/solver/offline/scp-orlib/tests/anchors.json",
+      "sha256": "17eef1817ff300a931b8c5f4abc95faeff3e12e3b4e9ccb87331abfac767f6b6"
+    },
+    {
+      "source": "tasks/solver/online/scp-orlib/tests/metric_config.json",
+      "target": "tasks/solver/offline/scp-orlib/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-scp-orlib",
+  "verifier_dependency": "backend-online-scp-orlib",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

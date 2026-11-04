@@ -1,0 +1,292 @@
+{
+  "files": [
+    {
+      "path": "app/instances/rail4284.txt",
+      "bytes": 80951057,
+      "sha256": "37b13ce7885bd2cfde15b0d2e05c5c06511de921e43f39f90ef754921680c4d7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/rail4872.txt",
+      "bytes": 65637208,
+      "sha256": "2df8d9c085cef8c118899aa7f249e1d3e337710fa48492da2624b0f8f413e468",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/rail507.txt",
+      "bytes": 2512587,
+      "sha256": "a5359bfb987539e54f582b9a8d73f07e4a1ac01c98d2508a442a796911f2cabf",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/rail516.txt",
+      "bytes": 1909328,
+      "sha256": "aa88b086cd11095269d2f37f280b89b774edf0a8d2420863714f01c268b6a27a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp42.txt",
+      "bytes": 20428,
+      "sha256": "08094a5dda03cdc4975e5750978131f45462645ff1f44abd0816c05cf706edd7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp43.txt",
+      "bytes": 20401,
+      "sha256": "19e94d9825584b00fb795af2bd3cd17d1e21966ad75c563c8b936da8b83c4105",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp44.txt",
+      "bytes": 20531,
+      "sha256": "253cc2e40df68757edb97b272d4b844000297b40894532bd85e33e2e045a6c68",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp46.txt",
+      "bytes": 20855,
+      "sha256": "465c0a82beed8789cf0ae6104c035925d4539b6967956428cd8fbafe65a1c316",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp47.txt",
+      "bytes": 20149,
+      "sha256": "74bcc2f3544a37c4ef0f18cce72285a665137e9b509fb48e8ab1be581c10a9db",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp49.txt",
+      "bytes": 20355,
+      "sha256": "4239aa79093ee7cb00ec2958ad5f6e092b0f099742cbd2822bd8ad9177c18c79",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp51.txt",
+      "bytes": 44155,
+      "sha256": "c97d8cb7b00e8528efb9114565c02292fd5efa147ce4bf8e6208df843d1a60f8",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp52.txt",
+      "bytes": 44205,
+      "sha256": "070585918b02d5eee078b03373b6cc4e6d5b1643da06e4b18a3f06963cd1f1b0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp53.txt",
+      "bytes": 44312,
+      "sha256": "15bf4cdf3e88040b11f9991389c5285001fa665f8a22fc1b17f30a9616a8131a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp54.txt",
+      "bytes": 43921,
+      "sha256": "ff32fd1cb0eadd2f056a5eb7b08ba60934253ef2546b449159d5c379d7c803ab",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp56.txt",
+      "bytes": 44197,
+      "sha256": "1cbb7f77759117fb18c15be5c6b1f79dbf85999ed1f98ba6710b5db82d8e04c9",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp57.txt",
+      "bytes": 44615,
+      "sha256": "f953675a5252b8108cf438307eefc95edab69ff057bbc4fc601e02b9ff60e51f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp61.txt",
+      "bytes": 44209,
+      "sha256": "1c3ac390aded677808d035c79f67b4e53f267b4834d534945d4ab80f8ac3d31b",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scp65.txt",
+      "bytes": 44657,
+      "sha256": "cd7deeaf475aacc8997c10337a2a7005d7e5c4eb3d9d6b6a71daf9799c6c2eca",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpa1.txt",
+      "bytes": 97110,
+      "sha256": "e47f63dcaf249b141396a0ad9dbb34ace7b97de3d5554907e0bbf5389a5bf39d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpa3.txt",
+      "bytes": 97052,
+      "sha256": "f94819f246404fec3e84ea05c04dacca271a1c8f93cfb2dc398dd693d9eda7a9",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpb1.txt",
+      "bytes": 225212,
+      "sha256": "301b3235b29af5e20f4f4478d5e0f8a472ade9139495fb74d8a9c70811c91fc1",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpb5.txt",
+      "bytes": 225198,
+      "sha256": "ba760cb95a5294a4b64f8fbddb67f4030833f89817c869d64d94208d4b1a72cf",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpc1.txt",
+      "bytes": 170051,
+      "sha256": "2edb7c60a7b237184d2d1bd2e0548626e7cb68274fb5ed8729ff3c96274f30b4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpc5.txt",
+      "bytes": 169664,
+      "sha256": "964524c45719d928d9f8f78da721e118c8cd5ca3e8406b25e74e7499bb9911ac",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpclr10.txt",
+      "bytes": 51720,
+      "sha256": "7ae9fa82a59ca6d411cf179ef3541183c4c18c03bac0a18fb81814536563a441",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpclr11.txt",
+      "bytes": 167247,
+      "sha256": "4de5c8fa47124988b35839eeaee3b67a6f28b24159a3db854826e29298673847",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpclr13.txt",
+      "bytes": 1496065,
+      "sha256": "d46def0ee4e3d8e161051d5122ef597bfb855de48b4ead3d07c89d186b9b9402",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpcyc08.txt",
+      "bytes": 41076,
+      "sha256": "89a8a298d01cb8a87597cc15b7498ed2e0066ca0a8bdb87a37f897488adda504",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpcyc09.txt",
+      "bytes": 115957,
+      "sha256": "7a1e374bcf61ab77bf3913738f0fcd01a4cf0d13912a3a6005bc9db85fc774b0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpcyc11.txt",
+      "bytes": 758161,
+      "sha256": "77f9b41b62caa047b1d99dac1cb87f77c11ac0acd8bafb59a45fc0fe65ee80d4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpd1.txt",
+      "bytes": 404191,
+      "sha256": "df385a06892e9c72f70555a08187407d38322a7b2a4a0ef8c7f8c5b0cf72a9f5",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpd3.txt",
+      "bytes": 404398,
+      "sha256": "e22e632b7392bf13dc7cf322130a7ab1239b0bcbfda511856d81fb73ecd99ee4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpd5.txt",
+      "bytes": 403952,
+      "sha256": "52aa055bd3ef900a451a7c665e72677dc989010e12287edca1ee4bf9550fa1b7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpe1.txt",
+      "bytes": 20221,
+      "sha256": "c04388428fd4050661d9a14e2beb50bc3fc203856a0cab2a782c3ea751da6246",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpe4.txt",
+      "bytes": 20329,
+      "sha256": "dddeb72f933467237223f2fbd35abca659f1fe22bf4abfbd36d649ce16d4e236",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpe5.txt",
+      "bytes": 20590,
+      "sha256": "c45d19716391da9500acbc6f36ea76efbbc48407aee681723140538c95acdf38",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpnre1.txt",
+      "bytes": 1243844,
+      "sha256": "d47ed62600f686c0a37c61f51606c5eba42ff0201fcdd9cb824fbb4ed823e0df",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpnre2.txt",
+      "bytes": 1243435,
+      "sha256": "305ffd74282d5280351465b0362f78c99a296fbd8ffee188461b48c8bdfc5b23",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpnre4.txt",
+      "bytes": 1243363,
+      "sha256": "337726599934cda5d44d5c2df965a3a9958f3e6da5e4b6ab82f7134b1dc0f1d9",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpnrf2.txt",
+      "bytes": 2470699,
+      "sha256": "6b60e0d6fae1ed81a9b1c6c6e6bf616cea4846668df12fb1f512b065040fdb98",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpnrf4.txt",
+      "bytes": 2471049,
+      "sha256": "00763b8683d0880f5c05d67825418c4b7631a712a8641bb7a473ab46192b89c9",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpnrf5.txt",
+      "bytes": 2471133,
+      "sha256": "fa44b2c468f1291745952cb86f4a3c4062ee8536502ff30949aa9f55ca526665",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpnrg1.txt",
+      "bytes": 1039042,
+      "sha256": "ca3b01d305d33db1cd01b4cb8e8d2718e2d5773387afc6dd1a4cdb1945722dd4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpnrg2.txt",
+      "bytes": 1038805,
+      "sha256": "11cf31e6a1b850d0efca5873f10072335c52404acca62c9c83a5aaf396521b54",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpnrg4.txt",
+      "bytes": 1039026,
+      "sha256": "07597c9bd064cb0210807104d59a2ddc7d7f7a5ee39ecdd113931fed6649777d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpnrh2.txt",
+      "bytes": 2544411,
+      "sha256": "77b710c07e045d39ea9ebb5739adecb2476c85b6d0ebcb6209a310eb999a210c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpnrh4.txt",
+      "bytes": 2544457,
+      "sha256": "ada7e3e4b547626623e7bc0c990abac5ca8296b469fdbb26ceafd2e4beb49fda",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/scpnrh5.txt",
+      "bytes": 2544360,
+      "sha256": "827afb4d69ce6acfcb379f1b0f3a380b04c9bb99f44e2d436d4ed8535cb89b8c",
+      "mode": "0644"
+    }
+  ]
+}

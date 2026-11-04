@@ -1,0 +1,39 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-xor3-parallel-repetition-bare-proof"
+version = "0.1.0"
+description = "Prove Theorem 1 of BBKLM25 (exponential decay of the parallel-repetition value of 3-player XOR games of value < 1 without Z-embeddings; Bhangale-Braverman-Khot-Liu-Minzer, STOC 2025 / ECCC TR25-040 / arXiv 2408.09352) in Lean 4 (machine-verified), conditional on the packaged Freiman-homomorphism inverse input (the paper's Lemma 8.1). L2: statement fidelity only, no ground truth. [bare variant: main theorem only, 0/1]"
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "parallel-repetition", "xor-games", "additive-combinatorics", "fourier-analysis", "freiman-homomorphism", "type-2"]
+
+[metadata]
+family_id = "fam-xor3-parallel-repetition"
+candidate_id = "cand-bbklm25-xor3-parallel-repetition"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task: from the bare main-theorem statement the prover must rebuild the whole route — arithmetization, the nonembeddable-tensor analytic theorem (path tricks, merging, relaxed base case, Efron-Stein split, SVD induction), the master-embedding reduction of the embeddable case, and the additive-combinatorics descent from the packaged Freiman input; no ground truth is provided."
+source_paper = "Amey Bhangale, Mark Braverman, Subhash Khot, Yang P. Liu, Dor Minzer: Parallel Repetition for 3-Player XOR Games, STOC 2025 (pp. 104-110); ECCC TR25-040; arXiv 2408.09352."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-theorem-xor3-parallel-repetition-verifier"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

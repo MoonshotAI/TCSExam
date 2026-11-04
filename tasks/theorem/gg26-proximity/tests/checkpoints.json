@@ -1,0 +1,13 @@
+{
+  "main_theorem": "mca_of_subspace_design",
+  "namespace": "ProximityGaps",
+  "checkpoints": [
+    {
+      "name": "mca_of_subspace_design",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 4.8 of GG26 (ECCC TR25-166): mutual correlated agreement for subspace-design codes, with the corrected error term, the m <= 4t range, the explicit field-size hypothesis, and restored boundary hypotheses (see tests/reference/concept-ledger.md)."
+    }
+  ]
+}

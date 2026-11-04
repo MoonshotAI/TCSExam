@@ -1,0 +1,31 @@
+{
+  "actual_candidate_head": "0498c7c070c143a3bf7379f4d99a2c63bb9d9715",
+  "checked": "2026-10-29",
+  "commit": "0498c7c070c143a3bf7379f4d99a2c63bb9d9715",
+  "commit_url": "https://github.com/leanprover-community/LeanSearchClient/commit/0498c7c070c143a3bf7379f4d99a2c63bb9d9715",
+  "independent_notice": {
+    "non_notice_copyright_files": [],
+    "present": false,
+    "status": "no_independent_notice_found",
+    "tree_api": "https://api.github.com/repos/leanprover-community/LeanSearchClient/git/trees/0498c7c070c143a3bf7379f4d99a2c63bb9d9715?recursive=1",
+    "tree_entries": 19,
+    "tree_http_status": 200,
+    "tree_truncated": false
+  },
+  "installed_license": "LICENSE",
+  "license": {
+    "bytes": 11357,
+    "http_status": 200,
+    "id": "Apache-2.0",
+    "local_content_matches_fixed_upstream": true,
+    "local_file": "LeanSearchClient-LICENSE.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "url": "https://raw.githubusercontent.com/leanprover-community/LeanSearchClient/0498c7c070c143a3bf7379f4d99a2c63bb9d9715/LICENSE"
+  },
+  "name": "LeanSearchClient",
+  "repository": "https://github.com/leanprover-community/LeanSearchClient",
+  "schema_version": 1,
+  "source_archive_content_independently_verified": false,
+  "source_archive_http_status": 200,
+  "source_archive_url": "https://github.com/leanprover-community/LeanSearchClient/archive/0498c7c070c143a3bf7379f4d99a2c63bb9d9715.tar.gz"
+}

@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-explicit-ramsey-graph-log"
+version = "0.1.0"
+description = "Prove or refute the polylogarithmic Paley-graph Ramsey conjecture (clique and independence number of the Paley graph on q vertices are (log q)^{O(1)}; the stronger O(log q) form is refuted by Graham-Ringrose 1990) in Lean 4 with mathlib (machine-verified). Open problem: full score for a kernel-checked proof of the conjecture or of its negation; no partial credit. [proof-or-disproof v1]"
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "ramsey-theory", "paley-graph", "explicit-construction", "open-problem", "type-open"]
+
+[metadata]
+family_id = "fam-open-explicit-ramsey"
+candidate_id = "cand-explicit-ramsey-graph-log"
+problem_class = "lean-open-proof"
+scaffold_level = "proof-or-disproof"
+difficulty_explanation = "Open conjecture (clique and independence number of Paley graphs are (log q)^{O(1)}, the canonical route to explicit Ramsey graphs with polylogarithmic clique number): the stronger O(log q) form is refuted by Graham-Ringrose 1990; the polylogarithmic form is open in both directions (best upper bound ~sqrt(q) by Hanson-Petridis/Yip, best lower bounds far below any (log q)^{1+eps}). Full score requires settling it in either direction; there is no partial credit."
+source_paper = "Erdos 1947 (probabilistic existence); Frankl-Wilson 1981; Barak-Rao-Shaltiel-Wigderson, STOC 2006; Xin Li, FOCS 2023 (ECCC TR23-023), K = (log N)^{O(1)}; Graham-Ringrose 1990 (lower bound on least quadratic non-residues, refuting the O(log q) Paley form); Hanson-Petridis 2021 and Yip 2020 (arXiv:2004.01175, best known upper bounds ~sqrt(q)). Pool entry: pseudorandomness-explicit-constructions.md (historical report not included in this package) (explicit-ramsey-graph-log); statement pinning per reflow-a.json (Paley family as the canonical candidate); polylogarithmic re-form per blind review explicit-ramsey-graph-log.md (historical report not included in this package)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-explicit-ramsey-graph-log-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

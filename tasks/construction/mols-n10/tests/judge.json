@@ -1,0 +1,36 @@
+{
+ "namespace": "MOLS",
+ "main_theorem": "submission_lower",
+ "score_mode": "solver_linear_per_grid",
+ "compile_timeout_sec": 1200,
+ "min_n": 2,
+ "max_n": 30,
+ "min_k": 1,
+ "max_k": 29,
+ "allowed_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "claims": [
+  {
+   "name": "submission_lower",
+   "direction": "lower",
+   "header_pattern": ":\\s*∃\\s*Ss\\s*:\\s*List\\s*\\(Fin\\s*(\\d+)\\s*→\\s*Fin\\s*\\1\\s*→\\s*Fin\\s*\\1\\)\\s*,\\s*MolsSet\\s+\\1\\s+Ss\\s*∧\\s*Ss\\.length\\s*≥\\s*(\\d+)"
+  }
+ ],
+ "grid": {
+  "10": {"baseline_k": 1, "record_k": 2},
+  "12": {"baseline_k": 2, "record_k": 5},
+  "14": {"baseline_k": 1, "record_k": 4},
+  "15": {"baseline_k": 2, "record_k": 4},
+  "18": {"baseline_k": 1, "record_k": 5},
+  "20": {"baseline_k": 3, "record_k": 4},
+  "21": {"baseline_k": 2, "record_k": 5},
+  "22": {"baseline_k": 1, "record_k": 3},
+  "24": {"baseline_k": 2, "record_k": 7},
+  "26": {"baseline_k": 1, "record_k": 4}
+ }
+}

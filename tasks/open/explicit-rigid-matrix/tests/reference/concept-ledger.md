@@ -1,0 +1,52 @@
+# Faithfulness Review: Valiant’s Explicit Matrix-Rigidity Problem
+
+This note explains the task statement for readers comparing the mathematical definitions with the Lean source. The current scoring statements are `conj` and `refuted`; proving either earns full credit.
+
+This document compares Valiant’s 1977 matrix-rigidity problem, the Lean statement used by this task, and the selected candidate family.
+
+- **Sources:** Valiant 1977, MFCS, “Graph-theoretic arguments in low-level complexity”; Ramya, “Recent Progress on Matrix Rigidity,” arXiv:2009.09460 (HTML full text obtained 2026-09-04; checked §1 definition and Question 1.1, §2.3 lower bound for totally regular matrices, §4 list of nonrigidity results, and §6.1 good-code generator matrices); Dvir–Liu 2020, “Fourier and Circulant Matrices are Not Rigid,” Theory of Computing; Alman–Williams 2017; Dvir–Edelman 2019; multipoint-evaluation paper arXiv:2111.07572 (Vandermonde nonrigidity); low-rank rigidity paper arXiv:2502.19580 (candidate lower-bound references in introduction); new Hadamard bound arXiv:2608.06592; project inventory entry explicit-rigid-matrix in circuit-proof-complexity.md (read 2026-09-04).
+- **Released statement:** environment/app/Task/Basic.lean (namespace ExplicitRigidMatrix); scoring reference copy tests/reference/Basic.lean.
+
+## 1. Statement components: paper and Lean
+
+| Component | Paper | Released Lean statement | Notes |
+|---|---|---|---|
+| Rigidity R_A(r) | min{sparsity(C) : rank(A+C)≤r}, the fewest entries to change to make A have rank at most r. | IsRigidAt A r s := ∀B, B.rank≤r → s≤diffCount A B. | IsRigidAt A r s iff R_A(r)≥s. A predicate replaces a minimum-valued function and avoids edge cases for sInf on ℕ; see deviation 7. |
+| Rank | Matrix rank. | Matrix.rank from mathlib, equal to the finrank of the range of mulVecLin. | Existing foundation. |
+| Number of changes | sparsity(A−B), the number of positions with different entries. | diffCount A B is the card of the finite set of positions where they differ. | Equivalent to B=A+C; requires DecidableEq K. |
+| “Rank reduced to εn” | R_Aₙ(εn). | IsRigidAt (hilbert n) ⌊ε·n⌋₊ … | Floor; the literature omits rounding, which is asymptotically immaterial. See deviation 4. |
+| “At least n^(1+δ)” | Ω(n^(1+δ)). | ⌈(n:ℝ)^(1+(δ:ℝ))⌉₊. | Ceiling; δ is rational and the real power is rpow. |
+| Quantifiers | Valiant’s circuit application needs every n; some papers use “for sufficiently large n.” | ∀ n:ℕ. | Stronger pointwise form; equivalent at the “there exists a family” level. See deviation 5. |
+| Explicit | A polynomial-time algorithm outputs Aₙ; Ramya §1 says “deterministic algorithm that on input n (in unary) outputs Aₙ in time poly(n).” | No separate quantifier; instantiate with the concrete family hilbert. | The main design choice; see deviation 1. |
+| Main conjecture | Question 1.1: “Does there exist an explicit sequence of matrices (Aₙ) with entries in F such that R_Aₙ(εn)=Ω(n^(1+δ)) for some ε,δ>0?” (). | HilbertRigid := ∃ ε δ:ℚ, 0<ε ∧ 0<δ ∧ ∀n, IsRigidAt (hilbert n) ⌊εn⌋ ⌈n^(1+δ)⌉. | Instantiated with a candidate family; consistent with Valiant 1977. |
+
+## 2. Deviations and decisions
+
+1. **Do not quantify over “explicit” families; instantiate the conjecture with one concrete candidate family.** Neither alternative without this choice works. (i) If the conjecture merely said there exists a matrix family A:ℕ→Matrix, it would no longer be open: over infinite fields, the existence of maximally rigid matrices for each n is classical (dimension counting for algebraic varieties). Ramya §1 states: “over infinite fields, for every choice of n there exists an n×n matrix A such that R_A(r)=(n−r)² for any r.” Then conj would in principle be provable and refuted false, killing one branch. (ii) Formalizing explicitness as “polynomial-time computable” requires a Turing-machine complexity layer, which mathlib lacks and is far beyond this task’s definition-layer budget. The project inventory recommended bypassing explicitness by writing the concrete candidate as a function, without computability theory (circuit-proof-complexity.md, explicit-rigid-matrix entry; difficulty estimate). This task follows that recommendation. Proving conj would solve Valiant’s problem positively with the explicit, closed-form Hilbert family. Proving refuted would rule out the Hilbert/Cauchy candidate, as in Alman–Williams 2017 for Hadamard matrices and Dvir–Liu 2020 for Fourier/circulant matrices; refuting a candidate itself is a recognized research outcome. The same inventory notes the work splits naturally by candidate family, each a separate conjecture.
+
+2. **Choose the Hilbert matrix:** Hₙ(i,j)=1/(i+j+1) over ℚ. It is the Cauchy matrix with xᵢ=i and yⱼ=j+1, and is totally regular (all minors are nonzero). Literature status: families already proved nonrigid include Walsh–Hadamard (Alman–Williams 2017), generalized Hadamard (Dvir–Liu), Fourier and circulant matrices (Dvir–Liu 2020), finite-field function matrices of form f(I+J) (Dvir–Edelman 2019 via Croot–Lev–Pach), and good-code generator matrices (Dvir 2016, Ramya §6.1). For Cauchy matrices, only lower bounds were found: totally regular matrices satisfy R_M(r)=Ω((n²/r)·log(n/r)) for log²n≤r≤n/2 (Ramya §2.3, citing Friedman 1993 and Shokrollahi–Spielman–Stemann 1997; the introduction of arXiv:2502.19580 also cites Cauchy [SSS97] among candidate lower bounds). No nonrigidity result for Cauchy/Hilbert was found. Cauchy appears among candidate rigid families in Ramya §1, reference [26] (Fourier, Hadamard, Cauchy, Vandermonde, projective-plane incidence matrices, etc.; the first two are now ruled out). Vandermonde was not chosen because geometric-progression nodes already have a nonrigidity upper bound (arXiv:2111.07572), making its status less clean; Hadamard/Fourier/circulant were ruled out. Engineering reasons for Hilbert: closed-form entries, one-line definition, and exact small-instance arithmetic over ℚ.
+
+3. **Use ℚ as the field.** Valiant’s problem is open over every fixed field. ℚ gives a simple definition, exact rational arithmetic for small examples, and the natural characteristic-zero home for 1/(i+j+1). Small finite-field examples (GF(2) enumeration) are demonstrations only, documented in small-examples.md S4, and are not part of the Lean statement.
+
+4. **Round the rank threshold down and the rigidity threshold up.** ⌊ε·n⌋₊ and ⌈n^(1+δ)⌉₊ are natural numbers, matching Matrix.rank and diffCount. They differ from the asymptotic literature notation by O(1), which does not change open status.
+
+5. **Quantify over every n rather than “sufficiently large n.”** If a family is rigid for all sufficiently large n, replace its finitely many exceptional matrices by maximally rigid matrices (existence in deviation 1(i)); the resulting family is rigid for all n, without changing explicitness. Thus the forms are equivalent at the family-existence level, and ∀n is simpler. Boundary checks: n=0 gives the empty matrix and ⌈0^(1+δ)⌉=0, so it is vacuous. At n=1, H₁=[[1]], and if ε<1 then ⌊ε⌋=0; choosing B=0 gives diff=1=⌈1^(1+δ)⌉, so the condition holds.
+
+6. **Do not require ε<1 in conj; do require it in special case (a).** conj is existential, and ε≥1 cannot witness it: ⌊εn⌋≥n lets B=A with diff=0, which is less than ⌈n^(1+δ)⌉. This does not change the truth of the existential statement, because a witness must choose a smaller ε. Special case (a) is universally quantified: for ε≥1, IsRigidAt fails trivially using B=A and 0<s for every n≥1. Requiring ε<1 removes that degenerate branch and makes the checkpoint test actual rank reduction below the dimension.
+
+7. **Use the predicate form of rigidity.** IsRigidAt A r s is equivalent to ¬∃B (rank B≤r ∧ diff<s), which is equivalent to ∀B, rank B≤r → s≤diff. The task does not define the numeric function R_A(r)=min{…}, avoiding extra conventions for sInf over ℕ at n=0 and other degenerate cases.
+
+8. **Put sampleMatrix4 in the fixed region.** Special case (c) must refer to it. The sampling script, seed 20260904, 314 hits, and 0.51% frequency of the sufficient condition are recorded in small-examples.md S3. The selection criterion—all 16 of its 3×3 minors are nonzero—is exactly what the proof route in (c) needs (an untouched minor implies a rank lower bound).
+
+## 3. Two-way sanity checks
+
+- **Statement versus paper:** Ramya’s Question 1.1 (; quoted in §1) corresponds component by component to HilbertRigid. Deviations 1, 4, and 5 are recorded above. The predicate IsRigidAt is equivalent to the paper’s min{sparsity(C):rank(A+C)≤r} definition (deviation 7). The same page gives R_{Iₙ}(r)=n−r, used for special case (a), and the trivial upper bound R_A(r)≤(n−r)², which supplies background on the range of δ; both were checked.
+- **Small-instance values:** small-examples.md S1–S4 were executed using small_examples.py with exact rational arithmetic. Key results: all 9 2×2 minors of H₃ are nonzero; R_H₃(1)=3 exactly, witnessed by diagonal vectors u=(1,3/4,1/2), v=(2/3,1/2,1/3); all 16 3×3 minors of sampleMatrix4 are nonzero.
+- **Lean proof probe for special case (b):** Probe-b.lean gives a complete proof using the shipped definition layer. It uses nonzero untouched 2×2 minors to derive Matrix.rank_of_isUnit and Matrix.rank_submatrix_le, hence rank B≥2. Compilation had no errors; #print axioms listed only [propext, Classical.choice, Quot.sound], demonstrating that the definition layer supports the planned proof route.
+
+## 4. Items to recheck
+
+1. **New nonrigidity results for Hilbert/Cauchy, 2021–2026:** Searches (Ramya 2020 survey, arXiv:2502.19580 introduction, arXiv:2608.06592, and 260902 project-inventory snapshot) found none. Recheck before each new experiment. If one appears, the conj branch is resolved and the task needs revision.
+2. **Range of the totally regular matrix lower bound** (log²n≤r≤n/2, Ramya §2.3): background only; it does not directly affect this statement.
+3. **Degenerate ε≥1 branch:** conj’s semantics are unaffected; special case (a) explicitly excludes it.
+4. **Special case (a) has not been fully formalized by the task authors.** The route (change diagonal entries → diagonal matrix rank equals number of nonzero diagonal entries → asymptotic n^(1+δ) exceeds linear) is standard. This authoring round validated the full Lean proof for (b) only. The truth of (a) is supported by R_{Iₙ}(r)=n−r (cited in Ramya §1) and the asymptotic argument. If pretesting finds unexpected formalization difficulty, report it and adjust the checkpoint.

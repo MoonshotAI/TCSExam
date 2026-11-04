@@ -1,0 +1,31 @@
+{
+  "actual_candidate_head": "ee41917ae11d38479fb8fb24745f7ca4bf0a784d",
+  "checked": "2026-10-29",
+  "commit": "ee41917ae11d38479fb8fb24745f7ca4bf0a784d",
+  "commit_url": "https://github.com/leanprover-community/quote4/commit/ee41917ae11d38479fb8fb24745f7ca4bf0a784d",
+  "independent_notice": {
+    "non_notice_copyright_files": [],
+    "present": false,
+    "status": "no_independent_notice_found",
+    "tree_api": "https://api.github.com/repos/leanprover-community/quote4/git/trees/ee41917ae11d38479fb8fb24745f7ca4bf0a784d?recursive=1",
+    "tree_entries": 40,
+    "tree_http_status": 200,
+    "tree_truncated": false
+  },
+  "installed_license": "LICENSE",
+  "license": {
+    "bytes": 11357,
+    "http_status": 200,
+    "id": "Apache-2.0",
+    "local_content_matches_fixed_upstream": true,
+    "local_file": "Qq-LICENSE.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "url": "https://raw.githubusercontent.com/leanprover-community/quote4/ee41917ae11d38479fb8fb24745f7ca4bf0a784d/LICENSE"
+  },
+  "name": "Qq",
+  "repository": "https://github.com/leanprover-community/quote4",
+  "schema_version": 1,
+  "source_archive_content_independently_verified": false,
+  "source_archive_http_status": 200,
+  "source_archive_url": "https://github.com/leanprover-community/quote4/archive/ee41917ae11d38479fb8fb24745f7ca4bf0a784d.tar.gz"
+}

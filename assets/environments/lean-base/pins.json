@@ -1,0 +1,198 @@
+{
+  "lean": "leanprover/lean4:v4.33.0-rc1",
+  "mathlib": "5b3f719bf129e3cf48daf6ff76a2ec5cb6e9b1e3",
+  "image": null,
+  "harbor": "0.22.0",
+  "source_pins_file": "assets/sources.json",
+  "adaptations": [
+    {
+      "track": "theorem",
+      "task": "corners-quasipoly",
+      "source_commit": "1e7e6dd534400552bf7960c8999fa66c85408b67",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "no-network"
+    },
+    {
+      "track": "theorem",
+      "task": "discrete-bidding-games",
+      "source_commit": "1e7e6dd534400552bf7960c8999fa66c85408b67",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "no-network"
+    },
+    {
+      "track": "theorem",
+      "task": "folded-rs-gsb",
+      "source_commit": "248377c726c316e99223a35a982f389f651e1cbd",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "no-network"
+    },
+    {
+      "track": "theorem",
+      "task": "negations-small-depth",
+      "source_commit": "1e7e6dd534400552bf7960c8999fa66c85408b67",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "no-network"
+    },
+    {
+      "track": "theorem",
+      "task": "quantum-crypto-algorithmica",
+      "source_commit": "1e7e6dd534400552bf7960c8999fa66c85408b67",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "no-network"
+    },
+    {
+      "track": "construction",
+      "task": "binary-code-a24-10",
+      "source_commit": "fb429a5b3008d1ca35f5a24b589b7704505f7acf",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "public"
+    },
+    {
+      "track": "construction",
+      "task": "ex-c3c4-maxedges",
+      "source_commit": "fb429a5b3008d1ca35f5a24b589b7704505f7acf",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "public"
+    },
+    {
+      "track": "construction",
+      "task": "kissing-d13",
+      "source_commit": "fb429a5b3008d1ca35f5a24b589b7704505f7acf",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "public"
+    },
+    {
+      "track": "construction",
+      "task": "ramsey-r46",
+      "source_commit": "fb429a5b3008d1ca35f5a24b589b7704505f7acf",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "public"
+    },
+    {
+      "track": "construction",
+      "task": "tsp-gap",
+      "source_commit": "fb429a5b3008d1ca35f5a24b589b7704505f7acf",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "public"
+    },
+    {
+      "track": "open",
+      "task": "log-rank-conjecture",
+      "source_commit": "c1f02c8bc1b1ba380088c1a98c46ee61f566b03b",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "public"
+    },
+    {
+      "track": "open",
+      "task": "evasiveness-graph-properties",
+      "source_commit": "c1f02c8bc1b1ba380088c1a98c46ee61f566b03b",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "public"
+    },
+    {
+      "track": "open",
+      "task": "frege-not-pbounded",
+      "source_commit": "c1f02c8bc1b1ba380088c1a98c46ee61f566b03b",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "public"
+    },
+    {
+      "track": "open",
+      "task": "online-matching-random-order",
+      "source_commit": "c1f02c8bc1b1ba380088c1a98c46ee61f566b03b",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "public"
+    },
+    {
+      "track": "open",
+      "task": "prg-constant-width-robp",
+      "source_commit": "c1f02c8bc1b1ba380088c1a98c46ee61f566b03b",
+      "adapted_files": [
+        "environment/Dockerfile",
+        "task.toml"
+      ],
+      "agent_timeout_sec": 43200,
+      "verifier_timeout_sec": 1800,
+      "network_mode": "public"
+    }
+  ],
+  "elan": "4.2.3",
+  "elan_archive_sha256": "df0b2b3a439961ffcbb3985214365ffe40f49bc871df04dff268c7d8e21ca8b2",
+  "cache_permissions": "world-readable mathlib build artifacts; content unchanged",
+  "source_image_digest": "sha256:1401a1032f6aa67aea121b342af959450f53a94735ebc854c523438ac9796279",
+  "local_product_id": "lean-base-public-5b3f719",
+  "public_image": null,
+  "public_pull_verified": false,
+  "public_upload_allowed": false,
+  "product_manifest": "assets/images.json with public-upstream local recipes generated by tcsexam.lean_recipes; historical products and digest assignments are retained separately, and public upload remains unapproved"
+}

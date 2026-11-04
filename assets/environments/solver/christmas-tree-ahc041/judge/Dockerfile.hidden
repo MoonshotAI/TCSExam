@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: Apache-2.0
+# Clean public workspace supplies the original compiler/checking tools.
+# The parent contains public practice data only; this product adds the selected
+# judging split, which is read exclusively through /tests[-public]/instances.
+ARG TCSEXAM_CLEAN_TOOLS_IMAGE
+ARG TCSEXAM_JUDGE_DATA_IMAGE
+FROM ${TCSEXAM_JUDGE_DATA_IMAGE} AS tcsexam_data
+FROM ${TCSEXAM_CLEAN_TOOLS_IMAGE}
+COPY --from=tcsexam_data /payload/rootfs/ /
+COPY assets/environments/solver/judge-runtime/*.py /judge/
+COPY tasks/solver/offline/christmas-tree-ahc041/tests/runtime/task.json /judge/task.json
+COPY assets/environments/solver/christmas-tree-ahc041/judge/scoring.py /opt/ahc041/scoring.py
+COPY assets/environments/solver/christmas-tree-ahc041/judge/scoring.py /tests/scoring.py
+COPY tasks/solver/online/christmas-tree-ahc041/tests/split.py /opt/ahc041/split.py
+COPY tasks/solver/online/christmas-tree-ahc041/tests/test_oracle_stub.py /opt/ahc041/test_oracle_stub.py
+COPY tasks/solver/online/christmas-tree-ahc041/tests/test_transform.py /opt/ahc041/test_transform.py
+COPY tasks/solver/online/christmas-tree-ahc041/tests/transform.py /opt/ahc041/transform.py
+COPY tasks/solver/online/christmas-tree-ahc041/tests/checker.py /tests/checker.py
+COPY tasks/solver/online/christmas-tree-ahc041/tests/reference-hidden.json /tests/reference.json
+RUN mkdir -p /tests /work /logs/verifier /submission && rm -rf /app && mkdir /app \
+ && printf "#!/bin/sh\nset -eu\npython3 /judge/run_checker.py\n" > /tests/test.sh \
+ && chmod 755 /tests/test.sh
+ENV TESTS_DIR=/tests APP_DIR=/app WORK_DIR=/work PORT=8082 INSTANCE_SET=hidden JUDGE_CMD="bash /tests/test.sh" JUDGE_TIMEOUT=4600
+WORKDIR /work
+ENTRYPOINT []
+CMD ["python3", "/judge/judge_worker.py"]

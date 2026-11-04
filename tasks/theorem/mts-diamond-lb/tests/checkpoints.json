@@ -1,0 +1,13 @@
+{
+  "main_theorem": "mss_loglog_lower",
+  "namespace": "MTSDiamondLB",
+  "checkpoints": [
+    {
+      "name": "mss_loglog_lower",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Section 3.4 of BCR23 (arXiv 2211.05753v2): there are c > 0 and n0 such that for all n >= n0 there is an n-point metric space and a start point admitting a distributional lower bound c (log2 n / log2 log2 n)^2 for small-set chasing — the basic-construction form of the paper's refutation of the randomized k-server conjecture (the full Omega(log^2 k) needs the Section 4 compression, not part of this task). See tests/reference/concept-ledger.md."
+    }
+  ]
+}

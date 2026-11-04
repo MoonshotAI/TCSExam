@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-polar-scaling-exponent"
+version = "0.1.0"
+description = "Prove or refute the threshold form of the polar-code scaling-exponent conjecture (Arikan 2009; conjectured universal mu = 3.627 by Korada-Montanari-Telatar-Urbanke 2010 / Mondelli-Hassani-Urbanke 2016; proved interval 3.579 to 4.63) in Lean 4 (machine-verified). The exponent is stated in the Bhattacharyya-process rate form (eq. (34) of Mondelli-Hassani-Urbanke 2016): P(Z_n <= pe*2^(-n)) >= I(W) - c*2^(-n/nu) for all n >= 1. Threshold 4.0 lies strictly inside the proved interval: conj = universal scaling exponent at most 4, refuted = some BMS channel needs an exponent of at least 4. Open problem: no ground truth; the Lean kernel is the judge. Proving either main statement (conj or refuted) scores 1.0; there is no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "information-theory", "polar-codes", "scaling-exponent", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-polar-scaling-exponent"
+candidate_id = "cand-polar-scaling-exponent"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open conjecture (universal scaling exponent of polar codes over BMS channels; proved interval 3.579 to 4.63, conjectured 3.627). Full score needs a kernel-verified proof of one of the two main statements (conj or refuted); there are no checkpoints and no partial credit."
+source_paper = "E. Arikan, IEEE Trans. Inf. Theory 55(7), 2009 (polar codes); S. B. Korada, A. Montanari, E. Telatar, R. Urbanke, ISIT 2010 (empirical scaling law, mu = 3.627 for the BEC); S. H. Hassani, K. Alishahi, R. Urbanke, IEEE Trans. Inf. Theory 2014, arXiv:1304.4778 (universal bounds 3.579 and 6, lower-bound conjecture 3.627); M. Mondelli, S. H. Hassani, R. Urbanke, IEEE Trans. Inf. Theory 2016, arXiv:1501.02444 (universal conjecture, upper bound 4.714, BEC 3.639); H.-P. Wang, T.-C. Lin, A. Vardy, R. Gabrys 2022, arXiv:2204.11683 (upper bound 4.63)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-polar-scaling-exponent-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

@@ -1,0 +1,13 @@
+{
+  "cpus": 1,
+  "memory_mb": 16384,
+  "seconds": 900,
+  "check_seconds": 900,
+  "module_dir": "/opt/qbf",
+  "instances_dir": "/opt/qbf-judge300",
+  "pool": false,
+  "base": "solver-qbf-qbfeval-judge-os-v1",
+  "task": "qbf-qbfeval",
+  "build_seconds": 600,
+  "disk_mb": 8192
+}

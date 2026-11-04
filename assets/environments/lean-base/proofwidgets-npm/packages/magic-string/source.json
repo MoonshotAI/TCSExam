@@ -1,0 +1,47 @@
+{
+  "author": "Rich Harris",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "@jridgewell/sourcemap-codec": "^1.5.5"
+    },
+    "dev": true,
+    "integrity": "sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz",
+    "version": "0.30.21"
+  },
+  "lock_path": "node_modules/magic-string",
+  "name": "magic-string",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1051,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "1cbe51b907662f6cb1492b16c359384a595180bf0e4d101603ed525e75c4e484",
+      "text_file": "image-notices/1cbe51b907662f6cb1492b16c359384a595180bf0e4d101603ed525e75c4e484.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 89981,
+    "installed_in_image": false,
+    "integrity": "sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "fa49762567dca44e8ccf327f365d250e04c482bf7a4ed0ae7d03659b09ac656f"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.30.21"
+}

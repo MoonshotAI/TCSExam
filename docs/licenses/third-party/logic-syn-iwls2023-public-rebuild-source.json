@@ -1,0 +1,11 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "logic-syn-iwls2023",
+  "repository": "https://github.com/alanminko/iwls2023-ls-contest",
+  "commit": "7dbfd510e2597cd07fdebcff91b5ac262d63c3f7",
+  "scope": "Exactly 100 hidden truth-table inputs with saved permutations and input/output negations. Only benchmarks/*.truth downloaded; no circuits, submissions, scores or answers.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "license_notice": "docs/licenses/third-party/IWLS2023-MIT.txt",
+  "terms": "Existing public-development distribution approval is not extended. This source rebuild grants no new image-publication approval."
+}

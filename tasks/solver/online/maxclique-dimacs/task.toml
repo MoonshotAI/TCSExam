@@ -1,0 +1,46 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/maxclique-dimacs"
+version = "1.0.0"
+description = "Optimize a maximum clique solver (DIMACS benchmark instances; form2: 56 public practice instances + 24 hidden structure-preserved instances, final-once judging): maximize clique size, scored once by the post-run judging on the hidden set against an anytime MaxCliqueDyn baseline and literature best-known clique sizes, under a 180 s per-instance wall-clock limit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "maximum-clique", "dimacs", "graph-algorithms", "exact-methods", "type-2-solver"]
+
+[metadata]
+family_id = "fam-maxclique"
+candidate_id = "cand-maxclique-dimacs-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "Maximum clique is NP-hard to approximate within n^(1-eps) (Hastad/Zuckerman). The shipped baseline is the MaxCliqueDyn exact branch-and-bound (Konc & Janezic 2007) capped by a fixed node budget: it proves optima on small instances within seconds but leaves a wide gap on the dense mid/large DIMACS graphs (C-family, gen, keller, MANN, brock800). Closing that gap within a 180 s per-instance limit needs real machinery — strong heuristic local search (tabu / breakout / iterated), better coloring bounds, or portfolio strategies — and the continuous score rewards every extra vertex of clique size; the literature best-known anchors come from hours-long runs of state-of-the-art heuristics."
+
+[verifier]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 3600.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+
+[environment.env]
+TCSEXAM_TOKEN_ID = "${TCSEXAM_TOKEN_ID}"
+TCSEXAM_TOKEN_SECRET = "${TCSEXAM_TOKEN_SECRET}"
+TCSEXAM_BASE_URL = "${TCSEXAM_BASE_URL}"
+CLAUDE_CODE_EFFORT_LEVEL = "${CLAUDE_CODE_EFFORT_LEVEL}"
+CLAUDE_CODE_MAX_OUTPUT_TOKENS = "${CLAUDE_CODE_MAX_OUTPUT_TOKENS}"
+CLAUDE_CODE_AUTO_COMPACT_WINDOW = "${CLAUDE_CODE_AUTO_COMPACT_WINDOW}"
+CLAUDE_CODE_MAX_CONTEXT_TOKENS = "${CLAUDE_CODE_MAX_CONTEXT_TOKENS}"
+CLAUDE_CODE_MAX_RETRIES = "${CLAUDE_CODE_MAX_RETRIES}"
+CLAUDE_CODE_RETRY_WATCHDOG = "${CLAUDE_CODE_RETRY_WATCHDOG}"
+API_TIMEOUT_MS = "${API_TIMEOUT_MS}"

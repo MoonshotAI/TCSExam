@@ -1,0 +1,92 @@
+{
+  "checked": "2026-10-30",
+  "scope": "Fixed explicit input-only archives and local scratch-image verification; no new public distribution grant.",
+  "archive_products": [
+    {
+      "id": "solver-maxclique-dimacs-judging-data",
+      "recipe": "assets/data/solver/archive-import/solver-maxclique-dimacs-judging-data-recipe.json",
+      "source": {
+        "id": "solver-maxclique-dimacs-judging-data-fixed-archive",
+        "url": null,
+        "bytes": 8700777,
+        "sha256": "1a6112c8d4b1bbece90a09920b9a5287ffedddb5ed508625e348f346376f10ca"
+      },
+      "data_split": "hidden"
+    },
+    {
+      "id": "solver-maxsat-mse-judging-data",
+      "recipe": "assets/data/solver/archive-import/solver-maxsat-mse-judging-data-recipe.json",
+      "source": {
+        "id": "solver-maxsat-mse-judging-data-fixed-archive",
+        "url": null,
+        "bytes": 109677474,
+        "sha256": "a7ab00efc8d2bab922b914ac1613c0d6c7a9d7d51bc253255ed53a96b92e1e44"
+      },
+      "data_split": "hidden",
+      "historical_content_version": "canonical98-pre-original211",
+      "current_product_record": "docs/licenses/third-party/maxsat-mse-original211-source.json",
+      "scope_note": "Historical canonical98 archive and validation only. The current same-named product is original211; do not use this historical archive as its input. Current fixed_archive recipe uses its own8.3GB declaration."
+    },
+    {
+      "id": "solver-radiation-mznchallenge-judging-data",
+      "recipe": "assets/data/solver/archive-import/solver-radiation-mznchallenge-judging-data-recipe.json",
+      "source": {
+        "id": "solver-radiation-mznchallenge-judging-data-fixed-archive",
+        "url": null,
+        "bytes": 11622,
+        "sha256": "c570c18f151e2f39b3303de2fa0df435c0316b776da48380805db9452eda19a1"
+      },
+      "data_split": "hidden",
+      "current_provenance": "docs/licenses/third-party/radiation-mznchallenge-judging-source.json"
+    },
+    {
+      "id": "solver-maxclique-dimacs-development-data",
+      "recipe": "assets/data/solver/archive-import/solver-maxclique-dimacs-development-data-recipe.json",
+      "source": {
+        "id": "solver-maxclique-dimacs-development-data-fixed-archive",
+        "url": null,
+        "bytes": 33178035,
+        "sha256": "4fefe032d7eb6b71b17964cb191a40f9cf726b43777007c14e23659f4ecc8fb9"
+      },
+      "data_split": "public"
+    },
+    {
+      "id": "qbf-judging",
+      "recipe": "assets/data/solver/archive-import/qbf-judging-recipe.json",
+      "source": {
+        "id": "qbf-judging-fixed-archive",
+        "url": null,
+        "bytes": 137460021,
+        "sha256": "64016f7e029f4c46d84e70b19c30915177b532de5f467aee4a324185df816378"
+      },
+      "data_split": "hidden"
+    }
+  ],
+  "source_reconstruction_results": [
+    {
+      "id": "qbf-judging",
+      "status": "passed",
+      "result": {
+        "files": 57,
+        "bytes": 137437580
+      },
+      "scope": "Only after finite frozen sample diagnosis identified a byte-exact repair: full affected hidden product rebuilt from explicit same fixed official archive, original terminal input identity and compression restored; no accepted public product repeated. Native production command adapter; Docker adapter not exercised.",
+      "docker_adapter_exercised": false
+    },
+    {
+      "id": "solver-maxsat-mse-judging-data",
+      "status": "passed",
+      "result": {
+        "files": 98,
+        "bytes": 109631880
+      },
+      "scope": "Only after finite frozen sample diagnosis identified a byte-exact repair: full affected hidden product rebuilt from explicit same fixed official archive, original terminal input identity and compression restored; no accepted public product repeated. Native production command adapter; Docker adapter not exercised.",
+      "docker_adapter_exercised": false,
+      "historical_content_version": "canonical98-pre-original211",
+      "current_product_record": "docs/licenses/third-party/maxsat-mse-original211-source.json",
+      "scope_note": "Historical canonical98 archive and validation only. The current same-named product is original211; do not use this historical archive as its input. Current fixed_archive recipe uses its own8.3GB declaration."
+    }
+  ],
+  "new_distribution_authorization": false,
+  "public_pin": null
+}

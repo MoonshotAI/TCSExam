@@ -1,0 +1,154 @@
+#!/usr/bin/env python3
+"""make_split.py — one-time, frozen form2 public/hidden split generator for gp-dimacs10.
+
+Rule (general rules in form2-conversion-recipes.md): 70% public practice / 30% hidden judging,
+using stratified sampling by family × size instead of pure random sampling. Once merged, the split is frozen and is not adjusted based on experimental results.
+
+Family definition (set by the 260920 redesign because this task has no family field in reference): group by instance-name prefix—
+A prefix (leading letters in the name) that appears at least 3 times in the full set is its own family; prefixes with fewer than 3 members
+are merged into misc. Divide size into three buckets by vertex count n (parse n at run time from the tests/instances
+METIS header, reading .graph.bz2 directly):
+  S: n < 20,000；M: 20,000 <= n < 100,000；L: n >= 100,000。
+Fix the full hidden count at 13 (30 public): start each bucket quota at floor(0.3 × bucket size), then use the largest-remainder method
+adding remaining items by descending remainder (ties broken by bucket ID in lexicographic order). Within each bucket, allocate quotas to family × size cells by the largest-remainder method
+(ties broken by family name in lexicographic order), then use a fixed-seed shuffle within each cell to choose the quota. A singleton family cell
+may have no hidden representative if its remainder is too small. The hidden set is a 30% sample; every family does not need to appear.
+The 3 practice graphs in the environment (suffixes -p01/-p02/-p03, not scored) are not part of the scored set
+and are excluded from this split.
+
+Determinism: all randomness comes from per-cell seeds derived from MASTER_SEED_TAG (sha256), so rerunning the script
+at any time produces the same split.json.
+
+Usage: python3 make_split.py (run from tests/; writes split.json and prints
+stratification table, which is copied unchanged into PROVENANCE.md)
+"""
+import bz2
+import hashlib
+import json
+import os
+import random
+import re
+from collections import Counter, defaultdict
+
+MASTER_SEED_TAG = "tcshard-form2-split-260920:gp-dimacs10"
+N_HIDDEN_TOTAL = 13
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+
+def bucket_of(n):
+    if n < 20000:
+        return "S"
+    if n < 100000:
+        return "M"
+    return "L"
+
+
+def prefix_of(name):
+    m = re.match(r"([a-zA-Z]+)", name)
+    return m.group(1) if m else name
+
+
+def cell_seed(*parts):
+    h = hashlib.sha256(":".join([MASTER_SEED_TAG, *parts]).encode())
+    return int.from_bytes(h.digest()[:8], "big")
+
+
+def largest_remainder(quota, cells):
+    """cells: {key: size}; return {key: hidden quota}, with the sum equal to quota.
+    Start with floor(0.3*size); allocate remaining items to larger remainders first, breaking ties by key in lexicographic order."""
+    exact = {k: 0.3 * v for k, v in cells.items()}
+    alloc = {k: int(x) for k, x in exact.items()}
+    remaining = quota - sum(alloc.values())
+    assert 0 <= remaining <= len(cells), (quota, cells)
+    order = sorted(cells, key=lambda k: (-(exact[k] - alloc[k]), k))
+    for k in order[:remaining]:
+        alloc[k] += 1
+    assert sum(alloc.values()) == quota
+    return alloc
+
+
+def read_n(path):
+    with bz2.open(path, "rt") as f:
+        for line in f:
+            s = line.strip()
+            if not s or s.startswith("%"):
+                continue
+            return int(s.split()[0])
+    raise ValueError(f"{path}: empty")
+
+
+def main():
+    with open(os.path.join(HERE, "reference.json")) as f:
+        ref = json.load(f)["instances"]
+    sizes = {}
+    for name in ref:
+        sizes[name] = read_n(os.path.join(HERE, "instances", name + ".bz2"))
+
+    prefix_counts = Counter(prefix_of(n) for n in ref)
+    def family_of(name):
+        p = prefix_of(name)
+        return p if prefix_counts[p] >= 3 else "misc"
+
+    by_bucket = defaultdict(dict)
+    for name in ref:
+        by_bucket[bucket_of(sizes[name])][name] = ref[name]
+
+    bucket_sizes = {b: len(names) for b, names in sorted(by_bucket.items())}
+    bucket_quota = largest_remainder(N_HIDDEN_TOTAL, bucket_sizes)
+
+    split = {}
+    table_rows = []
+    for b in sorted(by_bucket):
+        names = by_bucket[b]
+        fam_cells = defaultdict(list)
+        for name in names:
+            fam_cells[family_of(name)].append(name)
+        cell_quota = largest_remainder(
+            bucket_quota[b], {f: len(v) for f, v in sorted(fam_cells.items())})
+        for fam in sorted(fam_cells):
+            cell = sorted(fam_cells[fam])
+            q = cell_quota[fam]
+            rng = random.Random(cell_seed(b, fam))
+            shuffled = cell[:]
+            rng.shuffle(shuffled)
+            hidden = sorted(shuffled[:q])
+            public = sorted(shuffled[q:])
+            for n in hidden:
+                split[n] = "hidden"
+            for n in public:
+                split[n] = "public"
+            table_rows.append((b, fam, len(cell), len(public), len(hidden)))
+
+    assert len(split) == len(ref) == 43
+    n_hidden = sum(1 for v in split.values() if v == "hidden")
+    n_public = sum(1 for v in split.values() if v == "public")
+    assert (n_public, n_hidden) == (30, 13), (n_public, n_hidden)
+
+    out = {
+        "master_seed_tag": MASTER_SEED_TAG,
+        "rule": ("70/30 stratified by family x size bucket (family = name-prefix "
+                 "group, prefixes with <3 members merged into misc; S: n<2e4, "
+                 "M: 2e4<=n<1e5, L: n>=1e5, n parsed from the METIS header); "
+                 "per-bucket hidden quota by largest remainder (bucket id "
+                 "breaks ties), per family x bucket cell quota by largest "
+                 "remainder (family name breaks ties), in-cell seeded shuffle; "
+                 "generator tests/make_split.py"),
+        "counts": {"public": n_public, "hidden": n_hidden},
+        "instances": dict(sorted(split.items())),
+    }
+    with open(os.path.join(HERE, "split.json"), "w") as f:
+        json.dump(out, f, indent=1, sort_keys=True)
+        f.write("\n")
+
+    print("| Size bucket | Family | Cell size | Public | Hidden |")
+    print("|---|---|---|---|---|")
+    for b, fam, size, npub, nhid in table_rows:
+        print(f"| {b} | {fam} | {size} | {npub} | {nhid} |")
+    tot = Counter()
+    for b, fam, size, npub, nhid in table_rows:
+        tot[b] += nhid
+    print("bucket hidden:", dict(tot), "total:", sum(tot.values()))
+
+
+if __name__ == "__main__":
+    main()

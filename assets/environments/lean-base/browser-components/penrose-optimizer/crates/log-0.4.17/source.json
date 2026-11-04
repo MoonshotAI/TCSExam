@@ -1,0 +1,34 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "The Rust Project Developers"
+  ],
+  "bytes": 38028,
+  "checksum_sha256": "abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "MIT OR Apache-2.0",
+  "name": "log",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 11048,
+      "installed_file": "notices/original/LICENSE-APACHE",
+      "path": "log-0.4.17/LICENSE-APACHE",
+      "sha256": "7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c",
+      "text_file": "image-notices/7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c.txt"
+    },
+    {
+      "bytes": 1096,
+      "installed_file": "notices/original/LICENSE-MIT",
+      "path": "log-0.4.17/LICENSE-MIT",
+      "sha256": "705aaaaecefa087c187bd2eacdb01b8ac1c5ee95b1d5d04d8d7efe0363207df8",
+      "text_file": "image-notices/705aaaaecefa087c187bd2eacdb01b8ac1c5ee95b1d5d04d8d7efe0363207df8.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/log/log-0.4.17.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "0.4.17"
+}

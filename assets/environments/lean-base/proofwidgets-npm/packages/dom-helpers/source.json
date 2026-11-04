@@ -1,0 +1,49 @@
+{
+  "author": {
+    "email": "monastic.panic@gmail.com",
+    "name": "Jason Quense"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "@babel/runtime": "^7.1.2"
+    },
+    "integrity": "sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/dom-helpers/-/dom-helpers-3.4.0.tgz",
+    "version": "3.4.0"
+  },
+  "lock_path": "node_modules/dom-helpers",
+  "name": "dom-helpers",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1078,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "1b0a9ba95a67bc484e028b13c61b83fc5aa1ca7957d1e2d43c2b0f70d9e9dd45",
+      "text_file": "image-notices/1b0a9ba95a67bc484e028b13c61b83fc5aa1ca7957d1e2d43c2b0f70d9e9dd45.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 11971,
+    "installed_in_image": false,
+    "integrity": "sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/dom-helpers/-/dom-helpers-3.4.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "a790c3a98f82b49764f22a77cf882bbba96c11cd6443bb0e8757745dcf4d6a1a"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.4.0"
+}

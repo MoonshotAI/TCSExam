@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/qap-qaplib"
+version = "1.0.0"
+description = "Optimize a quadratic assignment problem solver (95 public practice instances from a public QAP benchmark library; final judging once on 41 hidden instances): minimize the flow-by-distance cost under one shared time pool — scored against a naive restart + 2-opt baseline and registered best-known values."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "quadratic-assignment-problem", "qaplib", "local-search", "type-2-solver"]
+
+[metadata]
+family_id = "fam-qap"
+candidate_id = "cand-qap-qaplib-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "Beating random-restart 2-opt is easy (better local search, restarts tuned to the time pool), but closing the gap to QAPLIB best-known values needs real metaheuristics: robust tabu search or simulated annealing with diversification, well-tuned per instance size; the continuous score rewards every unit of cost shaved off."
+
+[verifier]
+timeout_sec = 1209600.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+
+
+[verifier.environment]
+network_mode = "no-network"
+build_timeout_sec = 3600.0

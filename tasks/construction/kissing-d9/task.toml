@@ -1,0 +1,36 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/kissing-d9-lean-open"
+version = "1.0.0"
+description = "Certify in Lean 4 a kissing configuration in dimension 9: a list of nonzero integer vectors in Z^9 with max ||x||^2 <= min pairwise ||x-y||^2 (a machine-checked kissing-number lower bound; published record 306, Leech-Sloane 1971; 307+ is a literature-level new result)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["construction", "kissing-number", "sphere-packing", "lean4", "machine-checked", "open-problem"]
+
+[metadata]
+family_id = "fam-kissing-d9"
+candidate_id = "cand-kissing-d9-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open"
+difficulty_explanation = "Prove existence of a valid integer kissing configuration in Lean 4 with only a computable max-norm/min-distance predicate given; the agent chooses n and the construction. The published record (306) can be tied and in principle broken (307 is a literature-level new result that has resisted ~55 years of constructions)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-construction-kissing-d9-verifier"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

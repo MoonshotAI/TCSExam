@@ -1,0 +1,10 @@
+{
+  "task": "tcsexam/open-omega-2",
+  "namespace": "MatMulOmega",
+  "main_slots": [
+    "conj",
+    "refuted"
+  ],
+  "weight_note": "prove-or-refute v1 (mains-only): a clean proof of `conj` (the conjecture) or of `refuted` (its negation) scores 1.0; there is no partial credit — this is an open problem. Both slots are mandatory and must stay in the reference order (conj, refuted). Slot statements use the tensor-rank formulation of the exponent: omega = inf { tau : R(<n,n,n>) = O(n^tau) } over the rationals, where <m,n,p> is the matrix multiplication tensor (third leg in the Tr(ABC) convention); the definition layer lives in the MatMulOmega namespace (see environment/app/Task/Basic.lean header and tests/reference/concept-ledger.md).",
+  "checkpoints": []
+}

@@ -1,0 +1,104 @@
+cmake_minimum_required(VERSION 3.10)
+
+set(VCPKG_ROOT ${CMAKE_SOURCE_DIR}/vcpkg)
+set(CMAKE_TOOLCHAIN_FILE ${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake)
+set(VCPKG_INSTALLED_DIR "${CMAKE_BINARY_DIR}/vcpkg_installed")
+set(VCPKG_INSTALL_OPTIONS "--x-abi-tools-use-exact-versions;--downloads-root=${CMAKE_BINARY_DIR}/vcpkg_downloads;--x-buildtrees-root=${CMAKE_BINARY_DIR}/vcpkg_buildtrees;--x-packages-root=${CMAKE_BINARY_DIR}/vcpkg_packages")
+set(VCPKG_INCLUDE_DIR ${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/include)
+set(VCPKG_OVERLAY_PORTS ${CMAKE_SOURCE_DIR}/vcpkg-overlays)
+set(VCPKG_OVERLAY_TRIPLETS ${CMAKE_SOURCE_DIR}/vcpkg-overlays)
+
+project(cpp)
+
+option(ENABLE_SANITIZERS "Enable Clang's sanitizer options" OFF)
+
+set(CMAKE_INSTALL_PREFIX "..")
+
+# See:  https://github.com/emscripten-core/emscripten/blob/main/src/settings.js
+set(EM_CPP_FLAGS 
+    "-msimd128"
+
+    "-sSTRICT=1"
+)
+
+set(EM_LINK_FLAGS 
+    "--no-entry"
+    "-lembind"
+
+    "-sSTRICT=1"
+    # "-sIGNORE_MISSING_MAIN=0"
+    # "-sAUTO_JS_LIBRARIES=0"
+    # "-sAUTO_NATIVE_LIBRARIES=0"
+    # "-sDEFAULT_TO_CXX=0"
+    # "-sUSE_GLFW=0"
+    # "-sALLOW_UNIMPLEMENTED_SYSCALLS=0"
+    # "-sINCOMING_MODULE_JS_API=\"[]\""
+    "-sASSERTIONS=0"
+    "-sINVOKE_RUN=0"
+    "-sALLOW_MEMORY_GROWTH=1"
+    # "-sWASM=1"
+    "-sENVIRONMENT=webview"
+    "-sFILESYSTEM=0"
+    # "-sMINIMAL_RUNTIME=1"
+    "-sMODULARIZE=1" 
+    "-sEXPORT_ES6=1"
+    # "-sIGNORE_CLOSURE_COMPILER_ERRORS=0"
+    # "-sSTANDALONE_WASM=0"
+    # "-sBINARYEN_ASYNC_COMPILATION=1"
+    "-sDYNAMIC_EXECUTION=0"
+    "-sWASM_BIGINT=0"
+    "-sPOLYFILL=0"
+    # "-sSTRICT=0"
+    # "-sAUTO_ARCHIVE_INDEXES=0"
+    "-sINCOMING_MODULE_JS_API=\"['wasmBinary']\""
+    "-sEXPORTED_FUNCTIONS=\"['_free', '_malloc']\""
+    "-sEXPORTED_RUNTIME_METHODS=\"['UTF8ToString', 'lengthBytesUTF8', 'stringToUTF8', 'HEAPU8']\""
+    "-lembind"
+    "--pre-js ${CMAKE_CURRENT_SOURCE_DIR}/src-cpp/src/pre.js"
+    "--post-js ${CMAKE_CURRENT_SOURCE_DIR}/src-cpp/src/post.js"
+)
+
+if (CMAKE_BUILD_TYPE STREQUAL "Debug" OR CMAKE_BUILD_TYPE STREQUAL "RelWithDebInfo")
+    set(EM_LINK_FLAGS 
+        ${EM_LINK_FLAGS}
+        "-gsource-map"
+        "--source-map-base ./"  #  Debugging c++ only works in browser with "Experimental DWARF support turned on"
+    )
+
+    if (ENABLE_SANITIZERS)
+        set(EM_CPP_FLAGS 
+            ${EM_CPP_FLAGS}
+            "-fsanitize=address"
+        )
+
+        set(EM_LINK_FLAGS 
+            ${EM_LINK_FLAGS}
+            "-fsanitize=address"
+            "-sENVIRONMENT=web,node"
+        )
+    endif ()
+else ()
+    set(EM_CPP_FLAGS 
+        "-flto"
+        ${EM_CPP_FLAGS}
+    )
+    set(EM_LINK_FLAGS 
+        "-flto"
+        ${EM_LINK_FLAGS}
+    )
+endif ()
+
+set(EMSDK_DIR "${CMAKE_SOURCE_DIR}/emsdk")
+set(EXPAT_DIR "${CMAKE_SOURCE_DIR}/src-expat/expat")
+set(GRAPHVIZ_DIR "${CMAKE_SOURCE_DIR}/third-party/graphviz")
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+set(PACK_MODE "")
+if (CMAKE_BUILD_TYPE STREQUAL "Debug")
+    set(PACK_MODE "-d")
+endif ()
+
+add_subdirectory(packages)

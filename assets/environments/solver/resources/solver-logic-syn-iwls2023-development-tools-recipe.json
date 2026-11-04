@@ -1,0 +1,15 @@
+{
+  "description": "Download the fixed official ABC source and apply the declared source selection. Normalize archive ownership to numeric zero and empty names; verify every declared archive hash without changing extracted source content, paths or modes.",
+  "source": {
+    "id": "abc-c6e8823c-tar-gz",
+    "url": "https://codeload.github.com/berkeley-abc/abc/tar.gz/c6e8823c0b9f0c7c469a7538dc2a75b39da17cc4",
+    "bytes": 7770711,
+    "sha256": "6384413f06b6eae900c9d05b48ee55b7107ef27f4eaea7c6096ed19956620010"
+  },
+  "archive_format": "tar.gz",
+  "generator_paths": [
+    "src/tcsexam/logic_syn.py"
+  ],
+  "transform": "assets/environments/solver/resources/logic-syn-iwls2023-abc-transform.json",
+  "transform_sha256": "c8f2120024d6c2525e5266fe4e61264dbcaf5be750c1a5a3ac933a0115b8a60c"
+}

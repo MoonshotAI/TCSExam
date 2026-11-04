@@ -1,0 +1,14 @@
+{
+  "id": "maxsat-mse-canonical98-261030",
+  "content_version": "canonical98-261030-v1",
+  "description": "Historical98 canonical original inputs. This version is distinct from the adopted transformed211 judging data and must not be used as its complete hidden split.",
+  "files": 98,
+  "files_manifest": "assets/data/solver/history/maxsat-mse-canonical98-261030/files.json",
+  "manifest_sha256": "6b05630fc35b918aaf60c2c2c60661b0eb1777aecd81fcac34bf5abaa6ad5f89",
+  "recipe": "assets/data/solver/history/maxsat-mse-canonical98-261030/recipe.json",
+  "recipe_sha256": "3d745fbb617bfa45bb86cd3c50ac0c13d95989ab08e339169e73e3c4a24367f1",
+  "fixed_archive_recipe": "assets/data/solver/history/maxsat-mse-canonical98-261030/fixed-archive-recipe.json",
+  "product_record": "assets/data/solver/history/maxsat-mse-canonical98-261030/product-record.json",
+  "historical_only": true,
+  "preserve_original_artifacts": true
+}

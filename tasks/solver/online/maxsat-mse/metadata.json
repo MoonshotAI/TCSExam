@@ -1,0 +1,53 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260923",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/maxsat-mse/PROVENANCE.md §B/K derivation: minimum across three official MSE result tables (83 keys are proven-optimum entries; the rest are listed best-known values).",
+   "tier": "competition-record"
+  }
+ },
+ "family": "weighted-maxsat",
+ "id": "maxsat-mse",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-maxsat-mse-judge-v12"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": null,
+  "n_hidden": 200,
+  "n_public": 11,
+  "per_instance_seconds": 300,
+  "shard_cores": 1,
+  "shard_mem_gb": 32,
+  "shards": 10,
+  "shipped_judged": 11
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "MaxSAT Evaluation",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "variable renumbering"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "Total judged instances = 211 = n_hidden 200 + shipped_judged 11 (11 original public instances remain in the environment and are also judged; the judging side uses secret transformed versions, so an agent with the original instances cannot map its solutions). The judged set is the full official anytime-W set transformed by variable relabeling (not a self-selected 70/30 split; transformed-holdout is the closest enum value, see discrepancies). B anchors were remeasured and written back on 260923 (choice A in maxsat-b-remeasure-260922: 47 drifted keys were remeasured twice with judge-v10 under judging conditions; 23 keys with no baseline output in 285s remain B=K sentinels and are excluded; public argumentation instances decreased from 121 to 116)."
+ },
+ "subdomain": "sat-qbf",
+ "title": "Weighted MaxSAT"
+}

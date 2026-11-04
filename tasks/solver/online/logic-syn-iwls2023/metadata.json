@@ -1,0 +1,53 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260912",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/logic-syn-iwls2023/PROVENANCE.md: per-instance best-ever results from the 2022 and 2023 IWLS editions (anchors corrected to the official convention on 260917; the iwls2023 Google team submission was verified).",
+   "tier": "competition-record"
+  }
+ },
+ "family": "logic-synthesis",
+ "id": "logic-syn-iwls2023",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-logic-syn-iwls2023-judge-v6"
+ },
+ "judging": {
+  "budget_kind": "pool",
+  "form": "final-once",
+  "instance_cores": 4,
+  "limit_env": "LS_TIME_POOL",
+  "n_hidden": 100,
+  "n_public": 100,
+  "per_instance_seconds": 40,
+  "pool_seconds": 4000,
+  "shard_cores": 4,
+  "shard_mem_gb": 8,
+  "shards": 1
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "IWLS 2023",
+  "hidden_set": "official-private",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "NPN re-encoding"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "per_instance_seconds=40 follows the environment Dockerfile ENV and overrides the scoring.py default of 180. The shared-pool budget is 40x100=4000s, correcting the 18000/4000 drift incident. The 100 hidden instances are IWLS 2023 contest functions protected by NPN re-encoding."
+ },
+ "subdomain": "logic",
+ "title": "Logic synthesis"
+}

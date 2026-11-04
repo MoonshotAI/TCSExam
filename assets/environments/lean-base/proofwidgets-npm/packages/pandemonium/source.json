@@ -1,0 +1,49 @@
+{
+  "author": {
+    "name": "Guillaume Plique",
+    "url": "http://github.com/Yomguithereal"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "mnemonist": "^0.39.2"
+    },
+    "integrity": "sha512-wRqjisUyiUfXowgm7MFH2rwJzKIr20rca5FsHXCMNm1W5YPP1hCtrZfgmQ62kP7OZ7Xt+cR858aB28lu5NX55g==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/pandemonium/-/pandemonium-2.4.1.tgz",
+    "version": "2.4.1"
+  },
+  "lock_path": "node_modules/pandemonium",
+  "name": "pandemonium",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1104,
+      "installed_file": "notices/original/package/LICENSE.txt",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.txt",
+      "sha256": "b63d4dcdfcb0aa516388263914aa2d758419db59284b674120cbe3148d9412dc",
+      "text_file": "image-notices/b63d4dcdfcb0aa516388263914aa2d758419db59284b674120cbe3148d9412dc.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 20459,
+    "installed_in_image": false,
+    "integrity": "sha512-wRqjisUyiUfXowgm7MFH2rwJzKIr20rca5FsHXCMNm1W5YPP1hCtrZfgmQ62kP7OZ7Xt+cR858aB28lu5NX55g==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/pandemonium/-/pandemonium-2.4.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "b7ebfad570ff7aa6f8f6535ac5142a7f0df2294829a7c8a87d6ef8c5e27dc618"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.4.1"
+}

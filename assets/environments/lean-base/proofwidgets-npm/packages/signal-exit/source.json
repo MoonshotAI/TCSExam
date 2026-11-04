@@ -1,0 +1,50 @@
+{
+  "author": "Ben Coe <ben@npmjs.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "ISC",
+  "lock_entry": {
+    "dev": true,
+    "engines": {
+      "node": ">=14"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/isaacs"
+    },
+    "integrity": "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==",
+    "license": "ISC",
+    "resolved": "https://registry.npmjs.org/signal-exit/-/signal-exit-4.1.0.tgz",
+    "version": "4.1.0"
+  },
+  "lock_path": "node_modules/signal-exit",
+  "name": "signal-exit",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 790,
+      "installed_file": "notices/original/package/LICENSE.txt",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.txt",
+      "sha256": "b173e19b9a78df305577ace0e52ef45a4bcc915ea28b47b256dc3b68dcb1f7e7",
+      "text_file": "image-notices/b173e19b9a78df305577ace0e52ef45a4bcc915ea28b47b256dc3b68dcb1f7e7.txt"
+    }
+  ],
+  "package_license": "ISC",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 13369,
+    "installed_in_image": false,
+    "integrity": "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/signal-exit/-/signal-exit-4.1.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "9d3b58a811ecf6a641537387289274cd14f5bb912a27e4f1f2a74182bca8b795"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.1.0"
+}

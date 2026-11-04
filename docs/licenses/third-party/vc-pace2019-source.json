@@ -1,0 +1,90 @@
+{
+  "task_id": "vc-pace2019",
+  "checked_at": "2026-10-29",
+  "status": "official_source_reconstruction_and_runtime_acceptance_completed",
+  "decision_scope": "Source and license evidence for the 100 odd-numbered PACE 2019 Exact Track public development instances and the fixed solver-vc-pace2019-development-data product. Even-numbered instances, hidden judging data, solution/precomputed answers, the verifier, backends, complete development images and historical layers are outside this record.",
+  "public_development_data": {
+    "upstream": {
+      "benchmark_page": "https://pacechallenge.org/2019/vc/vc_exact",
+      "version": "pace2019-vc-exact-public-v2.tar.bz2, updated March 05, 2019",
+      "archive_url": "https://pacechallenge.org/files/pace2019-vc-exact-public-v2.tar.bz2",
+      "archive_bytes": 10695845,
+      "archive_sha256": "c78177cb5b2f7468bc652bd6e082f002495b26ba220bdc8eee9993ac6ff834c6",
+      "archive_sha1": "e7ca305528a0257235a95c41742f2b3431e1e485",
+      "archive_members": "public/vc-exact_NNN.gr for NNN=001,003,...,199; exactly 100 regular files",
+      "official_per_file_sha1_listing": "https://pacechallenge.org/files/pace2019-vc-exact-public-shasums-v2.txt",
+      "per_file_sha1_matches": 100
+    },
+    "second_source": {
+      "record": "https://zenodo.org/records/3368306",
+      "doi": "10.5281/zenodo.3368306",
+      "metadata_url": "https://zenodo.org/api/records/3368306",
+      "datacite_metadata_url": "https://api.datacite.org/dois/10.5281/zenodo.3368306",
+      "title": "PACE2019: Track 1 - Vertex Cover Instances",
+      "publication_date": "2019-07-29",
+      "authors": [
+        "M. Ayaz Dzulfikar",
+        "Johannes K. Fichte",
+        "Markus Hecher"
+      ],
+      "archive_url": "https://zenodo.org/api/records/3368306/files/pace2019_track1_vc_exact_all.zip/content",
+      "archive_bytes": 17816798,
+      "archive_sha256": "b6eef6c2ce1640309659e9d6fd32be5dc4c0e7812a7ccac8c8d1edda21bb71fe",
+      "official_md5": "33e9a2b7a064dce16ed1c5d1718a97ba",
+      "public_odd_plain_files_byte_identical_to_public_v2": 100,
+      "even_numbered_instances_in_scope": false
+    },
+    "license": {
+      "spdx": "CC-BY-4.0",
+      "metadata_basis": "The fixed Zenodo dataset metadata declares cc-by-4.0; the DataCite DOI metadata independently names Creative Commons Attribution 4.0 International and its canonical license URI.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "legal_code_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "warranty_and_liability_url": "https://creativecommons.org/licenses/by/4.0/legalcode#s5",
+      "local_copy": "docs/licenses/CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "notice_file": "docs/licenses/third-party/PACE2019-VC-NOTICE.txt",
+      "notice_bytes": 2730,
+      "notice_sha256": "c02b5c550d669decf2712bc390a358f00aa1ca182b7eb67f1d830176c30a7f62",
+      "data_image_notice_path": "/licenses/PACE2019-VC-NOTICE.txt",
+      "data_image_license_path": "/licenses/CC-BY-4.0.txt",
+      "requirements": "Retain the three authors, dataset title, DOI, official source links, license and disclaimer links, complete license text, and the modification statement. Do not imply author endorsement or impose additional restrictions on the upstream license."
+    },
+    "original_graph_provenance": {
+      "report": "https://doi.org/10.4230/LIPIcs.IPEC.2019.25",
+      "families": [
+        "PACE 2016/Treewidth",
+        "TransitGraphs",
+        "Road-graphs",
+        "SNAP",
+        "frb",
+        "ASP Horn backdoors",
+        "SAT Horn backdoors",
+        "SAT2VC"
+      ],
+      "attribution_and_conversion_notes_retained": true,
+      "independent_per_family_license_review_completed": false,
+      "scope": "The fixed Zenodo dataset authors' CC BY 4.0 declaration is the recorded basis for this fixed public data product. The family names and report link are retained; this record does not relicense other graph collections or other subsets."
+    },
+    "transform": {
+      "mapping": "public/vc-exact_NNN.gr -> app/instances/vc-exact_NNN.xz for NNN=001,003,...,199",
+      "plaintext_changed": false,
+      "output_mode": "0644",
+      "xz_version": "5.2.5",
+      "liblzma_version": "5.2.5",
+      "xz_arguments": [
+        "--format=xz",
+        "--stdout",
+        "--check=crc64",
+        "-9"
+      ],
+      "multithreading_argument_used": false,
+      "byte_identity_requirement": "Every output must match the retained manifest path, bytes, SHA-256 and mode; decompressed output must match the official plaintext. Another compressor version or argument set is not accepted without a fresh full comparison."
+    },
+    "output_files": 100,
+    "output_bytes": 3899952,
+    "manifest": "assets/data/solver/solver-vc-pace2019-development-data-files.json",
+    "manifest_sha256": "69d2e5e44465137d02a1f09cf49584bcd54744197eb77cf9a1a3b1bf41a9ad9d",
+    "content_digest": "sha256:9726aa143e63cd36b73d76029ebaa670b865a06110e64bcd883783b4fa2be82f"
+  }
+}

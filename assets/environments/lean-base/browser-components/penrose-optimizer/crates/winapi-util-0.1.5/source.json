@@ -1,0 +1,34 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "Andrew Gallant <jamslam@gmail.com>"
+  ],
+  "bytes": 10164,
+  "checksum_sha256": "70ec6ce85bb158151cae5e5c87f95a8e97d2c0c4b001223f33a334e3ce5de178",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "Unlicense/MIT",
+  "name": "winapi-util",
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 126,
+      "installed_file": "notices/original/COPYING",
+      "path": "winapi-util-0.1.5/COPYING",
+      "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+      "text_file": "image-notices/01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f.txt"
+    },
+    {
+      "bytes": 1081,
+      "installed_file": "notices/original/LICENSE-MIT",
+      "path": "winapi-util-0.1.5/LICENSE-MIT",
+      "sha256": "cb3c929a05e6cbc9de9ab06a4c57eeb60ca8c724bef6c138c87d3a577e27aa14",
+      "text_file": "image-notices/cb3c929a05e6cbc9de9ab06a4c57eeb60ca8c724bef6c138c87d3a577e27aa14.txt"
+    }
+  ],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/winapi-util/winapi-util-0.1.5.crate",
+  "supplementary_project_notice": null,
+  "target_note": null,
+  "version": "0.1.5"
+}

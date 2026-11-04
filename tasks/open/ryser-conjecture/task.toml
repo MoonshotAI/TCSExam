@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-ryser-conjecture"
+version = "0.1.0"
+description = "Prove or refute Ryser's conjecture (Ryser c. 1970: every r-partite r-uniform hypergraph with r >= 2 has vertex cover number at most (r-1) times its matching number, tau(H) <= (r-1)*nu(H)) in Lean 4 (machine-verified). Open problem: no ground truth; the Lean kernel is the judge. Proving either main statement (conj or refuted) scores 1.0; there is no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "extremal-combinatorics", "hypergraph-theory", "packing-covering", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-ryser-conjecture"
+candidate_id = "cand-ryser-conjecture"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open conjecture (unresolved for all r >= 4; r = 2 is Koenig's theorem, r = 3 proved by Aharoni 2001 by topological methods). Full score needs a kernel-verified proof of one of the two main statements (conj or refuted); there are no checkpoints and no partial credit."
+source_paper = "DeBiasio-Kamel-McCourt-Sheats, Generalizations and strengthenings of Ryser's conjecture, Electronic Journal of Combinatorics 2021 (standard reference); openness evidence: DeBiasio-Girão-Haxell-Stein 2024, arXiv:2409.18250. Background survey: dig2-extremal-set-design.md (historical report not included in this package) (short name ryser-conjecture)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-ryser-conjecture-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

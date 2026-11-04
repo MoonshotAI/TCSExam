@@ -1,0 +1,676 @@
+{
+  "checked": "2026-10-29",
+  "scope": "Official source descriptors and license metadata for the pinned system package versions. These descriptors do not replace the full corresponding source required when distributing applicable binaries.",
+  "complete": true,
+  "source_version_count": 16,
+  "verified_source_descriptor_count": 16,
+  "missing_source_descriptor_count": 0,
+  "source_file_metadata_count": 36,
+  "official_source": "Ubuntu Launchpad primary archive +sourcefiles URLs, with HTTPS redirects to the official Launchpad librarian. No mirror was used to infer a version, license or checksum.",
+  "descriptor_verification": "Each signed .dsc was retrieved with HTTP 200 and retained byte-for-byte. Its local byte count and SHA-256 were computed, and its Source, Version, Package-List and Checksums-Sha256 fields were checked against this record. Source-file URLs and metadata come from those descriptors. OpenPGP signatures were not verified, and the full source archives were not downloaded or independently hashed.",
+  "openpgp_verified": false,
+  "full_source_archives_downloaded": false,
+  "missing": [],
+  "source_packages": [
+    {
+      "source_package": "brotli",
+      "source_version": "1.1.0-2ubuntu0.1",
+      "binary_packages": [
+        {
+          "package": "libbrotli1",
+          "version": "1.1.0-2ubuntu0.1",
+          "architecture": "amd64"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/brotli/1.1.0-2ubuntu0.1",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/brotli/1.1.0-2ubuntu0.1/brotli_1.1.0-2ubuntu0.1.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/882457640/brotli_1.1.0-2ubuntu0.1.dsc",
+      "dsc_sha256": "20d71900a6ed7f7edf6ef3b0084892510aae1b3b72ed7b99f38919f802c2a779",
+      "dsc_bytes": 2376,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "brotli_1.1.0.orig.tar.gz",
+          "bytes": 512036,
+          "sha256": "10973f4b4199eafa1d5735ef661ddb2ec2f97319ee9fd1824d4aabe08cff5265",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/brotli/1.1.0-2ubuntu0.1/brotli_1.1.0.orig.tar.gz"
+        },
+        {
+          "filename": "brotli_1.1.0-2ubuntu0.1.debian.tar.xz",
+          "bytes": 7892,
+          "sha256": "744230cae71f1ba9fbef6b897195393dca0f94641b286a3a183898fe6a77ef59",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/brotli/1.1.0-2ubuntu0.1/brotli_1.1.0-2ubuntu0.1.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/brotli__1.1.0-2ubuntu0.1.dsc"
+    },
+    {
+      "source_package": "bzip2",
+      "source_version": "1.0.8-5.1ubuntu0.1",
+      "binary_packages": [
+        {
+          "package": "bzip2",
+          "version": "1.0.8-5.1ubuntu0.1",
+          "architecture": "amd64"
+        },
+        {
+          "package": "libbz2-1.0",
+          "version": "1.0.8-5.1ubuntu0.1",
+          "architecture": "amd64"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/bzip2/1.0.8-5.1ubuntu0.1",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/bzip2/1.0.8-5.1ubuntu0.1/bzip2_1.0.8-5.1ubuntu0.1.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/874912725/bzip2_1.0.8-5.1ubuntu0.1.dsc",
+      "dsc_sha256": "87d782671790af480ab3c3b258885ad2c239e41772e0116ceda6446c493f9dd4",
+      "dsc_bytes": 1699,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "bzip2_1.0.8.orig.tar.gz",
+          "bytes": 810029,
+          "sha256": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/bzip2/1.0.8-5.1ubuntu0.1/bzip2_1.0.8.orig.tar.gz"
+        },
+        {
+          "filename": "bzip2_1.0.8-5.1ubuntu0.1.debian.tar.bz2",
+          "bytes": 27529,
+          "sha256": "77c61e0490ff7cf49aa8ffe62e117e85b3af08e14341c4b851f8d7ec757fe099",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/bzip2/1.0.8-5.1ubuntu0.1/bzip2_1.0.8-5.1ubuntu0.1.debian.tar.bz2"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/bzip2__1.0.8-5.1ubuntu0.1.dsc"
+    },
+    {
+      "source_package": "ca-certificates",
+      "source_version": "20260816ubuntu0.24.04.1",
+      "binary_packages": [
+        {
+          "package": "ca-certificates",
+          "version": "20260816ubuntu0.24.04.1",
+          "architecture": "all"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/ca-certificates/20260816ubuntu0.24.04.1",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/ca-certificates/20260816ubuntu0.24.04.1/ca-certificates_20260816ubuntu0.24.04.1.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/881832176/ca-certificates_20260816ubuntu0.24.04.1.dsc",
+      "dsc_sha256": "130f40a0d3fdade2dd533facf828afde6601bc50e74c82537ea4ae8dab007ad9",
+      "dsc_bytes": 1876,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "ca-certificates_20260816ubuntu0.24.04.1.tar.xz",
+          "bytes": 273380,
+          "sha256": "f592cceb98257d66ac320f853f35989ddb51914fbe52f91470cdb646f4a838ce",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/ca-certificates/20260816ubuntu0.24.04.1/ca-certificates_20260816ubuntu0.24.04.1.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/ca-certificates__20260816ubuntu0.24.04.1.dsc"
+    },
+    {
+      "source_package": "curl",
+      "source_version": "8.5.0-2ubuntu10.16",
+      "binary_packages": [
+        {
+          "package": "curl",
+          "version": "8.5.0-2ubuntu10.16",
+          "architecture": "amd64"
+        },
+        {
+          "package": "libcurl3t64-gnutls",
+          "version": "8.5.0-2ubuntu10.16",
+          "architecture": "amd64"
+        },
+        {
+          "package": "libcurl4t64",
+          "version": "8.5.0-2ubuntu10.16",
+          "architecture": "amd64"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/curl/8.5.0-2ubuntu10.16",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/curl/8.5.0-2ubuntu10.16/curl_8.5.0-2ubuntu10.16.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/880977467/curl_8.5.0-2ubuntu10.16.dsc",
+      "dsc_sha256": "ff4ae5226e471829f638b94b1b8bb74bb2f7e57ca999353f6ad7274bf43a8abf",
+      "dsc_bytes": 3096,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "curl_8.5.0.orig.tar.gz",
+          "bytes": 4372979,
+          "sha256": "05fc17ff25b793a437a0906e0484b82172a9f4de02be5ed447e0cab8c3475add",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/curl/8.5.0-2ubuntu10.16/curl_8.5.0.orig.tar.gz"
+        },
+        {
+          "filename": "curl_8.5.0-2ubuntu10.16.debian.tar.xz",
+          "bytes": 97764,
+          "sha256": "4ccc6c6a0c4b41c4d753d60c2991541c7f2a41d81c0000f582cf6b4901c746a4",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/curl/8.5.0-2ubuntu10.16/curl_8.5.0-2ubuntu10.16.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/curl__8.5.0-2ubuntu10.16.dsc"
+    },
+    {
+      "source_package": "expat",
+      "source_version": "2.6.1-2ubuntu0.6",
+      "binary_packages": [
+        {
+          "package": "libexpat1",
+          "version": "2.6.1-2ubuntu0.6",
+          "architecture": "amd64"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/expat/2.6.1-2ubuntu0.6",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/expat/2.6.1-2ubuntu0.6/expat_2.6.1-2ubuntu0.6.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/877862227/expat_2.6.1-2ubuntu0.6.dsc",
+      "dsc_sha256": "d1a0cb48d939de61f2121669c941664b844d9a1adf9d8db28e000489df665070",
+      "dsc_bytes": 1474,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "expat_2.6.1.orig.tar.gz",
+          "bytes": 8414649,
+          "sha256": "14113ed69357172a0bf5a268793c8b5b01afc77c7a2e5fb8dd0b06cb87c02c4a",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/expat/2.6.1-2ubuntu0.6/expat_2.6.1.orig.tar.gz"
+        },
+        {
+          "filename": "expat_2.6.1-2ubuntu0.6.debian.tar.xz",
+          "bytes": 75472,
+          "sha256": "95ae84284d153f5108255b21bc0e76f8cdabaf0bb74cdc61ef410f4b77146517",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/expat/2.6.1-2ubuntu0.6/expat_2.6.1-2ubuntu0.6.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/expat__2.6.1-2ubuntu0.6.dsc"
+    },
+    {
+      "source_package": "git",
+      "source_version": "1:2.43.0-1ubuntu7.4",
+      "binary_packages": [
+        {
+          "package": "git",
+          "version": "1:2.43.0-1ubuntu7.4",
+          "architecture": "amd64"
+        },
+        {
+          "package": "git-man",
+          "version": "1:2.43.0-1ubuntu7.4",
+          "architecture": "all"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/git/1%3A2.43.0-1ubuntu7.4",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/git/1%3A2.43.0-1ubuntu7.4/git_2.43.0-1ubuntu7.4.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/881358556/git_2.43.0-1ubuntu7.4.dsc",
+      "dsc_sha256": "b00b55dcce31a063b783cd0e34fce02c24167fc9f32e2eb7bb2ff4a31652f7a5",
+      "dsc_bytes": 2968,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "git_2.43.0.orig.tar.xz",
+          "bytes": 7382996,
+          "sha256": "5446603e73d911781d259e565750dcd277a42836c8e392cac91cf137aa9b76ec",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/git/1%3A2.43.0-1ubuntu7.4/git_2.43.0.orig.tar.xz"
+        },
+        {
+          "filename": "git_2.43.0-1ubuntu7.4.debian.tar.xz",
+          "bytes": 796932,
+          "sha256": "da368dcd58b9889787e7448d907cfc7ac06536472f78421f91351eee71f6d74b",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/git/1%3A2.43.0-1ubuntu7.4/git_2.43.0-1ubuntu7.4.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/git__1_2.43.0-1ubuntu7.4.dsc"
+    },
+    {
+      "source_package": "glibc",
+      "source_version": "2.39-0ubuntu8.9",
+      "binary_packages": [
+        {
+          "package": "libc-bin",
+          "version": "2.39-0ubuntu8.9",
+          "architecture": "amd64"
+        },
+        {
+          "package": "libc-dev-bin",
+          "version": "2.39-0ubuntu8.9",
+          "architecture": "amd64"
+        },
+        {
+          "package": "libc6",
+          "version": "2.39-0ubuntu8.9",
+          "architecture": "amd64"
+        },
+        {
+          "package": "libc6-dev",
+          "version": "2.39-0ubuntu8.9",
+          "architecture": "amd64"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/glibc/2.39-0ubuntu8.9",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/glibc/2.39-0ubuntu8.9/glibc_2.39-0ubuntu8.9.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/875838581/glibc_2.39-0ubuntu8.9.dsc",
+      "dsc_sha256": "1b73a89e0910eb3e5920cde639ac7eb606256d8ee809688ff9b5912b67002711",
+      "dsc_bytes": 9387,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "glibc_2.39.orig.tar.xz",
+          "bytes": 18520988,
+          "sha256": "f77bd47cf8170c57365ae7bf86696c118adb3b120d3259c64c502d3dc1e2d926",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/glibc/2.39-0ubuntu8.9/glibc_2.39.orig.tar.xz"
+        },
+        {
+          "filename": "glibc_2.39.orig.tar.xz.asc",
+          "bytes": 833,
+          "sha256": "2cce427ef7933c17379f5514e4f0ccf8dffae5bf8c72f0f7e0bf8b8401f34be5",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/glibc/2.39-0ubuntu8.9/glibc_2.39.orig.tar.xz.asc"
+        },
+        {
+          "filename": "glibc_2.39-0ubuntu8.9.debian.tar.xz",
+          "bytes": 491440,
+          "sha256": "d6114f2302896a3c8612453e1bf1d0e61603e3029ba4a7c246fbb1ab4c48d2b0",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/glibc/2.39-0ubuntu8.9/glibc_2.39-0ubuntu8.9.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/glibc__2.39-0ubuntu8.9.dsc"
+    },
+    {
+      "source_package": "krb5",
+      "source_version": "1.20.1-6ubuntu2.10",
+      "binary_packages": [
+        {
+          "package": "libgssapi-krb5-2",
+          "version": "1.20.1-6ubuntu2.10",
+          "architecture": "amd64"
+        },
+        {
+          "package": "libk5crypto3",
+          "version": "1.20.1-6ubuntu2.10",
+          "architecture": "amd64"
+        },
+        {
+          "package": "libkrb5-3",
+          "version": "1.20.1-6ubuntu2.10",
+          "architecture": "amd64"
+        },
+        {
+          "package": "libkrb5support0",
+          "version": "1.20.1-6ubuntu2.10",
+          "architecture": "amd64"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/krb5/1.20.1-6ubuntu2.10",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/krb5/1.20.1-6ubuntu2.10/krb5_1.20.1-6ubuntu2.10.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/874583293/krb5_1.20.1-6ubuntu2.10.dsc",
+      "dsc_sha256": "58839693f92867ecb31e253dc61198a94166f17da3afb1f9b740dc112f511a4b",
+      "dsc_bytes": 3890,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "krb5_1.20.1.orig.tar.gz",
+          "bytes": 8661660,
+          "sha256": "704aed49b19eb5a7178b34b2873620ec299db08752d6a8574f95d41879ab8851",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/krb5/1.20.1-6ubuntu2.10/krb5_1.20.1.orig.tar.gz"
+        },
+        {
+          "filename": "krb5_1.20.1-6ubuntu2.10.debian.tar.xz",
+          "bytes": 132764,
+          "sha256": "e3a9136f4c3d93f41b5ffb3533ff472fedf52efecebaba79127fbc1fbdced6ca",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/krb5/1.20.1-6ubuntu2.10/krb5_1.20.1-6ubuntu2.10.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/krb5__1.20.1-6ubuntu2.10.dsc"
+    },
+    {
+      "source_package": "libssh",
+      "source_version": "0.10.6-2ubuntu0.5",
+      "binary_packages": [
+        {
+          "package": "libssh-4",
+          "version": "0.10.6-2ubuntu0.5",
+          "architecture": "amd64"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/libssh/0.10.6-2ubuntu0.5",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libssh/0.10.6-2ubuntu0.5/libssh_0.10.6-2ubuntu0.5.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/874580532/libssh_0.10.6-2ubuntu0.5.dsc",
+      "dsc_sha256": "e5eb4bf8c16013acaab5a3ed38d3c4141b3d5fab317cbc8f11118ddd5b4479ad",
+      "dsc_bytes": 2857,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "libssh_0.10.6.orig.tar.xz",
+          "bytes": 561036,
+          "sha256": "1861d498f5b6f1741b6abc73e608478491edcf9c9d4b6630eef6e74596de9dc1",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libssh/0.10.6-2ubuntu0.5/libssh_0.10.6.orig.tar.xz"
+        },
+        {
+          "filename": "libssh_0.10.6.orig.tar.xz.asc",
+          "bytes": 833,
+          "sha256": "140420406d7796548b0beaf736e73864c32291787cf2bd3983fdbc41741494ae",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libssh/0.10.6-2ubuntu0.5/libssh_0.10.6.orig.tar.xz.asc"
+        },
+        {
+          "filename": "libssh_0.10.6-2ubuntu0.5.debian.tar.xz",
+          "bytes": 63744,
+          "sha256": "5ea1b360802689a7daa557470a661665d95996ab8c0b8dc700083ed8caf8f8d8",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libssh/0.10.6-2ubuntu0.5/libssh_0.10.6-2ubuntu0.5.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/libssh__0.10.6-2ubuntu0.5.dsc"
+    },
+    {
+      "source_package": "linux",
+      "source_version": "6.8.0-147.147",
+      "binary_packages": [
+        {
+          "package": "linux-libc-dev",
+          "version": "6.8.0-147.147",
+          "architecture": "amd64"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/linux/6.8.0-147.147",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/linux/6.8.0-147.147/linux_6.8.0-147.147.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/878087125/linux_6.8.0-147.147.dsc",
+      "dsc_sha256": "c546485ca6c4bd45143817f44c7c12498b64e9c911f434fd14147ecb9ebb981f",
+      "dsc_bytes": 9348,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "linux_6.8.0.orig.tar.gz",
+          "bytes": 230060117,
+          "sha256": "26512115972bdf017a4ac826cc7d3e9b0ba397d4f85cd330e4e4ff54c78061c8",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/linux/6.8.0-147.147/linux_6.8.0.orig.tar.gz"
+        },
+        {
+          "filename": "linux_6.8.0-147.147.diff.gz",
+          "bytes": 9974355,
+          "sha256": "370fa76631a470323e92a0b25dca6012287c4ada448c7f2e4954f45a628e936c",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/linux/6.8.0-147.147/linux_6.8.0-147.147.diff.gz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/linux__6.8.0-147.147.dsc"
+    },
+    {
+      "source_package": "openssl",
+      "source_version": "3.0.13-0ubuntu3.16",
+      "binary_packages": [
+        {
+          "package": "libssl3t64",
+          "version": "3.0.13-0ubuntu3.16",
+          "architecture": "amd64"
+        },
+        {
+          "package": "openssl",
+          "version": "3.0.13-0ubuntu3.16",
+          "architecture": "amd64"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/openssl/3.0.13-0ubuntu3.16",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/openssl/3.0.13-0ubuntu3.16/openssl_3.0.13-0ubuntu3.16.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/877974728/openssl_3.0.13-0ubuntu3.16.dsc",
+      "dsc_sha256": "7d1e552a6f519836c352407e521bafdda7552ec6d1ba242968c35fc0e17f47b6",
+      "dsc_bytes": 2516,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "openssl_3.0.13.orig.tar.gz",
+          "bytes": 15294843,
+          "sha256": "88525753f79d3bec27d2fa7c66aa0b92b3aa9498dafd93d7cfa4b3780cdae313",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/openssl/3.0.13-0ubuntu3.16/openssl_3.0.13.orig.tar.gz"
+        },
+        {
+          "filename": "openssl_3.0.13-0ubuntu3.16.debian.tar.xz",
+          "bytes": 223332,
+          "sha256": "77893129922c917792dd187c2853fb36ce1c98597c442b42d8190252959b7f6c",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/openssl/3.0.13-0ubuntu3.16/openssl_3.0.13-0ubuntu3.16.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/openssl__3.0.13-0ubuntu3.16.dsc"
+    },
+    {
+      "source_package": "perl",
+      "source_version": "5.38.2-3.2ubuntu0.6",
+      "binary_packages": [
+        {
+          "package": "libperl5.38t64",
+          "version": "5.38.2-3.2ubuntu0.6",
+          "architecture": "amd64"
+        },
+        {
+          "package": "perl",
+          "version": "5.38.2-3.2ubuntu0.6",
+          "architecture": "amd64"
+        },
+        {
+          "package": "perl-base",
+          "version": "5.38.2-3.2ubuntu0.6",
+          "architecture": "amd64"
+        },
+        {
+          "package": "perl-modules-5.38",
+          "version": "5.38.2-3.2ubuntu0.6",
+          "architecture": "all"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/perl/5.38.2-3.2ubuntu0.6",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/perl/5.38.2-3.2ubuntu0.6/perl_5.38.2-3.2ubuntu0.6.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/877057733/perl_5.38.2-3.2ubuntu0.6.dsc",
+      "dsc_sha256": "ece66ceafd3502733ece75ac7aaae4122123fde84921d95d5b8151ebf115057f",
+      "dsc_bytes": 3081,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "perl_5.38.2.orig-regen-configure.tar.xz",
+          "bytes": 418808,
+          "sha256": "4d1b34cc058f9963cb89785ecc040d57f6d7725cd83329cfa4ef8b27566454d2",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/perl/5.38.2-3.2ubuntu0.6/perl_5.38.2.orig-regen-configure.tar.xz"
+        },
+        {
+          "filename": "perl_5.38.2.orig.tar.xz",
+          "bytes": 13679524,
+          "sha256": "d91115e90b896520e83d4de6b52f8254ef2b70a8d545ffab33200ea9f1cf29e8",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/perl/5.38.2-3.2ubuntu0.6/perl_5.38.2.orig.tar.xz"
+        },
+        {
+          "filename": "perl_5.38.2-3.2ubuntu0.6.debian.tar.xz",
+          "bytes": 184740,
+          "sha256": "5c94f7708145fbe1ca97233c5c83c2bb70c6875013fc17ac50137ec735242bb7",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/perl/5.38.2-3.2ubuntu0.6/perl_5.38.2-3.2ubuntu0.6.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/perl__5.38.2-3.2ubuntu0.6.dsc"
+    },
+    {
+      "source_package": "python3.12",
+      "source_version": "3.12.3-1ubuntu0.17",
+      "binary_packages": [
+        {
+          "package": "libpython3.12-minimal",
+          "version": "3.12.3-1ubuntu0.17",
+          "architecture": "amd64"
+        },
+        {
+          "package": "libpython3.12-stdlib",
+          "version": "3.12.3-1ubuntu0.17",
+          "architecture": "amd64"
+        },
+        {
+          "package": "python3.12",
+          "version": "3.12.3-1ubuntu0.17",
+          "architecture": "amd64"
+        },
+        {
+          "package": "python3.12-minimal",
+          "version": "3.12.3-1ubuntu0.17",
+          "architecture": "amd64"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/python3.12/3.12.3-1ubuntu0.17",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/python3.12/3.12.3-1ubuntu0.17/python3.12_3.12.3-1ubuntu0.17.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/875576411/python3.12_3.12.3-1ubuntu0.17.dsc",
+      "dsc_sha256": "941700b999737d869b80c3b5a0adc0996a0fd760b982e18551bd2104da779384",
+      "dsc_bytes": 3916,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "python3.12_3.12.3.orig.tar.xz",
+          "bytes": 20625068,
+          "sha256": "56bfef1fdfc1221ce6720e43a661e3eb41785dd914ce99698d8c7896af4bdaa1",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/python3.12/3.12.3-1ubuntu0.17/python3.12_3.12.3.orig.tar.xz"
+        },
+        {
+          "filename": "python3.12_3.12.3-1ubuntu0.17.debian.tar.xz",
+          "bytes": 302472,
+          "sha256": "17b15629cb10825924cf7b85055255080ec773133ae0f8b8ce5ea2eec90dd200",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/python3.12/3.12.3-1ubuntu0.17/python3.12_3.12.3-1ubuntu0.17.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/python3.12__3.12.3-1ubuntu0.17.dsc"
+    },
+    {
+      "source_package": "sqlite3",
+      "source_version": "3.45.1-1ubuntu2.8",
+      "binary_packages": [
+        {
+          "package": "libsqlite3-0",
+          "version": "3.45.1-1ubuntu2.8",
+          "architecture": "amd64"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/sqlite3/3.45.1-1ubuntu2.8",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/sqlite3/3.45.1-1ubuntu2.8/sqlite3_3.45.1-1ubuntu2.8.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/876264457/sqlite3_3.45.1-1ubuntu2.8.dsc",
+      "dsc_sha256": "f3c0a904d2d2386e81b39774f2a2f00f92c42adb2f141ff59cc6a347c4487a69",
+      "dsc_bytes": 2601,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "sqlite3_3.45.1.orig-www.tar.xz",
+          "bytes": 5693812,
+          "sha256": "79b60798195a024d447e661e5bbc1eb40af50387ebf840e6f581190cc02064b6",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/sqlite3/3.45.1-1ubuntu2.8/sqlite3_3.45.1.orig-www.tar.xz"
+        },
+        {
+          "filename": "sqlite3_3.45.1.orig.tar.xz",
+          "bytes": 8257884,
+          "sha256": "e32e817f7b4166a301f60b14a711871bfab7d35c1d7e29b585dfc479ae150aa4",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/sqlite3/3.45.1-1ubuntu2.8/sqlite3_3.45.1.orig.tar.xz"
+        },
+        {
+          "filename": "sqlite3_3.45.1-1ubuntu2.8.debian.tar.xz",
+          "bytes": 37512,
+          "sha256": "d543bf91c6f14ccd52ebe44d6ef3b360196b2596e0a7ca86089aef5fc52f5ec0",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/sqlite3/3.45.1-1ubuntu2.8/sqlite3_3.45.1-1ubuntu2.8.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/sqlite3__3.45.1-1ubuntu2.8.dsc"
+    },
+    {
+      "source_package": "tzdata",
+      "source_version": "2026e-0ubuntu0.24.04.1",
+      "binary_packages": [
+        {
+          "package": "tzdata",
+          "version": "2026e-0ubuntu0.24.04.1",
+          "architecture": "all"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/tzdata/2026e-0ubuntu0.24.04.1",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/tzdata/2026e-0ubuntu0.24.04.1/tzdata_2026e-0ubuntu0.24.04.1.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/879504903/tzdata_2026e-0ubuntu0.24.04.1.dsc",
+      "dsc_sha256": "144d0332baa9dfbc243284f41a2cd9e934aac66a68ca93e494d32625e8032cc3",
+      "dsc_bytes": 2728,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "tzdata_2026e.orig.tar.gz",
+          "bytes": 481989,
+          "sha256": "b26882805f26aac59d5b222978e6580484b834ccdc98be89df2f05a6dc53a652",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/tzdata/2026e-0ubuntu0.24.04.1/tzdata_2026e.orig.tar.gz"
+        },
+        {
+          "filename": "tzdata_2026e.orig.tar.gz.asc",
+          "bytes": 833,
+          "sha256": "91b37052145786c4a238115bc69f5edb947d9cdd19164910c40c249be27a7eda",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/tzdata/2026e-0ubuntu0.24.04.1/tzdata_2026e.orig.tar.gz.asc"
+        },
+        {
+          "filename": "tzdata_2026e-0ubuntu0.24.04.1.debian.tar.xz",
+          "bytes": 189608,
+          "sha256": "3a4832de76177e0f77785b9a538a335ef8638c29f6986b844443dc3fe6dc6cb6",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/tzdata/2026e-0ubuntu0.24.04.1/tzdata_2026e-0ubuntu0.24.04.1.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/tzdata__2026e-0ubuntu0.24.04.1.dsc"
+    },
+    {
+      "source_package": "xz-utils",
+      "source_version": "5.6.1+really5.4.5-1ubuntu0.4",
+      "binary_packages": [
+        {
+          "package": "liblzma5",
+          "version": "5.6.1+really5.4.5-1ubuntu0.4",
+          "architecture": "amd64"
+        },
+        {
+          "package": "xz-utils",
+          "version": "5.6.1+really5.4.5-1ubuntu0.4",
+          "architecture": "amd64"
+        }
+      ],
+      "source_page_url": "https://launchpad.net/ubuntu/+source/xz-utils/5.6.1%2Breally5.4.5-1ubuntu0.4",
+      "dsc_url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/xz-utils/5.6.1%2Breally5.4.5-1ubuntu0.4/xz-utils_5.6.1+really5.4.5-1ubuntu0.4.dsc",
+      "dsc_http_status": 200,
+      "dsc_effective_url": "https://launchpadlibrarian.net/880985790/xz-utils_5.6.1+really5.4.5-1ubuntu0.4.dsc",
+      "dsc_sha256": "a9d6c2e7561c928d75594277a3b9f2ffe3b61293d272e282aab5110de18d0109",
+      "dsc_bytes": 2684,
+      "verified_dsc": true,
+      "openpgp_signature_retained": true,
+      "source_files": [
+        {
+          "filename": "xz-utils_5.6.1+really5.4.5.orig.tar.xz",
+          "bytes": 1680520,
+          "sha256": "da9dec6c12cf2ecf269c31ab65b5de18e8e52b96f35d5bcd08c12b43e6878803",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/xz-utils/5.6.1%2Breally5.4.5-1ubuntu0.4/xz-utils_5.6.1+really5.4.5.orig.tar.xz"
+        },
+        {
+          "filename": "xz-utils_5.6.1+really5.4.5-1ubuntu0.4.debian.tar.xz",
+          "bytes": 33844,
+          "sha256": "b11106c2e0e0898d87cf186d14073770c1ff8999e7c8c4cb02b55bfc0cc8b424",
+          "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/xz-utils/5.6.1%2Breally5.4.5-1ubuntu0.4/xz-utils_5.6.1+really5.4.5-1ubuntu0.4.debian.tar.xz"
+        }
+      ],
+      "dsc_file": "lean-public-rebuild-source-descriptors/xz-utils__5.6.1+really5.4.5-1ubuntu0.4.dsc"
+    }
+  ],
+  "listed_binary_package_count": 34,
+  "covered_binary_package_count": 34
+}

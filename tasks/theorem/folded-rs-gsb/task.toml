@@ -1,0 +1,43 @@
+artifacts = ["/app"]
+
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-folded-rs-gsb-bare-proof"
+version = "0.1.0"
+description = "Prove the CZ25 folded-RS list-decoding chain (Lemma 2.8, Lemma 2.10, Theorem 2.11, Lemma 2.18, Theorem 2.15, Lemma 2.19, Theorem 2.20, Corollary 2.21 of Chen-Zhang, STOC 2025 / arXiv 2408.15925) in Lean 4 (machine-verified). L2: statement fidelity only, no ground truth. [bare variant: main theorem only, 0/1]"
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "coding-theory", "folded-reed-solomon", "list-decoding", "generalized-singleton-bound", "type-2"]
+
+[metadata]
+family_id = "fam-folded-rs-gsb"
+candidate_id = "cand-cz25-folded-rs-gsb"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task: the proofs need a folded Wronskian independence criterion, determinant divisibility from block agreement, a matroid-style flat partition, loss-function accounting against a hypergraph weight threshold, and rational-parameter bookkeeping; no ground truth is provided."
+source_paper = "Yeyuan Chen, Zihan Zhang: Explicit Folded Reed-Solomon and Univariate Multiplicity Codes Achieve Relaxed Generalized Singleton Bounds, STOC 2025 (best student paper); arXiv 2408.15925v3."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:cb79cdacdad3c8072b44039d87a68b2a4833e2cb3d697de9be2fceb2d094c41c"
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:149fd396147a227f36c75476e60d0be0241f238b13a677a4b5f4ba3f41e33b5d"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

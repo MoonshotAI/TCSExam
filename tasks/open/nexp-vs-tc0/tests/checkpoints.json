@@ -1,0 +1,10 @@
+{
+  "task": "tcsexam/open-nexp-vs-tc0",
+  "namespace": "NexpVsTc0",
+  "main_slots": [
+    "conj",
+    "refuted"
+  ],
+  "weight_note": "prove-or-refute v1 (mains-only): a clean proof of `conj` (the conjecture) or of `refuted` (its negation) scores 1.0; there is no partial credit — this is an open problem. Both slots are mandatory and must stay in the reference order (conj, refuted). The circuit layer is adapted from SamuelSchlesinger/circuit-complexity (Apache-2.0) via the sister task np-vs-acc: DAG by topological order, evaluator/depth by structural recursion (kernel-computable); SUCCINCT-SAT is encoded as a Boolean function family under the dense description-circuit encoding (see environment/app/Task/Basic.lean header and tests/reference/concept-ledger.md).",
+  "checkpoints": []
+}

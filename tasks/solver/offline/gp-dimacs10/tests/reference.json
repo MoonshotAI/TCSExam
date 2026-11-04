@@ -1,0 +1,131 @@
+{
+ "instances": {
+  "tx001.graph": {
+   "B": 16870,
+   "B_status": "measured",
+   "K": 15064,
+   "archive_k4_eps3": 15064,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": false,
+   "k_source": "walshaw-archive",
+   "transformed_from": "144.graph"
+  },
+  "tx002.graph": {
+   "B": 417,
+   "B_status": "measured",
+   "K": 319,
+   "archive_k4_eps3": 319,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": true,
+   "k_source": "walshaw-archive",
+   "transformed_from": "4elt.graph"
+  },
+  "tx003.graph": {
+   "B": 42948,
+   "B_status": "measured",
+   "K": 25789,
+   "archive_k4_eps3": 25789,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": false,
+   "k_source": "walshaw-archive",
+   "transformed_from": "auto.graph"
+  },
+  "tx004.graph": {
+   "B": 8952,
+   "B_status": "measured",
+   "K": 7971,
+   "archive_k4_eps3": 7971,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": false,
+   "k_source": "walshaw-archive",
+   "transformed_from": "bcsstk29.graph"
+  },
+  "tx005.graph": {
+   "B": 13276,
+   "B_status": "measured",
+   "K": 8725,
+   "archive_k4_eps3": 8725,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": false,
+   "k_source": "walshaw-archive",
+   "transformed_from": "bcsstk32.graph"
+  },
+  "tx006.graph": {
+   "B": 3461,
+   "B_status": "measured",
+   "K": 2834,
+   "archive_k4_eps3": 2834,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": true,
+   "k_source": "walshaw-archive",
+   "transformed_from": "brack2.graph"
+  },
+  "tx007.graph": {
+   "B": 1600,
+   "B_status": "measured",
+   "K": 1330,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": true,
+   "k_source": "kahip-longrun",
+   "transformed_from": "delaunay160k-s13.graph"
+  },
+  "tx008.graph": {
+   "B": 361,
+   "B_status": "measured",
+   "K": 341,
+   "archive_k4_eps3": 341,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": false,
+   "k_source": "walshaw-archive",
+   "transformed_from": "fe_4elt2.graph"
+  },
+  "tx009.graph": {
+   "B": 736,
+   "B_status": "measured",
+   "K": 598,
+   "archive_k4_eps3": 598,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": true,
+   "k_source": "walshaw-archive",
+   "transformed_from": "fe_body.graph"
+  },
+  "tx010.graph": {
+   "B": 410013,
+   "B_status": "measured",
+   "K": 253295,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": true,
+   "k_source": "kahip-longrun",
+   "transformed_from": "kron65k-ef16-s22.graph"
+  },
+  "tx011.graph": {
+   "B": 1911,
+   "B_status": "measured",
+   "K": 1353,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": true,
+   "k_source": "kahip-longrun",
+   "transformed_from": "rgg60k-d15-s02.graph"
+  },
+  "tx012.graph": {
+   "B": 22897,
+   "B_status": "measured",
+   "K": 18736,
+   "archive_k4_eps3": 18736,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": false,
+   "k_source": "walshaw-archive",
+   "transformed_from": "vibrobox.graph"
+  },
+  "tx013.graph": {
+   "B": 419,
+   "B_status": "measured",
+   "K": 378,
+   "archive_k4_eps3": 378,
+   "b_remeasured": "Measured on transformed instances in the same judging resource envelope as production submit.sh: isolated execution environment, 4C/16G. The shared-pool protocol runs the full hidden set serially in one sandbox with a shared total budget of 60s×13=780s; sharding is prohibited. The judging pipeline remains /tests/test.sh and the shipped baseline in environment/app is unchanged.",
+   "has_witness": true,
+   "k_source": "walshaw-archive",
+   "transformed_from": "whitaker3.graph"
+  }
+ }
+}

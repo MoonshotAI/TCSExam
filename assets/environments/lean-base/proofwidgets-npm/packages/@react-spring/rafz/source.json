@@ -1,0 +1,43 @@
+{
+  "author": "Josh Ellis",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-5ZenDQMC48wjUzPAm1EtwQ5Ot3bLIAwwqP2w2owG5KoNdNHpEJV263nGhCeKKmuA3vG2zLLOdu3or6kuDjA6Aw==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@react-spring/rafz/-/rafz-9.7.5.tgz",
+    "version": "9.7.5"
+  },
+  "lock_path": "node_modules/@react-spring/rafz",
+  "name": "@react-spring/rafz",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1110,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+      "text_file": "image-notices/51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 12439,
+    "installed_in_image": false,
+    "integrity": "sha512-5ZenDQMC48wjUzPAm1EtwQ5Ot3bLIAwwqP2w2owG5KoNdNHpEJV263nGhCeKKmuA3vG2zLLOdu3or6kuDjA6Aw==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@react-spring/rafz/-/rafz-9.7.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "f2f006244a9bbf4d355ce0deee473eb63d307797c334aa7a13362fc3363f9eb4"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "9.7.5"
+}

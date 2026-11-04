@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "buffer-from": "^1.0.0",
+      "source-map": "^0.6.0"
+    },
+    "dev": true,
+    "integrity": "sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz",
+    "version": "0.5.21"
+  },
+  "lock_path": "node_modules/source-map-support",
+  "name": "source-map-support",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1079,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "3a7d3bb198e909ed642bd68bd29a7d7c09a636d27a51ec663d35f00c4760ec42",
+      "text_file": "image-notices/3a7d3bb198e909ed642bd68bd29a7d7c09a636d27a51ec663d35f00c4760ec42.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 26650,
+    "installed_in_image": false,
+    "integrity": "sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "5d9b04ef3e6824fdcf91cfcc03ab427fae486bc6859735805593f51b3554f636"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.5.21"
+}

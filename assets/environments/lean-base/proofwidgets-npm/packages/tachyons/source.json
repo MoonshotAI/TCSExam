@@ -1,0 +1,43 @@
+{
+  "author": "mrmrs",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-2nA2IrYFy3raCM9fxJ2KODRGHVSZNTW3BR0YnlGsLUf1DA3pk3YfWZ/DdfbnZK6zLZS+jUenlUGJsKcA5fUiZg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/tachyons/-/tachyons-4.12.0.tgz",
+    "version": "4.12.0"
+  },
+  "lock_path": "node_modules/tachyons",
+  "name": "tachyons",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1092,
+      "installed_file": "notices/original/package/license",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/license",
+      "sha256": "69316d266fca53e909dabca7a4059e20ce4486621daf8e713c8b2c0dcad9201f",
+      "text_file": "image-notices/69316d266fca53e909dabca7a4059e20ce4486621daf8e713c8b2c0dcad9201f.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 65074,
+    "installed_in_image": false,
+    "integrity": "sha512-2nA2IrYFy3raCM9fxJ2KODRGHVSZNTW3BR0YnlGsLUf1DA3pk3YfWZ/DdfbnZK6zLZS+jUenlUGJsKcA5fUiZg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/tachyons/-/tachyons-4.12.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "88c6462cccf26eae2003c497b7dca8bf90e94e25c673633058036ca19a6f2c6a"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "4.12.0"
+}

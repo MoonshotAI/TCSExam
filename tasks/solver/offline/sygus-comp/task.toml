@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/sygus-comp"
+version = "1.0.0"
+description = "Optimize a SyGuS program-synthesis solver (baseline: naive grammar enumeration; cvc5 1.3.4 vendored, modified BSD): synthesize functions satisfying SyGuS-IF v2 specs on hidden instances drawn from the official SyGuS-Comp 2017-2019 benchmark set (content-deduplicated), scored as normalized solve-count improvement over the baseline toward a cvc5 long-run reference, under one shared time pool; every claimed solution is machine-checked (grammar derivability + negated-spec unsat via a pristine cvc5)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "program-synthesis", "sygus", "cvc5", "smt", "formal-methods", "type-2-solver"]
+
+[metadata]
+family_id = "fam-sygus"
+candidate_id = "cand-sygus-comp-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "The baseline is a naive grammar enumerator that solves only the easy slice; real gains need competition-grade synthesis (CEGIS, PBE, portfolio) — a full cvc5 is vendored for exactly that."
+
+[verifier]
+timeout_sec = 1209600.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+
+
+[verifier.environment]
+network_mode = "no-network"
+build_timeout_sec = 3600.0

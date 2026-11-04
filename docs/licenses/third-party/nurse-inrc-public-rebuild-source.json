@@ -1,0 +1,35 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "nurse-inrc",
+  "repository": "https://github.com/lab-core/NurseScheduler",
+  "commit": "7fbaea1c2d518c1b9c153594d8fe8dd91f8b0ab3",
+  "outputs": 9,
+  "official_downloads": 9,
+  "retained_project_public_inputs": [],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "verification_status": "passed",
+  "terms": "Retain the existing resource-specific terms. This reconstruction does not add redistribution approval.",
+  "verified_products": {
+    "solver-nurse-inrc-development-data": {
+      "result": {
+        "files": 9,
+        "bytes": 352936
+      }
+    },
+    "solver-nurse-inrc-judging-data": {
+      "result": {
+        "files": 60,
+        "bytes": 2433399
+      },
+      "observed_source_bytes_equal_frozen_output": true
+    }
+  },
+  "scope": "Nine unchanged public XML inputs and sixty unchanged hidden XML inputs, with hidden payload filenames only renamed. Fixed upstream commit, Git LFS media URLs when needed. Historical employee transform is excluded because it does not match the frozen product.",
+  "counts": {
+    "public_files": 9,
+    "hidden_files": 60,
+    "downloaded_original_xml_files": 69,
+    "hidden_employee_transform_applied": false
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "checked": "2026-10-13",
+  "commit": "06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c",
+  "license": "Apache-2.0",
+  "license_url": "https://github.com/google/or-tools/blob/06376d5ff5bbaead64e9b2df61ccbe74e99e5f8c/LICENSE-2.0.txt",
+  "scope": "40 raw public model and assignment files; does not cover bundled PDF or hidden transformations",
+  "comparison": "Git blob SHA-1 = SHA1(blob <length> NUL content), matched against complete official Git tree; file bytes streamed locally",
+  "files": [
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_a1_1.txt",
+      "git_blob": "db8b2aae92746c0aafe334b1c5769830ae8a50ac",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a1/assignment_a1_1.txt",
+      "upstream_blob": "db8b2aae92746c0aafe334b1c5769830ae8a50ac",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_a1_2.txt",
+      "git_blob": "edcf1664800a039b2a57d4b58a2d3388dc661afd",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a1/assignment_a1_2.txt",
+      "upstream_blob": "edcf1664800a039b2a57d4b58a2d3388dc661afd",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_a1_3.txt",
+      "git_blob": "51a9d75a1dac8ab11ced25db4167593c758cadc2",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a1/assignment_a1_3.txt",
+      "upstream_blob": "51a9d75a1dac8ab11ced25db4167593c758cadc2",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_a1_4.txt",
+      "git_blob": "aa489988a6a7e950912177267a5dd0eb9e77c5c4",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a1/assignment_a1_4.txt",
+      "upstream_blob": "aa489988a6a7e950912177267a5dd0eb9e77c5c4",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_a1_5.txt",
+      "git_blob": "85757d794ef650cb161a31af9960b27a8639a757",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a1/assignment_a1_5.txt",
+      "upstream_blob": "85757d794ef650cb161a31af9960b27a8639a757",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_a2_1.txt",
+      "git_blob": "4f4e7c86aeac8aa2d97167a0d57ec0593c9bc34a",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a2/assignment_a2_1.txt",
+      "upstream_blob": "4f4e7c86aeac8aa2d97167a0d57ec0593c9bc34a",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_a2_2.txt",
+      "git_blob": "29d60ac01846f824ac741c0a37f73a5317cab89a",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a2/assignment_a2_2.txt",
+      "upstream_blob": "29d60ac01846f824ac741c0a37f73a5317cab89a",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_a2_3.txt",
+      "git_blob": "84b910c76051bc1a68a5b873b147647fcb32acab",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a2/assignment_a2_3.txt",
+      "upstream_blob": "84b910c76051bc1a68a5b873b147647fcb32acab",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_a2_4.txt",
+      "git_blob": "d0ac3c0a219150c12cb8df488cca5000ab354b38",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a2/assignment_a2_4.txt",
+      "upstream_blob": "d0ac3c0a219150c12cb8df488cca5000ab354b38",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_a2_5.txt",
+      "git_blob": "62adfb08650e45defeb39d210a9515905ed468cd",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a2/assignment_a2_5.txt",
+      "upstream_blob": "62adfb08650e45defeb39d210a9515905ed468cd",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_b_1.txt",
+      "git_blob": "ac85957cba292a5d3128bde7c9e1ee24a10e645e",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/assignment_b_1.txt",
+      "upstream_blob": "ac85957cba292a5d3128bde7c9e1ee24a10e645e",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_b_10.txt",
+      "git_blob": "564875299ad6e0bf765ef048ae2e8a14e261374f",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/assignment_b_10.txt",
+      "upstream_blob": "564875299ad6e0bf765ef048ae2e8a14e261374f",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_b_2.txt",
+      "git_blob": "e2415a2cba158c7d28404faa1d448c14707c3f8c",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/assignment_b_2.txt",
+      "upstream_blob": "e2415a2cba158c7d28404faa1d448c14707c3f8c",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_b_3.txt",
+      "git_blob": "34dabf5fa1a6e7b6d889b250ea41f8f895b40137",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/assignment_b_3.txt",
+      "upstream_blob": "34dabf5fa1a6e7b6d889b250ea41f8f895b40137",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_b_4.txt",
+      "git_blob": "8a5c2cbc8526ba55c5d02d8a44a0401a6517aa65",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/assignment_b_4.txt",
+      "upstream_blob": "8a5c2cbc8526ba55c5d02d8a44a0401a6517aa65",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_b_5.txt",
+      "git_blob": "c4a5ef23e816542af47271959997e9ef1cd4d47d",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/assignment_b_5.txt",
+      "upstream_blob": "c4a5ef23e816542af47271959997e9ef1cd4d47d",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_b_6.txt",
+      "git_blob": "39fabd3de63a3b0eab540c8b9c226cdb87b8fb17",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/assignment_b_6.txt",
+      "upstream_blob": "39fabd3de63a3b0eab540c8b9c226cdb87b8fb17",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_b_7.txt",
+      "git_blob": "26d8d68330157eb1624baaded831b8988587a474",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/assignment_b_7.txt",
+      "upstream_blob": "26d8d68330157eb1624baaded831b8988587a474",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_b_8.txt",
+      "git_blob": "6a3496587258b918af1fa78f22429eec4c7988fb",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/assignment_b_8.txt",
+      "upstream_blob": "6a3496587258b918af1fa78f22429eec4c7988fb",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/assignment_b_9.txt",
+      "git_blob": "4f6a012e925b569ba7a9bf36a2fefbd1a71fdcb6",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/assignment_b_9.txt",
+      "upstream_blob": "4f6a012e925b569ba7a9bf36a2fefbd1a71fdcb6",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_a1_1.txt",
+      "git_blob": "7ae3ee9e2d2206dfa6a2ea68c8ef1b097f436472",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a1/model_a1_1.txt",
+      "upstream_blob": "7ae3ee9e2d2206dfa6a2ea68c8ef1b097f436472",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_a1_2.txt",
+      "git_blob": "5e9ee798c03d15303f6c6e492103146e09104b9c",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a1/model_a1_2.txt",
+      "upstream_blob": "5e9ee798c03d15303f6c6e492103146e09104b9c",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_a1_3.txt",
+      "git_blob": "6c6470bdf0cbc88a78ddaf257225bcc13cb37fa9",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a1/model_a1_3.txt",
+      "upstream_blob": "6c6470bdf0cbc88a78ddaf257225bcc13cb37fa9",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_a1_4.txt",
+      "git_blob": "3f5aec10ca9fc043e4879e7da9e12acaa6c69627",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a1/model_a1_4.txt",
+      "upstream_blob": "3f5aec10ca9fc043e4879e7da9e12acaa6c69627",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_a1_5.txt",
+      "git_blob": "3cd47c47de98e57cf12af87686d05ef9397a24b8",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a1/model_a1_5.txt",
+      "upstream_blob": "3cd47c47de98e57cf12af87686d05ef9397a24b8",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_a2_1.txt",
+      "git_blob": "2df11f2cf1ee59ed78e1d1c27373b067552691c7",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a2/model_a2_1.txt",
+      "upstream_blob": "2df11f2cf1ee59ed78e1d1c27373b067552691c7",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_a2_2.txt",
+      "git_blob": "5da90fe1f7bc83f864835c5a7db43dff705afdeb",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a2/model_a2_2.txt",
+      "upstream_blob": "5da90fe1f7bc83f864835c5a7db43dff705afdeb",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_a2_3.txt",
+      "git_blob": "8370532d0ccf8743f6139cae7b812c47ce8c446b",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a2/model_a2_3.txt",
+      "upstream_blob": "8370532d0ccf8743f6139cae7b812c47ce8c446b",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_a2_4.txt",
+      "git_blob": "8243512a15cb2dae43c029079de510dbff39274c",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a2/model_a2_4.txt",
+      "upstream_blob": "8243512a15cb2dae43c029079de510dbff39274c",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_a2_5.txt",
+      "git_blob": "3a14811e6d380d1d9d0f2fc4b58c3d1e83ed67ba",
+      "upstream_path": "data/roadef_challenge_2011/data/data_a2/model_a2_5.txt",
+      "upstream_blob": "3a14811e6d380d1d9d0f2fc4b58c3d1e83ed67ba",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_b_1.txt",
+      "git_blob": "9fef0b1bb6c809b829c462fa349ea77da9abfe7d",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/model_b_1.txt",
+      "upstream_blob": "9fef0b1bb6c809b829c462fa349ea77da9abfe7d",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_b_10.txt",
+      "git_blob": "d77da0be808164730a8ec13ec21c3a4709675a8b",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/model_b_10.txt",
+      "upstream_blob": "d77da0be808164730a8ec13ec21c3a4709675a8b",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_b_2.txt",
+      "git_blob": "8d5e4d9f312346b7758ab3335555b7e306e9a356",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/model_b_2.txt",
+      "upstream_blob": "8d5e4d9f312346b7758ab3335555b7e306e9a356",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_b_3.txt",
+      "git_blob": "6aa1b6925a3b763d901d019d8a0409c169696ad8",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/model_b_3.txt",
+      "upstream_blob": "6aa1b6925a3b763d901d019d8a0409c169696ad8",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_b_4.txt",
+      "git_blob": "8fab575ac86a13b3f2f2b1ed9def5e2f36208fbe",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/model_b_4.txt",
+      "upstream_blob": "8fab575ac86a13b3f2f2b1ed9def5e2f36208fbe",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_b_5.txt",
+      "git_blob": "d784c6e1c9e189b03f2cfbe71cbbb40652b48c78",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/model_b_5.txt",
+      "upstream_blob": "d784c6e1c9e189b03f2cfbe71cbbb40652b48c78",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_b_6.txt",
+      "git_blob": "ba8bcdb13b5d0a5158f8afb462532af94f621677",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/model_b_6.txt",
+      "upstream_blob": "ba8bcdb13b5d0a5158f8afb462532af94f621677",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_b_7.txt",
+      "git_blob": "11b1b490d4ebb54e50d0b9807841dc3f31d7a4ec",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/model_b_7.txt",
+      "upstream_blob": "11b1b490d4ebb54e50d0b9807841dc3f31d7a4ec",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_b_8.txt",
+      "git_blob": "438512965a4e239e3114ec22add2982a946bd198",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/model_b_8.txt",
+      "upstream_blob": "438512965a4e239e3114ec22add2982a946bd198",
+      "identical": true
+    },
+    {
+      "local_path": "tasks/solver/mr-roadef2012/environment/app/instances/model_b_9.txt",
+      "git_blob": "12864ee766ced88ba3ca7ebe6c41f69a123af55f",
+      "upstream_path": "data/roadef_challenge_2011/data/data_b/model_b_9.txt",
+      "upstream_blob": "12864ee766ced88ba3ca7ebe6c41f69a123af55f",
+      "identical": true
+    }
+  ],
+  "root_notice": "README names LICENSE-2.0.txt; no nested license or notice under the data ancestors found"
+}

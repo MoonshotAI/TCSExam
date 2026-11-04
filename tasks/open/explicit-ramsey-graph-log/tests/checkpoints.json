@@ -1,0 +1,7 @@
+{
+  "namespace": "ExplicitRamsey",
+  "conjecture": "conj",
+  "refutation": "refuted",
+  "checkpoints": [],
+  "weight_note": "prove-or-refute v1 (mains-only): Prove `conj` or `refuted` for full credit (1.0); no partial credit; this is an open problem."
+}

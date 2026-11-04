@@ -1,0 +1,28 @@
+{
+  "task_id": "maxclique-dimacs",
+  "updated_at": "2026-10-30T04:00:45.349198+00:00",
+  "scope": "Exact frozen input graphs from DIMACS challenge and CMU COLOR02 research distributions. Public44 and hidden24 preserve all frozen bytes, saved vertex permutations, historical seed strings and split.",
+  "upstreams": [
+    {
+      "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/clique/",
+      "selection": "Original compact binary graph files, decoded with the historical bin2asc bit order and retained original preamble."
+    },
+    {
+      "url": "https://mat.tepper.cmu.edu/COLOR02/INSTANCES/",
+      "selection": "Original ASCII C/gen/DSJC graph files; DSJC underscore to decimal-point filename aliases are explicit."
+    }
+  ],
+  "transform_paths": [
+    "src/tcsexam/dimacs_binary_data.py",
+    "assets/data/solver/maxclique-dimacs/transform.py"
+  ],
+  "terms": "Keep original graph-family author/copyright notices. These research distribution URLs and byte verification establish acquisition provenance. No license extending to every benchmark family or new redistribution grant is inferred. Hidden vertex relabeling preserves original family rights.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "public_upload_performed": false,
+  "public_pin": null,
+  "remaining_publication_materials": [
+    "Family-specific redistribution evidence covering selected classic DIMACS graphs and C/gen/DSJC graphs, including required author notices.",
+    "Product-specific approval to distribute the processed data, then an actual public immutable image pin. No publication performed in this stage."
+  ]
+}

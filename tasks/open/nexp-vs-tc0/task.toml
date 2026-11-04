@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-nexp-vs-tc0"
+version = "0.1.0"
+description = "Prove or refute NEXP-vs-TC0 (some language in nondeterministic exponential time has no constant-depth, polynomial-size circuit family over unbounded fan-in threshold/majority gates; pinned to SUCCINCT-SAT under the dense description-circuit encoding) in Lean 4 (machine-verified). Open problem: no ground truth; the Lean kernel is the judge. A kernel-verified proof of either direction scores 1.0, otherwise 0 — no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "circuit-complexity", "TC0", "threshold-circuits", "circuit-lower-bounds", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-nexp-vs-tc0"
+candidate_id = "cand-nexp-vs-tc0"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open problem (NEXP vs ACC settled by Williams 2011; since ACC is contained in TC0, NEXP vs TC0 is strictly stronger and remains open; Chen-Tell STOC 2019 made it the explicit next goal of the algorithmic method). Full score needs a kernel-verified proof or disproof of the conjecture itself; there are no checkpoint slots and no partial credit."
+source_paper = "Background: Williams 2011 (STOC, NEXP not in ACC); Chen-Tell, Bootstrapping Results for Threshold Circuits 'Just Beyond' Known Lower Bounds, STOC 2019 (NEXP not in TC0 as the target consequence); succinct-representation completeness: Papadimitriou-Yannakakis 1986. Definition-layer survey: proof-circuit.md (historical report not included in this package) (section 4.2). Circuit encoding adapted from SamuelSchlesinger/circuit-complexity (Apache-2.0), as packaged by the sister task np-vs-acc."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-nexp-vs-tc0-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

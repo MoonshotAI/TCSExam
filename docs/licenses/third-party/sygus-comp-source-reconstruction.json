@@ -1,0 +1,35 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "sygus-comp",
+  "scope": "Original input-only SyGuS1-to-2 conversion; hidden files retain upstream identifiers and only rename filenames. Official repository lacks explicit data license; no new redistribution grant.",
+  "records": [
+    {
+      "id": "solver-sygus-comp-development-data",
+      "result": {
+        "files": 100,
+        "bytes": 534603
+      },
+      "recipe": "assets/data/solver/solver-sygus-comp-development-data-recipe.json",
+      "recipe_sha256": "e4b2772101263dc0d88adc16d821733e67b607419f422b60a65c3f79d7b60559",
+      "format": "official_files",
+      "acquisition_verification": "anonymous_download_verified",
+      "docker_adapter_exercised": false
+    },
+    {
+      "id": "solver-sygus-comp-judging-data",
+      "result": {
+        "files": 60,
+        "bytes": 367603
+      },
+      "recipe": "assets/data/solver/solver-sygus-comp-judging-data-recipe.json",
+      "recipe_sha256": "10382a26b746eadf16bca0e2357d9fcdd2f441fc29fdb5042faa9c6550f95f19",
+      "format": "official_files",
+      "acquisition_verification": "anonymous_download_verified",
+      "docker_adapter_exercised": false
+    }
+  ],
+  "distribution": "local_prepare",
+  "new_distribution_authorization": false,
+  "public_upload_performed": false,
+  "public_pin": null
+}

@@ -1,0 +1,18 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "ds-pace2025",
+  "repository": "https://github.com/MarioGrobler/PACE2025-instances",
+  "commit": "e0bff608037db1f2b9eec7a7963e31b86663e1ed",
+  "scope": "Exactly 100 original official post-contest private heuristic-track plaintext instances. Upstream private/ tree is publicly downloadable; no decryption key or answer file is required.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Retain existing resource-specific terms; reconstruction adds no redistribution approval.",
+  "verified_products": {
+    "solver-ds-pace2025-development-data": {
+      "result": {
+        "files": 1101,
+        "bytes": 5245986698
+      }
+    }
+  }
+}

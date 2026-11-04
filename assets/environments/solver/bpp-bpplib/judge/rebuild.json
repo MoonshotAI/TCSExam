@@ -1,0 +1,52 @@
+{
+  "task": "tasks/solver/online/bpp-bpplib",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/bpp-bpplib/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}",
+    "JUDGING_DATA_IMAGE": "${JUDGING_DATA_IMAGE}"
+  },
+  "sources": [
+    {
+      "source": "tasks/solver/online/bpp-bpplib/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "d8f26caf9dafc47cd3fa80d34e41c5a3267a74f0d794fef6d8ef67e563cd2ef6"
+    },
+    {
+      "source": "tasks/solver/online/bpp-bpplib/tests/scoring.py",
+      "target": "/opt/bpp/scoring.py",
+      "sha256": "5921093fe08709ea4976960b6d8084b05db581f10fd992f11e259de8e9235da9"
+    },
+    {
+      "source": "tasks/solver/online/bpp-bpplib/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "ebc9c4b8d4e161aec142a7b4465790dd2ca58a47d76588d4d5796755f5aa5024"
+    },
+    {
+      "source": "tasks/solver/online/bpp-bpplib/environment/app/public_reference.json",
+      "target": "/tests-public/reference.json",
+      "sha256": "bfb9a2de85b3f9f6108dbc81e9006b1a542bfbc3729c3191318e039da795cf88"
+    },
+    {
+      "source": "assets/environments/solver/bpp-bpplib/judge/test.sh",
+      "target": "/tests/test.sh",
+      "sha256": "7fea0d8a3be52cdb2be0b4e46b580410216de6b0fc42b75c5075aaf5ac27a104"
+    },
+    {
+      "source": "assets/environments/solver/bpp-bpplib/judge/entry.sh",
+      "target": "/judge/entry.sh",
+      "sha256": "d09654108827d0d0351a9ce72390062ebdc538a75f14040072e2415a1633bceb"
+    },
+    {
+      "source": "assets/environments/solver/bpp-bpplib/judge/judge_worker.py",
+      "target": "/judge/judge_worker.py",
+      "sha256": "189152666cbef38437df53d0f3a5efac69026e8380f12f5d8815585631fa547d"
+    }
+  ],
+  "fixed_base_verified": true,
+  "rebuild_executed": true,
+  "public_source_rebuild_verified": true,
+  "limitations": [
+    "Acceptance used public baselines and verifier oracles, not a new model experiment. Online public and hidden submissions and the offline Docker controller were checked separately; native model-driven Harbor runs are outside this record."
+  ]
+}

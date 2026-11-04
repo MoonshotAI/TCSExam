@@ -1,0 +1,46 @@
+{
+  "author": "Yomotsu",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-KnaKdcvkBJ1Irbrzl8XD6WtZltkRjp869Jx8c0ujs9K+9WD+1D7ryBsCiVqJYUqt6i/HR5FxT7RLASieUD+Q5w==",
+    "license": "MIT",
+    "peerDependencies": {
+      "three": ">=0.126.1"
+    },
+    "resolved": "https://registry.npmjs.org/camera-controls/-/camera-controls-2.10.1.tgz",
+    "version": "2.10.1"
+  },
+  "lock_path": "node_modules/camera-controls",
+  "name": "camera-controls",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1065,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "d175c34ca3b4fb17d0568627ef8fd9363ae6f63f9ffdc97d4da71f0d7f3473ee",
+      "text_file": "image-notices/d175c34ca3b4fb17d0568627ef8fd9363ae6f63f9ffdc97d4da71f0d7f3473ee.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 69228,
+    "installed_in_image": false,
+    "integrity": "sha512-KnaKdcvkBJ1Irbrzl8XD6WtZltkRjp869Jx8c0ujs9K+9WD+1D7ryBsCiVqJYUqt6i/HR5FxT7RLASieUD+Q5w==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/camera-controls/-/camera-controls-2.10.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "6b76248c8f9087d51c83f23f5029ae7895dfbaf0207a43aaf0f947223673551b"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.10.1"
+}

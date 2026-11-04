@@ -1,0 +1,634 @@
+{
+ "instances": {
+  "201_2500_DI_30.txt": {
+   "B": 66,
+   "K": 65,
+   "class": "ANI_AI",
+   "n": 202,
+   "proven_optimal": true
+  },
+  "201_2500_DI_40.txt": {
+   "B": 66,
+   "K": 65,
+   "class": "ANI_AI",
+   "n": 202,
+   "proven_optimal": true
+  },
+  "201_2500_DI_49.txt": {
+   "B": 66,
+   "K": 65,
+   "class": "ANI_AI",
+   "n": 202,
+   "proven_optimal": true
+  },
+  "402_10000_DI_13.txt": {
+   "B": 133,
+   "K": 132,
+   "class": "ANI_AI",
+   "n": 403,
+   "proven_optimal": true
+  },
+  "402_10000_DI_30.txt": {
+   "B": 133,
+   "K": 132,
+   "class": "ANI_AI",
+   "n": 403,
+   "proven_optimal": true
+  },
+  "600_20000_DI_20.txt": {
+   "B": 199,
+   "K": 198,
+   "class": "ANI_AI",
+   "n": 601,
+   "proven_optimal": true
+  },
+  "600_20000_DI_8.txt": {
+   "B": 199,
+   "K": 198,
+   "class": "ANI_AI",
+   "n": 601,
+   "proven_optimal": true
+  },
+  "BPP_1000_750_0.1_0.8_3.txt": {
+   "B": 461,
+   "K": 459,
+   "class": "Randomly_Generated",
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "BPP_100_1000_0.1_0.8_3.txt": {
+   "B": 45,
+   "K": 44,
+   "class": "Randomly_Generated",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "BPP_200_50_0.1_0.7_8.txt": {
+   "B": 82,
+   "K": 81,
+   "class": "Randomly_Generated",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "BPP_300_300_0.2_0.7_2.txt": {
+   "B": 137,
+   "K": 135,
+   "class": "Randomly_Generated",
+   "n": 300,
+   "proven_optimal": true
+  },
+  "BPP_400_100_0.1_0.7_3.txt": {
+   "B": 161,
+   "K": 160,
+   "class": "Randomly_Generated",
+   "n": 400,
+   "proven_optimal": true
+  },
+  "BPP_500_300_0.1_0.8_2.txt": {
+   "B": 223,
+   "K": 221,
+   "class": "Randomly_Generated",
+   "n": 500,
+   "proven_optimal": true
+  },
+  "BPP_750_300_0.1_0.8_5.txt": {
+   "B": 339,
+   "K": 337,
+   "class": "Randomly_Generated",
+   "n": 750,
+   "proven_optimal": true
+  },
+  "Falkenauer_t249_02.txt": {
+   "B": 94,
+   "K": 83,
+   "class": "Falkenauer",
+   "n": 249,
+   "proven_optimal": true
+  },
+  "Falkenauer_t249_04.txt": {
+   "B": 95,
+   "K": 83,
+   "class": "Falkenauer",
+   "n": 249,
+   "proven_optimal": true
+  },
+  "Falkenauer_t501_06.txt": {
+   "B": 190,
+   "K": 167,
+   "class": "Falkenauer",
+   "n": 501,
+   "proven_optimal": true
+  },
+  "Falkenauer_u1000_10.txt": {
+   "B": 404,
+   "K": 400,
+   "class": "Falkenauer",
+   "n": 1000,
+   "proven_optimal": true
+  },
+  "Falkenauer_u120_00.txt": {
+   "B": 49,
+   "K": 48,
+   "class": "Falkenauer",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Falkenauer_u120_15.txt": {
+   "B": 49,
+   "K": 48,
+   "class": "Falkenauer",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Falkenauer_u500_04.txt": {
+   "B": 209,
+   "K": 206,
+   "class": "Falkenauer",
+   "n": 500,
+   "proven_optimal": true
+  },
+  "Hard28_BPP13.txt": {
+   "B": 68,
+   "K": 67,
+   "class": "Hard28",
+   "n": 180,
+   "proven_optimal": true
+  },
+  "Hard28_BPP178.txt": {
+   "B": 81,
+   "K": 80,
+   "class": "Hard28",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "Hard28_BPP47.txt": {
+   "B": 72,
+   "K": 71,
+   "class": "Hard28",
+   "n": 180,
+   "proven_optimal": true
+  },
+  "Hard28_BPP485.txt": {
+   "B": 72,
+   "K": 71,
+   "class": "Hard28",
+   "n": 180,
+   "proven_optimal": true
+  },
+  "Hard28_BPP531.txt": {
+   "B": 84,
+   "K": 83,
+   "class": "Hard28",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "Hard28_BPP561.txt": {
+   "B": 73,
+   "K": 72,
+   "class": "Hard28",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "Hard28_BPP60.txt": {
+   "B": 64,
+   "K": 63,
+   "class": "Hard28",
+   "n": 160,
+   "proven_optimal": true
+  },
+  "Hard28_BPP742.txt": {
+   "B": 65,
+   "K": 64,
+   "class": "Hard28",
+   "n": 160,
+   "proven_optimal": true
+  },
+  "Hard28_BPP766.txt": {
+   "B": 63,
+   "K": 62,
+   "class": "Hard28",
+   "n": 160,
+   "proven_optimal": true
+  },
+  "Hard28_BPP900.txt": {
+   "B": 76,
+   "K": 75,
+   "class": "Hard28",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "N1C1W4_G.txt": {
+   "B": 38,
+   "K": 37,
+   "class": "Scholl",
+   "n": 50,
+   "proven_optimal": true
+  },
+  "N1C3W2_M.txt": {
+   "B": 22,
+   "K": 21,
+   "class": "Scholl",
+   "n": 50,
+   "proven_optimal": true
+  },
+  "N1W1B1R4.txt": {
+   "B": 19,
+   "K": 17,
+   "class": "Scholl",
+   "n": 50,
+   "proven_optimal": true
+  },
+  "N1W1B2R4.txt": {
+   "B": 18,
+   "K": 17,
+   "class": "Scholl",
+   "n": 50,
+   "proven_optimal": true
+  },
+  "N1W3B1R2.txt": {
+   "B": 8,
+   "K": 7,
+   "class": "Scholl",
+   "n": 50,
+   "proven_optimal": true
+  },
+  "N2C3W2_D.txt": {
+   "B": 42,
+   "K": 41,
+   "class": "Scholl",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "N2C3W4_T.txt": {
+   "B": 47,
+   "K": 46,
+   "class": "Scholl",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "N2W1B1R3.txt": {
+   "B": 38,
+   "K": 34,
+   "class": "Scholl",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "N2W1B1R9.txt": {
+   "B": 37,
+   "K": 34,
+   "class": "Scholl",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "N2W1B2R1.txt": {
+   "B": 35,
+   "K": 33,
+   "class": "Scholl",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "N3C3W1_E.txt": {
+   "B": 69,
+   "K": 68,
+   "class": "Scholl",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "N3C3W2_T.txt": {
+   "B": 80,
+   "K": 79,
+   "class": "Scholl",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "N3W2B1R0.txt": {
+   "B": 44,
+   "K": 41,
+   "class": "Scholl",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "N3W2B1R3.txt": {
+   "B": 44,
+   "K": 41,
+   "class": "Scholl",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "N3W3B1R1.txt": {
+   "B": 30,
+   "K": 28,
+   "class": "Scholl",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "N4C1W2_G.txt": {
+   "B": 308,
+   "K": 307,
+   "class": "Scholl",
+   "n": 500,
+   "proven_optimal": true
+  },
+  "N4C2W2_Q.txt": {
+   "B": 258,
+   "K": 257,
+   "class": "Scholl",
+   "n": 500,
+   "proven_optimal": true
+  },
+  "N4C3W2_H.txt": {
+   "B": 203,
+   "K": 201,
+   "class": "Scholl",
+   "n": 500,
+   "proven_optimal": true
+  },
+  "N4C3W4_N.txt": {
+   "B": 229,
+   "K": 225,
+   "class": "Scholl",
+   "n": 500,
+   "proven_optimal": true
+  },
+  "N4W1B2R1.txt": {
+   "B": 178,
+   "K": 170,
+   "class": "Scholl",
+   "n": 500,
+   "proven_optimal": true
+  },
+  "N4W4B1R9.txt": {
+   "B": 57,
+   "K": 55,
+   "class": "Scholl",
+   "n": 500,
+   "proven_optimal": true
+  },
+  "Schwerin1_BPP13.txt": {
+   "B": 19,
+   "K": 18,
+   "class": "Schwerin",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "Schwerin1_BPP3.txt": {
+   "B": 19,
+   "K": 18,
+   "class": "Schwerin",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "Schwerin1_BPP31.txt": {
+   "B": 19,
+   "K": 18,
+   "class": "Schwerin",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "Schwerin1_BPP54.txt": {
+   "B": 19,
+   "K": 18,
+   "class": "Schwerin",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "Schwerin1_BPP8.txt": {
+   "B": 19,
+   "K": 18,
+   "class": "Schwerin",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "Schwerin1_BPP97.txt": {
+   "B": 19,
+   "K": 18,
+   "class": "Schwerin",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP17.txt": {
+   "B": 23,
+   "K": 22,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP20.txt": {
+   "B": 23,
+   "K": 22,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP27.txt": {
+   "B": 23,
+   "K": 21,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP29.txt": {
+   "B": 23,
+   "K": 21,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP31.txt": {
+   "B": 23,
+   "K": 22,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP38.txt": {
+   "B": 23,
+   "K": 22,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP51.txt": {
+   "B": 23,
+   "K": 22,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP58.txt": {
+   "B": 23,
+   "K": 22,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP64.txt": {
+   "B": 23,
+   "K": 22,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP74.txt": {
+   "B": 23,
+   "K": 22,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP76.txt": {
+   "B": 23,
+   "K": 22,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP79.txt": {
+   "B": 23,
+   "K": 21,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP85.txt": {
+   "B": 23,
+   "K": 22,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP86.txt": {
+   "B": 23,
+   "K": 22,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Schwerin2_BPP95.txt": {
+   "B": 23,
+   "K": 22,
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "Waescher_TEST0030.txt": {
+   "B": 28,
+   "K": 27,
+   "class": "Wäscher",
+   "n": 111,
+   "proven_optimal": true
+  },
+  "Waescher_TEST0058.txt": {
+   "B": 21,
+   "K": 20,
+   "class": "Wäscher",
+   "n": 91,
+   "proven_optimal": true
+  },
+  "Waescher_TEST0082.txt": {
+   "B": 25,
+   "K": 24,
+   "class": "Wäscher",
+   "n": 86,
+   "proven_optimal": true
+  },
+  "csAA125_16.txt": {
+   "B": 559,
+   "K": 552,
+   "class": "GI",
+   "n": 1271,
+   "proven_optimal": true
+  },
+  "csAA125_7.txt": {
+   "B": 584,
+   "K": 573,
+   "class": "GI",
+   "n": 1376,
+   "proven_optimal": true
+  },
+  "csAA125_8.txt": {
+   "B": 557,
+   "K": 542,
+   "class": "GI",
+   "n": 1336,
+   "proven_optimal": true
+  },
+  "csAA250_17.txt": {
+   "B": 1100,
+   "K": 1084,
+   "class": "GI",
+   "n": 2531,
+   "proven_optimal": true
+  },
+  "csAA250_18.txt": {
+   "B": 1085,
+   "K": 1067,
+   "class": "GI",
+   "n": 2551,
+   "proven_optimal": true
+  },
+  "csAA250_20.txt": {
+   "B": 1118,
+   "K": 1095,
+   "class": "GI",
+   "n": 2677,
+   "proven_optimal": true
+  },
+  "csAA250_3.txt": {
+   "B": 1015,
+   "K": 997,
+   "class": "GI",
+   "n": 2446,
+   "proven_optimal": true
+  },
+  "csAA500_18.txt": {
+   "B": 2115,
+   "K": 2084,
+   "class": "GI",
+   "n": 5259,
+   "proven_optimal": true
+  },
+  "csBA125_14.txt": {
+   "B": 617,
+   "K": 608,
+   "class": "GI",
+   "n": 1409,
+   "proven_optimal": true
+  },
+  "csBA125_19.txt": {
+   "B": 577,
+   "K": 563,
+   "class": "GI",
+   "n": 1346,
+   "proven_optimal": true
+  },
+  "csBA250_3.txt": {
+   "B": 1093,
+   "K": 1077,
+   "class": "GI",
+   "n": 2624,
+   "proven_optimal": true
+  },
+  "csBA500_10.txt": {
+   "B": 2237,
+   "K": 2196,
+   "class": "GI",
+   "n": 5327,
+   "proven_optimal": true
+  },
+  "csBA500_13.txt": {
+   "B": 2216,
+   "K": 2180,
+   "class": "GI",
+   "n": 5310,
+   "proven_optimal": true
+  },
+  "csBA500_6.txt": {
+   "B": 2058,
+   "K": 2026,
+   "class": "GI",
+   "n": 4932,
+   "proven_optimal": true
+  }
+ }
+}

@@ -1,0 +1,276 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/ex002.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex002.vrp",
+      "git_blob": "3b57c0fc103ac9cca05540d87fe04c09669e8a10",
+      "bytes": 636,
+      "sha256": "cd830c002ac73dda0651154f3fb66d2965a057f9e84b6268d75c5a78042dc220",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex006.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex006.vrp",
+      "git_blob": "a5fde8754e5ae040cfca3126b6c1ac7b596b477f",
+      "bytes": 700,
+      "sha256": "61edf3e3d5ed3320e6322badcedb9646972a673a800fb2f8618523c3e3cd5b52",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex009.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex009.vrp",
+      "git_blob": "d5610d322d7de7632c6364c0457fb9dc948d2b73",
+      "bytes": 790,
+      "sha256": "fef77cce6a0ec7ecabe1f5dce399a1c289683709f5375840449917dfe64cf4ce",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex012.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex012.vrp",
+      "git_blob": "0454790a42f483f217bedcd0a7ff96df2a18f281",
+      "bytes": 919,
+      "sha256": "b3fedefed655174e282fd6fea20ca3f06d9f31aa9e344d4a27cd06081a392c58",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex016.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex016.vrp",
+      "git_blob": "7014db3548167eabfae3c30cd4746f7ee84c428b",
+      "bytes": 1068,
+      "sha256": "ae7b56e55b2b0b913d01e9e25a6d4da36502f6e6f430509c19c206e289697566",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex019.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex019.vrp",
+      "git_blob": "8281220ea5fd9b25d354b80b34e29b46b921fa31",
+      "bytes": 1130,
+      "sha256": "525c5f2537b7b67fe8d8ed1c12a0b7897b8e4eab74ddc3bcf80666b377459b81",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex022.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex022.vrp",
+      "git_blob": "4b8cedaaf220c2fbf333f902a0a4b16d0da3f4e4",
+      "bytes": 688,
+      "sha256": "b8169dc3d71ecf36457b75c7e3a836ab41de7266df479c7c83895d895149d7b1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex026.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex026.vrp",
+      "git_blob": "c3b55ce059a1623829d6598b24b7f6dbd9e846af",
+      "bytes": 796,
+      "sha256": "ea6a75ce3f9d944e81db7dfe91eca166bc4684f028c206f34ded2c9e7646e7d6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex030.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex030.vrp",
+      "git_blob": "4e53c18fcf082b41ed58af0fd988991598f14c24",
+      "bytes": 884,
+      "sha256": "031449ede6c34d1851ecc70308296c610c82af38cf060e2e5cfa3b6fc22fe7f7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex033.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex033.vrp",
+      "git_blob": "089b8cc2e2d2661027fea1ca86bd02a6ab89d11d",
+      "bytes": 981,
+      "sha256": "21f6545bae98d077c8522ed986c12f9c620dffc2261cc06193c25f18bc4c121c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex037.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex037.vrp",
+      "git_blob": "cc1e1998978d9a9b3ee2e380f4c989cea71d4187",
+      "bytes": 1119,
+      "sha256": "ee2b02ba18b4c7efec8110965a75eb2255500846bce9c42a3539ae414a058c21",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex041.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex041.vrp",
+      "git_blob": "f1ac500b15f5aa4f1e50e68ffa61cbe4a031f9d4",
+      "bytes": 2444,
+      "sha256": "799392bdb9ba246c6a3f5854ab17fd990f4806f78eaceadb670b55dc1ce835e7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex044.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex044.vrp",
+      "git_blob": "45f10ed1adda841f2fad7a878f31eee63dfac418",
+      "bytes": 2020,
+      "sha256": "52584527ad3500fc350c48aafa5b2f001cacfee6fb5710e8df2982cfae49d11a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex047.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex047.vrp",
+      "git_blob": "20587798c3eb70bffb825e6d3299ac3579e28e32",
+      "bytes": 2249,
+      "sha256": "b3fd79295635ac2404a6b771abbf9900770f865b13887103c9cf8e1c4c98953d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex051.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex051.vrp",
+      "git_blob": "8c2d1701f85a26c00cbd717efdef21b8a9d45fed",
+      "bytes": 2730,
+      "sha256": "c52441d9077cd4113dba14c780d6ac0c0b17f32cef6730387556ad358749972c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex054.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex054.vrp",
+      "git_blob": "d5f2f9e71785e9680497e7892ff4c24841362f0b",
+      "bytes": 3199,
+      "sha256": "49f67048576c75a308bf03a59e175880d184a59f0d84fe50c693a5a9ed4db3be",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex057.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex057.vrp",
+      "git_blob": "d3c9e0e2e9dbbdf5d9b2c2856766d83b0a93342d",
+      "bytes": 3667,
+      "sha256": "07f2beec8f25d4d85a7b0475102fa221ad67908f3829e0a4eecc68523617c206",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex061.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex061.vrp",
+      "git_blob": "6920a8a09023f9d3583821c7698ae952124f29b2",
+      "bytes": 3836,
+      "sha256": "41bef2115e256873de2ded33eb1908a4f4e1e87e8199dcb80ca86ef8033016b6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex064.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex064.vrp",
+      "git_blob": "91827e17b582d0f92b391113e5944347596c25fd",
+      "bytes": 4156,
+      "sha256": "73838958d05a3b379b04f7ef2a4774005bfb5701ccd6532d071659566e34b8b4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex067.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex067.vrp",
+      "git_blob": "18749688039d8603fe19b4a89c209f969c72c9e6",
+      "bytes": 4774,
+      "sha256": "b48806c60d425dc5014ab54e8b3e9b4f7898bb1ce0b434d06f709d176ec5684d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex070.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex070.vrp",
+      "git_blob": "9dbee6ca1d52c06e862ddebe1dbf0cdb15e5dd04",
+      "bytes": 4982,
+      "sha256": "3b03ff1ae021e9e375064b451df301fa3714985ace066d35039a24c621283dc8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex074.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex074.vrp",
+      "git_blob": "a0edab75ee32f5b15bd818f33b81f696f575a471",
+      "bytes": 5454,
+      "sha256": "51f518a7c512e25330351c041b9675218cbf1678fe119ff9549e9a0ac093be70",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex077.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex077.vrp",
+      "git_blob": "5f806157721e30e26d460a9eba4f153f5dd410a9",
+      "bytes": 5841,
+      "sha256": "e6dbbca9166edc6ffdcf419d89781f65904b665253f43bdbb379081508d26804",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex080.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex080.vrp",
+      "git_blob": "709fb3fdf51540b7c73d456bfeb6da1e5120a9dc",
+      "bytes": 6581,
+      "sha256": "b95d7546349749c5f126e522a935c29d84a3f5daee89ac20c6f081f9f94af010",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex083.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex083.vrp",
+      "git_blob": "524ff74294c09e7cad394576d8b1e67a2ece781c",
+      "bytes": 6621,
+      "sha256": "b1356be899da8dc16eae07c0a874f8849a1a53fd8f66cc581964e1185c43ea69",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex087.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex087.vrp",
+      "git_blob": "372b81dd40537e996dc4f03f4fd53d6c1907c864",
+      "bytes": 7482,
+      "sha256": "6c719ec45fba3464b972c92324b6c7655eb239824a46fd24aabc47f7b9011007",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex090.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex090.vrp",
+      "git_blob": "bb2b08a46f234a7b5e2df3e128fb2904c98cd1a8",
+      "bytes": 8635,
+      "sha256": "8b7bc71252a33be6d955b1f47bb2c4a2510444d632d34721791fdb4c2d6cafa0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex093.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex093.vrp",
+      "git_blob": "a64dfa486fbdbd80ac835eab3119b0ad14eeb500",
+      "bytes": 9148,
+      "sha256": "acf21281cb85ff3b1aaccf4222a1c455453e94fbcbfa96abe2b6764fcb9f011d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex097.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex097.vrp",
+      "git_blob": "c8e2646a1098ebcdf1b0bb964483e4f26c7a7ff9",
+      "bytes": 10262,
+      "sha256": "d6ba50d99bba9df685bf874d3d9d4c3b9feb81d55bbf4ca2810b66e25c048105",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex100.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex100.vrp",
+      "git_blob": "ab020100931325df692d2742d448a6d3bcba98ef",
+      "bytes": 11166,
+      "sha256": "b65ac735c2ebadb2d5d40f4d2c3c9b3acac314cba608984cde1cd4e4ba6e7eef",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex103.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex103.vrp",
+      "git_blob": "4d9e148c78e002d46a24ff1ddfba73504470c215",
+      "bytes": 12775,
+      "sha256": "afbb9d878054b30f740abbcf556ad7787aa233e7cd4b10e77344dce49d45ee8b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex106.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex106.vrp",
+      "git_blob": "f466cd8a06ceb9b8d639ce922c136ce7659a5bcf",
+      "bytes": 13993,
+      "sha256": "6070a4d5ec2a29be0cf3c211c9ece73b8b14dd0bee0cf5e641927b36b3dfe4c5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex110.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex110.vrp",
+      "git_blob": "5103240604472ff4a23def567cff718d76e05c0c",
+      "bytes": 14918,
+      "sha256": "f3ddccb4ffd500e9fe1e710b84a494b629bbe76c141c25a470a5eed786d6d1a3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex113.vrp",
+      "source_path": "tasks/solver/online/cvrp-cvrplib/tests/instances/ex113.vrp",
+      "git_blob": "03c31f20d3b6f157139ca3a8dfdcc6defb115239",
+      "bytes": 16391,
+      "sha256": "9a621585b9d6f8acaf24480ef1e10d14766dcf7fae614cb6e9f8cb44814afcee",
+      "mode": "0644"
+    }
+  ]
+}

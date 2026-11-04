@@ -1,0 +1,41 @@
+schema_version = "1.4"
+artifacts = ["/app"]
+
+[task]
+name = "tcsexam/tsp-gap-lean-open"
+version = "1.0.0"
+description = "Open-proof task: in Lean 4, bring your own metric TSP instance (n in [15,20] for the records, metric closure costs), a rational subtour-LP feasible point and a Held-Karp potential table, and prove a lower bound alpha on the subtour-LP integrality gap. Milestones: 11/9 (n = 15 record) scores 1.0, 27/22 (n = 16 record) scores 1.1, beating the per-n record is flagged record_broken."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "metric-tsp", "subtour-lp", "integrality-gap", "held-karp", "open-proof", "open-construction"]
+
+[metadata]
+family_id = "fam-tsp-subtour-gap"
+candidate_id = "cand-tsp-l2-tsp-gap-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open-proof"
+difficulty_explanation = "No instance, witness or lemma ladder is given: the agent must find a bad metric-TSP instance itself (the n = 15/16 half-integral records of Cook-Hougardy-Petrich are the score anchors), engineer a kernel-checkable certificate (LP feasible point, Held-Karp potential table over 2^n masks) inside the fixed definition layer, and drive large `decide` computations through the kernel within the verifier budget."
+source_paper = "Cook, Hougardy, Petrich, Extending Exact Integrality Gap Computations for the Metric TSP, arXiv:2603.12995 (2026); Benoit, Boyd, Finding the exact integrality gap for small traveling salesman problems, Math. Oper. Res. 33(4):921-931 (2008); Schalekamp, Williamson, van Zuylen, half-integrality conjecture (SODA 2011)"
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+network_mode = "public"
+timeout_sec = 43200.0
+
+[environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:923bd4676e56f0c200ca12655f8a9f5f3a5869a602229bb14f8b9e83f91d7051"
+os = "linux"
+network_mode = "public"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:251f244679829b5a1f8e4df18060003c4d9af27ba0c192f11618d9042a9e97c1"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

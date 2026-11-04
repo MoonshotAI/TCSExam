@@ -1,0 +1,818 @@
+{
+ "004863d417005ff2385b1f6d1faa90d9953b498adc288704b46dd38e0256bfa9": {
+  "K": 110030,
+  "instance": "scr20.dat",
+  "interpretation": "direct",
+  "perm": "scr20.perm"
+ },
+ "009873ced049c52af8f5265e905646c593e0c49c7e0000612e9838fe3fd5dcf7": {
+  "K": 578,
+  "instance": "nug12.dat",
+  "interpretation": "direct",
+  "perm": "nug12.perm"
+ },
+ "02231e7baeeb947de4a8c052bffaac348987503a24436e2366e7092e4485fcfd": {
+  "K": 996,
+  "instance": "esc16h.dat",
+  "interpretation": "direct",
+  "perm": "esc16h.perm"
+ },
+ "0451bb0f1e4474f1175a630b8899ea2354e4ed99ebc8cd5f250409ee0c6b2c8e": {
+  "K": 3782044,
+  "instance": "bur26f.dat",
+  "interpretation": "direct",
+  "perm": "bur26f.perm"
+ },
+ "05005bb037d1024d49cf347d640be3e3da2f36f44c33f99dba23034c92ce5b12": {
+  "K": 26,
+  "instance": "esc16g.dat",
+  "interpretation": "direct",
+  "perm": "esc16g.perm"
+ },
+ "05c1f11adfef90b49b68ffa9853a9ac9ee144fa60e25991b47c6a3e6357525df": {
+  "K": 2422002,
+  "instance": "tai35a.dat",
+  "interpretation": "direct",
+  "perm": "tai35a.perm"
+ },
+ "09a0c77688f63aee55b75efb3abe6b2e98b6cb074f788edd4ebf60c9632664a4": {
+  "K": 3817852,
+  "instance": "bur26b.dat",
+  "interpretation": "direct",
+  "perm": "bur26b.perm"
+ },
+ "09f2629cf0b66089084c14f3dcfe57390bcea3c1a6eaa43bdcccf9db021d81e4": {
+  "K": 253195,
+  "instance": "lipa80a.dat",
+  "interpretation": "direct",
+  "perm": "lipa80a.perm"
+ },
+ "0a02ea87b907b99ba63cbedd0e1859197863fc979df64c3fff7b5f435c867f3c": {
+  "K": 3596,
+  "instance": "nug22.dat",
+  "interpretation": "direct",
+  "perm": "nug22.perm"
+ },
+ "0ababe962489469ccaf66175c0c26e5e2b8d3576c8043693bb2ef05b3f0d9b13": {
+  "K": 725522,
+  "instance": "rou20.dat",
+  "interpretation": "direct",
+  "perm": "rou20.perm"
+ },
+ "0b1d9c9c1594a9a0721ea2b189f361411dd5542e3f3560e98539ed603d9205d8": {
+  "K": 1818146,
+  "instance": "tai30a.dat",
+  "interpretation": "direct",
+  "perm": "tai30a.perm"
+ },
+ "0d521c7f2971bfda82e8db80688922bc21d646401321fef3af46c8bf4c4dbd13": {
+  "K": 458821517,
+  "instance": "tai50b.dat",
+  "interpretation": "direct",
+  "perm": "tai50b.perm"
+ },
+ "12e81b04665c8d3c8c63fa3e087b6ee1fa1dabeff6b886db328eaaf8b5db1281": {
+  "K": 13499184,
+  "instance": "tai80a.dat",
+  "interpretation": "inverse",
+  "perm": "tai80a.perm"
+ },
+ "15badc20a998461110b7bcd87a9e84d6832afcd3d0d22e1030bedcecb77b5742": {
+  "K": 116,
+  "instance": "esc64a.dat",
+  "interpretation": "direct",
+  "perm": "esc64a.perm"
+ },
+ "17804e0fe90c3318c81490890c63710f1a8f7b24d14daf13bcc12cc58395bc2e": {
+  "K": 5426795,
+  "instance": "bur26c.dat",
+  "interpretation": "direct",
+  "perm": "bur26c.perm"
+ },
+ "1a7d0ec5e67a843207e9125746d1ff6417d91b76d911cf448fb3bcaef68fac37": {
+  "K": 31410,
+  "instance": "scr12.dat",
+  "interpretation": "direct",
+  "perm": "scr12.perm"
+ },
+ "1d6c43e0d42f6ff758955b7c25da73c6ab49bc83d49554de0f8966a443864f46": {
+  "K": 2298,
+  "instance": "chr20b.dat",
+  "interpretation": "direct",
+  "perm": "chr20b.perm"
+ },
+ "1e84920b4afc60c612f0c87d309589aba8ef4f20fbbdb9c39c9107845dd9e70f": {
+  "K": 11156,
+  "instance": "chr12c.dat",
+  "interpretation": "direct",
+  "perm": "chr12c.perm"
+ },
+ "1fa3f464450e7f9beb0e44eb6de213f47db3401549fbba18a8c42d5393841f4b": {
+  "K": 10117172,
+  "instance": "bur26g.dat",
+  "interpretation": "direct",
+  "perm": "bur26g.perm"
+ },
+ "20e8331af2897c4ff9ad393dcf7eed3cba8c4b6038da9220ee78bed869019034": {
+  "K": 62093,
+  "instance": "lipa50a.dat",
+  "interpretation": "direct",
+  "perm": "lipa50a.perm"
+ },
+ "254dd78dc1b392da6982d17956ff3cb7fe000a21d3b37c38f1078861f6415e46": {
+  "K": 9526,
+  "instance": "ste36a.dat",
+  "interpretation": "direct",
+  "perm": "ste36a.perm"
+ },
+ "282f3ec4d4613574e436f6376fd9eb182acd2842f2ad8ccdccd5e321b503218c": {
+  "K": 147862,
+  "instance": "sko100c.dat",
+  "interpretation": "direct",
+  "perm": "sko100c.perm"
+ },
+ "28a6675fa77643ce3b14a7f06e26a3c6ea9f7429f1c5200a123109b924c73620": {
+  "K": 1210244,
+  "instance": "lipa50b.dat",
+  "interpretation": "direct",
+  "perm": "lipa50b.perm"
+ },
+ "2b6d5b876da088d705652de568be247fe498c7a3e02eee6696c0c26b16039433": {
+  "K": 90998,
+  "instance": "sko81.dat",
+  "interpretation": "direct",
+  "perm": "sko81.perm"
+ },
+ "2d32e9c8012dbf57110ae2f1079484235a9a39f4c275fc9bf5cf9fbb167998ee": {
+  "K": 388214,
+  "instance": "tai15a.dat",
+  "interpretation": "direct",
+  "perm": "tai15a.perm"
+ },
+ "2eeb2b02006f837241f43fca4dc28bbc5d6fab2fb2962f9e09401692b1344a9f": {
+  "K": 1167256,
+  "instance": "tai25a.dat",
+  "interpretation": "direct",
+  "perm": "tai25a.perm"
+ },
+ "32501bdf56b5958e4ea1fa67a505d1c12074437543ffe948c49916f321c33cdd": {
+  "K": 5386879,
+  "instance": "bur26e.dat",
+  "interpretation": "direct",
+  "perm": "bur26e.perm"
+ },
+ "35f13ba6e53a1aea8ea0e42442e14002d9c039dc296db695c82ef18a1f1cdd76": {
+  "K": 3796,
+  "instance": "chr25a.dat",
+  "interpretation": "direct",
+  "perm": "chr25a.perm"
+ },
+ "372ab4ba37ea0dbefac8ad8e9d1934e5830f58b409425fc45d32769573f86adf": {
+  "K": 16,
+  "instance": "esc16d.dat",
+  "interpretation": "direct",
+  "perm": "esc16d.perm"
+ },
+ "37b34bc29dc7b0c762e320a911952f08e16a7b41c31d96b7c188610ac74ccc22": {
+  "K": 130,
+  "instance": "esc32a.dat",
+  "interpretation": "direct",
+  "perm": "esc32a.perm"
+ },
+ "38ec71dc0ab0310de03a91fba0d147f687d4d385ac2960a6960369f70f06a81a": {
+  "K": 17212548,
+  "instance": "els19.dat",
+  "interpretation": "direct",
+  "perm": "els19.perm"
+ },
+ "39bee796f7a47e4907d590fba160d61a00f04aaf0305f71027adb4ea3f50d470": {
+  "K": 6124,
+  "instance": "nug30.dat",
+  "interpretation": "direct",
+  "perm": "nug30.perm"
+ },
+ "3b3f261f9b391081a68c106f7b73bf8b4cd2a95aa49feec7e28cc0521b34ef97": {
+  "K": 0,
+  "instance": "esc16f.dat",
+  "interpretation": "direct",
+  "perm": "esc16f.perm"
+ },
+ "3b75b19658d049615a8df0b4fa4e7aa1993de917d282c904f29a92e0dbc66671": {
+  "K": 1240,
+  "instance": "nug16b.dat",
+  "interpretation": "direct",
+  "perm": "nug16b.perm"
+ },
+ "3fb6ba7a4236287f8171dd066a38e56cf5cccc8bb9e78b81f91b931b65c9bee5": {
+  "K": 149936,
+  "instance": "tho30.dat",
+  "interpretation": "inverse",
+  "perm": "tho30.perm"
+ },
+ "41c1781b49d46a6cd198c931bec9b26cdbe8ef4ed96ae74b46b005dfc1efcd1a": {
+  "K": 498896643,
+  "instance": "tai150b.dat",
+  "interpretation": "direct",
+  "perm": "tai150b.perm"
+ },
+ "432b2870ff45baa421f00462713f5df66b25dc250d5e3d11e9ca88295839cc61": {
+  "K": 9896,
+  "instance": "chr15a.dat",
+  "interpretation": "direct",
+  "perm": "chr15a.perm"
+ },
+ "432c5b7758d23cf26a22d9f727ca4e172e8e0c83dc220ca6f17ad566d91d6522": {
+  "K": 224416,
+  "instance": "tai12a.dat",
+  "interpretation": "direct",
+  "perm": "tai12a.perm"
+ },
+ "44165a91fe570cfa2facb98a98b763416398d1d8a322b42058b75e61d645b2b6": {
+  "K": 2192,
+  "instance": "chr20a.dat",
+  "interpretation": "direct",
+  "perm": "chr20a.perm"
+ },
+ "44332962af42c91577ba141e6fd3b6a4a6dff4afdf8c39153422a760020a28e0": {
+  "K": 200,
+  "instance": "esc32d.dat",
+  "interpretation": "direct",
+  "perm": "esc32d.perm"
+ },
+ "460bc9f2aeef34cf97c50669960521da3825283165e8daa96e83c9683250a0f8": {
+  "K": 48498,
+  "instance": "sko64.dat",
+  "interpretation": "direct",
+  "perm": "sko64.perm"
+ },
+ "48845077f3e199b660ce1fbbdc4585154b549085026405337bff870cc65f5c1a": {
+  "K": 149150,
+  "instance": "sko100e.dat",
+  "interpretation": "direct",
+  "perm": "sko100e.perm"
+ },
+ "48bf2c96dfa267ef8aff3df5fc7a40fe0df3a083f3e68aa51bdf2dc85bc1947d": {
+  "K": 5166,
+  "instance": "nug28.dat",
+  "interpretation": "direct",
+  "perm": "nug28.perm"
+ },
+ "49002acfd509950228c4f2d0125f2a57262bfd0b382a51531fdaf2ca1f51677b": {
+  "K": 6194,
+  "instance": "chr22b.dat",
+  "interpretation": "direct",
+  "perm": "chr22b.perm"
+ },
+ "4c06df0ce2f7dede5bf7f96e67b1a451bc6c98530f6d558ac208e224482cf9c9": {
+  "K": 39464925,
+  "instance": "tai12b.dat",
+  "interpretation": "direct",
+  "perm": "tai12b.perm"
+ },
+ "4e205cb35364d9d21f90bc3093d54f96c35f5882a6c150df1a00e817cf4e93ac": {
+  "K": 1185996137,
+  "instance": "tai100b.dat",
+  "interpretation": "direct",
+  "perm": "tai100b.perm"
+ },
+ "50336114f1d0eaee8be5893f704592b172c88475bdf007cb69a30def52a547d2": {
+  "K": 292,
+  "instance": "esc16b.dat",
+  "interpretation": "direct",
+  "perm": "esc16b.perm"
+ },
+ "562e61e189efca89d427694352e064241f7da7175c7cc4200ac713ad51d52cb7": {
+  "K": 6922,
+  "instance": "had20.dat",
+  "interpretation": "direct",
+  "perm": "had20.perm"
+ },
+ "596ae4ff707b175442aeb57549ea6affa6108f40217a27f97443bd9e22ff1b44": {
+  "K": 642,
+  "instance": "esc32c.dat",
+  "interpretation": "direct",
+  "perm": "esc32c.perm"
+ },
+ "5a0a83f0e38e94d3bd52228979571946337ca5470df407fc41caa7e078b4eb14": {
+  "K": 5426670,
+  "instance": "bur26a.dat",
+  "interpretation": "direct",
+  "perm": "bur26a.perm"
+ },
+ "5bee2f7a0c85e03fc6b3c9e9438c3718beecf098aaf4bcb6ee959233f0d08e31": {
+  "K": 151426,
+  "instance": "lipa30b.dat",
+  "interpretation": "direct",
+  "perm": "lipa30b.perm"
+ },
+ "5c2e4ab54a4769177b29b06aab6d562e34a372e8a35c72d7644fd0fad121583d": {
+  "K": 6,
+  "instance": "esc32g.dat",
+  "interpretation": "direct",
+  "perm": "esc32g.perm"
+ },
+ "5c74ba325e915c408519e88157cfdab8da6bb51e66ee78b0583bacc0e7b3d84c": {
+  "K": 273038,
+  "instance": "wil100.dat",
+  "interpretation": "direct",
+  "perm": "wil100.perm"
+ },
+ "5d6c7dfe2da19d707c277bfcf3a7ddc27385262c66a25db7fdc16c2e78ee3e74": {
+  "K": 4938796,
+  "instance": "tai50a.dat",
+  "interpretation": "direct",
+  "perm": "tai50a.perm"
+ },
+ "5f2807c4b480546bea160f73cec65d2734d632ff4b5bcf7b88fb0de5f5b9814d": {
+  "K": 14142,
+  "instance": "chr20c.dat",
+  "interpretation": "direct",
+  "perm": "chr20c.perm"
+ },
+ "624ffee03be3050504e57e97aaf0f6e6d98f3cb92452b6224c091d021d5ac3f8": {
+  "K": 438,
+  "instance": "esc32h.dat",
+  "interpretation": "direct",
+  "perm": "esc32h.perm"
+ },
+ "63db1fcb417ab5a41e57dab22f94a5924c2a942b53946079144c2bf9a8f339da": {
+  "K": 51140,
+  "instance": "scr15.dat",
+  "interpretation": "direct",
+  "perm": "scr15.perm"
+ },
+ "68eb28fe4a6339c59be009f5386e8c9ac21a8a384b3e118c354b31cb3930c4e2": {
+  "K": 360630,
+  "instance": "lipa90a.dat",
+  "interpretation": "direct",
+  "perm": "lipa90a.perm"
+ },
+ "6ac0dac86928c1c6ea7fd9f73a7b6de65652c51a8bb01f927520d78cbafae863": {
+  "K": 7763962,
+  "instance": "lipa80b.dat",
+  "interpretation": "direct",
+  "perm": "lipa80b.perm"
+ },
+ "7353a03dbe9994339e25888f54d9889fec4a60a7f78c6bb3de515ac01523fa09": {
+  "K": 12490441,
+  "instance": "lipa90b.dat",
+  "interpretation": "direct",
+  "perm": "lipa90b.perm"
+ },
+ "7655b684ab9c6163a35b291d3cab5e3b30234a158ac05e87bd89bb65e4d4e8ed": {
+  "K": 818415043,
+  "instance": "tai80b.dat",
+  "interpretation": "direct",
+  "perm": "tai80b.perm"
+ },
+ "77683666cd37b1875016307858fe668af72d45c67c0f4498dccf8c0f983127ef": {
+  "K": 8239110,
+  "instance": "ste36c.dat",
+  "interpretation": "inverse",
+  "perm": "ste36c.perm"
+ },
+ "77a9300ab0348e63219234a5c75f9c5952d3dccdb70ae10cdcaaaa2800f8908a": {
+  "K": 88900,
+  "instance": "kra30a.dat",
+  "interpretation": "inverse",
+  "perm": "kra30a.perm"
+ },
+ "781029f274b12aa1e67e7726d03cf532d1b0e522a960e005cb5208b3479b8c43": {
+  "K": 9742,
+  "instance": "chr12b.dat",
+  "interpretation": "direct",
+  "perm": "chr12b.perm"
+ },
+ "786290253608e8a26a8ecdd93a65e75aa4fbd11fcde436fb466681640add59d8": {
+  "K": 1732,
+  "instance": "nug17.dat",
+  "interpretation": "direct",
+  "perm": "nug17.perm"
+ },
+ "7971399399d648fc6dbc0773226cff29fbb32f833644cbf089b07c4832df4832": {
+  "K": 34458,
+  "instance": "sko56.dat",
+  "interpretation": "direct",
+  "perm": "sko56.perm"
+ },
+ "7eb785817ce24402b78a16a54d6ef942283869a3b4af615f0c10bea62fee044c": {
+  "K": 27076,
+  "instance": "lipa20b.dat",
+  "interpretation": "direct",
+  "perm": "lipa20b.perm"
+ },
+ "81a71a5041e235135a26035289e78995a9ba40834f27ac5cbfeaacdaf785f307": {
+  "K": 64,
+  "instance": "esc128.dat",
+  "interpretation": "inverse",
+  "perm": "esc128.perm"
+ },
+ "81dcf8907cec1fb68c21ec429d74cb540d42e21a4034f34d7d4135d7b51f8af4": {
+  "K": 28,
+  "instance": "esc16e.dat",
+  "interpretation": "direct",
+  "perm": "esc16e.perm"
+ },
+ "845a38385c9bd7f80b7a0e90dea7b969200fdefbdde2d1d6bc7da74345bc17e6": {
+  "K": 283315445,
+  "instance": "tai35b.dat",
+  "interpretation": "direct",
+  "perm": "tai35b.perm"
+ },
+ "85271a29e45a4444e6a8971d37a660f33d4b0f9234381f3eef286342e6d18307": {
+  "K": 13178,
+  "instance": "lipa30a.dat",
+  "interpretation": "direct",
+  "perm": "lipa30a.perm"
+ },
+ "87828c29c0e891318292510f89672891db7e6f5f13313d76ac80f6f87b6cb02c": {
+  "K": 7098658,
+  "instance": "bur26h.dat",
+  "interpretation": "direct",
+  "perm": "bur26h.perm"
+ },
+ "8b75a2f8f53eb6d404a9415161ef227bdea3f3be1a4d1a50aeb93398d8e7d561": {
+  "K": 31538,
+  "instance": "lipa40a.dat",
+  "interpretation": "direct",
+  "perm": "lipa40a.perm"
+ },
+ "8df30ffcd702519b242d7596d6aa79714c7894cf17db28b5dfbc5cd5822bf36c": {
+  "K": 91420,
+  "instance": "kra30b.dat",
+  "interpretation": "inverse",
+  "perm": "kra30b.perm"
+ },
+ "8fb0a8b8577c5e133d0906e4b80cf1c3d84b3bae064ef372998aa866b7494fdd": {
+  "K": 107218,
+  "instance": "lipa60a.dat",
+  "interpretation": "direct",
+  "perm": "lipa60a.perm"
+ },
+ "8fbc318eda40cd97d7325d92dcd5f7c49c542d397fba6e251e1e4523536a5be9": {
+  "K": 88700,
+  "instance": "kra32.dat",
+  "interpretation": "direct",
+  "perm": "kra32.perm"
+ },
+ "916fadba908a69df68cef6c73ce5787bd54cbe4b43518313740a8cea628578be": {
+  "K": 2,
+  "instance": "esc32e.dat",
+  "interpretation": "direct",
+  "perm": "esc32e.perm"
+ },
+ "93030619a44b37699d388cc26ea399b62b2e8c7689fffe04224c619bf7528616": {
+  "K": 3821225,
+  "instance": "bur26d.dat",
+  "interpretation": "direct",
+  "perm": "bur26d.perm"
+ },
+ "9456743128124dedbeb438783f7de609c8e3900afeb7c439e37160ceec3c19b5": {
+  "K": 149576,
+  "instance": "sko100d.dat",
+  "interpretation": "direct",
+  "perm": "sko100d.perm"
+ },
+ "95e9f1eae047d620c3293dc9eb4aecfddfcb375a7c255c09d4d0d20bd5f6e327": {
+  "K": 168,
+  "instance": "esc32b.dat",
+  "interpretation": "direct",
+  "perm": "esc32b.perm"
+ },
+ "99a99ac040cf6fe74b5378aa7d23bf462a8b230356fcf0bed74e5ce325864dfa": {
+  "K": 153890,
+  "instance": "sko100b.dat",
+  "interpretation": "direct",
+  "perm": "sko100b.perm"
+ },
+ "9bf0f974219614ff5d6c4446ff8ebd7cf163ea75a0b6dda24159db41df77f422": {
+  "K": 637117113,
+  "instance": "tai30b.dat",
+  "interpretation": "direct",
+  "perm": "tai30b.perm"
+ },
+ "9db5a1681efa3871b726a4a2e40343940909dfbd944fcfd357cb617461ef9e6d": {
+  "K": 15852,
+  "instance": "ste36b.dat",
+  "interpretation": "direct",
+  "perm": "ste36b.perm"
+ },
+ "9f4e126a552cc064b312b6d5db47f15329ea920ac3a72c0c9fccd49b0ad5b5b1": {
+  "K": 3488,
+  "instance": "nug24.dat",
+  "interpretation": "direct",
+  "perm": "nug24.perm"
+ },
+ "a01e27efcad602dccb8bbace1cdccc1e9b4d8e6aa7a59208791ead31f4580943": {
+  "K": 2520135,
+  "instance": "lipa60b.dat",
+  "interpretation": "direct",
+  "perm": "lipa60b.perm"
+ },
+ "a541927924c7d4f0121fda36fba061606d4818236d28efc8dbcfff67c8c4262d": {
+  "K": 1150,
+  "instance": "nug15.dat",
+  "interpretation": "direct",
+  "perm": "nug15.perm"
+ },
+ "a608d90019977f448ddf06eb667f4804a0d83fd32a7d4cc329ded7f61b0eea77": {
+  "K": 68,
+  "instance": "esc16a.dat",
+  "interpretation": "direct",
+  "perm": "esc16a.perm"
+ },
+ "a93d50b43eb893684241015fc1cacebc9cd466d7f7da9e18b62041bc0f899cef": {
+  "K": 135028,
+  "instance": "tai10a.dat",
+  "interpretation": "exact-enumeration",
+  "perm": "tai10a.perm"
+ },
+ "ab3d07d027efc20d991ab271ae08e18b51a3b679ca40c436a015014330af2ea1": {
+  "K": 2570,
+  "instance": "nug20.dat",
+  "interpretation": "direct",
+  "perm": "nug20.perm"
+ },
+ "ae18fde7db757430c061cd9b8c316062c776bcb653272510e9642d3689933467": {
+  "K": 5358,
+  "instance": "had18.dat",
+  "interpretation": "direct",
+  "perm": "had18.perm"
+ },
+ "af3f0d7fffd2056ce62bd3df5b9f1ff06842b03d14d6d29137b4d91a3006dbb0": {
+  "K": 5234,
+  "instance": "nug27.dat",
+  "interpretation": "direct",
+  "perm": "nug27.perm"
+ },
+ "b0f04bca9bb31c0b4e4b099a988f7264a1f6c36e9af514cc860a490d76134563": {
+  "K": 1855928,
+  "instance": "tai64c.dat",
+  "interpretation": "direct",
+  "perm": "tai64c.perm"
+ },
+ "b1a89b36a48b8e4e727c2989183f915da0e8f9d5d40c5afb7d6fc4d27138a2db": {
+  "K": 3139370,
+  "instance": "tai40a.dat",
+  "interpretation": "direct 0-based(+1)",
+  "perm": "tai40a.perm"
+ },
+ "b2f0889fc3a87412219a69d4e4606adca54b5b65d6f6d6dac67fe1bf50f7f3e0": {
+  "K": 51765268,
+  "instance": "tai15b.dat",
+  "interpretation": "direct",
+  "perm": "tai15b.perm"
+ },
+ "b3318f29d845515bb40b8cf7a31aac626221a34b6b026e90d9c39649de9b026d": {
+  "K": 7990,
+  "instance": "chr15b.dat",
+  "interpretation": "direct",
+  "perm": "chr15b.perm"
+ },
+ "b37eb1a1053e30425bdb1811651a908ec9a36877a5598044ad0da60621f60ef7": {
+  "K": 240516,
+  "instance": "tho40.dat",
+  "interpretation": "direct",
+  "perm": "tho40.perm"
+ },
+ "b833135fb425c7c52a31a3bb030feff25f4087c3ceddf4bda10ad9ede699150e": {
+  "K": 1183760,
+  "instance": "tai10b.dat",
+  "interpretation": "exact-enumeration",
+  "perm": "tai10b.perm"
+ },
+ "c36b859af2655dd97eb7fe098c0aad63ff97eb86436b6284a286d11d77df85cf": {
+  "K": 235528,
+  "instance": "rou12.dat",
+  "interpretation": "direct",
+  "perm": "rou12.perm"
+ },
+ "c3b43197840e21afa4ce752b30a868eb9cdc02034efa90d0161120c230b4db01": {
+  "K": 1534,
+  "instance": "chr18b.dat",
+  "interpretation": "direct",
+  "perm": "chr18b.perm"
+ },
+ "c481240e5779f5897bc3cce4d9ac5f3b7cf16a31358579383a9e1fca95af6e60": {
+  "K": 8,
+  "instance": "esc16j.dat",
+  "interpretation": "direct",
+  "perm": "esc16j.perm"
+ },
+ "c4d143817a4d0c14d58328a615cf4965ec647ad80446b4276632dca1a39e230a": {
+  "K": 66256,
+  "instance": "sko72.dat",
+  "interpretation": "direct",
+  "perm": "sko72.perm"
+ },
+ "c58dd009fc8701ccd3fd678ae38ee384e69f16c42f507231ebae95acc7a5bc16": {
+  "K": 344355646,
+  "instance": "tai25b.dat",
+  "interpretation": "direct",
+  "perm": "tai25b.perm"
+ },
+ "c993dd77a42f2bf07cd6853b894180c7e29f5dd8c4011e28244f3f1252469983": {
+  "K": 1652,
+  "instance": "had12.dat",
+  "interpretation": "direct",
+  "perm": "had12.perm"
+ },
+ "cd05ce716e51fa058ecb4f1aa97c0acd99175e55c34556f856d1054158e172b2": {
+  "K": 1930,
+  "instance": "nug18.dat",
+  "interpretation": "direct",
+  "perm": "nug18.perm"
+ },
+ "cefe3d638b0d6325b2aaba9f7f3ec4080df5308f2e6983a463f54b23014fb122": {
+  "K": 608215054,
+  "instance": "tai60b.dat",
+  "interpretation": "direct",
+  "perm": "tai60b.perm"
+ },
+ "cff8004b063f3472da4d1bc875fa5ae4d1fa3c6fed71a4598324e90400fb5be5": {
+  "K": 14,
+  "instance": "esc16i.dat",
+  "interpretation": "direct",
+  "perm": "esc16i.perm"
+ },
+ "d190668f0d6999988ea9894ba39425ec3be8c400ce527d6ff24c761dcf9c9c48": {
+  "K": 9504,
+  "instance": "chr15c.dat",
+  "interpretation": "direct",
+  "perm": "chr15c.perm"
+ },
+ "d1fc855c4d72c0297c90138d1da780a88b9562fa466a9901041dc40c6c6a57cb": {
+  "K": 44759294,
+  "instance": "tai256c.dat",
+  "interpretation": "direct",
+  "perm": "tai256c.perm"
+ },
+ "d2237149d871bc0972bf7599e3e6acf1d81379ccbba0379797e62ddcef5f89b8": {
+  "K": 2724,
+  "instance": "had14.dat",
+  "interpretation": "direct",
+  "perm": "had14.perm"
+ },
+ "d2fa780880e40549cea17aaa15cdc612ea372d9312d55eb19ba75b1abe69d3fb": {
+  "K": 169755,
+  "instance": "lipa70a.dat",
+  "interpretation": "direct",
+  "perm": "lipa70a.perm"
+ },
+ "d5a64a71c89517bbdb9f7735a6e539bd2957960374f70216dfe2c76635d29576": {
+  "K": 354210,
+  "instance": "rou15.dat",
+  "interpretation": "direct",
+  "perm": "rou15.perm"
+ },
+ "d5fe146c93e46e355afb8e63363b5d65d73effe51057f8a33c7c0608c4cc082d": {
+  "K": 637250948,
+  "instance": "tai40b.dat",
+  "interpretation": "direct",
+  "perm": "tai40b.perm"
+ },
+ "d80fa8de7559cf558b3cf25b37aae950630d010c64ef67b6cfe41786be2876de": {
+  "K": 21044752,
+  "instance": "tai100a.dat",
+  "interpretation": "direct",
+  "perm": "tai100a.perm"
+ },
+ "d9a9234efb5822c2c95cfc2af27e413281ad035943864f36a7f7da79b828eb61": {
+  "K": 48816,
+  "instance": "wil50.dat",
+  "interpretation": "direct",
+  "perm": "wil50.perm"
+ },
+ "d9d96e6a1186ce9a37ee8b77ad47f66ed627545351b4610702781cbf46b7b851": {
+  "K": 3720,
+  "instance": "had16.dat",
+  "interpretation": "direct",
+  "perm": "had16.perm"
+ },
+ "dc3a79cb46c453717cf66322d62fa29fb8d3672b3c87cb13032ca7cd59bc4f74": {
+  "K": 152002,
+  "instance": "sko100a.dat",
+  "interpretation": "direct",
+  "perm": "sko100a.perm"
+ },
+ "e2fab825b5e53b4cdc16fbeeada9c9845e705b4456d15b6ec06643bf97053ff5": {
+  "K": 11098,
+  "instance": "chr18a.dat",
+  "interpretation": "direct",
+  "perm": "chr18a.perm"
+ },
+ "e7398dfd715c612f84d0dbb0f01a086e0e60367157ff2e3c63317cde76615681": {
+  "K": 3744,
+  "instance": "nug25.dat",
+  "interpretation": "direct",
+  "perm": "nug25.perm"
+ },
+ "e824b07399b1b7577f9a8a0d80f61de83e4ee166faf314d058fdd5ffcbffe7b7": {
+  "K": 149036,
+  "instance": "sko100f.dat",
+  "interpretation": "direct",
+  "perm": "sko100f.perm"
+ },
+ "eba4e0e2b35b407713334b9fdf1afb904612a50101cf588750ede0004bd5a339": {
+  "K": 4603200,
+  "instance": "lipa70b.dat",
+  "interpretation": "direct",
+  "perm": "lipa70b.perm"
+ },
+ "ecad58b184a1be285a119e4f8f636219c8dd289c0543902d93ae4f6aca3c2388": {
+  "K": 1014,
+  "instance": "nug14.dat",
+  "interpretation": "direct",
+  "perm": "nug14.perm"
+ },
+ "edcc06ee107df9fa56458063d1f2b0fcebb792c503f10382019c3491c06d8b41": {
+  "K": 2438,
+  "instance": "nug21.dat",
+  "interpretation": "direct",
+  "perm": "nug21.perm"
+ },
+ "edd221fc3fac77e340ae4f13ae1bbf54958867bfce4aed8f29b4d9112f04eee0": {
+  "K": 9552,
+  "instance": "chr12a.dat",
+  "interpretation": "direct",
+  "perm": "chr12a.perm"
+ },
+ "eeaa645d717be0ceecce94506da56d0cfd41d4c9a396396379bdf289fc36dd19": {
+  "K": 703482,
+  "instance": "tai20a.dat",
+  "interpretation": "direct",
+  "perm": "tai20a.perm"
+ },
+ "f06c9a7ab626396b1962dc4d74e338b6d4f5e15009b6e133b688f62c33362509": {
+  "K": 115534,
+  "instance": "sko90.dat",
+  "interpretation": "direct",
+  "perm": "sko90.perm"
+ },
+ "f4a8ef74d1de14a39a8adef918dee05db3be4b5bcb2c1aea44c2f24a071a4181": {
+  "K": 476581,
+  "instance": "lipa40b.dat",
+  "interpretation": "direct",
+  "perm": "lipa40b.perm"
+ },
+ "f54dbf47551097d31e086738550b2eb2eaa4f63dbc73d0f7347ca3d7e7083c3b": {
+  "K": 1610,
+  "instance": "nug16a.dat",
+  "interpretation": "direct",
+  "perm": "nug16a.perm"
+ },
+ "f73cc7a27743b1a6920e88b2a9d7ebdfd4f7caeec5b0cf7a10c61ee6395f3ec9": {
+  "K": 160,
+  "instance": "esc16c.dat",
+  "interpretation": "direct",
+  "perm": "esc16c.perm"
+ },
+ "f935e069867278d985e6a49967f98c1c10d7fb8bbfa8f92b7eb1baf75a4dd7fd": {
+  "K": 3683,
+  "instance": "lipa20a.dat",
+  "interpretation": "direct",
+  "perm": "lipa20a.perm"
+ },
+ "f99e61df6069559599556e6adf152eec37fcca3c6f1efdea8a7d16fa68155f23": {
+  "K": 7205962,
+  "instance": "tai60a.dat",
+  "interpretation": "inverse",
+  "perm": "tai60a.perm"
+ },
+ "fa5480fef57aed473d7f57740cbe7c940409555604a92e7cc7031efabc16ccec": {
+  "K": 122455319,
+  "instance": "tai20b.dat",
+  "interpretation": "direct",
+  "perm": "tai20b.perm"
+ },
+ "fbbe0e1d7758148422fdd0044707caef8260f303324b656b7d16e3c5007dec6f": {
+  "K": 491812,
+  "instance": "tai17a.dat",
+  "interpretation": "direct",
+  "perm": "tai17a.perm"
+ },
+ "fcba856385f6b349bac6823a1b80f0e9ca0207e3d791c7de3b158b996f051b6e": {
+  "K": 8133398,
+  "instance": "tho150.dat",
+  "interpretation": "inverse",
+  "perm": "tho150.perm"
+ },
+ "feee0274e89394e6aee3fbf88eb2c41dd35ff0ac4bdcd17dcc627610930a9e6a": {
+  "K": 23386,
+  "instance": "sko49.dat",
+  "interpretation": "direct",
+  "perm": "sko49.perm"
+ },
+ "ff0d0bc67bbb02e48fffe97c624d7ebc28978a24a09bb92cd43319e88d649850": {
+  "K": 15812,
+  "instance": "sko42.dat",
+  "interpretation": "direct",
+  "perm": "sko42.perm"
+ },
+ "ff3dc81cd9e9b0a60cc1af3b471f7f13ac4c0065360a0b50e071898950863c06": {
+  "K": 6156,
+  "instance": "chr22a.dat",
+  "interpretation": "direct",
+  "perm": "chr22a.perm"
+ }
+}

@@ -1,0 +1,52 @@
+{
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://bost.ocks.org/mike"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "ISC",
+  "lock_entry": {
+    "dependencies": {
+      "d3-array": "2.5.0 - 3"
+    },
+    "engines": {
+      "node": ">=12"
+    },
+    "integrity": "sha512-637ln3gXKXOwhalDzinUgY83KzNWZRKbYubaG+fGVuc/dxO64RRljtCTnf5ecMyE1RIdtqpkVcq0IbtU2S8j2Q==",
+    "license": "ISC",
+    "resolved": "https://registry.npmjs.org/d3-geo/-/d3-geo-3.1.1.tgz",
+    "version": "3.1.1"
+  },
+  "lock_path": "node_modules/d3-geo",
+  "name": "d3-geo",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1857,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "3e3edc1224eec9c39cd26491a21304a62883c1e5b6a65c5283ccc7a6cc94baee",
+      "text_file": "image-notices/3e3edc1224eec9c39cd26491a21304a62883c1e5b6a65c5283ccc7a6cc94baee.txt"
+    }
+  ],
+  "package_license": "ISC",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 61257,
+    "installed_in_image": false,
+    "integrity": "sha512-637ln3gXKXOwhalDzinUgY83KzNWZRKbYubaG+fGVuc/dxO64RRljtCTnf5ecMyE1RIdtqpkVcq0IbtU2S8j2Q==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/d3-geo/-/d3-geo-3.1.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "fe1f2dd81a87d942790c5a7786f4aab03df2b357d46d8af56b613fb8a1bb9be5"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.1.1"
+}

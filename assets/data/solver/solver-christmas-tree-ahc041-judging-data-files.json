@@ -1,0 +1,364 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/t01.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t01.txt",
+      "git_blob": "bdf314e6c36ebac48b6107c193c871c41098c7d1",
+      "bytes": 33805,
+      "sha256": "1dc930922edb66a5df4cf95b7162f1ffa2007974ea1bda32ee5432b40fd8d062",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t02.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t02.txt",
+      "git_blob": "c455f01128b8ac34a52689186b010336fcc7a059",
+      "bytes": 33787,
+      "sha256": "6c2e86847061fd87ed0dcf252cb47c0d93a00bf1712da3d4ed1f63c829632dc9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t03.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t03.txt",
+      "git_blob": "c4456eaf2775912f85c4fe0f450bf1154a72211a",
+      "bytes": 33853,
+      "sha256": "a63ed8cf3d39b9e0952a2cfa4d6a12cbf5a0d08c5bb899a47cec46b83f35732f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t04.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t04.txt",
+      "git_blob": "b31305b03cdbddb4cde8cb18cb7023c241bdcdc4",
+      "bytes": 33839,
+      "sha256": "5214e63a77225f77a371f8cc0924111142cfbef3163733419fd0f4b477096e0d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t05.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t05.txt",
+      "git_blob": "3d7515e4c45c75be2171b9dd675592c89d34c916",
+      "bytes": 33839,
+      "sha256": "115e867a767f2b2dded523ec25a3bcb24755223a6a5cd78ab79a29cd9c38e1cd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t06.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t06.txt",
+      "git_blob": "367032b2df9f7e12bef098d362da2857c5fbf8f2",
+      "bytes": 33775,
+      "sha256": "74947a1f64fb85cd10329c9192a13ca02d76e47cbafb112062a589a9d40ce0bd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t07.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t07.txt",
+      "git_blob": "a122c59ed542781a10f037c156e12c3bbb56e831",
+      "bytes": 33852,
+      "sha256": "22824eba80ba9e33f5f434d0aa5964a9cdb49bfc00b5e3cbd15e44f70b10f7af",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t08.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t08.txt",
+      "git_blob": "53b412d477a12aeb37a1efc3e6f9b3ec45a59e36",
+      "bytes": 33793,
+      "sha256": "b941e4e3da85bfa55cfd9e8a898d995e86a7e4a30ca794d39afe6ece4f75218c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t09.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t09.txt",
+      "git_blob": "e38b1b3ffa45c7fee9c15a6062c2d9605f0af5c4",
+      "bytes": 33870,
+      "sha256": "6eed005dc8904088c52d066a8fb3e9b04f21cd569d64684b4c3b77d89cb59ca1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t10.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t10.txt",
+      "git_blob": "8deb8f9698344e775d8e6b4513c4536fe3c90cde",
+      "bytes": 33827,
+      "sha256": "2aad28e67a0572a78d58634c2ac83f7c58e939899b4a8da946025f7ac5216472",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t11.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t11.txt",
+      "git_blob": "219290536332360fae91423bc418916cf70b6845",
+      "bytes": 33801,
+      "sha256": "45ee398f8ce28a6324d0b54e8be0b91cedea404b9842ceaeeb200dcda718f8c5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t12.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t12.txt",
+      "git_blob": "b182d886e2446ab0ad796a4b88c6671eed9443fb",
+      "bytes": 33848,
+      "sha256": "db158fbfa440b34cd2339a56363aa436777d68f796985dc0592a58a49cd9bc93",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t13.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t13.txt",
+      "git_blob": "bf72025dbe9b92cd148728fcdbd1951a17c057c7",
+      "bytes": 33901,
+      "sha256": "dc4e302ac27ba3ebb20ed7d896467957dc3f4341afddbd4f32d0404df0f29ead",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t14.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t14.txt",
+      "git_blob": "2d3b036fe45dd453835cf04cbc5afb9dcaffb1c6",
+      "bytes": 33893,
+      "sha256": "0fbe4a536337386b1ab1efc865f12876ed3b1fd558f24c65171c0884b213d948",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t15.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t15.txt",
+      "git_blob": "bd93e0c5702264fe8d1b5b4151375c8a50647ba8",
+      "bytes": 33839,
+      "sha256": "9414033d6b3a56ee80e4989608306ad4b3191767c315b2112b6cadf60a4b3559",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t16.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t16.txt",
+      "git_blob": "3819b4c6ca0e944ae0af492189073c9542f0b949",
+      "bytes": 33817,
+      "sha256": "bb70b6f3d17d585da000b5fdf45fd3ea6381ba27577de8893b66059ece78e49e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t17.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t17.txt",
+      "git_blob": "74c2c863bfc15497e5f7e6a212eec4a16744395e",
+      "bytes": 33777,
+      "sha256": "8ba8d181521d96a06581d5b687eca7e532a373ef7b0ea327695f92534668b31e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t18.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t18.txt",
+      "git_blob": "4c70c0b48c245e0512b204cb141b0ba98aa7bd6f",
+      "bytes": 33845,
+      "sha256": "6bbd2898cd2384faaab07fae82f685ccf9037d854543d7a7bb6aafdf75f319dd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t19.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t19.txt",
+      "git_blob": "0b1df573483c01f37adeb017d16aab88335ebf38",
+      "bytes": 33810,
+      "sha256": "8972bc62f90c995492c7f0a04ab8f8d4ea079294240813015b2b6947f397fdf5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t20.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t20.txt",
+      "git_blob": "e68298f9b276aed3625b17bdff700e733d7c4424",
+      "bytes": 33887,
+      "sha256": "6b10f7f606a984489f0aa3915ba352e51ade87815f364027c2d835389b03d991",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t21.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t21.txt",
+      "git_blob": "0c27e6257ec56c55ae4b38c0c326f3b19cf0c2d6",
+      "bytes": 33850,
+      "sha256": "0c55009e04fd9cf6d6683429ca540a89b58fcb4533c3eb087f1928367187159c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t22.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t22.txt",
+      "git_blob": "cd2e7d571bf5004d8d3ceeff80d8f16747854eda",
+      "bytes": 33850,
+      "sha256": "fd14fb6687ab00547d74e3e8d1fb4232bdd94f513b9e47dd4e4aaecd35f16725",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t23.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t23.txt",
+      "git_blob": "94b996f16737ad8db7da2b88f5798f3d3c0233ad",
+      "bytes": 33844,
+      "sha256": "1dab66d914dc6ce3645579ae814490dc79889827b80704368a700b8f8341d82d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t24.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t24.txt",
+      "git_blob": "08cf08e662bf279ec93985c1f8529b042a1d8e39",
+      "bytes": 33865,
+      "sha256": "e0dc84b91c1edaea480f32508e6bad8425d7ac53cf5016fe75bcfd5f8783f4ef",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t25.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t25.txt",
+      "git_blob": "0a66a5e966ee5e3aeceff394dfa313b3a382b135",
+      "bytes": 33814,
+      "sha256": "8bc7f8437c4b35ad5981cb9fa03ad3ce281bb371d8e46f30a42a56cc59c70bee",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t26.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t26.txt",
+      "git_blob": "83b2116e5fdcd00ab1257d2c92dbdedab813c5fa",
+      "bytes": 33858,
+      "sha256": "7d4e40cf23c27552efafb65b830eaba54d41d1963dd76ca97e3e5f5ccb435c9e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t27.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t27.txt",
+      "git_blob": "f561b3aa4bba6f178307ac6454c2f6062ba4c3fb",
+      "bytes": 33802,
+      "sha256": "6f39567e95e571d2a26ee4d14742444aceab3e88bc6f9c21b16c74858c9f7211",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t28.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t28.txt",
+      "git_blob": "b74769dc13d9a25dc86aefc81c41690365f6c227",
+      "bytes": 33865,
+      "sha256": "9e226117d4ea3609db22492ff5154c1e91e8f62c34d5cad17e34caa3670d821f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t29.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t29.txt",
+      "git_blob": "310edccf6ca82172dca307a01ed5b9a0922737b9",
+      "bytes": 33872,
+      "sha256": "8ba73df30a81435c726f57006c2a59f68c0f845e6c07926b0a3d55a9d2b4931e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t30.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t30.txt",
+      "git_blob": "46f5c002fc689b61a7f475ca7934f883bdf3aefe",
+      "bytes": 33883,
+      "sha256": "2e8943e7f89a0322eb3209ee28ae7277cb4a474afbc14c937d766ce49de7f723",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t31.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t31.txt",
+      "git_blob": "1df753e7b40bfc68c9f06691afa10de374f41c53",
+      "bytes": 33805,
+      "sha256": "df4343ab7718759f1013e9219a560755610d139b6f6de74332b54857d5f2cdd5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t32.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t32.txt",
+      "git_blob": "667baa4d0756c86d26f78239774197aa889cefeb",
+      "bytes": 33797,
+      "sha256": "a92025746922685dd0f771a2816a03505b49808dcc218fe694067b9afc7e23ad",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t33.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t33.txt",
+      "git_blob": "8785e77d1624c7598802add1900c527a514d63c6",
+      "bytes": 33895,
+      "sha256": "ffa1efbf5304c9829fccb249c51101f5a505fac9be78f0e0d6edd77aa9858fb4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t34.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t34.txt",
+      "git_blob": "f2c57eec8baa3d18e5856d76eda19d872174fcd9",
+      "bytes": 33846,
+      "sha256": "a3167060574d4e7239596c1f3f0e911b0a03fb1e6a68f55685f70f961019cf36",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t35.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t35.txt",
+      "git_blob": "fd152d96317c975e5eb89aa42a9f129b5a1d6707",
+      "bytes": 33855,
+      "sha256": "d3157875bda11642e95aea84cc32ee27ddd49321bc6e0516917b7c34dc2dd773",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t36.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t36.txt",
+      "git_blob": "a082bb60c0fd461e05f54e8455335527d04343c8",
+      "bytes": 33836,
+      "sha256": "382109e2139121691ac5413140f2f0b85bd67620b46d3484f6b704e9d109ba47",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t37.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t37.txt",
+      "git_blob": "62d93b0e437982bc32ad8a1d1986326bd356860b",
+      "bytes": 33884,
+      "sha256": "aaea54dcbd1f23b359db4ce1a5467533d8dc8765941e6366deaa841dc6136652",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t38.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t38.txt",
+      "git_blob": "b7c2bc2c193ef76d6bce9032e1e6a6558baf0630",
+      "bytes": 33817,
+      "sha256": "f9770fda35805ee3724bf80f57835bbfb01205fb98fca5b0295d2a7ae0a0cf2c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t39.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t39.txt",
+      "git_blob": "96552944f68fadcb755493d0a521653e3a068bd6",
+      "bytes": 33857,
+      "sha256": "458d778fed56c9ea7b5ef99abb6168ada613860ffa8362ff31f95e68eb84f1c5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t40.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t40.txt",
+      "git_blob": "07aa396bfe38b6dd259ef17526079e910f0c488a",
+      "bytes": 33848,
+      "sha256": "fcb1458eb66ead4ea90a202a85213926230ce365c86707953f09789e27bef5ff",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t41.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t41.txt",
+      "git_blob": "c7b149d441caa0031c10ac88206a63600f1e39e0",
+      "bytes": 33793,
+      "sha256": "ad4b0896cd70b82d5be368c37fba39523cca9311aaa53d7e910c3951e6bf4ee8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t42.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t42.txt",
+      "git_blob": "d4af92fa787821c5c93617769976a474523524d0",
+      "bytes": 33856,
+      "sha256": "2296d2d4190febda9ab2187b11980357602e6095598a55dc18847977fc9d4a2d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t43.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t43.txt",
+      "git_blob": "86a91bce260d09888369f947f130bf3cfb5d2a62",
+      "bytes": 33856,
+      "sha256": "0e7b8bcd895f1e920691c9bfd1a659521848915d4207826c1accc89dc8a91c9c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t44.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t44.txt",
+      "git_blob": "e5a954fcf5c067822da4b63f67e26736f289dfdc",
+      "bytes": 33795,
+      "sha256": "b5c6cd48efaf740e8d53985b61e678ab8540653c7a4cd92885f5ff6db5cae562",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/t45.txt",
+      "source_path": "tasks/solver/online/christmas-tree-ahc041/tests/instances/t45.txt",
+      "git_blob": "f290524e4ccf058170c5dca9b3d169f2cb882747",
+      "bytes": 33804,
+      "sha256": "f99c83d742e20f2957aa47aea3b0675f19a3231556973a0fd9c1eceb8effd095",
+      "mode": "0644"
+    }
+  ]
+}

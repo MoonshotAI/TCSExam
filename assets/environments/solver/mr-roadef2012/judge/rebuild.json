@@ -1,0 +1,41 @@
+{
+  "task": "tasks/solver/online/mr-roadef2012",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/mr-roadef2012/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:117592dd0fdc0d36fde43790c0d7c705cc7c1a056da776972d69e47d70269492"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/mr-roadef2012/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "7a7503748486faefb71b8fe2fd4517c1dea4ab524895a5fbe1caeefdcba7d0c4"
+    },
+    {
+      "source": "tasks/solver/online/mr-roadef2012/tests/scoring.py",
+      "target": "/tests/scoring.py",
+      "sha256": "5d8e2bbaf248dda0eb0b7da4fbd49cbd46bc2ebce51af27e9872c7182e9f889f"
+    },
+    {
+      "source": "tasks/solver/online/mr-roadef2012/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "9151a723351a6655acd03fbe3b5cf5b16d8f250647fbc61ba28d3fa561cb408d"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": false,
+  "public_source_rebuild_verified": false,
+  "limitations": [
+    "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
+  ]
+}

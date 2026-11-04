@@ -1,0 +1,27 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "curriculum-itc2007",
+  "repository": "https://github.com/tomas-muller/cpsolver-itc2007",
+  "commit": "a253a5a45a5b148d5a8981c3fd0af5ecf9ae4b06",
+  "outputs": 12,
+  "official_downloads": 12,
+  "retained_project_public_inputs": [],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "verification_status": "passed",
+  "terms": "Retain the existing resource-specific terms. This reconstruction does not add redistribution approval.",
+  "verified_products": {
+    "solver-curriculum-itc2007-development-data": {
+      "result": {
+        "files": 12,
+        "bytes": 140631
+      }
+    },
+    "solver-curriculum-itc2007-judging-data": {
+      "result": {
+        "files": 6,
+        "bytes": 56973
+      }
+    }
+  }
+}

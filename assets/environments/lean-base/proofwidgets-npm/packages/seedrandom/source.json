@@ -1,0 +1,43 @@
+{
+  "author": "David Bau",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/seedrandom/-/seedrandom-3.0.5.tgz",
+    "version": "3.0.5"
+  },
+  "lock_path": "node_modules/seedrandom",
+  "name": "seedrandom",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 67860,
+    "installed_in_image": false,
+    "integrity": "sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/seedrandom/-/seedrandom-3.0.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "f217e14961edb2a61f23b3eaee7477578021f0db15f69941a866e9f55e518544"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 11854,
+    "installed_file": "notices/supplementary/4f42a296eee4f5ae3a8dadba94c2b0b5fb57662b96b8749f4d5288d4629b6240.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "4460ad325a0a15273a211e509f03ae0beb99511a",
+    "scope": "Exact version metadata explicitly declares the recorded license. This source retains the same project full notice; HEAD, when used, is a currently retrieved supplemental text, not represented as an old shipped license file.",
+    "sha256": "4f42a296eee4f5ae3a8dadba94c2b0b5fb57662b96b8749f4d5288d4629b6240",
+    "text_file": "image-notices/4f42a296eee4f5ae3a8dadba94c2b0b5fb57662b96b8749f4d5288d4629b6240.txt",
+    "url": "https://raw.githubusercontent.com/davidbau/seedrandom/4460ad325a0a15273a211e509f03ae0beb99511a/README.md"
+  },
+  "version": "3.0.5"
+}

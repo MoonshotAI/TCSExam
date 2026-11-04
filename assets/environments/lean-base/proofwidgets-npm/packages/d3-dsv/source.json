@@ -1,0 +1,65 @@
+{
+  "author": {
+    "name": "Mike Bostock",
+    "url": "http://bost.ocks.org/mike"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "ISC",
+  "lock_entry": {
+    "bin": {
+      "csv2json": "bin/dsv2json.js",
+      "csv2tsv": "bin/dsv2dsv.js",
+      "dsv2dsv": "bin/dsv2dsv.js",
+      "dsv2json": "bin/dsv2json.js",
+      "json2csv": "bin/json2dsv.js",
+      "json2dsv": "bin/json2dsv.js",
+      "json2tsv": "bin/json2dsv.js",
+      "tsv2csv": "bin/dsv2dsv.js",
+      "tsv2json": "bin/dsv2json.js"
+    },
+    "dependencies": {
+      "commander": "7",
+      "iconv-lite": "0.6",
+      "rw": "1"
+    },
+    "engines": {
+      "node": ">=12"
+    },
+    "integrity": "sha512-UG6OvdI5afDIFP9w4G0mNq50dSOsXHJaRE8arAS5o9ApWnIElp8GZw1Dun8vP8OyHOZ/QJUKUJwxiiCCnUwm+Q==",
+    "license": "ISC",
+    "resolved": "https://registry.npmjs.org/d3-dsv/-/d3-dsv-3.0.1.tgz",
+    "version": "3.0.1"
+  },
+  "lock_path": "node_modules/d3-dsv",
+  "name": "d3-dsv",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "7842a82012622e5a37bfe4f6c1b67cd3bae6350716b5bf87f36cea0bdc1319dc",
+      "text_file": "image-notices/7842a82012622e5a37bfe4f6c1b67cd3bae6350716b5bf87f36cea0bdc1319dc.txt"
+    }
+  ],
+  "package_license": "ISC",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 12063,
+    "installed_in_image": false,
+    "integrity": "sha512-UG6OvdI5afDIFP9w4G0mNq50dSOsXHJaRE8arAS5o9ApWnIElp8GZw1Dun8vP8OyHOZ/QJUKUJwxiiCCnUwm+Q==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/d3-dsv/-/d3-dsv-3.0.1.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "fdafcae0362205e2fc63fe3e87fed54822227d9370ce5150914f863ec36153cb"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.0.1"
+}

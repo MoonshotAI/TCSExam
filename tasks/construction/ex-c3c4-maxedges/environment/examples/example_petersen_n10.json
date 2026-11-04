@@ -1,0 +1,1 @@
+{"n": 10, "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 0], [5, 7], [7, 9], [9, 6], [6, 8], [8, 5], [0, 5], [1, 6], [2, 7], [3, 8], [4, 9]], "comment": "Petersen graph: 10 vertices, 15 edges, girth 5 (sanity anchor for the constraint logic)"}

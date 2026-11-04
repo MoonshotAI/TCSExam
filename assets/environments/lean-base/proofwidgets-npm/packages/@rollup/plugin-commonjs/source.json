@@ -1,0 +1,64 @@
+{
+  "author": "Rich Harris <richard.a.harris@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "@rollup/pluginutils": "^5.0.1",
+      "commondir": "^1.0.1",
+      "estree-walker": "^2.0.2",
+      "fdir": "^6.2.0",
+      "is-reference": "1.2.1",
+      "magic-string": "^0.30.3",
+      "picomatch": "^4.0.2"
+    },
+    "dev": true,
+    "engines": {
+      "node": ">=16.0.0 || 14 >= 14.17"
+    },
+    "integrity": "sha512-PIR4/OHZ79romx0BVVll/PkwWpJ7e5lsqFa3gFfcrFPWwLXLV39JVUzQV9RKjWerE7B845Hqjj9VYlQeieZ2dA==",
+    "license": "MIT",
+    "peerDependencies": {
+      "rollup": "^2.68.0||^3.0.0||^4.0.0"
+    },
+    "peerDependenciesMeta": {
+      "rollup": {
+        "optional": true
+      }
+    },
+    "resolved": "https://registry.npmjs.org/@rollup/plugin-commonjs/-/plugin-commonjs-28.0.9.tgz",
+    "version": "28.0.9"
+  },
+  "lock_path": "node_modules/@rollup/plugin-commonjs",
+  "name": "@rollup/plugin-commonjs",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1151,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "7b8136f76c483d03597500bfa991aae9be68d4629e1121cbf9b93aa727efe305",
+      "text_file": "image-notices/7b8136f76c483d03597500bfa991aae9be68d4629e1121cbf9b93aa727efe305.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 64000,
+    "installed_in_image": false,
+    "integrity": "sha512-PIR4/OHZ79romx0BVVll/PkwWpJ7e5lsqFa3gFfcrFPWwLXLV39JVUzQV9RKjWerE7B845Hqjj9VYlQeieZ2dA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@rollup/plugin-commonjs/-/plugin-commonjs-28.0.9.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "b9469bfaabbaa14ccdb81ab1aef3371f02a7546a02cffb5606747ce681d71e1a"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "28.0.9"
+}

@@ -1,0 +1,15 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "qap-qaplib",
+  "public_count": 75,
+  "hidden_count": 41,
+  "official_source": "https://coral.ise.lehigh.edu/data-sets/qaplib/",
+  "input_urls": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/<original-name>.dat",
+  "identity": "Every original file is pinned by byte count and SHA-256; every hidden output is additionally pinned by the frozen instance manifest and transformation-parameter digest.",
+  "historical_seed_tag": "tcshard-transform-20260831",
+  "acquisition": "official_files",
+  "public_upload_allowed": false,
+  "distribution": "local_prepare",
+  "verification_status": "actual_public_download_verification_pending",
+  "prior_source_failure": "The former Montreal mirror hostname did not resolve in the validation environment. Use the current maintainer-hosted QAPLIB page and its linked data files."
+}

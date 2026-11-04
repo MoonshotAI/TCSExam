@@ -1,0 +1,216 @@
+{
+ "instances": {
+  "ITC2021_Early_1.xml": {
+   "B": null,
+   "K": 362
+  },
+  "ITC2021_Early_10.xml": {
+   "B": null,
+   "K": 3400
+  },
+  "ITC2021_Early_11.xml": {
+   "B": null,
+   "K": 4381
+  },
+  "ITC2021_Early_12.xml": {
+   "B": null,
+   "K": 315
+  },
+  "ITC2021_Early_13.xml": {
+   "B": null,
+   "K": 121
+  },
+  "ITC2021_Early_14.xml": {
+   "B": 696,
+   "K": 4
+  },
+  "ITC2021_Early_15.xml": {
+   "B": null,
+   "K": 2955
+  },
+  "ITC2021_Early_2.xml": {
+   "B": null,
+   "K": 144
+  },
+  "ITC2021_Early_3.xml": {
+   "B": 1922,
+   "K": 934
+  },
+  "ITC2021_Early_4.xml": {
+   "B": null,
+   "K": 430
+  },
+  "ITC2021_Early_5.xml": {
+   "B": null,
+   "K": 3127
+  },
+  "ITC2021_Early_6.xml": {
+   "B": null,
+   "K": 3287
+  },
+  "ITC2021_Early_7.xml": {
+   "B": null,
+   "K": 4744
+  },
+  "ITC2021_Early_8.xml": {
+   "B": 2785,
+   "K": 1051
+  },
+  "ITC2021_Early_9.xml": {
+   "B": 1188,
+   "K": 56
+  },
+  "ITC2021_Late_1.xml": {
+   "B": null,
+   "K": 1919
+  },
+  "ITC2021_Late_10.xml": {
+   "B": null,
+   "K": 1786
+  },
+  "ITC2021_Late_11.xml": {
+   "B": null,
+   "K": 201
+  },
+  "ITC2021_Late_12.xml": {
+   "B": null,
+   "K": 3226
+  },
+  "ITC2021_Late_13.xml": {
+   "B": null,
+   "K": 1813
+  },
+  "ITC2021_Late_14.xml": {
+   "B": null,
+   "K": 1140
+  },
+  "ITC2021_Late_15.xml": {
+   "B": null,
+   "K": 0
+  },
+  "ITC2021_Late_2.xml": {
+   "B": null,
+   "K": 5379
+  },
+  "ITC2021_Late_3.xml": {
+   "B": 4528,
+   "K": 2369
+  },
+  "ITC2021_Late_4.xml": {
+   "B": null,
+   "K": 0
+  },
+  "ITC2021_Late_5.xml": {
+   "B": null,
+   "K": 1849
+  },
+  "ITC2021_Late_6.xml": {
+   "B": null,
+   "K": 872
+  },
+  "ITC2021_Late_7.xml": {
+   "B": null,
+   "K": 1558
+  },
+  "ITC2021_Late_8.xml": {
+   "B": null,
+   "K": 934
+  },
+  "ITC2021_Late_9.xml": {
+   "B": 2395,
+   "K": 498
+  },
+  "ITC2021_Middle_1.xml": {
+   "B": null,
+   "K": 5177
+  },
+  "ITC2021_Middle_10.xml": {
+   "B": null,
+   "K": 1228
+  },
+  "ITC2021_Middle_11.xml": {
+   "B": null,
+   "K": 2177
+  },
+  "ITC2021_Middle_12.xml": {
+   "B": 4913,
+   "K": 597
+  },
+  "ITC2021_Middle_13.xml": {
+   "B": null,
+   "K": 211
+  },
+  "ITC2021_Middle_14.xml": {
+   "B": null,
+   "K": 1140
+  },
+  "ITC2021_Middle_15.xml": {
+   "B": 2053,
+   "K": 462
+  },
+  "ITC2021_Middle_2.xml": {
+   "B": null,
+   "K": 7115
+  },
+  "ITC2021_Middle_3.xml": {
+   "B": null,
+   "K": 8648
+  },
+  "ITC2021_Middle_4.xml": {
+   "B": null,
+   "K": 7
+  },
+  "ITC2021_Middle_5.xml": {
+   "B": 2357,
+   "K": 279
+  },
+  "ITC2021_Middle_6.xml": {
+   "B": null,
+   "K": 1090
+  },
+  "ITC2021_Middle_7.xml": {
+   "B": null,
+   "K": 1780
+  },
+  "ITC2021_Middle_8.xml": {
+   "B": null,
+   "K": 129
+  },
+  "ITC2021_Middle_9.xml": {
+   "B": 2710,
+   "K": 415
+  },
+  "ITC2021_Test1.xml": {
+   "B": 1137,
+   "K": 1066
+  },
+  "ITC2021_Test2.xml": {
+   "B": 177,
+   "K": 176
+  },
+  "ITC2021_Test3.xml": {
+   "B": null,
+   "K": 1253
+  },
+  "ITC2021_Test4.xml": {
+   "B": null,
+   "K": 4535
+  },
+  "ITC2021_Test5.xml": {
+   "B": 3,
+   "K": 2
+  },
+  "ITC2021_Test6.xml": {
+   "B": null,
+   "K": 3144
+  },
+  "ITC2021_Test7.xml": {
+   "B": null,
+   "K": 4421
+  },
+  "ITC2021_Test8.xml": {
+   "B": null,
+   "K": 3165
+  }
+ }
+}

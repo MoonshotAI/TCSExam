@@ -1,0 +1,17 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "cvrp-cvrplib",
+  "source": "https://galgos.inf.puc-rio.br/cvrplib/",
+  "scope": "Exactly 80 unchanged public inputs and 34 transformed hidden CVRPLIB inputs. Official per-instance endpoints only; original hidden parameter hashes and frozen output bytes retained. No route or score files downloaded.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Original source terms remain unresolved. Rebuilding these input files does not grant redistribution approval.",
+  "verified_products": {
+    "solver-cvrp-cvrplib-development-data": {
+      "result": {
+        "files": 80,
+        "bytes": 450988
+      }
+    }
+  }
+}

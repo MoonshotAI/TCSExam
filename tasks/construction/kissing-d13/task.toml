@@ -1,0 +1,43 @@
+schema_version = "1.4"
+artifacts = ["/app"]
+
+[task]
+name = "tcsexam/kissing-d13-lean-open"
+version = "1.0.0"
+description = "Certify in Lean 4 a kissing configuration in dimension 13: a list of nonzero integer vectors in Z^13 with max ||x||^2 <= min pairwise ||x-y||^2 (a machine-checked kissing-number lower bound; published record 1154, Zinoviev-Ericson 1999, unimproved for 27 years; 1155+ is a literature-level new result)."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["construction", "kissing-number", "sphere-packing", "lean4", "machine-checked", "open-problem"]
+
+[metadata]
+family_id = "fam-kissing-d13"
+candidate_id = "cand-kissing-d13-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open"
+difficulty_explanation = "Prove existence of a valid integer kissing configuration in Lean 4 with only a computable max-norm/min-distance predicate given; the agent chooses n and the construction. The published record (1154, Zinoviev-Ericson 1999) has stood for 27 years — unlike dimension 11, where AI search moved the bound twice in 15 months, dimension 13 has seen no progress since 1999, so 1155+ is a genuinely new result on a quiet frontier."
+
+[verifier]
+timeout_sec = 18000.0
+
+[verifier.env]
+REWARD_JSON = "/logs/verifier/score-details.json"
+
+[agent]
+network_mode = "public"
+timeout_sec = 43200.0
+
+[environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:0e2563c9c78bb8c7b4c86b1f1a051f50968406d52b2bf6349d8ce7ec4618de36"
+os = "linux"
+network_mode = "public"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:3d672a7a9bcc2077a7fe1e97270145324c7ea4a77d86641f3ff858fdb157c78a"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

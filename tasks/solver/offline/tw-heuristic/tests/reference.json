@@ -1,0 +1,836 @@
+{
+ "instances": {
+  "he002": {
+   "B": 10,
+   "K": 9,
+   "k_source": "min(RTW-exact@1800s (proven optimal); tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 408,
+   "n": 172,
+   "note": "proven optimal (RTW exact certificate)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he004": {
+   "B": 10,
+   "K": 9,
+   "k_source": "min(RTW-exact@1800s (proven optimal); tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 408,
+   "n": 172,
+   "note": "proven optimal (RTW exact certificate)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he006": {
+   "B": 7,
+   "K": 7,
+   "k_source": "min(FlowCutter@1785s (seed0); RTW-exact@1800s (proven optimal); htd@1800s (width-opt, seed42); tcs-meiji@1800s (seed42))",
+   "m": 199,
+   "n": 111,
+   "note": "proven optimal (RTW exact certificate)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he008": {
+   "B": 14,
+   "K": 13,
+   "k_source": "min(RTW-exact@1800s (proven optimal); tcs-meiji@1800s (seed42))",
+   "m": 580,
+   "n": 332,
+   "note": "proven optimal (RTW exact certificate)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he010": {
+   "B": 5,
+   "K": 5,
+   "k_source": "min(FlowCutter@1785s (seed0); RTW-exact@1800s (proven optimal); htd@1800s (width-opt, seed42); tcs-meiji@1800s (seed42))",
+   "m": 146,
+   "n": 82,
+   "note": "proven optimal (RTW exact certificate)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he012": {
+   "B": 29,
+   "K": 24,
+   "k_source": "min(tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 1614,
+   "n": 921,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he014": {
+   "B": 34,
+   "K": 27,
+   "k_source": "min(tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 1451,
+   "n": 739,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he016": {
+   "B": 40,
+   "K": 34,
+   "k_source": "min(tcs-meiji@1800s (seed42); tcs-meiji@1800s (seed42))",
+   "m": 1523,
+   "n": 790,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he018": {
+   "B": 33,
+   "K": 25,
+   "k_source": "min(tcs-meiji@1800s (seed42); tcs-meiji@1800s (seed42))",
+   "m": 1472,
+   "n": 762,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he020": {
+   "B": 29,
+   "K": 23,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 1503,
+   "n": 849,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he022": {
+   "B": 41,
+   "K": 40,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 1479,
+   "n": 735,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he024": {
+   "B": 32,
+   "K": 28,
+   "k_source": "min(tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 1419,
+   "n": 773,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he026": {
+   "B": 38,
+   "K": 33,
+   "k_source": "min(tcs-meiji@1800s (seed42); tcs-meiji@1800s (seed42))",
+   "m": 1397,
+   "n": 725,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he028": {
+   "B": 27,
+   "K": 24,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 1455,
+   "n": 786,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he030": {
+   "B": 36,
+   "K": 30,
+   "k_source": "min(tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 1283,
+   "n": 661,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he032": {
+   "B": 32,
+   "K": 26,
+   "k_source": "min(tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 1348,
+   "n": 676,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he034": {
+   "B": 22,
+   "K": 19,
+   "k_source": "min(tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 1436,
+   "n": 836,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he036": {
+   "B": 33,
+   "K": 29,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 1522,
+   "n": 817,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he038": {
+   "B": 23,
+   "K": 18,
+   "k_source": "min(tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 1128,
+   "n": 604,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he040": {
+   "B": 79,
+   "K": 70,
+   "k_source": "min(RTW-exact@1800s (proven optimal); tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 4596,
+   "n": 196,
+   "note": "proven optimal (RTW exact certificate)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he042": {
+   "B": 42,
+   "K": 40,
+   "k_source": "min(RTW-exact@1800s (proven optimal); tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 2428,
+   "n": 179,
+   "note": "proven optimal (RTW exact certificate)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he044": {
+   "B": 66,
+   "K": 62,
+   "k_source": "min(tcs-meiji@1800s (seed42); tcs-meiji@1800s (seed42))",
+   "m": 736,
+   "n": 125,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he046": {
+   "B": 94,
+   "K": 82,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 1425,
+   "n": 340,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he048": {
+   "B": 104,
+   "K": 99,
+   "k_source": "min(tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 2992,
+   "n": 363,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he050": {
+   "B": 53,
+   "K": 53,
+   "k_source": "min(FlowCutter@1785s (seed0); htd@1800s (width-opt, seed42); tcs-meiji@1800s)",
+   "m": 1230,
+   "n": 192,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he052": {
+   "B": 25,
+   "K": 23,
+   "k_source": "RTW-exact@1800s (proven optimal)",
+   "m": 642,
+   "n": 193,
+   "note": "proven optimal (RTW exact certificate)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he054": {
+   "B": 11,
+   "K": 11,
+   "k_source": "min(FlowCutter@1785s (seed0); RTW-exact@1800s (proven optimal); htd@1800s (width-opt, seed42); tcs-meiji@1800s (seed42))",
+   "m": 240,
+   "n": 51,
+   "note": "proven optimal (RTW exact certificate)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he056": {
+   "B": 24,
+   "K": 23,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 168,
+   "n": 112,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he058": {
+   "B": 23,
+   "K": 21,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 168,
+   "n": 112,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he060": {
+   "B": 36,
+   "K": 32,
+   "k_source": "min(htd@1800s (width-opt, seed42); tcs-meiji@1800s (seed42))",
+   "m": 280,
+   "n": 56,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he062": {
+   "B": 29,
+   "K": 24,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 189,
+   "n": 126,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he064": {
+   "B": 43,
+   "K": 42,
+   "k_source": "min(FlowCutter@1785s (seed0); htd@1800s (width-opt, seed42); tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 408,
+   "n": 68,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he066": {
+   "B": 54,
+   "K": 50,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 1265,
+   "n": 121,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he068": {
+   "B": 39,
+   "K": 33,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 336,
+   "n": 112,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he070": {
+   "B": 64,
+   "K": 63,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 850,
+   "n": 85,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he072": {
+   "B": 66,
+   "K": 61,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 1750,
+   "n": 144,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he074": {
+   "B": 109,
+   "K": 108,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 3630,
+   "n": 121,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he076": {
+   "B": 20,
+   "K": 15,
+   "k_source": "min(tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 135,
+   "n": 90,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he078": {
+   "B": 119,
+   "K": 119,
+   "k_source": "min(FlowCutter@1785s (seed0); RTW-exact@1800s (proven optimal); htd@1800s (width-opt, seed42); tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 6961,
+   "n": 125,
+   "note": "proven optimal (RTW exact certificate)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he080": {
+   "B": 28,
+   "K": 25,
+   "k_source": "min(tcs-meiji@1800s; tcs-meiji@1800s (seed42))",
+   "m": 175,
+   "n": 50,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he082": {
+   "B": 44,
+   "K": 43,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0); tcs-meiji@1800s (seed42))",
+   "m": 756,
+   "n": 56,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he084": {
+   "B": 92,
+   "K": 91,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 4373,
+   "n": 2113,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he086": {
+   "B": 99,
+   "K": 97,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 4007,
+   "n": 1996,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he088": {
+   "B": 97,
+   "K": 97,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 4215,
+   "n": 2030,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he090": {
+   "B": 61,
+   "K": 54,
+   "k_source": "tcs-meiji@1800s",
+   "m": 2898,
+   "n": 1558,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he092": {
+   "B": 93,
+   "K": 93,
+   "k_source": "K=B: FlowCutter seed0 @1785s produces a valid decomposition of width 93, checked with td-validate. The other recorded bound is retained in k_promoted_original.",
+   "m": 3574,
+   "n": 1848,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G",
+   "k_promoted_original": 94
+  },
+  "he094": {
+   "B": 58,
+   "K": 58,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 3210,
+   "n": 1684,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he096": {
+   "B": 80,
+   "K": 80,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 3425,
+   "n": 1675,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he098": {
+   "B": 53,
+   "K": 35,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 3714,
+   "n": 708,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he100": {
+   "B": 250,
+   "K": 250,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0); htd@1800s (width-opt, seed42); tcs-meiji@1800s (seed42))",
+   "m": 62500,
+   "n": 500,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he102": {
+   "B": 155,
+   "K": 123,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 9422,
+   "n": 823,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he104": {
+   "B": 33,
+   "K": 33,
+   "k_source": "min(FlowCutter@1785s (seed0); RTW-exact@1800s (proven optimal); htd@1800s (width-opt, seed42); tcs-meiji@1800s (seed42))",
+   "m": 11416,
+   "n": 1236,
+   "note": "proven optimal (RTW exact certificate)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he106": {
+   "B": 75,
+   "K": 71,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 12568,
+   "n": 4660,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he108": {
+   "B": 114,
+   "K": 97,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 21206,
+   "n": 1160,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he110": {
+   "B": 215,
+   "K": 146,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 14629,
+   "n": 1133,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he112": {
+   "B": 118,
+   "K": 106,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 25008,
+   "n": 3228,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he114": {
+   "B": 230,
+   "K": 230,
+   "k_source": "tcs-meiji@1800s",
+   "m": 25071,
+   "n": 1178,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he116": {
+   "B": 977,
+   "K": 953,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 23479,
+   "n": 2200,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he118": {
+   "B": 915,
+   "K": 915,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 23502,
+   "n": 2200,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he120": {
+   "B": 232,
+   "K": 232,
+   "k_source": "K=B: FlowCutter seed0 @1785s produces a valid decomposition of width 232, checked with td-validate. The other recorded bound is retained in k_promoted_original.",
+   "m": 29837,
+   "n": 1266,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G",
+   "k_promoted_original": 236
+  },
+  "he122": {
+   "B": 30,
+   "K": 30,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0); htd@1800s (width-opt, seed42))",
+   "m": 14352,
+   "n": 7343,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he124": {
+   "B": 36,
+   "K": 36,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0); htd@1800s (width-opt, seed42))",
+   "m": 14558,
+   "n": 7420,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he126": {
+   "B": 932,
+   "K": 867,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 23538,
+   "n": 2200,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he128": {
+   "B": 958,
+   "K": 866,
+   "k_source": "tcs-meiji@1800s (seed42)",
+   "m": 23475,
+   "n": 2200,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he130": {
+   "B": 226,
+   "K": 226,
+   "k_source": "K=B: FlowCutter seed0 @1785s produces a valid decomposition of width 226, checked with td-validate. The other recorded bound is retained in k_promoted_original.",
+   "m": 29919,
+   "n": 2257,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G",
+   "k_promoted_original": 229
+  },
+  "he132": {
+   "B": 36,
+   "K": 31,
+   "k_source": "tcs-meiji@1800s",
+   "m": 14847,
+   "n": 7565,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he134": {
+   "B": 249,
+   "K": 248,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 32272,
+   "n": 1995,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he136": {
+   "B": 575,
+   "K": 547,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 34905,
+   "n": 8591,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he138": {
+   "B": 218,
+   "K": 217,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 51995,
+   "n": 17307,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he140": {
+   "B": 216,
+   "K": 215,
+   "k_source": "tcs-meiji@1800s",
+   "m": 59932,
+   "n": 20103,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he142": {
+   "B": 514,
+   "K": 494,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 94730,
+   "n": 9600,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he144": {
+   "B": 253,
+   "K": 252,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 66385,
+   "n": 23695,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he146": {
+   "B": 426,
+   "K": 426,
+   "k_source": "K=B: FlowCutter seed0 @1785s produces a valid decomposition of width 426, checked with td-validate. The other recorded bound is retained in k_promoted_original.",
+   "m": 71409,
+   "n": 26328,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G",
+   "k_promoted_original": 427
+  },
+  "he148": {
+   "B": 503,
+   "K": 503,
+   "k_source": "K=B: FlowCutter seed0 @1785s produces a valid decomposition of width 503, checked with td-validate. The other recorded bound is retained in k_promoted_original.",
+   "m": 94695,
+   "n": 34033,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G",
+   "k_promoted_original": 507
+  },
+  "he150": {
+   "B": 170,
+   "K": 124,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 92564,
+   "n": 31473,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he152": {
+   "B": 355,
+   "K": 350,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 217600,
+   "n": 72835,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he154": {
+   "B": 334,
+   "K": 331,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 192918,
+   "n": 66421,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he156": {
+   "B": 394,
+   "K": 394,
+   "k_source": "K=B: FlowCutter seed0 @1785s produces a valid decomposition of width 394, checked with td-validate. The other recorded bound is retained in k_promoted_original.",
+   "m": 227964,
+   "n": 85646,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G",
+   "k_promoted_original": 396
+  },
+  "he158": {
+   "B": 527,
+   "K": 483,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 863026,
+   "n": 6220,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he160": {
+   "B": 880,
+   "K": 672,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 462976,
+   "n": 62914,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he162": {
+   "B": 569,
+   "K": 532,
+   "k_source": "min(min(FlowCutter@1785s; FlowCutter@1785s (seed0)); FlowCutter@1785s (seed0))",
+   "m": 336775,
+   "n": 95695,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he164": {
+   "B": 558,
+   "K": 554,
+   "k_source": "min(tcs-meiji@1800s (seed42); tcs-meiji@1800s (seed42))",
+   "m": 778291,
+   "n": 20446,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he166": {
+   "B": 255,
+   "K": 172,
+   "k_source": "min(htd@1800s (width-opt, seed42); htd@1800s (width-opt, seed42))",
+   "m": 471387,
+   "n": 129128,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he168": {
+   "B": 2776,
+   "K": 2463,
+   "k_source": "min(tcs-meiji@1800s (seed42); tcs-meiji@1800s (seed42))",
+   "m": 730055,
+   "n": 124208,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he170": {
+   "B": 71,
+   "K": 68,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 553709,
+   "n": 351267,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he172": {
+   "B": 61,
+   "K": 61,
+   "k_source": "FlowCutter@1785s (seed0)",
+   "m": 742488,
+   "n": 468913,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he174": {
+   "B": 2448,
+   "K": 2302,
+   "k_source": "min(FlowCutter@1785s (seed0); FlowCutter@1785s (seed0))",
+   "m": 3045298,
+   "n": 105424,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "Remeasurement under the new judging specification (one core/8GB) with FlowCutter seed0 @1785s: 16-way batch measurements (isolated execution environment 16C/32G sandbox with one core pinned per slot) and two independent checks using four exclusive 8GB slots all returned 2448. The anytime baseline runs to the wall-clock limit and has machine noise; the old value 2533 (measured in a 16c/8G sandbox ) is within the noise range."
+  },
+  "he176": {
+   "B": 6005,
+   "K": 4686,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 1372958,
+   "n": 225885,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he178": {
+   "B": 4805,
+   "K": 3925,
+   "k_source": "min(htd@1800s (width-opt, seed42); htd@1800s (width-opt, seed42))",
+   "m": 1502498,
+   "n": 578891,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he180": {
+   "B": 120,
+   "K": 107,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 1095148,
+   "n": 685591,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he182": {
+   "B": 123,
+   "K": 120,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 1140516,
+   "n": 716109,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he184": {
+   "B": 5334,
+   "K": 1676,
+   "k_source": "FlowCutter@1785s (seed0)",
+   "m": 5897750,
+   "n": 1484059,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he186": {
+   "B": 508,
+   "K": 471,
+   "k_source": "FlowCutter@1785s (seed0)",
+   "m": 1889177,
+   "n": 259611,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he188": {
+   "B": 1923,
+   "K": 1366,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 4299945,
+   "n": 106013,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he190": {
+   "B": 4653,
+   "K": 3003,
+   "k_source": "htd@1800s (width-opt, seed42)",
+   "m": 11684393,
+   "n": 89315,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he192": {
+   "B": 3583,
+   "K": 3562,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 18105276,
+   "n": 178719,
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he194": {
+   "B": 170,
+   "K": 158,
+   "k_source": "min(htd@1800s (width-opt, seed42); FlowCutter@1785s (seed0))",
+   "m": 3511798,
+   "n": 2214260,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he196": {
+   "B": 3970,
+   "K": 2877,
+   "k_source": "min(htd@1800s (width-opt, seed42); FlowCutter@1785s (seed0))",
+   "m": 7502740,
+   "n": 1546096,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he198": {
+   "B": 475,
+   "K": 360,
+   "k_source": "FlowCutter@1785s (seed0)",
+   "m": 7583653,
+   "n": 4732056,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  },
+  "he200": {
+   "B": 7364480,
+   "K": 3838,
+   "k_source": "min(FlowCutter@1785s; FlowCutter@1785s (seed0))",
+   "m": 23824624,
+   "n": 15531867,
+   "b_source": "FlowCutter@1785s (seed0)",
+   "b_remeasured": "FlowCutter seed0 @1785s on transformed instance, isolated execution environment sandbox 16c/8G"
+  }
+ }
+}

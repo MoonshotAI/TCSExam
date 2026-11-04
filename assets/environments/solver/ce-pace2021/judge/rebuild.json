@@ -1,0 +1,39 @@
+{
+  "task": "tasks/solver/online/ce-pace2021",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/ce-pace2021/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}",
+    "TCSEXAM_TOOLS_IMAGE": "${TCSEXAM_TOOLS_IMAGE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:e5c13090a9fc8d2c3a7331ced9326d8346b1302394e3a0de10c2c09504f78e60"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/ce-pace2021/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "c3dd07e4b111c5b0f31d1dcaa8850a714c796ac768a0a479750158013b746234"
+    },
+    {
+      "source": "assets/environments/solver/ce-pace2021/judge/scoring.py",
+      "target": "/opt/ce/scoring.py",
+      "sha256": "9e03328403b58f5626e77a5403414db2659abfa8bef709ce46f117fe7bd250b3"
+    },
+    {
+      "source": "tasks/solver/online/ce-pace2021/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "f16a02d5ec3eb5750036184c8b898090eabc1b25e8fb3ca92048f82f4637dd0d"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "limitations": [
+    "This record covers rebuilding the judge and development layers from tracked sources using the declared fixed base; it does not establish that the base itself is redistributable. Public 100/100 and hidden 100/100 records were valid with the baseline solver; hidden A == B and reward 0.0. Online used one public session. Offline used its Docker controller with 100 reserved and 100 finished workers and no remaining worker. A separate native Harbor nop run completed one trial with reward 0.0, complete hidden coverage and preserved /app. No paid model experiment or model score is claimed."
+  ]
+}

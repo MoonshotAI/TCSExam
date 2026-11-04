@@ -1,0 +1,49 @@
+{
+  "author": "Cody Bennett (https://github.com/codyjasonbennett)",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "@types/react-reconciler": "^0.28.0"
+    },
+    "integrity": "sha512-fXtDA0X0t0eBYAGLVM5YsgJGsJ5jEmqZEPrGbzdf5awjv0xE7nqv3TVnvtUF060Tkes15DbDAKW/I48vsb6SyA==",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": ">=18.0"
+    },
+    "resolved": "https://registry.npmjs.org/its-fine/-/its-fine-1.2.5.tgz",
+    "version": "1.2.5"
+  },
+  "lock_path": "node_modules/its-fine",
+  "name": "its-fine",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1088,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "978e8e1b1678b5e73758171a2d1a3cc1b2732495874a5e82d4a73a290e66158b",
+      "text_file": "image-notices/978e8e1b1678b5e73758171a2d1a3cc1b2732495874a5e82d4a73a290e66158b.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 9191,
+    "installed_in_image": false,
+    "integrity": "sha512-fXtDA0X0t0eBYAGLVM5YsgJGsJ5jEmqZEPrGbzdf5awjv0xE7nqv3TVnvtUF060Tkes15DbDAKW/I48vsb6SyA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/its-fine/-/its-fine-1.2.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "f568684c5fb876f03aff863857cd9e0c9883a96f219fe8f64af33243569dbcf8"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.2.5"
+}

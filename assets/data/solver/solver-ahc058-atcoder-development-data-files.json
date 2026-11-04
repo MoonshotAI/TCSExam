@@ -1,0 +1,949 @@
+{
+  "files": [
+    {
+      "path": "app/instances/0000.txt",
+      "source_context_path": "app/instances/0000.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0000.txt",
+      "git_blob": "724949bf6ce79b3bff44bdf3034f7b74b940979d",
+      "bytes": 330,
+      "sha256": "35c1e1f53acfe03b37f09db566e6f43940c67aa12c36c8810d3dcff82271a63a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0001.txt",
+      "source_context_path": "app/instances/0001.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0001.txt",
+      "git_blob": "ad2fcfe93e001206746d06423d7111c402fd92ea",
+      "bytes": 332,
+      "sha256": "9f1d6f51ad1fa62294c65f3e8436afba5dc75b58cb0651c7769dd95564161d22",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0002.txt",
+      "source_context_path": "app/instances/0002.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0002.txt",
+      "git_blob": "ad75b8963517413d62ec9fe67960524a59065919",
+      "bytes": 324,
+      "sha256": "ee57f6f2d6389b501744a91186e77dd178dee86ba63d6b9698f7c3ab136af3a2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0003.txt",
+      "source_context_path": "app/instances/0003.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0003.txt",
+      "git_blob": "bdcf4a1ee3e231dee34035eac5c74b207b90f755",
+      "bytes": 340,
+      "sha256": "29ccf97ea8aed9a8bd9f4733ccf6dc9ec2f653824246d5c128a30a68d24eb376",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0004.txt",
+      "source_context_path": "app/instances/0004.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0004.txt",
+      "git_blob": "a9dffef82d69a1ef8ee78a67b8cd3f00f9b00227",
+      "bytes": 337,
+      "sha256": "11fff7fab3384ded440dfe152ae658e37e847eb7f5e78d1ae5cc8635fb9bad62",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0005.txt",
+      "source_context_path": "app/instances/0005.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0005.txt",
+      "git_blob": "48e12f5568e4cf4b715ad4ef0beddbf633420edc",
+      "bytes": 353,
+      "sha256": "b4cb30b5a1b681e9e9b6dfbc6b0c6e25401f6b758afa85fb0e9cb577935b2635",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0006.txt",
+      "source_context_path": "app/instances/0006.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0006.txt",
+      "git_blob": "525c80578b0a234a8d76c4a35b9efc8c1404ba5f",
+      "bytes": 342,
+      "sha256": "31dfb2a97e6209a8575cdaf5e046c028d4b75b670ad0ff310782be4dcfc485b9",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0007.txt",
+      "source_context_path": "app/instances/0007.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0007.txt",
+      "git_blob": "eef4df42480224b78899073b701363b3050ca723",
+      "bytes": 337,
+      "sha256": "23cd28d99c6246f0478ca901463d455ae4fab229951300014519624a18fd7f50",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0008.txt",
+      "source_context_path": "app/instances/0008.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0008.txt",
+      "git_blob": "e768304c206fef208ad5651447657a5c01897f08",
+      "bytes": 331,
+      "sha256": "52dd70e5d1271111ea1bb6d6cbdb58e4f7ddeedd8831425be1c69e6d41f79203",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0009.txt",
+      "source_context_path": "app/instances/0009.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0009.txt",
+      "git_blob": "5654cbedc97caf6d53b79f39633dfd23313fa431",
+      "bytes": 323,
+      "sha256": "edc4f29948ed4ece3377b84ee8fd6ad3c70904cef7c6bd4144810dc009924972",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0010.txt",
+      "source_context_path": "app/instances/0010.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0010.txt",
+      "git_blob": "4e24ade196759cfce638c74da3f3ad7df0b8442f",
+      "bytes": 323,
+      "sha256": "3090033f13db886fab4da1a38a555eb32e43a5fd99800584c53183d46890eccd",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0011.txt",
+      "source_context_path": "app/instances/0011.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0011.txt",
+      "git_blob": "6a66ccab750d2954c8e1d9dec442baf4645c79df",
+      "bytes": 329,
+      "sha256": "c045b0c818db036c4615d1cf88debdb4872478fa320cfcf45e26da34c2189e42",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0012.txt",
+      "source_context_path": "app/instances/0012.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0012.txt",
+      "git_blob": "0bcdc866a15ad812a7f2f5e8ed446b38f4f4f0c0",
+      "bytes": 327,
+      "sha256": "520758e776119b4e4f208b8b4a7c018d1878dff4854faee4b99d2cbb50604a90",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0013.txt",
+      "source_context_path": "app/instances/0013.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0013.txt",
+      "git_blob": "8a5eb4278144011f4e334766904266e494b9c760",
+      "bytes": 328,
+      "sha256": "b2eb765abaa7d14bf5ad03e4458ae4b4568b84b1bbe5e4a506801920bd000722",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0014.txt",
+      "source_context_path": "app/instances/0014.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0014.txt",
+      "git_blob": "0b754603ca23820455d99b38ebf2d35d77ea4657",
+      "bytes": 325,
+      "sha256": "b2656cf95b05da2902a7be9035f273fa62fcc3d1195ce2f7a9908fe70f40a750",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0015.txt",
+      "source_context_path": "app/instances/0015.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0015.txt",
+      "git_blob": "c0bcede61e5a6fb245e895fc7b375696b619cfdc",
+      "bytes": 364,
+      "sha256": "25c2d2e727252b809438c938b37f5a5e2f8db4767896b938e913017eaca582c6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0016.txt",
+      "source_context_path": "app/instances/0016.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0016.txt",
+      "git_blob": "b0a1308fa90e4db80aa21273ecc807acd23a8713",
+      "bytes": 336,
+      "sha256": "3badd554b9e8a9b65ce33f0be2779eeddbe347a664a9242a09fd84733549eda4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0017.txt",
+      "source_context_path": "app/instances/0017.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0017.txt",
+      "git_blob": "7e42f1e104bff8820aed5ba35589b59d42579300",
+      "bytes": 337,
+      "sha256": "be98f52e153464a6b4404397675a17bc1ec7d885a508f3138d2c9f68ddca3571",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0018.txt",
+      "source_context_path": "app/instances/0018.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0018.txt",
+      "git_blob": "2f2307345cb5807e0be96908ab8858c91fe0646f",
+      "bytes": 343,
+      "sha256": "0d43dae75af43acf8a876db73efc198318b53f02c766f3e2ab6a2237753cd345",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0019.txt",
+      "source_context_path": "app/instances/0019.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0019.txt",
+      "git_blob": "a7d1b4c6801a6fb746369603f72ce64d819a05f3",
+      "bytes": 348,
+      "sha256": "da7757ccc3c8b8dd11b731d870ef87eade0183e74fd78ce9acc288516ee3e3fe",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0020.txt",
+      "source_context_path": "app/instances/0020.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0020.txt",
+      "git_blob": "0de70e60268a8709ba9da7be04db628c7e8f41ed",
+      "bytes": 334,
+      "sha256": "9bebca0df0b6787cd957c35430c4fe074f89e8c46ecefaafa36592092e89ca62",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0021.txt",
+      "source_context_path": "app/instances/0021.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0021.txt",
+      "git_blob": "f02ec8772ffa2a3c82b0b010655569ba83948c25",
+      "bytes": 322,
+      "sha256": "34fd1e9a37c7358a5d31de50cd7c5962b482f4b7f38f67e016946ef07098d663",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0022.txt",
+      "source_context_path": "app/instances/0022.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0022.txt",
+      "git_blob": "9eb52e785e5b25413a4bd0edcfcf0509a79097db",
+      "bytes": 327,
+      "sha256": "fd17a9e8922972b1abc9e4e417cbd6710bd518c898f3952b93d34c1da5187c08",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0023.txt",
+      "source_context_path": "app/instances/0023.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0023.txt",
+      "git_blob": "7fcad4d1b0161b66e935a83498ffc1e066dd4428",
+      "bytes": 335,
+      "sha256": "581e221f8d951eca51a6cc421e4f32fe50f2959bd856d425aa3f2ab34ac4d134",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0024.txt",
+      "source_context_path": "app/instances/0024.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0024.txt",
+      "git_blob": "48027b382ef30057b12de64549ce801b15721f23",
+      "bytes": 332,
+      "sha256": "51348dc67532fbe860c857e91abda2798ec8cc61414ecb57eddb2ee7d8886c20",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0025.txt",
+      "source_context_path": "app/instances/0025.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0025.txt",
+      "git_blob": "41113b6e15e85e40968e2addead5ee51758ebafb",
+      "bytes": 335,
+      "sha256": "f46b6621766e4c6b6393f0e6c5cde5e7a9911d2241c7adf83d0d3afb27f18724",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0026.txt",
+      "source_context_path": "app/instances/0026.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0026.txt",
+      "git_blob": "1e86f2de8da09dea2ce47e98d98801427888b9ea",
+      "bytes": 330,
+      "sha256": "dc784cada9ad3a3578d840b47016fc6b99ecad45ba6035519ccc84cf5d27274a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0027.txt",
+      "source_context_path": "app/instances/0027.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0027.txt",
+      "git_blob": "36b7b06c16bc3100f8444492613eab114e30478b",
+      "bytes": 332,
+      "sha256": "469c5e200555f53d9e294633633f0b8dba00cbe6092ca10b4c648a7ba7a61294",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0028.txt",
+      "source_context_path": "app/instances/0028.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0028.txt",
+      "git_blob": "e561fffdfca63868fb22d65c4d297565cae9e0a8",
+      "bytes": 333,
+      "sha256": "c3cfaa64a88066f83582f66e912a63debc39843edfd7d65656c6e78502ff1ebb",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0029.txt",
+      "source_context_path": "app/instances/0029.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0029.txt",
+      "git_blob": "b42639d9866f82a50b6540ecdf7a32df726b3d23",
+      "bytes": 336,
+      "sha256": "68703c02531d3d05db90ccbc0632288c289a47ae7a6ad72a199ef78798e1f4b8",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0030.txt",
+      "source_context_path": "app/instances/0030.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0030.txt",
+      "git_blob": "08ccec8e2f5e2c3bb198634ab5f9f6dafa145252",
+      "bytes": 333,
+      "sha256": "49c7d1f73d00183a86905a52bb51a5a786ec8179a647d4f19e60879add283936",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0031.txt",
+      "source_context_path": "app/instances/0031.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0031.txt",
+      "git_blob": "53373466d10b61af8f0d3f71c113496163f57b91",
+      "bytes": 331,
+      "sha256": "5943b853e4e676f3a50a8df11ea1b0804c913eca06e7b2f4772496432665800c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0032.txt",
+      "source_context_path": "app/instances/0032.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0032.txt",
+      "git_blob": "f98237d1b408f9d12e712c04497446b9760b002e",
+      "bytes": 332,
+      "sha256": "1c3dd2160f79b44c87abfa861a92778c1c387eca9d5603a054ccac9a83d04f6f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0033.txt",
+      "source_context_path": "app/instances/0033.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0033.txt",
+      "git_blob": "5338223701afb188cf2ec4df41d8eb0a3af5924e",
+      "bytes": 323,
+      "sha256": "6169973e25c51303bf50ae85a85bfc55f2f119577816f3aeb2530495251c5f70",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0034.txt",
+      "source_context_path": "app/instances/0034.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0034.txt",
+      "git_blob": "84d3b5045b4ef1aa9e85b610c33c9cec3f128a6f",
+      "bytes": 331,
+      "sha256": "d7058594ddb732d987a14cb58d281c10fe2d9e8a8600ca12f322771cfa3d6ccc",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0035.txt",
+      "source_context_path": "app/instances/0035.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0035.txt",
+      "git_blob": "12625ee116bfdb52bc74e27d34cc79a514a8ef6b",
+      "bytes": 338,
+      "sha256": "3b1556c4040b73790b0eb4fe2bee961921a65c9e46e4d1eea055aad312842120",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0036.txt",
+      "source_context_path": "app/instances/0036.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0036.txt",
+      "git_blob": "b7e85c10d5f6e48f517c38628594c6d2848d300e",
+      "bytes": 336,
+      "sha256": "bd81854e00c4d2f68c6394a86ee9fc31c6fa2ce34047dadde363e309c7a87dd2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0037.txt",
+      "source_context_path": "app/instances/0037.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0037.txt",
+      "git_blob": "e939eb9ee3448ccb415c2a7226ae6371b3da29ad",
+      "bytes": 321,
+      "sha256": "117acde5cfd9b92fbee1da47bcecfe2cf65abb426f43dc6ef2f5f45bb75201a5",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0038.txt",
+      "source_context_path": "app/instances/0038.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0038.txt",
+      "git_blob": "879a085dd82f36d6514cfb3fe5dc8667b50d7d03",
+      "bytes": 332,
+      "sha256": "3c344c62a88fe961f7ab119285a14096be6b4389f1173af7067ce717319951cd",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0039.txt",
+      "source_context_path": "app/instances/0039.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0039.txt",
+      "git_blob": "6e8b7d003dee2684ef7a330f4db0e7a35c929b46",
+      "bytes": 339,
+      "sha256": "d75ec74715f9d4072e133b4f385a224ad327baea2b907bc26202217d3484021d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0040.txt",
+      "source_context_path": "app/instances/0040.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0040.txt",
+      "git_blob": "c9761bead65c94815868220bf03d912090d5aa78",
+      "bytes": 342,
+      "sha256": "c4b6f4f4679b1600eb036abbbf4b57fb7297690455f659718de4e8d434551203",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0041.txt",
+      "source_context_path": "app/instances/0041.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0041.txt",
+      "git_blob": "dd1d428c1d5baa12a6d715546b3bf36ac9e10900",
+      "bytes": 323,
+      "sha256": "695abc1985ad0c29e0272124e1a3194224d1ffff42c2c30714452ef068694132",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0042.txt",
+      "source_context_path": "app/instances/0042.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0042.txt",
+      "git_blob": "33a946d1d3a330af4b88a9918752fe0bdf781a87",
+      "bytes": 317,
+      "sha256": "bce9179b4a721eab50bf7d38bee562eda5cbbde9ab980853a453987ca6f5326a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0043.txt",
+      "source_context_path": "app/instances/0043.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0043.txt",
+      "git_blob": "bc27a816cc5030cc3e1b2b19c65e079929e47c88",
+      "bytes": 314,
+      "sha256": "5251375068f7927ca75967d05fa38351ec404e9ffe1d418504a1e4c758cd17e0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0044.txt",
+      "source_context_path": "app/instances/0044.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0044.txt",
+      "git_blob": "ac1422d855e3ec88a6789c1fdaf9ab2f61e23a54",
+      "bytes": 344,
+      "sha256": "557402dd3f52f8066d3249eb3ad470b472d85aa116efafd73ca8b0ca077e29db",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0045.txt",
+      "source_context_path": "app/instances/0045.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0045.txt",
+      "git_blob": "11a7a3143efa6e25e48a59b58c6b723c53068e41",
+      "bytes": 332,
+      "sha256": "3d8c7ee2c0b0b16ccbbffa1c9b0d3e8a920b4caa569a947f3a8a17a51e2bb27b",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0046.txt",
+      "source_context_path": "app/instances/0046.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0046.txt",
+      "git_blob": "b9efbd6f875ef024254b043e084313c0e554ca72",
+      "bytes": 336,
+      "sha256": "df0447d25c2e88bbb70b9309b2bfc0da7b8a03790a6c64b80a750f9c0c77d69e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0047.txt",
+      "source_context_path": "app/instances/0047.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0047.txt",
+      "git_blob": "f8aaa3a5ea46e72936dda7665a4797d5fd866169",
+      "bytes": 314,
+      "sha256": "9fbb1f30a803ddd396833299d0e73ad2399a7a7784078b692f0addb02e1e5280",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0048.txt",
+      "source_context_path": "app/instances/0048.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0048.txt",
+      "git_blob": "7ccab12d72dee5074a826cd33a88f88156dd670e",
+      "bytes": 336,
+      "sha256": "8d17a9367a30400fd0ace6bc01598179cbbed43e19b13f5a6df2e32e85cdc9fc",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0049.txt",
+      "source_context_path": "app/instances/0049.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0049.txt",
+      "git_blob": "fadf95504ed987f3acbe0cab9da9c09ef3761c48",
+      "bytes": 322,
+      "sha256": "ff32a3e7ad2756460e918cf3729a0c94cf6ce73d9b29a07da39eff3c2d118885",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0050.txt",
+      "source_context_path": "app/instances/0050.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0050.txt",
+      "git_blob": "2d9b5713707fff22b08aae58eb7cc13b14240f33",
+      "bytes": 331,
+      "sha256": "f686da67e9d4cb4fc2b462ba24b3de8b2522cd947dc8a667379d379e18a8ed00",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0051.txt",
+      "source_context_path": "app/instances/0051.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0051.txt",
+      "git_blob": "f9cc94c6b6c2a7f79be2357ca493723ab11267c6",
+      "bytes": 336,
+      "sha256": "c05cf8017ca9fb0feb8b320bdc4e2afc65ae99f33acfdea86b107bcbb7d1d272",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0052.txt",
+      "source_context_path": "app/instances/0052.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0052.txt",
+      "git_blob": "b180b122044e593eff05bdcc570cf28d44413bf4",
+      "bytes": 334,
+      "sha256": "5fcb07d6e4f7f66e59c042716e185c175bd1f82aa0a729601ad6818c7dbb31c3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0053.txt",
+      "source_context_path": "app/instances/0053.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0053.txt",
+      "git_blob": "d5ac56f044978fe66ff9c504053a72c3fcd8ffff",
+      "bytes": 343,
+      "sha256": "d34af10fe03b02b633499448b367e7a27aa040d41f4a738774cb75433c3e19c0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0054.txt",
+      "source_context_path": "app/instances/0054.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0054.txt",
+      "git_blob": "e9427efdd298b3491f46b84dae3effeb676820af",
+      "bytes": 336,
+      "sha256": "ec3a5d6b5fe89847569d92e705ea3b48223a3205b9f675b333224611c25bd00e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0055.txt",
+      "source_context_path": "app/instances/0055.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0055.txt",
+      "git_blob": "753c1001d43f3899b66158ed6fefd3517a742ec3",
+      "bytes": 332,
+      "sha256": "5976ad1c10d72d6e52a9c4c720f02b13d90fea90e1f900d2e7f49e81a8221663",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0056.txt",
+      "source_context_path": "app/instances/0056.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0056.txt",
+      "git_blob": "dd3a4764f9dffa7049e70d6047b4647762487612",
+      "bytes": 337,
+      "sha256": "b018417054b2ea1b351faf9c46de86902821babde3221b23e8453211894c51d9",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0057.txt",
+      "source_context_path": "app/instances/0057.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0057.txt",
+      "git_blob": "3ae74ed5d9ad6c91f525a705b5ecec2b18312d04",
+      "bytes": 331,
+      "sha256": "246e802a3b6936a78a2f3a146a3afcf051d817761c9f5eebbe1bb5cbc9eb8fb8",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0058.txt",
+      "source_context_path": "app/instances/0058.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0058.txt",
+      "git_blob": "3130df8ff50f23e82e2fec1284b04661943b9af5",
+      "bytes": 336,
+      "sha256": "b9b78d6aba7b4c073fce15b84e8cab84f8696dbd0d238c666d53d920224c2435",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0059.txt",
+      "source_context_path": "app/instances/0059.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0059.txt",
+      "git_blob": "4760fc7ce92b4dd17e9b4606d76e3791b0bd1e6f",
+      "bytes": 330,
+      "sha256": "b5970b7c6fd9bbaeda2f6ea6a77d2b55861eb4a48cc83120f37cba0fbbe0df47",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0060.txt",
+      "source_context_path": "app/instances/0060.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0060.txt",
+      "git_blob": "401e3a313a3d990c545ba5e70e5f621516fbef33",
+      "bytes": 343,
+      "sha256": "b61d8331275eb1e5f5eed26eee7414f9c00e830e1c2432ec870f4ecc9a8acb41",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0061.txt",
+      "source_context_path": "app/instances/0061.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0061.txt",
+      "git_blob": "0e03b758b89d74561402bc260e8ba613b1d6a60b",
+      "bytes": 325,
+      "sha256": "a08c1a388dca9a988fd2a42e770401a1a03528367f14a4d12da04b6399e6b046",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0062.txt",
+      "source_context_path": "app/instances/0062.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0062.txt",
+      "git_blob": "f067e7c1582616487fa3207424b5177fd36b53e5",
+      "bytes": 342,
+      "sha256": "ba26c034bff0053ffb49c027ab26552360c26f4971ba6617b1bc415a760488cb",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0063.txt",
+      "source_context_path": "app/instances/0063.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0063.txt",
+      "git_blob": "ab4cc013fa9e2136314064f954db3a001a1af591",
+      "bytes": 337,
+      "sha256": "2b2a53b41fbead835faa579f77ee42656e0f188538e02d0d7d26ce3d9ad184fa",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0064.txt",
+      "source_context_path": "app/instances/0064.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0064.txt",
+      "git_blob": "48435d97a2d5298f422d2a1ab162e3a8a20b7843",
+      "bytes": 337,
+      "sha256": "940cc935f42e4e1c8f53be8cc9f4a329643b20d0ba9db5800bed0551e38dacaa",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0065.txt",
+      "source_context_path": "app/instances/0065.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0065.txt",
+      "git_blob": "5fb2ee92c01cb1b4d6676af82d34f30610b618c4",
+      "bytes": 327,
+      "sha256": "cd126e60d9b248cd3c865738799bcff3ec05e0d97f1749a94755cbc61ff92260",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0066.txt",
+      "source_context_path": "app/instances/0066.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0066.txt",
+      "git_blob": "57d57d2db41c53dc8d79a4488c8c1104285d315e",
+      "bytes": 344,
+      "sha256": "e5cd8c6eb97051bb4ac5120f5086cb19c2145665f29aa0edef876b9b9186c243",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0067.txt",
+      "source_context_path": "app/instances/0067.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0067.txt",
+      "git_blob": "823361f3148c1cff771ada7d46020141c3be83a8",
+      "bytes": 334,
+      "sha256": "f48565d5c9e524c69050947d4a590c82692c2ab1aa9817dd12652ae6c681a5ba",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0068.txt",
+      "source_context_path": "app/instances/0068.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0068.txt",
+      "git_blob": "c1f620d71d79bbf510b909af0dc527ab74a58456",
+      "bytes": 340,
+      "sha256": "1862121c58481536922a1e16c87bd2099cacc1637c1b120471c1a0e913b31e27",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0069.txt",
+      "source_context_path": "app/instances/0069.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0069.txt",
+      "git_blob": "4cbdd5fa092e55222a91f03f7fd6303d16442b6a",
+      "bytes": 351,
+      "sha256": "71289da9cc7c64898f9dc520c9d1cd7fc60444fa0cf8e86b60603a90782b9be5",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0070.txt",
+      "source_context_path": "app/instances/0070.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0070.txt",
+      "git_blob": "3590a0d0361302098629966d152e3aa4ee729b19",
+      "bytes": 332,
+      "sha256": "b77ccca14dbc0d26dd90014aaa1c3d63aa7bd38db48588d3da9e78a4ba683003",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0071.txt",
+      "source_context_path": "app/instances/0071.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0071.txt",
+      "git_blob": "e48d4699f5a084da6271dfce1551a18f93e81954",
+      "bytes": 326,
+      "sha256": "1a1d50d5333388364949bf8bb5b60fca040eb5d52eafbf931b1580698ffb839d",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0072.txt",
+      "source_context_path": "app/instances/0072.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0072.txt",
+      "git_blob": "92c1b10c4e6e6346a95e102e5c8cb8e65491aa71",
+      "bytes": 332,
+      "sha256": "54b7f16c6e410faa4315d9dc8c5f5b844fa1cf3b12ca1a01fb63d1d395463352",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0073.txt",
+      "source_context_path": "app/instances/0073.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0073.txt",
+      "git_blob": "fb71f506ff7a07915736327afb35ef7f8174c9e6",
+      "bytes": 339,
+      "sha256": "635b063d8154446a9e34d64d20970a1a18f2cdfe334ff91be1dce6c0c4d3323c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0074.txt",
+      "source_context_path": "app/instances/0074.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0074.txt",
+      "git_blob": "5eb0aeefabb7484ebda07c072435d32708d7c531",
+      "bytes": 316,
+      "sha256": "ee0ae1cd691f485badb0d1e90824ac6e8ac8fe90ce5f7fa2af929d427c8151f6",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0075.txt",
+      "source_context_path": "app/instances/0075.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0075.txt",
+      "git_blob": "d8649d71fce192065d9b518d20004d559779fa13",
+      "bytes": 334,
+      "sha256": "967b8bbb9bf70b43366356c00d7ad6fdf1ad09b7b2ec51821b7fcea9cbb8c086",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0076.txt",
+      "source_context_path": "app/instances/0076.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0076.txt",
+      "git_blob": "75498d6dc46f4a20430ed0e648447ca740c8a79d",
+      "bytes": 335,
+      "sha256": "622c36076038193fa8925e7d57c82424bd4c7f3785c00f05fbd33596e774719e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0077.txt",
+      "source_context_path": "app/instances/0077.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0077.txt",
+      "git_blob": "979142b1ef04badc39eb8a4f6f4fe441eece1128",
+      "bytes": 345,
+      "sha256": "f9d49fb068407b75a6b989bcd97579890e904cf0acb292909612e10eeb7c78b9",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0078.txt",
+      "source_context_path": "app/instances/0078.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0078.txt",
+      "git_blob": "4a3cecfd71e7571d3fd30d5097a7d995c403b0a5",
+      "bytes": 341,
+      "sha256": "2e7ef60ead799f53abc7a6a1c50b743993d9a745957f0a9b21365921c02aeb7c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0079.txt",
+      "source_context_path": "app/instances/0079.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0079.txt",
+      "git_blob": "65df7ce03ca1c5464eb0d46959bf0288ecf8b02d",
+      "bytes": 313,
+      "sha256": "fa9ef0f9c606d7da10b07db128682c99f17757f81ca24c802ce8ac3b71d882c2",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0080.txt",
+      "source_context_path": "app/instances/0080.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0080.txt",
+      "git_blob": "8130bb8703a1b115788c281d619061cd52017bb1",
+      "bytes": 339,
+      "sha256": "12a14d3c9e490fe3effe652e9e25d25e8a54d6d332a66091b7e992ede60ac155",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0081.txt",
+      "source_context_path": "app/instances/0081.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0081.txt",
+      "git_blob": "2afed0ad5d9bb79ee43019014608c80ef1f206d4",
+      "bytes": 319,
+      "sha256": "35b796846a70dc0140b83b7810214035630b811f6b74912b89594678bdb7a6e0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0082.txt",
+      "source_context_path": "app/instances/0082.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0082.txt",
+      "git_blob": "3a8a09f9a04568496c92f3258168d056cc7f3dcb",
+      "bytes": 331,
+      "sha256": "4fa0c333f0ad62fa042d525b01a6cb5afd44c1f742905b0cf4df6d94920aa7a8",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0083.txt",
+      "source_context_path": "app/instances/0083.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0083.txt",
+      "git_blob": "d5f9b2cd53642e449c963699c3810cc6d9114730",
+      "bytes": 336,
+      "sha256": "49aba88ce4b8c41004b2a3d1ca2b1b6651e838ebd7c4fa0401c67b2fbb6a8cab",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0084.txt",
+      "source_context_path": "app/instances/0084.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0084.txt",
+      "git_blob": "56b1d7ca3ed37108b4ee8c300f9a54bc863cd915",
+      "bytes": 333,
+      "sha256": "0ae44d370e5279b8edf5a52cc57e7e068187cfdfb08d56bb656809b9919e7c26",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0085.txt",
+      "source_context_path": "app/instances/0085.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0085.txt",
+      "git_blob": "718fbb5ff1179d94c44ecbc97e23df8179a47d6c",
+      "bytes": 333,
+      "sha256": "a7d7662353022318552e40822de08f213655d984781b48a64fbed9d7fe6a5d70",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0086.txt",
+      "source_context_path": "app/instances/0086.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0086.txt",
+      "git_blob": "afe5d8bf7088bf276064f6ff242928cf91bc7e8f",
+      "bytes": 340,
+      "sha256": "265658c07fbb701781ae6ca3fb1853dfedb1a2879a55965ce3aacaca89e9ac96",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0087.txt",
+      "source_context_path": "app/instances/0087.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0087.txt",
+      "git_blob": "16a9fb139b6f4fb4648792932f15fc17b40978d3",
+      "bytes": 322,
+      "sha256": "03370326c180011e914554bcf3c2864c138c97abdfdf045981f241d14dbca41a",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0088.txt",
+      "source_context_path": "app/instances/0088.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0088.txt",
+      "git_blob": "d52562ff7ae07898559b935817519c849ecb16c7",
+      "bytes": 322,
+      "sha256": "562426c7dce50fde6e589886ce6aae4784a924b3676e323709ff4e3bdbed6f0f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0089.txt",
+      "source_context_path": "app/instances/0089.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0089.txt",
+      "git_blob": "09781e4b4399c32f7328f26d2c4c1aacb275f1d1",
+      "bytes": 324,
+      "sha256": "9bfba3c12485aed02336ed8a72346dafa8fbc62430e4d16a492c3e89d2056a55",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0090.txt",
+      "source_context_path": "app/instances/0090.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0090.txt",
+      "git_blob": "72574ca3e524860f8c9f258732af1e506103a272",
+      "bytes": 329,
+      "sha256": "737a8b1f2d7ecf13fdc21badf21e98ae7868cff0b2584864876d397dc4dbcf43",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0091.txt",
+      "source_context_path": "app/instances/0091.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0091.txt",
+      "git_blob": "858396d4dd65217a3d64902519dab05f1f647aa7",
+      "bytes": 335,
+      "sha256": "68724a9b2ddf555d9397e0eae479d793a6edf8c5dca5d507f9d8b8b088282339",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0092.txt",
+      "source_context_path": "app/instances/0092.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0092.txt",
+      "git_blob": "74169635ca7c642210123ed28bd4f61f9bbfe054",
+      "bytes": 335,
+      "sha256": "6822a62c684d0161b57daa7fdb83a3f46d832ecf89d7737dbb9c98fd3be2f5b3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0093.txt",
+      "source_context_path": "app/instances/0093.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0093.txt",
+      "git_blob": "c7fc31817f5f420a5b317aa71b780020e3a623cf",
+      "bytes": 343,
+      "sha256": "45b5d88f790ce16170fde9feb96de58e169da782cb7b542a22a1a027f5b43793",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0094.txt",
+      "source_context_path": "app/instances/0094.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0094.txt",
+      "git_blob": "1245c2474a39d6f1ff390169af257efa47b0b8d9",
+      "bytes": 312,
+      "sha256": "c4ab6866d37936c11d912b96d5f9da7495b3b999a8339f9cc6faa4b6b1b5d1db",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0095.txt",
+      "source_context_path": "app/instances/0095.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0095.txt",
+      "git_blob": "c9e221716a6ba694eea37559bec58688fdc5be14",
+      "bytes": 348,
+      "sha256": "17f2ac3ae2d975f962f98fbd76f6dc820df328b85b61de9fed83a39800fca82f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0096.txt",
+      "source_context_path": "app/instances/0096.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0096.txt",
+      "git_blob": "81b5f812778911440685a87728049212d8ddde90",
+      "bytes": 332,
+      "sha256": "d44447d2cc2919d0cec045a6184242217ba21a2bb28c6ca8e4a7728895dd3b86",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0097.txt",
+      "source_context_path": "app/instances/0097.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0097.txt",
+      "git_blob": "a8bb621ebc21148ce370a51a9004c1c6b5406170",
+      "bytes": 339,
+      "sha256": "0adb47fd6085b7abb5d0a47af27ede02382597777f6fe2cd6f17b18abf6de93e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0098.txt",
+      "source_context_path": "app/instances/0098.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0098.txt",
+      "git_blob": "d2fc6cc94e2e63d7ec4b3adc7651a224cc57c116",
+      "bytes": 344,
+      "sha256": "34dd1798ddc8e42314adea7b57c588d1b85d4dc3700da303eb0d5b311524c3c7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/0099.txt",
+      "source_context_path": "app/instances/0099.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/0099.txt",
+      "git_blob": "d37db678eb8e37ff989147c52473243d454a0225",
+      "bytes": 320,
+      "sha256": "45bb9964303689087efc16ceacf1b3c2d27a203440fef948d55a6fbbba12d4bb",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/h00.txt",
+      "source_context_path": "app/instances/h00.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/h00.txt",
+      "git_blob": "ca8cf198c2b2a3e63145f8d4018dae5ca05c10c3",
+      "bytes": 337,
+      "sha256": "0df22c37abe8ad6d0c1159c97c7704b84dea3cd1c74a8a9c1a4ddde6548d5524",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/h04.txt",
+      "source_context_path": "app/instances/h04.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/h04.txt",
+      "git_blob": "ac78cba6214a2614542bf40249d02611310c3efd",
+      "bytes": 329,
+      "sha256": "37c0fb970f96a663225c06b925b714267715d14f53564ba2e9b9bc32d92821e4",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/h19.txt",
+      "source_context_path": "app/instances/h19.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/h19.txt",
+      "git_blob": "093215d2f38fe0fa6bbc17fdb8f871c04cfb9c4e",
+      "bytes": 331,
+      "sha256": "6d3d3dfec28adfefac39c0e24c34f20505ba8c46bfefd3cdb74220553ec93603",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/h24.txt",
+      "source_context_path": "app/instances/h24.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/h24.txt",
+      "git_blob": "c4c11b6c62394989a4b466cfde2cfe22f565e612",
+      "bytes": 330,
+      "sha256": "005cdcc54cff8dc12aef9849d12c0105ecec51ca49eae28932ba70b511b4bbbd",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/h27.txt",
+      "source_context_path": "app/instances/h27.txt",
+      "source_path": "tasks/solver/online/ahc058-atcoder/environment/app/instances/h27.txt",
+      "git_blob": "c9cfcdb656fd2a49070a88ea89f49fcdd9966778",
+      "bytes": 315,
+      "sha256": "3805c7b9d9d8f9eb1bb1f972a9f1b68062faa7a02a367d5da933fbe9eadc9619",
+      "mode": "0644"
+    }
+  ]
+}

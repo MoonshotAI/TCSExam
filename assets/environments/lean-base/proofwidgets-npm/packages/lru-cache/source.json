@@ -1,0 +1,47 @@
+{
+  "author": "Isaac Z. Schlueter <i@izs.me>",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "BlueOak-1.0.0",
+  "lock_entry": {
+    "dev": true,
+    "engines": {
+      "node": "20 || >=22"
+    },
+    "integrity": "sha512-ESL2CrkS/2wTPfuend7Zhkzo2u0daGJ/A2VucJOgQ/C48S/zB8MMeMHSGKYpXhIjbPxfuezITkaBH1wqv00DDQ==",
+    "license": "BlueOak-1.0.0",
+    "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-11.2.6.tgz",
+    "version": "11.2.6"
+  },
+  "lock_path": "node_modules/lru-cache",
+  "name": "lru-cache",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1552,
+      "installed_file": "notices/original/package/LICENSE.md",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE.md",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "text_file": "image-notices/8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004.txt"
+    }
+  ],
+  "package_license": "BlueOak-1.0.0",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 188669,
+    "installed_in_image": false,
+    "integrity": "sha512-ESL2CrkS/2wTPfuend7Zhkzo2u0daGJ/A2VucJOgQ/C48S/zB8MMeMHSGKYpXhIjbPxfuezITkaBH1wqv00DDQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/lru-cache/-/lru-cache-11.2.6.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "8d64854b101ae1924da0ce15009230ecd0fdbe9030d2d258dacc4fe11805e383"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "11.2.6"
+}

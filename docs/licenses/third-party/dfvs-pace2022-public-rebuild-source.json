@@ -1,0 +1,8 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "dfvs-pace2022",
+  "scope": "The frozen directed-graph inputs are reconstructed from the official all-instance archive with the pinned XZ toolchain. Apply only the transformations declared by the selected recipe.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Retain the original resource-specific local reconstruction decision. No additional data redistribution grant is asserted."
+}

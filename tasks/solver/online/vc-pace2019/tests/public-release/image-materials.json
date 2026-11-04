@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "task": "vc-pace2019",
+  "product": "backend-public-online-vc-pace2019",
+  "source_image_digest": "sha256:f19cb946e64bea68f4f9dff4dc5e46d2191e8484450b24131ddc84a4ac16de53",
+  "source_image_role": "provenance only; not a public_image assignment",
+  "payload_rule": "Copy every existing rootfs tar entry without changing its path, type, bytes, mode, owner, mtime, or link target. Add only the declared license, notice, corresponding-source, provenance, and build files.",
+  "files": [
+    {
+      "source": "LICENSE-TCSExam",
+      "target": "/licenses/TCSExam-LICENSE",
+      "mode": "0644"
+    },
+    {
+      "source": "NOTICE-TCSExam",
+      "target": "/licenses/TCSExam-NOTICE",
+      "mode": "0644"
+    },
+    {
+      "source": "CC-BY-4.0.txt",
+      "target": "/licenses/CC-BY-4.0.txt",
+      "mode": "0644"
+    },
+    {
+      "source": "PACE2019-VC-NOTICE.txt",
+      "target": "/licenses/PACE2019-VC-NOTICE.txt",
+      "mode": "0644"
+    },
+    {
+      "source": "BUILD-vc_validate.md",
+      "target": "/opt/vc/BUILD-vc_validate.md",
+      "mode": "0644"
+    },
+    {
+      "source": "build-vc_validate.sh",
+      "target": "/opt/vc/build-vc_validate.sh",
+      "mode": "0755"
+    },
+    {
+      "source": "vc_validate.cpp",
+      "target": "/opt/vc/corresponding-source/vc_validate.cpp",
+      "mode": "0644"
+    },
+    {
+      "source": "LICENSE-vc_validate",
+      "target": "/opt/vc/corresponding-source/LICENSE-vc_validate",
+      "mode": "0644"
+    },
+    {
+      "source": "vc-validate-source.json",
+      "target": "/opt/vc/corresponding-source/source.json",
+      "mode": "0644"
+    },
+    {
+      "source": "SYSTEM-SOURCES.md",
+      "target": "/usr/share/tcsexam/source-packages/README.md",
+      "mode": "0644"
+    },
+    {
+      "source": "system-dependencies.json",
+      "target": "/usr/share/tcsexam/source-packages/manifest.json",
+      "mode": "0644"
+    },
+    {
+      "source": "image-materials.json",
+      "target": "/usr/share/tcsexam/public-release/image-materials.json",
+      "mode": "0644"
+    }
+  ],
+  "source_directories": [
+    {
+      "source": "packages",
+      "target": "/usr/share/tcsexam/source-packages/debian"
+    },
+    {
+      "source": "python",
+      "target": "/usr/share/tcsexam/source-packages/python"
+    },
+    {
+      "source": "python-distributions",
+      "target": "/usr/share/tcsexam/source-packages/python-distributions"
+    }
+  ],
+  "expected_regular_additions": 292,
+  "forbidden_existing_payload_changes": [
+    "/usr/local/bin/vc_validate",
+    "/public-instances",
+    "/tests-public",
+    "/public_reference.json",
+    "/opt/vc/scoring.py",
+    "/judge"
+  ],
+  "public_upload_allowed_by_this_file": false,
+  "anonymous_public_pull_verified": false
+}

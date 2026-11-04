@@ -1,0 +1,129 @@
+{
+  "description": "Download the fixed official AHC058 tools ZIP, copy exactly 100 official inputs byte-for-byte, and generate five public development inputs with the official locked Rust generator. Calibrate the official generator against all 100 official inputs during every preparation. Check every output against the retained SHA-256, byte count and 0644 mode. No open redistribution license was found; the data and derived images are local-preparation-only and must not be uploaded publicly.",
+  "archive_format": "zip",
+  "source": {
+    "id": "ahc058-atcoder-official-tools-upvavdx6-zip",
+    "url": "https://img.atcoder.jp/ahc058/UpvAVdx6.zip",
+    "bytes": 49420,
+    "sha256": "580fa32d99059c78dbe87310b6de771cb64c385c4bf461c7f2865336c9a99ac8"
+  },
+  "generator_paths": [
+    "src/tcsexam/ahc058_atcoder.py"
+  ],
+  "selection": {
+    "official": {
+      "source_root": "tools/in",
+      "output_directory": "app/instances",
+      "first_instance": 0,
+      "last_instance": 99,
+      "instance_count": 100
+    },
+    "generated_public": [
+      {
+        "path": "app/instances/h00.txt",
+        "seed": 250854218785
+      },
+      {
+        "path": "app/instances/h04.txt",
+        "seed": 51468017913079
+      },
+      {
+        "path": "app/instances/h19.txt",
+        "seed": 129837058162460
+      },
+      {
+        "path": "app/instances/h24.txt",
+        "seed": 150636911777541
+      },
+      {
+        "path": "app/instances/h27.txt",
+        "seed": 161465247114690
+      }
+    ]
+  },
+  "archive_policy": {
+    "directories": [
+      "tools",
+      "tools/in",
+      "tools/src",
+      "tools/src/bin"
+    ],
+    "additional_files": [
+      "tools/Cargo.lock",
+      "tools/Cargo.toml",
+      "tools/README.html",
+      "tools/README.md",
+      "tools/seeds.txt",
+      "tools/src/bin/gen.rs",
+      "tools/src/bin/vis.rs",
+      "tools/src/lib.rs"
+    ],
+    "generator_files": [
+      "tools/Cargo.lock",
+      "tools/Cargo.toml",
+      "tools/src/bin/gen.rs",
+      "tools/src/lib.rs"
+    ],
+    "checked_files": [
+      {
+        "path": "tools/Cargo.lock",
+        "bytes": 11045,
+        "sha256": "b875283dd9769b351ed5e02c30fe39be543bd088d3e4707c3b86da0d226d1d2a"
+      },
+      {
+        "path": "tools/Cargo.toml",
+        "bytes": 603,
+        "sha256": "250e56752be8641d4f852b74c399582c5e292aa051f498e5d767231a3d4d7791"
+      },
+      {
+        "path": "tools/README.html",
+        "bytes": 6679,
+        "sha256": "47c217855da7ddeb6fb665a095eaf55734640967c4ac1fdeb5b1b5f8737db329"
+      },
+      {
+        "path": "tools/README.md",
+        "bytes": 4270,
+        "sha256": "b5334dbd309649a6886d1e71341516e8ba5aa8e2bebc8ac82acb77b1e9e7a206"
+      },
+      {
+        "path": "tools/seeds.txt",
+        "bytes": 290,
+        "sha256": "6d506216aa5bad159f167e2535293b4e5ec8e1073b64449d30b66b460ebf6da0"
+      },
+      {
+        "path": "tools/src/bin/gen.rs",
+        "bytes": 1426,
+        "sha256": "32f81ea02c315e22d388d0698f4fd0d7156a067c5d7909f0ce893159dadfc47d"
+      },
+      {
+        "path": "tools/src/bin/vis.rs",
+        "bytes": 958,
+        "sha256": "72ec7bdf4b0244c7f35b228f2208d81adb944d425d7714093acc91e33157a420"
+      },
+      {
+        "path": "tools/src/lib.rs",
+        "bytes": 19180,
+        "sha256": "e114bbad2412c038ff2323941069294c29fac833c2f79e859229659e9eb5a1ef"
+      }
+    ]
+  },
+  "generation": {
+    "public_seed_file": "PUBLIC5.seeds.txt",
+    "public_output_directory": "generated-public5",
+    "calibration_seed_file": "CALIBRATION100.seeds.txt",
+    "calibration_output_directory": "generated-calibration100"
+  },
+  "license_files": [
+    {
+      "path": "docs/licenses/third-party/AHC058-ATCODER-NOTICE.txt",
+      "bytes": 2876,
+      "sha256": "a4b56cc0814b2e63815cc310678b2ef318bd90500d2f253da741777ca3476c14"
+    }
+  ],
+  "build": {
+    "builder_image": "rust:1.83-slim@sha256:0f0dc99eb74e410d9420149cbb2b9be84abe00e8dbed6a4201a591a2c81844df",
+    "cwd": "tools",
+    "timeout_sec": 1800,
+    "download_timeout_sec": 300
+  }
+}

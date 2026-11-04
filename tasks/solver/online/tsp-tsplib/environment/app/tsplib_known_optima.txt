@@ -1,0 +1,69 @@
+# TSPLIB symmetric TSP instances (61 public practice) — proven optimal tour lengths
+# Source: Reinelt's TSPLIB optimal-values table (comopt.ifi.uni-heidelberg.de/software/TSPLIB95),
+# cross-checked against the mastqe/tsplib GitHub mirror table and, for 33 instances, against the
+# official .opt.tour files recomputed with an independent parser. Four values in Reinelt's table
+# (att48, att532, ulysses16, ulysses22) are non-standard/old figures; the verified values below
+# match the official documentation tsp95.pdf and the .opt.tour recomputation. dsj1000 is the
+# CEIL_2D value (the EUC_2D-figure 18659688 sometimes quoted is a different convention).
+# Columns: name  dimension  edge_weight_type  proven_optimum
+ali535          535  GEO                      202339
+att48            48  ATT                      10628
+bier127         127  EUC_2D                   118282
+brazil58         58  EXPLICIT/UPPER_ROW       25395
+brd14051      14051  EUC_2D                   469385
+brg180          180  EXPLICIT/UPPER_ROW       1950
+ch150           150  EUC_2D                   6528
+d1655          1655  EUC_2D                   62128
+d18512        18512  EUC_2D                   645238
+d493            493  EUC_2D                   35002
+dantzig42        42  EXPLICIT/LOWER_DIAG_ROW  699
+dsj1000        1000  CEIL_2D                  18660188
+eil51            51  EUC_2D                   426
+fl1400         1400  EUC_2D                   20127
+fl3795         3795  EUC_2D                   28772
+fl417           417  EUC_2D                   11861
+fri26            26  EXPLICIT/LOWER_DIAG_ROW  937
+gil262          262  EUC_2D                   2378
+gr120           120  EXPLICIT/LOWER_DIAG_ROW  6942
+gr137           137  GEO                      69853
+gr21             21  EXPLICIT/LOWER_DIAG_ROW  2707
+gr229           229  GEO                      134602
+gr24             24  EXPLICIT/LOWER_DIAG_ROW  1272
+gr431           431  GEO/FUNCTION             171414
+hk48             48  EXPLICIT/LOWER_DIAG_ROW  11461
+kroA100         100  EUC_2D                   21282
+kroA150         150  EUC_2D                   26524
+kroB100         100  EUC_2D                   22141
+kroB150         150  EUC_2D                   26130
+kroC100         100  EUC_2D                   20749
+kroD100         100  EUC_2D                   21294
+kroE100         100  EUC_2D                   22068
+lin105          105  EUC_2D                   14379
+pcb1173        1173  EUC_2D                   56892
+pcb3038        3038  EUC_2D                   137694
+pcb442          442  EUC_2D                   50778
+pla85900      85900  CEIL_2D                  142382641
+pr1002         1002  EUC_2D                   259045
+pr107           107  EUC_2D                   44303
+pr136           136  EUC_2D                   96772
+pr152           152  EUC_2D                   73682
+pr264           264  EUC_2D                   49135
+pr439           439  EUC_2D                   107217
+rat195          195  EUC_2D                   2323
+rat783          783  EUC_2D                   8806
+rd100           100  EUC_2D                   7910
+rd400           400  EUC_2D                   15281
+rl11849       11849  EUC_2D                   923288
+rl1323         1323  EUC_2D                   270199
+rl1889         1889  EUC_2D                   316536
+rl5934         5934  EUC_2D                   556045
+si1032         1032  EXPLICIT/UPPER_DIAG_ROW  92650
+si175           175  EXPLICIT/UPPER_DIAG_ROW  21407
+st70             70  EUC_2D                   675
+tsp225          225  EUC_2D                   3916
+u1060          1060  EUC_2D                   224094
+u1432          1432  EUC_2D                   152970
+u1817          1817  EUC_2D                   57201
+u574            574  EUC_2D                   36905
+u724            724  EUC_2D                   41910
+vm1084         1084  EUC_2D                   239297

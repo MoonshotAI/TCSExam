@@ -1,0 +1,41 @@
+{
+  "task": "tasks/solver/online/logic-syn-iwls2023",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/logic-syn-iwls2023/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:7575e77effc930d483b45ef10544fa1c8ee661113c8345f3bcd9fe35c3067b8e"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/logic-syn-iwls2023/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "396aa79a2d18fa82ab5f70ff3cf5d4f55a7e091dccbab9473d3cb321a8a52972"
+    },
+    {
+      "source": "tasks/solver/online/logic-syn-iwls2023/tests/scoring.py",
+      "target": "/tests/scoring.py",
+      "sha256": "5d817aaf9a83f8ba47acab2b9ce728dc2dd9a6f7e11af4d81b0a172e8ecc88da"
+    },
+    {
+      "source": "tasks/solver/online/logic-syn-iwls2023/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "2b49154135fd25e4a55dc15e121387132f2b2414d3b00fa5a44db89b07b7d6d3"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": false,
+  "public_source_rebuild_verified": false,
+  "limitations": [
+    "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
+  ]
+}

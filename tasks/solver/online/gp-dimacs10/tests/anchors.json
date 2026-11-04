@@ -1,0 +1,32 @@
+{
+ "B": {
+  "tx001.graph": 16870,
+  "tx002.graph": 417,
+  "tx003.graph": 42948,
+  "tx004.graph": 8952,
+  "tx005.graph": 13276,
+  "tx006.graph": 3461,
+  "tx007.graph": 1600,
+  "tx008.graph": 361,
+  "tx009.graph": 736,
+  "tx010.graph": 410013,
+  "tx011.graph": 1911,
+  "tx012.graph": 22897,
+  "tx013.graph": 419
+ },
+ "K": {
+  "tx001.graph": 15064,
+  "tx002.graph": 319,
+  "tx003.graph": 25789,
+  "tx004.graph": 7971,
+  "tx005.graph": 8725,
+  "tx006.graph": 2834,
+  "tx007.graph": 1330,
+  "tx008.graph": 341,
+  "tx009.graph": 598,
+  "tx010.graph": 253295,
+  "tx011.graph": 1353,
+  "tx012.graph": 18736,
+  "tx013.graph": 378
+ }
+}

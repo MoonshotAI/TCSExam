@@ -1,0 +1,10 @@
+{
+  "task": "tcsexam/open-frege-vs-extended-frege",
+  "namespace": "FregeVsExtendedFrege",
+  "main_slots": [
+    "conj",
+    "refuted"
+  ],
+  "weight_note": "prove-or-refute v1 (mains-only): a clean proof of `conj` (the conjecture) or of `refuted` (its negation) scores 1.0; there is no partial credit — this is an open problem. Both slots are mandatory and must stay in the reference order (conj, refuted). The problem is stated for one fixed Frege system (ten axiom schemes over {falsum, and, or, imp} with modus ponens) and its Extended Frege extension (the extension rule derives (p -> D) and (D -> p) for a fresh atom p; see environment/app/Task/Basic.lean header and tests/reference/concept-ledger.md): by Reckhow's 1979 theorem all Frege systems are p-equivalent, and their EF extensions are p-equivalent as well, so the separation question does not depend on the chosen system. Proof length is measured in symbols (proofSize); polynomial bounds are the explicit monomials (n+1)^d; the simulation bound compares proof sizes (a simulation in Cook-Reckhow terminology).",
+  "checkpoints": []
+}

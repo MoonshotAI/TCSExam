@@ -1,0 +1,46 @@
+{
+  "author": "Tim van Scherpenzeel",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "webgl-constants": "^1.1.1"
+    },
+    "integrity": "sha512-bqerEP1Ese6nt3rFkwPnGbsUF9a4q+gMmpTVVOEzoCyeCc+y7/RvJnQZJx1JwhgQI5Ntg0Kgat8Uu7XpBqnz1w==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/detect-gpu/-/detect-gpu-5.0.70.tgz",
+    "version": "5.0.70"
+  },
+  "lock_path": "node_modules/detect-gpu",
+  "name": "detect-gpu",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1077,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "b7ec746220d05b353b6f05196599c50d0a8bf7b75eaf90de439d2152452d298e",
+      "text_file": "image-notices/b7ec746220d05b353b6f05196599c50d0a8bf7b75eaf90de439d2152452d298e.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 126429,
+    "installed_in_image": false,
+    "integrity": "sha512-bqerEP1Ese6nt3rFkwPnGbsUF9a4q+gMmpTVVOEzoCyeCc+y7/RvJnQZJx1JwhgQI5Ntg0Kgat8Uu7XpBqnz1w==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/detect-gpu/-/detect-gpu-5.0.70.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "edbfe85e6606ea24fc493476c248d8161a67a31fe88e701447dc964fa936d4ec"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "5.0.70"
+}

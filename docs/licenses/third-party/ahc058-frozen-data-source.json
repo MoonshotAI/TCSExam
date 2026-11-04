@@ -1,0 +1,38 @@
+{
+  "checked": "2026-10-29",
+  "source": {
+    "id": "ahc058-atcoder-official-tools-upvavdx6-zip",
+    "url": "https://img.atcoder.jp/ahc058/UpvAVdx6.zip",
+    "bytes": 49420,
+    "sha256": "580fa32d99059c78dbe87310b6de771cb64c385c4bf461c7f2865336c9a99ac8"
+  },
+  "task_id": "ahc058-atcoder",
+  "public_count": 105,
+  "hidden_count": 45,
+  "generator_identity": [
+    {
+      "path": "tools/Cargo.lock",
+      "bytes": 11045,
+      "sha256": "b875283dd9769b351ed5e02c30fe39be543bd088d3e4707c3b86da0d226d1d2a"
+    },
+    {
+      "path": "tools/Cargo.toml",
+      "bytes": 603,
+      "sha256": "250e56752be8641d4f852b74c399582c5e292aa051f498e5d767231a3d4d7791"
+    },
+    {
+      "path": "tools/src/bin/gen.rs",
+      "bytes": 1426,
+      "sha256": "32f81ea02c315e22d388d0698f4fd0d7156a067c5d7909f0ce893159dadfc47d"
+    },
+    {
+      "path": "tools/src/lib.rs",
+      "bytes": 19180,
+      "sha256": "e114bbad2412c038ff2323941069294c29fac833c2f79e859229659e9eb5a1ef"
+    }
+  ],
+  "data_terms": "No redistribution license accompanies the official AtCoder tools archive. Download and local preparation do not authorize public redistribution.",
+  "delivery": "official_atcoder_generator",
+  "public_upload_allowed": false,
+  "split_note": "Keep the original 100 official public instances, five generated public instances and 45 generated hidden instances. No resampling."
+}

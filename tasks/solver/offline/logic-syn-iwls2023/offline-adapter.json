@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/logic-syn-iwls2023",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/logic-syn-iwls2023/tests/checker.py",
+      "target": "tasks/solver/offline/logic-syn-iwls2023/tests/checker.py",
+      "sha256": "603e7697ab66fb316db7187893e9519619ed28bd10ba94e11bb698aee3c824c8"
+    },
+    {
+      "source": "tasks/solver/online/logic-syn-iwls2023/tests/reference.json",
+      "target": "tasks/solver/offline/logic-syn-iwls2023/tests/reference.json",
+      "sha256": "2b49154135fd25e4a55dc15e121387132f2b2414d3b00fa5a44db89b07b7d6d3"
+    },
+    {
+      "source": "tasks/solver/online/logic-syn-iwls2023/tests/anchors.json",
+      "target": "tasks/solver/offline/logic-syn-iwls2023/tests/anchors.json",
+      "sha256": "252a99daf081b1b486645cc7bd01846258c22e3cd3bffc3badb15f473470b2a7"
+    },
+    {
+      "source": "tasks/solver/online/logic-syn-iwls2023/tests/metric_config.json",
+      "target": "tasks/solver/offline/logic-syn-iwls2023/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-logic-syn-iwls2023",
+  "verifier_dependency": "backend-online-logic-syn-iwls2023",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

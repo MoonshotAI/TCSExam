@@ -1,0 +1,62 @@
+{
+  "author": {
+    "email": "mail@substack.net",
+    "name": "James Halliday",
+    "url": "http://substack.net"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "bin": {
+      "resolve": "bin/resolve"
+    },
+    "dependencies": {
+      "is-core-module": "^2.16.1",
+      "path-parse": "^1.0.7",
+      "supports-preserve-symlinks-flag": "^1.0.0"
+    },
+    "dev": true,
+    "engines": {
+      "node": ">= 0.4"
+    },
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "integrity": "sha512-RfqAvLnMl313r7c9oclB1HhUEAezcpLjz95wFH4LVuhk9JF/r22qmVP9AMmOU4vMX7Q8pN8jwNg/CSpdFnMjTQ==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz",
+    "version": "1.22.11"
+  },
+  "lock_path": "node_modules/resolve",
+  "name": "resolve",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1071,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "60acd7711e6c138e6041836e32d922705254cc1568a30fdf16aa8f59bb87aeaa",
+      "text_file": "image-notices/60acd7711e6c138e6041836e32d922705254cc1568a30fdf16aa8f59bb87aeaa.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 30870,
+    "installed_in_image": false,
+    "integrity": "sha512-RfqAvLnMl313r7c9oclB1HhUEAezcpLjz95wFH4LVuhk9JF/r22qmVP9AMmOU4vMX7Q8pN8jwNg/CSpdFnMjTQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "5eb29c2b4f24e3d4bfde7c33f78efc8685fbad490578144784f08300e46922fc"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "1.22.11"
+}

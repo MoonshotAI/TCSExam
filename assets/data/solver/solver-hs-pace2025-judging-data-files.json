@@ -1,0 +1,604 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/private_heuristic_001.hgr",
+      "bytes": 50268341,
+      "sha256": "9615921fa6e4f1ff3545a89a79a627526b16307407b2da6391d24f8cd426c094",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_002.hgr",
+      "bytes": 75286310,
+      "sha256": "81fd89608bcd3357ca7c5b2e6539114478c7301609d46b4e5fbda6284e789f04",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_003.hgr",
+      "bytes": 25134259,
+      "sha256": "189a1e587028eb09b681155f4fb830041afca0a66d7ae846208ece7bd07354c2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_004.hgr",
+      "bytes": 6067923,
+      "sha256": "91cd45fbc316631319cafc6ef94e14b3625e458a600b37276dbefc78beac27b5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_005.hgr",
+      "bytes": 3636531,
+      "sha256": "54cba4d8960166778528118d81a552d82b8b6ecf88aa8c0cdd6dabac90f4c262",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_006.hgr",
+      "bytes": 700509,
+      "sha256": "763697e253c2b22c54c07a0aecafc7bcce4745bd24dba6ba945c7fb86f87f68a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_007.hgr",
+      "bytes": 6780481,
+      "sha256": "e309b7c283785420e540a4536b492288ca5457f3adf9d074daed304ff7bcf0ac",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_008.hgr",
+      "bytes": 3190181,
+      "sha256": "041a37a552c3498fa10c16dbefa53d87100da545449c0d5563bbc2c024792c98",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_009.hgr",
+      "bytes": 13093117,
+      "sha256": "b2a4534bf618919ecbdfb323616e38bae63a8acc56a09d3ff8af71710110dc3b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_010.hgr",
+      "bytes": 26331325,
+      "sha256": "0aa447f0739edea37893bf76f8b4f7213212737b80fe1adfe4bfc41b31cdc5e6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_011.hgr",
+      "bytes": 2611462,
+      "sha256": "4a3c36b046c946e9d19ee40988b07481b07f61313bb97c027d05b0ec4dfe1796",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_012.hgr",
+      "bytes": 3789220,
+      "sha256": "0aa80cdf8f7bc70b1b9cf14b550a8bd64b83eabee44eb6ff4697a123c8d5997f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_013.hgr",
+      "bytes": 4457492,
+      "sha256": "dd1b2b3dc50ede3a4de9ec265441c0658c712f7dc19a5b0ba526e94b93fc3b1f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_014.hgr",
+      "bytes": 2227038,
+      "sha256": "d7b89278578a79b44981612734026e0ca0ce6b817ced947ae46221af2f4efabf",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_015.hgr",
+      "bytes": 4254954,
+      "sha256": "b4f8a1b43944a2c68fa4e5d635925a006b3bfe9ab4e46cc1d26be64e5943bdb2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_016.hgr",
+      "bytes": 49618967,
+      "sha256": "e9bb9239bb4237123e7d009ddebad3878249a3efcb3b5a293049c9cea449055e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_017.hgr",
+      "bytes": 19735815,
+      "sha256": "9d18c9f2653c778d22a25dd7df01054706c2080fbeb1c8b62a6670672ca4b802",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_018.hgr",
+      "bytes": 1445150,
+      "sha256": "23029fe2d122c53fa547d86a79c1e217a334d6baa94e728221ae0137e8c1ea29",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_019.hgr",
+      "bytes": 17453290,
+      "sha256": "ac139fe4a4808d02e0194f029290744b5990ccdcbb1c28345c672c47d79603fd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_020.hgr",
+      "bytes": 28972595,
+      "sha256": "a2d3818cce86475b27ba551a174fa638528bb4a993ac0df127e9e2bf8501a5d1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_021.hgr",
+      "bytes": 68411114,
+      "sha256": "3586f67f4b1e0826973e52d294b2a8c99a6d251666f40f969244b848ba6e13c2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_022.hgr",
+      "bytes": 2824832,
+      "sha256": "3793a2c64cbe5a35900fcbb9f06d442dedcc1b0f9d106851f35f7fef6f64e008",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_023.hgr",
+      "bytes": 45722767,
+      "sha256": "98a0476f964e403902494b600b9f00fc40da6be494e39ed86aa7cb7d0ee3542e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_024.hgr",
+      "bytes": 4622742,
+      "sha256": "1030e54081ecae9ecb8b14feba9ce8f15cf9c8f307d361fdad234250242b3771",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_025.hgr",
+      "bytes": 18887662,
+      "sha256": "ae9599186bf76202b3a09ecd131c69b1c2f73631047aec87e96b9194674bbeaa",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_026.hgr",
+      "bytes": 2953274,
+      "sha256": "78d02fe87830b9bdad1c974dd2d2be1c6fbe2bb8bc970db70c0626aba7a45aca",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_027.hgr",
+      "bytes": 7220318,
+      "sha256": "f3deac58ebab4b4b4a8bc46a91027347f9e59c369250fd54b4c4175a88b70603",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_028.hgr",
+      "bytes": 9898528,
+      "sha256": "a269764394f697638ae52b441a2a608fe46085b81432b21fe0d52df61c9fc195",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_029.hgr",
+      "bytes": 3138665,
+      "sha256": "24f445f3502cf9b8d3a7a7087757deee6d46718bf442d3eb942d3ee8fc9372cc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_030.hgr",
+      "bytes": 10228875,
+      "sha256": "1967380804e6c9f86198b789d6766c9af8d9ecdc090c49f9438cc6decb1f3759",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_031.hgr",
+      "bytes": 33092581,
+      "sha256": "634cab08b3a12ca29bb964ace4852a2fe22e288e1e934d3a3450593ab0d5a684",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_032.hgr",
+      "bytes": 57987953,
+      "sha256": "17de9ece3b59abe6db452b70b89beccd9f9cc7a73a92414c2504def70af95bec",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_033.hgr",
+      "bytes": 18936458,
+      "sha256": "1db2f3220fc80f87dbcd48dcc33ac2a522d12ab11679d3e0690cce5105e5e155",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_034.hgr",
+      "bytes": 25410753,
+      "sha256": "1806bd8d6cd1833097d9f694d7ad6e72de8d699e2d961e83b8f2ac9b82cdda8c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_035.hgr",
+      "bytes": 7341516,
+      "sha256": "a889a49c5696843329970eb958b789d98885d1232f9d97cece8f0d0610202756",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_036.hgr",
+      "bytes": 2057404,
+      "sha256": "8b1bf37a77a080bbd6f2b78ac51fcc5a54ee022d03c688c66150f9ceb3a56e22",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_037.hgr",
+      "bytes": 3729002,
+      "sha256": "434e7b4f1aab36bf86651e62e434a629b83712d782db05dee3a4c31ec0ce7be1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_038.hgr",
+      "bytes": 12136455,
+      "sha256": "d75d99a16e8e52125b89d166c50bcf9cca35d4f911a57f38d863b0538e18b5e1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_039.hgr",
+      "bytes": 3658597,
+      "sha256": "4104cfdc701bfad60ac3ba776a56b214e881ba2f26d88d765194e1e976679a43",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_040.hgr",
+      "bytes": 3517257,
+      "sha256": "5363ecccac6b7b8c3034bab111a053736e648fef97b46412eb5a44ac86fbd96d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_041.hgr",
+      "bytes": 28281912,
+      "sha256": "f00d7d83978228cf47f1f2e02fdd73a9491527946b4030bf1582c1ef4e26876a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_042.hgr",
+      "bytes": 24274720,
+      "sha256": "b343040cb2350b4aae2844ec29c549145c85f043a0c427e07347e1c657b0b2ed",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_043.hgr",
+      "bytes": 1530149,
+      "sha256": "7634967343e0e7486230fb58d1b2306f7d56633d15e139f65d76dd4b4f2abba5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_044.hgr",
+      "bytes": 1400359,
+      "sha256": "983980a1129ac27aa997d1b3488a49f7332227195722c23d898c5fe859cfa1d6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_045.hgr",
+      "bytes": 4083016,
+      "sha256": "2d9440adf4568629ab29d7f2b71201bc89e4c5bfed5c7d4530ed8ea339dc77cc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_046.hgr",
+      "bytes": 17069350,
+      "sha256": "f6ec99a033e45eec131e1310a3197f8d70405d99930248e84329db0926a80442",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_047.hgr",
+      "bytes": 17891916,
+      "sha256": "b7b0ee6fb71d5a0a4fb088e08244d3266e151e1e172ac3086f68b68518805814",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_048.hgr",
+      "bytes": 24086015,
+      "sha256": "81ea12a8a77953f2dd666171a637b5ab4d300a1a5186a8df404dc25e62b92652",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_049.hgr",
+      "bytes": 22734876,
+      "sha256": "6793e80ceca7c19aa4aec041bd160de9d40e9ab7dc9bad5bd29df28e4d8604ab",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_050.hgr",
+      "bytes": 32848551,
+      "sha256": "273ed0d6bcd03c15d6ce64c668b4b9069790107cd3a54fa1025c0f0f6803974b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_051.hgr",
+      "bytes": 25493244,
+      "sha256": "9965d869ffa01e7d0d3933413718040995c8a933593161cc8be58623568d25f2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_052.hgr",
+      "bytes": 10315627,
+      "sha256": "6013b5f192a0d18c35ae054650f8a12e68e416c4d09ba0640c44d8e021d6a474",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_053.hgr",
+      "bytes": 5554641,
+      "sha256": "1ba6bb4e24b85b449f42cdc9448b14ad8dcffcfc48b22674caf342dd6819a3ce",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_054.hgr",
+      "bytes": 10228677,
+      "sha256": "4b84ed7474372cbc19728819efd489f0ae073363cf3a81d088a001600c3356e7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_055.hgr",
+      "bytes": 9097005,
+      "sha256": "4f4c375b4bfb8a9282d6120e64531a3370a85bd9a5daf08644ea3c5185046655",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_056.hgr",
+      "bytes": 16916376,
+      "sha256": "78b8fe3c625db20b50b2d7c696b6e0ec50e47b9aa16ee39ef3921dfe69c5d5e2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_057.hgr",
+      "bytes": 32528985,
+      "sha256": "16106992b99e8bcee5b30e6dcdfe62dd6dbf4bc58639e474e6aadf3b80e6dca4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_058.hgr",
+      "bytes": 18883382,
+      "sha256": "8565548723e948b8f613a1690908820da4972c7149d73b42e62a7cf82532fb6e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_059.hgr",
+      "bytes": 3783950,
+      "sha256": "1c861700deb1abc42b2fe64934f62e82a67a70baf2f1b3b2f1a7c706fc7c2e24",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_060.hgr",
+      "bytes": 11430235,
+      "sha256": "5daba14ef3fc29675416b83c7d216459c9efe7f34524a7fe0c82846d77fbf9ea",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_061.hgr",
+      "bytes": 5175320,
+      "sha256": "a413cc8926f0c81d1655d60869e3088254b0c0e02274c7780358d313c2254990",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_062.hgr",
+      "bytes": 13034207,
+      "sha256": "3a33957d399f0ec4a846c1079becfd2a7aa957a6ff0b05aae2331b62eee09f3d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_063.hgr",
+      "bytes": 18894122,
+      "sha256": "513437fee5fce3c8e5989361cd164925812a18f9b1477994ec9e9d74190f9003",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_064.hgr",
+      "bytes": 42508869,
+      "sha256": "dc79012ad4d592fa51d3215da9bdb9f091dcc92168c1cbe7d18f5f261df9cefd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_065.hgr",
+      "bytes": 76607807,
+      "sha256": "e7a533bc318ca62fd3d30d7e7bdf4a01ba9add245594282c85b1a83021914bfa",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_066.hgr",
+      "bytes": 4486462,
+      "sha256": "fa9a725a3fafd61c7bbfc276eb9448b77f52cfb269781beb70098fa0070cc10d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_067.hgr",
+      "bytes": 16451571,
+      "sha256": "cc5d02edc84ce44a2cf06b9a7893cc89b3b413fea5335617b17389e7dad823d6",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_068.hgr",
+      "bytes": 5463309,
+      "sha256": "2c1f04020a654abc4ad81a75d9fc4659b8b2d9d45d7915e8c19b9cf81837e223",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_069.hgr",
+      "bytes": 726750,
+      "sha256": "70658216d1669048207ec521fb48a4aa5ff2ad131cb1a230ca307c5edbc6e83c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_070.hgr",
+      "bytes": 32930778,
+      "sha256": "c3a5247576586f2033f9620f5a7f7a8daa26b8db46c66172955c67a2e46c52c7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_071.hgr",
+      "bytes": 5760657,
+      "sha256": "f2cbf69d66e34ea4ebefa6171aee92ff3973b477d87dcdce1ffd6f964bdfe3b7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_072.hgr",
+      "bytes": 17340102,
+      "sha256": "c18ec1207c25030a46701aa197c6d346ad9f99bad28b160810c1a0d3090505d1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_073.hgr",
+      "bytes": 16495299,
+      "sha256": "248002b20049b267d9ace9491a51d21fbb1e44cf651f0b72558a665418a6fdd5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_074.hgr",
+      "bytes": 6262303,
+      "sha256": "6151bb29df5e266210f54b50373954ab53a531d88ba905dc9cc9b9d156eb9bce",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_075.hgr",
+      "bytes": 3706323,
+      "sha256": "0e746db79db77fa887fa1f28f39b5265641014e7c18399d3040622dec83fb6cf",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_076.hgr",
+      "bytes": 4241875,
+      "sha256": "70b3ae5e57fa1bf4e6088349470a1206b98f25c27523d5bd6518f1a992c1d68d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_077.hgr",
+      "bytes": 1679151,
+      "sha256": "00f2146c4ea5918f4279fa045f4d46f583bc5e7b8ee15dc064b64b602fa9f957",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_078.hgr",
+      "bytes": 39532163,
+      "sha256": "a15b0070019a82a0c6d40eabff5847555d55ab8ec3423b24551e39fd7d269f1a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_079.hgr",
+      "bytes": 12044984,
+      "sha256": "ba73954b48522d4162f3481bedfce6ba933efbfce96482fddc20549804daa1c8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_080.hgr",
+      "bytes": 25670926,
+      "sha256": "d517e8f592fa565db5c318c2ac5eefe2802d44e7cfa4965add773a7b9bd12c9f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_081.hgr",
+      "bytes": 51504049,
+      "sha256": "8a07e0ad9fe5c9998c9d1710983debf2464755423e4cdfd93681dccb79aaa84e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_082.hgr",
+      "bytes": 7300669,
+      "sha256": "1d22bbee8940d47f613204af39d27aebca8781bd8671b74723b89f9456415b22",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_083.hgr",
+      "bytes": 32242915,
+      "sha256": "c55194e7e8ebaddb7b05a0f41ac44a6a838d7c5aec522a9b0c8a5465e5cdaa52",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_084.hgr",
+      "bytes": 4955913,
+      "sha256": "46784c6ed3d136f69b6792b0e02687d04a0a4f9f9a1a8a8b95051d322bbe335c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_085.hgr",
+      "bytes": 7670699,
+      "sha256": "d8dfc03f8af6e98a41db1d6a11596e2367dd23e6aec1b2828e6d8bc0ee8028d3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_086.hgr",
+      "bytes": 4046607,
+      "sha256": "c231d690d369f7d5d6bb339207c302a2fbd32d19d472e593df06893759a2e8cd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_087.hgr",
+      "bytes": 20314063,
+      "sha256": "0cec3818455968759236c010864f3a2aed9b58f9cf712c876001457214c90011",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_088.hgr",
+      "bytes": 15862212,
+      "sha256": "276de0cda2667b6c5c45e2e898d2363a2192331e489762dde115fbf71a6efc50",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_089.hgr",
+      "bytes": 8521335,
+      "sha256": "26a4f75b67457aa952a9da553eccc3a17267ffb6401d2e1cc2e07c7450ac25c7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_090.hgr",
+      "bytes": 27694964,
+      "sha256": "9f8fe9d1b7f5bf0d4ddfccc2a0fa0ea03558998a8cdef9ce384eb72075c6add8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_091.hgr",
+      "bytes": 32525433,
+      "sha256": "5350b16f90777a2201e7acfc988b217c7085f48d7e49df23b9a9a5667526a2d8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_092.hgr",
+      "bytes": 60273469,
+      "sha256": "dc87925853389f041ed4f47cbf49eca18639af9ff17f44c52075ed6901752881",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_093.hgr",
+      "bytes": 3650277,
+      "sha256": "64de6738c5a688d58bc4c18c61d885a4418162f232abac1ad8b4027568fdd0a9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_094.hgr",
+      "bytes": 40769829,
+      "sha256": "d713114124b3e7175c9fb0d05aa182c9e7c92e6ba8bd9f78d1ac2e6d55be6cd3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_095.hgr",
+      "bytes": 5584739,
+      "sha256": "3b9fd8e581284be3d18c4850b82c07bc7f58d55ddf9b946c8c659a2021f110bd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_096.hgr",
+      "bytes": 1915805,
+      "sha256": "69ff25e658ac022cadffde62603c8037daeda4d4f43dfb1367bbccc13b5a4228",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_097.hgr",
+      "bytes": 28789780,
+      "sha256": "0f61a025461002f4012706bd04426c07492d272d301003a144876bc0cb9a96cc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_098.hgr",
+      "bytes": 5462792,
+      "sha256": "ea95a13ffd98c9c1bf4646976f3b257e13774af1b3ddcaa65bb7f16f9777265e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_099.hgr",
+      "bytes": 29941821,
+      "sha256": "0a992347f0c31f6a26be4668b00482855abcb1f0ffb7c749d6bc6c6bf45ee129",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/private_heuristic_100.hgr",
+      "bytes": 42370365,
+      "sha256": "5f4ddbfaf064c82409b1722c494e500a9de985251e40dc22243eda040ea30e5f",
+      "mode": "0644"
+    }
+  ]
+}

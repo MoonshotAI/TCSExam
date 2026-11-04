@@ -1,0 +1,53 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260920",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/tsp-tsplib/PROVENANCE.md: TSPLIB documented optima (per-instance sources and corrections in tsplib_known_optima.txt; a few large instances use best-known upper bounds).",
+   "tier": "proven-optimal"
+  }
+ },
+ "family": "traveling-salesman",
+ "id": "tsp-tsplib",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-tsp-tsplib-judge-v15"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": null,
+  "n_hidden": 33,
+  "n_neither": 17,
+  "n_public": 61,
+  "per_instance_seconds": 600,
+  "shard_cores": 1,
+  "shard_mem_gb": 8,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "library",
+  "ecosystem": "TSPLIB",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "high",
+  "transform": {
+   "k_preserving": true,
+   "type": "city permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "form2 conversion (260920): the 70/30 split is recorded in tests/split.json (78 public / 33 hidden, stratified by family × size). The 33 hidden instances were transformed by city relabeling (txNNN; tests/transform_manifest.json records the mapping and permutations). reference B is temporarily set to the form1 value on the original instances; overwrite it after the batch remeasurement and update anchors.B.date. The time limit is passed through argv LIMIT_SECONDS, not an environment variable. 260920 holdout: because the judged set is close to the full public registry, 17 more public instances (15%) are assigned to neither; they are absent from the environment and not judged. Their names are stored only in the third bucket of tests/split.json."
+ },
+ "subdomain": "routing",
+ "title": "Traveling salesman"
+}

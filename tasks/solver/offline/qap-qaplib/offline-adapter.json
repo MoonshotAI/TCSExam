@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/qap-qaplib",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/qap-qaplib/tests/checker.py",
+      "target": "tasks/solver/offline/qap-qaplib/tests/checker.py",
+      "sha256": "abdfd22a29dec88b3ddbb0c3a96ff70b3944dfc9a93f491937f95a5019ea27a1"
+    },
+    {
+      "source": "tasks/solver/online/qap-qaplib/tests/reference.json",
+      "target": "tasks/solver/offline/qap-qaplib/tests/reference.json",
+      "sha256": "c159803e391e8f74c6c34b8827c9dbf0a38f47719223be288b0ef7db63ac6a17"
+    },
+    {
+      "source": "tasks/solver/online/qap-qaplib/tests/anchors.json",
+      "target": "tasks/solver/offline/qap-qaplib/tests/anchors.json",
+      "sha256": "95695b6a0d3c5e32f753b7f2bebc5af489c52e7d60790be0d40a7ebd9f4d97a5"
+    },
+    {
+      "source": "tasks/solver/online/qap-qaplib/tests/metric_config.json",
+      "target": "tasks/solver/offline/qap-qaplib/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-qap-qaplib",
+  "verifier_dependency": "backend-online-qap-qaplib",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

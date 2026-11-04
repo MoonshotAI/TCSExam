@@ -1,0 +1,9 @@
+{
+  "checked": "2026-10-29",
+  "scope": "Frozen Solver data-only review candidates, not public distribution approval.",
+  "provenance": "Original source omission inventory plus CPU sandbox verification against frozen Git blob identities and SHA-256.",
+  "material": "Only explicitly declared input-instance files; no standard answers, logs, credentials or unselected auxiliary instances.",
+  "external_acquisition": "Pending per resource until a public source recipe or approved fixed public data image is verified.",
+  "public_upload_allowed": false,
+  "source_version": "full-solver 1f05583d60e0a145e94f083828d8fab322dcc508"
+}

@@ -1,0 +1,50 @@
+{
+ "task": "quantum-code-25-7-lean-open",
+ "fixed_end_mark": "-- END OF FIXED PART",
+ "allowed_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "forbidden_tokens": [
+  "axiom",
+  "sorryAx",
+  "notation",
+  "macro",
+  "macro_rules",
+  "syntax",
+  "elab",
+  "elab_rules",
+  "opaque",
+  "unsafe",
+  "extern",
+  "implemented_by",
+  "initialize",
+  "skipKernelTC"
+ ],
+ "root_pins": ["Pauli25", "IsStabilizer", "DistanceGE"],
+ "claims": [
+  {
+   "name": "submission",
+   "direction": "lower",
+   "header_template": "∃ gens : Fin 18 → Pauli25, IsStabilizer gens ∧ DistanceGE gens {k}",
+   "max_n": 25
+  }
+ ],
+ "scoring": {
+  "lower": {
+   "mode": "cubic",
+   "baseline_m": 1,
+   "record_m": 5,
+   "record_broken_from": 6,
+   "proven_upper_bound_m": 7,
+   "closed_at": 7
+  }
+ },
+ "compile_timeout_sec": 1500,
+ "notes": {
+  "lower": "construction direction, identical formula to the solver sibling quantum-code-25-7: reward = 0 for d <= 1 (trivial [[25,7,1]] baseline: 18 ancillas pinned to |0>); ((d - 1) / 4)^3 otherwise, uncapped; d = 5 -> 1.0 (record matched, codetables.de entry standing since 2005-06-24); d = 6 -> record_broken (a new literature-level lower bound); d = 7 -> closed (meets the proven Rains quantum LP upper bound, the parameter point is settled); d >= 8 contradicts the proven upper bound and is flagged for mandatory human review"
+ }
+}

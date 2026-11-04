@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/scp-orlib"
+version = "1.0.0"
+description = "Optimize a set covering solver (61 public practice instances from a public set-covering benchmark library; final judging once on 26 hidden instances): minimize total column cost under one shared time pool — scored against a deterministic greedy baseline and proven optima / best-known values."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "set-covering", "or-library", "lagrangian-heuristic", "type-2-solver"]
+
+[metadata]
+family_id = "fam-scp"
+candidate_id = "cand-scp-orlib-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "Greedy set covering is a few lines long, but the K anchors are proven optima (the Beasley groups, NRE/NRF, and the three small railway instances) or best-known literature values (NRG/NRH, CLR): closing the last few percent of cost needs the real machinery of the field (Lagrangian relaxation with subgradient optimization, core-problem reduction, local search / flip neighborhoods, exact branch-and-bound on the small groups), and the shared time pool forces allocation strategy across instances of wildly different scale."
+
+[verifier]
+timeout_sec = 1209600.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+
+
+[verifier.environment]
+network_mode = "no-network"
+build_timeout_sec = 3600.0

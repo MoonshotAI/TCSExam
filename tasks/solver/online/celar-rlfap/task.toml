@@ -1,0 +1,46 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/celar-rlfap"
+version = "1.0.0"
+description = "Optimize a radio link frequency assignment solver (RLFAP): minimize weighted interference violations, practiced on 17 public instances from a public instance library and judged once at the end on 8 hidden structure-preserving-transformed instances from the same library, scored continuously against a deterministic min-conflicts + CP-SAT baseline and the best values from heavy CP-SAT runs cross-checked with published results, under a per-instance wall-clock limit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["solver", "optimization", "frequency-assignment", "rlfap", "minizinc", "constraint-programming", "cp-sat", "type-2-solver"]
+
+[metadata]
+family_id = "fam-celar-rlfap"
+candidate_id = "cand-celar-rlfap-solver"
+problem_class = "solver-optimization"
+scaffold_level = "full-context"
+difficulty_explanation = "The shipped baseline is a deterministic min-conflicts constructor plus CP-SAT pinned to one worker and a small deterministic budget; the reference K values are the best objectives from heavy 8-worker CP-SAT runs (consistent with the published CALMA best results, some of them 25+ years old and proven optimal by tree-decomposition dynamic programming). Beating the baseline is easy with more compute; closing the last gap to K needs real modeling or search engineering (violation-weighted local search, equality-component propagation, LNS, or well-tuned parallel CP-SAT)."
+
+[verifier]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 1200.0
+
+[agent]
+network_mode = "allowlist"
+allowed_hosts = []
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 18000.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 8192
+
+[environment.env]
+TCSEXAM_TOKEN_ID = "${TCSEXAM_TOKEN_ID}"
+TCSEXAM_TOKEN_SECRET = "${TCSEXAM_TOKEN_SECRET}"
+TCSEXAM_BASE_URL = "${TCSEXAM_BASE_URL}"
+CLAUDE_CODE_EFFORT_LEVEL = "${CLAUDE_CODE_EFFORT_LEVEL}"
+CLAUDE_CODE_MAX_OUTPUT_TOKENS = "${CLAUDE_CODE_MAX_OUTPUT_TOKENS}"
+CLAUDE_CODE_AUTO_COMPACT_WINDOW = "${CLAUDE_CODE_AUTO_COMPACT_WINDOW}"
+CLAUDE_CODE_MAX_CONTEXT_TOKENS = "${CLAUDE_CODE_MAX_CONTEXT_TOKENS}"
+CLAUDE_CODE_MAX_RETRIES = "${CLAUDE_CODE_MAX_RETRIES}"
+CLAUDE_CODE_RETRY_WATCHDOG = "${CLAUDE_CODE_RETRY_WATCHDOG}"
+API_TIMEOUT_MS = "${API_TIMEOUT_MS}"

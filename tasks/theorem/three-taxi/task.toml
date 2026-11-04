@@ -1,0 +1,39 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-three-taxi-bare-proof"
+version = "0.1.0"
+description = "Prove the Coester-Poon constant-competitive 3-taxi theorem (SODA 2026, arXiv 2510.25861; Theorem 3.12 = Theorem 1.1) in Lean 4 (machine-verified), from the statement layer only. L2: statement fidelity only, no ground truth."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "online-algorithms", "k-taxi", "metric-spaces", "potential-function", "competitive-analysis", "type-2"]
+
+[metadata]
+family_id = "fam-three-taxi-tripod"
+candidate_id = "cand-cp26-three-taxi"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task, monolith tier: the full potential-function analysis of TripodTracker (distorted matching, interval invariant, four-phase master inequality) must be supplied with no intermediate statements given."
+source_paper = "Coester, Poon: Online 3-Taxi on General Metrics, SODA 2026; arXiv 2510.25861v1."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-theorem-three-taxi-verifier"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

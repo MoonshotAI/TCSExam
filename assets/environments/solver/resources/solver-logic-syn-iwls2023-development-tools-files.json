@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "path": "app/abc-src.tar.xz",
+      "source_context_path": "app/abc-src.tar.xz",
+      "source_path": "tasks/solver/online/logic-syn-iwls2023/environment/app/abc-src.tar.xz",
+      "git_blob": "2a9c9455bcf667eb4cc9bad00f277f9b5a5813b4",
+      "bytes": 5121256,
+      "sha256": "8b6e0664e16ebe57074345d4704f6398cd7d07b5fc777d65e8366427497ad6d8",
+      "mode": "0644"
+    }
+  ]
+}

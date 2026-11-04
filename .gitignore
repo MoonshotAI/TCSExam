@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+*.key
+.env
+.env.*
+!.env.example
+jobs/
+build/
+dist/
+*.tar
+*.tar.gz
+*.zip
+.DS_Store
+*.egg-info/
+
+# Retained build definitions and lockfile, not generated build output.
+!assets/environments/lean-base/browser-components/penrose-optimizer/build/
+assets/environments/lean-base/browser-components/penrose-optimizer/build/*
+!assets/environments/lean-base/browser-components/penrose-optimizer/build/Cargo.toml
+!assets/environments/lean-base/browser-components/penrose-optimizer/build/Cargo.lock
+!assets/environments/lean-base/browser-components/penrose-optimizer/build/packages/
+assets/environments/lean-base/browser-components/penrose-optimizer/build/packages/*
+!assets/environments/lean-base/browser-components/penrose-optimizer/build/packages/optimizer/
+assets/environments/lean-base/browser-components/penrose-optimizer/build/packages/optimizer/*
+!assets/environments/lean-base/browser-components/penrose-optimizer/build/packages/optimizer/Cargo.toml

@@ -1,0 +1,380 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/ex001.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex001.dzn",
+      "git_blob": "87f214c517c2b36be65232f289f15332564a343f",
+      "bytes": 1114,
+      "sha256": "52778cce19536d034ab6a3da20a1e1d459af1f382a7f9a3878cffc2adab7806c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex002.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex002.dzn",
+      "git_blob": "3535a932107338baadff17dfc3775b2dee2e57ab",
+      "bytes": 1114,
+      "sha256": "7c0596f4462c133a8e47317dafb14a051def258a2220d8d8107e8dfa8c0be52a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex003.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex003.dzn",
+      "git_blob": "322f25356c12306a24cbfefd9aa92e2fa322def7",
+      "bytes": 1388,
+      "sha256": "5781607d051320b79b2da9c52cdf8cc84d0da186dbb31c27b75d58fbd517c7ca",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex004.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex004.dzn",
+      "git_blob": "c8ece2c0b412cdfcb47cb69e4d85999d9c6eaf2c",
+      "bytes": 1388,
+      "sha256": "acc296fcd55c8451cfea6ac4a5f4a5b5fa6604cc108133a9fe73ee44dd5d4a71",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex005.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex005.dzn",
+      "git_blob": "55a84a2f40c3f5adac4e29dc94942ee4438451eb",
+      "bytes": 1388,
+      "sha256": "c1c4ac775c20e5bf50257b74681a9217b08f127c95b07eae5360bc506a1ec4f2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex006.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex006.dzn",
+      "git_blob": "4c2b7a4f83cea948db99f216791e31d7d3cfe40a",
+      "bytes": 1694,
+      "sha256": "1be8d8f091d4cedb827dd60170190e94eca1b817a11ef8f051c8815956b0e427",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex007.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex007.dzn",
+      "git_blob": "a2e58c8a9dabdc56ded6102ae61f9cd714dccbed",
+      "bytes": 1694,
+      "sha256": "e5f0ee5cc4658370d8663d6c59ef5673e863b647e8bd38e9bf7e5c7cc9141952",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex008.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex008.dzn",
+      "git_blob": "f1b3ea76b3c797646f4172dd42da40c9d0ac8e6b",
+      "bytes": 2032,
+      "sha256": "bb055c96a20df4d5de218dd7002e1ac4f8fde9ad34c8f1a9f2cecb5c3e5d58b9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex009.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex009.dzn",
+      "git_blob": "6f64703511edd294673221bf0eebd330e83b61c0",
+      "bytes": 2032,
+      "sha256": "58cd7be17c16624bf47488fa0805a6dff2958206304610982a786f50ac3789cc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex010.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex010.dzn",
+      "git_blob": "4e458358474100f7aa7ac24eb0f4b463799a672e",
+      "bytes": 2599,
+      "sha256": "1c5b4607c34d3a2ad1055cf7d23e116a5264da9c2a6e0afa67d95894d8b0055f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex011.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex011.dzn",
+      "git_blob": "e62045f53cb6512f3cca3f0654c32e12a85e2802",
+      "bytes": 151,
+      "sha256": "c31db98e95b484c3f46f2d8201c51cf43075b80b786c89d7694e3b37598819ef",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex012.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex012.dzn",
+      "git_blob": "9ea461185b172b91ed67d5049f46fc5dbd8a656b",
+      "bytes": 151,
+      "sha256": "c04f77a664c42085e502cab929711725700dfc2633882ee80159433900056447",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex013.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex013.dzn",
+      "git_blob": "41fbc413d993a5cf726cdb0346708810a66fddef",
+      "bytes": 151,
+      "sha256": "9c42ab5578b8298352061fd905fe410a76731f868b73a401f78f457d35390627",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex014.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex014.dzn",
+      "git_blob": "6d8b836b17f49c588a5392928f2e60d09ad32139",
+      "bytes": 185,
+      "sha256": "78eac452c97852cd795a3a7f061fa68f62d86de328bdd83aa7f05bdacacc5927",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex015.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex015.dzn",
+      "git_blob": "46ae55da97b4594457db69b9a0b075adb1c949d1",
+      "bytes": 185,
+      "sha256": "f70c198afc772b9555afe944f520eb121504860a9cbd1f4a32452e98a0e007a7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex016.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex016.dzn",
+      "git_blob": "30c9040a9911d4f867f3da405b6ea596a948595d",
+      "bytes": 185,
+      "sha256": "07f6b48646d0574942068fed9fb49711e6b5705c2925b7a0582460f5e62af90f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex017.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex017.dzn",
+      "git_blob": "b31436f4b0da47bf44124da511821fa24fb65d7a",
+      "bytes": 185,
+      "sha256": "1f1f2aa0971194cc5a38676319113d8796a936048343ed453b909143b14ce3f5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex018.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex018.dzn",
+      "git_blob": "268634cbcd3bc25d4f8676caba9528fe4c671849",
+      "bytes": 185,
+      "sha256": "29f304371317f4cf012025e42e90ea6091bd94a45b9bf9e5dee1e4f7446f76ec",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex019.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex019.dzn",
+      "git_blob": "eaff181d9db7b8327c5d1ec72b3f66b74f0c7f3f",
+      "bytes": 185,
+      "sha256": "9be41ddb04c9f3f43230496cc6d24e893b30954ca9abb5db40ee56be314f8827",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex020.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex020.dzn",
+      "git_blob": "9a99920792a3ad12e1740d87cba4f2ea664e90a3",
+      "bytes": 872,
+      "sha256": "66bbd91ce924728b6176991da2b0803f62e4066d02446a1557f351c631075b2c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex021.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex021.dzn",
+      "git_blob": "394fde3219726b7fcf9c0b071b8ddb42ed7b3b08",
+      "bytes": 872,
+      "sha256": "ac3b45d8ba7a562fa83219434c8e25458cf3b09152356ac0aa88663d4d2d3b71",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex022.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex022.dzn",
+      "git_blob": "be772c6a8ef2b42bfdf8d63926e44b5381ef0b56",
+      "bytes": 872,
+      "sha256": "23d6fb6bd9854a5229076905800ce7c78ba6356a8de6e9efdc0db0b37ed522d4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex023.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex023.dzn",
+      "git_blob": "9aa53a2d70b2eb0d4795169397a39f6c8cacbbcf",
+      "bytes": 872,
+      "sha256": "e2eb7125e495e2816a0bb86b9dfa7332cdd7985126a37cba9979d82da623e9c9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex024.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex024.dzn",
+      "git_blob": "a5292d198779cb69a959346c785b91c6611b3845",
+      "bytes": 1114,
+      "sha256": "683b29918f8bf0ca48d0a7863b5f394917a7ce20ad9d55e546ef53e38a24b033",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex025.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex025.dzn",
+      "git_blob": "8b9d2b86e04cfd378f7dec49d2e3289c0320a860",
+      "bytes": 1114,
+      "sha256": "fbca52cb40b0f0ae068913489931a34820885c67bb7b4be719be0876103c0f37",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex026.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex026.dzn",
+      "git_blob": "cd0de017503723cfcae19f114bfa7e20f72ad846",
+      "bytes": 1388,
+      "sha256": "092c994a2a2ee52b1d9899c4de49cb83c4e5337b6ecc7eb39b1b8f1c03b680c4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex027.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex027.dzn",
+      "git_blob": "9783b8ed3d9937c21f8496120aa67f9f5018d7fd",
+      "bytes": 1694,
+      "sha256": "a888ce397f49ad27eb1245ef8968dbab33552651f418e4bfabe2b057d103c9f5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex028.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex028.dzn",
+      "git_blob": "005da9aab749d1723fa58a33d545912b9c2c6222",
+      "bytes": 1694,
+      "sha256": "185cb37244391b58edb72acb456f2dda1b86daff28d824299acf6a38c6864237",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex029.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex029.dzn",
+      "git_blob": "34dc52f924c41acd8b2baf714d892e87a5f9d85b",
+      "bytes": 2032,
+      "sha256": "016a9dccbfb3123204c19431397bf4687d58d49e4642673f9834e41869690597",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex030.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex030.dzn",
+      "git_blob": "d17db7456c04e2e7bbfcfe93b47ed0ca3179b832",
+      "bytes": 2032,
+      "sha256": "9c76036a4fcf4de449f7296ba6717727fdd6f48c18a94d694213e7fa3c2022b0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex031.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex031.dzn",
+      "git_blob": "a3f06379c224c8de93f712f70d77cbcbddbd8133",
+      "bytes": 2599,
+      "sha256": "a9bd21a419020d28fc2a59bf04d55fda96173bce1dfaba77c28ad3c04e856a56",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex032.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex032.dzn",
+      "git_blob": "8fc681184a3ead85bd0f6dc398bcf87782b8b5ed",
+      "bytes": 2599,
+      "sha256": "b4886f1a4d3dc639c51e22f8289cf36408c98416f2e373bcac627ff9a5319159",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex033.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex033.dzn",
+      "git_blob": "eed3754a5ed6462913d4d9d91226d643967ef8b8",
+      "bytes": 2599,
+      "sha256": "c1b7d5f2100d53f0fad239468c351cd4bf1ce0f1aedd2fd68b9f9332c4831f4e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex034.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex034.dzn",
+      "git_blob": "edcc49b5c330e04a54195cf725b984e3e648bd67",
+      "bytes": 675,
+      "sha256": "2bb74ad654568c597cae8cb6714478e4612676df19dbf9d56f8b2f2f19eb7bcb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex035.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex035.dzn",
+      "git_blob": "0cdc7b2c9ddc5e96463e7fad275bdf8f5e070fa4",
+      "bytes": 222,
+      "sha256": "45a48d7e47abd12993816969d2348f3c0e978f02eb9fb382d25c91c49afa4002",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex036.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex036.dzn",
+      "git_blob": "e45165fe4b6d38bcab39ed2f59aa2cceaf39f60d",
+      "bytes": 222,
+      "sha256": "1d9f67ad25882d80f6e345c5b66669fb6d955ed5bf07489d829a0089c62c6289",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex037.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex037.dzn",
+      "git_blob": "3274c5163aec33c2cf53c306820d9b79406e7b46",
+      "bytes": 185,
+      "sha256": "f05b8d1626bb1bb1e6e5233d4c83c2bb6da8c407ce47bcedaff89bee65f0d6fe",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex038.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex038.dzn",
+      "git_blob": "10825b30e937e446dabf6eb388b515c1ffdb6c56",
+      "bytes": 275,
+      "sha256": "7cb74b19613235bf2d0ba98c082e843c298b1f2033c90ecbaf47e3fa9f3089e1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex039.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex039.dzn",
+      "git_blob": "ca468684e924f6fdaac0378cb602a5217ff17a12",
+      "bytes": 225,
+      "sha256": "d93a1c8a3f4eb00085eb5f6a12d1c62d35f486335a4fa62a295c45e9b657a603",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex040.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex040.dzn",
+      "git_blob": "f948403ffb6bf396970d1df095df79f1a875251d",
+      "bytes": 271,
+      "sha256": "e7fdf53f24c5c13a4a8b02eb58123f761ad21c8d5e9416707c07fe1fd51d6976",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex041.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex041.dzn",
+      "git_blob": "eb5f8304314daa864af98dc6d393d455ec8c2505",
+      "bytes": 405,
+      "sha256": "e7aabdc17b556037a876f8ebb1736cdbd815009016ada87bb6742bb3be1f7f4c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex042.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex042.dzn",
+      "git_blob": "4da5640b2c7bdf982b3fc79604eb104d514c114a",
+      "bytes": 405,
+      "sha256": "65901197b7d6f01837dcd86219a7a1bbd699526c7274e5562cf85b3a5a0cd4da",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex043.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex043.dzn",
+      "git_blob": "c5ce0f83412a01a00e56df64bfabf3f860a816b5",
+      "bytes": 187,
+      "sha256": "ba8403146c93ac0f45ee716d4f471e02cfd0bf023123931a7b224f1c7cfde4fc",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex044.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex044.dzn",
+      "git_blob": "dccfed2b2ce2d72c7473072ab3c3b47463b87c8b",
+      "bytes": 241,
+      "sha256": "b8fdd0a791a88acc9c128bb77f72e10c2f165e0ca4f04ffdb2418024d16557b7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex045.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex045.dzn",
+      "git_blob": "e4dd32b1ea9c7f4636013f5751071e49b46d8954",
+      "bytes": 621,
+      "sha256": "94e9eaa9c6e62af60825290c31ba902a7133939e5de7ba7c8b676c9b8e746eec",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex046.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex046.dzn",
+      "git_blob": "452d68811a8136bdbae40b72ca2c5d36ea266553",
+      "bytes": 1347,
+      "sha256": "ac4a49ee29789b842a9fbd07d5b263ceb8d38c8d20a4c0a69bae295e8a3488cd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/ex047.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/tests/instances/ex047.dzn",
+      "git_blob": "050ee22c1ea2c12623a8fc4cd29c242bcc87f8d5",
+      "bytes": 6473,
+      "sha256": "67c4de4bed73bcf077ee42ed8c51397087e12319ff61701acff2af9c878bd232",
+      "mode": "0644"
+    }
+  ]
+}

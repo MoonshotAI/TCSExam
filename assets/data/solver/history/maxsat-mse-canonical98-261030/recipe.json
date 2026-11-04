@@ -1,0 +1,740 @@
+{
+  "format": "official_maxsat_generator",
+  "description": "Exactly98 frozen original canonical MSE2026 inputs, with only their final filenames changed and original XZ compression restored. Historical variable/clause relabeling is excluded: all98 frozen plaintext hashes equal their original canonical sources.",
+  "archive_source_id": "maxsat-mse2026-anytime-weighted-zip",
+  "xz_source_id": "xz-utils-5.2.5-tar-gz",
+  "sources": [
+    {
+      "id": "maxsat-mse2026-anytime-weighted-zip",
+      "url": "https://zenodo.org/records/21358014/files/benchmarks-anytime-weighted.zip?download=1",
+      "bytes": 1969015603,
+      "sha256": "4b9bc198d1bb12a5125194e8c5cbcc98976852e01f53849db5d80bb9d4715fb5",
+      "filename": "instances.zip"
+    },
+    {
+      "id": "xz-utils-5.2.5-tar-gz",
+      "url": "https://tukaani.org/xz/xz-5.2.5.tar.gz",
+      "bytes": 1791345,
+      "sha256": "f6f4910fd033078738bd82bfba4f49219d03b17eb0794eb91efbae419f4aba10",
+      "filename": "xz-source.tar.gz"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tests/instances/ex001.wcnf.xz",
+      "source_member": "weighted-2026/3471182ada8ef00252163223650598d9.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "d9c8ab867c6c685b8a1e414a1e288894420dfec908ffef57b0d25b5ef4cfdad3",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex002.wcnf.xz",
+      "source_member": "weighted-2026/58688347812a692f7bd3d9e3c623d25d.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "e6fb3fffdff41b850593f6cd6cc672d166b2e0e837e0039cda18e3e6d319d84f",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex003.wcnf.xz",
+      "source_member": "weighted-2026/bd1b7b6eb6683fac4979cb6254c19af5.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "88c287fd12df8acaf2d4b3bdf043ce7e7e53d9220e8752b80812d725e62a7e0f",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex004.wcnf.xz",
+      "source_member": "weighted-2026/e2a8ac0364b27dc7e7795395377978c0.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "9dea5722a3f507c906e61b2bd9f976aa1c01999120d936023f96c4cfc3f563c2",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex005.wcnf.xz",
+      "source_member": "weighted-2026/f7f9da5cf24bc5e759e949c66703a71a.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "a81efd8de93d85ae109379b0c011cf32c8fc0f2c17f559472ebb99f1612f47fc",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex006.wcnf.xz",
+      "source_member": "weighted-2026/4c44f623cb2171f56050db7b54f7daf0.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "8c63034e17729b236a2395e60fcceb19f76ad853e38c53a3cdfc93d900923e78",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex007.wcnf.xz",
+      "source_member": "weighted-2026/cdc67b29ce153bdde38d6c2d80bb86d0.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "5e37fc3ae909b006043673da3d92fddaccf5f4ee7f263ff22886cc4611048c97",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex008.wcnf.xz",
+      "source_member": "weighted-2026/b0fa635dac36420e432714ab845bc52b.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "e2a663d5a341a1350de8a5a42f7bbb1339623d944704e883bb9d310a989afe92",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex009.wcnf.xz",
+      "source_member": "weighted-2026/0d1a5c9581ff245778bfee89b4e310d2.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "ea4600cec08467d63657fad52aa67fc467b793671e86b20970e78a4d442564e9",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex010.wcnf.xz",
+      "source_member": "weighted-2026/12337b1fab4907d9c8f4c1857340c879.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "b508328f92e3937c2df286244d0f1b0885e219eee7e9863caa59d94f6b1ed7b5",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex011.wcnf.xz",
+      "source_member": "weighted-2026/22cf5bc8080a7782d541bccfe1d4b17b.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "664d3f9e314ba1f5a3b7e48ae6f2b86231dd5664426b893aaa6a5df1906daa81",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex012.wcnf.xz",
+      "source_member": "weighted-2026/4cd68628d6bcd4f2879d765d1e99ed01.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "552ca30be3ed23958c2d61670207303b462205f30ab5d023c80efdb9b815de7f",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex013.wcnf.xz",
+      "source_member": "weighted-2026/5d75c9c691357fe9ef835a8a1843127d.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "aef860fd312438da16d7ef7a41c623d6631200db5a623ce0be97ff4c51d52edc",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex014.wcnf.xz",
+      "source_member": "weighted-2026/7f3a7133602947514b8147aa8359a417.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "2d71d56f592388d91deabeb44552e29e7ef33eebde908a78bc215e943272d061",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex015.wcnf.xz",
+      "source_member": "weighted-2026/8e263080b96bf47697c91bfa51ab818f.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "75682218e6b57e96c5217584b8c52d23a24c45f67592a866b0e3dde46a53b6ab",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex016.wcnf.xz",
+      "source_member": "weighted-2026/98531755f0de4b7c9f0974aacd32ec9e.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "d9671b549bced3aa8e79d09b69103e0c60b304fa4d6b55c6f1ae8d26af09cfb5",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex017.wcnf.xz",
+      "source_member": "weighted-2026/b31bfe221251438552a8d98cf306728e.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "b6124b12171557dc6bffb88d4f82dccf6e8e70bd2a63ab812ebf16cd8a604795",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex018.wcnf.xz",
+      "source_member": "weighted-2026/c188f0e7b65fd825f98c0f98bce9cfb3.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "5cc4a23988b6d527c89356624a2eaa5be81f6a0749adf0d74f6b219fdd1b28ee",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex019.wcnf.xz",
+      "source_member": "weighted-2026/f9a2fe031a23abcd7bc206f06306ab0d.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "f1f6a289ebdb270ae9fea6bf39d549e19a8c3862f0867e1510dc78aa84d4a035",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex020.wcnf.xz",
+      "source_member": "weighted-2026/00677332935640136e4b6d03ad55bb8b.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "0cf122510aa57ccb8236f77e7d17749702709cf794a1cb1995088254758e8b48",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex021.wcnf.xz",
+      "source_member": "weighted-2026/155ee86fe12a895e51fc8c626019f492.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "705fa17dbeb96413352802bd14aafdc7878308b20ff6315fb87fac44d4a0d04d",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex022.wcnf.xz",
+      "source_member": "weighted-2026/65dddbe3baceed466b230e80ef7535fa.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "dd8bfa37e60e601aca791e27edd049703cd6eb33d67a331ed083f081ec912e19",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex023.wcnf.xz",
+      "source_member": "weighted-2026/94c80d0518a2a1d48fdb97a2b5f7f71a.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "147c0cda43df2dd8f450eff89f4a8f6d6cf2c2bd61cb630bc6468cbc3175e45b",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex024.wcnf.xz",
+      "source_member": "weighted-2026/9f64c57fc110cee98d501e8140fd1414.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "c6f83e20163280a7b4ca545a287b25bedb9509a391f1382952c4a3d81c16fbe8",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex025.wcnf.xz",
+      "source_member": "weighted-2026/a2fc3cc5390406fea351583acc8a6a2a.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "a2d0db7937773b309e943fa9f595269ab83319affe97b5362a90479214c78b23",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex026.wcnf.xz",
+      "source_member": "weighted-2026/b36a65ddc270f397271a4d25340e8e80.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "20cccbbb0bdfcead98f1be4f333773e15f89a22acb30e3619c3791c753471e21",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex027.wcnf.xz",
+      "source_member": "weighted-2026/ca883ec70ba5cfcf499b95261e5ca727.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "4ccdae273fd7efe06a1de358ca94f6ed2b34fd6df522e9eb102b55c63a299a7c",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex028.wcnf.xz",
+      "source_member": "weighted-2026/e29d11f16ec7a5c67ec50715dd29b168.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "e5d42624348b534ff37efd49a7377a65b3ebeee00e669181ef18e3c7032e85d6",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex029.wcnf.xz",
+      "source_member": "weighted-2026/731c408aa6947d7339a92c03a03ae5f2.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "ef7d85efc06446788cd4f8cf92f4d63a7f5e7e99e56bbc426a02355ab5713e35",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex030.wcnf.xz",
+      "source_member": "weighted-2026/fdb78a05186416897252a182942e3462.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "2861f0499928c34645b22ddf9877abfc82bf298393a19b4c740dcdc7af2a572b",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex031.wcnf.xz",
+      "source_member": "weighted-2026/18210ee558608266daece1d1f86bd874.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "54b3047db48c48ba93922f913130dbf43a41cc4cfedd718dc096cd8540fbbc5f",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex032.wcnf.xz",
+      "source_member": "weighted-2026/7f428c56dc1519c511355cf5a2072941.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "6663c708dcb38065f830bf236b1ced60afc1eb77343f81cded22c0be9a6f1123",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex033.wcnf.xz",
+      "source_member": "weighted-2026/35826dd37c9824605a714bd328d86293.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "efd00dd52067546da3e376de38a2cdfcbfa0e8348368689581e807c3de294f09",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex034.wcnf.xz",
+      "source_member": "weighted-2026/36e101370166df8968ab5eec69408e07.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "6899a2a0fc15b3600085848f94ec43aa5672505fc3458ef58b515cb5d261d181",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex035.wcnf.xz",
+      "source_member": "weighted-2026/3a2177901399cbf3434f0c25ababa172.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "0e1b1d75481cb18a7da26c928e5662301e45b71747c3bcbcc0935bc3d7364efb",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex036.wcnf.xz",
+      "source_member": "weighted-2026/5531e2e2402cce732380fc44558878d3.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "a379f6ebb9df2048a34fe243b0db21ab8c73783e20394f354f6f733dbda08aab",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex037.wcnf.xz",
+      "source_member": "weighted-2026/58953177cfd2a96c8790490da7549c9a.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "65893cbd8469949c8d95fb89d0c800c94237eab527bf4f54ea5e1eda4a319c29",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex038.wcnf.xz",
+      "source_member": "weighted-2026/b517e589ffd2928646b8ae7bb2f4ee2f.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "3a04d41447c5b9a8dac429df9010e6d703ec87bb07c452e6be0f213e613c60e3",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex039.wcnf.xz",
+      "source_member": "weighted-2026/c11deabd046ea7b95c61e627ae15df10.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "1853d1ba2d58ac4618216b610620e72feecd6bf6c5a9d78e1d77a4892d51a359",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex040.wcnf.xz",
+      "source_member": "weighted-2026/d3b60a3c33f22e7ed54dd4ce47158fcd.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "8b96daf8c23be486a80df23f0b315539bd535ca748fc9f1665cd0ceb4f3c6610",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex041.wcnf.xz",
+      "source_member": "weighted-2026/e350018a587a4042068d66a62dce6c0b.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "68eda2d5152850566b9b1c5f836201f7860fd18fffb459393b7cb3065dd6ab8d",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex042.wcnf.xz",
+      "source_member": "weighted-2026/e37916dfae1f1037c706d69f2c86497a.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "173c84ad535789419fc19adbbe4ff677776798a27b9341b865f4bbcbe07156b2",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex043.wcnf.xz",
+      "source_member": "weighted-2026/e73ea7fce5b375026794e58ed67729ec.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "2c030c14245119314518a0e9afc4674dc57346e584b2259f2457946475721b8b",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex044.wcnf.xz",
+      "source_member": "weighted-2026/32591818c6b32e1d2d4b72996dc57467.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "dc29afa85380bad075badd5b756e31ad2b991436560c025c56e91313e61811ce",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex045.wcnf.xz",
+      "source_member": "weighted-2026/02f0572a56d1a1364634aa0b6d337bc7.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "e2fe83da4faeee42aec65a19e95baa21faebd2db37d4835cfd0c79dea1ae1e89",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex046.wcnf.xz",
+      "source_member": "weighted-2026/38da17874408d58f540931f29769c280.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "e0f4ff6221fe59ecc974cbbad89e3c97c703bbcb1aedc4648ab5c5648c1d6985",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex047.wcnf.xz",
+      "source_member": "weighted-2026/aabff9eae3f574ccd7075bf1c80e979a.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "b032cbf0cce62904ce8604b583839f956dec56e7282ffd3151e568072774bc18",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex048.wcnf.xz",
+      "source_member": "weighted-2026/3c482692e84f56210f74f7bb0f7904a2.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "dbde95a129b4e79fc3a9b57b844843e92fd1592c717e88cdb882707e1b46f715",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex049.wcnf.xz",
+      "source_member": "weighted-2026/40de621bbc143ceb8927a54f0512c8a2.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "f678a72cf4f9c0215ff7745317f019edfe655571c56091a767d8d78b8f69fb6d",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex050.wcnf.xz",
+      "source_member": "weighted-2026/61147626a97624a30996f2e40e1e606f.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "a60c67a46546c51ae75f8b55d206e74a0a100ce1ecaed07512c5b9753fe0c02b",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex051.wcnf.xz",
+      "source_member": "weighted-2026/8916e6ed8e1d568165346755910dfd5f.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "de2609bba0461f7f0baa3729c8f8da8aed89bff7889998366c7d677b189499b9",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex052.wcnf.xz",
+      "source_member": "weighted-2026/b38433033be84c89c461c5cb98840b63.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "81c776dfbce447e6d4d65b3acc165c11a702b7b1978763ba2c6028e06c1a1057",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex053.wcnf.xz",
+      "source_member": "weighted-2026/bc8befbb3791e6b2871eb2c0df28742b.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "da4f8d533cb59dc3794da006d1ecc9cceefd1cdf442bc4a1cdb6d2a7c05c1e5a",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex054.wcnf.xz",
+      "source_member": "weighted-2026/c11a2e1466efae2e1244ab258cec49e3.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "5bba825037fa68bbc3143e9da76339b5430335bc0173987df352b7b851d037e8",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex055.wcnf.xz",
+      "source_member": "weighted-2026/c8d6562144975ffc07fa58e773037fa9.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "895d861b44b9d8b2199b46b0505239f6ef1b4f82957a1eae4ae073d8efc1175c",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex056.wcnf.xz",
+      "source_member": "weighted-2026/ccf7a86d3b99cf8b241c25b8d94673e2.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "5fd7cab82171214ad768dfd3b27268efa70a022b2467c8cfc3df9b63a7641185",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex057.wcnf.xz",
+      "source_member": "weighted-2026/cd32041c8dcd6df4d793678ba04234f7.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "622b84d5ba947646bcad827d2be37d56aebb8fe5bcdc0f9ec25782f7a533c93a",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex058.wcnf.xz",
+      "source_member": "weighted-2026/4a5a0acaacd22f9604b9d3de4861909d.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "5393f2de296c3762d96780e0a04d1be03c6e34c2bfd29e5ccd5aadc0f449d7d1",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex059.wcnf.xz",
+      "source_member": "weighted-2026/6257352adb0e5a42361cb8d035788573.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "b2ccfe2bf3f920796e7c8f1ca5e3adb9dcb614ca380c59c904b467cebcd67eeb",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex060.wcnf.xz",
+      "source_member": "weighted-2026/86537f85a60875c82ac1ad108beec2b9.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "bd62bb571424d6d64d39df3a816dc4e85d272200bed7032b88f27f45783533f9",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex061.wcnf.xz",
+      "source_member": "weighted-2026/ad24cb38c36e7567b627f4f06fb7b6fd.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "6980b74573c7c71913c5a7516170385ab7df62167f3ac70ee3f5cffacc3125a7",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex062.wcnf.xz",
+      "source_member": "weighted-2026/b26a8483c61555b0999155309a0b4620.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "459c259ea2798ad2f409933b0751630578701ef1ff19ff892a232e9907715da0",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex063.wcnf.xz",
+      "source_member": "weighted-2026/c417b6b7465dc5e5dd3ee7c4b19fc2ea.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "ad361c8eacde73a290636d0edfd3f11efc7e607a6aa48a5f2f215b325bae5211",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex064.wcnf.xz",
+      "source_member": "weighted-2026/2518d160dad18f8452c88031c719d644.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "bb217dea7f2bd32bfb86908807c6a9005d6c9831bf441e120d5e3db1452d47f4",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex065.wcnf.xz",
+      "source_member": "weighted-2026/7fb450eee4021008612efe23918c4a9d.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "fc1efd10e510cf76c6dc95edbe7a65cc78a360dc543c3481b111fac03be59977",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex066.wcnf.xz",
+      "source_member": "weighted-2026/921f9c0682b62604ff7c9a3f4499dc19.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "73e9ad3dd26ef71b82ac1ba0c36c814bec7762f09722b386f3b961b34f799d2d",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex067.wcnf.xz",
+      "source_member": "weighted-2026/99e1bbd626eca9d267490f6052b5eed1.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "eb5e1c977e644608dda146502477d28606e7b6733113247ad804819aab4bbd4c",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex068.wcnf.xz",
+      "source_member": "weighted-2026/b22a7099a4197d17a78bd6cef572efc2.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "573a5c468c91824198347b98e2c43f6c65dbd5113821210be61c70c73d751ed4",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex069.wcnf.xz",
+      "source_member": "weighted-2026/b80d8eabb200da8d50afac436975305c.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "7d34955767a80bf51451a0d5f107c083f4b0e243d84cd970045bb409dadfcc85",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex070.wcnf.xz",
+      "source_member": "weighted-2026/cea78a8572544aa8a1ac2262d101e467.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "82dd3be661a7c4143ffa2a2fb734eaaca56418c39f958d16d77217eb46875ed6",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex071.wcnf.xz",
+      "source_member": "weighted-2026/0c06fc80e4d1a79e42cb12b43ea18e83.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "5afd47a46069bd9ea4bbe2118fc3af15595636a2cce64d5e55fe5e1ee0aa5dea",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex072.wcnf.xz",
+      "source_member": "weighted-2026/abf62faa242550b0447c775250aad0f6.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "1a5297f5490aeca1e4b5a7fe9d5013aab737da31dfe01bba8f42db3cb45ef98a",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex073.wcnf.xz",
+      "source_member": "weighted-2026/d63044df54ba70ede3011831ecf15fed.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "a964bf5d2ae65aca66c0569a5ff24833f5237f49bcc1cb81df2a982b7ab486ef",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex074.wcnf.xz",
+      "source_member": "weighted-2026/f891f513398f55ca8de1bd6bf72753c8.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "90b52b41a593c56457a52bbcccdf585c550275a63b16b04fd6e19192f4404d36",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex075.wcnf.xz",
+      "source_member": "weighted-2026/c4dbadd910a4226416c4b9219b481ac7.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "1c2ff0e220ee86f7b9591839ef88fc9836692c9f9e581e3c54fec2077a6a5a77",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex076.wcnf.xz",
+      "source_member": "weighted-2026/0287e2fbe2e51f2d27cee56797dba325.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "2e0140425682ed029f0c2d56dc40107fbabd0b766744cf156dd485b20a72b285",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex077.wcnf.xz",
+      "source_member": "weighted-2026/029c26f52d9c640d926fbd4b70a163fd.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "eca52b9662f785854cf797981813d2e90e2621cc7f589f5f1f04cb61a94528d2",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex078.wcnf.xz",
+      "source_member": "weighted-2026/18d5b79268f7b1ccf7bd9ab479981136.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "7f94c19c61ccd7a49db1b5dbe0e9161fc055d2848543a1f9349ad0dd9cda1294",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex079.wcnf.xz",
+      "source_member": "weighted-2026/2a847b03285818f0a871eff5e6f0a2d2.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "ab8bbf9cadee7e17d646782a3462eba132f1106600746a45fe67b8d15e5ea337",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex080.wcnf.xz",
+      "source_member": "weighted-2026/378bef86e5e5c933733b59db319ae0c1.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "6fdf0f39c513edeb114a4d4e9e0dede60575a576ac24ce7fe5a9de51d6151576",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex081.wcnf.xz",
+      "source_member": "weighted-2026/3f96b2fd08e9769db144080f60761070.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "4b36281e4934c0e73a46daea0f3cfa794de3495a759292d1f5f34ea8da83a93a",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex082.wcnf.xz",
+      "source_member": "weighted-2026/8870bb009bcb1d8121fabebbe85228aa.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "fee2da3357bb1f5aa1898010d16d0278fbfa2aa453083aca1b7d89ac0159edda",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex083.wcnf.xz",
+      "source_member": "weighted-2026/8f2944670274dfbfc37e25c49a04b652.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "758a9d4d8b613b49c37a8b488055e547dd006f3d0162034c7625e4cbc8aaae4a",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex084.wcnf.xz",
+      "source_member": "weighted-2026/9df4e09614ddbfa3a33df2d6fbc63583.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "b9ccbdf4f9b66a8bcb412c37d29d4478864989c151168a64a67677c5f8b0e9b9",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex085.wcnf.xz",
+      "source_member": "weighted-2026/ad6561f35246c714406a2c0bd61b3410.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "77648f6a15d099abbd9a943df230d068a782ed4e9893b2b1505af8935a019be0",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex086.wcnf.xz",
+      "source_member": "weighted-2026/d0c8c4a2b1c6dff010df6fe5b63037c3.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "4d66307fe469f5760252590d5a58bb73f4513ed4c5dc4a2d68dbb4257e1daf73",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex087.wcnf.xz",
+      "source_member": "weighted-2026/ad107e3a78ddd92eb6c92aa6e9720e62.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "78e3bf933d468077e6cd73a113e390682dfb249e687e3466ed7d798359ca02ae",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex088.wcnf.xz",
+      "source_member": "weighted-2026/0604941704526f805ca57828d1361228.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "c14bd80dbd2d7ece929ee896a17238bf9ba44a9eb72089988e4046196186cc26",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex089.wcnf.xz",
+      "source_member": "weighted-2026/2e43740544285bd3492c3cef1f723469.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "abf02559bd4746514abf55b587b0abe793f61ae7ffb00dc978155236199085cb",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex090.wcnf.xz",
+      "source_member": "weighted-2026/35ede55851341e235a861972cd8cf63c.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "aa726c94047ee3097c5bca9476afd5556a9e95c3392278bce5bb3615acfb2d44",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex091.wcnf.xz",
+      "source_member": "weighted-2026/37c1edef1218579775847175d65dde6d.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "0c8c6bccc8eddb77f281c044c340154ba588444adbc478a01b88688ea0d2d1fc",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex092.wcnf.xz",
+      "source_member": "weighted-2026/45f209cec48daf040598a87caf33b7b9.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "5828cc99852254e34e812408bec7e76e10f6f2b80193c70680dd0abc6ef34a74",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex093.wcnf.xz",
+      "source_member": "weighted-2026/5fec1b5fdacfb65e547848fe28bf6fce.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "0b53fb87b504d0a7a78ef3ea337f0a92bfafb98831655a82d461e5d34bba0fb1",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex094.wcnf.xz",
+      "source_member": "weighted-2026/8efe8fb5fa1e53f4b0c7074af61521ff.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "72dc52f43dabe6097dcfa8b7fbf591990631457dd32d5172b5f9fc716a777aa5",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex095.wcnf.xz",
+      "source_member": "weighted-2026/98b3b51d1fb4c6872b52b23cf0d4c715.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "115740735c56dc2960d034d85087201ae16af4e5006ff9d35e0ac2bf1a4fc35b",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex096.wcnf.xz",
+      "source_member": "weighted-2026/9ee8fbfe7a0b4d82b1ce5fdd25fd5795.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "fd361d5b3ef9a93a11c74f87e2f78b7c72b29b0041951e7eaa97f3615647557a",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex097.wcnf.xz",
+      "source_member": "weighted-2026/c92e1d170361ab3334c2453d467ebdc2.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "ebadaf24b2e294c03e7cdf847255df95ea59a3ee149a948e269f80ee77f84e3e",
+      "compression_tool_version": "5.2.5"
+    },
+    {
+      "path": "tests/instances/ex098.wcnf.xz",
+      "source_member": "weighted-2026/d25128e8cdb575b958d84f3e8082531f.wcnf.xz",
+      "operation": "maxsat_pack",
+      "source_sha256_plain": "73df8fdb691d0b1bc6a79c800c20f6f37745ba614b1653c75ee5c99d4e23aa20",
+      "compression_tool_version": "5.2.5"
+    }
+  ],
+  "implementation_files": {
+    "assets/data/solver/maxsat-mse/convert.py": {
+      "destination": "convert.py",
+      "sha256": "d2bf8e06a29e9909764a2f7c23e56856a1a0d15017d2dfb31b8cf20ba746e2e3"
+    },
+    "assets/data/solver/maxsat-mse/transform.py": {
+      "destination": "transform.py",
+      "sha256": "5ca37d6a5eb7fb817e56e2f749a183af7dab3f58681da0e012129c1f58740a77"
+    },
+    "assets/data/solver/maxsat-mse/hidden_worker.py": {
+      "destination": "worker.py",
+      "sha256": "b65bafb52fa82768b8dde2525c2dc44df9288b0700c3ace5514704420cf361d8"
+    }
+  },
+  "generator_paths": [
+    "src/tcsexam/maxsat_data.py",
+    "assets/data/solver/maxsat-mse/hidden_worker.py",
+    "assets/data/solver/maxsat-mse/convert.py",
+    "assets/data/solver/maxsat-mse/transform.py"
+  ],
+  "build": {
+    "builder_image": "ubuntu:22.04@sha256:0a9887931b0e38af2e3487ed39e29436b0535c4f3f52e57745baaf79d1898956",
+    "cwd": ".",
+    "timeout_sec": 7200,
+    "download_timeout_sec": 1200
+  },
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Retain Zenodo21358014 CC BY4 and original instance-author notices. Original four Open-WBO papers have separate terms. This reconstruction does not authorize public upload.",
+  "compression_tool_version": "5.2.5"
+}

@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-planar-l1-gnrs"
+version = "0.1.0"
+description = "Prove or refute the GNRS conjecture (Gupta-Newman-Rabinovich-Sinclair, FOCS 1999 / Combinatorica 2004: some universal constant C bounds the l1-embedding distortion of every planar graph's shortest-path metric) in Lean 4 (machine-verified). Open problem: no ground truth; the Lean kernel is the judge. Proving either main statement (conj or refuted) scores 1.0; there is no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "metric-embeddings", "graph-theory", "graph-minors", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-planar-l1-gnrs"
+candidate_id = "cand-planar-l1-gnrs"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open conjecture (unresolved since 1999; best known upper bound for planar metrics O(sqrt(log n)) by Rao 1999, lower bound 16/7 by Kalantarzadeh-Kumar 2025 (improving the earlier bound 2 by Lee-Raghavendra 2007/2010)). Full score needs a kernel-verified proof of one of the two main statements (conj or refuted); there are no checkpoints and no partial credit."
+source_paper = "A. Gupta, I. Newman, Y. Rabinovich, A. Sinclair, Cuts, trees and l1-embeddings of graphs, FOCS 1999 (doi:10.1109/SFFCS.1999.814611) / Combinatorica 24(2):233-269, 2004 (doi:10.1007/s00493-004-0015-x)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-planar-l1-gnrs-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

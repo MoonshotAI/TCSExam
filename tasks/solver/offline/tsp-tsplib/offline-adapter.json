@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/tsp-tsplib",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/tsp-tsplib/tests/checker.py",
+      "target": "tasks/solver/offline/tsp-tsplib/tests/checker.py",
+      "sha256": "70bb9bdebf71c5cbec67cb23c53e7ce7326fdad3292c1f8b10988ef2bf11f05d"
+    },
+    {
+      "source": "tasks/solver/online/tsp-tsplib/tests/reference.json",
+      "target": "tasks/solver/offline/tsp-tsplib/tests/reference.json",
+      "sha256": "9cbf5864bb9d742ea2bc95f0b62a679e1a90e9538d8cfb26d87aec6ed39aa418"
+    },
+    {
+      "source": "tasks/solver/online/tsp-tsplib/tests/anchors.json",
+      "target": "tasks/solver/offline/tsp-tsplib/tests/anchors.json",
+      "sha256": "df33df3373a5d7059e6896a6cc71c1a0b8ab3e991c376de23f1ec90702e57692"
+    },
+    {
+      "source": "tasks/solver/online/tsp-tsplib/tests/metric_config.json",
+      "target": "tasks/solver/offline/tsp-tsplib/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-tsp-tsplib",
+  "verifier_dependency": "backend-online-tsp-tsplib",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

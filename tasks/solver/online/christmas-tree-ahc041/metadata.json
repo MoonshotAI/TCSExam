@@ -1,0 +1,52 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260906",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/christmas-tree-ahc041/PROVENANCE.md §B/K derivation: measured and ratcheted using the project's own SA solver (sa.cpp).",
+   "tier": "self-measured"
+  }
+ },
+ "family": "christmas-tree-cutting",
+ "id": "christmas-tree-ahc041",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-christmas-tree-ahc041-judge-v8"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "AHC_INSTANCE_SECONDS",
+  "n_hidden": 45,
+  "n_public": 105,
+  "per_instance_seconds": 2,
+  "shard_cores": 4,
+  "shard_mem_gb": 8,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "max",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "AtCoder Heuristic Contest 041",
+  "hidden_set": "transformed-holdout",
+  "memorization_risk": "low",
+  "transform": {
+   "k_preserving": true,
+   "type": "vertex-id permutation"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "The 70/30 split is frozen (tests/split.json; 150-item pool → 105 public (100 official + 5 generated) and 45 hidden (all from the generated family, which is the only family covered by K anchors)). The 45 hidden instances were structure-preservingly transformed by relabeling vertex IDs while leaving coordinates unchanged, producing tNN.txt. B = 1+sum(A) is unchanged by the transformation (final value; confirmed by a batch smoke check). The form1 judging reference is separate in tests/reference-hidden.json; tests/reference.json retains 50 generated keys for rendering async anchors."
+ },
+ "subdomain": "graph-optimization",
+ "title": "Christmas tree cutting"
+}

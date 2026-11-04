@@ -1,0 +1,34 @@
+# Independent Retranslation — `lean-quantum-crypto-algorithmica`
+
+This note independently re-translates the eight checkpoints and two packaging assumptions from the original LaTeX source (`src/main.tex`), then cross-checks each item against the finalized statements in all three tiers. Disagreements and adjudications are recorded below.
+
+## Independence statement
+
+
+## Retranslation source notes (source line numbers in `src/main.tex`)
+
+**D0 (parameters and notation)** (lines 611–616, 643, 646): ε = 1/(100n) (end of Definition 8: “where $\eps = \frac{1}{100n}$”); N = 2^n (opening of Theorem 10); m = 200 ln(N)/ε (proof, Step 1, where `\ln` is the natural logarithm—§2 sets log to base 2 and ln to base e); walk updates X^{(≤i)} = X^{(≤i−1)} + D ⊙ trnc(X^{(i)}), Y^{(≤i)} = trnc(Y^{(≤i−1)} + trnc_{1/2}(√ε H D ⊙ X^{(i)})), D = (1−|X^{(≤i−1)}|), X^{(i)} ∼ N(0,ε)^N (lines 651–652).
+
+**D1 (c1)** (lines 700–701): “Let C : [−1,1]^{2N} → [−1,1] be a multi-linear function. Then for every z, z′ ∈ [−1,1]^{2N} we have |C(z)−C(z′)| ≤ 2N·‖z−z′‖_∞.” This agrees with the finalized statement (|κ| = 2N, `sup'` = ‖·‖_∞, boundedness on the box = range [−1,1] via the vertex argument). The finalized statement has one additional Nonempty κ premise (needed by the definition of `sup'`); this does not affect its use with 2N ≥ 2.
+
+**D2 (c2)** (lines 611–616 and 708): Definition 8: f is uniform; independently at each x, g(x) equals 1 with probability (1 + trnc(√(ε2ⁿ)f̂(x)))/2 and −1 with probability (1 − trnc(·))/2. Normalization of f̂: line 500, “$\hat{f}(S) = \frac{1}{2^n} \sum_x f(x) \prod_{i \in S} x_i$” (expectation normalization). Last paragraph (line 708): the expectation of the multilinear polynomial under (X′, trnc(√ε H X′)) matches that under F_n. The retranslation identity is E_{F_n}[C] = E_f[C(f, trnc(√(ε2ⁿ)f̂))] (the coordinates of g are independent and their means are the biases), and E_unif[C] = C(0⃗). Both branches agree with the finalized statement. Bias sign: value +1 corresponds to (1+bias)/2, as in `forrWt` when `g x = false` (value +1). ✓
+
+**D3 (c3)** (lines 728–733): Claim 16 is printed with v ∈ (−1,1)^n, δ ∈ [0,1]^n, and δ_i ≤ 1−|v_i|. The finalized statement uses v ∈ [−1,1]^κ (closed interval). Adjudication: the closed interval does not change the truth (the boundary cases are degenerate) and is required for the application of Claim 13; KQST23 describes this form as “implicit in their proof” (the proof in CHHL19 covers only the special case δ = 1−|v|; the KQST restatement with general δ is already a reformulation). The explicit distribution (freeze ±1 / retain the product distribution) agrees with the CHHL19 construction on lines 521–535 at δ = 1−|v|; for a general δ it gives the identity stated in KQST's restatement (derivation on the task-authoring side plus numerical check E6). No unresolved disagreement.
+
+**D4 (c4)** (CHHL19, lines 567–569): Claim 3.5 verbatim: “independent symmetric random variables with E[A_i²] ≥ p … B_i = B_{i−1} + (1−|B_{i−1}|)A_i, where B_0 = 0. Then E[B_t²] ≥ 1−q for q = 3 exp(−tp/16).” This agrees with the finalized statement (`iIndepFun`/`IdentDistrib` are standard formalizations of independence/symmetry). The proof (lines 571–616) was read in full: recurrence for C_i, square-root moments, E[√(1−A·sign)] ≤ 1−E[A²]/8, and the Markov bound at the end, E[1−B²] ≤ 2e^{−tp/8} + e^{−tp/16} ≤ 3e^{−tp/16}. ✓
+
+**D5 (c5)** (lines 661–664): Claim 11 verbatim: “With probability at least 1−m/N^{10}, for all i ∈ [m]: Y^{(≤i)} = √ε H X^{(≤i)} and Y^{(≤i)} ∈ [−1/2,1/2]^N.” This agrees with the finalized statement (extending to i = 0, where it is always true, is harmless).
+
+**D6 (c6)** (lines 666–669): Claim 12 verbatim: “With probability at least 1−1/N², we have |X^{(≤m)}| ∈ [1−1/N³, 1]^N.” The finalized statement adds the premise n ≥ 7. The retranslation independently checked the proof (lines 833–839 and the step q = 3exp(−mε/32) ≤ 1/N⁶): 3 ≤ N^{1/4} iff n ≥ 6.33…, that is, n ≥ 7. Pointwise check E9: at n=6, 3e^{−mε/32} ≈ 1.09·N⁻⁶ > N⁻⁶, confirming that the threshold is not loose. Adjudication: keep n ≥ 7 in the finalized statement (the proof's valid domain).
+
+**D7 (c7)** (lines 671–677): Claim 13 is printed as one-sided E[…] ≤ O(tε/√N), with probability 1−2/N². Its proof (lines 742–786), via Theorem 15 (whose conclusion includes absolute value), gives a two-sided bound. The assembly (lines 689–691) needs the two-sided form. The finalized statement uses the two-sided form, an existing-K formulation, and max(t,1). Adjudication: agrees with the proof; recorded as deviation 3. The probability bound from the union of two bad events (y is too small, ≤ 1/N²; Hoeffding failure, ≤ 2/N^100·N² ≤ 1/N²) is 2/N². ✓ Premise n ≥ 2: m ≤ N^8 (including the ceiling slack, checked in E10). ✓
+
+**D8 (`gaussianFoolingProp`)** (lines 714–723): Theorem 15 verbatim: “Let n, t ≥ 1, δ ∈ (0,1). Let Z ∈ ℝⁿ be a zero-mean multivariate Gaussian random variable with the following two properties: 1. For i ∈ [n]: Var[Z_i] ≤ 1/(8 ln(n/δ)). 2. For i,j ∈ [n], i≠j: |Cov[Z_i,Z_j]| ≤ δ. Let 𝒞 be a family of n-variate Boolean functions, which is closed under restrictions. Assume that L_{1,2}(𝒞) ≤ t. Then, for any C ∈ 𝒞 it holds that |E[C(trnc(Z))] − C(0⃗)| ≤ O(δ·t).” The finalized statement uses an arbitrary finite nonempty index type κ (n = |κ|), an existing-K formulation, and a single function plus all its restrictions (equivalent to the family formulation; see deviation 7); the premise t ≥ 1 is retained to quantify the packaged theorem. The items agree individually.
+
+**D9 (`gaussianTailProp`)**: No corresponding numbered result in the source (a textbook fact used in the proofs of Claims 11 and 12). Two constant checks: P(|X|≥t) ≤ 2e^{−t²/2v} (when t ≤ √(2v ln 2), the right side is ≥ 1 and the inequality is trivial; otherwise, by the Mills bound P(|X|≥t) ≤ √(2/π)e^{−t²/2v}/a ≤ 2e^{−t²/2v}, where a = t/√v > 1.17). ✓ Also, E[X²1_{|X|≥t}] = 2v(aφ(a) + (1−Φ(a))) ≤ 2v(a + 1/a)φ(a) = 2v(t/√v + √v/t)e^{−t²/2v}/√(2π). ✓ Numerical check E13 covers four (v,t) pairs.
+
+**D10 (c8)** (lines 636–641): Theorem 10 verbatim; see the c8 entry in concept-ledger. The three adjustments to the finalized statement—∃K ∀n≥1, max(t,1), and collapsing the family—were recorded as deviations 2/3/7. Retranslation adjudication: the existential constant in O(·) is literal, and the small-n absorption argument (|LHS| ≤ 2 and max(t,1) ≥ 1) works. Theorem 9 (lines 627–631, the AC⁰[2^polynomial(n), O(1)] form and polynomial(n)/2^{n/2}) is out of scope, consistent with scope trimming.
+
+## Summary of disagreements and adjudications
+
+There are no unresolved disagreements. Recorded print-proof differences (open/closed intervals, one-sided/two-sided bounds, premises n ≥ 7 / n ≥ 2, and rounding m to an integer) follow what the proof actually establishes; see deviations 3–6 in concept-ledger.

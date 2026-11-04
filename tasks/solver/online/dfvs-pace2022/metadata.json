@@ -1,0 +1,52 @@
+{
+ "anchors": {
+  "B": {
+   "date": "260831",
+   "kind": "shipped-baseline",
+   "measured_on": "isolated execution environment"
+  },
+  "K": {
+   "ref": "tasks/dfvs-pace2022/PROVENANCE.md §B/K derivation: 187 of the 200 keys are proven optimal by Dagger@1800s; the other 13 use DiVerSeS upper bounds (source annotated per key).",
+   "tier": "proven-optimal"
+  }
+ },
+ "family": "feedback-vertex-set",
+ "id": "dfvs-pace2022",
+ "images": {
+  "env": null,
+  "judge": "<PUBLIC_REGISTRY>/tcsexam:solver-dfvs-pace2022-judge-v8"
+ },
+ "judging": {
+  "budget_kind": "per-instance",
+  "form": "final-once",
+  "instance_cores": 1,
+  "limit_env": "DFVS_TIME_POOL",
+  "n_hidden": 200,
+  "n_public": 100,
+  "per_instance_seconds": 1800,
+  "shard_cores": 4,
+  "shard_mem_gb": 32,
+  "shards": 10
+ },
+ "problem": {
+  "certificate": null,
+  "direction": "min",
+  "kind": "optimization"
+ },
+ "source": {
+  "class": "competition",
+  "ecosystem": "PACE 2022",
+  "hidden_set": "official-private",
+  "memorization_risk": "low",
+  "transform": {
+   "k_preserving": true,
+   "type": "vertex-relabeling-v1"
+  }
+ },
+ "status": {
+  "in_split30": true,
+  "notes": "The full judged set of 200 is 100 official public + 100 official private instances (the same set used in official rankings); judging-side bytes use a secret vertex permutation (recorded in the transform block, with K inherited by isomorphism). Of the 200 keys, 5 have B==K; the gap_ratio engine excludes them automatically, but they remain in the judged set. The limit is passed through the DFVS_TIME_POOL environment variable."
+ },
+ "subdomain": "graph-optimization",
+ "title": "Directed feedback vertex set"
+}

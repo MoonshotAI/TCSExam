@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/cvrp-cvrplib",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/cvrp-cvrplib/tests/checker.py",
+      "target": "tasks/solver/offline/cvrp-cvrplib/tests/checker.py",
+      "sha256": "d6c554ab2814e76585382b0ccaba2fe30b5758a8260786ce07c23a8191799207"
+    },
+    {
+      "source": "tasks/solver/online/cvrp-cvrplib/tests/reference.json",
+      "target": "tasks/solver/offline/cvrp-cvrplib/tests/reference.json",
+      "sha256": "42acad85b457ce8e8361f1a9daf2a2bb1ac882a1ffbb2262114173d9b2b9e772"
+    },
+    {
+      "source": "tasks/solver/online/cvrp-cvrplib/tests/anchors.json",
+      "target": "tasks/solver/offline/cvrp-cvrplib/tests/anchors.json",
+      "sha256": "2614e80f8c3812f0622e6ac142b8ba856fe0b5935685e95c74daa98df086b201"
+    },
+    {
+      "source": "tasks/solver/online/cvrp-cvrplib/tests/metric_config.json",
+      "target": "tasks/solver/offline/cvrp-cvrplib/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-cvrp-cvrplib",
+  "verifier_dependency": "backend-online-cvrp-cvrplib",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

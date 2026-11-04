@@ -1,0 +1,678 @@
+{
+  "format": "official_files",
+  "description": "Exactly the frozen selected SyGuS benchmark inputs from the fixed official source commit, converted using the original input-only SyGuS1-to-2 parser/serializer. Frozen hidden files retain original identifiers and only change filenames; historical alpha-renaming is excluded. No solution files or solver answer checking functions are downloaded or used.",
+  "source_commit": "13c8deb68a873635879c9a69bc78caebd340f646",
+  "sources": [
+    {
+      "id": "sygus-judging-ex001.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_array_search_15.sl",
+      "bytes": 6059,
+      "sha256": "daf3884f8dd16af4fb7e9a312d632c0a09c8f43e268c95e3c6f7704cc9443afa"
+    },
+    {
+      "id": "sygus-judging-ex002.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_array_search_3.sl",
+      "bytes": 549,
+      "sha256": "d92c892bf4854a50f07ef28cf9c80d9703618b59ae34818ee5dbf49d14a586ca"
+    },
+    {
+      "id": "sygus-judging-ex003.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_array_sum_6_5.sl",
+      "bytes": 1011,
+      "sha256": "a11fdfe03aee00e42cc3e9916f2882f990423cf296584fa7d34b8a7fba5f1ee1"
+    },
+    {
+      "id": "sygus-judging-ex004.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_array_sum_8_5.sl",
+      "bytes": 1570,
+      "sha256": "d0a8935d162b99c3514ea78fa5342805d015d919e9fff2cc718af032a01d89a7"
+    },
+    {
+      "id": "sygus-judging-ex005.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_max5.sl",
+      "bytes": 541,
+      "sha256": "50fe513be391120dc491e3a07b6494e44cf725f1bc12543c4cf2467079a98c19"
+    },
+    {
+      "id": "sygus-judging-ex006.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_max9.sl",
+      "bytes": 1263,
+      "sha256": "7345332ff7f60e02de11a42d893f271b40e6a5c503a144aa05ec4182b421757a"
+    },
+    {
+      "id": "sygus-judging-ex007.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_ninefuncs.sl",
+      "bytes": 802,
+      "sha256": "5eeeaf5137f4d67d5db4d79c13dcf0e60e2d8d49c02802bfcdf028f3e74aed26"
+    },
+    {
+      "id": "sygus-judging-ex008.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/small.sl",
+      "bytes": 192,
+      "sha256": "4981cba30da37eb8bb7462961b98a96dff68a91dc7b45e34a0ab253f2b8cdd25"
+    },
+    {
+      "id": "sygus-judging-ex009.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/bv-invertibility-conditions/ic_bvslt_bvudiv0.sl",
+      "bytes": 1198,
+      "sha256": "01ae3e9dd120ee7e4cbf4c72b183e3ea2e14d955305f3c10e7de21a8493221c8"
+    },
+    {
+      "id": "sygus-judging-ex010.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/cegist-cav18/other/t4.sl",
+      "bytes": 2835,
+      "sha256": "13bb328a1a1ff38573ef10448a09723d4838e2f26f62530471d2f78071a143c4"
+    },
+    {
+      "id": "sygus-judging-ex011.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/CrCi/CrCy_10-sbox2-D5-sIn82.sl",
+      "bytes": 917,
+      "sha256": "e11ac9feb397377e5f546a71b8de3e9821debfa567a8732dd47d6b340fd0429a"
+    },
+    {
+      "id": "sygus-judging-ex012.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/hd-pareto/hd-07-d5-prog-prob_0.sl",
+      "bytes": 584,
+      "sha256": "069217b9e0ff8aae3c008c2719592ddf8d4a2f5ad3d50a682dd0fc4a95745ca3"
+    },
+    {
+      "id": "sygus-judging-ex013.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/hd-pareto/hd-07-d5-sort_1.sl",
+      "bytes": 792,
+      "sha256": "4b3f8dfab58060f7f9db7a1db3a12f9ee158eac9a999ffb0ae4c3affcd0ec960"
+    },
+    {
+      "id": "sygus-judging-ex014.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/inv_gen_ex7.sl",
+      "bytes": 1608,
+      "sha256": "288b8076574832e0436e61a12fdc173f8f17259d789e7d4ded670cf3b7d105fa"
+    },
+    {
+      "id": "sygus-judging-ex015.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/inv_gen_term3.sl",
+      "bytes": 1461,
+      "sha256": "55fdbeec6f6e40ade82e6d1537d88104c21f32bf5fa683afc8028676a6149d5e"
+    },
+    {
+      "id": "sygus-judging-ex016.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/max3.sl",
+      "bytes": 550,
+      "sha256": "cab1988afb23cc682069a7f1f9b68219980363c72074f1f212fad31ab53fbe85"
+    },
+    {
+      "id": "sygus-judging-ex017.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/mpg_guard1.sl",
+      "bytes": 2002,
+      "sha256": "5477aa730d61e9ac9cf387c4051c942a2718b7609fd108c2e9c91a4cb76af976"
+    },
+    {
+      "id": "sygus-judging-ex018.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/mpg_guard2.sl",
+      "bytes": 2004,
+      "sha256": "a8426afa03d79914b429a2bb8207bad8107a5ab7af2f1a56d1490c5b57b9e0c1"
+    },
+    {
+      "id": "sygus-judging-ex019.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/qm_loop_2.sl",
+      "bytes": 364,
+      "sha256": "2d6d73bb408104b638523d329c4ce0fe243207e2c4cbda3a79b164f63bd1a5c0"
+    },
+    {
+      "id": "sygus-judging-ex020.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/unbdd_inv_gen_sum3.sl",
+      "bytes": 1506,
+      "sha256": "717477a8a33d6036d38f2b792b5e5b7cc6621395645df7c7223d3e526196f042"
+    },
+    {
+      "id": "sygus-judging-ex021.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/woosuk/sygus_iter_101_1.sl",
+      "bytes": 1099,
+      "sha256": "2fc2e2d905b923946b1c7e8e3d15338ac7f2c5d85282d50ed95f37fcc79d0215"
+    },
+    {
+      "id": "sygus-judging-ex022.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/woosuk/sygus_iter_39_1.sl",
+      "bytes": 1321,
+      "sha256": "f6d200a2d4c5900e6fdde1661afb8df31a7d23fc93054f0120ebd266bc709161"
+    },
+    {
+      "id": "sygus-judging-ex023.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/From2018/gsv2008_true-unreach-call_true-termination.sl",
+      "bytes": 437,
+      "sha256": "9d6f17c1b070b5b17b275c414bab38187fa6a9aa69087f8fcb545454714997a0"
+    },
+    {
+      "id": "sygus-judging-ex024.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/Lustre/car_6.lus.sl",
+      "bytes": 11522,
+      "sha256": "5c5f1f3fa1bfb4b02bc0565bbd41d6b33deb385bade64dce0d05386309e4b594"
+    },
+    {
+      "id": "sygus-judging-ex025.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/124_conf1.sl",
+      "bytes": 2615,
+      "sha256": "b4f06b2dc83d316bb064796790fa403dcc23ac751bc1d0bd7ebed1d7b454ff53"
+    },
+    {
+      "id": "sygus-judging-ex026.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/16_conf5.sl",
+      "bytes": 4818,
+      "sha256": "3ae1ca693d17feb0e9bb192afc7258b8aa9f787ec973f6c91a51c6611d1743a1"
+    },
+    {
+      "id": "sygus-judging-ex027.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/3_conf5.sl",
+      "bytes": 4591,
+      "sha256": "1907b2987e22bdf6a7934dcd004ed47403549a544e741797d4c49121f1e9063c"
+    },
+    {
+      "id": "sygus-judging-ex028.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/41_conf5.sl",
+      "bytes": 5369,
+      "sha256": "4235dcc3b0c3f8fe983dac5fd906a9627d6b9a202ce0f8e438e2a46d66b22eab"
+    },
+    {
+      "id": "sygus-judging-ex029.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/5_conf5.sl",
+      "bytes": 4950,
+      "sha256": "aeb6c2d5528af8113d364c04f3c059a9009cfd7f1e23e741f68435b2509ecc4a"
+    },
+    {
+      "id": "sygus-judging-ex030.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/63_conf5.sl",
+      "bytes": 3605,
+      "sha256": "58b86f141cbd8ae88fa4ad545e98ff0f893581872d850322f6c9169a1b18e695"
+    },
+    {
+      "id": "sygus-judging-ex031.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/65_conf5.sl",
+      "bytes": 3608,
+      "sha256": "dbc899f5fba4574416c3918532441ba046f7d3ddda20598bcee856b746520d67"
+    },
+    {
+      "id": "sygus-judging-ex032.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/66_conf5.sl",
+      "bytes": 3627,
+      "sha256": "fb9810f5bcb566963b3db4980076c9bfe1f854f440d954c32677bf14ad6bbdd0"
+    },
+    {
+      "id": "sygus-judging-ex033.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/68_conf5.sl",
+      "bytes": 3861,
+      "sha256": "16f555767dc318f49863ed3da843b5be000dce63da8474863f8e9f3b5762c63d"
+    },
+    {
+      "id": "sygus-judging-ex034.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/96_conf1.sl",
+      "bytes": 2717,
+      "sha256": "48913ccfa08500b7bcdab1d019f70118a00b9ce6ef8b3a806d478eb82eca25f5"
+    },
+    {
+      "id": "sygus-judging-ex035.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_103_100.sl",
+      "bytes": 6659,
+      "sha256": "75a78245bdeec84f8f5cf957e8cdb170cd4d70c1f2fd9636b0945e94a68c393a"
+    },
+    {
+      "id": "sygus-judging-ex036.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_104_100.sl",
+      "bytes": 6659,
+      "sha256": "83d71b6ddd2ef457202c8f295c559bb0e0c7c7a3af8c19c61eddcf3df34278fb"
+    },
+    {
+      "id": "sygus-judging-ex037.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_108_1000.sl",
+      "bytes": 59759,
+      "sha256": "b396ee221ca9e6013a518d4895c3ebed161cd7a5b09c57a752cad7585aa59ebb"
+    },
+    {
+      "id": "sygus-judging-ex038.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_123_100.sl",
+      "bytes": 6659,
+      "sha256": "80528aa3bb1d5e4101a1bbdd38390f2b6115d05d0f35ad9baaea968a23c03fab"
+    },
+    {
+      "id": "sygus-judging-ex039.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_141_100.sl",
+      "bytes": 6659,
+      "sha256": "2deba0549d625491efb053f4425db68481d16b5b024d352a6ba16e8b269678e3"
+    },
+    {
+      "id": "sygus-judging-ex040.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_61_1000.sl",
+      "bytes": 59759,
+      "sha256": "222b76b55a3171c9c1ecac9a5e829de2885e6c1343dad6f1f657fb0bc8af9af1"
+    },
+    {
+      "id": "sygus-judging-ex041.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_65_10.sl",
+      "bytes": 1349,
+      "sha256": "a5f71984f451f6900e211513a13e8491bb4d5b4cc8e57db4271ddda2df3d7142"
+    },
+    {
+      "id": "sygus-judging-ex042.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_80_1000.sl",
+      "bytes": 59759,
+      "sha256": "a71af86000a8cdfcb23917675e10dccf34bedd63941419ce836eebdf6fc1ed2c"
+    },
+    {
+      "id": "sygus-judging-ex043.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_83_1000.sl",
+      "bytes": 59759,
+      "sha256": "5b470d6ce22e45b9120538027b97b93591bb320f09ed25afee7a58350168f2b6"
+    },
+    {
+      "id": "sygus-judging-ex044.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_85_10.sl",
+      "bytes": 1349,
+      "sha256": "3aef9e72098ceffd370941a1eee1c4220ee93c39ea8747535b9c0a73530aafd0"
+    },
+    {
+      "id": "sygus-judging-ex045.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_10.11.sl",
+      "bytes": 3237,
+      "sha256": "d7564cefba4c5f8cf748788cfa92d44d2e9c966e574bda100b0ef4bd808db6cf"
+    },
+    {
+      "id": "sygus-judging-ex046.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_12.10.sl",
+      "bytes": 2116,
+      "sha256": "8067fdebee4be6384efd2bbcff2d60807472c517821e7d7f6f1c71767baddec7"
+    },
+    {
+      "id": "sygus-judging-ex047.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_13.18.sl",
+      "bytes": 4948,
+      "sha256": "f32626b80192a7cc491a7ca2f1a1f3f1ce38243cd9587497c4eb9e9643257498"
+    },
+    {
+      "id": "sygus-judging-ex048.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_4.12.sl",
+      "bytes": 2175,
+      "sha256": "01e4695ea97bd1582f65f3e7226421dbb428bfaada8fb0eff22aa7ee07b3f3a1"
+    },
+    {
+      "id": "sygus-judging-ex049.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/28627624_1.sl",
+      "bytes": 829,
+      "sha256": "1e1df644dd8e0728ae0fc38c9b5c6d6db82620fcf526538ae5f2cb6782bc12fe"
+    },
+    {
+      "id": "sygus-judging-ex050.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/cell-equals-one-of-many-things.sl",
+      "bytes": 902,
+      "sha256": "8df5cba528cf7aacc038f630423300fb732b3818a240a15b3551a1267517f5c9"
+    },
+    {
+      "id": "sygus-judging-ex051.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/extract-text-between-parentheses.sl",
+      "bytes": 737,
+      "sha256": "cab5ed613f2665882aa18446f50632c5810a11705c2e0718eb5f6aeab1b31d0d"
+    },
+    {
+      "id": "sygus-judging-ex052.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/replace-one-character-with-another.sl",
+      "bytes": 733,
+      "sha256": "43a7125858a4657a8bf6475103de3a4a6157ff67d354d4aecff5f939f223bf27"
+    },
+    {
+      "id": "sygus-judging-ex053.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/split-text-string-at-specific-character.sl",
+      "bytes": 883,
+      "sha256": "8debc1d00d197c9f143839be9cfab3664ad4a80e5bdcb093961ed37aedb17e0e"
+    },
+    {
+      "id": "sygus-judging-ex054.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/stackoverflow3.sl",
+      "bytes": 829,
+      "sha256": "3d02fdb3e7a6dba57d50620286445ab49dfebe3428a4ac3367885bf28753dca8"
+    },
+    {
+      "id": "sygus-judging-ex055.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/stackoverflow8.sl",
+      "bytes": 752,
+      "sha256": "324ad8288712630f514f38652743c4b91e60fa97a8bc1d4bae16121fdb14cf0f"
+    },
+    {
+      "id": "sygus-judging-ex056.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/stackoverflow9.sl",
+      "bytes": 731,
+      "sha256": "318c61e079aabfdfc75ba57b48c72b2a01f8cda80413207b3b6d049cd7e87246"
+    },
+    {
+      "id": "sygus-judging-ex057.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/from_2018/phone-8.sl",
+      "bytes": 907,
+      "sha256": "e4ff2196803e3482344e2f525b97d3c2e3d27f427598e76406e7e87349f858ea"
+    },
+    {
+      "id": "sygus-judging-ex058.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/from_2018/univ_4-long.sl",
+      "bytes": 2320,
+      "sha256": "a972b0c6570c94e6f9c27ff18ab64f7c1d0480af50a8167b3b05dd77bcddd485"
+    },
+    {
+      "id": "sygus-judging-ex059.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/from_2018/univ_5.sl",
+      "bytes": 1441,
+      "sha256": "6d6f30c3ad65816eff63ca6f9cd8da975446a26985726c4e09f3e942bf06fb4c"
+    },
+    {
+      "id": "sygus-judging-ex060.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/from_2018/univ_6_short.sl",
+      "bytes": 1294,
+      "sha256": "e8dd0a351ea32d18809c6ee38408fc2c85ce97d7ca5d874a4b924594d715cd7b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tests/instances/ex001.sl",
+      "source_id": "sygus-judging-ex001.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex002.sl",
+      "source_id": "sygus-judging-ex002.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex003.sl",
+      "source_id": "sygus-judging-ex003.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex004.sl",
+      "source_id": "sygus-judging-ex004.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex005.sl",
+      "source_id": "sygus-judging-ex005.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex006.sl",
+      "source_id": "sygus-judging-ex006.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex007.sl",
+      "source_id": "sygus-judging-ex007.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex008.sl",
+      "source_id": "sygus-judging-ex008.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex009.sl",
+      "source_id": "sygus-judging-ex009.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex010.sl",
+      "source_id": "sygus-judging-ex010.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex011.sl",
+      "source_id": "sygus-judging-ex011.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex012.sl",
+      "source_id": "sygus-judging-ex012.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex013.sl",
+      "source_id": "sygus-judging-ex013.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex014.sl",
+      "source_id": "sygus-judging-ex014.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex015.sl",
+      "source_id": "sygus-judging-ex015.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex016.sl",
+      "source_id": "sygus-judging-ex016.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex017.sl",
+      "source_id": "sygus-judging-ex017.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex018.sl",
+      "source_id": "sygus-judging-ex018.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex019.sl",
+      "source_id": "sygus-judging-ex019.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex020.sl",
+      "source_id": "sygus-judging-ex020.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex021.sl",
+      "source_id": "sygus-judging-ex021.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex022.sl",
+      "source_id": "sygus-judging-ex022.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex023.sl",
+      "source_id": "sygus-judging-ex023.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex024.sl",
+      "source_id": "sygus-judging-ex024.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex025.sl",
+      "source_id": "sygus-judging-ex025.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex026.sl",
+      "source_id": "sygus-judging-ex026.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex027.sl",
+      "source_id": "sygus-judging-ex027.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex028.sl",
+      "source_id": "sygus-judging-ex028.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex029.sl",
+      "source_id": "sygus-judging-ex029.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex030.sl",
+      "source_id": "sygus-judging-ex030.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex031.sl",
+      "source_id": "sygus-judging-ex031.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex032.sl",
+      "source_id": "sygus-judging-ex032.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex033.sl",
+      "source_id": "sygus-judging-ex033.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex034.sl",
+      "source_id": "sygus-judging-ex034.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex035.sl",
+      "source_id": "sygus-judging-ex035.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex036.sl",
+      "source_id": "sygus-judging-ex036.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex037.sl",
+      "source_id": "sygus-judging-ex037.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex038.sl",
+      "source_id": "sygus-judging-ex038.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex039.sl",
+      "source_id": "sygus-judging-ex039.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex040.sl",
+      "source_id": "sygus-judging-ex040.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex041.sl",
+      "source_id": "sygus-judging-ex041.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex042.sl",
+      "source_id": "sygus-judging-ex042.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex043.sl",
+      "source_id": "sygus-judging-ex043.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex044.sl",
+      "source_id": "sygus-judging-ex044.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex045.sl",
+      "source_id": "sygus-judging-ex045.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex046.sl",
+      "source_id": "sygus-judging-ex046.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex047.sl",
+      "source_id": "sygus-judging-ex047.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex048.sl",
+      "source_id": "sygus-judging-ex048.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex049.sl",
+      "source_id": "sygus-judging-ex049.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex050.sl",
+      "source_id": "sygus-judging-ex050.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex051.sl",
+      "source_id": "sygus-judging-ex051.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex052.sl",
+      "source_id": "sygus-judging-ex052.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex053.sl",
+      "source_id": "sygus-judging-ex053.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex054.sl",
+      "source_id": "sygus-judging-ex054.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex055.sl",
+      "source_id": "sygus-judging-ex055.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex056.sl",
+      "source_id": "sygus-judging-ex056.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex057.sl",
+      "source_id": "sygus-judging-ex057.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex058.sl",
+      "source_id": "sygus-judging-ex058.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex059.sl",
+      "source_id": "sygus-judging-ex059.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "tests/instances/ex060.sl",
+      "source_id": "sygus-judging-ex060.sl",
+      "operation": "sygus_convert"
+    }
+  ],
+  "transform": "assets/data/solver/sygus-comp/transform.py",
+  "transform_sha256": "ce337699924d4cbaab2695dc8935d9528cc3d141c0c8735ed469adc0a8483649",
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py",
+    "assets/data/solver/sygus-comp/transform.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Official benchmark source repository has no explicit redistribution license. Retain existing local reconstruction scope; no public image upload authorized."
+}

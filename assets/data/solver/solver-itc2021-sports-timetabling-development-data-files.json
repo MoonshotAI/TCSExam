@@ -1,0 +1,265 @@
+{
+  "files": [
+    {
+      "path": "app/instances/ITC2021_Early_1.xml",
+      "source_context_path": "app/instances/ITC2021_Early_1.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Early_1.xml",
+      "git_blob": "22b98aa5ccc2cc04538ea842218957d30dac3081",
+      "bytes": 25265,
+      "sha256": "5b8ac3e555f18e0bce16cf7f7d134fa82fa40896f01d64c5e81c58804772231a",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Early_10.xml",
+      "source_context_path": "app/instances/ITC2021_Early_10.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Early_10.xml",
+      "git_blob": "ffab7f7c95b2298863c1fe03e7debb0bd85bd728",
+      "bytes": 177948,
+      "sha256": "6fd378f05fef96bd2220c9776e707874faca31702a7a644aa61a0b0cfaa5d1a1",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Early_14.xml",
+      "source_context_path": "app/instances/ITC2021_Early_14.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Early_14.xml",
+      "git_blob": "3ebcbec2338bf465cb231fece256d7d0f6ff33b5",
+      "bytes": 13667,
+      "sha256": "e508d01e63a43fec00f82261a3332fee703a22f939d57ebbe2e53b3c4250f9a9",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Early_3.xml",
+      "source_context_path": "app/instances/ITC2021_Early_3.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Early_3.xml",
+      "git_blob": "c51d4a4c1d086205a1c66f54f58c982a797c335c",
+      "bytes": 39426,
+      "sha256": "393cb7f09032b6380c1639dafb1543f76953325d74e164ab253a5d9109d3d95d",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Early_4.xml",
+      "source_context_path": "app/instances/ITC2021_Early_4.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Early_4.xml",
+      "git_blob": "a7dae6bc8f738efc51d3ac576bf761093edfc6e0",
+      "bytes": 59221,
+      "sha256": "1f8c43e6d72f5e9ddbc85d3e1366098850b29675e8cc9c1053a086b21a4375d0",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Early_5.xml",
+      "source_context_path": "app/instances/ITC2021_Early_5.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Early_5.xml",
+      "git_blob": "27241b8af6a6885fa44f35b439b42bee039b8fd8",
+      "bytes": 107902,
+      "sha256": "ebb12c33a69f2002cd2b7fe80ba26e75fe7f5428eda53370c115539bfde34a1e",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Early_8.xml",
+      "source_context_path": "app/instances/ITC2021_Early_8.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Early_8.xml",
+      "git_blob": "9507f3dc537213455e9001b8bc787b92e541c110",
+      "bytes": 87318,
+      "sha256": "13336cb976085a9a18e519afd2cf77b6fd44d51fca04f1b318d6dfad4e751f8b",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Early_9.xml",
+      "source_context_path": "app/instances/ITC2021_Early_9.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Early_9.xml",
+      "git_blob": "6b4d660d9f1aea6fb0164eecd7b9fcc225f872b7",
+      "bytes": 23823,
+      "sha256": "25abba70b44e15380a0f0ff56d8f27600c8356918865ccedb3f16ac2469f9ddc",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Late_1.xml",
+      "source_context_path": "app/instances/ITC2021_Late_1.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Late_1.xml",
+      "git_blob": "b2bf8a450c1cfde86d3aa097ac105a436d12e998",
+      "bytes": 142276,
+      "sha256": "aaa46bddf0fb12092ced502d60ea002f2ba929ac363f4cd0d6e208164f495a1a",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Late_10.xml",
+      "source_context_path": "app/instances/ITC2021_Late_10.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Late_10.xml",
+      "git_blob": "a8db6ac214ee918bfcb1c76f2a1e4f9aec5e1c91",
+      "bytes": 174845,
+      "sha256": "15b0f77618b9b857c628f27ca15ab782354b4188a50d5c367b23d7f04f033375",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Late_11.xml",
+      "source_context_path": "app/instances/ITC2021_Late_11.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Late_11.xml",
+      "git_blob": "d7f23e851cfcbb3af47a91e5803f71a65ea9a932",
+      "bytes": 79237,
+      "sha256": "d69c47b101fa97c9ac34fc4868a8c8fae2e777aee8b407935a83fc496f2561ad",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Late_13.xml",
+      "source_context_path": "app/instances/ITC2021_Late_13.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Late_13.xml",
+      "git_blob": "6ebe71da67e73f35ba1ee3218ad900a677298060",
+      "bytes": 57926,
+      "sha256": "f7d03d137cc5e4c9ca7bb3dd8d52614687093a2a7c206b1b25e4de0197dbea96",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Late_3.xml",
+      "source_context_path": "app/instances/ITC2021_Late_3.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Late_3.xml",
+      "git_blob": "6de0fdaf72bb5c1b3ada503e05a57c3246885e79",
+      "bytes": 105253,
+      "sha256": "f6991f3068ea38af46523bc2370590eabaaeed93d984161c4bde116adb0ec353",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Late_4.xml",
+      "source_context_path": "app/instances/ITC2021_Late_4.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Late_4.xml",
+      "git_blob": "085976f67de6dfe4a55bb896f8f95439be3c4115",
+      "bytes": 21370,
+      "sha256": "19be085fdb4ac73bce336e0dcd0531f00304c0f33c21601f965720687f6acc0c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ITC2021_Late_6.xml",
+      "source_context_path": "app/instances/ITC2021_Late_6.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Late_6.xml",
+      "git_blob": "5766b76f4927cd895b34a07e3a8c8cd06f35e3a8",
+      "bytes": 58491,
+      "sha256": "1d51eda6e4fdd07a5a3bacb26ab9e3ca03a01f867a205b2582ad123b055e7288",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Late_9.xml",
+      "source_context_path": "app/instances/ITC2021_Late_9.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Late_9.xml",
+      "git_blob": "e1a0332f483f051faa3e4badba81a45f6ba5ac09",
+      "bytes": 89164,
+      "sha256": "ebe00f203d30dc58fbc5c4e3e9dce4f473e19c75a37acd53721789c0f9af9558",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Middle_1.xml",
+      "source_context_path": "app/instances/ITC2021_Middle_1.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Middle_1.xml",
+      "git_blob": "d0fac433ea383f4c466e86ed70f51020a5b215c9",
+      "bytes": 217418,
+      "sha256": "197f08f01e69ff34005088da42a29dad1798f6058cf604a403a0ed933f5c8f8c",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Middle_10.xml",
+      "source_context_path": "app/instances/ITC2021_Middle_10.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Middle_10.xml",
+      "git_blob": "83f7f7296112fd030c1a5d38980b2e302c12cf95",
+      "bytes": 168034,
+      "sha256": "bb5a889bc772944f300a4b10a3e46ef070f8f958eade77e2d8fdb08644bbfd3d",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Middle_14.xml",
+      "source_context_path": "app/instances/ITC2021_Middle_14.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Middle_14.xml",
+      "git_blob": "84cf788e3e907d51ed5cda7a54ec6558af049701",
+      "bytes": 165582,
+      "sha256": "fcc459d81e74f84d7ed6acc7359265ba349d105b8da7b803c157fe9dfe928bbb",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Middle_15.xml",
+      "source_context_path": "app/instances/ITC2021_Middle_15.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Middle_15.xml",
+      "git_blob": "907fbe12ff253ece0057454d8f78e2bb638add87",
+      "bytes": 36024,
+      "sha256": "1035639407b2dba227e20b5c2459ca4a2146b767a609b14492f22c12e9403091",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Middle_2.xml",
+      "source_context_path": "app/instances/ITC2021_Middle_2.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Middle_2.xml",
+      "git_blob": "f8c2a3c9311f5f2d67ef2d3ce90dcf908c3a5077",
+      "bytes": 263679,
+      "sha256": "a9c1fc5ac63f1e52a217ad59748caca81c18b9874d86f637ebba8d0af24d1ceb",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Middle_4.xml",
+      "source_context_path": "app/instances/ITC2021_Middle_4.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Middle_4.xml",
+      "git_blob": "aaa184861bcb0b1786f31c0fb7e9b5ec4354a69d",
+      "bytes": 39149,
+      "sha256": "a3784c67c0cc56660e6cfe36965be09066d1b738d7282bcd3dd5d56936b929ac",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/ITC2021_Middle_7.xml",
+      "source_context_path": "app/instances/ITC2021_Middle_7.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Middle_7.xml",
+      "git_blob": "50b8dbea7a59f2ceb5353b9a183652cdfb18f807",
+      "bytes": 114048,
+      "sha256": "e102fc559bb5d3d76bbb5ee390972f31efe83eaff63ea906c1ad36c02694cde5",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Middle_8.xml",
+      "source_context_path": "app/instances/ITC2021_Middle_8.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Middle_8.xml",
+      "git_blob": "f9ba700c7c7e1ed92d9764ee0aa90c4c37e16aab",
+      "bytes": 47161,
+      "sha256": "d95210bcaa39df41c242a9191eed39a01dbcdda8728c470be230ca2b514eef3a",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Test1.xml",
+      "source_context_path": "app/instances/ITC2021_Test1.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Test1.xml",
+      "git_blob": "d6949a7a4bf12405f6b6f3ca95a48cd90bf10c9a",
+      "bytes": 7377,
+      "sha256": "9c0af484c2267a86ef1ddbc8dcba3bf8f7731ee93d52b99a69fe7aee599a4f5d",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Test3.xml",
+      "source_context_path": "app/instances/ITC2021_Test3.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Test3.xml",
+      "git_blob": "fe2d3c44700bacd9cf79a7e9efa2885ca3eaf5e0",
+      "bytes": 14429,
+      "sha256": "9ff9ad308d0179a78c6b7700ae1d47df4da677ba59ed36280f679898e58f9470",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Test4.xml",
+      "source_context_path": "app/instances/ITC2021_Test4.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Test4.xml",
+      "git_blob": "cde5c7b1ad02d57e3b5dfd5a1f66d087445b8b12",
+      "bytes": 30050,
+      "sha256": "45da5806595372f8044163b146b9184d17bcd7b4bb049e6bd64ac721062044e9",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Test6.xml",
+      "source_context_path": "app/instances/ITC2021_Test6.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Test6.xml",
+      "git_blob": "3375e31fdd0fa4b5fe72b2aff4bb7515c0c64103",
+      "bytes": 108510,
+      "sha256": "ce00e9853a80f4673f2e21512a1feff069c5922f807e5af51152fd3859e2c1f7",
+      "mode": "0755"
+    },
+    {
+      "path": "app/instances/ITC2021_Test8.xml",
+      "source_context_path": "app/instances/ITC2021_Test8.xml",
+      "source_path": "tasks/solver/online/itc2021-sports-timetabling/environment/app/instances/ITC2021_Test8.xml",
+      "git_blob": "07e6c743c5b2db5e79f7801d81de19281e066f6c",
+      "bytes": 103243,
+      "sha256": "789d54b6265653284cd8f2bc43b201fef35aa8876e6492976ef83931e3edc805",
+      "mode": "0755"
+    }
+  ]
+}

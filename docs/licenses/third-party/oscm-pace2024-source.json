@@ -1,0 +1,105 @@
+{
+  "task_id": "oscm-pace2024",
+  "checked_at": "2026-10-29",
+  "decision_scope": "Source and license evidence for the fixed solver-oscm-pace2024-development-data product: 100 PACE 2024 Exact Track public instances, 60 medium test-set instances and 13 tiny test-set instances. Hidden judging data, solution and precomputed answers, the verifier, development tools, backends, complete development images and historical image layers are outside this record and retain their existing classifications.",
+  "combined_product": {
+    "id": "solver-oscm-pace2024-development-data",
+    "distribution": "local_prepare",
+    "local_prepare_only": true,
+    "public_upload_allowed": false,
+    "derived_image_public_upload_allowed": false,
+    "statement": "100个正式实例没有数据许可；73个测试集实例的MIT许可不扩展到整个合并产品。合并产品和派生镜像只能在本地准备，禁止公开上传。",
+    "license_not_granted_statement": "No CC0 or other data license is asserted for the 100 Exact Track instances. The test-set MIT license does not relicense the combined product or authorize public distribution of a merged or derived image.",
+    "output_files": 173,
+    "output_bytes": 5001663,
+    "manifest": "assets/data/solver/solver-oscm-pace2024-development-data-files.json",
+    "manifest_sha256": "765234f6e1ec8b787995ff72f6c192bcace2934f396fc0aca6add5f2b72c0df6",
+    "content_digest": "sha256:bba74c63a6083b62c5aa74743cfbc0facfa98f870b5d5d3b48a3784fe489ebb7",
+    "notice_file": "docs/licenses/third-party/PACE2024-OSCM-NOTICE.txt",
+    "notice_bytes": 3063,
+    "notice_sha256": "f12c1b873bad90db815c83ea23998301f891fc65bf740f2f11a111e5d3008b4a",
+    "data_image_notice_path": "/licenses/PACE2024-OSCM-NOTICE.txt",
+    "data_image_testsets_mit_path": "/licenses/PACE2024-Testsets-MIT.txt"
+  },
+  "exact_track_public_instances": {
+    "files": 100,
+    "plaintext_bytes": 4793799,
+    "official_page": "https://pacechallenge.org/2024/",
+    "official_properties_page": "https://pacechallenge.org/2024/properties/",
+    "archive_url": "https://pacechallenge.org/2024/exact-public.zip",
+    "archive_bytes": 1013555,
+    "archive_sha256": "2b047d7327691820ab041452ebc77410143af16bd5415fe4c42a16f1894e2e10",
+    "archive_members": "<N>.gr for N=1..100; exactly 100 regular files, no directory entries and no license file",
+    "last_archived_data_commit": "7498dc8f3f35b05236ce0a1189dbc32983d0e89e",
+    "last_archived_data_commit_subject": "Removed duplicate edges from graphs",
+    "last_archived_data_commit_author_and_committer": "Philipp Kindermann",
+    "archived_git_blob": "42d7a3394eb5467e00dded6f8aa7ca1968ec7fb7",
+    "organizers": [
+      "Philipp Kindermann",
+      "Fabian Klute",
+      "Soeren Terziadis"
+    ],
+    "properties_page_families": [
+      "Caterpillar",
+      "Lobster",
+      "Tree",
+      "Star forest",
+      "Treewidth<=3",
+      "Subdivided wheel",
+      "Circular ladder",
+      "Disk intersection",
+      "Planar"
+    ],
+    "family_coverage_limit": "The properties page lists families for many graphs but supplies no complete per-graph author or family table; provenance is not inferred for every graph.",
+    "license_review": {
+      "upstream_data_license": "not provided",
+      "official_page_archive_and_website_repository_reviewed": true,
+      "local_prepare_only": true,
+      "public_upload_allowed": false,
+      "statement": "No license from a paper, verifier, test set, or another PACE year is applied to this archive."
+    },
+    "mapping": "exact-public.zip::<N>.gr -> app/instances/<N>.gr for N=1..100"
+  },
+  "testsets": {
+    "files": 73,
+    "medium_files": 60,
+    "tiny_files": 13,
+    "plaintext_bytes": 207864,
+    "repository": "https://github.com/PhKindermann/Pace2024-Testsets",
+    "commit": "603fd742fd525971cd78d93195d0eca7256056e9",
+    "commit_subject": "Fixed vertex numbers in some of the instances",
+    "archive_url": "https://codeload.github.com/PhKindermann/Pace2024-Testsets/zip/603fd742fd525971cd78d93195d0eca7256056e9",
+    "archive_bytes": 134770,
+    "archive_sha256": "23f30c72bd057c8ecfd7b86e6ed08b7f09c2448407ce1a7cb3d6f83a97209517",
+    "archive_root": "Pace2024-Testsets-603fd742fd525971cd78d93195d0eca7256056e9",
+    "archive_additional_members": "Seven declared directories, the root LICENSE and README.md, and exactly 73 declared upstream .sol members are accepted for validation. Solution files are neither read nor copied into the product.",
+    "license": {
+      "spdx": "MIT",
+      "copyright": "Copyright (c) 2024 PhKindermann",
+      "upstream_root_file": "LICENSE",
+      "bytes": 1069,
+      "sha256": "0d2c12b508572359c08666901c3bf1d510db7ac870e4e105050f9e75ee8b594a",
+      "local_copy": "docs/licenses/third-party/PACE2024-Testsets-MIT.txt",
+      "coverage": "Only the 60 medium and 13 tiny test-set instance files. This MIT license does not cover the 100 Exact Track instances or any other task component."
+    },
+    "mapping": {
+      "medium": "<archive-root>/medium_test_set/instances/<N>.gr -> app/testsets/medium_test_set/instances/<N>.gr for N=1..60",
+      "tiny": "<archive-root>/tiny_test_set/instances/<name>.gr -> app/testsets/tiny_test_set/instances/<name>.gr for the 13 declared names"
+    }
+  },
+  "transform": {
+    "format": "binary member copy from two fixed ZIP archives",
+    "graph_plaintext_changed": false,
+    "newline_or_encoding_transform": false,
+    "recompression": false,
+    "output_mode": "0644",
+    "validation": "Exactly 173 declared outputs; each output path, byte count, SHA-256 and mode must match the retained manifest. Duplicate, path-traversing, undeclared, linked and special archive members are rejected. Directories and upstream-only files must match the explicit recipe declarations."
+  },
+  "verification": {
+    "official_archive_hashes_reviewed": true,
+    "public_upload_performed": false,
+    "hidden_judging_executed": false,
+    "precomputed_answers_used": false,
+    "reference_answers_used": false
+  }
+}

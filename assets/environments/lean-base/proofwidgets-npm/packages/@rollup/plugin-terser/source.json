@@ -1,0 +1,59 @@
+{
+  "author": "Peter Placzek <peter.placzek1996@gmail.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "serialize-javascript": "^6.0.1",
+      "smob": "^1.0.0",
+      "terser": "^5.17.4"
+    },
+    "dev": true,
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "integrity": "sha512-XHeJC5Bgvs8LfukDwWZp7yeqin6ns8RTl2B9avbejt6tZqsqvVoWI7ZTQrcNsfKEDWBTnTxM8nMDkO2IFFbd0A==",
+    "license": "MIT",
+    "peerDependencies": {
+      "rollup": "^2.0.0||^3.0.0||^4.0.0"
+    },
+    "peerDependenciesMeta": {
+      "rollup": {
+        "optional": true
+      }
+    },
+    "resolved": "https://registry.npmjs.org/@rollup/plugin-terser/-/plugin-terser-0.4.4.tgz",
+    "version": "0.4.4"
+  },
+  "lock_path": "node_modules/@rollup/plugin-terser",
+  "name": "@rollup/plugin-terser",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": "The exact npm package metadata expressly declares the listed license. A same-project upstream original full notice supplements the package that omitted a standalone license file. HEAD, where listed, is a current notice lookup and is not presented as a version-matched historical file.",
+  "original_notice_files": [],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 5666,
+    "installed_in_image": false,
+    "integrity": "sha512-XHeJC5Bgvs8LfukDwWZp7yeqin6ns8RTl2B9avbejt6tZqsqvVoWI7ZTQrcNsfKEDWBTnTxM8nMDkO2IFFbd0A==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@rollup/plugin-terser/-/plugin-terser-0.4.4.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "087fc82de5e7c904508ecf5f2c8c24f3df2af501859ceaf1b789f3c7c26b32c9"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": {
+    "bytes": 1151,
+    "installed_file": "notices/supplementary/7b8136f76c483d03597500bfa991aae9be68d4629e1121cbf9b93aa727efe305.txt",
+    "origin": "Supplemental same-project notice; not represented as an original file in the exact npm archive.",
+    "ref": "841a0391c1dd11fed16771a202e6eff97cf4139b",
+    "sha256": "7b8136f76c483d03597500bfa991aae9be68d4629e1121cbf9b93aa727efe305",
+    "text_file": "image-notices/7b8136f76c483d03597500bfa991aae9be68d4629e1121cbf9b93aa727efe305.txt",
+    "url": "https://raw.githubusercontent.com/rollup/plugins/841a0391c1dd11fed16771a202e6eff97cf4139b/LICENSE"
+  },
+  "version": "0.4.4"
+}

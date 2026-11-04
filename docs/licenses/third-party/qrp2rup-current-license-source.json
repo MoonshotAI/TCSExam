@@ -1,0 +1,208 @@
+{
+  "checked": "2026-10-15",
+  "component": "qrp2rup",
+  "adopted_commit": "0b7b9569bd19fdb946e0eb48ef13431635baeced",
+  "author_artifact": {
+    "doi": "10.5281/zenodo.20203771",
+    "record_url": "https://zenodo.org/records/20203771",
+    "record_api": "https://zenodo.org/api/records/20203771",
+    "title": "Supplementary Material for Strong (D)QBF Dependency Schemes via Pure Paths with Applications to Proof Checking",
+    "creators": [
+      "Tomáš Peitl",
+      "Leroy Chew"
+    ],
+    "published": "2026-05-15",
+    "license": "CC-BY-4.0",
+    "download_url": "https://zenodo.org/api/records/20203771/files/sat26-dqrat-check-supplement.zip/content",
+    "bytes": 685182,
+    "md5": "7872335aa908461fd8bca15a86142a7e",
+    "sha256": "2b783f33418b831f1c1b0231bc6f963a6dd913e12aa8326a23ac91ef91b57ec1",
+    "crc_test_passed": true,
+    "source_directory": "sat26-dqrat-check-supplement/qrp2rup-0.0.2rc1/",
+    "internal_qrp2rup_separate_license_found": false
+  },
+  "method": "Full author archive MD5 and ZIP CRC verified; all 23 adopted source/build/documentation files compared. Artifact executable excluded. Two documented changes reproduce the adopted source snapshot byte-for-byte.",
+  "changes": [
+    {
+      "path": "CMakeLists.txt",
+      "description": "Add -Wall and optional STATIC flags; no target or source list changes.",
+      "insert_before": "add_subdirectory(src)",
+      "insert_utf8": "set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} -Wall\")\nif (STATIC)\n\tmessage(STATUS \"static build\")\n\tset(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} -static -static-libgcc -static-libstdc++\")\nendif ()\n\n"
+    },
+    {
+      "path": "src/proof_translator.cc",
+      "description": "Correct two diagnostic strings and one comment; no conditions or statements change.",
+      "replace_all": {
+        "from": "non-tailing",
+        "to": "non-trailing",
+        "occurrences": 3
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "artifact_sha256": "cba246ba2c665fd583dd339a71c034a8f330e32d4e6f55678cb032326d396658",
+      "adopted_sha256": "604377938f37db60d90a04f731be708cc4426e2980c58e821219b19e215af271",
+      "artifact_identical": false,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "README.md",
+      "artifact_sha256": "24780e886d2cc235b6c1e8ea96ec7b84cc778282f36a554d4c8f4f0ec56a17de",
+      "adopted_sha256": "24780e886d2cc235b6c1e8ea96ec7b84cc778282f36a554d4c8f4f0ec56a17de",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "helpers/gchk",
+      "artifact_sha256": "b81a8ef21dd0b1976c49ed8184c2951c8c5b14d836bc21c457aa8b2f07b3a7c6",
+      "adopted_sha256": "b81a8ef21dd0b1976c49ed8184c2951c8c5b14d836bc21c457aa8b2f07b3a7c6",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "helpers/grat-diagnoser.py",
+      "artifact_sha256": "34338121e2df2f931c6edb0a12af7e1c8edf1a5a0f33556aa45a8ca0c0776659",
+      "adopted_sha256": "34338121e2df2f931c6edb0a12af7e1c8edf1a5a0f33556aa45a8ca0c0776659",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "memory_unsigned_int.hh",
+      "artifact_sha256": "997733ee936b2ef7700384f4caed17da4152d392f0dd4a084533032e74905f16",
+      "adopted_sha256": "997733ee936b2ef7700384f4caed17da4152d392f0dd4a084533032e74905f16",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "rfao_node.hh",
+      "artifact_sha256": "e82d0b35e1f28ae9c5bcc9b6bef76261060b636f7729af11aec081f2d4a8e58b",
+      "adopted_sha256": "e82d0b35e1f28ae9c5bcc9b6bef76261060b636f7729af11aec081f2d4a8e58b",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/CMakeLists.txt",
+      "artifact_sha256": "f117dd39e882698131c111a7aa09fb2430d415d6c8f8ae645ff9625a3c57daa5",
+      "adopted_sha256": "f117dd39e882698131c111a7aa09fb2430d415d6c8f8ae645ff9625a3c57daa5",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/aig_circuit.cc",
+      "artifact_sha256": "fe58d32dd05e6650303cc892fba85edbf0d86d9875192951887e1513a487bda0",
+      "adopted_sha256": "fe58d32dd05e6650303cc892fba85edbf0d86d9875192951887e1513a487bda0",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/aig_circuit.hh",
+      "artifact_sha256": "0363a541eb1273dd2022f4d5bc5f02abcd09aa1a3438737632bf0f948fd80698",
+      "adopted_sha256": "0363a541eb1273dd2022f4d5bc5f02abcd09aa1a3438737632bf0f948fd80698",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/circuit.hh",
+      "artifact_sha256": "681bf2d2f1f0fdebbcd32cbb6f7b49dd8afc738d3146d50325995ab71703a5e7",
+      "adopted_sha256": "681bf2d2f1f0fdebbcd32cbb6f7b49dd8afc738d3146d50325995ab71703a5e7",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/clause_writer.cc",
+      "artifact_sha256": "97e5461df6f9d670d50feba0ce587039b1223e05cbc7915b781cb162411815dc",
+      "adopted_sha256": "97e5461df6f9d670d50feba0ce587039b1223e05cbc7915b781cb162411815dc",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/clause_writer.hh",
+      "artifact_sha256": "928c26ac3c11d226daded6f78136283226ae5ffb41ea88fbb2c73761c32326d1",
+      "adopted_sha256": "928c26ac3c11d226daded6f78136283226ae5ffb41ea88fbb2c73761c32326d1",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/cnf_circuit.cc",
+      "artifact_sha256": "703240815d2e495c77683400f0aabbcb1b12b060bebfdd69eb1cff5e621b173e",
+      "adopted_sha256": "703240815d2e495c77683400f0aabbcb1b12b060bebfdd69eb1cff5e621b173e",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/cnf_circuit.hh",
+      "artifact_sha256": "119f8b4d4f0b5f2e2615aeabe63f87204dc04462eb80962957deacc6482ba008",
+      "adopted_sha256": "119f8b4d4f0b5f2e2615aeabe63f87204dc04462eb80962957deacc6482ba008",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/defaults.hh",
+      "artifact_sha256": "600fba89e2fe7280ce622b03c18c1862e80bbc5b81853d57c22643ec9a73c441",
+      "adopted_sha256": "600fba89e2fe7280ce622b03c18c1862e80bbc5b81853d57c22643ec9a73c441",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/grat_manager.cc",
+      "artifact_sha256": "22d4d8de08a251658f5d534333d2e366df0cede225c6ea2635d3df72074135ff",
+      "adopted_sha256": "22d4d8de08a251658f5d534333d2e366df0cede225c6ea2635d3df72074135ff",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/grat_manager.hh",
+      "artifact_sha256": "d1d1dd0e1141dedd7899b305d9dd27d42e173975d9329747d9d1da4e0cba9452",
+      "adopted_sha256": "d1d1dd0e1141dedd7899b305d9dd27d42e173975d9329747d9d1da4e0cba9452",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/io.cc",
+      "artifact_sha256": "b4ada111f4296c4b2ac155c4f2c34f916e5742bcd22b5b1a55aa71d5236afafd",
+      "adopted_sha256": "b4ada111f4296c4b2ac155c4f2c34f916e5742bcd22b5b1a55aa71d5236afafd",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/proof_translator.cc",
+      "artifact_sha256": "8174208b586f24d5c756ab7edf079812cc4f46644e83d1b6cd0700db9081fc62",
+      "adopted_sha256": "a8d155e3f9a1b238043e2ab131b86937d3be4c05ecf12d9b7cb1e80437d8e908",
+      "artifact_identical": false,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/proof_translator.hh",
+      "artifact_sha256": "ad76d53e4f8c02fa3653149e3b312324c00c89fedb2ceb7aa930d466a7eede6c",
+      "adopted_sha256": "ad76d53e4f8c02fa3653149e3b312324c00c89fedb2ceb7aa930d466a7eede6c",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/qrp2rup.cc",
+      "artifact_sha256": "ff4b039963280794cb9a5cf7e1d371a8140f8119e720836a212fb22c3118cb27",
+      "adopted_sha256": "ff4b039963280794cb9a5cf7e1d371a8140f8119e720836a212fb22c3118cb27",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/sorted_query_oracle.hh",
+      "artifact_sha256": "875069ebc83914cb2f7c7def10c64198b67f6f8168d720f27fc8b35df7195e92",
+      "adopted_sha256": "875069ebc83914cb2f7c7def10c64198b67f6f8168d720f27fc8b35df7195e92",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    },
+    {
+      "path": "src/types.hh",
+      "artifact_sha256": "40bd62785c1f5d06a6421a7daec958d9b44ec2705dcb11dd4c37285332384fc6",
+      "adopted_sha256": "40bd62785c1f5d06a6421a7daec958d9b44ec2705dcb11dd4c37285332384fc6",
+      "artifact_identical": true,
+      "reconstructed_identical": true
+    }
+  ],
+  "source_reconstruction_passed": true,
+  "distribution_plan": "Use the CC-BY-4.0 author artifact as source, retain authors/title/DOI/license, and document the two changes. All other bundled components retain their separate licenses.",
+  "remaining": "Connect this licensed source and notices to the public build. No binary build, execution, scoring comparison or task change performed."
+}

@@ -1,0 +1,31 @@
+{
+  "actual_candidate_head": "57d3325be72a842920813bcb40f96a6f7393c185",
+  "checked": "2026-10-29",
+  "commit": "57d3325be72a842920813bcb40f96a6f7393c185",
+  "commit_url": "https://github.com/leanprover-community/aesop/commit/57d3325be72a842920813bcb40f96a6f7393c185",
+  "independent_notice": {
+    "non_notice_copyright_files": [],
+    "present": false,
+    "status": "no_independent_notice_found",
+    "tree_api": "https://api.github.com/repos/leanprover-community/aesop/git/trees/57d3325be72a842920813bcb40f96a6f7393c185?recursive=1",
+    "tree_entries": 285,
+    "tree_http_status": 200,
+    "tree_truncated": false
+  },
+  "installed_license": "LICENSE",
+  "license": {
+    "bytes": 11357,
+    "http_status": 200,
+    "id": "Apache-2.0",
+    "local_content_matches_fixed_upstream": true,
+    "local_file": "aesop-LICENSE.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "url": "https://raw.githubusercontent.com/leanprover-community/aesop/57d3325be72a842920813bcb40f96a6f7393c185/LICENSE"
+  },
+  "name": "aesop",
+  "repository": "https://github.com/leanprover-community/aesop",
+  "schema_version": 1,
+  "source_archive_content_independently_verified": false,
+  "source_archive_http_status": 200,
+  "source_archive_url": "https://github.com/leanprover-community/aesop/archive/57d3325be72a842920813bcb40f96a6f7393c185.tar.gz"
+}

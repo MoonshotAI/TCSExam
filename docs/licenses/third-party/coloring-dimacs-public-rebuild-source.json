@@ -1,0 +1,10 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "coloring-dimacs",
+  "upstream_mirror": "https://github.com/Cyril-Grelier/gc_instances",
+  "commit": "68e2563a82af68a42ef2ce397317d80b78a5b2a1",
+  "scope": "Exactly 72 hidden DIMACS graphs. Saved full vertex permutations, original parsing and canonical serialization produce the frozen file bytes; no coloring or score files downloaded.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Original benchmark terms are retained. The graph-collection mirror license does not extend redistribution approval over original DIMACS inputs."
+}

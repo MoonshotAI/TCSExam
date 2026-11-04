@@ -1,0 +1,139 @@
+{
+  "files": [
+    {
+      "path": "app/instances/argumentation-framework-synthesis--1645126bc049f932.wcnf",
+      "source_context_path": "app/instances/argumentation-framework-synthesis--1645126bc049f932.wcnf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/instances/argumentation-framework-synthesis--1645126bc049f932.wcnf",
+      "git_blob": "69c8a8a41089880bfcc11bdb7d86e794170cdf01",
+      "bytes": 4060562,
+      "sha256": "e63e30bcf07e1456e6dbf92cc95e76229d0858b71a11fb4b81b220533765d16c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/decision-trees--d8f5cdbc2e7d1259.wcnf",
+      "source_context_path": "app/instances/decision-trees--d8f5cdbc2e7d1259.wcnf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/instances/decision-trees--d8f5cdbc2e7d1259.wcnf",
+      "git_blob": "672b41d07be0df725c877183583b2bfa90fbc298",
+      "bytes": 4256490,
+      "sha256": "b48ab00739d098bc7620eeb5028999fd4d19c6ff4baa1b2872e754193b7ed22e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/inductive-logic-programming-minimum-description-length--a04c49fdcfb80a2b.wcnf",
+      "source_context_path": "app/instances/inductive-logic-programming-minimum-description-length--a04c49fdcfb80a2b.wcnf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/instances/inductive-logic-programming-minimum-description-length--a04c49fdcfb80a2b.wcnf",
+      "git_blob": "19fa2daa0fa51899e4f3c9cf56db0f6e3be71e9a",
+      "bytes": 22995227,
+      "sha256": "cd4b0d1ed821ab793a92771b44dce4b35a2bdec9fcd40f9b9bb21559cafde8d0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/interpretable-rule-based-classifiers--d65e49e03a1bef21.wcnf",
+      "source_context_path": "app/instances/interpretable-rule-based-classifiers--d65e49e03a1bef21.wcnf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/instances/interpretable-rule-based-classifiers--d65e49e03a1bef21.wcnf",
+      "git_blob": "38c94e41231c8c6f39b9a01d4a447b5132c5ae65",
+      "bytes": 21047571,
+      "sha256": "2f205be6c372af7ba80b7728e6ee017303af05b59d5b2b7f5e537b1b886b6f93",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/logistics-routing--b1f3bc82f34d8304.wcnf",
+      "source_context_path": "app/instances/logistics-routing--b1f3bc82f34d8304.wcnf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/instances/logistics-routing--b1f3bc82f34d8304.wcnf",
+      "git_blob": "a041430ffcc0fd3673ae94dcf3490c947fb5143a",
+      "bytes": 3007198,
+      "sha256": "84cf64621e77bbb04a94a8df379255f36da5fcff191a2229b2ae0c3bfe36b82e",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/max-realizability-robot-navigation--1d69eb0fbbde8c41.wcnf",
+      "source_context_path": "app/instances/max-realizability-robot-navigation--1d69eb0fbbde8c41.wcnf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/instances/max-realizability-robot-navigation--1d69eb0fbbde8c41.wcnf",
+      "git_blob": "55b6b42f1bfc70c7fadf4ad919662263fb5fe25b",
+      "bytes": 23348028,
+      "sha256": "52c57c2b0693115cb218f6c428fc4a7943a9e7016ef4db30390eadb132692dce",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/maximum-colorful-subtree--aba43574fdcf5980.wcnf",
+      "source_context_path": "app/instances/maximum-colorful-subtree--aba43574fdcf5980.wcnf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/instances/maximum-colorful-subtree--aba43574fdcf5980.wcnf",
+      "git_blob": "1d88f418e4cd66e935a160e8c194bd3c666ebdf4",
+      "bytes": 12339799,
+      "sha256": "989f8cafbda5354dd6cdbf1823e2a3a26c3f341a4696ae24301cd717ffc0c118",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/pareto-optimal-interpretation-synthesis--3332f249f67f78ea.wcnf",
+      "source_context_path": "app/instances/pareto-optimal-interpretation-synthesis--3332f249f67f78ea.wcnf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/instances/pareto-optimal-interpretation-synthesis--3332f249f67f78ea.wcnf",
+      "git_blob": "a509cef68c1ea8a565fc1f3eae649028b2e4000a",
+      "bytes": 765309,
+      "sha256": "913e381b1c2eb907bdb276ca9ace75dc6585b916542c37a2e3df512bdb2e189c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/planning-hplus--ff3edb803a43f49e.wcnf",
+      "source_context_path": "app/instances/planning-hplus--ff3edb803a43f49e.wcnf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/instances/planning-hplus--ff3edb803a43f49e.wcnf",
+      "git_blob": "6796574b896bf0357fa91449a2d4c54d905cae68",
+      "bytes": 47303378,
+      "sha256": "d2ac2a2ad6f6bd3802822d9b9fc5e75e31f619b392f7bfa9f0f5ec555c238e2c",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/railway-timetabling--91d8278936cbdcdd.wcnf",
+      "source_context_path": "app/instances/railway-timetabling--91d8278936cbdcdd.wcnf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/instances/railway-timetabling--91d8278936cbdcdd.wcnf",
+      "git_blob": "bb73a1c77c4552fa704c677235d76a54a41984bd",
+      "bytes": 1952811,
+      "sha256": "2d13ebf8f3e70b8a30095359bb4ae1b38ae21fd07b4da426b313386d4ebd0bd3",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/single-cell-dna-sequencing--ae8b9d05d7e77b28.wcnf",
+      "source_context_path": "app/instances/single-cell-dna-sequencing--ae8b9d05d7e77b28.wcnf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/instances/single-cell-dna-sequencing--ae8b9d05d7e77b28.wcnf",
+      "git_blob": "517d705e26af54b9d41d7ccc044d6413df2406fc",
+      "bytes": 54478521,
+      "sha256": "e07febe7daa884ba7a2f024bc8cf75c9bd36de38f608b1514196efbe6d745dd0",
+      "mode": "0644"
+    },
+    {
+      "path": "app/openwbo/papers/cp14.pdf",
+      "source_context_path": "app/openwbo/papers/cp14.pdf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/openwbo/papers/cp14.pdf",
+      "git_blob": "f1a592a1302746e27aee55da68e400e5c6a326b5",
+      "bytes": 617573,
+      "sha256": "aac3104aa7399f9a3370210906d79ac7fe823f84c12911eeff57df1caf0523ed",
+      "mode": "0644"
+    },
+    {
+      "path": "app/openwbo/papers/mse17.pdf",
+      "source_context_path": "app/openwbo/papers/mse17.pdf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/openwbo/papers/mse17.pdf",
+      "git_blob": "3f61803e83a35e1e8b87ee5980a21609c338167a",
+      "bytes": 85351,
+      "sha256": "8e8a165ddda12c1732f2758ca776bf621b573982102a1e5f0ab3bf137065bd97",
+      "mode": "0644"
+    },
+    {
+      "path": "app/openwbo/papers/sat14.pdf",
+      "source_context_path": "app/openwbo/papers/sat14.pdf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/openwbo/papers/sat14.pdf",
+      "git_blob": "65cc2060b23fd4d640a5787f4fe0059442328510",
+      "bytes": 153239,
+      "sha256": "53866a00eb9bd2ab303ea5902163319c15247218e1f2a8cccb4e4e38208f6a07",
+      "mode": "0644"
+    },
+    {
+      "path": "app/openwbo/papers/sat15.pdf",
+      "source_context_path": "app/openwbo/papers/sat15.pdf",
+      "source_path": "tasks/solver/online/maxsat-mse/environment/app/openwbo/papers/sat15.pdf",
+      "git_blob": "e9b00ea4ae4f086791f6d1aadc3e5e097fc0bca7",
+      "bytes": 564066,
+      "sha256": "d8a3910e4a6eaea3b2ac1ff2199bd8e625702b8cbc3e03b800166a47f534e6ce",
+      "mode": "0644"
+    }
+  ]
+}

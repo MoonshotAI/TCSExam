@@ -1,0 +1,37 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/open-alon-jaeger-tarsi"
+version = "0.1.0"
+description = "Prove or refute the Alon–Jaeger–Tarsi conjecture (prime-field form: every nonsingular matrix over ZMod p, p >= 5 prime, maps some nowhere-zero vector to a nowhere-zero vector) in Lean 4, kernel-verified. Open problem, mains-only: full score for proving or refuting, no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "combinatorics", "finite-fields", "polynomial-method", "alon-jaeger-tarsi", "open-conjecture", "prove-or-refute"]
+
+[metadata]
+family_id = "fam-open-alon-jaeger-tarsi"
+candidate_id = "alon-jaeger-tarsi-conjecture"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute"
+difficulty_explanation = "Open conjecture: the full statement is unresolved mathematics (open for primes p in {5,...,61} and p = 79), so the two main slots are expected to stay unproven; there is no partial credit."
+source_paper = "Alon–Jaeger–Tarsi conjecture (late 1980s; statement as in arXiv:math/0510025); non-prime finite fields settled by Alon–Tarsi 1989; prime fields p > 61, p != 79 settled by Nagy–Pach, arXiv:2107.03956 (2021)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-open-alon-jaeger-tarsi-verifier"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

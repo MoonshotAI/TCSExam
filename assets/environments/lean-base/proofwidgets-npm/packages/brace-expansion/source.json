@@ -1,0 +1,50 @@
+{
+  "author": null,
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "balanced-match": "^4.0.2"
+    },
+    "dev": true,
+    "engines": {
+      "node": "18 || 20 || >=22"
+    },
+    "integrity": "sha512-fy6KJm2RawA5RcHkLa1z/ScpBeA762UF9KmZQxwIbDtRJrgLzM10depAiEQ+CXYcoiqW1/m96OAAoke2nE9EeA==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.3.tgz",
+    "version": "5.0.3"
+  },
+  "lock_path": "node_modules/brace-expansion",
+  "name": "brace-expansion",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1144,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "9c63a23124d68cd30cd316a94a1a0bca34f032786df6df69fc4b5f136bac8d2e",
+      "text_file": "image-notices/9c63a23124d68cd30cd316a94a1a0bca34f032786df6df69fc4b5f136bac8d2e.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 7848,
+    "installed_in_image": false,
+    "integrity": "sha512-fy6KJm2RawA5RcHkLa1z/ScpBeA762UF9KmZQxwIbDtRJrgLzM10depAiEQ+CXYcoiqW1/m96OAAoke2nE9EeA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "9a68b6c86ac8ed8868bd4ae4284b3918c44d6866a65dd9877190cad813268f4f"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "5.0.3"
+}

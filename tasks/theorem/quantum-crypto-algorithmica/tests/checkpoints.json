@@ -1,0 +1,13 @@
+{
+  "main_theorem": "forrelation_pseudorandom",
+  "namespace": "ForrWalk",
+  "checkpoints": [
+    {
+      "name": "forrelation_pseudorandom",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem",
+      "description": "Theorem 10 of KQST23 (arXiv 2212.00879v2): exists K > 0 such that for all n >= 1, for the discrete Forrelation distribution F_n of Definition 8 (f uniform; g(x) independently +-1 with bias trnc(sqrt(eps 2^n) fhat(x)), eps = 1/(100n)), every Boolean C on 2N variables whose +-1-restrictions have level-2 Fourier mass <= t satisfies |E_{F_n}[C] - E_unif[C]| <= K * max(t,1) * ln N / sqrt(N) (see tests/reference/concept-ledger.md)."
+    }
+  ]
+}

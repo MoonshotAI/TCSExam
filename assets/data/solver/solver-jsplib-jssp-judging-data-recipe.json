@@ -1,0 +1,1184 @@
+{
+  "format": "official_files",
+  "description": "Download selected original JSPLib text inputs at a fixed upstream commit. Reproduce project-generated inputs with their original seeds and algorithm, and replay the original job/machine permutations for the hidden split.",
+  "source_commit": "e5e62a01023ff827f658255b793fd1b86e5c1707",
+  "sources": [
+    {
+      "id": "jsplib-abz6",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/AdamsBalasZawack1988/abz6.txt",
+      "bytes": 506,
+      "sha256": "55fd572bceadcc06c9bd5a794e21536e0a659fe9dcc1f0226a7f0682b1ebcf67"
+    },
+    {
+      "id": "jsplib-abz8",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/AdamsBalasZawack1988/abz8.txt",
+      "bytes": 1806,
+      "sha256": "4459e8fbc59c66c19fbee1f1ee7079c23aa74e0c3b50c3ae13b984051f279a35"
+    },
+    {
+      "id": "jsplib-dmu02",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu02.txt",
+      "bytes": 2426,
+      "sha256": "5ce15b59e41c6b20514526264c69259416b104d2d0c6337b6ba84d178c7f92e9"
+    },
+    {
+      "id": "jsplib-dmu07",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu07.txt",
+      "bytes": 3226,
+      "sha256": "1b597a86ce59283b0fdf9b2db46bd65e7418bcd2b3eb5e46c9f182783f965fec"
+    },
+    {
+      "id": "jsplib-dmu12",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu12.txt",
+      "bytes": 3636,
+      "sha256": "818f5360c65a8c9863223bd13f8a34e5412dda97264151822635e815b0510503"
+    },
+    {
+      "id": "jsplib-dmu17",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu17.txt",
+      "bytes": 4836,
+      "sha256": "b736317ed84d8a1319681629cc1d641275b1b847c05c9cb1ef5b46f3c575aa65"
+    },
+    {
+      "id": "jsplib-dmu22",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu22.txt",
+      "bytes": 4846,
+      "sha256": "2b21d8e931bd980c3bd33da6d70b2ea93d54358df07743ebad7a5c03a1125285"
+    },
+    {
+      "id": "jsplib-dmu27",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu27.txt",
+      "bytes": 6446,
+      "sha256": "9c30b6157c71a3afc657c9f48856b8e3ed7ea77bb4f93bfab3ffd35323bb2486"
+    },
+    {
+      "id": "jsplib-dmu32",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu32.txt",
+      "bytes": 6056,
+      "sha256": "6d8b3c53840da8933f7980a75ec7fbb4f64e4301dd213cbfdfaa7d40fc8c1f83"
+    },
+    {
+      "id": "jsplib-dmu37",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu37.txt",
+      "bytes": 8056,
+      "sha256": "bce6bee3fff8c08467dd0a3431d5c2429d4d1f57033448b1b483a07a9d8ca18e"
+    },
+    {
+      "id": "jsplib-dmu41",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu41.txt",
+      "bytes": 2426,
+      "sha256": "2d4836a30bee476e492ecce5effeb3bc30604a3dd9e73b5988ae7a7c2ed229e4"
+    },
+    {
+      "id": "jsplib-dmu44",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu44.txt",
+      "bytes": 2426,
+      "sha256": "1ca3f4fc24b5ac0833b2c5367ce66c2dfbcf96f56f2ed8ac8916b4d38532fd43"
+    },
+    {
+      "id": "jsplib-dmu46",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu46.txt",
+      "bytes": 3226,
+      "sha256": "4509627ce14a719bdf62a71b81c5177cb69fb7c203213d01ff65b5205dabf0a0"
+    },
+    {
+      "id": "jsplib-dmu49",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu49.txt",
+      "bytes": 3226,
+      "sha256": "dc4731ee0cd865237321b5308495b3e5954688ed25d482f004b465227f16d083"
+    },
+    {
+      "id": "jsplib-dmu51",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu51.txt",
+      "bytes": 3636,
+      "sha256": "17d024dd4ada9208672eb18fc56aac968f1c5f00505937e813da15a839fd492a"
+    },
+    {
+      "id": "jsplib-dmu54",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu54.txt",
+      "bytes": 3636,
+      "sha256": "677efe66a51283dda2d710bf5eee2deb776afd70e772b97f3f8ca335d915751b"
+    },
+    {
+      "id": "jsplib-dmu56",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu56.txt",
+      "bytes": 4836,
+      "sha256": "a92c9197d00776ba3048f64f2d317a951efdd7656d6622e6dad347fa44c9c66d"
+    },
+    {
+      "id": "jsplib-dmu59",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu59.txt",
+      "bytes": 4836,
+      "sha256": "0e29338f40e07d7bd267d019420a0d52c2b829b247dd993bc782f3831e435609"
+    },
+    {
+      "id": "jsplib-dmu61",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu61.txt",
+      "bytes": 4846,
+      "sha256": "874dfc3bcba141791e0cebada5999c49cb82adfee680338c844e142dbc15dca0"
+    },
+    {
+      "id": "jsplib-dmu64",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu64.txt",
+      "bytes": 4846,
+      "sha256": "17030d0a88ad7361f5bc2e87cf87945f530f9c42c9b5aad1ce3ccb7218b92725"
+    },
+    {
+      "id": "jsplib-dmu66",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu66.txt",
+      "bytes": 6446,
+      "sha256": "279d1a0339f01f08f4e2e71d3bf02c37bff797aeaeb95383a57be34c796993bd"
+    },
+    {
+      "id": "jsplib-dmu69",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu69.txt",
+      "bytes": 6446,
+      "sha256": "34c9daab4e00fcaf656e6af113db9c6f0a14dad58e647815a63dd5a7f545f88e"
+    },
+    {
+      "id": "jsplib-dmu71",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu71.txt",
+      "bytes": 6056,
+      "sha256": "2f6aedb7647676e93c93c8b25b1d23546e1f6e73841309d50ec280a25a6eebfb"
+    },
+    {
+      "id": "jsplib-dmu74",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu74.txt",
+      "bytes": 6056,
+      "sha256": "3d1dc18011bb2fcc863dc22be52be7fb4933af4970ab82533992533c3b8d347a"
+    },
+    {
+      "id": "jsplib-dmu76",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu76.txt",
+      "bytes": 8056,
+      "sha256": "f62e344eb84edc1f91b9227c7ba4f1af9ffa28cb86e5c5ebc01afa84b22d2ee2"
+    },
+    {
+      "id": "jsplib-dmu79",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/DemirkolMehtaUzsoy1998/dmu79.txt",
+      "bytes": 8056,
+      "sha256": "6fbc7b64aa28474a38f8ab900c35a410b2285494a69dbc6474a25466eefd9346"
+    },
+    {
+      "id": "jsplib-ft10",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/FisherThompson1963/ft10.txt",
+      "bytes": 506,
+      "sha256": "e10bbc52f7a7bb7604bdadfbe322af84fc7726dd9937512b89759e7ac2d9aac3"
+    },
+    {
+      "id": "jsplib-la02",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Lawrence1984/la02.txt",
+      "bytes": 255,
+      "sha256": "d48c8014444bc1a19ba34f9d851838b60732f7760818b404351966496935628f"
+    },
+    {
+      "id": "jsplib-la07",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Lawrence1984/la07.txt",
+      "bytes": 380,
+      "sha256": "720ba32c7f564c7e35f18203ece96b932d56e874522045285209df56a62dd7a7"
+    },
+    {
+      "id": "jsplib-la11",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Lawrence1984/la11.txt",
+      "bytes": 505,
+      "sha256": "2e45755bd10c3b2797f04d3af206ace30e88fac182614103564952ed9decee44"
+    },
+    {
+      "id": "jsplib-la14",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Lawrence1984/la14.txt",
+      "bytes": 505,
+      "sha256": "5b30049a58a15ed1401e1cc763e91fcff4e829a526798ea15c6a8e2f391799ee"
+    },
+    {
+      "id": "jsplib-la16",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Lawrence1984/la16.txt",
+      "bytes": 506,
+      "sha256": "99c2944e82fb9452545e19fdabe18ae5f9f5353984544dce85645bcda0923292"
+    },
+    {
+      "id": "jsplib-la19",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Lawrence1984/la19.txt",
+      "bytes": 506,
+      "sha256": "e5d07493456b5a5efbb68e4d093464b3a33b20352bd3c57018f4511c567c086e"
+    },
+    {
+      "id": "jsplib-la21",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Lawrence1984/la21.txt",
+      "bytes": 756,
+      "sha256": "7f6a8f5fb2ac62790cf893ff6179819728cd102924089b37b110ca61d10844b7"
+    },
+    {
+      "id": "jsplib-la24",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Lawrence1984/la24.txt",
+      "bytes": 756,
+      "sha256": "ae75cbd46bd4218970edc69910253aae0953a85bf1eb9072b80fdf275d31a3fb"
+    },
+    {
+      "id": "jsplib-la27",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Lawrence1984/la27.txt",
+      "bytes": 1006,
+      "sha256": "e3d26a8421924e8701719a05fad16256f37673ad1e7fcc36f283cafac388de8f"
+    },
+    {
+      "id": "jsplib-la31",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Lawrence1984/la31.txt",
+      "bytes": 1506,
+      "sha256": "8034fbbd791bd6f6a760c076346e9181fa2e45352254a4ce9d9c614d675ecce7"
+    },
+    {
+      "id": "jsplib-la34",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Lawrence1984/la34.txt",
+      "bytes": 1506,
+      "sha256": "5f8b01a5cf10eda8977e2fc3e99cbc5d67b03a8bd6e839d5aa0bfa20fc2ea5c3"
+    },
+    {
+      "id": "jsplib-la37",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Lawrence1984/la37.txt",
+      "bytes": 1356,
+      "sha256": "ca0f6dd48433271de6e1e3f1123ecdeedd4f664cff4c414994a04a13c3fc9e00"
+    },
+    {
+      "id": "jsplib-orb02",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/ApplegateCook1991/orb02.txt",
+      "bytes": 506,
+      "sha256": "fd4e45f512f76ffb90617a3b8f3b54c914849f8e57b4f2f2f527866da983c903"
+    },
+    {
+      "id": "jsplib-orb06",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/ApplegateCook1991/orb06.txt",
+      "bytes": 506,
+      "sha256": "6ac4e50cb1ee5ba701f845990ea490150fed6dc6612937178a07565e7e0cc80d"
+    },
+    {
+      "id": "jsplib-orb09",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/ApplegateCook1991/orb09.txt",
+      "bytes": 506,
+      "sha256": "db554d4a4ed94ad9abccf4d3110a722d0f12718ebb128a20d3c04bddb73d1198"
+    },
+    {
+      "id": "jsplib-swv02",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/StorerWuVaccari1992/swv02.txt",
+      "bytes": 1406,
+      "sha256": "950298232696821b98714e15418b7edb2d07123c4840593262374f18cbbd5bc4"
+    },
+    {
+      "id": "jsplib-swv06",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/StorerWuVaccari1992/swv06.txt",
+      "bytes": 2106,
+      "sha256": "d8295fcae2ab658e056ac4f0bb67590dbc434a32966265430e3f3bd97051a0a3"
+    },
+    {
+      "id": "jsplib-swv09",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/StorerWuVaccari1992/swv09.txt",
+      "bytes": 2106,
+      "sha256": "923b4427fbf9b7c21375a0766307444633abaa167dd9f65964caa841314d6b31"
+    },
+    {
+      "id": "jsplib-swv12",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/StorerWuVaccari1992/swv12.txt",
+      "bytes": 3506,
+      "sha256": "7ea4268054561bf2a4ed891e7b4794cf043f0bd7872fe119bd0c2b8a8d2637ca"
+    },
+    {
+      "id": "jsplib-swv16",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/StorerWuVaccari1992/swv16.txt",
+      "bytes": 3506,
+      "sha256": "c78ab351072d1e5e12ffb3841963f0a61583d3ee07aa215cdb03f987d52ef8a6"
+    },
+    {
+      "id": "jsplib-swv19",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/StorerWuVaccari1992/swv19.txt",
+      "bytes": 3506,
+      "sha256": "5e447327b7288acced3911280dae1460f40ce73396e3497a836eeeb42ed6cd36"
+    },
+    {
+      "id": "jsplib-ta02js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta02js.txt",
+      "bytes": 1371,
+      "sha256": "fbaa2020bd8e67526dbdc46670fac4a77bf8d183a4dc61b45759a0c61fdd90bc"
+    },
+    {
+      "id": "jsplib-ta06js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta06js.txt",
+      "bytes": 1371,
+      "sha256": "616bd9ee51e375fe39dbf8c33bc5896a4c2750a7e439b523c632e452ef263447"
+    },
+    {
+      "id": "jsplib-ta09js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta09js.txt",
+      "bytes": 1371,
+      "sha256": "8a25ea98bb24ac37f350df332ce6188c84f22f3ffe2993d64f86371c44211ebc"
+    },
+    {
+      "id": "jsplib-ta12js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta12js.txt",
+      "bytes": 1826,
+      "sha256": "fda8719335ca2d1374400a4934ab2410f59d8ac1db651421d793ad3eba70f9f7"
+    },
+    {
+      "id": "jsplib-ta16js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta16js.txt",
+      "bytes": 1826,
+      "sha256": "2593fabae1a8d6da82d3f39e30aac3f38d29dbf1d1871674a6bb128bd8fccaa1"
+    },
+    {
+      "id": "jsplib-ta19js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta19js.txt",
+      "bytes": 1826,
+      "sha256": "60ffa166caca075f0ecb21be1ba0b9219091c78dc778322f0631cc24ec3461ec"
+    },
+    {
+      "id": "jsplib-ta22js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta22js.txt",
+      "bytes": 2426,
+      "sha256": "6790f54095b75a11c412a9be3f2dc3c84ab47aee1c9c900be5200ed0575610c2"
+    },
+    {
+      "id": "jsplib-ta26js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta26js.txt",
+      "bytes": 2426,
+      "sha256": "9e829603d5a78368539b7a8563bd2c09b8f592331c432fd3f8d443286c06886e"
+    },
+    {
+      "id": "jsplib-ta29js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta29js.txt",
+      "bytes": 2426,
+      "sha256": "c026a17068a374e4b504517904b0e6109905f5dc7c6c648f3aa15ff3df73b1ad"
+    },
+    {
+      "id": "jsplib-ta32js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta32js.txt",
+      "bytes": 2736,
+      "sha256": "5c4fdf2428cee41ea90cc06ba4bbd166227eec892d24019e945ad5002c0e3462"
+    },
+    {
+      "id": "jsplib-ta36js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta36js.txt",
+      "bytes": 2736,
+      "sha256": "294bb611004ee131f1e0f69a4654da43410d200b574e5d5f672130d9165f1a4f"
+    },
+    {
+      "id": "jsplib-ta39js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta39js.txt",
+      "bytes": 2736,
+      "sha256": "59d8138ee7a2b27cd9a52a04354d05ce713de8c01ada79290bb2dd8ac1cbe4df"
+    },
+    {
+      "id": "jsplib-ta42js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta42js.txt",
+      "bytes": 3636,
+      "sha256": "3a57630ad165a449c4716ce6891bf3a1065bbe72f2d5720895a38a71cc618eb5"
+    },
+    {
+      "id": "jsplib-ta46js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta46js.txt",
+      "bytes": 3636,
+      "sha256": "80d82ca8f08a1057291e40f72027822533e59ecc9440f428060b87961a11da9e"
+    },
+    {
+      "id": "jsplib-ta49js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta49js.txt",
+      "bytes": 3636,
+      "sha256": "41532f7b04fe95dea6d7650f5dc7ff72752bc2f32a10050968bf496bbb1a1ebc"
+    },
+    {
+      "id": "jsplib-ta52js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta52js.txt",
+      "bytes": 4556,
+      "sha256": "a4e3f57615a48de12f297005178efa6b61fefc6e27bd21541c2ac08019ebbd3e"
+    },
+    {
+      "id": "jsplib-ta56js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta56js.txt",
+      "bytes": 4556,
+      "sha256": "04a8d9b0823b2f997a93277e8aab4ad2d54374d6a445609166aba40ea1b302a2"
+    },
+    {
+      "id": "jsplib-ta59js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta59js.txt",
+      "bytes": 4556,
+      "sha256": "778487a44de4ddf396be0b00d3b0108f9c9c3b2126ab6cfac1db6df5a7570c2d"
+    },
+    {
+      "id": "jsplib-ta62js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta62js.txt",
+      "bytes": 6056,
+      "sha256": "ae8d14978c6dd15bbad2d8fd4430ad8e7819d9969bec6467c365c32754d1c9de"
+    },
+    {
+      "id": "jsplib-ta66js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta66js.txt",
+      "bytes": 6056,
+      "sha256": "2fc49c4f86d46bd1c71463cb626288140d9a3c078e61d4b02fde7ef41d74b1d1"
+    },
+    {
+      "id": "jsplib-ta69js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta69js.txt",
+      "bytes": 6056,
+      "sha256": "8b17542bfd3adbeb0a51cfd2dfd3b0f336ad987aa37f406db2fd4f943dd854b2"
+    },
+    {
+      "id": "jsplib-ta72js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta72js.txt",
+      "bytes": 12107,
+      "sha256": "5f291f9d6c4da476b3fec04edfa44628b5ba689f87d8657581ebf9dd202d0cc0"
+    },
+    {
+      "id": "jsplib-ta76js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta76js.txt",
+      "bytes": 12107,
+      "sha256": "687e8d2edc8523350d85f601b570d26ae3fac0fab9370c4dddcc31992cda893f"
+    },
+    {
+      "id": "jsplib-ta79js",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/Taillard1993/ta79js.txt",
+      "bytes": 12107,
+      "sha256": "54cba4b032262fd2219307f3982cff4868fb6fceb955b90550beb2f829f0199d"
+    },
+    {
+      "id": "jsplib-tai_10_10_10",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/json/tai_10_10_10.json",
+      "bytes": 6237,
+      "sha256": "ae733b899169f22331fbcd1f65c3c717d2180e92a206d0647c1c28aab74d4cfc"
+    },
+    {
+      "id": "jsplib-tai_10_10_5",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/json/tai_10_10_5.json",
+      "bytes": 6240,
+      "sha256": "5edbd524ed650fc632316666c225c4f18c62ae43359b0f9787397847dd454ce1"
+    },
+    {
+      "id": "jsplib-tai_10_10_8",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/json/tai_10_10_8.json",
+      "bytes": 6242,
+      "sha256": "88dd10e603fcfe8cc05a3774d48e373a6e1af49249eb1dc23dbb7d5bedaf7da4"
+    },
+    {
+      "id": "jsplib-yn3",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/e5e62a01023ff827f658255b793fd1b86e5c1707/jobshop/instances/text/YamadaNakano1992/yn3.txt",
+      "bytes": 2406,
+      "sha256": "8189d5e61c3a4fb083ccfb615346bf59542df6e5c087abe005f09791e28e62b6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tests/instances/ex002.txt",
+      "relabel": true,
+      "source_id": "jsplib-abz6",
+      "operation": "jssp_relabel",
+      "official_stem": "abz6",
+      "transform_params_sha256": "b22c04f1705609bcab8c53ff0cf1b721c725ad6c678443588f1b8df9b7d8f61a"
+    },
+    {
+      "path": "tests/instances/ex004.txt",
+      "relabel": true,
+      "source_id": "jsplib-abz8",
+      "operation": "jssp_relabel",
+      "official_stem": "abz8",
+      "transform_params_sha256": "278bff9860e2005c60d1aae9c44959fca0bdba066672cf6d8dbd95aaa6174070"
+    },
+    {
+      "path": "tests/instances/ex007.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu02",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu02",
+      "transform_params_sha256": "d2749faec1a0b30909374aa8ad0691e035fb2641b1b03e3eb2618310811594c1"
+    },
+    {
+      "path": "tests/instances/ex012.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu07",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu07",
+      "transform_params_sha256": "a89c327261fa79d54357573bea829bdb1326b2e8629780df3fdfeca2a8e65e79"
+    },
+    {
+      "path": "tests/instances/ex017.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu12",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu12",
+      "transform_params_sha256": "89bae0ce6dcbcf1bd8ae24a65df290635199c0fe9091c794efa364c5ebdf7aab"
+    },
+    {
+      "path": "tests/instances/ex022.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu17",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu17",
+      "transform_params_sha256": "7b1f8f517e4b93db5acbe1e2fa7dba2e9768f793760c9b708fbe55ceca532d89"
+    },
+    {
+      "path": "tests/instances/ex027.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu22",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu22",
+      "transform_params_sha256": "de0992a2e91419726dadfac39a86918b24c0efdefed405b315f955b7ac982099"
+    },
+    {
+      "path": "tests/instances/ex032.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu27",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu27",
+      "transform_params_sha256": "d1fbb34e006d053a68ab33f01273704643bf4d64ca788bfd034f23c9445c18a8"
+    },
+    {
+      "path": "tests/instances/ex037.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu32",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu32",
+      "transform_params_sha256": "04197c60f6c8e285035e1a445066681752f7354f39146cdffd02e596555f7a0e"
+    },
+    {
+      "path": "tests/instances/ex042.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu37",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu37",
+      "transform_params_sha256": "b84ee53d4c902a3ca88ff6ec42cc839683136831d3a9903836f5f7b00a0929d8"
+    },
+    {
+      "path": "tests/instances/ex046.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu41",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu41",
+      "transform_params_sha256": "4130028d2a1bd63c83ee7446bcefa1a7b4b7756d975d3ce71e12b51510c32121"
+    },
+    {
+      "path": "tests/instances/ex049.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu44",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu44",
+      "transform_params_sha256": "051eeb4cc31aff648483310eef3a23adf024e3830e596bb71d64faa865f9cb07"
+    },
+    {
+      "path": "tests/instances/ex051.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu46",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu46",
+      "transform_params_sha256": "a7539d2acae98fee71ca6144aaaabfebea530a870f3758a5be379f4afd0f4ebd"
+    },
+    {
+      "path": "tests/instances/ex054.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu49",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu49",
+      "transform_params_sha256": "cbaabd06777bfe4bc88d486c39d3628c63262f977d0ae6e9ccb4a9b5baa9ba57"
+    },
+    {
+      "path": "tests/instances/ex056.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu51",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu51",
+      "transform_params_sha256": "6d026b4c65ad5fd0bc29b13f6568bf1632e00644580cf2207837a6df863a06ff"
+    },
+    {
+      "path": "tests/instances/ex059.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu54",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu54",
+      "transform_params_sha256": "11d4ee7dce3c92aa3c9aab6add35c5cc0335a920db7d07ccd36565026b560d5c"
+    },
+    {
+      "path": "tests/instances/ex061.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu56",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu56",
+      "transform_params_sha256": "b69bd5212f3fd892acd9bb7dced0834348d8e2acfa86adb2d546cf95af351366"
+    },
+    {
+      "path": "tests/instances/ex064.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu59",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu59",
+      "transform_params_sha256": "c7437be9ef8e4b3582060d704eb193a007ca1ba1eff3b35e140452a9a69aaf42"
+    },
+    {
+      "path": "tests/instances/ex066.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu61",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu61",
+      "transform_params_sha256": "3fba274dde6c0c4425266d60100b0375519eadc8484810e3db5a8c94f998ccd1"
+    },
+    {
+      "path": "tests/instances/ex069.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu64",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu64",
+      "transform_params_sha256": "fad27d42aa37546635d9ac08e180748e2dbd7d4746eacba3bebf30216d1ba95e"
+    },
+    {
+      "path": "tests/instances/ex071.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu66",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu66",
+      "transform_params_sha256": "909f61a9ff855654c60412a117d3f4919065f99b2f044a4cb6ca5acf52681e11"
+    },
+    {
+      "path": "tests/instances/ex074.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu69",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu69",
+      "transform_params_sha256": "f7001565755751c5575bdc6b37908ee61781e7c31d576f93bc99a7ba34c7fe02"
+    },
+    {
+      "path": "tests/instances/ex076.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu71",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu71",
+      "transform_params_sha256": "4a83eb89714a2a5a79237df13485046210f7db9f24575d44e75a35bf0a030c8c"
+    },
+    {
+      "path": "tests/instances/ex079.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu74",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu74",
+      "transform_params_sha256": "b27454b255d11efe38d47a2e71acf103d83075382835f97109a958d1c1ae1d2a"
+    },
+    {
+      "path": "tests/instances/ex081.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu76",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu76",
+      "transform_params_sha256": "200cd6056ebf17e97c8f8bd54d4ca52c4f142efee856d8b0329cdb31297d90c8"
+    },
+    {
+      "path": "tests/instances/ex084.txt",
+      "relabel": true,
+      "source_id": "jsplib-dmu79",
+      "operation": "jssp_relabel",
+      "official_stem": "dmu79",
+      "transform_params_sha256": "ef91d00a5f677a40eb53885df26fde29db73d5eafa927dbf546fc9864542a384"
+    },
+    {
+      "path": "tests/instances/ex087.txt",
+      "relabel": true,
+      "source_id": "jsplib-ft10",
+      "operation": "jssp_relabel",
+      "official_stem": "ft10",
+      "transform_params_sha256": "78b07e8a902baa9018742ad9549afd86141cbff36772b3b122c862dca2aa7252"
+    },
+    {
+      "path": "tests/instances/ex090.txt",
+      "relabel": true,
+      "operation": "jssp_generate",
+      "family": "dmu",
+      "jobs": 20,
+      "machines": 15,
+      "seed": 502,
+      "official_stem": "gdmu20x15-s502",
+      "transform_params_sha256": "98d651c4064f336b740e033801d1955f946685b7da6e375de532859321815996"
+    },
+    {
+      "path": "tests/instances/ex094.txt",
+      "relabel": true,
+      "operation": "jssp_generate",
+      "family": "dmu",
+      "jobs": 20,
+      "machines": 15,
+      "seed": 506,
+      "official_stem": "gdmu20x15-s506",
+      "transform_params_sha256": "2ed146587b7d13626970b220b13bc78f5a0e9140411f348269a3651e4de571b6"
+    },
+    {
+      "path": "tests/instances/ex098.txt",
+      "relabel": true,
+      "operation": "jssp_generate",
+      "family": "dmu",
+      "jobs": 30,
+      "machines": 20,
+      "seed": 604,
+      "official_stem": "gdmu30x20-s604",
+      "transform_params_sha256": "96494dceaf973cdafa6c75b7ad4ce67be420e38a4618858d290c267abf094f28"
+    },
+    {
+      "path": "tests/instances/ex101.txt",
+      "relabel": true,
+      "operation": "jssp_generate",
+      "family": "dmu",
+      "jobs": 40,
+      "machines": 20,
+      "seed": 803,
+      "official_stem": "gdmu40x20-s803",
+      "transform_params_sha256": "718cc973a84aa1a00e705986ce6080deb9a7cb77662c12c17433d4b38717a624"
+    },
+    {
+      "path": "tests/instances/ex105.txt",
+      "relabel": true,
+      "operation": "jssp_generate",
+      "family": "dmu",
+      "jobs": 50,
+      "machines": 20,
+      "seed": 703,
+      "official_stem": "gdmu50x20-s703",
+      "transform_params_sha256": "ab3456d8bd383c8eecea42baf39052f16a770c80b929bcc348047c8556b1cf8c"
+    },
+    {
+      "path": "tests/instances/ex108.txt",
+      "relabel": true,
+      "operation": "jssp_generate",
+      "family": "ta",
+      "jobs": 20,
+      "machines": 20,
+      "seed": 202,
+      "official_stem": "gta20x20-s202",
+      "transform_params_sha256": "81be7d91a620d7aaae8daa3c3d628feeb53f52c41a0031238766a06dac97c07b"
+    },
+    {
+      "path": "tests/instances/ex111.txt",
+      "relabel": true,
+      "operation": "jssp_generate",
+      "family": "ta",
+      "jobs": 30,
+      "machines": 15,
+      "seed": 301,
+      "official_stem": "gta30x15-s301",
+      "transform_params_sha256": "592211fe096163c675adc0a9f9294f35586b4d54ec12161524c52b5c2d4913bc"
+    },
+    {
+      "path": "tests/instances/ex115.txt",
+      "relabel": true,
+      "operation": "jssp_generate",
+      "family": "ta",
+      "jobs": 30,
+      "machines": 15,
+      "seed": 306,
+      "official_stem": "gta30x15-s306",
+      "transform_params_sha256": "e38321928f7efa13efcfdca5e341c4ba2556e100d2abe7694b9cfff65f736322"
+    },
+    {
+      "path": "tests/instances/ex118.txt",
+      "relabel": true,
+      "operation": "jssp_generate",
+      "family": "ta",
+      "jobs": 30,
+      "machines": 20,
+      "seed": 403,
+      "official_stem": "gta30x20-s403",
+      "transform_params_sha256": "cc68d90d60375579ceea76ba9adc21d66382c0c24611bb332aa588770a1b8b58"
+    },
+    {
+      "path": "tests/instances/ex121.txt",
+      "relabel": true,
+      "source_id": "jsplib-la02",
+      "operation": "jssp_relabel",
+      "official_stem": "la02",
+      "transform_params_sha256": "df91627541efedb01f09c9082b81c3d0fdce01646b3c57a6dcc2d383b119ef13"
+    },
+    {
+      "path": "tests/instances/ex126.txt",
+      "relabel": true,
+      "source_id": "jsplib-la07",
+      "operation": "jssp_relabel",
+      "official_stem": "la07",
+      "transform_params_sha256": "e7d4d270e7edf6b6234d4d7eb829b27a08383b9ec621416ed5eaeba098537400"
+    },
+    {
+      "path": "tests/instances/ex130.txt",
+      "relabel": true,
+      "source_id": "jsplib-la11",
+      "operation": "jssp_relabel",
+      "official_stem": "la11",
+      "transform_params_sha256": "ca103d61f52e57585b01515381229927a220f33107ec5c6e77780edbdd41a8a4"
+    },
+    {
+      "path": "tests/instances/ex133.txt",
+      "relabel": true,
+      "source_id": "jsplib-la14",
+      "operation": "jssp_relabel",
+      "official_stem": "la14",
+      "transform_params_sha256": "fe15096dcf5365d1bcbce21f3cf11567fc9e2dc24ec5f1793478c640df1c6b8e"
+    },
+    {
+      "path": "tests/instances/ex135.txt",
+      "relabel": true,
+      "source_id": "jsplib-la16",
+      "operation": "jssp_relabel",
+      "official_stem": "la16",
+      "transform_params_sha256": "0b828a0b5ddabb5ca1cf0186453093743a2a594ac5009cedd523bc7936932f19"
+    },
+    {
+      "path": "tests/instances/ex138.txt",
+      "relabel": true,
+      "source_id": "jsplib-la19",
+      "operation": "jssp_relabel",
+      "official_stem": "la19",
+      "transform_params_sha256": "697e98a52eefb8145ae797acf4f0d40facbd4a6bff35681daa8eb15c83f30aa4"
+    },
+    {
+      "path": "tests/instances/ex140.txt",
+      "relabel": true,
+      "source_id": "jsplib-la21",
+      "operation": "jssp_relabel",
+      "official_stem": "la21",
+      "transform_params_sha256": "dc37e07255db2e69661f81c6352ab25778c88519086b45bd00ce205f813487f5"
+    },
+    {
+      "path": "tests/instances/ex143.txt",
+      "relabel": true,
+      "source_id": "jsplib-la24",
+      "operation": "jssp_relabel",
+      "official_stem": "la24",
+      "transform_params_sha256": "29e5752f4b3bc82c8f76d60f152c11bf43d4ce6a550b0902123c9d445cb90838"
+    },
+    {
+      "path": "tests/instances/ex146.txt",
+      "relabel": true,
+      "source_id": "jsplib-la27",
+      "operation": "jssp_relabel",
+      "official_stem": "la27",
+      "transform_params_sha256": "635dfa314d78eb5c8cdd4baa01d573b08300d9ac36423aa9d0a3bac234c556b6"
+    },
+    {
+      "path": "tests/instances/ex150.txt",
+      "relabel": true,
+      "source_id": "jsplib-la31",
+      "operation": "jssp_relabel",
+      "official_stem": "la31",
+      "transform_params_sha256": "44fb7a7f5002b4881ecd875e8ce981744bafe26dedafc596ff83fd60a729732a"
+    },
+    {
+      "path": "tests/instances/ex153.txt",
+      "relabel": true,
+      "source_id": "jsplib-la34",
+      "operation": "jssp_relabel",
+      "official_stem": "la34",
+      "transform_params_sha256": "f9c0f8e0009a3126e268ade1fb0b0b14d7f8a63fed7a02bc9dd012a39c6ddc8e"
+    },
+    {
+      "path": "tests/instances/ex156.txt",
+      "relabel": true,
+      "source_id": "jsplib-la37",
+      "operation": "jssp_relabel",
+      "official_stem": "la37",
+      "transform_params_sha256": "096f81f0b385f6c32155b62a8d026afac166e80684d45384ca3326882b901531"
+    },
+    {
+      "path": "tests/instances/ex161.txt",
+      "relabel": true,
+      "source_id": "jsplib-orb02",
+      "operation": "jssp_relabel",
+      "official_stem": "orb02",
+      "transform_params_sha256": "2d2e58ef59d8228899eafb1aa94ddabe1efabb705e8de89e23c29a0b3cfaf694"
+    },
+    {
+      "path": "tests/instances/ex165.txt",
+      "relabel": true,
+      "source_id": "jsplib-orb06",
+      "operation": "jssp_relabel",
+      "official_stem": "orb06",
+      "transform_params_sha256": "ba32109fc91b563dba26d6affebf5da0246a9fd84d712d14a7e9deac9e763206"
+    },
+    {
+      "path": "tests/instances/ex168.txt",
+      "relabel": true,
+      "source_id": "jsplib-orb09",
+      "operation": "jssp_relabel",
+      "official_stem": "orb09",
+      "transform_params_sha256": "6638ff7bfc90936eb0cfdf2a5e03f97ba8fe3f0d9c6f6c6fdb3045a8cd5fa726"
+    },
+    {
+      "path": "tests/instances/ex171.txt",
+      "relabel": true,
+      "source_id": "jsplib-swv02",
+      "operation": "jssp_relabel",
+      "official_stem": "swv02",
+      "transform_params_sha256": "e08c285c5df7af017338b8d41a401582dc1cc52e1a8b8ee60712477ba8c3e1e8"
+    },
+    {
+      "path": "tests/instances/ex175.txt",
+      "relabel": true,
+      "source_id": "jsplib-swv06",
+      "operation": "jssp_relabel",
+      "official_stem": "swv06",
+      "transform_params_sha256": "52ad831de5cc7530e7bc3531322f98342377082ea3f7857979049fae9853693c"
+    },
+    {
+      "path": "tests/instances/ex178.txt",
+      "relabel": true,
+      "source_id": "jsplib-swv09",
+      "operation": "jssp_relabel",
+      "official_stem": "swv09",
+      "transform_params_sha256": "e198a027d9ecd328afeb0cb15657c4cf296f36061ee0c4ecf321f019a083faa8"
+    },
+    {
+      "path": "tests/instances/ex181.txt",
+      "relabel": true,
+      "source_id": "jsplib-swv12",
+      "operation": "jssp_relabel",
+      "official_stem": "swv12",
+      "transform_params_sha256": "415de5d846d743ceea3f12d99c241e8a1435c779f795f4a3820162ffb276e9c9"
+    },
+    {
+      "path": "tests/instances/ex185.txt",
+      "relabel": true,
+      "source_id": "jsplib-swv16",
+      "operation": "jssp_relabel",
+      "official_stem": "swv16",
+      "transform_params_sha256": "a1013037e8cb216791da9ed0feb0a5b9bedf41312c271c6dbb6492fa66fbb685"
+    },
+    {
+      "path": "tests/instances/ex188.txt",
+      "relabel": true,
+      "source_id": "jsplib-swv19",
+      "operation": "jssp_relabel",
+      "official_stem": "swv19",
+      "transform_params_sha256": "423305d01410a9b6a8d4dc53f6739a1b48e8076722e830da5b74f0052abd25a5"
+    },
+    {
+      "path": "tests/instances/ex191.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta02js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta02js",
+      "transform_params_sha256": "9ec994eb04732d94ac981e2da729c07019ea35a9df129975770dd975967c1679"
+    },
+    {
+      "path": "tests/instances/ex195.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta06js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta06js",
+      "transform_params_sha256": "8d2ba3a988b747bb3554398810e8b35c3cab2d389bd7a7d86d3abf80da429e04"
+    },
+    {
+      "path": "tests/instances/ex198.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta09js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta09js",
+      "transform_params_sha256": "9462460ed6b68b8473321f0849e60c75c951c46ce217937571949f2e8c36a963"
+    },
+    {
+      "path": "tests/instances/ex201.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta12js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta12js",
+      "transform_params_sha256": "1dc414554632bd7bdf1d2465ff1100067558c3e9ec3ccba8640d1f2e0b47e35a"
+    },
+    {
+      "path": "tests/instances/ex205.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta16js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta16js",
+      "transform_params_sha256": "0e11c985a4a7f8f49a1232c0550dd6176365e79ee5aecf5a89c51ed8869f3031"
+    },
+    {
+      "path": "tests/instances/ex208.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta19js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta19js",
+      "transform_params_sha256": "7f88ba0f5919353d63a7f1642695babf64424d1c7428549d19b877f1ae6ea856"
+    },
+    {
+      "path": "tests/instances/ex211.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta22js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta22js",
+      "transform_params_sha256": "aaf3a6726af258328b8476e192066930bb8f04059b39370304100f9878d6ba64"
+    },
+    {
+      "path": "tests/instances/ex215.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta26js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta26js",
+      "transform_params_sha256": "053b884e2c6b3474be73dbef306c6f314170c8fe373cab4f46a4293cf214324b"
+    },
+    {
+      "path": "tests/instances/ex218.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta29js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta29js",
+      "transform_params_sha256": "92cdc5f3adf84d603cb055291cd3ba4e0e1189cf3cc0b7d789986ddbdd3bb003"
+    },
+    {
+      "path": "tests/instances/ex221.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta32js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta32js",
+      "transform_params_sha256": "be608fb7fe8ed4b491845d9ae1653c9b99ad7b0018c7b3cf1b81f61b6334cb23"
+    },
+    {
+      "path": "tests/instances/ex225.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta36js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta36js",
+      "transform_params_sha256": "958b0b23ccd4be383935ec3d551f1db6c4db9c88fd939999eeda2426ef7bf292"
+    },
+    {
+      "path": "tests/instances/ex228.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta39js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta39js",
+      "transform_params_sha256": "d65407660bab084417f5bfc2396d5a95aabd892301389945ce18d9b91408b264"
+    },
+    {
+      "path": "tests/instances/ex231.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta42js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta42js",
+      "transform_params_sha256": "a4cf6b7f3d5678db418bc9c295f08e504f598771faf1d549cc270823a01a44b3"
+    },
+    {
+      "path": "tests/instances/ex235.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta46js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta46js",
+      "transform_params_sha256": "530ca54f0fe46af1fcb605bee49644c9ea94738bdc1b26d474a9e4a0a258f494"
+    },
+    {
+      "path": "tests/instances/ex238.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta49js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta49js",
+      "transform_params_sha256": "c2d6a410cb533462cec9f56eafb68c620479e7593261ee65870e6953174125fa"
+    },
+    {
+      "path": "tests/instances/ex241.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta52js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta52js",
+      "transform_params_sha256": "4ca6aec54af2b89a156203e99875c556a1087e0798b273bd8d62109aeb895680"
+    },
+    {
+      "path": "tests/instances/ex245.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta56js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta56js",
+      "transform_params_sha256": "46a6a3ed717e1e0433498cf936ecd38f2086f343e553dd7e78b8557a9e91bfd6"
+    },
+    {
+      "path": "tests/instances/ex248.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta59js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta59js",
+      "transform_params_sha256": "5e89f93cf6d1b46bae9f7d24e321850cd494c9d4547f73a7077824c6454f8b03"
+    },
+    {
+      "path": "tests/instances/ex251.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta62js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta62js",
+      "transform_params_sha256": "3d03a44ff68ebf00cbbb25c64934fbd08f941e483bec23e3011234317a585bcd"
+    },
+    {
+      "path": "tests/instances/ex255.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta66js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta66js",
+      "transform_params_sha256": "13529d1086cd967c5a2d3000710e4dae911b35220141896e933a6c6bf8f7da69"
+    },
+    {
+      "path": "tests/instances/ex258.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta69js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta69js",
+      "transform_params_sha256": "a47925c2ec23221c8dc9f9b197b31bfb773539d1497e9fa4325b3b1e4122974f"
+    },
+    {
+      "path": "tests/instances/ex261.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta72js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta72js",
+      "transform_params_sha256": "92399a831d90822aaac26f8a81677c0a07e58d5909517c9f90d6ed6d7b9bdb25"
+    },
+    {
+      "path": "tests/instances/ex265.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta76js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta76js",
+      "transform_params_sha256": "dabe7dddb6224fbb357701bccc0996e2a2f1970b3e64a362500300adb6eea538"
+    },
+    {
+      "path": "tests/instances/ex268.txt",
+      "relabel": true,
+      "source_id": "jsplib-ta79js",
+      "operation": "jssp_relabel",
+      "official_stem": "ta79js",
+      "transform_params_sha256": "727bb2f6d1d63201b86704299d0dbbc3c8fb4ab992dbb8b31a4a24039706fbb2"
+    },
+    {
+      "path": "tests/instances/ex271.txt",
+      "relabel": true,
+      "source_format": "json",
+      "source_id": "jsplib-tai_10_10_10",
+      "operation": "jssp_relabel",
+      "official_stem": "tai_10_10_10",
+      "transform_params_sha256": "7e741f4e3f9ee9a6ffcceadc407c7c27ee5c77c728422aac3a93b23afbc91cca"
+    },
+    {
+      "path": "tests/instances/ex275.txt",
+      "relabel": true,
+      "source_format": "json",
+      "source_id": "jsplib-tai_10_10_5",
+      "operation": "jssp_relabel",
+      "official_stem": "tai_10_10_5",
+      "transform_params_sha256": "9ca0479d83f942679d8a8c9e8e8b3127aaf4e6b92a2226e7616dac7ac629afc1"
+    },
+    {
+      "path": "tests/instances/ex278.txt",
+      "relabel": true,
+      "source_format": "json",
+      "source_id": "jsplib-tai_10_10_8",
+      "operation": "jssp_relabel",
+      "official_stem": "tai_10_10_8",
+      "transform_params_sha256": "e6fc8c9a3c45459dba00ccaacaf04d0356cdb29803295d7f8a784ed1058c3bf6"
+    },
+    {
+      "path": "tests/instances/ex282.txt",
+      "relabel": true,
+      "source_id": "jsplib-yn3",
+      "operation": "jssp_relabel",
+      "official_stem": "yn3",
+      "transform_params_sha256": "004bbb6a35f7cc982fea1fa46d3d82e470bd470727eb3a60082760d399bdaefe"
+    }
+  ],
+  "transform": "assets/data/solver/jsplib-jssp/transform.py",
+  "transform_sha256": "341089636d077b9e1b1ab6fbf87b00654e91d0f39a5503c4a2976674fb1a7a98",
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py",
+    "assets/data/solver/jsplib-jssp/transform.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "license": "CC-BY-SA-4.0; project-generated inputs retain project terms"
+}

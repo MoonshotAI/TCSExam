@@ -1,0 +1,19 @@
+{
+  "task": "vc-pace2019",
+  "cpus": 1,
+  "memory_mb": 8192,
+  "seconds": 1800,
+  "build_seconds": 600,
+  "check_seconds": 610,
+  "pool": false,
+  "module_dir": "/opt/vc",
+  "disk_mb": 8192,
+  "relative_cpu_indices": true,
+  "outer_timeout_seconds": 19800,
+  "judge_env": {
+    "TESTS_DIR": "/tests"
+  },
+  "instance_count": 100,
+  "budget_source": "Frozen backend environment and original checker preparation script; original scoring enforces the actual budget.",
+  "compressed_preparation": ".xz"
+}

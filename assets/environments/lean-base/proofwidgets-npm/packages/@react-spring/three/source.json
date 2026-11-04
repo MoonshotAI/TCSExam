@@ -1,0 +1,54 @@
+{
+  "author": "Paul Henschel",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "@react-spring/animated": "~9.7.5",
+      "@react-spring/core": "~9.7.5",
+      "@react-spring/shared": "~9.7.5",
+      "@react-spring/types": "~9.7.5"
+    },
+    "integrity": "sha512-RxIsCoQfUqOS3POmhVHa1wdWS0wyHAUway73uRLp3GAL5U2iYVNdnzQsep6M2NZ994BlW8TcKuMtQHUqOsy6WA==",
+    "license": "MIT",
+    "peerDependencies": {
+      "@react-three/fiber": ">=6.0",
+      "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+      "three": ">=0.126"
+    },
+    "resolved": "https://registry.npmjs.org/@react-spring/three/-/three-9.7.5.tgz",
+    "version": "9.7.5"
+  },
+  "lock_path": "node_modules/@react-spring/three",
+  "name": "@react-spring/three",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1110,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+      "text_file": "image-notices/51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 5390,
+    "installed_in_image": false,
+    "integrity": "sha512-RxIsCoQfUqOS3POmhVHa1wdWS0wyHAUway73uRLp3GAL5U2iYVNdnzQsep6M2NZ994BlW8TcKuMtQHUqOsy6WA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@react-spring/three/-/three-9.7.5.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "8277766c4fea1f78dd461ce021e96e76eb28e6eb2ecdbac448bad4203f40bda3"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "9.7.5"
+}

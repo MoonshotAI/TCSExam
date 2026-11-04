@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "task": "tasks/solver/online/radiation-mznchallenge",
+  "remove_paths": [
+    "/tests/instances",
+    "/tests/reference.json",
+    "/tests/anchors.json",
+    "/tests/reference-hidden.json",
+    "/tests/solution"
+  ],
+  "allow_content_paths": [
+    "/judge",
+    "/tests-public",
+    "/public-instances",
+    "/public_reference.json",
+    "/opt/radiation/scoring.py"
+  ],
+  "required_paths": [
+    "/judge/entry.sh",
+    "/judge/judge_worker.py",
+    "/tests-public/checker.py",
+    "/tests-public/reference.json",
+    "/public-instances",
+    "/public_reference.json",
+    "/opt/radiation/scoring.py"
+  ]
+}

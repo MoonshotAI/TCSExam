@@ -1,0 +1,39 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-planar-is-reconfig-kernel-bare-proof"
+version = "0.1.0"
+description = "Prove the BC26 reconfiguration-kernel chain (Lemma 6, Lemma 7, Lemma 16, Construction 13/Proposition 14, Lemma 18, Lemma 4, Theorem 1 of Bousquet-Cranston, STACS 2026 / LIPIcs.STACS.2026.19, arXiv 2506.03319) in Lean 4 (machine-verified). L2: statement fidelity only, no ground truth. [bare variant: main theorem only, 0/1]"
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "independent-set-reconfiguration", "token-jumping", "kernelization", "linear-kernel", "minor-free-graphs", "type-2"]
+
+[metadata]
+family_id = "fam-planar-is-reconfig-kernel"
+candidate_id = "cand-bc26-isr-tj-linear-kernel"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task: the proofs need pigeonhole-driven greedy token moves, branch-set minor constructions, a shortest-transformation analysis with an inductive class-by-class unlocking, and careful cardinality bookkeeping for the trimming construction; no ground truth is provided."
+source_paper = "Nicolas Bousquet, Daniel W. Cranston: A Linear Kernel for Independent Set Reconfiguration in Planar Graphs, STACS 2026 (LIPIcs.STACS.2026.19); long version arXiv 2506.03319."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-theorem-planar-is-reconfig-kernel-verifier"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

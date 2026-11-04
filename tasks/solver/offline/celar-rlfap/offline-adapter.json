@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "online_source": "tasks/solver/online/celar-rlfap",
+  "protocol": "local-docker-final-v1",
+  "readiness": "ready",
+  "preserved_judge_inputs": [
+    {
+      "source": "tasks/solver/online/celar-rlfap/tests/checker.py",
+      "target": "tasks/solver/offline/celar-rlfap/tests/checker.py",
+      "sha256": "af3e4803a06c3f78991053dd492ac0f34cb3caa8577e9df86da7b3177ae130ee"
+    },
+    {
+      "source": "tasks/solver/online/celar-rlfap/tests/reference.json",
+      "target": "tasks/solver/offline/celar-rlfap/tests/reference.json",
+      "sha256": "60016f74a4d936df571cbb5f3d08fbb7e3ac5ed48d0db6ae74ca03455a4525c9"
+    },
+    {
+      "source": "tasks/solver/online/celar-rlfap/tests/anchors.json",
+      "target": "tasks/solver/offline/celar-rlfap/tests/anchors.json",
+      "sha256": "99da7fd844da79b8043b59c7031ec46d33d46de9b7f6d3ee0f4c6a067e15f1cb"
+    },
+    {
+      "source": "tasks/solver/online/celar-rlfap/tests/metric_config.json",
+      "target": "tasks/solver/offline/celar-rlfap/tests/metric_config.json",
+      "sha256": "01a230ea6601467fddc4457beb234ad3517613a670494a3d245d194b11b42f44"
+    }
+  ],
+  "development_dependency": "dev-online-celar-rlfap",
+  "verifier_dependency": "backend-online-celar-rlfap",
+  "runtime": "assets/environments/solver/offline-runtime",
+  "changes": [
+    "Local public self-test guidance replaces the online judging-service protocol.",
+    "Separate Docker workers call the original checker and preparation script.",
+    "Shared time pools retain every instance in one worker.",
+    "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
+  ],
+  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+}

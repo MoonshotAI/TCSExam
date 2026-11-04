@@ -1,0 +1,46 @@
+{
+  "author": "Paul Henschel",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-aqldKgX9aZqpoDp3e8/BZ8Dm7x1pJl+qI3ZKxDN0i/IQTWUwBx/ManmlVJ3wowqbno6c2bmiIfs+Um6LbsjJyQ==",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": ">=17.0"
+    },
+    "resolved": "https://registry.npmjs.org/suspend-react/-/suspend-react-0.1.3.tgz",
+    "version": "0.1.3"
+  },
+  "lock_path": "node_modules/suspend-react",
+  "name": "suspend-react",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1070,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "997e79b828d8b85d6f18730c8dbf58074811360a199506bd84e1263e17c227a2",
+      "text_file": "image-notices/997e79b828d8b85d6f18730c8dbf58074811360a199506bd84e1263e17c227a2.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 4547,
+    "installed_in_image": false,
+    "integrity": "sha512-aqldKgX9aZqpoDp3e8/BZ8Dm7x1pJl+qI3ZKxDN0i/IQTWUwBx/ManmlVJ3wowqbno6c2bmiIfs+Um6LbsjJyQ==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/suspend-react/-/suspend-react-0.1.3.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "0a67f39c28df9da47e13d391b862141104bd1c4dcfec30301ab941a14993d65e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.1.3"
+}

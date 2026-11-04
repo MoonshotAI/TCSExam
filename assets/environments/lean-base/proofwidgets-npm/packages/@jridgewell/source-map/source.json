@@ -1,0 +1,48 @@
+{
+  "author": "Justin Ridgewell <justin@ridgewell.name>",
+  "checked": "2026-10-29",
+  "dev_dependency": true,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "@jridgewell/gen-mapping": "^0.3.5",
+      "@jridgewell/trace-mapping": "^0.3.25"
+    },
+    "dev": true,
+    "integrity": "sha512-ZMp1V8ZFcPG5dIWnQLr3NSI1MiCU7UETdS/A0G8V/XWHvJv3ZsFqutJn1Y5RPmAPX6F3BiE397OqveU/9NCuIA==",
+    "license": "MIT",
+    "resolved": "https://registry.npmjs.org/@jridgewell/source-map/-/source-map-0.3.11.tgz",
+    "version": "0.3.11"
+  },
+  "lock_path": "node_modules/@jridgewell/source-map",
+  "name": "@jridgewell/source-map",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1080,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c",
+      "text_file": "image-notices/769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 7371,
+    "installed_in_image": false,
+    "integrity": "sha512-ZMp1V8ZFcPG5dIWnQLr3NSI1MiCU7UETdS/A0G8V/XWHvJv3ZsFqutJn1Y5RPmAPX6F3BiE397OqveU/9NCuIA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@jridgewell/source-map/-/source-map-0.3.11.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "002115a6e70a202b154333b911f30575aa0164e865a83fb1c766047a579d3ce5"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "0.3.11"
+}

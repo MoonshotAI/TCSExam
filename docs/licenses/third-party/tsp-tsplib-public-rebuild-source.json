@@ -1,0 +1,22 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "tsp-tsplib",
+  "upstream_mirror": "https://github.com/mastqe/tsplib",
+  "commit": "775541365dc3f7f3cd6faa8d0e206036d2c45e0e",
+  "scope": "Exactly61 unchanged public TSPLIB input files plus the original137370-byte reference PDF, and33 hidden city-permuted inputs. Original file hashes and saved full city permutations retained. No tour or score files downloaded.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "TSPLIB original source terms remain unresolved; a public mirror is not treated as a redistribution grant.",
+  "verified_products": {
+    "solver-tsp-tsplib-development-data": {
+      "files": 62,
+      "bytes": 6299121,
+      "method": "Two CPU stages: 61 anonymous original instance hashes, then anonymous reference PDF hash. Passed inputs were not downloaded again."
+    }
+  },
+  "reference_document_source": "https://www.or.uni-bonn.de/lectures/ws17/co_exercises/programming/tsp/tsp95.pdf",
+  "public_input_mirrors": {
+    "mastqe/tsplib": "775541365dc3f7f3cd6faa8d0e206036d2c45e0e",
+    "pdrozdowski/TSPLib.Net": "5cb1449963fa56176c062ff806eb831dcbc07c54"
+  }
+}

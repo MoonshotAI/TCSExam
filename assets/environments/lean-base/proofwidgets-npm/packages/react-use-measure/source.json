@@ -1,0 +1,52 @@
+{
+  "author": "Paul Henschel",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "integrity": "sha512-KrvcAo13I/60HpwGO5jpW7E9DfusKyLPLvuHlUyP5zqnmAPhNc6qTRjUQrdTADl0lpPpDVU2/Gg51UlOGHXbdg==",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": ">=16.13",
+      "react-dom": ">=16.13"
+    },
+    "peerDependenciesMeta": {
+      "react-dom": {
+        "optional": true
+      }
+    },
+    "resolved": "https://registry.npmjs.org/react-use-measure/-/react-use-measure-2.1.7.tgz",
+    "version": "2.1.7"
+  },
+  "lock_path": "node_modules/react-use-measure",
+  "name": "react-use-measure",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1093,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "1f9038eff8dbd6505a26f9d6830cc6da2b87ab1a9305d1100884986e9c11a31a",
+      "text_file": "image-notices/1f9038eff8dbd6505a26f9d6830cc6da2b87ab1a9305d1100884986e9c11a31a.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 8391,
+    "installed_in_image": false,
+    "integrity": "sha512-KrvcAo13I/60HpwGO5jpW7E9DfusKyLPLvuHlUyP5zqnmAPhNc6qTRjUQrdTADl0lpPpDVU2/Gg51UlOGHXbdg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/react-use-measure/-/react-use-measure-2.1.7.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "927e2feef8d1d014b2b45159a2091afd6b41499942a82736a1518cac0e007005"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "2.1.7"
+}

@@ -1,0 +1,12 @@
+{
+  "main_theorem": "dijkstra_universally_optimal",
+  "namespace": "DijkstraUniversal.Digraph",
+  "checkpoints": [
+    {
+      "name": "dijkstra_universally_optimal",
+      "weight": 1,
+      "difficulty": "hard",
+      "role": "main theorem (Theorem 7.4 of arXiv 2311.11793v4 combined with Theorems 6.5/6.6): there is a constant C > 0 such that on every graph with n > 2, Dijkstra traces exist on all non-negative arc lengths, their time is at most C(m + log2 D) and comparisons at most C(F + log2 D), every correct time-model algorithm needs (m + log2 D)/C time on some arc lengths and representation, and every correct comparison tree needs (F - n + 1 + log2 D)/C comparisons on some arc lengths. The Van-Rotenberg-Rutschmann interval-DAG bound (SOSA 2025 Lemma 2.3) is taken as the hypothesis hidag. Each trace records exactly one correctly classified event per outgoing arc, including unsuccessful comparisons and zero-comparison skips to already scanned vertices."
+    }
+  ]
+}

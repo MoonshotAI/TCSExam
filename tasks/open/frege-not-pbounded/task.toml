@@ -1,0 +1,43 @@
+schema_version = "1.4"
+
+# Preserve the final agent workspace before verification, including auxiliary sources.
+artifacts = ["/app"]
+
+[task]
+name = "tcsexam/open-frege-not-pbounded"
+version = "0.1.0"
+description = "Prove or refute in Lean 4 (machine-verified) the conjecture that Frege systems are not polynomially bounded (Cook-Reckhow 1979 programme; Krajicek, Proof Complexity, CUP 2019): for every degree k, some tautology's shortest Frege proof exceeds (size+1)^k symbols — the direct negation of Krajicek's definition of a polynomially bounded proof system. Open problem: no ground truth; the Lean kernel is the judge. A kernel-verified proof of either direction scores 1.0, otherwise 0 — no partial credit."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "proof-complexity", "propositional-proof-systems", "frege", "open-conjecture", "prove-or-refute", "type-2"]
+
+[metadata]
+family_id = "fam-frege-not-pbounded"
+candidate_id = "cand-frege-not-pbounded"
+problem_class = "lean-open-conjecture"
+scaffold_level = "prove-or-refute-v1"
+difficulty_explanation = "Open conjecture (unresolved since Cook-Reckhow 1979; best known Frege size lower bounds are quadratic). Full score needs a kernel-verified proof or disproof of the conjecture itself; there are no checkpoint slots and no partial credit."
+source_paper = "S. Cook, R. Reckhow, On the lengths of proofs in the propositional calculus, J. Symbolic Logic 44(1):36-50, 1979; J. Krajicek, Proof Complexity, Cambridge University Press, 2019. Background check: Wikipedia articles 'Frege system' / 'Propositional proof system' / 'Proof complexity' (fetched 2026-09-06); definition-layer survey proof-circuit.md (historical report not included in this package) (short name frege-not-pbounded)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+network_mode = "public"
+timeout_sec = 43200.0
+
+[environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:961e1b79b5d8a5a5252211468f3077e419825018079da525dbd42930710a6137"
+os = "linux"
+network_mode = "public"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:94b81660a2f8b1aacc7539c01fa8d4a5fa74795ff78ef4993e3aaaab118af5b3"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

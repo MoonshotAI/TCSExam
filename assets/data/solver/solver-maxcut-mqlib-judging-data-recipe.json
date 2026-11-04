@@ -1,0 +1,604 @@
+{
+  "description": "Rebuild the exact frozen MQLib instances from official S3 graph ZIPs; retain original filenames and saved vertex permutations. No random subset renumbering.",
+  "sources": [
+    {
+      "id": "mqlib-graph-G65",
+      "url": "https://mqlibinstances.s3.amazonaws.com/G65.zip",
+      "bytes": 57548,
+      "sha256": "4955c0f446548765db8251a07a0cf544ff7f8f8f8212412762972a457c254a2c"
+    },
+    {
+      "id": "mqlib-graph-G77",
+      "url": "https://mqlibinstances.s3.amazonaws.com/G77.zip",
+      "bytes": 95116,
+      "sha256": "8aedf0c2421ac59b6a7ec34829c392b74fe721464420ccaca1505498a3879309"
+    },
+    {
+      "id": "mqlib-graph-culberson43",
+      "url": "https://mqlibinstances.s3.amazonaws.com/culberson43.zip",
+      "bytes": 47980,
+      "sha256": "16452c2fa1671ac6a3d5077b6db54fc23ca061a0da6157cf40c90da68e4128ed"
+    },
+    {
+      "id": "mqlib-graph-culberson45",
+      "url": "https://mqlibinstances.s3.amazonaws.com/culberson45.zip",
+      "bytes": 148171,
+      "sha256": "af680a7045acd5c813fe0d2713e4e671abad885675f60d28698ddbefc182b803"
+    },
+    {
+      "id": "mqlib-graph-culberson86",
+      "url": "https://mqlibinstances.s3.amazonaws.com/culberson86.zip",
+      "bytes": 142870,
+      "sha256": "d21ab8fdc13d700f14ed3421bd8c42627f45346dd2cb5b542337b5d6dfa95e8f"
+    },
+    {
+      "id": "mqlib-graph-culberson90",
+      "url": "https://mqlibinstances.s3.amazonaws.com/culberson90.zip",
+      "bytes": 38035,
+      "sha256": "751ae7aa9d1f47cb461a9b26edde8437caff791d24066fb85a76aed42219f2ee"
+    },
+    {
+      "id": "mqlib-graph-g000071",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g000071.zip",
+      "bytes": 47987,
+      "sha256": "a96fda06fd498e1e36401b813370950ba6a6578517b8b07aba747c9d94018ca8"
+    },
+    {
+      "id": "mqlib-graph-g000168",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g000168.zip",
+      "bytes": 4818,
+      "sha256": "cd9afc1c8aa6e4aec80921b3ec5fa72e1b498719b244324c4086ca8c51cf383a"
+    },
+    {
+      "id": "mqlib-graph-g000219",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g000219.zip",
+      "bytes": 11653484,
+      "sha256": "91d8a013aead9231aee3ef2c3ea5399453da0886120a3193e7d770ed39bae229"
+    },
+    {
+      "id": "mqlib-graph-g000262",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g000262.zip",
+      "bytes": 24097,
+      "sha256": "00da1fee6d998d5e7dfd35ef8d5b0e3f8c6470bcb14bfe17182446f58ba17d06"
+    },
+    {
+      "id": "mqlib-graph-g000269",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g000269.zip",
+      "bytes": 26295,
+      "sha256": "4ff55897d09d8a5363c78683e6b202a7b21f55f3d332ee9458cc841ca2e198a0"
+    },
+    {
+      "id": "mqlib-graph-g000413",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g000413.zip",
+      "bytes": 16436861,
+      "sha256": "a8fd10de1c166f1b86ad57c78a57f9f33e9a93adc4f0a736642891296b5e4aa9"
+    },
+    {
+      "id": "mqlib-graph-g000481",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g000481.zip",
+      "bytes": 91435,
+      "sha256": "f7014508d10cf6fbd5a98a1fbb02807be10b18a5d27015b78e567bc760753747"
+    },
+    {
+      "id": "mqlib-graph-g000670",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g000670.zip",
+      "bytes": 17972,
+      "sha256": "77e79c106158ee677648e5084256a78459599b59b518029ddb8eae2f47817c0d"
+    },
+    {
+      "id": "mqlib-graph-g000677",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g000677.zip",
+      "bytes": 128566,
+      "sha256": "f2b11147b07874f6df9ab402a510ef805b06e7dce28182f50bd7fafb3eabd13b"
+    },
+    {
+      "id": "mqlib-graph-g000802",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g000802.zip",
+      "bytes": 9659833,
+      "sha256": "e217d37ad72c2da76cf68e9e4ecbef1fa150150aa88357851318f5b4d428102f"
+    },
+    {
+      "id": "mqlib-graph-g000951",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g000951.zip",
+      "bytes": 6616,
+      "sha256": "a9456000c248afc9dd9f6eb231dee910c088dd30236e4fad26c1f84f76ae5b51"
+    },
+    {
+      "id": "mqlib-graph-g001190",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g001190.zip",
+      "bytes": 41700,
+      "sha256": "0c573a1476ec4736cce8aaaba27df2518dec714d2dbc09b9881b577dc8739824"
+    },
+    {
+      "id": "mqlib-graph-g001215",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g001215.zip",
+      "bytes": 5811,
+      "sha256": "01c7bb024016e5a41efa9ea084428885fa9c0c1be1d6cd3a87fffbae9c501204"
+    },
+    {
+      "id": "mqlib-graph-g001237",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g001237.zip",
+      "bytes": 250699,
+      "sha256": "04d7a58ad3de3b28ba116af6dabc5249073315567861ee17d50a36acd927e874"
+    },
+    {
+      "id": "mqlib-graph-g001270",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g001270.zip",
+      "bytes": 7119681,
+      "sha256": "b789001dfb48d898c972c7322b6e2f2295a5276ed0d438f1604af16fff60708d"
+    },
+    {
+      "id": "mqlib-graph-g001457",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g001457.zip",
+      "bytes": 228326,
+      "sha256": "72d6e19565178db0c81c0199486ce36ae78aa1b55ddfe3c526e657027036e516"
+    },
+    {
+      "id": "mqlib-graph-g001550",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g001550.zip",
+      "bytes": 15385,
+      "sha256": "06acfafa555662dedbb012f928b57f601831caf18577901758b05bae57fb75e5"
+    },
+    {
+      "id": "mqlib-graph-g001590",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g001590.zip",
+      "bytes": 4476,
+      "sha256": "279165e81e613dacf1a1ecd563bfdfbdf21623bbb29b580bf12f5bea46122821"
+    },
+    {
+      "id": "mqlib-graph-g001662",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g001662.zip",
+      "bytes": 7748704,
+      "sha256": "c874eb4f72c4969ca81c37e603a329eb36e462a4f7141a129edab3b9493005e8"
+    },
+    {
+      "id": "mqlib-graph-g001789",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g001789.zip",
+      "bytes": 3122,
+      "sha256": "9af54ae0f10ccacfb8e720024c2417bc064b91646672b15271ed836e38321761"
+    },
+    {
+      "id": "mqlib-graph-g001886",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g001886.zip",
+      "bytes": 119863,
+      "sha256": "a0daf4553570ef256619438069497111ae515cd907fb5353f1acbaf595f7b352"
+    },
+    {
+      "id": "mqlib-graph-g001945",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g001945.zip",
+      "bytes": 1286800,
+      "sha256": "69ff5cff1a742dea5ce126344849e458475f562c2ab1ba4658a79cd1e6248242"
+    },
+    {
+      "id": "mqlib-graph-g002032",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002032.zip",
+      "bytes": 21105003,
+      "sha256": "5cc62232b1bb2457068371a76bb457f1f6a0b546e6f5f0bb716ac74a44b2feaa"
+    },
+    {
+      "id": "mqlib-graph-g002119",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002119.zip",
+      "bytes": 3785302,
+      "sha256": "b6e5df520ffdd09be7fbb760691001540c24093406cac0fc9fc652ade109c54d"
+    },
+    {
+      "id": "mqlib-graph-g002121",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002121.zip",
+      "bytes": 1884,
+      "sha256": "6f424f17f0bbd3889c4c1988bc5c7366a65531da399de1932bdd2be057627509"
+    },
+    {
+      "id": "mqlib-graph-g002322",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002322.zip",
+      "bytes": 141644,
+      "sha256": "d692e7a42561f691723ad62619ac7c0b84605d23dc1466acac5f68a615a4076d"
+    },
+    {
+      "id": "mqlib-graph-g002512",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002512.zip",
+      "bytes": 13510988,
+      "sha256": "58dca5623a7d7c29d17b57c007635a8983234be29db22646b60e5752aa4bb34e"
+    },
+    {
+      "id": "mqlib-graph-g002530",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002530.zip",
+      "bytes": 4422,
+      "sha256": "05ae5883ba7fa2375c1d102a910bea10bbc7572f82d36cdb9015ec8c16bff5fb"
+    },
+    {
+      "id": "mqlib-graph-g002564",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002564.zip",
+      "bytes": 1253114,
+      "sha256": "54bdadd9aa111b77f70f21cb1a7ac0b2e4f38f11fdd728396d0ed65d7b5b1ad1"
+    },
+    {
+      "id": "mqlib-graph-g002566",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002566.zip",
+      "bytes": 11298,
+      "sha256": "94a008699e656300c137f89df47904c83785f22f46158b111137e435285ad3b9"
+    },
+    {
+      "id": "mqlib-graph-g002661",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002661.zip",
+      "bytes": 1995905,
+      "sha256": "9ee3647d743095ba9547affeccda6714dd3f7803a01cf32d63f83a067126d3f5"
+    },
+    {
+      "id": "mqlib-graph-g002719",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002719.zip",
+      "bytes": 4904998,
+      "sha256": "e63587492d38886767f16610a6e73c4050526b114a5cda559dcd47fc713c5d2f"
+    },
+    {
+      "id": "mqlib-graph-g002780",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002780.zip",
+      "bytes": 19494311,
+      "sha256": "3b0e45ad322532b8a4a99ed90e1576dfac58044568b12ecaeec7e9851bd0d32c"
+    },
+    {
+      "id": "mqlib-graph-g002812",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002812.zip",
+      "bytes": 5679,
+      "sha256": "395d95c61aedda068a6b52ba3798fdf50ab4d314cc60efef2922273f4e0bb0f5"
+    },
+    {
+      "id": "mqlib-graph-g002877",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g002877.zip",
+      "bytes": 239422,
+      "sha256": "5c8012b1d88cef95d70ea4c677460c095211887086cf2ce6707c3178a4d8f82c"
+    },
+    {
+      "id": "mqlib-graph-g003084",
+      "url": "https://mqlibinstances.s3.amazonaws.com/g003084.zip",
+      "bytes": 285401,
+      "sha256": "49bbb03b6572c44e41d275db841846e1ff488fcaf0ef1f221b8447e7e702487c"
+    },
+    {
+      "id": "mqlib-graph-imgseg_100098",
+      "url": "https://mqlibinstances.s3.amazonaws.com/imgseg_100098.zip",
+      "bytes": 458609,
+      "sha256": "051a9b183d64506b69d207cc7d7e7fdf914a39a63f022605b2bff0ebe499306b"
+    },
+    {
+      "id": "mqlib-graph-imgseg_181091",
+      "url": "https://mqlibinstances.s3.amazonaws.com/imgseg_181091.zip",
+      "bytes": 227771,
+      "sha256": "e5b75009e86e75514a6be82a6cd02c2596ed4298e656bc06a3d33a3ad56d1970"
+    },
+    {
+      "id": "mqlib-graph-imgseg_48055",
+      "url": "https://mqlibinstances.s3.amazonaws.com/imgseg_48055.zip",
+      "bytes": 242578,
+      "sha256": "122819e4b25905d24f6c987d672e06fb5737602ef78ba38ab832be98704a673a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tests/instances/tx001.txt.xz",
+      "source_id": "mqlib-graph-G65",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx001.txt"
+    },
+    {
+      "path": "tests/instances/tx002.txt.xz",
+      "source_id": "mqlib-graph-G77",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx002.txt"
+    },
+    {
+      "path": "tests/instances/tx003.txt.xz",
+      "source_id": "mqlib-graph-culberson43",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx003.txt"
+    },
+    {
+      "path": "tests/instances/tx004.txt.xz",
+      "source_id": "mqlib-graph-culberson45",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx004.txt"
+    },
+    {
+      "path": "tests/instances/tx005.txt.xz",
+      "source_id": "mqlib-graph-culberson86",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx005.txt"
+    },
+    {
+      "path": "tests/instances/tx006.txt.xz",
+      "source_id": "mqlib-graph-culberson90",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx006.txt"
+    },
+    {
+      "path": "tests/instances/tx007.txt.xz",
+      "source_id": "mqlib-graph-g000071",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx007.txt"
+    },
+    {
+      "path": "tests/instances/tx008.txt.xz",
+      "source_id": "mqlib-graph-g000168",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx008.txt"
+    },
+    {
+      "path": "tests/instances/tx009.txt.xz",
+      "source_id": "mqlib-graph-g000219",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx009.txt"
+    },
+    {
+      "path": "tests/instances/tx010.txt.xz",
+      "source_id": "mqlib-graph-g000262",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx010.txt"
+    },
+    {
+      "path": "tests/instances/tx011.txt.xz",
+      "source_id": "mqlib-graph-g000269",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx011.txt"
+    },
+    {
+      "path": "tests/instances/tx012.txt.xz",
+      "source_id": "mqlib-graph-g000413",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx012.txt"
+    },
+    {
+      "path": "tests/instances/tx013.txt.xz",
+      "source_id": "mqlib-graph-g000481",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx013.txt"
+    },
+    {
+      "path": "tests/instances/tx014.txt.xz",
+      "source_id": "mqlib-graph-g000670",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx014.txt"
+    },
+    {
+      "path": "tests/instances/tx015.txt.xz",
+      "source_id": "mqlib-graph-g000677",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx015.txt"
+    },
+    {
+      "path": "tests/instances/tx016.txt.xz",
+      "source_id": "mqlib-graph-g000802",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx016.txt"
+    },
+    {
+      "path": "tests/instances/tx017.txt.xz",
+      "source_id": "mqlib-graph-g000951",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx017.txt"
+    },
+    {
+      "path": "tests/instances/tx018.txt.xz",
+      "source_id": "mqlib-graph-g001190",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx018.txt"
+    },
+    {
+      "path": "tests/instances/tx019.txt.xz",
+      "source_id": "mqlib-graph-g001215",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx019.txt"
+    },
+    {
+      "path": "tests/instances/tx020.txt.xz",
+      "source_id": "mqlib-graph-g001237",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx020.txt"
+    },
+    {
+      "path": "tests/instances/tx021.txt.xz",
+      "source_id": "mqlib-graph-g001270",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx021.txt"
+    },
+    {
+      "path": "tests/instances/tx022.txt.xz",
+      "source_id": "mqlib-graph-g001457",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx022.txt"
+    },
+    {
+      "path": "tests/instances/tx023.txt.xz",
+      "source_id": "mqlib-graph-g001550",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx023.txt"
+    },
+    {
+      "path": "tests/instances/tx024.txt.xz",
+      "source_id": "mqlib-graph-g001590",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx024.txt"
+    },
+    {
+      "path": "tests/instances/tx025.txt.xz",
+      "source_id": "mqlib-graph-g001662",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx025.txt"
+    },
+    {
+      "path": "tests/instances/tx026.txt.xz",
+      "source_id": "mqlib-graph-g001789",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx026.txt"
+    },
+    {
+      "path": "tests/instances/tx027.txt.xz",
+      "source_id": "mqlib-graph-g001886",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx027.txt"
+    },
+    {
+      "path": "tests/instances/tx028.txt.xz",
+      "source_id": "mqlib-graph-g001945",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx028.txt"
+    },
+    {
+      "path": "tests/instances/tx029.txt.xz",
+      "source_id": "mqlib-graph-g002032",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx029.txt"
+    },
+    {
+      "path": "tests/instances/tx030.txt.xz",
+      "source_id": "mqlib-graph-g002119",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx030.txt"
+    },
+    {
+      "path": "tests/instances/tx031.txt.xz",
+      "source_id": "mqlib-graph-g002121",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx031.txt"
+    },
+    {
+      "path": "tests/instances/tx032.txt.xz",
+      "source_id": "mqlib-graph-g002322",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx032.txt"
+    },
+    {
+      "path": "tests/instances/tx033.txt.xz",
+      "source_id": "mqlib-graph-g002512",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx033.txt"
+    },
+    {
+      "path": "tests/instances/tx034.txt.xz",
+      "source_id": "mqlib-graph-g002530",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx034.txt"
+    },
+    {
+      "path": "tests/instances/tx035.txt.xz",
+      "source_id": "mqlib-graph-g002564",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx035.txt"
+    },
+    {
+      "path": "tests/instances/tx036.txt.xz",
+      "source_id": "mqlib-graph-g002566",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx036.txt"
+    },
+    {
+      "path": "tests/instances/tx037.txt.xz",
+      "source_id": "mqlib-graph-g002661",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx037.txt"
+    },
+    {
+      "path": "tests/instances/tx038.txt.xz",
+      "source_id": "mqlib-graph-g002719",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx038.txt"
+    },
+    {
+      "path": "tests/instances/tx039.txt.xz",
+      "source_id": "mqlib-graph-g002780",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx039.txt"
+    },
+    {
+      "path": "tests/instances/tx040.txt.xz",
+      "source_id": "mqlib-graph-g002812",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx040.txt"
+    },
+    {
+      "path": "tests/instances/tx041.txt.xz",
+      "source_id": "mqlib-graph-g002877",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx041.txt"
+    },
+    {
+      "path": "tests/instances/tx042.txt.xz",
+      "source_id": "mqlib-graph-g003084",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx042.txt"
+    },
+    {
+      "path": "tests/instances/tx043.txt.xz",
+      "source_id": "mqlib-graph-imgseg_100098",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx043.txt"
+    },
+    {
+      "path": "tests/instances/tx044.txt.xz",
+      "source_id": "mqlib-graph-imgseg_181091",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx044.txt"
+    },
+    {
+      "path": "tests/instances/tx045.txt.xz",
+      "source_id": "mqlib-graph-imgseg_48055",
+      "kind": "official_graph_zip",
+      "xz_preset": 6,
+      "transform_key": "tx045.txt"
+    }
+  ],
+  "generator_paths": [
+    "src/tcsexam/maxcut_data.py",
+    "assets/data/solver/maxcut-mqlib/transform.py",
+    "assets/data/solver/maxcut-mqlib/transform-manifest.json"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "transform": "assets/data/solver/maxcut-mqlib/transform.py",
+  "transform_manifest": "assets/data/solver/maxcut-mqlib/transform-manifest.json",
+  "transform_sha256": "79c0f0a2235ff912b9d159cac2bf07183312db44775a326af5a46bb31381e7e8",
+  "transform_manifest_sha256": "4ed3c7d7c2294e8b802d665898c7729cd68f7a55110ef2a220b37a1f3475918b",
+  "format": "official_mqlib"
+}

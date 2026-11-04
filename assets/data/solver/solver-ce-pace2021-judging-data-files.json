@@ -1,0 +1,804 @@
+{
+  "files": [
+    {
+      "path": "tests/instances/heur002.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur002.gr.xz",
+      "git_blob": "8bbf71ffe3f14c03ccbd284f361cb81f4bc0109d",
+      "bytes": 5876,
+      "sha256": "62fafd421f9470da974dc1f312717d27416793671c77d9a9ca4b6eb9cb7da714",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur004.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur004.gr.xz",
+      "git_blob": "0948ce990637e398c7e4d771c65a2d801f32e63f",
+      "bytes": 6924,
+      "sha256": "f39eae07962f2a08c4f14910686492e337bc9ff1fa296cc970b3e2286798d885",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur006.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur006.gr.xz",
+      "git_blob": "ddbafc99dcc022f64ea67334f7bc21301d6f0357",
+      "bytes": 12976,
+      "sha256": "4c69447efacccc93aee4ae31d949e83b3781a8a316fa1d7dfb8fcffa24818948",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur008.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur008.gr.xz",
+      "git_blob": "1c0d4ce9b829a4bd5f02f4fd22399db92a750626",
+      "bytes": 1248,
+      "sha256": "413d3133bb2de8eec47f2589359937535bbbc80b8fa72fdc42b8196be7a0dec4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur010.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur010.gr.xz",
+      "git_blob": "4c12c7229c0896521a957560d56f90511450881c",
+      "bytes": 3316,
+      "sha256": "e909c8f70ae6643231cd0537ddc46ec13b550a3245dffe4dda209b44123a30da",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur012.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur012.gr.xz",
+      "git_blob": "9552119f6e9be89c1631ef1b22168e9dd47e6b76",
+      "bytes": 9648,
+      "sha256": "bef76414c97f380b424cc56d4f0dd99d89a357221d9074f2e99e311c0a41e14a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur014.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur014.gr.xz",
+      "git_blob": "52589670ad9ea299510c2e77d1645534ce4cb65f",
+      "bytes": 32764,
+      "sha256": "45c6c5809444a6cb8ec28147523e7d5d2aa6cc95c424a07c9e8b2b60be3f3175",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur016.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur016.gr.xz",
+      "git_blob": "a5efe61fa05861ec5b509bb2b5ff245a7c268f9d",
+      "bytes": 34192,
+      "sha256": "e2d14bffd33de580eae8ed4694789f844c291bc42cceca9daed7e9f4fb8ae79f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur018.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur018.gr.xz",
+      "git_blob": "993890923f46fb6ed6477ba971a301c7269603ea",
+      "bytes": 50436,
+      "sha256": "bbbc79e00241d014446892957893395bbf818322b8fe33286e03ead20300c040",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur020.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur020.gr.xz",
+      "git_blob": "db81ae265832237019bd2e14fde980ff1956f556",
+      "bytes": 6060,
+      "sha256": "cd1b22e47aa2977c235592878e01511faaf0f7834cd64c430374c9e79fd91424",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur022.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur022.gr.xz",
+      "git_blob": "2a0632ead66612c6eeea5694f2f758f7a9588804",
+      "bytes": 10852,
+      "sha256": "1be53a38d285a8389ccfc767e9a0bd2b3c72a7d5a444dca32161be307c9de62d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur024.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur024.gr.xz",
+      "git_blob": "78489c86c59e8888dc5a47867cf0adc32692fdd3",
+      "bytes": 14940,
+      "sha256": "ed6af8618374762bc7d90ed19bdaed0a044bbb7f30e5b1fdf5dfc213883e471a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur026.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur026.gr.xz",
+      "git_blob": "4ad344e8eb280d2680c49a376f018827e44297a1",
+      "bytes": 1660,
+      "sha256": "857604ed3e81c5a8aaee03441e15b69426e2764f6f1fd794870fe3f727ebb191",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur028.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur028.gr.xz",
+      "git_blob": "4dfedfb633b9c2701152b885588156fe540b7237",
+      "bytes": 2732,
+      "sha256": "1d394fb1908748830cad26843865a98826109ab542cf7e70a00e12940c2eb4b9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur030.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur030.gr.xz",
+      "git_blob": "6b8f66e3d03a9b8c7e4d212230df21cef0b549f8",
+      "bytes": 3844,
+      "sha256": "d27a85e57ab9d3601c3487fafcb1a546916cd75bbd7b22612505c6e0d4dc11af",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur032.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur032.gr.xz",
+      "git_blob": "b3b078f0d1346adeb1bb16d29337fd5d9daa5acd",
+      "bytes": 5524,
+      "sha256": "fe78b3737aa4b76c9c9588d5bd0fb351ca2a3f884fa420504b97d1edefbc326b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur034.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur034.gr.xz",
+      "git_blob": "30d3f7c4756334c7f05c929fe6df070ebd27ecbf",
+      "bytes": 6792,
+      "sha256": "63cf054a47783bc522629826473368554c0f40fcf060c6718e0dfaf6fb430deb",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur036.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur036.gr.xz",
+      "git_blob": "65351e4587215754d4ab9fee4ea0f0830c0fe7c1",
+      "bytes": 12256,
+      "sha256": "011e47bac1521516af2bef7d43c6ba3945d7665fe012ee6a32ed112629c5f4f0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur038.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur038.gr.xz",
+      "git_blob": "c7070e3856cba0c12ef9ff8dddc80fac8a8b9c90",
+      "bytes": 6972,
+      "sha256": "e8a780e756005550c3d77c4366fc11677c88aca2dc6d125a9cc21a09ff97714a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur040.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur040.gr.xz",
+      "git_blob": "d637c19ac2d98415c74e11febb2240d61c2b9647",
+      "bytes": 12756,
+      "sha256": "ae2f89c916f109d59c7b5cc5f3975f983f1be7516d181e8517c48052cc3c9caf",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur042.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur042.gr.xz",
+      "git_blob": "c34e1c824fba58f0e7673631ab64eb933436d84b",
+      "bytes": 7664,
+      "sha256": "845a6df359b1edb6a95c89531150f2beba03dee35712ea784075c27cf90fc932",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur044.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur044.gr.xz",
+      "git_blob": "e68da20335bc0aebfbb288c4fbcfb45994ea9ba1",
+      "bytes": 6012,
+      "sha256": "6579b58ee6eda1a9c79b4bdcd71efb76de041ae389084e62b4be8e798234dfb1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur046.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur046.gr.xz",
+      "git_blob": "776c975ec2eca7ff38410c1fa72a7a2065e96557",
+      "bytes": 15572,
+      "sha256": "043ad0850ab9dd01b28a11e65b9b0fb5087d33004e16ce2fd2567c11f65ca56f",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur048.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur048.gr.xz",
+      "git_blob": "9e1da7c832653c5a994fe17d97a4af1559e3550e",
+      "bytes": 59460,
+      "sha256": "3c232e64d61e61e3ba8e781b3501cd88105fb1bdbe589d65a9a06f564742772e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur050.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur050.gr.xz",
+      "git_blob": "9549b77647d2c01aa52b691bcbb3538bb34373b4",
+      "bytes": 71940,
+      "sha256": "d8b29d2b0ba04145e0c2e312df701e740b5bcc51cd2f3396c2f6306a9d05768e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur052.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur052.gr.xz",
+      "git_blob": "e176c970ef34f90d906aa5a0390a935f6ee8d443",
+      "bytes": 93212,
+      "sha256": "d49710300d33fa777376bb9dc51b42c3adb8c65ba81503b9ab8ecd78a219e218",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur054.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur054.gr.xz",
+      "git_blob": "98da06d0d95456f13c727ccd52e2385476bcd043",
+      "bytes": 6612,
+      "sha256": "f4aadc9d6f73a8eb0bfa86be0125a721f648ba9e456cab82d4b2a5a9d83b808c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur056.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur056.gr.xz",
+      "git_blob": "340afe19d1237adaae847c4d784d81f925913e93",
+      "bytes": 19584,
+      "sha256": "a36fdd01ef899b670ef855df522cf7c06069b006f5d3a7d2de9aedb4059b9fa8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur058.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur058.gr.xz",
+      "git_blob": "dbe5699d8814dc158d21a2130d8f76c65e7e569c",
+      "bytes": 10420,
+      "sha256": "c75560e7db8325a828cefb877a2b9c4561ef97a754ebb32d7f66b0241dcd6591",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur060.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur060.gr.xz",
+      "git_blob": "0702c5edae56d001c45083087e5d8c5115a336fc",
+      "bytes": 22916,
+      "sha256": "29e155271bbc490aec5b3d6db4d7208b05d3455e71c0eb2ac01c5280a8a0d47a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur062.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur062.gr.xz",
+      "git_blob": "432b240d11f80580ea2d6afb767de7a290280d8d",
+      "bytes": 99600,
+      "sha256": "6f41947c4cfa4da50c3e22173720ba7d85bdac99ebf10dcf09493a0953429bd4",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur064.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur064.gr.xz",
+      "git_blob": "0615517fe6cb3067236b061f73c57dc952c36b7d",
+      "bytes": 115484,
+      "sha256": "8d06e230c397c491501bc17dfe7b3f65e5059adc82c11ba134bed18acfc305ed",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur066.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur066.gr.xz",
+      "git_blob": "b3e00a5b7c47c200668cd23af02a48c8b391b6b3",
+      "bytes": 161912,
+      "sha256": "225d4adbfe84013f360970649943376bf5d852651c6a6ce0919b2b0cee0f3144",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur068.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur068.gr.xz",
+      "git_blob": "4d762bd9483f8cb6301712de00245cf21958506e",
+      "bytes": 19504,
+      "sha256": "4750398aa6ebfbc95b2c638bdf169049d6ad0e3237465a7dd1064dd4df46bc85",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur070.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur070.gr.xz",
+      "git_blob": "a1a96f87da4661309f95753e3841722d28d50264",
+      "bytes": 13704,
+      "sha256": "9164c5d5a0570151f4020069b3dc38715d0b82f003b6640ca2ab3d59e01f9933",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur072.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur072.gr.xz",
+      "git_blob": "cb1e81b9a7b6adec13e1ff414483c95993b8ba5b",
+      "bytes": 10272,
+      "sha256": "1d17556081469f474b6a06a75c6cc6620f9edf79f69a618230ce2b4e76188675",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur074.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur074.gr.xz",
+      "git_blob": "a20889168bfbf716a82119cfccf6ff9999115c18",
+      "bytes": 33068,
+      "sha256": "141c46e0272080013118a9824b97470d0da64f4695c1e0c7cce9b88e8fac0596",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur076.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur076.gr.xz",
+      "git_blob": "e679365c6e947991cd3497c3562a032c1206aa05",
+      "bytes": 8880,
+      "sha256": "16f80d7b74c7931f1c469025cd30d5abed847dca71d2103954d947a1b1d72269",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur078.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur078.gr.xz",
+      "git_blob": "083ea10af492b440beb37828d5bf0f8e0ed3bd16",
+      "bytes": 40544,
+      "sha256": "e04fcf3d88aff4b4226e691fb0dec899f4600a347bcfb0738b972147e659e15a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur080.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur080.gr.xz",
+      "git_blob": "f1006b37db98845d043739bf1834618fa9e88790",
+      "bytes": 39512,
+      "sha256": "0f79c3e796afaa75e807f2d1476fae0f0c3aa4101fe3ab39bd0a720f64cbbb20",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur082.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur082.gr.xz",
+      "git_blob": "ed7e61e696cf103fa6f75a7d12ab9ddc1b6ea26f",
+      "bytes": 23012,
+      "sha256": "6991a9346b14e9428d67bf38b25d48e6995e0c65f9537113e54bd94ea59a3af7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur084.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur084.gr.xz",
+      "git_blob": "760018a94013911a176d5c9856e2fd380e40709d",
+      "bytes": 49472,
+      "sha256": "34a029b3997c39b9982cf87296946dfb04e04ed891e7ea9872b37877c3fa4100",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur086.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur086.gr.xz",
+      "git_blob": "ff06d9755d93abdeb2347f1aa268681bd819908e",
+      "bytes": 12408,
+      "sha256": "3bd1c242d43e74f3c0aa060ec3cf66b47691cefb3f1df49f857e723161735b5a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur088.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur088.gr.xz",
+      "git_blob": "d1f61055ecaa277e927b55431066fb31aa23e78b",
+      "bytes": 19844,
+      "sha256": "62f4c573c2ed6b4a39542c1dfde1a3229dde6d2f831b161f84b32e788c3cab4b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur090.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur090.gr.xz",
+      "git_blob": "d8f6fbf98a44e8963ff46d0bc6b317dcf22bb514",
+      "bytes": 20048,
+      "sha256": "efeecfa701ce1fc3e68a917600ffd712aacdc52ee815b0b4e20b1d970b26be11",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur092.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur092.gr.xz",
+      "git_blob": "4eb845df648096e0f247e1dd9870e17004db09eb",
+      "bytes": 39112,
+      "sha256": "99f31b307054de75dd00a52c353893144f5d06ff3a693e9a0c5d97237ce51f4a",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur094.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur094.gr.xz",
+      "git_blob": "7ab5a1a95cf62e83026b18ea9a298b21ee1d961c",
+      "bytes": 18588,
+      "sha256": "5aa52311893088dd811174ff48c4a12334fa7c735bf639847de866dcd0c6e80e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur096.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur096.gr.xz",
+      "git_blob": "2b948ea07a2c85effcfb18c06df0b8c475a39c89",
+      "bytes": 26764,
+      "sha256": "7b80d27c20f67340660094dd25a6b75ca697d1e78b9ecaa65e0e9e3f41849a57",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur098.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur098.gr.xz",
+      "git_blob": "2b43e640516cba023b5810d5b2829b8f60b05b63",
+      "bytes": 31772,
+      "sha256": "146a1b762340d6a6142f18cac37e6ea996b439e613293cec86b829560dacf1e0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur100.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur100.gr.xz",
+      "git_blob": "de6bbb69bb1c99b362f3ac7a45740ef4aeac3fff",
+      "bytes": 65364,
+      "sha256": "b89ca44001ab285886255e8ef4a135f7ad5151d6a7bc589832e8633e205b7dd7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur102.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur102.gr.xz",
+      "git_blob": "29d5e3baf22796802116000a91c03a32e676b44a",
+      "bytes": 31588,
+      "sha256": "298131574f816795b0abb1333839a6d0e4998914f44c33fe9ee979df81641759",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur104.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur104.gr.xz",
+      "git_blob": "babd2c19f659db98757371b0af88b5ab9f956c59",
+      "bytes": 64016,
+      "sha256": "63db81c9e87235cf0e69220f0776f6cf6c7f756d82eb3462c2d3570e1bcc702e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur106.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur106.gr.xz",
+      "git_blob": "b46347e5febf64ffbc88d84462a8ad68ac36a120",
+      "bytes": 124840,
+      "sha256": "9d77e6c74e94a36acee5df33f9d390cb864de11a753eddfcf6325777627adb41",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur108.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur108.gr.xz",
+      "git_blob": "8ba55e2d6571848897ee46125abfdf1d4d5e7705",
+      "bytes": 40664,
+      "sha256": "7e93b61265e7c14854c349ebecfaae45b294d45a6fa5ea65bff8c76cad54b626",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur110.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur110.gr.xz",
+      "git_blob": "0d3a6c20669879cfe270401f3168e9b93a800f09",
+      "bytes": 86320,
+      "sha256": "04da97d7ca2f9b66b38f608ac928f093cce09508d6c15a3b2b1313d9b3730d42",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur112.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur112.gr.xz",
+      "git_blob": "3d59f2e94b1260e073c939c88abbf8065a563a02",
+      "bytes": 32980,
+      "sha256": "d8955e70ab0452c55683c9d5d0c5ccb42dcf64289af940ef0c4ebb9c63b10ce8",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur114.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur114.gr.xz",
+      "git_blob": "4726b6866d570adfde566a5b105e7e1c83e06a7a",
+      "bytes": 53156,
+      "sha256": "6adeebf597fef8e19167e5118d7f1d6d7604191dc089c099ff801ccb4f3c7050",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur116.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur116.gr.xz",
+      "git_blob": "71c00964b5e58b9ae3c1fd20186b7d529ca950fd",
+      "bytes": 129304,
+      "sha256": "ff8b52f505017ed92e01044657079e6abdb9b5a745897f36669dfca2090efbe7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur118.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur118.gr.xz",
+      "git_blob": "67f45a021163c49ee04d44c6e2baa28fd992b347",
+      "bytes": 74336,
+      "sha256": "4dfe3126e354834a2c78826f06ad7224eb654033a4e56ae4540a19bc0010a603",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur120.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur120.gr.xz",
+      "git_blob": "3108321a47c1c29780361892ed9b6e787ae49972",
+      "bytes": 111304,
+      "sha256": "2149eed00a20872f7654ec0ee675abee7edc250912421d15f93878ace4997ef9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur122.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur122.gr.xz",
+      "git_blob": "813a34734f4db90ed6401ae9f67bd38178a45b73",
+      "bytes": 77508,
+      "sha256": "c36ded3764fb5ed5528a0dd0634b4e2b1fd2d1d3155919e59363eb6c6b5fab82",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur124.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur124.gr.xz",
+      "git_blob": "a21da2360fa6a67e4309b83d599cefc5f3e8d355",
+      "bytes": 104216,
+      "sha256": "e89394673f787b9f7a7654f8af04a7f1b2d51f668d57c3f01479e2e19bea6da5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur126.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur126.gr.xz",
+      "git_blob": "8a96bf25746868cd709c5c3de3184867906c2426",
+      "bytes": 170696,
+      "sha256": "65b5615c7904303bc4baa163fe6f432c07ac3b1e027ab9c619230bfa818cab5e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur128.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur128.gr.xz",
+      "git_blob": "41869c89fe71e1ace953dc58e3cb72e7fb6b8c8c",
+      "bytes": 186820,
+      "sha256": "a00a704d83270556e5319bfc7dd034ecac2b261a5e54b1f3fa387fefeb046121",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur130.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur130.gr.xz",
+      "git_blob": "d85c9a18bd5b52b233b010056e2ca3bb0468398e",
+      "bytes": 1050252,
+      "sha256": "d6ee9e00ab09b70626155c203a2acd145dcd58adca9c11b166eb58ce72ed3715",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur132.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur132.gr.xz",
+      "git_blob": "bd2312b68de454dd82f702ec93e055642537d62d",
+      "bytes": 936496,
+      "sha256": "edb8cb3812afcbbbc807d55330ab3c7a15c7a83aa075ef9fdf8dbe1d15fd5993",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur134.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur134.gr.xz",
+      "git_blob": "a68f23e91847ae9b7a5ff184d49280a1fa0ceb27",
+      "bytes": 11620,
+      "sha256": "c81fc85b28864ef99cc816d242ed42aaa12a3cd08cb28c53dddcfb712acde9d0",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur136.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur136.gr.xz",
+      "git_blob": "6e5c19b2c5b24e584ffab7a6f5684ff917a7e941",
+      "bytes": 208484,
+      "sha256": "33a2a5759ff1e253da64a31f4b087a39d0f9a7dc1e3a4d246b1f793cb13eee34",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur138.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur138.gr.xz",
+      "git_blob": "324c9a1753dc151c59ae896ace0181e3d02f7622",
+      "bytes": 1113124,
+      "sha256": "738d9861d78fad954730b794b9c54a0d39bbb16f8b41b869c26cb214c4d8e48b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur140.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur140.gr.xz",
+      "git_blob": "2c6a85e7b826bf986eca77ed8fdd5d2d6e4ac170",
+      "bytes": 963284,
+      "sha256": "d8462ec5784437903bb7f54e35e4c619a1d3199df9b3d1bcb765443df3b86941",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur142.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur142.gr.xz",
+      "git_blob": "f18035d47ef71d509aa7c07dbe73e58f5353bc0c",
+      "bytes": 60604,
+      "sha256": "a452c5d0f987e9f37b22e9bbf46bbc9e2e9ac13075ecde1814dc8eec2226c264",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur144.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur144.gr.xz",
+      "git_blob": "7912305a418f27cdafe9b048a3f108f0941dbe36",
+      "bytes": 614328,
+      "sha256": "0e69eecff9103a734880f49471addfe5903bb09ad25fcd7a975b33ac4ab9e0db",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur146.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur146.gr.xz",
+      "git_blob": "1ee38863f7604a8f01d20a2dbdec3bf630abb21b",
+      "bytes": 1435028,
+      "sha256": "5426ae8e349cf3e7fa994704f3eb8522c9b1ce887b43f6cee8dcae31ac9add43",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur148.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur148.gr.xz",
+      "git_blob": "6f37f1ae93a04048a2839ea6b52c7fdfa96c358f",
+      "bytes": 13796,
+      "sha256": "1bf85868e7a4a7289dda7756f7942f5dbb385ec6be0d3019b39050443bb5e696",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur150.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur150.gr.xz",
+      "git_blob": "c82ddeb81428576862f910b84ffec6ba74e3ca9f",
+      "bytes": 70460,
+      "sha256": "59f5dcad5c659d1acc81e1d173291be3300f0d33df604f4ec50b47485dfdfb1e",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur152.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur152.gr.xz",
+      "git_blob": "4162965209ac9a8eadba9e86f187f09f869eb579",
+      "bytes": 237980,
+      "sha256": "9bb781e467641a17a1416c5c294acbed4eebb426936862bb7c6f6a52b075b1e7",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur154.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur154.gr.xz",
+      "git_blob": "f75cac0e61cbb031b69555fceb25498b071752b0",
+      "bytes": 603968,
+      "sha256": "3e1205ee753ccd21f686105e1068cf3647f22175f741103baab3c2f524bf9eb1",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur156.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur156.gr.xz",
+      "git_blob": "09698ae2b558b5b4d869ffa0903dd6b2c5e08b9b",
+      "bytes": 1126268,
+      "sha256": "b1b474e7a0d57f86f7fc1458be9cd6ce354c4c92319c7d8284bac95a7633c324",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur158.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur158.gr.xz",
+      "git_blob": "26e5a140d4927e0371db4dfe93b4a3b5e00df7f0",
+      "bytes": 1408424,
+      "sha256": "6016a7b0504d651d1afa93429ab84ae44c58e1394d05a03c3ccf178a33a102cd",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur160.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur160.gr.xz",
+      "git_blob": "9659660baf94d2799c772ac11874da6d4d502263",
+      "bytes": 1086160,
+      "sha256": "7ea42df42e3320426db4b4cffb6967baf220af3cb4d25b6416b8242d0492e594",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur162.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur162.gr.xz",
+      "git_blob": "82fffb6c1beee7acfddfc0e9e5b3dad1be6d0005",
+      "bytes": 176552,
+      "sha256": "ec4fac030b424e1a180c87602dc9cd7db2a39bf07086c28dc32a98fe29333c6d",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur164.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur164.gr.xz",
+      "git_blob": "eb303ede469b956f50f0a9661aaced18642eb973",
+      "bytes": 255072,
+      "sha256": "497ac4320118ce8d0769515ed2f206eff215299c650901fbbe73e3ea99652d96",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur166.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur166.gr.xz",
+      "git_blob": "3407fc8771a0a8503e27f928dea39bc0a0b76e88",
+      "bytes": 87780,
+      "sha256": "b4681b199b3384521c0e8242d61b83e7e9c118f45e3cbb0e6063303a418c4e35",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur168.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur168.gr.xz",
+      "git_blob": "a6f8b2ed086238c81ecf842522e980f46c0c4889",
+      "bytes": 37488,
+      "sha256": "a25bbe5642022ece9bb8145f2256b9045c6fdbf28925580f71ec3e41b2d0597c",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur170.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur170.gr.xz",
+      "git_blob": "70b8b39ae31077d61f258ada17b29d276ee7141e",
+      "bytes": 46856,
+      "sha256": "496c2c22844144aa0fed90f08815a116fe31163310942564aa292fd6cb596ec9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur172.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur172.gr.xz",
+      "git_blob": "56028178544385c65cd338e1e57b0450d103504c",
+      "bytes": 59076,
+      "sha256": "669d4ceb13d5cf6e53d965adef42426faf67a32eb32ea09c745e9f191f54b7b5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur174.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur174.gr.xz",
+      "git_blob": "5397e383eb1f3255fd1e2cc2183bc97f8d41d892",
+      "bytes": 81952,
+      "sha256": "5b829556ae712f1dc80ba1317236bdfbe5501f6a9a9fcc78987a69656fcf76ca",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur176.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur176.gr.xz",
+      "git_blob": "c9e1d2b39950bf88af204beb460e8162ea3f45d5",
+      "bytes": 263300,
+      "sha256": "3a2f4e5970cc07a4463dc876d1a72ec3889f4cc381c38f07f020c91b136a0bd2",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur178.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur178.gr.xz",
+      "git_blob": "2d29223d35975bd7329da253e5df3559a15d1f77",
+      "bytes": 143156,
+      "sha256": "8b1e4aa5ea2f42e38f123ea2a7cb40b4e9be788a2588ba742b7c53ea18e1106b",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur180.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur180.gr.xz",
+      "git_blob": "651e486e77f06d2023cd403b79fb1b68630d5145",
+      "bytes": 650644,
+      "sha256": "aedc620cc81a4e93bc048baee8a712ea4969e2bb4dcf42a93c43e8028719e399",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur182.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur182.gr.xz",
+      "git_blob": "b65e6fde17ca4d1bb2083448100a12cbb64d1362",
+      "bytes": 825540,
+      "sha256": "aaf3738a20499efe737fc686e6b1a0a3d3700074b278e00712df6b2c6f00e5b5",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur184.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur184.gr.xz",
+      "git_blob": "38297d713169ce8ad26d9ce1b34797040e7f4834",
+      "bytes": 565324,
+      "sha256": "f772cd232958f1184d138b2fd8fb38798af332886e8fa145b2556c1fc2ed59ad",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur186.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur186.gr.xz",
+      "git_blob": "189d594a8bf969302b62ce692aca953410c59b2b",
+      "bytes": 888656,
+      "sha256": "983f30535ce939f7b37f82968c45734f6e953c9c7b86319b67671ddddd5623f9",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur188.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur188.gr.xz",
+      "git_blob": "dd1388531d67c90f767018283610b2b799531838",
+      "bytes": 1835272,
+      "sha256": "8759b981ea5f3de1151d1cdec7152f20dc733a7f9b085282463e1e85e7255c89",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur190.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur190.gr.xz",
+      "git_blob": "42f3e82bce0aad76e806407e5d92fcdc33d70ac8",
+      "bytes": 1799512,
+      "sha256": "050d6f9061216d8203be846ceea2cdb6259602073cbc0a3747731096dd0a6ef3",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur192.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur192.gr.xz",
+      "git_blob": "e77cad6f9941faf0bd744f980e21da8861d66afe",
+      "bytes": 834160,
+      "sha256": "4b0a5339a860e8ed0bf1d1e9b4ca1a1e7d8b1e0464bf070497888763a73c2cef",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur194.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur194.gr.xz",
+      "git_blob": "d7bfcbf2d26512ed2c0484b4dd52b2b43f24264f",
+      "bytes": 4714992,
+      "sha256": "3f80c29b9b92f34e1d9f994239a3d0aa44dc2bb074517cd697a224449250f0fe",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur196.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur196.gr.xz",
+      "git_blob": "d99544303951b8b7b68c6a2cac660e1e1ca2ec21",
+      "bytes": 4811732,
+      "sha256": "f1e82d5e1c4278748b00b96e4eb5841cb2ec7c0f0d71c619fbc792e4726c5f54",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur198.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur198.gr.xz",
+      "git_blob": "211ecee0746b415c42e61d93ff091b94c61f822c",
+      "bytes": 5778684,
+      "sha256": "6949a0f82d7832af388a1fa8ac8514e11d03f30f287acdc1fb53018bb99a4960",
+      "mode": "0644"
+    },
+    {
+      "path": "tests/instances/heur200.gr.xz",
+      "source_path": "tasks/solver/online/ce-pace2021/tests/instances/heur200.gr.xz",
+      "git_blob": "521647e9260ba3e4b72f4349f1536884fa914603",
+      "bytes": 3971948,
+      "sha256": "321d86132d6f83b8059f63a61c05f0c571920f07b8df118b9ab21aaa183085c6",
+      "mode": "0644"
+    }
+  ]
+}

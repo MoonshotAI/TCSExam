@@ -1,0 +1,45 @@
+{
+  "checked": "2026-10-15",
+  "status": "Prepared local component package; not published. Final public build integration is pending.",
+  "archive": "extremal-graph-component-materials-261015.tar.gz",
+  "archive_bytes": 25685,
+  "archive_sha256": "7712ae9914903232748f7d55ad28f0557db6982af2a7378d16832f997aef3fc0",
+  "files": [
+    {
+      "path": "Basic.lean",
+      "bytes": 12240,
+      "sha256": "9cde0140407da58e375a5e5e6b029d73e2a703969a6c062ef69e1a73239d5e49"
+    },
+    {
+      "path": "COMPONENT-NOTICES.txt",
+      "bytes": 929,
+      "sha256": "31155893257b6a6cfe15d188b3266af3bad92e5f2e7281fda8839bda1c51599f"
+    },
+    {
+      "path": "GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "PROJECT-APACHE-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "README.md",
+      "bytes": 380,
+      "sha256": "ca4c06be71925e7401a6ce3c6b27df49a86a3a724b92456d7957f6428c202363"
+    },
+    {
+      "path": "UPSTREAM-README.md",
+      "bytes": 8669,
+      "sha256": "932e451e6ef834d18333d58a399dfe4d91f6d111c47f236a2d118ca9a8c5c91d"
+    },
+    {
+      "path": "n124-first.g6",
+      "bytes": 1276,
+      "sha256": "b84a1564f99f805b5b5782ebb669f87b93d298b24b389213b20ab3104785d47c"
+    }
+  ],
+  "scope": "Original graph6 data, identical existing Lean source, source attribution and conversion description; no source/task changes and no binaries."
+}

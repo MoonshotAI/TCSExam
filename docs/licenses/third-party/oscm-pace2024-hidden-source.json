@@ -1,0 +1,27 @@
+{
+  "task_id": "oscm-pace2024",
+  "scope": "Adopted hidden judging inputs reconstructed from the official graph archive with fixed structure-preserving relabeling. Public development inputs retain their independent recipe and byte identity.",
+  "source": {
+    "id": "pace-2024-oscm-exact-private-zip",
+    "url": "https://pacechallenge.org/2024/exact-private.zip",
+    "bytes": 904239,
+    "sha256": "b848e0e80d7a4ee090e41fbedcf88d65214285a7dfd2d603bd25b12d9f79afa1",
+    "format": "zip"
+  },
+  "transform": {
+    "id": "free-layer-relabeling-v1",
+    "seed_derivation": "First eight SHA-256 bytes of seed_tag + colon + original output basename, interpreted as an unsigned big-endian integer. The stable seed tag retains its original algorithm bytes.",
+    "seed_tag": "tcshard-transform-20260831",
+    "ordering": "Shuffle only the free-layer labels once, then shuffle the mapped edge list once; preserve fixed-layer labels and duplicate edges."
+  },
+  "payload": {
+    "files": 100,
+    "bytes": 3499071,
+    "manifest_sha256": "17eaf392f810ae4ccb1db4ec6ce66143ccb95cfdce9f54803931e27cbead2e3c",
+    "output_root": "tests/instances"
+  },
+  "reference_binding": "Every adopted reference key and B/K value is preserved. Free-layer relabeling preserves the one-sided crossing optimum. Raw official graphs are not the judging payload.",
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "The official exact-track archive has no explicit redistribution license. The separate MIT test-set license does not cover these files. Local reconstruction does not grant additional redistribution rights."
+}

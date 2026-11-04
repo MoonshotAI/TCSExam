@@ -1,0 +1,23 @@
+{
+  "checked": "2026-10-29",
+  "task_id": "ce-pace2021",
+  "scope": "Original public100 behavior and recipe unchanged. Frozen hidden100 are unmodified official even-numbered graphs compressed with original XZ5.8.4 threads2, mixed presets6/9. All source plaintext SHA hashes agree with the initial real anonymous official downloads; final validation uses explicit checked cache.",
+  "records": [
+    {
+      "id": "solver-ce-pace2021-judging-data",
+      "result": {
+        "files": 100,
+        "bytes": 41459744
+      },
+      "recipe": "assets/data/solver/solver-ce-pace2021-judging-data-recipe.json",
+      "recipe_sha256": "ef65f283350cc7a86cc6cd7e6bf293024091f2637f78fceaba990376f957daa3",
+      "format": "official_ce_xz",
+      "acquisition_verification": "official_archived_input_verified",
+      "docker_adapter_exercised": false
+    }
+  ],
+  "distribution": "local_prepare",
+  "new_distribution_authorization": false,
+  "public_upload_performed": false,
+  "public_pin": null
+}

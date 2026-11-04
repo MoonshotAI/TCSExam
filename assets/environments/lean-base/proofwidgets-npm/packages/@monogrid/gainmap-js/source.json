@@ -1,0 +1,49 @@
+{
+  "author": "MONOGRID <gainmap@monogrid.com>",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "MIT",
+  "lock_entry": {
+    "dependencies": {
+      "promise-worker-transferable": "^1.0.4"
+    },
+    "integrity": "sha512-2Z0FATFHaoYJ8b+Y4y4Hgfn3FRFwuU5zRrk+9dFWp4uGAdHGqVEdP7HP+gLA3X469KXHmfupJaUbKo1b/aDKIg==",
+    "license": "MIT",
+    "peerDependencies": {
+      "three": ">= 0.159.0"
+    },
+    "resolved": "https://registry.npmjs.org/@monogrid/gainmap-js/-/gainmap-js-3.4.0.tgz",
+    "version": "3.4.0"
+  },
+  "lock_path": "node_modules/@monogrid/gainmap-js",
+  "name": "@monogrid/gainmap-js",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1065,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "7fb8f722609c6669a9c9a4865e2a86205c7760e7dc7a039b0fb9913c3e62c6cc",
+      "text_file": "image-notices/7fb8f722609c6669a9c9a4865e2a86205c7760e7dc7a039b0fb9913c3e62c6cc.txt"
+    }
+  ],
+  "package_license": "MIT",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 146897,
+    "installed_in_image": false,
+    "integrity": "sha512-2Z0FATFHaoYJ8b+Y4y4Hgfn3FRFwuU5zRrk+9dFWp4uGAdHGqVEdP7HP+gLA3X469KXHmfupJaUbKo1b/aDKIg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/@monogrid/gainmap-js/-/gainmap-js-3.4.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "5edd9402efaecf77ee72b37d9f66be7e62059c5f00df2c9467df17226eaff8fc"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.4.0"
+}

@@ -1,0 +1,996 @@
+import Mathlib
+
+set_option maxRecDepth 2000000
+set_option maxHeartbeats 0
+set_option synthInstance.maxSize 2048
+
+/-!
+# Graph-TSP subtour-LP integrality gap — certificate definition layer (open task)
+
+This file defines, inside Lean 4 + mathlib, the machine-checkable certificate
+format for **lower bounds on the integrality gap of the subtour-elimination LP**
+(Held–Karp relaxation) of **graph-TSP** on an explicit finite instance:
+
+* **instance**: a connected, simple, unweighted, undirected graph, given by its
+  adjacency matrix `adj` (`SimpleAdj`), together with its shortest-path
+  **metric closure** `dist`. The closure is pinned down exactly (no trust in
+  any computation): `MetricCost dist` (triangle inequality), `EdgeConsistent`
+  (graph edges have `dist = 1`), `PathsOk` (for every pair `u v` a graph walk
+  of length exactly `dist u v` exists, listed explicitly), and the proved
+  lemma `walk_length_ge` (every graph walk from `u` to `v` has length at
+  least `dist u v`, by telescoping the triangle inequality along the walk).
+  Together these say `dist` IS the shortest-path metric of the graph — the
+  same matrix the solver sibling computes by Floyd–Warshall;
+* **LP side**: a rational feasible point `x = y/D` of the subtour LP certifies
+  `OPT_LP ≤ c·x` (the LP is a minimization problem; feasibility is checked
+  constraint by constraint: degree `2` per vertex, one cut per nonempty proper
+  subset, `0 ≤ x ≤ 1`);
+* **tour side**: a Held–Karp *potential table* `W` (the dual of the usual DP)
+  certifies `OPT_tour ≥ T`: every tour costs at least `T`;
+* **assembly**: `gap = OPT_tour / OPT_LP ≥ T / (c·x) ≥ α`, packaged as
+  `GraphGapBound n adj dist α` together with the size range, the graph
+  premise and the closure correctness premises.
+
+Everything is computed over `ℕ`/`ℚ` (no floats). The definition layer is
+adapted from the metric-TSP certificate layer of `tsp-gap-lean-open` to the
+graph-TSP (unweighted-graph) instance form; the tour/LP/potential machinery
+is unchanged, since on the metric closure the two problems coincide.
+
+The definition layer ends at `-- END OF FIXED PART`; below it the solver
+provides its own instance, witnesses and proofs behind the fixed interface
+names `certN`, `certAdj`, `certDist`, `claimedAlpha`, `main`.
+-/
+namespace GraphTSPGap
+
+variable {n : ℕ} [NeZero n]
+
+/-! ## Basic definitions -/
+
+/-- Lookup in a matrix stored as a list of rows. -/
+def matGet (M : List (List ℕ)) (i j : ℕ) : ℕ := (M.getD i []).getD j 0
+
+/-- A tour is an ordering of all vertices starting at vertex `0`
+(every cyclic permutation has a unique representative of this form). -/
+def IsTour (l : List (Fin n)) : Prop := l.Nodup ∧ l.length = n ∧ l.head? = some 0
+
+/-- Cost of walking from `a` along the list (arc costs of consecutive pairs). -/
+def segCost (cost : Fin n → Fin n → ℕ) (a : Fin n) : List (Fin n) → ℕ
+  | [] => 0
+  | b :: l => cost a b + segCost cost b l
+
+/-- The last vertex of `a :: p`. -/
+def lastOf (a : Fin n) (p : List (Fin n)) : Fin n := (a :: p).getLast (by simp)
+
+/-- Total cost of the cyclic tour described by a list. -/
+def tourCost (cost : Fin n → Fin n → ℕ) : List (Fin n) → ℕ
+  | [] => 0
+  | a :: t => segCost cost a t + cost (lastOf a t) 0
+
+/-- The visited-set bitmask of a list of vertices. -/
+def maskOfList (l : List (Fin n)) : ℕ := l.foldl (fun m v => m ||| 2 ^ v.val) 0
+
+/-! ## Bitmask lemmas -/
+
+lemma testBit_foldLor (init : ℕ) (l : List (Fin n)) (j : ℕ) :
+    (l.foldl (fun m v => m ||| 2 ^ v.val) init).testBit j =
+      (init.testBit j || l.any (fun v => decide (v.val = j))) := by
+  induction l generalizing init with
+  | nil => simp
+  | cons a l ih =>
+    simp only [List.foldl_cons, List.any_cons]
+    rw [ih, Nat.testBit_or, Nat.testBit_two_pow, Bool.or_assoc]
+
+@[simp] lemma testBit_maskOfList (l : List (Fin n)) (j : ℕ) :
+    (maskOfList l).testBit j = l.any (fun v => decide (v.val = j)) := by
+  simp [maskOfList, testBit_foldLor]
+
+lemma testBit_maskOfList_mem {v : Fin n} {l : List (Fin n)} (h : v ∈ l) :
+    (maskOfList l).testBit v.val = true := by
+  rw [testBit_maskOfList, List.any_eq_true]
+  exact ⟨v, h, by simp⟩
+
+lemma mem_of_testBit_maskOfList {l : List (Fin n)} {v : Fin n}
+    (h : (maskOfList l).testBit v.val = true) : v ∈ l := by
+  rw [testBit_maskOfList, List.any_eq_true] at h
+  obtain ⟨w, hw, hww⟩ := h
+  rw [decide_eq_true_eq] at hww
+  exact Fin.ext hww ▸ hw
+
+lemma lt_of_testBit_maskOfList {l : List (Fin n)} {j : ℕ}
+    (h : (maskOfList l).testBit j = true) : j < n := by
+  rw [testBit_maskOfList, List.any_eq_true] at h
+  obtain ⟨v, -, hv⟩ := h
+  rw [decide_eq_true_eq] at hv
+  exact hv ▸ v.isLt
+
+lemma maskOfList_lt (l : List (Fin n)) : maskOfList l < 2 ^ n := by
+  by_cases h : maskOfList l = 0
+  · simp [h]
+  · rw [← Nat.log2_lt h]
+    exact lt_of_testBit_maskOfList (Nat.testBit_log2 h)
+
+lemma xor_lor_two_pow {m : ℕ} {j : ℕ} (h : m.testBit j = false) :
+    (m ||| 2 ^ j) ^^^ 2 ^ j = m := by
+  apply Nat.eq_of_testBit_eq
+  intro i
+  by_cases hij : i = j
+  · subst hij
+    simp [Nat.testBit_xor, Nat.testBit_two_pow, h]
+  · have hji : j ≠ i := fun e => hij e.symm
+    simp [Nat.testBit_xor, Nat.testBit_or, Nat.testBit_two_pow, hji]
+
+/-! ## Path-cost lemmas -/
+
+@[simp] lemma lastOf_nil (a : Fin n) : lastOf a [] = a := by simp [lastOf]
+
+lemma lastOf_cons (a b : Fin n) (p : List (Fin n)) : lastOf a (b :: p) = lastOf b p := by
+  simp [lastOf, List.getLast_cons_cons]
+
+lemma segCost_append (cost : Fin n → Fin n → ℕ) (a : Fin n) (p q : List (Fin n)) :
+    segCost cost a (p ++ q) = segCost cost a p + segCost cost (lastOf a p) q := by
+  induction p generalizing a with
+  | nil => simp [segCost]
+  | cons b p ih =>
+    simp only [List.cons_append, segCost, ih, lastOf_cons, Nat.add_assoc]
+
+/-! ## The potential (dual Held–Karp) certificate -/
+
+/-- The key induction: any path starting at `0` through distinct vertices costs at
+least the potential of its visited set. -/
+lemma pot_inv (cost : Fin n → Fin n → ℕ) (W : ℕ → Fin n → ℕ)
+    (hbase : W 1 0 = 0)
+    (hstep : ∀ mask : ℕ, mask < 2 ^ n → mask.testBit 0 = true →
+      ∀ j i : Fin n, j ≠ 0 → i ≠ j → mask.testBit j.val = true →
+        mask.testBit i.val = true →
+        W mask j ≤ W (mask ^^^ (2 ^ j.val)) i + cost i j)
+    (t : List (Fin n)) (hnd : (0 :: t).Nodup) :
+    W (maskOfList (0 :: t)) (lastOf 0 t) ≤ segCost cost 0 t := by
+  induction t using List.reverseRecOn with
+  | nil =>
+    have h : maskOfList (0 :: ([] : List (Fin n))) = 1 := by simp [maskOfList]
+    simp [h, segCost, hbase]
+  | append_singleton p u ih =>
+    rw [← List.cons_append] at hnd ⊢
+    have hnd' : (0 :: p).Nodup := (List.nodup_append.mp hnd).1
+    have hu_notin : u ∉ (0 :: p) := by
+      have hdis := (List.nodup_append.mp hnd).2.2
+      intro hu
+      exact hdis u hu u (List.mem_singleton_self u) rfl
+    have hu0 : u ≠ 0 := fun h => hu_notin (h ▸ by simp)
+    have ih' := ih hnd'
+    set m := maskOfList (0 :: p) with hm
+    have hmask : maskOfList ((0 :: p) ++ [u]) = m ||| 2 ^ u.val := by
+      simp [hm, maskOfList, List.foldl_append]
+    have hmu : m.testBit u.val = false := by
+      rw [Bool.eq_false_iff]
+      exact fun h => hu_notin (mem_of_testBit_maskOfList h)
+    have hxor : (m ||| 2 ^ u.val) ^^^ 2 ^ u.val = m :=
+      xor_lor_two_pow hmu
+    have hm0 : m.testBit 0 = true := by
+      have h := testBit_maskOfList_mem (show (0 : Fin n) ∈ (0 :: p) by simp)
+      simpa using h
+    have hilt : m ||| 2 ^ u.val < 2 ^ n := by
+      rw [← hmask]; exact maskOfList_lt _
+    have hlast_mem : lastOf 0 p ∈ (0 :: p) := by
+      simp [lastOf, List.getLast_mem]
+    have hstep' := hstep (m ||| 2 ^ u.val) hilt
+      (by rw [Nat.testBit_or]; simp [hm0])
+      u (lastOf 0 p) hu0
+      (fun h => hu_notin (h ▸ hlast_mem))
+      (by rw [Nat.testBit_or, Nat.testBit_two_pow_self]; simp)
+      (by rw [Nat.testBit_or, hm, testBit_maskOfList_mem hlast_mem]; simp)
+    rw [hxor] at hstep'
+    have hlast : lastOf 0 (p ++ [u]) = u := by
+      simp [lastOf, List.cons_append]
+    rw [hmask, hlast, segCost_append]
+    have hseg : segCost cost (lastOf 0 p) [u] = cost (lastOf 0 p) u := by simp [segCost]
+    rw [hseg]
+    exact le_trans hstep' (Nat.add_le_add_right ih' _)
+
+/-- A potential table satisfying the Held–Karp inequalities lower-bounds every tour. -/
+theorem tour_lb_of_potOk (hn : 2 ≤ n) (cost : Fin n → Fin n → ℕ) (W : ℕ → Fin n → ℕ)
+    (T : ℕ)
+    (hbase : W 1 0 = 0)
+    (hstep : ∀ mask : ℕ, mask < 2 ^ n → mask.testBit 0 = true →
+      ∀ j i : Fin n, j ≠ 0 → i ≠ j → mask.testBit j.val = true →
+        mask.testBit i.val = true →
+        W mask j ≤ W (mask ^^^ (2 ^ j.val)) i + cost i j)
+    (hT : ∀ j : Fin n, j ≠ 0 → T ≤ W (2 ^ n - 1) j + cost j 0)
+    (l : List (Fin n)) (hl : IsTour l) : T ≤ tourCost cost l := by
+  obtain ⟨hnd, hlen, hhead⟩ := hl
+  have hcomplete : ∀ v : Fin n, v ∈ l := by
+    intro v
+    have hcard : l.toFinset.card = Fintype.card (Fin n) := by
+      rw [List.toFinset_card_of_nodup hnd, hlen, Fintype.card_fin]
+    have huniv : l.toFinset = Finset.univ := Finset.eq_univ_of_card _ hcard
+    have hv : v ∈ l.toFinset := by rw [huniv]; exact Finset.mem_univ v
+    exact List.mem_toFinset.mp hv
+  have hfull : maskOfList l = 2 ^ n - 1 := by
+    apply Nat.eq_of_testBit_eq
+    intro i
+    rw [Nat.testBit_two_pow_sub_one]
+    by_cases hi : i < n
+    · rw [decide_eq_true hi]
+      exact testBit_maskOfList_mem (hcomplete ⟨i, hi⟩)
+    · have hfalse : (maskOfList l).testBit i = false := by
+        rw [Bool.eq_false_iff]
+        exact fun h => hi (lt_of_testBit_maskOfList h)
+      rw [hfalse, decide_eq_false hi]
+  have hlne : l ≠ [] := by
+    intro h; subst h; simp at hhead
+  obtain ⟨a, t, rfl⟩ := List.exists_cons_of_ne_nil hlne
+  simp only [List.head?_cons] at hhead
+  have ha : a = 0 := Option.some_injective _ hhead
+  subst ha
+  have htlen : t.length = n - 1 := by
+    rw [List.length_cons] at hlen; omega
+  have htne : t ≠ [] := by
+    intro h; subst h; simp at htlen; omega
+  have hlast_ne : lastOf 0 t ≠ 0 := by
+    have hmem : lastOf 0 t ∈ t := by
+      obtain ⟨b, t', rfl⟩ := List.exists_cons_of_ne_nil htne
+      rw [lastOf_cons]
+      simp [lastOf, List.getLast_mem]
+    have h0notin : (0 : Fin n) ∉ t := (List.nodup_cons.mp hnd).1
+    intro h
+    exact h0notin (h ▸ hmem)
+  have hpot := pot_inv cost W hbase hstep t hnd
+  have hT' := hT (lastOf 0 t) hlast_ne
+  rw [← hfull] at hT'
+  exact le_trans hT' (Nat.add_le_add_right hpot _)
+
+/-! ## The metric premise -/
+
+/-- A finite integer metric: symmetric, zero diagonal, positive off-diagonal,
+and the triangle inequality. These are exactly the shortest-path cost matrices
+of connected integer-weighted graphs (in particular of unweighted support
+graphs) — the "metric closure" premise of the gap literature. Rational
+metrics scale to integer ones without changing the gap. -/
+def MetricCost (cost : Fin n → Fin n → ℕ) : Prop :=
+  (∀ u, cost u u = 0) ∧
+  (∀ u v, cost u v = cost v u) ∧
+  (∀ u v, u ≠ v → 0 < cost u v) ∧
+  (∀ u v w, cost u w ≤ cost u v + cost v w)
+
+/-! ## The LP side (symmetric / metric subtour-elimination LP) -/
+
+/-- A feasible point of the subtour-elimination LP for the metric TSP, with
+edge variables written as a symmetric matrix over ordered pairs: degree
+exactly `2` at every vertex, every proper nonempty cut carries at least `2`,
+entries in `[0, 1]`, no self-loops. Cuts are indexed by bitmasks. -/
+def LPFeasible (x : Fin n → Fin n → ℚ) : Prop :=
+  (∀ v, ∑ u, x v u = 2) ∧
+  (∀ u v, 0 ≤ x u v) ∧
+  (∀ u v, x u v ≤ 1) ∧
+  (∀ u v, x u v = x v u) ∧
+  (∀ u, x u u = 0) ∧
+  ∀ mask : ℕ, mask < 2 ^ n → mask ≠ 0 → mask ≠ 2 ^ n - 1 →
+    2 ≤ ∑ u : Fin n, ∑ v : Fin n,
+      if mask.testBit u.val ∧ ¬ mask.testBit v.val then x u v else 0
+
+/-- The LP objective value of a point: each undirected edge is counted once,
+which in the ordered-pair representation is half of the ordered sum. -/
+def LPValue (cost : Fin n → Fin n → ℕ) (x : Fin n → Fin n → ℚ) : ℚ :=
+  (∑ u, ∑ v, (cost u v : ℚ) * x u v) / 2
+
+/-- The packaged gap lower bound: an LP-feasible point of value `U` and a tour
+lower bound `T` with `α * U ≤ T` certify `OPT_tour / OPT_LP ≥ α`, because
+`OPT_LP ≤ U` (feasible point of a minimization LP) and `OPT_tour ≥ T`. -/
+def GapLB (cost : Fin n → Fin n → ℕ) (α : ℚ) : Prop :=
+  ∃ x : Fin n → Fin n → ℚ, LPFeasible x ∧ ∃ T : ℕ,
+    (∀ l, IsTour l → T ≤ tourCost cost l) ∧ α * LPValue cost x ≤ (T : ℚ)
+
+/-- Assembly: from a scaled integer LP certificate `y/D` (symmetric), a
+potential table `W` and the integer arithmetic `p * (c·y) ≤ q * (2 * (T * D))`
+(where `α = p/q` and `c·y` is the ordered-pair sum), conclude the gap lower
+bound: `α · (c·x) = (p/q) · ((c·y)/(2D)) ≤ T ≤ OPT_tour`. -/
+theorem gapLB_of_cert (hn : 2 ≤ n) (cost : Fin n → Fin n → ℕ) (W : ℕ → Fin n → ℕ)
+    (y : Fin n → Fin n → ℕ) (D T : ℕ) (hD : 0 < D) (α : ℚ)
+    (p q : ℕ) (hq : 0 < q) (hαpq : α = (p : ℚ) / q)
+    (hbase : W 1 0 = 0)
+    (hstep : ∀ mask : ℕ, mask < 2 ^ n → mask.testBit 0 = true →
+      ∀ j i : Fin n, j ≠ 0 → i ≠ j → mask.testBit j.val = true →
+        mask.testBit i.val = true →
+        W mask j ≤ W (mask ^^^ (2 ^ j.val)) i + cost i j)
+    (hT : ∀ j : Fin n, j ≠ 0 → T ≤ W (2 ^ n - 1) j + cost j 0)
+    (hysym : ∀ u v : Fin n, y u v = y v u)
+    (hydiag : ∀ u : Fin n, y u u = 0)
+    (hy1 : ∀ u v : Fin n, y u v ≤ D)
+    (hdeg : ∀ v : Fin n, ∑ u : Fin n, y v u = 2 * D)
+    (hcut : ∀ mask : ℕ, mask < 2 ^ n → mask ≠ 0 → mask ≠ 2 ^ n - 1 →
+      2 * D ≤ ∑ u : Fin n, ∑ v : Fin n,
+        if mask.testBit u.val ∧ ¬ mask.testBit v.val then y u v else 0)
+    (hα : p * (∑ u : Fin n, ∑ v : Fin n, cost u v * y u v) ≤ q * (2 * (T * D))) :
+    GapLB cost α := by
+  refine ⟨fun u v => (y u v : ℚ) / D, ⟨?_, ?_, ?_, ?_, ?_, ?_⟩, T, ?_, ?_⟩
+  · intro v
+    show (∑ u : Fin n, (y v u : ℚ) / D) = 2
+    rw [← Finset.sum_div, ← Nat.cast_sum, hdeg v]
+    have hDq : (D : ℚ) ≠ 0 := by exact_mod_cast hD.ne'
+    rw [Nat.cast_mul, Nat.cast_two]
+    exact mul_div_cancel_right₀ 2 hDq
+  · intro u v
+    exact div_nonneg (Nat.cast_nonneg _) (Nat.cast_nonneg _)
+  · intro u v
+    have hD0 : (0 : ℚ) < D := by exact_mod_cast hD
+    rw [div_le_one hD0]
+    exact_mod_cast hy1 u v
+  · intro u v
+    show (y u v : ℚ) / (D : ℚ) = (y v u : ℚ) / D
+    rw [hysym u v]
+  · intro u
+    show (y u u : ℚ) / (D : ℚ) = 0
+    rw [hydiag u, Nat.cast_zero, zero_div]
+  · intro mask hmask h0 hfull
+    have h1 : (∑ u : Fin n, ∑ v : Fin n,
+          if mask.testBit u.val ∧ ¬ mask.testBit v.val then (y u v : ℚ) / D else 0)
+        = (∑ u : Fin n, ∑ v : Fin n,
+          if mask.testBit u.val ∧ ¬ mask.testBit v.val then (y u v : ℚ) else 0) / D := by
+      rw [Finset.sum_div]
+      apply Finset.sum_congr rfl; intro u _
+      rw [Finset.sum_div]
+      apply Finset.sum_congr rfl; intro v _
+      rw [apply_ite (· / (D : ℚ)), zero_div]
+    have h2 : (∑ u : Fin n, ∑ v : Fin n,
+          if mask.testBit u.val ∧ ¬ mask.testBit v.val then (y u v : ℚ) else 0)
+        = ((∑ u : Fin n, ∑ v : Fin n,
+          if mask.testBit u.val ∧ ¬ mask.testBit v.val then y u v else 0 : ℕ) : ℚ) := by
+      rw [Nat.cast_sum]
+      apply Finset.sum_congr rfl; intro u _
+      rw [Nat.cast_sum]
+      apply Finset.sum_congr rfl; intro v _
+      split <;> simp
+    rw [h1, h2]
+    have hcut' := hcut mask hmask h0 hfull
+    have hDq : (0 : ℚ) < D := by exact_mod_cast hD
+    rw [le_div_iff₀ hDq]
+    exact_mod_cast hcut'
+  · intro l hl
+    exact tour_lb_of_potOk hn cost W T hbase hstep hT l hl
+  · have hcast : (∑ u : Fin n, ∑ v : Fin n, (cost u v : ℚ) * (y u v : ℚ))
+        = ((∑ u : Fin n, ∑ v : Fin n, cost u v * y u v : ℕ) : ℚ) := by
+      rw [Nat.cast_sum]; apply Finset.sum_congr rfl; intro u _
+      rw [Nat.cast_sum]; apply Finset.sum_congr rfl; intro v _
+      rw [Nat.cast_mul]
+    have hval : LPValue cost (fun u v => (y u v : ℚ) / D)
+        = (((∑ u : Fin n, ∑ v : Fin n, cost u v * y u v : ℕ) : ℚ) / D) / 2 := by
+      unfold LPValue
+      congr 1
+      rw [← hcast, Finset.sum_div]
+      apply Finset.sum_congr rfl; intro u _
+      rw [Finset.sum_div]
+      apply Finset.sum_congr rfl; intro v _
+      rw [← mul_div_assoc]
+    rw [hval, hαpq, div_div, div_mul_div_comm]
+    have hpos : (0 : ℚ) < q * (D * 2) := by
+      have hq' : (0 : ℚ) < q := by exact_mod_cast hq
+      have hD' : (0 : ℚ) < D := by exact_mod_cast hD
+      positivity
+    rw [div_le_iff₀ hpos]
+    have hα' : (p : ℚ) * ((∑ u : Fin n, ∑ v : Fin n, cost u v * y u v : ℕ) : ℚ)
+        ≤ (q : ℚ) * (2 * (T * D)) := by exact_mod_cast hα
+    linear_combination hα'
+
+/-! ## The graph premise and the shortest-path closure -/
+
+/-- A simple unweighted undirected graph on `n` vertices, as an adjacency
+matrix: symmetric, `0/1`-valued, zero diagonal (no self-loops). Parallel edges
+cannot occur in a `0/1` matrix — exactly the solver sibling's premise
+("no self-loops, no parallel edges, undirected"). Written as a single
+universal carrying several clauses to keep the `Decidable` instance tree
+small for `native_decide`. -/
+def SimpleAdj (adj : Fin n → Fin n → ℕ) : Prop :=
+  ∀ u v : Fin n, adj u v = adj v u ∧ adj u v ≤ 1 ∧ adj u u = 0
+
+/-- Edge consistency of a candidate closure matrix: graph edges have
+`dist = 1`. -/
+def EdgeConsistent (adj dist : Fin n → Fin n → ℕ) : Prop :=
+  ∀ u v : Fin n, adj u v = 1 → dist u v = 1
+
+/-- The adjacency lookup as a total function on naturals (out-of-range
+indices give `0`, so an adjacency value of `1` forces both endpoints to be
+in range). Used by the walk checker, whose walk vertices are plain naturals. -/
+def adjFOf (adj : Fin n → Fin n → ℕ) : ℕ → ℕ → ℕ := fun a b =>
+  if h : a < n ∧ b < n then adj ⟨a, h.1⟩ ⟨b, h.2⟩ else 0
+
+/-- Walk checker, tail: from `cur`, follow the vertex list `p`; every step
+must be a graph edge, and the walk must end exactly at `t`. -/
+def walkGo (F : ℕ → ℕ → ℕ) (cur t : ℕ) : List ℕ → Bool
+  | [] => decide (cur = t)
+  | b :: rest => decide (F cur b = 1) && walkGo F b t rest
+
+/-- Walk checker for the closure certificate: `p` is a graph walk from `s`
+to `t` (nonempty vertex list starting at `s`, every consecutive pair a graph
+edge, ending at `t`). -/
+def walkOkF (F : ℕ → ℕ → ℕ) (s t : ℕ) : List ℕ → Bool
+  | [] => false
+  | a :: rest => decide (a = s) && walkGo F a t rest
+
+/-- The telescoping step: along any checked walk, the metric obeys
+`dist start end ≤ walk length`. Proved by induction on the walk. -/
+lemma walkGo_ge (adj dist : Fin n → Fin n → ℕ) (hmet : MetricCost dist)
+    (hedge : EdgeConsistent adj dist) :
+    ∀ (p : List ℕ) (cur t : ℕ) (hc : cur < n) (ht : t < n),
+      walkGo (adjFOf adj) cur t p = true →
+        dist ⟨cur, hc⟩ ⟨t, ht⟩ ≤ p.length := by
+  intro p
+  induction p with
+  | nil =>
+    intro cur t hc ht h
+    simp only [walkGo, decide_eq_true_eq] at h
+    subst h
+    simp [hmet.1]
+  | cons b rest ih =>
+    intro cur t hc ht h
+    simp only [walkGo, Bool.and_eq_true, decide_eq_true_eq] at h
+    obtain ⟨hstep, hrest⟩ := h
+    have hb : b < n := by
+      by_contra hnb
+      rw [adjFOf, dif_neg (by simp [hnb])] at hstep
+      exact zero_ne_one hstep
+    have hadj : adj ⟨cur, hc⟩ ⟨b, hb⟩ = 1 := by
+      have h' := hstep
+      rw [adjFOf, dif_pos ⟨hc, hb⟩] at h'
+      exact h'
+    have hlen := ih b t hb ht hrest
+    calc dist ⟨cur, hc⟩ ⟨t, ht⟩
+        ≤ dist ⟨cur, hc⟩ ⟨b, hb⟩ + dist ⟨b, hb⟩ ⟨t, ht⟩ := hmet.2.2.2 _ _ _
+      _ = 1 + dist ⟨b, hb⟩ ⟨t, ht⟩ := by rw [hedge _ _ hadj]
+      _ ≤ 1 + rest.length := Nat.add_le_add_left hlen 1
+      _ = (b :: rest).length := by rw [List.length_cons, Nat.add_comm]
+
+/-- Any graph walk from `u` to `v` has length at least `dist u v`: edge costs
+are `1` (`EdgeConsistent`) and `dist` is a metric, so the triangle inequality
+telescopes along the walk. Together with `PathsOk` (a walk of length exactly
+`dist u v` exists for every pair) this proves `dist` IS the shortest-path
+metric of the graph — the same closure the solver sibling computes by
+Floyd–Warshall. -/
+theorem walk_length_ge (adj dist : Fin n → Fin n → ℕ) (hmet : MetricCost dist)
+    (hedge : EdgeConsistent adj dist) (u v : Fin n) (p : List ℕ)
+    (h : walkOkF (adjFOf adj) u.val v.val p = true) :
+    dist u v ≤ p.length - 1 := by
+  cases p with
+  | nil => simp [walkOkF] at h
+  | cons a rest =>
+    simp only [walkOkF, Bool.and_eq_true, decide_eq_true_eq] at h
+    obtain ⟨ha, hgo⟩ := h
+    subst ha
+    have hlen := walkGo_ge adj dist hmet hedge rest u.val v.val u.isLt v.isLt hgo
+    simpa [List.length_cons] using hlen
+
+/-- The closure certificate, upper-bound direction: for every ordered pair
+`u v`, entry `u * n + v` of `paths` is an explicit graph walk from `u` to `v`
+whose length (number of edges = vertices − 1) is exactly `dist u v`. This
+also witnesses connectivity of the graph (every pair is joined by a walk) —
+the solver sibling's BFS-connectivity premise follows from it. -/
+def PathsOk (adj dist : Fin n → Fin n → ℕ) (paths : List (List ℕ)) : Prop :=
+  ∀ u v : Fin n,
+    walkOkF (adjFOf adj) u.val v.val (paths.getD (u.val * n + v.val) []) = true ∧
+    (paths.getD (u.val * n + v.val) []).length = dist u v + 1
+
+/-- The full certificate statement for this task: a simple unweighted
+undirected graph on `m` vertices in the admitted size range, its exact
+shortest-path metric closure `dist` (metric premise + edge consistency +
+explicit realizing walks; exactness is justified by the proved lemma
+`walk_length_ge`), whose subtour-LP integrality gap is at least `α`.
+Only `11 ≤ m ≤ 20` counts for the milestones; smaller instances serve as
+sanity checks (e.g. any cycle `C_m`, whose gap is exactly `1`). -/
+def GraphGapBound (m : ℕ) [NeZero m] (adj dist : Fin m → Fin m → ℕ) (α : ℚ) : Prop :=
+  3 ≤ m ∧ m ≤ 20 ∧ SimpleAdj adj ∧ MetricCost dist ∧ EdgeConsistent adj dist ∧
+    (∃ paths : List (List ℕ), PathsOk adj dist paths) ∧ GapLB dist α
+
+-- END OF FIXED PART — everything below is yours: instance data, certificate
+/-! ## Oracle certificate: the theta graph Θ(7,7,7) (n = 20, gap exactly 26/21)
+
+Instance: endpoints 0 and 1 joined by three internally-disjoint paths of
+length 7 — the Desjardins 2017 (Figure 5.3.1) family member at `n = 20`
+(the `n = 2 mod 3` case), the same construction as the solver sibling's
+oracle. OPT_LP = 21, OPT_tour = 26, gap exactly `26/21 ≈ 1.2381`: the
+standing record anchor, so this certificate scores exactly 1.0 (ties the
+record, does not beat it; `record_broken` stays false).
+
+LP point (half-integral, exact value 21): `y=1 on (0,2) cost=1; y=1 on (0,8) cost=1; y=2 on (0,14) cost=1; y=1 on (1,7) cost=1; y=2 on (1,13) cost=1; y=1 on (1,19) cost=1; y=2 on (2,3) cost=1; y=1 on (2,8) cost=2; y=2 on (3,4) cost=1; y=2 on (4,5) cost=1; y=2 on (5,6) cost=1; y=2 on (6,7) cost=1; y=1 on (7,19) cost=2; y=2 on (8,9) cost=1; y=2 on (9,10) cost=1; y=2 on (10,11) cost=1; y=2 on (11,12) cost=1; y=2 on (12,13) cost=1; y=2 on (14,15) cost=1; y=2 on (15,16) cost=1; y=2 on (16,17) cost=1; y=2 on (17,18) cost=1; y=2 on (18,19) cost=1`; the numerator matrix
+is `y = 2x`. All other entries are zero. The tour bound `T = 26` is certified
+by the exact Held-Karp DP table. The table is not listed literally
+(`2^20 × 20` entries would be hundreds of MB of source); it is built by the
+deterministic in-Lean loop below and every potential inequality is checked by
+`native_decide` (the table build and the checks take a few minutes inside the
+verifier's 28-minute probe budget). -/
+
+/-- Number of vertices: the theta graph Θ(7,7,7). -/
+def certN : ℕ := 20
+
+instance : NeZero certN := ⟨by decide⟩
+
+/-- Adjacency matrix of Θ(7,7,7), flat row-major (`20 × 20`): paths
+`0 — (2..7) — 1`, `0 — (8..13) — 1`, `0 — (14..19) — 1`. -/
+def certAdjA : Array ℕ := #[0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+
+/-- The adjacency function (array lookup; `List`-matrix lookups would cost
+one traversal per access, which is prohibitive at `n = 20`). -/
+def certAdj : Fin certN → Fin certN → ℕ := fun u v => certAdjA.getD (u.val * certN + v.val) 0
+
+/-- Shortest-path metric closure of Θ(7,7,7), flat row-major. -/
+def certDistA : Array ℕ := #[0, 7, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 7, 0, 6, 5, 4, 3, 2, 1, 6, 5, 4, 3, 2, 1, 6, 5, 4, 3, 2, 1, 1, 6, 0, 1, 2, 3, 4, 5, 2, 3, 4, 5, 6, 7, 2, 3, 4, 5, 6, 7, 2, 5, 1, 0, 1, 2, 3, 4, 3, 4, 5, 6, 7, 6, 3, 4, 5, 6, 7, 6, 3, 4, 2, 1, 0, 1, 2, 3, 4, 5, 6, 7, 6, 5, 4, 5, 6, 7, 6, 5, 4, 3, 3, 2, 1, 0, 1, 2, 5, 6, 7, 6, 5, 4, 5, 6, 7, 6, 5, 4, 5, 2, 4, 3, 2, 1, 0, 1, 6, 7, 6, 5, 4, 3, 6, 7, 6, 5, 4, 3, 6, 1, 5, 4, 3, 2, 1, 0, 7, 6, 5, 4, 3, 2, 7, 6, 5, 4, 3, 2, 1, 6, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, 2, 3, 4, 5, 6, 7, 2, 5, 3, 4, 5, 6, 7, 6, 1, 0, 1, 2, 3, 4, 3, 4, 5, 6, 7, 6, 3, 4, 4, 5, 6, 7, 6, 5, 2, 1, 0, 1, 2, 3, 4, 5, 6, 7, 6, 5, 4, 3, 5, 6, 7, 6, 5, 4, 3, 2, 1, 0, 1, 2, 5, 6, 7, 6, 5, 4, 5, 2, 6, 7, 6, 5, 4, 3, 4, 3, 2, 1, 0, 1, 6, 7, 6, 5, 4, 3, 6, 1, 7, 6, 5, 4, 3, 2, 5, 4, 3, 2, 1, 0, 7, 6, 5, 4, 3, 2, 1, 6, 2, 3, 4, 5, 6, 7, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, 2, 5, 3, 4, 5, 6, 7, 6, 3, 4, 5, 6, 7, 6, 1, 0, 1, 2, 3, 4, 3, 4, 4, 5, 6, 7, 6, 5, 4, 5, 6, 7, 6, 5, 2, 1, 0, 1, 2, 3, 4, 3, 5, 6, 7, 6, 5, 4, 5, 6, 7, 6, 5, 4, 3, 2, 1, 0, 1, 2, 5, 2, 6, 7, 6, 5, 4, 3, 6, 7, 6, 5, 4, 3, 4, 3, 2, 1, 0, 1, 6, 1, 7, 6, 5, 4, 3, 2, 7, 6, 5, 4, 3, 2, 5, 4, 3, 2, 1, 0]
+
+/-- The distance function. -/
+def certDist : Fin certN → Fin certN → ℕ := fun u v => certDistA.getD (u.val * certN + v.val) 0
+
+/-- Walk witnesses for the closure: entry `u * certN + v` is a BFS shortest
+path from `u` to `v` in the graph (length exactly `certDist u v`). -/
+def certPathsM : List (List ℕ) :=
+  [[0],
+   [0, 2, 3, 4, 5, 6, 7, 1],
+   [0, 2],
+   [0, 2, 3],
+   [0, 2, 3, 4],
+   [0, 2, 3, 4, 5],
+   [0, 2, 3, 4, 5, 6],
+   [0, 2, 3, 4, 5, 6, 7],
+   [0, 8],
+   [0, 8, 9],
+   [0, 8, 9, 10],
+   [0, 8, 9, 10, 11],
+   [0, 8, 9, 10, 11, 12],
+   [0, 8, 9, 10, 11, 12, 13],
+   [0, 14],
+   [0, 14, 15],
+   [0, 14, 15, 16],
+   [0, 14, 15, 16, 17],
+   [0, 14, 15, 16, 17, 18],
+   [0, 14, 15, 16, 17, 18, 19],
+   [1, 7, 6, 5, 4, 3, 2, 0],
+   [1],
+   [1, 7, 6, 5, 4, 3, 2],
+   [1, 7, 6, 5, 4, 3],
+   [1, 7, 6, 5, 4],
+   [1, 7, 6, 5],
+   [1, 7, 6],
+   [1, 7],
+   [1, 13, 12, 11, 10, 9, 8],
+   [1, 13, 12, 11, 10, 9],
+   [1, 13, 12, 11, 10],
+   [1, 13, 12, 11],
+   [1, 13, 12],
+   [1, 13],
+   [1, 19, 18, 17, 16, 15, 14],
+   [1, 19, 18, 17, 16, 15],
+   [1, 19, 18, 17, 16],
+   [1, 19, 18, 17],
+   [1, 19, 18],
+   [1, 19],
+   [2, 0],
+   [2, 3, 4, 5, 6, 7, 1],
+   [2],
+   [2, 3],
+   [2, 3, 4],
+   [2, 3, 4, 5],
+   [2, 3, 4, 5, 6],
+   [2, 3, 4, 5, 6, 7],
+   [2, 0, 8],
+   [2, 0, 8, 9],
+   [2, 0, 8, 9, 10],
+   [2, 0, 8, 9, 10, 11],
+   [2, 0, 8, 9, 10, 11, 12],
+   [2, 0, 8, 9, 10, 11, 12, 13],
+   [2, 0, 14],
+   [2, 0, 14, 15],
+   [2, 0, 14, 15, 16],
+   [2, 0, 14, 15, 16, 17],
+   [2, 0, 14, 15, 16, 17, 18],
+   [2, 0, 14, 15, 16, 17, 18, 19],
+   [3, 2, 0],
+   [3, 4, 5, 6, 7, 1],
+   [3, 2],
+   [3],
+   [3, 4],
+   [3, 4, 5],
+   [3, 4, 5, 6],
+   [3, 4, 5, 6, 7],
+   [3, 2, 0, 8],
+   [3, 2, 0, 8, 9],
+   [3, 2, 0, 8, 9, 10],
+   [3, 2, 0, 8, 9, 10, 11],
+   [3, 2, 0, 8, 9, 10, 11, 12],
+   [3, 4, 5, 6, 7, 1, 13],
+   [3, 2, 0, 14],
+   [3, 2, 0, 14, 15],
+   [3, 2, 0, 14, 15, 16],
+   [3, 2, 0, 14, 15, 16, 17],
+   [3, 2, 0, 14, 15, 16, 17, 18],
+   [3, 4, 5, 6, 7, 1, 19],
+   [4, 3, 2, 0],
+   [4, 5, 6, 7, 1],
+   [4, 3, 2],
+   [4, 3],
+   [4],
+   [4, 5],
+   [4, 5, 6],
+   [4, 5, 6, 7],
+   [4, 3, 2, 0, 8],
+   [4, 3, 2, 0, 8, 9],
+   [4, 3, 2, 0, 8, 9, 10],
+   [4, 3, 2, 0, 8, 9, 10, 11],
+   [4, 5, 6, 7, 1, 13, 12],
+   [4, 5, 6, 7, 1, 13],
+   [4, 3, 2, 0, 14],
+   [4, 3, 2, 0, 14, 15],
+   [4, 3, 2, 0, 14, 15, 16],
+   [4, 3, 2, 0, 14, 15, 16, 17],
+   [4, 5, 6, 7, 1, 19, 18],
+   [4, 5, 6, 7, 1, 19],
+   [5, 4, 3, 2, 0],
+   [5, 6, 7, 1],
+   [5, 4, 3, 2],
+   [5, 4, 3],
+   [5, 4],
+   [5],
+   [5, 6],
+   [5, 6, 7],
+   [5, 4, 3, 2, 0, 8],
+   [5, 4, 3, 2, 0, 8, 9],
+   [5, 4, 3, 2, 0, 8, 9, 10],
+   [5, 6, 7, 1, 13, 12, 11],
+   [5, 6, 7, 1, 13, 12],
+   [5, 6, 7, 1, 13],
+   [5, 4, 3, 2, 0, 14],
+   [5, 4, 3, 2, 0, 14, 15],
+   [5, 4, 3, 2, 0, 14, 15, 16],
+   [5, 6, 7, 1, 19, 18, 17],
+   [5, 6, 7, 1, 19, 18],
+   [5, 6, 7, 1, 19],
+   [6, 5, 4, 3, 2, 0],
+   [6, 7, 1],
+   [6, 5, 4, 3, 2],
+   [6, 5, 4, 3],
+   [6, 5, 4],
+   [6, 5],
+   [6],
+   [6, 7],
+   [6, 5, 4, 3, 2, 0, 8],
+   [6, 5, 4, 3, 2, 0, 8, 9],
+   [6, 7, 1, 13, 12, 11, 10],
+   [6, 7, 1, 13, 12, 11],
+   [6, 7, 1, 13, 12],
+   [6, 7, 1, 13],
+   [6, 5, 4, 3, 2, 0, 14],
+   [6, 5, 4, 3, 2, 0, 14, 15],
+   [6, 7, 1, 19, 18, 17, 16],
+   [6, 7, 1, 19, 18, 17],
+   [6, 7, 1, 19, 18],
+   [6, 7, 1, 19],
+   [7, 6, 5, 4, 3, 2, 0],
+   [7, 1],
+   [7, 6, 5, 4, 3, 2],
+   [7, 6, 5, 4, 3],
+   [7, 6, 5, 4],
+   [7, 6, 5],
+   [7, 6],
+   [7],
+   [7, 1, 13, 12, 11, 10, 9, 8],
+   [7, 1, 13, 12, 11, 10, 9],
+   [7, 1, 13, 12, 11, 10],
+   [7, 1, 13, 12, 11],
+   [7, 1, 13, 12],
+   [7, 1, 13],
+   [7, 1, 19, 18, 17, 16, 15, 14],
+   [7, 1, 19, 18, 17, 16, 15],
+   [7, 1, 19, 18, 17, 16],
+   [7, 1, 19, 18, 17],
+   [7, 1, 19, 18],
+   [7, 1, 19],
+   [8, 0],
+   [8, 9, 10, 11, 12, 13, 1],
+   [8, 0, 2],
+   [8, 0, 2, 3],
+   [8, 0, 2, 3, 4],
+   [8, 0, 2, 3, 4, 5],
+   [8, 0, 2, 3, 4, 5, 6],
+   [8, 0, 2, 3, 4, 5, 6, 7],
+   [8],
+   [8, 9],
+   [8, 9, 10],
+   [8, 9, 10, 11],
+   [8, 9, 10, 11, 12],
+   [8, 9, 10, 11, 12, 13],
+   [8, 0, 14],
+   [8, 0, 14, 15],
+   [8, 0, 14, 15, 16],
+   [8, 0, 14, 15, 16, 17],
+   [8, 0, 14, 15, 16, 17, 18],
+   [8, 0, 14, 15, 16, 17, 18, 19],
+   [9, 8, 0],
+   [9, 10, 11, 12, 13, 1],
+   [9, 8, 0, 2],
+   [9, 8, 0, 2, 3],
+   [9, 8, 0, 2, 3, 4],
+   [9, 8, 0, 2, 3, 4, 5],
+   [9, 8, 0, 2, 3, 4, 5, 6],
+   [9, 10, 11, 12, 13, 1, 7],
+   [9, 8],
+   [9],
+   [9, 10],
+   [9, 10, 11],
+   [9, 10, 11, 12],
+   [9, 10, 11, 12, 13],
+   [9, 8, 0, 14],
+   [9, 8, 0, 14, 15],
+   [9, 8, 0, 14, 15, 16],
+   [9, 8, 0, 14, 15, 16, 17],
+   [9, 8, 0, 14, 15, 16, 17, 18],
+   [9, 10, 11, 12, 13, 1, 19],
+   [10, 9, 8, 0],
+   [10, 11, 12, 13, 1],
+   [10, 9, 8, 0, 2],
+   [10, 9, 8, 0, 2, 3],
+   [10, 9, 8, 0, 2, 3, 4],
+   [10, 9, 8, 0, 2, 3, 4, 5],
+   [10, 11, 12, 13, 1, 7, 6],
+   [10, 11, 12, 13, 1, 7],
+   [10, 9, 8],
+   [10, 9],
+   [10],
+   [10, 11],
+   [10, 11, 12],
+   [10, 11, 12, 13],
+   [10, 9, 8, 0, 14],
+   [10, 9, 8, 0, 14, 15],
+   [10, 9, 8, 0, 14, 15, 16],
+   [10, 9, 8, 0, 14, 15, 16, 17],
+   [10, 11, 12, 13, 1, 19, 18],
+   [10, 11, 12, 13, 1, 19],
+   [11, 10, 9, 8, 0],
+   [11, 12, 13, 1],
+   [11, 10, 9, 8, 0, 2],
+   [11, 10, 9, 8, 0, 2, 3],
+   [11, 10, 9, 8, 0, 2, 3, 4],
+   [11, 12, 13, 1, 7, 6, 5],
+   [11, 12, 13, 1, 7, 6],
+   [11, 12, 13, 1, 7],
+   [11, 10, 9, 8],
+   [11, 10, 9],
+   [11, 10],
+   [11],
+   [11, 12],
+   [11, 12, 13],
+   [11, 10, 9, 8, 0, 14],
+   [11, 10, 9, 8, 0, 14, 15],
+   [11, 10, 9, 8, 0, 14, 15, 16],
+   [11, 12, 13, 1, 19, 18, 17],
+   [11, 12, 13, 1, 19, 18],
+   [11, 12, 13, 1, 19],
+   [12, 11, 10, 9, 8, 0],
+   [12, 13, 1],
+   [12, 11, 10, 9, 8, 0, 2],
+   [12, 11, 10, 9, 8, 0, 2, 3],
+   [12, 13, 1, 7, 6, 5, 4],
+   [12, 13, 1, 7, 6, 5],
+   [12, 13, 1, 7, 6],
+   [12, 13, 1, 7],
+   [12, 11, 10, 9, 8],
+   [12, 11, 10, 9],
+   [12, 11, 10],
+   [12, 11],
+   [12],
+   [12, 13],
+   [12, 11, 10, 9, 8, 0, 14],
+   [12, 11, 10, 9, 8, 0, 14, 15],
+   [12, 13, 1, 19, 18, 17, 16],
+   [12, 13, 1, 19, 18, 17],
+   [12, 13, 1, 19, 18],
+   [12, 13, 1, 19],
+   [13, 12, 11, 10, 9, 8, 0],
+   [13, 1],
+   [13, 1, 7, 6, 5, 4, 3, 2],
+   [13, 1, 7, 6, 5, 4, 3],
+   [13, 1, 7, 6, 5, 4],
+   [13, 1, 7, 6, 5],
+   [13, 1, 7, 6],
+   [13, 1, 7],
+   [13, 12, 11, 10, 9, 8],
+   [13, 12, 11, 10, 9],
+   [13, 12, 11, 10],
+   [13, 12, 11],
+   [13, 12],
+   [13],
+   [13, 1, 19, 18, 17, 16, 15, 14],
+   [13, 1, 19, 18, 17, 16, 15],
+   [13, 1, 19, 18, 17, 16],
+   [13, 1, 19, 18, 17],
+   [13, 1, 19, 18],
+   [13, 1, 19],
+   [14, 0],
+   [14, 15, 16, 17, 18, 19, 1],
+   [14, 0, 2],
+   [14, 0, 2, 3],
+   [14, 0, 2, 3, 4],
+   [14, 0, 2, 3, 4, 5],
+   [14, 0, 2, 3, 4, 5, 6],
+   [14, 0, 2, 3, 4, 5, 6, 7],
+   [14, 0, 8],
+   [14, 0, 8, 9],
+   [14, 0, 8, 9, 10],
+   [14, 0, 8, 9, 10, 11],
+   [14, 0, 8, 9, 10, 11, 12],
+   [14, 0, 8, 9, 10, 11, 12, 13],
+   [14],
+   [14, 15],
+   [14, 15, 16],
+   [14, 15, 16, 17],
+   [14, 15, 16, 17, 18],
+   [14, 15, 16, 17, 18, 19],
+   [15, 14, 0],
+   [15, 16, 17, 18, 19, 1],
+   [15, 14, 0, 2],
+   [15, 14, 0, 2, 3],
+   [15, 14, 0, 2, 3, 4],
+   [15, 14, 0, 2, 3, 4, 5],
+   [15, 14, 0, 2, 3, 4, 5, 6],
+   [15, 16, 17, 18, 19, 1, 7],
+   [15, 14, 0, 8],
+   [15, 14, 0, 8, 9],
+   [15, 14, 0, 8, 9, 10],
+   [15, 14, 0, 8, 9, 10, 11],
+   [15, 14, 0, 8, 9, 10, 11, 12],
+   [15, 16, 17, 18, 19, 1, 13],
+   [15, 14],
+   [15],
+   [15, 16],
+   [15, 16, 17],
+   [15, 16, 17, 18],
+   [15, 16, 17, 18, 19],
+   [16, 15, 14, 0],
+   [16, 17, 18, 19, 1],
+   [16, 15, 14, 0, 2],
+   [16, 15, 14, 0, 2, 3],
+   [16, 15, 14, 0, 2, 3, 4],
+   [16, 15, 14, 0, 2, 3, 4, 5],
+   [16, 17, 18, 19, 1, 7, 6],
+   [16, 17, 18, 19, 1, 7],
+   [16, 15, 14, 0, 8],
+   [16, 15, 14, 0, 8, 9],
+   [16, 15, 14, 0, 8, 9, 10],
+   [16, 15, 14, 0, 8, 9, 10, 11],
+   [16, 17, 18, 19, 1, 13, 12],
+   [16, 17, 18, 19, 1, 13],
+   [16, 15, 14],
+   [16, 15],
+   [16],
+   [16, 17],
+   [16, 17, 18],
+   [16, 17, 18, 19],
+   [17, 16, 15, 14, 0],
+   [17, 18, 19, 1],
+   [17, 16, 15, 14, 0, 2],
+   [17, 16, 15, 14, 0, 2, 3],
+   [17, 16, 15, 14, 0, 2, 3, 4],
+   [17, 18, 19, 1, 7, 6, 5],
+   [17, 18, 19, 1, 7, 6],
+   [17, 18, 19, 1, 7],
+   [17, 16, 15, 14, 0, 8],
+   [17, 16, 15, 14, 0, 8, 9],
+   [17, 16, 15, 14, 0, 8, 9, 10],
+   [17, 18, 19, 1, 13, 12, 11],
+   [17, 18, 19, 1, 13, 12],
+   [17, 18, 19, 1, 13],
+   [17, 16, 15, 14],
+   [17, 16, 15],
+   [17, 16],
+   [17],
+   [17, 18],
+   [17, 18, 19],
+   [18, 17, 16, 15, 14, 0],
+   [18, 19, 1],
+   [18, 17, 16, 15, 14, 0, 2],
+   [18, 17, 16, 15, 14, 0, 2, 3],
+   [18, 19, 1, 7, 6, 5, 4],
+   [18, 19, 1, 7, 6, 5],
+   [18, 19, 1, 7, 6],
+   [18, 19, 1, 7],
+   [18, 17, 16, 15, 14, 0, 8],
+   [18, 17, 16, 15, 14, 0, 8, 9],
+   [18, 19, 1, 13, 12, 11, 10],
+   [18, 19, 1, 13, 12, 11],
+   [18, 19, 1, 13, 12],
+   [18, 19, 1, 13],
+   [18, 17, 16, 15, 14],
+   [18, 17, 16, 15],
+   [18, 17, 16],
+   [18, 17],
+   [18],
+   [18, 19],
+   [19, 18, 17, 16, 15, 14, 0],
+   [19, 1],
+   [19, 1, 7, 6, 5, 4, 3, 2],
+   [19, 1, 7, 6, 5, 4, 3],
+   [19, 1, 7, 6, 5, 4],
+   [19, 1, 7, 6, 5],
+   [19, 1, 7, 6],
+   [19, 1, 7],
+   [19, 1, 13, 12, 11, 10, 9, 8],
+   [19, 1, 13, 12, 11, 10, 9],
+   [19, 1, 13, 12, 11, 10],
+   [19, 1, 13, 12, 11],
+   [19, 1, 13, 12],
+   [19, 1, 13],
+   [19, 18, 17, 16, 15, 14],
+   [19, 18, 17, 16, 15],
+   [19, 18, 17, 16],
+   [19, 18, 17],
+   [19, 18],
+   [19]]
+
+/-- LP numerator `y = 2x`, flat row-major. -/
+def certYA : Array ℕ := #[0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0]
+
+/-- The LP numerator as a function. -/
+def certY : Fin certN → Fin certN → ℕ := fun u v => certYA.getD (u.val * certN + v.val) 0
+
+/-- The LP denominator: `x = certY / 2`. -/
+def certD : ℕ := 2
+
+/-- Sentinel for unused potential-table states. -/
+def potBIG : ℕ := 1000000
+
+/-- The exact Held-Karp DP table, computed once into a flat array
+(`2 ^ certN` masks × `certN` rows; entry `mask * certN + j`). States without
+vertex `0`, or with `j` outside the mask, keep the sentinel. -/
+def certTable : Array ℕ := Id.run do
+  let n := certN
+  let sz := 2 ^ n
+  let mut t : Array ℕ := .replicate (sz * n) potBIG
+  t := t.set! (1 * n + 0) 0
+  for mask in [1:sz] do
+    if mask &&& 1 == 1 then
+      for hj in [1:n] do
+        if (mask >>> hj) &&& 1 == 1 then
+          let pm := mask ^^^ (1 <<< hj)
+          let mut best := potBIG
+          for hi in [0:n] do
+            if (pm >>> hi) &&& 1 == 1 then
+              let cand := t.getD (pm * n + hi) 0 + certDistA.getD (hi * n + hj) 0
+              if cand < best then
+                best := cand
+          t := t.set! (mask * n + hj) best
+  return t
+
+/-- The potential table as a function. -/
+def certW : ℕ → Fin certN → ℕ := fun mask j => certTable.getD (mask * certN + j.val) potBIG
+
+/-- Certified tour lower bound (the exact optimum). -/
+def certT : ℕ := 26
+
+/-- Claimed gap lower bound: `26/21`, the family value at `n = 20`. -/
+def claimedAlpha : ℚ := 26 / 21
+
+/-- The Held-Karp potential inequalities for `certW`. -/
+theorem pot_step : ∀ mask : ℕ, mask < 2 ^ certN → mask.testBit 0 = true →
+    ∀ j i : Fin certN, j ≠ 0 → i ≠ j → mask.testBit j.val = true →
+      mask.testBit i.val = true →
+      certW mask j ≤ certW (mask ^^^ (2 ^ j.val)) i + certDist i j := by
+  native_decide
+
+/-- LP degree check: every row of `certY` sums to `2 * certD = 4`. -/
+theorem lp_deg : ∀ v : Fin certN, ∑ u : Fin certN, certY v u = 2 * certD := by
+  native_decide
+
+/-- LP subtour-cut check: every proper nonempty cut carries at least
+`2 * certD = 4`. -/
+theorem lp_subtour : ∀ mask : ℕ, mask < 2 ^ certN → mask ≠ 0 → mask ≠ 2 ^ certN - 1 →
+    2 * certD ≤ ∑ u : Fin certN, ∑ v : Fin certN,
+      if mask.testBit u.val ∧ ¬ mask.testBit v.val then certY u v else 0 := by
+  native_decide
+
+/-- Main theorem: the theta graph Θ(7,7,7) with its shortest-path closure has
+subtour-LP integrality gap at least `26/21` (in fact exactly `26/21`). -/
+theorem main : GraphGapBound certN certAdj certDist claimedAlpha := by
+  refine ⟨by decide, by decide, (by unfold SimpleAdj; native_decide),
+    ⟨by native_decide, by native_decide, by native_decide, by native_decide⟩,
+    (by unfold EdgeConsistent; native_decide),
+    ⟨certPathsM, (by unfold PathsOk; native_decide)⟩, ?_⟩
+  exact gapLB_of_cert (by decide) certDist certW certY certD certT (by decide)
+    claimedAlpha 26 21 (by decide) (by norm_num [claimedAlpha])
+    (by native_decide) pot_step (by native_decide)
+    (by native_decide) (by native_decide) (by native_decide) lp_deg lp_subtour (by native_decide)
+
+end GraphTSPGap

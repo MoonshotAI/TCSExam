@@ -1,0 +1,27 @@
+{
+  "archive_verified": true,
+  "authors": [
+    "Josh Teeter<joshteeter@gmail.com>"
+  ],
+  "bytes": 17438,
+  "checksum_sha256": "fe438c63458706e03479442743baae6c88256498e6431708f6dfc520a26515d3",
+  "inclusion_scope": "Conservative exact-Cargo.lock notice superset; presence here does not assert linkage into wasm32.",
+  "license": "BSD-2-Clause",
+  "name": "Inflector",
+  "notice_basis": "Exact released Cargo.toml explicitly identifies the license and authors; a same-project current source notice supplements an archive that omitted a standalone license text. The retrieved text is not represented as an originally shipped historical file.",
+  "original_notice_files": [],
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_url": "https://static.crates.io/crates/Inflector/Inflector-0.11.4.crate",
+  "supplementary_project_notice": {
+    "bytes": 1270,
+    "installed_file": "notices/supplementary/03d1bd5bfbee8d44651e7f57faf9e5b4eda4233f0d4eda36a716f2f0533d230b.txt",
+    "name": "Inflector-BSD-full",
+    "sha256": "03d1bd5bfbee8d44651e7f57faf9e5b4eda4233f0d4eda36a716f2f0533d230b",
+    "status": 200,
+    "text_file": "image-notices/03d1bd5bfbee8d44651e7f57faf9e5b4eda4233f0d4eda36a716f2f0533d230b.txt",
+    "url": "https://raw.githubusercontent.com/whatisinternet/inflector/master/LICENSE.md"
+  },
+  "target_note": null,
+  "version": "0.11.4"
+}

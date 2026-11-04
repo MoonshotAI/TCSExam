@@ -1,0 +1,43 @@
+{
+  "author": "Vladimir Agafonkin",
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "Unlicense",
+  "lock_entry": {
+    "integrity": "sha512-IXgzBWvWQwE6PrDI05OvmXUIruQTcoMDzRsOd5CDvHCVLcLHMTSYvOK5Cm46kWqlV3yAbuSpBZdJ5oP5OUoStg==",
+    "license": "Unlicense",
+    "resolved": "https://registry.npmjs.org/robust-predicates/-/robust-predicates-3.0.2.tgz",
+    "version": "3.0.2"
+  },
+  "lock_path": "node_modules/robust-predicates",
+  "name": "robust-predicates",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 1210,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
+      "text_file": "image-notices/88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd.txt"
+    }
+  ],
+  "package_license": "Unlicense",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 40958,
+    "installed_in_image": false,
+    "integrity": "sha512-IXgzBWvWQwE6PrDI05OvmXUIruQTcoMDzRsOd5CDvHCVLcLHMTSYvOK5Cm46kWqlV3yAbuSpBZdJ5oP5OUoStg==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/robust-predicates/-/robust-predicates-3.0.2.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "962cacbec5dc58976307fa534c335331c11a1f8f315fc698776c4e1fc931e17e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "3.0.2"
+}

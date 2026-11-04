@@ -1,0 +1,746 @@
+{
+ "B": 28,
+ "b_per_instance_source": "per-instance B flags from evaluation runner judging-pipeline measurement harvest results.jsonl anchor B",
+ "b_source": "baseline-vc-bnb@1800s(pace2019-spec)",
+ "instances": {
+  "vc-exact_002": {
+   "B": 1,
+   "K": 10605,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 63334,
+   "n": 51795
+  },
+  "vc-exact_004": {
+   "B": 1,
+   "K": 2574,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 26013,
+   "n": 8114
+  },
+  "vc-exact_006": {
+   "B": 1,
+   "K": 126,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 751,
+   "n": 200
+  },
+  "vc-exact_008": {
+   "B": 0,
+   "K": 3345,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 72833,
+   "n": 7537
+  },
+  "vc-exact_010": {
+   "B": 1,
+   "K": 127,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 774,
+   "n": 199
+  },
+  "vc-exact_012": {
+   "B": 1,
+   "K": 10918,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 68044,
+   "n": 53444
+  },
+  "vc-exact_014": {
+   "B": 1,
+   "K": 5111,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 31552,
+   "n": 25123
+  },
+  "vc-exact_016": {
+   "B": 0,
+   "K": 128,
+   "has_witness": true,
+   "k_source": "peaty local-search incumbent@1800s upper bound (unproven; K=n-alpha_LS from harvest-127283 KX log; better-than-K ratchets)",
+   "m": 802,
+   "n": 153,
+   "witness_note": "M1 cover of 128 == K filed in solution/precomputed (sha1-keyed); K provenance unchanged (peaty incumbent, now witness-backed)"
+  },
+  "vc-exact_018": {
+   "B": 1,
+   "K": 10201,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 63601,
+   "n": 49212
+  },
+  "vc-exact_020": {
+   "B": 1,
+   "K": 11648,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 71155,
+   "n": 57287
+  },
+  "vc-exact_022": {
+   "B": 0,
+   "K": 6749,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 33129,
+   "n": 12589
+  },
+  "vc-exact_024": {
+   "B": 0,
+   "K": 4364,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 47293,
+   "n": 7620
+  },
+  "vc-exact_026": {
+   "B": 0,
+   "K": 2506,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 36767,
+   "n": 6140
+  },
+  "vc-exact_028": {
+   "B": 1,
+   "K": 11211,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 67000,
+   "n": 54991
+  },
+  "vc-exact_030": {
+   "B": 1,
+   "K": 13338,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 79557,
+   "n": 62853
+  },
+  "vc-exact_032": {
+   "B": 0,
+   "K": 960,
+   "k_source": "WeGotYouCovered@1800s proven(pace2019-spec)",
+   "m": 2680,
+   "n": 1490
+  },
+  "vc-exact_034": {
+   "B": 0,
+   "K": 960,
+   "k_source": "WeGotYouCovered@1800s proven(pace2019-spec)",
+   "m": 2680,
+   "n": 1490
+  },
+  "vc-exact_036": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_038": {
+   "B": 0,
+   "K": 605,
+   "k_source": "WeGotYouCovered@1800s proven(pace2019-spec)",
+   "m": 14024,
+   "n": 786
+  },
+  "vc-exact_040": {
+   "B": 0,
+   "K": 145,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 625,
+   "n": 210
+  },
+  "vc-exact_042": {
+   "B": 1,
+   "K": 136,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 974,
+   "n": 200
+  },
+  "vc-exact_044": {
+   "B": 1,
+   "K": 142,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 1186,
+   "n": 200
+  },
+  "vc-exact_046": {
+   "B": 1,
+   "K": 137,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 812,
+   "n": 200
+  },
+  "vc-exact_048": {
+   "B": 1,
+   "K": 138,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 1052,
+   "n": 200
+  },
+  "vc-exact_050": {
+   "B": 1,
+   "K": 140,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 1048,
+   "n": 200
+  },
+  "vc-exact_052": {
+   "B": 1,
+   "K": 138,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 1019,
+   "n": 200
+  },
+  "vc-exact_054": {
+   "B": 1,
+   "K": 137,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 985,
+   "n": 200
+  },
+  "vc-exact_056": {
+   "B": 1,
+   "K": 141,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 1117,
+   "n": 200
+  },
+  "vc-exact_058": {
+   "B": 1,
+   "K": 142,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 1202,
+   "n": 200
+  },
+  "vc-exact_060": {
+   "B": 1,
+   "K": 141,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 1147,
+   "n": 200
+  },
+  "vc-exact_062": {
+   "B": 1,
+   "K": 141,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 1164,
+   "n": 199
+  },
+  "vc-exact_064": {
+   "B": 1,
+   "K": 138,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 1071,
+   "n": 200
+  },
+  "vc-exact_066": {
+   "B": 1,
+   "K": 134,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 884,
+   "n": 200
+  },
+  "vc-exact_068": {
+   "B": 1,
+   "K": 135,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 983,
+   "n": 200
+  },
+  "vc-exact_070": {
+   "B": 1,
+   "K": 133,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 887,
+   "n": 200
+  },
+  "vc-exact_072": {
+   "B": 1,
+   "K": 140,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 1204,
+   "n": 200
+  },
+  "vc-exact_074": {
+   "B": 1,
+   "K": 132,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 820,
+   "n": 200
+  },
+  "vc-exact_076": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_078": {
+   "B": 0,
+   "K": 7015,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 17739,
+   "n": 11349
+  },
+  "vc-exact_080": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_082": {
+   "B": 1,
+   "K": 138,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 978,
+   "n": 200
+  },
+  "vc-exact_084": {
+   "B": 0,
+   "K": 8400,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 21240,
+   "n": 13590
+  },
+  "vc-exact_086": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_088": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_090": {
+   "B": 0,
+   "K": 7015,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 17739,
+   "n": 11349
+  },
+  "vc-exact_092": {
+   "B": 0,
+   "K": 420,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 17794,
+   "n": 450
+  },
+  "vc-exact_094": {
+   "B": 0,
+   "K": 3842,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 10720,
+   "n": 5960,
+   "witness_note": "M1 cover of 3842 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 4696"
+  },
+  "vc-exact_096": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_098": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_100": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_102": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_104": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_106": {
+   "B": 0,
+   "K": 1921,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 5360,
+   "n": 2980,
+   "witness_note": "M1 cover of 1921 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 2337"
+  },
+  "vc-exact_108": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_110": {
+   "B": 0,
+   "K": 61814,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 161357,
+   "n": 98128,
+   "witness_note": "M1 cover of 61814 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 88043"
+  },
+  "vc-exact_112": {
+   "B": 0,
+   "K": 11185,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_114": {
+   "B": 0,
+   "K": 9755,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_116": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_118": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_120": {
+   "B": 0,
+   "K": 44173,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 116378,
+   "n": 70144,
+   "witness_note": "M1 cover of 44173 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 66564"
+  },
+  "vc-exact_122": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_124": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_126": {
+   "B": 0,
+   "K": 11185,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_128": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_130": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_132": {
+   "B": 0,
+   "K": 9755,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_134": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_136": {
+   "B": 0,
+   "K": 11185,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_138": {
+   "B": 0,
+   "K": 11185,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_140": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_142": {
+   "B": 0,
+   "K": 1920,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 5360,
+   "n": 2980,
+   "witness_note": "M1 cover of 1920 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 2325"
+  },
+  "vc-exact_144": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_146": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_148": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_150": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_152": {
+   "B": 0,
+   "K": 8400,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 21240,
+   "n": 13590
+  },
+  "vc-exact_154": {
+   "B": 0,
+   "K": 9755,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_156": {
+   "B": 0,
+   "K": 420,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 17809,
+   "n": 450
+  },
+  "vc-exact_158": {
+   "B": 0,
+   "K": 9755,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_160": {
+   "B": 0,
+   "K": 11185,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_162": {
+   "B": 0,
+   "K": 31860,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 83075,
+   "n": 50635,
+   "witness_note": "M1 cover of 31860 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 45588"
+  },
+  "vc-exact_164": {
+   "B": 0,
+   "K": 18162,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 46040,
+   "n": 29296,
+   "witness_note": "M1 cover of 18162 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 29173"
+  },
+  "vc-exact_166": {
+   "B": 0,
+   "K": 2112,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 5896,
+   "n": 3278,
+   "witness_note": "M1 cover of 2112 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 2558"
+  },
+  "vc-exact_168": {
+   "B": 0,
+   "K": 1921,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 5360,
+   "n": 2980,
+   "witness_note": "M1 cover of 1921 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 2325"
+  },
+  "vc-exact_170": {
+   "B": 0,
+   "K": 9755,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_172": {
+   "B": 0,
+   "K": 2615,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 7435,
+   "n": 4025,
+   "witness_note": "M1 cover of 2615 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 3060"
+  },
+  "vc-exact_174": {
+   "B": 0,
+   "K": 1921,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 5360,
+   "n": 2980,
+   "witness_note": "M1 cover of 1921 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 2325"
+  },
+  "vc-exact_176": {
+   "B": 0,
+   "K": 9755,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_178": {
+   "B": 0,
+   "K": 11185,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 28281,
+   "n": 18096
+  },
+  "vc-exact_180": {
+   "B": 0,
+   "K": 9755,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 24663,
+   "n": 15783
+  },
+  "vc-exact_182": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_184": {
+   "B": 0,
+   "K": 4083,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 11560,
+   "n": 6290,
+   "witness_note": "M1 cover of 4083 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 4786"
+  },
+  "vc-exact_186": {
+   "B": 0,
+   "K": 16300,
+   "k_source": "WeGotYouCovered+peaty@1800s proven(pace2019-spec)",
+   "m": 41500,
+   "n": 26300
+  },
+  "vc-exact_188": {
+   "B": 0,
+   "K": 4321,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 12240,
+   "n": 6660,
+   "witness_note": "M1 cover of 4321 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 5058"
+  },
+  "vc-exact_190": {
+   "B": 0,
+   "K": 2515,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 7090,
+   "n": 3875,
+   "witness_note": "M1 cover of 2515 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 2964"
+  },
+  "vc-exact_192": {
+   "B": 0,
+   "K": 1921,
+   "has_witness": true,
+   "k_source": "M1 deterministic multi-seed local-search cover; legality and cover size verified with vc_validate.",
+   "m": 5360,
+   "n": 2980,
+   "witness_note": "M1 cover of 1921 filed in solution/precomputed (sha1-keyed); supersedes unproven peaty incumbent 2326"
+  },
+  "vc-exact_194": {
+   "B": 0,
+   "K": 1102,
+   "has_witness": false,
+   "k_source": "peaty local-search incumbent@1800s upper bound (unproven; K=n-alpha_LS from harvest-127283 KX log; better-than-K ratchets)",
+   "m": 80851,
+   "n": 1150,
+   "witness_note": "M1 produced only a larger cover (1103 > K=1102); has_witness stays false, K stays at peaty incumbent"
+  },
+  "vc-exact_196": {
+   "B": 0,
+   "K": 1477,
+   "has_witness": false,
+   "k_source": "peaty local-search incumbent@1800s upper bound (unproven; K=n-alpha_LS from harvest-127283 KX log; better-than-K ratchets)",
+   "m": 126082,
+   "n": 1534,
+   "witness_note": "M1 produced only a larger cover (1479 > K=1477); has_witness stays false, K stays at peaty incumbent"
+  },
+  "vc-exact_198": {
+   "B": 0,
+   "K": 1102,
+   "has_witness": false,
+   "k_source": "peaty local-search incumbent@1800s upper bound (unproven; K=n-alpha_LS from harvest-127283 KX log; better-than-K ratchets)",
+   "m": 80072,
+   "n": 1150,
+   "witness_note": "M1 produced only a larger cover (1103 > K=1102); has_witness stays false, K stays at peaty incumbent"
+  },
+  "vc-exact_200": {
+   "B": 0,
+   "K": 1100,
+   "k_source": "WeGotYouCovered@1800s proven(pace2019-spec)",
+   "m": 80258,
+   "n": 1150
+  }
+ },
+ "k_source": "WeGotYouCovered/peaty@1800s under the PACE 2019 specification, supplemented by checker-validated M1 deterministic local-search covers; unproven bounds remain marked as such per instance."
+}

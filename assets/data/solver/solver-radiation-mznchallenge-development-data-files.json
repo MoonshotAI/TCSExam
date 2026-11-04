@@ -1,0 +1,139 @@
+{
+  "files": [
+    {
+      "path": "app/instances/01.dzn",
+      "source_context_path": "app/instances/01.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/01.dzn",
+      "git_blob": "e62045f53cb6512f3cca3f0654c32e12a85e2802",
+      "bytes": 151,
+      "sha256": "c31db98e95b484c3f46f2d8201c51cf43075b80b786c89d7694e3b37598819ef",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/02.dzn",
+      "source_context_path": "app/instances/02.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/02.dzn",
+      "git_blob": "9ea461185b172b91ed67d5049f46fc5dbd8a656b",
+      "bytes": 151,
+      "sha256": "c04f77a664c42085e502cab929711725700dfc2633882ee80159433900056447",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/03.dzn",
+      "source_context_path": "app/instances/03.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/03.dzn",
+      "git_blob": "41fbc413d993a5cf726cdb0346708810a66fddef",
+      "bytes": 151,
+      "sha256": "9c42ab5578b8298352061fd905fe410a76731f868b73a401f78f457d35390627",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/04.dzn",
+      "source_context_path": "app/instances/04.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/04.dzn",
+      "git_blob": "6d8b836b17f49c588a5392928f2e60d09ad32139",
+      "bytes": 185,
+      "sha256": "78eac452c97852cd795a3a7f061fa68f62d86de328bdd83aa7f05bdacacc5927",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/05.dzn",
+      "source_context_path": "app/instances/05.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/05.dzn",
+      "git_blob": "46ae55da97b4594457db69b9a0b075adb1c949d1",
+      "bytes": 185,
+      "sha256": "f70c198afc772b9555afe944f520eb121504860a9cbd1f4a32452e98a0e007a7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/06.dzn",
+      "source_context_path": "app/instances/06.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/06.dzn",
+      "git_blob": "30c9040a9911d4f867f3da405b6ea596a948595d",
+      "bytes": 185,
+      "sha256": "07f6b48646d0574942068fed9fb49711e6b5705c2925b7a0582460f5e62af90f",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/07.dzn",
+      "source_context_path": "app/instances/07.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/07.dzn",
+      "git_blob": "b31436f4b0da47bf44124da511821fa24fb65d7a",
+      "bytes": 185,
+      "sha256": "1f1f2aa0971194cc5a38676319113d8796a936048343ed453b909143b14ce3f5",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/08.dzn",
+      "source_context_path": "app/instances/08.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/08.dzn",
+      "git_blob": "268634cbcd3bc25d4f8676caba9528fe4c671849",
+      "bytes": 185,
+      "sha256": "29f304371317f4cf012025e42e90ea6091bd94a45b9bf9e5dee1e4f7446f76ec",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/09.dzn",
+      "source_context_path": "app/instances/09.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/09.dzn",
+      "git_blob": "eaff181d9db7b8327c5d1ec72b3f66b74f0c7f3f",
+      "bytes": 185,
+      "sha256": "9be41ddb04c9f3f43230496cc6d24e893b30954ca9abb5db40ee56be314f8827",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/m06_15_15.dzn",
+      "source_context_path": "app/instances/m06_15_15.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/m06_15_15.dzn",
+      "git_blob": "c5ce0f83412a01a00e56df64bfabf3f860a816b5",
+      "bytes": 187,
+      "sha256": "ba8403146c93ac0f45ee716d4f471e02cfd0bf023123931a7b224f1c7cfde4fc",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/m07_07_20.dzn",
+      "source_context_path": "app/instances/m07_07_20.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/m07_07_20.dzn",
+      "git_blob": "dccfed2b2ce2d72c7473072ab3c3b47463b87c8b",
+      "bytes": 241,
+      "sha256": "b8fdd0a791a88acc9c128bb77f72e10c2f165e0ca4f04ffdb2418024d16557b7",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/pub14_12a.dzn",
+      "source_context_path": "app/instances/pub14_12a.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/pub14_12a.dzn",
+      "git_blob": "f9d311e616379b8e5f12f03755c80413bd310afd",
+      "bytes": 872,
+      "sha256": "ea0b4d8ed90012af0c30e6a8794e0b05d71fac5338aaae94479f63d49bc17c25",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/pub16_12a.dzn",
+      "source_context_path": "app/instances/pub16_12a.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/pub16_12a.dzn",
+      "git_blob": "7134aba34525dc9f0ee71f77679540c82dabfce1",
+      "bytes": 1114,
+      "sha256": "c2aa214dcfe6699e1fc402d077ac325d7ae87104382b89541dc61f0b01298b70",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/pub16_14a.dzn",
+      "source_context_path": "app/instances/pub16_14a.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/pub16_14a.dzn",
+      "git_blob": "8d39fec5689b63580bf1d41c2132f65149258300",
+      "bytes": 1114,
+      "sha256": "6e3eade37d8b36d9359b85640440758349a022c7ab6938def8f9f6d188509dfc",
+      "mode": "0644"
+    },
+    {
+      "path": "app/instances/pub18_15a.dzn",
+      "source_context_path": "app/instances/pub18_15a.dzn",
+      "source_path": "tasks/solver/online/radiation-mznchallenge/environment/app/instances/pub18_15a.dzn",
+      "git_blob": "010ade52bd0a6e3c98f146eec821303c58553ae7",
+      "bytes": 1388,
+      "sha256": "d23b4c479ddbb7cf5024428fa6dc023ce7050a2168d56b26b12e095382ef5a70",
+      "mode": "0644"
+    }
+  ]
+}

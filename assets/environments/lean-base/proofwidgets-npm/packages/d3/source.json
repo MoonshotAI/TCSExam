@@ -1,0 +1,81 @@
+{
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://bost.ocks.org/mike"
+  },
+  "checked": "2026-10-29",
+  "dev_dependency": false,
+  "inclusion_scope": "Conservative fixed-package-lock notice superset; presence does not assert inclusion in generated JavaScript.",
+  "license": "ISC",
+  "lock_entry": {
+    "dependencies": {
+      "d3-array": "3",
+      "d3-axis": "3",
+      "d3-brush": "3",
+      "d3-chord": "3",
+      "d3-color": "3",
+      "d3-contour": "4",
+      "d3-delaunay": "6",
+      "d3-dispatch": "3",
+      "d3-drag": "3",
+      "d3-dsv": "3",
+      "d3-ease": "3",
+      "d3-fetch": "3",
+      "d3-force": "3",
+      "d3-format": "3",
+      "d3-geo": "3",
+      "d3-hierarchy": "3",
+      "d3-interpolate": "3",
+      "d3-path": "3",
+      "d3-polygon": "3",
+      "d3-quadtree": "3",
+      "d3-random": "3",
+      "d3-scale": "4",
+      "d3-scale-chromatic": "3",
+      "d3-selection": "3",
+      "d3-shape": "3",
+      "d3-time": "3",
+      "d3-time-format": "4",
+      "d3-timer": "3",
+      "d3-transition": "3",
+      "d3-zoom": "3"
+    },
+    "engines": {
+      "node": ">=12"
+    },
+    "integrity": "sha512-e1U46jVP+w7Iut8Jt8ri1YsPOvFpg46k+K8TpCb0P+zjCkjkPnV7WzfDJzMHy1LnA+wj5pLT1wjO901gLXeEhA==",
+    "license": "ISC",
+    "resolved": "https://registry.npmjs.org/d3/-/d3-7.9.0.tgz",
+    "version": "7.9.0"
+  },
+  "lock_path": "node_modules/d3",
+  "name": "d3",
+  "name_basis": null,
+  "node_modules_or_package_binary_installed": false,
+  "notice_basis": null,
+  "original_notice_files": [
+    {
+      "bytes": 731,
+      "installed_file": "notices/original/package/LICENSE",
+      "origin": "Exact fixed npm archive notice text.",
+      "path": "package/LICENSE",
+      "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4",
+      "text_file": "image-notices/3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4.txt"
+    }
+  ],
+  "package_license": "ISC",
+  "payload_linkage": "not_asserted",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 233671,
+    "installed_in_image": false,
+    "integrity": "sha512-e1U46jVP+w7Iut8Jt8ri1YsPOvFpg46k+K8TpCb0P+zjCkjkPnV7WzfDJzMHy1LnA+wj5pLT1wjO901gLXeEhA==",
+    "integrity_verified_in_prior_review": true,
+    "official_url": "https://registry.npmjs.org/d3/-/d3-7.9.0.tgz",
+    "revalidated_for_this_integration": false,
+    "sha256": "7e36605710a2ba54846797c8c6d888911341b215ae53257dc32a49a0b824355e"
+  },
+  "standard_license_text": null,
+  "supplementary_project_notice": null,
+  "version": "7.9.0"
+}

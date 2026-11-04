@@ -1,0 +1,43 @@
+schema_version = "1.4"
+artifacts = ["/app"]
+
+[task]
+name = "tcsexam/ex-c3c4-maxedges-lean-open"
+version = "1.0.0"
+description = "Certify in Lean 4 a graph on 124 vertices with no triangle and no 4-cycle (girth at least 5) and at least m edges — a machine-checked lower bound on the extremal function ex(124,{C3,C4}); published record m=629 (Goedgebeur-Jooken-Joret-Van den Eede 2025); m>=630 is a literature-level new result."
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["construction", "extremal-graphs", "turan-number", "girth", "lean4", "machine-checked", "open-problem"]
+
+[metadata]
+family_id = "fam-ex-c3c4"
+candidate_id = "cand-ex-c3c4-lean-open"
+problem_class = "open-construction-lean"
+scaffold_level = "open"
+difficulty_explanation = "Prove existence of a girth>=5 graph on 124 vertices with at least m edges in Lean 4 with only computable Bool predicates given; the agent chooses m and the construction. The published record (629 edges) can be tied and in principle broken (630 is a literature-level new result)."
+
+[verifier]
+timeout_sec = 18000.0
+
+[verifier.env]
+REWARD_JSON = "/logs/verifier/score-details.json"
+
+[agent]
+network_mode = "public"
+timeout_sec = 43200.0
+
+[environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:1e9e9b9d6a3cfbcec94d78d1cea6420add1c9f08b7b2122a951a8d2b8f265ea4"
+os = "linux"
+network_mode = "public"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam@sha256:017b206a2da38562e1e1f25628ea286d7d93f9212feedd9f845b9e5c6fbe832e"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

@@ -1,0 +1,41 @@
+{
+  "task": "tasks/solver/online/gp-dimacs10",
+  "context": ".",
+  "dockerfile": "assets/environments/solver/gp-dimacs10/judge/Dockerfile",
+  "build_args": {
+    "TCSEXAM_BACKEND_BASE": "${TCSEXAM_BACKEND_BASE}"
+  },
+  "frozen_inputs": [
+    {
+      "role": "data_tools_worker",
+      "image_digest": "sha256:3e4b3bc268aeb55e75c5ea75787fd8da5ef0f60351fb122b5ec2c581cad4dff4"
+    }
+  ],
+  "sources": [
+    {
+      "source": "tasks/solver/online/gp-dimacs10/tests/checker.py",
+      "target": "/tests/checker.py",
+      "sha256": "a858b838529cc9936268188997d4c1ab3af58985af04c85f2c1d3459c50afb0c"
+    },
+    {
+      "source": "tasks/solver/online/gp-dimacs10/tests/scoring.py",
+      "target": "/opt/gp/scoring.py",
+      "sha256": "154b001da1fddaab9560afb4f4d2ca1915f8cd62e13309b99b2baa9a21d04b58"
+    },
+    {
+      "source": "tasks/solver/online/gp-dimacs10/tests/reference.json",
+      "target": "/tests/reference.json",
+      "sha256": "00b7e81ef8397f57776225cb5359889acd6137ccf61a76be01b06a958f5e644e"
+    }
+  ],
+  "source_version": {
+    "full-solver": "1f05583d60e0a145e94f083828d8fab322dcc508",
+    "release_base": "ad464262ff723baa52d9588f85762767174a170e"
+  },
+  "fixed_base_verified": true,
+  "rebuild_executed": false,
+  "public_source_rebuild_verified": false,
+  "limitations": [
+    "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
+  ]
+}

@@ -1,0 +1,1118 @@
+{
+  "format": "official_files",
+  "description": "Exactly the frozen selected SyGuS benchmark inputs from the fixed official source commit, converted using the original input-only SyGuS1-to-2 parser/serializer. Frozen hidden files retain original identifiers and only change filenames; historical alpha-renaming is excluded. No solution files or solver answer checking functions are downloaded or used.",
+  "source_commit": "13c8deb68a873635879c9a69bc78caebd340f646",
+  "sources": [
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_array_search_12.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_array_search_12.sl",
+      "bytes": 4061,
+      "sha256": "34886a647b1be3623e74f072c6c86cb3024fd4154bf50531be64f265cf200e3a"
+    },
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_array_search_13.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_array_search_13.sl",
+      "bytes": 4683,
+      "sha256": "07d4ed3601d04e4d92a9b9955a1de1de5f8cc5a8074de773146ccf5b494cb590"
+    },
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_array_search_7.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_array_search_7.sl",
+      "bytes": 1677,
+      "sha256": "35a33cc7e75b7a3ed0565ecaeaf7939a043bf2f7cab1775076d0e56d0e9dcbf9"
+    },
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_array_sum_10_5.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_array_sum_10_5.sl",
+      "bytes": 2260,
+      "sha256": "e0a6364f6eee500528a63cb2186daad35715fba2c1f238645c24f1c9b123ba8e"
+    },
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_array_sum_7_15.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_array_sum_7_15.sl",
+      "bytes": 1303,
+      "sha256": "49f2247db8ef4a172fa5dd08c548429a13dc96322148d13a11ae7819fde4f2b0"
+    },
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_max13.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_max13.sl",
+      "bytes": 2254,
+      "sha256": "a4c54f0e210f19398c5a9cffafedac3d642b96b24873f07b8b76bf01a1d9b767"
+    },
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_mpg_example1.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_mpg_example1.sl",
+      "bytes": 1761,
+      "sha256": "8a7904dad9d94e8374711a7f7032b0a1c32a4c11032ce2868362dfa30bd5e157"
+    },
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_mpg_example2.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_mpg_example2.sl",
+      "bytes": 2158,
+      "sha256": "ef5070e795d0bf3e2d419f84249d8ccdfea427a20beac6194d1c3efeb4624ff3"
+    },
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_mpg_example5.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_mpg_example5.sl",
+      "bytes": 2211,
+      "sha256": "010816e922ea976c06b3614c4b2d63657e5cd2351380d6bc66b08477c953b3f9"
+    },
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_mpg_guard4.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_mpg_guard4.sl",
+      "bytes": 1801,
+      "sha256": "4baec634bd4d5b87741679cca0afb01fb1f3d3efe511627b7b76eb43c16cd878"
+    },
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_mpg_ite2.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_mpg_ite2.sl",
+      "bytes": 1877,
+      "sha256": "9448fd5f7b330d7dcf9179d596e0cc583f3137cf622bb95edaf650a44a21238b"
+    },
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_polynomial1.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/jmbl_fg_polynomial1.sl",
+      "bytes": 228,
+      "sha256": "df931baa07c232b9db75a7cad2bb44fce5393d1b623873e4ebd10746caab129f"
+    },
+    {
+      "id": "sygus-development-2019__CLIA_Track__from_2018__large.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/CLIA_Track/from_2018/large.sl",
+      "bytes": 192,
+      "sha256": "7773f55af8770cefacf0da84abf1fe497a4d82d8bd78140e06472cda8b793b64"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__bv-invertibility-conditions__ic_bvslt_bvashr0.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/bv-invertibility-conditions/ic_bvslt_bvashr0.sl",
+      "bytes": 1195,
+      "sha256": "a09183ae0b46f4b4c72a2462ecd02e779d0a1540f8cf9bb578fe01550173f121"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__bv-invertibility-conditions__ic_bvuge_bvneg.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/bv-invertibility-conditions/ic_bvuge_bvneg.sl",
+      "bytes": 1192,
+      "sha256": "eea34a27a2392bf8947ae4beda001f5015789c48e5c8005ad16b2c8e7af80faf"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__bv-invertibility-conditions__ic_bvule_bvadd.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/bv-invertibility-conditions/ic_bvule_bvadd.sl",
+      "bytes": 1194,
+      "sha256": "b4f66f28b2a3985cc49f073af1fb13bc7d3bd8051120960c6a648eced8d22c41"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__bv-invertibility-conditions__ic_bvule_bvmul.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/bv-invertibility-conditions/ic_bvule_bvmul.sl",
+      "bytes": 1194,
+      "sha256": "bc21eb1ec0eb0928ba9ed74a91138fad5748dc85aae5a27a0e17aef7fd29b4f8"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__cegist-cav18__inv__inv0.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/cegist-cav18/inv/inv0.sl",
+      "bytes": 438,
+      "sha256": "b05e927d99a29a6964f731f3c8a149c3ff119ee6683dfa58109f7d64d5d59210"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__CrCi__CrCy_10-sbox2-D5-sIn24.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/CrCi/CrCy_10-sbox2-D5-sIn24.sl",
+      "bytes": 802,
+      "sha256": "1fac52f2c5878c03b9e64bcc5d188da1f6c68d6dd827701d2b585fb4c491ad0e"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__CrCi__CrCy_2-P6_2-P6.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/CrCi/CrCy_2-P6_2-P6.sl",
+      "bytes": 955,
+      "sha256": "d76c391d2d8a0ee42c121399788ee1ab536b533f25249d2719bc8216c78437e2"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__MPwL_d1s3.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/MPwL_d1s3.sl",
+      "bytes": 8742,
+      "sha256": "3f60f1c69bc5985f204cefff7f23011bc1ad2631183459ba65bff214abd44420"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__hd-pareto__hd-05-d5-pareto_0.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/hd-pareto/hd-05-d5-pareto_0.sl",
+      "bytes": 575,
+      "sha256": "ac329bdf30c56f2d3e99158f6c46d820804de4428bc55a2db23bc383517ace6f"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__icfp_104_10.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/icfp_104_10.sl",
+      "bytes": 1351,
+      "sha256": "8b07ed9c647ec2a13825fa5df0264effbb704ddd1475ee3470f13c8410e6f879"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__icfp_114_100.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/icfp_114_100.sl",
+      "bytes": 6661,
+      "sha256": "a95cfc252cb7067ceca4623cbcce5a2f88f821bfdc3748bf560ccdfb71a49a52"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__icfp_118_100.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/icfp_118_100.sl",
+      "bytes": 6661,
+      "sha256": "67d0ef341f203a682db6fcb3a3061d844d6c06f363a91caf321643249785cb36"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__icfp_139_10.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/icfp_139_10.sl",
+      "bytes": 1351,
+      "sha256": "2c44bcce7191ae06d6c171a5e83d23eabf4b6b099855323de456af5060baa039"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__icfp_45_10.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/icfp_45_10.sl",
+      "bytes": 1351,
+      "sha256": "d3ff32389646a1c56aa9a1b0eb2809b3d27937a596c0876fc6af52716bba6eb6"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__icfp_45_1000.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/icfp_45_1000.sl",
+      "bytes": 59761,
+      "sha256": "bb32d37b422e9dc0d22e7f2e16518b73adebcc216f564323382ebbd901755cfc"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__inv_gen_fig3.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/inv_gen_fig3.sl",
+      "bytes": 1609,
+      "sha256": "74f72f20ce37187bb8d411df3406b5451b76492078bb9f5b891a2ec328062eb6"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__inv_gen_fig8.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/inv_gen_fig8.sl",
+      "bytes": 1621,
+      "sha256": "4b016e07e14d7bd48633efd76f461d84471b9e905c224fc14a06df04846490a4"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__inv_gen_fig9.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/inv_gen_fig9.sl",
+      "bytes": 1342,
+      "sha256": "f50f2db2722a7e41ea0a390080ba0bdd3a0868e2d0272aeed936f973b6c86bb5"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__qm_neg_1.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/qm_neg_1.sl",
+      "bytes": 252,
+      "sha256": "c612236e8f0de51cfb361573a8fb3ce9fe63ad42232954aed5a1b3964ed872a3"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__s9.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/s9.sl",
+      "bytes": 630,
+      "sha256": "ab0d975ac1de61eed515b487b4a836ef426e36b944ff41aa397a1170a5135a06"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__from_2018__t2.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/from_2018/t2.sl",
+      "bytes": 1020,
+      "sha256": "75ff283b3293ac21572789175d59a9acd40daefd0269b7d6560a62b4a5c4cd94"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__woosuk__sygus_iter_121_1.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/woosuk/sygus_iter_121_1.sl",
+      "bytes": 833,
+      "sha256": "a23d4f58217eebb4af0cb7c36a32588273726ad4ef9f9b32ca50ece840880dc4"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__woosuk__sygus_iter_40_0.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/woosuk/sygus_iter_40_0.sl",
+      "bytes": 818,
+      "sha256": "70438629cafe6fdf8cf961ed61baced2547b3c9ec6bbb327613b65364b9788dd"
+    },
+    {
+      "id": "sygus-development-2019__General_Track__woosuk__sygus_iter_40_1.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/General_Track/woosuk/sygus_iter_40_1.sl",
+      "bytes": 824,
+      "sha256": "27b68123a6518c2f526ebd2a2a61c88409e054071c8b004e1a785cfc69577f03"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__From2018__fib_19.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/From2018/fib_19.sl",
+      "bytes": 831,
+      "sha256": "e4bceca98af51b550c10c084f451aa00580b415fbb32d95b2f685377f9fcf3a5"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__From2018__jmbl_cegar1_vars.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/From2018/jmbl_cegar1_vars.sl",
+      "bytes": 660,
+      "sha256": "077c23423792bbf8cdd79493ce92bb2525894f8b20d37a0a9e2b56285fa2a2a2"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__From2018__jmbl_cggmp-new.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/From2018/jmbl_cggmp-new.sl",
+      "bytes": 429,
+      "sha256": "39ad46649502d4d97e23506df6d18808f16fc515670b714726e99e514f5ccc7b"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__From2018__jmbl_sum4_simp.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/From2018/jmbl_sum4_simp.sl",
+      "bytes": 555,
+      "sha256": "d26c3346b8824d4230135c19cb7db41b86bec4ed5acf6e62f2a640b316f148f5"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__Lustre__car_2_e7_1027_e1_1047.lus.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/Lustre/car_2_e7_1027_e1_1047.lus.sl",
+      "bytes": 11211,
+      "sha256": "15cf23a01ec7728bf7d0d4521a5f05f5d3e3fa4c43c161cc787e26332a0dcff6"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__Lustre__car_3_e2_695.lus.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/Lustre/car_3_e2_695.lus.sl",
+      "bytes": 11208,
+      "sha256": "ccc085d3f7a323d820ceae1223c10d51f5d5962aec632f699a8c202f323375da"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__107.c.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/107.c.sl",
+      "bytes": 2061,
+      "sha256": "06dcd75caf78323c6fa1ff558977885713ebd57835784753b270ff00dbede21b"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__108_conf5.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/108_conf5.sl",
+      "bytes": 5253,
+      "sha256": "954d529560e52854cbe3e6bfb3bb463e0b0aa4c221e3201419731f9d0a1ca0f1"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__125_conf1.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/125_conf1.sl",
+      "bytes": 2627,
+      "sha256": "bb14ab194204a27a4e2f3a839e33d0abdda12cae1039cbdb118444f3b6c5c8ab"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__132_conf5.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/132_conf5.sl",
+      "bytes": 6561,
+      "sha256": "9eeb5565c13e495db92ab98e415c5a9174b1de7815fadfc595b773729fc22d4d"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__18_conf1.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/18_conf1.sl",
+      "bytes": 3008,
+      "sha256": "b11e0ef5c0aa216c5997b12b08bf15a32314b41d64a61ce4eae1ca9e5f6c75b6"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__18_conf5.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/18_conf5.sl",
+      "bytes": 4808,
+      "sha256": "2cb508b632ad621b0ea5be7186a3b8d5bea91f95b809566f21a8e75c1a77eebc"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__38.c.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/38.c.sl",
+      "bytes": 1386,
+      "sha256": "5c1e1b70a2a3872042fb0188cc26e192daf5c35541b588d534026f6fb3160861"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__48.c.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/48.c.sl",
+      "bytes": 1724,
+      "sha256": "de161064864e2c4e5b79ff7c3ce0012e36248ae7ced30a70dda82d96a2996acc"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__4_conf5.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/4_conf5.sl",
+      "bytes": 4408,
+      "sha256": "c8f26a048976f8bf2bd1b621cf50b5df8dcf78c279bb80dcc8cfa1091f3e58d7"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__51.c.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/51.c.sl",
+      "bytes": 1377,
+      "sha256": "18aa9e56567b4b08aa13604dc7bd99e588bd932c77730f18c443c35a462be92b"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__64_conf5.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/64_conf5.sl",
+      "bytes": 3613,
+      "sha256": "f2961ebcec218c315c699bbb7562af6fda3b68bef67a349d555cb8681bcb73d8"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__67_conf5.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/67_conf5.sl",
+      "bytes": 3872,
+      "sha256": "9f92dd7891fc24c6c38cd19a1498b0c849003af9ecfba5e4b0eec29fe63813e5"
+    },
+    {
+      "id": "sygus-development-2019__Inv_Track__XC__70_conf1.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/Inv_Track/XC/70_conf1.sl",
+      "bytes": 2261,
+      "sha256": "9884b0143f1d8f6dc80d7ca9ce3e205765a2fc8d6e08b371513a37fb8aba46a1"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_110_100.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_110_100.sl",
+      "bytes": 6659,
+      "sha256": "59fa8a7b8264d79f009f6e378bffd25bc0a398bbe30ebb36ebb25a6cefa465ed"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_117_100.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_117_100.sl",
+      "bytes": 6659,
+      "sha256": "bc05cd7ed0bf76bf13e3aed0dd481d2b44ac141a7a8a2f3846c5a5fb17af05c8"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_130_1000.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_130_1000.sl",
+      "bytes": 59759,
+      "sha256": "ff753876f6a57c422a7678d839f4d03675eeef0d5b5adcd086ccf0b6ca0473bd"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_147_10.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_147_10.sl",
+      "bytes": 1349,
+      "sha256": "99eea194c913b69f6b9abaa72072a797eb7d9acd0affd78d43040e2b23e34af9"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_1_10.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_1_10.sl",
+      "bytes": 1349,
+      "sha256": "fd4198df7db48477523f92c5eb5b6f4a71cb3cc07f7781c9b0f8d5da98c1a576"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_26_100.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_26_100.sl",
+      "bytes": 6659,
+      "sha256": "db936cfdc6aea9b947cd4db28cdc8b869795678519d53d273cf6341f4264a7a4"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_43_10.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_43_10.sl",
+      "bytes": 1349,
+      "sha256": "03acebb9b0cd4c47eb30c593293b83687768c16c40d107d6a008018253ae91b8"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_45_100.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_45_100.sl",
+      "bytes": 6659,
+      "sha256": "e4f3ba3d13a1031602b1d1bdf784bd97156e01d8d7782ac56df210a96a8e02eb"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_67_1000.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_67_1000.sl",
+      "bytes": 59759,
+      "sha256": "fcb19f4209c6c61b65a1ca0b36f2b7cda0c224a3d216691230a13d409227339f"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_6_10.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_6_10.sl",
+      "bytes": 1349,
+      "sha256": "e2b8f8c9a6a27e1c0db4c1c181b1ea4ec89f48418eb5393e2a44cca31ad09d1d"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_72_1000.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_72_1000.sl",
+      "bytes": 59759,
+      "sha256": "651b37c1f5edf77a76f3acd49b8d18e3e4fbcc4ff384b8ee640981a8204291c9"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_88_1000.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_88_1000.sl",
+      "bytes": 59759,
+      "sha256": "da4008809882b2d80a554257ca8f061061eb1402f3cce854fcc1a03e6adb7d61"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_89_10.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_89_10.sl",
+      "bytes": 1349,
+      "sha256": "454b3de292d82a80f82b2dee389358f951d62eb01db34f6821ee208558b93ddb"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_96_100.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_96_100.sl",
+      "bytes": 6659,
+      "sha256": "fe3c8fd740c7e5a5c242fb9a499828fc5c3da0995218dbd405c24cd8627267a9"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_12.9.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_12.9.sl",
+      "bytes": 4358,
+      "sha256": "6b2038e4efdd93cb85e9a156157d8ffe282dd623565465c6b12546c062dcef1f"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_14.3.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_14.3.sl",
+      "bytes": 3355,
+      "sha256": "501a989a0b21f714af7c2ee6ad446af74c90256d735bca4e358b63c20533070d"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_15.13.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_15.13.sl",
+      "bytes": 2234,
+      "sha256": "ee79cae2983bbb9e478b3277fb18d913fb0136e0039bcab4def02267d02cd260"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_15.18.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_15.18.sl",
+      "bytes": 4240,
+      "sha256": "1aac6c74258d02452cf24d71e7c2bfdd6df09f1882513e47431715059a4667c3"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_2.19.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_2.19.sl",
+      "bytes": 8429,
+      "sha256": "7d97696501305b79e76596ef2390b3402f675de4201548294d4027351eec52e8"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_2.6.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_2.6.sl",
+      "bytes": 2765,
+      "sha256": "f03f12723163279dc7ca01752843ee27b2430a33ba8084bef4c5176331b07acf"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_5.13.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_5.13.sl",
+      "bytes": 3178,
+      "sha256": "1cc1f24deab365ee2773735cb67ac9381af18d903c3ffe038fdadc26390fc395"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_6.1.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_6.1.sl",
+      "bytes": 6069,
+      "sha256": "10efeedaa9fc8a1ff11269a5abc0be98bb278ede356e98823f8eef858423fd67"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_9.17.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_9.17.sl",
+      "bytes": 3119,
+      "sha256": "4ac30e0ad57b4690573adfa9dbeb0c34e8dc718e8c98d1242a2b809eda30ae63"
+    },
+    {
+      "id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_9.18.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_BV_Track/from_2018/PRE_icfp_gen_9.18.sl",
+      "bytes": 2057,
+      "sha256": "f0202cc36774bb3338003c5542314fbd93d38a7a52e644422b1df6345aaf3fa6"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__euphony__2171308.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/2171308.sl",
+      "bytes": 755,
+      "sha256": "58c1715b993feab29cc231e57156d9a09c1988e90e0f77d37ce916b32580293c"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__euphony__23435880.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/23435880.sl",
+      "bytes": 769,
+      "sha256": "297a524b613227f7307be0621c29195dfaeb795fc4d7b0b3cf2aeb2383749396"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__euphony__31753108.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/31753108.sl",
+      "bytes": 845,
+      "sha256": "3dc0543fce476110c996dcc3596212d6e3361c036e7cde729098f3ea420ebef3"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__euphony__38871714.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/38871714.sl",
+      "bytes": 825,
+      "sha256": "3b68e5b13f16710450591efc00015cd5991f55bbd8035fdabe10c9bc87055413"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__euphony__41503046.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/41503046.sl",
+      "bytes": 992,
+      "sha256": "e79c3d7b95fbf961b80b3c7b3d95f6787d9c3e6c5488ebf97c3011ec9d7f62f3"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__euphony__cell-contains-one-of-many-things.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/cell-contains-one-of-many-things.sl",
+      "bytes": 1010,
+      "sha256": "47549460f7ba4b0dd7067a1c2e3c1318b3b4454d2c45e8dbaef3efb8f2fdefca"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__euphony__exceljet1.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/exceljet1.sl",
+      "bytes": 857,
+      "sha256": "f8338740cadc47d2f1dae69fbeb38b10f528d4a72f362d6fb0f4c8399d61d731"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__euphony__extract-nth-word-from-text-string.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/extract-nth-word-from-text-string.sl",
+      "bytes": 967,
+      "sha256": "17213b7af3dd95fe53921a4dc193e0d8db365404b7b8a9d527ae713522f3181e"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__euphony__find-nth-occurrence-of-character.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/find-nth-occurrence-of-character.sl",
+      "bytes": 840,
+      "sha256": "f59ff6c62a018c2bd3c04e66b1638abeec258776c488bb6b68cbf88731aa3527"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__euphony__get-domain-name-from-url.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/get-domain-name-from-url.sl",
+      "bytes": 843,
+      "sha256": "d25998f22246c36adb3f0e324575a20b0fde61d542ea9472df7554040af1d703"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__euphony__phone-5-short.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/phone-5-short.sl",
+      "bytes": 922,
+      "sha256": "b1ce13caf2c15d1802d93d3e6ce0f6f360f78b837343e90bf28ae666ebf01f0d"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__euphony__phone-7-short.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/euphony/phone-7-short.sl",
+      "bytes": 928,
+      "sha256": "13b06c525ba2e11ead5d670037a774d95b1c5afff8ef1da51590f0f8a4f80dba"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__from_2018__firstname.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/from_2018/firstname.sl",
+      "bytes": 755,
+      "sha256": "565d34cfae15a4ab24c8a86ee0740bc0421b0cba760f7eac42b6548ddc7e63de"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__from_2018__initials.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/from_2018/initials.sl",
+      "bytes": 755,
+      "sha256": "2f778bf8023f950dfff8f702081ebe8e2132fddbfeeeb10753b45483e3a1c313"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__from_2018__name-combine-2-long.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/from_2018/name-combine-2-long.sl",
+      "bytes": 3457,
+      "sha256": "5dd638eb2915bdb308231efff95d6f77c475e6dddb20ef2f392a8f0ddc558459"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__from_2018__name-combine-4.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/from_2018/name-combine-4.sl",
+      "bytes": 914,
+      "sha256": "d2d6af592c29b51bcf99f92d44bfe698f1703993b62fea987c92eda5fc81705c"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__from_2018__phone-1.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/from_2018/phone-1.sl",
+      "bytes": 825,
+      "sha256": "f814e68b6708e59f4736da35e81f990337d3ee6a6444714a0a96f206712c0d45"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__from_2018__phone-2-long.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/from_2018/phone-2-long.sl",
+      "bytes": 4679,
+      "sha256": "c9378f82894087c8191b6d7ee7b794ff26ee1abe33c231e6fd80a2247322fe6c"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__from_2018__phone-2.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/from_2018/phone-2.sl",
+      "bytes": 825,
+      "sha256": "5b246264cbc66dbefc2338c186aa83b92993bbcdd4baa2f1885a8ff42801f5de"
+    },
+    {
+      "id": "sygus-development-2019__PBE_SLIA_Track__from_2018__phone-8-long.sl",
+      "url": "https://raw.githubusercontent.com/SyGuS-Org/benchmarks/13c8deb68a873635879c9a69bc78caebd340f646/comp/2019/PBE_SLIA_Track/from_2018/phone-8-long.sl",
+      "bytes": 5131,
+      "sha256": "f30789e92a3698bd10638ad47b3cb014c8494599e69cf57c32f0d11f2f0c20c6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__jmbl_fg_array_search_12.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_array_search_12.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__jmbl_fg_array_search_13.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_array_search_13.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__jmbl_fg_array_search_7.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_array_search_7.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__jmbl_fg_array_sum_10_5.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_array_sum_10_5.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__jmbl_fg_array_sum_7_15.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_array_sum_7_15.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__jmbl_fg_max13.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_max13.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__jmbl_fg_mpg_example1.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_mpg_example1.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__jmbl_fg_mpg_example2.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_mpg_example2.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__jmbl_fg_mpg_example5.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_mpg_example5.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__jmbl_fg_mpg_guard4.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_mpg_guard4.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__jmbl_fg_mpg_ite2.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_mpg_ite2.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__jmbl_fg_polynomial1.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__jmbl_fg_polynomial1.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__CLIA_Track__from_2018__large.sl",
+      "source_id": "sygus-development-2019__CLIA_Track__from_2018__large.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__bv-invertibility-conditions__ic_bvslt_bvashr0.sl",
+      "source_id": "sygus-development-2019__General_Track__bv-invertibility-conditions__ic_bvslt_bvashr0.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__bv-invertibility-conditions__ic_bvuge_bvneg.sl",
+      "source_id": "sygus-development-2019__General_Track__bv-invertibility-conditions__ic_bvuge_bvneg.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__bv-invertibility-conditions__ic_bvule_bvadd.sl",
+      "source_id": "sygus-development-2019__General_Track__bv-invertibility-conditions__ic_bvule_bvadd.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__bv-invertibility-conditions__ic_bvule_bvmul.sl",
+      "source_id": "sygus-development-2019__General_Track__bv-invertibility-conditions__ic_bvule_bvmul.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__cegist-cav18__inv__inv0.sl",
+      "source_id": "sygus-development-2019__General_Track__cegist-cav18__inv__inv0.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__CrCi__CrCy_10-sbox2-D5-sIn24.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__CrCi__CrCy_10-sbox2-D5-sIn24.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__CrCi__CrCy_2-P6_2-P6.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__CrCi__CrCy_2-P6_2-P6.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__MPwL_d1s3.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__MPwL_d1s3.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__hd-pareto__hd-05-d5-pareto_0.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__hd-pareto__hd-05-d5-pareto_0.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__icfp_104_10.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__icfp_104_10.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__icfp_114_100.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__icfp_114_100.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__icfp_118_100.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__icfp_118_100.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__icfp_139_10.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__icfp_139_10.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__icfp_45_10.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__icfp_45_10.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__icfp_45_1000.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__icfp_45_1000.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__inv_gen_fig3.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__inv_gen_fig3.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__inv_gen_fig8.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__inv_gen_fig8.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__inv_gen_fig9.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__inv_gen_fig9.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__qm_neg_1.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__qm_neg_1.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__s9.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__s9.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__from_2018__t2.sl",
+      "source_id": "sygus-development-2019__General_Track__from_2018__t2.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__woosuk__sygus_iter_121_1.sl",
+      "source_id": "sygus-development-2019__General_Track__woosuk__sygus_iter_121_1.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__woosuk__sygus_iter_40_0.sl",
+      "source_id": "sygus-development-2019__General_Track__woosuk__sygus_iter_40_0.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__General_Track__woosuk__sygus_iter_40_1.sl",
+      "source_id": "sygus-development-2019__General_Track__woosuk__sygus_iter_40_1.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__From2018__fib_19.sl",
+      "source_id": "sygus-development-2019__Inv_Track__From2018__fib_19.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__From2018__jmbl_cegar1_vars.sl",
+      "source_id": "sygus-development-2019__Inv_Track__From2018__jmbl_cegar1_vars.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__From2018__jmbl_cggmp-new.sl",
+      "source_id": "sygus-development-2019__Inv_Track__From2018__jmbl_cggmp-new.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__From2018__jmbl_sum4_simp.sl",
+      "source_id": "sygus-development-2019__Inv_Track__From2018__jmbl_sum4_simp.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__Lustre__car_2_e7_1027_e1_1047.lus.sl",
+      "source_id": "sygus-development-2019__Inv_Track__Lustre__car_2_e7_1027_e1_1047.lus.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__Lustre__car_3_e2_695.lus.sl",
+      "source_id": "sygus-development-2019__Inv_Track__Lustre__car_3_e2_695.lus.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__107.c.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__107.c.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__108_conf5.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__108_conf5.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__125_conf1.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__125_conf1.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__132_conf5.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__132_conf5.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__18_conf1.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__18_conf1.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__18_conf5.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__18_conf5.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__38.c.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__38.c.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__48.c.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__48.c.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__4_conf5.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__4_conf5.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__51.c.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__51.c.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__64_conf5.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__64_conf5.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__67_conf5.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__67_conf5.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__Inv_Track__XC__70_conf1.sl",
+      "source_id": "sygus-development-2019__Inv_Track__XC__70_conf1.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_110_100.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_110_100.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_117_100.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_117_100.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_130_1000.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_130_1000.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_147_10.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_147_10.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_1_10.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_1_10.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_26_100.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_26_100.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_43_10.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_43_10.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_45_100.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_45_100.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_67_1000.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_67_1000.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_6_10.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_6_10.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_72_1000.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_72_1000.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_88_1000.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_88_1000.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_89_10.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_89_10.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_96_100.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_96_100.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_icfp_gen_12.9.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_12.9.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_icfp_gen_14.3.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_14.3.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_icfp_gen_15.13.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_15.13.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_icfp_gen_15.18.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_15.18.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_icfp_gen_2.19.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_2.19.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_icfp_gen_2.6.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_2.6.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_icfp_gen_5.13.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_5.13.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_icfp_gen_6.1.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_6.1.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_icfp_gen_9.17.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_9.17.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_BV_Track__from_2018__PRE_icfp_gen_9.18.sl",
+      "source_id": "sygus-development-2019__PBE_BV_Track__from_2018__PRE_icfp_gen_9.18.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__euphony__2171308.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__euphony__2171308.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__euphony__23435880.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__euphony__23435880.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__euphony__31753108.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__euphony__31753108.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__euphony__38871714.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__euphony__38871714.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__euphony__41503046.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__euphony__41503046.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__euphony__cell-contains-one-of-many-things.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__euphony__cell-contains-one-of-many-things.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__euphony__exceljet1.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__euphony__exceljet1.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__euphony__extract-nth-word-from-text-string.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__euphony__extract-nth-word-from-text-string.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__euphony__find-nth-occurrence-of-character.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__euphony__find-nth-occurrence-of-character.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__euphony__get-domain-name-from-url.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__euphony__get-domain-name-from-url.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__euphony__phone-5-short.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__euphony__phone-5-short.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__euphony__phone-7-short.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__euphony__phone-7-short.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__from_2018__firstname.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__from_2018__firstname.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__from_2018__initials.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__from_2018__initials.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__from_2018__name-combine-2-long.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__from_2018__name-combine-2-long.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__from_2018__name-combine-4.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__from_2018__name-combine-4.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__from_2018__phone-1.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__from_2018__phone-1.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__from_2018__phone-2-long.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__from_2018__phone-2-long.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__from_2018__phone-2.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__from_2018__phone-2.sl",
+      "operation": "sygus_convert"
+    },
+    {
+      "path": "app/instances/2019__PBE_SLIA_Track__from_2018__phone-8-long.sl",
+      "source_id": "sygus-development-2019__PBE_SLIA_Track__from_2018__phone-8-long.sl",
+      "operation": "sygus_convert"
+    }
+  ],
+  "transform": "assets/data/solver/sygus-comp/transform.py",
+  "transform_sha256": "ce337699924d4cbaab2695dc8935d9528cc3d141c0c8735ed469adc0a8483649",
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py",
+    "assets/data/solver/sygus-comp/transform.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "Official benchmark source repository has no explicit redistribution license. Retain existing local reconstruction scope; no public image upload authorized."
+}

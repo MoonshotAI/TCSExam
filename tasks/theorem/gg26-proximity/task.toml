@@ -1,0 +1,39 @@
+artifacts = ["/app"]
+schema_version = "1.4"
+
+[task]
+name = "tcsexam/lean-gg26-proximity-bare-proof"
+version = "0.1.0"
+description = "Prove the GG26 curve-decodability chain (Lemma 3.2, Theorems 3.3/3.4, Lemma 4.1, Theorems 4.7/4.8 of Goyal-Guruswami, STOC 2026 / ECCC TR25-166) in Lean 4 (machine-verified). L2: statement fidelity only, no ground truth. [bare variant: main theorem only, 0/1]"
+authors = [{ name = "TCSExam Contributors" }]
+keywords = ["lean4", "mathlib", "formal-proof", "coding-theory", "reed-solomon", "proximity-gaps", "subspace-design", "correlated-agreement", "type-2"]
+
+[metadata]
+family_id = "fam-rs-proximity-gap"
+candidate_id = "cand-gg26-proximity-subspace-design"
+problem_class = "lean-proof-l2"
+scaffold_level = "bare-proof"
+difficulty_explanation = "L2 statement-fidelity task: the proofs need Vandermonde interpolation in vector spaces, root counting and averaging arguments, an iterative curve-peeling procedure, and rational-parameter bookkeeping; no ground truth is provided."
+source_paper = "Rohan Goyal, Venkatesan Guruswami: Optimal Proximity Gaps for Subspace-Design Codes and (Random) Reed-Solomon Codes, STOC 2026; IACR ePrint 2025/2054; ECCC TR25-166."
+
+[verifier]
+timeout_sec = 18000.0
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480
+
+[verifier.environment]
+docker_image = "<PUBLIC_REGISTRY>/tcsexam:build-theorem-gg26-proximity-verifier"
+network_mode = "no-network"
+build_timeout_sec = 3600.0
+cpus = 4
+memory_mb = 16384
+storage_mb = 20480

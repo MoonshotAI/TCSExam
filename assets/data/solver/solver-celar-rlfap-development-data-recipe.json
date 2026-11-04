@@ -1,0 +1,341 @@
+{
+  "format": "official_files",
+  "description": "Download the two original CALMA input archives, select only four input text files per chosen instance, replay the original CALMA-to-DZN conversion and unchanged original public DZN representation. No assignments or score files downloaded or extracted.",
+  "sources": [
+    {
+      "id": "calma-CELAR",
+      "url": "https://fap.zib.de/problems/CALMA/CELAR.tar.gz",
+      "bytes": 191965,
+      "sha256": "847487d8b8c4ec789eb2ac00d0a0e38b67607be617d215f3b66c254918607be9"
+    },
+    {
+      "id": "calma-SURPRISE",
+      "url": "https://fap.zib.de/problems/CALMA/SURPRISE.tar.gz",
+      "bytes": 258046,
+      "sha256": "ccb27ee5daee6d89c31a17a000176e8b20f8ecc82ba1e58958616fb3bc5a4a3c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "app/instances/graph01.dzn",
+      "source_id": "calma-SURPRISE",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "graph01/ctr.txt",
+          "basename": "ctr.txt"
+        },
+        {
+          "member": "graph01/var.txt",
+          "basename": "var.txt"
+        },
+        {
+          "member": "graph01/dom.txt",
+          "basename": "dom.txt"
+        },
+        {
+          "member": "graph01/cst.txt",
+          "basename": "cst.txt"
+        }
+      ],
+      "original_dzn_sha256": "8d7b9660830a48033d20d5e21c0925f3bf837e1c1ccf394affb35486f1b0fa35"
+    },
+    {
+      "path": "app/instances/graph02.dzn",
+      "source_id": "calma-SURPRISE",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "graph02/dom.txt",
+          "basename": "dom.txt"
+        },
+        {
+          "member": "graph02/ctr.txt",
+          "basename": "ctr.txt"
+        },
+        {
+          "member": "graph02/var.txt",
+          "basename": "var.txt"
+        },
+        {
+          "member": "graph02/cst.txt",
+          "basename": "cst.txt"
+        }
+      ],
+      "original_dzn_sha256": "c8013dab80f6e17abe710c6cfae5bd832c818f07fda53d4c61700c82c1352e14"
+    },
+    {
+      "path": "app/instances/graph04.dzn",
+      "source_id": "calma-SURPRISE",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "graph04/ctr.txt",
+          "basename": "ctr.txt"
+        },
+        {
+          "member": "graph04/dom.txt",
+          "basename": "dom.txt"
+        },
+        {
+          "member": "graph04/var.txt",
+          "basename": "var.txt"
+        },
+        {
+          "member": "graph04/cst.txt",
+          "basename": "cst.txt"
+        }
+      ],
+      "original_dzn_sha256": "59e98df53c80dbf8d6e3e62e1af78c6db261d86369b2dd1bbfe711ef30641ff5"
+    },
+    {
+      "path": "app/instances/graph06.dzn",
+      "source_id": "calma-SURPRISE",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "graph06/var.txt",
+          "basename": "var.txt"
+        },
+        {
+          "member": "graph06/ctr.txt",
+          "basename": "ctr.txt"
+        },
+        {
+          "member": "graph06/dom.txt",
+          "basename": "dom.txt"
+        },
+        {
+          "member": "graph06/cst.txt",
+          "basename": "cst.txt"
+        }
+      ],
+      "original_dzn_sha256": "9232d5390045cec83db6637389a0ebba51c5f8b48e7b9ae07a28a902dc42a7bc"
+    },
+    {
+      "path": "app/instances/graph09.dzn",
+      "source_id": "calma-SURPRISE",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "graph09/ctr.txt",
+          "basename": "ctr.txt"
+        },
+        {
+          "member": "graph09/dom.txt",
+          "basename": "dom.txt"
+        },
+        {
+          "member": "graph09/var.txt",
+          "basename": "var.txt"
+        },
+        {
+          "member": "graph09/cst.txt",
+          "basename": "cst.txt"
+        }
+      ],
+      "original_dzn_sha256": "53614e5b9330dc78257d372fd38b97d70c9976edb37d1e1ef8212d9bf2b7f45e"
+    },
+    {
+      "path": "app/instances/graph11.dzn",
+      "source_id": "calma-SURPRISE",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "graph11/ctr.txt",
+          "basename": "ctr.txt"
+        },
+        {
+          "member": "graph11/dom.txt",
+          "basename": "dom.txt"
+        },
+        {
+          "member": "graph11/var.txt",
+          "basename": "var.txt"
+        },
+        {
+          "member": "graph11/cst.txt",
+          "basename": "cst.txt"
+        }
+      ],
+      "original_dzn_sha256": "2d3031c41be75333ddb53966df0cd777d3b75828053cbb1c12b64041def8169f"
+    },
+    {
+      "path": "app/instances/graph12.dzn",
+      "source_id": "calma-SURPRISE",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "graph12/ctr.txt",
+          "basename": "ctr.txt"
+        },
+        {
+          "member": "graph12/dom.txt",
+          "basename": "dom.txt"
+        },
+        {
+          "member": "graph12/var.txt",
+          "basename": "var.txt"
+        },
+        {
+          "member": "graph12/cst.txt",
+          "basename": "cst.txt"
+        }
+      ],
+      "original_dzn_sha256": "cfedfef2c0b7d2691973aa6789f9f50955e7d6b928f31d6cd66548c5dc47fc95"
+    },
+    {
+      "path": "app/instances/graph14.dzn",
+      "source_id": "calma-SURPRISE",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "graph14/ctr.txt",
+          "basename": "ctr.txt"
+        },
+        {
+          "member": "graph14/dom.txt",
+          "basename": "dom.txt"
+        },
+        {
+          "member": "graph14/var.txt",
+          "basename": "var.txt"
+        },
+        {
+          "member": "graph14/cst.txt",
+          "basename": "cst.txt"
+        }
+      ],
+      "original_dzn_sha256": "efc1c72b60f77dec7ae2828aa2e66835fa69f6af7d7c47d6ff549abd18184266"
+    },
+    {
+      "path": "app/instances/scen01.dzn",
+      "source_id": "calma-CELAR",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "scen01/cst.txt",
+          "basename": "cst.txt"
+        },
+        {
+          "member": "scen01/CTR.TXT",
+          "basename": "CTR.TXT"
+        },
+        {
+          "member": "scen01/DOM.TXT",
+          "basename": "DOM.TXT"
+        },
+        {
+          "member": "scen01/VAR.TXT",
+          "basename": "VAR.TXT"
+        }
+      ],
+      "original_dzn_sha256": "f46f7bd72c970f81bd74f763c930a435cb751cf068b5095be343f3557d68e0cc"
+    },
+    {
+      "path": "app/instances/scen02.dzn",
+      "source_id": "calma-CELAR",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "scen02/cst.txt",
+          "basename": "cst.txt"
+        },
+        {
+          "member": "scen02/CTR.TXT",
+          "basename": "CTR.TXT"
+        },
+        {
+          "member": "scen02/DOM.TXT",
+          "basename": "DOM.TXT"
+        },
+        {
+          "member": "scen02/VAR.TXT",
+          "basename": "VAR.TXT"
+        }
+      ],
+      "original_dzn_sha256": "91c4e28a3f6edd1b83b463e29b3840a7d42b2eb037af1871529ae57dd102ea41"
+    },
+    {
+      "path": "app/instances/scen07.dzn",
+      "source_id": "calma-CELAR",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "scen07/cst.txt",
+          "basename": "cst.txt"
+        },
+        {
+          "member": "scen07/CTR.TXT",
+          "basename": "CTR.TXT"
+        },
+        {
+          "member": "scen07/DOM.TXT",
+          "basename": "DOM.TXT"
+        },
+        {
+          "member": "scen07/VAR.TXT",
+          "basename": "VAR.TXT"
+        }
+      ],
+      "original_dzn_sha256": "5a76929cc8d4683e2a5dd911b8b5a8ba2017bf9c61be7196963db09a36ba7aaf"
+    },
+    {
+      "path": "app/instances/scen09.dzn",
+      "source_id": "calma-CELAR",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "scen09/cst.txt",
+          "basename": "cst.txt"
+        },
+        {
+          "member": "scen09/CTR.TXT",
+          "basename": "CTR.TXT"
+        },
+        {
+          "member": "scen09/DOM.TXT",
+          "basename": "DOM.TXT"
+        },
+        {
+          "member": "scen09/VAR.TXT",
+          "basename": "VAR.TXT"
+        }
+      ],
+      "original_dzn_sha256": "d5ef640b7826dec1e2c22903e8eb892e5c15558520d494f311eea6e2275bb436"
+    },
+    {
+      "path": "app/instances/scen11.dzn",
+      "source_id": "calma-CELAR",
+      "operation": "calma_convert",
+      "members": [
+        {
+          "member": "scen11/cst.txt",
+          "basename": "cst.txt"
+        },
+        {
+          "member": "scen11/CTR.TXT",
+          "basename": "CTR.TXT"
+        },
+        {
+          "member": "scen11/DOM.TXT",
+          "basename": "DOM.TXT"
+        },
+        {
+          "member": "scen11/VAR.TXT",
+          "basename": "VAR.TXT"
+        }
+      ],
+      "original_dzn_sha256": "7cdc58ffd8ace54a9571b7520eb6bfbde2cf6a4eabff425108263466b5f70990"
+    }
+  ],
+  "transform": "assets/data/solver/celar-rlfap/transform.py",
+  "transform_sha256": "ec7039067bf7accfd54c8fde5f89976846cd8a46df985ff14d000c115be8ea99",
+  "generator_paths": [
+    "src/tcsexam/official_file_data.py",
+    "assets/data/solver/celar-rlfap/transform.py"
+  ],
+  "distribution": "local_prepare",
+  "public_upload_allowed": false,
+  "terms": "CALMA original terms remain unresolved; local reconstruction does not grant redistribution approval."
+}

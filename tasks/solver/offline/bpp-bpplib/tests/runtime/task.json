@@ -1,0 +1,13 @@
+{
+  "cpus": 4,
+  "memory_mb": 8192,
+  "seconds": 1170,
+  "check_seconds": 300,
+  "module_dir": "/opt/bpp",
+  "instances_dir": "/tests/instances",
+  "pool": true,
+  "base": "solver-bpp-bpplib-judge-os-v1",
+  "task": "bpp-bpplib",
+  "build_seconds": 600,
+  "disk_mb": 8192
+}

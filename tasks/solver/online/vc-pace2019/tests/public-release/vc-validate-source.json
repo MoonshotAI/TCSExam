@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "component": "vc_validate",
+  "license": "GPL-3.0",
+  "upstream": "https://github.com/hmarkus/vc_validate",
+  "upstream_path": "cpp/vc_validate.cpp",
+  "reviewed_commit": "8b6a8cd6dfe5d98b5ddba8b2049423c81576326d",
+  "source_url": "https://raw.githubusercontent.com/hmarkus/vc_validate/8b6a8cd6dfe5d98b5ddba8b2049423c81576326d/cpp/vc_validate.cpp",
+  "source_sha256": "a728ea6a3ca2bbc8a8b0f367c1485759d799724e22da615117a1fc04d8e7856a",
+  "license_sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+  "source_modified_for_release": false,
+  "build": {
+    "script": "build-vc_validate.sh",
+    "toolchain": "docker.io/library/gcc@sha256:b99b86a28812b1e6453a231a947dc43d76fe192788a12f344a9b568bf9f5d24c",
+    "platform": "linux/amd64",
+    "compiler_reported": "g++ (GCC) 14.2.0",
+    "arguments": [
+      "g++",
+      "-std=c++11",
+      "-O3",
+      "-o",
+      "/out/vc_validate",
+      "/src/vc_validate.cpp"
+    ],
+    "original_binary_sha256": "dbeb592aed921967305a9de012d88eddce4e98ff1acca4cb4fa2b9b057a9ed3a",
+    "rebuilt_binary_sha256": "9b8d648791cbe238a0dbececfeadefbbb3122f989fd690fb8a62e48d37f5d356",
+    "original_binary_retained": true,
+    "byte_identical": false
+  },
+  "behavior_comparison": {
+    "public_instances": 100,
+    "cases_per_instance": 3,
+    "exact_process_result_matches": 300,
+    "process_comparisons": 300,
+    "complete_scoring_documents_equal_except_elapsed_seconds": true,
+    "unsharded_reward": null,
+    "unsharded_raw_reward": null,
+    "null_reward_reason": "The public reference has no top-level baseline B.",
+    "precomputed_answers_used": false
+  }
+}

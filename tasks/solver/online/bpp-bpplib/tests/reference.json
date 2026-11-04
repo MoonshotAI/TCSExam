@@ -1,0 +1,355 @@
+{
+ "instances": {
+  "ex002.txt": {
+   "B": 66,
+   "B_status": "measured",
+   "K": 65,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "ANI_AI",
+   "n": 202,
+   "proven_optimal": true
+  },
+  "ex006.txt": {
+   "B": 133,
+   "B_status": "measured",
+   "K": 132,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "ANI_AI",
+   "n": 403,
+   "proven_optimal": true
+  },
+  "ex009.txt": {
+   "B": 199,
+   "B_status": "measured",
+   "K": 198,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "ANI_AI",
+   "n": 601,
+   "proven_optimal": true
+  },
+  "ex013.txt": {
+   "B": 79,
+   "B_status": "measured",
+   "K": 78,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Randomly_Generated",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "ex016.txt": {
+   "B": 140,
+   "B_status": "measured",
+   "K": 138,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Randomly_Generated",
+   "n": 300,
+   "proven_optimal": true
+  },
+  "ex018.txt": {
+   "B": 203,
+   "B_status": "measured",
+   "K": 202,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Randomly_Generated",
+   "n": 500,
+   "proven_optimal": true
+  },
+  "ex021.txt": {
+   "B": 343,
+   "B_status": "measured",
+   "K": 337,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Randomly_Generated",
+   "n": 750,
+   "proven_optimal": true
+  },
+  "ex024.txt": {
+   "B": 95,
+   "B_status": "measured",
+   "K": 83,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Falkenauer",
+   "n": 249,
+   "proven_optimal": true
+  },
+  "ex026.txt": {
+   "B": 189,
+   "B_status": "measured",
+   "K": 167,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Falkenauer",
+   "n": 501,
+   "proven_optimal": true
+  },
+  "ex029.txt": {
+   "B": 49,
+   "B_status": "measured",
+   "K": 48,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Falkenauer",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "ex034.txt": {
+   "B": 65,
+   "B_status": "measured",
+   "K": 64,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Hard28",
+   "n": 180,
+   "proven_optimal": true
+  },
+  "ex040.txt": {
+   "B": 59,
+   "B_status": "measured",
+   "K": 58,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Hard28",
+   "n": 160,
+   "proven_optimal": true
+  },
+  "ex041.txt": {
+   "B": 68,
+   "B_status": "measured",
+   "K": 67,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Hard28",
+   "n": 180,
+   "proven_optimal": true
+  },
+  "ex044.txt": {
+   "B": 72,
+   "B_status": "measured",
+   "K": 71,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Hard28",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "ex047.txt": {
+   "B": 24,
+   "B_status": "measured",
+   "K": 23,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Scholl",
+   "n": 50,
+   "proven_optimal": true
+  },
+  "ex051.txt": {
+   "B": 8,
+   "B_status": "measured",
+   "K": 7,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Scholl",
+   "n": 50,
+   "proven_optimal": true
+  },
+  "ex054.txt": {
+   "B": 46,
+   "B_status": "measured",
+   "K": 45,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Scholl",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "ex057.txt": {
+   "B": 37,
+   "B_status": "measured",
+   "K": 34,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Scholl",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "ex061.txt": {
+   "B": 80,
+   "B_status": "measured",
+   "K": 79,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Scholl",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "ex064.txt": {
+   "B": 44,
+   "B_status": "measured",
+   "K": 41,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Scholl",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "ex067.txt": {
+   "B": 30,
+   "B_status": "measured",
+   "K": 29,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Scholl",
+   "n": 200,
+   "proven_optimal": true
+  },
+  "ex071.txt": {
+   "B": 207,
+   "B_status": "measured",
+   "K": 204,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Scholl",
+   "n": 500,
+   "proven_optimal": true
+  },
+  "ex074.txt": {
+   "B": 58,
+   "B_status": "measured",
+   "K": 56,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Scholl",
+   "n": 500,
+   "proven_optimal": true
+  },
+  "ex077.txt": {
+   "B": 19,
+   "B_status": "measured",
+   "K": 18,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Schwerin",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "ex081.txt": {
+   "B": 19,
+   "B_status": "measured",
+   "K": 18,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Schwerin",
+   "n": 100,
+   "proven_optimal": true
+  },
+  "ex084.txt": {
+   "B": 23,
+   "B_status": "measured",
+   "K": 21,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "ex087.txt": {
+   "B": 23,
+   "B_status": "measured",
+   "K": 22,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "ex091.txt": {
+   "B": 23,
+   "B_status": "measured",
+   "K": 22,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "ex094.txt": {
+   "B": 23,
+   "B_status": "measured",
+   "K": 21,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "ex097.txt": {
+   "B": 23,
+   "B_status": "measured",
+   "K": 21,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "ex101.txt": {
+   "B": 23,
+   "B_status": "measured",
+   "K": 21,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "ex104.txt": {
+   "B": 23,
+   "B_status": "measured",
+   "K": 22,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Schwerin",
+   "n": 120,
+   "proven_optimal": true
+  },
+  "ex106.txt": {
+   "B": 24,
+   "B_status": "measured",
+   "K": 23,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "Wäscher",
+   "n": 96,
+   "proven_optimal": true
+  },
+  "ex110.txt": {
+   "B": 612,
+   "B_status": "measured",
+   "K": 600,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "GI",
+   "n": 1404,
+   "proven_optimal": true
+  },
+  "ex118.txt": {
+   "B": 2152,
+   "B_status": "measured",
+   "K": 2124,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "GI",
+   "n": 5318,
+   "proven_optimal": true
+  },
+  "ex120.txt": {
+   "B": 2132,
+   "B_status": "measured",
+   "K": 2099,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "GI",
+   "n": 5245,
+   "proven_optimal": true
+  },
+  "ex121.txt": {
+   "B": 525,
+   "B_status": "measured",
+   "K": 512,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "GI",
+   "n": 1313,
+   "proven_optimal": true
+  },
+  "ex124.txt": {
+   "B": 1023,
+   "B_status": "measured",
+   "K": 1004,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "GI",
+   "n": 2480,
+   "proven_optimal": true
+  },
+  "ex125.txt": {
+   "B": 1071,
+   "B_status": "measured",
+   "K": 1054,
+   "b_remeasured": "On transformed instances: isolated execution environment scoring envelope, 4 CPU/8 GB (matching production submit.sh resources); pool protocol is sequential over the full hidden set in one sandbox, with a shared 30s×39=1170s total pool and no sharding; scoring chain is unchanged at /tests/test.sh; factory baseline in environment/app is unchanged.",
+   "class": "GI",
+   "n": 2580,
+   "proven_optimal": true
+  }
+ }
+}

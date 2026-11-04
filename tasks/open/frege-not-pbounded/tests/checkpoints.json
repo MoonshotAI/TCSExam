@@ -1,0 +1,10 @@
+{
+  "task": "tcsexam/open-frege-not-pbounded",
+  "namespace": "FregeNotPbounded",
+  "main_slots": [
+    "conj",
+    "refuted"
+  ],
+  "weight_note": "prove-or-refute v1 (mains-only): a clean proof of `conj` (the conjecture) or of `refuted` (its negation) scores 1.0; there is no partial credit — this is an open problem. Both slots are mandatory and must stay in the reference order (conj, refuted). The conjecture is stated for one fixed Frege system (ten axiom schemes over {falsum, and, or, imp} with modus ponens; see environment/app/Task/Basic.lean header and tests/reference/concept-ledger.md): by Reckhow's 1979 theorem all Frege systems are p-equivalent, so the conjecture does not depend on the chosen system. Proof length is measured in symbols (proofSize), the standard convention; polynomial bounds are the explicit monomials (φ.size+1)^k, and the statements quantify over tautologies directly (no index family): `conj` is the literal negation of \"Frege systems are polynomially bounded\" (Krajíček's p-bounded definition), so proving `conj` settles the conjecture in the expected direction while proving `refuted` proves Frege systems polynomially bounded.",
+  "checkpoints": []
+}
