@@ -1,0 +1,122 @@
+name: Build and deploy the complete website
+
+on:
+  workflow_call:
+    inputs:
+      publish:
+        description: Explicit authorization to deploy the built website
+        type: boolean
+        default: false
+      source-ref:
+        description: Benchmark commit or ref supplying Markdown and paper.pdf
+        required: true
+        type: string
+      website-ref:
+        description: Website commit or ref supplying both site builders
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      pages_enabled: ${{ steps.settings.outputs.pages_enabled }}
+    steps:
+      - name: Check out benchmark documentation
+        uses: actions/checkout@v4
+        with:
+          path: source
+          ref: ${{ inputs.source-ref }}
+          persist-credentials: false
+      - name: Check out website source
+        uses: actions/checkout@v4
+        with:
+          path: site
+          ref: ${{ inputs.website-ref }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: |
+            site/website/documentation/package-lock.json
+            site/website/package-lock.json
+      - name: Read publishing settings
+        id: settings
+        uses: actions/github-script@v7
+        env:
+          SITE_URL_OVERRIDE: ${{ vars.SITE_URL }}
+          SITE_BASE_PATH_OVERRIDE: ${{ vars.SITE_BASE_PATH }}
+        with:
+          script: |
+            let pages;
+            try {
+              pages = (await github.rest.repos.getPages(context.repo)).data;
+            } catch (error) {
+              if (![403, 404].includes(error.status)) throw error;
+              core.info('Pages is unavailable or not configured. The complete website will be saved as a build artifact.');
+            }
+            const fallback = `https://${context.repo.owner.toLowerCase()}.github.io/${context.repo.repo}/`;
+            const siteUrl = process.env.SITE_URL_OVERRIDE || pages?.html_url || fallback;
+            const base = process.env.SITE_BASE_PATH_OVERRIDE || new URL(siteUrl).pathname;
+            core.exportVariable('SITE_URL', siteUrl);
+            core.exportVariable('SITE_BASE_PATH', base);
+            core.exportVariable('SITE_REPOSITORY_URL', `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}`);
+            core.setOutput('pages_enabled', pages?.build_type === 'workflow' ? 'true' : 'false');
+            if (pages?.build_type !== 'workflow') {
+              await core.summary.addRaw('Build-only mode: download the `tcsexam-site` artifact to preview. To publish automatically, enable Pages and select **GitHub Actions** as its source.').write();
+            }
+      - name: Record the documentation version
+        run: |
+          echo "SITE_REPOSITORY_REF=$(git -C source rev-parse HEAD)" >> "$GITHUB_ENV"
+          echo "TCSEXAM_SOURCE_DIR=$GITHUB_WORKSPACE/source" >> "$GITHUB_ENV"
+      - name: Install documentation dependencies
+        working-directory: site/website/documentation
+        run: npm ci
+      - name: Test documentation tooling
+        working-directory: site/website/documentation
+        run: npm test
+      - name: Install website dependencies
+        working-directory: site/website
+        run: npm ci
+      - name: Test and assemble the website
+        working-directory: site/website
+        run: |
+          npm test
+          npm run build:site
+      - name: Save the complete preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: tcsexam-site
+          path: site/docs/
+          include-hidden-files: true
+          retention-days: 14
+      - name: Package GitHub Pages
+        if: inputs.publish && steps.settings.outputs.pages_enabled == 'true' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site/docs/
+
+  deploy:
+    if: inputs.publish && needs.build.outputs.pages_enabled == 'true' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: tcsexam-pages-deploy
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish website and documentation together
+        id: deployment
+        uses: actions/deploy-pages@v4

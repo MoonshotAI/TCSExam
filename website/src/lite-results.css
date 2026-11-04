@@ -1,0 +1,25 @@
+.results-overview th:first-child { min-width: 170px; }
+.results-overview td > span { display: block; }
+.results-overview .lite-status { display: table; margin-top: 4px; }
+.results-overview .lite-status { margin-left: auto; }
+.results-overview .model-name:not(:has(.model-logo))::before,
+.track-score-chart .model-name:not(:has(.model-logo))::before,
+.lite-task-results .model-name:not(:has(.model-logo))::before { content: ''; display: block; width: 20px; flex: none; }
+.lite-task-results .model-name:not(:has(.model-logo))::before { width: 18px; }
+.lite-status { display: inline-block; font-size: 11px; line-height: 1.5; font-weight: 400; padding: 1px 6px; border-radius: 3px; }
+.lite-status.pending { color: #5b626e; background: #edf0f4; }
+.lite-origin-note { font-size: 13px; line-height: 1.8; color: var(--muted); }
+.lite-downloads { display: flex; flex-wrap: wrap; gap: 12px 24px; font-size: 13px; margin: 24px 0 0; }
+.lite-downloads a { border-bottom: 1px solid var(--line); padding-bottom: 3px; }
+.lite-task-results { margin-top: 42px; padding-top: 30px; border-top: 1px solid var(--line); }
+.lite-task-results .task-results-table td { font-size: 12px; }
+.lite-task-results .task-results-table td:last-child { color: var(--muted); }
+.lite-task-results .task-score { align-items: center; }
+.task-result-switch { display: flex; gap: 6px; margin-top: 42px; }
+.task-result-switch[hidden], [data-result-panel][hidden] { display: none; }
+.task-result-switch button { border: 1px solid transparent; background: transparent; border-radius: 4px; color: var(--muted); padding: 9px 15px; font-size: 13px; }
+.task-result-switch button[aria-pressed=true] { background: var(--ink); color: white; }
+.task-result-switch:not([hidden]) ~ .task-results, .task-result-switch:not([hidden]) ~ .lite-task-results { margin-top: 16px; padding-top: 20px; }
+.lite-task-results .task-score-meter i { position: absolute; }
+.task-result-sets { scroll-margin-top: 16px; }
+@media (max-width: 600px) { .lite-task-results .task-score-meter { display: none; } .lite-task-results .task-results-table th:first-child { width: 40%; } }

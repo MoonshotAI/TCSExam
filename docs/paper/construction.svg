@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="75 0 180 160"><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#51657A" /></marker></defs>
+<defs><marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#142B49" /></marker><marker id="arrow-proof" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2386C2" /></marker><marker id="arrow-conjecture" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#E35069" /></marker><marker id="arrow-construction" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2B9362" /></marker><marker id="arrow-solver" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#8453B4" /></marker></defs>
+<g id="diagram-kissing-d9-lean-open">
+<circle cx="160" cy="79" r="25" fill="#F5C7BE" stroke="#142B49" stroke-width="1.8" />
+<circle cx="210.0" cy="79.0" r="25" fill="#D9E8F8" stroke="#142B49" stroke-width="1.8" />
+<circle cx="185.0" cy="122.30127018922192" r="25" fill="#D9E8F8" stroke="#142B49" stroke-width="1.8" />
+<circle cx="135.0" cy="122.30127018922194" r="25" fill="#D9E8F8" stroke="#142B49" stroke-width="1.8" />
+<circle cx="110.0" cy="79.0" r="25" fill="#D9E8F8" stroke="#142B49" stroke-width="1.8" />
+<circle cx="134.99999999999997" cy="35.69872981077808" r="25" fill="#D9E8F8" stroke="#142B49" stroke-width="1.8" />
+<circle cx="185.0" cy="35.69872981077807" r="25" fill="#D9E8F8" stroke="#142B49" stroke-width="1.8" />
+<circle cx="160" cy="79" r="2.5" fill="#2B9362" stroke="none" stroke-width="0" />
+<path d="M160,79 L185,79" fill="none" stroke="#2B9362" stroke-width="1.3" stroke-linecap="round" />
+<path d="M241,72 L212,80" fill="none" stroke="#B7C8D9" stroke-width="1.4" stroke-linecap="round" />
+</g>
+</svg>

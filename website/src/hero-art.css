@@ -1,0 +1,46 @@
+/* The same fine lines, white surface and track colors as the task drawings. */
+.research-art { color: var(--accent); }
+.research-art svg { display: block; width: 100%; height: auto; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.research-art svg text { text-anchor: middle; stroke: none; }
+.plate-grid-node { fill: #cbd2dc; }
+.plate-corner-base { stroke: currentColor; stroke-width: 1.2; opacity: .2; }
+.plate-corner-line { stroke: currentColor; stroke-width: 2.6; }
+.plate-corner-dot { fill: currentColor; stroke: white; stroke-width: 1.2; }
+.plate-corner:nth-last-child(2) .plate-corner-active,
+.plate-corner:last-child .plate-corner-active { opacity: .16; }
+.plate-wire { stroke: #bbc3d0; stroke-width: 1.3; }
+.plate-signal { stroke: currentColor; stroke-width: 2; stroke-dasharray: 1; }
+.plate-terminal { stroke: currentColor; stroke-width: 1.2; }
+.plate-terminal.on { fill: currentColor; }
+.plate-terminal.off { fill: white; }
+.plate-bit { fill: white; font: 11px var(--mono); }
+.plate-terminal.off + .plate-bit { fill: currentColor; }
+.plate-gate-face { stroke: currentColor; stroke-width: 1.3; }
+.plate-gate-face.on { fill: color-mix(in srgb, currentColor 10%, white); }
+.plate-gate-face.off { fill: white; }
+.plate-gate-symbol { fill: currentColor; font: 25px/1 Georgia, serif; }
+.plate-network-edges { fill: none; stroke: #8fa99c; stroke-width: 1; opacity: .55; }
+.plate-network-nodes { fill: #8ca69b; }
+.plate-cycle-back { fill: color-mix(in srgb, currentColor 5%, white); stroke: currentColor; stroke-opacity: .35; stroke-width: 1.3; }
+.plate-cycle { stroke: currentColor; stroke-width: 2.3; stroke-dasharray: 1; }
+.plate-cycle-node { fill: currentColor; stroke: white; stroke-width: 1.2; }
+.plate-matrix-square.one { fill: color-mix(in srgb, currentColor 15%, white); }
+.plate-matrix-square.zero { fill: #edf0f4; }
+.plate-matrix-digit { font: 16px var(--mono); }
+.plate-matrix-digit.one { fill: currentColor; }
+.plate-matrix-digit.zero { fill: #88909d; }
+.plate-matrix-bracket { stroke: #a8b1bd; stroke-width: 1; }
+.plate-matrix-link { stroke: currentColor; stroke-width: .9; stroke-dasharray: 2 4; opacity: .35; }
+.plate-channel { stroke: currentColor; stroke-width: 1; opacity: .35; }
+.plate-channel-arrow { stroke: currentColor; stroke-width: 1; opacity: .65; }
+.plate-channel-bit { stroke: currentColor; stroke-width: 4; stroke-dasharray: .025 .975; opacity: 0; }
+.plate-party { fill: color-mix(in srgb, currentColor 5%, white); stroke: currentColor; stroke-width: 1.2; }
+.plate-party-letter { fill: currentColor; font: 14px var(--mono); }
+.is-illustrating .plate-corner-active { animation: plate-corner 6.6s ease-in-out calc(var(--step) * 2.2s) infinite both; }
+.is-illustrating .plate-signal { animation: plate-trace 6s ease-in-out calc(var(--step) * .13s) infinite both; }
+.is-illustrating .plate-cycle { animation: plate-trace 6s ease-in-out infinite both; }
+.is-illustrating .plate-channel-bit { animation: plate-transmit 6.4s ease-in-out calc(var(--step) * 2.7s) infinite both; }
+@keyframes plate-corner { 0%, 100% { opacity: .16; } 12%, 38% { opacity: 1; } 58%, 90% { opacity: .16; } }
+@keyframes plate-trace { 0%, 100% { stroke-dashoffset: 1; opacity: 0; } 12% { opacity: 1; } 53%, 76% { stroke-dashoffset: 0; opacity: 1; } 94% { stroke-dashoffset: 0; opacity: 0; } }
+@keyframes plate-transmit { 0%, 100% { stroke-dashoffset: 1; opacity: 0; } 10% { opacity: 1; } 48% { stroke-dashoffset: 0; opacity: 1; } 56%, 94% { stroke-dashoffset: 0; opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .research-art svg * { animation: none !important; } }

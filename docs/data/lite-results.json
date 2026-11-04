@@ -1,0 +1,3630 @@
+{
+  "protocol": "lite-v0.1-final-once",
+  "development_hours": 12,
+  "models": [
+    {
+      "id": "astra",
+      "label": "GPT-6 Astra",
+      "attempts_per_task": 1
+    },
+    {
+      "id": "opus55",
+      "label": "Opus 5.5",
+      "attempts_per_task": 1
+    },
+    {
+      "id": "k3max",
+      "label": "Kimi K3",
+      "attempts_per_task": 3
+    },
+    {
+      "id": "glm53",
+      "label": "GLM-5.3",
+      "attempts_per_task": 1
+    },
+    {
+      "id": "qwen38max",
+      "label": "Qwen3.8 Max (0902)",
+      "attempts_per_task": 1
+    },
+    {
+      "id": "grok46",
+      "label": "Grok 4.6",
+      "attempts_per_task": 1
+    },
+    {
+      "id": "k31_pro",
+      "label": "Kimi K3.1 Pro",
+      "attempts_per_task": 3
+    },
+    {
+      "id": "deepseek_flash_1017",
+      "label": "DeepSeek V4.1 Flash 1017",
+      "attempts_per_task": 3
+    }
+  ],
+  "tasks": [
+    {
+      "id": "corners-quasipoly",
+      "track": "theorem",
+      "title": "Quasipolynomial corners bounds"
+    },
+    {
+      "id": "discrete-bidding-games",
+      "track": "theorem",
+      "title": "Discrete bidding games"
+    },
+    {
+      "id": "folded-rs-gsb",
+      "track": "theorem",
+      "title": "Folded Reed–Solomon list decoding"
+    },
+    {
+      "id": "negations-small-depth",
+      "track": "theorem",
+      "title": "Subtraction in arithmetic formulas"
+    },
+    {
+      "id": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "title": "Pseudorandomness of Forrelation"
+    },
+    {
+      "id": "bpp-bpplib",
+      "track": "solver",
+      "title": "One-dimensional bin packing"
+    },
+    {
+      "id": "curriculum-itc2007",
+      "track": "solver",
+      "title": "Curriculum-based timetabling"
+    },
+    {
+      "id": "maxcut-mqlib",
+      "track": "solver",
+      "title": "Weighted maximum cut"
+    },
+    {
+      "id": "mr-roadef2012",
+      "track": "solver",
+      "title": "Machine reassignment"
+    },
+    {
+      "id": "qbf-qbfeval",
+      "track": "solver",
+      "title": "Quantified Boolean formulas"
+    },
+    {
+      "id": "binary-code-a24-10",
+      "track": "construction",
+      "title": "Binary codes: A(24, 10)"
+    },
+    {
+      "id": "ex-c3c4-maxedges",
+      "track": "construction",
+      "title": "Graphs without triangles or 4-cycles"
+    },
+    {
+      "id": "kissing-d13",
+      "track": "construction",
+      "title": "Kissing configurations in 13 dimensions"
+    },
+    {
+      "id": "ramsey-r46",
+      "track": "construction",
+      "title": "Ramsey constructions: R(4, 6)"
+    },
+    {
+      "id": "tsp-gap",
+      "track": "construction",
+      "title": "Metric traveling-salesperson integrality gap"
+    },
+    {
+      "id": "log-rank-conjecture",
+      "track": "open",
+      "title": "The log-rank conjecture"
+    },
+    {
+      "id": "evasiveness-graph-properties",
+      "track": "open",
+      "title": "Evasiveness of graph properties"
+    },
+    {
+      "id": "frege-not-pbounded",
+      "track": "open",
+      "title": "Frege is not polynomially bounded"
+    },
+    {
+      "id": "online-matching-random-order",
+      "track": "open",
+      "title": "Online matching in random arrival order"
+    },
+    {
+      "id": "prg-constant-width-robp",
+      "track": "open",
+      "title": "Pseudorandom generators for width-4 programs"
+    }
+  ],
+  "records": [
+    {
+      "id": "attempt-c6f0f258438b3330",
+      "model": "astra",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-d6eb6f57f8a535b9",
+      "model": "astra",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-75a732ea4b4bf727",
+      "model": "astra",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-532188a845c617d2",
+      "model": "astra",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1778ba4d3735b6c7",
+      "model": "astra",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-0276961956bed7e1",
+      "model": "k3max",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-8fbb9ea8dbb794fa",
+      "model": "k3max",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-4c7d25526e4586fb",
+      "model": "k3max",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-926b4ed26b7cc7fb",
+      "model": "k3max",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1c8378515a0696a3",
+      "model": "k3max",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-b81c26b4e6da8530",
+      "model": "k3max",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-6954df876003527f",
+      "model": "k3max",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-8c462b8003864807",
+      "model": "k3max",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-437fbe16a33f27cd",
+      "model": "k3max",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-5efb0789ad831aee",
+      "model": "k3max",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-30d6e8a6ccc0971d",
+      "model": "k3max",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1f1fbe40b438e96b",
+      "model": "k3max",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-841b92e983018787",
+      "model": "k3max",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-5ce0e86d0f66c5ce",
+      "model": "k3max",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-7aa0d35a951ad563",
+      "model": "k3max",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-c46eff9bf91f13ac",
+      "model": "glm53",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-ee2db05d73495ae7",
+      "model": "glm53",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-73d93a139fa63692",
+      "model": "glm53",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-d853114e22124a20",
+      "model": "glm53",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-5659705f9f42216d",
+      "model": "glm53",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-013b189ac14ccf01",
+      "model": "qwen38max",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-78d13a4b21f3d707",
+      "model": "qwen38max",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1c130b13649ba876",
+      "model": "qwen38max",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-f30da1ea05ce0a20",
+      "model": "qwen38max",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-308edbf6627700e3",
+      "model": "qwen38max",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-3baaa6d860546aab",
+      "model": "grok46",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-734e2b7500a06ba6",
+      "model": "grok46",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-45a8d88f8870ac85",
+      "model": "grok46",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-e5313f79d852e310",
+      "model": "grok46",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-20bde9a3a617f67d",
+      "model": "grok46",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-0a3381ada89f87b5",
+      "model": "astra",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-ab6299417c6d8b07",
+      "model": "astra",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1.02069,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-6e060e20420aeb33",
+      "model": "astra",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-bf87bd859e1fafe0",
+      "model": "astra",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-dcc8bf1c2c8a9e03",
+      "model": "astra",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-a60f138966e753cc",
+      "model": "k3max",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-9b7b13b74e13feb8",
+      "model": "k3max",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-0a4142d8d1b588b2",
+      "model": "k3max",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 1,
+      "score": 0.937519,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-8a33c8be72e107f7",
+      "model": "k3max",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-2ed45c061fca1483",
+      "model": "k3max",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-925b1b30a9f9c71e",
+      "model": "k3max",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 2,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-90cf0681a9511c5f",
+      "model": "k3max",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 2,
+      "score": 1.02069,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-a7e4ade178e86c61",
+      "model": "k3max",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 2,
+      "score": 0.99469,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-59553fb0f1f98235",
+      "model": "k3max",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 2,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-b8bd0abc52630778",
+      "model": "k3max",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-3f3b96b25e156225",
+      "model": "k3max",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 3,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-c3ebf26b721492b8",
+      "model": "k3max",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 3,
+      "score": 1.02069,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-eac276f460b86a5c",
+      "model": "k3max",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 3,
+      "score": 0.99469,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-518519c6fda1880d",
+      "model": "k3max",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 3,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-e26ca481784232d6",
+      "model": "k3max",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-518814a11a7dfff8",
+      "model": "glm53",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-c0f61670dbebd8b3",
+      "model": "glm53",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-11dff848c7d66f07",
+      "model": "glm53",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 1,
+      "score": 0.937519,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-f3d433d29bb256f8",
+      "model": "glm53",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-2be18cc9ac224e20",
+      "model": "glm53",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 1,
+      "score": 0.599719,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-ffce77d2ce07492d",
+      "model": "qwen38max",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-ad80efc071d8581d",
+      "model": "qwen38max",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1.02069,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-bcbd0e28a7dbd139",
+      "model": "qwen38max",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 1,
+      "score": 0.99469,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-cb232d1ea619b490",
+      "model": "qwen38max",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-7a431d22d9d78130",
+      "model": "qwen38max",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-97c6b226707f9e3d",
+      "model": "grok46",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-da69eb584de89908",
+      "model": "grok46",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1.02069,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-727e16864a391107",
+      "model": "grok46",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 1,
+      "score": 0.942623,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-76b2129dc5d56afc",
+      "model": "grok46",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-5e646d3092e31cb9",
+      "model": "grok46",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-f550b5de6056d213",
+      "model": "astra",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-3be158dc4f230bbb",
+      "model": "astra",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-5dde5d6345286a64",
+      "model": "astra",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-27f07fdc301bef21",
+      "model": "astra",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-b91d62fbc11007db",
+      "model": "astra",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-7dac0a8d937af65e",
+      "model": "k3max",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-ccd256202dc1ad19",
+      "model": "k3max",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-76a777b35a3b325f",
+      "model": "k3max",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-271f4c4fd5feef66",
+      "model": "k3max",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-f02997b3df6f8f58",
+      "model": "k3max",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-870ee18e09597eb9",
+      "model": "k3max",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-efe5994461648bfa",
+      "model": "k3max",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-4f0083140609f0cf",
+      "model": "k3max",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-a1a52fe4ab4df233",
+      "model": "k3max",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-77a71cb4ecb7d8c2",
+      "model": "k3max",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-39c63977f7fa1d80",
+      "model": "k3max",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-387f1daf23626578",
+      "model": "k3max",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-b50c1ba855e4d432",
+      "model": "k3max",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-57b27f9583c56032",
+      "model": "k3max",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-c055545fb47d7f15",
+      "model": "k3max",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-549e01deb0f3fdf2",
+      "model": "glm53",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-455d4fdd0b5ba733",
+      "model": "glm53",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-31986d8b3ba0e5b5",
+      "model": "glm53",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1906582709324c79",
+      "model": "glm53",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-efcb9c5ca5972184",
+      "model": "glm53",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-cd5c9ed8f2c8b6c0",
+      "model": "qwen38max",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-a2a4b368e1b975c9",
+      "model": "qwen38max",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-7059b9222d7e677a",
+      "model": "qwen38max",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-0cb2880916a3e80c",
+      "model": "qwen38max",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-232d8a705af16d7f",
+      "model": "qwen38max",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-5870b0854574da41",
+      "model": "grok46",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-5af8a4dc780d18d2",
+      "model": "grok46",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-c2fcab72dc02d475",
+      "model": "grok46",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-0931ff0851b3cb28",
+      "model": "grok46",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-ae7da2a38cebaf4f",
+      "model": "grok46",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-4dfe316126744aed",
+      "model": "astra",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.5614923133818936,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-ff398e0eeb2754d5",
+      "model": "astra",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.8656152562967379,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-b2d34816b67b67d8",
+      "model": "astra",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.5358638215433044,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-c4d5ae9ceb8b2189",
+      "model": "astra",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.7051517368366477,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-eec3616c252a06d1",
+      "model": "astra",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.48352067256241676,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-c14867d2e5b515e2",
+      "model": "glm53",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.49261904421121433,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-c364e56bce26ef36",
+      "model": "glm53",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.6334260873682892,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-a1c0fb86fa3aab88",
+      "model": "glm53",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.4875946509747191,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-0d5ee120225c5574",
+      "model": "glm53",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.416993613157367,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-c9c0458b0c799cf8",
+      "model": "glm53",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.2719298245614035,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-2123af44c937bbf9",
+      "model": "grok46",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.4110034962961805,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-51a544d9e61e8935",
+      "model": "grok46",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.27533407328846704,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-f9046df5140d8ca6",
+      "model": "grok46",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.5041983199869584,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-0e2a95990bad3537",
+      "model": "grok46",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.5851053475307251,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-c5d966cb02e7536e",
+      "model": "grok46",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.2719298245614035,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-7e16567d4a07fc34",
+      "model": "k3max",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.5025831482553458,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-0762e436bdbbc3db",
+      "model": "k3max",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.21321658117546255,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-2254f0b4553d7b71",
+      "model": "k3max",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.4982098022419606,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-0d61422888ffc077",
+      "model": "k3max",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.6763248190566116,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-167e636432acccac",
+      "model": "k3max",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.3202067880878961,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-bdbe34305d629b7d",
+      "model": "k3max",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.5068156061754987,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-5cef94243ed618be",
+      "model": "k3max",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.6058075359237545,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-95de3755578847cf",
+      "model": "k3max",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.4996752147969667,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-7dcd4c0913ef73fd",
+      "model": "k3max",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.5265965225255107,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-200484303d3d229f",
+      "model": "k3max",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.3202067880878961,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-82e71c041063e7f9",
+      "model": "k3max",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.5046082261847818,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-a2822c9c26e465af",
+      "model": "k3max",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.6048427873525284,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-116e1c58904978ff",
+      "model": "k3max",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.4965768375351593,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-4f6a4c0880371678",
+      "model": "k3max",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.6911079109771919,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-cc21d7abede4fdcc",
+      "model": "k3max",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.370013032383738,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-23964b715b3bc364",
+      "model": "k3max",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 3,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-81e863de53586cb4",
+      "model": "k3max",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 3,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-3484450d2ccc7daa",
+      "model": "k3max",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 3,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-b6fff7110f8eecd3",
+      "model": "k3max",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 3,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-4a7aa83e8540cb91",
+      "model": "k3max",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 3,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-3a641eeda0bf9a59",
+      "model": "opus55",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-f9f7851c5205233e",
+      "model": "opus55",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-52be5a99f4c3d4b1",
+      "model": "opus55",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-fa49d12b62803463",
+      "model": "opus55",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-e1ee147126b43f43",
+      "model": "opus55",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-e3623ee68d14a623",
+      "model": "opus55",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": null,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-26cfc6deb99ed1cc",
+      "model": "opus55",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-1f47f6055d6273cf",
+      "model": "opus55",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-833092de9cfd764c",
+      "model": "opus55",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-1a45715e54e4ee40",
+      "model": "opus55",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-1240b3ce45a29311",
+      "model": "opus55",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": null,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-8bd99e3d2e2b6ea3",
+      "model": "opus55",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": null,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-2d939a862b668ad8",
+      "model": "opus55",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": null,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-8a9cf865ade35dd9",
+      "model": "opus55",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-0c777b95b41bdd8c",
+      "model": "opus55",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-a65f4d24f1307f0c",
+      "model": "opus55",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-5a234d6fd76ebfaf",
+      "model": "opus55",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": null,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-872f1d6470018ede",
+      "model": "opus55",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-95de390163ae7646",
+      "model": "opus55",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-8764ecc24fee2ef0",
+      "model": "opus55",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-2eecdcc6449cbc4d",
+      "model": "opus55",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-949eac9985fed183",
+      "model": "opus55",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-f7f68c3a41f33bf1",
+      "model": "opus55",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-a0727ae00052845b",
+      "model": "opus55",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-936cc8286d0715eb",
+      "model": "opus55",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-82d3daf3d9f95f7a",
+      "model": "opus55",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-b76b8f29fa986696",
+      "model": "opus55",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-9b34e51c641b61e4",
+      "model": "opus55",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-036e601beac54d3b",
+      "model": "opus55",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-b86d307380937010",
+      "model": "opus55",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-83fdd9f38dd59a2a",
+      "model": "opus55",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-4f6609072ecc35c1",
+      "model": "opus55",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-df12292489ccc978",
+      "model": "opus55",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-b8051ef8e3c53f6a",
+      "model": "opus55",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-57bb639d030da8bc",
+      "model": "opus55",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-12bfbb4b9a58434b",
+      "model": "opus55",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-655664e3dd01ffc7",
+      "model": "opus55",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-5f929ed9877e6085",
+      "model": "opus55",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-1246ad023283dfb3",
+      "model": "opus55",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-4ba9ccdcbca93196",
+      "model": "opus55",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-191da28f8864432f",
+      "model": "opus55",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-2b8aae23c311ae54",
+      "model": "opus55",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-8cdea838906299aa",
+      "model": "opus55",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-dab8c25995289097",
+      "model": "opus55",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-dd540cce0597576e",
+      "model": "opus55",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-fad2dedd9ec89aa8",
+      "model": "opus55",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-a7f9c2427238b8d7",
+      "model": "opus55",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "pending",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-3dec8b3967946534",
+      "model": "opus55",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-b2960df3d8f894a8",
+      "model": "opus55",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-98bc7e8bfe1b02e6",
+      "model": "opus55",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-b9aec15c48e9a2b0",
+      "model": "opus55",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-2f2281676dc079c3",
+      "model": "opus55",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-77b8625605be16b8",
+      "model": "opus55",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": null,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-b96d219eda30e09a",
+      "model": "opus55",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-88422d13170e0f65",
+      "model": "opus55",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-588b67ee0801ff01",
+      "model": "opus55",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-ef9a1ca647c23992",
+      "model": "opus55",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-f7cd6693f03c7ea7",
+      "model": "opus55",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-eb610e01738a44cd",
+      "model": "opus55",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-abec388e47fa69da",
+      "model": "opus55",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-b1368b4e791fdd15",
+      "model": "opus55",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-f3e6ade1143ade02",
+      "model": "opus55",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-3d7d6fcf17c696f4",
+      "model": "opus55",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-8d4d3500e52f3cfe",
+      "model": "opus55",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": null,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-5d84dc637c8930a1",
+      "model": "opus55",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.5614923133818936,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-eef6b7ac36c3b4e4",
+      "model": "opus55",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.8621123312342118,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-963cd009c311b9fc",
+      "model": "opus55",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.5396237411102066,
+      "judge_status": "completed",
+      "adoption": "selected_provisional"
+    },
+    {
+      "id": "attempt-774bbf6aa9159950",
+      "model": "opus55",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.7132594624692165,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-c7ce83667880b3c4",
+      "model": "opus55",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.3475822912079696,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-f78c52c29542c04e",
+      "model": "opus55",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected_provisional"
+    },
+    {
+      "id": "attempt-17c62436663b3ca1",
+      "model": "opus55",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1.02069,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-50c097ce4d394d2e",
+      "model": "opus55",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-969bebacf8e6531e",
+      "model": "opus55",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-7715762b1765f3fe",
+      "model": "opus55",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-5b9bf57e0a4759bc",
+      "model": "opus55",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1fb8f076350e3bec",
+      "model": "opus55",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-22868e66696ddbbe",
+      "model": "opus55",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-d7c14d479b20852c",
+      "model": "opus55",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected_provisional"
+    },
+    {
+      "id": "attempt-131156f2bf7be03f",
+      "model": "opus55",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1f1a3ad7a320751f",
+      "model": "opus55",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "pending_replacement_review"
+    },
+    {
+      "id": "attempt-4ec32813edb88a84",
+      "model": "opus55",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "pending_replacement_review"
+    },
+    {
+      "id": "attempt-4d076e0a6081e406",
+      "model": "opus55",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 1,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "pending_replacement_review"
+    },
+    {
+      "id": "attempt-f964aaa328e78d6d",
+      "model": "qwen38max",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.48144575858207056,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-daf5ce8560367280",
+      "model": "qwen38max",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.47486875215295904,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-07b318f8f7956301",
+      "model": "qwen38max",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.5224226615740457,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-ed7502b6db1849ff",
+      "model": "qwen38max",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.6961811136836826,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-087c6b35dd2ae3bf",
+      "model": "qwen38max",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.37272260619994574,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1d2aa0067205f282",
+      "model": "grok46",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 1,
+      "score": null,
+      "judge_status": "completed",
+      "adoption": "historical_only"
+    },
+    {
+      "id": "attempt-k31-pro-corners-quasipoly-1",
+      "model": "k31_pro",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-corners-quasipoly-2",
+      "model": "k31_pro",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-discrete-bidding-games-1",
+      "model": "k31_pro",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-discrete-bidding-games-2",
+      "model": "k31_pro",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-folded-rs-gsb-1",
+      "model": "k31_pro",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-folded-rs-gsb-2",
+      "model": "k31_pro",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-negations-small-depth-1",
+      "model": "k31_pro",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-negations-small-depth-2",
+      "model": "k31_pro",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-quantum-crypto-algorithmica-1",
+      "model": "k31_pro",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-quantum-crypto-algorithmica-2",
+      "model": "k31_pro",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-bpp-bpplib-1",
+      "model": "k31_pro",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.4800968365563539,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-bpp-bpplib-2",
+      "model": "k31_pro",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.49220648474540246,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-curriculum-itc2007-1",
+      "model": "k31_pro",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.6465368502588544,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-curriculum-itc2007-2",
+      "model": "k31_pro",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.43391470964711687,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-maxcut-mqlib-1",
+      "model": "k31_pro",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.4994216063634499,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-maxcut-mqlib-2",
+      "model": "k31_pro",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.5223691561838909,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-mr-roadef2012-1",
+      "model": "k31_pro",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.5593826078900697,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-mr-roadef2012-2",
+      "model": "k31_pro",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.5743421840594821,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-qbf-qbfeval-1",
+      "model": "k31_pro",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.39303392008293564,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-qbf-qbfeval-2",
+      "model": "k31_pro",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.3306285780822759,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-binary-code-a24-10-1",
+      "model": "k31_pro",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-binary-code-a24-10-2",
+      "model": "k31_pro",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 2,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-ex-c3c4-maxedges-1",
+      "model": "k31_pro",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1.02069,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-ex-c3c4-maxedges-2",
+      "model": "k31_pro",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 2,
+      "score": 1.02069,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-kissing-d13-1",
+      "model": "k31_pro",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 1,
+      "score": 0.997343,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-kissing-d13-2",
+      "model": "k31_pro",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 2,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-ramsey-r46-1",
+      "model": "k31_pro",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-ramsey-r46-2",
+      "model": "k31_pro",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-tsp-gap-1",
+      "model": "k31_pro",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-tsp-gap-2",
+      "model": "k31_pro",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 2,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-evasiveness-graph-properties-1",
+      "model": "k31_pro",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-evasiveness-graph-properties-2",
+      "model": "k31_pro",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-frege-not-pbounded-1",
+      "model": "k31_pro",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-frege-not-pbounded-2",
+      "model": "k31_pro",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-log-rank-conjecture-1",
+      "model": "k31_pro",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-log-rank-conjecture-2",
+      "model": "k31_pro",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-online-matching-random-order-1",
+      "model": "k31_pro",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-online-matching-random-order-2",
+      "model": "k31_pro",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-prg-constant-width-robp-1",
+      "model": "k31_pro",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-k31-pro-prg-constant-width-robp-2",
+      "model": "k31_pro",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-426415ebe721c410",
+      "model": "deepseek_flash_1017",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-3ef83978c9b0fd9f",
+      "model": "deepseek_flash_1017",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 2,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-fbdbed6dc0e328da",
+      "model": "deepseek_flash_1017",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 3,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-585ff07e70931209",
+      "model": "deepseek_flash_1017",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.42704742277703767,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-bcec81208124b39e",
+      "model": "deepseek_flash_1017",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.48386115408163993,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-7bb05ab6150035f0",
+      "model": "deepseek_flash_1017",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.49963189885915843,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1c8cabbe08f81fbb",
+      "model": "deepseek_flash_1017",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-a76fcac12cdea9db",
+      "model": "deepseek_flash_1017",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-4ae9734cf55456f1",
+      "model": "deepseek_flash_1017",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-cd2444c732bb8a20",
+      "model": "deepseek_flash_1017",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.8317617802236646,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-ff9ccbcccda429bc",
+      "model": "deepseek_flash_1017",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.43898343903103476,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-71b34fe83555a5f5",
+      "model": "deepseek_flash_1017",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.7622939319671992,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-0e1766c0f877e547",
+      "model": "deepseek_flash_1017",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-454cdb4e38f3fca9",
+      "model": "deepseek_flash_1017",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-dbf4c55b78643da8",
+      "model": "deepseek_flash_1017",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-b66b90ac506d2d23",
+      "model": "deepseek_flash_1017",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-864992e193c56e15",
+      "model": "deepseek_flash_1017",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-d699f60dc4e19600",
+      "model": "deepseek_flash_1017",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-32907eb32d41c916",
+      "model": "deepseek_flash_1017",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1.02069,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-6d17ebf82433b35b",
+      "model": "deepseek_flash_1017",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 2,
+      "score": 1.02069,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-aa3043fb41195ad9",
+      "model": "deepseek_flash_1017",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 3,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-ee74951965047b1c",
+      "model": "deepseek_flash_1017",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-80e3308e11d36ca8",
+      "model": "deepseek_flash_1017",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-df90b3f2a8a94032",
+      "model": "deepseek_flash_1017",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-9b944a24fe18c7c3",
+      "model": "deepseek_flash_1017",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-180051e419356ef3",
+      "model": "deepseek_flash_1017",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1ad214bc32500b46",
+      "model": "deepseek_flash_1017",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-215043d58d08fa67",
+      "model": "deepseek_flash_1017",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 1,
+      "score": 0.99469,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-dec32df27a374176",
+      "model": "deepseek_flash_1017",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 2,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-cc0885e49ba206ce",
+      "model": "deepseek_flash_1017",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 3,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-f78d0cb3a8e07b14",
+      "model": "deepseek_flash_1017",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-10570d18738edc1f",
+      "model": "deepseek_flash_1017",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-2f525a2e518fb980",
+      "model": "deepseek_flash_1017",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-abef278eba518e3f",
+      "model": "deepseek_flash_1017",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.5134879687427412,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-5874ad3c64791bc7",
+      "model": "deepseek_flash_1017",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.4945717321682411,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-0a8dabe805b287a5",
+      "model": "deepseek_flash_1017",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.5074012201345267,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-593719980042b432",
+      "model": "deepseek_flash_1017",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.70817878620718,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-b01ed911fb718dab",
+      "model": "deepseek_flash_1017",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.6754745541079692,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-9cb520991eb66a0b",
+      "model": "deepseek_flash_1017",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.6497374898476881,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-bc7f687432308c84",
+      "model": "deepseek_flash_1017",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-b9156b8e603b4e64",
+      "model": "deepseek_flash_1017",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-f44412543eff8fe6",
+      "model": "deepseek_flash_1017",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-026765920ed90e11",
+      "model": "deepseek_flash_1017",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-ae46095acc5b13bc",
+      "model": "deepseek_flash_1017",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1188000aaf874140",
+      "model": "deepseek_flash_1017",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-29e799f5ef8da53f",
+      "model": "deepseek_flash_1017",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-44ada4f61e967fa9",
+      "model": "deepseek_flash_1017",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-fb6afec026734a8d",
+      "model": "deepseek_flash_1017",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-fe260acf644f766b",
+      "model": "deepseek_flash_1017",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 1,
+      "score": 0.31802948037745815,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-786f539740854aad",
+      "model": "deepseek_flash_1017",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 2,
+      "score": 0.42535418514731416,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-6fcbf55cbdfe227d",
+      "model": "deepseek_flash_1017",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.41440494761231483,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-8e2aa632dc3e89ab",
+      "model": "deepseek_flash_1017",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-8775a77071b1f735",
+      "model": "deepseek_flash_1017",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-0a889ccc646b4f13",
+      "model": "deepseek_flash_1017",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-634c4d97d24d75c9",
+      "model": "deepseek_flash_1017",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 1,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-9094e16e323a7b03",
+      "model": "deepseek_flash_1017",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 2,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-5d0bdca4c2191f6e",
+      "model": "deepseek_flash_1017",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 3,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-3c95845037fa4d59",
+      "model": "deepseek_flash_1017",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 1,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-97a35d93efd0bce7",
+      "model": "deepseek_flash_1017",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 2,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-c47d94cce4bf9a2e",
+      "model": "deepseek_flash_1017",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-9f0ac9e82f575618",
+      "model": "k31_pro",
+      "task": "binary-code-a24-10",
+      "track": "construction",
+      "attempt": 3,
+      "score": 1.19001,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-ff107bfd6202b571",
+      "model": "k31_pro",
+      "task": "bpp-bpplib",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.5069383271067861,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-55fa7a20411d8999",
+      "model": "k31_pro",
+      "task": "corners-quasipoly",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1b70427a80817c2e",
+      "model": "k31_pro",
+      "task": "curriculum-itc2007",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.613838030708113,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-56a879291344e229",
+      "model": "k31_pro",
+      "task": "discrete-bidding-games",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-1dfd98244aa767aa",
+      "model": "k31_pro",
+      "task": "evasiveness-graph-properties",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-846b0f52e3b6de6d",
+      "model": "k31_pro",
+      "task": "ex-c3c4-maxedges",
+      "track": "construction",
+      "attempt": 3,
+      "score": 1.02069,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-e39c28ba9bcb79c9",
+      "model": "k31_pro",
+      "task": "folded-rs-gsb",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-f7d84c436bf5b4d0",
+      "model": "k31_pro",
+      "task": "frege-not-pbounded",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-bb604aa5e922d4e1",
+      "model": "k31_pro",
+      "task": "kissing-d13",
+      "track": "construction",
+      "attempt": 3,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-7a3ed1d8b58e9315",
+      "model": "k31_pro",
+      "task": "log-rank-conjecture",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-121ad16d75058b61",
+      "model": "k31_pro",
+      "task": "maxcut-mqlib",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.5093988877701803,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-465cbce54fdf8059",
+      "model": "k31_pro",
+      "task": "mr-roadef2012",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.6718128804283426,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-7aa46a86f7f83ecd",
+      "model": "k31_pro",
+      "task": "negations-small-depth",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-aa5ddce8f3961077",
+      "model": "k31_pro",
+      "task": "online-matching-random-order",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-7ec5645b0e722d08",
+      "model": "k31_pro",
+      "task": "prg-constant-width-robp",
+      "track": "open",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-d2dabf2b824ee3ca",
+      "model": "k31_pro",
+      "task": "qbf-qbfeval",
+      "track": "solver",
+      "attempt": 3,
+      "score": 0.2631578947368421,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-2db6bbd683af7f2a",
+      "model": "k31_pro",
+      "task": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "attempt": 3,
+      "score": 0,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-a7ad85e85cfc1ef4",
+      "model": "k31_pro",
+      "task": "ramsey-r46",
+      "track": "construction",
+      "attempt": 3,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    },
+    {
+      "id": "attempt-6e3dd6e28481e037",
+      "model": "k31_pro",
+      "task": "tsp-gap",
+      "track": "construction",
+      "attempt": 3,
+      "score": 1,
+      "judge_status": "completed",
+      "adoption": "selected"
+    }
+  ]
+}

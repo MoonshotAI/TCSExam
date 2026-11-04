@@ -1,0 +1,33 @@
+.start-configurator { border-top: 1px solid var(--line); }
+.start-choice-row { display: grid; grid-template-columns: 155px minmax(0,1fr); gap: 24px; align-items: center; padding: 18px 0; border-bottom: 1px solid #edf0f3; }
+.start-choice-row > h3 { font-size: 14px; font-weight: 500; color: #5c6875; }
+.start-options { display: flex; flex-wrap: wrap; gap: 4px; width: fit-content; max-width: 100%; padding: 5px; border: 1px solid #e9edf1; border-radius: 13px; background: #f4f6f8; }
+.start-options button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-width: 100px; min-height: 42px; padding: 10px 18px; border: 1px solid transparent; border-radius: 9px; background: transparent; color: #526171; font-size: 14px; font-weight: 500; line-height: 1.35; white-space: nowrap; transition: background-color 160ms, color 160ms, border-color 160ms, box-shadow 160ms; }
+.start-options button img { flex: 0 0 18px; width: 18px; height: 18px; object-fit: contain; }
+.start-options button[aria-pressed="true"] { background: #fff; color: #215f87; border-color: #c4d7e5; box-shadow: 0 2px 5px #274c6b12; }
+.start-options button:not([aria-pressed="true"]):hover { background: #e9eff4; color: #243e54; }
+.start-options button:focus-visible, .start-command-top button:focus-visible { outline: 3px solid #7ba8c8; outline-offset: 3px; }
+.start-command-panel { margin-top: 26px; border: 1px solid #dfe6ec; border-radius: 14px; overflow: hidden; box-shadow: 0 3px 12px #243e5408; }
+.start-command-top { display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 12px; padding: 12px 18px; background: #f8fafb; border-bottom: 1px solid #e8edf1; }
+.start-command-steps { display: flex; gap: 4px; padding: 3px; background: #edf1f4; border-radius: 9px; }
+.start-command-steps button, .start-copy { min-height: 36px; border: 1px solid transparent; background: transparent; color: #526171; border-radius: 7px; padding: 7px 12px; font-size: 12px; font-weight: 500; transition: background-color 160ms, color 160ms, box-shadow 160ms; }
+.start-command-steps button[aria-pressed="true"] { background: #fff; color: #215f87; box-shadow: 0 1px 4px #274c6b14; }
+.start-command-steps button:hover, .start-copy:hover { color: #215f87; background: #fff; }
+.start-copy { border-color: #dbe4eb; background: #fff; }
+.start-command-summary { color: var(--muted); font-size: 12px; padding: 20px 24px 0; }
+.start-command-panel pre { margin: 0; padding: 16px 24px 24px; overflow-x: auto; font: 12px/1.8 var(--mono); tab-size: 2; }
+.start-command-notes { padding: 0 24px 20px; font-size: 13px; color: var(--muted); }
+.start-command-notes p + p { margin-top: 8px; }
+.start-command-notes a, .start-guide a { text-decoration: underline; text-underline-offset: 3px; }
+.start-guide { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; padding-top: 20px; font-size: 13px; }
+.start-copy-status { min-height: 1.6em; font-size: 12px; color: var(--muted); }
+@media (max-width: 640px) {
+  .start-choice-row { grid-template-columns: 1fr; gap: 10px; padding: 16px 0; }
+  .start-options { width: 100%; }
+  .start-options button { flex: 1 1 auto; min-width: 0; font-size: 13px; padding: 10px 12px; }
+  .start-options[aria-labelledby="start-agent-label"] { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .start-command-top { padding: 12px; }
+  .start-command-panel pre { padding: 14px 16px 20px; }
+  .start-command-summary, .start-command-notes { padding-left: 16px; padding-right: 16px; }
+}
+@media (prefers-reduced-motion: reduce) { .start-options button, .start-command-top button { transition: none; } }

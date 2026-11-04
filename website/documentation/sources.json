@@ -1,0 +1,138 @@
+[
+  {
+    "en": "README.md",
+    "zh": "docs/README.zh-CN.md"
+  },
+  {
+    "en": ".github/CONTRIBUTING.md",
+    "zh": ".github/CONTRIBUTING.zh-CN.md"
+  },
+  {
+    "en": "docs/backend/docker.md",
+    "zh": "docs/backend/docker.zh-CN.md"
+  },
+  {
+    "en": "docs/backend/public-images.md",
+    "zh": "docs/backend/public-images.zh-CN.md"
+  },
+  {
+    "en": "docs/backend/service.md",
+    "zh": "docs/backend/service.zh-CN.md"
+  },
+  {
+    "en": "docs/citation.md",
+    "zh": "docs/citation.zh-CN.md"
+  },
+  {
+    "en": "docs/getting-started.md",
+    "zh": "docs/getting-started.zh-CN.md"
+  },
+  {
+    "en": "docs/judge-execution-isolation.md",
+    "zh": "docs/judge-execution-isolation.zh-CN.md"
+  },
+  {
+    "en": "docs/licenses/README.md",
+    "zh": "docs/licenses/README.zh-CN.md"
+  },
+  {
+    "en": "docs/licenses/THIRD_PARTY_NOTICES.md",
+    "zh": "docs/licenses/THIRD_PARTY_NOTICES.zh-CN.md"
+  },
+  {
+    "en": "docs/licenses/cpsolver-source.md",
+    "zh": "docs/licenses/cpsolver-source.zh-CN.md"
+  },
+  {
+    "en": "docs/licenses/distribution.md",
+    "zh": "docs/licenses/distribution.zh-CN.md"
+  },
+  {
+    "en": "docs/licenses/full-review.md",
+    "zh": "docs/licenses/full-review.zh-CN.md"
+  },
+  {
+    "en": "docs/offline-adapters.md",
+    "zh": "docs/offline-adapters.zh-CN.md"
+  },
+  {
+    "en": "docs/oracle-answers.md",
+    "zh": "docs/oracle-answers.zh-CN.md"
+  },
+  {
+    "en": "docs/resources.md",
+    "zh": "docs/resources.zh-CN.md"
+  },
+  {
+    "en": "docs/running.md",
+    "zh": "docs/running.zh-CN.md"
+  },
+  {
+    "en": "docs/runtime-availability.md",
+    "zh": "docs/runtime-availability.zh-CN.md"
+  },
+  {
+    "en": "docs/scoring.md",
+    "zh": "docs/scoring.zh-CN.md"
+  },
+  {
+    "en": "docs/solver-backend.md",
+    "zh": "docs/solver-backend.zh-CN.md"
+  },
+  {
+    "en": "docs/solver-protocols.md",
+    "zh": "docs/solver-protocols.zh-CN.md"
+  },
+  {
+    "en": "docs/source-delivery.md",
+    "zh": "docs/source-delivery.zh-CN.md"
+  },
+  {
+    "en": "docs/tasks.md",
+    "zh": "docs/tasks.zh-CN.md"
+  },
+  {
+    "en": "assets/README.md",
+    "zh": "assets/README.zh-CN.md"
+  },
+  {
+    "en": "assets/environments/harbor/README.md",
+    "zh": "assets/environments/harbor/README.zh-CN.md"
+  },
+  {
+    "en": "assets/environments/lean-base/README.md",
+    "zh": "docs/environments/lean-base/README.zh-CN.md"
+  },
+  {
+    "en": "assets/environments/lean-base/NOTICE.md",
+    "zh": "docs/environments/lean-base/NOTICE.zh-CN.md"
+  },
+  {
+    "en": "assets/environments/lean-base/browser-components/README.md",
+    "zh": "docs/environments/lean-base/browser-components/README.zh-CN.md"
+  },
+  {
+    "en": "assets/environments/lean-base/graphviz-epl/README.md",
+    "zh": "docs/environments/lean-base/graphviz-epl/README.zh-CN.md"
+  },
+  {
+    "en": "assets/environments/lean-base/graphviz-epl/SOURCE-OFFER.md",
+    "zh": "docs/environments/lean-base/graphviz-epl/SOURCE-OFFER.zh-CN.md"
+  },
+  {
+    "en": "assets/environments/lean-base/lean-components/README.md",
+    "zh": "docs/environments/lean-base/lean-components/README.zh-CN.md"
+  },
+  {
+    "en": "assets/environments/lean-base/proofwidgets-npm/README.md",
+    "zh": "docs/environments/lean-base/proofwidgets-npm/README.zh-CN.md"
+  },
+  {
+    "en": "docs/index.md",
+    "zh": "docs/index.zh-CN.md"
+  },
+  {
+    "en": "docs/running-suites.md",
+    "zh": "docs/running-suites.zh-CN.md"
+  }
+]

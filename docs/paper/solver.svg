@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="75 0 180 160"><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#51657A" /></marker></defs>
+<defs><marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#142B49" /></marker><marker id="arrow-proof" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2386C2" /></marker><marker id="arrow-conjecture" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#E35069" /></marker><marker id="arrow-construction" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2B9362" /></marker><marker id="arrow-solver" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#8453B4" /></marker></defs>
+<g id="diagram-coloring-dimacs">
+<path d="M160.0,12.0 L212.382709325358,37.226183275464855" fill="none" stroke="#99B0C4" stroke-width="1.9" stroke-linecap="round" />
+<path d="M212.382709325358,37.226183275464855 L225.32017011618217,93.90890257507306" fill="none" stroke="#99B0C4" stroke-width="1.9" stroke-linecap="round" />
+<path d="M225.32017011618217,93.90890257507306 L189.0702105208764,139.3649141494621" fill="none" stroke="#99B0C4" stroke-width="1.9" stroke-linecap="round" />
+<path d="M189.0702105208764,139.3649141494621 L130.9297894791236,139.3649141494621" fill="none" stroke="#99B0C4" stroke-width="1.9" stroke-linecap="round" />
+<path d="M130.9297894791236,139.3649141494621 L94.67982988381782,93.90890257507307" fill="none" stroke="#99B0C4" stroke-width="1.9" stroke-linecap="round" />
+<path d="M94.67982988381782,93.90890257507307 L107.61729067464199,37.22618327546486" fill="none" stroke="#99B0C4" stroke-width="1.9" stroke-linecap="round" />
+<path d="M107.61729067464199,37.22618327546486 L160.0,12.0" fill="none" stroke="#99B0C4" stroke-width="1.9" stroke-linecap="round" />
+<path d="M160.0,12.0 L130.9297894791236,139.3649141494621" fill="none" stroke="#99B0C4" stroke-width="1.9" stroke-linecap="round" />
+<path d="M212.382709325358,37.226183275464855 L94.67982988381782,93.90890257507307" fill="none" stroke="#99B0C4" stroke-width="1.9" stroke-linecap="round" />
+<path d="M225.32017011618217,93.90890257507306 L107.61729067464199,37.22618327546486" fill="none" stroke="#99B0C4" stroke-width="1.9" stroke-linecap="round" />
+<path d="M189.0702105208764,139.3649141494621 L94.67982988381782,93.90890257507307" fill="none" stroke="#99B0C4" stroke-width="1.9" stroke-linecap="round" />
+<circle cx="160.0" cy="12.0" r="10" fill="#8963B8" stroke="#142B49" stroke-width="1.7" />
+<circle cx="212.382709325358" cy="37.226183275464855" r="10" fill="#E4B667" stroke="#142B49" stroke-width="1.7" />
+<circle cx="225.32017011618217" cy="93.90890257507306" r="10" fill="#8963B8" stroke="#142B49" stroke-width="1.7" />
+<circle cx="189.0702105208764" cy="139.3649141494621" r="10" fill="#E4B667" stroke="#142B49" stroke-width="1.7" />
+<circle cx="130.9297894791236" cy="139.3649141494621" r="10" fill="#6AACA6" stroke="#142B49" stroke-width="1.7" />
+<circle cx="94.67982988381782" cy="93.90890257507307" r="10" fill="#8963B8" stroke="#142B49" stroke-width="1.7" />
+<circle cx="107.61729067464199" cy="37.22618327546486" r="10" fill="#6AACA6" stroke="#142B49" stroke-width="1.7" />
+</g>
+</svg>

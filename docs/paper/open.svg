@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160"><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#51657A" /></marker></defs>
+<defs><marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#142B49" /></marker><marker id="arrow-proof" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2386C2" /></marker><marker id="arrow-conjecture" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#E35069" /></marker><marker id="arrow-construction" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2B9362" /></marker><marker id="arrow-solver" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#8453B4" /></marker></defs>
+<g id="diagram-log-rank-conjecture">
+<circle cx="39" cy="43" r="12" fill="#387FB9" stroke="none" stroke-width="0" />
+<path d="M19 82 V72 Q19 59 39 59 Q59 59 59 72 V82 Z" stroke="#387FB9" stroke-width="1" fill="#387FB9" stroke-linejoin="round" stroke-linecap="round" />
+<text x="39" y="116.0586889818689" fill="#142B49" font-family="Times New Roman" font-size="30.68340306834031" font-weight="400" text-anchor="middle">Alice</text>
+<circle cx="123" cy="43" r="12" fill="#DC6C70" stroke="none" stroke-width="0" />
+<path d="M103 82 V72 Q103 59 123 59 Q143 59 143 72 V82 Z" stroke="#DC6C70" stroke-width="1" fill="#DC6C70" stroke-linejoin="round" stroke-linecap="round" />
+<text x="123" y="116.0586889818689" fill="#142B49" font-family="Times New Roman" font-size="30.68340306834031" font-weight="400" text-anchor="middle">Bob</text>
+<path d="M59 43 L101 43" stroke="#E35069" stroke-width="1.7" fill="none" stroke-linecap="round" marker-end="url(#arrow-conjecture)" />
+<path d="M101 67 L60 67" stroke="#2386C2" stroke-width="1.7" fill="none" stroke-linecap="round" marker-end="url(#arrow-proof)" />
+<rect x="179" y="15" width="27" height="27" rx="0" fill="#FFFFFF" stroke="#142B49" stroke-width="0.8" />
+<text x="193" y="36.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">0</text>
+<rect x="207" y="15" width="27" height="27" rx="0" fill="#FFFFFF" stroke="#142B49" stroke-width="0.8" />
+<text x="221" y="36.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">0</text>
+<rect x="235" y="15" width="27" height="27" rx="0" fill="#FFFFFF" stroke="#142B49" stroke-width="0.8" />
+<text x="249" y="36.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">0</text>
+<rect x="263" y="15" width="27" height="27" rx="0" fill="#FFFFFF" stroke="#142B49" stroke-width="0.8" />
+<text x="277" y="36.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">0</text>
+<rect x="179" y="43" width="27" height="27" rx="0" fill="#FFFFFF" stroke="#142B49" stroke-width="0.8" />
+<text x="193" y="64.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">0</text>
+<rect x="207" y="43" width="27" height="27" rx="0" fill="#F8D9DF" stroke="#142B49" stroke-width="0.8" />
+<text x="221" y="64.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">1</text>
+<rect x="235" y="43" width="27" height="27" rx="0" fill="#FFFFFF" stroke="#142B49" stroke-width="0.8" />
+<text x="249" y="64.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">0</text>
+<rect x="263" y="43" width="27" height="27" rx="0" fill="#F8D9DF" stroke="#142B49" stroke-width="0.8" />
+<text x="277" y="64.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">1</text>
+<rect x="179" y="71" width="27" height="27" rx="0" fill="#FFFFFF" stroke="#142B49" stroke-width="0.8" />
+<text x="193" y="92.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">0</text>
+<rect x="207" y="71" width="27" height="27" rx="0" fill="#FFFFFF" stroke="#142B49" stroke-width="0.8" />
+<text x="221" y="92.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">0</text>
+<rect x="235" y="71" width="27" height="27" rx="0" fill="#F8D9DF" stroke="#142B49" stroke-width="0.8" />
+<text x="249" y="92.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">1</text>
+<rect x="263" y="71" width="27" height="27" rx="0" fill="#F8D9DF" stroke="#142B49" stroke-width="0.8" />
+<text x="277" y="92.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">1</text>
+<rect x="179" y="99" width="27" height="27" rx="0" fill="#FFFFFF" stroke="#142B49" stroke-width="0.8" />
+<text x="193" y="120.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">0</text>
+<rect x="207" y="99" width="27" height="27" rx="0" fill="#F8D9DF" stroke="#142B49" stroke-width="0.8" />
+<text x="221" y="120.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">1</text>
+<rect x="235" y="99" width="27" height="27" rx="0" fill="#F8D9DF" stroke="#142B49" stroke-width="0.8" />
+<text x="249" y="120.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">1</text>
+<rect x="263" y="99" width="27" height="27" rx="0" fill="#FFFFFF" stroke="#142B49" stroke-width="0.8" />
+<text x="277" y="120.89768479776848" fill="#142B49" font-family="Times New Roman" font-size="24.9302649930265" font-weight="400" text-anchor="middle">0</text>
+</g>
+</svg>

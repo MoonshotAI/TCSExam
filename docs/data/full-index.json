@@ -1,0 +1,95 @@
+{
+  "models": [
+    {
+      "model": "astra",
+      "model_label": "GPT-6 Astra",
+      "index": 71.87743272590481,
+      "theorem": 0.7,
+      "solver": 0.646421824196827,
+      "construction": 1.0494926,
+      "open": 0,
+      "theorem_points": 21,
+      "solver_points": 19.392654725904812,
+      "construction_points": 31.484778,
+      "open_points": 0
+    },
+    {
+      "model": "k3max",
+      "model_label": "Kimi K3",
+      "index": 46.78309291658175,
+      "theorem": 0.11666666666666667,
+      "solver": 0.4872729138860585,
+      "construction": 0.95549685,
+      "open": 0,
+      "theorem_points": 3.5,
+      "solver_points": 14.618187416581755,
+      "construction_points": 28.6649055,
+      "open_points": 0
+    },
+    {
+      "model": "glm53",
+      "model_label": "GLM-5.3",
+      "index": 45.49578049815965,
+      "theorem": 0.05,
+      "solver": 0.48966411660532144,
+      "construction": 0.9768619,
+      "open": 0,
+      "theorem_points": 1.5,
+      "solver_points": 14.689923498159644,
+      "construction_points": 29.305857,
+      "open_points": 0
+    },
+    {
+      "model": "qwen38max",
+      "model_label": "Qwen3.8 Max (0902)",
+      "index": 44.77889523224536,
+      "theorem": 0.05,
+      "solver": 0.4918608410748452,
+      "construction": 0.950769,
+      "open": 0,
+      "theorem_points": 1.5,
+      "solver_points": 14.755825232245355,
+      "construction_points": 28.52307,
+      "open_points": 0
+    },
+    {
+      "model": "grok46",
+      "model_label": "Grok 4.6",
+      "index": 40.474744990095495,
+      "theorem": 0.05,
+      "solver": 0.43718351633651653,
+      "construction": 0.86197465,
+      "open": 0,
+      "theorem_points": 1.5,
+      "solver_points": 13.115505490095495,
+      "construction_points": 25.859239499999997,
+      "open_points": 0
+    },
+    {
+      "model": "k31_pro",
+      "model_label": "Kimi K3.1 Pro",
+      "index": 57.419775870742306,
+      "theorem": 0.3833333333333333,
+      "solver": 0.5406602753210398,
+      "construction": 0.9862952166666666,
+      "open": 0.01111111111111111,
+      "theorem_points": 11.5,
+      "solver_points": 16.219808259631193,
+      "construction_points": 29.5888565,
+      "open_points": 0.1111111111111111
+    },
+    {
+      "model": "deepseek_flash_1017",
+      "model_label": "DeepSeek V4.1 Flash 1017",
+      "index": 45.97143380857449,
+      "theorem": 0.06666666666666667,
+      "solver": 0.5295606084339645,
+      "construction": 0.9176353333333334,
+      "open": 0.05555555555555555,
+      "theorem_points": 2,
+      "solver_points": 15.886818253018934,
+      "construction_points": 27.52906,
+      "open_points": 0.5555555555555556
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+test-results/
+.env
+.env.*
+*.log
+.DS_Store
+
+# Copied from the benchmark source during a complete website build.
+/website/public/paper/tcsexam.pdf

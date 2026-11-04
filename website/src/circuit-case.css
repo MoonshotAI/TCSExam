@@ -1,0 +1,28 @@
+.research-case .circuit-case { padding-inline: clamp(16px, 2vw, 28px); }
+.circuit-instance { display: flex; justify-content: center; align-items: center; gap: 10px; color: var(--muted); font-size: 12px; }
+.circuit-instance span { font-family: var(--mono); font-size: 11px; }
+.circuit-reduction { display: flex; justify-content: center; align-items: baseline; gap: 18px; margin-top: 16px; font-size: clamp(36px, 4vw, 49px); line-height: 1.15; letter-spacing: -1.8px; font-variant-numeric: tabular-nums; }
+.circuit-reduction > span:first-child { color: #74727c; }
+.circuit-reduction > span:nth-child(2) { color: #96919e; font-size: .55em; align-self: center; }
+.circuit-reduction strong { color: var(--accent); font-weight: 500; }
+.circuit-reduction-label { display: flex; justify-content: center; gap: 12px; margin-top: 7px; color: var(--muted); font-size: 12px; }
+.circuit-reduction-label span { color: var(--accent); }
+.circuit-comparison { max-width: 340px; margin: 27px auto 0; }
+.circuit-chart-label { margin-bottom: 10px; color: var(--muted); font-size: 11px; }
+.circuit-comparison ol { list-style: none; padding: 0; margin: 0; }
+.circuit-comparison li { display: grid; grid-template-columns: 83px minmax(0, 1fr) 28px; align-items: center; gap: 10px; min-height: 30px; font-size: 11px; }
+.circuit-comparison li > strong { text-align: right; font-weight: 500; font-variant-numeric: tabular-nums; }
+.circuit-bar { display: block; height: 10px; }
+.circuit-bar i { display: block; width: calc(var(--gate-count) / 220 * 100%); height: 100%; background: #b4a4cb; border-radius: 0 2px 2px 0; }
+.circuit-comparison li[data-circuit-source="google"] .circuit-bar i { background: #a18bbf; }
+.circuit-comparison li[data-circuit-source="astra"] { color: var(--accent); margin-top: 10px; padding-top: 10px; border-top: 1px solid #ddd5e8; }
+.circuit-comparison li[data-circuit-source="astra"] .circuit-bar i { background: var(--accent); }
+.research-case .circuit-case figcaption { margin-top: 24px; min-height: 0; }
+
+.case-preview-header { max-width: 1100px; padding: 28px 32px; margin: auto; border-bottom: 1px solid var(--line); }
+.case-preview-header a { display: flex; justify-content: space-between; align-items: center; font-size: 28px; font-weight: 600; letter-spacing: -1px; }
+.case-preview-header span { font-size: 13px; font-weight: 400; letter-spacing: 0; color: var(--muted); }
+.case-preview-main { width: min(100% - 40px, 570px); margin: 45px auto 70px; }
+.case-preview-main h1 { font-size: 15px; font-weight: 400; color: var(--muted); margin-bottom: 22px; }
+.case-preview-main .research-case h2 { font-size: 27px; line-height: 1.25; letter-spacing: -.65px; margin: 13px 0 0; }
+.case-preview-main .research-case { display: flex; }

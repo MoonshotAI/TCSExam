@@ -1,0 +1,31 @@
+name: Website and bilingual documentation
+
+on:
+  push:
+    branches: [master, gh-pages]
+  pull_request:
+    branches: [master, gh-pages]
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish to GitHub Pages after the preview has been reviewed
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: tcsexam-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  website:
+    # Resolve the workflow and its inputs from this same commit.
+    uses: ./.github/workflows/site-build.yml
+    with:
+      publish: ${{ github.event_name == 'workflow_dispatch' && inputs.publish }}
+      source-ref: ${{ (github.ref_name == 'gh-pages' || github.base_ref == 'gh-pages') && github.event.repository.default_branch || github.sha }}
+      website-ref: ${{ (github.ref_name == 'gh-pages' || github.base_ref == 'gh-pages') && github.sha || 'gh-pages' }}

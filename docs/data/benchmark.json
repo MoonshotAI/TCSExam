@@ -1,0 +1,233 @@
+{
+  "benchmark": "TCSExam",
+  "development_hours": 12,
+  "citation": "@misc{tcsexam2026,\n  title = {{TCSExam}: Evaluating frontier {LLMs} on the full range of {TCS} research},\n  author = {Luo, Yifan and Liu, Zhengying and Yuan, Yang and Yang, Zhilin and Yao, Andrew Chi-Chih},\n  year = {2026},\n  month = nov,\n  url = {https://github.com/MoonshotAI/TCSExam}\n}",
+  "tracks": [
+    {
+      "id": "theorem",
+      "label": "Theorem proving",
+      "short": "Theorems",
+      "color": "#3495ce",
+      "full_count": 20,
+      "description": "Complete a research-level theorem in Lean 4 from the main statement, without a supplied proof outline.",
+      "output": "Complete Lean proof",
+      "verification": "Lean kernel + axiom checks",
+      "score": "1 if verified; otherwise 0"
+    },
+    {
+      "id": "solver",
+      "label": "Solver engineering",
+      "short": "Solvers",
+      "color": "#9365c3",
+      "full_count": 30,
+      "description": "Build a reusable program that solves unseen instances under fixed resource limits.",
+      "output": "Reusable solver program",
+      "verification": "Executable task checker",
+      "score": "Kimi K3-relative score (%)"
+    },
+    {
+      "id": "construction",
+      "label": "Constructions",
+      "short": "Constructions",
+      "color": "#35a777",
+      "full_count": 20,
+      "description": "Produce explicit mathematical objects or bounds with formally verified properties.",
+      "output": "Object or bound + Lean proof",
+      "verification": "Lean kernel + certificate checks",
+      "score": "Original score; may exceed 1"
+    },
+    {
+      "id": "open",
+      "label": "Open conjectures",
+      "short": "Conjectures",
+      "color": "#f05272",
+      "full_count": 30,
+      "description": "Attempt a complete proof or refutation of a long-standing open research conjecture.",
+      "output": "Proof or refutation in Lean",
+      "verification": "Independent main proof slots",
+      "score": "1 if settled; otherwise 0"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "corners-quasipoly",
+      "track": "theorem",
+      "title": "Quasipolynomial corners bounds",
+      "domain": "Additive combinatorics",
+      "summary": "Prove the stated quantitative bound for subsets of a finite abelian group squared that contain no nontrivial corner.",
+      "formula": "(x,y),\\ (x+d,y),\\ (x,y+d),\\quad d\\ne0",
+      "note": "The full parameter conditions and quantitative bound are fixed by the task statement."
+    },
+    {
+      "id": "discrete-bidding-games",
+      "track": "theorem",
+      "title": "Discrete bidding games",
+      "domain": "Algorithms & games",
+      "summary": "Prove that a player meeting the budget threshold has a legal strategy that keeps energy nonnegative in an integer-weighted directed graph.",
+      "formula": "E_k\\geq0\\quad\\text{for every play prefix}",
+      "note": "Determinacy of the associated reachability bidding game is a supplied assumption."
+    },
+    {
+      "id": "folded-rs-gsb",
+      "track": "theorem",
+      "title": "Folded Reed–Solomon list decoding",
+      "domain": "Coding theory",
+      "summary": "Prove the prescribed list-decoding bound: every Hamming ball at the stated radius contains at most the allowed number of codewords.",
+      "formula": "|C\\cap B_H(y,\\rho)|\\leq L",
+      "note": "The target is the folded Reed–Solomon theorem; the task fixes all parameter assumptions."
+    },
+    {
+      "id": "negations-small-depth",
+      "track": "theorem",
+      "title": "Subtraction in arithmetic formulas",
+      "domain": "Arithmetic complexity",
+      "summary": "Prove that certain graph polynomials admit small arithmetic formulas using subtraction while every monotone arithmetic formula requires exponential size.",
+      "formula": "\\operatorname{size}_{\\rm monotone}(P_G)\\geq 2^{c n}",
+      "note": "The task supplies a random-matching assumption. This concerns arithmetic formulas and monotonicity."
+    },
+    {
+      "id": "quantum-crypto-algorithmica",
+      "track": "theorem",
+      "title": "Pseudorandomness of Forrelation",
+      "domain": "Pseudorandomness & quantum computing",
+      "summary": "Prove pseudorandomness of the Forrelation distribution against the specified Boolean functions, with a bound controlled by second-order Fourier coefficients.",
+      "formula": "\\text{Forrelation}\\ \\longrightarrow\\ \\text{pseudorandomness}",
+      "note": "Two external Gaussian-distribution results are supplied as assumptions."
+    },
+    {
+      "id": "bpp-bpplib",
+      "track": "solver",
+      "title": "One-dimensional bin packing",
+      "domain": "Packing & optimization",
+      "summary": "Write a reusable solver that packs weighted items into equal-capacity bins while minimizing the number of bins.",
+      "formula": "\\min\\ \\text{number of bins}",
+      "note": "The 39 final instances share one 1,170-second time pool. The pool must remain intact."
+    },
+    {
+      "id": "curriculum-itc2007",
+      "track": "solver",
+      "title": "Curriculum-based timetabling",
+      "domain": "Scheduling",
+      "summary": "Assign courses to rooms and time slots. Satisfy all hard constraints, then minimize the prescribed soft-constraint penalties.",
+      "formula": "\\min\\ \\text{soft-constraint penalty}",
+      "note": "Six final instances; 240 seconds of solving time per instance."
+    },
+    {
+      "id": "maxcut-mqlib",
+      "track": "solver",
+      "title": "Weighted maximum cut",
+      "domain": "Graph optimization",
+      "summary": "Partition a weighted graph into two sets to maximize the total weight of edges crossing the partition. The checker recomputes the objective.",
+      "formula": "\\max_{S\\subseteq V}\\ \\sum_{\\{u,v\\}\\in\\delta(S)}w_{uv}",
+      "note": "45 final instances; 600 seconds of solving time per instance."
+    },
+    {
+      "id": "mr-roadef2012",
+      "track": "solver",
+      "title": "Machine reassignment",
+      "domain": "Assignment & optimization",
+      "summary": "Reassign processes to machines while satisfying capacity, service-conflict, location, and dependency constraints; minimize weighted load, balance, and migration costs.",
+      "formula": "\\min\\ \\text{weighted reassignment cost}",
+      "note": "Ten final instances; 300 seconds of solving time per instance."
+    },
+    {
+      "id": "qbf-qbfeval",
+      "track": "solver",
+      "title": "Quantified Boolean formulas",
+      "domain": "Logic & formal methods",
+      "summary": "Decide whether a quantified Boolean formula is true and supply a checkable Q-resolution proof certificate as required by the task.",
+      "formula": "Q_1x_1\\;Q_2x_2\\cdots Q_nx_n\\;\\varphi(x)",
+      "note": "57 final instances; 900 seconds per instance. Certificate conversion and checking have separate limits."
+    },
+    {
+      "id": "binary-code-a24-10",
+      "track": "construction",
+      "title": "Binary codes: A(24, 10)",
+      "domain": "Coding theory",
+      "summary": "Construct a large set of 24-bit words with pairwise Hamming distance at least 10 and formally verify it, or prove an upper bound on the maximum set size.",
+      "formula": "C\\subseteq\\{0,1\\}^{24},\\quad d_H(x,y)\\geq10",
+      "note": "The exact submission interfaces and fixed reference values are part of the task release."
+    },
+    {
+      "id": "ex-c3c4-maxedges",
+      "track": "construction",
+      "title": "Graphs without triangles or 4-cycles",
+      "domain": "Extremal combinatorics",
+      "summary": "Construct a graph on 124 vertices with as many edges as possible, and verify its vertex set, edge count, and absence of triangles and 4-cycles.",
+      "formula": "|V|=124,\\quad C_3,C_4\\nsubseteq G",
+      "note": "This Lite Lean task fixes 124 vertices; other graph sizes do not satisfy the main interface."
+    },
+    {
+      "id": "kissing-d13",
+      "track": "construction",
+      "title": "Kissing configurations in 13 dimensions",
+      "domain": "Discrete geometry",
+      "summary": "Construct a large set of points on the unit sphere in thirteen-dimensional space with pairwise angles of at least 60 degrees.",
+      "formula": "x_i\\in S^{12},\\quad\\langle x_i,x_j\\rangle\\leq\\tfrac12",
+      "note": "The task uses exact certificates for distances and separation."
+    },
+    {
+      "id": "ramsey-r46",
+      "track": "construction",
+      "title": "Ramsey constructions: R(4, 6)",
+      "domain": "Ramsey theory",
+      "summary": "Color the edges of a complete graph red and blue, avoiding a red 4-clique and a blue 6-clique, to establish a lower bound. The task also accepts upper-bound proofs.",
+      "formula": "\\text{No red }K_4\\quad\\text{and no blue }K_6",
+      "note": "The task-specific milestone scoring rule is preserved; construction scores use their original scale."
+    },
+    {
+      "id": "tsp-gap",
+      "track": "construction",
+      "title": "Metric traveling-salesperson integrality gap",
+      "domain": "Combinatorial optimization",
+      "summary": "Give a metric instance, a feasible solution to the subtour linear program, and a certificate bounding the shortest tour from below, to prove a large integrality gap.",
+      "formula": "\\alpha=\\frac{\\mathrm{OPT}_{\\rm tour}}{\\mathrm{OPT}_{\\rm LP}}",
+      "note": "The displayed ratio describes the research objective. The checker uses the task-specific certified bound and score."
+    },
+    {
+      "id": "log-rank-conjecture",
+      "track": "open",
+      "title": "The log-rank conjecture",
+      "domain": "Communication complexity",
+      "summary": "Prove or refute that deterministic two-party communication complexity is bounded by a fixed power of the logarithm of the real rank of the communication matrix.",
+      "formula": "D(f)\\leq(1+\\log_2\\operatorname{rank}_{\\mathbb R}M_f)^c",
+      "note": "A complete proof or refutation is required. Intermediate bounds receive no partial credit."
+    },
+    {
+      "id": "evasiveness-graph-properties",
+      "track": "open",
+      "title": "Evasiveness of graph properties",
+      "domain": "Query complexity",
+      "summary": "Prove or refute that every nontrivial monotone graph property invariant under vertex relabeling requires querying every possible edge in the worst case.",
+      "formula": "D(P)=\\binom{n}{2}",
+      "note": "All hypotheses in the formal statement must be retained."
+    },
+    {
+      "id": "frege-not-pbounded",
+      "track": "open",
+      "title": "Frege is not polynomially bounded",
+      "domain": "Proof complexity",
+      "summary": "Prove or refute the existence of a family of propositional tautologies whose shortest proofs in the fixed Frege system exceed every polynomial bound.",
+      "formula": "\\text{Superpolynomial Frege proof length}",
+      "note": "The formula language, axiom schemes, and proof system are fixed by the task."
+    },
+    {
+      "id": "online-matching-random-order",
+      "track": "open",
+      "title": "Online matching in random arrival order",
+      "domain": "Online algorithms",
+      "summary": "Prove or refute the existence of a randomized online bipartite matching algorithm attaining a 3/4 competitive ratio for all sufficiently large sizes in random arrival order.",
+      "formula": "\\mathbb E[|M|]\\geq\\tfrac34\\,\\mathrm{OPT}",
+      "note": "The sufficiently-large-size quantifier is part of the goal; a finite-size result alone is insufficient."
+    },
+    {
+      "id": "prg-constant-width-robp",
+      "track": "open",
+      "title": "Pseudorandom generators for width-4 programs",
+      "domain": "Pseudorandomness",
+      "summary": "Prove or refute an efficiently computable pseudorandom generator with seed length below the logarithm-squared scale that fools length-n, width-4, read-once oblivious branching programs at error 1/n.",
+      "formula": "\\ell(n)=o(\\log^2 n),\\quad\\varepsilon=1/n",
+      "note": "Polynomial-time computability, width 4, and the stated error are all required."
+    }
+  ]
+}

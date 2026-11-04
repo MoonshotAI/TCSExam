@@ -1,0 +1,66 @@
+{
+  "retrieved": "2026-09-25",
+  "purpose": "Model identification in TCSExam results.",
+  "sources": {
+    "kimi": {
+      "file": "Logomark_Light.svg",
+      "provided": "2026-11-03",
+      "sha256": "a543446e0c6827bae262ec45e6bbc67cc0c9e9f446ebc86be916c082459aed25",
+      "bytes": 1271,
+      "note": "User-provided SVG; served locally without modification."
+    },
+    "qwen": {
+      "url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/qwen.svg",
+      "sha256": "52113608880dfafae0b605b8fb57ccbdbae3c8fd5dee4606987f9b2d341d8035",
+      "bytes": 1594
+    },
+    "deepseek": {
+      "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-svg/icons/deepseek-color.svg",
+      "sha256": "deba5f98a5c1796e20fcac3149bcd7eb8a32f0bdd04d048819400b1f28bd1439",
+      "bytes": 2164
+    },
+    "grok": {
+      "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-svg/icons/grok.svg",
+      "sha256": "9175fc90c22655160231976c849f25a03b888d7cc0e04c5f1b987b659bb07c95",
+      "bytes": 756
+    },
+    "openai": {
+      "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-svg/icons/openai.svg",
+      "sha256": "a595df6b423920c67a7f8f73c063e4bfb72d415948097b6cac063a2366bb5186",
+      "bytes": 1687,
+      "note": "Monochrome Blossom from LobeHub; the official brand guide is the reference for appearance. Official page assets were unavailable to the download client."
+    },
+    "zai": {
+      "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-svg/icons/zai.svg",
+      "sha256": "e748cb5108ce37b116d7a5ba97d37e0ae97eadf6849b0de11afb248e244a01e1",
+      "bytes": 319,
+      "note": "Black Z symbol requested for GLM-5.3. Vector asset from LobeHub; user-selected appearance reference: https://zonalogo.com/z-ai-logo. The reference site could not be downloaded by the shell client."
+    },
+    "claude": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg",
+      "sha256": "5de1221c77cc91e748066fd642ad0eee1c1fa65328814f5178166f901e599709",
+      "bytes": 1155,
+      "retrieved": "2026-10-20",
+      "license": "CC0-1.0 (as listed by Wikimedia Commons)",
+      "note": "Original SVG underlying the user-selected PNG preview; copied unchanged and served locally."
+    }
+  },
+  "reference_pages": {
+    "openai": "https://openai.com/zh-Hans-CN/brand/",
+    "qwen": "https://dashboardicons.com/icons/qwen",
+    "deepseek": "https://lobehub.com/icons/deepseek",
+    "grok": "https://lobehub.com/icons/grok",
+    "zai": "https://zonalogo.com/z-ai-logo",
+    "claude": "https://commons.wikimedia.org/wiki/File:Claude_AI_symbol.svg"
+  },
+  "model_assets": {
+    "GPT-6 Astra": "openai",
+    "Kimi K3": "kimi",
+    "GLM-5.3": "zai",
+    "Qwen3.8 Max (0902)": "qwen",
+    "Grok 4.6": "grok",
+    "DeepSeek V4.1 Flash": "deepseek",
+    "Opus 5.5": "claude",
+    "Kimi K3.1 Pro": "kimi"
+  }
+}

@@ -1,0 +1,313 @@
+/* The drawing is visible before interaction; motion stays within its column. */
+.catalogue-status {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+.task-table-head,
+.task-card {
+  grid-template-columns: 140px minmax(0, 1fr) 100px 124px 90px 112px;
+  gap: 24px;
+}
+.task-table-head > span:first-child {
+  grid-column: 1 / 3;
+}
+.task-table-head > span:last-child {
+  text-align: center;
+}
+.task-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 9px 12px;
+  border: 1px solid #cdd1d7;
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--ink);
+  font: 500 13px/1.4 var(--sans);
+  white-space: nowrap;
+}
+.task-action > span:last-child {
+  font-size: 17px;
+}
+.task-action:hover,
+.task-action:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.task-card {
+  min-height: 156px;
+  padding-block: 25px;
+}
+.task-metadata {
+  display: contents;
+}
+.task-description {
+  grid-column: auto;
+  padding-right: 0;
+}
+.task-preview {
+  width: 100%;
+  aspect-ratio: 176 / 112;
+  pointer-events: none;
+  align-self: center;
+  perspective: 420px;
+}
+.preview-tilt {
+  transform: rotateX(var(--preview-rx, 0deg)) rotateY(var(--preview-ry, 0deg));
+  transform-style: preserve-3d;
+  transition: transform 1000ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.is-pointer-tilting .preview-tilt {
+  transition-duration: 480ms;
+}
+.preview-float {
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+}
+.is-preview-active .task-preview svg {
+  filter: drop-shadow(0 2px 2px rgb(26 40 61 / 8%));
+}
+.task-preview svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: filter 350ms ease;
+}
+.is-preview-suspended .preview-tilt,
+.is-preview-suspended .task-preview svg {
+  transition: none;
+}
+.task-preview text {
+  fill: #525967;
+  stroke: none;
+  font: 11px var(--mono);
+  text-anchor: middle;
+}
+.task-preview .pv-formula {
+  font-size: 14px;
+}
+.task-preview .pv-question {
+  font-size: 23px;
+  fill: var(--accent);
+}
+.pv-line {
+  stroke: #bcc5d1;
+  stroke-width: 1.3;
+}
+.pv-faint {
+  stroke: #dce2e9;
+  stroke-width: 1;
+}
+.pv-guide {
+  stroke: #c4ccd7;
+  stroke-width: 1.2;
+  stroke-dasharray: 3 5;
+}
+.pv-dot {
+  fill: #cbd2dc;
+  stroke: none;
+}
+.pv-node {
+  fill: #fff;
+  stroke: #8996a9;
+}
+.pv-solid {
+  fill: var(--accent);
+  stroke: var(--accent);
+}
+.pv-white {
+  fill: white;
+  stroke: none;
+}
+.pv-tint,
+.pv-center {
+  fill: color-mix(in srgb, var(--accent) 18%, white);
+  stroke: color-mix(in srgb, var(--accent) 65%, white);
+}
+.pv-fill {
+  fill: color-mix(in srgb, var(--accent) 50%, white);
+  stroke: none;
+}
+.pv-cell {
+  fill: #fafbfd;
+  stroke: #d7dce4;
+  stroke-width: 1;
+}
+.pv-empty {
+  fill: #e9ecf1;
+  stroke: none;
+}
+.pv-outline,
+.pv-accent {
+  stroke: var(--accent);
+  stroke-width: 2.2;
+}
+.pv-orbit-circle {
+  fill: color-mix(in srgb, var(--accent) 7%, white);
+  stroke: color-mix(in srgb, var(--accent) 60%, #88939f);
+  stroke-width: 1.4;
+}
+.pv-red {
+  stroke: #be6680;
+  stroke-width: 1.3;
+}
+.pv-blue {
+  stroke: #7ba2c6;
+  stroke-width: 1.2;
+  stroke-dasharray: 3 2;
+}
+.pv-trace {
+  stroke: var(--accent);
+  stroke-width: 2.2;
+}
+.pv-orbit,
+.pv-spectrum {
+  transform-origin: 88px 56px;
+}
+.pv-spectrum {
+  transform-origin: 88px 58px;
+}
+.pv-walker {
+  transform: var(--walk-0);
+}
+.pv-fragment {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+@media (max-width: 1150px) {
+  .task-table-head,
+  .task-card {
+    grid-template-columns: 112px minmax(0, 1fr) 88px 104px 112px;
+    gap: 18px;
+  }
+  .task-verifier,
+  .task-table-head > span:nth-child(4) {
+    display: none;
+  }
+  .task-card h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 701px) and (max-width: 950px) {
+  .task-table-head,
+  .task-card {
+    grid-template-columns: 96px minmax(0, 1fr) 112px;
+  }
+  .task-table-head > span:nth-child(2),
+  .task-table-head > span:nth-child(3) {
+    display: none;
+  }
+  .task-preview {
+    grid-column: 1;
+    grid-row: 1 / 3;
+  }
+  .task-description {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .task-metadata {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .task-action {
+    grid-column: 3;
+    grid-row: 1 / 3;
+  }
+}
+@media (max-width: 700px) {
+  .catalogue-status {
+    display: block;
+  }
+  .task-table-head {
+    display: none;
+  }
+  .task-card {
+    grid-template-columns: 96px minmax(0, 1fr);
+    gap: 10px 18px;
+    align-items: start;
+    padding-block: 24px;
+    min-height: 148px;
+  }
+  .task-preview {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    align-self: start;
+    margin-top: 7px;
+  }
+  .task-description {
+    grid-column: 2;
+    grid-row: 1;
+    padding-right: 0;
+  }
+  .task-card h3 {
+    font-size: 19px;
+    line-height: 1.35;
+  }
+  .task-description p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 7px;
+  }
+  .task-metadata {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 13px;
+    align-items: center;
+  }
+  .task-card .track-label {
+    font-size: 11px;
+  }
+  .task-card .task-domain {
+    font-size: 11px;
+    text-align: left;
+  }
+  .task-action {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: start;
+    min-width: 112px;
+    margin-top: 3px;
+  }
+}
+@media (max-width: 380px) {
+  .task-card {
+    grid-template-columns: 76px minmax(0, 1fr);
+    gap: 10px 12px;
+  }
+  .task-card h3 {
+    font-size: 18px;
+  }
+  .task-card .track-label .track-icon {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .preview-tilt,
+  .preview-float {
+    transform: none !important;
+  }
+  .task-preview svg {
+    filter: none !important;
+  }
+  .task-preview *,
+  .task-preview *::before,
+  .task-preview *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

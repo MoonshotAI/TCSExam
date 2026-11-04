@@ -1,0 +1,225 @@
+/* Normal task motion and pointer displacement use separate nested SVG elements. */
+.pv-ambient {
+  animation-duration: 4.8s;
+  animation-timing-function: cubic-bezier(0.45, 0, 0.25, 1);
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+}
+.pv-ambient.pv-corner {
+  animation-name: pv-corner;
+}
+.pv-ambient.pv-transfer {
+  animation-name: pv-transfer;
+}
+.pv-ambient.pv-fold {
+  animation-name: pv-fold;
+}
+.pv-ambient.pv-drop {
+  animation-name: pv-drop;
+}
+.pv-ambient.pv-timetable {
+  animation-name: pv-timetable;
+}
+.pv-ambient.pv-migrate {
+  animation-name: pv-migrate;
+}
+.pv-ambient.pv-code-scan {
+  animation-name: pv-code-scan;
+  animation-duration: 6.4s;
+}
+.pv-ambient.pv-orbit {
+  animation-name: pv-orbit;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+}
+.pv-ambient.pv-message {
+  animation-name: pv-message;
+}
+.pv-ambient.pv-spectrum-scan {
+  --scan-distance: 112px;
+  animation-duration: 4.8s;
+}
+.pv-ambient.pv-walker {
+  animation-name: pv-walker;
+  animation-timing-function: linear;
+}
+.pv-signal {
+  fill: var(--paper);
+  stroke: var(--ink);
+  stroke-width: 1.8;
+}
+.pv-ambient.pv-trace,
+.pv-ambient.pv-flow-head {
+  animation-name: pv-trace;
+  animation-timing-function: linear;
+}
+.pv-ambient.pv-trace {
+  stroke-dasharray: 0.14 0.86;
+  stroke-width: 2.4;
+}
+.pv-ambient.pv-flow-head {
+  stroke-dasharray: 0.001 0.999;
+  stroke-width: 5.5;
+}
+@keyframes pv-corner {
+  0%,
+  5%,
+  100% {
+    transform: translate(0, 0);
+  }
+  42%,
+  50% {
+    transform: translate(22px, 22px);
+  }
+}
+@keyframes pv-transfer {
+  0%,
+  5%,
+  100% {
+    transform: translate(0, 0);
+  }
+  28%,
+  78% {
+    transform: translate(30px, -9px);
+  }
+  44%,
+  60% {
+    transform: translate(60px, 0);
+  }
+}
+@keyframes pv-fold {
+  0%,
+  5%,
+  100% {
+    transform: translateX(0);
+  }
+  42%,
+  50% {
+    transform: translateX(64px);
+  }
+}
+@keyframes pv-drop {
+  0%,
+  62%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  11% {
+    transform: translateY(-16px);
+    opacity: 0;
+  }
+  24% {
+    transform: translateY(-16px);
+    opacity: 1;
+  }
+}
+@keyframes pv-timetable {
+  0%,
+  5%,
+  100% {
+    transform: translate(0, 0);
+  }
+  42%,
+  50% {
+    transform: translate(28px, 27px);
+  }
+}
+@keyframes pv-migrate {
+  0%,
+  5%,
+  100% {
+    transform: translateX(0);
+  }
+  42%,
+  50% {
+    transform: translateX(43px);
+  }
+}
+@keyframes pv-code-scan {
+  0%,
+  8% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  74%,
+  88% {
+    transform: translateX(var(--scan-distance, 95px));
+    opacity: 1;
+  }
+  94% {
+    transform: translateX(var(--scan-distance, 95px));
+    opacity: 0;
+  }
+  95% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes pv-orbit {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(60deg);
+  }
+}
+@keyframes pv-message {
+  0%,
+  8%,
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  65%,
+  72% {
+    transform: translateX(64px);
+    opacity: 1;
+  }
+  85% {
+    transform: translateX(64px);
+    opacity: 0;
+  }
+  86% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+}
+@keyframes pv-trace {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes pv-walker {
+  0%,
+  100% {
+    transform: var(--walk-0);
+  }
+  16.6667% {
+    transform: var(--walk-1);
+  }
+  33.3333% {
+    transform: var(--walk-2);
+  }
+  50% {
+    transform: var(--walk-3);
+  }
+  66.6667% {
+    transform: var(--walk-4);
+  }
+  83.3333% {
+    transform: var(--walk-5);
+  }
+}

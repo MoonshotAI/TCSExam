@@ -1,0 +1,5 @@
+# Keep generated Pages files recognizable and preserve upstream formatting.
+docs/** linguist-generated=true whitespace=-blank-at-eol
+# Preserve the downloadable CSVs and the original paper illustration.
+*.csv -text whitespace=cr-at-eol
+website/public/paper/verified-constructions.svg whitespace=-blank-at-eol
