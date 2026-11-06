@@ -1,19 +1,17 @@
 {
-  "checked": "2026-11-01",
   "task_id": "radiation-mznchallenge",
   "data_split": "hidden",
-  "manifest_sha256": "827a13e3bc564d5f06d7dcd2a0c2d9b8e200042b89fad5ece0b81bff45d15b27",
-  "files": 47,
-  "payload_bytes": 52113,
-  "provenance_correction": "The frozen 47 inputs comprise 24 original project-generated inputs and 23 upstream inputs; earlier aggregate records describing all 47 as generated are superseded for provenance only. No membership, bytes, references or scoring change.",
+  "manifest_sha256": "f5a1b8e82935c57ac76b0e4b79d57067529ddbe3b99b4207057a4827eec3ef0b",
+  "files": 36,
+  "payload_bytes": 50122,
   "upstream": {
     "repository": "https://github.com/MiniZinc/minizinc-benchmarks",
     "commit": "26bcd0a78433025f7b6896a6fa8caf128795760b",
     "license": "MIT",
     "license_sha256": "682e731b25055903120b0e67dfb1cc981dda8981e85a1837e3c266d44732282b",
     "copyright": "Copyright (c) 2016 MiniZinc (individual authors)",
-    "files": 23,
-    "payload_bytes": 13317
+    "files": 12,
+    "payload_bytes": 11326
   },
   "project_generated": {
     "contributors": "TCSExam contributors",
@@ -28,7 +26,7 @@
     "generator_sha256": "b3ff9a2c0a8ccf9b35c08a94c0708267539e92f95ef9b19ad2df493daed3bb71",
     "randomness": "UUID-derived; original stream not retained; use the supplied original data without regeneration"
   },
-  "acquisition": "Default recipe downloads 23 fixed upstream files and copies 24 small project source assets; every output retains its frozen path, bytes, mode and SHA-256. The original explicit fixed_archive route remains optional.",
+  "acquisition": "The default recipe downloads 12 fixed upstream files and copies 24 small project source assets. Every output retains its frozen path, bytes, mode and SHA-256. The historical 47-instance fixed_archive is unavailable for this final set.",
   "release_scope": "Project-generated source inputs under Apache-2.0 and upstream MiniZinc data under MIT, with their attribution. Product-specific distribution conditions apply to containing images.",
   "inputs": [
     {
@@ -120,87 +118,6 @@
       "origin": "project_generated",
       "url": null,
       "license": "Apache-2.0"
-    },
-    {
-      "path": "tests/instances/ex011.dzn",
-      "original_name": "01.dzn",
-      "bytes": 151,
-      "sha256": "c31db98e95b484c3f46f2d8201c51cf43075b80b786c89d7694e3b37598819ef",
-      "origin": "upstream_mit",
-      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/01.dzn",
-      "license": "MIT"
-    },
-    {
-      "path": "tests/instances/ex012.dzn",
-      "original_name": "02.dzn",
-      "bytes": 151,
-      "sha256": "c04f77a664c42085e502cab929711725700dfc2633882ee80159433900056447",
-      "origin": "upstream_mit",
-      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/02.dzn",
-      "license": "MIT"
-    },
-    {
-      "path": "tests/instances/ex013.dzn",
-      "original_name": "03.dzn",
-      "bytes": 151,
-      "sha256": "9c42ab5578b8298352061fd905fe410a76731f868b73a401f78f457d35390627",
-      "origin": "upstream_mit",
-      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/03.dzn",
-      "license": "MIT"
-    },
-    {
-      "path": "tests/instances/ex014.dzn",
-      "original_name": "04.dzn",
-      "bytes": 185,
-      "sha256": "78eac452c97852cd795a3a7f061fa68f62d86de328bdd83aa7f05bdacacc5927",
-      "origin": "upstream_mit",
-      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/04.dzn",
-      "license": "MIT"
-    },
-    {
-      "path": "tests/instances/ex015.dzn",
-      "original_name": "05.dzn",
-      "bytes": 185,
-      "sha256": "f70c198afc772b9555afe944f520eb121504860a9cbd1f4a32452e98a0e007a7",
-      "origin": "upstream_mit",
-      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/05.dzn",
-      "license": "MIT"
-    },
-    {
-      "path": "tests/instances/ex016.dzn",
-      "original_name": "06.dzn",
-      "bytes": 185,
-      "sha256": "07f6b48646d0574942068fed9fb49711e6b5705c2925b7a0582460f5e62af90f",
-      "origin": "upstream_mit",
-      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/06.dzn",
-      "license": "MIT"
-    },
-    {
-      "path": "tests/instances/ex017.dzn",
-      "original_name": "07.dzn",
-      "bytes": 185,
-      "sha256": "1f1f2aa0971194cc5a38676319113d8796a936048343ed453b909143b14ce3f5",
-      "origin": "upstream_mit",
-      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/07.dzn",
-      "license": "MIT"
-    },
-    {
-      "path": "tests/instances/ex018.dzn",
-      "original_name": "08.dzn",
-      "bytes": 185,
-      "sha256": "29f304371317f4cf012025e42e90ea6091bd94a45b9bf9e5dee1e4f7446f76ec",
-      "origin": "upstream_mit",
-      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/08.dzn",
-      "license": "MIT"
-    },
-    {
-      "path": "tests/instances/ex019.dzn",
-      "original_name": "09.dzn",
-      "bytes": 185,
-      "sha256": "9be41ddb04c9f3f43230496cc6d24e893b30954ca9abb5db40ee56be314f8827",
-      "origin": "upstream_mit",
-      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/09.dzn",
-      "license": "MIT"
     },
     {
       "path": "tests/instances/ex020.dzn",
@@ -410,24 +327,6 @@
       "license": "MIT"
     },
     {
-      "path": "tests/instances/ex043.dzn",
-      "original_name": "m06_15_15.dzn",
-      "bytes": 187,
-      "sha256": "ba8403146c93ac0f45ee716d4f471e02cfd0bf023123931a7b224f1c7cfde4fc",
-      "origin": "upstream_mit",
-      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/m06_15_15.dzn",
-      "license": "MIT"
-    },
-    {
-      "path": "tests/instances/ex044.dzn",
-      "original_name": "m07_07_20.dzn",
-      "bytes": 241,
-      "sha256": "b8fdd0a791a88acc9c128bb77f72e10c2f165e0ca4f04ffdb2418024d16557b7",
-      "origin": "upstream_mit",
-      "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/m07_07_20.dzn",
-      "license": "MIT"
-    },
-    {
       "path": "tests/instances/ex045.dzn",
       "original_name": "m12_10_20.dzn",
       "bytes": 621,
@@ -454,5 +353,11 @@
       "url": "https://raw.githubusercontent.com/MiniZinc/minizinc-benchmarks/26bcd0a78433025f7b6896a6fa8caf128795760b/radiation/m40_10_02.dzn",
       "license": "MIT"
     }
-  ]
+  ],
+  "evaluation_selection": {
+    "id": "public-disjoint-final-261105",
+    "path": "assets/data/solver/final-evaluation-selection.json"
+  },
+  "content_version": "public-disjoint36-v1",
+  "source_description": "The selected final inputs comprise 24 original project-generated inputs and 12 upstream inputs. Original names and bytes are preserved; public development inputs are excluded."
 }

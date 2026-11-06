@@ -1,12 +1,12 @@
 {
   "task_id": "maxsat-mse",
   "data_split": "hidden",
-  "content_version": "original-judging211-xz525-p6-t1-v1",
-  "source": "Fixed official MSE2026 anytime-weighted benchmark archive, preserving the adopted211 original formula texts and split.",
+  "content_version": "public-disjoint200-xz525-p6-t1-v1",
+  "source": "Fixed official MSE2026 anytime-weighted benchmark archive, preserving the selected 200 formula texts and excluding the declared public-development overlap.",
   "default_reconstruction": {
     "recipe": "assets/data/solver/solver-maxsat-mse-judging-data-recipe.json",
-    "content_version": "original-judging211-xz525-p6-t1-v1",
-    "files": 211,
+    "content_version": "public-disjoint200-xz525-p6-t1-v1",
+    "files": 200,
     "official_archive_url": "https://zenodo.org/records/21358014/files/benchmarks-anytime-weighted.zip?download=1",
     "official_archive_bytes": 1969015603,
     "official_archive_sha256": "4b9bc198d1bb12a5125194e8c5cbcc98976852e01f53849db5d80bb9d4715fb5",
@@ -15,7 +15,7 @@
     "algorithm": [
       "Use the declared historical canonical format: original-v1 retains source comments and emits hard clauses before soft clauses; streaming-two-pass-v1 omits source comments, writes its fixed historical prefix and preserves original input clause order.",
       "Original deterministic variable permutation, per-clause literal permutation and final clause ordering, with the same Random call order and historical seed labels.",
-      "Fixed XZ5.2.5 preset6, one thread; no formula, instance split, scoring reference or solver time budget changes."
+      "Fixed XZ5.2.5 preset6, one thread. Selected formulas retain their original canonical and relabeled plaintext identities and per-instance solver budget."
     ],
     "implementation_files": {
       "assets/data/solver/maxsat-mse/bounded_transform.py": "46239c0f289ba4d315fed800b672abaf80d7107967b42e98d691f54a37d63be0",
@@ -26,7 +26,7 @@
   },
   "historical_canonical_formats": {
     "original-v1": {
-      "files": 184,
+      "files": 173,
       "description": "Original new-to-classic conversion, retaining comments and hard-then-soft order."
     },
     "streaming-two-pass-v1": {
@@ -39,7 +39,7 @@
     "files_manifest": "assets/data/solver/maxsat-mse/original211-files.json",
     "manifest_sha256": "ac00850349c32f7d853802c0a6e0b331615523b8b458eab9948f7ce419d719e1",
     "source_record": "docs/licenses/third-party/maxsat-mse-original211-source.json",
-    "selection": "Explicit fixed_archive only; never an implicit fallback."
+    "selection": "Historical 211-instance product only; unavailable as a fixed_archive source for the selected final set."
   },
   "distribution": "local_prepare",
   "public_upload_allowed": false,
@@ -56,18 +56,22 @@
   ],
   "compressed_manifest": {
     "path": "assets/data/solver/solver-maxsat-mse-judging-data-files.json",
-    "sha256": "39812c49fe6fce8c0aa759704e63cb11bc03982f70e4ef5259341a7af579a61e",
-    "files": 211,
-    "bytes": 8286014952
+    "sha256": "ad686d2a433be23af00c90762b39268a01c89ce0cc964d2606ca93a9844ccfcc",
+    "files": 200,
+    "bytes": 8237518532
   },
   "verification": {
-    "scope": "All211 exact historical canonical and relabeled plaintext SHA-256 identities, compressed payload manifest and production generation-report contract. Data image publication is not authorized by this record.",
-    "default_CLI_sample_files": 2,
-    "all_formula_plaintext_files": 211,
-    "original_canonical_format_files": 184,
+    "scope": "Selected formula names, canonical and relabeled plaintext SHA-256, seed parameters and compressed payload manifest.",
+    "selected_formula_files": 200,
+    "original_canonical_format_files": 173,
     "streaming_two_pass_canonical_format_files": 27,
-    "all_expected_plaintext_hashes_preserved": true,
-    "full211_default_CLI_reconversion_performed": false,
+    "retained_expected_plaintext_hashes_preserved": true,
+    "selected_default_CLI_reconstruction_performed": false,
+    "selected_data_image_built": false,
     "new_distribution_authorization": false
+  },
+  "evaluation_selection": {
+    "id": "public-disjoint-final-261105",
+    "path": "assets/data/solver/final-evaluation-selection.json"
   }
 }

@@ -13,7 +13,7 @@ family_id = "fam-radiation"
 candidate_id = "cand-radiation-mznchallenge-solver"
 problem_class = "solver-optimization"
 scaffold_level = "full-context"
-difficulty_explanation = "The shipped baseline is a deterministic unit-time constructor whose beam-on time always attains the structural lower bound (admission is free); the score comes from the shape count alone. The reference K values are the best shape counts at the bound (most are proven optimal; the unproven ones are best-known values that ratchet on better solutions, on the full 47-instance set after the 2026-09-12 fullset restore). Beating the constructor requires reusing longer beam-on times and coordinating rows; closing the last gap to K needs real modeling or search engineering on the hard instances (a stock warm-started CP-SAT only reaches K on the two smallest judged instances inside the judging budget)."
+difficulty_explanation = "The shipped baseline is a deterministic unit-time constructor whose beam-on time always attains the structural lower bound (admission is free); the score comes from the shape count alone. The reference K values are the best shape counts at the bound (most are proven optimal; the unproven ones are best-known values that ratchet on better solutions, on the 36-instance final judging set). Beating the constructor requires reusing longer beam-on times and coordinating rows; closing the last gap to K needs real modeling or search engineering on the hard instances (a stock warm-started CP-SAT only reaches K on the two smallest judged instances inside the judging budget)."
 
 [verifier]
 timeout_sec = 1209600.0

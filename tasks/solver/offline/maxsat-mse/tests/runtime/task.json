@@ -13,7 +13,7 @@
   "judge_env": {
     "TESTS_DIR": "/tests"
   },
-  "instance_count": 211,
+  "instance_count": 200,
   "budget_source": "Frozen backend environment and original checker preparation script; original scoring enforces the actual budget.",
   "compressed_preparation": ".xz"
 }

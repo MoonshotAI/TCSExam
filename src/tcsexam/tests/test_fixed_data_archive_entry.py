@@ -189,33 +189,49 @@ def test_complete_cache_content_is_still_checked(tmp_path):
         prepare_resource(tmp_path, NAME, args.cache, {source['id']: archive}, args=args)
 
 
-def test_all_five_real_options_preserve_split_rights_and_exact_declared_version():
+def test_available_archive_options_preserve_split_rights_and_exact_declared_version():
     from tcsexam.fixed_data_archive import FIXED_ARCHIVE_PRODUCTS
     root = Path(__file__).resolve().parents[3]
     products = {r['id']: r for r in json.loads((root / 'assets/images.json').read_text())['images']
                 if r.get('id')}
-    assert len(FIXED_ARCHIVE_PRODUCTS) == 5
-    for name in FIXED_ARCHIVE_PRODUCTS:
+    retired = {'solver-maxsat-mse-judging-data', 'solver-radiation-mznchallenge-judging-data'}
+    available = FIXED_ARCHIVE_PRODUCTS - retired
+    assert available == {'solver-maxclique-dimacs-development-data',
+                         'solver-maxclique-dimacs-judging-data', 'qbf-judging'}
+    for name in available:
         old = products[name]
         selected = effective_resource(root, old, [name + '=fixed_archive'])
         for field in ['id', 'task_id', 'data_split', 'target_root', 'distribution', 'public_upload_allowed',
-                      'distribution_evidence', 'product_prepared', 'public_image']:
+                      'distribution_evidence', 'product_prepared', 'public_image', 'files_manifest',
+                      'manifest_sha256', 'content_digest', 'content_version']:
             assert selected.get(field) == old.get(field)
-        if name == 'solver-maxsat-mse-judging-data':
-            assert selected['content_version'] == 'original-judging211-260912-v1'
-            assert selected['manifest_sha256'] == 'ac00850349c32f7d853802c0a6e0b331615523b8b458eab9948f7ce419d719e1'
-            expected = root / selected['files_manifest']
-            assert hashlib.sha256(expected.read_bytes()).hexdigest() == selected['manifest_sha256']
-            rows = json.loads(expected.read_text())['files']
-            assert len(rows) == 211 and sum(row['bytes'] for row in rows) == 8332683020
-            assert selected['content_digest'] == content_digest(rows, selected['target_root'])
-            assert selected['source_inputs'][0]['id'] == 'solver-maxsat-mse-judging211-260912-fixed-archive'
-            assert selected['source_inputs'][0]['sha256'] == '31bb63d866b10df1dfe5c1b2c65cf1655434d56bab5635f183a6c55a16cff012'
-        else:
-            for field in ('files_manifest', 'manifest_sha256', 'content_digest', 'content_version'):
-                assert selected.get(field) == old.get(field)
         assert selected['source_inputs'][0]['url'] is None
         assert build_definition(root, selected)['dependencies'] == []
+
+
+@pytest.mark.parametrize('task', ['maxsat-mse', 'radiation-mznchallenge'])
+def test_historical_archive_is_rejected_before_input_or_cache_access(tmp_path, monkeypatch, task):
+    root = Path(__file__).resolve().parents[3]
+    name = f'solver-{task}-judging-data'
+    product = next(r for r in json.loads((root / 'assets/images.json').read_text())['images']
+                   if r.get('id') == name)
+    marker = tmp_path / name / product['content_version'] / '.complete.json'
+    marker.parent.mkdir(parents=True)
+    marker.write_text(json.dumps({'content_digest': product['content_digest']}))
+    original_marker = marker.read_bytes()
+    monkeypatch.setattr('tcsexam.fixed_data_archive.check_explicit_input',
+                        lambda *a, **k: pytest.fail('Unavailable archive reached input validation'))
+    monkeypatch.setattr('tcsexam.resources.verify',
+                        lambda *a, **k: pytest.fail('Unavailable archive reached cache validation'))
+    with pytest.raises(ValueError, match='Fixed archive unavailable:.*default public sources'):
+        prepare_resource(root, name, tmp_path, args=Namespace(data_recipe=[name + '=fixed_archive']))
+    assert marker.read_bytes() == original_marker
+    recipe = json.loads((root / f'assets/data/solver/archive-import/{name}-recipe.json').read_text())
+    historical_sha = {'maxsat-mse': '31bb63d866b10df1dfe5c1b2c65cf1655434d56bab5635f183a6c55a16cff012',
+                      'radiation-mznchallenge': 'c570c18f151e2f39b3303de2fa0df435c0316b776da48380805db9452eda19a1'}
+    assert recipe['source']['sha256'] == historical_sha[task]
+    assert recipe['available'] is False
+
 
 
 def test_saved_build_manifest_reconstructs_selected_definition(tmp_path):

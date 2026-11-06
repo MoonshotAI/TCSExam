@@ -24,7 +24,7 @@ concurrency:
 jobs:
   website:
     # Pin the input contract; publish a compatible website workflow before updating this SHA.
-    uses: MoonshotAI/TCSExam/.github/workflows/site-build.yml@2b645706eeff2d1e73e464b77897c1363012e285
+    uses: MoonshotAI/TCSExam/.github/workflows/site-build.yml@e0ff9674c1cb58449b950d3c562aee8bce0aa4c1
     with:
       publish: ${{ github.event_name == 'workflow_dispatch' && inputs.publish }}
       source-ref: ${{ (github.ref_name == 'gh-pages' || github.base_ref == 'gh-pages') && github.event.repository.default_branch || github.sha }}

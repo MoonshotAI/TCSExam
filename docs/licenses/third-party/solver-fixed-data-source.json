@@ -24,8 +24,8 @@
       },
       "data_split": "hidden",
       "historical_content_version": "canonical98-pre-original211",
-      "current_product_record": "docs/licenses/third-party/maxsat-mse-original211-source.json",
-      "scope_note": "Historical canonical98 archive and validation only. The current same-named product is original211; do not use this historical archive as its input. Current fixed_archive recipe uses its own8.3GB declaration."
+      "current_product_record": "docs/licenses/third-party/maxsat-mse-hidden-rebuild-source.json",
+      "scope_note": "Historical canonical98 archive and validation only. The active final product contains 200 public-disjoint instances and uses the default public-source reconstruction. The historical original211 archive declaration is retained but is unavailable for the active selection."
     },
     {
       "id": "solver-radiation-mznchallenge-judging-data",
@@ -37,7 +37,9 @@
         "sha256": "c570c18f151e2f39b3303de2fa0df435c0316b776da48380805db9452eda19a1"
       },
       "data_split": "hidden",
-      "current_provenance": "docs/licenses/third-party/radiation-mznchallenge-judging-source.json"
+      "current_provenance": "docs/licenses/third-party/radiation-mznchallenge-public-rebuild-source.json",
+      "historical_instance_count": 47,
+      "scope_note": "Historical 47-instance archive. The active final product contains 36 public-disjoint instances and uses the default public-source reconstruction; this archive is unavailable for that selection."
     },
     {
       "id": "solver-maxclique-dimacs-development-data",
@@ -83,8 +85,8 @@
       "scope": "Only after finite frozen sample diagnosis identified a byte-exact repair: full affected hidden product rebuilt from explicit same fixed official archive, original terminal input identity and compression restored; no accepted public product repeated. Native production command adapter; Docker adapter not exercised.",
       "docker_adapter_exercised": false,
       "historical_content_version": "canonical98-pre-original211",
-      "current_product_record": "docs/licenses/third-party/maxsat-mse-original211-source.json",
-      "scope_note": "Historical canonical98 archive and validation only. The current same-named product is original211; do not use this historical archive as its input. Current fixed_archive recipe uses its own8.3GB declaration."
+      "current_product_record": "docs/licenses/third-party/maxsat-mse-hidden-rebuild-source.json",
+      "scope_note": "Historical canonical98 archive and validation only. The active final product contains 200 public-disjoint instances and uses the default public-source reconstruction. The historical original211 archive declaration is retained but is unavailable for the active selection."
     }
   ],
   "new_distribution_authorization": false,

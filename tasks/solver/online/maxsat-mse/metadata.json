@@ -27,7 +27,8 @@
   "shard_cores": 1,
   "shard_mem_gb": 32,
   "shards": 10,
-  "shipped_judged": 11
+  "shipped_judged": 0,
+  "evaluation_selection": "public-disjoint-final-261105"
  },
  "problem": {
   "certificate": null,
@@ -46,7 +47,7 @@
  },
  "status": {
   "in_split30": true,
-  "notes": "Total judged instances = 211 = n_hidden 200 + shipped_judged 11 (11 original public instances remain in the environment and are also judged; the judging side uses secret transformed versions, so an agent with the original instances cannot map its solutions). The judged set is the full official anytime-W set transformed by variable relabeling (not a self-selected 70/30 split; transformed-holdout is the closest enum value, see discrepancies). B anchors were remeasured and written back on 260923 (choice A in maxsat-b-remeasure-260922: 47 drifted keys were remeasured twice with judge-v10 under judging conditions; 23 keys with no baseline output in 285s remain B=K sentinels and are excluded; public argumentation instances decreased from 121 to 116)."
+  "notes": "Final judging uses 200 variable-relabeled instances from the official anytime-weighted benchmark, excluding the 11 sources shipped as public practice instances. Original instance names, transformed bytes, B/K anchors and per-instance resources are retained for the selected instances. The 23 instances without baseline output retain their B=K sentinel values and remain excluded from the ratio score."
  },
  "subdomain": "sat-qbf",
  "title": "Weighted MaxSAT"

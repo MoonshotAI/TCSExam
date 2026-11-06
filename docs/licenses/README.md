@@ -11,6 +11,9 @@ Original task statements, explanatory documentation and website content use
 [CC BY 4.0](documentation.txt). Retain existing copyright and author notices and
 identify changes when sharing adaptations.
 
+The [paper PDF](../../paper.pdf), including the copy available on the project
+website, is licensed separately under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
 ## Third-party material
 
 Third-party software, datasets, reference solutions, papers and generated

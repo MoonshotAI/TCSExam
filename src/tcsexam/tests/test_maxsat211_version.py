@@ -1,4 +1,4 @@
-"""Keep historical98 and adopted211 data identities distinct."""
+"""Keep historical data identities distinct from the selected final set."""
 import hashlib
 import json
 from pathlib import Path
@@ -13,23 +13,27 @@ NAME = 'solver-maxsat-mse-judging-data'
 VERSION = 'original-judging211-260912-v1'
 
 
-def test_original211_manifest_matches_every_pinned_reference_key():
+def test_historical211_and_selected200_have_distinct_exact_key_sets():
     manifest = ROOT / 'assets/data/solver/maxsat-mse/original211-files.json'
     rows = json.loads(manifest.read_text())['files']
     assert hashlib.sha256(manifest.read_bytes()).hexdigest() == 'ac00850349c32f7d853802c0a6e0b331615523b8b458eab9948f7ce419d719e1'
     assert len(rows) == len({r['path'] for r in rows}) == 211
     assert sum(r['bytes'] for r in rows) == 8332683020
     keys = {Path(r['path']).name.removesuffix('.xz') for r in rows}
+    selection = json.loads((ROOT / 'assets/data/solver/final-evaluation-selection.json').read_text())['tasks']['maxsat-mse']
+    retained = set(selection['retained_keys'])
+    excluded = set(selection['excluded_keys'])
+    assert len(retained) == 200 and len(excluded) == 11
+    assert not retained & excluded and retained | excluded == keys
     current_manifest = ROOT / f'assets/data/solver/{NAME}-files.json'
-    assert hashlib.sha256(current_manifest.read_bytes()).hexdigest() == '39812c49fe6fce8c0aa759704e63cb11bc03982f70e4ef5259341a7af579a61e'
+    assert hashlib.sha256(current_manifest.read_bytes()).hexdigest() == selection['files_manifest_sha256']
     current = json.loads(current_manifest.read_text())['files']
-    assert content_digest(current, '/') == 'sha256:ebe3c76067d945cadaaaa9227857bc9aac72a49df08d802e4265443ccbe55ba8'
-    assert len(current) == 211
-    assert keys == {Path(r['path']).name.removesuffix('.xz') for r in current}
+    assert content_digest(current, '/') == 'sha256:b0dc5eda18585817c6d262c8111ab9b91407687cebcc85682e1ec7ba085a632f'
+    assert len(current) == 200
+    assert retained == {Path(r['path']).name.removesuffix('.xz') for r in current}
     for protocol in ('online', 'offline'):
         path = ROOT / f'tasks/solver/{protocol}/maxsat-mse/tests/reference.json'
-        assert hashlib.sha256(path.read_bytes()).hexdigest() == '5b112ce3b4f049e05a4295e4bceb62e7e4b64c5df0bfaf0bb8f54a133861361b'
-        assert keys == set(json.loads(path.read_text())['instances'])
+        assert retained == set(json.loads(path.read_text())['instances'])
     history = ROOT / 'assets/data/solver/history/maxsat-mse-canonical98-261030'
     old = json.loads((history / 'files.json').read_text())['files']
     assert len(old) == 98

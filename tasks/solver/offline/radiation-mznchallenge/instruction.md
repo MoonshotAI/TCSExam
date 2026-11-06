@@ -16,15 +16,13 @@ using as little total beam-on time and as few shapes as possible. This
 matrix-decomposition problem (multileaf collimator sequencing) is
 NP-hard and a classical benchmark of constraint programming.
 
-The judged set has **47 instances**: the full candidate pool of 24 hard
-generated instances plus the 23 instances published in the MiniZinc
-benchmarks repository. 36 of them are **hidden** — their files are not
-in this environment, and there is no network access, so the first time
-your solver sees them is at judging time. The 11 published instances
-already shipped under `/app/instances/` are judged too. The environment
-also ships 4 further generated practice instances (not in the hidden
-judged set; the local public runner also evaluates them), and
-verified solutions for 6 of the practice instances under `/app/solutions/`.
+Final judging uses **36 instances**: 24 generated instances and 12
+instances from the MiniZinc benchmarks repository. Their files are kept
+outside this development environment, which has no network access.
+The public practice set contains 11 other repository instances and 4
+generated instances under `/app/instances/`; all 15 are excluded from
+final judging. Verified solutions for 6 practice instances are available
+under `/app/solutions/`.
 
 ## Your job
 
@@ -45,10 +43,10 @@ is your final score — nothing is judged while you work.
 
 | | |
 |---|---|
-| **Public practice set** | 15 instances at `/app/instances/` — **11 of them are also part of the judged set**. `/app/public_reference.json` gives two reference values per instance: `B` (the shipped baseline's result) and `K` (a best-known value from stronger reference solvers). |
+| **Public practice set** | 15 instances at `/app/instances/` — **all excluded from final judging**. `/app/public_reference.json` gives two reference values per instance: `B` (the shipped baseline's result) and `K` (a best-known value from stronger reference solvers). |
 | **Judging sandbox** | Per instance: **1 core**, 1200 s wall clock. Each isolated Docker worker reserves 16 GB RAM. Up to 10 workers run concurrently, reduced automatically to fit available host resources. |
 | **Local self-test** | Use the public-instance runner described below. It executes in this development environment; local timing can differ from the judging environment. Self-tests never affect your final score. |
-| **Final judging** | Once, after the run ends: the verifier rebuilds `/app` and judges your solver on **36 hidden instances plus 11 instances shipped in your environment**, again **in the same sandbox, on the same 6 parallel shards**. |
+| **Final judging** | Once, after the run ends: the verifier rebuilds `/app` and judges your solver on **36 hidden instances**, disjoint from the public practice set, using isolated Docker workers with the per-instance limits above. |
 | **Score** | Determined solely by that one final judging. Hidden per-instance results are never returned to you; the formula that aggregates judging results into the final score is not disclosed. |
 
 The final verifier runs on the evaluation host through Docker.
@@ -151,9 +149,8 @@ shape count, and the structural lower bound itself**.
   **Chuffed** (`--solver chuffed`), **Gecode**, **CBC**, **HiGHS**; plus
   `python3` and `g++`.
 - `/app/instances/` — the 15 shipped instances (the small `01`–`09`,
-  `m06_15_15` and `m07_07_20`, and the larger `pub*` instances): 11 of
-  them are also in the judged set (see Background); the other 4 are
-  practice-only.
+  `m06_15_15` and `m07_07_20`, and the larger `pub*` instances), all
+  reserved for practice and excluded from final judging.
 - `/app/instances_table.md` — per-instance table for the shipped
   instances: size, the baseline's objective, and the best known value.
 - `/app/solutions/` — verified solutions for 6 of the practice instances,

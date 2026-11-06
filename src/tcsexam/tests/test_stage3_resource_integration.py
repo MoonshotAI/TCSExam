@@ -167,27 +167,29 @@ def test_source_preparation_preserves_distribution_and_version_history():
         assert not records[name].get("public_pull_verified")
         assert not records[name].get("public_upload_allowed")
     name = "solver-radiation-mznchallenge-judging-data"
-    assert records[name] == original[name]
-    # Fixed official files plus bundled project originals now reconstruct all
-    # 47 hidden inputs without changing the separate image-publication decision.
+    # Fixed official files plus bundled project originals reconstruct the
+    # selected final inputs without changing the image-publication decision.
     assert records[name]["recipe_format"] == "official_files"
-    assert records[name]["files"] == 47
+    assert records[name]["files"] == 36
+    assert records[name]["content_version"] == "public-disjoint36-v1"
     assert records[name]["distribution"] == "local_prepare"
     assert not records[name].get("public_pull_verified")
     assert not records[name].get("public_upload_allowed")
-    # The official route reconstructs all 211 solver inputs. Canonical98 and
-    # the original compressed211 archive retain separate frozen identities.
+    # The official route reconstructs the 200 selected solver inputs.
+    # Historical98 and the old compressed211 archive remain separate identities.
     name = "solver-maxsat-mse-judging-data"
     recipe = json.loads((ROOT / records[name]['recipe']).read_text())
     assert records[name]["recipe_format"] == recipe['format'] == "official_maxsat_generator"
-    assert records[name]["content_version"] == recipe['content_version'] == "original-judging211-xz525-p6-t1-v1"
+    assert records[name]["content_version"] == recipe['content_version'] == "public-disjoint200-xz525-p6-t1-v1"
     assert recipe['plaintext_contract'] == PLAINTEXT_CONTRACT
     assert records[name]['source_inputs'] == recipe['sources']
     assert 'source_input_file' not in records[name]
-    assert records[name]["files"] == 211
+    assert records[name]["files"] == 200
     assert records[name]["data_history"][0]["files"] == 98
     assert records[name]['data_history'][0]['manifest_sha256'] == '6b05630fc35b918aaf60c2c2c60661b0eb1777aecd81fcac34bf5abaa6ad5f89'
-    legacy = recipe['legacy_fixed_archive']
+    assert 'legacy_fixed_archive' not in recipe
+    legacy = json.loads((ROOT / 'assets/data/solver/archive-import/solver-maxsat-mse-judging-data-recipe.json').read_text())
+    assert legacy['available'] is False
     assert legacy['content_version'] == 'original-judging211-260912-v1'
     assert digest(ROOT / legacy['files_manifest']) == legacy['manifest_sha256'] == 'ac00850349c32f7d853802c0a6e0b331615523b8b458eab9948f7ce419d719e1'
     assert records[name]["distribution"] == "local_prepare"

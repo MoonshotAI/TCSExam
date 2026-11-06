@@ -687,13 +687,6 @@
       "mode": "0644"
     },
     {
-      "path": "tests/instances/ex099.wcnf.xz",
-      "type": "file",
-      "bytes": 1228960,
-      "sha256": "bd45862032509f09501cca203499cca49ce3647333ff0632df4dfc7689438ae7",
-      "mode": "0644"
-    },
-    {
       "path": "tests/instances/ex100.wcnf.xz",
       "type": "file",
       "bytes": 6318848,
@@ -764,13 +757,6 @@
       "mode": "0644"
     },
     {
-      "path": "tests/instances/ex110.wcnf.xz",
-      "type": "file",
-      "bytes": 1358108,
-      "sha256": "a4505025d16c9d243f2bf8e542d3652600488157f4c67c5560bb29c9dd2d8028",
-      "mode": "0644"
-    },
-    {
       "path": "tests/instances/ex111.wcnf.xz",
       "type": "file",
       "bytes": 32157820,
@@ -806,13 +792,6 @@
       "mode": "0644"
     },
     {
-      "path": "tests/instances/ex116.wcnf.xz",
-      "type": "file",
-      "bytes": 6090996,
-      "sha256": "0806cf1e9dbc3baa9ffc2d5a5bb987d23d60f230cf9a16d4b022e9d89a66372e",
-      "mode": "0644"
-    },
-    {
       "path": "tests/instances/ex117.wcnf.xz",
       "type": "file",
       "bytes": 12606824,
@@ -838,13 +817,6 @@
       "type": "file",
       "bytes": 18525544,
       "sha256": "28d581437cf0017a148abf464c1e73fa3acfe3af843f719d60e8bec1ea60f746",
-      "mode": "0644"
-    },
-    {
-      "path": "tests/instances/ex121.wcnf.xz",
-      "type": "file",
-      "bytes": 4946156,
-      "sha256": "d2e5b6cfc2781bd674fba240b6bfcd73c999ceb17b08b7b4783bc768c9be6313",
       "mode": "0644"
     },
     {
@@ -967,13 +939,6 @@
       "mode": "0644"
     },
     {
-      "path": "tests/instances/ex139.wcnf.xz",
-      "type": "file",
-      "bytes": 957612,
-      "sha256": "74cf0c6b52523a5d7a7cf2165a1cd61fea182cbd9444ff96b807e0d94839e1ef",
-      "mode": "0644"
-    },
-    {
       "path": "tests/instances/ex140.wcnf.xz",
       "type": "file",
       "bytes": 2388212,
@@ -1016,13 +981,6 @@
       "mode": "0644"
     },
     {
-      "path": "tests/instances/ex146.wcnf.xz",
-      "type": "file",
-      "bytes": 7033744,
-      "sha256": "a1d47999c258ebb327e87b44ed925d524f62d45a6e54dde996d3d239cdadbe4a",
-      "mode": "0644"
-    },
-    {
       "path": "tests/instances/ex147.wcnf.xz",
       "type": "file",
       "bytes": 4907192,
@@ -1034,13 +992,6 @@
       "type": "file",
       "bytes": 4251852,
       "sha256": "9eb2f21cc33981a2bbeb6f93dd081f2646c88d5f2ef62f53b485a9cfc60c2b41",
-      "mode": "0644"
-    },
-    {
-      "path": "tests/instances/ex149.wcnf.xz",
-      "type": "file",
-      "bytes": 3955412,
-      "sha256": "9e18faa4e36d11c5a2f9cdda928acfdcc7acb0ae176d5120b3501c3d915cee7d",
       "mode": "0644"
     },
     {
@@ -1156,13 +1107,6 @@
       "mode": "0644"
     },
     {
-      "path": "tests/instances/ex166.wcnf.xz",
-      "type": "file",
-      "bytes": 127508,
-      "sha256": "3ef5d43d9072d3b345a7b56d1e366df17f1746526da4ba9836cf1602ee8c7867",
-      "mode": "0644"
-    },
-    {
       "path": "tests/instances/ex167.wcnf.xz",
       "type": "file",
       "bytes": 18418796,
@@ -1233,13 +1177,6 @@
       "mode": "0644"
     },
     {
-      "path": "tests/instances/ex177.wcnf.xz",
-      "type": "file",
-      "bytes": 10896820,
-      "sha256": "34cee7c633f3e69958ed0b75cbc9bdd158c2f8dca3a6ce08ae2246d548dc1db4",
-      "mode": "0644"
-    },
-    {
       "path": "tests/instances/ex178.wcnf.xz",
       "type": "file",
       "bytes": 64944488,
@@ -1293,13 +1230,6 @@
       "type": "file",
       "bytes": 21380260,
       "sha256": "11b9d89e25dc2e3edc028faf2ac02ae8722f39835f9c89579292ce3c303db15f",
-      "mode": "0644"
-    },
-    {
-      "path": "tests/instances/ex186.wcnf.xz",
-      "type": "file",
-      "bytes": 437976,
-      "sha256": "f06d3e045f644396501ed752b8c8e338c985b15182c7e4e93a41aa07220ef45e",
       "mode": "0644"
     },
     {
@@ -1384,13 +1314,6 @@
       "type": "file",
       "bytes": 11463056,
       "sha256": "f29cbf2c4f2106e63037a9e51cb5ad0c20f132a36a28c2ec6e21a53284b9c74e",
-      "mode": "0644"
-    },
-    {
-      "path": "tests/instances/ex199.wcnf.xz",
-      "type": "file",
-      "bytes": 11463128,
-      "sha256": "4aa75cde8295b5b068ea88543b882882cb42fcaba36919acdc40fb78118e06f9",
       "mode": "0644"
     },
     {

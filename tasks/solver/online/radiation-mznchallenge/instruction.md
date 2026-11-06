@@ -16,15 +16,13 @@ using as little total beam-on time and as few shapes as possible. This
 matrix-decomposition problem (multileaf collimator sequencing) is
 NP-hard and a classical benchmark of constraint programming.
 
-The judged set has **47 instances**: the full candidate pool of 24 hard
-generated instances plus the 23 instances published in the MiniZinc
-benchmarks repository. 36 of them are **hidden** — their files are not
-in this environment, and there is no network access, so the first time
-your solver sees them is at judging time. The 11 published instances
-already shipped under `/app/instances/` are judged too. The environment
-also ships 4 further generated practice instances (not in the hidden
-judged set; the self-test channel still judges them), and
-verified solutions for 6 of the practice instances under `/app/solutions/`.
+Final judging uses **36 instances**: 24 generated instances and 12
+instances from the MiniZinc benchmarks repository. Their files are kept
+outside this development environment, which has no network access.
+The public practice set contains 11 other repository instances and 4
+generated instances under `/app/instances/`; all 15 are excluded from
+final judging. Verified solutions for 6 practice instances are available
+under `/app/solutions/`.
 
 ## Your job
 
@@ -45,16 +43,16 @@ is your final score — nothing is judged while you work.
 
 | | |
 |---|---|
-| **Public practice set** | 15 instances at `/app/instances/` — **11 of them are also part of the judged set**. `/app/public_reference.json` gives two reference values per instance: `B` (the shipped baseline's result) and `K` (a best-known value from stronger reference solvers). |
-| **Judging sandbox** | **6 parallel shards**; per instance: 1 core, 16 GB RAM, 1200 s wall clock. This sandbox follows the task's official evaluation specification. |
-| **Self-test** | `submit.sh` — unlimited use. The service judges your solver on the public practice set, **in the same judging sandbox, on the same 6 parallel shards, under the same per-instance limits** — and prints per-instance results and validity. Self-tests never affect your score. |
-| **Final judging** | Once, after the run ends: the verifier rebuilds `/app` and judges your solver on **36 hidden instances plus 11 instances shipped in your environment**, again **in the same sandbox, on the same 6 parallel shards**. |
+| **Public practice set** | 15 instances at `/app/instances/` — **all excluded from final judging**. `/app/public_reference.json` gives two reference values per instance: `B` (the shipped baseline's result) and `K` (a best-known value from stronger reference solvers). |
+| **Judging sandbox** | **10 parallel shards**; per instance: 1 core, 16 GB RAM, 1200 s wall clock. This sandbox follows the task's official evaluation specification. |
+| **Self-test** | `submit.sh` — unlimited use. The service judges your solver on the public practice set, **in the same judging sandbox, on the same 10 parallel shards, under the same per-instance limits** — and prints per-instance results and validity. Self-tests never affect your score. |
+| **Final judging** | Once, after the run ends: the verifier rebuilds `/app` and judges your solver on **36 hidden instances**, disjoint from the public practice set, using the same 10 parallel shards and per-instance limits. |
 | **Score** | Determined solely by that one final judging. Hidden per-instance results are never returned to you; the formula that aggregates judging results into the final score is not disclosed. |
 
 `submit.sh` is on your `PATH` at `/usr/local/bin/submit.sh` — call it from any working directory.
 
 A self-test and the final judging are the **same measurement** — same
-sandbox, same 6 parallel shards, same per-instance limits; only the
+sandbox, same 10 parallel shards, same per-instance limits; only the
 instance set differs (public vs hidden). Local runs in this development
 environment happen outside the judging sandbox, so local measurements
 may not transfer — treat `submit.sh` results as authoritative.
@@ -154,9 +152,8 @@ shape count, and the structural lower bound itself**.
   **Chuffed** (`--solver chuffed`), **Gecode**, **CBC**, **HiGHS**; plus
   `python3` and `g++`.
 - `/app/instances/` — the 15 shipped instances (the small `01`–`09`,
-  `m06_15_15` and `m07_07_20`, and the larger `pub*` instances): 11 of
-  them are also in the judged set (see Background); the other 4 are
-  practice-only.
+  `m06_15_15` and `m07_07_20`, and the larger `pub*` instances), all
+  reserved for practice and excluded from final judging.
 - `/app/instances_table.md` — per-instance table for the shipped
   instances: size, the baseline's objective, and the best known value.
 - `/app/solutions/` — verified solutions for 6 of the practice instances,

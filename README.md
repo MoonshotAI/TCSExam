@@ -1,6 +1,9 @@
 # TCSExam
 
-[Project website](https://moonshotai.github.io/TCSExam/)
+[![Website](assets/badges/website.svg)](https://moonshotai.github.io/TCSExam/)
+[![arXiv](assets/badges/arxiv.svg)](https://arxiv.org/abs/2611.07962)
+[![Documentation](assets/badges/docs.svg)](https://moonshotai.github.io/TCSExam/docs/)
+[![License](assets/badges/license.svg)](docs/licenses/README.md)
 
 Language: [English](README.md) | [简体中文](docs/README.zh-CN.md)
 
@@ -77,7 +80,9 @@ formats for `tcsexam solver-score` and `tcsexam score`.
 
 Project-authored code, checkers, scripts and build configuration use
 [Apache-2.0](LICENSE). Original task statements, documentation and website
-content use [CC BY 4.0](docs/licenses/CC-BY-4.0.txt). Third-party materials retain
+content use [CC BY 4.0](docs/licenses/CC-BY-4.0.txt). The [paper PDF](paper.pdf)
+is licensed separately under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+Third-party materials retain
 their own terms; preserve their task-level sources and
 [notices](docs/licenses/THIRD_PARTY_NOTICES.md). Consult the
 [license guide](docs/licenses/README.md) before redistributing inputs or images.
@@ -91,17 +96,16 @@ describes the process. Development and source-export instructions are in
 
 ## Cite TCSExam
 
-If you use TCSExam in your research, please cite the [paper](paper.pdf):
+If you use TCSExam in your research, please cite the [paper](https://arxiv.org/abs/2611.07962). [Export BibTeX](https://arxiv.org/bibtex/2611.07962) · [Download PDF](paper.pdf).
 
 ```bibtex
-@misc{tcsexam2026,
-  title = {{TCSExam}: Evaluating frontier {LLMs} on the full range of {TCS} research},
-  author = {Luo, Yifan and Liu, Zhengying and Yuan, Yang and Yang, Zhilin and Yao, Andrew Chi-Chih},
-  year = {2026},
-  month = nov,
-  url = {https://github.com/MoonshotAI/TCSExam}
+@misc{luo2026tcsexamevaluatingfrontierllms,
+  title={TCSExam: Evaluating Frontier LLMs on the Full Range of TCS Research},
+  author={Yifan Luo and Zhengying Liu and Yang Yuan and Zhilin Yang and Andrew Chi-Chih Yao},
+  year={2026},
+  eprint={2611.07962},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2611.07962},
 }
 ```
-
-The [experiment reporting guide](docs/citation.md) explains how to identify the
-software version, model configuration and scoring reference alongside your results.

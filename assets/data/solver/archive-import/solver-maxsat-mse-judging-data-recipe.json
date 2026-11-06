@@ -29,5 +29,8 @@
     "credentials",
     "undeclared files"
   ],
-  "files_manifest": "assets/data/solver/maxsat-mse/original211-files.json"
+  "files_manifest": "assets/data/solver/maxsat-mse/original211-files.json",
+  "available": false,
+  "unavailable_reason": "This archive contains the historical 211-instance final set. It cannot supply the 200-instance public-disjoint evaluation set. Omit --data-recipe solver-maxsat-mse-judging-data=fixed_archive to build from the default public sources.",
+  "evaluation_selection": "public-disjoint-final-261105"
 }

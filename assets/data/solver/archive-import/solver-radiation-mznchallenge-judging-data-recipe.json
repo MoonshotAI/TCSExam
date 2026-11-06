@@ -25,5 +25,8 @@
     "credentials",
     "neither",
     "undeclared files"
-  ]
+  ],
+  "available": false,
+  "unavailable_reason": "This archive contains the historical 47-instance final set. It cannot supply the 36-instance public-disjoint evaluation set. Omit --data-recipe solver-radiation-mznchallenge-judging-data=fixed_archive to build from the default public sources.",
+  "evaluation_selection": "public-disjoint-final-261105"
 }

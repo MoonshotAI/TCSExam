@@ -1274,20 +1274,6 @@
    "soft": 22,
    "witness_source": "log:WMaxCDCL2026S6/d25128e8cdb575b958d84f3e8082531f.wcnf.o"
   },
-  "ex099.wcnf": {
-   "B": 121,
-   "K": 115,
-   "b_seconds": 285.04,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit",
-   "family": "argumentation-framework-synthesis",
-   "hard": 152866,
-   "k_proven": true,
-   "k_source": "mse2026-proven-optimum+mse2026-registry-best-known+mse2026-verified",
-   "mse2026_anytime300_vbs": 115,
-   "n": 14604,
-   "soft": 110,
-   "witness_source": "log:WMaxCDCL2026S6/1645126bc049f932c6a365aed4073e87.wcnf.o"
-  },
   "ex100.wcnf": {
    "B": 66297,
    "K": 66297,
@@ -1428,20 +1414,6 @@
    "soft": 521,
    "witness_source": null
   },
-  "ex110.wcnf": {
-   "B": 433,
-   "K": 139,
-   "b_seconds": 285.03,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit",
-   "family": "decision-trees",
-   "hard": 124971,
-   "k_proven": false,
-   "k_source": "mse2026-registry-best-known+mse2026-verified",
-   "mse2026_anytime300_vbs": 145,
-   "n": 18651,
-   "soft": 236,
-   "witness_source": "log:Aperture-KBG/d8f5cdbc2e7d125910757a85590e0a3f.wcnf.o"
-  },
   "ex111.wcnf": {
    "B": 1020,
    "K": 171,
@@ -1512,20 +1484,6 @@
    "soft": 41879,
    "witness_source": "log:Aperture-KBI/85d67197d7664c2d62390deae587a40e.wcnf.o"
   },
-  "ex116.wcnf": {
-   "B": 1094,
-   "K": 667,
-   "b_seconds": 285.03,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit",
-   "family": "inductive-logic-programming-minimum-description-length",
-   "hard": 903815,
-   "k_proven": false,
-   "k_source": "mse2026-registry-best-known+mse2026-verified",
-   "mse2026_anytime300_vbs": 668,
-   "n": 7968,
-   "soft": 7968,
-   "witness_source": "log:Loandra/a04c49fdcfb80a2b2a28970b0a391db2.wcnf.o"
-  },
   "ex117.wcnf": {
    "B": 453,
    "K": 191,
@@ -1581,20 +1539,6 @@
    "n": 36762,
    "soft": 36762,
    "witness_source": "log:NuWLS-c-2026-UB/f289336a35fc1aaeb7f53b317cd8dfb8.wcnf.o"
-  },
-  "ex121.wcnf": {
-   "B": 161,
-   "K": 74,
-   "b_seconds": 285.03,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit",
-   "family": "interpretable-rule-based-classifiers",
-   "hard": 923731,
-   "k_proven": false,
-   "k_source": "mse2026-registry-best-known+mse2026-verified",
-   "mse2026_anytime300_vbs": 76,
-   "n": 16924,
-   "soft": 7369,
-   "witness_source": "log:BouMS/d65e49e03a1bef210c86572aea57752c.wcnf.o"
   },
   "ex122.wcnf": {
    "B": 0,
@@ -1834,20 +1778,6 @@
    "soft": 3050,
    "witness_source": "log:SPB-NIM-c/a0deab950308e135c28f32276c99a31f.wcnf.o"
   },
-  "ex139.wcnf": {
-   "B": 1300,
-   "K": 584,
-   "b_seconds": 285.06,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit",
-   "family": "logistics-routing",
-   "hard": 133923,
-   "k_proven": false,
-   "k_source": "mse2026-registry-best-known+mse2026-verified",
-   "mse2026_anytime300_vbs": 592,
-   "n": 66705,
-   "soft": 2350,
-   "witness_source": "log:NuWLS-c-2026/b1f3bc82f34d8304967937fa42004233.wcnf.o"
-  },
   "ex140.wcnf": {
    "B": 5324,
    "K": 1044,
@@ -1932,20 +1862,6 @@
    "soft": 4800,
    "witness_source": "log:NuWLS-c-2026/fa9801a3e50d56c8b3e05b9e1ae772e9.wcnf.o"
   },
-  "ex146.wcnf": {
-   "B": 39,
-   "K": 14,
-   "b_seconds": 285.04,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit",
-   "family": "max-realizability-robot-navigation",
-   "hard": 713203,
-   "k_proven": false,
-   "k_source": "mse2026-registry-best-known+mse2026-verified",
-   "mse2026_anytime300_vbs": 14,
-   "n": 171619,
-   "soft": 9,
-   "witness_source": "log:EvalMaxRes/1d69eb0fbbde8c41206c99b062d6ac4d.wcnf.o"
-  },
   "ex147.wcnf": {
    "B": 3603,
    "K": 3562,
@@ -1973,20 +1889,6 @@
    "n": 256206,
    "soft": 50849,
    "witness_source": "log:WMaxCDCL2026S6/556c1d4dfc16acb18820b53da39d0841.wcnf.o"
-  },
-  "ex149.wcnf": {
-   "B": 839,
-   "K": 827,
-   "b_seconds": 285.06,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit",
-   "family": "maximum-colorful-subtree",
-   "hard": 355290,
-   "k_proven": true,
-   "k_source": "mse2026-proven-optimum+mse2026-registry-best-known+mse2026-verified",
-   "mse2026_anytime300_vbs": 827,
-   "n": 254432,
-   "soft": 50486,
-   "witness_source": "log:WMaxCDCL2026S6/aba43574fdcf5980731fc0f442a0d7a4.wcnf.o"
   },
   "ex150.wcnf": {
    "B": 3622,
@@ -2020,7 +1922,7 @@
    "B": 153667906,
    "K": 33452566,
    "b_seconds": 286.08,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit (two measurements on 2026-09-22/23 under judge-v10-matched judging, maxsat-b-remeasure-260922; obs 153667906\u00d72 (the 260913 anchor 153102149 was below the band's lower bound, so the band moved up))",
+   "b_source": "open-wbo-2.1-anytime@285s-softlimit (two measurements on 2026-09-22/23 under judge-v10-matched judging, maxsat-b-remeasure-260922; obs 153667906×2 (the 260913 anchor 153102149 was below the band's lower bound, so the band moved up))",
    "family": "minimum-weight-dominating-set",
    "hard": 16777216,
    "k_proven": false,
@@ -2118,7 +2020,7 @@
    "B": 119843824,
    "K": 119321020,
    "b_seconds": 285.09,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit (two measurements on 2026-09-22/23 under judge-v10-matched judging, maxsat-b-remeasure-260922; obs 119843824\u00d73 (the 260913 anchor 119842804 was below the band's lower bound, so the band moved up))",
+   "b_source": "open-wbo-2.1-anytime@285s-softlimit (two measurements on 2026-09-22/23 under judge-v10-matched judging, maxsat-b-remeasure-260922; obs 119843824×3 (the 260913 anchor 119842804 was below the band's lower bound, so the band moved up))",
    "family": "minimum-weight-dominating-set",
    "hard": 1398408,
    "k_proven": true,
@@ -2211,20 +2113,6 @@
    "n": 941340,
    "soft": 169,
    "witness_source": "log:Aperture-KBI/0ce09e5006280a1b1986a9fc57e09a56.wcnf.o"
-  },
-  "ex166.wcnf": {
-   "B": 336,
-   "K": 336,
-   "b_seconds": 285.05,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit",
-   "family": "pareto-optimal-interpretation-synthesis",
-   "hard": 22995,
-   "k_proven": true,
-   "k_source": "mse2026-proven-optimum+mse2026-registry-best-known+mse2026-verified",
-   "mse2026_anytime300_vbs": 336,
-   "n": 7923,
-   "soft": 46,
-   "witness_source": "log:WMaxCDCL2026S6/3332f249f67f78ea332d79e914936ccd.wcnf.o"
   },
   "ex167.wcnf": {
    "B": 1197,
@@ -2366,20 +2254,6 @@
    "soft": 130366,
    "witness_source": "log:PX-TT-Open-WBO-Inc/f5dcd9a9055a26ff73f99893be3864c1.wcnf.o"
   },
-  "ex177.wcnf": {
-   "B": 2005,
-   "K": 559,
-   "b_seconds": 285.06,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit",
-   "family": "planning-hplus",
-   "hard": 1814430,
-   "k_proven": false,
-   "k_source": "mse2026-registry-best-known+mse2026-verified",
-   "mse2026_anytime300_vbs": 559,
-   "n": 165032,
-   "soft": 42883,
-   "witness_source": "log:Aperture-KBG/ff3edb803a43f49e4ac29f10716ac281.wcnf.o"
-  },
   "ex178.wcnf": {
    "B": 2103,
    "K": 2103,
@@ -2491,20 +2365,6 @@
    "n": 253930,
    "soft": 253930,
    "witness_source": "log:Aperture-KBI/7e0aa11845ef1a9ca9a4dde2109e4fca.wcnf.o"
-  },
-  "ex186.wcnf": {
-   "B": 48742,
-   "K": 43213,
-   "b_seconds": 285.01,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit",
-   "family": "railway-timetabling",
-   "hard": 93375,
-   "k_proven": true,
-   "k_source": "mse2026-proven-optimum+mse2026-registry-best-known+mse2026-verified",
-   "mse2026_anytime300_vbs": 43213,
-   "n": 10736,
-   "soft": 10736,
-   "witness_source": "log:EvalMaxRes/91d8278936cbdcddeb77a55e9deb0b46.wcnf.o"
   },
   "ex187.wcnf": {
    "B": 45732348,
@@ -2674,20 +2534,6 @@
    "soft": 9485,
    "witness_source": "log:PASMaxSAT-c/525bb7b659d7ef92fb2012c3efa8e401.wcnf.o"
   },
-  "ex199.wcnf": {
-   "B": 1451454634091892,
-   "K": 271716016106946,
-   "b_seconds": 285.06,
-   "b_source": "open-wbo-2.1-anytime@285s-softlimit",
-   "family": "single-cell-dna-sequencing",
-   "hard": 1504658,
-   "k_proven": true,
-   "k_source": "mse2026-proven-optimum+mse2026-registry-best-known+mse2026-verified",
-   "mse2026_anytime300_vbs": 271716016106946,
-   "n": 32204,
-   "soft": 9481,
-   "witness_source": "log:COGS/ae8b9d05d7e77b281b14077de8059e3d.wcnf.o"
-  },
   "ex200.wcnf": {
    "B": 7448757990875806,
    "K": 1497973685335542,
@@ -2856,5 +2702,6 @@
    "soft": 22,
    "witness_source": "log:WMaxCDCL2026S6/9761214ee36a81a4916193e3e33fad08.wcnf.o"
   }
- }
+ },
+ "evaluation_selection": "public-disjoint-final-261105"
 }

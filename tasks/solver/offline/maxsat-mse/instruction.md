@@ -13,11 +13,11 @@ problems (planning, scheduling, verification, data analysis).
 
 The benchmark behind this task is the anytime weighted track of a recent
 competitive event, all of whose instances are "truly weighted" (soft
-clause weights vary within every instance). The judged set is the full
-benchmark; its instances were physically removed from this environment,
-and there is no network access. The 11 public instances shipped at
-`/app/instances/` are ordinary members of the same public benchmark and
-are judged too.
+clause weights vary within every instance). Final judging uses **200
+instances**, with variable relabeling applied to the source formulas. This
+set excludes the 11 public practice instances shipped at `/app/instances/`,
+including their relabeled versions. The final judging files are kept outside
+this development environment, which has no network access.
 
 ## Your job
 
@@ -37,10 +37,10 @@ is your final score — nothing is judged while you work.
 
 | | |
 |---|---|
-| **Public practice set** | 11 instances at `/app/instances/` — **11 of them are also part of the judged set**. `/app/public_reference.json` gives two reference values per instance: `B` (the shipped baseline's result) and `K` (a best-known value from stronger reference solvers). |
+| **Public practice set** | 11 instances at `/app/instances/` — **all excluded from final judging**. `/app/public_reference.json` gives two reference values per instance: `B` (the shipped baseline's result) and `K` (a best-known value from stronger reference solvers). |
 | **Judging sandbox** | Per instance: **1 core**, 300 s wall clock. Each isolated Docker worker reserves 32 GB RAM. Up to 10 workers run concurrently, reduced automatically to fit available host resources. |
 | **Local self-test** | Use the public-instance runner described below. It executes in this development environment; local timing can differ from the judging environment. Self-tests never affect your final score. |
-| **Final judging** | Once, after the run ends: the verifier rebuilds `/app` and judges your solver on **200 hidden instances plus 11 instances shipped in your environment**, again **in the same sandbox, on the same 10 parallel shards**. |
+| **Final judging** | Once, after the run ends: the verifier rebuilds `/app` and judges your solver on **200 hidden instances**, disjoint from the public practice set, using isolated Docker workers with the per-instance limits above. |
 | **Score** | Determined solely by that one final judging. Hidden per-instance results are never returned to you; the formula that aggregates judging results into the final score is not disclosed. |
 
 The final verifier runs on the evaluation host through Docker.
@@ -90,8 +90,8 @@ everything itself and trusts nothing your solver merely claims.
 - `/app/solver` — the currently built solver. Run it as
   `./solver < instance.wcnf`. It reads one optional environment
   variable: `MAXSAT_SECONDS` (wall-clock soft limit, default 285).
-- `/app/instances/` — the 11 public instances. The other judged
-  instances are not among them.
+- `/app/instances/` — the 11 public practice instances, all excluded from
+  final judging.
 - `/app/mse_table.md` — per-instance table for the shipped instances:
   size, family, the baseline's cost `B`, and the reference value `K`.
 - `/app/solutions/` — verified optimal answers for 6 of the practice

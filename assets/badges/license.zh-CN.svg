@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="235" height="26" viewBox="0 0 235 26" role="img" aria-label="许可: 代码 Apache-2.0；原创题面和文档 CC BY 4.0">
+  <title>代码：Apache-2.0；原创题面和文档：CC BY 4.0</title>
+  <clipPath id="round"><rect width="235" height="26" rx="4"/></clipPath>
+  <g clip-path="url(#round)">
+    <path fill="#555" d="M0 0h64v26H0z"/>
+    <path fill="#4c8c2b" d="M64 0h171v26H64z"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,DejaVu Sans,Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12">
+    <text x="32" y="17">许可</text>
+    <text x="149.5" y="17">Apache-2.0 + CC BY 4.0</text>
+  </g>
+</svg>

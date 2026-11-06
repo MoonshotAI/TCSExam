@@ -11,6 +11,9 @@
 
 在 TCSExam 贡献者拥有相应权利的范围内，原创代码、判分器、脚本和构建配置采用 [Apache-2.0](../../LICENSE)。原创题面、说明文档和网站内容采用 [CC BY 4.0](documentation.txt)。共享改编内容时，保留已有版权和作者声明，并标明修改。
 
+[论文 PDF](../../paper.pdf)（包括项目网站提供的同一份文件）单独采用
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)。
+
 <a id="third-party-material"></a>
 
 ## 第三方材料

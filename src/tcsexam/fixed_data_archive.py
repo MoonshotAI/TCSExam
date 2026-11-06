@@ -134,6 +134,9 @@ def effective_resource(root, resource, choices=None):
         raise ValueError('An archive alternative requires a declared data product')
     path = 'assets/data/solver/archive-import/' + resource['id'] + '-recipe.json'
     recipe = load(within(root, path))
+    if recipe.get('available') is False:
+        raise ValueError('Fixed archive unavailable: ' + recipe.get(
+            'unavailable_reason', 'Use the default public-source data recipe.'))
     source = recipe.get('source', {})
     manifest_path = recipe.get('files_manifest', resource['files_manifest'])
     version = resource.get('content_version')

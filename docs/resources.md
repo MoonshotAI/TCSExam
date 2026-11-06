@@ -104,7 +104,7 @@ source-preparation step.
 
 ## MaxSAT hidden data
 
-The default recipe reconstructs all 211 MaxSAT judging formulas from the fixed
+The default recipe reconstructs the 200 MaxSAT final-judging formulas from the fixed
 [MaxSAT Evaluation 2026 archive](https://zenodo.org/records/21358014).
 The [recipe](../assets/data/solver/solver-maxsat-mse-judging-data-recipe.json)
 pins the archive hash, selected files, conversion parameters, random seeds and
@@ -136,7 +136,7 @@ Read each entry for the additional requirements of that resource.
 | QBF public data | The pinned ParaProofa v1 source archive is about 949 MB. The recipe reconstructs the thirteen public instances and their fixed XZ compression. |
 | PACE 2021 Cluster Editing and PACE 2022 Directed Feedback Vertex Set verifiers | Recipes download the pinned official ZIP/tar.gz, compile `ce_verify` or `fvs_verify` in a digest-pinned Ubuntu 22.04 linux/amd64 builder, and check source and compiled hashes. Docker supplies the compiler environment. `tcsexam build` composes the resulting tool image into the task images. |
 | PACE 2025 Hitting Set | Separate recipes reconstruct the 100 public and 100 hidden plaintext inputs from `MarioGrobler/PACE2025-instances` commit `e0bff608037db1f2b9eec7a7963e31b86663e1ed`. Hashes and HGR dimensions are checked before image construction. The hidden files need no decryption key at judging time. |
-| Radiation | The default recipe verifies all 47 judging inputs: 24 project-generated Apache-2.0 inputs and 23 fixed MiniZinc MIT-licensed files. No separately supplied archive is required. |
+| Radiation | The default recipe verifies all 36 final-judging inputs: 24 project-generated Apache-2.0 inputs and 12 fixed MiniZinc MIT-licensed files. No separately supplied archive is required. |
 
 In BPPLIB's development table, `best` is the published feasible upper bound, or
 the lower-to-upper interval when optimality is unresolved. `gap` is the

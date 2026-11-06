@@ -27,7 +27,8 @@
   "shard_cores": 1,
   "shard_mem_gb": 16,
   "shards": 10,
-  "shipped_judged": 11
+  "shipped_judged": 0,
+  "evaluation_selection": "public-disjoint-final-261105"
  },
  "problem": {
   "certificate": null,
@@ -43,7 +44,7 @@
  },
  "status": {
   "in_split30": true,
-  "notes": "Total judged instances = 47 = n_hidden 36 (24 generated + 12 public-repository instances) + shipped_judged 11 (11 released instances remain shipped in the environment and are also judged; represented by the shipped_judged field). The environment also contains 4 generated practice instances that are not judged. K sources are mixed: project measurements for generated instances and best scores from all solvers in MiniZinc Challenge 2012 for public-repository instances."
+  "notes": "Final judging uses 36 instances: 24 generated instances and 12 MiniZinc repository instances. The 15 public practice instances (11 repository instances and 4 generated instances) are disjoint from final judging. K sources remain project measurements for generated instances and best scores from MiniZinc Challenge 2012 for repository instances."
  },
  "subdomain": "constraint-programming",
  "title": "Radiation therapy planning"

@@ -244318,16 +244318,17 @@
     },
     {
       "path": "tasks/solver/online/maxsat-mse/instruction.md",
-      "reason": "tcsexam_namespace_and_backend_interface; release_review_project_name_contributors_and_development_client_configuration",
-      "current_sha256": "42b5aa4f4708b1cb911db866976eec68ca2cff8449256af88f8d22951c704e93",
-      "current_bytes": 9480,
-      "current_mode": "100664"
+      "reason": "public_disjoint_final_evaluation_selection",
+      "current_sha256": "0769a99c30f216c1b92b2447f73930b1df2b8e45e8368a35d0e8cef48fc717bc",
+      "current_bytes": 9511,
+      "current_mode": "100644",
+      "evaluation_selection": "public-disjoint-final-261105"
     },
     {
       "path": "tasks/solver/online/maxsat-mse/metadata.json",
-      "reason": "tcsexam_namespace_and_backend_interface; external_manifest_supplies_private_runtime_products; public_image_address_pending; public_reference_cleanup; original source pin retained; JSON keys, array order and every nonstring value unchanged; description fields listed; english_documentation_comments_and_display_text",
-      "current_sha256": "47e3cc4e9d1ce110ee79bdca5b02be8aaebcb598c4d5de0e1f5d5a8b7ebab460",
-      "current_bytes": 1966,
+      "reason": "public_disjoint_final_evaluation_selection",
+      "current_sha256": "0eddddda5892ddecdf4a4540efc2e9091a2590814b13414154d5fbab035225af",
+      "current_bytes": 1669,
       "current_mode": "100644",
       "english_adaptation": {
         "resource_base_commit": "b1f3d700fe2fe72028c5b298b0caf723dbe17072",
@@ -244335,7 +244336,8 @@
         "before_sha256": "3bab40e01a8d1b564417850018c0c0ec29f2cef4c02513c600a7c656ae476c20",
         "after_sha256": "47e3cc4e9d1ce110ee79bdca5b02be8aaebcb598c4d5de0e1f5d5a8b7ebab460",
         "scope": "English documentation, comments, and display text integrated with public-reference cleanup. Runtime structure, numeric configuration, and task selection retained."
-      }
+      },
+      "evaluation_selection": "public-disjoint-final-261105"
     },
     {
       "path": "tasks/solver/online/maxsat-mse/task.toml",
@@ -244403,17 +244405,18 @@
     },
     {
       "path": "tasks/solver/online/maxsat-mse/tests/reference.json",
-      "reason": "public_reference_cleanup; original source pin retained; JSON keys, array order and every nonstring value unchanged; description fields listed; english_documentation_comments_and_display_text; public_documentation_and_attribution_cleanup",
-      "current_sha256": "5b112ce3b4f049e05a4295e4bceb62e7e4b64c5df0bfaf0bb8f54a133861361b",
-      "current_bytes": 91937,
-      "current_mode": "100664",
+      "reason": "public_disjoint_final_evaluation_selection",
+      "current_sha256": "7425a134b2caa709b90be170c30acbde5c0c01a11f3ff974c7fb2d3216c5ba95",
+      "current_bytes": 87212,
+      "current_mode": "100644",
       "english_adaptation": {
         "resource_base_commit": "b1f3d700fe2fe72028c5b298b0caf723dbe17072",
         "translation_source_commit": "9e1a8d11c255e9c1510f27c136677f96b9ed7868",
         "before_sha256": "4542f9093cef7d3ac18aa455e693145c030d5ba07a30d07287f324ccc1ba5838",
         "after_sha256": "aeeaf1a18a7ac8bd814d3791d5e7f43c3f5e8518fe51d4634a34d58a892d6ef9",
         "scope": "English documentation, comments, and display text integrated with public-reference cleanup. Runtime structure, numeric configuration, and task selection retained."
-      }
+      },
+      "evaluation_selection": "public-disjoint-final-261105"
     },
     {
       "path": "tasks/solver/online/maxsat-mse/tests/test.sh",
@@ -245317,16 +245320,17 @@
     },
     {
       "path": "tasks/solver/online/radiation-mznchallenge/instruction.md",
-      "reason": "tcsexam_namespace_and_backend_interface",
-      "current_sha256": "17e9304986dad123dfc57321c3e41bd366964b223ecaf300e39348d9f84a5b93",
-      "current_bytes": 12158,
-      "current_mode": "100644"
+      "reason": "public_disjoint_final_evaluation_selection",
+      "current_sha256": "524bfe5bcb015ad1fc5d8880f2cb5c890af994fd963aef94589377679c46fc1a",
+      "current_bytes": 11925,
+      "current_mode": "100644",
+      "evaluation_selection": "public-disjoint-final-261105"
     },
     {
       "path": "tasks/solver/online/radiation-mznchallenge/metadata.json",
-      "reason": "tcsexam_namespace_and_backend_interface; external_manifest_supplies_private_runtime_products; public_image_address_pending; public_reference_cleanup; original source pin retained; JSON keys, array order and every nonstring value unchanged; description fields listed; english_documentation_comments_and_display_text",
-      "current_sha256": "491fe6bb361c0fce1277d6076e06c793400296ab317b720653e851e58247fd63",
-      "current_bytes": 1754,
+      "reason": "public_disjoint_final_evaluation_selection",
+      "current_sha256": "bba49426e0ce65df5eacb5c49af0c8bf73a0a4ea2a3ffada9ddb4ff28bc73a17",
+      "current_bytes": 1685,
       "current_mode": "100644",
       "english_adaptation": {
         "resource_base_commit": "b1f3d700fe2fe72028c5b298b0caf723dbe17072",
@@ -245334,7 +245338,8 @@
         "before_sha256": "609f8016f6af4214738462c57f61dfee10d68c70b0c8715a8320f4f99fe44828",
         "after_sha256": "491fe6bb361c0fce1277d6076e06c793400296ab317b720653e851e58247fd63",
         "scope": "English documentation, comments, and display text integrated with public-reference cleanup. Runtime structure, numeric configuration, and task selection retained."
-      }
+      },
+      "evaluation_selection": "public-disjoint-final-261105"
     },
     {
       "path": "tasks/solver/online/radiation-mznchallenge/solution/solve.sh",
@@ -245345,17 +245350,18 @@
     },
     {
       "path": "tasks/solver/online/radiation-mznchallenge/task.toml",
-      "reason": "explicit_harbor_budget_and_provider_host_configuration; public_reference_cleanup; original source pin retained; all configuration fields unchanged except metadata.source_paper; english_documentation_comments_and_display_text; release_review_project_name_contributors_and_development_client_configuration; public_configuration_comments",
-      "current_sha256": "0b52619ce26d797e87b93aad0469bc37168686249e5a677eec2e2db73bd16a1b",
-      "current_bytes": 2373,
-      "current_mode": "100664",
+      "reason": "public_disjoint_final_evaluation_selection",
+      "current_sha256": "c8de5becdcf5d7eb16ef3f3b6a78c5e3f858ecbbc9f0d0d840e5137102e83733",
+      "current_bytes": 2345,
+      "current_mode": "100644",
       "english_adaptation": {
         "resource_base_commit": "b1f3d700fe2fe72028c5b298b0caf723dbe17072",
         "translation_source_commit": "9e1a8d11c255e9c1510f27c136677f96b9ed7868",
         "before_sha256": "2feaa51c2d480f169567ef9064b46d6395b88799083a88e8f0ba6f9672877c56",
         "after_sha256": "cdfa7bf5084936e6f3bee4b8a319bd2655560e90f52b6aeb6bc0553937922c93",
         "scope": "English documentation, comments, and display text integrated with public-reference cleanup. Runtime structure, numeric configuration, and task selection retained."
-      }
+      },
+      "evaluation_selection": "public-disjoint-final-261105"
     },
     {
       "path": "tasks/solver/online/radiation-mznchallenge/tests/checker.py",
@@ -245409,10 +245415,11 @@
     },
     {
       "path": "tasks/solver/online/radiation-mznchallenge/tests/reference.json",
-      "reason": "public_reference_cleanup; original source pin retained; JSON keys, array order and every nonstring value unchanged; description fields listed; public_documentation_and_attribution_cleanup",
-      "current_sha256": "145d7b287c562259d91143078bc764661e4d36d3c4d50a7fe5376089c4ec5896",
-      "current_bytes": 7656,
-      "current_mode": "100664"
+      "reason": "public_disjoint_final_evaluation_selection",
+      "current_sha256": "c0f02b3ac58f827d0d5aa00c42a86b97247e4eefe6c85fd60b4dfbeae2ea670e",
+      "current_bytes": 6199,
+      "current_mode": "100644",
+      "evaluation_selection": "public-disjoint-final-261105"
     },
     {
       "path": "tasks/solver/online/radiation-mznchallenge/tests/scoring.py",
@@ -247958,6 +247965,22 @@
       "current_sha256": "67bb42cacbebfd85990b0cd3e1ba3ca8c0a99376199ee90e95bd782f07a02795",
       "current_bytes": 58153,
       "current_mode": "100644"
+    },
+    {
+      "path": "tasks/solver/online/maxsat-mse/tests/anchors.json",
+      "reason": "public_disjoint_final_evaluation_selection",
+      "current_sha256": "21c8724948a2a5f782476513b6e0000f1289aa822f73eb78ddde66b2bf4333bd",
+      "current_bytes": 9270,
+      "current_mode": "100644",
+      "evaluation_selection": "public-disjoint-final-261105"
+    },
+    {
+      "path": "tasks/solver/online/radiation-mznchallenge/tests/anchors.json",
+      "reason": "public_disjoint_final_evaluation_selection",
+      "current_sha256": "275e530e3e71f06790233844b6da59fbe4aef0da967b0927c7493e09438e2a32",
+      "current_bytes": 1386,
+      "current_mode": "100644",
+      "evaluation_selection": "public-disjoint-final-261105"
     }
   ],
   "omitted_work_records": {

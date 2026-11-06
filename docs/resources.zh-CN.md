@@ -97,7 +97,7 @@ tcsexam source-inputs --offline \
 ## MaxSAT 隐藏数据
 
 默认配方从固定的 [MaxSAT Evaluation 2026 归档](https://zenodo.org/records/21358014)
-重建全部 211 个 MaxSAT 判分公式。
+重建最终判分集的 200 个 MaxSAT 公式。
 [配方](../assets/data/solver/solver-maxsat-mse-judging-data-recipe.json)
 固定归档哈希、选定文件、转换参数、随机种子以及输入/输出公式哈希。
 它复现声明的变量和子句顺序，并验证完整公式和压缩输出。
@@ -129,7 +129,7 @@ Online 使用 `--solver-protocol online`。官方归档约 1.97 GB，
 | QBF 公开数据 | 固定版本的 ParaProofa v1 源码归档约 949 MB。配方重建十三个公开实例及其固定 XZ 压缩文件。 |
 | PACE 2021 Cluster Editing 和 PACE 2022 Directed Feedback Vertex Set 验证器 | 配方下载固定版本的官方 ZIP/tar.gz，在以摘要固定的 Ubuntu 22.04 linux/amd64 构建器中编译 `ce_verify` 或 `fvs_verify`，并检查源码和编译结果哈希。Docker 提供编译器环境。`tcsexam build` 将生成的工具镜像组合进题目镜像。 |
 | PACE 2025 Hitting Set | 独立配方从 `MarioGrobler/PACE2025-instances` 提交 `e0bff608037db1f2b9eec7a7963e31b86663e1ed` 重建 100 个公开和 100 个隐藏明文输入。镜像构建前检查哈希和 HGR 维度。判分时隐藏文件无需解密密钥。 |
-| Radiation | 默认配方验证全部 47 个判分输入：24 个项目生成的 Apache-2.0 输入和 23 个固定的 MiniZinc MIT 许可文件。无需另行提供归档。 |
+| Radiation | 默认配方验证全部 36 个最终判分输入：24 个项目生成的 Apache-2.0 输入和 12 个固定的 MiniZinc MIT 许可文件。无需另行提供归档。 |
 
 在 BPPLIB 开发表中，`best` 是已发布的可行上界，最优性尚未确定时则为下界到上界的区间。
 `gap` 是首次适应递减算法的箱数减去该可行上界。此列用于比较两种构造；

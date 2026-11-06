@@ -37,5 +37,8 @@
   "public_source_rebuild_verified": false,
   "limitations": [
     "The frozen data/tool/worker base is required. An independent reconstruction of that base from public upstream sources has not been verified."
-  ]
+  ],
+  "record_scope": "historical_frozen_base_recipe",
+  "current_build_manifest": "assets/images.json",
+  "historical_scope_note": "This record preserves the earlier frozen-base recipe and its original source hashes. Current products use the Dockerfile.hidden and Dockerfile.public recipes in assets/images.json; this record does not validate the current selected data or source files."
 }

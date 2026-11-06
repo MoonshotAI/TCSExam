@@ -2,7 +2,7 @@
   "schema_version": 1,
   "online_source": "tasks/solver/online/maxsat-mse",
   "protocol": "local-docker-final-v1",
-  "readiness": "ready",
+  "readiness": "requires_selected_data_validation",
   "preserved_judge_inputs": [
     {
       "source": "tasks/solver/online/maxsat-mse/tests/checker.py",
@@ -12,12 +12,12 @@
     {
       "source": "tasks/solver/online/maxsat-mse/tests/reference.json",
       "target": "tasks/solver/offline/maxsat-mse/tests/reference.json",
-      "sha256": "5b112ce3b4f049e05a4295e4bceb62e7e4b64c5df0bfaf0bb8f54a133861361b"
+      "sha256": "7425a134b2caa709b90be170c30acbde5c0c01a11f3ff974c7fb2d3216c5ba95"
     },
     {
       "source": "tasks/solver/online/maxsat-mse/tests/anchors.json",
       "target": "tasks/solver/offline/maxsat-mse/tests/anchors.json",
-      "sha256": "de6add814d2fa3f1aedb1baa13dac0f760e9a0a2fd0ba4d02034efb376aad939"
+      "sha256": "21c8724948a2a5f782476513b6e0000f1289aa822f73eb78ddde66b2bf4333bd"
     },
     {
       "source": "tasks/solver/online/maxsat-mse/tests/metric_config.json",
@@ -34,5 +34,6 @@
     "Shared time pools retain every instance in one worker.",
     "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
   ],
-  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+  "readiness_scope": "The selected final inputs require image and runtime validation. Existing historical acceptance covered the earlier final set; it is not an acceptance record for this selection.",
+  "evaluation_selection": "public-disjoint-final-261105"
 }

@@ -1,6 +1,9 @@
 # TCSExam
 
-[项目网站](https://moonshotai.github.io/TCSExam/)
+[![网站](../assets/badges/website.zh-CN.svg)](https://moonshotai.github.io/TCSExam/)
+[![arXiv](../assets/badges/arxiv.svg)](https://arxiv.org/abs/2611.07962)
+[![文档](../assets/badges/docs.zh-CN.svg)](https://moonshotai.github.io/TCSExam/docs/zh/)
+[![许可](../assets/badges/license.zh-CN.svg)](licenses/README.zh-CN.md)
 
 语言：[English](../README.md) | [简体中文](README.zh-CN.md)
 
@@ -77,6 +80,7 @@ TCSExam Index = 30 × theorem success
 
 项目自行编写的代码、检查器、脚本和构建配置使用 [Apache-2.0](../LICENSE)。
 原创题面、文档和网站内容使用 [CC BY 4.0](licenses/CC-BY-4.0.txt)。
+[论文 PDF](../paper.pdf) 单独采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)。
 第三方材料保留其各自条款；请保留题目中的来源和
 [声明](licenses/THIRD_PARTY_NOTICES.zh-CN.md)。再次分发输入或镜像前，请查阅
 [许可指南](licenses/README.zh-CN.md)。
@@ -89,16 +93,16 @@ TCSExam Index = 30 × theorem success
 
 ## 引用 TCSExam
 
-在研究中使用 TCSExam 时，请引用[论文](../paper.pdf)：
+在研究中使用 TCSExam 时，请引用[论文](https://arxiv.org/abs/2611.07962)。[导出 BibTeX](https://arxiv.org/bibtex/2611.07962) · [下载 PDF](../paper.pdf)。
 
 ```bibtex
-@misc{tcsexam2026,
-  title = {{TCSExam}: Evaluating frontier {LLMs} on the full range of {TCS} research},
-  author = {Luo, Yifan and Liu, Zhengying and Yuan, Yang and Yang, Zhilin and Yao, Andrew Chi-Chih},
-  year = {2026},
-  month = nov,
-  url = {https://github.com/MoonshotAI/TCSExam}
+@misc{luo2026tcsexamevaluatingfrontierllms,
+  title={TCSExam: Evaluating Frontier LLMs on the Full Range of TCS Research},
+  author={Yifan Luo and Zhengying Liu and Yang Yuan and Zhilin Yang and Andrew Chi-Chih Yao},
+  year={2026},
+  eprint={2611.07962},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2611.07962},
 }
 ```
-
-[实验报告说明](citation.zh-CN.md)介绍如何随实验结果标明软件版本、模型配置和评分参考。

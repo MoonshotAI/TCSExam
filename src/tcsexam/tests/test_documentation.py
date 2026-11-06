@@ -1,5 +1,6 @@
 """Check that public documentation describes usable, current interfaces."""
 from pathlib import Path
+import json
 import re
 import unittest
 from urllib.parse import unquote
@@ -53,7 +54,8 @@ class Documentation(unittest.TestCase):
         self.assertIn('tcsexam export --normalize-modes --output', contributing)
         self.assertIn('new or empty', contributing)
         self.assertIn('MaxSAT', resources)
-        self.assertIn('211', resources)
+        manifest = json.loads((ROOT / 'assets/data/solver/solver-maxsat-mse-judging-data-files.json').read_text())
+        self.assertIn(f"{len(manifest['files'])} MaxSAT", resources)
         self.assertIn('--input', resources)
         self.assertNotIn('git archive --format=tar.gz', resources)
         self.assertIn('source-inputs', text('docs/source-delivery.md'))

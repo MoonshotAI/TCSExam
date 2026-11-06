@@ -17,13 +17,25 @@ Read each row for the value to put in the attempt table.
 | Track | Value used by the Index | Range |
 |---|---|---|
 | Theorem proving | Complete proof accepted by the checker: 1; otherwise 0 | 0–1 |
-| Solver engineering | Instance outcomes compared with fixed reference `paper-k3-fixed-260925`, supplied in the [Full](../src/tcsexam/references/paper-k3-fixed-260925-full.json) and [Lite](../src/tcsexam/references/paper-k3-fixed-260925-lite.json) JSON files | 0–1 |
+| Solver engineering | Instance outcomes compared with the fixed references supplied in the [Full](../src/tcsexam/references/paper-k3-fixed-260925-full.json) and [Lite](../src/tcsexam/references/paper-k3-fixed-260925-lite.json) JSON files | 0–1 |
 | Constructions | Original task reward, including above-reference credit | Nonnegative; may exceed 1 |
 | Open conjectures | Complete proof or refutation accepted: 1; otherwise 0 | 0–1 |
 
 The fixed reference contains the frozen K3 instance outcomes used to define
 Solver's relative score. Its version and values stay fixed when evaluating
-additional models. Lite contains the matching five-task subset of Full.
+additional models. Full uses reference ID
+`paper-k3-fixed-260925-public-disjoint-261105`; Lite uses
+`paper-k3-fixed-260925`. The five Lite tasks have exactly the same reference
+values in both files.
+
+Full uses [final selection `public-disjoint-final-261105`](../assets/data/solver/final-evaluation-selection.json).
+MaxSAT has 200 final instances, of which 177 enter the relative score;
+Radiation has 36 final instances, all of which enter the relative score.
+These final sets exclude instances shared with their public development sets.
+The retained instance names, reference values and scoring formula stay fixed.
+Keep the selection ID and the `reference_id` returned by `solver-score` with
+reported results. Historical platform rewards remain associated with their
+original instance sets; recomputed results identify the selected set.
 
 The original checker output can contain partial theorem credit or intermediate
 open-conjecture results. Convert these to 0 unless the checker accepted a
@@ -62,7 +74,7 @@ equal to `mu` receives 0.5. A solver-level invalid submission, timeout or crash
 receives 0 for that instance. Missing results and infrastructure failures require
 repairing the judging input before scoring; they are incomplete observations.
 
-The Full reference includes 1,860 eligible instances; 32 additional instances
+The Full reference includes 1,838 eligible instances; 32 additional instances
 had fewer than two usable reference outcomes and are listed in
 `unscored_reference_instances`. Keep their observed outcomes in the result
 records. The scorer reports records outside the eligible set as

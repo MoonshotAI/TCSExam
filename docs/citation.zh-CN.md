@@ -7,15 +7,19 @@
 在研究中使用 TCSExam 时，请引用以下论文。
 下方同时说明报告评测结果和复用题目材料时应提供的信息。
 
-<a class="docs-paper-link" href="https://moonshotai.github.io/TCSExam/paper/tcsexam.pdf" target="_blank" rel="noopener">阅读论文</a>
+<a class="docs-paper-link" href="https://arxiv.org/abs/2611.07962" target="_blank" rel="noopener">阅读论文</a>
+
+[导出 BibTeX](https://arxiv.org/bibtex/2611.07962)
 
 ```bibtex
-@misc{tcsexam2026,
-  title = {{TCSExam}: Evaluating frontier {LLMs} on the full range of {TCS} research},
-  author = {Luo, Yifan and Liu, Zhengying and Yuan, Yang and Yang, Zhilin and Yao, Andrew Chi-Chih},
-  year = {2026},
-  month = nov,
-  url = {https://github.com/MoonshotAI/TCSExam}
+@misc{luo2026tcsexamevaluatingfrontierllms,
+  title={TCSExam: Evaluating Frontier LLMs on the Full Range of TCS Research},
+  author={Yifan Luo and Zhengying Liu and Yang Yuan and Zhilin Yang and Andrew Chi-Chih Yao},
+  year={2026},
+  eprint={2611.07962},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2611.07962},
 }
 ```
 

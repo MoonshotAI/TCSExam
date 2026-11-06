@@ -124,7 +124,37 @@ class Scores(unittest.TestCase):
         task_ids = ("bpp-bpplib", "curriculum-itc2007", "maxcut-mqlib",
                     "mr-roadef2012", "qbf-qbfeval")
         self.assertEqual(list(lite["tasks"]), list(task_ids))
-        self.assertEqual(lite, {**full, "tasks": {key: full["tasks"][key] for key in task_ids}})
+        self.assertEqual(lite["tasks"], {key: full["tasks"][key] for key in task_ids})
+        for key in ("origin_sha256", "sigma_floor_relative", "sigma_floor_absolute"):
+            self.assertEqual(lite[key], full[key])
+        self.assertEqual(lite["reference_id"], full["calibration_reference_id"])
+        self.assertEqual(full["reference_id"],
+                         "paper-k3-fixed-260925-public-disjoint-261105")
+        self.assertEqual(full["evaluation_selection"], "public-disjoint-final-261105")
         for task in full["tasks"].values():
             self.assertIn(task["kind"], ("objective", "solve"))
             self.assertIn("unscored_reference_instances", task)
+
+    def test_selected_full_reference_covers_exact_final_sets(self):
+        from pathlib import Path
+        root = Path(__file__).resolve().parents[3]
+        reference = json.loads(files("tcsexam").joinpath(
+            "references/paper-k3-fixed-260925-full.json").read_text())
+        selection = json.loads((root / "assets/data/solver/final-evaluation-selection.json").read_text())
+        for name, eligible_count in (("maxsat-mse", 177), ("radiation-mznchallenge", 36)):
+            with self.subTest(task=name):
+                task = reference["tasks"][name]
+                declared = selection["tasks"][name]
+                eligible = set(task["reference_values"])
+                unscored = set(task["unscored_reference_instances"])
+                self.assertEqual(len(eligible), eligible_count)
+                self.assertEqual(eligible | unscored, set(declared["retained_keys"]))
+                self.assertFalse((eligible | unscored) & set(declared["excluded_keys"]))
+                records = [{"instance": k, "status": "ok", "A": sum(v) / len(v)}
+                           for k, v in task["reference_values"].items()]
+                # A removed instance must not dilute the mean or become a missing zero.
+                records += [{"instance": k, "status": "timeout"}
+                            for k in declared["excluded_keys"]]
+                result = relative_score(name, records, reference)
+                self.assertAlmostEqual(result["relative_score"], .5)
+                self.assertEqual(set(result["unscored_instances"]), set(declared["excluded_keys"]))

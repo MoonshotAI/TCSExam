@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="26" viewBox="0 0 140 26" role="img" aria-label="Website: TCSExam">
+  <title>Website: TCSExam</title>
+  <clipPath id="round"><rect width="140" height="26" rx="4"/></clipPath>
+  <g clip-path="url(#round)">
+    <path fill="#555" d="M0 0h66v26H0z"/>
+    <path fill="#2b6f93" d="M66 0h74v26H66z"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="12">
+    <text x="33" y="17">Website</text>
+    <text x="103" y="17">TCSExam</text>
+  </g>
+</svg>

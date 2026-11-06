@@ -2,7 +2,7 @@
   "schema_version": 1,
   "online_source": "tasks/solver/online/radiation-mznchallenge",
   "protocol": "local-docker-final-v1",
-  "readiness": "ready",
+  "readiness": "requires_selected_data_validation",
   "preserved_judge_inputs": [
     {
       "source": "tasks/solver/online/radiation-mznchallenge/tests/checker.py",
@@ -12,12 +12,12 @@
     {
       "source": "tasks/solver/online/radiation-mznchallenge/tests/reference.json",
       "target": "tasks/solver/offline/radiation-mznchallenge/tests/reference.json",
-      "sha256": "145d7b287c562259d91143078bc764661e4d36d3c4d50a7fe5376089c4ec5896"
+      "sha256": "c0f02b3ac58f827d0d5aa00c42a86b97247e4eefe6c85fd60b4dfbeae2ea670e"
     },
     {
       "source": "tasks/solver/online/radiation-mznchallenge/tests/anchors.json",
       "target": "tasks/solver/offline/radiation-mznchallenge/tests/anchors.json",
-      "sha256": "64a721624ee52c0710f09cdcbcb155a178268797d9d9502a4fa839a425b18c0e"
+      "sha256": "275e530e3e71f06790233844b6da59fbe4aef0da967b0927c7493e09438e2a32"
     },
     {
       "source": "tasks/solver/online/radiation-mznchallenge/tests/metric_config.json",
@@ -34,5 +34,6 @@
     "Shared time pools retain every instance in one worker.",
     "Logical taskset CPU indices map to the worker cpuset; scoring budgets are unchanged."
   ],
-  "readiness_scope": "Native Harbor model-free build-failure run with all original hidden keys, zero reward and app preservation; direct original-checker build-failure and no-output controls. Correct arbitrary submissions and paid model runs are outside this scope."
+  "readiness_scope": "The selected final inputs require image and runtime validation. Existing historical acceptance covered the earlier final set; it is not an acceptance record for this selection.",
+  "evaluation_selection": "public-disjoint-final-261105"
 }

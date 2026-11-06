@@ -52,69 +52,6 @@
    "K": 27,
    "lb": 76
   },
-  "ex011.dzn": {
-   "B": 14,
-   "K": 6,
-   "lb": 14,
-   "K_tier": "proven",
-   "K_source": "rework CP-SAT optimality proof (instances_table.md)"
-  },
-  "ex012.dzn": {
-   "B": 14,
-   "K": 5,
-   "lb": 14,
-   "K_tier": "proven",
-   "K_source": "rework CP-SAT optimality proof"
-  },
-  "ex013.dzn": {
-   "B": 15,
-   "K": 6,
-   "lb": 15,
-   "K_tier": "proven",
-   "K_source": "rework CP-SAT optimality proof"
-  },
-  "ex014.dzn": {
-   "B": 17,
-   "K": 7,
-   "lb": 17,
-   "K_tier": "proven",
-   "K_source": "rework CP-SAT optimality proof"
-  },
-  "ex015.dzn": {
-   "B": 16,
-   "K": 6,
-   "lb": 16,
-   "K_tier": "proven",
-   "K_source": "rework CP-SAT optimality proof"
-  },
-  "ex016.dzn": {
-   "B": 17,
-   "K": 6,
-   "lb": 17,
-   "K_tier": "proven",
-   "K_source": "rework CP-SAT optimality proof"
-  },
-  "ex017.dzn": {
-   "B": 13,
-   "K": 6,
-   "lb": 13,
-   "K_tier": "proven",
-   "K_source": "rework CP-SAT optimality proof"
-  },
-  "ex018.dzn": {
-   "B": 18,
-   "K": 7,
-   "lb": 18,
-   "K_tier": "proven",
-   "K_source": "rework CP-SAT optimality proof"
-  },
-  "ex019.dzn": {
-   "B": 18,
-   "K": 7,
-   "lb": 18,
-   "K_tier": "proven",
-   "K_source": "rework CP-SAT optimality proof"
-  },
   "ex020.dzn": {
    "B": 36,
    "K": 14,
@@ -169,7 +106,7 @@
    "K": 17,
    "lb": 62,
    "K_tier": "proven",
-   "K_source": "old-caliber det300w4 proven optimum (objective 24879 = 401*62+17, bt==LB) \u2014 shapes inherited by the bt==LB inheritance argument (witness historical witness record (not included in this package))"
+   "K_source": "old-caliber det300w4 proven optimum (objective 24879 = 401*62+17, bt==LB) — shapes inherited by the bt==LB inheritance argument (witness historical witness record (not included in this package))"
   },
   "ex028.dzn": {
    "B": 71,
@@ -276,20 +213,6 @@
    "K_tier": "proven",
    "K_source": "MZN Challenge proven optimum (composite, 1 solver) + bt==LB inheritance; CP-SAT ====== cross-check"
   },
-  "ex043.dzn": {
-   "B": 19,
-   "K": 8,
-   "lb": 19,
-   "K_tier": "proven",
-   "K_source": "rework CP-SAT proof; MZN Challenge 2012 best-of-29 (bt==LB) cross-check"
-  },
-  "ex044.dzn": {
-   "B": 17,
-   "K": 6,
-   "lb": 17,
-   "K_tier": "proven",
-   "K_source": "rework CP-SAT proof; MZN Challenge 2012 best-of-29 cross-check"
-  },
   "ex045.dzn": {
    "B": 35,
    "K": 11,
@@ -312,5 +235,6 @@
    "K_source": "MZN Challenge 2012 best-of-29 solvers (composite 155337 = 1601*97+40, bt==LB); unproven, ratchets on better solution"
   }
  },
- "per_instance_seconds": 300
+ "per_instance_seconds": 1200,
+ "evaluation_selection": "public-disjoint-final-261105"
 }
