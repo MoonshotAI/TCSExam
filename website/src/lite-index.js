@@ -17,6 +17,7 @@ export function weightedIndex(scores) {
 export function indexResultsCsv(data) {
   const tracks = Object.keys(INDEX_WEIGHTS);
   const protocolFields = ['suite','solver_protocol','solver_reference_id'];
+  if (data.suite === 'full' && data.evaluation_selection_id) protocolFields.push('evaluation_selection_id');
   const header = ['model','model_label','index',...tracks.map(t=>`${t}_percent`),
     ...tracks.map(t=>`${t}_points`),'tasks','attempts','repetitions_per_task','status','metric_id','snapshot',...protocolFields];
   const rows = [...data.models].sort((a,b)=>b.index-a.index).map(row => [

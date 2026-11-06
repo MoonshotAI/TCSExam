@@ -3955,101 +3955,146 @@
       "track": "solver",
       "metric": "kimi-relative-score",
       "coverage": {
-        "scored_instances": 188,
-        "total_instances": 211
+        "scored_instances": 177,
+        "total_instances": 200
       },
       "results": [
         {
           "model": "astra",
-          "mean": 0.7332001313221241,
+          "mean": 0.7290419507791317,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.7332001313221241
+              "score": 0.7290419507791317,
+              "original_reported_score": 0.7332001313221241,
+              "selected_ratio_score": 0.7961179752783102,
+              "evaluation_selection": "public-disjoint-final-261105"
             }
           ]
         },
         {
           "model": "k3max",
-          "mean": 0.4798998775504092,
+          "mean": 0.479364547378282,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.5037353393881197
+              "score": 0.5017643229432102,
+              "original_reported_score": 0.5037353393881197,
+              "selected_ratio_score": 0.21612069397778844,
+              "evaluation_selection": "public-disjoint-final-261105"
             },
             {
               "attempt": 2,
-              "score": 0.4469281307799859
+              "score": 0.4494096787555331,
+              "original_reported_score": 0.4469281307799859,
+              "selected_ratio_score": -0.1008127040892451,
+              "evaluation_selection": "public-disjoint-final-261105"
             },
             {
               "attempt": 3,
-              "score": 0.48903616248312204
+              "score": 0.48691964043610275,
+              "original_reported_score": 0.48903616248312204,
+              "selected_ratio_score": 0.21480708814732527,
+              "evaluation_selection": "public-disjoint-final-261105"
             }
           ]
         },
         {
           "model": "glm53",
-          "mean": 0.6173158504948462,
+          "mean": 0.6175131027663975,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.6173158504948462
+              "score": 0.6175131027663975,
+              "original_reported_score": 0.6173158504948462,
+              "selected_ratio_score": 0.39398782872852134,
+              "evaluation_selection": "public-disjoint-final-261105"
             }
           ]
         },
         {
           "model": "qwen38max",
-          "mean": 0.5965409847894027,
+          "mean": 0.6033323504371101,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.5965409847894027
+              "score": 0.6033323504371101,
+              "original_reported_score": 0.5965409847894027,
+              "selected_ratio_score": 0.3333363302618982,
+              "evaluation_selection": "public-disjoint-final-261105"
             }
           ]
         },
         {
           "model": "grok46",
-          "mean": 0.4358211611999539,
+          "mean": 0.43562952068596145,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.4358211611999539
+              "score": 0.43562952068596145,
+              "original_reported_score": 0.4358211611999539,
+              "selected_ratio_score": 0.13691524382561576,
+              "evaluation_selection": "public-disjoint-final-261105"
             }
           ]
         },
         {
           "model": "k31_pro",
-          "mean": 0.585084259704576,
+          "mean": 0.5813664783227412,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.6413105411383221
+              "score": 0.6385636378118256,
+              "original_reported_score": 0.6413105411383221,
+              "selected_ratio_score": 0.2697318252984568,
+              "evaluation_selection": "public-disjoint-final-261105",
+              "raw_platform_score": 0.30010792429282185
             },
             {
               "attempt": 2,
-              "score": 0.6074626026573547
+              "score": 0.6081444393995702,
+              "original_reported_score": 0.6074626026573547,
+              "selected_ratio_score": 0.20323152314641993,
+              "evaluation_selection": "public-disjoint-final-261105",
+              "raw_platform_score": 0.23188740914463368
             },
             {
               "attempt": 3,
-              "score": 0.5064796353180513
+              "score": 0.4973913577568279,
+              "original_reported_score": 0.5064796353180513,
+              "selected_ratio_score": 0.034092524549851545,
+              "evaluation_selection": "public-disjoint-final-261105",
+              "raw_platform_score": 0.06997868211730372
             }
           ]
         },
         {
           "model": "deepseek_flash_1017",
-          "mean": 0.5527845912466908,
+          "mean": 0.5498223095835527,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.6169598162508406
+              "score": 0.6134598043839872,
+              "original_reported_score": 0.6169598162508406,
+              "selected_ratio_score": 0.5071423028620667,
+              "evaluation_selection": "public-disjoint-final-261105",
+              "raw_platform_score": 0.5233588950838671
             },
             {
               "attempt": 2,
-              "score": 0.49037161878389723
+              "score": 0.48870532767003116,
+              "original_reported_score": 0.49037161878389723,
+              "selected_ratio_score": 0.2961547474720864,
+              "evaluation_selection": "public-disjoint-final-261105",
+              "raw_platform_score": 0.3126552626204833
             },
             {
               "attempt": 3,
-              "score": 0.5510223387053345
+              "score": 0.5473017966966396,
+              "original_reported_score": 0.5510223387053345,
+              "selected_ratio_score": 0.4049966509763246,
+              "evaluation_selection": "public-disjoint-final-261105",
+              "raw_platform_score": 0.41986593719076676
             }
           ]
         }
@@ -4585,101 +4630,146 @@
       "track": "solver",
       "metric": "kimi-relative-score",
       "coverage": {
-        "scored_instances": 47,
-        "total_instances": 47
+        "scored_instances": 36,
+        "total_instances": 36
       },
       "results": [
         {
           "model": "astra",
-          "mean": 0.6076083639257569,
+          "mean": 0.640488697347516,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.6076083639257569
+              "score": 0.640488697347516,
+              "original_reported_score": 0.6076083639257569,
+              "selected_ratio_score": 1.0184159049915895,
+              "evaluation_selection": "public-disjoint-final-261105"
             }
           ]
         },
         {
           "model": "k3max",
-          "mean": 0.5054603020417345,
+          "mean": 0.5071287276655979,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.3549179742803354
+              "score": 0.31058735531043785,
+              "original_reported_score": 0.3549179742803354,
+              "selected_ratio_score": 1.00748648249692,
+              "evaluation_selection": "public-disjoint-final-261105"
             },
             {
               "attempt": 2,
-              "score": 0.6015763703261982
+              "score": 0.6326135945925365,
+              "original_reported_score": 0.6015763703261982,
+              "selected_ratio_score": 1.0177141506056246,
+              "evaluation_selection": "public-disjoint-final-261105"
             },
             {
               "attempt": 3,
-              "score": 0.55988656151867
+              "score": 0.5781852330938192,
+              "original_reported_score": 0.55988656151867,
+              "selected_ratio_score": 1.0157829630362571,
+              "evaluation_selection": "public-disjoint-final-261105"
             }
           ]
         },
         {
           "model": "glm53",
-          "mean": 0.6076083639257569,
+          "mean": 0.640488697347516,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.6076083639257569
+              "score": 0.640488697347516,
+              "original_reported_score": 0.6076083639257569,
+              "selected_ratio_score": 1.0184159049915895,
+              "evaluation_selection": "public-disjoint-final-261105"
             }
           ]
         },
         {
           "model": "qwen38max",
-          "mean": 0.5160793346816488,
+          "mean": 0.5209924647232637,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.5160793346816488
+              "score": 0.5209924647232637,
+              "original_reported_score": 0.5160793346816488,
+              "selected_ratio_score": 1.0140378439359856,
+              "evaluation_selection": "public-disjoint-final-261105"
             }
           ]
         },
         {
           "model": "grok46",
-          "mean": 0.5796908568344056,
+          "mean": 0.6040408408671406,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.5796908568344056
+              "score": 0.6040408408671406,
+              "original_reported_score": 0.5796908568344056,
+              "selected_ratio_score": 1.0142053786757999,
+              "evaluation_selection": "public-disjoint-final-261105"
             }
           ]
         },
         {
           "model": "k31_pro",
-          "mean": 0.5509386591473258,
+          "mean": 0.566503249442342,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.4579520584857867
+              "score": 0.4451040763564438,
+              "original_reported_score": 0.4579520584857867,
+              "selected_ratio_score": 1.0101159653533707,
+              "evaluation_selection": "public-disjoint-final-261105",
+              "raw_platform_score": 1.0070249759398409
             },
             {
               "attempt": 2,
-              "score": 0.607608363925757
+              "score": 0.640488697347516,
+              "original_reported_score": 0.607608363925757,
+              "selected_ratio_score": 1.0184159049915895,
+              "evaluation_selection": "public-disjoint-final-261105",
+              "raw_platform_score": 1.012788822910826
             },
             {
               "attempt": 3,
-              "score": 0.5872555550304336
+              "score": 0.613916974623066,
+              "original_reported_score": 0.5872555550304336,
+              "selected_ratio_score": 1.0177141506056246,
+              "evaluation_selection": "public-disjoint-final-261105",
+              "raw_platform_score": 1.012301493476128
             }
           ]
         },
         {
           "model": "deepseek_flash_1017",
-          "mean": 0.6055976993925707,
+          "mean": 0.6378636630958562,
           "attempts": [
             {
               "attempt": 1,
-              "score": 0.6015763703261982
+              "score": 0.6326135945925365,
+              "original_reported_score": 0.6015763703261982,
+              "selected_ratio_score": 1.0177141506056246,
+              "evaluation_selection": "public-disjoint-final-261105",
+              "raw_platform_score": 1.012301493476128
             },
             {
               "attempt": 2,
-              "score": 0.607608363925757
+              "score": 0.640488697347516,
+              "original_reported_score": 0.607608363925757,
+              "selected_ratio_score": 1.0184159049915895,
+              "evaluation_selection": "public-disjoint-final-261105",
+              "raw_platform_score": 1.012788822910826
             },
             {
               "attempt": 3,
-              "score": 0.607608363925757
+              "score": 0.640488697347516,
+              "original_reported_score": 0.607608363925757,
+              "selected_ratio_score": 1.0184159049915895,
+              "evaluation_selection": "public-disjoint-final-261105",
+              "raw_platform_score": 1.012788822910826
             }
           ]
         }
@@ -10260,5 +10350,14 @@
         }
       ]
     }
-  ]
+  ],
+  "evaluation_selection": {
+    "id": "public-disjoint-final-261105",
+    "description": "Final evaluation instances are disjoint from public development instances.",
+    "selected_tasks": [
+      "maxsat-mse",
+      "radiation-mznchallenge"
+    ],
+    "original_judging_fields_preserved": true
+  }
 }

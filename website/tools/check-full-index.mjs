@@ -9,7 +9,7 @@ export function validateFullIndex(data, results) {
   assert.equal(data.benchmark,'TCSExam-Full');
   assert.equal(data.suite,'full');
   assert.equal(data.solver_protocol,'solver-development-feedback-v1');
-  assert.equal(data.solver_reference_id,'paper-k3-fixed-260925');
+  assert.equal(data.solver_reference_id,'paper-k3-fixed-260925-public-disjoint-261105');
   assert.equal(data.formula,'30P + 30S + 30C + 10O');
   assert.equal(data.construction_transform,'identity');
   assert.equal(data.aggregation,'mean_adopted_attempts_within_task_then_equal_task_mean_within_track');
@@ -19,6 +19,30 @@ export function validateFullIndex(data, results) {
   assert.equal(data.input_scope,'adopted_paper_snapshot_and_published_full_supplements');
   assert.deepEqual(data.weights,INDEX_WEIGHTS);
   assert.equal(results.protocol,'full-development-feedback-v1');
+  assert.equal(data.evaluation_selection_id,'public-disjoint-final-261105');
+  assert.equal(results.evaluation_selection?.id,data.evaluation_selection_id);
+  assert.deepEqual(new Set(results.evaluation_selection.selected_tasks),new Set(['maxsat-mse','radiation-mznchallenge']));
+  const selectedCoverage = {
+    'maxsat-mse': {scored_instances:177,total_instances:200},
+    'radiation-mznchallenge': {scored_instances:36,total_instances:36},
+  };
+  for (const task of results.tasks) {
+    const selected = Object.hasOwn(selectedCoverage,task.id);
+    if (selected) assert.deepEqual(task.coverage,selectedCoverage[task.id]);
+    for (const row of task.results) for (const attempt of row.attempts) {
+      const allowed = selected
+        ? ['attempt','score','original_reported_score','selected_ratio_score','raw_platform_score','evaluation_selection']
+        : ['attempt','score'];
+      assert(Object.keys(attempt).every(key=>allowed.includes(key)),'Unexpected public attempt field');
+      if (selected) {
+        assert.equal(attempt.evaluation_selection,data.evaluation_selection_id);
+        assert(Number.isFinite(attempt.original_reported_score) && attempt.original_reported_score>=0 && attempt.original_reported_score<=1);
+        // Ratio and original platform scores retain their native, unbounded scale.
+        assert(Number.isFinite(attempt.selected_ratio_score));
+        if ('raw_platform_score' in attempt) assert(Number.isFinite(attempt.raw_platform_score));
+      }
+    }
+  }
   assert.equal(data.models.length,7);
   assert.deepEqual(new Set(data.models.map(m=>m.model)),new Set(results.models.map(m=>m.id)));
   const counts={theorem:20,solver:30,construction:20,open:30};

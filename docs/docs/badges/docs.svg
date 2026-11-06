@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="95" height="26" viewBox="0 0 95 26" role="img" aria-label="Docs: Read">
+  <title>Docs: Read</title>
+  <clipPath id="round"><rect width="95" height="26" rx="4"/></clipPath>
+  <g clip-path="url(#round)">
+    <path fill="#555" d="M0 0h47v26H0z"/>
+    <path fill="#2b6f93" d="M47 0h48v26H47z"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="12">
+    <text x="23.5" y="17">Docs</text>
+    <text x="71" y="17">Read</text>
+  </g>
+</svg>

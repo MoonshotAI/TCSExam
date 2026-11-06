@@ -13,7 +13,7 @@ export function publicData(name, data) {
     ...pick(data, ['protocol', 'development_hours', 'models', 'tasks']),
     records: data.records.map(record => pick(record, ['id', 'model', 'task', 'track', 'attempt', 'score', 'judge_status', 'adoption'])),
   };
-  if (name === 'full-index.json') return {models: data.models.map(model => pick(model, [
+  if (name === 'full-index.json') return {...pick(data, ['solver_reference_id','evaluation_selection_id']), models: data.models.map(model => pick(model, [
     'model', 'model_label', 'index', 'theorem', 'solver', 'construction', 'open',
     'theorem_points', 'solver_points', 'construction_points', 'open_points',
   ]))};

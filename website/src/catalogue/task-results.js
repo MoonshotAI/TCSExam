@@ -41,10 +41,12 @@ export function renderTaskResults(task, record, data, hasLiteResults = false) {
   const coverage = record.coverage;
   const supplemented = data.protocol === 'full-development-feedback-v1';
   const coverageNote = coverage && coverage.scored_instances < coverage.total_instances ? ` ${supplemented ? 'Reference coverage for the original paper models' : 'Reference coverage'}: ${coverage.scored_instances} of ${coverage.total_instances} instances.` : '';
+  const selected = data.evaluation_selection?.selected_tasks?.includes(record.id);
+  const selectionNote = selected ? ` Final evaluation uses ${coverage.total_instances} instances with no overlap with public development instances; ${coverage.scored_instances} contribute to the relative score.` : coverageNote;
   return `<section class="task-results" id="${hasLiteResults ? 'full-task-results' : 'task-results'}" aria-labelledby="task-results-title" data-result-panel="full" data-protocol="${data.protocol}" data-metric="${record.metric}">
     <div class="task-results-heading"><h2 class="brand-heading" id="task-results-title">${hasLiteResults || supplemented ? `${brandWordmark()}-Full results` : 'Results on this task'}</h2><span>${supplemented ? '' : 'Submitted paper · '}${data.development_hours} h per attempt</span></div>
     <table class="task-results-table" aria-describedby="task-result-note"><caption class="sr-only">${esc(task.title)}: ${data.models.length} models evaluated under the ${supplemented ? 'Full' : 'original paper'} protocol. Sorted by score, highest first. ${metricHeading}.</caption><thead><tr><th scope="col">Model</th><th scope="col" aria-sort="descending">${metricHeading}</th><th scope="col">${attemptsHeading}</th></tr></thead><tbody>${rows}</tbody></table>
-    <p class="task-result-note" id="task-result-note">${notes[task.track]}${coverageNote}</p>
+    <p class="task-result-note" id="task-result-note">${notes[task.track]}${selectionNote}</p>
   </section>`;
 }
 
@@ -55,11 +57,12 @@ export function taskResultsCsv(record, data) {
   const factor = record.track === 'construction' ? 1 : 100;
   const unit = record.track === 'construction' ? 'task score' : record.track === 'solver' ? 'relative score / 100' : 'percent';
   const extra = data.model_settings ? ['judge_status','raw_reward','run_outcome','exception_type','source_group','agent_seconds','note'] : [];
+  if (data.evaluation_selection?.selected_tasks?.includes(record.id)) extra.push('original_reported_score','selected_ratio_score','raw_platform_score','evaluation_selection');
   const rows = [['protocol', 'task', 'track', 'model', 'attempt', 'score', 'task_mean', 'metric', 'unit', 'scored_instances', 'total_instances',...extra]];
   for (const row of record.results) for (const attempt of row.attempts) {
     rows.push([data.protocol, record.id, record.track, names.get(row.model), attempt.attempt,
       factor * attempt.score, factor * row.mean, record.metric, unit,
-      data.model_settings?.[row.model] ? '' : record.coverage?.scored_instances ?? '', data.model_settings?.[row.model] ? '' : record.coverage?.total_instances ?? '', ...extra.map(key=>attempt[key] ?? '')]);
+      data.model_settings?.[row.model] ? '' : record.coverage?.scored_instances ?? '', data.model_settings?.[row.model] ? '' : record.coverage?.total_instances ?? '', ...extra.map(key=>key==='original_reported_score' && Number.isFinite(attempt[key]) ? factor*attempt[key] : attempt[key] ?? '')]);
   }
   return rows.map(row => row.map(cell => `"${String(cell).replaceAll('"', '""')}"`).join(',')).join('\r\n') + '\r\n';
 }

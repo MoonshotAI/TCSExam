@@ -72,7 +72,7 @@ test('homepage publishes documentation links in navigation and hero while preser
       new URL(repositoryConfig().documentation,'https://preview.example/').pathname);
   }
   for (const fragment of ['#overview','#lite','#full','#outcomes','#problems','#start']) assert.ok(nav.includes(`href="${fragment}"`));
-  assert.ok(hero.includes('href="./paper/tcsexam.pdf"'));
+  assert.ok(hero.includes('href="https://arxiv.org/abs/2611.07962"'));
   assert.ok(html.includes('>Source code '));
   assert.doesNotMatch(html,/%(?:DOCUMENTATION|REPOSITORY)[A-Z_]*%/);
 });

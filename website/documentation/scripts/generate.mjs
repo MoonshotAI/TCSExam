@@ -105,6 +105,9 @@ export function makeLinkResolver({ pages, source, lang, settings, exists = () =>
       return `${page.url}${match[2] || ''}`;
     }
     if (!exists(target)) throw new Error(`${source}: missing repository link target: ${href} (${target})`);
+    if (/^assets\/badges\/[^/]+\.svg$/.test(target)) {
+      return `/badges/${encodeURIComponent(path.posix.basename(target))}${match[2] || ''}`;
+    }
     return `${sourceUrl(target.replace(/\/$/, ''), settings, isDirectory(target))}${match[2] || ''}`;
   };
 }
@@ -176,6 +179,7 @@ export async function generate() {
   const pages = createPages(pairs);
   const renderer = await createMarkdownRenderer(repositoryRoot, { html: true }, settings.docsBase);
   const existing = new Map();
+  const badgeSources = new Set();
   // Only stat linked paths. No task answers or other source files are read.
   const sourceTexts = await Promise.all(pages.map(page => fs.readFile(path.join(repositoryRoot, page.source), 'utf8')));
   for (let index = 0; index < pages.length; index++) {
@@ -192,6 +196,7 @@ export async function generate() {
     });
     for (const target of targets) {
       const file = path.posix.normalize(path.posix.join(path.posix.dirname(page.source), decodeURIComponent(target)));
+      if (/^assets\/badges\/[^/]+\.svg$/.test(file)) badgeSources.add(file);
       if (!existing.has(file)) {
         try { existing.set(file, await fs.stat(path.join(repositoryRoot, file))); }
         catch { existing.set(file, null); }
@@ -211,6 +216,13 @@ export async function generate() {
   for (const name of ['tcsexam-wordmark.svg', 'favicon.svg']) {
     await fs.copyFile(path.join(siteRoot, '..', 'public', 'brand', name),
       path.join(output, 'public', 'brand', name));
+  }
+  if (badgeSources.size) {
+    await fs.mkdir(path.join(output, 'public', 'badges'), { recursive: true });
+    for (const source of badgeSources) {
+      await fs.copyFile(path.join(repositoryRoot, source),
+        path.join(output, 'public', 'badges', path.basename(source)));
+    }
   }
   for (const page of pages) {
     const alternate = pages.find(candidate => candidate.route === page.route && candidate.lang !== page.lang);

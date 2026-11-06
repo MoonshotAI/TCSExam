@@ -96,7 +96,8 @@ test('Lite and Full Index exports identify their suite, Solver protocol and fixe
     for(const row of csv.slice(1)) {
       assert.equal(row[header.indexOf('suite')],suite);
       assert.equal(row[header.indexOf('solver_protocol')],protocol);
-      assert.equal(row[header.indexOf('solver_reference_id')],'paper-k3-fixed-260925');
+      assert.equal(row[header.indexOf('solver_reference_id')],suite==='full'
+        ? 'paper-k3-fixed-260925-public-disjoint-261105' : 'paper-k3-fixed-260925');
     }
   }
   assert.equal(read('full-results').protocol,'full-development-feedback-v1');

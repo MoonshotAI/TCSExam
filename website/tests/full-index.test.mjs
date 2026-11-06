@@ -37,7 +37,7 @@ test('Full import rejects protocol mixing, missing attempts, altered contributio
 
 test('DeepSeek 1017 Full scores retain three runs and nonzero conjecture results',()=>{
   const row=index.models.find(r=>r.model==='deepseek_flash_1017');
-  assert.equal(row.index,45.97143380857449);
+  assert.equal(row.index,46.00073749061464);
   assert.equal(row.open,5/90);
   assert.equal(row.attempts,300);
   assert.notEqual(row.solver,.5433479994190112);
@@ -50,10 +50,10 @@ test('DeepSeek 1017 Full scores retain three runs and nonzero conjecture results
 
 test('Kimi K3.1 Pro Full includes the third run and its conjecture score',()=>{
   const row=index.models.find(r=>r.model==='k31_pro');
-  assert.equal(row.index,57.419775870742306);
+  assert.equal(row.index,57.43162267965548);
   assert.equal(row.attempts,300);
   assert(Math.abs(row.open-1/90)<1e-12);
-  assert.equal(row.solver,0.5406602753210398);
+  assert.equal(row.solver,0.5410551689514791);
   const ryser=results.tasks.find(t=>t.id==='ryser-conjecture').results.find(r=>r.model===row.model);
   assert.deepEqual(ryser.attempts.map(a=>a.score),[0,0,1]);
 });

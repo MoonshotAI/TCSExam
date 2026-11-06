@@ -58,6 +58,17 @@ test('source links go to the configured revision, and missing files fail', () =>
   assert.throws(() => resolve()('missing.md'), /missing repository link/);
 });
 
+test('README badge images use site assets while their clickable destinations remain intact', () => {
+  const known = target => target === 'assets/badges/arxiv.svg';
+  for (const [source, lang, prefix] of [['README.md', 'en', ''], ['docs/README.zh-CN.md', 'zh', '../']]) {
+    const resolver = makeLinkResolver({pages, source, lang, settings, exists: known});
+    const markdown = `[![arXiv](${prefix}assets/badges/arxiv.svg)](https://arxiv.org/abs/2611.07962)`;
+    assert.equal(rewriteMarkdown(markdown, resolver),
+      '[![arXiv](/badges/arxiv.svg)](https://arxiv.org/abs/2611.07962)');
+    assert.throws(() => resolver(`${prefix}assets/badges/missing.svg`), /missing repository link/);
+  }
+});
+
 test('site introductions follow the title while anchors and commands are preserved', () => {
   const source = 'An introduction.\nFor new users.\n\n<a id="old-title"></a>\n\n# Quickstart\n\n```sh\necho "unchanged"\n```\n';
   const output = titleFirst(source);

@@ -74,7 +74,7 @@ export function validateSiteData(data) {
   validateFullIndex(data['full-index'],full);
   for(const value of Object.values(data)) {
     const json=JSON.stringify(value);
-    assert.doesNotMatch(json,/"(?:source|settings|model_settings|evaluations|runtime_notes|exception_type|agent_seconds|source_commit|instruction_sha256)":/);
+    assert.doesNotMatch(json,/"(?:source|settings|model_settings|evaluations|runtime_notes|exception_type|agent_seconds|source_commit|instruction_sha256|run_id|task_id|model_entry_id|submission_key|solver_source|recovery_evidence)":/);
     assert.doesNotMatch(json,/\/home\/|\/mnt\/|msh\.team|TCSBENCH_TOKEN|container_id|provider_id/);
   }
 }

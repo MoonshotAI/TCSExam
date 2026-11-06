@@ -1,7 +1,7 @@
 {
   "benchmark": "TCSExam",
   "development_hours": 12,
-  "citation": "@misc{tcsexam2026,\n  title = {{TCSExam}: Evaluating frontier {LLMs} on the full range of {TCS} research},\n  author = {Luo, Yifan and Liu, Zhengying and Yuan, Yang and Yang, Zhilin and Yao, Andrew Chi-Chih},\n  year = {2026},\n  month = nov,\n  url = {https://github.com/MoonshotAI/TCSExam}\n}",
+  "citation": "@misc{luo2026tcsexamevaluatingfrontierllms,\n  title={TCSExam: Evaluating Frontier LLMs on the Full Range of TCS Research},\n  author={Yifan Luo and Zhengying Liu and Yang Yuan and Zhilin Yang and Andrew Chi-Chih Yao},\n  year={2026},\n  eprint={2611.07962},\n  archivePrefix={arXiv},\n  primaryClass={cs.AI},\n  url={https://arxiv.org/abs/2611.07962},\n}",
   "tracks": [
     {
       "id": "theorem",
