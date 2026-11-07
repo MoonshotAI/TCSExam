@@ -3,6 +3,7 @@ import {brandWordmark} from './brand.js';
 import {sortByScore} from './result-order.js';
 import {formatScore} from './score-format.js';
 import {INDEX_WEIGHTS,formatIndex} from './lite-index.js';
+import {conjectureNoteRef} from './conjecture-note.js';
 const esc = text => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
 
 export function bindIndexInteractions(root) {
@@ -62,7 +63,10 @@ export function renderIndexChart(summaries, tracks, {scope = 'lite', taskCount =
   const rows = sortByScore(summaries, r => r.score);
   const maximum = Math.max(100, Math.ceil(Math.max(0, ...rows.map(r => r.score ?? 0)) / 10) * 10);
   return `<div class="score-chart tcsexam-index-chart ${scope}-index-chart" data-track="index" data-active-track="" role="group" aria-label="${taskCount}-task Index chart"><div class="score-chart-heading"><h3 class="brand-heading" tabindex="-1" aria-label="TCSExam Index, higher is better">${brandWordmark()} Index <span class="score-direction" aria-hidden="true">(↑)</span></h3></div>
-    <div class="index-legend" role="group" aria-label="Track weights. Hover or select a track to compare scores.">${tracks.map(t => `<button type="button" data-index-track="${t.id}" data-track="${t.id}" data-score-label="${esc(t.label)} (%)" aria-pressed="false" aria-label="Show all models’ ${esc(t.label)} scores"><span>${esc(t.short)}</span> <b>${INDEX_WEIGHTS[t.id]}%</b></button>`).join('')}</div>
+    <div class="index-legend" role="group" aria-label="Track weights. Hover or select a track to compare scores.">${tracks.map(t => {
+      const button = `<button type="button" data-index-track="${t.id}" data-track="${t.id}"${scope === 'full' && t.id === 'open' ? ' data-conjecture-hint' : ''} data-score-label="${esc(t.label)} (%)" aria-pressed="false" aria-label="Show all models’ ${esc(t.label)} scores"><span>${esc(t.short)}</span> <b>${INDEX_WEIGHTS[t.id]}%</b></button>`;
+      return scope === 'full' && t.id === 'open' ? `<span class="conjecture-result-label">${button}${conjectureNoteRef()}</span>` : button;
+    }).join('')}</div>
     <p class="sr-only index-active-caption" aria-live="polite" aria-atomic="true"></p>
     <div class="model-bars">${rows.map(r => {
       let offset = 0;
@@ -73,7 +77,7 @@ export function renderIndexChart(summaries, tracks, {scope = 'lite', taskCount =
         const center = Math.min(94, Math.max(6, offset + width / 2));
         offset += width;
         labels.push(`<span class="index-track-score" data-track="${t.id}" style="left:clamp(24px, ${center}%, calc(100% - 24px))" hidden>${formatScore(r.scores[t.id].score)}</span>`);
-        return `<button type="button" class="index-segment" data-first="${first}" data-index-track="${t.id}" data-track="${t.id}" style="width:${width}%" aria-pressed="false" aria-label="${esc(r.model.label)}, ${esc(t.label)}: ${formatScore(r.scores[t.id].score)} percent. Show all models’ scores." tabindex="-1"></button>`;
+        return `<button type="button" class="index-segment" data-first="${first}" data-index-track="${t.id}" data-track="${t.id}"${scope === 'full' && t.id === 'open' ? ' data-conjecture-hint' : ''} style="width:${width}%" aria-pressed="false" aria-label="${esc(r.model.label)}, ${esc(t.label)}: ${formatScore(r.scores[t.id].score)} percent. Show all models’ scores." tabindex="-1"></button>`;
       }).join('');
       return `<div class="model-row" data-${scope}-model="${r.model.id}">${modelLabel(r.model.label)}<div class="index-bar" role="group" aria-label="${esc(r.model.label)} track contributions"><div class="index-stack" style="--result-fill:${Math.min(100, offset)}%">${segments}</div>${labels.join('')}</div><strong class="index-value">${formatIndex(r.score)}</strong></div>`;
     }).join('')}</div>

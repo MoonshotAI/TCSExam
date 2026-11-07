@@ -14,6 +14,7 @@ import {renderTaskResults} from '../src/catalogue/task-results.js';
 import {renderLiteTaskResults} from '../src/lite-results.js';
 import {repositoryConfig,withRepositoryLinks} from './repository-config.mjs';
 import {linkArrow} from '../src/link-arrow.js';
+import {conjecturePublicationNote} from '../src/conjecture-note.js';
 
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>JSON.parse(readFileSync(resolve(root,p),'utf8'));
@@ -75,6 +76,7 @@ function page(task,i){
     <header class="task-page-intro">
       <p class="task-category"><a href="./?filter=${task.track}#problems">${tr.label}</a><span>${esc(task.domain)}</span>${task.lite?'<span class="lite-badge">Lite</span>':''}</p>
       <h1 id="task-page-title">${heading(task.title)}</h1><p class="task-lede">${esc(task.summary)}</p>
+      ${conjecturePublicationNote(task.id)}
       <div class="task-page-actions"><a href="${path(task)}#task-results">Task results <span aria-hidden="true">↓</span></a><button type="button" data-copy-page>Copy link ${linkArrow}</button></div><p id="page-copy-status" role="status" class="sr-only"></p>
     </header>
     <div class="task-concept">

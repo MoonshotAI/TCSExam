@@ -13,6 +13,8 @@
 .task-page-intro h1 { font: 600 clamp(34px, 4.2vw, 50px)/1.12 var(--sans); letter-spacing: -1.8px; margin-top: 18px; text-wrap: balance; }
 .task-title-term { white-space: nowrap; }
 .task-lede { max-width: 700px; font-size: 18px; line-height: 1.65; color: #555a61; margin-top: 20px; text-wrap: pretty; }
+.task-published-result { margin-top: 16px; color: var(--muted); font-size: 13px; line-height: 1.75; }
+.task-published-result a { color: #296f96; text-decoration: underline; text-underline-offset: 3px; }
 .task-page-actions { display: flex; align-items: center; gap: 24px; margin-top: 20px; font-size: 13px; }
 .task-page-actions a, .task-page-actions button { padding: 7px 0; color: #484c52; }
 .task-page-actions button { font: inherit; background: none; border: 0; }

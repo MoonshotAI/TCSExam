@@ -13,6 +13,10 @@ import {mountOptionalExample} from './labs/optional.js';
 import {mountPreviewMotion} from './previews/motion.js';
 import {createElasticMotion} from './previews/elastic.js';
 import {linkArrow} from './link-arrow.js';
+import {mountConjectureNotes} from './conjecture-note-interactions.js';
+import './conjecture-note.css';
+
+mountConjectureNotes();
 
 const header = document.querySelector('.header');
 const headerSize = new ResizeObserver(() => {

@@ -3,6 +3,8 @@ import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import graph from './public/paper/research-graph.json' with { type: 'json' };
 import benchmark from './public/data/benchmark.json' with { type: 'json' };
+import fullResults from './public/data/full-results.json' with { type: 'json' };
+import {conjectureNote, conjectureDetails} from './src/conjecture-note.js';
 import { renderGraphCase } from './src/graph-case-markup.js';
 import { renderQuantumCode } from './src/quantum-code-case.js';
 import { renderPlate } from "./src/hero-plates.js";
@@ -43,6 +45,8 @@ export default defineConfig({
     name: "site-html",
     transformIndexHtml(html) {
       return html
+        .replace('<!-- conjecture-note -->', () => conjectureNote())
+        .replace('<!-- conjecture-details -->', () => conjectureDetails(fullResults))
         .replaceAll('<!-- link-arrow -->', linkArrow)
         .replace(/<!-- track-protocol:(\w+) -->/g, (_, id) => renderTrackProtocol(id))
         .replace('<!-- outcome:graph -->', () => renderGraphCase(graph))

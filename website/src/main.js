@@ -29,6 +29,11 @@ import { benchmarkSources } from "./catalogue/sources.js";
 import { mountResearchCases } from "./cases.js";
 import { preserveReloadPosition } from "./scroll-position.js";
 import { dataUrl } from "./data-url.js";
+import {conjectureNoteRef} from './conjecture-note.js';
+import {mountConjectureNotes} from './conjecture-note-interactions.js';
+import './conjecture-note.css';
+
+mountConjectureNotes();
 
 const initialUrl = normalizeResultsAnchor(new URL(location.href));
 if (initialUrl.href !== location.href) history.replaceState(history.state, "", initialUrl);
@@ -448,9 +453,10 @@ async function init() {
   for (const scope of resultScopes) {
     const root = $(`#${scope}`);
     bindLiteIndexInteractions(root);
-    root.querySelector(".result-tabs").innerHTML = '<button type="button" data-result-track="index" data-track="index" aria-pressed="false">Index</button>' + data.tracks.map(track =>
-      `<button type="button" data-result-track="${track.id}" data-track="${track.id}" aria-pressed="false">${icon(track.id)}${escape(track.label)}</button>`
-    ).join("");
+    root.querySelector(".result-tabs").innerHTML = '<button type="button" data-result-track="index" data-track="index" aria-pressed="false">Index</button>' + data.tracks.map(track => {
+      const button = `<button type="button" data-result-track="${track.id}" data-track="${track.id}" aria-pressed="false">${icon(track.id)}${escape(track.label)}</button>`;
+      return scope === 'full' && track.id === 'open' ? `<span class="conjecture-result-label">${button}${conjectureNoteRef()}</span>` : button;
+    }).join("");
     root.querySelector(".results-workspace").addEventListener("click", event => {
       const viewButton = event.target.closest("[data-paper-view]");
       const trackButton = event.target.closest("[data-result-track]");

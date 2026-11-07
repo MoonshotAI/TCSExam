@@ -17,10 +17,10 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
-    <script type="module" crossorigin src="/TCSExam/assets/main-DfZPZjeE.js"></script>
+    <script type="module" crossorigin src="/TCSExam/assets/main-p-tl6Bp_.js"></script>
     <link rel="modulepreload" crossorigin href="/TCSExam/assets/math-iT6DeBKu.js">
-    <link rel="modulepreload" crossorigin href="/TCSExam/assets/catalogue-vb-Vo4cD.js">
-    <link rel="stylesheet" crossorigin href="/TCSExam/assets/catalogue-DQCdYch1.css">
+    <link rel="modulepreload" crossorigin href="/TCSExam/assets/conjecture-note-CGvHYvhp.js">
+    <link rel="stylesheet" crossorigin href="/TCSExam/assets/conjecture-note-CfeQE4Db.css">
     <link rel="stylesheet" crossorigin href="/TCSExam/assets/main-D33yYjD3.css">
   </head>
   <body>
@@ -231,8 +231,19 @@
           <div class="result-tabs" role="group" aria-label="TCSExam-Full results track" hidden></div>
           <div class="result-detail"><p class="results-loading" role="status">Loading results…</p></div>
           <p class="solver-protocol-note" id="full-solver-protocol-note" tabindex="-1" hidden><sup>1</sup> Full allows intermediate evaluation feedback; Lite uses public-instance development followed by one final evaluation on hidden instances.</p>
-          <p class="solver-protocol-note">MaxSAT and radiation-planning scores use final evaluation sets with no overlap with public development instances.</p>
+          <p class="conjecture-score-note"><span aria-hidden="true">*</span> Nonzero conjecture scores use <a href="https://openai.com/index/sharing-ai-progress-in-mathematics/" rel="noopener noreferrer">OpenAI’s published results</a>.</p>
         </div>
+        <details class="conjecture-details" id="open-conjecture-details">
+    <summary>About the conjecture scores</summary>
+    <div class="conjecture-details-body">
+      <p>The tasks were selected before OpenAI released these results. Kimi K3.1 Pro and DeepSeek V4.1 Flash 1017 were evaluated afterward, with Internet access. Their successful submissions adapted the published counterexamples and Lean proofs to the task definitions and passed Lean verification.</p>
+      <div class="conjecture-attempts" role="region" aria-label="Accepted conjecture submissions" tabindex="0"><table>
+        <caption>Accepted submissions across three attempts per task</caption>
+        <thead><tr><th scope="col">Model</th><th scope="col">Task</th><th scope="col">Accepted / attempted</th></tr></thead>
+        <tbody><tr><th scope="row">Kimi K3.1 Pro</th><td><a href="tasks/ryser-conjecture/" rel="noopener noreferrer">Ryser</a></td><td>1 / 3</td></tr><tr><th scope="row">DeepSeek V4.1 Flash 1017</th><td><a href="tasks/ryser-conjecture/" rel="noopener noreferrer">Ryser</a></td><td>2 / 3</td></tr><tr><th scope="row">DeepSeek V4.1 Flash 1017</th><td><a href="tasks/bin-packing-mirup/" rel="noopener noreferrer">MIRUP</a></td><td>3 / 3</td></tr></tbody>
+      </table></div>
+    </div>
+  </details>
         <details class="methodology-details">
           <summary>Index &amp; evaluation details</summary>
           <div class="protocol-note"></div>

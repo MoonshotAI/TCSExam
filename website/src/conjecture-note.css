@@ -1,0 +1,28 @@
+.conjecture-note-ref { margin-left: 2px; vertical-align: super; font-size: .72em; line-height: 0; }
+.conjecture-note-ref a { display: inline-flex; align-items: center; justify-content: center; min-width: 20px; min-height: 24px; color: #296f96; text-decoration: none; font-weight: 600; line-height: 1; }
+.conjecture-note-ref a:focus-visible { outline: 2px solid #296f96; outline-offset: 2px; border-radius: 3px; }
+.conjecture-result-label { display: inline-flex; align-items: center; }
+.conjecture-tooltip { position: fixed; z-index: 100; width: max-content; max-width: min(310px, calc(100vw - 24px)); box-sizing: border-box; border: 1px solid #dfe3e8; border-radius: 7px; padding: 10px 13px; background: #fff; color: #202124; box-shadow: 0 4px 18px #2021241c; font: 12px/1.65 var(--sans); }
+.conjecture-tooltip[hidden] { display: none; }
+.conjecture-score-note { margin: 16px 0 0; color: var(--muted); font-size: 12px; line-height: 1.75; }
+.conjecture-score-note > span { color: #296f96; margin-right: 4px; font-weight: 600; }
+.conjecture-score-note a, .conjecture-details a { color: #296f96; text-decoration: underline; text-underline-offset: 3px; }
+.conjecture-details { margin-top: 14px; border-top: 1px solid var(--line); font-size: 13px; line-height: 1.75; }
+.conjecture-details > summary { cursor: pointer; padding: 14px 0; color: var(--muted); font-size: 12px; }
+.conjecture-details-body { padding: 0 0 14px; max-width: 900px; }
+.conjecture-details-body > p { margin: 0 0 16px; }
+.conjecture-attempts { overflow-x: auto; }
+.conjecture-attempts table { border-collapse: collapse; width: 100%; text-align: left; font-size: 12px; }
+.conjecture-attempts caption { text-align: left; color: var(--muted); padding-bottom: 8px; }
+.conjecture-attempts th, .conjecture-attempts td { padding: 9px 12px; border-bottom: 1px solid var(--line); }
+.conjecture-attempts th:first-child, .conjecture-attempts td:first-child { padding-left: 0; }
+.conjecture-attempts thead th { color: var(--muted); font-weight: 500; }
+.conjecture-attempts tbody th { font-weight: 500; }
+.conjecture-attempts td:last-child { font-variant-numeric: tabular-nums; white-space: nowrap; }
+@media (max-width: 600px) {
+  .conjecture-attempts table { table-layout: fixed; }
+  .conjecture-attempts th, .conjecture-attempts td { padding-inline: 6px; white-space: normal; overflow-wrap: anywhere; }
+  .conjecture-attempts th:first-child { width: 48%; padding-left: 0; }
+  .conjecture-attempts th:nth-child(2) { width: 22%; }
+  .conjecture-attempts th:last-child { width: 30%; }
+}

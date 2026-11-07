@@ -180,10 +180,10 @@
       "id": "qma-qcma-oracle",
       "number": 15,
       "track": "theorem",
-      "title": "Classical-oracle separation of QMA and QCMA",
+      "title": "Quantum versus classical witnesses",
       "domain": "Quantum",
-      "summary": "The theorem comes from quantum complexity. QMA is the quantum analogue of NP: a polynomial-time quantum verifier checks a quantum witness state; QCMA is the variant where the witness must be a classical bit string.",
-      "question_markdown": "The theorem comes from quantum complexity. QMA is the quantum analogue of\nNP: a polynomial-time quantum verifier checks a quantum witness state;\nQCMA is the variant where the witness must be a classical bit string. The\ntheorem is a classical oracle separation between the two, stated through a\ndecision problem called *spectral Forrelation*: the oracle describes two\nsubsets `S, U` of the boolean hypercube, and the task is to decide whether\nthere is a quantum state whose standard-basis measurement distribution is\nwell supported on `S` while its Fourier-basis distribution is well\nsupported on `U` — equivalently, whether `‖Π_U · H^{⊗n} · Π_S‖²_op` is\nlarge (yes instance, `≥ 59/100`) or small (no instance, `≤ 57/100`). The\ntheorem states: beyond a size threshold depending only on the resource\nbound `a·n^a`, spectral Forrelation at gap `59/100` vs `57/100` has a\nconstant-query QMA verifier, while every classical-witness query algorithm\nwithin the bound misclassifies some instance. Three proved facts are\nsupplied as hypotheses: the QMA amplification theorem, the core-matrix\nconcentration, and the bosonic compressed-oracle sampling upper bound.",
+      "summary": "Prove a conditional query and witness-size separation for spectral Forrelation: constant-query verification with n-qubit quantum witnesses versus polynomially bounded classical witnesses and queries.",
+      "question_markdown": "Spectral Forrelation is a decision problem about two subsets S and U of the Boolean hypercube. It asks whether a quantum state can be well supported on S in the standard basis and on U in the Fourier basis. The promise separates operator norm squared at least 59/100 from at most 57/100.\n\nThe formalized theorem compares query algorithms with different witnesses. For all sufficiently large n, an n-qubit quantum witness permits verification with a constant number of oracle queries. Every classical-witness algorithm whose witness length and query count are bounded by a·n^a misclassifies some promised instance. The theorem assumes witness-length-preserving amplification, core-matrix concentration and a compressed-oracle sampling bound.",
       "reference": "John Bostanci, Jonas Haferkamp, Chinmay Nirkhe, Mark Zhandry. Separating QMA from QCMA with a Classical Oracle. STOC, 2026.",
       "lite": false,
       "citation_url": "https://doi.org/10.1145/3798129.3800776"
@@ -711,7 +711,7 @@
       "title": "The cage problem",
       "domain": "Extremal graph theory",
       "summary": "The girth of a graph is the length of its shortest cycle. A (k,g)-cage is a smallest k-regular graph of girth g, and its order is the cage number n(k,g).",
-      "question_markdown": "The **girth** of a graph is the length of its shortest cycle. A\n**(k,g)-cage** is a smallest `k`-regular graph of girth `g`, and its order\nis the cage number `n(k,g)`. Exact cage numbers are known only in a\nhandful of cases; the world keeps open intervals between proved lower\nbounds and the best known constructions. This task asks for a\nmachine-checked certificate of the construction side: a `k`-regular graph\nof girth at least `g` on at most `N` vertices, proving `n(k,g) <= N` in\nLean 4.",
+      "question_markdown": "The **girth** of a graph is the length of its shortest cycle. A\n**(k,g)-cage** is a smallest `k`-regular graph of girth `g`, and its order\nis the cage number `n(k,g)`. Exact cage numbers are known only in a\nhandful of cases; the world keeps open intervals between proved lower\nbounds and the best known constructions. This task asks for a\nmachine-checked certificate of the construction side: a nonempty `k`-regular graph\nof girth at least `g` on at most `N` vertices, proving `n(k,g) <= N` in\nLean 4.",
       "reference": "Biggs 1989 ((3,13)); EJC DS16 survey + arXiv:2511.07247 (EJC 33(3) 2026) + House of Graphs (2026) (1989/2026). Reference recorded in the paper: 272 / 320 / 936 (lower bounds 202/243/512).",
       "lite": false
     },

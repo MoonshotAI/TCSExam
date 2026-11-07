@@ -43,7 +43,7 @@ const explanations = {
   ],
   'cage-girth': [
     'A regular graph gives every vertex the same degree. Its girth is the length of its shortest cycle. For a prescribed degree and minimum girth, the cage problem asks how few vertices can suffice.',
-    'The task includes several degree–girth parameter pairs. A submitted graph must satisfy the selected pair and certify its vertex count. The Petersen graph in the illustration is the small degree-three, girth-five example.'
+    'The task includes several degree–girth parameter pairs. A submitted graph must be nonempty, satisfy the selected pair and certify its vertex count. The Petersen graph in the illustration is the small degree-three, girth-five example.'
   ],
   'sorting-network-size': [
     'A sorting network is a fixed sequence of comparisons between wires. Each comparison sends the smaller value to one wire and the larger to the other; the sequence cannot depend on the input values.',
