@@ -1,4 +1,4 @@
-# Task: Classical-oracle separation of QMA and QCMA
+# Task: Quantum versus classical witnesses for spectral Forrelation
 
 A Lean 4 (with mathlib) project lives in `/app`. `Task/Basic.lean`
 contains a definition layer and exactly one theorem, stated in full and
@@ -7,8 +7,8 @@ contains a definition layer and exactly one theorem, stated in full and
 The theorem comes from quantum complexity. QMA is the quantum analogue of
 NP: a polynomial-time quantum verifier checks a quantum witness state;
 QCMA is the variant where the witness must be a classical bit string. The
-theorem is a classical oracle separation between the two, stated through a
-decision problem called *spectral Forrelation*: the oracle describes two
+task proves a query and witness-size separation for a decision problem
+called *spectral Forrelation*: the oracle describes two
 subsets `S, U` of the boolean hypercube, and the task is to decide whether
 there is a quantum state whose standard-basis measurement distribution is
 well supported on `S` while its Fourier-basis distribution is well
@@ -16,10 +16,11 @@ supported on `U` — equivalently, whether `‖Π_U · H^{⊗n} · Π_S‖²_op`
 large (yes instance, `≥ 59/100`) or small (no instance, `≤ 57/100`). The
 theorem states: beyond a size threshold depending only on the resource
 bound `a·n^a`, spectral Forrelation at gap `59/100` vs `57/100` has a
-constant-query QMA verifier, while every classical-witness query algorithm
-within the bound misclassifies some instance. Three proved facts are
-packaged as hypotheses of the main theorem: the QMA amplification theorem
-(`hMW`), the core-matrix concentration (`hConc`), and the bosonic
+constant-query verifier with an n-qubit quantum witness, while every
+classical-witness query algorithm whose witness length and query count
+are within the bound misclassifies some instance. Three proved facts are
+packaged as hypotheses of the main theorem: the witness-length-preserving
+QMA amplification theorem (`hMW`), the core-matrix concentration (`hConc`), and the bosonic
 compressed-oracle sampling upper bound (`hUB`). The file also defines the
 pure-state trace-distance proposition `traceDistanceProp`; the main
 theorem does not assume it. Any use of that proposition requires a proof.

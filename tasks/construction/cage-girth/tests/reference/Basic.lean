@@ -37,9 +37,9 @@ structure CageGraph where
   n : Nat
   adj : Nat → Nat → Bool
 
-/-- symmetric and irreflexive on the vertex range -/
+/-- nonempty, symmetric and irreflexive on the vertex range -/
 def wellFormed (G : CageGraph) : Bool :=
-  (List.range G.n).all fun u =>
+  decide (0 < G.n) && (List.range G.n).all fun u =>
     (G.adj u u == false) && (List.range G.n).all fun v => G.adj u v == G.adj v u
 
 /-- neighbor lists, precomputed once -/

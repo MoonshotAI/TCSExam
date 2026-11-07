@@ -1182,14 +1182,15 @@ theorem posSemidef_hadMat_sandwich {n : ℕ} (d : Bits n → ℝ) :
 /-- The amplification theorem for QMA verifiers with a gap: a `(c, s)`
 verifier with a `t`-query algorithm and quantum witnesses on `q` qubits can
 be amplified to completeness `2/3` and soundness `1/3` with `O(t/(c−s)²)`
-queries. Witnesses range over the first `q` work qubits with all other
-qubits pinned to `|0⟩` (`qmaAcceptProb`). Packaged as a hypothesis. -/
+queries, preserving the witness length. Witnesses range over the first `q`
+work qubits with all other qubits pinned to `|0⟩` (`qmaAcceptProb`). Packaged as a hypothesis. -/
 def mwAmplificationProp : Prop :=
   ∃ C : ℝ, 0 < C ∧ ∀ (n w t : ℕ) (alg : QueryAlgorithm n w t) (q : ℕ) (hq : q ≤ w)
     (c s : ℝ),
     0 ≤ s → s < c → c ≤ 1 →
       ∃ (w' t' : ℕ) (alg' : QueryAlgorithm n w' t') (q' : ℕ) (hq' : q' ≤ w'),
         (t' : ℝ) ≤ C * (t + 1) / (c - s) ^ 2 ∧
+        q' = q ∧
         ∀ f : Bits n → Bool,
           ((∃ ψ, IsUnitVec ψ ∧ c ≤ qmaAcceptProb alg f hq ψ) →
             ∃ ψ', IsUnitVec ψ' ∧ (2 : ℝ) / 3 ≤ qmaAcceptProb alg' f hq' ψ') ∧
@@ -1268,14 +1269,14 @@ constant-query QMA verifier, and (b) every classical-witness query
 algorithm within the bound misclassifies some instance. The QMA
 amplification theorem, the matrix concentration, and the bosonic
 compressed-oracle sampling upper bound are packaged as hypotheses. On the
-QMA side the witness ranges over the first `qQ` work qubits with all other
+QMA side the witness has `n` qubits (`qQ = n`), with all other
 qubits pinned to `|0⟩` (`qmaAcceptProb`). -/
 theorem qma_qcma_oracle_separation
     (hMW : mwAmplificationProp) (hConc : matrixConcentrationProp)
     (hUB : samplerUpperBoundProp) :
     ∃ C : ℝ, 0 < C ∧ ∀ a : ℕ, 0 < a → ∃ n₀ : ℕ, ∀ n : ℕ, n₀ ≤ n →
       ((∃ (wQ tQ : ℕ) (ver : QueryAlgorithm (n + 1) wQ tQ) (qQ : ℕ) (hqQ : qQ ≤ wQ),
-          (tQ : ℝ) ≤ C ∧
+          (tQ : ℝ) ≤ C ∧ qQ = n ∧
           (∀ f g : Bits n → Bool,
             ((59 : ℝ) / 100 ≤ sfVal f g →
               ∃ ψ, IsUnitVec ψ ∧ (2 : ℝ) / 3 ≤ qmaAcceptProb ver (mergeOracle f g) hqQ ψ) ∧

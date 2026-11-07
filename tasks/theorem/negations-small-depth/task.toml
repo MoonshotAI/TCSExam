@@ -4,8 +4,8 @@ schema_version = "1.4"
 
 [task]
 name = "tcsexam/lean-negations-small-depth-bare-proof"
-version = "0.1.0"
-description = "Prove the Cavalar-Borem Fabris-Mukhopadhyay-Srinivasan-Yehudayoff arithmetic separation 'Negations are powerful even in small depth' (STOC 2026, arXiv 2512.19515; Theorem 1.1 alone) in Lean 4 (machine-verified), given only the main theorem statement. L2: statement fidelity only, no ground truth."
+version = "0.1.1"
+description = "Prove a polynomial-versus-exponential separation between general and monotone arithmetic formula size for graph polynomials in Lean 4, assuming the stated expander matching lemma."
 authors = [{ name = "TCSExam Contributors" }]
 keywords = ["lean4", "mathlib", "formal-proof", "circuit-complexity", "arithmetic-circuits", "monotone-circuits", "communication-complexity", "expander-graphs", "type-2"]
 
@@ -14,7 +14,7 @@ family_id = "fam-negations-small-depth"
 candidate_id = "cand-cbfmsy25-negations-small-depth"
 problem_class = "lean-proof-l2"
 scaffold_level = "bare-proof"
-difficulty_explanation = "L2 statement-fidelity task: the proofs need multivariate-polynomial coefficient bookkeeping, a balanced-pair decomposition over monotone formulas, rectangle-cover combinatorics, a corruption bound for different-from-one disjointness, and an expander-matching lifting argument; no ground truth is provided."
+difficulty_explanation = "Only the main statement is supplied. Prove the explicit formula-size upper bound and the exponential monotone-formula lower bound from the given matching hypothesis."
 source_paper = "Cavalar, Borem Fabris, Mukhopadhyay, Srinivasan, Yehudayoff: Negations are powerful even in small depth, STOC 2026; arXiv 2512.19515v1."
 
 [verifier]

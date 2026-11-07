@@ -148215,17 +148215,17 @@
     },
     {
       "path": "tasks/construction/cage-girth/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "571c12aa0953c990434a27af64f44fc2f9332019529bc17913deebeffedbadcd",
-      "current_bytes": 8652,
-      "current_mode": "100664"
+      "reason": "require_nonempty_cage_graph",
+      "current_sha256": "0051142c71a0808d77efcf9c9a31b324da914bf27905a97104f401d1428c3334",
+      "current_bytes": 8755,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/cage-girth/task.toml",
-      "reason": "explicit_harbor_budget_and_provider_host_configuration; release_review_project_name_contributors_and_development_client_configuration; independent_verifier_configuration",
-      "current_sha256": "e597c3e38e83586ab514ee98a6741f34384d95581fc29e4ae33a6502029d20ee",
-      "current_bytes": 1347,
-      "current_mode": "100664",
+      "reason": "require_nonempty_cage_graph",
+      "current_sha256": "634aa2bcde3bc03624026590bf8da590b4c9c0eb3969a0bb9f312bcbd144b2d3",
+      "current_bytes": 1276,
+      "current_mode": "100644",
       "previous_packaging_sha256": "1e2716803ca84c5e32bc315a9360c9024517ed59670424375f19fa1ed4154131"
     },
     {
@@ -247104,10 +247104,10 @@
     },
     {
       "path": "tasks/theorem/negations-small-depth/task.toml",
-      "reason": "explicit_harbor_budget_and_provider_host_configuration; external_manifest_supplies_private_runtime_products; public_image_address_pending; release_review_project_name_contributors_and_development_client_configuration",
-      "current_sha256": "77b3ece61c30546104f235d184250e6deff7f493a4296a5d02f084da2a31ca2d",
-      "current_bytes": 1904,
-      "current_mode": "100664"
+      "reason": "align_formula_size_task_description",
+      "current_sha256": "56cfbf0eda667fed0649722853fa6e1ec91e6e0a9492b4978eac102c180c62db",
+      "current_bytes": 1647,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/theorem/negations-small-depth/tests/Dockerfile",
@@ -247395,10 +247395,10 @@
     },
     {
       "path": "tasks/theorem/qma-qcma-oracle/task.toml",
-      "reason": "explicit_harbor_budget_and_provider_host_configuration; release_review_project_name_contributors_and_development_client_configuration; independent_verifier_configuration",
-      "current_sha256": "32778161b1665cb2329be4d0493b9838e5c38748afb630e2e283691c413b7066",
-      "current_bytes": 1542,
-      "current_mode": "100664",
+      "reason": "preserve_quantum_witness_length",
+      "current_sha256": "64e7b58c7e2734d7b91774583ad4916eef17425f65e999da206857b951cda561",
+      "current_bytes": 1486,
+      "current_mode": "100644",
       "previous_packaging_sha256": "2263aa2015b4e378adc7257a74c85561e25ed0e4212b45b02a2e7564c1ab1585"
     },
     {
@@ -247947,23 +247947,23 @@
     },
     {
       "path": "tasks/theorem/qma-qcma-oracle/environment/app/Task/Basic.lean",
-      "reason": "align_task_description_with_current_lean_statement",
-      "current_sha256": "67bb42cacbebfd85990b0cd3e1ba3ca8c0a99376199ee90e95bd782f07a02795",
-      "current_bytes": 58153,
+      "reason": "preserve_quantum_witness_length",
+      "current_sha256": "33dad7433d725e56ab93394c69778ddf6181759c25f1ff71d8593fa1bbc6813a",
+      "current_bytes": 58202,
       "current_mode": "100644"
     },
     {
       "path": "tasks/theorem/qma-qcma-oracle/instruction.md",
-      "reason": "align_task_description_with_current_lean_statement",
-      "current_sha256": "1025834bb158e09d1a21b6d0f8905443642ff16b9d2a50a0aaef8b281504fab3",
-      "current_bytes": 3562,
+      "reason": "preserve_quantum_witness_length",
+      "current_sha256": "4412c936c5866d099a87143fe72167fd9f384649a4ff2a7119c032771e0984e0",
+      "current_bytes": 3652,
       "current_mode": "100644"
     },
     {
       "path": "tasks/theorem/qma-qcma-oracle/tests/reference/Basic.lean",
-      "reason": "align_task_description_with_current_lean_statement",
-      "current_sha256": "67bb42cacbebfd85990b0cd3e1ba3ca8c0a99376199ee90e95bd782f07a02795",
-      "current_bytes": 58153,
+      "reason": "preserve_quantum_witness_length",
+      "current_sha256": "33dad7433d725e56ab93394c69778ddf6181759c25f1ff71d8593fa1bbc6813a",
+      "current_bytes": 58202,
       "current_mode": "100644"
     },
     {
@@ -247981,6 +247981,55 @@
       "current_bytes": 1386,
       "current_mode": "100644",
       "evaluation_selection": "public-disjoint-final-261105"
+    },
+    {
+      "path": "tasks/construction/cage-girth/environment/app/Task/Basic.lean",
+      "reason": "require_nonempty_cage_graph",
+      "current_sha256": "5eb4c2d4eb4c6b0a4144cb42c30542a6270c36aac85d09f7ddf686d32101cabb",
+      "current_bytes": 5335,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/construction/cage-girth/solution/Basic.lean",
+      "reason": "require_nonempty_cage_graph",
+      "current_sha256": "f2f98f3c96c706f967b8394ae840e97e262d195917c40e02812f80a83dc2db37",
+      "current_bytes": 5221,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/construction/cage-girth/tests/reference/Basic.lean",
+      "reason": "require_nonempty_cage_graph",
+      "current_sha256": "5eb4c2d4eb4c6b0a4144cb42c30542a6270c36aac85d09f7ddf686d32101cabb",
+      "current_bytes": 5335,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/construction/cage-girth/tests/sanity/Basic.lean",
+      "reason": "require_nonempty_cage_graph",
+      "current_sha256": "db7a588abe4a6205af655c858884b44fec7beb71489a88aa35a31818ff02942d",
+      "current_bytes": 4839,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/negations-small-depth/environment/app/Task/Basic.lean",
+      "reason": "align_formula_size_task_description",
+      "current_sha256": "f786be968f2b6912645e1944b4e277f7e3f6ae71a8f0f4a1bde37634a41ac9c0",
+      "current_bytes": 16486,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/negations-small-depth/instruction.md",
+      "reason": "align_formula_size_task_description",
+      "current_sha256": "8035e69a2e445ecbbb1c0508a9d36dcb2ace3b5501872595743ae4c6d263a858",
+      "current_bytes": 2879,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/negations-small-depth/tests/reference/Basic.lean",
+      "reason": "align_formula_size_task_description",
+      "current_sha256": "f786be968f2b6912645e1944b4e277f7e3f6ae71a8f0f4a1bde37634a41ac9c0",
+      "current_bytes": 16486,
+      "current_mode": "100644"
     }
   ],
   "omitted_work_records": {

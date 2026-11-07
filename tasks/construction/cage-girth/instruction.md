@@ -3,7 +3,7 @@
 A Lean 4 project lives in `/app`. `Task/Basic.lean` contains a
 definition layer and a claim slot (`submission_lower`) — prove the
 strongest claim you can. The verifier independently evaluates your best
-proven claim against the published literature frontier when the budget
+proven claim against the fixed scoring references when the budget
 ends; stronger is better, with no upper limit — smaller is better here (you certify an order bound `N`).
 
 The **girth** of a graph is the length of its shortest cycle. A
@@ -11,7 +11,7 @@ The **girth** of a graph is the length of its shortest cycle. A
 is the cage number `n(k,g)`. Exact cage numbers are known only in a
 handful of cases; the world keeps open intervals between proved lower
 bounds and the best known constructions. This task asks for a
-machine-checked certificate of the construction side: a `k`-regular graph
+machine-checked certificate of the construction side: a nonempty `k`-regular graph
 of girth at least `g` on at most `N` vertices, proving `n(k,g) <= N` in
 Lean 4.
 
@@ -19,7 +19,7 @@ The task cells (only girth `>= g` is required — by Sachs's theorem a
 minimum-order `k`-regular graph of girth `>= g` automatically has girth
 exactly `g`):
 
-| cell (k,g) | lower bound | record | record source |
+| cell (k,g) | lower bound | fixed scoring reference | reference source |
 |---|---|---|---|
 | (3,13) | 202 | 272 | Hoare's Cayley graph of AGL(1,17), reported in Biggs 1989 |
 | (4,10) | 243 | 320 | Exoo, Goedgebeur, Jooken, Stubbe, Van den Eede 2026 |
@@ -46,7 +46,7 @@ exactly `g`):
   records that had stood about 22 years. The lower bounds are Moore-bound
   refinements (Feit–Higman 1964; Biggs–Ito; parity).
 - **Authoritative tracking**: the House of Graphs
-  [cages page](https://houseofgraphs.org/meta-directory/cages) (: the rows above are current).
+  [cages page](https://houseofgraphs.org/meta-directory/cages) lists current constructions. The scoring references above remain fixed.
 
 ## What's in `/app/Task/Basic.lean`
 
@@ -57,8 +57,8 @@ The file has two zones:
 
   - `CageGraph` — a finite simple graph on `n` vertices, adjacency as a
     Nat-indexed `Bool` function;
-  - `WellFormed G : Prop` — the adjacency is symmetric and irreflexive on
-    the vertex range (computable);
+  - `WellFormed G : Prop` — the graph has at least one vertex, and its
+    adjacency is symmetric and irreflexive on the vertex range (computable);
   - `IsKRegular G k : Prop` — every vertex has exactly `k` neighbors
     (computable);
   - `GirthGE G g : Prop` — the girth is at least `g`: per-root BFS to

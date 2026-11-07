@@ -1,6 +1,6 @@
 /-
 Self-contained statement layer for a theorem in arithmetic complexity:
-an explicit polynomial with a small depth-three arithmetic formula but
+an explicit polynomial with a polynomial-size arithmetic formula but
 only exponential-size monotone arithmetic formulas.
 
 The fixed part (everything above the end-of-fixed-part marker line) is

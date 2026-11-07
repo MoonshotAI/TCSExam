@@ -3,8 +3,8 @@ schema_version = "1.4"
 
 [task]
 name = "tcsexam/cage-girth-lean-open"
-version = "1.0.0"
-description = "Certify in Lean 4 a k-regular graph of girth at least g on at most N vertices (a machine-checked upper bound on the cage number n(k,g); scoring cells (3,13)/(4,10)/(3,16)/(4,11)/(3,17) with records 272/320/936/713/2048, beating them is a literature-level new result)."
+version = "1.0.1"
+description = "Certify in Lean 4 a nonempty k-regular graph of girth at least g on at most N vertices. The scoring cells (3,13)/(4,10)/(3,16)/(4,11)/(3,17) use fixed vertex-count references 272/320/936/713/2048."
 authors = [{ name = "TCSExam Contributors" }]
 keywords = ["construction", "cage", "girth", "extremal-graphs", "lean4", "machine-checked", "open-problem"]
 

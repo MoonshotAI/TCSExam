@@ -3,8 +3,8 @@ schema_version = "1.4"
 
 [task]
 name = "tcsexam/lean-qma-qcma-oracle-bare-proof"
-version = "0.1.0"
-description = "Prove the Bostanci-Haferkamp-Nirkhe-Zhandry classical oracle separation between QMA and QCMA (STOC 2026, arXiv 2511.09551, Theorem 14.1 with the QMA containment) in Lean 4 (machine-verified), given only the main theorem statement. L2: statement fidelity only, no ground truth."
+version = "0.1.1"
+description = "Prove a conditional query and witness-size separation for spectral Forrelation in Lean 4: constant-query verification with n-qubit quantum witnesses versus polynomially bounded classical witnesses and queries, using the stated amplification, concentration and sampling hypotheses."
 authors = [{ name = "TCSExam Contributors" }]
 keywords = ["lean4", "mathlib", "formal-proof", "quantum-complexity", "QMA", "QCMA", "oracle-separation", "spectral-forrelation", "compressed-oracle", "type-2"]
 
@@ -13,7 +13,7 @@ family_id = "fam-qma-qcma-oracle"
 candidate_id = "cand-bhnz26-qma-qcma-oracle"
 problem_class = "lean-proof-l2"
 scaffold_level = "bare-proof"
-difficulty_explanation = "L2 statement-fidelity task: only the main theorem statement is given; the whole sampler reduction, Strong-distribution analysis and asymptotic comparison must be reconstructed; no ground truth is provided."
+difficulty_explanation = "Only the main statement is supplied. Construct the quantum verifier and prove the classical-witness query lower bound using the given hypotheses."
 source_paper = "Bostanci, Haferkamp, Nirkhe, Zhandry: Separating QMA from QCMA with a classical oracle, STOC 2026; arXiv 2511.09551v2."
 
 [verifier]

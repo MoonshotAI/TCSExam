@@ -1,4 +1,4 @@
-# Task: The power of subtraction in small-depth arithmetic formulas
+# Task: The power of subtraction in arithmetic formulas
 
 A Lean 4 (with mathlib) project lives in `/app`. `Task/Basic.lean`
 contains a definition layer and exactly one theorem, stated in full and
