@@ -76,14 +76,15 @@ def template_regex(template: str) -> "re.Pattern":
 def find_main_theorem(stripped: str, name: str):
     """Locate `theorem <name>` at namespace depth 0; return its statement
     text (between the name and the first `:=`), or None."""
+    declaration = re.compile(r"[ \t]*theorem\s+" + re.escape(name) + r"\b")
     depth = 0
     for m in re.finditer(r"(?m)^[^\n]*$", stripped):
         line = m.group(0)
-        tm = re.match(r"theorem\s+" + re.escape(name) + r"\b", line)
+        tm = declaration.match(stripped, m.start())
         if tm:
             if depth != 0:
                 return None
-            rest = stripped[m.start() + tm.end():]
+            rest = stripped[tm.end():]
             ci = rest.find(":=")
             if ci == -1:
                 return None

@@ -16,6 +16,10 @@ hypothesis.
 
 ## Rules
 
+- For verifier safety, executable commands `#eval`, `#exec`, `#exit`, and
+  `#compile` are not allowed in submitted Lean files, including harmless
+  diagnostics. Remove these commands before submission; the verifier rejects
+  them before compiling the proof.
 - Do not modify anything above the line `-- END OF FIXED PART`, the
   theorem statement, or the `-- CHECKPOINT ...` marker lines.
 - You may add your own auxiliary definitions and lemmas below the

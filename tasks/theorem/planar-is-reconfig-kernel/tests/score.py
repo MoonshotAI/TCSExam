@@ -69,7 +69,7 @@ def find_checkpoint_block(text: str, name: str):
     identifier (`[\\w']+`) for equality instead.
     """
     m = None
-    for cand in re.finditer(r"(?m)^theorem\s+([\w']+)", text):
+    for cand in re.finditer(r"(?m)^[ \t]*theorem\s+([\w']+)", text):
         if cand.group(1) == name:
             m = cand
             break

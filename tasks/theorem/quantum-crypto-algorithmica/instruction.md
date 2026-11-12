@@ -45,6 +45,10 @@ The file has two zones:
 
 ## Rules
 
+- For verifier safety, executable commands `#eval`, `#exec`, `#exit`, and
+  `#compile` are not allowed in submitted Lean files, including harmless
+  diagnostics. Remove these commands before submission; the verifier rejects
+  them before compiling the proof.
 Replace the `sorry` with a complete proof. The development must compile with
 `lake build` and must not use `native_decide` or new `axiom`s (both are
 rejected by a lexical scan). A `sorry`/`admit` left in your own auxiliary

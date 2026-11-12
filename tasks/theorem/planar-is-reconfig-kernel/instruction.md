@@ -31,6 +31,10 @@ The theorem states:
 
 ## Rules
 
+- For verifier safety, executable commands `#eval`, `#exec`, `#exit`, and
+  `#compile` are not allowed in submitted Lean files, including harmless
+  diagnostics. Remove these commands before submission; the verifier rejects
+  them before compiling the proof.
 - Do not modify the given definitions or the theorem statement — the
   grader extracts the statement textually. If you need auxiliary
   definitions or lemmas, add them as separate declarations below the

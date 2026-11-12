@@ -14821,7 +14821,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:3f94ce67f7bbf68d3e9b80211092171b571de96c9b974fb0c6c852e1d67f683e"
+      "source_recipe_source_digest": "sha256:f575acaa036f8e8c66935a492ce64d27b93f29e47c8a3b0b834eebcded5f1d58"
     },
     {
       "id": "runtime-tasks-construction-ex-c3c4-maxedges-development",
@@ -15004,7 +15004,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:c76e06451fbe17bee0a17ce54a2e3cd001b05467f5413129fd42a54b55fc3a83"
+      "source_recipe_source_digest": "sha256:249020ffc21e835f787905757741125c4c2fe93b17e5d6cd1320e896c890da2a"
     },
     {
       "id": "runtime-tasks-construction-kissing-d13-development",
@@ -15187,7 +15187,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:8019fcf01e7605467e95ef49ea14e2c3c024c4cc02375b38853b79f508121af5"
+      "source_recipe_source_digest": "sha256:f3531e2d41d8f0a646daa488a6e0c1161d9d774f5687259c092dedc79720ec2e"
     },
     {
       "id": "runtime-tasks-construction-ramsey-r46-development",
@@ -15370,7 +15370,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:60dc71626c9f0b37a014ff813a80ea7ca7822235160be00777e08a7016de517a"
+      "source_recipe_source_digest": "sha256:70ef159a97cc3c857f3d0e62abd8172c1d78336ad817f316031daa77e3500d83"
     },
     {
       "id": "runtime-tasks-construction-tsp-gap-development",
@@ -15553,7 +15553,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:d1b8b84dfe996b2c8fabe13dfe13fe760bddb9aa2ecaa940f86a69179613bdc7"
+      "source_recipe_source_digest": "sha256:99e7a2886132664aa5c0b3002272ee8affb4a2fe44324def82acecd84c99a455"
     },
     {
       "id": "runtime-tasks-open-evasiveness-graph-properties-development",
@@ -15736,7 +15736,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:846a915e35e3e0b31bc3d9cc4cec74f085629f7845ccc43093face8928654794"
+      "source_recipe_source_digest": "sha256:c8b5c0ce9b20dbe5bbb4b51e88760b697aa32ffffaa11940485dcac9feb9a9bc"
     },
     {
       "id": "runtime-tasks-open-frege-not-pbounded-development",
@@ -15919,7 +15919,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:8b761a9003a151e6a297fc3e224db552bd09660ffda279cc165096734e720a04"
+      "source_recipe_source_digest": "sha256:111555706530a6ae3fec1bca8e9050c325c02297941403f97d26879bdfd328a5"
     },
     {
       "id": "runtime-tasks-open-log-rank-conjecture-development",
@@ -16102,7 +16102,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:2834455506fd9c5fa1addcac03983228c1b738181b22133060e0620558b60b7f"
+      "source_recipe_source_digest": "sha256:139cdd2a0bd838c8c090de35b3cbd22ea4af323b3568b1383c9fd78e957b4aff"
     },
     {
       "id": "runtime-tasks-open-online-matching-random-order-development",
@@ -16285,7 +16285,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:34d4a70a020b0056e889d1398b35946cecac08b99fb96d3fa6bc2cafb0ff147d"
+      "source_recipe_source_digest": "sha256:875f1888e965b0ceb00747906ca59e7d235b70c889a25b26936ce70f13ceae60"
     },
     {
       "id": "runtime-tasks-open-prg-constant-width-robp-development",
@@ -16468,7 +16468,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:e222bc9f61522de2d5caa2f5c1ff64f691e682fe26e99fac28359799c714b4dc"
+      "source_recipe_source_digest": "sha256:db3a9a69f2da6e6ca52bfc0ff11e3b83ece529ac1a7311768678fe64376b4bc0"
     },
     {
       "id": "runtime-tasks-theorem-corners-quasipoly-development",
@@ -16651,7 +16651,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:1f0b0d456b619a918a38e3d444a14c3836ce471f730703cb0648fa42633dc09b"
+      "source_recipe_source_digest": "sha256:e91c58e13b668d7ce6aac9f59d73e1f30d7cab7212d965c55d24ae725e651dda"
     },
     {
       "id": "runtime-tasks-theorem-discrete-bidding-games-development",
@@ -16834,7 +16834,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:d604a1c926fbf8617468ef0c780252fce447667db0bc088018d9a8908c771c8d"
+      "source_recipe_source_digest": "sha256:c696d72e31769026f6613f3da92ccd1e1242e3da6b1ced706cb9cf3e427888a3"
     },
     {
       "id": "runtime-tasks-theorem-folded-rs-gsb-development",
@@ -17017,7 +17017,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:2dab7ba8c76e41019850e81cdf318e80b32032d7c1408ca0e70f64c81e25812a"
+      "source_recipe_source_digest": "sha256:04f1a4e6c9c5efdfe9fed82ec1ce75e7815838e0848efdb23a9f91820bf839a4"
     },
     {
       "id": "runtime-tasks-theorem-negations-small-depth-development",
@@ -17200,7 +17200,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:1a610684d190a8e85fb53df8e53e2264f0445238e00d7f5e2b72597e02357ec9"
+      "source_recipe_source_digest": "sha256:ff7e81b13ae6878a4fc08d1e5750061844df8cbdd3af9d1f93cfcec8ff12ebf1"
     },
     {
       "id": "runtime-tasks-theorem-quantum-crypto-algorithmica-development",
@@ -17383,7 +17383,7 @@
         "pull_verified": true,
         "runtime_verified": false
       },
-      "source_recipe_source_digest": "sha256:d078145cf4e4060eae1851d02f8decf43ec1ddcd0672f553cf572aaafe25b764"
+      "source_recipe_source_digest": "sha256:a5610340c9f940227db571413efafebc82c09ae30c799ba7e49f2c6e22881b0e"
     },
     {
       "id": "harbor-0220-egress-control-runtime",
@@ -34316,7 +34316,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:c7629ebc1bd3746c1379cc85f5ce296e535809a2d9160e0fa07c5ff8d848a8d1"
+      "source_recipe_source_digest": "sha256:18e60c1f4bd6ddad0e7d8180afa3260544a424daf17e62c54a44a521bacb728e"
     },
     {
       "id": "runtime-tasks-construction-cage-girth-verifier",
@@ -34351,7 +34351,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:842b675fcd9c72a2ac5cc5e8ca85e715b17705d5fc50281da9edc37a17801c16"
+      "source_recipe_source_digest": "sha256:1bb11485fbace01985e0043b9e56f0079c2b99dfa9d07d28d5c68678e8295805"
     },
     {
       "id": "runtime-tasks-construction-capset-d7-verifier",
@@ -34386,7 +34386,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:6d18102bd9089ccc15294bcc565f2cee6c9348904e42604158928ac16679ce90"
+      "source_recipe_source_digest": "sha256:fe410a8b73c09740b156f19cc9933e2d3b1085b8b9ec2c824408e2170d782a8c"
     },
     {
       "id": "runtime-tasks-construction-circles-in-square-n100-verifier",
@@ -34421,7 +34421,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:9f1a153d615b638a89c75eb796cae9563049ad15c44b378f01281f05d5c3b7f8"
+      "source_recipe_source_digest": "sha256:aba4a1370015dceaa02913aedb3d485c0f3d5dc87a3e83976a20d4c3a6434c0c"
     },
     {
       "id": "runtime-tasks-construction-covering-code-k10-verifier",
@@ -34456,7 +34456,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:87f923c0b03b355b8175c9e1ead420b9cbed5fd3db8400e893ba779d9c4044ad"
+      "source_recipe_source_digest": "sha256:5c8c07b85fd48d7c2107f37cb3ab08c9c79c278ac47ac28d15ec314aa1cff8d3"
     },
     {
       "id": "runtime-tasks-construction-graph-tsp-gap-verifier",
@@ -34491,7 +34491,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:f087f895ecf355a7b90e7c3d67f777f7b6cb9ec9c2b6d4e3ac3a0b539b7f5ec5"
+      "source_recipe_source_digest": "sha256:62e6b654a72b2b3b62b0c1f5995700dfa1bf6ae459480daf7175c3a3d8698b96"
     },
     {
       "id": "runtime-tasks-construction-kissing-d9-verifier",
@@ -34526,7 +34526,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:3b8082d91e308c2b96a232da04be772a4539a864c9edae92671f2e6ee6149157"
+      "source_recipe_source_digest": "sha256:9925aaf7b3be8bc69d55119ed136c4a008c99881fa438d408b39b68d19104d4e"
     },
     {
       "id": "runtime-tasks-construction-mols-n10-verifier",
@@ -34561,7 +34561,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:3bd4d77be516634edd69de916f20eea18486c40bc571d2920f65fb7664b4facd"
+      "source_recipe_source_digest": "sha256:262988cd7315796ef4bb249cde0231898b1aeebe221642a2383c70fef1df40f1"
     },
     {
       "id": "runtime-tasks-construction-quantum-code-25-7-verifier",
@@ -34596,7 +34596,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:33b65e2536bcde7a3de228a8f27666dce8addb1a679cbaec618315a345d40f74"
+      "source_recipe_source_digest": "sha256:7a2545ba4572c775db9bdcf6fc81afb636074d7f3a588fedfbf3bbfde3ccd6dc"
     },
     {
       "id": "runtime-tasks-construction-ramsey-r3-10-verifier",
@@ -34631,7 +34631,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:427190bf030db601b9997783ccead21b9d58fa8d3a2f6659ec6dedeaadd9c096"
+      "source_recipe_source_digest": "sha256:efb30295cdc8b32224acd86b65100c673a24d6befd8044ca55021b40960125da"
     },
     {
       "id": "runtime-tasks-construction-ramsey-r55-verifier",
@@ -34666,7 +34666,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:d4fdeea8fe6c9e7d20ebb5f834b58029cf8a6c7fefe939b39d24d477a7dd5928"
+      "source_recipe_source_digest": "sha256:af610d2480522f01284aafb1a68446bc6af99f888e69d1002212ac36c107b04f"
     },
     {
       "id": "runtime-tasks-construction-rectilinear-tsp-gap-verifier",
@@ -34701,7 +34701,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:5ddd460659c9d6d3624a0f4995610d83be1f01b77e6e9f1a5dd12aa5d01de1d4"
+      "source_recipe_source_digest": "sha256:476e1270006e082c3c6949379afcb359bfcc26621a46ad25b5a67f11550d2cc8"
     },
     {
       "id": "runtime-tasks-construction-sorting-network-size-verifier",
@@ -34736,7 +34736,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:b8a56b99270339953e2950bc3f787eb5e195dfae99f2323c1f95a1138d3775d6"
+      "source_recipe_source_digest": "sha256:a4b387aeca96718affca5e9fce9cc34ff8e36669bff7a6c512e567ba1860c7b2"
     },
     {
       "id": "runtime-tasks-construction-spherical-code-d3-n50-verifier",
@@ -34771,7 +34771,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:d081f9d66eef71ebbdd11b3e4023c91b9fe15add6b2c656744cc3b3792d7c9e6"
+      "source_recipe_source_digest": "sha256:4d9a03e9fda300c73c992d41be43250e681b716bc584278df08cc4de5455950b"
     },
     {
       "id": "runtime-tasks-construction-vdw-w27-verifier",
@@ -34806,7 +34806,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:d96f0e4189fb80ab45248eaa709b62326f704832bf0e092fa6f7852719fcb5b1"
+      "source_recipe_source_digest": "sha256:ed55e783cffe00867c920279995fdba6c068cd99d2e6bddb26d8c5a831416806"
     },
     {
       "id": "runtime-tasks-open-aaronson-ambainis-verifier",
@@ -34841,7 +34841,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:27633baa64cbdf478c2f637f26c93498b271b02cf798e6635743aaa466051f4d"
+      "source_recipe_source_digest": "sha256:06b2543b934728e5fd6d3a47bdeebaa07e8ec186273428e2f5e5ad490f963b26"
     },
     {
       "id": "runtime-tasks-open-alon-jaeger-tarsi-verifier",
@@ -34876,7 +34876,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:dd091b976bab39745c095d9ac585e807e40072284509f07491e67f01d8501859"
+      "source_recipe_source_digest": "sha256:1a138cc16e8a24d676c9804317c7c86eef6cf8e8f2d5b9d2d4df7f29f0df5720"
     },
     {
       "id": "runtime-tasks-open-bin-packing-mirup-verifier",
@@ -34911,7 +34911,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:2b85d22ec47d9c241083d38a9326cc5ef8d3afc09aacf418bcf4bdf994b3bd9f"
+      "source_recipe_source_digest": "sha256:52e9bc3088bc9d2169b741d3e5402084ff05bf4b0d724ee07bd7d489b399d238"
     },
     {
       "id": "runtime-tasks-open-caccetta-haggkvist-verifier",
@@ -34946,7 +34946,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:c5e2d8ab8f907fea170c81746b3d2f1e490a09a26d0a00a09a78326151cb9734"
+      "source_recipe_source_digest": "sha256:cf7be9a885963d6228679c2165c7ab9ff88fc96d9cb38706fa506d7d0ada5da1"
     },
     {
       "id": "runtime-tasks-open-d-vs-r-total-functions-verifier",
@@ -34981,7 +34981,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:d6b02a2e291a194813df6e5b190b52ff2cf25e3501763dd2a1343c4eca405d1b"
+      "source_recipe_source_digest": "sha256:0d3154f74f83721ee4e6da615cc49c94697aa9b4d2caac2aad4aabb791f34a4c"
     },
     {
       "id": "runtime-tasks-open-explicit-ramsey-graph-log-verifier",
@@ -35016,7 +35016,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:4ef7c530413866c63e4a0c1a2588e1c7761ed9401ff024a9d29eed937bf43b13"
+      "source_recipe_source_digest": "sha256:583b2bdd5ca044348a7c8c06ce241337d53507fdb3181cdbe99d68c09bff9935"
     },
     {
       "id": "runtime-tasks-open-explicit-rigid-matrix-verifier",
@@ -35051,7 +35051,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:68af86c2b4c303974331ab6e517d0f09383bee1b1edf71956bd4c155c553a3ef"
+      "source_recipe_source_digest": "sha256:ab89b5d6215b436132d1e78b410140bdbb9a2fbd8a888b3e5032ff97c0adf098"
     },
     {
       "id": "runtime-tasks-open-fourier-entropy-influence-verifier",
@@ -35086,7 +35086,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:d992df50417c23966523bd45227c0c9f198076e537aa357f699499b6067db6ae"
+      "source_recipe_source_digest": "sha256:4ba484fad70f4654834c55018917988447bb1cfa8d01ed993d926d4a4445d2b6"
     },
     {
       "id": "runtime-tasks-open-frege-vs-extended-frege-verifier",
@@ -35121,7 +35121,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:0549d75b0ce1f4ea1caf7023bb60ee25d281fb0cb68c68a73afc46f6773c9cc5"
+      "source_recipe_source_digest": "sha256:078e7321183aeaa1d70b2c86eccea89e3fe73acb1822e44e5ef225ca61e01447"
     },
     {
       "id": "runtime-tasks-open-krw-composition-conjecture-verifier",
@@ -35156,7 +35156,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:586c4e50e0c67f991c8a4dae58a157c03cd707cca0e93500a36139edb33d58ff"
+      "source_recipe_source_digest": "sha256:50034b2f30b424da09ffbc6479bbb9b33f00bf141442cde0095a1cb1618e0ecd"
     },
     {
       "id": "runtime-tasks-open-lovasz-hamiltonicity-verifier",
@@ -35191,7 +35191,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:e40982714d6662b92026e8ef9d9a418037f6606cf871bca11543dfa91d77deee"
+      "source_recipe_source_digest": "sha256:891c9c05a81f1bbd0c71974e2f652a916852d12bd15752fe4162b3c7fe74ef68"
     },
     {
       "id": "runtime-tasks-open-mansour-conjecture-verifier",
@@ -35226,7 +35226,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:cfcee014f7f34801210de18d0d5170c78ec5975a264172226d00fdf95bf14ffa"
+      "source_recipe_source_digest": "sha256:286a18293090bacabf6cfdb870de6578e98d25acd7aa236d31e91693a4322b73"
     },
     {
       "id": "runtime-tasks-open-mds-conjecture-nonprime-verifier",
@@ -35261,7 +35261,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:f09e0c7365569ab5c5a9b198bcf1764d93f5be168b4a5adb863bd3ea21961cd5"
+      "source_recipe_source_digest": "sha256:cf3479d0ca127cb1653f77d742973748ac10941e3ce5d3c517f402d611d75bec"
     },
     {
       "id": "runtime-tasks-open-nexp-vs-tc0-verifier",
@@ -35296,7 +35296,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:5d0c5ea2ce0f322d8b97464ea86d27efbc7c3ceeae5a3ce885cfb56d857a9cb7"
+      "source_recipe_source_digest": "sha256:681475bafd9665d15b7689a03019d897eb8bb1c65a5ef64563b75591b202f845"
     },
     {
       "id": "runtime-tasks-open-np-vs-acc-verifier",
@@ -35331,7 +35331,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:df522c7e81fea996b77957dcdb0772878480a4840362465841488d44820c67e8"
+      "source_recipe_source_digest": "sha256:11cf467dee42c616decfe0c4749fd28cd0a7dc783bb3fbeb53fefaa00febfec3"
     },
     {
       "id": "runtime-tasks-open-omega-2-verifier",
@@ -35366,7 +35366,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:90bbf0d2a815a0ac321f49d5a03c20cdc2fb46213bb26764d5ce2b50a2cf496a"
+      "source_recipe_source_digest": "sha256:46e66c13545f15053028c76cd99ae0e2bd58e969b3a0f06d06b2cfed86ee7c73"
     },
     {
       "id": "runtime-tasks-open-online-bin-packing-ratio-verifier",
@@ -35401,7 +35401,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:eacfaae281dfcdade67646d90c82ffa8ee332b494a9eb8a749ab5346b7cca110"
+      "source_recipe_source_digest": "sha256:d435ed720cf6a5b00b1fe71b772e4630856378007dde873520dd9de64b0e08dc"
     },
     {
       "id": "runtime-tasks-open-permanent-vs-determinant-verifier",
@@ -35436,7 +35436,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:8bd6942a6ef445cad204fe0c3fdde529cec5675daf9fc19a6ebff03f874619a7"
+      "source_recipe_source_digest": "sha256:3dc785355d6eb64ef474bf91d76747e8a79e3482f0f1672d385fb04852ae237c"
     },
     {
       "id": "runtime-tasks-open-pfr-integers-verifier",
@@ -35471,7 +35471,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:428fed5a4ba8435b5b8f22d31d9edb5bd76a80e1fdccfdc23d2b48a7cd95b35e"
+      "source_recipe_source_digest": "sha256:d8780b5b5d814857499900d7e109a304931d2152792714e4f0fb77a5af60e225"
     },
     {
       "id": "runtime-tasks-open-planar-l1-gnrs-verifier",
@@ -35506,7 +35506,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:7e5040107ed28cfebfb18293151867d6db56258e82b5d3b4fd8e5e6fce952cef"
+      "source_recipe_source_digest": "sha256:242e06ec25e76b67d5d95f2c665531a48aa2de3b804d6f1c93773997edcf5e27"
     },
     {
       "id": "runtime-tasks-open-polar-scaling-exponent-verifier",
@@ -35541,7 +35541,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:2fade7c3d47adf21773523beb84e57317fdc0bfb56a701454f98782b63260cd9"
+      "source_recipe_source_digest": "sha256:6fb6a6caa17a449726726d706b8b814f580dd68f13894c7954085d11cb182d1a"
     },
     {
       "id": "runtime-tasks-open-ryser-conjecture-verifier",
@@ -35576,7 +35576,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:1eae64dbfccbeb8edf7c7e61bc6f76bbc91705d2bb91ac287df4709592282930"
+      "source_recipe_source_digest": "sha256:8ee3cf8a358c24eb807619e6ff37f545cab181640134d812d5375a19043896a5"
     },
     {
       "id": "runtime-tasks-open-total-coloring-conjecture-verifier",
@@ -35611,7 +35611,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:85682bd23a2945016e8c9e19df9ea5e048909eae37a8ded0840d52eadbe867a4"
+      "source_recipe_source_digest": "sha256:dc4897cbf84fb371a186f24d1f5f23b4326a672f0493fb37ac7678afbbc4f2ff"
     },
     {
       "id": "runtime-tasks-open-tuza-conjecture-verifier",
@@ -35646,7 +35646,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:6cd825b3e256655ea0117692bcc15425cd1a2ba5d16287f926595baa63cca0f0"
+      "source_recipe_source_digest": "sha256:e8e3c913e23d52df46aee6e4c5f4feeef7663aa4bcbd5b80da568747eb0c2163"
     },
     {
       "id": "runtime-tasks-open-xor-log-rank-conjecture-verifier",
@@ -35681,7 +35681,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:dcb284db9db4470b1ea678e87815b35bcefbf9c5e596effbcb790d1454d1d774"
+      "source_recipe_source_digest": "sha256:bbc4e1b884bb984b0201dda72022678a2c76f5788ca23daaccf102294ab2df1b"
     },
     {
       "id": "runtime-tasks-theorem-dijkstra-universal-verifier",
@@ -35716,7 +35716,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:9c63bd994889e47168acf187a697bc0a9ca84897f08c979dec1b4634f6642150"
+      "source_recipe_source_digest": "sha256:d2b4fdfd49cb78b7b043cacbefabe49d5d453df8acb44bd1633e44cda7a9dafa"
     },
     {
       "id": "runtime-tasks-theorem-discrepancy-beyond-banaszczyk-verifier",
@@ -35751,7 +35751,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:60cca1c4e0730304d742f64bf264b91aeb59dd72ef46ebf93375351357b1d077"
+      "source_recipe_source_digest": "sha256:6bd1f75916097c270f2244cdefc26203fa8bae594f1dc7120825c962a1797882"
     },
     {
       "id": "runtime-tasks-theorem-gg26-proximity-verifier",
@@ -35786,7 +35786,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:190c345642322221ef70009457a9f9bae581da39bffe652048453b13c38753a8"
+      "source_recipe_source_digest": "sha256:e8b1ae648b0cce12d740ca6381d439a23ef95137295a7b65b7f4ad8b8d5daa3c"
     },
     {
       "id": "runtime-tasks-theorem-lcc-exp-lb-verifier",
@@ -35821,7 +35821,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:0b928be78a919b129b78190cd0a170350578bcbccd4fa10e8dd5845b1d50a73a"
+      "source_recipe_source_digest": "sha256:0df23aaa116383715b8dbd9dbbbe759dacef06bc3c8e6eae32dbe247eace5ab3"
     },
     {
       "id": "runtime-tasks-theorem-monotonicity-test-lb-verifier",
@@ -35856,7 +35856,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:fbdfce201db81134ddfbd768e46b5446e13fc31be3de6c6cb264722736e8c7a2"
+      "source_recipe_source_digest": "sha256:ec6f969522cf1ccc16a92e784577dbd829c2a73b64b8192613a559bfa1a0c8c2"
     },
     {
       "id": "runtime-tasks-theorem-mts-diamond-lb-verifier",
@@ -35891,7 +35891,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:c9a6293a60565b5f3077d9bf3793f762cf3502bd0daa0b6c1d25fe0c0a05a81f"
+      "source_recipe_source_digest": "sha256:7803a4bea4f72cd003e0c315fe7d017e40953f040201b6c6213031acaff8354c"
     },
     {
       "id": "runtime-tasks-theorem-multiflow-gap-planar-verifier",
@@ -35926,7 +35926,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:f29b42305c717264ef6204bd4da35fde22d1e3a5358fb50144db1db79b5b8f45"
+      "source_recipe_source_digest": "sha256:339efd22ccc6dcc9013b8364983603b8d8f9bc522d00c02fc479355974878a32"
     },
     {
       "id": "runtime-tasks-theorem-pcp-alphabet-soundness-verifier",
@@ -35961,7 +35961,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:59754df1dea133a5511295b9e9fb7a9265b880f03c9b4b9626a47f47ef86bfe6"
+      "source_recipe_source_digest": "sha256:8af4f897924bf800f0411ce6af20e4430eb08f89b638aceaf898066817af8c39"
     },
     {
       "id": "runtime-tasks-theorem-planar-is-reconfig-kernel-verifier",
@@ -35996,7 +35996,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:24cf7062eda54583448f28996a9205fb6b9a6442edfb583baf3f2643bf34c1d9"
+      "source_recipe_source_digest": "sha256:ebc908684cad7916fff9d7a15d0e4453361337929db8a85ae775571773720422"
     },
     {
       "id": "runtime-tasks-theorem-posbody-chasing-verifier",
@@ -36031,7 +36031,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:ce6bbbf70e304c4493447b97d9abcc66cf4b186623f656d9aba172117e3b5a95"
+      "source_recipe_source_digest": "sha256:e7d5251db47beb8e3d30ed0b2d2efb7ce1f01ee4e54754e5af1832b8c939a9d5"
     },
     {
       "id": "runtime-tasks-theorem-qma-qcma-oracle-verifier",
@@ -36066,7 +36066,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:f2cb28b3f36d34ddd7ab9b24e52b6f972498d94b57ba1610fdcd4a011fb3d6b9"
+      "source_recipe_source_digest": "sha256:4d2bdccb7ba2a19301fb6f5c25f65756e62f1f0b76800850e78552182a4ac5ca"
     },
     {
       "id": "runtime-tasks-theorem-strategy-improvement-lb-verifier",
@@ -36101,7 +36101,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:60133a0ab9d66ac49d44d73a4a9a13ec4f29d9820fe15be18fcf1aebdad9513e"
+      "source_recipe_source_digest": "sha256:33ed6534c6b79851303eaa6b62cadfa2fb9128b82ebccb2e46837e0b05d28e9e"
     },
     {
       "id": "runtime-tasks-theorem-three-taxi-verifier",
@@ -36136,7 +36136,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:51180a6b81452fad759dba4fc44db77e796a8be7236af41dafa93bc7148c5dc8"
+      "source_recipe_source_digest": "sha256:926cf101c5a3590a7819460fdbdae3ba465fced8bd73ac810c815ffb8f91085b"
     },
     {
       "id": "runtime-tasks-theorem-unitary-synthesis-lb-verifier",
@@ -36171,7 +36171,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:706573dd90ce29261b393fdf2ddb369a3529b7f0a90970f93bc2d0091a43ac5e"
+      "source_recipe_source_digest": "sha256:0392e77ee04d6d69e295297ade79dd5bcc4f64a39c60aa4a90dc323ca2d54b78"
     },
     {
       "id": "runtime-tasks-theorem-xor3-parallel-repetition-verifier",
@@ -36206,7 +36206,7 @@
       "harbor_verified": false,
       "content_verified": false,
       "startup_verified": false,
-      "source_recipe_source_digest": "sha256:0b5027120b093a1a1394b2bb33df62e285ad69c8b9c172fa241c8d9561aea90e"
+      "source_recipe_source_digest": "sha256:be85312ff69489c57cb9a074ab67efb638ffd5fac5cd614894db2c15fa59600f"
     },
     {
       "id": "solver-ahc058-atcoder-judging-data",

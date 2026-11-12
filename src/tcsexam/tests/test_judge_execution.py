@@ -83,7 +83,10 @@ def test_supervisor_reaps_independent_sessions_and_double_fork(tmp_path, mode):
         assert process.stdout.readline().strip() == 'ready'
         if mode == 'timeout':
             process.send_signal(signal.SIGTERM)
-        stdout, stderr = process.communicate(timeout=5)
+        # Allow the supervisor's five-second cleanup deadline plus process
+        # scheduling and pipe teardown; the assertions below still require
+        # successful cleanup and the exact exit status.
+        stdout, stderr = process.communicate(timeout=15)
         assert process.returncode == {'normal': 0, 'error': 7, 'timeout': 137}[mode], (stdout, stderr)
     for pidfile in tmp_path.glob('pid-*'):
         assert not Path('/proc', pidfile.name.removeprefix('pid-')).exists()

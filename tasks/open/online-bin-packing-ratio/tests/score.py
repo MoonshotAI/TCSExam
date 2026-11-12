@@ -121,7 +121,7 @@ META_DECL = re.compile(
     r"(notation|macro|syntax|elab|macro_rules|initialize)\b"
 )
 SORRY_OR_ADMIT = re.compile(r"\b(sorry|admit)\b")
-FALSE_LEMMA_DECL = re.compile(r"(?m)^theorem\s+([\w']+)\s*(?:\([^)]*\)\s*)*:\s*False\b")
+FALSE_LEMMA_DECL = re.compile(r"(?m)^[ \t]*theorem\s+([\w']+)\s*(?:\([^)]*\)\s*)*:\s*False\b")
 FIXED_END_MARK = "-- END OF FIXED PART"
 
 
@@ -148,7 +148,7 @@ def find_checkpoint_block(text: str, name: str):
     identifier (`[\\w']+`) for equality instead.
     """
     m = None
-    for cand in re.finditer(r"(?m)^theorem\s+([\w']+)", text):
+    for cand in re.finditer(r"(?m)^[ \t]*theorem\s+([\w']+)", text):
         if cand.group(1) == name:
             m = cand
             break
@@ -348,7 +348,7 @@ def main() -> int:
         # comment-stripped, so `theorem` inside comments cannot spoof the order
         return [
             m.group(1)
-            for m in re.finditer(r"(?m)^theorem\s+([\w']+)", strip_comments(text))
+            for m in re.finditer(r"(?m)^[ \t]*theorem\s+([\w']+)", strip_comments(text))
             if m.group(1) in slot_set
         ]
 

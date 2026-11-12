@@ -145,6 +145,11 @@ family value there.
 
 ## Rules
 
+- For verifier safety, executable commands `#eval`, `#exec`, `#exit`, and
+  `#compile` are not allowed in submitted Lean files, including harmless
+  diagnostics. Remove these commands before submission; the verifier rejects
+  them before compiling the proof.
+  `native_decide` remains allowed as described in this task.
 - Do not change any **code** above the line `-- END OF FIXED PART`; the
   verifier compares it (comments stripped, whitespace-normalized) against
   its reference. Comments and docstrings up there are free to edit — they

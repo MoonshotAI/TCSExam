@@ -175,7 +175,7 @@ def main() -> int:
     # ---- interface presence -----------------------------------------------------
     for d in spec["interface_defs"] + [f"theorem {main_theorem}"]:
         kind, name = d.split(" ", 1) if " " in d else ("def", d)
-        if not re.search(rf"(?m)^{kind}\s+{re.escape(name)}\b", stripped):
+        if not re.search(rf"(?m)^[ \t]*{kind}\s+{re.escape(name)}\b", stripped):
             print(f"FAIL: interface name `{name}` ({kind}) missing")
             write_reward(0)
             return 0

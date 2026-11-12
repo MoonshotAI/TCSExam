@@ -148120,10 +148120,10 @@
     },
     {
       "path": "tasks/construction/binary-code-a22-10/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "ebcabc7ea765d98a205835f0292bacc3930cc45a863e88e1e4b83b858bf08f4b",
-      "current_bytes": 9547,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "148596dd3b62735140e410fb84ed58a8a153342de59460054797b2581a86737a",
+      "current_bytes": 9867,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/binary-code-a22-10/task.toml",
@@ -148164,10 +148164,10 @@
     },
     {
       "path": "tasks/construction/binary-code-a24-10/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "8877fb7ba3b806317ac01cd222816415156a86544e6a43e63fd312f55284dc11",
-      "current_bytes": 9429,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "1ce15ad94d03c267f7530987e2e3cefbbb403d13a05fa936858c3bfb7ec1b49c",
+      "current_bytes": 9749,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/binary-code-a24-10/task.toml",
@@ -148215,9 +148215,9 @@
     },
     {
       "path": "tasks/construction/cage-girth/instruction.md",
-      "reason": "require_nonempty_cage_graph",
-      "current_sha256": "0051142c71a0808d77efcf9c9a31b324da914bf27905a97104f401d1428c3334",
-      "current_bytes": 8755,
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "8de0e6ae534965626b30731ab1b070b9f4130e0cbce35fe4820a81df324d8c15",
+      "current_bytes": 9075,
       "current_mode": "100644"
     },
     {
@@ -148244,9 +148244,9 @@
     },
     {
       "path": "tasks/construction/cage-girth/tests/score.py",
-      "reason": "numeric_reward_and_detail_file_separation; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "33c3a8c039dd528d40ff9736f664a23c8c6e50da59c6b7cc00dba2d600fe17f0",
-      "current_bytes": 12262,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "61a8a787ed4c61eacf5dbb050fb6a218630941e59271ddcf8fe674d0f8283c5b",
+      "current_bytes": 12268,
       "current_mode": "100644"
     },
     {
@@ -148310,10 +148310,10 @@
     },
     {
       "path": "tasks/construction/circles-in-square-n100/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "6ab1db5335a53b151f9c3fd620b4f687c17103685476b0075265445fdeebab9c",
-      "current_bytes": 10862,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "a452a2f195caba6199cd20e469c9076812084256238418d1d9caca32c141a70e",
+      "current_bytes": 11182,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/circles-in-square-n100/task.toml",
@@ -148332,9 +148332,9 @@
     },
     {
       "path": "tasks/construction/circles-in-square-n100/tests/score.py",
-      "reason": "numeric_reward_and_detail_file_separation; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "ae85bcb010a7c76f028547d03108934205747b722cea7656320bdd287c7eaada",
-      "current_bytes": 12077,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "745c28c737661cdf7f9d000e09fac3032668d10c1955df2c2d9e7a504ac4c55b",
+      "current_bytes": 12083,
       "current_mode": "100644"
     },
     {
@@ -148354,10 +148354,10 @@
     },
     {
       "path": "tasks/construction/covering-code-k10/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "5c82880c84061044d00bbb4d0258d0aa626626105d4df1f574da6197589c9f53",
-      "current_bytes": 7445,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "32f0cf273f1bed774f9de3923403e0c90b48bc966a8b299cf9e6f8d24d764ab4",
+      "current_bytes": 7765,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/covering-code-k10/task.toml",
@@ -148413,9 +148413,9 @@
     },
     {
       "path": "tasks/construction/ex-c3c4-maxedges/tests/score.py",
-      "reason": "numeric_reward_and_detail_file_separation; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "08b1284e33467857f483d9a345a5dd86b1d4a5de07bd4c09ea32f8bc56974227",
-      "current_bytes": 11539,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "12f1e41d5f6744c58e4f810b2ab55bfee90dfbd867604dc22e3258cd638b7153",
+      "current_bytes": 11545,
       "current_mode": "100644"
     },
     {
@@ -148435,10 +148435,10 @@
     },
     {
       "path": "tasks/construction/graph-tsp-gap/instruction.md",
-      "current_sha256": "6f6af3bb66fb678b4e5e9518ea1643a43af42f23eb480bc2af418cda441b50ca",
-      "current_bytes": 12902,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration"
+      "current_sha256": "0a25e3d99d00c679549d4019a3ebe676df11856f3613ff6b932b32daff82cca8",
+      "current_bytes": 13222,
+      "current_mode": "100644",
+      "reason": "document_executable_lean_diagnostics"
     },
     {
       "path": "tasks/construction/graph-tsp-gap/task.toml",
@@ -148464,10 +148464,10 @@
     },
     {
       "path": "tasks/construction/graph-tsp-gap/tests/score.py",
-      "current_sha256": "9b996144592254f31896f99c6fe771cd927b872d2c530d8beda5fd2facc3d289",
-      "current_bytes": 8904,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "f2fc3075974f194cd2cef3990e964bd292cc85a2a59d58e735cebc54e2a333fa",
+      "current_bytes": 8910,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/construction/graph-tsp-gap/tests/test.sh",
@@ -148486,10 +148486,10 @@
     },
     {
       "path": "tasks/construction/kissing-d13/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "16d07bf9757197c3ad05d5e547259e7c9e3b0fe6859759ac96af8ed9197f949d",
-      "current_bytes": 10225,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "b2d6ad4815b86d11879732629f0f5840a78e0b29d9ae3d5a59c01d912bae0edb",
+      "current_bytes": 10545,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/kissing-d13/task.toml",
@@ -148508,9 +148508,9 @@
     },
     {
       "path": "tasks/construction/kissing-d13/tests/score.py",
-      "reason": "numeric_reward_and_detail_file_separation; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "fc9164cac32f8fd983fcffc8b5692a5d8eb106e5e679835d97cfef5fe660259e",
-      "current_bytes": 12187,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "e99161a61704e845f573eaed6a43378717d63d4f1784361120eb8577bda6a314",
+      "current_bytes": 12193,
       "current_mode": "100644"
     },
     {
@@ -148530,10 +148530,10 @@
     },
     {
       "path": "tasks/construction/kissing-d9/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "e79810477cc0bb50beec6b1910adf3b1a4647384cd9cef2ed141187a08bc4c3b",
-      "current_bytes": 9134,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "e4ef90e4ce24d1c385f35aeba7c8fa007dfd0bf6aa17398648806faca4f16247",
+      "current_bytes": 9454,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/kissing-d9/task.toml",
@@ -148545,9 +148545,9 @@
     },
     {
       "path": "tasks/construction/kissing-d9/tests/score.py",
-      "reason": "numeric_reward_and_detail_file_separation; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "a47e309402303cededa1a587d72cb6cfd06c5e8bfe519f31f269bff77310e6c9",
-      "current_bytes": 12132,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "1b11e58be81e7da4186b9e1f8148fcc6aede699ea9420f46b2c3b79e6f5ffba3",
+      "current_bytes": 12138,
       "current_mode": "100644"
     },
     {
@@ -148574,10 +148574,10 @@
     },
     {
       "path": "tasks/construction/mols-n10/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "8826f8bc1495ba8e41d60c00f4349badbd9d8827c3e1462ea24a0517db3cab39",
-      "current_bytes": 9191,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "0d90ff94aa41baef8d04fc4885b2aa44e7f76da7da2a8d6aa37ae0dac6b2a79e",
+      "current_bytes": 9511,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/mols-n10/task.toml",
@@ -148596,9 +148596,9 @@
     },
     {
       "path": "tasks/construction/mols-n10/tests/score.py",
-      "reason": "numeric_reward_and_detail_file_separation; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "20e4490861d0cdb9a7c8b2976ea9ca26e240bf92d43c64478d9f482332da354e",
-      "current_bytes": 11944,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "c7d30d3cfd14ad4c5251bd8ec5fb7afe2ffc839e4b2db884c9512c27f535a650",
+      "current_bytes": 11950,
       "current_mode": "100644"
     },
     {
@@ -148618,10 +148618,10 @@
     },
     {
       "path": "tasks/construction/quantum-code-25-7/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "54c4b1c0ad9ee58b177a4661029b418fc0fdc87e10b4cc0fbb2376b03722a5fc",
-      "current_bytes": 8049,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "6f9a167f3e609b65bfbe0911c55de328f8d89f43a367fdb026a69bc4c83ac510",
+      "current_bytes": 8369,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/quantum-code-25-7/task.toml",
@@ -148684,9 +148684,9 @@
     },
     {
       "path": "tasks/construction/ramsey-r3-10/tests/score.py",
-      "reason": "numeric_reward_and_detail_file_separation; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "852e5a87e1d9f8fae021758e8117808536834000d5454681f37adeb54a78ee74",
-      "current_bytes": 13021,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "a5c71f8ac58b46c423c4a4f18990d340b89572732740088df2598cccb6df4b2d",
+      "current_bytes": 13027,
       "current_mode": "100644"
     },
     {
@@ -148749,9 +148749,9 @@
     },
     {
       "path": "tasks/construction/ramsey-r46/tests/score.py",
-      "reason": "numeric_reward_and_detail_file_separation; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "c4fa848772e1be3a9e0dc232e1d5614a25f54ebfdbf344da7479f29c4c8a7a3a",
-      "current_bytes": 12981,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "42bd50e9db1f9dd41300caa26e40cd05febf20ef6c67a0dda82a0648b45e7e3f",
+      "current_bytes": 12987,
       "current_mode": "100644"
     },
     {
@@ -148807,9 +148807,9 @@
     },
     {
       "path": "tasks/construction/ramsey-r55/tests/score.py",
-      "reason": "numeric_reward_and_detail_file_separation; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "1048358eb60cd8535e56c9d49139bd277a52fdab0fae54198ba88cbd6a7cfc43",
-      "current_bytes": 12551,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "4b9b2489bb58f501071dfc9b0b46ef971197420bcab796575494fd119fc5ccb9",
+      "current_bytes": 12557,
       "current_mode": "100644"
     },
     {
@@ -148829,10 +148829,10 @@
     },
     {
       "path": "tasks/construction/rectilinear-tsp-gap/instruction.md",
-      "current_sha256": "676729549c7c812e4d2c7000686bbd9c5f32f7beef9a8e363f842e085688e640",
-      "current_bytes": 14335,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration"
+      "current_sha256": "7530f6793e99fdc70561ad3c746d66595048cb304066117b14f1e481f6b057c8",
+      "current_bytes": 14655,
+      "current_mode": "100644",
+      "reason": "document_executable_lean_diagnostics"
     },
     {
       "path": "tasks/construction/rectilinear-tsp-gap/solution/solve.sh",
@@ -148865,10 +148865,10 @@
     },
     {
       "path": "tasks/construction/rectilinear-tsp-gap/tests/score.py",
-      "current_sha256": "f9e93f69e0cc65b0a351fecb4a18e61795c326f3f6e9da893cb5f92e092fff5d",
-      "current_bytes": 9346,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "994ff2444e0dfe3427f3f9eebf22d5e5976b7806b1b0e59b2c50c82add8e33f7",
+      "current_bytes": 9352,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/construction/rectilinear-tsp-gap/tests/test.sh",
@@ -148887,10 +148887,10 @@
     },
     {
       "path": "tasks/construction/sorting-network-size/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "124b0f21578944d758d99fe903b314e85515d0d83c74cc2e284bc57ca07b7107",
-      "current_bytes": 6599,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "eca344356a60f1ac8d358e41a642204d3181e75411a653f2a97b12d384129130",
+      "current_bytes": 6919,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/sorting-network-size/task.toml",
@@ -148902,9 +148902,9 @@
     },
     {
       "path": "tasks/construction/sorting-network-size/tests/score.py",
-      "reason": "numeric_reward_and_detail_file_separation; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "f777bc34a8f9f15f86407af9c6a9928f1b6c63f7456ea16abc032fd06c89deae",
-      "current_bytes": 12071,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "4f459e32f1855a4bbf1f7fe8dd83c761ad063829a28960a848d7d259b18d37d5",
+      "current_bytes": 12077,
       "current_mode": "100644"
     },
     {
@@ -148932,9 +148932,9 @@
     },
     {
       "path": "tasks/construction/spherical-code-d3-n50/tests/score.py",
-      "reason": "numeric_reward_and_detail_file_separation; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "a8cd759d43ed1fe0fee3fa9991bf255070c99b17a894f07ba1fac9f945c6f508",
-      "current_bytes": 12177,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "9c58a97c4dec5dceb9bfdb95f1933407b32d33521a673f87c55c5904370f58d0",
+      "current_bytes": 12183,
       "current_mode": "100644"
     },
     {
@@ -148954,10 +148954,10 @@
     },
     {
       "path": "tasks/construction/tsp-gap/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "c4e08a7fbf7e7885f56d65de01e90e3b98f09c6637cee1b82fd173625d7bacf6",
-      "current_bytes": 10563,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "71903a389e7aab5a8adb44bb7569df7305d4ec8f819cbde48e9d973f19f1e2db",
+      "current_bytes": 10883,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/tsp-gap/task.toml",
@@ -148990,10 +148990,10 @@
     },
     {
       "path": "tasks/construction/tsp-gap/tests/score.py",
-      "current_sha256": "085e18cd58d9ebb3c8a4410933ec3a9582c99a8794d85109fb7c1d2ee11b066c",
-      "current_bytes": 8552,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "6ef313c43f0272d450860fd5e33cad1f48ac398349671f69053b8e83a8973e9f",
+      "current_bytes": 8558,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/construction/tsp-gap/tests/test.sh",
@@ -149020,9 +149020,9 @@
     },
     {
       "path": "tasks/construction/vdw-w27/tests/score.py",
-      "reason": "numeric_reward_and_detail_file_separation; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "cc66341df4cc37d951df95a2ffa572e5bc75fcaeab3a1aea3053cee8af173102",
-      "current_bytes": 11234,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "c8e713f60bbf72daff143a981b36925b8066678e3aac11d1d38bab46d19419ed",
+      "current_bytes": 11240,
       "current_mode": "100644"
     },
     {
@@ -149049,10 +149049,10 @@
     },
     {
       "path": "tasks/open/aaronson-ambainis/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "a9f2925b0ab2153ef5b4e0dad1c561b2abfe81ab7f71884a622ad12ba5c81a3a",
-      "current_bytes": 6751,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "2ebc4229ae188970ecfe62e9f921da6fbb7abc72dfeb506c5fa3e3fe0d703da6",
+      "current_bytes": 7010,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/open/aaronson-ambainis/task.toml",
@@ -149113,10 +149113,10 @@
     },
     {
       "path": "tasks/open/aaronson-ambainis/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/aaronson-ambainis/tests/test.sh",
@@ -149184,10 +149184,10 @@
     },
     {
       "path": "tasks/open/alon-jaeger-tarsi/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/alon-jaeger-tarsi/tests/test.sh",
@@ -149255,10 +149255,10 @@
     },
     {
       "path": "tasks/open/bin-packing-mirup/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/bin-packing-mirup/tests/test.sh",
@@ -149326,10 +149326,10 @@
     },
     {
       "path": "tasks/open/caccetta-haggkvist/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/caccetta-haggkvist/tests/test.sh",
@@ -149397,10 +149397,10 @@
     },
     {
       "path": "tasks/open/d-vs-r-total-functions/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/d-vs-r-total-functions/tests/test.sh",
@@ -149503,10 +149503,10 @@
     },
     {
       "path": "tasks/open/evasiveness-graph-properties/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/evasiveness-graph-properties/tests/test.sh",
@@ -149574,10 +149574,10 @@
     },
     {
       "path": "tasks/open/explicit-ramsey-graph-log/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/explicit-ramsey-graph-log/tests/test.sh",
@@ -149659,10 +149659,10 @@
     },
     {
       "path": "tasks/open/explicit-rigid-matrix/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/explicit-rigid-matrix/tests/test.sh",
@@ -149730,10 +149730,10 @@
     },
     {
       "path": "tasks/open/fourier-entropy-influence/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/fourier-entropy-influence/tests/test.sh",
@@ -149815,10 +149815,10 @@
     },
     {
       "path": "tasks/open/frege-not-pbounded/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/frege-not-pbounded/tests/test.sh",
@@ -149893,10 +149893,10 @@
     },
     {
       "path": "tasks/open/frege-vs-extended-frege/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/frege-vs-extended-frege/tests/test.sh",
@@ -149921,10 +149921,10 @@
     },
     {
       "path": "tasks/open/krw-composition-conjecture/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "25f7562b048891403d83ddeba5e4795fef94311f7ff3ff22ad416e40210c2db1",
-      "current_bytes": 9234,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "da7b31769eca9b03240fa46ce59acd1905b2c285f783a1d0494775c75bbc3f00",
+      "current_bytes": 9493,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/open/krw-composition-conjecture/task.toml",
@@ -149990,10 +149990,10 @@
     },
     {
       "path": "tasks/open/krw-composition-conjecture/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/krw-composition-conjecture/tests/test.sh",
@@ -150075,10 +150075,10 @@
     },
     {
       "path": "tasks/open/log-rank-conjecture/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/log-rank-conjecture/tests/test.sh",
@@ -150154,10 +150154,10 @@
     },
     {
       "path": "tasks/open/lovasz-hamiltonicity/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/lovasz-hamiltonicity/tests/test.sh",
@@ -150253,10 +150253,10 @@
     },
     {
       "path": "tasks/open/mansour-conjecture/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/mansour-conjecture/tests/test.sh",
@@ -150281,10 +150281,10 @@
     },
     {
       "path": "tasks/open/mds-conjecture-nonprime/instruction.md",
-      "reason": "public_documentation_and_attribution_cleanup",
-      "current_sha256": "2aae9a1c8b95d892d3daf46b100babe8cd8dd82485c6f6168828ecbbfaff1ba7",
-      "current_bytes": 8184,
-      "current_mode": "100664"
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "236482938308cefdbf2ec7874f9d295a3d2003f677a8e1c8df1aba474f81c0ac",
+      "current_bytes": 8443,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/open/mds-conjecture-nonprime/task.toml",
@@ -150317,10 +150317,10 @@
     },
     {
       "path": "tasks/open/mds-conjecture-nonprime/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/mds-conjecture-nonprime/tests/test.sh",
@@ -150395,10 +150395,10 @@
     },
     {
       "path": "tasks/open/nexp-vs-tc0/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/nexp-vs-tc0/tests/test.sh",
@@ -150473,10 +150473,10 @@
     },
     {
       "path": "tasks/open/np-vs-acc/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/np-vs-acc/tests/test.sh",
@@ -150551,10 +150551,10 @@
     },
     {
       "path": "tasks/open/omega-2/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/omega-2/tests/test.sh",
@@ -150629,10 +150629,10 @@
     },
     {
       "path": "tasks/open/online-bin-packing-ratio/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/online-bin-packing-ratio/tests/test.sh",
@@ -150721,10 +150721,10 @@
     },
     {
       "path": "tasks/open/online-matching-random-order/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/online-matching-random-order/tests/test.sh",
@@ -150806,10 +150806,10 @@
     },
     {
       "path": "tasks/open/permanent-vs-determinant/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/permanent-vs-determinant/tests/test.sh",
@@ -150889,10 +150889,10 @@
     },
     {
       "path": "tasks/open/pfr-integers/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/pfr-integers/tests/test.sh",
@@ -150974,10 +150974,10 @@
     },
     {
       "path": "tasks/open/planar-l1-gnrs/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/planar-l1-gnrs/tests/test.sh",
@@ -151059,10 +151059,10 @@
     },
     {
       "path": "tasks/open/polar-scaling-exponent/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/polar-scaling-exponent/tests/test.sh",
@@ -151193,10 +151193,10 @@
     },
     {
       "path": "tasks/open/prg-constant-width-robp/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/prg-constant-width-robp/tests/test.sh",
@@ -151264,10 +151264,10 @@
     },
     {
       "path": "tasks/open/ryser-conjecture/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/ryser-conjecture/tests/test.sh",
@@ -151349,10 +151349,10 @@
     },
     {
       "path": "tasks/open/total-coloring-conjecture/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/total-coloring-conjecture/tests/test.sh",
@@ -151434,10 +151434,10 @@
     },
     {
       "path": "tasks/open/tuza-conjecture/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/tuza-conjecture/tests/test.sh",
@@ -151533,10 +151533,10 @@
     },
     {
       "path": "tasks/open/xor-log-rank-conjecture/tests/score.py",
-      "current_sha256": "72632767924aed851752ee85098946e6d25cbd39523d48a5a75abe39a6604ce4",
-      "current_bytes": 24701,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69a1050b484bd435626ae73567c2706d5d5a34fa9513835bc9a1f9c082afe4e1",
+      "current_bytes": 24719,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/open/xor-log-rank-conjecture/tests/test.sh",
@@ -246430,10 +246430,10 @@
     },
     {
       "path": "tasks/theorem/corners-quasipoly/tests/score.py",
-      "current_sha256": "eb46999d2a682e34f2310667631bd1afb25f797d63b4519f9f2a4fa12be2243c",
-      "current_bytes": 31320,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "fde5477f1e6aa37f6582f6b56a190e789c518eb684b861474a703bb7a2f6cc48",
+      "current_bytes": 31326,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/corners-quasipoly/tests/test.sh",
@@ -246501,10 +246501,10 @@
     },
     {
       "path": "tasks/theorem/dijkstra-universal/tests/score.py",
-      "current_sha256": "5be1821fbfad9dbbe7b7e58362b1ff74497b3a6691d6cb8c72d1e1a420ebbcb9",
-      "current_bytes": 31340,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "b9e80339eb34694d435d268869b2d05ead18e7425165fe1fc1688b5efd557e21",
+      "current_bytes": 31346,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/dijkstra-universal/tests/test.sh",
@@ -246572,10 +246572,10 @@
     },
     {
       "path": "tasks/theorem/discrepancy-beyond-banaszczyk/tests/score.py",
-      "current_sha256": "1cb39097fb5c467105a86204976688625ed5812bc2b280f0032afb9804ff9e53",
-      "current_bytes": 31323,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "c9d0c5042a86f2af98edad20a7ec15374298199c39642e4df289c50e8bf3a58f",
+      "current_bytes": 31329,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/discrepancy-beyond-banaszczyk/tests/test.sh",
@@ -246650,10 +246650,10 @@
     },
     {
       "path": "tasks/theorem/discrete-bidding-games/tests/score.py",
-      "current_sha256": "2ca772269cde63172adf4f3479e7e81ea94cfdd6b081de66de91028d95bd7b48",
-      "current_bytes": 31342,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "da138a0f556d4a8e84bf84bd2667b1200800360dae4bda8fd268bdb0e35d7db9",
+      "current_bytes": 31348,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/discrete-bidding-games/tests/test.sh",
@@ -246728,10 +246728,10 @@
     },
     {
       "path": "tasks/theorem/folded-rs-gsb/tests/score.py",
-      "reason": "public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "421034d6a0fa560417125cd4d3048a0e2c69cbe87def78eb2d0956a7388b4a69",
-      "current_bytes": 31201,
-      "current_mode": "100775"
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "ab9caa4865b3ed57cd3f65f12d607aee1b88097d007bc389179d32f7c4d216af",
+      "current_bytes": 31207,
+      "current_mode": "100755"
     },
     {
       "path": "tasks/theorem/folded-rs-gsb/tests/test.sh",
@@ -246799,9 +246799,9 @@
     },
     {
       "path": "tasks/theorem/gg26-proximity/tests/score.py",
-      "reason": "public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation; accept_kernel_verified_negation_lemmas",
-      "current_sha256": "a04ae5afcecf0216362b1ffaa401256b61ec14d700a0f80a54ddb3d07733fd9f",
-      "current_bytes": 23827,
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "3278ce572d94c93d0e2a5c126850b5a1b55c70831ad2b3298e936eb787bf04c8",
+      "current_bytes": 23833,
       "current_mode": "100755"
     },
     {
@@ -246870,10 +246870,10 @@
     },
     {
       "path": "tasks/theorem/lcc-exp-lb/tests/score.py",
-      "current_sha256": "ac8a1a7f5a24b08e9a02d07000f04f40f61d4d936750cb705c0f0a5b80d14a3f",
-      "current_bytes": 41591,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "760e43d36b3c106b237714fe486e3c3fdd9d96fe86de76e475c206683f40dc3c",
+      "current_bytes": 41597,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/lcc-exp-lb/tests/test.sh",
@@ -246941,10 +246941,10 @@
     },
     {
       "path": "tasks/theorem/monotonicity-test-lb/tests/score.py",
-      "reason": "public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "02c91243396435c2a489331202c342a88dcd2c7524a764e141c5085af0eb7b6d",
-      "current_bytes": 31222,
-      "current_mode": "100775"
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "3231391f6d01ef0202cdd215a894235553755d0373147cab5e82ea3def430db3",
+      "current_bytes": 31228,
+      "current_mode": "100755"
     },
     {
       "path": "tasks/theorem/monotonicity-test-lb/tests/test.sh",
@@ -247012,10 +247012,10 @@
     },
     {
       "path": "tasks/theorem/mts-diamond-lb/tests/score.py",
-      "reason": "public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "d181d90250e93e282753f559a49fc0212f4e1dd53021b22c6facd9662fa4490b",
-      "current_bytes": 31216,
-      "current_mode": "100775"
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "ed035556930ddc8a67f0a89bbc452005b35c699d8981b1fb845cb227f16afceb",
+      "current_bytes": 31222,
+      "current_mode": "100755"
     },
     {
       "path": "tasks/theorem/mts-diamond-lb/tests/test.sh",
@@ -247083,10 +247083,10 @@
     },
     {
       "path": "tasks/theorem/multiflow-gap-planar/tests/score.py",
-      "current_sha256": "b8bcab62b1250c7db78ede58f4359fb1456f1f34f5ca7c4195a2a217256cecee",
-      "current_bytes": 31328,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "73082bb3f5d15652ecc5482acde61c441880fe2c82e5527377840c6220dc907b",
+      "current_bytes": 31334,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/multiflow-gap-planar/tests/test.sh",
@@ -247161,10 +247161,10 @@
     },
     {
       "path": "tasks/theorem/negations-small-depth/tests/score.py",
-      "current_sha256": "f1ddbcf4f121d6003ac8954e44d0fa76b2116fc16c565c12c198dd81dd87c034",
-      "current_bytes": 31344,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "14688c8fc93d814b42438e67009bfb9c2f38a77b288e89909e3bc1c9cc42de93",
+      "current_bytes": 31350,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/negations-small-depth/tests/test.sh",
@@ -247232,10 +247232,10 @@
     },
     {
       "path": "tasks/theorem/pcp-alphabet-soundness/tests/score.py",
-      "current_sha256": "f7c434c5164789e7e76eb1b26d93a20fa30ec4a93430c244a7b293007fb45fa6",
-      "current_bytes": 31330,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "69031efb7b24618b9c6562b46daa3acbef16c73e9cc7cb8422602253bca31870",
+      "current_bytes": 31336,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/pcp-alphabet-soundness/tests/test.sh",
@@ -247303,10 +247303,10 @@
     },
     {
       "path": "tasks/theorem/planar-is-reconfig-kernel/tests/score.py",
-      "reason": "public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "b228a5a9069c1f685facd3bf71ebade73ec31dca849380149e57a14b47aad106",
-      "current_bytes": 31227,
-      "current_mode": "100775"
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "d77a416a1b84a29d30cbe543b6eee66397b87a2e286ac4bee4be748134bdc1f3",
+      "current_bytes": 31233,
+      "current_mode": "100755"
     },
     {
       "path": "tasks/theorem/planar-is-reconfig-kernel/tests/test.sh",
@@ -247374,10 +247374,10 @@
     },
     {
       "path": "tasks/theorem/posbody-chasing/tests/score.py",
-      "current_sha256": "906edb44cd2435d54c560c745195529c5f86a6418ae5517987dff347506f2f01",
-      "current_bytes": 31297,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "82584936f7bc0ea6c27781e24a4733f065de717d9238dc3854caf3f3b595763e",
+      "current_bytes": 31303,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/posbody-chasing/tests/test.sh",
@@ -247445,10 +247445,10 @@
     },
     {
       "path": "tasks/theorem/qma-qcma-oracle/tests/score.py",
-      "current_sha256": "e7bcf7152aead00f9ec6fa40a44eb66d7333c10e17f08bd96a982bbecd56b67b",
-      "current_bytes": 31337,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "b24ee68c4809fcc3f6d543e3dd68c7f783754ecaf67859124286e4eadb3bdd38",
+      "current_bytes": 31343,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/qma-qcma-oracle/tests/test.sh",
@@ -247523,10 +247523,10 @@
     },
     {
       "path": "tasks/theorem/quantum-crypto-algorithmica/tests/score.py",
-      "current_sha256": "9e58219823ccd5660c2e0180bc82cb5423e80f75ea9b620fb3efff1b2e529f32",
-      "current_bytes": 31345,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "2be659259c1801d966dc154f97d0451e60ab80f559fd74b53f3ffe70aaad4fdf",
+      "current_bytes": 31351,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/quantum-crypto-algorithmica/tests/test.sh",
@@ -247594,10 +247594,10 @@
     },
     {
       "path": "tasks/theorem/strategy-improvement-lb/tests/score.py",
-      "current_sha256": "b076ad992c4a7d8b47e1168dc091ac5b1aae39333d08cd504e45c4901a771f2a",
-      "current_bytes": 31326,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "a2c18de8e574597a1d82567ac7978a981672fb32230da99b40b6f9829156f71d",
+      "current_bytes": 31332,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/strategy-improvement-lb/tests/test.sh",
@@ -247665,10 +247665,10 @@
     },
     {
       "path": "tasks/theorem/three-taxi/tests/score.py",
-      "current_sha256": "776ee8d9aef750b243c8837cbd5244a11fc28a9b51ddaaff6b6c120a1a8457c8",
-      "current_bytes": 31287,
-      "current_mode": "100664",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "c7dfaa8fe7923c02a3870d2ec02180d23658bbc3032e52d9e6dcdd8f8d63408c",
+      "current_bytes": 31293,
+      "current_mode": "100644",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/three-taxi/tests/test.sh",
@@ -247736,10 +247736,10 @@
     },
     {
       "path": "tasks/theorem/unitary-synthesis-lb/tests/score.py",
-      "current_sha256": "0124ec35ee87616cbfa9c75acfd99e26a9bc4298804f669a8ba534ba97822810",
-      "current_bytes": 31304,
-      "current_mode": "100775",
-      "reason": "release_review_project_name_contributors_and_development_client_configuration; public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation"
+      "current_sha256": "0daff8f45e4fdb8510a754628644538b9f8fec51d8b657453a9310bc4a5182ef",
+      "current_bytes": 31310,
+      "current_mode": "100755",
+      "reason": "support_whitespace_in_lean_declarations"
     },
     {
       "path": "tasks/theorem/unitary-synthesis-lb/tests/test.sh",
@@ -247807,10 +247807,10 @@
     },
     {
       "path": "tasks/theorem/xor3-parallel-repetition/tests/score.py",
-      "reason": "public_documentation_and_attribution_cleanup; lean_verifier_source_and_axiom_validation",
-      "current_sha256": "41e3549f5ba994f459d1275bfc306aa46eade1c4073a9199200f41ab61df99b1",
-      "current_bytes": 31226,
-      "current_mode": "100775"
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "89c39ba9ec4ca00cb02378e986460daa476ca56bc2fa316797cc29410bafc7e6",
+      "current_bytes": 31232,
+      "current_mode": "100755"
     },
     {
       "path": "tasks/theorem/xor3-parallel-repetition/tests/test.sh",
@@ -247877,38 +247877,38 @@
     },
     {
       "path": "tasks/construction/binary-code-a22-10/tests/score.py",
-      "reason": "lean_verifier_source_and_axiom_validation",
-      "current_sha256": "f201fe881bd0fde84f070b40b76c7e2f067290e2fe6e8a5e4a91aeb80f3ff957",
-      "current_bytes": 14799,
-      "current_mode": "100664"
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "3abb49cdc8720f8eb31b1a112f2ff41e35a90414e4af14f0e25b9bb8e4756cf4",
+      "current_bytes": 14805,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/binary-code-a24-10/tests/score.py",
-      "reason": "lean_verifier_source_and_axiom_validation",
-      "current_sha256": "0802ad741c7dc0528babbc9a9aa2b60a687093ad99ea36d543a532ef3ba8ce5e",
-      "current_bytes": 14207,
-      "current_mode": "100664"
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "9166020db85104cf522f4374cded0f85f63c9880e54161b5f97a1d92621c0c01",
+      "current_bytes": 14213,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/capset-d7/tests/score.py",
-      "reason": "lean_verifier_source_and_axiom_validation",
-      "current_sha256": "6a211886fae33abfb8f818e9438308147d617aee2bb82c2ff2e84b4c4509ae71",
-      "current_bytes": 9504,
-      "current_mode": "100664"
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "d3d4fd3f6c3a6749bc85dd73b1b2454184a8922c8337f0643d35b941f2cee4a4",
+      "current_bytes": 9551,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/covering-code-k10/tests/score.py",
-      "reason": "lean_verifier_source_and_axiom_validation",
-      "current_sha256": "f1e675bedea16d5a0f37a9df62f17742b64f860928ddad525186cc846a30394a",
-      "current_bytes": 10069,
-      "current_mode": "100664"
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "c42c6d6ea094647e07ba929628fabfdcb8327dd3b5cb48a02e1c3d4a02d3270a",
+      "current_bytes": 10116,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/construction/quantum-code-25-7/tests/score.py",
-      "reason": "lean_verifier_source_and_axiom_validation",
-      "current_sha256": "f7ea4081c0e540e71c1c3bb678116a4acfe961b709e4c370a422dd002b179c49",
-      "current_bytes": 14673,
-      "current_mode": "100664"
+      "reason": "support_whitespace_in_lean_declarations",
+      "current_sha256": "24047483b340fed7c9d2f80f0f7f05a989d79415053b3e0c8f4ff50b5d2f7495",
+      "current_bytes": 14679,
+      "current_mode": "100644"
     },
     {
       "path": "tasks/open/explicit-ramsey-graph-log/tests/reference/small_examples.py",
@@ -247926,9 +247926,9 @@
     },
     {
       "path": "tasks/theorem/dijkstra-universal/instruction.md",
-      "reason": "complete_dijkstra_arc_coverage_and_event_classification",
-      "current_sha256": "d30c02eedba0d4e4620eee1b8f9bfbc76379a2323dac317beaa73ba4f8a28617",
-      "current_bytes": 3569,
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "b5d40488e4f12801954e6cbd0df4f524144d4ae4971fed136c5843ab28d0e139",
+      "current_bytes": 3828,
       "current_mode": "100644"
     },
     {
@@ -247954,9 +247954,9 @@
     },
     {
       "path": "tasks/theorem/qma-qcma-oracle/instruction.md",
-      "reason": "preserve_quantum_witness_length",
-      "current_sha256": "4412c936c5866d099a87143fe72167fd9f384649a4ff2a7119c032771e0984e0",
-      "current_bytes": 3652,
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "d99d6eb022554f5c7dbf0e167b602a5e93bacef3ba5ea638df6bcc7899a0829a",
+      "current_bytes": 3911,
       "current_mode": "100644"
     },
     {
@@ -248019,9 +248019,9 @@
     },
     {
       "path": "tasks/theorem/negations-small-depth/instruction.md",
-      "reason": "align_formula_size_task_description",
-      "current_sha256": "8035e69a2e445ecbbb1c0508a9d36dcb2ace3b5501872595743ae4c6d263a858",
-      "current_bytes": 2879,
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "110176282280d75894a89f8dbeae04bfe553c3092d9e6b0ce3111f7b655f9716",
+      "current_bytes": 3138,
       "current_mode": "100644"
     },
     {
@@ -248029,6 +248029,363 @@
       "reason": "align_formula_size_task_description",
       "current_sha256": "f786be968f2b6912645e1944b4e277f7e3f6ae71a8f0f4a1bde37634a41ac9c0",
       "current_bytes": 16486,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/construction/capset-d7/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "72960024b9278c2bb14e32cea0cfcb221aa6716b6f31acbff12f041e247a7a2b",
+      "current_bytes": 7219,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/construction/ex-c3c4-maxedges/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "961be1a45614a5f142f940ee42f1c8b1bfaa16f6200c7c3fbc59e40f32bd1929",
+      "current_bytes": 9350,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/construction/ramsey-r3-10/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "61d184a71fff3b5bc955aba7ce1553433267d34d2136bcbaa9b2c4adef3be845",
+      "current_bytes": 8089,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/construction/ramsey-r46/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "9637a8b40957d813df13739009fcfb46311733c8f761a964583d7c67f2141af4",
+      "current_bytes": 9036,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/construction/ramsey-r55/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "0b0d620c38aa708a62b5ca302bdd2d9d9214f1e64723efae674c3d01a3d7dd7a",
+      "current_bytes": 6251,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/construction/spherical-code-d3-n50/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "9fd015138e909b2169742dc4d2024a6da6ed8829c9e269a5d1229ec83b6568ad",
+      "current_bytes": 11806,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/construction/vdw-w27/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "7479c41d1cb64f68703d87523497b51a26b937db73f510c4b784cf6c5e2869a2",
+      "current_bytes": 6372,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/alon-jaeger-tarsi/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "d33c4f8f121422072e263ec48f4db1665e910e9dc57c219ffa94373998d919e4",
+      "current_bytes": 6761,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/bin-packing-mirup/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "8b24725ec4c78ec0a37ec1e62d0a3f72df4242b28bcb1aaf0dd624426a18b8b6",
+      "current_bytes": 8462,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/caccetta-haggkvist/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "636338d41d5108703c45884f283d475b0afec170a67571dfa21eceb7b147ddd4",
+      "current_bytes": 7392,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/d-vs-r-total-functions/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "21238ad37a65e83e72fced231291570480dfabc04ee3bf1fd2bd4d26bcd1ae32",
+      "current_bytes": 6994,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/evasiveness-graph-properties/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "83265e80ccfec7187b66ebef389fc673868637b77c2f6e9ec8a8fc48b68f4405",
+      "current_bytes": 7811,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/explicit-ramsey-graph-log/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "520a218d534cd22f2b20f6603dd7e7cfd0096ce6a60c19248207291bc9e1c2b3",
+      "current_bytes": 8335,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/explicit-rigid-matrix/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "3e3645ad51bd7ac84b9d8565fe8902e8e990706a30e8857e37aea960aba81433",
+      "current_bytes": 7720,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/fourier-entropy-influence/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "264c3c0f73f505440b908a38823945324fceadfb02d6c536d3417644bee14b8a",
+      "current_bytes": 8104,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/frege-not-pbounded/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "8be873e8788ebfea0fde3cba5ef886c844a80b1a5e33704270add94dd7baab95",
+      "current_bytes": 8209,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/frege-vs-extended-frege/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "c4c006967a08c1790295ad422f20de8683c7ab68b4b454d523e6b2d0058d4d88",
+      "current_bytes": 8585,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/log-rank-conjecture/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "fc5fbc53ee1b0ca49f95bf4d48d6a4013c30f162c66aac05cac0f4345cb6719f",
+      "current_bytes": 7673,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/lovasz-hamiltonicity/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "062ffe26442b8904618b5aa820d7857f0fccbcda9fc60c6f0ba0537d6ae06e85",
+      "current_bytes": 7381,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/mansour-conjecture/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "605c504c0c17c31e421d274b493381eadf8cd16bda94e07454c6f985d901d690",
+      "current_bytes": 9130,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/nexp-vs-tc0/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "f44707fae441a166a700dc3f6146280254d13dc9c2744683dac1ea8f55587439",
+      "current_bytes": 9923,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/np-vs-acc/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "6e38046613cdddacfe03948f89707042fffbffadecd8e549b917c14e78067e4e",
+      "current_bytes": 8592,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/omega-2/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "a4a1d0a5755348be4644bdc360261c1bbc3e4b0d3445784d590715123402dc83",
+      "current_bytes": 8521,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/online-bin-packing-ratio/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "cbd8349a4ad3f3ab10dacf77eb25264282e9b1a1ba5b90755f182441027cb58b",
+      "current_bytes": 8854,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/online-matching-random-order/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "c71100e487a77e1dbc8c2bb5ba577c60b28dd759e0b95d740db60879eb142367",
+      "current_bytes": 9289,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/permanent-vs-determinant/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "b67fdb214d70311fb5743215ce5d74c3cd1a9746a9de27a267c45b4c1b89527e",
+      "current_bytes": 7890,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/pfr-integers/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "fcaac76e26a53e1d87fe2a01c733ad2f0562ddbf90ca62135bbbeb3c1b0164e5",
+      "current_bytes": 8262,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/planar-l1-gnrs/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "af4bd7936687d1360ec8fdd72fb8bafc17c89b2b2753dc83ee109164ff7bab9a",
+      "current_bytes": 9191,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/polar-scaling-exponent/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "0bf3b8d270a04bbfdbe39ba6b9d77a19684b23125e8e6e51023f4200fae383e5",
+      "current_bytes": 8969,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/prg-constant-width-robp/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "1cbc7a16b4d8888f5e841add6ed3140fa1597f30f9a1c1b76cdd0943309a1d22",
+      "current_bytes": 10023,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/ryser-conjecture/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "c928a70e22512ed334cc9acc729a9d902d3ae1f56df807bfcfc33340224c129d",
+      "current_bytes": 8073,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/total-coloring-conjecture/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "e775a5a03fd217387bf6cf4317c36db798b39b8537b79e93be1983e3b3324d5d",
+      "current_bytes": 8037,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/tuza-conjecture/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "a5330fda4a6c8b00176cfb06bc824799c0159f8394a42bfb58ffefb998015988",
+      "current_bytes": 7492,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/open/xor-log-rank-conjecture/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "d3c751fc2a74e002a9fb71748e29248a7e567b3d9123d402a4546587ba9d856c",
+      "current_bytes": 8006,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/corners-quasipoly/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "8eeabe817d8730dca19b3791d0e8feb01d5fc4eb1eeaca221f5246300a582cfc",
+      "current_bytes": 2423,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/discrepancy-beyond-banaszczyk/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "89b887c7df03377c19b407ff2d3009b9f808e7f7c232b2f987c5a164f524c228",
+      "current_bytes": 2814,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/discrete-bidding-games/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "ee044328f04d524720d30008da5cac70268e2fd7800cd582655a0c394f8f8697",
+      "current_bytes": 2778,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/folded-rs-gsb/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "496546d2ed9e5aa33f92ca33146444213837038a543062d78b71debf0b9a414a",
+      "current_bytes": 2950,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/gg26-proximity/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "1ad9e8dd779917a5d0248f8c4f325c34ea35be6c8f619a2ef61c4f4b61d45ca5",
+      "current_bytes": 3043,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/lcc-exp-lb/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "cf1c4b0edaa493b9f3e8097ee8c0ae0d45fe8ee9968d87dec6c7cfb7d85d88ae",
+      "current_bytes": 2678,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/monotonicity-test-lb/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "8442b40e20351057b7f400940e28c78eb128375a9df54ec21a59fc9ce3d8fef5",
+      "current_bytes": 3267,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/mts-diamond-lb/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "5a120dd3acd79eb4a9a1a9ea12bb53ab2bce20485a664285c47d6a59cd78da76",
+      "current_bytes": 3002,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/multiflow-gap-planar/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "17ac8dc4dd9ae07e4abf81f61813f3db9af64868371c69101e71bf84f44c84c0",
+      "current_bytes": 2803,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/pcp-alphabet-soundness/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "6cffc68081a85412a0751f80939e8ff25a81bb25d9919aa2d37581bc9eaaa7a8",
+      "current_bytes": 3113,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/planar-is-reconfig-kernel/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "0b8e9248c684af36818b0ad8733743ee83643a2f20d859ceb414618ca3f43ea2",
+      "current_bytes": 3651,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/posbody-chasing/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "9c5dcb7f4da50d0548b6c0e43591c3e867af5d641ada4cea131fcf5e400a08d1",
+      "current_bytes": 3163,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/quantum-crypto-algorithmica/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "527cd8d56d65a7ed6be948d5ddfada5f20c57ccf1fbe26bf79b1d4bcb4b5432a",
+      "current_bytes": 4175,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/strategy-improvement-lb/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "aadb2df4271a96fd3ce2fcf1856f756f9a3b17b28d170328ccf98476e481c0a8",
+      "current_bytes": 4203,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/three-taxi/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "51f242641cada86561970209fe45afa178cd6439d367b070ec82974b3820fcb0",
+      "current_bytes": 2753,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/unitary-synthesis-lb/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "e7a65a33bd5ede734a12b8c87b0cc525cd0d4b2fa17a403a83ae3adb2144a066",
+      "current_bytes": 3132,
+      "current_mode": "100644"
+    },
+    {
+      "path": "tasks/theorem/xor3-parallel-repetition/instruction.md",
+      "reason": "document_executable_lean_diagnostics",
+      "current_sha256": "ac15998f55ed0d7b9883edb2f44e930e2ce3afcb2af9d5870ab887228b2284b6",
+      "current_bytes": 3267,
       "current_mode": "100644"
     }
   ],

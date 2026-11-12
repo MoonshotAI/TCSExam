@@ -65,6 +65,10 @@ The file (namespace `MatMulOmega`) has two zones:
 
 ## Rules
 
+- For verifier safety, executable commands `#eval`, `#exec`, `#exit`, and
+  `#compile` are not allowed in submitted Lean files, including harmless
+  diagnostics. Remove these commands before submission; the verifier rejects
+  them before compiling the proof.
 - Do not modify anything above the line `-- END OF FIXED PART`, the
   theorem statements, or the `-- CHECKPOINT ...` marker lines, and keep
   the two slots in their original order. The verifier compares the fixed

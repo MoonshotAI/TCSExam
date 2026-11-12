@@ -91,7 +91,7 @@ def find_claim_block(text: str, name: str):
     between `theorem <name>` and the first `:=` before the BEGIN mark; body
     is the text between the BEGIN and END marker lines.
     """
-    m = re.search(r"(?m)^theorem\s+" + re.escape(name) + r"\b", text)
+    m = re.search(r"(?m)^[ \t]*theorem\s+" + re.escape(name) + r"\b", text)
     if not m:
         return None
     begin = re.search(
